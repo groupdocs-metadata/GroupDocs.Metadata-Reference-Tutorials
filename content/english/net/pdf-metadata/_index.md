@@ -17,13 +17,11 @@ When it comes to document management, metadata plays a pivotal role in organizin
 
 Ever wondered how to retrieve crucial information like author names, creation dates, or subjects from PDF documents programmatically? Our tutorial on [reading built-in properties from PDFs in .NET](./read-built-in-properties-pdfs/) using GroupDocs.Metadata equips you with the necessary skills. Dive into C# code examples to access valuable metadata effortlessly.
 
-_Read more_ to explore how GroupDocs.Metadata simplifies the extraction of built-in properties from PDF files.
 
 ## Read Custom Properties from PDFs in .NET
 
 Custom properties in PDF documents offer a way to embed additional information tailored to specific needs. In our tutorial, you’ll learn how to [extract these custom properties](./read-custom-properties-pdfs/) using GroupDocs.Metadata for .NET. Delve into C# code samples to unlock a treasure trove of metadata management possibilities.
 
-_Discover more_ about leveraging GroupDocs.Metadata to handle custom properties in PDFs seamlessly.
 
 ## Read Document Statistics from PDFs in .NET
 
@@ -48,7 +46,9 @@ Custom properties offer flexibility in tailoring metadata to your specific requi
 ## Update Inspection Properties in PDFs using .NET
 
 Efficiently manage metadata and annotations in PDF documents with GroupDocs.Metadata for .NET. Our tutorial on [updating inspection properties](./update-inspection-properties-pdfs/) equips you with the knowledge to streamline metadata management effortlessly using C#. Dive into practical examples to enhance your document workflows seamlessly.
+
 ----
+
 In conclusion, GroupDocs.Metadata for .NET tutorials provide a comprehensive guide to mastering PDF metadata management. Whether you’re extracting, reading, or updating properties, these tutorials offer invaluable insights and practical examples to streamline your document workflows effectively. Unlock the full potential of metadata manipulation with [GroupDocs.Metadata for .NET](https://www.groupdocs.com/products/metadata/net) today!
 ## PDF Metadata Tutorials
 ### [Read Built-In Properties from PDFs in .NET](./read-built-in-properties-pdfs/)

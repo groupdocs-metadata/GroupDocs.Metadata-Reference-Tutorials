@@ -26,6 +26,7 @@ Different file formats may require specific approaches to handle metadata. In th
 ## How to Load Metadata from Password Protected Document in .NET
 
 Need to extract, edit, or manage metadata from password-protected documents? [GroupDocs.Metadata for .NET](./load-metadata-password-protected/) provides the solution. Learn how to efficiently handle metadata in secured documents, ensuring smooth integration and enhanced document management.
+
 ----
 Whether you're a seasoned developer or just starting with .NET, our tutorials offer comprehensive guidance to leverage GroupDocs.Metadata for seamless metadata handling. Unlock the full potential of your .NET applications and elevate your file manipulation capabilities today!
 

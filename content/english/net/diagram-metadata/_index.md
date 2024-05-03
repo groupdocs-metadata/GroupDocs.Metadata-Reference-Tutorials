@@ -34,7 +34,9 @@ Keep your diagram metadata up to date with ease by learning how to update built-
 ## Update Custom Properties in Diagrams using .NET
 
 Tailor your diagram metadata to suit your specific requirements by updating custom properties using GroupDocs.Metadata for .NET. Our tutorial provides practical guidance on modifying custom metadata fields, allowing you to enhance document organization and categorization effortlessly. Whether it's adding project identifiers or updating revision history, our step-by-step instructions simplify the process. Ready to elevate your metadata management? Get started [here](./update-custom-properties-diagrams/).
+
 ----
+
 Unlock the full potential of your diagram files with GroupDocs.Metadata for .NET. From extracting essential properties to updating metadata seamlessly, our tutorials offer a comprehensive guide to mastering metadata manipulation in .NET development. Start your journey today and revolutionize how you manage and analyze diagram files.
 ## Diagram Metadata Tutorials
 ### [Read Built-In Properties from Diagrams in .NET](./read-built-in-properties-diagrams/)

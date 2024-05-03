@@ -27,7 +27,9 @@ Efficiently manage metadata updates in your .NET project management documents wi
 ## Update Custom Properties in .NET Project Management Documents
 
 Tailor your metadata management strategy with our tutorial on updating custom properties in .NET project management documents. GroupDocs.Metadata for .NET provides a seamless solution to modify custom metadata fields, enabling you to adapt to evolving project requirements effortlessly. Enhance collaboration, streamline document management, and maximize the efficiency of your applications with this indispensable tutorial. [Read more](./update-custom-properties-project-management-documents/)
+
 ----
+
 Unlock the power of metadata management in your .NET project management documents today with GroupDocs.Metadata for .NET tutorials. From extracting valuable insights to streamlining document processing, empower your workflow with comprehensive metadata solutions. Dive into our tutorials and elevate your document management capabilities now!
 ## Project Management Metadata Tutorials
 ### [Read Built-In Properties in .NET Project Management Documents](./read-built-in-properties-project-management-documents/)

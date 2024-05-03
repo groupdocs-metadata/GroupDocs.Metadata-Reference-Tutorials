@@ -20,8 +20,9 @@ Before you begin, ensure you have the following prerequisites:
 ## Import Namespaces
 To get started, import the necessary namespaces into your C# project:
 ```csharp
-using Formats.Archive;
+using GroupDocs.Formats.Archive;
 using System;
+using GroupDocs.Metadata;
 using System.Text;
 ```
 

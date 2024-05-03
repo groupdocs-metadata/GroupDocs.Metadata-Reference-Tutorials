@@ -19,8 +19,9 @@ Before we get started, ensure you have the following set up:
 ## Import Namespaces
 First, import the necessary namespaces in your C# code:
 ```csharp
-using Formats.Audio;
+using GroupDocs.Formats.Audio;
 using System;
+using GroupDocs.Metadata;
 ```
 ## Step 1: Load the MP3 File
 Begin by loading the MP3 file using GroupDocs.Metadata:

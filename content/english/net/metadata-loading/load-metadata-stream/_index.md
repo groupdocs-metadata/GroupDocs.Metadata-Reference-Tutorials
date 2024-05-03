@@ -20,6 +20,7 @@ Before diving into this tutorial, ensure you have the following prerequisites in
 First, include the necessary namespaces in your C# code:
 ```csharp
 using System;
+using GroupDocs.Metadata;
 using System.IO;
 ```
 ## Step 1: Initialize Metadata from Stream

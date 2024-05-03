@@ -19,7 +19,8 @@ Before diving into this tutorial, ensure you have the following prerequisites se
 To begin, include the necessary namespaces in your C# project:
 ```csharp
 using System;
-using Formats.Document;
+using GroupDocs.Metadata;
+using GroupDocs.Metadata.Formats.Document;
 ```
 ## Step 1: Initialize Metadata Object
 The first step is to initialize the `Metadata` object by providing the path to your PDF file:

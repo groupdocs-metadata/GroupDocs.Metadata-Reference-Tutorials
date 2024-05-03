@@ -7,9 +7,9 @@ type: docs
 weight: 15
 url: /net/archive-metadata/update-archive-comment-zip-files/
 ---
-### Introduction
+## Introduction
 In the world of software development, managing metadata within files is a critical aspect of ensuring data integrity and accessibility. GroupDocs.Metadata for .NET offers a robust solution for .NET developers to efficiently work with metadata across various file formats. In this tutorial, we will delve into using GroupDocs.Metadata for .NET to update archive comments within ZIP files. By the end of this guide, you'll have a clear understanding of how to manipulate metadata within ZIP archives using this powerful library.
-### Prerequisites
+## Prerequisites
 Before diving into this tutorial, ensure you have the following prerequisites:
 - Basic knowledge of C# and .NET development.
 - Visual Studio installed on your machine.
@@ -19,8 +19,9 @@ Before diving into this tutorial, ensure you have the following prerequisites:
 ## Import Namespaces
 First, make sure to include the necessary namespaces in your C# project:
 ```csharp
-using Formats.Archive;
+using GroupDocs.Formats.Archive;
 using System;
+using GroupDocs.Metadata;
 ```
 ## Step 1: Load the ZIP File
 The initial step is to load the ZIP file and access its metadata. Use the following code snippet:
@@ -44,7 +45,7 @@ Finally, save the updated metadata back to the ZIP file:
 ## Conclusion
 In this tutorial, we explored how to update archive comments in ZIP files using GroupDocs.Metadata for .NET. This library provides a convenient way to access and modify metadata within various file formats, enhancing the capabilities of .NET developers. By following these simple steps, you can seamlessly integrate metadata manipulation into your applications, improving data management efficiency.
 
-### FAQ's
+## FAQ's
 ### Can I manipulate metadata in other file formats apart from ZIP?
 Yes, GroupDocs.Metadata for .NET supports a wide range of formats including PDF, Microsoft Office documents, images, videos, and more.
 ### Is GroupDocs.Metadata for .NET compatible with .NET Core applications?

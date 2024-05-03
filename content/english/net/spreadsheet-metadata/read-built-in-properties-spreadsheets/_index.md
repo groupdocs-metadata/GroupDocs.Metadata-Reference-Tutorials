@@ -19,7 +19,8 @@ Before getting started, ensure you have the following prerequisites in place:
 Start by importing the necessary namespaces to access GroupDocs.Metadata functionalities within your C# project.
 ```csharp
 using System;
-using Formats.Document;
+using GroupDocs.Metadata;
+using GroupDocs.Metadata.Formats.Document;
 ```
 ## Step 1: Initialize Metadata and Retrieve Spreadsheet Root Package
 Begin by initializing the `Metadata` object with your input file path. Then, obtain the root package specific to spreadsheets.

@@ -19,6 +19,7 @@ Before diving into this tutorial, ensure you have the following prerequisites se
 Start by including the necessary namespaces in your .NET project:
 ```csharp
 using System;
+using GroupDocs.Metadata;
 ```
 ## Step 1: Install GroupDocs.Metadata for .NET
 Begin by downloading and installing GroupDocs.Metadata for .NET from the [download page](https://releases.groupdocs.com/metadata/net/). Follow the installation instructions provided.

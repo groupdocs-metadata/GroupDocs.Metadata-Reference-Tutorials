@@ -19,7 +19,8 @@ Before diving into this tutorial, ensure you have the following set up:
 Firstly, import the necessary namespaces in your C# project to use GroupDocs.Metadata functionalities.
 ```csharp
 using System;
-using Formats.Document;
+using GroupDocs.Metadata;
+using GroupDocs.Metadata.Formats.Document;
 ```
 ## Step 1: Load Presentation File
 Begin by loading the presentation file from which you want to extract metadata using GroupDocs.Metadata.

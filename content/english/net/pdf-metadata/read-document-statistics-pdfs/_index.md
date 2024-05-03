@@ -19,7 +19,8 @@ Before diving into this tutorial, make sure you have the following prerequisites
 Begin by importing the necessary namespaces in your C# project to use GroupDocs.Metadata functionalities:
 ```csharp
 using System;
-using Formats.Document;
+using GroupDocs.Metadata;
+using GroupDocs.Metadata.Formats.Document;
 ```
 
 Let's break down the example into multiple steps to understand how to read document statistics from PDF files using GroupDocs.Metadata for .NET.

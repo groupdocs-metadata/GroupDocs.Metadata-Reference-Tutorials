@@ -20,7 +20,8 @@ Before you begin, ensure you have the following prerequisites:
 First, let's import the necessary namespaces into your C# project:
 ```csharp
 using System;
-using Formats.Audio;
+using GroupDocs.Metadata;
+using GroupDocs.Formats.Audio;
 ```
 ## Step 1: Initialize Metadata Object
 To start reading APE tags from an MP3 file, you need to create a `Metadata` object and load your MP3 file.

@@ -20,7 +20,8 @@ Before you begin, ensure you have the following:
 First, you need to import the necessary namespaces into your C# project to use GroupDocs.Metadata functionalities:
 ```csharp
 using System;
-using Formats.Audio;
+using GroupDocs.Metadata;
+using GroupDocs.Formats.Audio;
 ```
 ## Step 1: Load the Metadata of the MP3 File
 Begin by creating a `Metadata` object and loading the metadata of your MP3 file:

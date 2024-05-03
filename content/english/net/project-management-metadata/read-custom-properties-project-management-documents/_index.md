@@ -20,6 +20,7 @@ Before diving into the tutorial, ensure you have the following prerequisites in 
 To begin, you'll need to import the necessary namespaces to access GroupDocs.Metadata features within your C# project:
 ```csharp
 using System;
+using GroupDocs.Metadata;
 using GroupDocs.Metadata.Formats.Document;
 using GroupDocs.Metadata.Tagging;
 ```

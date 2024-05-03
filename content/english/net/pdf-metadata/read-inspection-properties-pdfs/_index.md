@@ -19,8 +19,9 @@ Before diving into this tutorial, ensure you have the following prerequisites se
 ## Import Namespaces
 Before you can start using GroupDocs.Metadata in your project, make sure to include the necessary namespaces at the beginning of your C# file:
 ```csharp
-using Formats.Document;
+using GroupDocs.Metadata.Formats.Document;
 using System;
+using GroupDocs.Metadata;
 ```
 ## 1. Load Metadata from PDF Document
 To begin, create a `Metadata` object and load metadata from your PDF file:

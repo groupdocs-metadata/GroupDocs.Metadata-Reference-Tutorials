@@ -18,8 +18,9 @@ Before you begin, ensure you have the following:
 ## Import Namespaces
 To start, include the necessary namespaces in your C# code:
 ```csharp
-using Formats.Document;
+using GroupDocs.Metadata.Formats.Document;
 using System;
+using GroupDocs.Metadata;
 ```
 
 Let's break down the process of updating custom properties into manageable steps:

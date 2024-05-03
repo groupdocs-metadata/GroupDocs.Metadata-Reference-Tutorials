@@ -19,8 +19,9 @@ Before diving into this tutorial, ensure you have the following prerequisites in
 ## Import Namespaces
 To begin, import the necessary namespaces into your C# project:
 ```csharp
-using Formats.Archive;
+using GroupDocs.Formats.Archive;
 using System;
+using GroupDocs.Metadata;
 using System.Text;
 ```
 ## Step 1: Load TAR Archive Metadata

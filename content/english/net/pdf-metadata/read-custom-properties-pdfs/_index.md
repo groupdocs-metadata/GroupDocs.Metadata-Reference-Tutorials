@@ -20,8 +20,9 @@ Before diving into this tutorial, ensure you have the following:
 Begin by importing the necessary namespaces into your C# project:
 ```csharp
 using System;
-using Formats.Document;
-using Tagging;
+using GroupDocs.Metadata;
+using GroupDocs.Metadata.Formats.Document;
+using GroupDocs.Tagging;
 ```
 ## Step 1: Load the PDF File
 To start, load the PDF file containing the custom properties using GroupDocs.Metadata:

@@ -19,7 +19,8 @@ Before diving into this tutorial, ensure you have the following prerequisites:
 Begin by importing the necessary namespaces to use GroupDocs.Metadata in your C# project:
 ```csharp
 using System;
-using Formats.Document;
+using GroupDocs.Metadata;
+using GroupDocs.Metadata.Formats.Document;
 ```
 ## Step 1: Load Metadata from a Presentation File
 To read file format properties from a presentation file, start by loading the metadata using GroupDocs.Metadata:

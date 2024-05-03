@@ -20,7 +20,8 @@ Before diving into this tutorial, ensure you have the following prerequisites in
 Start by importing the necessary namespaces into your .NET project:
 ```csharp
 using System;
-using Formats.Audio;
+using GroupDocs.Metadata;
+using GroupDocs.Formats.Audio;
 ```
 ## Step 1: Initialize Metadata Object
 Begin by instantiating a `Metadata` object with the path to your input WAV file:

@@ -15,7 +15,7 @@ Looking to enhance your .NET applications' file manipulation capabilities? Dive 
 
 Want to efficiently manage file metadata stored on your local disk? Our tutorial guides you through the process with [GroupDocs.Metadata for .NET](./load-metadata-local-disk/). Learn how to effortlessly load metadata, edit it, and optimize your file manipulation tasks.
 
-## How to Load Metadata from Stream in .NET Tutorial
+## How to Load Metadata from Stream in .NET
 
 Streamlining file metadata management in .NET is a breeze with [GroupDocs.Metadata](./load-metadata-stream/). Follow our step-by-step tutorial to learn how to load metadata from streams, edit it on-the-fly, and seamlessly integrate metadata handling into your applications.
 
@@ -33,7 +33,7 @@ Whether you're a seasoned developer or just starting with .NET, our tutorials of
 ## Metadata Loading Tutorials
 ### [How to Load Metadata from Local Disk in .NET](./load-metadata-local-disk/)
 Effortlessly manage file metadata in .NET applications with GroupDocs.Metadata for enhanced file manipulation capabilities.
-### [Loading Metadata from Stream in .NET Tutorial](./load-metadata-stream/)
+### [Loading Metadata from Stream in .NET](./load-metadata-stream/)
 Learn to manage file metadata in .NET with GroupDocs.Metadata. Step-by-step guide for loading, editing, and removing metadata from streams.
 ### [Loading Metadata from Specific Format in .NET](./load-metadata-specific-format/)
 Learn how to load metadata from specific file formats using GroupDocs.Metadata for .NET in this comprehensive tutorial.

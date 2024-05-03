@@ -18,8 +18,9 @@ Before we begin, ensure you have the following prerequisites:
 ## Import Namespaces
 Start by including the necessary namespaces in your C# project:
 ```csharp
-using Formats.Document;
+using GroupDocs.Metadata.Formats.Document;
 using System;
+using GroupDocs.Metadata;
 ```
 ## Step 1: Load the Document
 Begin by loading the diagram file from the specified input path using GroupDocs.Metadata:

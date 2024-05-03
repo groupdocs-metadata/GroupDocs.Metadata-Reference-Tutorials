@@ -18,8 +18,9 @@ Before diving into this tutorial, ensure you have the following prerequisites in
 ## Import Namespaces
 Begin by including the necessary namespaces in your C# project:
 ```csharp
-using Options;
+using GroupDocs.Metadata.Options;
 using System;
+using GroupDocs.Metadata;
 ```
 ## Step 1: Set Load Options for Password-Protected Document
 To load metadata from a password-protected document, specify the load options with the document password:

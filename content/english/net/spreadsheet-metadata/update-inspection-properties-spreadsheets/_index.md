@@ -18,8 +18,9 @@ Before we begin, make sure you have the following prerequisites set up:
 ## Import Namespaces
 First, let's import the necessary namespaces in your C# project:
 ```csharp
-using Formats.Document;
+using GroupDocs.Metadata.Formats.Document;
 using System;
+using GroupDocs.Metadata;
 ```
 ## Step 1: Load the Spreadsheet Document
 The first step is to load the spreadsheet document and initialize the `Metadata` object:

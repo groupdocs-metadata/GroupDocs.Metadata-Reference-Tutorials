@@ -19,7 +19,8 @@ Before getting started, ensure you have the following prerequisites set up:
 Begin by including the necessary namespaces in your C# project:
 ```csharp
 using System;
-using Formats.Document;
+using GroupDocs.Metadata;
+using GroupDocs.Metadata.Formats.Document;
 ```
 ## Step 1: Instantiate Metadata Object
 First, instantiate the `Metadata` object by specifying the input file path:

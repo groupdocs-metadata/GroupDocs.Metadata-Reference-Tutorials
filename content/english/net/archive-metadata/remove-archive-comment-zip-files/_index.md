@@ -18,8 +18,9 @@ Before we begin, ensure you have the following set up:
 ## Import Namespaces
 First, make sure to import the necessary namespaces:
 ```csharp
-using Formats.Archive;
+using GroupDocs.Formats.Archive;
 using System;
+using GroupDocs.Metadata;
 ```
 
 ## Step 1: Load the ZIP File

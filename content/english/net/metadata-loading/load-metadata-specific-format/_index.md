@@ -20,9 +20,10 @@ Before we dive into working with GroupDocs.Metadata for .NET, ensure you have th
 Start by importing the necessary namespaces into your C# project:
 ```csharp
 using System;
-using Common;
-using Formats.Document;
-using Options;
+using GroupDocs.Metadata;
+using GroupDocs.Metadata.Common;
+using GroupDocs.Metadata.Formats.Document;
+using GroupDocs.Metadata.Options;
 ```
 
 ## Step 1: Set Load Options

@@ -18,7 +18,8 @@ Before we begin, ensure you have the following prerequisites set up:
 To start, include the necessary namespaces in your project:
 ```csharp
 using System;
-using Formats.Document;
+using GroupDocs.Metadata;
+using GroupDocs.Metadata.Formats.Document;
 ```
 ## Step 1: Loading and Inspecting Presentation Metadata
 Begin by loading the presentation file and accessing its root package using GroupDocs.Metadata:

@@ -24,7 +24,8 @@ Start by importing the necessary namespaces to access the GroupDocs.Metadata lib
 
 ```csharp
 using System;
-using Formats.Document;
+using GroupDocs.Metadata;
+using GroupDocs.Metadata.Formats.Document;
 ```
 
 Let's break down the process of updating built-in properties in diagrams using GroupDocs.Metadata into multiple steps:

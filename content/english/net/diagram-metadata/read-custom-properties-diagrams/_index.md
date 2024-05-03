@@ -19,8 +19,9 @@ Before we begin, ensure you have the following prerequisites set up:
 First, include the necessary namespaces in your C# code:
 ```csharp
 using System;
-using Formats.Document;
-using Tagging;
+using GroupDocs.Metadata;
+using GroupDocs.Metadata.Formats.Document;
+using GroupDocs.Tagging;
 ```
 ## Step 1: Load Diagram File
 Begin by loading the diagram file using GroupDocs.Metadata:

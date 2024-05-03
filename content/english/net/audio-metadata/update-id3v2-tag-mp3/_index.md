@@ -18,8 +18,9 @@ Before you begin, ensure you have the following:
 ## Import Namespaces
 To get started, import the necessary namespaces in your C# project:
 ```csharp
-using Formats.Audio;
+using GroupDocs.Formats.Audio;
 using System;
+using GroupDocs.Metadata;
 ```
 ## Step 1: Initialize Metadata Object
 The first step is to initialize a `Metadata` object with the path to your MP3 file.

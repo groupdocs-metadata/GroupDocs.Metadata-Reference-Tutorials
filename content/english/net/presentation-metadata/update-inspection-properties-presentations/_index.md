@@ -19,8 +19,9 @@ Before diving into the tutorial, ensure you have the following prerequisites set
 ## Import Namespaces
 Begin by importing the necessary namespaces in your C# project:
 ```csharp
-using Formats.Document;
+using GroupDocs.Metadata.Formats.Document;
 using System;
+using GroupDocs.Metadata;
 ```
 ## Step 1: Load Presentation and Access Root Package
 First, load the presentation file and access the root package for metadata manipulation.

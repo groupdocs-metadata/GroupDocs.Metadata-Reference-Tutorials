@@ -20,8 +20,9 @@ Start by importing the necessary namespaces for utilizing GroupDocs.Metadata wit
 ```csharp
 using GroupDocs.Metadata.Common;
 using GroupDocs.Metadata.Options;
-using Formats.Archive;
+using GroupDocs.Formats.Archive;
 using System;
+using GroupDocs.Metadata;
 using System.Text;
 ```
 ## Step 1: Load the 7Zip Archive

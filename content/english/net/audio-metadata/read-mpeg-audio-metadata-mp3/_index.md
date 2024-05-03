@@ -18,8 +18,9 @@ Before diving into this tutorial, ensure you have the following prerequisites:
 ## Import Namespaces
 First, make sure to include the necessary namespaces in your C# project to access GroupDocs.Metadata functionalities.
 ```csharp
-using Formats.Audio;
+using GroupDocs.Formats.Audio;
 using System;
+using GroupDocs.Metadata;
 ```
 ## Step 1: Initialize Metadata Object
 Begin by initializing a `Metadata` object with your MP3 file's path.

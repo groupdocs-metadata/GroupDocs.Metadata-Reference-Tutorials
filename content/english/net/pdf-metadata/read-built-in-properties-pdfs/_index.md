@@ -19,7 +19,8 @@ Before diving into this tutorial, ensure you have the following prerequisites:
 Begin by adding the necessary namespaces to your C# project:
 ```csharp
 using System;
-using Formats.Document;
+using GroupDocs.Metadata;
+using GroupDocs.Metadata.Formats.Document;
 ```
 ## Step 1: Load PDF Metadata
 First, load the PDF file and extract its metadata using GroupDocs.Metadata:

@@ -20,7 +20,8 @@ Before diving into the steps below, ensure you have the following prerequisites:
 Begin by importing the necessary namespaces into your C# project:
 ```csharp
 using System;
-using Formats.Document;
+using GroupDocs.Metadata;
+using GroupDocs.Metadata.Formats.Document;
 ```
 ## Step 1: Load the Document Metadata
 First, instantiate a `Metadata` object with the path to your input file:

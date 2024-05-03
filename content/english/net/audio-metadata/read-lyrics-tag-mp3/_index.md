@@ -20,7 +20,8 @@ Before we begin, ensure you have the following prerequisites set up:
 First, include the necessary namespaces in your C# project:
 ```csharp
 using System;
-using Formats.Audio;
+using GroupDocs.Metadata;
+using GroupDocs.Formats.Audio;
 ```
 ## Step 1: Load the MP3 File
 Begin by initializing a `Metadata` object with your input MP3 file path:

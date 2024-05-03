@@ -18,8 +18,9 @@ Before getting started, ensure you have the following:
 ## Import Namespaces
 To begin, make sure to include the necessary namespaces in your C# code:
 ```csharp
-using Formats.Document;
+using GroupDocs.Metadata.Formats.Document;
 using System;
+using GroupDocs.Metadata;
 ```
 ## Step 1: Load Metadata of a PDF File
 First, instantiate the `Metadata` class with the path to your PDF file:

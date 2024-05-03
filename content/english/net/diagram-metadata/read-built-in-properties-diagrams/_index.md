@@ -20,7 +20,8 @@ Before we begin, ensure you have the following prerequisites in place:
 Start by importing the necessary namespaces in your C# project to use GroupDocs.Metadata functionalities:
 ```csharp
 using System;
-using Formats.Document;
+using GroupDocs.Metadata;
+using GroupDocs.Metadata.Formats.Document;
 ```
 ## Step 1: Load the Diagram File
 Begin by loading the diagram file from which you want to extract metadata:

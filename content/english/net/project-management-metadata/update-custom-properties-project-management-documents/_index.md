@@ -20,6 +20,7 @@ Begin by importing the necessary namespaces into your C# project to use GroupDoc
 ```csharp
 using GroupDocs.Metadata.Formats.Document;
 using System;
+using GroupDocs.Metadata;
 ```
 ## Step 1: Load the Document
 First, instantiate a `Metadata` object by loading the project management document (e.g., an MPP file) using its file path:

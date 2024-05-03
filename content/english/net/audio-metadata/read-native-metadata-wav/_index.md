@@ -19,7 +19,8 @@ Before you begin, ensure you have the following prerequisites:
 Start by importing the necessary namespaces in your C# project:
 ```csharp
 using System;
-using Formats.Audio;
+using GroupDocs.Metadata;
+using GroupDocs.Formats.Audio;
 ```
 ## Step 1: Load the WAV File
 First, instantiate a `Metadata` object by providing the path to your WAV file:

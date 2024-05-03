@@ -18,8 +18,9 @@ Before we begin, make sure you have the following set up:
 ## Import Namespaces
 Start by importing the necessary namespaces into your C# project.
 ```csharp
-    using Formats.Document;
+    using GroupDocs.Metadata.Formats.Document;
     using System;
+using GroupDocs.Metadata;
 ```
 
 Let's break down the process of updating custom properties in PDF files using GroupDocs.Metadata into simple steps:

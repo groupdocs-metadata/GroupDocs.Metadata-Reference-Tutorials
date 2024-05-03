@@ -19,8 +19,9 @@ Before diving into this tutorial, ensure you have the following prerequisites se
 Start by importing the necessary namespaces into your C# project:
 ```csharp
 using System;
-using Formats.Document;
-using Tagging;
+using GroupDocs.Metadata;
+using GroupDocs.Metadata.Formats.Document;
+using GroupDocs.Tagging;
 ```
 ## Step 1: Load Presentation and Access Custom Properties
 First, instantiate a `Metadata` object with your input presentation file path:

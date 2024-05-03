@@ -19,7 +19,8 @@ Before you begin, make sure you have the following set up:
 Start by importing the necessary namespaces in your C# project.
 ```csharp
 using System;
-using Formats.Document;
+using GroupDocs.Metadata;
+using GroupDocs.Metadata.Formats.Document;
 ```
 
 Follow these steps to extract document statistics from a diagram file:

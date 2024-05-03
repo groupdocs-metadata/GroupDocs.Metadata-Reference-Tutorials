@@ -19,8 +19,9 @@ Before we begin, ensure you have the following:
 Start by importing the necessary namespaces in your C# project:
 ```csharp
 using System;
-using Formats.Document;
-using Tagging;
+using GroupDocs.Metadata;
+using GroupDocs.Metadata.Formats.Document;
+using GroupDocs.Tagging;
 ```
 ## Step 1: Load the Spreadsheet File
 Begin by loading the target spreadsheet file using GroupDocs.Metadata:

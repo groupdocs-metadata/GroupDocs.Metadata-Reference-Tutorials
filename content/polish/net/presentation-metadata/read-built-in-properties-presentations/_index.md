@@ -6,6 +6,9 @@ description: tego obszernego samouczka dowiesz się, jak wyodrębnić wbudowane 
 weight: 10
 url: /pl/net/presentation-metadata/read-built-in-properties-presentations/
 ---
+
+# Przeczytaj właściwości wbudowane z prezentacji w platformie .NET
+
 ## Wstęp
 W dziedzinie programowania .NET kluczowe znaczenie ma zarządzanie i wyodrębnianie metadanych z różnych formatów plików, takich jak prezentacje. GroupDocs.Metadata dla .NET oferuje zaawansowane rozwiązanie do wydajnej obsługi zadań związanych z metadanymi. W tym samouczku omówimy odczytywanie wbudowanych właściwości z prezentacji przy użyciu GroupDocs.Metadata dla platformy .NET. Na koniec będziesz już jasno wiedział, jak wykorzystać tę bibliotekę do wyodrębniania niezbędnych metadanych z plików prezentacji.
 ## Warunki wstępne

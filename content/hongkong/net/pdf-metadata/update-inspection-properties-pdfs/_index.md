@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 更新 PDF 文件中
 weight: 17
 url: /zh-hant/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
+
+# 使用 .NET 更新 PDF 中的檢查屬性
+
 ## 介紹
 在本教學中，我們將探討如何使用 GroupDocs.Metadata for .NET 函式庫更新 PDF 文件中的檢查屬性。該庫使我們能夠有效地管理 PDF 文件中的元資料、註釋、附件等。
 ## 先決條件

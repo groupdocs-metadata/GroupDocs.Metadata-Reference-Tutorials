@@ -6,6 +6,9 @@ description: Dowiedz się, jak aktualizować właściwości niestandardowe w pli
 weight: 16
 url: /pl/net/pdf-metadata/update-custom-properties-pdfs/
 ---
+
+# Aktualizuj właściwości niestandardowe w plikach PDF przy użyciu platformy .NET
+
 ## Wstęp
 tym samouczku omówimy, jak zaktualizować niestandardowe właściwości w plikach PDF przy użyciu platformy .NET i GroupDocs.Metadata. Właściwości niestandardowe umożliwiają dodawanie dodatkowych metadanych do dokumentów PDF, które mogą być przydatne do kategoryzacji, wyszukiwania i wyszukiwania informacji. GroupDocs.Metadata to potężny interfejs API, który umożliwia programistom pracę z metadanymi w różnych formatach plików, w tym plikach PDF, przy użyciu platformy .NET.
 ## Warunki wstępne

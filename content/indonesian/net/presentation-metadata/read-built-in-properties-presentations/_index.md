@@ -6,6 +6,9 @@ description: Pelajari cara mengekstrak properti bawaan dari presentasi menggunak
 weight: 10
 url: /id/net/presentation-metadata/read-built-in-properties-presentations/
 ---
+
+# Baca Properti Bawaan dari Presentasi di .NET
+
 ## Perkenalan
 Dalam bidang pengembangan .NET, mengelola dan mengekstrak metadata dari berbagai format file seperti presentasi sangatlah penting. GroupDocs.Metadata untuk .NET menawarkan solusi canggih untuk menangani tugas metadata secara efisien. Tutorial ini akan mempelajari cara membaca properti bawaan dari presentasi menggunakan GroupDocs.Metadata untuk .NET. Pada akhirnya, Anda akan memiliki pemahaman yang jelas tentang cara memanfaatkan perpustakaan ini untuk mengekstraksi metadata penting dari file presentasi.
 ## Prasyarat

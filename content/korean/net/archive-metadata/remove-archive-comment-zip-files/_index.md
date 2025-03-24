@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 ZIP 아카이브 주석�
 weight: 14
 url: /ko/net/archive-metadata/remove-archive-comment-zip-files/
 ---
+
+# .NET의 ZIP 파일에서 아카이브 주석 제거
+
 ## 소개
 .NET 개발 영역에서 파일 내의 메타데이터를 관리하는 것은 파일 자체에 대한 정확한 정보를 유지하는 데 필수적입니다. .NET용 GroupDocs.Metadata는 ZIP 파일을 포함한 다양한 파일 형식에 걸쳐 메타데이터 작업을 단순화하는 강력한 도구 키트를 제공합니다. 이 자습서에서는 C#을 사용하여 프로그래밍 방식으로 ZIP 파일에서 아카이브 주석을 제거하기 위해 GroupDocs.Metadata를 사용하는 방법에 중점을 둡니다. 
 ## 전제 조건

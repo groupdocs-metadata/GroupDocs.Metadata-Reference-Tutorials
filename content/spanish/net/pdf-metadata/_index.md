@@ -6,6 +6,9 @@ description: Aprenda a administrar metadatos PDF sin esfuerzo con los tutoriales
 weight: 24
 url: /es/net/pdf-metadata/
 ---
+
+# Metadatos PDF
+
 ## Introducción
 
  Libere el potencial de la gestión de metadatos PDF con[GroupDocs.Metadatos para .NET](https://www.groupdocs.com/products/metadata/net). Ya sea que sea un desarrollador experimentado o recién esté comenzando, estos tutoriales ofrecen información invaluable sobre cómo aprovechar el poder de la manipulación de metadatos.

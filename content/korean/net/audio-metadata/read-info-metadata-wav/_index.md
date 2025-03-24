@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 WAV 파일에서 메타�
 weight: 22
 url: /ko/net/audio-metadata/read-info-metadata-wav/
 ---
+
+# .NET의 WAV 파일에서 정보 메타데이터 읽기
+
 ## 소개
 .NET 개발 세계에서 다양한 파일 형식의 메타데이터를 관리하고 추출하는 것은 많은 애플리케이션의 중요한 측면입니다. WAV(Waveform Audio File Format) 파일의 경우 파일에 포함된 정보를 검색하는 것은 오디오 콘텐츠를 분류, 구성 및 이해하는 데 필수적일 수 있습니다.
 이 자습서에서는 .NET용 GroupDocs.Metadata를 활용하여 WAV 파일에서 특정 메타데이터를 읽는 방법을 살펴보겠습니다. GroupDocs.Metadata는 개발자가 WAV와 같은 오디오 파일을 포함하여 다양한 파일 형식의 메타데이터로 작업할 수 있는 강력한 API입니다.

@@ -6,6 +6,9 @@ description: Scopri come aggiornare i metadati dei file MP3, inclusi testi, arti
 weight: 21
 url: /it/net/audio-metadata/update-lyrics-tag-mp3/
 ---
+
+# Aggiorna i tag dei testi nei file MP3 utilizzando .NET
+
 ## introduzione
 In questo tutorial verrà illustrato come utilizzare la libreria GroupDocs.Metadata per .NET per aggiornare a livello di codice il tag dei testi nei file MP3. Questo processo prevede l'accesso e la modifica dei metadati dei file MP3, prendendo di mira in particolare le informazioni sui testi.
 ## Prerequisiti

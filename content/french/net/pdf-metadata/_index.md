@@ -6,6 +6,9 @@ description: Apprenez à gérer les métadonnées PDF sans effort avec les didac
 weight: 24
 url: /fr/net/pdf-metadata/
 ---
+
+# Métadonnées PDF
+
 ## Introduction
 
  Libérez le potentiel de la gestion des métadonnées PDF avec[GroupDocs.Metadata pour .NET](https://www.groupdocs.com/products/metadata/net). Que vous soyez un développeur chevronné ou débutant, ces didacticiels offrent des informations inestimables sur la manière d'exploiter la puissance de la manipulation des métadonnées.

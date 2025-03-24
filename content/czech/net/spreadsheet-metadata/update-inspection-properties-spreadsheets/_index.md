@@ -6,6 +6,9 @@ description: Zjistěte, jak aktualizovat vlastnosti kontroly v tabulkách pomoc�
 weight: 16
 url: /cs/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
+
+# Aktualizujte vlastnosti inspekce v tabulkách pomocí .NET
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak používat GroupDocs.Metadata pro .NET k aktualizaci vlastností kontroly v tabulkách. GroupDocs.Metadata je výkonné API, které umožňuje pracovat s metadaty spojenými s různými formáty dokumentů, včetně tabulek. Konkrétně se zaměříme na vymazání komentářů, digitálních podpisů a skrytých listů z tabulky pomocí .NET.
 ## Předpoklady

@@ -6,6 +6,9 @@ description: Learn how to read file format properties from diagrams in .NET usin
 weight: 13
 url: /net/diagram-metadata/read-file-format-properties-diagrams/
 ---
+
+# Read File Format Properties from Diagrams in .NET
+
 ## Introduction
 In this tutorial, we'll explore how to use GroupDocs.Metadata for .NET to read file format properties from diagrams. This library allows easy manipulation and extraction of metadata from various file formats within .NET applications. We'll go through the prerequisites, importing namespaces, and step-by-step examples to illustrate how to achieve this.
 

@@ -6,6 +6,9 @@ description: Découvrez comment mettre à jour les propriétés personnalisées 
 weight: 15
 url: /fr/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---
+
+# Mettre à jour les propriétés personnalisées dans les feuilles de calcul à l'aide de .NET
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment mettre à jour les propriétés personnalisées dans des feuilles de calcul à l'aide de la bibliothèque GroupDocs.Metadata for .NET. Les propriétés personnalisées peuvent améliorer les métadonnées de vos feuilles de calcul, en fournissant un contexte ou des informations supplémentaires qui ne sont pas couvertes par les propriétés standard.
 ## Conditions préalables

@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan frissítheti a diagramok beépített tulajdons�
 weight: 14
 url: /hu/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
+
+# Frissítse a diagramok beépített tulajdonságait .NET használatával
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan frissítheti a diagramok beépített tulajdonságait a GroupDocs.Metadata for .NET használatával. Ez a könyvtár lehetővé teszi a metaadatok kezelését különböző dokumentumformátumokon belül, beleértve a diagramokat is. Leírjuk az előfeltételeket, a szükséges névtereket, és lépésről lépésre ismertetjük a kódpéldákat a tulajdonságok hatékony frissítéséhez.
 

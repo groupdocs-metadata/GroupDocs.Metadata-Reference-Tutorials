@@ -7,6 +7,9 @@ weight: 21
 url: /tr/net/archive-metadata/
 ---
 
+# Arşiv Meta Verileri
+
+
 ## giriiş
 
 .NET uygulamalarınızda meta verileri yönetmekle mi uğraşıyorsunuz? Başka yerde arama! Meta veri işleme sürecinizi kolaylaştırmak için GroupDocs.Metadata for .NET'ten yararlanmaya ilişkin nihai kılavuza hoş geldiniz. İster RAR, 7Zip, TAR veya ZIP arşivleriyle ilgileniyor olun, kapsamlı eğitimlerimizle size yardımcı oluyoruz.

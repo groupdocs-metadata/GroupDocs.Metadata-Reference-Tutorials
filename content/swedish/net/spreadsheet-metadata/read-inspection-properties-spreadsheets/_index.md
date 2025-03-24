@@ -6,6 +6,9 @@ description: Lär dig hur du läser inspektionsegenskaper från kalkylblad med G
 weight: 13
 url: /sv/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---
+
+# Läs inspektionsegenskaper från kalkylblad i .NET
+
 ## Introduktion
 den här handledningen kommer vi att utforska hur du använder GroupDocs.Metadata för .NET för att inspektera egenskaper från kalkylblad. GroupDocs.Metadata för .NET är ett kraftfullt bibliotek som gör det möjligt för utvecklare att läsa, redigera och ta bort metadata associerade med olika filformat, inklusive kalkylblad. Denna handledning fokuserar specifikt på att läsa inspektionsegenskaper från kalkylbladsfiler med C#.
 ## Förutsättningar

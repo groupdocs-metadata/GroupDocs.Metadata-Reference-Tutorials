@@ -6,6 +6,9 @@ description: Discover how to update custom properties in spreadsheets using Grou
 weight: 15
 url: /net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---
+
+# Update Custom Properties in Spreadsheets using .NET
+
 ## Introduction
 In this tutorial, we'll explore how to update custom properties in spreadsheets using the GroupDocs.Metadata for .NET library. Custom properties can enhance the metadata of your spreadsheet files, providing additional context or information that is not covered by standard properties.
 ## Prerequisites

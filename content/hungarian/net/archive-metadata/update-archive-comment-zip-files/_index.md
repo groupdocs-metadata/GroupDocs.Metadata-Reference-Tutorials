@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan frissítheti az archív megjegyzéseket ZIP-fá
 weight: 15
 url: /hu/net/archive-metadata/update-archive-comment-zip-files/
 ---
+
+# Frissítse az archív megjegyzést a ZIP-fájlokban a .NET használatával
+
 ## Bevezetés
 szoftverfejlesztés világában a fájlokon belüli metaadatok kezelése kritikus szempont az adatok integritásának és hozzáférhetőségének biztosításában. A GroupDocs.Metadata for .NET robusztus megoldást kínál a .NET-fejlesztők számára a különböző fájlformátumok metaadatainak hatékony kezelésére. Ebben az oktatóanyagban a GroupDocs.Metadata for .NET használatával foglalkozunk a ZIP-fájlokban található archív megjegyzések frissítésére. Az útmutató végére világosan megérti, hogyan kezelheti a ZIP-archívumokban lévő metaadatokat ezzel a hatékony könyvtárral.
 ## Előfeltételek

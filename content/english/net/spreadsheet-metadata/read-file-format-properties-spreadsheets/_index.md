@@ -6,6 +6,9 @@ description: Learn how to read spreadsheet file format properties using GroupDoc
 weight: 12
 url: /net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
+
+# Read File Format Properties from Spreadsheets in .NET
+
 ## Introduction
 In this tutorial, we will explore how to leverage GroupDocs.Metadata for .NET to efficiently read file format properties from spreadsheets. GroupDocs.Metadata for .NET is a powerful API that allows developers to extract, edit, and manage metadata associated with various file formats within their .NET applications. We will specifically focus on retrieving essential information about spreadsheet files using this library.
 ## Prerequisites

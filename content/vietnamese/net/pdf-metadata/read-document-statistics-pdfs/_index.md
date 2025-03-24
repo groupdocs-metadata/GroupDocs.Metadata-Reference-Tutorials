@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất số liệu thống kê tài liệu
 weight: 12
 url: /vi/net/pdf-metadata/read-document-statistics-pdfs/
 ---
+
+# Đọc số liệu thống kê tài liệu từ các tệp PDF trong .NET
+
 ## Giới thiệu
 Trong thế giới phát triển phần mềm, việc quản lý siêu dữ liệu tài liệu một cách hiệu quả là rất quan trọng đối với nhiều ứng dụng. GroupDocs.Metadata cho .NET cung cấp các công cụ mạnh mẽ để đọc và thao tác siêu dữ liệu trong các định dạng tài liệu khác nhau. Hướng dẫn này tập trung vào việc khai thác khả năng này đặc biệt cho các tệp PDF sử dụng .NET. Đến cuối hướng dẫn này, bạn sẽ hiểu cách trích xuất số liệu thống kê tài liệu như số ký tự, số trang và số từ từ các tệp PDF bằng GroupDocs.Metadata.
 ## Điều kiện tiên quyết

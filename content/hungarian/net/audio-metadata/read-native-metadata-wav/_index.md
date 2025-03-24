@@ -6,6 +6,9 @@ description: Fedezze fel, hogyan nyerhet ki natív metaadatokat WAV-fájlokból 
 weight: 23
 url: /hu/net/audio-metadata/read-native-metadata-wav/
 ---
+
+# Olvassa el a natív metaadatok tulajdonságait a WAV-fájlokból a .NET-ben
+
 ## Bevezetés
 Ebből az oktatóanyagból megtudhatja, hogyan használhatja a GroupDocs.Metadata for .NET-et a natív metaadat-tulajdonságok WAV-audiófájlokból való kinyerésére. A GroupDocs.Metadata for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy elolvassák, frissítsék és eltávolítsák a különféle fájlformátumokhoz, köztük a WAV-fájlokhoz kapcsolódó metaadatokat.
 ## Előfeltételek

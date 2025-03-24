@@ -6,6 +6,9 @@ description: Leer hoe u metagegevens van presentaties in .NET efficiënt kunt be
 weight: 25
 url: /nl/net/presentation-metadata/
 ---
+
+# Metagegevens van presentatie
+
 ## Invoering
 
 In het huidige digitale tijdperk is het beheren van metadata binnen presentaties cruciaal voor het effectief organiseren en ophalen van informatie. GroupDocs.Metadata voor .NET biedt een robuuste oplossing voor ontwikkelaars die dit proces willen stroomlijnen. Of u nu ingebouwde eigenschappen extraheert, aangepaste metagegevens opent of inspectie-eigenschappen bijwerkt, onze tutorials bieden stapsgewijze begeleiding voor naadloze integratie in uw .NET-projecten.

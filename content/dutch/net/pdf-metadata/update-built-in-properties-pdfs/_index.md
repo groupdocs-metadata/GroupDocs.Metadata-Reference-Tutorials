@@ -6,6 +6,9 @@ description: Leer hoe u de eigenschappen van PDF-documenten kunt bijwerken met C
 weight: 15
 url: /nl/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
+
+# Update ingebouwde eigenschappen in PDF's met .NET
+
 ## Invoering
 In deze zelfstudie leren we hoe u GroupDocs.Metadata voor .NET kunt gebruiken om de ingebouwde eigenschappen van PDF-documenten bij te werken. Deze bibliotheek biedt een krachtige set tools om metagegevens binnen verschillende documentformaten te manipuleren. We doorlopen de noodzakelijke stappen om eigenschappen zoals auteur, titel, aanmaakdatum, trefwoorden, maker en producent in een PDF-bestand te wijzigen met behulp van C#.
 ## Vereisten

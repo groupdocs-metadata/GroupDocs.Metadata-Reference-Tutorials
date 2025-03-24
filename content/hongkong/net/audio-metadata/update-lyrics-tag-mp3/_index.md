@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 以程式設計方�
 weight: 21
 url: /zh-hant/net/audio-metadata/update-lyrics-tag-mp3/
 ---
+
+# 使用 .NET 更新 MP3 檔案中的歌詞標籤
+
 ## 介紹
 在本教學中，我們將示範如何使用 GroupDocs.Metadata for .NET 函式庫以程式設計方式更新 MP3 檔案中的歌詞標籤。此過程涉及存取和修改 MP3 檔案的元數據，特別是針對歌詞資訊。
 ## 先決條件

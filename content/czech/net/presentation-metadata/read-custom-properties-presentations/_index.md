@@ -6,6 +6,9 @@ description: Naučte se číst uživatelské vlastnosti z prezentací v .NET pom
 weight: 11
 url: /cs/net/presentation-metadata/read-custom-properties-presentations/
 ---
+
+# Přečtěte si uživatelské vlastnosti z prezentací v .NET
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak číst uživatelské vlastnosti z prezentací v .NET pomocí GroupDocs.Metadata. Uživatelské vlastnosti obsahují další informace vložené do souboru prezentace, které mohou být užitečné pro organizaci, kategorizaci nebo popis obsahu. Využitím knihovny GroupDocs.Metadata mohou vývojáři efektivně přistupovat k těmto uživatelským vlastnostem a extrahovat je pro různé účely.
 ## Předpoklady

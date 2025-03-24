@@ -6,6 +6,9 @@ description: Dowiedz się, jak czytać właściwości formatu pliku arkusza kalk
 weight: 12
 url: /pl/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
+
+# Przeczytaj właściwości formatu pliku z arkuszy kalkulacyjnych w .NET
+
 ## Wstęp
 tym samouczku omówimy, jak wykorzystać GroupDocs.Metadata dla .NET do wydajnego odczytywania właściwości formatu pliku z arkuszy kalkulacyjnych. GroupDocs.Metadata dla .NET to potężny interfejs API, który umożliwia programistom wyodrębnianie, edytowanie i zarządzanie metadanymi związanymi z różnymi formatami plików w aplikacjach .NET. Skupimy się szczególnie na pobieraniu niezbędnych informacji o plikach arkuszy kalkulacyjnych za pomocą tej biblioteki.
 ## Warunki wstępne

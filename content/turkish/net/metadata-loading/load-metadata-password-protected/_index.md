@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET ile belge meta verilerini verimli bir �
 weight: 13
 url: /tr/net/metadata-loading/load-metadata-password-protected/
 ---
+
+# .NET'te Parola Korumalı Belgeden Meta Veriler Nasıl Yüklenir
+
 ## giriiş
 .NET geliştirme dünyasında, belgeler içindeki meta verileri yönetmek çeşitli uygulamalar için çok önemlidir. GroupDocs.Metadata for .NET, meta verileri basit bir şekilde ayıklamak, düzenlemek ve yönetmek için güçlü araçlar sağlar. Bu eğitim, GroupDocs.Metadata'yı kullanarak parola korumalı belgelerden meta verileri yükleme sürecinde size yol gösterecektir.
 ##Önkoşullar

@@ -6,6 +6,9 @@ description: C# と GroupDocs.Metadata for .NET を使用して PDF ドキュメ
 weight: 15
 url: /ja/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
+
+# .NET を使用して PDF の組み込みプロパティを更新する
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を使用して PDF ドキュメントの組み込みプロパティを更新する方法を学習します。このライブラリは、さまざまなドキュメント形式内のメタデータを操作するための強力なツール セットを提供します。C# を使用して、PDF ファイルの作成者、タイトル、作成日、キーワード、作成者、プロデューサーなどのプロパティを変更するために必要な手順を説明します。
 ## 前提条件

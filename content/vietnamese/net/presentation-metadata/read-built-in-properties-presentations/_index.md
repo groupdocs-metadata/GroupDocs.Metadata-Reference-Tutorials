@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất các thuộc tính tích hợp từ
 weight: 10
 url: /vi/net/presentation-metadata/read-built-in-properties-presentations/
 ---
+
+# Đọc các thuộc tính tích hợp từ bản trình bày trong .NET
+
 ## Giới thiệu
 Trong lĩnh vực phát triển .NET, việc quản lý và trích xuất siêu dữ liệu từ nhiều định dạng tệp khác nhau như bản trình bày là rất quan trọng. GroupDocs.Metadata dành cho .NET cung cấp giải pháp mạnh mẽ để xử lý các tác vụ siêu dữ liệu một cách hiệu quả. Hướng dẫn này sẽ đi sâu vào việc đọc các thuộc tính tích hợp từ bản trình bày bằng GroupDocs.Metadata cho .NET. Cuối cùng, bạn sẽ hiểu rõ cách tận dụng thư viện này để trích xuất siêu dữ liệu cần thiết từ các tệp bản trình bày.
 ## Điều kiện tiên quyết

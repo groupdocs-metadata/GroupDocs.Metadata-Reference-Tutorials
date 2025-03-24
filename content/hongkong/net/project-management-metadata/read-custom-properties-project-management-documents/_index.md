@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 從 .NET 專案管�
 weight: 11
 url: /zh-hant/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
+
+# 閱讀 .NET 專案管理文件中的自訂屬性
+
 ## 介紹
 在 .NET 開發領域，管理專案管理文件中的元資料是資料組織和檢索的一個重要面向。 GroupDocs.Metadata for .NET 提供了從各種專案管理檔案格式（例如 Microsoft Project (MPP) 檔案）讀取自訂屬性的強大功能。本教學課程將引導您逐步完成利用 GroupDocs.Metadata 從 .NET 專案管理文件中擷取自訂屬性的流程。
 ## 先決條件

@@ -6,6 +6,9 @@ description: Dễ dàng quản lý siêu dữ liệu tệp trong các ứng dụ
 weight: 10
 url: /vi/net/metadata-loading/load-metadata-local-disk/
 ---
+
+# Cách tải siêu dữ liệu từ đĩa cục bộ trong .NET
+
 ## Giới thiệu
 Trong lĩnh vực phát triển .NET, việc quản lý siêu dữ liệu được liên kết với các tệp là rất quan trọng đối với các ứng dụng khác nhau. GroupDocs.Metadata dành cho .NET cung cấp giải pháp mạnh mẽ để đọc, chỉnh sửa và xóa siêu dữ liệu khỏi tệp một cách dễ dàng. Hướng dẫn này sẽ hướng dẫn bạn quy trình tải siêu dữ liệu từ đĩa cục bộ bằng GroupDocs.Metadata, giúp bạn tận dụng thư viện mạnh mẽ này một cách hiệu quả.
 ## Điều kiện tiên quyết

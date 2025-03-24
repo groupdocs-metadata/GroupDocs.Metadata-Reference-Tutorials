@@ -6,6 +6,9 @@ description: Přečtěte si, jak aktualizovat vlastnosti dokumentu PDF pomocí C
 weight: 15
 url: /cs/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
+
+# Aktualizujte vestavěné vlastnosti v souborech PDF pomocí .NET
+
 ## Úvod
 V tomto tutoriálu se naučíme, jak používat GroupDocs.Metadata pro .NET k aktualizaci vestavěných vlastností dokumentů PDF. Tato knihovna poskytuje výkonnou sadu nástrojů pro manipulaci s metadaty v rámci různých formátů dokumentů. Projdeme si nezbytné kroky k úpravě vlastností, jako je autor, název, datum vytvoření, klíčová slova, tvůrce a producent v souboru PDF pomocí C#.
 ## Předpoklady

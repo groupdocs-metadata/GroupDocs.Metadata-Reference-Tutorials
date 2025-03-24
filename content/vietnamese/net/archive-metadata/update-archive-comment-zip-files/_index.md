@@ -6,6 +6,9 @@ description: Tìm hiểu cách cập nhật nhận xét lưu trữ trong tệp Z
 weight: 15
 url: /vi/net/archive-metadata/update-archive-comment-zip-files/
 ---
+
+# Cập nhật nhận xét lưu trữ trong tệp ZIP bằng .NET
+
 ## Giới thiệu
 Trong thế giới phát triển phần mềm, việc quản lý siêu dữ liệu trong tệp là một khía cạnh quan trọng để đảm bảo tính toàn vẹn và khả năng truy cập dữ liệu. GroupDocs.Metadata dành cho .NET cung cấp giải pháp mạnh mẽ cho các nhà phát triển .NET để làm việc hiệu quả với siêu dữ liệu trên nhiều định dạng tệp khác nhau. Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc sử dụng GroupDocs.Metadata cho .NET để cập nhật các nhận xét lưu trữ trong các tệp ZIP. Đến cuối hướng dẫn này, bạn sẽ hiểu rõ về cách thao tác siêu dữ liệu trong kho lưu trữ ZIP bằng thư viện mạnh mẽ này.
 ## Điều kiện tiên quyết

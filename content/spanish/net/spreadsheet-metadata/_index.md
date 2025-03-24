@@ -7,6 +7,9 @@ description: Descubra el poder de GroupDocs.Metadata para .NET con tutoriales so
 weight: 27
 url: /es/net/spreadsheet-metadata/
 ---
+
+# Metadatos de hoja de cálculo
+
 ## Introducción
 
 GroupDocs.Metadata para .NET ofrece un conjunto completo de tutoriales destinados a capacitar a los desarrolladores para aprovechar eficazmente la manipulación de metadatos en archivos de hojas de cálculo. Profundicemos en estos tutoriales para comprender cómo pueden mejorar sus aplicaciones .NET.

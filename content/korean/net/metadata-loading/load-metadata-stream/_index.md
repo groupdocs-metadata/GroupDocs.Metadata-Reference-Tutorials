@@ -6,6 +6,9 @@ description: GroupDocs.Metadata를 사용하여 .NET에서 파일 메타데이�
 weight: 11
 url: /ko/net/metadata-loading/load-metadata-stream/
 ---
+
+# .NET 자습서의 스트림에서 메타데이터 로드
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Metadata를 사용하여 .NET 응용 프로그램 내에서 메타데이터를 효과적으로 관리하는 방법을 살펴보겠습니다. 문서 속성과 같은 메타데이터는 작성자, 생성 날짜, 키워드 등의 세부 정보를 포함하여 파일에 대한 귀중한 정보를 제공할 수 있습니다. GroupDocs.Metadata는 .NET 환경의 다양한 파일 형식에서 메타데이터를 읽고, 편집하고, 제거하는 프로세스를 단순화합니다. 이 가이드에서는 스트림에서 메타데이터를 로드하는 데 중점을 두고 실제 예제를 사용하여 단계별 절차를 보여줍니다.
 ## 전제 조건

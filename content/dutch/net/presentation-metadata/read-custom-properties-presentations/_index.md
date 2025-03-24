@@ -6,6 +6,9 @@ description: Leer hoe u aangepaste eigenschappen uit presentaties in .NET leest 
 weight: 11
 url: /nl/net/presentation-metadata/read-custom-properties-presentations/
 ---
+
+# Lees aangepaste eigenschappen uit presentaties in .NET
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u aangepaste eigenschappen uit presentaties in .NET kunt lezen met behulp van GroupDocs.Metadata. Aangepaste eigenschappen bevatten aanvullende informatie die is ingebed in het presentatiebestand, wat handig kan zijn voor het organiseren, categoriseren of beschrijven van de inhoud. Door gebruik te maken van de GroupDocs.Metadata-bibliotheek kunnen ontwikkelaars deze aangepaste eigenschappen efficiënt openen en extraheren voor verschillende doeleinden.
 ## Vereisten

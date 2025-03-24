@@ -6,6 +6,9 @@ description: Leer hoe u aangepaste eigenschappen in PDF-bestanden kunt bijwerken
 weight: 16
 url: /nl/net/pdf-metadata/update-custom-properties-pdfs/
 ---
+
+# Update aangepaste eigenschappen in PDF's met .NET
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u aangepaste eigenschappen in PDF-bestanden kunt bijwerken met behulp van .NET met GroupDocs.Metadata. Met aangepaste eigenschappen kunt u extra metagegevens aan uw PDF-documenten toevoegen, wat handig kan zijn voor categorisatie, doorzoekbaarheid en het ophalen van informatie. GroupDocs.Metadata is een krachtige API waarmee ontwikkelaars kunnen werken met metadata in verschillende bestandsformaten, waaronder PDF's, met behulp van het .NET-framework.
 ## Vereisten

@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET Prüfeigensc
 weight: 13
 url: /de/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---
+
+# Lesen Sie Inspektionseigenschaften aus Tabellenkalkulationen in .NET
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET Eigenschaften aus Tabellenkalkulationen prüfen können. GroupDocs.Metadata für .NET ist eine leistungsstarke Bibliothek, mit der Entwickler Metadaten verschiedener Dateiformate, einschließlich Tabellenkalkulationen, lesen, bearbeiten und entfernen können. Dieses Tutorial konzentriert sich speziell auf das Lesen von Prüfeigenschaften aus Tabellenkalkulationsdateien mit C#.
 ## Voraussetzungen

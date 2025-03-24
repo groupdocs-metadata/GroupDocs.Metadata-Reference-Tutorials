@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 프로젝트 관리 문�
 weight: 10
 url: /ko/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---
+
+# .NET 프로젝트 관리 문서의 기본 제공 속성 읽기
+
 ## 소개
 이 튜토리얼에서는 .NET용 GroupDocs.Metadata를 활용하여 프로젝트 관리 문서에서 기본 제공 속성을 효율적으로 추출하는 방법을 살펴보겠습니다. 이 라이브러리는 Microsoft Project를 포함한 다양한 파일 형식의 메타데이터를 관리하는 강력한 기능을 제공하므로 개발자는 프로그래밍 방식으로 주요 문서 세부 정보에 액세스할 수 있습니다. 우리는 명확성과 구현 용이성을 보장하기 위해 각 예를 분석하여 프로세스를 단계별로 안내할 것입니다.
 ## 전제 조건

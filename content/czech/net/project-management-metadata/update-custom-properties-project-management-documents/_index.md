@@ -6,6 +6,9 @@ description: Zjistěte, jak aktualizovat uživatelské vlastnosti v dokumentech 
 weight: 13
 url: /cs/net/project-management-metadata/update-custom-properties-project-management-documents/
 ---
+
+# Aktualizujte uživatelské vlastnosti v .NET Project Management Documents
+
 ## Úvod
 oblasti vývoje .NET je efektivní správa metadat dokumentů zásadní pro různé aplikace. GroupDocs.Metadata for .NET poskytuje robustní řešení pro interakci s metadaty v různých formátech souborů, včetně dokumentů pro řízení projektů, jako jsou soubory Microsoft Project (MPP). Tento kurz vás provede procesem aktualizace uživatelských vlastností v dokumentech pro řízení projektů .NET pomocí GroupDocs.Metadata.
 ## Předpoklady

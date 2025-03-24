@@ -6,6 +6,9 @@ description: Tìm hiểu cách quản lý hiệu quả siêu dữ liệu bản t
 weight: 25
 url: /vi/net/presentation-metadata/
 ---
+
+# Siêu dữ liệu bản trình bày
+
 ## Giới thiệu
 
 Trong thời đại kỹ thuật số ngày nay, việc quản lý siêu dữ liệu trong bản trình bày là rất quan trọng để tổ chức và truy xuất thông tin hiệu quả. GroupDocs.Metadata dành cho .NET cung cấp giải pháp mạnh mẽ cho các nhà phát triển đang tìm cách hợp lý hóa quy trình này. Cho dù bạn đang trích xuất các thuộc tính tích hợp sẵn, truy cập siêu dữ liệu tùy chỉnh hay cập nhật các thuộc tính kiểm tra, hướng dẫn của chúng tôi đều cung cấp hướng dẫn từng bước để tích hợp liền mạch vào các dự án .NET của bạn.

@@ -6,6 +6,9 @@ description: Tìm hiểu cách quản lý siêu dữ liệu tệp trong .NET b�
 weight: 11
 url: /vi/net/metadata-loading/load-metadata-stream/
 ---
+
+# Tải siêu dữ liệu từ luồng trong hướng dẫn .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng GroupDocs.Metadata cho .NET để quản lý hiệu quả siêu dữ liệu trong các ứng dụng .NET của bạn. Siêu dữ liệu, chẳng hạn như thuộc tính tài liệu, có thể cung cấp thông tin có giá trị về tệp, bao gồm các chi tiết như tác giả, ngày tạo và từ khóa. GroupDocs.Metadata đơn giản hóa quá trình đọc, chỉnh sửa và xóa siêu dữ liệu khỏi các định dạng tệp khác nhau trong môi trường .NET. Hướng dẫn này sẽ tập trung vào việc tải siêu dữ liệu từ một luồng, trình bày các quy trình từng bước bằng các ví dụ thực tế.
 ## Điều kiện tiên quyết

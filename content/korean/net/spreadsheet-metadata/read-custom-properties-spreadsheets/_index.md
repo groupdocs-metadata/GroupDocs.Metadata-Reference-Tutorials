@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 스프레드시트에서
 weight: 11
 url: /ko/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---
+
+# .NET의 스프레드시트에서 사용자 정의 속성 읽기
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Metadata를 사용하여 스프레드시트에서 사용자 정의 속성을 추출하는 방법을 살펴보겠습니다. GroupDocs.Metadata는 개발자가 스프레드시트를 포함한 다양한 파일 형식의 메타데이터 속성을 읽고, 편집하고, 조작할 수 있는 강력한 라이브러리입니다.
 ## 전제 조건

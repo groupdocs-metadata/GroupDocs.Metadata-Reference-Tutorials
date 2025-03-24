@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用して Excel ファイルの�
 weight: 14
 url: /ja/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
 ---
+
+# .NET を使用してスプレッドシートの組み込みプロパティを更新する
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を利用して、C# を使用してスプレッドシート ファイルの組み込みプロパティを更新する方法を検討します。 GroupDocs.Metadata は、開発者がスプレッドシートを含むさまざまなファイル形式からメタデータ プロパティを読み取り、編集、削除できる強力な API です。特に、Excel ファイル内の作成者、作成時刻、会社、カテゴリ、キーワードなどのプロパティの変更に焦点を当てます。
 ## 前提条件

@@ -6,6 +6,9 @@ description: GroupDocs.Metadata を使用して .NET のプレゼンテーショ
 weight: 11
 url: /ja/net/presentation-metadata/read-custom-properties-presentations/
 ---
+
+# .NET のプレゼンテーションからカスタム プロパティを読み取る
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata を使用して .NET のプレゼンテーションからカスタム プロパティを読み取る方法について説明します。カスタム プロパティには、プレゼンテーション ファイル内に埋め込まれた追加情報が含まれており、コンテンツの整理、分類、または説明に役立ちます。GroupDocs.Metadata ライブラリを活用することで、開発者はさまざまな目的でこれらのカスタム プロパティに効率的にアクセスして抽出できます。
 ## 前提条件

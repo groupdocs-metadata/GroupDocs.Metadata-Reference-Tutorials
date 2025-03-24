@@ -6,6 +6,9 @@ description: Découvrez comment lire les propriétés de format de fichier à pa
 weight: 13
 url: /fr/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
+
+# Lire les propriétés du format de fichier à partir de diagrammes dans .NET
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment utiliser GroupDocs.Metadata pour .NET pour lire les propriétés de format de fichier à partir de diagrammes. Cette bibliothèque permet une manipulation et une extraction faciles des métadonnées de différents formats de fichiers au sein des applications .NET. Nous passerons en revue les conditions préalables, l'importation d'espaces de noms et des exemples étape par étape pour illustrer comment y parvenir.
 

@@ -6,6 +6,9 @@ description: Z łatwością zarządzaj metadanymi plików w .NET za pomocą Grou
 weight: 20
 url: /pl/net/metadata-loading/
 ---
+
+# Ładowanie metadanych
+
 ## Wstęp
 
 Chcesz zwiększyć możliwości manipulacji plikami aplikacji .NET? Zapoznaj się z samouczkami GroupDocs.Metadata for .NET obejmującymi różne aspekty ładowania metadanych. Od ładowania metadanych z dysków lokalnych po obsługę dokumentów chronionych hasłem – mamy wszystko, czego potrzebujesz.

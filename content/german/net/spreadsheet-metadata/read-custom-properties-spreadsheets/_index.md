@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET benutzerdefi
 weight: 11
 url: /de/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---
+
+# Lesen Sie benutzerdefinierte Eigenschaften aus Tabellenkalkulationen in .NET
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET benutzerdefinierte Eigenschaften aus Tabellen extrahieren. GroupDocs.Metadata ist eine leistungsstarke Bibliothek, mit der Entwickler Metadateneigenschaften in verschiedenen Dateiformaten, einschließlich Tabellen, lesen, bearbeiten und manipulieren können.
 ## Voraussetzungen

@@ -6,6 +6,9 @@ description: Découvrez comment lire les métadonnées PDF dans .NET à l'aide d
 weight: 10
 url: /fr/net/pdf-metadata/read-built-in-properties-pdfs/
 ---
+
+# Lire les propriétés intégrées à partir de fichiers PDF dans .NET
+
 ## Introduction
 Dans ce didacticiel, nous explorerons comment exploiter GroupDocs.Metadata pour .NET pour lire les propriétés intégrées à partir de fichiers PDF. GroupDocs.Metadata est une bibliothèque puissante qui permet aux développeurs de travailler avec des métadonnées associées à divers formats de documents, notamment des PDF, des documents Microsoft Office, des images, etc. En utilisant cette bibliothèque, vous pouvez facilement accéder et manipuler les attributs de métadonnées intégrés dans les fichiers PDF, tels que les noms d'auteurs, les dates de création, les sujets, etc.
 ## Conditions préalables

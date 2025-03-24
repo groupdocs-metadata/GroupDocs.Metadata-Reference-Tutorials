@@ -6,6 +6,9 @@ description: Pelajari cara membaca properti metadata asli dari arsip 7Zip menggu
 weight: 11
 url: /id/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
+
+# Baca Properti Metadata Asli dari Arsip 7Zip di .NET
+
 ## Perkenalan
 Dalam bidang pengembangan .NET, pengelolaan metadata—seperti properti dokumen, informasi file, dan tag—sangat penting untuk pengorganisasian dan pengambilan data yang efisien. GroupDocs.Metadata untuk .NET menyediakan perangkat canggih untuk mengakses dan memanipulasi metadata dalam berbagai format file. Tutorial ini berfokus pada pemanfaatan kemampuan GroupDocs.Metadata untuk membaca properti metadata asli dari arsip 7Zip di .NET. 
 ## Prasyarat

@@ -6,6 +6,9 @@ description: 使用 GroupDocs.Metadata 輕鬆管理 .NET 應用程式中的文�
 weight: 10
 url: /zh-hant/net/metadata-loading/load-metadata-local-disk/
 ---
+
+# 如何在.NET中從本機磁碟載入元數據
+
 ## 介紹
 在 .NET 開發領域，管理與文件關聯的元資料對於各種應用程式至關重要。 GroupDocs.Metadata for .NET 提供了一個強大的解決方案，可以輕鬆地從檔案中讀取、編輯和刪除元資料。本教學將引導您完成使用 GroupDocs.Metadata 從本機磁碟載入元資料的過程，幫助您有效地利用這個強大的函式庫。
 ## 先決條件

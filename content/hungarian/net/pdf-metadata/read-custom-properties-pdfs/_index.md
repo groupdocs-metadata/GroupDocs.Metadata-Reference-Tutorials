@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan bonthat ki egyéni tulajdonságokat PDF-fájlok
 weight: 11
 url: /hu/net/pdf-metadata/read-custom-properties-pdfs/
 ---
+
+# Olvasson egyéni tulajdonságokat a .NET-ben található PDF-fájlokból
+
 ## Bevezetés
 A .NET fejlesztés területén a dokumentumokon belüli metaadatok kezelése kulcsfontosságú az értékes információk rendszerezéséhez és kinyeréséhez. A GroupDocs.Metadata for .NET hatékony eszközöket kínál az egyéni tulajdonságok PDF-ekből történő olvasásához, lehetővé téve a fejlesztők számára a dokumentumok metaadatainak hatékony elérését és felhasználását. Ez az oktatóanyag végigvezeti Önt a GroupDocs.Metadata alkalmazásának folyamatán, amellyel egyéni tulajdonságokat kérhet le PDF-fájlokból C# használatával.
 ## Előfeltételek

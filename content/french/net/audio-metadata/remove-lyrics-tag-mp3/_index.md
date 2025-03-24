@@ -6,6 +6,9 @@ description: Découvrez comment supprimer les balises Paroles des fichiers MP3 �
 weight: 18
 url: /fr/net/audio-metadata/remove-lyrics-tag-mp3/
 ---
+
+# Supprimer la balise de paroles des fichiers MP3 dans .NET
+
 ## Introduction
 Dans ce didacticiel, nous allons explorer comment utiliser GroupDocs.Metadata pour .NET pour supprimer la balise Lyrics des fichiers MP3. GroupDocs.Metadata est une API puissante qui permet aux développeurs de travailler avec des métadonnées dans différents formats de fichiers, notamment des fichiers MP3. En suivant les étapes décrites dans ce guide, vous serez en mesure de manipuler efficacement les métadonnées au sein de vos applications .NET.
 ## Conditions préalables

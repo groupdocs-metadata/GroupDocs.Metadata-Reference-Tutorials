@@ -6,6 +6,9 @@ description: Dowiedz się, jak czytać tagi ID3V1 z plików MP3 przy użyciu Gro
 weight: 11
 url: /pl/net/audio-metadata/read-id3v1-tag-mp3/
 ---
+
+# Odczytaj znacznik ID3V1 z plików MP3 w .NET
+
 ## Wstęp
 tym samouczku dowiesz się, jak wyodrębnić znaczniki ID3V1 z plików MP3 przy użyciu narzędzia GroupDocs.Metadata dla platformy .NET. GroupDocs.Metadata to potężna biblioteka umożliwiająca pracę z metadanymi w różnych formatach plików, w tym plikami audio MP3. Krok po kroku przeprowadzimy Cię przez proces.
 ## Warunki wstępne

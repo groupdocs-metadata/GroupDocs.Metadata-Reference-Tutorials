@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak 7Zip arşivlerinden yerel 
 weight: 11
 url: /tr/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
+
+# .NET'teki 7Zip Arşivlerinden Yerel Meta Veri Özelliklerini Okuyun
+
 ## giriiş
 .NET geliştirme alanında, belge özellikleri, dosya bilgileri ve etiketler gibi meta verileri yönetmek, verimli veri organizasyonu ve alımı için çok önemlidir. GroupDocs.Metadata for .NET, çeşitli dosya formatlarındaki meta verilere erişmek ve bunları değiştirmek için güçlü bir araç seti sağlar. Bu eğitim, .NET'teki 7Zip arşivlerinden yerel meta veri özelliklerini okumak için GroupDocs.Metadata'nın yeteneklerinden yararlanmaya odaklanmaktadır. 
 ## Önkoşullar

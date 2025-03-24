@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata 从 .NET 中的图表读取�
 weight: 13
 url: /zh/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
+
+# 从 .NET 图表中读取文件格式属性
+
 ## 介绍
 在本教程中，我们将探讨如何使用 GroupDocs.Metadata for .NET 从图表中读取文件格式属性。该库允许轻松操作和提取 .NET 应用程序中各种文件格式的元数据。我们将通过先决条件、导入命名空间和分步示例来说明如何实现这一目标。
 

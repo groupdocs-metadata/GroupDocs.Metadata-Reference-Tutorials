@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 从 PDF 文档中提
 weight: 14
 url: /zh/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
+
+# 从 .NET 中的 PDF 读取检查属性
+
 ## 介绍
 在本教程中，我们将探讨如何利用 GroupDocs.Metadata for .NET 以编程方式从 PDF 文档中提取检查属性。GroupDocs.Metadata 是一个功能强大的 .NET 库，允许开发人员使用嵌入在各种文件格式（包括 PDF）中的元数据。通过利用此库，您可以访问和操作 PDF 文件中的各种文档属性、注释、附件、书签、数字签名和字段。
 ## 先决条件

@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用してドキュメント メ�
 weight: 13
 url: /ja/net/metadata-loading/load-metadata-password-protected/
 ---
+
+# .NET でパスワード保護されたドキュメントからメタデータを読み込む方法
+
 ## 導入
 .NET 開発の世界では、ドキュメント内のメタデータの管理はさまざまなアプリケーションにとって重要です。GroupDocs.Metadata for .NET は、メタデータを簡単に抽出、編集、管理するための強力なツールを提供します。このチュートリアルでは、GroupDocs.Metadata を使用してパスワードで保護されたドキュメントからメタデータを読み込むプロセスについて説明します。
 ##前提条件

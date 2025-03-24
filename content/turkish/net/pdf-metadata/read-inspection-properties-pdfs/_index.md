@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak PDF belgelerinden inceleme
 weight: 14
 url: /tr/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
+
+# .NET'teki PDF'lerden Denetim Özelliklerini Okuyun
+
 ## giriiş
 Bu öğreticide, PDF belgelerinden denetim özelliklerini programlı olarak çıkarmak için GroupDocs.Metadata for .NET'in nasıl kullanılacağını keşfedeceğiz. GroupDocs.Metadata, geliştiricilerin PDF'ler de dahil olmak üzere çeşitli dosya formatlarına gömülü meta verilerle çalışmasına olanak tanıyan güçlü bir .NET kitaplığıdır. Bu kitaplıktan yararlanarak çok çeşitli belge özelliklerine, açıklamalara, eklere, yer imlerine, dijital imzalara ve PDF dosyalarındaki alanlara erişebilir ve bunları yönetebilirsiniz.
 ## Önkoşullar

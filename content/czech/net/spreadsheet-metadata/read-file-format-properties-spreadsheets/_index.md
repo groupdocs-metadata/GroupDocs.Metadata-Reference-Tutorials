@@ -6,6 +6,9 @@ description: Naučte se číst vlastnosti formátu souboru tabulky pomocí Group
 weight: 12
 url: /cs/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
+
+# Přečtěte si vlastnosti formátu souboru z Tabulek v .NET
+
 ## Úvod
 tomto tutoriálu prozkoumáme, jak využít GroupDocs.Metadata pro .NET k efektivnímu čtení vlastností formátu souboru z tabulek. GroupDocs.Metadata for .NET je výkonné rozhraní API, které umožňuje vývojářům extrahovat, upravovat a spravovat metadata související s různými formáty souborů v rámci jejich aplikací .NET. Konkrétně se zaměříme na získávání základních informací o tabulkových souborech pomocí této knihovny.
 ## Předpoklady

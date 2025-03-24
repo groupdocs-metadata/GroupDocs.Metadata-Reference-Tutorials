@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan olvashat natív metaadat-tulajdonságokat a 7Zi
 weight: 11
 url: /hu/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
+
+# Olvassa el a natív metaadatok tulajdonságait a 7Zip archívumból a .NET-ben
+
 ## Bevezetés
 .NET fejlesztés területén a metaadatok – például a dokumentumtulajdonságok, a fájlinformációk és a címkék – kezelése kulcsfontosságú a hatékony adatszervezés és -visszakeresés szempontjából. A GroupDocs.Metadata for .NET hatékony eszközkészletet biztosít a különböző fájlformátumokon belüli metaadatok eléréséhez és kezeléséhez. Ez az oktatóanyag a GroupDocs.Metadata képességeinek kiaknázására összpontosít a natív metaadat-tulajdonságok olvasására a .NET 7Zip archívumából. 
 ## Előfeltételek

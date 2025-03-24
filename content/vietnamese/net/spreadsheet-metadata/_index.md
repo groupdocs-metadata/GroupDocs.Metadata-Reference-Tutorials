@@ -7,6 +7,9 @@ description: Khai phá sức mạnh của GroupDocs.Metadata dành cho .NET bằ
 weight: 27
 url: /vi/net/spreadsheet-metadata/
 ---
+
+# Siêu dữ liệu bảng tính
+
 ## Giới thiệu
 
 GroupDocs.Metadata dành cho .NET cung cấp một bộ hướng dẫn toàn diện nhằm trao quyền cho các nhà phát triển tận dụng thao tác siêu dữ liệu trong tệp bảng tính một cách hiệu quả. Hãy đi sâu vào các hướng dẫn này để hiểu cách chúng có thể nâng cao ứng dụng .NET của bạn.

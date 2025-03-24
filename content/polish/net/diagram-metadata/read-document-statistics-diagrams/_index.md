@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyodrębniać statystyki dokumentów z diagramów
 weight: 12
 url: /pl/net/diagram-metadata/read-document-statistics-diagrams/
 ---
+
+# Czytaj statystyki dokumentów z diagramów w .NET
+
 ## Wstęp
 tym samouczku omówimy, jak używać GroupDocs.Metadata dla platformy .NET do wyodrębniania statystyk dokumentów z diagramów. GroupDocs.Metadata to potężna biblioteka, która umożliwia programistom pracę z metadanymi powiązanymi z różnymi formatami plików. Postępując zgodnie z tym przewodnikiem krok po kroku, dowiesz się, jak odczytywać statystyki dokumentów z diagramów przy użyciu języka C#.
 ## Warunki wstępne

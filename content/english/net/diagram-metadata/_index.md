@@ -6,6 +6,9 @@ description: Discover comprehensive tutorials on managing diagram metadata with 
 weight: 23
 url: /net/diagram-metadata/
 ---
+
+# Diagram Metadata
+
 ## Introduction
 
 Are you looking to harness the power of metadata manipulation for your diagram files in .NET? Dive into our series of tutorials dedicated to GroupDocs.Metadata for .NET, a robust library designed to simplify metadata extraction, analysis, and modification tasks. Whether you're a seasoned developer or just starting your journey in .NET development, these tutorials offer step-by-step guidance to help you leverage metadata effectively.

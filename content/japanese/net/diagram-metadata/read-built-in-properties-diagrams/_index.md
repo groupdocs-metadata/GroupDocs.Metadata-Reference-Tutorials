@@ -6,6 +6,9 @@ description: GroupDocs.Metadata を使用して .NET のダイアグラム フ�
 weight: 10
 url: /ja/net/diagram-metadata/read-built-in-properties-diagrams/
 ---
+
+# .NET のダイアグラムから組み込みプロパティを読み取る
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を使用してダイアグラムから組み込みプロパティを読み取る方法について詳しく説明します。GroupDocs.Metadata for .NET は、ダイアグラム、プレゼンテーション、画像など、さまざまなドキュメント タイプに関連付けられたメタデータを開発者が操作できるようにする強力なライブラリです。具体的には、このライブラリを使用してダイアグラム ファイルからメタデータ プロパティを抽出することに焦点を当てます。
 ## 前提条件

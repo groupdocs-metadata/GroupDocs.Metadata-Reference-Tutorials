@@ -6,6 +6,9 @@ description: Naučte se extrahovat uživatelské vlastnosti z PDF pomocí GroupD
 weight: 11
 url: /cs/net/pdf-metadata/read-custom-properties-pdfs/
 ---
+
+# Čtení uživatelských vlastností z PDF v .NET
+
 ## Úvod
 V oblasti vývoje .NET je správa metadat v dokumentech zásadní pro organizaci a extrahování cenných informací. GroupDocs.Metadata for .NET nabízí výkonné nástroje pro čtení uživatelských vlastností z PDF a umožňuje vývojářům efektivně přistupovat a využívat metadata dokumentů. Tento tutoriál vás provede procesem využití GroupDocs.Metadata k načtení uživatelských vlastností ze souborů PDF pomocí C#.
 ## Předpoklady

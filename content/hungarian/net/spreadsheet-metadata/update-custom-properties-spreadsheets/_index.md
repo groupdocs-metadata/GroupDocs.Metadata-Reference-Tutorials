@@ -6,6 +6,9 @@ description: Fedezze fel, hogyan frissítheti az egyéni tulajdonságokat a táb
 weight: 15
 url: /hu/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---
+
+# Frissítse az egyéni tulajdonságokat a táblázatokban a .NET használatával
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan frissíthetők az egyéni tulajdonságok a táblázatokban a GroupDocs.Metadata for .NET könyvtár használatával. Az egyéni tulajdonságok javíthatják a táblázatfájlok metaadatait, és további kontextust vagy információkat biztosítanak, amelyekre a szabványos tulajdonságok nem vonatkoznak.
 ## Előfeltételek

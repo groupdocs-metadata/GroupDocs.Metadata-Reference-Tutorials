@@ -6,6 +6,9 @@ description: Scopri come leggere le proprietà di ispezione dai fogli di calcolo
 weight: 13
 url: /it/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---
+
+# Leggere le proprietà di ispezione dai fogli di calcolo in .NET
+
 ## introduzione
 In questo tutorial esploreremo come utilizzare GroupDocs.Metadata per .NET per controllare le proprietà dai fogli di calcolo. GroupDocs.Metadata per .NET è una potente libreria che consente agli sviluppatori di leggere, modificare e rimuovere metadati associati a vari formati di file, inclusi i fogli di calcolo. Questo tutorial si concentra specificamente sulla lettura delle proprietà di ispezione dai file di fogli di calcolo utilizzando C#.
 ## Prerequisiti

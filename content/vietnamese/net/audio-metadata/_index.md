@@ -7,6 +7,9 @@ weight: 22
 url: /vi/net/audio-metadata/
 ---
 
+# Siêu dữ liệu âm thanh
+
+
 ## Hướng dẫn siêu dữ liệu âm thanh
 
 Bạn có muốn thành thạo thao tác siêu dữ liệu âm thanh trong .NET không? GroupDocs.Metadata for .NET cung cấp các hướng dẫn toàn diện để hỗ trợ bạn xử lý siêu dữ liệu trong tệp MP3 và WAV. Cho dù bạn đang trích xuất, cập nhật hay xóa thẻ, hướng dẫn từng bước của chúng tôi đều cung cấp thông tin chi tiết rõ ràng và ví dụ thực tế để hợp lý hóa quy trình phát triển của bạn.

@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyodrębnić metadane prezentacji przy użyciu Gr
 weight: 14
 url: /pl/net/presentation-metadata/read-inspection-properties-presentations/
 ---
+
+# Przeczytaj właściwości inspekcji z prezentacji w .NET
+
 ## Wstęp
 W tym samouczku omówimy, jak używać GroupDocs.Metadata dla platformy .NET do odczytywania i sprawdzania właściwości prezentacji. GroupDocs.Metadata to potężny interfejs API, który umożliwia programistom pracę z metadanymi osadzonymi w dokumentach, takich jak prezentacje, pliki PDF, obrazy i inne. Skoncentrujemy się szczególnie na prezentacjach (plikach PPTX) i pokażemy, jak wyodrębnić informacje, takie jak komentarze, ukryte slajdy i inne.
 ## Warunki wstępne

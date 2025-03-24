@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 從 7Zip 檔案中�
 weight: 11
 url: /zh-hant/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
+
+# 從 .NET 中的 7Zip 檔案讀取本機元資料屬性
+
 ## 介紹
 在 .NET 開發領域，管理元資料（例如文件屬性、文件資訊和標籤）對於高效的資料組織和檢索至關重要。 GroupDocs.Metadata for .NET 提供了一個強大的工具包，用於存取和操作各種文件格式的元資料。本教學重點在於如何利用 GroupDocs.Metadata 的功能從 .NET 中的 7Zip 檔案讀取本機元資料屬性。 
 ## 先決條件

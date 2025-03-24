@@ -6,6 +6,9 @@ description: Pelajari cara membaca properti inspeksi dari spreadsheet menggunaka
 weight: 13
 url: /id/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---
+
+# Baca Properti Inspeksi dari Spreadsheet di .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menggunakan GroupDocs.Metadata untuk .NET untuk memeriksa properti dari spreadsheet. GroupDocs.Metadata untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang membaca, mengedit, dan menghapus metadata yang terkait dengan berbagai format file, termasuk spreadsheet. Tutorial ini berfokus secara khusus pada membaca properti inspeksi dari file spreadsheet menggunakan C#.
 ## Prasyarat

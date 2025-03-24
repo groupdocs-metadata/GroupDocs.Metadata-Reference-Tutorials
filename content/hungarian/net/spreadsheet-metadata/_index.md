@@ -7,6 +7,9 @@ description: Fedezze fel a GroupDocs.Metadata for .NET erejét a táblázat tula
 weight: 27
 url: /hu/net/spreadsheet-metadata/
 ---
+
+# Táblázat metaadatai
+
 ## Bevezetés
 
 A GroupDocs.Metadata for .NET oktatóanyagok átfogó készletét kínálja, amelyek célja, hogy feljogosítsa a fejlesztőket arra, hogy hatékonyan kihasználják a táblázatfájlok metaadatkezelését. Nézzük meg ezeket az oktatóanyagokat, hogy megértsük, hogyan javíthatják tovább a .NET-alkalmazásokat.

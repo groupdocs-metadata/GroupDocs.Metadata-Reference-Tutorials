@@ -6,6 +6,9 @@ description: GroupDocs.Metadata を使用して .NET のスプレッドシート
 weight: 10
 url: /ja/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
+
+# .NET のスプレッドシートから組み込みプロパティを読み取る
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を利用してスプレッドシートからメタデータを効率的に管理および抽出する方法を詳しく説明します。 GroupDocs.Metadata for .NET は、開発者がスプレッドシート、プレゼンテーション、ドキュメント、画像などを含むさまざまなファイル形式に埋め込まれたメタデータを操作できるようにする強力な API です。このガイドでは、C# を使用してスプレッドシート ファイルから組み込みプロパティを抽出することに特に焦点を当てています。
 ## 前提条件

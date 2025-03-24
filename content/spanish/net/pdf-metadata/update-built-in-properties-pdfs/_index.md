@@ -6,6 +6,9 @@ description: Aprenda a actualizar las propiedades de documentos PDF usando C# y 
 weight: 15
 url: /es/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
+
+# Actualizar propiedades integradas en archivos PDF usando .NET
+
 ## Introducción
 En este tutorial, aprenderemos cómo usar GroupDocs.Metadata para .NET para actualizar las propiedades integradas de los documentos PDF. Esta biblioteca proporciona un poderoso conjunto de herramientas para manipular metadatos dentro de varios formatos de documentos. Revisaremos los pasos necesarios para modificar propiedades como autor, título, fecha de creación, palabras clave, creador y productor en un archivo PDF usando C#.
 ## Requisitos previos

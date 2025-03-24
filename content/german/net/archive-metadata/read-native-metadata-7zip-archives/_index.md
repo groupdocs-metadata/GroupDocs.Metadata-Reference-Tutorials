@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET native Metad
 weight: 11
 url: /de/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
+
+# Lesen Sie native Metadateneigenschaften aus 7Zip-Archiven in .NET
+
 ## Einführung
 Im Bereich der .NET-Entwicklung ist die Verwaltung von Metadaten – wie Dokumenteigenschaften, Dateiinformationen und Tags – für eine effiziente Datenorganisation und -abfrage von entscheidender Bedeutung. GroupDocs.Metadata für .NET bietet ein leistungsstarkes Toolkit für den Zugriff auf und die Bearbeitung von Metadaten in verschiedenen Dateiformaten. In diesem Tutorial geht es darum, die Funktionen von GroupDocs.Metadata zu nutzen, um native Metadateneigenschaften aus 7Zip-Archiven in .NET zu lesen. 
 ## Voraussetzungen

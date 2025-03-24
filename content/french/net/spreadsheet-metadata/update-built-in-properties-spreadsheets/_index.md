@@ -6,6 +6,9 @@ description: Découvrez comment mettre à jour les propriétés des métadonnée
 weight: 14
 url: /fr/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
 ---
+
+# Mettre à jour les propriétés intégrées dans les feuilles de calcul à l'aide de .NET
+
 ## Introduction
 Dans ce didacticiel, nous explorerons comment utiliser GroupDocs.Metadata pour .NET pour mettre à jour les propriétés intégrées dans les feuilles de calcul à l'aide de C#. GroupDocs.Metadata est une API puissante qui permet aux développeurs de lire, modifier et supprimer les propriétés des métadonnées de divers formats de fichiers, y compris les feuilles de calcul. Nous nous concentrerons spécifiquement sur la modification des propriétés telles que l'auteur, l'heure de création, l'entreprise, la catégorie et les mots-clés dans les fichiers Excel.
 ## Conditions préalables

@@ -6,6 +6,9 @@ description: 了解如何使用强大的元数据操作库 GroupDocs.Metadata �
 weight: 12
 url: /zh/net/diagram-metadata/read-document-statistics-diagrams/
 ---
+
+# 从 .NET 中的图表读取文档统计信息
+
 ## 介绍
 在本教程中，我们将探讨如何使用 GroupDocs.Metadata for .NET 从图表中提取文档统计信息。GroupDocs.Metadata 是一个功能强大的库，允许开发人员处理与各种文件格式相关的元数据。通过遵循本分步指南，您将学习如何使用 C# 从图表中读取文档统计信息。
 ## 先决条件

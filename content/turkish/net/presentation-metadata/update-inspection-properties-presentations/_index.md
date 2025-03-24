@@ -6,6 +6,9 @@ description: GroupDocs.Metadata ile .NET kullanarak sunumlardaki inceleme özell
 weight: 17
 url: /tr/net/presentation-metadata/update-inspection-properties-presentations/
 ---
+
+# .NET kullanarak Sunumlardaki Denetim Özelliklerini Güncelleme
+
 ## giriiş
 .NET geliştirme alanında, sunumlardaki meta verileri yönetmek ve değiştirmek, veri işleme ve organizasyonun çok önemli bir yönüdür. GroupDocs.Metadata for .NET, geliştiricilerin çeşitli dosya formatlarındaki meta verileri sorunsuz bir şekilde işlemesi için güçlü bir çözüm sağlar. Bu eğitimde, C# kullanarak özellikle sunumlar (.PPTX dosyaları) için denetim özelliklerini güncellemek amacıyla GroupDocs.Metadata'nın nasıl kullanılacağı anlatılmaktadır.
 ## Önkoşullar

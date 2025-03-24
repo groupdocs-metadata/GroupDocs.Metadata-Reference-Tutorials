@@ -6,6 +6,9 @@ description: Scopri come aggiornare le proprietà di ispezione nei documenti PDF
 weight: 17
 url: /it/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
+
+# Aggiorna le proprietà di ispezione nei PDF utilizzando .NET
+
 ## introduzione
 In questo tutorial esploreremo come aggiornare le proprietà di ispezione nei documenti PDF utilizzando la libreria GroupDocs.Metadata per .NET. Questa libreria ci consente di gestire in modo efficiente metadati, annotazioni, allegati e altro all'interno dei file PDF.
 ## Prerequisiti

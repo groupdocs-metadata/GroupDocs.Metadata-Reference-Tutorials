@@ -6,6 +6,9 @@ description: Frissítse az MP3-fájlok ID3V1-címkéit a GroupDocs.Metadata for 
 weight: 19
 url: /hu/net/audio-metadata/update-id3v1-tag-mp3/
 ---
+
+# Frissítse az ID3V1 címkét az MP3 fájlokban a .NET használatával
+
 ## Bevezetés
 Ebben az oktatóanyagban megtudjuk, hogyan frissítheti az ID3V1 címkéket MP3-fájlokban a GroupDocs.Metadata for .NET használatával. Ez a könyvtár lehetővé teszi a különböző dokumentumformátumú metaadatok programozott kezelését.
 ## Előfeltételek

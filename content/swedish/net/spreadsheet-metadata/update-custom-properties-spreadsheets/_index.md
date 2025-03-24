@@ -6,6 +6,9 @@ description: Upptäck hur du uppdaterar anpassade egenskaper i kalkylblad med Gr
 weight: 15
 url: /sv/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---
+
+# Uppdatera anpassade egenskaper i kalkylblad med .NET
+
 ## Introduktion
 I den här självstudien kommer vi att utforska hur du uppdaterar anpassade egenskaper i kalkylblad med hjälp av GroupDocs.Metadata for .NET-biblioteket. Anpassade egenskaper kan förbättra metadata för dina kalkylarksfiler, ge ytterligare sammanhang eller information som inte täcks av standardegenskaper.
 ## Förutsättningar

@@ -6,6 +6,9 @@ description: Aprenda como extrair propriedades de formato de arquivo PDF usando 
 weight: 13
 url: /pt/net/pdf-metadata/read-file-format-properties-pdfs/
 ---
+
+# Leia propriedades de formato de arquivo de PDFs em .NET
+
 ## Introdução
 Neste tutorial, exploraremos como aproveitar GroupDocs.Metadata for .NET para ler propriedades de formato de arquivo de documentos PDF. GroupDocs.Metadata for .NET é uma biblioteca poderosa que permite aos desenvolvedores trabalhar com metadados associados a vários formatos de arquivo, permitindo gerenciamento e extração eficientes de atributos de metadados. Especificamente, nos concentraremos na extração de propriedades essenciais de arquivos PDF usando exemplos de código simples e eficazes.
 ## Pré-requisitos

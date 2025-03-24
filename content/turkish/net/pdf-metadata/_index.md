@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET eğitimleriyle PDF meta verilerini zahm
 weight: 24
 url: /tr/net/pdf-metadata/
 ---
+
+# PDF Meta Verileri
+
 ## giriiş
 
  PDF meta veri yönetiminin potansiyelini ortaya çıkarın[.NET için GroupDocs.Metadata](https://www.groupdocs.com/products/metadata/net). İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitimler meta veri manipülasyonunun gücünden yararlanma konusunda paha biçilmez bilgiler sunar.

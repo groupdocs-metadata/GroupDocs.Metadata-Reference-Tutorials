@@ -6,6 +6,9 @@ description: Dowiedz się, jak czytać niestandardowe właściwości z prezentac
 weight: 11
 url: /pl/net/presentation-metadata/read-custom-properties-presentations/
 ---
+
+# Przeczytaj właściwości niestandardowe z prezentacji w .NET
+
 ## Wstęp
 W tym samouczku przyjrzymy się, jak czytać niestandardowe właściwości z prezentacji w .NET przy użyciu GroupDocs.Metadata. Właściwości niestandardowe zawierają dodatkowe informacje osadzone w pliku prezentacji, które mogą być przydatne do organizowania, kategoryzowania lub opisywania zawartości. Wykorzystując bibliotekę GroupDocs.Metadata, programiści mogą efektywnie uzyskiwać dostęp do tych niestandardowych właściwości i je wyodrębniać do różnych celów.
 ## Warunki wstępne

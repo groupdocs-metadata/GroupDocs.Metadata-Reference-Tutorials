@@ -6,6 +6,9 @@ description: Zjistěte, jak aktualizovat vlastní vlastnosti v tabulkách pomoc�
 weight: 15
 url: /cs/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---
+
+# Aktualizujte uživatelské vlastnosti v tabulkách pomocí .NET
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak aktualizovat uživatelské vlastnosti v tabulkách pomocí knihovny GroupDocs.Metadata for .NET. Vlastní vlastnosti mohou vylepšit metadata vašich tabulkových souborů a poskytnout další kontext nebo informace, které nejsou pokryty standardními vlastnostmi.
 ## Předpoklady

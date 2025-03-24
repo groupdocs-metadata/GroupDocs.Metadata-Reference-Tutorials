@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 스프레드시트 파�
 weight: 12
 url: /ko/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
+
+# .NET의 스프레드시트에서 파일 형식 속성 읽기
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Metadata를 활용하여 스프레드시트에서 파일 형식 속성을 효율적으로 읽는 방법을 살펴보겠습니다. .NET용 GroupDocs.Metadata는 개발자가 .NET 응용 프로그램 내에서 다양한 파일 형식과 관련된 메타데이터를 추출, 편집 및 관리할 수 있는 강력한 API입니다. 특히 이 라이브러리를 사용하여 스프레드시트 파일에 대한 필수 정보를 검색하는 데 중점을 둘 것입니다.
 ## 전제 조건

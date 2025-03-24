@@ -6,6 +6,9 @@ description: Learn how to update custom properties in .NET project management do
 weight: 13
 url: /net/project-management-metadata/update-custom-properties-project-management-documents/
 ---
+
+# Update Custom Properties in .NET Project Management Documents
+
 ## Introduction
 In the realm of .NET development, managing document metadata efficiently is crucial for various applications. GroupDocs.Metadata for .NET provides a robust solution to interact with metadata across different file formats, including project management documents like Microsoft Project (MPP) files. This tutorial will guide you through the process of updating custom properties within .NET project management documents using GroupDocs.Metadata.
 ## Prerequisites

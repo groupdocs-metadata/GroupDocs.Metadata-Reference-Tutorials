@@ -6,6 +6,9 @@ description: GroupDocs.Metadata を使用して .NET で PDF メタデータを�
 weight: 10
 url: /ja/net/pdf-metadata/read-built-in-properties-pdfs/
 ---
+
+# .NET で PDF から組み込みプロパティを読み取る
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を利用して PDF ファイルから組み込みプロパティを読み取る方法について説明します。GroupDocs.Metadata は、開発者が PDF、Microsoft Office ドキュメント、画像など、さまざまなドキュメント形式に関連付けられたメタデータを操作できるようにする強力なライブラリです。このライブラリを使用すると、作成者名、作成日、件名など、PDF ファイルに埋め込まれたメタデータ属性に簡単にアクセスして操作できます。
 ## 前提条件

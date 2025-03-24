@@ -6,6 +6,9 @@ description: Tìm hiểu cách cập nhật các thuộc tính tùy chỉnh tron
 weight: 15
 url: /vi/net/diagram-metadata/update-custom-properties-diagrams/
 ---
+
+# Cập nhật thuộc tính tùy chỉnh trong sơ đồ bằng .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách cập nhật các thuộc tính tùy chỉnh trong sơ đồ bằng .NET với sự trợ giúp của GroupDocs.Metadata cho .NET. Thuộc tính tùy chỉnh trong sơ đồ có thể cần thiết để thêm siêu dữ liệu hoặc thông tin bổ sung vào tệp của bạn, nâng cao khả năng sử dụng và tổ chức của chúng. GroupDocs.Metadata cho .NET cung cấp một bộ công cụ mạnh mẽ để thao tác và cập nhật siêu dữ liệu trong các định dạng tài liệu khác nhau, bao gồm cả sơ đồ.
 ## Điều kiện tiên quyết

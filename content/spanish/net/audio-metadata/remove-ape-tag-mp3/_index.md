@@ -6,6 +6,9 @@ description: Aprenda cómo eliminar etiquetas APE de archivos MP3 usando GroupDo
 weight: 15
 url: /es/net/audio-metadata/remove-ape-tag-mp3/
 ---
+
+# Eliminar la etiqueta APE de archivos MP3 en .NET
+
 ## Introducción
 En el ámbito del desarrollo de .NET, la gestión de metadatos dentro de archivos es crucial para organizar y manipular datos de manera eficiente. Una herramienta poderosa para este propósito es GroupDocs.Metadata para .NET, que ofrece sólidas funcionalidades para leer, editar y eliminar metadatos de varios formatos de archivos. En este tutorial, nos centraremos en una tarea específica: eliminar etiquetas APE de archivos MP3 usando GroupDocs.Metadata para .NET. 
 ## Requisitos previos

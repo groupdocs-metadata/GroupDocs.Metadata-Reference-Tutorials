@@ -6,6 +6,9 @@ description: Gelişmiş dosya işleme yetenekleri için GroupDocs.Metadata ile .
 weight: 10
 url: /tr/net/metadata-loading/load-metadata-local-disk/
 ---
+
+# .NET'te Yerel Diskten Meta Veriler Nasıl Yüklenir
+
 ## giriiş
 .NET geliştirme alanında, dosyalarla ilişkili meta verileri yönetmek çeşitli uygulamalar için çok önemlidir. GroupDocs.Metadata for .NET, zahmetsizce dosyalardan meta verileri okumak, düzenlemek ve kaldırmak için güçlü bir çözüm sunar. Bu eğitim, GroupDocs.Metadata'yı kullanarak yerel bir diskten meta verileri yükleme sürecinde size rehberlik edecek ve bu güçlü kitaplıktan etkili bir şekilde yararlanmanıza yardımcı olacaktır.
 ## Önkoşullar

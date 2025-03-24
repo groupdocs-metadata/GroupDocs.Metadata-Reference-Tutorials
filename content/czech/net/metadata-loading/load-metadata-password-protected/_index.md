@@ -6,6 +6,9 @@ description: Naučte se, jak efektivně spravovat metadata dokumentů pomocí Gr
 weight: 13
 url: /cs/net/metadata-loading/load-metadata-password-protected/
 ---
+
+# Jak načíst metadata z dokumentu chráněného heslem v .NET
+
 ## Úvod
 Ve světě vývoje .NET je správa metadat v dokumentech klíčová pro různé aplikace. GroupDocs.Metadata for .NET poskytuje výkonné nástroje pro extrakci, úpravu a správu metadat přímočarým způsobem. Tento tutoriál vás provede procesem načítání metadat z dokumentů chráněných heslem pomocí GroupDocs.Metadata.
 ##Předpoklady

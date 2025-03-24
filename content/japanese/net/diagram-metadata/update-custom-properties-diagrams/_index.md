@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用して、.NET でダイアグ�
 weight: 15
 url: /ja/net/diagram-metadata/update-custom-properties-diagrams/
 ---
+
+# .NET を使用してダイアグラムのカスタム プロパティを更新する
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を利用して、.NET でダイアグラムのカスタム プロパティを更新する方法について説明します。ダイアグラムのカスタム プロパティは、ファイルにメタデータや追加情報を追加して、ファイルの使いやすさと整理を向上させるために不可欠です。GroupDocs.Metadata for .NET は、ダイアグラムを含むさまざまなドキュメント形式内のメタデータを操作および更新するための強力なツール セットを提供します。
 ## 前提条件

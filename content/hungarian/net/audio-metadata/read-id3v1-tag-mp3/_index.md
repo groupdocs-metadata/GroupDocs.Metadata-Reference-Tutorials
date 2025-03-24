@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan olvashat ID3V1 címkéket MP3 fájlokból a Gro
 weight: 11
 url: /hu/net/audio-metadata/read-id3v1-tag-mp3/
 ---
+
+# Olvassa el az ID3V1 címkét az MP3 fájlokból a .NET-ben
+
 ## Bevezetés
 Ebből az oktatóanyagból megtudhatja, hogyan bonthat ki ID3V1 címkéket MP3 fájlokból a GroupDocs.Metadata for .NET segítségével. A GroupDocs.Metadata egy hatékony könyvtár, amely lehetővé teszi a különböző fájlformátumú metaadatok kezelését, beleértve az MP3 hangfájlokat is. Lépésről lépésre végigvezetjük a folyamaton.
 ## Előfeltételek

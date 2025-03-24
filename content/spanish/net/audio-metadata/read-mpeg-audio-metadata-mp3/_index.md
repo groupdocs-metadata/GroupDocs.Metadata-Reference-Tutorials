@@ -6,6 +6,9 @@ description: Aprenda a extraer metadatos de audio MPEG de archivos MP3 en .NET u
 weight: 14
 url: /es/net/audio-metadata/read-mpeg-audio-metadata-mp3/
 ---
+
+# Leer metadatos de audio MPEG de archivos MP3 en .NET
+
 ## Introducción
 En el mundo del desarrollo .NET, la gestión de metadatos dentro de archivos es esencial para diversas aplicaciones. GroupDocs.Metadata para .NET proporciona potentes herramientas para leer, editar y manipular metadatos en diferentes formatos de archivos. En este tutorial, nos centraremos en aprovechar esta capacidad específicamente para archivos de audio MPEG (MP3) en .NET. Al final de esta guía, estará equipado para extraer eficientemente metadatos de audio MPEG de archivos MP3 usando GroupDocs.Metadata.
 ## Requisitos previos

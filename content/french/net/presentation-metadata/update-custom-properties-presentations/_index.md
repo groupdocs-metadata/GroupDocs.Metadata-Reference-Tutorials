@@ -6,6 +6,9 @@ description: Découvrez comment gérer les métadonnées de présentation à l�
 weight: 16
 url: /fr/net/presentation-metadata/update-custom-properties-presentations/
 ---
+
+# Mettre à jour les propriétés personnalisées dans les présentations à l'aide de .NET
+
 ## Introduction
 Dans ce didacticiel, nous explorerons comment exploiter GroupDocs.Metadata pour .NET pour mettre à jour les propriétés personnalisées dans les présentations. GroupDocs.Metadata est une API puissante qui permet aux développeurs de manipuler par programme des métadonnées dans différents formats de fichiers. Plus précisément, nous nous concentrerons sur les présentations (telles que les fichiers PowerPoint) et montrerons comment ajouter ou modifier des propriétés personnalisées à l'aide de C#.
 ## Conditions préalables

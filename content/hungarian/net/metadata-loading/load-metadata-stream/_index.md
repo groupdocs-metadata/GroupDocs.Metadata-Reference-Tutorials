@@ -6,6 +6,9 @@ description: Ismerje meg a fájlok metaadatainak kezelését .NET-ben a GroupDoc
 weight: 11
 url: /hu/net/metadata-loading/load-metadata-stream/
 ---
+
+# Metaadatok betöltése a Streamből a .NET oktatóprogramban
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatja a GroupDocs.Metadata for .NET-et a .NET-alkalmazásokon belüli metaadatok hatékony kezelésére. A metaadatok, például a dokumentum tulajdonságai értékes információkat szolgáltathatnak a fájlokról, beleértve az olyan részleteket, mint a szerző, a létrehozás dátuma és a kulcsszavak. A GroupDocs.Metadata leegyszerűsíti a különböző fájlformátumokból származó metaadatok olvasásának, szerkesztésének és eltávolításának folyamatát .NET környezetben. Ez az útmutató a metaadatok adatfolyamból történő betöltésére összpontosít, gyakorlati példák segítségével lépésről lépésre bemutatva az eljárásokat.
 ## Előfeltételek

@@ -6,6 +6,9 @@ description: Learn how to remove ID3V1 tags from MP3 files using GroupDocs.Metad
 weight: 16
 url: /net/audio-metadata/remove-id3v1-tag-mp3/
 ---
+
+# Remove ID3V1 Tag from MP3 Files in .NET
+
 ## Introduction
 In this tutorial, we'll explore how to remove the ID3V1 tag from MP3 files using GroupDocs.Metadata for .NET. GroupDocs.Metadata is a powerful library that allows developers to manipulate metadata properties of various file formats, including MP3 files. The ID3V1 tag is commonly used to store metadata like artist name, track title, album, and genre in MP3 files, but sometimes you may need to remove it for specific requirements. We'll walk through the process step-by-step using practical examples.
 ## Prerequisites

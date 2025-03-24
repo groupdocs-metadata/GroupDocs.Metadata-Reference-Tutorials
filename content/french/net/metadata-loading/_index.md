@@ -6,6 +6,9 @@ description: Gérez sans effort les métadonnées des fichiers dans .NET avec Gr
 weight: 20
 url: /fr/net/metadata-loading/
 ---
+
+# Chargement des métadonnées
+
 ## Introduction
 
 Vous cherchez à améliorer les capacités de manipulation de fichiers de vos applications .NET ? Plongez dans les didacticiels GroupDocs.Metadata pour .NET couvrant divers aspects du chargement des métadonnées. Du chargement de métadonnées à partir de disques locaux à la gestion de documents protégés par mot de passe, nous avons ce qu'il vous faut.

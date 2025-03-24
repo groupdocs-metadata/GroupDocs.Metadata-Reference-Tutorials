@@ -6,6 +6,9 @@ description: Lär dig hur du hanterar PDF-metadata utan ansträngning med GroupD
 weight: 24
 url: /sv/net/pdf-metadata/
 ---
+
+# PDF-metadata
+
 ## Introduktion
 
  Lås upp potentialen för PDF-metadatahantering med[GroupDocs.Metadata för .NET](https://www.groupdocs.com/products/metadata/net). Oavsett om du är en erfaren utvecklare eller precis har börjat, erbjuder dessa handledningar ovärderliga insikter om hur du kan utnyttja kraften i metadatamanipulation.

@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan bonthat ki dalszövegcímkéket MP3-fájlokból
 weight: 13
 url: /hu/net/audio-metadata/read-lyrics-tag-mp3/
 ---
+
+# Olvasson dalszövegcímkét az MP3 fájlokból a .NET-ben
+
 ## Bevezetés
 Ebben az oktatóanyagban megtanuljuk, hogyan lehet MP3-fájlokból dalszövegcímkéket kivonni és olvasni a GroupDocs.Metadata API használatával a .NET-ben. A GroupDocs.Metadata egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy különféle fájlformátumokhoz, köztük MP3 fájlokhoz kapcsolódó metaadatokkal dolgozzanak. Ha követi ezeket a lépéseket, akkor hatékonyan lekérheti az MP3-fájlokba ágyazott dalszövegekkel kapcsolatos információkat.
 ## Előfeltételek

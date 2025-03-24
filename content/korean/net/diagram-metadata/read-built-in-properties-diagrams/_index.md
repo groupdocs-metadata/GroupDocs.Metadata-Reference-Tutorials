@@ -6,6 +6,9 @@ description: GroupDocs.Metadata를 사용하여 .NET의 다이어그램 파일�
 weight: 10
 url: /ko/net/diagram-metadata/read-built-in-properties-diagrams/
 ---
+
+# .NET의 다이어그램에서 기본 제공 속성 읽기
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Metadata를 사용하여 다이어그램에서 기본 제공 속성을 읽는 방법을 자세히 살펴보겠습니다. .NET용 GroupDocs.Metadata는 개발자가 다이어그램, 프레젠테이션, 이미지 등을 비롯한 다양한 문서 유형과 관련된 메타데이터로 작업할 수 있도록 하는 강력한 라이브러리입니다. 특히 이 라이브러리를 사용하여 다이어그램 파일에서 메타데이터 속성을 추출하는 데 중점을 둘 것입니다.
 ## 전제 조건

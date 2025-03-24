@@ -6,6 +6,9 @@ description: Découvrez comment supprimer les balises APE des fichiers MP3 à l�
 weight: 15
 url: /fr/net/audio-metadata/remove-ape-tag-mp3/
 ---
+
+# Supprimer la balise APE des fichiers MP3 dans .NET
+
 ## Introduction
 Dans le domaine du développement .NET, la gestion des métadonnées au sein des fichiers est cruciale pour organiser et manipuler efficacement les données. Un outil puissant à cet effet est GroupDocs.Metadata pour .NET, qui offre des fonctionnalités robustes pour lire, modifier et supprimer les métadonnées de divers formats de fichiers. Dans ce didacticiel, nous nous concentrerons sur une tâche spécifique : supprimer les balises APE des fichiers MP3 à l'aide de GroupDocs.Metadata pour .NET. 
 ## Conditions préalables

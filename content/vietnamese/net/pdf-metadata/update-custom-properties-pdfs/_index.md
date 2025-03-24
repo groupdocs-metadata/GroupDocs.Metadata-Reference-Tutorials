@@ -6,6 +6,9 @@ description: Tìm hiểu cách cập nhật thuộc tính tùy chỉnh trong t�
 weight: 16
 url: /vi/net/pdf-metadata/update-custom-properties-pdfs/
 ---
+
+# Cập nhật thuộc tính tùy chỉnh trong tệp PDF bằng .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách cập nhật các thuộc tính tùy chỉnh trong tệp PDF bằng .NET với GroupDocs.Metadata. Thuộc tính tùy chỉnh cho phép bạn thêm siêu dữ liệu bổ sung vào tài liệu PDF của mình, siêu dữ liệu này có thể hữu ích cho việc phân loại, khả năng tìm kiếm và truy xuất thông tin. GroupDocs.Metadata là một API mạnh mẽ cho phép các nhà phát triển làm việc với siêu dữ liệu ở nhiều định dạng tệp khác nhau, bao gồm cả tệp PDF, bằng cách sử dụng .NET framework.
 ## Điều kiện tiên quyết

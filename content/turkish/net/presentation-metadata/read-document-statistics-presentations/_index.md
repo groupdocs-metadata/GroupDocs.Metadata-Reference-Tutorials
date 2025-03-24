@@ -6,6 +6,9 @@ description: Verimli meta veri yönetimi için GroupDocs.Metadata'yı kullanarak
 weight: 12
 url: /tr/net/presentation-metadata/read-document-statistics-presentations/
 ---
+
+# .NET'teki Sunumlardan Belge İstatistiklerini Okuyun
+
 ## giriiş
 .NET geliştirme alanında, belge meta verilerinin verimli bir şekilde yönetilmesi, sunumlar, elektronik tablolar ve diğer dosya formatlarıyla ilgilenen uygulamalar için çok önemlidir. GroupDocs.Metadata for .NET, çeşitli dosya türlerinden meta verilere erişmek, bunları düzenlemek ve çıkarmak için güçlü bir çözüm sağlar. Bu eğitim, GroupDocs.Metadata for .NET'i kullanarak özellikle sunumlardan belge istatistiklerini okuma konusunda size rehberlik edecektir.
 ## Önkoşullar

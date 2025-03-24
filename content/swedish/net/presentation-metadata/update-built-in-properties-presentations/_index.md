@@ -6,6 +6,9 @@ description: Lär dig hur du uppdaterar inbyggda egenskaper i presentationer med
 weight: 15
 url: /sv/net/presentation-metadata/update-built-in-properties-presentations/
 ---
+
+# Uppdatera inbyggda egenskaper i presentationer med .NET
+
 ## Introduktion
 den här handledningen kommer vi att fördjupa oss i de kraftfulla funktionerna i GroupDocs.Metadata for .NET, ett omfattande bibliotek som är utformat för att manipulera metadata i dokument med .NET-ramverket. Specifikt kommer vi att fokusera på att uppdatera inbyggda egenskaper i presentationer (.PPT- och .PPTX-filer) programmatiskt med C#.
 ## Förutsättningar

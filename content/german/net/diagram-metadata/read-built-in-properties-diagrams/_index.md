@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Metadata Metadaten aus Diagramm
 weight: 10
 url: /de/net/diagram-metadata/read-built-in-properties-diagrams/
 ---
+
+# Integrierte Eigenschaften aus Diagrammen in .NET lesen
+
 ## Einführung
 In diesem Tutorial beschäftigen wir uns mit der Verwendung von GroupDocs.Metadata für .NET zum Lesen integrierter Eigenschaften aus Diagrammen. GroupDocs.Metadata für .NET ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, mit Metadaten zu arbeiten, die mit verschiedenen Dokumenttypen verknüpft sind, darunter Diagramme, Präsentationen, Bilder und mehr. Insbesondere konzentrieren wir uns auf das Extrahieren von Metadateneigenschaften aus Diagrammdateien mithilfe dieser Bibliothek.
 ## Voraussetzungen

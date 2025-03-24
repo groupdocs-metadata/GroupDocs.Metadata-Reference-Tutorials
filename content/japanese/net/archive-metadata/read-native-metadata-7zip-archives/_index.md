@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用して 7Zip アーカイブか
 weight: 11
 url: /ja/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
+
+# .NET で 7Zip アーカイブからネイティブ メタデータ プロパティを読み取る
+
 ## 導入
 .NET 開発の分野では、ドキュメント プロパティ、ファイル情報、タグなどのメタデータを管理することが、効率的なデータの編成と取得に不可欠です。GroupDocs.Metadata for .NET は、さまざまなファイル形式内のメタデータにアクセスして操作するための強力なツールキットを提供します。このチュートリアルでは、GroupDocs.Metadata の機能を活用して、.NET の 7Zip アーカイブからネイティブ メタデータ プロパティを読み取ることに焦点を当てます。 
 ## 前提条件

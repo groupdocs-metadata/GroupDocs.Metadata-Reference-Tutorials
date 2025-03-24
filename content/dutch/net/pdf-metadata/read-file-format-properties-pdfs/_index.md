@@ -6,6 +6,9 @@ description: Leer hoe u de eigenschappen van PDF-bestandsindelingen kunt extrahe
 weight: 13
 url: /nl/net/pdf-metadata/read-file-format-properties-pdfs/
 ---
+
+# Lees bestandsformaateigenschappen uit PDF's in .NET
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u GroupDocs.Metadata voor .NET kunt gebruiken om eigenschappen van bestandsindelingen uit PDF-documenten te lezen. GroupDocs.Metadata voor .NET is een krachtige bibliotheek waarmee ontwikkelaars kunnen werken met metadata die aan verschillende bestandsformaten zijn gekoppeld, waardoor efficiënt beheer en extractie van metadata-attributen mogelijk is. We zullen ons specifiek concentreren op het extraheren van essentiële eigenschappen uit PDF-bestanden met behulp van eenvoudige en effectieve codevoorbeelden.
 ## Vereisten

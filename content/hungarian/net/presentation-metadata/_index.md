@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan kezelheti hatékonyan a prezentációk metaadat
 weight: 25
 url: /hu/net/presentation-metadata/
 ---
+
+# Prezentáció metaadatai
+
 ## Bevezetés
 
 mai digitális korban a prezentációkon belüli metaadatok kezelése kulcsfontosságú az információk hatékony rendszerezése és visszakeresése szempontjából. A GroupDocs.Metadata for .NET robusztus megoldást kínál a folyamat egyszerűsítésére törekvő fejlesztők számára. Legyen szó beépített tulajdonságok kibontásáról, egyéni metaadatok eléréséről vagy ellenőrzési tulajdonságok frissítéséről, oktatóanyagaink lépésről lépésre nyújtanak útmutatást a .NET-projektekbe való zökkenőmentes integrációhoz.

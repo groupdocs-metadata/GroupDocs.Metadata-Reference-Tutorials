@@ -6,6 +6,9 @@ description: Dowiedz się, jak efektywnie zarządzać metadanymi dokumentów za 
 weight: 13
 url: /pl/net/metadata-loading/load-metadata-password-protected/
 ---
+
+# Jak załadować metadane z dokumentu chronionego hasłem w .NET
+
 ## Wstęp
 W świecie programowania .NET zarządzanie metadanymi w dokumentach ma kluczowe znaczenie dla różnych aplikacji. GroupDocs.Metadata dla .NET udostępnia zaawansowane narzędzia do prostego wyodrębniania, edytowania i zarządzania metadanymi. Ten samouczek przeprowadzi Cię przez proces ładowania metadanych z dokumentów chronionych hasłem przy użyciu GroupDocs.Metadata.
 ##Wymagania wstępne

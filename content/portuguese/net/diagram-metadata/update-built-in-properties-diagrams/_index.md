@@ -6,6 +6,9 @@ description: Saiba como atualizar propriedades integradas em diagramas usando Gr
 weight: 14
 url: /pt/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
+
+# Atualizar propriedades integradas em diagramas usando .NET
+
 ## Introdução
 Neste tutorial, exploraremos como atualizar propriedades integradas em diagramas usando GroupDocs.Metadata for .NET. Esta biblioteca permite manipular metadados em vários formatos de documentos, incluindo diagramas. Abordaremos os pré-requisitos, os namespaces necessários e forneceremos um guia passo a passo com exemplos de código para atualizar essas propriedades de maneira eficaz.
 

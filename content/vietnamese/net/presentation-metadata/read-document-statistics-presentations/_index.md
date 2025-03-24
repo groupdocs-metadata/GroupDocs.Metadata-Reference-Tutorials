@@ -6,6 +6,9 @@ description: Tìm hiểu cách đọc số liệu thống kê tài liệu từ c
 weight: 12
 url: /vi/net/presentation-metadata/read-document-statistics-presentations/
 ---
+
+# Đọc số liệu thống kê tài liệu từ bản trình bày trong .NET
+
 ## Giới thiệu
 Trong lĩnh vực phát triển .NET, việc quản lý siêu dữ liệu tài liệu một cách hiệu quả là rất quan trọng đối với các ứng dụng xử lý bản trình bày, bảng tính và các định dạng tệp khác. GroupDocs.Metadata cho .NET cung cấp giải pháp mạnh mẽ để truy cập, chỉnh sửa và trích xuất siêu dữ liệu từ nhiều loại tệp khác nhau. Hướng dẫn này sẽ hướng dẫn bạn đọc số liệu thống kê tài liệu cụ thể từ các bản trình bày bằng GroupDocs.Metadata cho .NET.
 ## Điều kiện tiên quyết

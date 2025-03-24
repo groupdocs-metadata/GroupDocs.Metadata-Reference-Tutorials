@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 스프레드시트의 �
 weight: 16
 url: /ko/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
+
+# .NET을 사용하여 스프레드시트의 검사 속성 업데이트
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Metadata를 사용하여 스프레드시트의 검사 속성을 업데이트하는 방법을 살펴보겠습니다. GroupDocs.Metadata는 스프레드시트를 비롯한 다양한 문서 형식과 관련된 메타데이터로 작업할 수 있는 강력한 API입니다. 특히 .NET을 사용하여 스프레드시트에서 메모, 디지털 서명 및 숨겨진 시트를 지우는 데 중점을 둘 것입니다.
 ## 전제 조건

@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET ID3V2-Tags a
 weight: 12
 url: /de/net/audio-metadata/read-id3v2-tag-mp3/
 ---
+
+# ID3V2-Tag aus MP3-Dateien in .NET lesen
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET ID3V2-Metadaten aus MP3-Dateien extrahieren. ID3V2-Tags enthalten wertvolle Informationen über MP3-Dateien, wie z. B. Album, Künstler, Titel und mehr. Wir zeigen Ihnen Schritt für Schritt, wie Sie auf diese Metadaten zugreifen und sie in Ihren .NET-Anwendungen nutzen können.
 ## Voraussetzungen

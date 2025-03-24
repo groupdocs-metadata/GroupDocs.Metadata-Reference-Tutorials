@@ -6,6 +6,9 @@ description: Découvrez comment mettre à jour les propriétés personnalisées 
 weight: 13
 url: /fr/net/project-management-metadata/update-custom-properties-project-management-documents/
 ---
+
+# Mettre à jour les propriétés personnalisées dans les documents de gestion de projet .NET
+
 ## Introduction
 Dans le domaine du développement .NET, la gestion efficace des métadonnées des documents est cruciale pour diverses applications. GroupDocs.Metadata pour .NET fournit une solution robuste pour interagir avec les métadonnées dans différents formats de fichiers, y compris les documents de gestion de projet tels que les fichiers Microsoft Project (MPP). Ce didacticiel vous guidera tout au long du processus de mise à jour des propriétés personnalisées dans les documents de gestion de projet .NET à l'aide de GroupDocs.Metadata.
 ## Conditions préalables

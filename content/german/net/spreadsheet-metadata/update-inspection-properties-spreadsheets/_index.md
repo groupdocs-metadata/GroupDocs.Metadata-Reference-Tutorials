@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie Inspektionseigenschaften in Tabellenkalkulati
 weight: 16
 url: /de/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
+
+# Aktualisieren Sie Inspektionseigenschaften in Tabellenkalkulationen mit .NET
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie GroupDocs.Metadata für .NET verwenden, um Inspektionseigenschaften in Tabellenkalkulationen zu aktualisieren. GroupDocs.Metadata ist eine leistungsstarke API, die es Ihnen ermöglicht, mit Metadaten zu arbeiten, die mit verschiedenen Dokumentformaten, einschließlich Tabellenkalkulationen, verknüpft sind. Wir konzentrieren uns speziell auf das Löschen von Kommentaren, digitalen Signaturen und versteckten Blättern aus einer Tabellenkalkulation mit .NET.
 ## Voraussetzungen

@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata 튜토리얼을 통해 PDF 메타데이�
 weight: 24
 url: /ko/net/pdf-metadata/
 ---
+
+# PDF 메타데이터
+
 ## 소개
 
  PDF 메타데이터 관리의 잠재력을 활용해 보세요.[.NET용 GroupDocs.Metadata](https://www.groupdocs.com/products/metadata/net). 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 튜토리얼은 메타데이터 조작의 힘을 활용하는 데 대한 귀중한 통찰력을 제공합니다.

@@ -6,6 +6,9 @@ description: Naučte se číst ID3V1 tagy ze souborů MP3 pomocí GroupDocs.Meta
 weight: 11
 url: /cs/net/audio-metadata/read-id3v1-tag-mp3/
 ---
+
+# Přečtěte si ID3V1 Tag ze souborů MP3 v .NET
+
 ## Úvod
 tomto tutoriálu se naučíte, jak extrahovat ID3V1 tagy ze souborů MP3 pomocí GroupDocs.Metadata pro .NET. GroupDocs.Metadata je výkonná knihovna, která umožňuje pracovat s metadaty v různých formátech souborů, včetně zvukových souborů MP3. Provedeme vás procesem krok za krokem.
 ## Předpoklady

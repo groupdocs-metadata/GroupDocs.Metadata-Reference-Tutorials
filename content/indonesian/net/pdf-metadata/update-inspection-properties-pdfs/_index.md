@@ -6,6 +6,9 @@ description: Pelajari cara memperbarui properti inspeksi dalam dokumen PDF mengg
 weight: 17
 url: /id/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
+
+# Perbarui Properti Inspeksi dalam PDF menggunakan .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memperbarui properti inspeksi dalam dokumen PDF menggunakan pustaka GroupDocs.Metadata untuk .NET. Pustaka ini memungkinkan kami mengelola metadata, anotasi, lampiran, dan lainnya secara efisien dalam file PDF.
 ## Prasyarat

@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用して PDF ドキュメント�
 weight: 17
 url: /ja/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
+
+# .NET を使用して PDF の検査プロパティを更新する
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET ライブラリを使用して PDF ドキュメントの検査プロパティを更新する方法について説明します。このライブラリを使用すると、PDF ファイル内のメタデータ、注釈、添付ファイルなどを効率的に管理できます。
 ## 前提条件

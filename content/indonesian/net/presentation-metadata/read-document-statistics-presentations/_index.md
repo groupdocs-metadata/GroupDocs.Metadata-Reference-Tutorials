@@ -6,6 +6,9 @@ description: Pelajari cara membaca statistik dokumen dari presentasi di .NET men
 weight: 12
 url: /id/net/presentation-metadata/read-document-statistics-presentations/
 ---
+
+# Baca Statistik Dokumen dari Presentasi di .NET
+
 ## Perkenalan
 Dalam bidang pengembangan .NET, mengelola metadata dokumen secara efisien sangat penting untuk aplikasi yang menangani presentasi, spreadsheet, dan format file lainnya. GroupDocs.Metadata untuk .NET memberikan solusi tangguh untuk mengakses, mengedit, dan mengekstrak metadata dari berbagai jenis file. Tutorial ini akan memandu Anda dalam membaca statistik dokumen khususnya dari presentasi menggunakan GroupDocs.Metadata untuk .NET.
 ## Prasyarat

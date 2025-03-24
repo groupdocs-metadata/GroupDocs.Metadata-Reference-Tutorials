@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 从电子表格中�
 weight: 13
 url: /zh/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---
+
+# 从 .NET 中的电子表格读取检查属性
+
 ## 介绍
 在本教程中，我们将探讨如何使用 GroupDocs.Metadata for .NET 检查电子表格中的属性。 GroupDocs.Metadata for .NET 是一个功能强大的库，使开发人员能够读取、编辑和删除与各种文件格式（包括电子表格）相关的元数据。本教程特别关注使用 C# 从电子表格文件中读取检查属性。
 ## 先决条件

@@ -6,6 +6,9 @@ description: Tìm hiểu cách cập nhật thuộc tính kiểm tra trong bản
 weight: 16
 url: /vi/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
+
+# Cập nhật thuộc tính kiểm tra trong bảng tính bằng .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng GroupDocs.Metadata cho .NET để cập nhật các thuộc tính kiểm tra trong bảng tính. GroupDocs.Metadata là một API mạnh mẽ cho phép bạn làm việc với siêu dữ liệu được liên kết với nhiều định dạng tài liệu khác nhau, bao gồm cả bảng tính. Chúng tôi sẽ tập trung cụ thể vào việc xóa nhận xét, chữ ký điện tử và trang tính ẩn khỏi bảng tính bằng .NET.
 ## Điều kiện tiên quyết

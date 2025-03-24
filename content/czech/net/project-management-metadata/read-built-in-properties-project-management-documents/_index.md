@@ -6,6 +6,9 @@ description: Naučte se extrahovat metadata z dokumentů Project Management pomo
 weight: 10
 url: /cs/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---
+
+# Přečtěte si vestavěné vlastnosti v .NET Project Management Documents
+
 ## Úvod
 tomto tutoriálu se ponoříme do využití GroupDocs.Metadata pro .NET k efektivnímu extrahování vestavěných vlastností z dokumentů Project Management. Tato knihovna poskytuje robustní funkce pro správu metadat v různých formátech souborů, včetně Microsoft Project, a umožňuje vývojářům programově přistupovat ke klíčovým detailům dokumentu. Provedeme vás procesem krok za krokem a rozebereme každý příklad, abychom zajistili jasnost a snadnost implementace.
 ## Předpoklady

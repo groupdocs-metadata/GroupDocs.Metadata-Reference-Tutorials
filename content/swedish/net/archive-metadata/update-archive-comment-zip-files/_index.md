@@ -6,6 +6,9 @@ description: Lär dig hur du uppdaterar arkivkommentarer i ZIP-filer med GroupDo
 weight: 15
 url: /sv/net/archive-metadata/update-archive-comment-zip-files/
 ---
+
+# Uppdatera arkivkommentar i ZIP-filer med .NET
+
 ## Introduktion
 en värld av mjukvaruutveckling är hantering av metadata i filer en kritisk aspekt för att säkerställa dataintegritet och tillgänglighet. GroupDocs.Metadata för .NET erbjuder en robust lösning för .NET-utvecklare för att effektivt arbeta med metadata i olika filformat. I den här handledningen kommer vi att fördjupa oss i att använda GroupDocs.Metadata för .NET för att uppdatera arkivkommentarer i ZIP-filer. I slutet av den här guiden har du en tydlig förståelse för hur du manipulerar metadata i ZIP-arkiv med detta kraftfulla bibliotek.
 ## Förutsättningar

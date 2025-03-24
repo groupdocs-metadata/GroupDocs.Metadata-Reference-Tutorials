@@ -6,6 +6,9 @@ description: GroupDocs.Metadata ile .NET'teki dosya meta verilerini zahmetsizce 
 weight: 20
 url: /tr/net/metadata-loading/
 ---
+
+# Meta Veri Yükleme
+
 ## giriiş
 
 .NET uygulamalarınızın dosya işleme yeteneklerini geliştirmek mi istiyorsunuz? Meta veri yüklemenin çeşitli yönlerini kapsayan .NET için GroupDocs.Metadata eğitimlerine dalın. Yerel disklerden meta verilerin yüklenmesinden parola korumalı belgelerin işlenmesine kadar her konuda yanınızdayız.

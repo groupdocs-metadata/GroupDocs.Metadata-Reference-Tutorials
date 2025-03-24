@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyodrębniać metadane z plików diagramów w pla
 weight: 10
 url: /pl/net/diagram-metadata/read-built-in-properties-diagrams/
 ---
+
+# Czytaj wbudowane właściwości z diagramów w .NET
+
 ## Wstęp
 tym samouczku omówimy używanie GroupDocs.Metadata dla platformy .NET do odczytywania wbudowanych właściwości z diagramów. GroupDocs.Metadata dla .NET to zaawansowana biblioteka, która umożliwia programistom pracę z metadanymi powiązanymi z różnymi typami dokumentów, w tym diagramami, prezentacjami, obrazami i nie tylko. W szczególności skupimy się na wyodrębnianiu właściwości metadanych z plików diagramów przy użyciu tej biblioteki.
 ## Warunki wstępne

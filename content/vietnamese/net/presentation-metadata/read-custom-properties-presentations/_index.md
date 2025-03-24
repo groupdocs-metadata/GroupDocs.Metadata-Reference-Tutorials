@@ -6,6 +6,9 @@ description: Tìm hiểu cách đọc thuộc tính tùy chỉnh từ bản trì
 weight: 11
 url: /vi/net/presentation-metadata/read-custom-properties-presentations/
 ---
+
+# Đọc thuộc tính tùy chỉnh từ bản trình bày trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách đọc các thuộc tính tùy chỉnh từ bản trình bày trong .NET bằng GroupDocs.Metadata. Thuộc tính tùy chỉnh chứa thông tin bổ sung được nhúng trong tệp bản trình bày, thông tin này có thể hữu ích cho việc sắp xếp, phân loại hoặc mô tả nội dung. Bằng cách tận dụng thư viện GroupDocs.Metadata, các nhà phát triển có thể truy cập và trích xuất các thuộc tính tùy chỉnh này một cách hiệu quả cho nhiều mục đích khác nhau.
 ## Điều kiện tiên quyết

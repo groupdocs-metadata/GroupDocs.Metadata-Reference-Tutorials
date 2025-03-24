@@ -6,6 +6,9 @@ description: Beheer moeiteloos bestandsmetagegevens in .NET-toepassingen met Gro
 weight: 10
 url: /nl/net/metadata-loading/load-metadata-local-disk/
 ---
+
+# Metagegevens laden van de lokale schijf in .NET
+
 ## Invoering
 Op het gebied van .NET-ontwikkeling is het beheren van metagegevens die verband houden met bestanden van cruciaal belang voor verschillende toepassingen. GroupDocs.Metadata voor .NET biedt een robuuste oplossing voor het moeiteloos lezen, bewerken en verwijderen van metadata uit bestanden. Deze tutorial leidt u door het proces van het laden van metagegevens vanaf een lokale schijf met behulp van GroupDocs.Metadata, zodat u deze krachtige bibliotheek effectief kunt benutten.
 ## Vereisten

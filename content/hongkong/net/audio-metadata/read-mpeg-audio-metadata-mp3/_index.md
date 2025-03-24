@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata 從 .NET 中的 MP3 檔案中
 weight: 14
 url: /zh-hant/net/audio-metadata/read-mpeg-audio-metadata-mp3/
 ---
+
+# 從 .NET 中的 MP3 檔案讀取 MPEG 音訊元數據
+
 ## 介紹
 在 .NET 開發領域，管理文件中的元資料對於各種應用程式至關重要。 GroupDocs.Metadata for .NET 提供了強大的工具來讀取、編輯和操作不同檔案格式的元資料。在本教程中，我們將重點放在專門針對 .NET 中的 MPEG 音訊檔案 (MP3) 利用此功能。在本指南結束時，您將能夠使用 GroupDocs.Metadata 從 MP3 檔案中有效地提取 MPEG 音訊元資料。
 ## 先決條件

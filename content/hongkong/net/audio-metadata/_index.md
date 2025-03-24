@@ -7,6 +7,9 @@ weight: 22
 url: /zh-hant/net/audio-metadata/
 ---
 
+# 音訊元數據
+
+
 ## 音頻元資料教程
 
 您有興趣掌握 .NET 中的音訊元資料操作嗎？ GroupDocs.Metadata for .NET 提供全面的教學來幫助您處理 MP3 和 WAV 檔案中的元資料。無論您是提取、更新還是刪除標籤，我們的逐步指南都提供清晰的見解和實際範例，以簡化您的開發流程。

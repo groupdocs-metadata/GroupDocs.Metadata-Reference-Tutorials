@@ -6,6 +6,9 @@ description: Tìm hiểu cách đọc thuộc tính siêu dữ liệu gốc từ
 weight: 11
 url: /vi/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
+
+# Đọc Thuộc tính siêu dữ liệu gốc từ Kho lưu trữ 7Zip trong .NET
+
 ## Giới thiệu
 Trong lĩnh vực phát triển .NET, việc quản lý siêu dữ liệu—chẳng hạn như thuộc tính tài liệu, thông tin tệp và thẻ—là rất quan trọng để tổ chức và truy xuất dữ liệu hiệu quả. GroupDocs.Metadata cho .NET cung cấp bộ công cụ mạnh mẽ để truy cập và thao tác siêu dữ liệu trong các định dạng tệp khác nhau. Hướng dẫn này tập trung vào việc khai thác các khả năng của GroupDocs.Metadata để đọc các thuộc tính siêu dữ liệu gốc từ kho lưu trữ 7Zip trong .NET. 
 ## Điều kiện tiên quyết

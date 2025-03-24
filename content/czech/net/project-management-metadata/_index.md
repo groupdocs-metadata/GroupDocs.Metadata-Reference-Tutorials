@@ -7,6 +7,9 @@ weight: 26
 url: /cs/net/project-management-metadata/
 ---
 
+# Metadata projektového řízení
+
+
 ## Úvod
 
 Ponoříte se do sféry dokumentů pro řízení projektů .NET a hledáte efektivní techniky správy metadat? Už nehledejte! Výukové programy GroupDocs.Metadata for .NET nabízejí komplexního průvodce efektivním využitím metadat, rozšířením možností zpracování dokumentů a zefektivněním pracovního postupu.

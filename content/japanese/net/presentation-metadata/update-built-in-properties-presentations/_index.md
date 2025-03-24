@@ -6,6 +6,9 @@ description: 多目的メタデータ操作ライブラリである GroupDocs.Me
 weight: 15
 url: /ja/net/presentation-metadata/update-built-in-properties-presentations/
 ---
+
+# .NET を使用してプレゼンテーションの組み込みプロパティを更新する
+
 ## 導入
 このチュートリアルでは、.NET フレームワークを使用してドキュメント内のメタデータを操作するために設計された包括的なライブラリである GroupDocs.Metadata for .NET の強力な機能を詳しく説明します。具体的には、C# を使用してプログラムでプレゼンテーション (.PPT および .PPTX ファイル) の組み込みプロパティを更新することに焦点を当てます。
 ## 前提条件

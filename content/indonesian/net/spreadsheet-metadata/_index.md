@@ -7,6 +7,9 @@ description: Manfaatkan kecanggihan GroupDocs.Metadata untuk .NET dengan tutoria
 weight: 27
 url: /id/net/spreadsheet-metadata/
 ---
+
+# Metadata Lembar Bentang
+
 ## Perkenalan
 
 GroupDocs.Metadata untuk .NET menawarkan serangkaian tutorial komprehensif yang bertujuan memberdayakan pengembang untuk memanfaatkan manipulasi metadata dalam file spreadsheet secara efektif. Mari pelajari tutorial ini untuk memahami bagaimana tutorial ini dapat menyempurnakan aplikasi .NET Anda.

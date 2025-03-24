@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất siêu dữ liệu từ tệp WAV b�
 weight: 22
 url: /vi/net/audio-metadata/read-info-metadata-wav/
 ---
+
+# Đọc siêu dữ liệu thông tin từ tệp WAV trong .NET
+
 ## Giới thiệu
 Trong thế giới phát triển .NET, việc quản lý và trích xuất siêu dữ liệu từ nhiều định dạng tệp khác nhau là một khía cạnh quan trọng của nhiều ứng dụng. Khi nói đến tệp WAV (Định dạng tệp âm thanh dạng sóng), việc truy xuất thông tin được nhúng bên trong chúng có thể cần thiết để phân loại, sắp xếp và hiểu nội dung âm thanh.
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng GroupDocs.Metadata cho .NET để đọc siêu dữ liệu cụ thể từ các tệp WAV. GroupDocs.Metadata là một API mạnh mẽ cho phép các nhà phát triển làm việc với siêu dữ liệu trên nhiều định dạng tệp, bao gồm các tệp âm thanh như WAV.

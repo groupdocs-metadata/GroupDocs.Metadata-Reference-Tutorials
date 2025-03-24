@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak WAV dosyalarından yerel m
 weight: 23
 url: /tr/net/audio-metadata/read-native-metadata-wav/
 ---
+
+# .NET'teki WAV Dosyalarından Yerel Meta Veri Özelliklerini Okuyun
+
 ## giriiş
 Bu öğreticide, WAV ses dosyalarından yerel meta veri özelliklerini ayıklamak için GroupDocs.Metadata for .NET'i nasıl kullanacağınızı öğreneceksiniz. GroupDocs.Metadata for .NET, geliştiricilerin WAV dosyaları da dahil olmak üzere çeşitli dosya formatlarıyla ilişkili meta verileri okumasına, güncellemesine ve kaldırmasına olanak tanıyan güçlü bir kitaplıktır.
 ## Önkoşullar

@@ -6,6 +6,9 @@ description: Tìm hiểu cách xóa thẻ ID3V2 khỏi tệp MP3 bằng GroupDoc
 weight: 17
 url: /vi/net/audio-metadata/remove-id3v2-tag-mp3/
 ---
+
+# Xóa thẻ ID3V2 khỏi tệp MP3 trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng GroupDocs.Metadata cho .NET để xóa thẻ ID3V2 khỏi tệp MP3. GroupDocs.Metadata là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với siêu dữ liệu ở nhiều định dạng tài liệu và hình ảnh khác nhau, bao gồm cả tệp MP3. Việc xóa thẻ ID3V2 khỏi tệp MP3 có thể hữu ích cho các ứng dụng không cần những thẻ này hoặc chỉ cần giữ lại siêu dữ liệu cụ thể.
 ## Điều kiện tiên quyết

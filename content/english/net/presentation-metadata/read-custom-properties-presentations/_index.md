@@ -6,6 +6,9 @@ description: Learn how to read custom properties from presentations in .NET usin
 weight: 11
 url: /net/presentation-metadata/read-custom-properties-presentations/
 ---
+
+# Read Custom Properties from Presentations in .NET
+
 ## Introduction
 In this tutorial, we will explore how to read custom properties from presentations in .NET using GroupDocs.Metadata. Custom properties contain additional information embedded within the presentation file, which can be useful for organizing, categorizing, or describing the content. By leveraging the GroupDocs.Metadata library, developers can efficiently access and extract these custom properties for various purposes.
 ## Prerequisites

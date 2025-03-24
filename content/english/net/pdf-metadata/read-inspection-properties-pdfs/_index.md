@@ -6,6 +6,9 @@ description: Learn how to extract inspection properties from PDF documents using
 weight: 14
 url: /net/pdf-metadata/read-inspection-properties-pdfs/
 ---
+
+# Read Inspection Properties from PDFs in .NET
+
 ## Introduction
 In this tutorial, we will explore how to utilize GroupDocs.Metadata for .NET to extract inspection properties from PDF documents programmatically. GroupDocs.Metadata is a powerful .NET library that allows developers to work with metadata embedded in various file formats, including PDFs. By leveraging this library, you can access and manipulate a wide range of document properties, annotations, attachments, bookmarks, digital signatures, and fields within PDF files.
 ## Prerequisites

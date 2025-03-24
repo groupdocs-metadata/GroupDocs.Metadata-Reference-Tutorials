@@ -6,6 +6,9 @@ description: Leer hoe u bestandsindelingseigenschappen uit diagrammen in .NET ku
 weight: 13
 url: /nl/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
+
+# Lees bestandsformaateigenschappen uit diagrammen in .NET
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u GroupDocs.Metadata voor .NET kunt gebruiken om eigenschappen van bestandsindelingen uit diagrammen te lezen. Deze bibliotheek maakt eenvoudige manipulatie en extractie van metadata uit verschillende bestandsformaten binnen .NET-applicaties mogelijk. We zullen de vereisten doornemen, naamruimten importeren en stapsgewijze voorbeelden geven om te illustreren hoe u dit kunt bereiken.
 

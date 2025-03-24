@@ -6,6 +6,9 @@ description: Découvrez comment mettre à jour les propriétés d'un document PD
 weight: 15
 url: /fr/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
+
+# Mettre à jour les propriétés intégrées dans les PDF à l'aide de .NET
+
 ## Introduction
 Dans ce didacticiel, nous apprendrons comment utiliser GroupDocs.Metadata pour .NET pour mettre à jour les propriétés intégrées des documents PDF. Cette bibliothèque fournit un ensemble d'outils puissants pour manipuler les métadonnées dans différents formats de documents. Nous passerons en revue les étapes nécessaires pour modifier les propriétés telles que l'auteur, le titre, la date de création, les mots-clés, le créateur et le producteur dans un fichier PDF à l'aide de C#.
 ## Conditions préalables

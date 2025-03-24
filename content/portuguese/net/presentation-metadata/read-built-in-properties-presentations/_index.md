@@ -6,6 +6,9 @@ description: Aprenda como extrair propriedades integradas de apresentações usa
 weight: 10
 url: /pt/net/presentation-metadata/read-built-in-properties-presentations/
 ---
+
+# Leia propriedades integradas de apresentações em .NET
+
 ## Introdução
 No domínio do desenvolvimento .NET, é crucial gerenciar e extrair metadados de vários formatos de arquivo, como apresentações. GroupDocs.Metadata for .NET oferece uma solução poderosa para lidar com tarefas de metadados com eficiência. Este tutorial se aprofundará na leitura de propriedades integradas de apresentações usando GroupDocs.Metadata for .NET. Ao final, você terá uma compreensão clara de como aproveitar essa biblioteca para extrair metadados essenciais de arquivos de apresentação.
 ## Pré-requisitos

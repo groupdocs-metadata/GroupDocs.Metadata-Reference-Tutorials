@@ -6,6 +6,9 @@ description: Learn how to extract metadata from spreadsheets in .NET using Group
 weight: 10
 url: /net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
+
+# Read Built-In Properties from Spreadsheets in .NET
+
 ## Introduction
 In this tutorial, we will delve into how to utilize GroupDocs.Metadata for .NET to efficiently manage and extract metadata from spreadsheets. GroupDocs.Metadata for .NET is a powerful API that enables developers to work with metadata embedded in various file formats, including spreadsheets, presentations, documents, images, and more. This guide focuses specifically on extracting built-in properties from spreadsheet files using C#.
 ## Prerequisites

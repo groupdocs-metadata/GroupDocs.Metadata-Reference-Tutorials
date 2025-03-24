@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET ile .NET proje yönetimi belgelerindeki
 weight: 12
 url: /tr/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
+
+# .NET Proje Yönetimi Belgelerindeki Yerleşik Özellikleri Güncelleme
+
 ## giriiş
 Bu öğreticide, GroupDocs.Metadata for .NET'i kullanarak .NET proje yönetimi belgeleri içindeki yerleşik özelliklerin nasıl güncelleştirileceğini keşfedeceğiz. Bu kitaplık, Microsoft Project (MPP) dosyaları gibi proje yönetimi belgeleri de dahil olmak üzere çeşitli dosya formatları için meta verilerin verimli şekilde işlenmesine olanak tanır.
 ## Önkoşullar

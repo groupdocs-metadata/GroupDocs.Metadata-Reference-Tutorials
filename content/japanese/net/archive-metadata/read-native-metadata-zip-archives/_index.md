@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用して ZIP アーカイブか�
 weight: 13
 url: /ja/net/archive-metadata/read-native-metadata-zip-archives/
 ---
+
+# .NET の ZIP アーカイブからネイティブ メタデータ プロパティを読み取る
+
 ## 導入
 ZIP アーカイブは、ファイルを圧縮してバンドルするために一般的に使用されます。 .NET アプリケーションで ZIP ファイルを操作する場合、多くの場合、これらのアーカイブからメタデータ プロパティを抽出する必要があります。このチュートリアルでは、GroupDocs.Metadata for .NET を使用して ZIP ファイルからネイティブ メタデータ プロパティを読み取る方法を段階的に説明します。
 ## 前提条件

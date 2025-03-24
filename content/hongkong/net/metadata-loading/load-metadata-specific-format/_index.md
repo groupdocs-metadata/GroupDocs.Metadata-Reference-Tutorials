@@ -6,6 +6,9 @@ description: 在此綜合教學中了解如何使用 GroupDocs.Metadata for .NET
 weight: 12
 url: /zh-hant/net/metadata-loading/load-metadata-specific-format/
 ---
+
+# 從 .NET 中的特定格式載入元數據
+
 ## 介紹
 在軟體開發領域，管理元資料（有關其他資料的資訊）對於有效組織、理解和利用各種文件類型至關重要。在本教學中，我們將探討如何使用 GroupDocs.Metadata for .NET 處理特定檔案格式的元資料。無論您正在建立涉及文件管理、數位資產管理還是資料分析的應用程序，了解元資料操作都可以簡化您的工作流程。
 ## 先決條件

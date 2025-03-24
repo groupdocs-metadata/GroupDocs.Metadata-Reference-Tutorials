@@ -6,6 +6,9 @@ description: Learn how to load metadata from specific file formats using GroupDo
 weight: 12
 url: /net/metadata-loading/load-metadata-specific-format/
 ---
+
+# Loading Metadata from Specific Format in .NET
+
 ## Introduction
 In the world of software development, managing metadata—information about other data—is crucial for organizing, understanding, and utilizing various file types effectively. In this tutorial, we'll explore how to use GroupDocs.Metadata for .NET to handle metadata in specific file formats. Whether you're building applications that involve document management, digital asset management, or data analysis, understanding metadata manipulation can streamline your workflows.
 ## Prerequisites

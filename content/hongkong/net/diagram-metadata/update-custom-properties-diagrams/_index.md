@@ -6,6 +6,9 @@ description: 了解如何使用 .NET 和 GroupDocs.Metadata for .NET 更新圖�
 weight: 15
 url: /zh-hant/net/diagram-metadata/update-custom-properties-diagrams/
 ---
+
+# 使用 .NET 更新圖表中的自訂屬性
+
 ## 介紹
 在本教程中，我們將探索如何在 GroupDocs.Metadata for .NET 的協助下使用 .NET 更新圖表中的自訂屬性。圖表中的自訂屬性對於向文件添加元資料或附加資訊、增強其可用性和組織至關重要。 GroupDocs.Metadata for .NET 提供了一組強大的工具來操作和更新各種文件格式（包括圖表）中的元資料。
 ## 先決條件

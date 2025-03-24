@@ -6,6 +6,9 @@ description: Lär dig hur du effektivt hanterar presentationsmetadata i .NET med
 weight: 25
 url: /sv/net/presentation-metadata/
 ---
+
+# Presentationsmetadata
+
 ## Introduktion
 
 dagens digitala tidsålder är hantering av metadata i presentationer avgörande för effektiv organisation och hämtning av information. GroupDocs.Metadata för .NET erbjuder en robust lösning för utvecklare som vill effektivisera denna process. Oavsett om du extraherar inbyggda egenskaper, kommer åt anpassade metadata eller uppdaterar inspektionsegenskaper, ger våra tutorials steg-för-steg-vägledning för sömlös integrering i dina .NET-projekt.

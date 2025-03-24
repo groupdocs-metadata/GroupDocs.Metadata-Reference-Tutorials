@@ -6,6 +6,9 @@ description: Pelajari cara membaca properti file presentasi di .NET menggunakan 
 weight: 13
 url: /id/net/presentation-metadata/read-file-format-properties-presentations/
 ---
+
+# Baca Properti Format File dari Presentasi di .NET
+
 ## Perkenalan
 Dalam dunia pengembangan .NET, pengelolaan metadata dalam file sangat penting untuk berbagai aplikasi. GroupDocs.Metadata untuk .NET menawarkan alat canggih untuk berinteraksi dengan metadata dalam file secara efisien. Tutorial ini akan memandu Anda melalui proses membaca properti format file dari presentasi menggunakan GroupDocs.Metadata untuk .NET.
 ## Prasyarat

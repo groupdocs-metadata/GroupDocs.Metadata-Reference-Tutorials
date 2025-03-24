@@ -6,6 +6,9 @@ description: Descubra cómo actualizar propiedades personalizadas en hojas de c�
 weight: 15
 url: /es/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---
+
+# Actualizar propiedades personalizadas en hojas de cálculo usando .NET
+
 ## Introducción
 En este tutorial, exploraremos cómo actualizar propiedades personalizadas en hojas de cálculo usando la biblioteca GroupDocs.Metadata para .NET. Las propiedades personalizadas pueden mejorar los metadatos de sus archivos de hoja de cálculo, proporcionando contexto o información adicional que no está cubierta por las propiedades estándar.
 ## Requisitos previos

@@ -6,6 +6,9 @@ description: Update ID3V1 tags in MP3 files using GroupDocs.Metadata for .NET. F
 weight: 19
 url: /net/audio-metadata/update-id3v1-tag-mp3/
 ---
+
+# Update ID3V1 Tag in MP3 Files using .NET
+
 ## Introduction
 In this tutorial, we'll learn how to update ID3V1 tags in MP3 files using GroupDocs.Metadata for .NET. This library allows you to manipulate metadata in various document formats programmatically.
 ## Prerequisites

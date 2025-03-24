@@ -6,6 +6,9 @@ description: Lär dig hur du läser egenskaper för kalkylbladsfilformat med Gro
 weight: 12
 url: /sv/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
+
+# Läs filformategenskaper från kalkylblad i .NET
+
 ## Introduktion
 den här handledningen kommer vi att undersöka hur man kan utnyttja GroupDocs.Metadata för .NET för att effektivt läsa filformategenskaper från kalkylblad. GroupDocs.Metadata for .NET är ett kraftfullt API som låter utvecklare extrahera, redigera och hantera metadata som är associerade med olika filformat i sina .NET-applikationer. Vi kommer specifikt att fokusera på att hämta viktig information om kalkylbladsfiler med hjälp av detta bibliotek.
 ## Förutsättningar

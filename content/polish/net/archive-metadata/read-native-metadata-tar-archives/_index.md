@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyodrębnić metadane z archiwów TAR w .NET przy
 weight: 12
 url: /pl/net/archive-metadata/read-native-metadata-tar-archives/
 ---
+
+# Przeczytaj natywne właściwości metadanych z archiwów TAR w .NET
+
 ## Wstęp
 dziedzinie tworzenia oprogramowania i zarządzania danymi dostęp do metadanych i manipulowanie nimi jest kluczowym zadaniem. Metadane, które dostarczają niezbędnych informacji o innych danych, umożliwiają programistom skuteczne zrozumienie, organizowanie i przetwarzanie plików. W tym samouczku szczegółowo opisano wykorzystanie narzędzia GroupDocs.Metadata dla platformy .NET do odczytywania natywnych właściwości metadanych z archiwów TAR. Zbadamy krok po kroku, jak zintegrować tę potężną bibliotekę z projektami .NET, aby efektywnie obsługiwać metadane archiwum TAR.
 ## Warunki wstępne

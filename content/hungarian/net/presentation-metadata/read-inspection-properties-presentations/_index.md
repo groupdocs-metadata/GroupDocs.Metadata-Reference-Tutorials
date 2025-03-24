@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan bonthatja ki a prezentáció metaadatait a Grou
 weight: 14
 url: /hu/net/presentation-metadata/read-inspection-properties-presentations/
 ---
+
+# Olvassa el a Vizsgálati tulajdonságokat a .NET prezentációiból
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatjuk a GroupDocs.Metadata for .NET-et a prezentációk tulajdonságainak olvasásához és ellenőrzéséhez. A GroupDocs.Metadata egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy dokumentumokba, például prezentációkba, PDF-fájlokba, képekbe és egyebekbe ágyazott metaadatokkal dolgozzanak. Kifejezetten a prezentációkra (PPTX-fájlok) fogunk összpontosítani, és bemutatjuk, hogyan nyerhet ki információkat, például megjegyzéseket, rejtett diákat és egyebeket.
 ## Előfeltételek

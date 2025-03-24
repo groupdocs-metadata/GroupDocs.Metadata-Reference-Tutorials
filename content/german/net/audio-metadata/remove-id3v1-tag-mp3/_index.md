@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET ID3V1-Tags a
 weight: 16
 url: /de/net/audio-metadata/remove-id3v1-tag-mp3/
 ---
+
+# Entfernen Sie den ID3V1-Tag aus MP3-Dateien in .NET
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mithilfe von GroupDocs.Metadata für .NET das ID3V1-Tag aus MP3-Dateien entfernen. GroupDocs.Metadata ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, Metadateneigenschaften verschiedener Dateiformate, einschließlich MP3-Dateien, zu bearbeiten. Das ID3V1-Tag wird häufig zum Speichern von Metadaten wie Künstlername, Titeltitel, Album und Genre in MP3-Dateien verwendet. Manchmal müssen Sie es jedoch aus bestimmten Anforderungen entfernen. Wir gehen den Prozess Schritt für Schritt anhand praktischer Beispiele durch.
 ## Voraussetzungen

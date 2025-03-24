@@ -6,6 +6,9 @@ description: Aprenda como atualizar propriedades personalizadas em arquivos PDF 
 weight: 16
 url: /pt/net/pdf-metadata/update-custom-properties-pdfs/
 ---
+
+# Atualizar propriedades personalizadas em PDFs usando .NET
+
 ## Introdução
 Neste tutorial, exploraremos como atualizar propriedades personalizadas em arquivos PDF usando .NET com GroupDocs.Metadata. As propriedades personalizadas permitem adicionar metadados adicionais aos seus documentos PDF, o que pode ser útil para categorização, capacidade de pesquisa e recuperação de informações. GroupDocs.Metadata é uma API poderosa que permite aos desenvolvedores trabalhar com metadados em vários formatos de arquivo, incluindo PDFs, usando a estrutura .NET.
 ## Pré-requisitos

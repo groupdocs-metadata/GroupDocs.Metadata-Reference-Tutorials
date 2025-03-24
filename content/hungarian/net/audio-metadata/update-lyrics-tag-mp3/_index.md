@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan frissítheti az MP3-fájlok metaadatait, beleé
 weight: 21
 url: /hu/net/audio-metadata/update-lyrics-tag-mp3/
 ---
+
+# Frissítse a dalszövegcímkét az MP3-fájlokban a .NET használatával
+
 ## Bevezetés
 Ebben az oktatóanyagban bemutatjuk, hogyan használható a GroupDocs.Metadata for .NET könyvtár az MP3-fájlok dalszövegcímkéinek programozott frissítésére. Ez a folyamat magában foglalja az MP3-fájlok metaadatainak elérését és módosítását, különös tekintettel a dalszövegek információira.
 ## Előfeltételek

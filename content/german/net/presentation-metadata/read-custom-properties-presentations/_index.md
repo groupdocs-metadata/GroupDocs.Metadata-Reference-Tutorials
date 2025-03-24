@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mithilfe von GroupDocs.Metadata benutzerdefin
 weight: 11
 url: /de/net/presentation-metadata/read-custom-properties-presentations/
 ---
+
+# Lesen Sie benutzerdefinierte Eigenschaften aus Präsentationen in .NET
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mithilfe von GroupDocs.Metadata benutzerdefinierte Eigenschaften aus Präsentationen in .NET lesen. Benutzerdefinierte Eigenschaften enthalten zusätzliche Informationen, die in die Präsentationsdatei eingebettet sind und zum Organisieren, Kategorisieren oder Beschreiben des Inhalts nützlich sein können. Durch die Nutzung der GroupDocs.Metadata-Bibliothek können Entwickler effizient auf diese benutzerdefinierten Eigenschaften zugreifen und diese für verschiedene Zwecke extrahieren.
 ## Voraussetzungen

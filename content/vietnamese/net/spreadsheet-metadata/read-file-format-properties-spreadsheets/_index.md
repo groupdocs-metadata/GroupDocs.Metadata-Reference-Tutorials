@@ -6,6 +6,9 @@ description: Tìm hiểu cách đọc thuộc tính định dạng tệp bảng 
 weight: 12
 url: /vi/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
+
+# Đọc thuộc tính định dạng tệp từ bảng tính trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách tận dụng GroupDocs.Metadata cho .NET để đọc các thuộc tính định dạng tệp từ bảng tính một cách hiệu quả. GroupDocs.Metadata cho .NET là một API mạnh mẽ cho phép các nhà phát triển trích xuất, chỉnh sửa và quản lý siêu dữ liệu được liên kết với các định dạng tệp khác nhau trong ứng dụng .NET của họ. Chúng tôi sẽ đặc biệt tập trung vào việc truy xuất thông tin cần thiết về các tệp bảng tính bằng thư viện này.
 ## Điều kiện tiên quyết

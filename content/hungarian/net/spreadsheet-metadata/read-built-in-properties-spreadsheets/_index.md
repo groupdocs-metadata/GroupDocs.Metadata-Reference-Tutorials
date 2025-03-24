@@ -6,6 +6,9 @@ description: Tanulja meg, hogyan kinyerhet ki metaadatokat a .NET-ben lévő tá
 weight: 10
 url: /hu/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
+
+# Olvassa el a beépített tulajdonságokat a .NET-ben található táblázatokból
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatjuk a GroupDocs.Metadata for .NET-et a táblázatokból származó metaadatok hatékony kezelésére és kinyerésére. A GroupDocs.Metadata for .NET egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy különféle fájlformátumokba ágyazott metaadatokkal dolgozzanak, beleértve a táblázatokat, prezentációkat, dokumentumokat, képeket és egyebeket. Ez az útmutató kifejezetten a beépített tulajdonságok kinyerésére összpontosít a táblázatkezelő fájlokból C# használatával.
 ## Előfeltételek

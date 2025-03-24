@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan olvassa el a táblázatfájl-formátum tulajdon
 weight: 12
 url: /hu/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
+
+# Olvassa el a Fájlformátum tulajdonságait a .NET-ben található táblázatokból
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet kihasználni a GroupDocs.Metadata for .NET-et a fájlformátum-tulajdonságok hatékony olvasásához a táblázatokból. A GroupDocs.Metadata for .NET egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy .NET-alkalmazásaikon belül kivonják, szerkesszék és kezeljék a különféle fájlformátumokhoz kapcsolódó metaadatokat. Kifejezetten arra összpontosítunk, hogy ennek a könyvtárnak a használatával lekérjük a táblázatkezelő fájlokkal kapcsolatos lényeges információkat.
 ## Előfeltételek

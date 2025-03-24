@@ -6,6 +6,9 @@ description: Pelajari cara mengelola metadata dokumen secara efisien dengan Grou
 weight: 13
 url: /id/net/metadata-loading/load-metadata-password-protected/
 ---
+
+# Cara Memuat Metadata dari Dokumen yang Dilindungi Kata Sandi di .NET
+
 ## Perkenalan
 Dalam dunia pengembangan .NET, pengelolaan metadata dalam dokumen sangat penting untuk berbagai aplikasi. GroupDocs.Metadata untuk .NET menyediakan alat canggih untuk mengekstrak, mengedit, dan mengelola metadata dengan cara yang mudah. Tutorial ini akan memandu Anda melalui proses memuat metadata dari dokumen yang dilindungi kata sandi menggunakan GroupDocs.Metadata.
 ##Prasyarat

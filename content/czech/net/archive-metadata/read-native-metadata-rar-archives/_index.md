@@ -6,6 +6,9 @@ description: Naučte se extrahovat vlastnosti metadat z archivů RAR pomocí Gro
 weight: 10
 url: /cs/net/archive-metadata/read-native-metadata-rar-archives/
 ---
+
+# Přečtěte si vlastnosti nativních metadat z archivů RAR v .NET
+
 ## Úvod
 RAR (Roshal Archive) je populární formát souborů používaný pro kompresi a archivaci dat. Při práci se soubory RAR v aplikacích .NET je často nutné číst a extrahovat vlastnosti metadat vložené do těchto archivů. Tento výukový program vás provede procesem využití GroupDocs.Metadata for .NET k přístupu a extrahování vlastností nativních metadat z archivů RAR.
 ## Předpoklady

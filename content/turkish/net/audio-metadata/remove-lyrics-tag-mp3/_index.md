@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak Şarkı Sözü etiketlerin
 weight: 18
 url: /tr/net/audio-metadata/remove-lyrics-tag-mp3/
 ---
+
+# .NET'teki MP3 Dosyalarından Şarkı Sözü Etiketini Kaldır
+
 ## giriiş
 Bu öğreticide, Şarkı Sözleri etiketini MP3 dosyalarından kaldırmak için GroupDocs.Metadata for .NET'in nasıl kullanılacağını keşfedeceğiz. GroupDocs.Metadata, geliştiricilerin MP3 dosyaları da dahil olmak üzere çeşitli dosya formatlarındaki meta verilerle çalışmasına olanak tanıyan güçlü bir API'dir. Bu kılavuzda özetlenen adımları izleyerek, .NET uygulamalarınızdaki meta verileri verimli bir şekilde yönetebileceksiniz.
 ## Önkoşullar

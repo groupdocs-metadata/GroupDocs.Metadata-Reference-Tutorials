@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyodrębnić znaczniki tekstów z plików MP3 prz
 weight: 13
 url: /pl/net/audio-metadata/read-lyrics-tag-mp3/
 ---
+
+# Przeczytaj znacznik tekstu z plików MP3 w formacie .NET
+
 ## Wstęp
 tym samouczku nauczymy się wyodrębniać i czytać znaczniki tekstów piosenek z plików MP3 przy użyciu interfejsu API GroupDocs.Metadata w platformie .NET. GroupDocs.Metadata to potężna biblioteka, która umożliwia programistom pracę z metadanymi powiązanymi z różnymi formatami plików, w tym plikami MP3. Wykonując poniższe kroki, będziesz w stanie efektywnie odzyskiwać informacje związane z tekstami piosenek zawarte w plikach MP3.
 ## Warunki wstępne

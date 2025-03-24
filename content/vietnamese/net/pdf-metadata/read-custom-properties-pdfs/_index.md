@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất các thuộc tính tùy chỉnh t�
 weight: 11
 url: /vi/net/pdf-metadata/read-custom-properties-pdfs/
 ---
+
+# Đọc thuộc tính tùy chỉnh từ tệp PDF trong .NET
+
 ## Giới thiệu
 Trong lĩnh vực phát triển .NET, việc quản lý siêu dữ liệu trong tài liệu là rất quan trọng để tổ chức và trích xuất thông tin có giá trị. GroupDocs.Metadata dành cho .NET cung cấp các công cụ mạnh mẽ để đọc các thuộc tính tùy chỉnh từ tệp PDF, cho phép các nhà phát triển truy cập và sử dụng siêu dữ liệu tài liệu một cách hiệu quả. Hướng dẫn này sẽ hướng dẫn bạn quy trình tận dụng GroupDocs.Metadata để truy xuất các thuộc tính tùy chỉnh từ tệp PDF bằng C#.
 ## Điều kiện tiên quyết

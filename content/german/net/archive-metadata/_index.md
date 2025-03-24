@@ -7,6 +7,9 @@ weight: 21
 url: /de/net/archive-metadata/
 ---
 
+# Metadaten archivieren
+
+
 ## Einführung
 
 Haben Sie Probleme mit der Verwaltung von Metadaten in Ihren .NET-Anwendungen? Suchen Sie nicht weiter! Willkommen beim ultimativen Leitfaden zur Nutzung von GroupDocs.Metadata für .NET zur Optimierung Ihres Metadatenverarbeitungsprozesses. Egal, ob Sie mit RAR-, 7Zip-, TAR- oder ZIP-Archiven arbeiten, mit unseren umfassenden Tutorials sind Sie an der richtigen Adresse.

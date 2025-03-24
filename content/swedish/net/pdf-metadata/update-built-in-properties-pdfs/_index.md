@@ -6,6 +6,9 @@ description: Lär dig hur du uppdaterar PDF-dokumentegenskaper med C# och GroupD
 weight: 15
 url: /sv/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
+
+# Uppdatera inbyggda egenskaper i PDF-filer med .NET
+
 ## Introduktion
 I den här handledningen kommer vi att lära oss hur du använder GroupDocs.Metadata för .NET för att uppdatera inbyggda egenskaper för PDF-dokument. Detta bibliotek tillhandahåller en kraftfull uppsättning verktyg för att manipulera metadata inom olika dokumentformat. Vi går igenom de nödvändiga stegen för att ändra egenskaper som författare, titel, skapelsedatum, nyckelord, skapare och producent i en PDF-fil med C#.
 ## Förutsättningar

@@ -6,6 +6,9 @@ description: 了解使用 GroupDocs.Metadata for .NET 从项目管理文档中�
 weight: 10
 url: /zh/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---
+
+# 阅读 .NET 项目管理文档中的内置属性
+
 ## 介绍
 在本教程中，我们将深入研究如何利用 GroupDocs.Metadata for .NET 高效地从项目管理文档中提取内置属性。此库提供了强大的功能来管理各种文件格式（包括 Microsoft Project）的元数据，允许开发人员以编程方式访问关键文档详细信息。我们将逐步指导您完成该过程，分解每个示例以确保清晰度和易于实施。
 ## 先决条件

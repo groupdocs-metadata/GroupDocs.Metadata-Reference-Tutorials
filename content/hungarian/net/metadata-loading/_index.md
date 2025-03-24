@@ -6,6 +6,9 @@ description: A GroupDocs.Metadata segítségével könnyedén kezelheti a fájlo
 weight: 20
 url: /hu/net/metadata-loading/
 ---
+
+# Metaadatok betöltése
+
 ## Bevezetés
 
 Bővíteni szeretné .NET-alkalmazásai fájlkezelési képességeit? Merüljön el a GroupDocs.Metadata for .NET oktatóanyagában, amely a metaadatbetöltés különböző aspektusait fedi le. A metaadatok helyi lemezekről való betöltésétől kezdve a jelszóval védett dokumentumok kezeléséig mi mindent megtalálunk.

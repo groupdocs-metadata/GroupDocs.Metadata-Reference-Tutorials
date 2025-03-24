@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất siêu dữ liệu từ bảng tính
 weight: 10
 url: /vi/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
+
+# Đọc các thuộc tính tích hợp từ bảng tính trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ đi sâu vào cách sử dụng GroupDocs.Metadata cho .NET để quản lý và trích xuất siêu dữ liệu từ bảng tính một cách hiệu quả. GroupDocs.Metadata dành cho .NET là một API mạnh mẽ cho phép các nhà phát triển làm việc với siêu dữ liệu được nhúng ở nhiều định dạng tệp khác nhau, bao gồm bảng tính, bản trình bày, tài liệu, hình ảnh, v.v. Hướng dẫn này tập trung cụ thể vào việc trích xuất các thuộc tính tích hợp từ tệp bảng tính bằng C#.
 ## Điều kiện tiên quyết

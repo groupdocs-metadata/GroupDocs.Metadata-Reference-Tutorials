@@ -7,6 +7,9 @@ description: Unlock the power of GroupDocs.Metadata for .NET with tutorials on r
 weight: 27
 url: /net/spreadsheet-metadata/
 ---
+
+# Spreadsheet Metadata
+
 ## Introduction
 
 GroupDocs.Metadata for .NET offers a comprehensive set of tutorials aimed at empowering developers to leverage metadata manipulation in spreadsheet files effectively. Let's delve into these tutorials to understand how they can enhance your .NET applications.

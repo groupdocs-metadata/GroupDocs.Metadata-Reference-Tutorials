@@ -6,6 +6,9 @@ description: Learn how to update inspection properties in spreadsheets using Gro
 weight: 16
 url: /net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
+
+# Update Inspection Properties in Spreadsheets using .NET
+
 ## Introduction
 In this tutorial, we'll explore how to use GroupDocs.Metadata for .NET to update inspection properties in spreadsheets. GroupDocs.Metadata is a powerful API that allows you to work with metadata associated with various document formats, including spreadsheets. We'll focus specifically on clearing comments, digital signatures, and hidden sheets from a spreadsheet using .NET.
 ## Prerequisites

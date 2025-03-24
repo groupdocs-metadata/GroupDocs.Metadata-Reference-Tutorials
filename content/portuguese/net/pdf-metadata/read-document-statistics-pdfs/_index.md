@@ -6,6 +6,9 @@ description: Aprenda como extrair estatísticas de documentos PDF usando GroupDo
 weight: 12
 url: /pt/net/pdf-metadata/read-document-statistics-pdfs/
 ---
+
+# Leia estatísticas de documentos de PDFs em .NET
+
 ## Introdução
 No mundo do desenvolvimento de software, o gerenciamento eficiente de metadados de documentos é crucial para muitas aplicações. GroupDocs.Metadata for .NET fornece ferramentas poderosas para ler e manipular metadados em vários formatos de documentos. Este tutorial se concentra em aproveitar esse recurso especificamente para arquivos PDF usando .NET. Ao final deste guia, você entenderá como extrair estatísticas de documentos, como contagem de caracteres, contagem de páginas e contagem de palavras de PDFs usando GroupDocs.Metadata.
 ## Pré-requisitos

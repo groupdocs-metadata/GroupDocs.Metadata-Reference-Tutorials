@@ -6,6 +6,9 @@ description: Lär dig hur du uppdaterar metadata i .NET-projektledningsdokument 
 weight: 12
 url: /sv/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
+
+# Uppdatera inbyggda egenskaper i .NET Project Management Documents
+
 ## Introduktion
 I den här handledningen kommer vi att utforska hur du uppdaterar inbyggda egenskaper i .NET-projekthanteringsdokument med hjälp av GroupDocs.Metadata för .NET. Detta bibliotek möjliggör effektiv manipulering av metadata för olika filformat, inklusive projektledningsdokument som Microsoft Project (MPP)-filer.
 ## Förutsättningar

@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan olvassa el a prezentációs fájl tulajdonsága
 weight: 13
 url: /hu/net/presentation-metadata/read-file-format-properties-presentations/
 ---
+
+# Olvassa el a Fájlformátum tulajdonságait a .NET bemutatóiból
+
 ## Bevezetés
 A .NET fejlesztés világában a fájlokon belüli metaadatok kezelése kulcsfontosságú a különböző alkalmazások számára. A GroupDocs.Metadata for .NET hatékony eszközöket kínál a fájlok metaadataival való hatékony interakcióhoz. Ez az oktatóanyag végigvezeti a fájlformátum-tulajdonságok beolvasásának folyamatán a prezentációkból a GroupDocs.Metadata for .NET használatával.
 ## Előfeltételek

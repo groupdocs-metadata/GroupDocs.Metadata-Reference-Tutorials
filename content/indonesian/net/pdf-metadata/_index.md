@@ -6,6 +6,9 @@ description: Pelajari cara mengelola metadata PDF dengan mudah dengan tutorial G
 weight: 24
 url: /id/net/pdf-metadata/
 ---
+
+# Metadata PDF
+
 ## Perkenalan
 
  Buka potensi manajemen metadata PDF dengan[GroupDocs.Metadata untuk .NET](https://www.groupdocs.com/products/metadata/net). Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini menawarkan wawasan berharga dalam memanfaatkan kekuatan manipulasi metadata.

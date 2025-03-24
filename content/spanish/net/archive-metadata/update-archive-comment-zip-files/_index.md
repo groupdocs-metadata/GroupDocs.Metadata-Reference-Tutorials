@@ -6,6 +6,9 @@ description: Aprenda a actualizar comentarios en archivos ZIP usando GroupDocs.M
 weight: 15
 url: /es/net/archive-metadata/update-archive-comment-zip-files/
 ---
+
+# Actualizar comentario de archivo en archivos ZIP usando .NET
+
 ## Introducción
 En el mundo del desarrollo de software, la gestión de metadatos dentro de archivos es un aspecto fundamental para garantizar la integridad y accesibilidad de los datos. GroupDocs.Metadata para .NET ofrece una solución sólida para que los desarrolladores de .NET trabajen de manera eficiente con metadatos en varios formatos de archivo. En este tutorial, profundizaremos en el uso de GroupDocs.Metadata para .NET para actualizar comentarios dentro de archivos ZIP. Al final de esta guía, comprenderá claramente cómo manipular metadatos dentro de archivos ZIP utilizando esta poderosa biblioteca.
 ## Requisitos previos

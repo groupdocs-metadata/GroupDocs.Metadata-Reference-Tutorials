@@ -6,6 +6,9 @@ description: Tìm hiểu cách đọc siêu dữ liệu PDF trong .NET bằng Gr
 weight: 10
 url: /vi/net/pdf-metadata/read-built-in-properties-pdfs/
 ---
+
+# Đọc Thuộc tính tích hợp từ tệp PDF trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách tận dụng GroupDocs.Metadata cho .NET để đọc các thuộc tính tích hợp từ tệp PDF. GroupDocs.Metadata là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với siêu dữ liệu được liên kết với các định dạng tài liệu khác nhau, bao gồm tệp PDF, tài liệu Microsoft Office, hình ảnh, v.v. Bằng cách sử dụng thư viện này, bạn có thể dễ dàng truy cập và thao tác các thuộc tính siêu dữ liệu được nhúng trong tệp PDF, chẳng hạn như tên tác giả, ngày tạo, chủ đề, v.v.
 ## Điều kiện tiên quyết

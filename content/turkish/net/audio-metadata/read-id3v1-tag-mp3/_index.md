@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak MP3 dosyalarından ID3V1 e
 weight: 11
 url: /tr/net/audio-metadata/read-id3v1-tag-mp3/
 ---
+
+# .NET'teki MP3 Dosyalarından ID3V1 Etiketini Okuyun
+
 ## giriiş
 Bu öğreticide, GroupDocs.Metadata for .NET'i kullanarak MP3 dosyalarından ID3V1 etiketlerinin nasıl çıkarılacağını öğreneceksiniz. GroupDocs.Metadata, MP3 ses dosyaları da dahil olmak üzere çeşitli dosya formatlarındaki meta verilerle çalışmanıza olanak tanıyan güçlü bir kitaplıktır. Süreç boyunca size adım adım rehberlik edeceğiz.
 ## Önkoşullar

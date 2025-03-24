@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan olvashat egyéni tulajdonságokat a .NET prezen
 weight: 11
 url: /hu/net/presentation-metadata/read-custom-properties-presentations/
 ---
+
+# Olvassa el az egyéni tulajdonságokat a .NET bemutatóiból
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet egyéni tulajdonságokat olvasni a .NET prezentációiból a GroupDocs.Metadata használatával. Az egyéni tulajdonságok a prezentációs fájlba beágyazott további információkat tartalmaznak, amelyek hasznosak lehetnek a tartalom rendezéséhez, kategorizálásához vagy leírásához. A GroupDocs.Metadata könyvtár kihasználásával a fejlesztők hatékonyan hozzáférhetnek ezekhez az egyéni tulajdonságokhoz, és különféle célokra kivonhatják azokat.
 ## Előfeltételek

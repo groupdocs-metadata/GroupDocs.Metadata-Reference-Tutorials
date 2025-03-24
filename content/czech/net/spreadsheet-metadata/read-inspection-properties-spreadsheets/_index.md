@@ -6,6 +6,9 @@ description: Naučte se číst vlastnosti inspekce z tabulek pomocí GroupDocs.M
 weight: 13
 url: /cs/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---
+
+# Přečtěte si vlastnosti inspekce z tabulek v .NET
+
 ## Úvod
 tomto tutoriálu prozkoumáme, jak používat GroupDocs.Metadata pro .NET ke kontrole vlastností z tabulek. GroupDocs.Metadata for .NET je výkonná knihovna, která umožňuje vývojářům číst, upravovat a odstraňovat metadata spojená s různými formáty souborů, včetně tabulek. Tento tutoriál se zaměřuje konkrétně na čtení vlastností inspekce z tabulkových souborů pomocí C#.
 ## Předpoklady

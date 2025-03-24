@@ -6,6 +6,9 @@ description: Dowiedz się, jak zarządzać metadanymi plików w platformie .NET 
 weight: 11
 url: /pl/net/metadata-loading/load-metadata-stream/
 ---
+
+# Ładowanie metadanych ze strumienia w samouczku .NET
+
 ## Wstęp
 tym samouczku omówimy, jak używać GroupDocs.Metadata for .NET do efektywnego zarządzania metadanymi w aplikacjach .NET. Metadane, takie jak właściwości dokumentu, mogą dostarczyć cennych informacji o plikach, w tym takich szczegółów, jak autor, data utworzenia i słowa kluczowe. GroupDocs.Metadata upraszcza proces odczytywania, edytowania i usuwania metadanych z różnych formatów plików w środowisku .NET. Ten przewodnik skupi się na ładowaniu metadanych ze strumienia, demonstrując procedury krok po kroku na praktycznych przykładach.
 ## Warunki wstępne

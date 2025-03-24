@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 ZIP 아카이브에서 �
 weight: 13
 url: /ko/net/archive-metadata/read-native-metadata-zip-archives/
 ---
+
+# .NET의 ZIP 아카이브에서 기본 메타데이터 속성 읽기
+
 ## 소개
 ZIP 아카이브는 일반적으로 파일을 압축하고 묶는 데 사용됩니다. .NET 애플리케이션에서 ZIP 파일로 작업할 때 이러한 아카이브에서 메타데이터 속성을 추출해야 하는 경우가 많습니다. 이 자습서에서는 .NET용 GroupDocs.Metadata를 사용하여 ZIP 파일에서 기본 메타데이터 속성을 읽는 방법을 단계별로 살펴보겠습니다.
 ## 전제 조건

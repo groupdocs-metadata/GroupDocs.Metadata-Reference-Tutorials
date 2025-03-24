@@ -6,6 +6,9 @@ description: 在此綜合教學中了解如何使用 GroupDocs.Metadata for .NET
 weight: 10
 url: /zh-hant/net/presentation-metadata/read-built-in-properties-presentations/
 ---
+
+# 從 .NET 中的簡報中讀取內建屬性
+
 ## 介紹
 在 .NET 開發領域，管理和從簡報等各種文件格式中提取元資料至關重要。 GroupDocs.Metadata for .NET 提供了一個強大的解決方案來有效處理元資料任務。本教學將深入研究使用 GroupDocs.Metadata for .NET 從簡報中讀取內建屬性。最後，您將清楚地了解如何利用該程式庫從簡報文件中提取基本元資料。
 ## 先決條件

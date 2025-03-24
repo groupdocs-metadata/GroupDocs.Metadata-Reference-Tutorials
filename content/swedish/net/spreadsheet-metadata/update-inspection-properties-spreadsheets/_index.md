@@ -6,6 +6,9 @@ description: Lär dig hur du uppdaterar inspektionsegenskaper i kalkylblad med G
 weight: 16
 url: /sv/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
+
+# Uppdatera inspektionsegenskaper i kalkylblad med .NET
+
 ## Introduktion
 I den här självstudien kommer vi att utforska hur du använder GroupDocs.Metadata för .NET för att uppdatera inspektionsegenskaper i kalkylblad. GroupDocs.Metadata är ett kraftfullt API som låter dig arbeta med metadata kopplade till olika dokumentformat, inklusive kalkylblad. Vi kommer att fokusera specifikt på att rensa kommentarer, digitala signaturer och dolda ark från ett kalkylblad med .NET.
 ## Förutsättningar

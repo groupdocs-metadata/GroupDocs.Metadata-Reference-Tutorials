@@ -6,6 +6,9 @@ description: Aprenda a extraer metadatos de hojas de cálculo en .NET utilizando
 weight: 10
 url: /es/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
+
+# Leer propiedades integradas de hojas de cálculo en .NET
+
 ## Introducción
 En este tutorial, profundizaremos en cómo utilizar GroupDocs.Metadata para .NET para administrar y extraer metadatos de hojas de cálculo de manera eficiente. GroupDocs.Metadata para .NET es una potente API que permite a los desarrolladores trabajar con metadatos integrados en varios formatos de archivos, incluidas hojas de cálculo, presentaciones, documentos, imágenes y más. Esta guía se centra específicamente en extraer propiedades integradas de archivos de hojas de cálculo usando C#.
 ## Requisitos previos

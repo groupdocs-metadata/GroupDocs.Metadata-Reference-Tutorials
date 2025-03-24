@@ -6,6 +6,9 @@ description: Tìm hiểu cách cập nhật thuộc tính tài liệu PDF bằng
 weight: 15
 url: /vi/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
+
+# Cập nhật các thuộc tính tích hợp trong tệp PDF bằng .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách sử dụng GroupDocs.Metadata cho .NET để cập nhật các thuộc tính tích hợp của tài liệu PDF. Thư viện này cung cấp một bộ công cụ mạnh mẽ để thao tác siêu dữ liệu trong các định dạng tài liệu khác nhau. Chúng ta sẽ thực hiện các bước cần thiết để sửa đổi các thuộc tính như tác giả, tiêu đề, ngày tạo, từ khóa, người sáng tạo và nhà sản xuất trong tệp PDF bằng C#.
 ## Điều kiện tiên quyết

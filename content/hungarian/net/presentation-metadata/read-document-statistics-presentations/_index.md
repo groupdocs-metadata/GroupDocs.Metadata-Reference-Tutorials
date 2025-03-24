@@ -6,6 +6,9 @@ description: Tanulja meg, hogyan olvashat dokumentumstatisztikákat prezentáci�
 weight: 12
 url: /hu/net/presentation-metadata/read-document-statistics-presentations/
 ---
+
+# Olvassa el a dokumentumstatisztikát a .NET bemutatóiból
+
 ## Bevezetés
 .NET fejlesztés területén a dokumentumok metaadatainak hatékony kezelése kulcsfontosságú a prezentációkkal, táblázatokkal és más fájlformátumokkal foglalkozó alkalmazások számára. A GroupDocs.Metadata for .NET robusztus megoldást kínál a különböző fájltípusok metaadatainak elérésére, szerkesztésére és kinyerésére. Ez az oktatóanyag végigvezeti a dokumentumstatisztikák elolvasásán, kifejezetten a prezentációkból a GroupDocs.Metadata for .NET használatával.
 ## Előfeltételek

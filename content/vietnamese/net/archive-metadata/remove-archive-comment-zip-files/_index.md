@@ -6,6 +6,9 @@ description: Tìm hiểu cách xóa nhận xét trong kho lưu trữ ZIP bằng 
 weight: 14
 url: /vi/net/archive-metadata/remove-archive-comment-zip-files/
 ---
+
+# Xóa nhận xét lưu trữ khỏi tệp ZIP trong .NET
+
 ## Giới thiệu
 Trong lĩnh vực phát triển .NET, việc quản lý siêu dữ liệu trong các tệp là điều cần thiết để duy trì thông tin chính xác về chính tệp đó. GroupDocs.Metadata dành cho .NET cung cấp bộ công cụ mạnh mẽ giúp đơn giản hóa các thao tác siêu dữ liệu trên nhiều định dạng tệp khác nhau, bao gồm cả tệp ZIP. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc sử dụng GroupDocs.Metadata để xóa nhận xét lưu trữ khỏi tệp ZIP theo chương trình bằng C#. 
 ## Điều kiện tiên quyết

@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan lehet metaadatokat kinyerni a .NET TAR archívu
 weight: 12
 url: /hu/net/archive-metadata/read-native-metadata-tar-archives/
 ---
+
+# Olvassa el a natív metaadatok tulajdonságait a TAR Archivesból a .NET-ben
+
 ## Bevezetés
 szoftverfejlesztés és adatkezelés területén a metaadatok elérése és kezelése döntő fontosságú feladat. A metaadatok, amelyek alapvető információkat nyújtanak más adatokról, lehetővé teszik a fejlesztők számára a fájlok hatékony megértését, rendszerezését és feldolgozását. Ez az oktatóanyag a GroupDocs.Metadata for .NET kiaknázásával foglalkozik a TAR archívumokból származó natív metaadat-tulajdonságok olvasásához. Lépésről lépésre megvizsgáljuk, hogyan integrálhatja ezt a hatékony könyvtárat .NET-projektjeibe a TAR archívum metaadatainak hatékony kezelése érdekében.
 ## Előfeltételek

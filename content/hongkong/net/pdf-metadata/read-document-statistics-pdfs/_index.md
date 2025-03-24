@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 擷取 PDF 文件統
 weight: 12
 url: /zh-hant/net/pdf-metadata/read-document-statistics-pdfs/
 ---
+
+# 從 .NET 中的 PDF 讀取文檔統計信息
+
 ## 介紹
 在軟體開發領域，有效管理文件元資料對於許多應用程式至關重要。 GroupDocs.Metadata for .NET 提供了強大的工具來讀取和操作各種文件格式的元資料。本教學重點在於使用 .NET 專門針對 PDF 檔案利用此功能。在本指南結束時，您將了解如何使用 GroupDocs.Metadata 從 PDF 中提取文件統計信息，例如字元數、頁數和字數。
 ## 先決條件

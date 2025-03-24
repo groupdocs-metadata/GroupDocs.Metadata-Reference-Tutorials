@@ -6,6 +6,9 @@ description: GroupDocs.Metadata で .NET を使用して PDF ファイル内の�
 weight: 16
 url: /ja/net/pdf-metadata/update-custom-properties-pdfs/
 ---
+
+# .NET を使用して PDF のカスタム プロパティを更新する
+
 ## 導入
 このチュートリアルでは、.NET と GroupDocs.Metadata を使用して PDF ファイルのカスタム プロパティを更新する方法を説明します。カスタム プロパティを使用すると、PDF ドキュメントに追加のメタデータを追加できます。これは、分類、検索可能性、および情報の取得に役立ちます。 GroupDocs.Metadata は、開発者が .NET Framework を使用して PDF などのさまざまなファイル形式のメタデータを操作できるようにする強力な API です。
 ## 前提条件

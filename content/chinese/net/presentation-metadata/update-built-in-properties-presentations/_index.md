@@ -6,6 +6,9 @@ description: 了解如何使用 .NET 和 GroupDocs.Metadata（一个多功能元
 weight: 15
 url: /zh/net/presentation-metadata/update-built-in-properties-presentations/
 ---
+
+# 使用 .NET 更新演示文稿中的内置属性
+
 ## 介绍
 在本教程中，我们将深入研究 GroupDocs.Metadata for .NET 的强大功能，这是一个综合库，旨在使用 .NET 框架操作文档中的元数据。具体来说，我们将重点关注使用 C# 以编程方式更新演示文稿（.PPT 和 .PPTX 文件）中的内置属性。
 ## 先决条件

@@ -6,6 +6,9 @@ description: GroupDocs.Metadata를 사용하면 .NET에서 파일 메타데이�
 weight: 20
 url: /ko/net/metadata-loading/
 ---
+
+# 메타데이터 로딩
+
 ## 소개
 
 .NET 애플리케이션의 파일 조작 기능을 향상시키고 싶으십니까? 메타데이터 로딩의 다양한 측면을 다루는 .NET용 GroupDocs.Metadata 자습서를 살펴보세요. 로컬 디스크에서 메타데이터를 로드하는 것부터 비밀번호로 보호된 문서를 처리하는 것까지 모든 것을 다룹니다.

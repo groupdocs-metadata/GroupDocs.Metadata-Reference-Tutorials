@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用して PDF ドキュメント�
 weight: 12
 url: /ja/net/pdf-metadata/read-document-statistics-pdfs/
 ---
+
+# .NET で PDF からドキュメント統計を読み取る
+
 ## 導入
 ソフトウェア開発の世界では、ドキュメント メタデータを効率的に管理することが、多くのアプリケーションにとって重要です。GroupDocs.Metadata for .NET は、さまざまなドキュメント形式内のメタデータを読み取り、操作するための強力なツールを提供します。このチュートリアルでは、.NET を使用して PDF ファイルにこの機能を活用することに重点を置いています。このガイドを読み終えると、GroupDocs.Metadata を使用して PDF から文字数、ページ数、単語数などのドキュメント統計情報を抽出する方法がわかります。
 ## 前提条件

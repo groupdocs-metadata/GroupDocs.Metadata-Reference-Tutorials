@@ -6,6 +6,9 @@ description: 了解使用 GroupDocs.Metadata 從 .NET 中的圖表檔案中提�
 weight: 10
 url: /zh-hant/net/diagram-metadata/read-built-in-properties-diagrams/
 ---
+
+# 從 .NET 圖表中讀取內建屬性
+
 ## 介紹
 在本教程中，我們將深入研究使用 GroupDocs.Metadata for .NET 從圖表中讀取內建屬性。 GroupDocs.Metadata for .NET 是一個功能強大的程式庫，使開發人員能夠處理與各種文件類型相關的元數據，包括圖表、簡報、圖像等。具體來說，我們將重點關注使用此庫從圖表檔案中提取元資料屬性。
 ## 先決條件

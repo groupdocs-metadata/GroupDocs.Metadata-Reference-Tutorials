@@ -6,6 +6,9 @@ description: Découvrez comment lire les propriétés du format de fichier de fe
 weight: 12
 url: /fr/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
+
+# Lire les propriétés du format de fichier à partir de feuilles de calcul dans .NET
+
 ## Introduction
 Dans ce didacticiel, nous explorerons comment exploiter GroupDocs.Metadata pour .NET pour lire efficacement les propriétés de format de fichier à partir de feuilles de calcul. GroupDocs.Metadata for .NET est une API puissante qui permet aux développeurs d'extraire, de modifier et de gérer les métadonnées associées à divers formats de fichiers au sein de leurs applications .NET. Nous nous concentrerons spécifiquement sur la récupération d’informations essentielles sur les fichiers de feuilles de calcul à l’aide de cette bibliothèque.
 ## Conditions préalables

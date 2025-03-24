@@ -6,6 +6,9 @@ description: Découvrez comment lire les balises ID3V1 à partir de fichiers MP3
 weight: 11
 url: /fr/net/audio-metadata/read-id3v1-tag-mp3/
 ---
+
+# Lire la balise ID3V1 à partir de fichiers MP3 dans .NET
+
 ## Introduction
 Dans ce didacticiel, vous apprendrez à extraire les balises ID3V1 de fichiers MP3 à l'aide de GroupDocs.Metadata pour .NET. GroupDocs.Metadata est une bibliothèque puissante qui vous permet de travailler avec des métadonnées dans différents formats de fichiers, y compris des fichiers audio MP3. Nous vous guiderons étape par étape tout au long du processus.
 ## Conditions préalables

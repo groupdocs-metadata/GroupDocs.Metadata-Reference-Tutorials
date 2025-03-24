@@ -6,6 +6,9 @@ description: Khám phá cách cập nhật thuộc tính tùy chỉnh trong bả
 weight: 15
 url: /vi/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---
+
+# Cập nhật thuộc tính tùy chỉnh trong bảng tính bằng .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách cập nhật các thuộc tính tùy chỉnh trong bảng tính bằng thư viện GroupDocs.Metadata cho .NET. Thuộc tính tùy chỉnh có thể nâng cao siêu dữ liệu của tệp bảng tính của bạn, cung cấp ngữ cảnh hoặc thông tin bổ sung không có trong thuộc tính tiêu chuẩn.
 ## Điều kiện tiên quyết

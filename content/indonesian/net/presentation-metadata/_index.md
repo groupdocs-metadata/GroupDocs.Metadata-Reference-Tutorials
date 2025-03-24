@@ -6,6 +6,9 @@ description: Pelajari cara mengelola metadata presentasi secara efisien di .NET 
 weight: 25
 url: /id/net/presentation-metadata/
 ---
+
+# Metadata Presentasi
+
 ## Perkenalan
 
 Di era digital saat ini, pengelolaan metadata dalam presentasi sangat penting untuk pengorganisasian dan pengambilan informasi yang efektif. GroupDocs.Metadata untuk .NET menawarkan solusi tangguh bagi pengembang yang ingin menyederhanakan proses ini. Baik Anda mengekstrak properti bawaan, mengakses metadata khusus, atau memperbarui properti inspeksi, tutorial kami memberikan panduan langkah demi langkah untuk integrasi yang lancar ke proyek .NET Anda.

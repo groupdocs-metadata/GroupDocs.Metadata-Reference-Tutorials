@@ -7,6 +7,9 @@ description: Sfrutta la potenza di GroupDocs.Metadata per .NET con tutorial sull
 weight: 27
 url: /it/net/spreadsheet-metadata/
 ---
+
+# Metadati del foglio di calcolo
+
 ## introduzione
 
 GroupDocs.Metadata per .NET offre una serie completa di tutorial volti a consentire agli sviluppatori di sfruttare in modo efficace la manipolazione dei metadati nei file dei fogli di calcolo. Esaminiamo questi tutorial per capire come possono migliorare le tue applicazioni .NET.

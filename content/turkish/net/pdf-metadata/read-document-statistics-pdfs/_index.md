@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak PDF belge istatistiklerini
 weight: 12
 url: /tr/net/pdf-metadata/read-document-statistics-pdfs/
 ---
+
+# .NET'teki PDF'lerden Belge İstatistiklerini Okuyun
+
 ## giriiş
 Yazılım geliştirme dünyasında, belge meta verilerinin verimli bir şekilde yönetilmesi birçok uygulama için çok önemlidir. GroupDocs.Metadata for .NET, çeşitli belge formatlarındaki meta verileri okumak ve değiştirmek için güçlü araçlar sağlar. Bu eğitim, özellikle .NET kullanan PDF dosyaları için bu özellikten yararlanmaya odaklanmaktadır. Bu kılavuzun sonunda, GroupDocs.Metadata'yı kullanarak PDF'lerden karakter sayısı, sayfa sayısı ve kelime sayısı gibi belge istatistiklerini nasıl çıkaracağınızı anlayacaksınız.
 ## Önkoşullar

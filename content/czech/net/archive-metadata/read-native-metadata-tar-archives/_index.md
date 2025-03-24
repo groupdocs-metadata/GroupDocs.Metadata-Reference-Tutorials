@@ -6,6 +6,9 @@ description: Naučte se extrahovat metadata z archivů TAR v .NET pomocí GroupD
 weight: 12
 url: /cs/net/archive-metadata/read-native-metadata-tar-archives/
 ---
+
+# Přečtěte si vlastnosti nativních metadat z archivů TAR v .NET
+
 ## Úvod
 oblasti vývoje softwaru a správy dat je přístup k metadatům a manipulace s nimi klíčový úkol. Metadata, která poskytují základní informace o jiných datech, umožňují vývojářům porozumět, organizovat a efektivně zpracovávat soubory. Tento výukový program se ponoří do využití GroupDocs.Metadata pro .NET ke čtení vlastností nativních metadat z archivů TAR. Prozkoumáme krok za krokem, jak integrovat tuto výkonnou knihovnu do vašich projektů .NET, aby bylo možné efektivně zpracovávat metadata archivů TAR.
 ## Předpoklady

@@ -6,6 +6,9 @@ description: Découvrez comment lire les balises APE à partir de fichiers MP3 �
 weight: 10
 url: /fr/net/audio-metadata/read-ape-tag-mp3/
 ---
+
+# Lire la balise APE à partir de fichiers MP3 dans .NET
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment utiliser GroupDocs.Metadata pour .NET pour lire les balises APE à partir de fichiers MP3. Les balises APE (Monkey's Audio) sont des métadonnées stockées dans des fichiers MP3 qui contiennent des informations sur le contenu audio. GroupDocs.Metadata for .NET est une API puissante qui permet aux développeurs de travailler avec des métadonnées dans différents formats de fichiers, notamment des fichiers MP3.
 ## Conditions préalables

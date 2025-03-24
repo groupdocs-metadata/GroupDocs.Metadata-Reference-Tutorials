@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata 從 .NET 中的 TAR 檔案中
 weight: 12
 url: /zh-hant/net/archive-metadata/read-native-metadata-tar-archives/
 ---
+
+# 從 .NET 中的 TAR 檔案讀取本機元資料屬性
+
 ## 介紹
 在軟體開發和資料管理領域，存取和操作元資料是一項至關重要的任務。元資料提供有關其他資料的基本信息，使開發人員能夠有效地理解、組織和處理文件。本教學深入探討如何利用 GroupDocs.Metadata for .NET 從 TAR 檔案中讀取本機元資料屬性。我們將逐步探索如何將這個強大的程式庫整合到您的 .NET 專案中，以有效處理 TAR 存檔元資料。
 ## 先決條件

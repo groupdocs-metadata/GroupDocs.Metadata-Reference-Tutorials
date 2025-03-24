@@ -6,6 +6,9 @@ description: Gerencie facilmente metadados de arquivos em aplicativos .NET com G
 weight: 10
 url: /pt/net/metadata-loading/load-metadata-local-disk/
 ---
+
+# Como carregar metadados do disco local no .NET
+
 ## Introdução
 No domínio do desenvolvimento .NET, o gerenciamento de metadados associados a arquivos é crucial para vários aplicativos. GroupDocs.Metadata for .NET oferece uma solução robusta para leitura, edição e remoção de metadados de arquivos sem esforço. Este tutorial irá guiá-lo através do processo de carregamento de metadados de um disco local usando GroupDocs.Metadata, ajudando você a aproveitar essa biblioteca poderosa de maneira eficaz.
 ## Pré-requisitos

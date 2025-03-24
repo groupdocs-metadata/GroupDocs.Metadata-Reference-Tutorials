@@ -6,6 +6,9 @@ description: Apprenez à supprimer les commentaires d’archive ZIP à l’aide 
 weight: 14
 url: /fr/net/archive-metadata/remove-archive-comment-zip-files/
 ---
+
+# Supprimer le commentaire d'archive des fichiers ZIP dans .NET
+
 ## Introduction
 Dans le domaine du développement .NET, la gestion des métadonnées dans les fichiers est essentielle pour conserver des informations précises sur le fichier lui-même. GroupDocs.Metadata for .NET offre une boîte à outils puissante qui simplifie les opérations de métadonnées sur différents formats de fichiers, y compris les fichiers ZIP. Dans ce didacticiel, nous nous concentrerons sur l'utilisation de GroupDocs.Metadata pour supprimer les commentaires d'archive des fichiers ZIP par programme à l'aide de C#. 
 ## Conditions préalables

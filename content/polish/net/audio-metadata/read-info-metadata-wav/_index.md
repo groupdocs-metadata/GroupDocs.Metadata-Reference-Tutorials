@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyodrębnić metadane z plików WAV przy użyciu 
 weight: 22
 url: /pl/net/audio-metadata/read-info-metadata-wav/
 ---
+
+# Czytaj metadane informacyjne z plików WAV w .NET
+
 ## Wstęp
 świecie programowania .NET zarządzanie i wyodrębnianie metadanych z różnych formatów plików jest kluczowym aspektem wielu aplikacji. W przypadku plików WAV (Waveform Audio File Format) pobieranie zawartych w nich informacji może mieć kluczowe znaczenie dla kategoryzacji, organizacji i zrozumienia treści audio.
 W tym samouczku omówimy, jak wykorzystać GroupDocs.Metadata dla .NET do odczytania określonych metadanych z plików WAV. GroupDocs.Metadata to potężny interfejs API, który umożliwia programistom pracę z metadanymi w szerokiej gamie formatów plików, w tym plików audio, takich jak WAV.

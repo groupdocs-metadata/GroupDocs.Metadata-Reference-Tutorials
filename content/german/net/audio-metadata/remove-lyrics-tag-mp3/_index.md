@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mithilfe von GroupDocs.Metadata für .NET Lie
 weight: 18
 url: /de/net/audio-metadata/remove-lyrics-tag-mp3/
 ---
+
+# Entfernen Sie das Liedtext-Tag aus MP3-Dateien in .NET
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET das Lyrics-Tag aus MP3-Dateien entfernen. GroupDocs.Metadata ist eine leistungsstarke API, die es Entwicklern ermöglicht, mit Metadaten in verschiedenen Dateiformaten, einschließlich MP3-Dateien, zu arbeiten. Wenn Sie die in diesem Handbuch beschriebenen Schritte befolgen, können Sie Metadaten in Ihren .NET-Anwendungen effizient bearbeiten.
 ## Voraussetzungen

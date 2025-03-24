@@ -6,6 +6,9 @@ description: Tanulja meg, hogyan lehet dokumentumstatisztikát kinyerni diagramo
 weight: 12
 url: /hu/net/diagram-metadata/read-document-statistics-diagrams/
 ---
+
+# Olvassa el a dokumentumstatisztikát a diagramokból a .NET-ben
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használható a GroupDocs.Metadata for .NET dokumentumstatisztikák diagramokból való kinyerésére. A GroupDocs.Metadata egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy különféle fájlformátumokhoz kapcsolódó metaadatokkal dolgozzanak. Ha követi ezt a lépésenkénti útmutatót, megtanulhatja, hogyan lehet dokumentumstatisztikát olvasni diagramokból C# használatával.
 ## Előfeltételek

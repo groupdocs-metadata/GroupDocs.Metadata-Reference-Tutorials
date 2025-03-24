@@ -6,6 +6,9 @@ description: Pelajari cara membaca properti khusus dari presentasi di .NET mengg
 weight: 11
 url: /id/net/presentation-metadata/read-custom-properties-presentations/
 ---
+
+# Baca Properti Kustom dari Presentasi di .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara membaca properti khusus dari presentasi di .NET menggunakan GroupDocs.Metadata. Properti kustom berisi informasi tambahan yang tertanam dalam file presentasi, yang dapat berguna untuk mengatur, mengkategorikan, atau menjelaskan konten. Dengan memanfaatkan pustaka GroupDocs.Metadata, pengembang dapat mengakses dan mengekstrak properti khusus ini secara efisien untuk berbagai tujuan.
 ## Prasyarat

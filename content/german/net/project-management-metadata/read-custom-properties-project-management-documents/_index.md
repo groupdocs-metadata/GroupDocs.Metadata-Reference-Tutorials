@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET benutzerdefi
 weight: 11
 url: /de/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
+
+# Lesen Sie benutzerdefinierte Eigenschaften in .NET-Projektmanagementdokumenten
+
 ## Einführung
 In der Welt der .NET-Entwicklung ist die Verwaltung von Metadaten in Projektmanagementdokumenten ein entscheidender Aspekt der Datenorganisation und -abfrage. GroupDocs.Metadata für .NET bietet leistungsstarke Funktionen zum Lesen benutzerdefinierter Eigenschaften aus verschiedenen Projektmanagementdateiformaten wie Microsoft Project (MPP)-Dateien. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess der Verwendung von GroupDocs.Metadata zum Extrahieren benutzerdefinierter Eigenschaften aus .NET-Projektmanagementdokumenten.
 ## Voraussetzungen

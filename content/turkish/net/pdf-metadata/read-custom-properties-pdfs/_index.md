@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak PDF'lerden özel özellikl
 weight: 11
 url: /tr/net/pdf-metadata/read-custom-properties-pdfs/
 ---
+
+# .NET'teki PDF'lerden Özel Özellikleri Okuyun
+
 ## giriiş
 .NET geliştirme alanında, belgeler içindeki meta verileri yönetmek, değerli bilgilerin düzenlenmesi ve çıkarılması açısından çok önemlidir. GroupDocs.Metadata for .NET, PDF'lerden özel özellikleri okumak için güçlü araçlar sunarak geliştiricilerin belge meta verilerine verimli bir şekilde erişmesine ve kullanmasına olanak tanır. Bu eğitim, C# kullanarak PDF dosyalarından özel özellikleri almak için GroupDocs.Metadata'dan yararlanma sürecinde size rehberlik edecektir.
 ## Önkoşullar

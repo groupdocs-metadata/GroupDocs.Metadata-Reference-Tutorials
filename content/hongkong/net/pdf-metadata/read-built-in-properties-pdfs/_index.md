@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata 在 .NET 中讀取 PDF 元資
 weight: 10
 url: /zh-hant/net/pdf-metadata/read-built-in-properties-pdfs/
 ---
+
+# 從 .NET 中的 PDF 讀取內建屬性
+
 ## 介紹
 在本教學中，我們將探討如何利用 GroupDocs.Metadata for .NET 從 PDF 檔案讀取內建屬性。 GroupDocs.Metadata 是一個功能強大的程式庫，可讓開發人員處理與各種文件格式相關的元數據，包括 PDF、Microsoft Office 文件、圖像等。透過使用此程式庫，您可以輕鬆存取和操作 PDF 文件中嵌入的元資料屬性，例如作者姓名、建立日期、主題等。
 ## 先決條件

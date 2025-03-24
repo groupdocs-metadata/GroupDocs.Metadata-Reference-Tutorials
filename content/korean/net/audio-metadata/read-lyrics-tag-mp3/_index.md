@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 MP3 파일에서 가사 
 weight: 13
 url: /ko/net/audio-metadata/read-lyrics-tag-mp3/
 ---
+
+# .NET의 MP3 파일에서 가사 태그 읽기
+
 ## 소개
 이 튜토리얼에서는 .NET의 GroupDocs.Metadata API를 사용하여 MP3 파일에서 가사 태그를 추출하고 읽는 방법을 알아봅니다. GroupDocs.Metadata는 개발자가 MP3 파일을 비롯한 다양한 파일 형식과 관련된 메타데이터로 작업할 수 있는 강력한 라이브러리입니다. 다음 단계를 따르면 MP3 파일에 포함된 가사 관련 정보를 효율적으로 검색할 수 있습니다.
 ## 전제 조건

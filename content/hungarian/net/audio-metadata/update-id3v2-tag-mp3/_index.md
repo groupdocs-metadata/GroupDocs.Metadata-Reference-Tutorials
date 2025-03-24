@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan frissítheti az ID3V2 címkéket MP3-fájlokban
 weight: 20
 url: /hu/net/audio-metadata/update-id3v2-tag-mp3/
 ---
+
+# Frissítse az ID3V2 címkét az MP3 fájlokban a .NET használatával
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan frissíthetjük az ID3V2 címkéket MP3-fájlokban a GroupDocs.Metadata for .NET könyvtár használatával. A GroupDocs.Metadata egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy különféle fájlformátumú metaadatokkal dolgozzanak, beleértve az MP3-at is. Ez az oktatóanyag lépésről lépésre végigvezeti az ID3V2 címkék módosításának folyamatán.
 ## Előfeltételek

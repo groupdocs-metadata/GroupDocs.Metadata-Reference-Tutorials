@@ -6,6 +6,9 @@ description: GroupDocs.Metadata와 함께 .NET을 사용하여 PDF 파일의 사
 weight: 16
 url: /ko/net/pdf-metadata/update-custom-properties-pdfs/
 ---
+
+# .NET을 사용하여 PDF의 사용자 정의 속성 업데이트
+
 ## 소개
 이 자습서에서는 GroupDocs.Metadata와 함께 .NET을 사용하여 PDF 파일의 사용자 정의 속성을 업데이트하는 방법을 살펴보겠습니다. 사용자 정의 속성을 사용하면 PDF 문서에 추가 메타데이터를 추가할 수 있으며 이는 분류, 검색 가능성 및 정보 검색에 유용할 수 있습니다. GroupDocs.Metadata는 개발자가 .NET 프레임워크를 사용하여 PDF를 비롯한 다양한 파일 형식의 메타데이터로 작업할 수 있도록 하는 강력한 API입니다.
 ## 전제 조건

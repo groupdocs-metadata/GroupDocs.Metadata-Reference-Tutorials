@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak .NET proje yönetimi belge
 weight: 11
 url: /tr/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
+
+# .NET Proje Yönetimi Belgelerindeki Özel Özellikleri Okuyun
+
 ## giriiş
 .NET geliştirme dünyasında, proje yönetimi belgeleri içindeki meta verileri yönetmek, veri organizasyonu ve alımının çok önemli bir yönüdür. GroupDocs.Metadata for .NET, Microsoft Project (MPP) dosyaları gibi çeşitli proje yönetimi dosya formatlarından özel özellikleri okumak için güçlü yetenekler sunar. Bu eğitim, .NET proje yönetimi belgelerinden özel özellikleri adım adım çıkarmak için GroupDocs.Metadata'yı kullanma sürecinde size rehberlik edecektir.
 ## Önkoşullar

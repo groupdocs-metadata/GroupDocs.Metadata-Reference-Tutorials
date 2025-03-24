@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất siêu dữ liệu từ các tệp s
 weight: 10
 url: /vi/net/diagram-metadata/read-built-in-properties-diagrams/
 ---
+
+# Đọc các thuộc tính tích hợp từ sơ đồ trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc sử dụng GroupDocs.Metadata cho .NET để đọc các thuộc tính tích hợp từ sơ đồ. GroupDocs.Metadata cho .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với siêu dữ liệu được liên kết với nhiều loại tài liệu khác nhau, bao gồm sơ đồ, bản trình bày, hình ảnh, v.v. Cụ thể, chúng tôi sẽ tập trung vào việc trích xuất các thuộc tính siêu dữ liệu từ các tệp sơ đồ bằng thư viện này.
 ## Điều kiện tiên quyết

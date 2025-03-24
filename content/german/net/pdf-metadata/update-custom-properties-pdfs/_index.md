@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie benutzerdefinierte Eigenschaften in PDF-Datei
 weight: 16
 url: /de/net/pdf-metadata/update-custom-properties-pdfs/
 ---
+
+# Aktualisieren Sie benutzerdefinierte Eigenschaften in PDFs mit .NET
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie benutzerdefinierte Eigenschaften in PDF-Dateien mithilfe von .NET mit GroupDocs.Metadata aktualisieren. Mit benutzerdefinierten Eigenschaften können Sie Ihren PDF-Dokumenten zusätzliche Metadaten hinzufügen, die für die Kategorisierung, Durchsuchbarkeit und den Informationsabruf nützlich sein können. GroupDocs.Metadata ist eine leistungsstarke API, die es Entwicklern ermöglicht, mithilfe des .NET-Frameworks mit Metadaten in verschiedenen Dateiformaten, einschließlich PDFs, zu arbeiten.
 ## Voraussetzungen

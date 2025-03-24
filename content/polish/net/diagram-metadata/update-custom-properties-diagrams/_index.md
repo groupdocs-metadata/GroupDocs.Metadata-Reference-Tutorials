@@ -6,6 +6,9 @@ description: Dowiedz się, jak aktualizować właściwości niestandardowe na di
 weight: 15
 url: /pl/net/diagram-metadata/update-custom-properties-diagrams/
 ---
+
+# Zaktualizuj właściwości niestandardowe na diagramach przy użyciu platformy .NET
+
 ## Wstęp
 W tym samouczku omówimy, jak aktualizować niestandardowe właściwości na diagramach przy użyciu platformy .NET za pomocą GroupDocs.Metadata dla platformy .NET. Niestandardowe właściwości na diagramach mogą być niezbędne do dodawania metadanych lub dodatkowych informacji do plików, poprawiając ich użyteczność i organizację. GroupDocs.Metadata dla .NET zapewnia solidny zestaw narzędzi do manipulowania i aktualizowania metadanych w różnych formatach dokumentów, w tym diagramów.
 ## Warunki wstępne

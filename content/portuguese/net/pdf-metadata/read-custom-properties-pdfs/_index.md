@@ -6,6 +6,9 @@ description: Aprenda como extrair propriedades personalizadas de PDFs usando Gro
 weight: 11
 url: /pt/net/pdf-metadata/read-custom-properties-pdfs/
 ---
+
+# Leia propriedades personalizadas de PDFs em .NET
+
 ## Introdução
 No domínio do desenvolvimento .NET, o gerenciamento de metadados em documentos é crucial para organizar e extrair informações valiosas. GroupDocs.Metadata for .NET oferece ferramentas poderosas para ler propriedades personalizadas de PDFs, permitindo que os desenvolvedores acessem e utilizem metadados de documentos com eficiência. Este tutorial irá guiá-lo através do processo de aproveitamento de GroupDocs.Metadata para recuperar propriedades personalizadas de arquivos PDF usando C#.
 ## Pré-requisitos

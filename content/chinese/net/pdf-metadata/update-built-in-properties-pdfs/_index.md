@@ -6,6 +6,9 @@ description: 了解如何使用 C# 和 GroupDocs.Metadata for .NET 更新 PDF �
 weight: 15
 url: /zh/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
+
+# 使用 .NET 更新 PDF 中的内置属性
+
 ## 介绍
 在本教程中，我们将学习如何使用 GroupDocs.Metadata for .NET 更新 PDF 文档的内置属性。该库提供了一组强大的工具来操作各种文档格式中的元数据。我们将逐步完成使用 C# 修改 PDF 文件中的作者、标题、创建日期、关键字、创建者和制作者等属性的必要步骤。
 ## 先决条件

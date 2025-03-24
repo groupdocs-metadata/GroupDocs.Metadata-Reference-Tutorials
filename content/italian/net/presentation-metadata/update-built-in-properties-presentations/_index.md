@@ -6,6 +6,9 @@ description: Scopri come aggiornare le proprietà integrate nelle presentazioni 
 weight: 15
 url: /it/net/presentation-metadata/update-built-in-properties-presentations/
 ---
+
+# Aggiorna le proprietà integrate nelle presentazioni utilizzando .NET
+
 ## introduzione
 In questo tutorial approfondiremo le potenti funzionalità di GroupDocs.Metadata per .NET, una libreria completa progettata per manipolare i metadati all'interno dei documenti utilizzando il framework .NET. Nello specifico, ci concentreremo sull'aggiornamento delle proprietà integrate nelle presentazioni (file .PPT e .PPTX) a livello di codice utilizzando C#.
 ## Prerequisiti

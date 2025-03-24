@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用して MP3 ファイルから 
 weight: 11
 url: /ja/net/audio-metadata/read-id3v1-tag-mp3/
 ---
+
+# .NET で MP3 ファイルから ID3V1 タグを読み取る
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を使用して MP3 ファイルから ID3V1 タグを抽出する方法を学習します。GroupDocs.Metadata は、MP3 オーディオ ファイルを含むさまざまなファイル形式のメタデータを操作できる強力なライブラリです。このプロセスをステップごとに説明します。
 ## 前提条件

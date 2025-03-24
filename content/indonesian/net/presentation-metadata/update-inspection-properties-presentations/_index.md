@@ -6,6 +6,9 @@ description: Pelajari cara memperbarui properti inspeksi dalam presentasi menggu
 weight: 17
 url: /id/net/presentation-metadata/update-inspection-properties-presentations/
 ---
+
+# Perbarui Properti Inspeksi dalam Presentasi menggunakan .NET
+
 ## Perkenalan
 Dalam bidang pengembangan .NET, mengelola dan memanipulasi metadata dalam presentasi merupakan aspek penting dalam pemrosesan dan pengorganisasian data. GroupDocs.Metadata untuk .NET memberikan solusi tangguh bagi pengembang untuk menangani metadata dalam berbagai format file dengan lancar. Tutorial ini mempelajari cara menggunakan GroupDocs.Metadata untuk memperbarui properti inspeksi khusus untuk presentasi (file .PPTX) menggunakan C#.
 ## Prasyarat

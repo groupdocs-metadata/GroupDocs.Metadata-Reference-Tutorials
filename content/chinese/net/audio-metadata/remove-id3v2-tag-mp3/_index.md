@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 从 MP3 文件中删
 weight: 17
 url: /zh/net/audio-metadata/remove-id3v2-tag-mp3/
 ---
+
+# 从 .NET 中的 MP3 文件中删除 ID3V2 标签
+
 ## 介绍
 在本教程中，我们将探讨如何利用 GroupDocs.Metadata for .NET 从 MP3 文件中删除 ID3V2 标签。 GroupDocs.Metadata 是一个功能强大的库，允许开发人员处理各种文档和图像格式（包括 MP3 文件）的元数据。从 MP3 文件中删除 ID3V2 标签对于不需要这些标签或仅需要保留特定元数据的应用程序非常有用。
 ## 先决条件

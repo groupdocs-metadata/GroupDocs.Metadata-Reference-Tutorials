@@ -6,6 +6,9 @@ description: 了解如何使用 C# 和 GroupDocs.Metadata for .NET 更新 PDF �
 weight: 15
 url: /zh-hant/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
+
+# 使用 .NET 更新 PDF 中的內建屬性
+
 ## 介紹
 在本教學中，我們將學習如何使用 GroupDocs.Metadata for .NET 更新 PDF 文件的內建屬性。該庫提供了一組強大的工具來操作各種文件格式中的元資料。我們將逐步完成使用 C# 修改 PDF 檔案中的作者、標題、建立日期、關鍵字、建立者和製作者等屬性的必要步驟。
 ## 先決條件

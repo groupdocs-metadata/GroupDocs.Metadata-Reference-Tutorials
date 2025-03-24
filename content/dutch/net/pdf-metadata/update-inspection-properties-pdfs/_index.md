@@ -6,6 +6,9 @@ description: Leer hoe u inspectie-eigenschappen in PDF-documenten kunt bijwerken
 weight: 17
 url: /nl/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
+
+# Update inspectie-eigenschappen in PDF's met .NET
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u inspectie-eigenschappen in PDF-documenten kunt bijwerken met behulp van de GroupDocs.Metadata voor .NET-bibliotheek. Met deze bibliotheek kunnen we metagegevens, annotaties, bijlagen en meer binnen PDF-bestanden efficiënt beheren.
 ## Vereisten

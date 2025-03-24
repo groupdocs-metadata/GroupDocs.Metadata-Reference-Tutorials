@@ -6,6 +6,9 @@ description: Tìm hiểu cách cập nhật thuộc tính siêu dữ liệu tíc
 weight: 14
 url: /vi/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
 ---
+
+# Cập nhật các thuộc tính tích hợp trong bảng tính bằng .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng GroupDocs.Metadata cho .NET để cập nhật các thuộc tính tích hợp trong tệp bảng tính bằng C#. GroupDocs.Metadata là một API mạnh mẽ cho phép nhà phát triển đọc, chỉnh sửa và xóa thuộc tính siêu dữ liệu khỏi nhiều định dạng tệp khác nhau, bao gồm cả bảng tính. Chúng tôi sẽ tập trung cụ thể vào việc sửa đổi các thuộc tính như tác giả, thời gian sáng tạo, công ty, danh mục và từ khóa trong tệp Excel.
 ## Điều kiện tiên quyết

@@ -7,6 +7,9 @@ weight: 22
 url: /cs/net/audio-metadata/
 ---
 
+# Metadata zvuku
+
+
 ## Výukové programy pro metadata zvuku
 
 Máte zájem o zvládnutí manipulace s audio metadaty v .NET? GroupDocs.Metadata for .NET nabízí komplexní výukové programy, které vám pomohou při práci s metadaty v souborech MP3 a WAV. Ať už extrahujete, aktualizujete nebo odstraňujete značky, naši podrobní průvodci poskytují jasné statistiky a praktické příklady, které zefektivní váš vývojový proces.

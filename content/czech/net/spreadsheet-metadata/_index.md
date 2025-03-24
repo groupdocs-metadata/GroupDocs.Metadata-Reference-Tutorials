@@ -7,6 +7,9 @@ description: Odemkněte sílu GroupDocs.Metadata pro .NET pomocí výukových pr
 weight: 27
 url: /cs/net/spreadsheet-metadata/
 ---
+
+# Metadata tabulky
+
 ## Úvod
 
 GroupDocs.Metadata for .NET nabízí komplexní sadu výukových programů, jejichž cílem je umožnit vývojářům efektivně využívat manipulaci s metadaty v tabulkových souborech. Pojďme se ponořit do těchto výukových programů, abychom pochopili, jak mohou vylepšit vaše aplikace .NET.

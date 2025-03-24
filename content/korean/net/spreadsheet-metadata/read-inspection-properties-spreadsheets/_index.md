@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 스프레드시트에서
 weight: 13
 url: /ko/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---
+
+# .NET의 스프레드시트에서 검사 속성 읽기
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Metadata를 사용하여 스프레드시트의 속성을 검사하는 방법을 살펴보겠습니다. .NET용 GroupDocs.Metadata는 개발자가 스프레드시트를 비롯한 다양한 파일 형식과 관련된 메타데이터를 읽고, 편집하고, 제거할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 특히 C#을 사용하여 스프레드시트 파일에서 검사 속성을 읽는 방법에 중점을 둡니다.
 ## 전제 조건

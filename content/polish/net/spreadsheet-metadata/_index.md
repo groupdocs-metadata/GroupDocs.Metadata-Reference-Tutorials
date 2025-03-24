@@ -7,6 +7,9 @@ description: Odblokuj możliwości GroupDocs.Metadata for .NET dzięki samouczko
 weight: 27
 url: /pl/net/spreadsheet-metadata/
 ---
+
+# Metadane arkusza kalkulacyjnego
+
 ## Wstęp
 
 GroupDocs.Metadata dla .NET oferuje kompleksowy zestaw samouczków, których celem jest umożliwienie programistom skutecznego wykorzystania metadanych w plikach arkuszy kalkulacyjnych. Przyjrzyjmy się tym samouczkom, aby zrozumieć, w jaki sposób mogą one ulepszyć aplikacje .NET.

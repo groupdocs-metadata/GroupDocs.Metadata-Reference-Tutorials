@@ -6,6 +6,9 @@ description: Découvrez comment extraire des statistiques de documents à partir
 weight: 12
 url: /fr/net/diagram-metadata/read-document-statistics-diagrams/
 ---
+
+# Lire les statistiques de documents à partir de diagrammes dans .NET
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment utiliser GroupDocs.Metadata pour .NET pour extraire les statistiques de documents à partir de diagrammes. GroupDocs.Metadata est une bibliothèque puissante qui permet aux développeurs de travailler avec des métadonnées associées à différents formats de fichiers. En suivant ce guide étape par étape, vous apprendrez à lire les statistiques d'un document à partir de diagrammes à l'aide de C#.
 ## Conditions préalables

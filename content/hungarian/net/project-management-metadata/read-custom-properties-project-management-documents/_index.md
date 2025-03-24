@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan bonthat ki egyéni tulajdonságokat .NET-projek
 weight: 11
 url: /hu/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
+
+# Olvassa el az Egyéni tulajdonságok részt a .NET projektmenedzsment dokumentumokban
+
 ## Bevezetés
 .NET-fejlesztés világában a metaadatok projektmenedzsment dokumentumokon belüli kezelése az adatszervezés és -visszakeresés kulcsfontosságú szempontja. A GroupDocs.Metadata for .NET hatékony lehetőségeket kínál az egyéni tulajdonságok olvasására különböző projektmenedzsment-fájlformátumokból, például a Microsoft Project (MPP) fájlokból. Ez az oktatóanyag végigvezeti Önt a GroupDocs.Metadata használatával lépésről lépésre egyéni tulajdonságok kinyeréséhez a .NET projektmenedzsment dokumentumokból.
 ## Előfeltételek

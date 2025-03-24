@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用して .NET プロジェクト
 weight: 11
 url: /ja/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
+
+# .NET プロジェクト管理ドキュメントのカスタム プロパティを読み取る
+
 ## 導入
 .NET 開発の世界では、プロジェクト管理ドキュメント内のメタデータの管理は、データの編成と取得の重要な側面です。 GroupDocs.Metadata for .NET は、Microsoft Project (MPP) ファイルなどのさまざまなプロジェクト管理ファイル形式からカスタム プロパティを読み取る強力な機能を提供します。このチュートリアルでは、GroupDocs.Metadata を利用して .NET プロジェクト管理ドキュメントからカスタム プロパティを抽出するプロセスを段階的に説明します。
 ## 前提条件

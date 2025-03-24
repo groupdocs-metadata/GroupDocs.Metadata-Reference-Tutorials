@@ -6,6 +6,9 @@ description: Découvrez comment lire les propriétés d'inspection à partir de 
 weight: 13
 url: /fr/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---
+
+# Lire les propriétés d'inspection à partir de feuilles de calcul dans .NET
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment utiliser GroupDocs.Metadata pour .NET pour inspecter les propriétés à partir de feuilles de calcul. GroupDocs.Metadata for .NET est une bibliothèque puissante qui permet aux développeurs de lire, modifier et supprimer les métadonnées associées à divers formats de fichiers, y compris les feuilles de calcul. Ce didacticiel se concentre spécifiquement sur la lecture des propriétés d'inspection à partir de fichiers de feuille de calcul à l'aide de C#.
 ## Conditions préalables

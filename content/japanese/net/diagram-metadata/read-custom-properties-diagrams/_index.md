@@ -6,6 +6,9 @@ description: GroupDocs.Metadata を使用して .NET のダイアグラム フ�
 weight: 11
 url: /ja/net/diagram-metadata/read-custom-properties-diagrams/
 ---
+
+# .NET の図からカスタム プロパティを読み取る
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を使用して図からカスタム プロパティを効率的に読み取る方法を検討します。 GroupDocs.Metadata は、開発者が図などのさまざまなドキュメント形式のメタデータを操作できるようにする強力な API です。カスタム プロパティには、ダイアグラム内に埋め込まれた貴重な情報を含めることができ、それらにプログラムでアクセスすると、ドキュメント処理タスクを効率化できます。このガイドを終えると、GroupDocs.Metadata for .NET を使用して図ファイルからカスタム プロパティを取得するための知識が身につくでしょう。
 ## 前提条件

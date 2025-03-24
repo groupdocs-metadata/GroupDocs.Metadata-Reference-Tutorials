@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用して .NET プロジェクト
 weight: 12
 url: /ja/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
+
+# .NET プロジェクト管理ドキュメントの組み込みプロパティを更新する
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を使用して .NET プロジェクト管理ドキュメント内の組み込みプロパティを更新する方法を説明します。このライブラリを使用すると、Microsoft Project (MPP) ファイルなどのプロジェクト管理ドキュメントを含む、さまざまなファイル形式のメタデータを効率的に操作できます。
 ## 前提条件

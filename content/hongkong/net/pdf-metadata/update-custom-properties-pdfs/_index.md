@@ -6,6 +6,9 @@ description: 了解如何使用 .NET 和 GroupDocs.Metadata 更新 PDF 文件中
 weight: 16
 url: /zh-hant/net/pdf-metadata/update-custom-properties-pdfs/
 ---
+
+# 使用 .NET 更新 PDF 中的自訂屬性
+
 ## 介紹
 在本教學中，我們將探討如何使用 .NET 和 GroupDocs.Metadata 更新 PDF 檔案中的自訂屬性。自訂屬性可讓您為 PDF 文件添加其他元數據，這對於分類、可搜尋性和資訊檢索非常有用。 GroupDocs.Metadata 是一個功能強大的 API，使開發人員能夠使用 .NET 框架處理各種文件格式（包括 PDF）的元資料。
 ## 先決條件

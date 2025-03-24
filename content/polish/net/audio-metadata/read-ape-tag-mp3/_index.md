@@ -6,6 +6,9 @@ description: Dowiedz się, jak czytać tagi APE z plików MP3 przy użyciu Group
 weight: 10
 url: /pl/net/audio-metadata/read-ape-tag-mp3/
 ---
+
+# Przeczytaj tag APE z plików MP3 w .NET
+
 ## Wstęp
 W tym samouczku omówimy, jak używać GroupDocs.Metadata dla .NET do odczytywania tagów APE z plików MP3. Tagi APE (Monkey's Audio) to metadane przechowywane w plikach MP3, które zawierają informacje o zawartości audio. GroupDocs.Metadata dla .NET to potężny interfejs API, który umożliwia programistom pracę z metadanymi w różnych formatach plików, w tym plikami MP3.
 ## Warunki wstępne

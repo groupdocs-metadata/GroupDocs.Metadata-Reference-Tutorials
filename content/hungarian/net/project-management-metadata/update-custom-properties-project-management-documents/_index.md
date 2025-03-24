@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan frissítheti az egyéni tulajdonságokat a .NET
 weight: 13
 url: /hu/net/project-management-metadata/update-custom-properties-project-management-documents/
 ---
+
+# Frissítse az egyéni tulajdonságokat a .NET projektmenedzsment dokumentumokban
+
 ## Bevezetés
 .NET fejlesztés területén a dokumentumok metaadatainak hatékony kezelése kulcsfontosságú a különböző alkalmazások számára. A GroupDocs.Metadata for .NET robusztus megoldást kínál a különböző fájlformátumok metaadataival való interakcióhoz, beleértve a projektmenedzsment dokumentumokat, például a Microsoft Project (MPP) fájlokat. Ez az oktatóanyag végigvezeti az egyéni tulajdonságok frissítésének folyamatán a .NET projektmenedzsment dokumentumokon belül a GroupDocs.Metadata használatával.
 ## Előfeltételek

@@ -6,6 +6,9 @@ description: Khám phá cách trích xuất siêu dữ liệu gốc từ các t�
 weight: 23
 url: /vi/net/audio-metadata/read-native-metadata-wav/
 ---
+
+# Đọc thuộc tính siêu dữ liệu gốc từ tệp WAV trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, bạn sẽ tìm hiểu cách sử dụng GroupDocs.Metadata cho .NET để trích xuất các thuộc tính siêu dữ liệu gốc từ các tệp âm thanh WAV. GroupDocs.Metadata for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển đọc, cập nhật và xóa siêu dữ liệu được liên kết với các định dạng tệp khác nhau, bao gồm cả tệp WAV.
 ## Điều kiện tiên quyết

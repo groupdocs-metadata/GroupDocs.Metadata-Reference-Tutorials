@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Metadata Metadaten aus Tabellen
 weight: 10
 url: /de/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
+
+# Integrierte Eigenschaften aus Tabellenkalkulationen in .NET lesen
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie GroupDocs.Metadata für .NET nutzen können, um Metadaten aus Tabellenkalkulationen effizient zu verwalten und zu extrahieren. GroupDocs.Metadata für .NET ist eine leistungsstarke API, die es Entwicklern ermöglicht, mit Metadaten zu arbeiten, die in verschiedenen Dateiformaten eingebettet sind, darunter Tabellenkalkulationen, Präsentationen, Dokumente, Bilder und mehr. Dieser Leitfaden konzentriert sich speziell auf das Extrahieren integrierter Eigenschaften aus Tabellenkalkulationsdateien mit C#.
 ## Voraussetzungen

@@ -6,6 +6,9 @@ description: GroupDocs.Metadata를 사용하여 .NET의 TAR 아카이브에서 �
 weight: 12
 url: /ko/net/archive-metadata/read-native-metadata-tar-archives/
 ---
+
+# .NET의 TAR 아카이브에서 기본 메타데이터 속성 읽기
+
 ## 소개
 소프트웨어 개발 및 데이터 관리 영역에서 메타데이터에 액세스하고 조작하는 것은 중요한 작업입니다. 다른 데이터에 대한 필수 정보를 제공하는 메타데이터는 개발자가 파일을 효과적으로 이해하고 구성하고 처리할 수 있도록 지원합니다. 이 튜토리얼에서는 .NET용 GroupDocs.Metadata를 활용하여 TAR 아카이브에서 기본 메타데이터 속성을 읽는 방법을 자세히 살펴봅니다. 이 강력한 라이브러리를 .NET 프로젝트에 통합하여 TAR 아카이브 메타데이터를 효율적으로 처리하는 방법을 단계별로 살펴보겠습니다.
 ## 전제 조건

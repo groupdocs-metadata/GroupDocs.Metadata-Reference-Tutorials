@@ -7,6 +7,9 @@ weight: 21
 url: /zh/net/archive-metadata/
 ---
 
+# 存档元数据
+
+
 ## 介绍
 
 您是否正在努力管理 .NET 应用程序中的元数据？别再找了！欢迎阅读有关利用 GroupDocs.Metadata for .NET 简化元数据处理流程的终极指南。无论您处理的是 RAR、7Zip、TAR 还是 ZIP 档案，我们都会为您提供全面的教程。

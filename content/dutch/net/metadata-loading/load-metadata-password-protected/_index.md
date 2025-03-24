@@ -6,6 +6,9 @@ description: Leer hoe u documentmetagegevens efficiënt beheert met GroupDocs.Me
 weight: 13
 url: /nl/net/metadata-loading/load-metadata-password-protected/
 ---
+
+# Metagegevens laden uit een met een wachtwoord beveiligd document in .NET
+
 ## Invoering
 In de wereld van .NET-ontwikkeling is het beheren van metadata binnen documenten cruciaal voor verschillende toepassingen. GroupDocs.Metadata voor .NET biedt krachtige tools om metagegevens op een eenvoudige manier te extraheren, bewerken en beheren. Deze tutorial leidt u door het proces van het laden van metagegevens uit met een wachtwoord beveiligde documenten met behulp van GroupDocs.Metadata.
 ##Vereisten

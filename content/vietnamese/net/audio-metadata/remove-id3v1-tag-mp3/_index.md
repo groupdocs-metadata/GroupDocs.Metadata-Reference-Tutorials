@@ -6,6 +6,9 @@ description: Tìm hiểu cách xóa thẻ ID3V1 khỏi tệp MP3 bằng GroupDoc
 weight: 16
 url: /vi/net/audio-metadata/remove-id3v1-tag-mp3/
 ---
+
+# Xóa thẻ ID3V1 khỏi tệp MP3 trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách xóa thẻ ID3V1 khỏi tệp MP3 bằng GroupDocs.Metadata cho .NET. GroupDocs.Metadata là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác các thuộc tính siêu dữ liệu của nhiều định dạng tệp khác nhau, bao gồm cả tệp MP3. Thẻ ID3V1 thường được sử dụng để lưu trữ siêu dữ liệu như tên nghệ sĩ, tên bản nhạc, album và thể loại trong tệp MP3 nhưng đôi khi bạn có thể cần xóa thẻ này vì các yêu cầu cụ thể. Chúng ta sẽ thực hiện quy trình này từng bước bằng cách sử dụng các ví dụ thực tế.
 ## Điều kiện tiên quyết

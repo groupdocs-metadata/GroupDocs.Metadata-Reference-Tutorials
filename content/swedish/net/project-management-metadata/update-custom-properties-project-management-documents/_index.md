@@ -6,6 +6,9 @@ description: Lär dig hur du uppdaterar anpassade egenskaper i .NET-projekthante
 weight: 13
 url: /sv/net/project-management-metadata/update-custom-properties-project-management-documents/
 ---
+
+# Uppdatera anpassade egenskaper i .NET Project Management Documents
+
 ## Introduktion
 När det gäller .NET-utveckling är hantering av dokumentmetadata effektivt avgörande för olika applikationer. GroupDocs.Metadata för .NET tillhandahåller en robust lösning för att interagera med metadata i olika filformat, inklusive projektledningsdokument som Microsoft Project-filer (MPP). Denna handledning guidar dig genom processen att uppdatera anpassade egenskaper i .NET-projektledningsdokument med hjälp av GroupDocs.Metadata.
 ## Förutsättningar

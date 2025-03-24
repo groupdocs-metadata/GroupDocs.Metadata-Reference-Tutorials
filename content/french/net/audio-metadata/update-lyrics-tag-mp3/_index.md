@@ -6,6 +6,9 @@ description: Découvrez comment mettre à jour les métadonnées d'un fichier MP
 weight: 21
 url: /fr/net/audio-metadata/update-lyrics-tag-mp3/
 ---
+
+# Mettre à jour la balise des paroles dans les fichiers MP3 à l'aide de .NET
+
 ## Introduction
 Dans ce didacticiel, nous montrerons comment utiliser la bibliothèque GroupDocs.Metadata pour .NET pour mettre à jour par programmation la balise de paroles dans les fichiers MP3. Ce processus implique l'accès et la modification des métadonnées des fichiers MP3, en ciblant spécifiquement les informations sur les paroles.
 ## Conditions préalables

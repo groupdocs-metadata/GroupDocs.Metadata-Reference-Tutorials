@@ -6,6 +6,9 @@ description: Leer hoe u metagegevens van presentaties kunt extraheren met GroupD
 weight: 14
 url: /nl/net/presentation-metadata/read-inspection-properties-presentations/
 ---
+
+# Lees inspectie-eigenschappen uit presentaties in .NET
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u GroupDocs.Metadata voor .NET kunt gebruiken om eigenschappen uit presentaties te lezen en te inspecteren. GroupDocs.Metadata is een krachtige API waarmee ontwikkelaars kunnen werken met metagegevens die zijn ingebed in documenten, zoals presentaties, pdf's, afbeeldingen en meer. We zullen ons specifiek concentreren op presentaties (PPTX-bestanden) en laten zien hoe u informatie kunt extraheren, zoals opmerkingen, verborgen dia's en meer.
 ## Vereisten

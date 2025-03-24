@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata 讀取 .NET 中的簡報檔�
 weight: 13
 url: /zh-hant/net/presentation-metadata/read-file-format-properties-presentations/
 ---
+
+# 從 .NET 簡報中讀取檔案格式屬性
+
 ## 介紹
 在 .NET 開發領域，管理文件中的元資料對於各種應用程式至關重要。 GroupDocs.Metadata for .NET 提供了強大的工具來有效地與文件中的元資料互動。本教學將引導您完成使用 GroupDocs.Metadata for .NET 從簡報中讀取檔案格式屬性的過程。
 ## 先決條件

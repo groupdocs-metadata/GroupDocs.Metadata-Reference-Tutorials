@@ -6,6 +6,9 @@ description: Naučte se extrahovat vlastnosti inspekce z dokumentů PDF pomocí 
 weight: 14
 url: /cs/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
+
+# Číst vlastnosti inspekce z PDF v .NET
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak využít GroupDocs.Metadata pro .NET k programové extrakci vlastností kontroly z dokumentů PDF. GroupDocs.Metadata je výkonná knihovna .NET, která umožňuje vývojářům pracovat s metadaty vloženými do různých formátů souborů, včetně PDF. Využitím této knihovny můžete přistupovat a manipulovat s celou řadou vlastností dokumentu, anotací, příloh, záložek, digitálních podpisů a polí v souborech PDF.
 ## Předpoklady

@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan frissítheti a vizsgálati tulajdonságokat a t
 weight: 16
 url: /hu/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
+
+# Frissítse a vizsgálati tulajdonságokat a táblázatokban a .NET használatával
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használható a GroupDocs.Metadata for .NET a táblázatok ellenőrzési tulajdonságainak frissítésére. A GroupDocs.Metadata egy hatékony API, amely lehetővé teszi a különféle dokumentumformátumokhoz, köztük a táblázatokhoz társított metaadatok kezelését. Kifejezetten a megjegyzések, digitális aláírások és rejtett lapok eltávolítására fogunk összpontosítani egy táblázatból .NET használatával.
 ## Előfeltételek

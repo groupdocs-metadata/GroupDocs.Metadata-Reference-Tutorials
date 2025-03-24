@@ -6,6 +6,9 @@ description: Lär dig hur du uppdaterar anpassade egenskaper i diagram med .NET 
 weight: 15
 url: /sv/net/diagram-metadata/update-custom-properties-diagrams/
 ---
+
+# Uppdatera anpassade egenskaper i diagram med .NET
+
 ## Introduktion
 I den här handledningen kommer vi att utforska hur man uppdaterar anpassade egenskaper i diagram med hjälp av .NET med hjälp av GroupDocs.Metadata for .NET. Anpassade egenskaper i diagram kan vara avgörande för att lägga till metadata eller ytterligare information till dina filer, vilket förbättrar deras användbarhet och organisation. GroupDocs.Metadata för .NET tillhandahåller en robust uppsättning verktyg för att manipulera och uppdatera metadata inom olika dokumentformat, inklusive diagram.
 ## Förutsättningar

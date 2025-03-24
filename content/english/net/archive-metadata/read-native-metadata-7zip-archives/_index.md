@@ -6,6 +6,9 @@ description: Learn how to read native metadata properties from 7Zip archives usi
 weight: 11
 url: /net/archive-metadata/read-native-metadata-7zip-archives/
 ---
+
+# Read Native Metadata Properties from 7Zip Archives in .NET
+
 ## Introduction
 In the realm of .NET development, managing metadata—such as document properties, file information, and tags—is crucial for efficient data organization and retrieval. GroupDocs.Metadata for .NET provides a powerful toolkit for accessing and manipulating metadata within various file formats. This tutorial focuses on harnessing the capabilities of GroupDocs.Metadata to read native metadata properties from 7Zip archives in .NET. 
 ## Prerequisites

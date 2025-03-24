@@ -6,6 +6,9 @@ description: Saiba como atualizar metadados em documentos de gerenciamento de pr
 weight: 12
 url: /pt/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
+
+# Atualizar propriedades integradas em documentos de gerenciamento de projetos .NET
+
 ## Introdução
 Neste tutorial, exploraremos como atualizar propriedades integradas em documentos de gerenciamento de projetos .NET usando GroupDocs.Metadata for .NET. Esta biblioteca permite a manipulação eficiente de metadados para vários formatos de arquivo, incluindo documentos de gerenciamento de projetos como arquivos do Microsoft Project (MPP).
 ## Pré-requisitos

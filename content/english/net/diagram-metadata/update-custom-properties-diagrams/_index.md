@@ -6,6 +6,9 @@ description: Learn how to update custom properties in diagrams using .NET with G
 weight: 15
 url: /net/diagram-metadata/update-custom-properties-diagrams/
 ---
+
+# Update Custom Properties in Diagrams using .NET
+
 ## Introduction
 In this tutorial, we will explore how to update custom properties in diagrams using .NET with the help of GroupDocs.Metadata for .NET. Custom properties in diagrams can be essential for adding metadata or additional information to your files, enhancing their usability and organization. GroupDocs.Metadata for .NET provides a robust set of tools to manipulate and update metadata within various document formats, including diagrams.
 ## Prerequisites

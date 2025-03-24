@@ -6,6 +6,9 @@ description: Naučte se extrahovat uživatelské vlastnosti z dokumentů řízen
 weight: 11
 url: /cs/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
+
+# Přečtěte si Uživatelské vlastnosti v .NET Project Management Documents
+
 ## Úvod
 Ve světě vývoje .NET je správa metadat v dokumentech projektového řízení zásadním aspektem organizace a získávání dat. GroupDocs.Metadata for .NET nabízí výkonné funkce pro čtení uživatelských vlastností z různých formátů souborů správy projektů, jako jsou soubory Microsoft Project (MPP). Tento tutoriál vás provede procesem využití GroupDocs.Metadata k extrahování uživatelských vlastností z dokumentů řízení projektů .NET krok za krokem.
 ## Předpoklady

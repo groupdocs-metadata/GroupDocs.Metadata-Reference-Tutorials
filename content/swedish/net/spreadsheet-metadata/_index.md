@@ -7,6 +7,9 @@ description: Lås upp kraften i GroupDocs.Metadata för .NET med självstudiekur
 weight: 27
 url: /sv/net/spreadsheet-metadata/
 ---
+
+# Metadata för kalkylblad
+
 ## Introduktion
 
 GroupDocs.Metadata för .NET erbjuder en omfattande uppsättning självstudiekurser som syftar till att ge utvecklare möjlighet att effektivt utnyttja metadatamanipulation i kalkylarksfiler. Låt oss fördjupa oss i dessa handledningar för att förstå hur de kan förbättra dina .NET-applikationer.

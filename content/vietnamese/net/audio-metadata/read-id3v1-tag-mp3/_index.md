@@ -6,6 +6,9 @@ description: Tìm hiểu cách đọc thẻ ID3V1 từ tệp MP3 bằng GroupDoc
 weight: 11
 url: /vi/net/audio-metadata/read-id3v1-tag-mp3/
 ---
+
+# Đọc thẻ ID3V1 từ tệp MP3 trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, bạn sẽ tìm hiểu cách trích xuất thẻ ID3V1 từ tệp MP3 bằng GroupDocs.Metadata cho .NET. GroupDocs.Metadata là một thư viện mạnh mẽ cho phép bạn làm việc với siêu dữ liệu ở nhiều định dạng tệp khác nhau, bao gồm cả tệp âm thanh MP3. Chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình.
 ## Điều kiện tiên quyết

@@ -6,6 +6,9 @@ description: Dowiedz się, jak programowo aktualizować metadane plików MP3, w 
 weight: 21
 url: /pl/net/audio-metadata/update-lyrics-tag-mp3/
 ---
+
+# Zaktualizuj znacznik tekstu w plikach MP3 przy użyciu platformy .NET
+
 ## Wstęp
 tym samouczku pokażemy, jak używać biblioteki GroupDocs.Metadata for .NET do programowej aktualizacji znacznika tekstu w plikach MP3. Proces ten obejmuje dostęp do metadanych plików MP3 i ich modyfikowanie, w szczególności w odniesieniu do informacji o tekstach utworów.
 ## Warunki wstępne

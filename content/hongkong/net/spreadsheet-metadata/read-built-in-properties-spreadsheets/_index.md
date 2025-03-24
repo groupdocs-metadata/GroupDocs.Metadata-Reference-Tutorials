@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata 從 .NET 中的電子表格�
 weight: 10
 url: /zh-hant/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
+
+# 從 .NET 中的電子表格讀取內建屬性
+
 ## 介紹
 在本教程中，我們將深入研究如何利用 GroupDocs.Metadata for .NET 高效管理和從電子表格中提取元資料。 GroupDocs.Metadata for .NET 是一個功能強大的 API，使開發人員能夠使用嵌入各種文件格式的元數據，包括電子表格、簡報、文件、圖像等。本指南特別關注使用 C# 從電子表格檔案中提取內建屬性。
 ## 先決條件

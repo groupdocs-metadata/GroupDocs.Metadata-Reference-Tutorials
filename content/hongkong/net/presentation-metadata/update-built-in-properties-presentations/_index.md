@@ -6,6 +6,9 @@ description: 了解如何使用 .NET 和多功能元資料操作庫 GroupDocs.Me
 weight: 15
 url: /zh-hant/net/presentation-metadata/update-built-in-properties-presentations/
 ---
+
+# 使用 .NET 更新簡報中的內建屬性
+
 ## 介紹
 在本教程中，我們將深入研究 GroupDocs.Metadata for .NET 的強大功能，這是一個綜合庫，旨在使用 .NET 框架操作文件中的元資料。具體來說，我們將重點放在使用 C# 以程式設計方式更新簡報（.PPT 和 .PPTX 檔案）中的內建屬性。
 ## 先決條件

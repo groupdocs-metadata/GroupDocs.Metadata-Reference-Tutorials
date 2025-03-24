@@ -6,6 +6,9 @@ description: GroupDocs.Metadata를 사용하여 .NET의 스프레드시트에서
 weight: 10
 url: /ko/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
+
+# .NET의 스프레드시트에서 내장 속성 읽기
+
 ## 소개
 이 튜토리얼에서는 .NET용 GroupDocs.Metadata를 활용하여 스프레드시트에서 메타데이터를 효율적으로 관리하고 추출하는 방법을 살펴보겠습니다. .NET용 GroupDocs.Metadata는 개발자가 스프레드시트, 프리젠테이션, 문서, 이미지 등을 비롯한 다양한 파일 형식에 포함된 메타데이터로 작업할 수 있도록 하는 강력한 API입니다. 이 가이드에서는 특히 C#을 사용하여 스프레드시트 파일에서 기본 제공 속성을 추출하는 방법에 중점을 둡니다.
 ## 전제 조건

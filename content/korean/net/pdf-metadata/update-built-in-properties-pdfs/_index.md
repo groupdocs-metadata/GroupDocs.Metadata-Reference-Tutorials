@@ -6,6 +6,9 @@ description: .NET용 C# 및 GroupDocs.Metadata를 사용하여 PDF 문서 속성
 weight: 15
 url: /ko/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
+
+# .NET을 사용하여 PDF의 내장 속성 업데이트
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Metadata를 사용하여 PDF 문서의 기본 제공 속성을 업데이트하는 방법을 알아봅니다. 이 라이브러리는 다양한 문서 형식 내에서 메타데이터를 조작할 수 있는 강력한 도구 세트를 제공합니다. C#을 사용하여 PDF 파일에서 작성자, 제목, 생성 날짜, 키워드, 작성자 및 제작자와 같은 속성을 수정하는 데 필요한 단계를 살펴보겠습니다.
 ## 전제 조건

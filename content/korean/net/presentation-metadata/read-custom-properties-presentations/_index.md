@@ -6,6 +6,9 @@ description: GroupDocs.Metadata를 사용하여 .NET 프레젠테이션에서 �
 weight: 11
 url: /ko/net/presentation-metadata/read-custom-properties-presentations/
 ---
+
+# .NET 프레젠테이션에서 사용자 정의 속성 읽기
+
 ## 소개
 이 자습서에서는 GroupDocs.Metadata를 사용하여 .NET 프레젠테이션에서 사용자 지정 속성을 읽는 방법을 살펴보겠습니다. 사용자 정의 속성에는 프리젠테이션 파일에 포함된 추가 정보가 포함되어 있어 콘텐츠를 구성, 분류 또는 설명하는 데 유용할 수 있습니다. GroupDocs.Metadata 라이브러리를 활용함으로써 개발자는 다양한 목적을 위해 이러한 사용자 정의 속성에 효율적으로 액세스하고 추출할 수 있습니다.
 ## 전제 조건

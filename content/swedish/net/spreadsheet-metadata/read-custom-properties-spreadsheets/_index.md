@@ -6,6 +6,9 @@ description: Lär dig hur du extraherar anpassade egenskaper från kalkylblad me
 weight: 11
 url: /sv/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---
+
+# Läs anpassade egenskaper från kalkylblad i .NET
+
 ## Introduktion
 I den här självstudien kommer vi att undersöka hur man extraherar anpassade egenskaper från kalkylblad med GroupDocs.Metadata för .NET. GroupDocs.Metadata är ett kraftfullt bibliotek som gör det möjligt för utvecklare att läsa, redigera och manipulera metadataegenskaper i olika filformat, inklusive kalkylblad.
 ## Förutsättningar

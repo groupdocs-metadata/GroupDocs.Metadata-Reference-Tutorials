@@ -8,6 +8,9 @@ url: /hu/
 is_root: true
 ---
 
+# metaadat-mesterség feloldása a GroupDocs.Metadata segítségével
+
+
 Fedezze fel a GroupDocs.Metadata oktatóanyagok átfogó gyűjteményét, amelyek mind a .NET, mind a Java fejlesztők számára készültek. Merüljön el a metaadat-kezelés világában a lépésről-lépésre szóló útmutatók segítségével, amelyek a betöltési technikáktól a fejlett manipulációig a témák széles skáláját fedik le. Növelje tudását a fájlok metaadatkezelésében, függetlenül attól, hogy melyik programozási nyelvet választja.
 
 ## GroupDocs.Metadata .NET oktatóanyagokhoz

@@ -6,6 +6,9 @@ description: Découvrez comment extraire les propriétés de métadonnées des a
 weight: 10
 url: /fr/net/archive-metadata/read-native-metadata-rar-archives/
 ---
+
+# Lire les propriétés des métadonnées natives des archives RAR dans .NET
+
 ## Introduction
 RAR (Roshal Archive) est un format de fichier populaire utilisé pour la compression et l'archivage des données. Lorsque vous travaillez avec des fichiers RAR dans des applications .NET, il est souvent nécessaire de lire et d'extraire les propriétés des métadonnées intégrées dans ces archives. Ce didacticiel vous guidera tout au long du processus d'utilisation de GroupDocs.Metadata pour .NET pour accéder et extraire les propriétés de métadonnées natives des archives RAR.
 ## Conditions préalables

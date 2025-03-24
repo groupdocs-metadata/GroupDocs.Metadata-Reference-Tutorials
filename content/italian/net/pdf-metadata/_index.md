@@ -6,6 +6,9 @@ description: Scopri come gestire facilmente i metadati PDF con i tutorial di Gro
 weight: 24
 url: /it/net/pdf-metadata/
 ---
+
+# Metadati PDF
+
 ## introduzione
 
  Sblocca il potenziale della gestione dei metadati PDF con[GroupDocs.Metadati per .NET](https://www.groupdocs.com/products/metadata/net). Che tu sia uno sviluppatore esperto o abbia appena iniziato, questi tutorial offrono informazioni preziose su come sfruttare la potenza della manipolazione dei metadati.

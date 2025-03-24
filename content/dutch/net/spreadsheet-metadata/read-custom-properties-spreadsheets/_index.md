@@ -6,6 +6,9 @@ description: Leer hoe u aangepaste eigenschappen uit spreadsheets kunt extrahere
 weight: 11
 url: /nl/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---
+
+# Lees aangepaste eigenschappen van spreadsheets in .NET
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u aangepaste eigenschappen uit spreadsheets kunt extraheren met behulp van GroupDocs.Metadata voor .NET. GroupDocs.Metadata is een krachtige bibliotheek waarmee ontwikkelaars metadata-eigenschappen in verschillende bestandsformaten, waaronder spreadsheets, kunnen lezen, bewerken en manipuleren.
 ## Vereisten

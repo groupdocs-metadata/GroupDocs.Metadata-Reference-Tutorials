@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan bonthat ki MPEG audio metaadatokat MP3-fájlokb
 weight: 14
 url: /hu/net/audio-metadata/read-mpeg-audio-metadata-mp3/
 ---
+
+# Olvassa el az MPEG audio metaadatokat az MP3 fájlokból a .NET-ben
+
 ## Bevezetés
 A .NET-fejlesztés világában a metaadatok fájlon belüli kezelése elengedhetetlen a különféle alkalmazások számára. A GroupDocs.Metadata for .NET hatékony eszközöket biztosít a különböző fájlformátumok metaadatainak olvasásához, szerkesztéséhez és kezeléséhez. Ebben az oktatóanyagban ennek a képességnek a kiaknázására összpontosítunk, kifejezetten a .NET-ben található MPEG audiofájlokhoz (MP3). Az útmutató végére képes lesz hatékonyan kivonni az MPEG audio metaadatokat MP3 fájlokból a GroupDocs.Metadata segítségével.
 ## Előfeltételek

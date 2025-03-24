@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 從 MP3 檔案中擷
 weight: 12
 url: /zh-hant/net/audio-metadata/read-id3v2-tag-mp3/
 ---
+
+# 從 .NET 中的 MP3 檔案讀取 ID3V2 標籤
+
 ## 介紹
 在本教程中，我們將學習如何使用 GroupDocs.Metadata for .NET 從 MP3 檔案中提取 ID3V2 元資料。 ID3V2 標籤包含有關 MP3 文件的寶貴信息，例如專輯、藝術家、標題等。我們將逐步示範如何在 .NET 應用程式中存取和利用此元資料。
 ## 先決條件

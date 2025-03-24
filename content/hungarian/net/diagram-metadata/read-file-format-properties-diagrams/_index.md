@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan olvashatja ki a fájlformátum-tulajdonságokat
 weight: 13
 url: /hu/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
+
+# Olvassa el a Fájlformátum tulajdonságait a diagramokból a .NET-ben
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használható a GroupDocs.Metadata for .NET a fájlformátum-tulajdonságok diagramokból való olvasásához. Ez a könyvtár lehetővé teszi a metaadatok egyszerű kezelését és kinyerését különböző fájlformátumokból a .NET-alkalmazásokon belül. Végignézzük az előfeltételeket, a névterek importálását, és lépésről lépésre példákat mutatunk be ennek elérésére.
 

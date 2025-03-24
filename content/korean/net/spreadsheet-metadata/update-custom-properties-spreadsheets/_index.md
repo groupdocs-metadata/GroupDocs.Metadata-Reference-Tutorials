@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 스프레드시트에서
 weight: 15
 url: /ko/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---
+
+# .NET을 사용하여 스프레드시트의 사용자 정의 속성 업데이트
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Metadata 라이브러리를 사용하여 스프레드시트에서 사용자 정의 속성을 업데이트하는 방법을 살펴보겠습니다. 사용자 정의 속성은 스프레드시트 파일의 메타데이터를 향상시켜 표준 속성에서 다루지 않는 추가 컨텍스트나 정보를 제공할 수 있습니다.
 ## 전제 조건

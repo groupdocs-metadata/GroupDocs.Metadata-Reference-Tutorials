@@ -6,6 +6,9 @@ description: Pelajari cara mengekstrak statistik dokumen PDF menggunakan GroupDo
 weight: 12
 url: /id/net/pdf-metadata/read-document-statistics-pdfs/
 ---
+
+# Baca Statistik Dokumen dari PDF di .NET
+
 ## Perkenalan
 Dalam dunia pengembangan perangkat lunak, mengelola metadata dokumen secara efisien sangat penting bagi banyak aplikasi. GroupDocs.Metadata for .NET menyediakan alat canggih untuk membaca dan memanipulasi metadata dalam berbagai format dokumen. Tutorial ini berfokus pada pemanfaatan kemampuan ini khusus untuk file PDF menggunakan .NET. Di akhir panduan ini, Anda akan memahami cara mengekstrak statistik dokumen seperti jumlah karakter, jumlah halaman, dan jumlah kata dari PDF menggunakan GroupDocs.Metadata.
 ## Prasyarat

@@ -6,6 +6,9 @@ description: Informazioni su come leggere le proprietà dei file di presentazion
 weight: 13
 url: /it/net/presentation-metadata/read-file-format-properties-presentations/
 ---
+
+# Leggere le proprietà del formato file dalle presentazioni in .NET
+
 ## introduzione
 Nel mondo dello sviluppo .NET, la gestione dei metadati all'interno dei file è fondamentale per varie applicazioni. GroupDocs.Metadata per .NET offre potenti strumenti per interagire in modo efficiente con i metadati nei file. Questa esercitazione ti guiderà attraverso il processo di lettura delle proprietà del formato file dalle presentazioni utilizzando GroupDocs.Metadata per .NET.
 ## Prerequisiti

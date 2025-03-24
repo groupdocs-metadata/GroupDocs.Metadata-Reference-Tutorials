@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan frissítheti az egyéni tulajdonságokat diagra
 weight: 15
 url: /hu/net/diagram-metadata/update-custom-properties-diagrams/
 ---
+
+# Frissítse az egyéni tulajdonságokat a diagramokban a .NET használatával
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan frissíthetők az egyéni tulajdonságok diagramokban .NET használatával a GroupDocs.Metadata for .NET segítségével. A diagramok egyéni tulajdonságai nélkülözhetetlenek lehetnek metaadatok vagy további információk hozzáadásához a fájlokhoz, javítva a használhatóságot és a rendszerezést. A GroupDocs.Metadata for .NET robusztus eszközkészletet biztosít a metaadatok kezeléséhez és frissítéséhez különféle dokumentumformátumokban, beleértve a diagramokat is.
 ## Előfeltételek

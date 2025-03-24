@@ -6,6 +6,9 @@ description: Learn how to update built-in properties in presentations using .NET
 weight: 15
 url: /net/presentation-metadata/update-built-in-properties-presentations/
 ---
+
+# Update Built-In Properties in Presentations using .NET
+
 ## Introduction
 In this tutorial, we'll delve into the powerful capabilities of GroupDocs.Metadata for .NET, a comprehensive library designed to manipulate metadata within documents using the .NET framework. Specifically, we'll focus on updating built-in properties in presentations (.PPT and .PPTX files) programmatically using C#.
 ## Prerequisites

@@ -7,6 +7,9 @@ weight: 22
 url: /pt/net/audio-metadata/
 ---
 
+# Metadados de áudio
+
+
 ## Tutoriais de metadados de áudio
 
 Você está interessado em dominar a manipulação de metadados de áudio em .NET? GroupDocs.Metadata for .NET oferece tutoriais abrangentes para ajudá-lo a lidar com metadados em arquivos MP3 e WAV. Esteja você extraindo, atualizando ou removendo tags, nossos guias passo a passo fornecem insights claros e exemplos práticos para agilizar seu processo de desenvolvimento.

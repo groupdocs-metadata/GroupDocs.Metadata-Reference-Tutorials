@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET in C# Metada
 weight: 10
 url: /de/net/archive-metadata/read-native-metadata-rar-archives/
 ---
+
+# Lesen nativer Metadateneigenschaften aus RAR-Archiven in .NET
+
 ## Einführung
 RAR (Roshal Archive) ist ein beliebtes Dateiformat, das zur Datenkomprimierung und -archivierung verwendet wird. Beim Arbeiten mit RAR-Dateien in .NET-Anwendungen ist es häufig erforderlich, in diesen Archiven eingebettete Metadateneigenschaften zu lesen und zu extrahieren. Dieses Tutorial führt Sie durch den Prozess der Verwendung von GroupDocs.Metadata für .NET, um auf native Metadateneigenschaften aus RAR-Archiven zuzugreifen und diese zu extrahieren.
 ## Voraussetzungen

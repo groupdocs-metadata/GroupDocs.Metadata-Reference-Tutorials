@@ -6,6 +6,9 @@ description: Naučte se extrahovat metadata ze souborů diagramů v .NET pomocí
 weight: 10
 url: /cs/net/diagram-metadata/read-built-in-properties-diagrams/
 ---
+
+# Přečtěte si vestavěné vlastnosti z diagramů v .NET
+
 ## Úvod
 tomto tutoriálu se ponoříme do používání GroupDocs.Metadata pro .NET ke čtení vestavěných vlastností z diagramů. GroupDocs.Metadata for .NET je výkonná knihovna, která umožňuje vývojářům pracovat s metadaty souvisejícími s různými typy dokumentů, včetně diagramů, prezentací, obrázků a dalších. Konkrétně se zaměříme na extrahování vlastností metadat ze souborů diagramů pomocí této knihovny.
 ## Předpoklady

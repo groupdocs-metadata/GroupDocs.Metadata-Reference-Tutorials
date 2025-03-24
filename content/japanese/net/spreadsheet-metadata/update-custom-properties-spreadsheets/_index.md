@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用してスプレッドシート
 weight: 15
 url: /ja/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---
+
+# .NET を使用してスプレッドシートのカスタム プロパティを更新する
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET ライブラリを使用してスプレッドシートのカスタム プロパティを更新する方法について説明します。カスタム プロパティを使用すると、スプレッドシート ファイルのメタデータを拡張して、標準プロパティではカバーされない追加のコンテキストや情報を提供できます。
 ## 前提条件

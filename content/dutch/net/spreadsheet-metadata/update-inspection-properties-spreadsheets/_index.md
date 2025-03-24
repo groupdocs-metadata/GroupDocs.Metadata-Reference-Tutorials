@@ -6,6 +6,9 @@ description: Leer hoe u inspectie-eigenschappen in spreadsheets kunt bijwerken m
 weight: 16
 url: /nl/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
+
+# Update inspectie-eigenschappen in spreadsheets met .NET
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u GroupDocs.Metadata voor .NET kunt gebruiken om inspectie-eigenschappen in spreadsheets bij te werken. GroupDocs.Metadata is een krachtige API waarmee u kunt werken met metagegevens die zijn gekoppeld aan verschillende documentformaten, waaronder spreadsheets. We zullen ons specifiek richten op het verwijderen van opmerkingen, digitale handtekeningen en verborgen bladen uit een spreadsheet met behulp van .NET.
 ## Vereisten

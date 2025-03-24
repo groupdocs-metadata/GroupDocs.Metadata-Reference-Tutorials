@@ -6,6 +6,9 @@ description: Pelajari cara mengekstrak properti khusus dari PDF menggunakan Grou
 weight: 11
 url: /id/net/pdf-metadata/read-custom-properties-pdfs/
 ---
+
+# Baca Properti Kustom dari PDF di .NET
+
 ## Perkenalan
 Dalam bidang pengembangan .NET, pengelolaan metadata dalam dokumen sangat penting untuk mengatur dan mengekstraksi informasi berharga. GroupDocs.Metadata untuk .NET menawarkan alat canggih untuk membaca properti khusus dari PDF, memungkinkan pengembang mengakses dan memanfaatkan metadata dokumen secara efisien. Tutorial ini akan memandu Anda melalui proses memanfaatkan GroupDocs.Metadata untuk mengambil properti khusus dari file PDF menggunakan C#.
 ## Prasyarat

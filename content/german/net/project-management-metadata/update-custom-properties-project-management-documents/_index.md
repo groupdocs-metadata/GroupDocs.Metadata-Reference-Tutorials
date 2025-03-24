@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie benutzerdefinierte Eigenschaften in .NET-Proj
 weight: 13
 url: /de/net/project-management-metadata/update-custom-properties-project-management-documents/
 ---
+
+# Aktualisieren Sie benutzerdefinierte Eigenschaften in .NET-Projektmanagementdokumenten
+
 ## Einführung
 Im Bereich der .NET-Entwicklung ist die effiziente Verwaltung von Dokumentmetadaten für verschiedene Anwendungen von entscheidender Bedeutung. GroupDocs.Metadata für .NET bietet eine robuste Lösung für die Interaktion mit Metadaten in verschiedenen Dateiformaten, einschließlich Projektmanagementdokumenten wie Microsoft Project (MPP)-Dateien. Dieses Tutorial führt Sie durch den Prozess der Aktualisierung benutzerdefinierter Eigenschaften in .NET-Projektmanagementdokumenten mithilfe von GroupDocs.Metadata.
 ## Voraussetzungen

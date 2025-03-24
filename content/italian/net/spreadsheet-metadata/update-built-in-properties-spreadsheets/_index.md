@@ -6,6 +6,9 @@ description: Scopri come aggiornare le proprietà dei metadati integrate nei fil
 weight: 14
 url: /it/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
 ---
+
+# Aggiorna le proprietà integrate nei fogli di calcolo utilizzando .NET
+
 ## introduzione
 In questo tutorial esploreremo come utilizzare GroupDocs.Metadata per .NET per aggiornare le proprietà integrate nei file di fogli di calcolo utilizzando C#. GroupDocs.Metadata è una potente API che consente agli sviluppatori di leggere, modificare e rimuovere le proprietà dei metadati da vari formati di file, inclusi i fogli di calcolo. Ci concentreremo in particolare sulla modifica di proprietà come autore, ora di creazione, azienda, categoria e parole chiave all'interno dei file Excel.
 ## Prerequisiti

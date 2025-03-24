@@ -6,6 +6,9 @@ description: Naučte se extrahovat uživatelské vlastnosti z tabulek pomocí Gr
 weight: 11
 url: /cs/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---
+
+# Přečtěte si uživatelské vlastnosti z tabulek v .NET
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak extrahovat uživatelské vlastnosti z tabulek pomocí GroupDocs.Metadata pro .NET. GroupDocs.Metadata je výkonná knihovna, která umožňuje vývojářům číst, upravovat a manipulovat s vlastnostmi metadat v různých formátech souborů, včetně tabulek.
 ## Předpoklady

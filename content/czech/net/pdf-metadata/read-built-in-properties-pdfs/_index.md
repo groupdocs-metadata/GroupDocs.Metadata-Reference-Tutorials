@@ -6,6 +6,9 @@ description: Naučte se číst metadata PDF v .NET pomocí GroupDocs.Metadata. Z
 weight: 10
 url: /cs/net/pdf-metadata/read-built-in-properties-pdfs/
 ---
+
+# Číst vestavěné vlastnosti z PDF v .NET
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak využít GroupDocs.Metadata pro .NET ke čtení vestavěných vlastností ze souborů PDF. GroupDocs.Metadata je výkonná knihovna, která umožňuje vývojářům pracovat s metadaty spojenými s různými formáty dokumentů, včetně PDF, dokumentů Microsoft Office, obrázků a dalších. Pomocí této knihovny můžete snadno přistupovat a manipulovat s atributy metadat vloženými do souborů PDF, jako jsou jména autorů, data vytvoření, předměty a další.
 ## Předpoklady

@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET ile .NET kullanarak diyagramlardaki öz
 weight: 15
 url: /tr/net/diagram-metadata/update-custom-properties-diagrams/
 ---
+
+# .NET kullanarak Diyagramlardaki Özel Özellikleri Güncelleme
+
 ## giriiş
 Bu öğreticide, GroupDocs.Metadata for .NET'in yardımıyla .NET kullanarak diyagramlardaki özel özelliklerin nasıl güncelleştirileceğini keşfedeceğiz. Diyagramlardaki özel özellikler, dosyalarınıza meta veriler veya ek bilgiler eklemek, bunların kullanılabilirliğini ve organizasyonunu geliştirmek için gerekli olabilir. GroupDocs.Metadata for .NET, diyagramlar da dahil olmak üzere çeşitli belge formatlarındaki meta verileri işlemek ve güncellemek için güçlü bir araç seti sağlar.
 ## Önkoşullar

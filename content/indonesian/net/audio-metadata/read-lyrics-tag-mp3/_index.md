@@ -6,6 +6,9 @@ description: Pelajari cara mengekstrak tag lirik dari file MP3 menggunakan Group
 weight: 13
 url: /id/net/audio-metadata/read-lyrics-tag-mp3/
 ---
+
+# Baca Tag Lirik dari File MP3 di .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengekstrak dan membaca tag lirik dari file MP3 menggunakan GroupDocs.Metadata API di .NET. GroupDocs.Metadata adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan metadata yang terkait dengan berbagai format file, termasuk file MP3. Dengan mengikuti langkah-langkah ini, Anda akan dapat secara efisien mengambil informasi terkait lirik yang tertanam dalam file MP3.
 ## Prasyarat

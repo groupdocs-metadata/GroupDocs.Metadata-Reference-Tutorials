@@ -6,6 +6,9 @@ description: .NET के लिए GroupDocs.Metadata का उपयोग क
 weight: 23
 url: /hi/net/audio-metadata/read-native-metadata-wav/
 ---
+
+# .NET में WAV फ़ाइलों से मूल मेटाडेटा गुण पढ़ें
+
 ## परिचय
 इस ट्यूटोरियल में, आप सीखेंगे कि WAV ऑडियो फ़ाइलों से मूल मेटाडेटा गुण निकालने के लिए GroupDocs.Metadata for .NET का उपयोग कैसे करें। GroupDocs.Metadata for .NET एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को WAV फ़ाइलों सहित विभिन्न फ़ाइल स्वरूपों से जुड़े मेटाडेटा को पढ़ने, अपडेट करने और हटाने की अनुमति देती है।
 ## आवश्यक शर्तें

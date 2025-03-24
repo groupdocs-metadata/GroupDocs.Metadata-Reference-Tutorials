@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用して MP3 ファイルから�
 weight: 13
 url: /ja/net/audio-metadata/read-lyrics-tag-mp3/
 ---
+
+# .NET で MP3 ファイルから歌詞タグを読み取る
+
 ## 導入
 このチュートリアルでは、.NET の GroupDocs.Metadata API を使用して MP3 ファイルから歌詞タグを抽出して読み取る方法を学習します。 GroupDocs.Metadata は、開発者が MP3 ファイルなどのさまざまなファイル形式に関連付けられたメタデータを操作できるようにする強力なライブラリです。以下の手順に従うことで、MP3 ファイルに埋め込まれた歌詞関連情報を効率的に取得できるようになります。
 ## 前提条件

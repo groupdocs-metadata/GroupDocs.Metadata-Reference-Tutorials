@@ -6,6 +6,9 @@ description: Tìm hiểu cách cập nhật thuộc tính kiểm tra trong tài 
 weight: 17
 url: /vi/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
+
+# Cập nhật thuộc tính kiểm tra trong tệp PDF bằng .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách cập nhật các thuộc tính kiểm tra trong tài liệu PDF bằng thư viện GroupDocs.Metadata cho .NET. Thư viện này cho phép chúng tôi quản lý hiệu quả siêu dữ liệu, chú thích, tệp đính kèm, v.v. trong tệp PDF.
 ## Điều kiện tiên quyết

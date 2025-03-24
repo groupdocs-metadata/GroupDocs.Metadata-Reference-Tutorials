@@ -6,6 +6,9 @@ description: Pelajari cara mengekstrak properti inspeksi dari dokumen PDF menggu
 weight: 14
 url: /id/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
+
+# Baca Properti Inspeksi dari PDF di .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memanfaatkan GroupDocs.Metadata untuk .NET untuk mengekstrak properti inspeksi dari dokumen PDF secara terprogram. GroupDocs.Metadata adalah perpustakaan .NET yang kuat yang memungkinkan pengembang bekerja dengan metadata yang tertanam dalam berbagai format file, termasuk PDF. Dengan memanfaatkan perpustakaan ini, Anda dapat mengakses dan memanipulasi berbagai properti dokumen, anotasi, lampiran, bookmark, tanda tangan digital, dan bidang dalam file PDF.
 ## Prasyarat

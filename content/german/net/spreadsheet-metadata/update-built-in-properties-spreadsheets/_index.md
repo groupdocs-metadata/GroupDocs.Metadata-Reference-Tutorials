@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie integrierte Metadateneigenschaften in Excel-D
 weight: 14
 url: /de/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
 ---
+
+# Aktualisieren integrierter Eigenschaften in Tabellenkalkulationen mithilfe von .NET
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie GroupDocs.Metadata für .NET nutzen können, um integrierte Eigenschaften in Tabellenkalkulationsdateien mit C# zu aktualisieren. GroupDocs.Metadata ist eine leistungsstarke API, mit der Entwickler Metadateneigenschaften aus verschiedenen Dateiformaten, einschließlich Tabellenkalkulationen, lesen, bearbeiten und entfernen können. Wir konzentrieren uns insbesondere auf das Ändern von Eigenschaften wie Autor, Erstellungszeit, Unternehmen, Kategorie und Schlüsselwörtern in Excel-Dateien.
 ## Voraussetzungen

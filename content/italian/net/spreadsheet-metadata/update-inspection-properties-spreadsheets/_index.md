@@ -6,6 +6,9 @@ description: Scopri come aggiornare le proprietà di ispezione nei fogli di calc
 weight: 16
 url: /it/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
+
+# Aggiorna le proprietà di ispezione nei fogli di calcolo utilizzando .NET
+
 ## introduzione
 In questo tutorial esploreremo come utilizzare GroupDocs.Metadata per .NET per aggiornare le proprietà di ispezione nei fogli di calcolo. GroupDocs.Metadata è una potente API che ti consente di lavorare con i metadati associati a vari formati di documenti, inclusi i fogli di calcolo. Ci concentreremo in particolare sulla cancellazione di commenti, firme digitali e fogli nascosti da un foglio di calcolo utilizzando .NET.
 ## Prerequisiti

@@ -6,6 +6,9 @@ description: 향상된 파일 조작 기능을 위해 GroupDocs.Metadata를 사�
 weight: 10
 url: /ko/net/metadata-loading/load-metadata-local-disk/
 ---
+
+# .NET의 로컬 디스크에서 메타데이터를 로드하는 방법
+
 ## 소개
 .NET 개발 영역에서 파일과 관련된 메타데이터를 관리하는 것은 다양한 애플리케이션에 매우 중요합니다. .NET용 GroupDocs.Metadata는 파일에서 메타데이터를 손쉽게 읽고, 편집하고, 제거할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 GroupDocs.Metadata를 사용하여 로컬 디스크에서 메타데이터를 로드하는 과정을 안내하므로 이 강력한 라이브러리를 효과적으로 활용할 수 있습니다.
 ## 전제 조건

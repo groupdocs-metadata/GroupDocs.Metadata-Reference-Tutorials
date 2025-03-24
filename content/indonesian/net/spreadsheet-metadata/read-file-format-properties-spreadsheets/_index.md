@@ -6,6 +6,9 @@ description: Pelajari cara membaca properti format file spreadsheet menggunakan 
 weight: 12
 url: /id/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
+
+# Baca Properti Format File dari Spreadsheet di .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memanfaatkan GroupDocs.Metadata untuk .NET untuk membaca properti format file dari spreadsheet secara efisien. GroupDocs.Metadata untuk .NET adalah API canggih yang memungkinkan pengembang mengekstrak, mengedit, dan mengelola metadata yang terkait dengan berbagai format file dalam aplikasi .NET mereka. Kami secara khusus akan fokus pada pengambilan informasi penting tentang file spreadsheet menggunakan perpustakaan ini.
 ## Prasyarat

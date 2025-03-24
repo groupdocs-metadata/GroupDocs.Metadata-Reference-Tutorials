@@ -6,6 +6,9 @@ description: .NET と GroupDocs.Metadata を使用して、プレゼンテーシ
 weight: 17
 url: /ja/net/presentation-metadata/update-inspection-properties-presentations/
 ---
+
+# .NET を使用してプレゼンテーションの検査プロパティを更新する
+
 ## 導入
 .NET 開発の分野では、プレゼンテーション内のメタデータの管理と操作は、データの処理と編成の重要な側面です。 GroupDocs.Metadata for .NET は、開発者がさまざまなファイル形式内のメタデータをシームレスに処理するための堅牢なソリューションを提供します。このチュートリアルでは、GroupDocs.Metadata を使用して、C# を使用してプレゼンテーション (.PPTX ファイル) に特化した検査プロパティを更新する方法について詳しく説明します。
 ## 前提条件

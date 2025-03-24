@@ -6,6 +6,9 @@ description: Dowiedz się, jak aktualizować właściwości niestandardowe w dok
 weight: 13
 url: /pl/net/project-management-metadata/update-custom-properties-project-management-documents/
 ---
+
+# Zaktualizuj właściwości niestandardowe w dokumentach zarządzania projektami .NET
+
 ## Wstęp
 obszarze rozwoju .NET efektywne zarządzanie metadanymi dokumentów ma kluczowe znaczenie dla różnych aplikacji. GroupDocs.Metadata dla .NET zapewnia niezawodne rozwiązanie do interakcji z metadanymi w różnych formatach plików, w tym w dokumentach zarządzania projektami, takich jak pliki Microsoft Project (MPP). Ten samouczek poprowadzi Cię przez proces aktualizowania właściwości niestandardowych w dokumentach zarządzania projektami .NET przy użyciu GroupDocs.Metadata.
 ## Warunki wstępne

@@ -6,6 +6,9 @@ description: Lär dig hur du läser filformategenskaper från diagram i .NET med
 weight: 13
 url: /sv/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
+
+# Läs filformategenskaper från diagram i .NET
+
 ## Introduktion
 I den här handledningen kommer vi att utforska hur du använder GroupDocs.Metadata för .NET för att läsa filformategenskaper från diagram. Detta bibliotek möjliggör enkel manipulering och extrahering av metadata från olika filformat inom .NET-applikationer. Vi kommer att gå igenom förutsättningarna, importera namnrymder och steg-för-steg-exempel för att illustrera hur man uppnår detta.
 

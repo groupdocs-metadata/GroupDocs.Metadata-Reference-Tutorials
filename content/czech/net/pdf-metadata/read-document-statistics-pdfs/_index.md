@@ -6,6 +6,9 @@ description: Naučte se extrahovat statistiky dokumentů PDF pomocí GroupDocs.M
 weight: 12
 url: /cs/net/pdf-metadata/read-document-statistics-pdfs/
 ---
+
+# Číst statistiky dokumentů z PDF v .NET
+
 ## Úvod
 Ve světě vývoje softwaru je efektivní správa metadat dokumentů zásadní pro mnoho aplikací. GroupDocs.Metadata for .NET poskytuje výkonné nástroje pro čtení a manipulaci s metadaty v rámci různých formátů dokumentů. Tento výukový program se zaměřuje na využití této schopnosti speciálně pro soubory PDF pomocí .NET. Na konci této příručky pochopíte, jak extrahovat statistiky dokumentu, jako je počet znaků, počet stránek a počet slov, z PDF pomocí GroupDocs.Metadata.
 ## Předpoklady

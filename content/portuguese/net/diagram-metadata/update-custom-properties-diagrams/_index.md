@@ -6,6 +6,9 @@ description: Saiba como atualizar propriedades personalizadas em diagramas usand
 weight: 15
 url: /pt/net/diagram-metadata/update-custom-properties-diagrams/
 ---
+
+# Atualizar propriedades personalizadas em diagramas usando .NET
+
 ## Introdução
 Neste tutorial, exploraremos como atualizar propriedades personalizadas em diagramas usando .NET com a ajuda de GroupDocs.Metadata for .NET. Propriedades personalizadas em diagramas podem ser essenciais para adicionar metadados ou informações adicionais aos seus arquivos, melhorando sua usabilidade e organização. GroupDocs.Metadata for .NET fornece um conjunto robusto de ferramentas para manipular e atualizar metadados em vários formatos de documentos, incluindo diagramas.
 ## Pré-requisitos

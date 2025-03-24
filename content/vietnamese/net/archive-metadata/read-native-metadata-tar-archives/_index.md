@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất siêu dữ liệu từ kho lưu tr�
 weight: 12
 url: /vi/net/archive-metadata/read-native-metadata-tar-archives/
 ---
+
+# Đọc thuộc tính siêu dữ liệu gốc từ kho lưu trữ TAR trong .NET
+
 ## Giới thiệu
 Trong lĩnh vực phát triển phần mềm và quản lý dữ liệu, việc truy cập và thao tác siêu dữ liệu là một nhiệm vụ quan trọng. Siêu dữ liệu, cung cấp thông tin cần thiết về dữ liệu khác, cho phép các nhà phát triển hiểu, sắp xếp và xử lý tệp một cách hiệu quả. Hướng dẫn này đi sâu vào việc tận dụng GroupDocs.Metadata cho .NET để đọc các thuộc tính siêu dữ liệu gốc từ kho lưu trữ TAR. Chúng ta sẽ khám phá từng bước cách tích hợp thư viện mạnh mẽ này vào các dự án .NET của bạn để xử lý siêu dữ liệu lưu trữ TAR một cách hiệu quả.
 ## Điều kiện tiên quyết

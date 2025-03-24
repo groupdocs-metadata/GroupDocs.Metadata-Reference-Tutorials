@@ -6,6 +6,9 @@ description: Şarkı sözleri, sanatçı ve albüm ayrıntılarını içeren MP3
 weight: 21
 url: /tr/net/audio-metadata/update-lyrics-tag-mp3/
 ---
+
+# .NET kullanarak MP3 Dosyalarındaki Şarkı Sözü Etiketini Güncelleyin
+
 ## giriiş
 Bu öğreticide, MP3 dosyalarındaki şarkı sözü etiketini program aracılığıyla güncellemek için GroupDocs.Metadata for .NET kitaplığının nasıl kullanılacağını göstereceğiz. Bu süreç, özellikle şarkı sözü bilgilerini hedefleyerek MP3 dosyalarının meta verilerine erişmeyi ve bunları değiştirmeyi içerir.
 ## Önkoşullar

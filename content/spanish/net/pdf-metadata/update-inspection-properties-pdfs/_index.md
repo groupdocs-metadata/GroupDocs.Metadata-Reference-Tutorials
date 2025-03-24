@@ -6,6 +6,9 @@ description: Aprenda a actualizar las propiedades de inspección en documentos P
 weight: 17
 url: /es/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
+
+# Actualizar propiedades de inspección en archivos PDF usando .NET
+
 ## Introducción
 En este tutorial, exploraremos cómo actualizar las propiedades de inspección en documentos PDF utilizando la biblioteca GroupDocs.Metadata para .NET. Esta biblioteca nos permite administrar de manera eficiente metadatos, anotaciones, archivos adjuntos y más dentro de archivos PDF.
 ## Requisitos previos

@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất các thuộc tính siêu dữ liệ
 weight: 10
 url: /vi/net/archive-metadata/read-native-metadata-rar-archives/
 ---
+
+# Đọc thuộc tính siêu dữ liệu gốc từ kho lưu trữ RAR trong .NET
+
 ## Giới thiệu
 RAR (Roshal Archive) là định dạng tệp phổ biến được sử dụng để nén và lưu trữ dữ liệu. Khi làm việc với các tệp RAR trong ứng dụng .NET, thường cần phải đọc và trích xuất các thuộc tính siêu dữ liệu được nhúng trong các kho lưu trữ này. Hướng dẫn này sẽ hướng dẫn bạn quy trình sử dụng GroupDocs.Metadata cho .NET để truy cập và trích xuất các thuộc tính siêu dữ liệu gốc từ kho lưu trữ RAR.
 ## Điều kiện tiên quyết

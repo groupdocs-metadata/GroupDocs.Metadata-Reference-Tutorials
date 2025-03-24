@@ -7,6 +7,9 @@ weight: 21
 url: /hu/net/archive-metadata/
 ---
 
+# Metaadatok archiválása
+
+
 ## Bevezetés
 
 A metaadatok kezelésével küszködik .NET-alkalmazásaiban? Ne keressen tovább! Üdvözöljük a GroupDocs.Metadata for.NET-hez készült végső útmutatójában a metaadatkezelési folyamat egyszerűsítéséhez. Akár RAR-, 7Zip-, TAR- vagy ZIP-archívumokkal van dolgunk, átfogó oktatóanyagainkkal ellátjuk Önt.

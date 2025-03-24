@@ -6,6 +6,9 @@ description: .NET के लिए GroupDocs.Metadata का उपयोग क
 weight: 10
 url: /hi/net/audio-metadata/read-ape-tag-mp3/
 ---
+
+# .NET में MP3 फ़ाइलों से APE टैग पढ़ें
+
 ## परिचय
 इस ट्यूटोरियल में, हम MP3 फ़ाइलों से APE टैग पढ़ने के लिए .NET के लिए GroupDocs.Metadata का उपयोग करने का तरीका जानेंगे। APE (Monkey's Audio) टैग MP3 फ़ाइलों में संग्रहीत मेटाडेटा हैं जिनमें ऑडियो सामग्री के बारे में जानकारी होती है। GroupDocs.Metadata for .NET एक शक्तिशाली API है जो डेवलपर्स को MP3 फ़ाइलों सहित विभिन्न फ़ाइल स्वरूपों में मेटाडेटा के साथ काम करने की अनुमति देता है।
 ## आवश्यक शर्तें

@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 更新 Excel 文件�
 weight: 14
 url: /zh/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
 ---
+
+# 使用 .NET 更新电子表格中的内置属性
+
 ## 介绍
 在本教程中，我们将探索如何利用 GroupDocs.Metadata for .NET 来使用 C# 更新电子表格文件中的内置属性。 GroupDocs.Metadata 是一个功能强大的 API，允许开发人员从各种文件格式（包括电子表格）读取、编辑和删除元数据属性。我们将特别关注修改 Excel 文件中的作者、创建时间、公司、类别和关键字等属性。
 ## 先决条件

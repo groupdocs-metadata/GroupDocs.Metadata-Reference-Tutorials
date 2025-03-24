@@ -3,7 +3,6 @@ title: Arşiv Meta Verileri
 linktitle: Arşiv Meta Verileri
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak RAR, 7Zip, TAR ve ZIP gibi çeşitli arşiv formatlarından meta veri özelliklerini çıkarmaya ve yönetmeye ilişkin eğitimleri keşfedin.
-type: docs
 weight: 21
 url: /tr/net/archive-metadata/
 ---

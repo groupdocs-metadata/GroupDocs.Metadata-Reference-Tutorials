@@ -3,7 +3,6 @@ title: Lees de bestandsformaateigenschappen van Spreadsheets in .NET
 linktitle: Lees de bestandsformaateigenschappen van Spreadsheets in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u de eigenschappen van spreadsheetbestandsindelingen kunt lezen met GroupDocs.Metadata voor .NET. Krijg toegang tot de bestandsindeling, het MIME-type en meer met eenvoudige API-aanroepen.
-type: docs
 weight: 12
 url: /nl/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
@@ -55,7 +54,7 @@ In deze zelfstudie hebben we onderzocht hoe u GroupDocs.Metadata voor .NET kunt 
 
 ## Veelgestelde vragen
 ### Is GroupDocs.Metadata voor .NET compatibel met alle soorten spreadsheetformaten?
- GroupDocs.Metadata voor .NET ondersteunt een breed scala aan spreadsheetformaten, waaronder XLSX, XLS, CSV en meer. Verwijs naar de[documentatie](https://reference.groupdocs.com/metadata/net/) voor een uitgebreide lijst met ondersteunde formaten.
+ GroupDocs.Metadata voor .NET ondersteunt een breed scala aan spreadsheetformaten, waaronder XLSX, XLS, CSV en meer. Verwijs naar de[documentatie](https://tutorials.groupdocs.com/metadata/net/) voor een uitgebreide lijst met ondersteunde formaten.
 ### Kan ik metadata-eigenschappen bewerken met GroupDocs.Metadata voor .NET?
 Ja, GroupDocs.Metadata voor .NET maakt het niet alleen mogelijk om metadata-eigenschappen te lezen, maar ook te bewerken die aan verschillende bestandsformaten zijn gekoppeld.
 ### Hoe kan ik een tijdelijke licentie verkrijgen voor testdoeleinden?

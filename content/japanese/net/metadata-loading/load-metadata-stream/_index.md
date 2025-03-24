@@ -3,7 +3,6 @@ title: .NET チュートリアルでストリームからメタデータをロ�
 linktitle: .NET チュートリアルでストリームからメタデータをロードする
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata を使用して .NET でファイル メタデータを管理する方法を学びます。ストリームからメタデータをロード、編集、削除するためのステップバイステップのガイド。
-type: docs
 weight: 11
 url: /ja/net/metadata-loading/load-metadata-stream/
 ---
@@ -63,7 +62,7 @@ metadata.Save("Output File");
 ### Q: GroupDocs.Metadata の一時ライセンスを取得するにはどうすればよいですか?
  A: 一時ライセンスは以下から取得できます。[ここ](https://purchase.groupdocs.com/temporary-license/).
 ### Q: GroupDocs.Metadata に関する包括的なドキュメントはどこで見つけられますか?
- A: 詳細なドキュメントを参照してください[ここ](https://reference.groupdocs.com/metadata/net/).
+ A: 詳細なドキュメントを参照してください[ここ](https://tutorials.groupdocs.com/metadata/net/).
 ### Q: GroupDocs.Metadata に利用できる無料トライアルはありますか?
  A: はい、無料トライアルにアクセスできます。[ここ](https://releases.groupdocs.com/).
 ### Q: GroupDocs.Metadata のサポートを受けるにはどうすればよいですか?

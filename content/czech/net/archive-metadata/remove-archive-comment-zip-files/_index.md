@@ -3,7 +3,6 @@ title: Odebrat archivní komentář ze souborů ZIP v .NET
 linktitle: Odebrat archivní komentář ze souborů ZIP v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se odstraňovat komentáře archivu ZIP pomocí GroupDocs.Metadata pro .NET. Vylepšete své dovednosti v oblasti správy metadat.
-type: docs
 weight: 14
 url: /cs/net/archive-metadata/remove-archive-comment-zip-files/
 ---

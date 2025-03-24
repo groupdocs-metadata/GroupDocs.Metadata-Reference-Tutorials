@@ -3,7 +3,6 @@ title: .NET प्रोजेक्ट प्रबंधन दस्ताव
 linktitle: .NET प्रोजेक्ट प्रबंधन दस्तावेज़ों में अंतर्निहित गुण अपडेट करें
 second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata के साथ .NET प्रोजेक्ट प्रबंधन दस्तावेज़ों में मेटाडेटा अपडेट करने का तरीका जानें। दस्तावेज़ प्रबंधन को कुशलतापूर्वक बढ़ाएँ।
-type: docs
 weight: 12
 url: /hi/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
@@ -57,7 +56,7 @@ metadata.Save("YourInputFile");
 ### क्या मैं अंतर्निहित दस्तावेज़ विवरण से परे अन्य मेटाडेटा गुणों में हेरफेर कर सकता हूं?
 बिल्कुल! GroupDocs.Metadata फ़ाइल प्रकारों की एक विस्तृत श्रृंखला में मेटाडेटा को प्रबंधित करने के लिए व्यापक क्षमताएं प्रदान करता है।
 ### मुझे GroupDocs.Metadata के लिए अतिरिक्त दस्तावेज़ और समर्थन कहां मिल सकता है?
- दौरा करना[GroupDocs.मेटाडेटा दस्तावेज़ीकरण](https://reference.groupdocs.com/metadata/net/) विस्तृत जानकारी के लिए. विशिष्ट प्रश्नों के लिए, समुदाय से जुड़ें[ग्रुपडॉक्स फ़ोरम](https://forum.groupdocs.com/c/metadata/14).
+ दौरा करना[GroupDocs.मेटाडेटा दस्तावेज़ीकरण](https://tutorials.groupdocs.com/metadata/net/) विस्तृत जानकारी के लिए. विशिष्ट प्रश्नों के लिए, समुदाय से जुड़ें[ग्रुपडॉक्स फ़ोरम](https://forum.groupdocs.com/c/metadata/14).
 ### क्या GroupDocs.Metadata का परीक्षण करने के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
  हाँ, आप निःशुल्क परीक्षण का उपयोग कर सकते हैं[यहाँ](https://releases.groupdocs.com/).
 ### मैं GroupDocs.Metadata के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?

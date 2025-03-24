@@ -3,7 +3,6 @@ title: Načítání metadat ze streamu v kurzu .NET
 linktitle: Načítání metadat ze streamu v kurzu .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se spravovat metadata souborů v .NET pomocí GroupDocs.Metadata. Podrobný průvodce pro načítání, úpravy a odstraňování metadat ze streamů.
-type: docs
 weight: 11
 url: /cs/net/metadata-loading/load-metadata-stream/
 ---
@@ -63,7 +62,7 @@ V tomto tutoriálu jsme probrali základy načítání metadat ze streamu pomoc�
 ### Otázka: Jak mohu získat dočasnou licenci pro GroupDocs.Metadata?
  Odpověď: Můžete získat dočasnou licenci od[tady](https://purchase.groupdocs.com/temporary-license/).
 ### Otázka: Kde najdu komplexní dokumentaci k GroupDocs.Metadata?
- Odpověď: Prozkoumejte podrobnou dokumentaci[tady](https://reference.groupdocs.com/metadata/net/).
+ Odpověď: Prozkoumejte podrobnou dokumentaci[tady](https://tutorials.groupdocs.com/metadata/net/).
 ### Otázka: Je k dispozici bezplatná zkušební verze pro GroupDocs.Metadata?
  Odpověď: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.groupdocs.com/).
 ### Otázka: Jak mohu získat podporu pro GroupDocs.Metadata?

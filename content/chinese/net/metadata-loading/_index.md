@@ -3,7 +3,6 @@ title: 元数据加载
 linktitle: 元数据加载
 second_title: GroupDocs.元数据 .NET API
 description: 使用 GroupDocs.Metadata 轻松管理 .NET 中的文件元数据。了解加载技术、编辑等，以增强文件操作功能。
-type: docs
 weight: 20
 url: /zh/net/metadata-loading/
 ---

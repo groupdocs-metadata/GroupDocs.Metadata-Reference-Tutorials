@@ -1,7 +1,6 @@
 ---
 title: .NET 的 GroupDocs.Metadata 教學與範例
 linktitle: .NET 教學的 GroupDocs.Metadata
-type: docs
 weight: 10
 url: /zh-hant/net/
 description: 使用 GroupDocs.Metadata 輕鬆管理 .NET 中的文件元資料。學習載入技術、編輯等，以增強檔案操作功能。

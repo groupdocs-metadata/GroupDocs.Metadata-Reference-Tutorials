@@ -3,7 +3,6 @@ title: Đọc thuộc tính tùy chỉnh từ sơ đồ trong .NET
 linktitle: Đọc thuộc tính tùy chỉnh từ sơ đồ trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất các thuộc tính tùy chỉnh từ tệp sơ đồ trong .NET bằng GroupDocs.Metadata. Hướng dẫn từng bước dễ dàng dành cho nhà phát triển.
-type: docs
 weight: 11
 url: /vi/net/diagram-metadata/read-custom-properties-diagrams/
 ---
@@ -60,6 +59,6 @@ Có, GroupDocs.Metadata hỗ trợ nhiều định dạng tài liệu khác nhau
 ### GroupDocs.Metadata có phù hợp để xử lý tài liệu quy mô lớn không?
 Có, GroupDocs.Metadata được thiết kế để xử lý khối lượng lớn tài liệu một cách hiệu quả.
 ### Tôi có thể tìm tài liệu hoặc hỗ trợ bổ sung cho GroupDocs.Metadata ở đâu?
- Tham quan[Diễn đàn GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) để được hỗ trợ và khám phá[tài liệu](https://reference.groupdocs.com/metadata/net/) để có tài liệu tham khảo API chi tiết.
+ Tham quan[Diễn đàn GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) để được hỗ trợ và khám phá[tài liệu](https://tutorials.groupdocs.com/metadata/net/) để có tài liệu tham khảo API chi tiết.
 ### Tôi có thể dùng thử GroupDocs.Metadata miễn phí trước khi mua không?
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.groupdocs.com/).

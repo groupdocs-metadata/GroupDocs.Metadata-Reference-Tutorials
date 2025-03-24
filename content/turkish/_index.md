@@ -3,7 +3,6 @@ title: GroupDocs.Metadata ile Meta Veri Ustalığının Kilidini Açmak
 linktitle: GroupDocs.Meta Veri Eğitimleri
 additionalTitle: GroupDocs API Referansları
 description: Farklı platformlarda GroupDocs.Metadata'ya yönelik kapsamlı eğitimleri keşfedin. .NET ve Java'da meta veri yönetiminde zahmetsizce ustalaşın.
-type: docs
 weight: 11
 url: /tr/
 is_root: true

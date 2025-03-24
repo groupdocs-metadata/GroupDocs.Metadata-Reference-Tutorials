@@ -3,7 +3,6 @@ title: Přečtěte si Vlastnosti formátu souboru z Diagramů v .NET
 linktitle: Přečtěte si Vlastnosti formátu souboru z Diagramů v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se číst vlastnosti formátu souboru z diagramů v .NET pomocí GroupDocs.Metadata. Extrahujte podrobná metadata bez námahy.
-type: docs
 weight: 13
 url: /cs/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
@@ -49,7 +48,7 @@ Ano, GroupDocs.Metadata for .NET podporuje extrakci a úpravu široké škály m
 ### Je k dispozici zkušební verze pro GroupDocs.Metadata pro .NET?
  Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.groupdocs.com/).
 ### Kde najdu podrobnou dokumentaci k GroupDocs.Metadata pro .NET?
- Viz dokumentace[tady](https://reference.groupdocs.com/metadata/net/).
+ Viz dokumentace[tady](https://tutorials.groupdocs.com/metadata/net/).
 ### Jak si mohu zakoupit licenci pro GroupDocs.Metadata pro .NET?
  Licenci si můžete zakoupit od[tady](https://purchase.groupdocs.com/buy).
 ### Kde mohu vyhledat technickou podporu nebo se zeptat na otázky týkající se GroupDocs.Metadata pro .NET?

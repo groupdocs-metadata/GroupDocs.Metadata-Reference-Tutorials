@@ -3,7 +3,6 @@ title: .NET'teki Sunumlardan Dosya Formatı Özelliklerini Okuyun
 linktitle: .NET'teki Sunumlardan Dosya Formatı Özelliklerini Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata'yı kullanarak .NET'te sunum dosyası özelliklerini nasıl okuyacağınızı öğrenin. Dosya formatı ayrıntılarına programlı olarak erişin.
-type: docs
 weight: 13
 url: /tr/net/presentation-metadata/read-file-format-properties-presentations/
 ---

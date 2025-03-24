@@ -3,7 +3,6 @@ title: GroupDocs.Metadata でメタデータの習得を解き放つ
 linktitle: GroupDocs.Metadata チュートリアル
 additionalTitle: GroupDocs API リファレンス
 description: プラットフォーム全体にわたる GroupDocs.Metadata の包括的なチュートリアルをご覧ください。.NET と Java でのメタデータ管理を簡単に習得できます。
-type: docs
 weight: 11
 url: /ja/
 is_root: true

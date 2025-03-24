@@ -3,7 +3,6 @@ title: Erschließen Sie die Metadatenbeherrschung mit GroupDocs.Metadata
 linktitle: GroupDocs.Metadata-Tutorials
 additionalTitle: GroupDocs-API-Referenzen
 description: Entdecken Sie umfassende Tutorials für GroupDocs.Metadata auf allen Plattformen. Meistern Sie mühelos die Metadatenverwaltung in .NET und Java.
-type: docs
 weight: 11
 url: /de/
 is_root: true

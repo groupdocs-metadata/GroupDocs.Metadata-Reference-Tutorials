@@ -3,7 +3,6 @@ title: قراءة الخصائص المضمنة من العروض التقديم
 linktitle: قراءة الخصائص المضمنة من العروض التقديمية في .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج الخصائص المضمنة من العروض التقديمية باستخدام GroupDocs.Metadata لـ .NET في هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 10
 url: /ar/net/presentation-metadata/read-built-in-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Console.WriteLine(root.DocumentProperties.NameOfApplication);
 ### هل يمكنني تعديل بيانات التعريف أو تحديثها باستخدام GroupDocs.Metadata لـ .NET؟
 بالتأكيد، يمكنك تعديل وتحديث وإزالة خصائص البيانات التعريفية باستخدام هذه المكتبة.
 ### أين يمكنني العثور على الوثائق التفصيلية لـ GroupDocs.Metadata لـ .NET؟
- يمكنك الرجوع إلى الوثائق[هنا](https://reference.groupdocs.com/metadata/net/) للحصول على معلومات شاملة.
+ يمكنك الرجوع إلى الوثائق[هنا](https://tutorials.groupdocs.com/metadata/net/) للحصول على معلومات شاملة.
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ GroupDocs.Metadata لـ .NET؟
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.groupdocs.com/temporary-license/) لأغراض التقييم.
 ### أين يمكنني طلب المساعدة أو طرح الأسئلة المتعلقة بـ GroupDocs.Metadata لـ .NET؟

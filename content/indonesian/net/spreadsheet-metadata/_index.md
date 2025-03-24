@@ -4,7 +4,6 @@ linktitle: Metadata Lembar Bentang
 second_title: GroupDocs.Metadata .NET API
 description: Manfaatkan kecanggihan GroupDocs.Metadata untuk .NET dengan tutorial membaca dan memperbarui properti spreadsheet. Tingkatkan manipulasi metadata di aplikasi .NET Anda.
 
-type: docs
 weight: 27
 url: /id/net/spreadsheet-metadata/
 ---

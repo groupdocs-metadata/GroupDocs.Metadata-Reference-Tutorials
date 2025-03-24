@@ -3,7 +3,6 @@ title: Cập nhật các thuộc tính tích hợp trong sơ đồ bằng .NET
 linktitle: Cập nhật các thuộc tính tích hợp trong sơ đồ bằng .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật các thuộc tính tích hợp trong sơ đồ bằng GroupDocs.Metadata cho .NET. Sửa đổi siêu dữ liệu một cách liền mạch bằng các ví dụ về mã.
-type: docs
 weight: 14
 url: /vi/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
@@ -79,7 +78,7 @@ Trả lời: Có, GroupDocs.Metadata dành cho .NET hỗ trợ chỉnh sửa nhi
  Đáp: Bạn có thể ghé thăm[Diễn đàn GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) để được hỗ trợ.
 
 ### Câu hỏi: Tôi có thể tìm tài liệu chi tiết về GroupDocs.Metadata cho .NET ở đâu?
- A: Tham khảo toàn diện[tài liệu](https://reference.groupdocs.com/metadata/net/) để được hướng dẫn chuyên sâu.
+ A: Tham khảo toàn diện[tài liệu](https://tutorials.groupdocs.com/metadata/net/) để được hướng dẫn chuyên sâu.
 
 ### Hỏi: Tôi có thể mua giấy phép tạm thời để sử dụng trong thời gian ngắn không?
  Đáp: Có, bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.groupdocs.com/temporary-license/).

@@ -3,7 +3,6 @@ title: Đang tải siêu dữ liệu từ định dạng cụ thể trong .NET
 linktitle: Đang tải siêu dữ liệu từ định dạng cụ thể trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách tải siêu dữ liệu từ các định dạng tệp cụ thể bằng GroupDocs.Metadata cho .NET trong hướng dẫn toàn diện này.
-type: docs
 weight: 12
 url: /vi/net/metadata-loading/load-metadata-specific-format/
 ---
@@ -55,7 +54,7 @@ Siêu dữ liệu là dữ liệu cung cấp thông tin về các dữ liệu kh
 ### Tại sao việc quản lý siêu dữ liệu lại quan trọng?
 Quản lý siêu dữ liệu là rất quan trọng để tổ chức và hiểu nội dung số, tạo điều kiện thuận lợi cho khả năng tìm kiếm và khả năng tương tác.
 ### Tôi có thể tìm tài liệu chi tiết về GroupDocs.Metadata cho .NET ở đâu?
- Bạn có thể truy cập tài liệu[đây](https://reference.groupdocs.com/metadata/net/).
+ Bạn có thể truy cập tài liệu[đây](https://tutorials.groupdocs.com/metadata/net/).
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho GroupDocs.Metadata cho .NET?
  Thăm nom[liên kết này](https://purchase.groupdocs.com/temporary-license/) để có được giấy phép tạm thời.
 ### Tôi có thể nhận hỗ trợ hoặc đặt câu hỏi về GroupDocs.Metadata cho .NET ở đâu?

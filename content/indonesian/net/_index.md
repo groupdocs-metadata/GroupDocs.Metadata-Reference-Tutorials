@@ -1,7 +1,6 @@
 ---
 title: Tutorial dan Contoh GroupDocs.Metadata untuk .NET
 linktitle: GroupDocs.Metadata untuk Tutorial .NET
-type: docs
 weight: 10
 url: /id/net/
 description: Kelola metadata file dengan mudah di .NET dengan GroupDocs.Metadata. Pelajari teknik memuat, mengedit, dan lainnya untuk meningkatkan kemampuan manipulasi file.

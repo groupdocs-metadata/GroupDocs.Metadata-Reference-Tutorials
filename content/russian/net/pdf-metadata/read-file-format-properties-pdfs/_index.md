@@ -3,7 +3,6 @@ title: Чтение свойств формата файла из PDF-файло
 linktitle: Чтение свойств формата файла из PDF-файлов в .NET
 second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как извлечь свойства формата PDF-файла с помощью GroupDocs.Metadata для .NET. Погрузитесь в управление метаданными с помощью простого C#.
-type: docs
 weight: 13
 url: /ru/net/pdf-metadata/read-file-format-properties-pdfs/
 ---
@@ -63,7 +62,7 @@ Console.WriteLine("Extension: " + root.FileType.Extension);
 ### Доступна ли пробная версия GroupDocs.Metadata для .NET?
  Да, вы можете загрузить бесплатную пробную версию с сайта[здесь](https://releases.groupdocs.com/).
 ### Где я могу найти подробную документацию по GroupDocs.Metadata?
- Обратитесь к подробной документации[здесь](https://reference.groupdocs.com/metadata/net/).
+ Обратитесь к подробной документации[здесь](https://tutorials.groupdocs.com/metadata/net/).
 ### Как я могу получить поддержку по любым вопросам или запросам, связанным с GroupDocs.Metadata?
  Вы можете обратиться за поддержкой к сообществу GroupDocs.Metadata.[Форум](https://forum.groupdocs.com/c/metadata/14).
 ### Где я могу приобрести лицензионную версию GroupDocs.Metadata для .NET?

@@ -3,7 +3,6 @@ title: Läs filformategenskaper från kalkylblad i .NET
 linktitle: Läs filformategenskaper från kalkylblad i .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du läser egenskaper för kalkylbladsfilformat med GroupDocs.Metadata for .NET. Få åtkomst till filformat, MIME-typ och mer med enkla API-anrop.
-type: docs
 weight: 12
 url: /sv/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
@@ -55,7 +54,7 @@ I den här handledningen har vi utforskat hur man använder GroupDocs.Metadata f
 
 ## FAQ's
 ### Är GroupDocs.Metadata for .NET kompatibelt med alla typer av kalkylbladsformat?
- GroupDocs.Metadata för .NET stöder ett brett utbud av kalkylbladsformat, inklusive XLSX, XLS, CSV och mer. Referera till[dokumentation](https://reference.groupdocs.com/metadata/net/) för en omfattande lista över format som stöds.
+ GroupDocs.Metadata för .NET stöder ett brett utbud av kalkylbladsformat, inklusive XLSX, XLS, CSV och mer. Referera till[dokumentation](https://tutorials.groupdocs.com/metadata/net/) för en omfattande lista över format som stöds.
 ### Kan jag redigera metadataegenskaper med GroupDocs.Metadata för .NET?
 Ja, GroupDocs.Metadata för .NET tillåter inte bara läsning utan även redigering av metadataegenskaper som är associerade med olika filformat.
 ### Hur kan jag få en tillfällig licens för teständamål?

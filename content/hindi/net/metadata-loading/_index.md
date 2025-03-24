@@ -3,7 +3,6 @@ title: मेटाडेटा लोड हो रहा है
 linktitle: मेटाडेटा लोड हो रहा है
 second_title: GroupDocs.Metadata .NET एपीआई
 description: GroupDocs.Metadata के साथ .NET में फ़ाइल मेटाडेटा को आसानी से प्रबंधित करें। उन्नत फ़ाइल हेरफेर क्षमताओं के लिए लोडिंग तकनीक, संपादन और बहुत कुछ सीखें।
-type: docs
 weight: 20
 url: /hi/net/metadata-loading/
 ---

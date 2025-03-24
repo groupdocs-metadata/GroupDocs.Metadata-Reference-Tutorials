@@ -3,7 +3,6 @@ title: Desbloquear el dominio de los metadatos con GroupDocs.Metadata
 linktitle: Tutoriales de GroupDocs.Metadata
 additionalTitle: Referencias de la API de GroupDocs
 description: Descubra tutoriales completos para GroupDocs.Metadata en todas las plataformas. Domine la gestión de metadatos en .NET y Java sin esfuerzo.
-type: docs
 weight: 11
 url: /es/
 is_root: true

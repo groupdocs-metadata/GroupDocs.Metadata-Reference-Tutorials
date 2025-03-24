@@ -3,7 +3,6 @@ title: Přečtěte si textový tag ze souborů MP3 v .NET
 linktitle: Přečtěte si textový tag ze souborů MP3 v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat značky textů ze souborů MP3 pomocí GroupDocs.Metadata pro .NET. Postupujte podle našeho podrobného návodu.
-type: docs
 weight: 13
 url: /cs/net/audio-metadata/read-lyrics-tag-mp3/
 ---
@@ -62,7 +61,7 @@ Ano, GroupDocs.Metadata vám umožňuje aktualizovat a upravovat metadata v soub
 ### Podporuje GroupDocs.Metadata jiné zvukové formáty kromě MP3?
 Ano, GroupDocs.Metadata podporuje širokou škálu audio a video formátů pro extrakci a manipulaci s metadaty.
 ### Kde najdu podrobnější dokumentaci k GroupDocs.Metadata?
- Máte přístup k úplné dokumentaci[tady](https://reference.groupdocs.com/metadata/net/).
+ Máte přístup k úplné dokumentaci[tady](https://tutorials.groupdocs.com/metadata/net/).
 ### Je k dispozici bezplatná zkušební verze pro GroupDocs.Metadata?
  Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.groupdocs.com/).
 ### Jak mohu získat technickou podporu pro GroupDocs.Metadata?

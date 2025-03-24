@@ -3,7 +3,6 @@ title: Jak załadować metadane z dokumentu chronionego hasłem w .NET
 linktitle: Jak załadować metadane z dokumentu chronionego hasłem w .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak efektywnie zarządzać metadanymi dokumentów za pomocą GroupDocs.Metadata dla platformy .NET. Bezproblemowo wyodrębniaj, edytuj i obsługuj metadane w aplikacjach .NET.
-type: docs
 weight: 13
 url: /pl/net/metadata-loading/load-metadata-password-protected/
 ---
@@ -60,6 +59,6 @@ Absolutnie! Możesz bezproblemowo wyodrębniać, aktualizować i usuwać właśc
 ### Jak obsługiwać wyjątki związane z ładowaniem dokumentów?
 Zapewnij odpowiednią obsługę błędów podczas operacji ładowania dokumentów, aby wychwycić potencjalne wyjątki i zarządzać nimi.
 ### Gdzie mogę znaleźć szczegółową dokumentację GroupDocs.Metadata dla .NET?
- Odwiedzić[dokumentacja](https://reference.groupdocs.com/metadata/net/) w celu uzyskania kompleksowych przewodników i referencji API.
+ Odwiedzić[dokumentacja](https://tutorials.groupdocs.com/metadata/net/) w celu uzyskania kompleksowych przewodników i referencji API.
 ### Czy dostępna jest bezpłatna wersja próbna programu GroupDocs.Metadata dla platformy .NET?
  Tak, możesz przeglądać bibliotekę za pomocą[bezpłatna wersja próbna](https://releases.groupdocs.com/).

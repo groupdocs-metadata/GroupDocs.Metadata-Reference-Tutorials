@@ -3,7 +3,6 @@ title: .NET의 로컬 디스크에서 메타데이터를 로드하는 방법
 linktitle: .NET의 로컬 디스크에서 메타데이터를 로드하는 방법
 second_title: GroupDocs.메타데이터 .NET API
 description: 향상된 파일 조작 기능을 위해 GroupDocs.Metadata를 사용하여 .NET 응용 프로그램의 파일 메타데이터를 쉽게 관리합니다.
-type: docs
 weight: 10
 url: /ko/net/metadata-loading/load-metadata-local-disk/
 ---
@@ -62,7 +61,7 @@ using (Metadata metadata = new Metadata("Your Input File Path"))
 ### Q: GroupDocs.Metadata에 대한 임시 라이센스를 얻으려면 어떻게 해야 합니까?
  A: 임시 라이센스는 다음 사이트에서 취득할 수 있습니다.[GroupDocs 구매 페이지](https://purchase.groupdocs.com/temporary-license/).
 ### Q: GroupDocs.Metadata에 대한 포괄적인 문서는 어디에서 찾을 수 있습니까?
- A: 자세한 문서를 살펴보세요.[.NET 문서용 GroupDocs.Metadata](https://reference.groupdocs.com/metadata/net/).
+ A: 자세한 문서를 살펴보세요.[.NET 문서용 GroupDocs.Metadata](https://tutorials.groupdocs.com/metadata/net/).
 ### Q: GroupDocs.Metadata는 무료 평가판을 지원합니까?
  A: 예, 다음에서 GroupDocs.Metadata 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.groupdocs.com/).
 ### Q: GroupDocs.Metadata와 관련된 지원을 받거나 질문을 할 수 있는 곳은 어디입니까?

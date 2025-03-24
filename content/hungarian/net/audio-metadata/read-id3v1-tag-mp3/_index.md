@@ -3,7 +3,6 @@ title: Olvassa el az ID3V1 címkét az MP3 fájlokból a .NET-ben
 linktitle: Olvassa el az ID3V1 címkét az MP3 fájlokból a .NET-ben
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan olvashat ID3V1 címkéket MP3 fájlokból a GroupDocs.Metadata for .NET segítségével. Lépésről lépésre bemutató oktatóprogram kódpéldákkal.
-type: docs
 weight: 11
 url: /hu/net/audio-metadata/read-id3v1-tag-mp3/
 ---
@@ -62,6 +61,6 @@ Az ID3V1 címke egy szabvány a metaadatok (például album, előadó, cím stb.
 ### Kipróbálhatom a GroupDocs.Metadata for .NET szolgáltatást vásárlás előtt?
  Igen, beszerezhet egy ingyenes próbaverziót[itt](https://releases.groupdocs.com/).
 ### Hol találom a GroupDocs.Metadata for .NET dokumentációját?
- Részletes dokumentációt és API-referenciákat találhat[itt](https://reference.groupdocs.com/metadata/net/).
+ Részletes dokumentációt és API-referenciákat találhat[itt](https://tutorials.groupdocs.com/metadata/net/).
 ### Hogyan kaphatok technikai támogatást a GroupDocs.Metadata-hoz?
  Technikai támogatásért keresse fel a[GroupDocs.Metadata fórum](https://forum.groupdocs.com/c/metadata/14).

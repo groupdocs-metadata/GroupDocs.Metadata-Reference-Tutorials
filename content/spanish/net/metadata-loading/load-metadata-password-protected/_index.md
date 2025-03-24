@@ -3,7 +3,6 @@ title: Cómo cargar metadatos de un documento protegido con contraseña en .NET
 linktitle: Cómo cargar metadatos de un documento protegido con contraseña en .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda a administrar metadatos de documentos de manera eficiente con GroupDocs.Metadata para .NET. Extraiga, edite y maneje metadatos sin problemas en sus aplicaciones .NET.
-type: docs
 weight: 13
 url: /es/net/metadata-loading/load-metadata-password-protected/
 ---
@@ -60,6 +59,6 @@ Sí, GroupDocs.Metadata admite una amplia gama de formatos de documentos, inclui
 ### ¿Cómo manejo las excepciones relacionadas con la carga de documentos?
 Garantice el manejo adecuado de errores en las operaciones de carga de documentos para detectar y gestionar posibles excepciones.
 ### ¿Dónde puedo encontrar documentación detallada para GroupDocs.Metadata para .NET?
- Visita el[documentación](https://reference.groupdocs.com/metadata/net/) para guías completas y referencias de API.
+ Visita el[documentación](https://tutorials.groupdocs.com/metadata/net/) para guías completas y referencias de API.
 ### ¿Existe una prueba gratuita disponible para GroupDocs.Metadata para .NET?
  Sí, puedes explorar la biblioteca con un[prueba gratis](https://releases.groupdocs.com/).

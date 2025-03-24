@@ -3,7 +3,6 @@ title: .NET을 사용하여 MP3 파일의 ID3V1 태그 업데이트
 linktitle: .NET을 사용하여 MP3 파일의 ID3V1 태그 업데이트
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 MP3 파일의 ID3V1 태그를 업데이트합니다. .NET 애플리케이션에서 메타데이터를 쉽게 조작하려면 이 튜토리얼을 따르세요.
-type: docs
 weight: 19
 url: /ko/net/audio-metadata/update-id3v1-tag-mp3/
 ---
@@ -61,7 +60,7 @@ metadata.Save("YourInputFile.mp3");
 ### .NET용 GroupDocs.Metadata는 어떤 문서 형식을 지원합니까?
 .NET용 GroupDocs.Metadata는 PDF, Microsoft Office 문서(Word, Excel, PowerPoint), 이미지(JPEG, PNG, TIFF), 오디오 및 비디오 파일 등을 포함한 광범위한 문서 형식을 지원합니다.
 ### .NET용 GroupDocs.Metadata에 대한 설명서는 어디에서 찾을 수 있나요?
- 자세한 문서를 참고하시면 됩니다[여기](https://reference.groupdocs.com/metadata/net/) API 사용에 대한 포괄적인 지침을 확인하세요.
+ 자세한 문서를 참고하시면 됩니다[여기](https://tutorials.groupdocs.com/metadata/net/) API 사용에 대한 포괄적인 지침을 확인하세요.
 ### .NET용 GroupDocs.Metadata에 대한 무료 평가판이 있습니까?
  예, .NET용 GroupDocs.Metadata 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.groupdocs.com/).
 ### .NET용 GroupDocs.Metadata에 대한 기술 지원을 받으려면 어떻게 해야 합니까?

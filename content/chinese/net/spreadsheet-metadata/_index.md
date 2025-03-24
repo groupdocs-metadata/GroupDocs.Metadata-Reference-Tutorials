@@ -4,7 +4,6 @@ linktitle: 电子表格元数据
 second_title: GroupDocs.元数据 .NET API
 description: 通过阅读和更新电子表格属性的教程，解锁 GroupDocs.Metadata for .NET 的强大功能。提升 .NET 应用程序中的元数据操作能力。
 
-type: docs
 weight: 27
 url: /zh/net/spreadsheet-metadata/
 ---

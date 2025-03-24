@@ -3,7 +3,6 @@ title: .NET'teki TAR Arşivlerinden Yerel Meta Veri Özelliklerini Okuyun
 linktitle: .NET'teki TAR Arşivlerinden Yerel Meta Veri Özelliklerini Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata'yı kullanarak .NET'teki TAR arşivlerinden meta verileri nasıl çıkaracağınızı öğrenin. Bu eğitim, süreç boyunca size adım adım yol gösterir.
-type: docs
 weight: 12
 url: /tr/net/archive-metadata/read-native-metadata-tar-archives/
 ---

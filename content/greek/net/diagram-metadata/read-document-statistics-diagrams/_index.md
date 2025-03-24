@@ -3,7 +3,6 @@ title: Διαβάστε Στατιστικά Εγγράφων από Διαγρ�
 linktitle: Διαβάστε Στατιστικά Εγγράφων από Διαγράμματα στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε στατιστικά στοιχεία εγγράφων από διαγράμματα στο .NET χρησιμοποιώντας το GroupDocs.Metadata, μια ισχυρή βιβλιοθήκη χειρισμού μεταδεδομένων.
-type: docs
 weight: 12
 url: /el/net/diagram-metadata/read-document-statistics-diagrams/
 ---
@@ -53,7 +52,7 @@ Console.WriteLine(root.DocumentStatistics.PageCount);
 ### Μπορώ να χρησιμοποιήσω το GroupDocs.Metadata για .NET με άλλες μορφές αρχείων εκτός από διαγράμματα;
 Ναι, το GroupDocs.Metadata υποστηρίζει διάφορες μορφές αρχείων, όπως εικόνες, έγγραφα, παρουσιάσεις, υπολογιστικά φύλλα και άλλα.
 ### Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το GroupDocs.Metadata για .NET;
- Μπορείτε να ανατρέξετε στο[τεκμηρίωση](https://reference.groupdocs.com/metadata/net/) για ολοκληρωμένη καθοδήγηση.
+ Μπορείτε να ανατρέξετε στο[τεκμηρίωση](https://tutorials.groupdocs.com/metadata/net/) για ολοκληρωμένη καθοδήγηση.
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή για το GroupDocs.Metadata για .NET;
  Ναι, μπορείτε να έχετε πρόσβαση σε ένα[δωρεάν δοκιμή](https://releases.groupdocs.com/) για να εξερευνήσετε τις δυνατότητες του GroupDocs.Metadata.
 ### Πώς μπορώ να λάβω τεχνική υποστήριξη για το GroupDocs.Metadata για .NET;

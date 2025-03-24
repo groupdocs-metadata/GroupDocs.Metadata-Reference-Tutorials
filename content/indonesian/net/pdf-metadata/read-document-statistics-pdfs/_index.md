@@ -3,7 +3,6 @@ title: Baca Statistik Dokumen dari PDF di .NET
 linktitle: Baca Statistik Dokumen dari PDF di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengekstrak statistik dokumen PDF menggunakan GroupDocs.Metadata untuk .NET. Tingkatkan kemampuan manajemen dokumen Anda dengan mudah.
-type: docs
 weight: 12
 url: /id/net/pdf-metadata/read-document-statistics-pdfs/
 ---
@@ -52,7 +51,7 @@ Dalam tutorial ini, kita telah mempelajari cara memanfaatkan GroupDocs.Metadata 
 ### Bisakah GroupDocs.Metadata menangani format dokumen lain selain PDF?
 Ya, GroupDocs.Metadata mendukung berbagai format dokumen termasuk Microsoft Office (Word, Excel, PowerPoint), PDF, gambar, audio, video, dan banyak lagi.
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk GroupDocs.Metadata untuk .NET?
- Anda dapat merujuk ke[dokumentasi](https://reference.groupdocs.com/metadata/net/) untuk panduan komprehensif, referensi API, dan contoh kode.
+ Anda dapat merujuk ke[dokumentasi](https://tutorials.groupdocs.com/metadata/net/) untuk panduan komprehensif, referensi API, dan contoh kode.
 ### Apakah GroupDocs.Metadata cocok untuk penggunaan komersial?
  Tentu saja, GroupDocs.Metadata menawarkan lisensi komersial dan Anda dapat membelinya[Di Sini](https://purchase.groupdocs.com/buy).
 ### Bisakah saya mencoba GroupDocs.Metadata sebelum membeli?

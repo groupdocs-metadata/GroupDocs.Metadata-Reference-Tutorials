@@ -3,7 +3,6 @@ title: Διαβάστε την ετικέτα APE από αρχεία MP3 στο
 linktitle: Διαβάστε την ετικέτα APE από αρχεία MP3 στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να διαβάζετε ετικέτες APE από αρχεία MP3 χρησιμοποιώντας το GroupDocs.Metadata για .NET. Εξερευνήστε την εξαγωγή μεταδεδομένων σε C# με καθοδήγηση βήμα προς βήμα.
-type: docs
 weight: 10
 url: /el/net/audio-metadata/read-ape-tag-mp3/
 ---
@@ -68,6 +67,6 @@ Console.WriteLine(root.ApeV2.Language);
 ### Το GroupDocs.Metadata υποστηρίζει άλλες μορφές αρχείων εκτός από το MP3;
 Ναι, το GroupDocs.Metadata υποστηρίζει ένα ευρύ φάσμα μορφών αρχείων, όπως PDF, Word, Excel, PowerPoint και άλλα.
 ### Πού μπορώ να βρω την τεκμηρίωση για το GroupDocs.Metadata για .NET;
- Ανατρέξτε στη λεπτομερή τεκμηρίωση[εδώ](https://reference.groupdocs.com/metadata/net/).
+ Ανατρέξτε στη λεπτομερή τεκμηρίωση[εδώ](https://tutorials.groupdocs.com/metadata/net/).
 ### Πώς μπορώ να λάβω τεχνική υποστήριξη για το GroupDocs.Metadata;
  Μπορείτε να λάβετε υποστήριξη και να κάνετε ερωτήσεις στο[Φόρουμ GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14).

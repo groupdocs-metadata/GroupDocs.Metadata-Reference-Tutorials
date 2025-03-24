@@ -3,7 +3,6 @@ title: .NET का उपयोग करके आरेखों में क
 linktitle: .NET का उपयोग करके आरेखों में कस्टम गुण अपडेट करें
 second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata के साथ .NET का उपयोग करके आरेखों में कस्टम गुणों को अपडेट करने का तरीका जानें। मेटाडेटा को आसानी से बढ़ाएं.
-type: docs
 weight: 15
 url: /hi/net/diagram-metadata/update-custom-properties-diagrams/
 ---

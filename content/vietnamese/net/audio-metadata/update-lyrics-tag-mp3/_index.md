@@ -3,7 +3,6 @@ title: Cập nhật thẻ lời bài hát trong tệp MP3 bằng .NET
 linktitle: Cập nhật thẻ lời bài hát trong tệp MP3 bằng .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật siêu dữ liệu tệp MP3, bao gồm thông tin chi tiết về lời bài hát, nghệ sĩ và album theo chương trình bằng GroupDocs.Metadata cho .NET.
-type: docs
 weight: 21
 url: /vi/net/audio-metadata/update-lyrics-tag-mp3/
 ---

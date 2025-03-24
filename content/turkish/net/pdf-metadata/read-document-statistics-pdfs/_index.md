@@ -3,7 +3,6 @@ title: .NET'teki PDF'lerden Belge İstatistiklerini Okuyun
 linktitle: .NET'teki PDF'lerden Belge İstatistiklerini Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak PDF belge istatistiklerini nasıl çıkaracağınızı öğrenin. Belge yönetimi yeteneklerinizi zahmetsizce geliştirin.
-type: docs
 weight: 12
 url: /tr/net/pdf-metadata/read-document-statistics-pdfs/
 ---
@@ -52,7 +51,7 @@ Bu öğreticide, PDF dosyalarından belge istatistiklerini okumak için GroupDoc
 ### GroupDocs.Metadata, PDF dışındaki diğer belge formatlarını işleyebilir mi?
 Evet, GroupDocs.Metadata, Microsoft Office (Word, Excel, PowerPoint), PDF, resimler, ses, video ve çok daha fazlasını içeren çok çeşitli belge formatlarını destekler.
 ### GroupDocs.Metadata for .NET'e ilişkin ayrıntılı belgeleri nerede bulabilirim?
- Şuraya başvurabilirsiniz:[dokümantasyon](https://reference.groupdocs.com/metadata/net/) kapsamlı kılavuzlar, API referansları ve kod örnekleri için.
+ Şuraya başvurabilirsiniz:[dokümantasyon](https://tutorials.groupdocs.com/metadata/net/) kapsamlı kılavuzlar, API referansları ve kod örnekleri için.
 ### GroupDocs.Metadata ticari kullanıma uygun mu?
  GroupDocs.Metadata kesinlikle ticari lisanslar sunar ve bunları satın alabilirsiniz.[Burada](https://purchase.groupdocs.com/buy).
 ### GroupDocs.Metadata'yı satın almadan önce deneyebilir miyim?

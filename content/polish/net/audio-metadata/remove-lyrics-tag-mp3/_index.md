@@ -3,7 +3,6 @@ title: Usuń znacznik tekstu z plików MP3 w .NET
 linktitle: Usuń znacznik tekstu z plików MP3 w .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak usunąć znaczniki tekstów z plików MP3 przy użyciu GroupDocs.Metadata dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie manipulować metadanymi.
-type: docs
 weight: 18
 url: /pl/net/audio-metadata/remove-lyrics-tag-mp3/
 ---

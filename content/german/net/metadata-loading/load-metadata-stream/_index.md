@@ -3,7 +3,6 @@ title: Laden von Metadaten aus Stream im .NET-Tutorial
 linktitle: Laden von Metadaten aus Stream im .NET-Tutorial
 second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie Dateimetadaten in .NET mit GroupDocs.Metadata verwalten. Schritt-für-Schritt-Anleitung zum Laden, Bearbeiten und Entfernen von Metadaten aus Streams.
-type: docs
 weight: 11
 url: /de/net/metadata-loading/load-metadata-stream/
 ---
@@ -63,7 +62,7 @@ In diesem Tutorial haben wir die Grundlagen des Ladens von Metadaten aus einem S
 ### F: Wie kann ich eine temporäre Lizenz für GroupDocs.Metadata erhalten?
  A: Sie können eine temporäre Lizenz erwerben bei[Hier](https://purchase.groupdocs.com/temporary-license/).
 ### F: Wo finde ich eine umfassende Dokumentation zu GroupDocs.Metadata?
- A: Detaillierte Dokumentation erkunden[Hier](https://reference.groupdocs.com/metadata/net/).
+ A: Detaillierte Dokumentation erkunden[Hier](https://tutorials.groupdocs.com/metadata/net/).
 ### F: Gibt es eine kostenlose Testversion für GroupDocs.Metadata?
  A: Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.groupdocs.com/).
 ### F: Wie kann ich Unterstützung für GroupDocs.Metadata erhalten?

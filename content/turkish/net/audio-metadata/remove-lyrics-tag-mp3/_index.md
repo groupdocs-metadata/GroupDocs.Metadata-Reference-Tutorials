@@ -3,7 +3,6 @@ title: .NET'teki MP3 Dosyalarından Şarkı Sözü Etiketini Kaldır
 linktitle: .NET'teki MP3 Dosyalarından Şarkı Sözü Etiketini Kaldır
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak Şarkı Sözü etiketlerini MP3 dosyalarından nasıl kaldıracağınızı öğrenin. Verimli meta veri manipülasyonu için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 18
 url: /tr/net/audio-metadata/remove-lyrics-tag-mp3/
 ---

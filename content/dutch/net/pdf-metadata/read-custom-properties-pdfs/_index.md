@@ -3,7 +3,6 @@ title: Lees aangepaste eigenschappen uit PDF's in .NET
 linktitle: Lees aangepaste eigenschappen uit PDF's in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u aangepaste eigenschappen uit PDF's kunt extraheren met GroupDocs.Metadata voor .NET. Duik in het beheer van documentmetagegevens met C#.
-type: docs
 weight: 11
 url: /nl/net/pdf-metadata/read-custom-properties-pdfs/
 ---
@@ -54,7 +53,7 @@ Ja, met GroupDocs.Metadata kunt u aangepaste eigenschappen aan verschillende doc
 ### Ondersteunt GroupDocs.Metadata naast PDF ook andere bestandsformaten?
 Ja, GroupDocs.Metadata ondersteunt een breed scala aan bestandsindelingen, waaronder Word-documenten, Excel-spreadsheets, PowerPoint-presentaties, afbeeldingen en meer.
 ### Waar kan ik verdere documentatie en ondersteuning voor GroupDocs.Metadata vinden?
- Verwijs naar de[documentatie](https://reference.groupdocs.com/metadata/net/) voor uitgebreide informatie. Voor aanvullende ondersteuning kunt u terecht op de[GroupDocs.Metadata-forum](https://forum.groupdocs.com/c/metadata/14).
+ Verwijs naar de[documentatie](https://tutorials.groupdocs.com/metadata/net/) voor uitgebreide informatie. Voor aanvullende ondersteuning kunt u terecht op de[GroupDocs.Metadata-forum](https://forum.groupdocs.com/c/metadata/14).
 ### Is er een gratis proefversie beschikbaar voor GroupDocs.Metadata?
  Ja, je kunt een[gratis proefperiode](https://releases.groupdocs.com/) om de functies van GroupDocs.Metadata te verkennen.
 ### Hoe kan ik een licentie voor GroupDocs.Metadata aanschaffen?

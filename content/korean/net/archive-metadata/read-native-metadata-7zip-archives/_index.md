@@ -3,7 +3,6 @@ title: .NET의 7Zip 아카이브에서 기본 메타데이터 속성 읽기
 linktitle: .NET의 7Zip 아카이브에서 기본 메타데이터 속성 읽기
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 7Zip 아카이브에서 기본 메타데이터 속성을 읽는 방법을 알아보세요. .NET 애플리케이션의 데이터 관리 기능을 강화하세요.
-type: docs
 weight: 11
 url: /ko/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
@@ -64,7 +63,7 @@ foreach (var file in root.SevenZipPackage.Files)
 ### GroupDocs.Metadata는 RAR 또는 TAR과 같은 다른 아카이브 형식과 호환됩니까?
 예, GroupDocs.Metadata는 RAR, TAR, ZIP 등 다양한 아카이브 형식을 지원합니다.
 ### .NET용 GroupDocs.Metadata에 대한 자세한 설명서는 어디서 찾을 수 있나요?
- 문서에 액세스할 수 있습니다.[여기](https://reference.groupdocs.com/metadata/net/).
+ 문서에 액세스할 수 있습니다.[여기](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata에 대한 임시 라이센스를 얻으려면 어떻게 해야 합니까?
  임시면허를 취득할 수 있습니다.[여기](https://purchase.groupdocs.com/temporary-license/).
 ### GroupDocs.Metadata는 문제 해결 및 문의에 대한 지원을 제공합니까?

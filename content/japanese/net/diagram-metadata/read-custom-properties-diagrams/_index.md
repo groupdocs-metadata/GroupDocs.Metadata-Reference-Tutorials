@@ -3,7 +3,6 @@ title: .NET の図からカスタム プロパティを読み取る
 linktitle: .NET の図からカスタム プロパティを読み取る
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata を使用して .NET のダイアグラム ファイルからカスタム プロパティを抽出する方法を学びます。開発者向けの簡単なステップバイステップ ガイド。
-type: docs
 weight: 11
 url: /ja/net/diagram-metadata/read-custom-properties-diagrams/
 ---
@@ -60,6 +59,6 @@ foreach (var property in customProperties)
 ### GroupDocs.Metadata は大規模なドキュメント処理に適していますか?
 はい、GroupDocs.Metadata は大量のドキュメントを効率的に処理できるように設計されています。
 ### GroupDocs.Metadata の追加サポートやドキュメントはどこで入手できますか?
-訪問[GroupDocs.Metadata フォーラム](https://forum.groupdocs.com/c/metadata/14)サポートと探索[ドキュメンテーション](https://reference.groupdocs.com/metadata/net/)詳細な API リファレンスについては、こちらをご覧ください。
+訪問[GroupDocs.Metadata フォーラム](https://forum.groupdocs.com/c/metadata/14)サポートと探索[ドキュメンテーション](https://tutorials.groupdocs.com/metadata/net/)詳細な API リファレンスについては、こちらをご覧ください。
 ### 購入前に GroupDocs.Metadata を無料で試すことはできますか?
 はい、無料試用版をダウンロードできます[ここ](https://releases.groupdocs.com/).

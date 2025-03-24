@@ -3,7 +3,6 @@ title: Cập nhật các thuộc tính tích hợp trong tài liệu quản lý 
 linktitle: Cập nhật các thuộc tính tích hợp trong tài liệu quản lý dự án .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật siêu dữ liệu trong tài liệu quản lý dự án .NET bằng GroupDocs.Metadata cho .NET. Tăng cường quản lý tài liệu một cách hiệu quả.
-type: docs
 weight: 12
 url: /vi/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
@@ -57,7 +56,7 @@ Có, GroupDocs.Metadata hỗ trợ các định dạng quản lý dự án phổ
 ### Tôi có thể thao tác các thuộc tính siêu dữ liệu khác ngoài các chi tiết tài liệu tích hợp không?
 Tuyệt đối! GroupDocs.Metadata cung cấp các khả năng mở rộng để quản lý siêu dữ liệu trên nhiều loại tệp.
 ### Tôi có thể tìm tài liệu và hỗ trợ bổ sung cho GroupDocs.Metadata ở đâu?
- Tham quan[Tài liệu GroupDocs.Metadata](https://reference.groupdocs.com/metadata/net/) để biết thông tin chi tiết. Đối với các truy vấn cụ thể, hãy tương tác với cộng đồng tại[diễn đàn GroupDocs](https://forum.groupdocs.com/c/metadata/14).
+ Tham quan[Tài liệu GroupDocs.Metadata](https://tutorials.groupdocs.com/metadata/net/) để biết thông tin chi tiết. Đối với các truy vấn cụ thể, hãy tương tác với cộng đồng tại[diễn đàn GroupDocs](https://forum.groupdocs.com/c/metadata/14).
 ### Có bản dùng thử miễn phí nào để kiểm tra GroupDocs.Metadata không?
  Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.groupdocs.com/).
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho GroupDocs.Metadata?

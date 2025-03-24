@@ -3,7 +3,6 @@ title: .NET을 사용하여 스프레드시트의 사용자 정의 속성 업데
 linktitle: .NET을 사용하여 스프레드시트의 사용자 정의 속성 업데이트
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 스프레드시트에서 사용자 정의 속성을 업데이트하는 방법을 알아보세요. 이 튜토리얼은 메타데이터 관리 기술을 효과적으로 향상시킵니다.
-type: docs
 weight: 15
 url: /ko/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---

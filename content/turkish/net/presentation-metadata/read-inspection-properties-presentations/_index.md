@@ -3,7 +3,6 @@ title: .NET'teki Sunumlardan Denetim Özelliklerini Okuyun
 linktitle: .NET'teki Sunumlardan Denetim Özelliklerini Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak sunum meta verilerini nasıl çıkaracağınızı öğrenin. Yorumlara, gizli slaytlara ve daha fazlasına programlı bir şekilde erişin.
-type: docs
 weight: 14
 url: /tr/net/presentation-metadata/read-inspection-properties-presentations/
 ---
@@ -64,7 +63,7 @@ C: GroupDocs.Metadata for .NET, geliştiricilerin çeşitli belge formatlarında
 ### S: GroupDocs.Metadata için nasıl geçici lisans alabilirim?
  C: Şu adresten geçici bir lisans alabilirsiniz:[Burada](https://purchase.groupdocs.com/temporary-license/).
 ### S: GroupDocs.Metadata for .NET belgelerini nerede bulabilirim?
- C: Belgelere başvurabilirsiniz[Burada](https://reference.groupdocs.com/metadata/net/).
+ C: Belgelere başvurabilirsiniz[Burada](https://tutorials.groupdocs.com/metadata/net/).
 ### S: GroupDocs.Metadata desteğini nasıl alabilirim?
  C: Destek ve tartışmalar için GroupDocs.Metadata forumunu ziyaret edin.[Burada](https://forum.groupdocs.com/c/metadata/14).
 ### S: GroupDocs.Metadata for .NET'in ücretsiz deneme sürümünü indirebilir miyim?

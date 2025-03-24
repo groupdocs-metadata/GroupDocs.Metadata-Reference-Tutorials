@@ -3,7 +3,6 @@ title: Lees Native Metadata-eigenschappen uit ZIP-archieven in .NET
 linktitle: Lees Native Metadata-eigenschappen uit ZIP-archieven in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u metagegevens uit ZIP-archieven kunt extraheren met GroupDocs.Metadata voor .NET. Ontdek stapsgewijze instructies voor het lezen van native eigenschappen.
-type: docs
 weight: 13
 url: /nl/net/archive-metadata/read-native-metadata-zip-archives/
 ---
@@ -67,7 +66,7 @@ GroupDocs.Metadata voor .NET is een krachtige bibliotheek waarmee ontwikkelaars 
 ### Hoe kan ik een tijdelijke licentie krijgen voor GroupDocs.Metadata?
  Een tijdelijke licentie kunt u verkrijgen bij[hier](https://purchase.groupdocs.com/temporary-license/).
 ### Waar kan ik de volledige documentatie voor GroupDocs.Metadata voor .NET vinden?
- De documentatie is toegankelijk[hier](https://reference.groupdocs.com/metadata/net/).
+ De documentatie is toegankelijk[hier](https://tutorials.groupdocs.com/metadata/net/).
 ### Kan ik GroupDocs.Metadata voor .NET gratis uitproberen?
  Ja, u kunt een gratis proefversie downloaden[hier](https://releases.groupdocs.com/).
 ### Hoe kan ik ondersteuning krijgen of vragen stellen over GroupDocs.Metadata voor .NET?

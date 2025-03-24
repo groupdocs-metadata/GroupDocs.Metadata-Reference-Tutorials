@@ -3,7 +3,6 @@ title: Olvassa el az egyéni tulajdonságokat a .NET bemutatóiból
 linktitle: Olvassa el az egyéni tulajdonságokat a .NET bemutatóiból
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan olvashat egyéni tulajdonságokat a .NET prezentációiból a GroupDocs.Metadata használatával. Hatékonyan hozzáférhet a metaadatokhoz és visszakeresheti azokat.
-type: docs
 weight: 11
 url: /hu/net/presentation-metadata/read-custom-properties-presentations/
 ---

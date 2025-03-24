@@ -3,7 +3,6 @@ title: .NET'teki Elektronik Tablolardan Dosya Formatı Özelliklerini Okuyun
 linktitle: .NET'teki Elektronik Tablolardan Dosya Formatı Özelliklerini Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak elektronik tablo dosya formatı özelliklerini nasıl okuyacağınızı öğrenin. Basit API çağrılarıyla dosya biçimine, MIME türüne ve daha fazlasına erişin.
-type: docs
 weight: 12
 url: /tr/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
@@ -55,7 +54,7 @@ Bu öğreticide, elektronik tablo belgelerinden temel dosya formatı özellikler
 
 ## SSS'ler
 ### GroupDocs.Metadata for .NET tüm elektronik tablo formatlarıyla uyumlu mu?
- GroupDocs.Metadata for .NET, XLSX, XLS, CSV ve daha fazlası dahil olmak üzere çok çeşitli elektronik tablo formatlarını destekler. Bakın[dokümantasyon](https://reference.groupdocs.com/metadata/net/) Desteklenen formatların kapsamlı bir listesi için.
+ GroupDocs.Metadata for .NET, XLSX, XLS, CSV ve daha fazlası dahil olmak üzere çok çeşitli elektronik tablo formatlarını destekler. Bakın[dokümantasyon](https://tutorials.groupdocs.com/metadata/net/) Desteklenen formatların kapsamlı bir listesi için.
 ### GroupDocs.Metadata for .NET'i kullanarak meta veri özelliklerini düzenleyebilir miyim?
 Evet, GroupDocs.Metadata for .NET, çeşitli dosya biçimleriyle ilişkili meta veri özelliklerinin yalnızca okunmasına değil, düzenlenmesine de olanak tanır.
 ### Test amaçlı geçici lisansı nasıl alabilirim?

@@ -3,7 +3,6 @@ title: 閱讀 .NET 專案管理文件中的自訂屬性
 linktitle: 閱讀 .NET 專案管理文件中的自訂屬性
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 從 .NET 專案管理文件中擷取自訂屬性。增強元資料管理。
-type: docs
 weight: 11
 url: /zh-hant/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
@@ -58,7 +57,7 @@ GroupDocs.Metadata 支援多種專案管理格式，包括 Microsoft Project (MP
 ### 使用 GroupDocs.Metadata for .NET 是否需要許可證？
 是的，商業用途需要許可證。您可以從以下地址取得臨時許可證[這裡](https://purchase.groupdocs.com/temporary-license/).
 ### 如何存取 GroupDocs.Metadata 的更多文件？
-瀏覽詳細文檔[參考頁](https://reference.groupdocs.com/metadata/net/).
+瀏覽詳細文檔[參考頁](https://tutorials.groupdocs.com/metadata/net/).
 ### 在哪裡可以獲得 GroupDocs.Metadata 相關查詢的支援？
 加入社群：[GroupDocs 元資料論壇](https://forum.groupdocs.com/c/metadata/14)以尋求支持和討論。
 ### 我可以在購買前免費試用 GroupDocs.Metadata 嗎？

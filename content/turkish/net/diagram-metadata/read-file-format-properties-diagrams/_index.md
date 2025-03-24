@@ -3,7 +3,6 @@ title: .NET'teki Diyagramlardan Dosya Formatı Özelliklerini Okuyun
 linktitle: .NET'teki Diyagramlardan Dosya Formatı Özelliklerini Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata'yı kullanarak .NET'teki diyagramlardan dosya formatı özelliklerini nasıl okuyacağınızı öğrenin. Ayrıntılı meta verileri zahmetsizce çıkarın.
-type: docs
 weight: 13
 url: /tr/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
@@ -49,7 +48,7 @@ Evet, GroupDocs.Metadata for .NET, yazar ayrıntıları, oluşturulma tarihi, ka
 ### GroupDocs.Metadata for .NET'in deneme sürümü mevcut mu?
  Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.groupdocs.com/).
 ### GroupDocs.Metadata for .NET'e ilişkin ayrıntılı belgeleri nerede bulabilirim?
- Belgelere bakın[Burada](https://reference.groupdocs.com/metadata/net/).
+ Belgelere bakın[Burada](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata for .NET lisansını nasıl satın alabilirim?
  adresinden lisans satın alabilirsiniz.[Burada](https://purchase.groupdocs.com/buy).
 ### GroupDocs.Metadata for .NET ile ilgili teknik desteği nereden alabilirim veya soru sorabilirim?

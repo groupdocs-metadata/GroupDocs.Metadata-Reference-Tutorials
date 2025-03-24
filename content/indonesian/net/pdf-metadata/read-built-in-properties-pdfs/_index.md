@@ -3,7 +3,6 @@ title: Baca Properti Bawaan dari PDF di .NET
 linktitle: Baca Properti Bawaan dari PDF di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara membaca metadata PDF di .NET menggunakan GroupDocs.Metadata. Akses nama penulis, tanggal pembuatan, subjek, dan lainnya dengan kode C#.
-type: docs
 weight: 10
 url: /id/net/pdf-metadata/read-built-in-properties-pdfs/
 ---

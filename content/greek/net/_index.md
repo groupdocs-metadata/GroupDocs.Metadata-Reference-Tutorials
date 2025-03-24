@@ -1,7 +1,6 @@
 ---
 title: Οδηγοί εκμάθησης και παραδείγματα GroupDocs.Metadata για .NET
 linktitle: GroupDocs.Metadata για .NET Tutorials
-type: docs
 weight: 10
 url: /el/net/
 description: Διαχειριστείτε εύκολα τα μεταδεδομένα αρχείων στο .NET με το GroupDocs.Metadata. Μάθετε τεχνικές φόρτωσης, επεξεργασίας και πολλά άλλα για βελτιωμένες δυνατότητες χειρισμού αρχείων.

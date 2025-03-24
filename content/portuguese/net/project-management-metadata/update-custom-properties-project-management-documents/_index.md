@@ -3,7 +3,6 @@ title: Atualizar propriedades personalizadas em documentos de gerenciamento de p
 linktitle: Atualizar propriedades personalizadas em documentos de gerenciamento de projetos .NET
 second_title: API GroupDocs.Metadata .NET
 description: Saiba como atualizar propriedades personalizadas em documentos de gerenciamento de projetos .NET usando GroupDocs.Metadata for .NET. Aprimore o gerenciamento de metadados em seus aplicativos.
-type: docs
 weight: 13
 url: /pt/net/project-management-metadata/update-custom-properties-project-management-documents/
 ---

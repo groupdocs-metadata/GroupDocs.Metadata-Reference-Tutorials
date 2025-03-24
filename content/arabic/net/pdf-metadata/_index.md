@@ -3,7 +3,6 @@ title: البيانات الوصفية لقوات الدفاع الشعبي
 linktitle: البيانات الوصفية لقوات الدفاع الشعبي
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية إدارة بيانات تعريف PDF بسهولة باستخدام GroupDocs.Metadata لبرامج .NET التعليمية. الوصول إلى الخصائص المضمنة والمخصصة باستخدام كود C#.
-type: docs
 weight: 24
 url: /ar/net/pdf-metadata/
 ---

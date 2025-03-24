@@ -3,7 +3,6 @@ title: Чтение свойств формата файла из электро
 linktitle: Чтение свойств формата файла из электронных таблиц в .NET
 second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как читать свойства формата файла электронной таблицы с помощью GroupDocs.Metadata для .NET. Получите доступ к формату файла, типу MIME и многому другому с помощью простых вызовов API.
-type: docs
 weight: 12
 url: /ru/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
@@ -55,7 +54,7 @@ Console.WriteLine(root.FileType.Extension);
 
 ## Часто задаваемые вопросы
 ### Совместимы ли GroupDocs.Metadata для .NET со всеми типами форматов электронных таблиц?
- GroupDocs.Metadata для .NET поддерживает широкий спектр форматов электронных таблиц, включая XLSX, XLS, CSV и другие. Обратитесь к[документация](https://reference.groupdocs.com/metadata/net/) полный список поддерживаемых форматов.
+ GroupDocs.Metadata для .NET поддерживает широкий спектр форматов электронных таблиц, включая XLSX, XLS, CSV и другие. Обратитесь к[документация](https://tutorials.groupdocs.com/metadata/net/) полный список поддерживаемых форматов.
 ### Могу ли я редактировать свойства метаданных с помощью GroupDocs.Metadata для .NET?
 Да, GroupDocs.Metadata для .NET позволяет не только читать, но и редактировать свойства метаданных, связанные с различными форматами файлов.
 ### Как я могу получить временную лицензию для целей тестирования?

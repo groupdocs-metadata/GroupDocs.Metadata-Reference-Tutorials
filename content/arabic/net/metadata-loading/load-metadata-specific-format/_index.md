@@ -3,7 +3,6 @@ title: تحميل بيانات التعريف من تنسيق محدد في .NET
 linktitle: تحميل بيانات التعريف من تنسيق محدد في .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية تحميل بيانات التعريف من تنسيقات ملفات محددة باستخدام GroupDocs.Metadata لـ .NET في هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 12
 url: /ar/net/metadata-loading/load-metadata-specific-format/
 ---
@@ -55,7 +54,7 @@ using (Metadata metadata = new Metadata("Your Input File", loadOptions))
 ### ما أهمية إدارة البيانات الوصفية؟
 تعد إدارة البيانات الوصفية أمرًا بالغ الأهمية لتنظيم وفهم المحتوى الرقمي، وتسهيل إمكانية البحث وقابلية التشغيل البيني.
 ### أين يمكنني العثور على الوثائق التفصيلية لـ GroupDocs.Metadata لـ .NET؟
- يمكنك الوصول إلى الوثائق[هنا](https://reference.groupdocs.com/metadata/net/).
+ يمكنك الوصول إلى الوثائق[هنا](https://tutorials.groupdocs.com/metadata/net/).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ GroupDocs.Metadata لـ .NET؟
  يزور[هذا الرابط](https://purchase.groupdocs.com/temporary-license/) للحصول على ترخيص مؤقت.
 ### أين يمكنني الحصول على الدعم أو طرح الأسئلة حول GroupDocs.Metadata لـ .NET؟

@@ -3,7 +3,6 @@ title: Frissítse a PDF-fájlok beépített tulajdonságait .NET használatával
 linktitle: Frissítse a PDF-fájlok beépített tulajdonságait .NET használatával
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan frissítheti a PDF-dokumentum tulajdonságait C# és GroupDocs.Metadata for .NET használatával. Módosítsa a szerzőt, a címet, a kulcsszavakat és egyebeket programozottan.
-type: docs
 weight: 15
 url: /hu/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
@@ -72,7 +71,7 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan használhatjuk a GroupDocs.Metad
 ### K: Mi az a GroupDocs.Metadata for .NET?
 V: A GroupDocs.Metadata for .NET egy olyan könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan olvassanak, szerkesszenek, távolítsanak el és kezeljenek metaadatokat különböző dokumentumformátumokban.
 ### K: Hol találom a GroupDocs.Metadata for .NET dokumentációját?
- V: Hozzáférhet a dokumentációhoz[itt](https://reference.groupdocs.com/metadata/net/).
+ V: Hozzáférhet a dokumentációhoz[itt](https://tutorials.groupdocs.com/metadata/net/).
 ### K: Hogyan tölthetem le a GroupDocs.Metadata-t .NET-hez?
  V: A GroupDocs.Metadata for .NET innen tölthető le[ez a link](https://releases.groupdocs.com/metadata/net/).
 ### K: Van ingyenes próbaverzió?

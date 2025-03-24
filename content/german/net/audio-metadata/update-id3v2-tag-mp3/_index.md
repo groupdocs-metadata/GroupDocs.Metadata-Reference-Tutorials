@@ -3,7 +3,6 @@ title: Aktualisieren Sie den ID3V2-Tag in MP3-Dateien mit .NET
 linktitle: Aktualisieren Sie den ID3V2-Tag in MP3-Dateien mit .NET
 second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie mit .NET und GroupDocs.Metadata ID3V2-Tags in MP3-Dateien für eine effiziente Dateiverwaltung aktualisieren.
-type: docs
 weight: 20
 url: /de/net/audio-metadata/update-id3v2-tag-mp3/
 ---
@@ -67,7 +66,7 @@ In diesem Tutorial haben wir erläutert, wie Sie ID3V2-Tags in MP3-Dateien mithi
 ### Kann ich GroupDocs.Metadata kostenlos nutzen?
  Ja, Sie können eine kostenlose Testversion erhalten von[Hier](https://releases.groupdocs.com/).
 ### Wo finde ich die GroupDocs.Metadata-Dokumentation?
- Die Dokumentation ist verfügbar[Hier](https://reference.groupdocs.com/metadata/net/).
+ Die Dokumentation ist verfügbar[Hier](https://tutorials.groupdocs.com/metadata/net/).
 ### Wie kann ich eine Lizenz für GroupDocs.Metadata erwerben?
  Sie können eine Lizenz erwerben[Hier](https://purchase.groupdocs.com/buy).
 ### Gibt es ein Supportforum für GroupDocs.Metadata?

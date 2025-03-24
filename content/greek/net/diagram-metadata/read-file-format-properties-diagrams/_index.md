@@ -3,7 +3,6 @@ title: Διαβάστε τις ιδιότητες μορφής αρχείου α
 linktitle: Διαβάστε τις ιδιότητες μορφής αρχείου από τα διαγράμματα στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να διαβάζετε ιδιότητες μορφής αρχείου από διαγράμματα στο .NET χρησιμοποιώντας GroupDocs.Metadata. Εξάγετε λεπτομερή μεταδεδομένα χωρίς κόπο.
-type: docs
 weight: 13
 url: /el/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
@@ -49,7 +48,7 @@ using (Metadata metadata = new Metadata("Your Input File"))
 ### Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το GroupDocs.Metadata για .NET;
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής από[εδώ](https://releases.groupdocs.com/).
 ### Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το GroupDocs.Metadata για .NET;
- Ανατρέξτε στην τεκμηρίωση[εδώ](https://reference.groupdocs.com/metadata/net/).
+ Ανατρέξτε στην τεκμηρίωση[εδώ](https://tutorials.groupdocs.com/metadata/net/).
 ### Πώς μπορώ να αγοράσω άδεια χρήσης για το GroupDocs.Metadata για .NET;
  Μπορείτε να αγοράσετε άδεια από[εδώ](https://purchase.groupdocs.com/buy).
 ### Πού μπορώ να αναζητήσω τεχνική υποστήριξη ή να κάνω ερωτήσεις σχετικά με το GroupDocs.Metadata για .NET;

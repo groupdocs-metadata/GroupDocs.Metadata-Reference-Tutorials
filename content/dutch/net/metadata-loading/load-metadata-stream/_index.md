@@ -3,7 +3,6 @@ title: Metagegevens uit Stream laden in .NET-zelfstudie
 linktitle: Metagegevens uit Stream laden in .NET-zelfstudie
 second_title: GroupDocs.Metadata .NET API
 description: Leer bestandsmetagegevens beheren in .NET met GroupDocs.Metadata. Stapsgewijze handleiding voor het laden, bewerken en verwijderen van metadata uit streams.
-type: docs
 weight: 11
 url: /nl/net/metadata-loading/load-metadata-stream/
 ---
@@ -63,7 +62,7 @@ In deze zelfstudie hebben we de basisbeginselen besproken van het laden van meta
 ### Vraag: Hoe kan ik een tijdelijke licentie verkrijgen voor GroupDocs.Metadata?
  A: U kunt een tijdelijke licentie verkrijgen bij[hier](https://purchase.groupdocs.com/temporary-license/).
 ### Vraag: Waar kan ik uitgebreide documentatie voor GroupDocs.Metadata vinden?
- A: Ontdek gedetailleerde documentatie[hier](https://reference.groupdocs.com/metadata/net/).
+ A: Ontdek gedetailleerde documentatie[hier](https://tutorials.groupdocs.com/metadata/net/).
 ### Vraag: Is er een gratis proefversie beschikbaar voor GroupDocs.Metadata?
  A: Ja, u heeft toegang tot een gratis proefperiode[hier](https://releases.groupdocs.com/).
 ### Vraag: Hoe kan ik ondersteuning krijgen voor GroupDocs.Metadata?

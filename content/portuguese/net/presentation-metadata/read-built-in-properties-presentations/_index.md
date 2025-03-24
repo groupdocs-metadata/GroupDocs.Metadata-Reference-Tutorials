@@ -3,7 +3,6 @@ title: Leia propriedades integradas de apresentações em .NET
 linktitle: Leia propriedades integradas de apresentações em .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda como extrair propriedades integradas de apresentações usando GroupDocs.Metadata for .NET neste tutorial abrangente.
-type: docs
 weight: 10
 url: /pt/net/presentation-metadata/read-built-in-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Sim, GroupDocs.Metadata for .NET oferece suporte a vários formatos de apresenta
 ### Posso modificar ou atualizar metadados usando GroupDocs.Metadata for .NET?
 Com certeza, você pode modificar, atualizar e remover propriedades de metadados usando esta biblioteca.
 ### Onde posso encontrar documentação detalhada para GroupDocs.Metadata for .NET?
- Você pode consultar a documentação[aqui](https://reference.groupdocs.com/metadata/net/) para obter informações abrangentes.
+ Você pode consultar a documentação[aqui](https://tutorials.groupdocs.com/metadata/net/) para obter informações abrangentes.
 ### Como posso obter uma licença temporária do GroupDocs.Metadata for .NET?
  Você pode adquirir uma licença temporária[aqui](https://purchase.groupdocs.com/temporary-license/) para fins de avaliação.
 ### Onde posso procurar assistência ou fazer perguntas relacionadas ao GroupDocs.Metadata for .NET?

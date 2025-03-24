@@ -3,7 +3,6 @@ title: Метаданные презентации
 linktitle: Метаданные презентации
 second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как эффективно управлять метаданными презентации в .NET, используя учебные пособия GroupDocs.Metadata. С легкостью получайте доступ к встроенным и настраиваемым свойствам.
-type: docs
 weight: 25
 url: /ru/net/presentation-metadata/
 ---

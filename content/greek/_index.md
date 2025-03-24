@@ -3,7 +3,6 @@ title: Ξεκλείδωμα της κυριαρχίας μεταδεδομένω
 linktitle: GroupDocs.Tutorials μεταδεδομένων
 additionalTitle: Αναφορές API GroupDocs
 description: Ανακαλύψτε ολοκληρωμένα σεμινάρια για το GroupDocs.Metadata σε όλες τις πλατφόρμες. Κατακτήστε τη διαχείριση μεταδεδομένων σε .NET και Java χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/
 is_root: true

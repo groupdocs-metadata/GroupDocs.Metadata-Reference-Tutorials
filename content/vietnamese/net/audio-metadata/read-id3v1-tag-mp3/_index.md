@@ -3,7 +3,6 @@ title: Đọc thẻ ID3V1 từ tệp MP3 trong .NET
 linktitle: Đọc thẻ ID3V1 từ tệp MP3 trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách đọc thẻ ID3V1 từ tệp MP3 bằng GroupDocs.Metadata cho .NET. Hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 11
 url: /vi/net/audio-metadata/read-id3v1-tag-mp3/
 ---
@@ -62,6 +61,6 @@ Thẻ ID3V1 là tiêu chuẩn để lưu trữ siêu dữ liệu (chẳng hạn 
 ### Tôi có thể dùng thử GroupDocs.Metadata cho .NET trước khi mua không?
  Có, bạn có thể tải phiên bản dùng thử miễn phí[đây](https://releases.groupdocs.com/).
 ### Tôi có thể tìm tài liệu về GroupDocs.Metadata cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết và tài liệu tham khảo API[đây](https://reference.groupdocs.com/metadata/net/).
+ Bạn có thể tìm thấy tài liệu chi tiết và tài liệu tham khảo API[đây](https://tutorials.groupdocs.com/metadata/net/).
 ### Làm cách nào để nhận được hỗ trợ kỹ thuật cho GroupDocs.Metadata?
  Để được hỗ trợ kỹ thuật, hãy truy cập[Diễn đàn GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14).

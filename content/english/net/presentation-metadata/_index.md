@@ -3,7 +3,6 @@ title: Presentation Metadata
 linktitle: Presentation Metadata
 second_title: GroupDocs.Metadata .NET API
 description: Learn how to efficiently manage presentation metadata in .NET using GroupDocs.Metadata tutorials. Access built-in and custom properties with ease.
-type: docs
 weight: 25
 url: /net/presentation-metadata/
 ---

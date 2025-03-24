@@ -3,7 +3,6 @@ title: Frissítse a dalszövegcímkét az MP3-fájlokban a .NET használatával
 linktitle: Frissítse a dalszövegcímkét az MP3-fájlokban a .NET használatával
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan frissítheti az MP3-fájlok metaadatait, beleértve a dalszövegeket, az előadókat és az albumadatokat, programozottan a GroupDocs.Metadata for .NET segítségével.
-type: docs
 weight: 21
 url: /hu/net/audio-metadata/update-lyrics-tag-mp3/
 ---

@@ -3,7 +3,6 @@ title: Przeczytaj właściwości inspekcji z prezentacji w .NET
 linktitle: Przeczytaj właściwości inspekcji z prezentacji w .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak wyodrębnić metadane prezentacji przy użyciu GroupDocs.Metadata dla platformy .NET. Uzyskaj programowy dostęp do komentarzy, ukrytych slajdów i nie tylko.
-type: docs
 weight: 14
 url: /pl/net/presentation-metadata/read-inspection-properties-presentations/
 ---
@@ -64,7 +63,7 @@ O: GroupDocs.Metadata dla .NET to interfejs API, który umożliwia programistom 
 ### P: Jak mogę uzyskać tymczasową licencję na GroupDocs.Metadata?
  Odpowiedź: Możesz nabyć licencję tymczasową od[Tutaj](https://purchase.groupdocs.com/temporary-license/).
 ### P: Gdzie mogę znaleźć dokumentację GroupDocs.Metadata dla .NET?
- Odpowiedź: Możesz zapoznać się z dokumentacją[Tutaj](https://reference.groupdocs.com/metadata/net/).
+ Odpowiedź: Możesz zapoznać się z dokumentacją[Tutaj](https://tutorials.groupdocs.com/metadata/net/).
 ### P: Jak uzyskać pomoc dotyczącą GroupDocs.Metadata?
  O: Aby uzyskać wsparcie i dyskusje, odwiedź forum GroupDocs.Metadata[Tutaj](https://forum.groupdocs.com/c/metadata/14).
 ### P: Czy mogę pobrać bezpłatną wersję próbną GroupDocs.Metadata dla .NET?

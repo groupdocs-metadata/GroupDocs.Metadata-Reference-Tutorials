@@ -1,7 +1,6 @@
 ---
 title: Handledningar och exempel på GroupDocs.Metadata för .NET
 linktitle: GroupDocs.Metadata för .NET självstudier
-type: docs
 weight: 10
 url: /sv/net/
 description: Hantera filmetadata enkelt i .NET med GroupDocs.Metadata. Lär dig laddningstekniker, redigering och mer för förbättrade filmanipuleringsmöjligheter.

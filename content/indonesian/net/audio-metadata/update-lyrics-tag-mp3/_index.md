@@ -3,7 +3,6 @@ title: Perbarui Tag Lirik dalam File MP3 menggunakan .NET
 linktitle: Perbarui Tag Lirik dalam File MP3 menggunakan .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara memperbarui metadata file MP3, termasuk lirik, artis, dan detail album secara terprogram menggunakan GroupDocs.Metadata untuk .NET.
-type: docs
 weight: 21
 url: /id/net/audio-metadata/update-lyrics-tag-mp3/
 ---

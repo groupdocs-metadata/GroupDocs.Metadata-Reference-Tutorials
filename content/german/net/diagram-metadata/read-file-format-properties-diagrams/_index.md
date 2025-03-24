@@ -3,7 +3,6 @@ title: Lesen Sie Dateiformateigenschaften aus Diagrammen in .NET
 linktitle: Lesen Sie Dateiformateigenschaften aus Diagrammen in .NET
 second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie mithilfe von GroupDocs.Metadata Dateiformateigenschaften aus Diagrammen in .NET lesen. Extrahieren Sie mühelos detaillierte Metadaten.
-type: docs
 weight: 13
 url: /de/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
@@ -49,7 +48,7 @@ Ja, GroupDocs.Metadata für .NET unterstützt die Extraktion und Änderung einer
 ### Gibt es eine Testversion für GroupDocs.Metadata für .NET?
  Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.groupdocs.com/).
 ### Wo finde ich ausführliche Dokumentation für GroupDocs.Metadata für .NET?
- Weitere Informationen finden Sie in der Dokumentation[Hier](https://reference.groupdocs.com/metadata/net/).
+ Weitere Informationen finden Sie in der Dokumentation[Hier](https://tutorials.groupdocs.com/metadata/net/).
 ### Wie kann ich eine Lizenz für GroupDocs.Metadata für .NET erwerben?
  Sie können eine Lizenz kaufen bei[Hier](https://purchase.groupdocs.com/buy).
 ### Wo kann ich technischen Support erhalten oder Fragen zu GroupDocs.Metadata für .NET stellen?

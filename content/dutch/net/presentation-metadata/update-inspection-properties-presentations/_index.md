@@ -3,7 +3,6 @@ title: Update inspectie-eigenschappen in presentaties met .NET
 linktitle: Update inspectie-eigenschappen in presentaties met .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u inspectie-eigenschappen in presentaties kunt bijwerken met behulp van .NET met GroupDocs.Metadata. Eenvoudige, efficiënte manipulatie van metagegevens voor .PPTX-bestanden.
-type: docs
 weight: 17
 url: /nl/net/presentation-metadata/update-inspection-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Ja, GroupDocs.Metadata ondersteunt een breed scala aan bestandsindelingen, waaro
 ### Kan ik metadata-eigenschappen uit bestanden ophalen met GroupDocs.Metadata?
 Absoluut, GroupDocs.Metadata stelt ontwikkelaars in staat om metadata-eigenschappen programmatisch te extraheren en analyseren.
 ### Waar kan ik gedetailleerde documentatie voor GroupDocs.Metadata vinden?
- Verwijs naar de[documentatie](https://reference.groupdocs.com/metadata/net/) voor uitgebreide richtlijnen voor het gebruik van GroupDocs.Metadata voor .NET.
+ Verwijs naar de[documentatie](https://tutorials.groupdocs.com/metadata/net/) voor uitgebreide richtlijnen voor het gebruik van GroupDocs.Metadata voor .NET.
 ### Biedt GroupDocs.Metadata een gratis proefperiode?
  Ja, u heeft toegang tot a[gratis proefperiode](https://releases.groupdocs.com/) van GroupDocs.Metadata om de functies ervan te verkennen.
 ### Hoe kan ik ondersteuning krijgen voor GroupDocs.Metadata?

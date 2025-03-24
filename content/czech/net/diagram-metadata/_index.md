@@ -3,7 +3,6 @@ title: Metadata diagramu
 linktitle: Metadata diagramu
 second_title: GroupDocs.Metadata .NET API
 description: Objevte komplexní výukové programy pro správu metadat diagramů pomocí GroupDocs.Metadata pro .NET. Extrahujte, aktualizujte a analyzujte vlastnosti bez námahy.
-type: docs
 weight: 23
 url: /cs/net/diagram-metadata/
 ---

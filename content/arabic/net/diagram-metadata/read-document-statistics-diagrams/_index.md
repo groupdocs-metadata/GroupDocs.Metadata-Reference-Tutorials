@@ -3,7 +3,6 @@ title: اقرأ إحصائيات المستند من الرسوم التخطيط
 linktitle: اقرأ إحصائيات المستند من الرسوم التخطيطية في .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج إحصائيات المستندات من الرسوم التخطيطية في .NET باستخدام GroupDocs.Metadata، وهي مكتبة قوية لمعالجة بيانات التعريف.
-type: docs
 weight: 12
 url: /ar/net/diagram-metadata/read-document-statistics-diagrams/
 ---
@@ -53,7 +52,7 @@ Console.WriteLine(root.DocumentStatistics.PageCount);
 ### هل يمكنني استخدام GroupDocs.Metadata لـ .NET مع تنسيقات ملفات أخرى إلى جانب المخططات؟
 نعم، يدعم GroupDocs.Metadata تنسيقات الملفات المختلفة بما في ذلك الصور والمستندات والعروض التقديمية وجداول البيانات والمزيد.
 ### أين يمكنني العثور على الوثائق التفصيلية لـ GroupDocs.Metadata لـ .NET؟
- يمكنك الرجوع إلى[توثيق](https://reference.groupdocs.com/metadata/net/) للحصول على إرشادات شاملة.
+ يمكنك الرجوع إلى[توثيق](https://tutorials.groupdocs.com/metadata/net/) للحصول على إرشادات شاملة.
 ### هل هناك نسخة تجريبية مجانية متاحة لـ GroupDocs.Metadata لـ .NET؟
  نعم يمكنك الوصول إلى[تجربة مجانية](https://releases.groupdocs.com/) لاستكشاف ميزات GroupDocs.Metadata.
 ### كيف يمكنني الحصول على الدعم الفني لـ GroupDocs.Metadata لـ .NET؟

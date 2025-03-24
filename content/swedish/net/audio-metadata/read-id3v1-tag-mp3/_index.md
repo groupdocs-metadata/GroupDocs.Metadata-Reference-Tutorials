@@ -3,7 +3,6 @@ title: Läs ID3V1-taggen från MP3-filer i .NET
 linktitle: Läs ID3V1-taggen från MP3-filer i .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du läser ID3V1-taggar från MP3-filer med GroupDocs.Metadata for .NET. Steg-för-steg handledning med kodexempel.
-type: docs
 weight: 11
 url: /sv/net/audio-metadata/read-id3v1-tag-mp3/
 ---
@@ -62,6 +61,6 @@ ID3V1-taggen är en standard för att lagra metadata (som album, artist, titel, 
 ### Kan jag prova GroupDocs.Metadata för .NET innan jag köper?
  Ja, du kan få en gratis testversion[här](https://releases.groupdocs.com/).
 ### Var kan jag hitta dokumentation för GroupDocs.Metadata for .NET?
- Du kan hitta detaljerad dokumentation och API-referenser[här](https://reference.groupdocs.com/metadata/net/).
+ Du kan hitta detaljerad dokumentation och API-referenser[här](https://tutorials.groupdocs.com/metadata/net/).
 ### Hur får jag teknisk support för GroupDocs.Metadata?
  För teknisk support, besök[GroupDocs.Metadata-forum](https://forum.groupdocs.com/c/metadata/14).

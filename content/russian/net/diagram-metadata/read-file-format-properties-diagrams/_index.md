@@ -3,7 +3,6 @@ title: Чтение свойств формата файла из диаграм
 linktitle: Чтение свойств формата файла из диаграмм в .NET
 second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как читать свойства формата файла из диаграмм в .NET с помощью GroupDocs.Metadata. Извлекайте подробные метаданные без особых усилий.
-type: docs
 weight: 13
 url: /ru/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
@@ -49,7 +48,7 @@ using (Metadata metadata = new Metadata("Your Input File"))
 ### Доступна ли пробная версия GroupDocs.Metadata для .NET?
  Да, вы можете загрузить бесплатную пробную версию с сайта[здесь](https://releases.groupdocs.com/).
 ### Где я могу найти подробную документацию по GroupDocs.Metadata для .NET?
- Обратитесь к документации[здесь](https://reference.groupdocs.com/metadata/net/).
+ Обратитесь к документации[здесь](https://tutorials.groupdocs.com/metadata/net/).
 ### Как приобрести лицензию на GroupDocs.Metadata для .NET?
  Вы можете купить лицензию у[здесь](https://purchase.groupdocs.com/buy).
 ### Где я могу обратиться за технической поддержкой или задать вопросы, связанные с GroupDocs.Metadata для .NET?

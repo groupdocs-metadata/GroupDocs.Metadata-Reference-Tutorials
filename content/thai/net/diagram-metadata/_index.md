@@ -3,7 +3,6 @@ title: ข้อมูลเมตาของไดอะแกรม
 linktitle: ข้อมูลเมตาของไดอะแกรม
 second_title: GroupDocs.Metadata .NET API
 description: ค้นพบบทช่วยสอนที่ครอบคลุมเกี่ยวกับการจัดการข้อมูลเมตาของไดอะแกรมด้วย GroupDocs.Metadata สำหรับ .NET แยก อัปเดต และวิเคราะห์คุณสมบัติได้อย่างง่ายดาย
-type: docs
 weight: 23
 url: /th/net/diagram-metadata/
 ---

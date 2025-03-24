@@ -3,7 +3,6 @@ title: قم بتحديث الخصائص المضمنة في ملفات PDF با�
 linktitle: قم بتحديث الخصائص المضمنة في ملفات PDF باستخدام .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية تحديث خصائص مستند PDF باستخدام C# وGroupDocs.Metadata لـ .NET. قم بتعديل المؤلف والعنوان والكلمات الرئيسية والمزيد برمجياً.
-type: docs
 weight: 15
 url: /ar/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
@@ -72,7 +71,7 @@ using (Metadata metadata = new Metadata("Your Output File Path"))
 ### س: ما هي بيانات GroupDocs.Metadata لـ .NET؟
 ج: GroupDocs.Metadata for .NET هي مكتبة تتيح للمطورين قراءة بيانات التعريف وتحريرها وإزالتها ومعالجتها في تنسيقات المستندات المختلفة برمجيًا.
 ### س: أين يمكنني العثور على وثائق GroupDocs.Metadata لـ .NET؟
- ج: يمكنك الوصول إلى الوثائق[هنا](https://reference.groupdocs.com/metadata/net/).
+ ج: يمكنك الوصول إلى الوثائق[هنا](https://tutorials.groupdocs.com/metadata/net/).
 ### س: كيف يمكنني تنزيل GroupDocs.Metadata لـ .NET؟
  ج: يمكنك تنزيل GroupDocs.Metadata لـ .NET من[هذا الرابط](https://releases.groupdocs.com/metadata/net/).
 ### س: هل هناك نسخة تجريبية مجانية متاحة؟

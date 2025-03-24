@@ -3,7 +3,6 @@ title: Aktualisieren Sie benutzerdefinierte Eigenschaften in Diagrammen mit .NET
 linktitle: Aktualisieren Sie benutzerdefinierte Eigenschaften in Diagrammen mit .NET
 second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie benutzerdefinierte Eigenschaften in Diagrammen mithilfe von .NET mit GroupDocs.Metadata für .NET aktualisieren. Verbessern Sie Metadaten ganz einfach.
-type: docs
 weight: 15
 url: /de/net/diagram-metadata/update-custom-properties-diagrams/
 ---

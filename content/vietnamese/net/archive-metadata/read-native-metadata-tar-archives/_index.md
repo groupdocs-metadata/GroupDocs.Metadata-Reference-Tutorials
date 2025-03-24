@@ -3,7 +3,6 @@ title: Đọc thuộc tính siêu dữ liệu gốc từ kho lưu trữ TAR tron
 linktitle: Đọc thuộc tính siêu dữ liệu gốc từ kho lưu trữ TAR trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất siêu dữ liệu từ kho lưu trữ TAR trong .NET bằng GroupDocs.Metadata. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình theo từng bước.
-type: docs
 weight: 12
 url: /vi/net/archive-metadata/read-native-metadata-tar-archives/
 ---

@@ -3,7 +3,6 @@ title: .NET을 사용하여 PDF의 내장 속성 업데이트
 linktitle: .NET을 사용하여 PDF의 내장 속성 업데이트
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 C# 및 GroupDocs.Metadata를 사용하여 PDF 문서 속성을 업데이트하는 방법을 알아보세요. 저자, 제목, 키워드 등을 프로그래밍 방식으로 수정합니다.
-type: docs
 weight: 15
 url: /ko/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
@@ -72,7 +71,7 @@ using (Metadata metadata = new Metadata("Your Output File Path"))
 ### Q: .NET용 GroupDocs.Metadata란 무엇입니까?
 A: .NET용 GroupDocs.Metadata는 개발자가 프로그래밍 방식으로 다양한 문서 형식의 메타데이터를 읽고, 편집하고, 제거하고, 조작할 수 있는 라이브러리입니다.
 ### Q: .NET용 GroupDocs.Metadata 설명서는 어디에서 찾을 수 있습니까?
- A: 문서에 액세스할 수 있습니다.[여기](https://reference.groupdocs.com/metadata/net/).
+ A: 문서에 액세스할 수 있습니다.[여기](https://tutorials.groupdocs.com/metadata/net/).
 ### Q: .NET용 GroupDocs.Metadata를 어떻게 다운로드할 수 있나요?
  A: 다음에서 .NET용 GroupDocs.Metadata를 다운로드할 수 있습니다.[이 링크](https://releases.groupdocs.com/metadata/net/).
 ### Q: 무료 평가판이 제공됩니까?

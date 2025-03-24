@@ -3,7 +3,6 @@ title: 從 .NET 簡報中讀取文檔統計訊息
 linktitle: 從 .NET 簡報中讀取文檔統計訊息
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata 從 .NET 簡報中讀取文件統計信息，以實現高效的元資料管理。
-type: docs
 weight: 12
 url: /zh-hant/net/presentation-metadata/read-document-statistics-presentations/
 ---

@@ -3,7 +3,6 @@ title: Cập nhật các thuộc tính tích hợp trong tệp PDF bằng .NET
 linktitle: Cập nhật các thuộc tính tích hợp trong tệp PDF bằng .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật thuộc tính tài liệu PDF bằng C# và GroupDocs.Metadata cho .NET. Sửa đổi tác giả, tiêu đề, từ khóa, v.v. theo chương trình.
-type: docs
 weight: 15
 url: /vi/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
@@ -72,7 +71,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách tận dụng GroupD
 ### Câu hỏi: GroupDocs.Metadata dành cho .NET là gì?
 Trả lời: GroupDocs.Metadata cho .NET là thư viện cho phép các nhà phát triển đọc, chỉnh sửa, xóa và thao tác siêu dữ liệu ở các định dạng tài liệu khác nhau theo chương trình.
 ### Câu hỏi: Tôi có thể tìm tài liệu về GroupDocs.Metadata cho .NET ở đâu?
- A: Bạn có thể truy cập tài liệu[đây](https://reference.groupdocs.com/metadata/net/).
+ A: Bạn có thể truy cập tài liệu[đây](https://tutorials.groupdocs.com/metadata/net/).
 ### Câu hỏi: Làm cách nào tôi có thể tải xuống GroupDocs.Metadata cho .NET?
  Đáp: Bạn có thể tải xuống GroupDocs.Metadata cho .NET từ[liên kết này](https://releases.groupdocs.com/metadata/net/).
 ### Hỏi: Có bản dùng thử miễn phí không?

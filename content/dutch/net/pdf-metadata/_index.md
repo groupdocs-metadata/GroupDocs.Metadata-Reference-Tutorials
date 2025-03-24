@@ -3,7 +3,6 @@ title: PDF-metagegevens
 linktitle: PDF-metagegevens
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u moeiteloos PDF-metadata kunt beheren met GroupDocs.Metadata voor .NET-tutorials. Krijg toegang tot ingebouwde en aangepaste eigenschappen met C#-code.
-type: docs
 weight: 24
 url: /nl/net/pdf-metadata/
 ---

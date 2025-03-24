@@ -3,7 +3,6 @@ title: .NET kullanarak Elektronik Tablolardaki Özel Özellikleri Güncelleme
 linktitle: .NET kullanarak Elektronik Tablolardaki Özel Özellikleri Güncelleme
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak e-tablolardaki özel özelliklerin nasıl güncelleştirileceğini keşfedin. Bu eğitim, meta veri yönetimi becerilerinizi etkili bir şekilde geliştirir.
-type: docs
 weight: 15
 url: /tr/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---

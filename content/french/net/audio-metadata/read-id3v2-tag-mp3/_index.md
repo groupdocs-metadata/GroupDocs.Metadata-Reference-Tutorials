@@ -3,7 +3,6 @@ title: Lire la balise ID3V2 à partir de fichiers MP3 dans .NET
 linktitle: Lire la balise ID3V2 à partir de fichiers MP3 dans .NET
 second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment extraire les balises ID3V2 de fichiers MP3 à l'aide de GroupDocs.Metadata pour .NET. Accédez à l'album, à l'artiste et bien plus encore par programmation.
-type: docs
 weight: 12
 url: /fr/net/audio-metadata/read-id3v2-tag-mp3/
 ---

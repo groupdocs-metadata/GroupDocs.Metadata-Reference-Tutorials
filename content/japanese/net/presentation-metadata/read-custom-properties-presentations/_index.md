@@ -3,7 +3,6 @@ title: .NET のプレゼンテーションからカスタム プロパティを�
 linktitle: .NET のプレゼンテーションからカスタム プロパティを読み取る
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata を使用して .NET のプレゼンテーションからカスタム プロパティを読み取る方法を学習します。メタデータに効率的にアクセスして取得します。
-type: docs
 weight: 11
 url: /ja/net/presentation-metadata/read-custom-properties-presentations/
 ---

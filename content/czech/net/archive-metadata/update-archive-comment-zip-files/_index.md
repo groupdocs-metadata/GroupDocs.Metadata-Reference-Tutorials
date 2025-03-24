@@ -3,7 +3,6 @@ title: Aktualizujte archivní komentář v souborech ZIP pomocí .NET
 linktitle: Aktualizujte archivní komentář v souborech ZIP pomocí .NET
 second_title: GroupDocs.Metadata .NET API
 description: Přečtěte si, jak aktualizovat archivní komentáře v souborech ZIP pomocí GroupDocs.Metadata pro .NET. Vylepšete správu metadat v aplikacích C# bez námahy.
-type: docs
 weight: 15
 url: /cs/net/archive-metadata/update-archive-comment-zip-files/
 ---
@@ -55,4 +54,4 @@ Ano, knihovna je kompatibilní s prostředím .NET Framework i .NET Core.
 ### Nabízí GroupDocs.Metadata podporu pro vývojáře?
  Ano, podporu a zdroje pro vývojáře najdete na[fórum GroupDocs](https://forum.groupdocs.com/c/metadata/14).
 ### Kde najdu komplexní dokumentaci k GroupDocs.Metadata pro .NET?
- Dokumentace je k dispozici[tady](https://reference.groupdocs.com/metadata/net/).
+ Dokumentace je k dispozici[tady](https://tutorials.groupdocs.com/metadata/net/).

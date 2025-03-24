@@ -3,7 +3,6 @@ title: Αρχείο Μεταδεδομένων
 linktitle: Αρχείο Μεταδεδομένων
 second_title: GroupDocs.Metadata .NET API
 description: Εξερευνήστε μαθήματα για την εξαγωγή και τη διαχείριση ιδιοτήτων μεταδεδομένων από διάφορες μορφές αρχειοθέτησης όπως RAR, 7Zip, TAR και ZIP χρησιμοποιώντας το GroupDocs.Metadata για .NET.
-type: docs
 weight: 21
 url: /el/net/archive-metadata/
 ---

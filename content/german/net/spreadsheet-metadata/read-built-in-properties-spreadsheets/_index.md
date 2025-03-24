@@ -3,7 +3,6 @@ title: Integrierte Eigenschaften aus Tabellenkalkulationen in .NET lesen
 linktitle: Integrierte Eigenschaften aus Tabellenkalkulationen in .NET lesen
 second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie mit GroupDocs.Metadata Metadaten aus Tabellenkalkulationen in .NET extrahieren und so die Dokumentenverwaltung und -organisation in Ihren Anwendungen verbessern.
-type: docs
 weight: 10
 url: /de/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Ja, GroupDocs.Metadata unterstützt eine Vielzahl von Dateiformaten, darunter Ta
 ### Kann ich Metadaten mit GroupDocs.Metadata für .NET ändern?
 Ja, Sie können Metadaten mit dieser API nicht nur lesen, sondern auch bearbeiten, aktualisieren und entfernen.
 ### Wo finde ich ausführliche Dokumentation für GroupDocs.Metadata für .NET?
- Eine ausführliche Dokumentation finden Sie unter[GroupDocs.Metadata für .NET-Dokumentation](https://reference.groupdocs.com/metadata/net/).
+ Eine ausführliche Dokumentation finden Sie unter[GroupDocs.Metadata für .NET-Dokumentation](https://tutorials.groupdocs.com/metadata/net/).
 ### Wie kann ich eine temporäre Lizenz zu Testzwecken erhalten?
  Eine temporäre Lizenz können Sie bei anfordern[Hier](https://purchase.groupdocs.com/temporary-license/).
 ### Gibt es ein Community-Forum für GroupDocs.Metadata-Unterstützung?

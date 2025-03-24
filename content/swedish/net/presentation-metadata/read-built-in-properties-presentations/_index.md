@@ -3,7 +3,6 @@ title: Läs inbyggda egenskaper från presentationer i .NET
 linktitle: Läs inbyggda egenskaper från presentationer i .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du extraherar inbyggda egenskaper från presentationer med GroupDocs.Metadata för .NET i den här omfattande självstudien.
-type: docs
 weight: 10
 url: /sv/net/presentation-metadata/read-built-in-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Ja, GroupDocs.Metadata för .NET stöder olika presentationsformat som PPTX, PPT
 ### Kan jag ändra eller uppdatera metadata med GroupDocs.Metadata för .NET?
 Absolut, du kan ändra, uppdatera och ta bort metadataegenskaper med detta bibliotek.
 ### Var kan jag hitta detaljerad dokumentation för GroupDocs.Metadata for .NET?
- Du kan hänvisa till dokumentationen[här](https://reference.groupdocs.com/metadata/net/) för omfattande information.
+ Du kan hänvisa till dokumentationen[här](https://tutorials.groupdocs.com/metadata/net/) för omfattande information.
 ### Hur kan jag få en tillfällig licens för GroupDocs.Metadata for .NET?
  Du kan skaffa en tillfällig licens[här](https://purchase.groupdocs.com/temporary-license/) i utvärderingssyfte.
 ### Var kan jag söka hjälp eller ställa frågor relaterade till GroupDocs.Metadata for .NET?

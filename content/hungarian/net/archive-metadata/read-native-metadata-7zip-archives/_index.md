@@ -3,7 +3,6 @@ title: Olvassa el a natív metaadatok tulajdonságait a 7Zip archívumból a .NE
 linktitle: Olvassa el a natív metaadatok tulajdonságait a 7Zip archívumból a .NET-ben
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan olvashat natív metaadat-tulajdonságokat a 7Zip archívumból a GroupDocs.Metadata for .NET használatával. Bővítse .NET-alkalmazásának adatkezelési képességeit.
-type: docs
 weight: 11
 url: /hu/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
@@ -64,7 +63,7 @@ Igen, a GroupDocs.Metadata robusztus lehetőségeket biztosít metaadat-tulajdon
 ### Kompatibilis a GroupDocs.Metadata más archív formátumokkal, például RAR vagy TAR?
 Igen, a GroupDocs.Metadata az archívumformátumok széles skáláját támogatja, többek között a RAR-t, a TAR-t és a ZIP-t.
 ### Hol találom a GroupDocs.Metadata for .NET részletes dokumentációját?
- Hozzáférhet a dokumentációhoz[itt](https://reference.groupdocs.com/metadata/net/).
+ Hozzáférhet a dokumentációhoz[itt](https://tutorials.groupdocs.com/metadata/net/).
 ### Hogyan szerezhetek ideiglenes licencet a GroupDocs.Metadata számára?
  Ideiglenes jogosítványt szerezhet[itt](https://purchase.groupdocs.com/temporary-license/).
 ### A GroupDocs.Metadata támogatást nyújt a hibaelhárításhoz és a kérdésekhez?

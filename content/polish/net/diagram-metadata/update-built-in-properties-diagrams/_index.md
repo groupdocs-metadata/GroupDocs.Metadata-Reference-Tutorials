@@ -3,7 +3,6 @@ title: Zaktualizuj wbudowane właściwości na diagramach przy użyciu platformy
 linktitle: Zaktualizuj wbudowane właściwości na diagramach przy użyciu platformy .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak aktualizować wbudowane właściwości na diagramach przy użyciu GroupDocs.Metadata dla platformy .NET. Bezproblemowo modyfikuj metadane za pomocą przykładów kodu.
-type: docs
 weight: 14
 url: /pl/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
@@ -79,7 +78,7 @@ O: Tak, GroupDocs.Metadata for .NET obsługuje edycję różnych właściwości 
  O: Możesz odwiedzić[Forum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) do pomocy.
 
 ### P: Gdzie mogę znaleźć szczegółową dokumentację GroupDocs.Metadata dla .NET?
- Odp.: Zapoznaj się z kompleksowością[dokumentacja](https://reference.groupdocs.com/metadata/net/) w celu uzyskania szczegółowych wskazówek.
+ Odp.: Zapoznaj się z kompleksowością[dokumentacja](https://tutorials.groupdocs.com/metadata/net/) w celu uzyskania szczegółowych wskazówek.
 
 ### P: Czy mogę kupić tymczasową licencję na krótkotrwałe użytkowanie?
  Odpowiedź: Tak, możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.groupdocs.com/temporary-license/).

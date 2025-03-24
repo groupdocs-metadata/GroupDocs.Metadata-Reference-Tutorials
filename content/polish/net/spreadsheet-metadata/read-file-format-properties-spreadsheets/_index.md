@@ -3,7 +3,6 @@ title: Przeczytaj właściwości formatu pliku z arkuszy kalkulacyjnych w .NET
 linktitle: Przeczytaj właściwości formatu pliku z arkuszy kalkulacyjnych w .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak czytać właściwości formatu pliku arkusza kalkulacyjnego przy użyciu GroupDocs.Metadata dla .NET. Uzyskaj dostęp do formatu pliku, typu MIME i nie tylko za pomocą prostych wywołań API.
-type: docs
 weight: 12
 url: /pl/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
@@ -55,7 +54,7 @@ W tym samouczku omówiliśmy, jak używać GroupDocs.Metadata dla platformy .NET
 
 ## Często zadawane pytania
 ### Czy GroupDocs.Metadata for .NET jest kompatybilny ze wszystkimi typami formatów arkuszy kalkulacyjnych?
- GroupDocs.Metadata for .NET obsługuje szeroką gamę formatów arkuszy kalkulacyjnych, w tym XLSX, XLS, CSV i inne. Patrz[dokumentacja](https://reference.groupdocs.com/metadata/net/) aby uzyskać pełną listę obsługiwanych formatów.
+ GroupDocs.Metadata for .NET obsługuje szeroką gamę formatów arkuszy kalkulacyjnych, w tym XLSX, XLS, CSV i inne. Patrz[dokumentacja](https://tutorials.groupdocs.com/metadata/net/) aby uzyskać pełną listę obsługiwanych formatów.
 ### Czy mogę edytować właściwości metadanych przy użyciu GroupDocs.Metadata for .NET?
 Tak, GroupDocs.Metadata for .NET pozwala nie tylko czytać, ale także edytować właściwości metadanych powiązanych z różnymi formatami plików.
 ### Jak mogę uzyskać tymczasową licencję do celów testowych?

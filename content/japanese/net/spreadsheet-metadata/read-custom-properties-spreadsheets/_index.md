@@ -3,7 +3,6 @@ title: .NET のスプレッドシートからカスタム プロパティを読�
 linktitle: .NET のスプレッドシートからカスタム プロパティを読み取る
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用してスプレッドシートからカスタム プロパティを抽出する方法を学習します。.NET アプリケーションでのメタデータ操作を強化します。
-type: docs
 weight: 11
 url: /ja/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---

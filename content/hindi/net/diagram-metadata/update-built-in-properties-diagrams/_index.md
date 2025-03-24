@@ -3,7 +3,6 @@ title: .NET का उपयोग करके आरेखों में अ
 linktitle: .NET का उपयोग करके आरेखों में अंतर्निहित गुण अपडेट करें
 second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके आरेखों में अंतर्निहित गुणों को अपडेट करना सीखें। कोड उदाहरणों के साथ मेटाडेटा को सहजता से संशोधित करें।
-type: docs
 weight: 14
 url: /hi/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
@@ -79,7 +78,7 @@ metadata.Save("Your Input File");
  उत्तर: आप यहां जा सकते हैं[GroupDocs.Metadata फ़ोरम](https://forum.groupdocs.com/c/metadata/14) सहायता के लिए।
 
 ### प्रश्न: मुझे .NET के लिए GroupDocs.Metadata के लिए विस्तृत दस्तावेज़ कहां मिल सकते हैं?
- ए: व्यापक का संदर्भ लें[प्रलेखन](https://reference.groupdocs.com/metadata/net/) गहन मार्गदर्शन के लिए.
+ ए: व्यापक का संदर्भ लें[प्रलेखन](https://tutorials.groupdocs.com/metadata/net/) गहन मार्गदर्शन के लिए.
 
 ### प्रश्न: क्या मैं अल्पकालिक उपयोग के लिए अस्थायी लाइसेंस खरीद सकता हूँ?
  उत्तर: हां, आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.groupdocs.com/temporary-license/).

@@ -3,7 +3,6 @@ title: قراءة إحصائيات المستندات من ملفات PDF في .
 linktitle: قراءة إحصائيات المستندات من ملفات PDF في .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج إحصائيات مستند PDF باستخدام GroupDocs.Metadata لـ .NET. تعزيز قدرات إدارة المستندات الخاصة بك دون عناء.
-type: docs
 weight: 12
 url: /ar/net/pdf-metadata/read-document-statistics-pdfs/
 ---
@@ -52,7 +51,7 @@ Console.WriteLine("Word Count: " + root.DocumentStatistics.WordCount);
 ### هل يمكن لـ GroupDocs.Metadata التعامل مع تنسيقات المستندات الأخرى بخلاف PDF؟
 نعم، تدعم GroupDocs.Metadata مجموعة واسعة من تنسيقات المستندات بما في ذلك Microsoft Office (Word وExcel وPowerPoint) وPDF والصور والصوت والفيديو وغير ذلك الكثير.
 ### أين يمكنني العثور على الوثائق التفصيلية لـ GroupDocs.Metadata لـ .NET؟
- يمكنك الرجوع إلى[توثيق](https://reference.groupdocs.com/metadata/net/) للحصول على أدلة شاملة ومراجع واجهة برمجة التطبيقات وأمثلة التعليمات البرمجية.
+ يمكنك الرجوع إلى[توثيق](https://tutorials.groupdocs.com/metadata/net/) للحصول على أدلة شاملة ومراجع واجهة برمجة التطبيقات وأمثلة التعليمات البرمجية.
 ### هل GroupDocs.Metadata مناسبة للاستخدام التجاري؟
  بالتأكيد، يقدم GroupDocs.Metadata تراخيص تجارية ويمكنك شراؤها[هنا](https://purchase.groupdocs.com/buy).
 ### هل يمكنني تجربة GroupDocs.Metadata قبل الشراء؟

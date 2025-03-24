@@ -3,7 +3,6 @@ title: .NET Proje Yönetimi Belgelerindeki Yerleşik Özellikleri Okuyun
 linktitle: .NET Proje Yönetimi Belgelerindeki Yerleşik Özellikleri Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak Project Management belgelerinden meta verileri çıkarmayı öğrenin. Belge işleme yeteneklerinizi geliştirin.
-type: docs
 weight: 10
 url: /tr/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---

@@ -3,7 +3,6 @@ title: .NET のプレゼンテーションから検査プロパティを読み�
 linktitle: .NET のプレゼンテーションから検査プロパティを読み取る
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用してプレゼンテーション メタデータを抽出する方法を学びます。コメント、非表示のスライドなどにプログラムでアクセスします。
-type: docs
 weight: 14
 url: /ja/net/presentation-metadata/read-inspection-properties-presentations/
 ---
@@ -64,7 +63,7 @@ A: GroupDocs.Metadata for .NET は、開発者がさまざまなドキュメン�
 ### Q: GroupDocs.Metadata の一時ライセンスを取得するにはどうすればよいですか?
  A: 一時ライセンスは以下から取得できます。[ここ](https://purchase.groupdocs.com/temporary-license/).
 ### Q: GroupDocs.Metadata for .NET のドキュメントはどこにありますか?
- A: ドキュメントを参照してください[ここ](https://reference.groupdocs.com/metadata/net/).
+ A: ドキュメントを参照してください[ここ](https://tutorials.groupdocs.com/metadata/net/).
 ### Q: GroupDocs.Metadata のサポートを受けるにはどうすればよいですか?
  A: サポートとディスカッションについては、GroupDocs.Metadata フォーラムをご覧ください。[ここ](https://forum.groupdocs.com/c/metadata/14).
 ### Q: GroupDocs.Metadata for .NET の無料試用版をダウンロードできますか?

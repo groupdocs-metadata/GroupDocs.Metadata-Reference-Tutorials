@@ -3,7 +3,6 @@ title: Đọc các thuộc tính tích hợp từ bảng tính trong .NET
 linktitle: Đọc các thuộc tính tích hợp từ bảng tính trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất siêu dữ liệu từ bảng tính trong .NET bằng GroupDocs.Metadata, nâng cao khả năng tổ chức và quản lý tài liệu trong ứng dụng của bạn.
-type: docs
 weight: 10
 url: /vi/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Có, GroupDocs.Metadata hỗ trợ nhiều định dạng tệp bao gồm bảng
 ### Tôi có thể sửa đổi siêu dữ liệu bằng GroupDocs.Metadata cho .NET không?
 Có, bạn không chỉ có thể đọc mà còn có thể chỉnh sửa, cập nhật và xóa siêu dữ liệu bằng API này.
 ### Tôi có thể tìm tài liệu chi tiết về GroupDocs.Metadata cho .NET ở đâu?
- Tài liệu chi tiết có sẵn tại[GroupDocs.Metadata cho Tài liệu .NET](https://reference.groupdocs.com/metadata/net/).
+ Tài liệu chi tiết có sẵn tại[GroupDocs.Metadata cho Tài liệu .NET](https://tutorials.groupdocs.com/metadata/net/).
 ### Làm cách nào để có được giấy phép tạm thời cho mục đích thử nghiệm?
  Bạn có thể yêu cầu giấy phép tạm thời từ[đây](https://purchase.groupdocs.com/temporary-license/).
 ### Có diễn đàn cộng đồng nào hỗ trợ GroupDocs.Metadata không?

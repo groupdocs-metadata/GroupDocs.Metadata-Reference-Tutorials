@@ -3,7 +3,6 @@ title: Διαβάστε τις ιδιότητες επιθεώρησης από 
 linktitle: Διαβάστε τις ιδιότητες επιθεώρησης από υπολογιστικά φύλλα στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να διαβάζετε τις ιδιότητες επιθεώρησης από υπολογιστικά φύλλα χρησιμοποιώντας το GroupDocs.Metadata για .NET. Αποκτήστε πρόσβαση σε σχόλια, ψηφιακές υπογραφές και κρυφά φύλλα χωρίς κόπο.
-type: docs
 weight: 13
 url: /el/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---

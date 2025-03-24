@@ -3,7 +3,6 @@ title: Διαβάστε τις ιδιότητες επιθεώρησης από 
 linktitle: Διαβάστε τις ιδιότητες επιθεώρησης από τις παρουσιάσεις στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε μεταδεδομένα παρουσίασης χρησιμοποιώντας το GroupDocs.Metadata για .NET. Πρόσβαση σε σχόλια, κρυφές διαφάνειες και άλλα μέσω προγραμματισμού.
-type: docs
 weight: 14
 url: /el/net/presentation-metadata/read-inspection-properties-presentations/
 ---
@@ -64,7 +63,7 @@ if (root.InspectionPackage.HiddenSlides != null)
 ### Ε: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το GroupDocs.Metadata;
  Α: Μπορείτε να αποκτήσετε μια προσωρινή άδεια από[εδώ](https://purchase.groupdocs.com/temporary-license/).
 ### Ε: Πού μπορώ να βρω τεκμηρίωση για το GroupDocs.Metadata για .NET;
- Α: Μπορείτε να ανατρέξετε στην τεκμηρίωση[εδώ](https://reference.groupdocs.com/metadata/net/).
+ Α: Μπορείτε να ανατρέξετε στην τεκμηρίωση[εδώ](https://tutorials.groupdocs.com/metadata/net/).
 ### Ε: Πώς μπορώ να λάβω υποστήριξη για το GroupDocs.Metadata;
  Α: Για υποστήριξη και συζητήσεις, επισκεφτείτε το φόρουμ GroupDocs.Metadata[εδώ](https://forum.groupdocs.com/c/metadata/14).
 ### Ε: Μπορώ να κατεβάσω μια δωρεάν δοκιμή του GroupDocs.Metadata για .NET;

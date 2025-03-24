@@ -3,7 +3,6 @@ title: Aktualizujte uživatelské vlastnosti v tabulkách pomocí .NET
 linktitle: Aktualizujte uživatelské vlastnosti v tabulkách pomocí .NET
 second_title: GroupDocs.Metadata .NET API
 description: Zjistěte, jak aktualizovat vlastní vlastnosti v tabulkách pomocí GroupDocs.Metadata pro .NET. Tento tutoriál efektivně vylepší vaše dovednosti v oblasti správy metadat.
-type: docs
 weight: 15
 url: /cs/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---

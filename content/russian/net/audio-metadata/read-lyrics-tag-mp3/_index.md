@@ -3,7 +3,6 @@ title: Чтение тега текста из файлов MP3 в .NET
 linktitle: Чтение тега текста из файлов MP3 в .NET
 second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как извлечь теги текстов песен из файлов MP3 с помощью GroupDocs.Metadata для .NET. Следуйте нашему пошаговому руководству.
-type: docs
 weight: 13
 url: /ru/net/audio-metadata/read-lyrics-tag-mp3/
 ---
@@ -62,7 +61,7 @@ using (Metadata metadata = new Metadata("YourInputFile.mp3"))
 ### Поддерживает ли GroupDocs.Metadata другие аудиоформаты, кроме MP3?
 Да, GroupDocs.Metadata поддерживает широкий спектр аудио- и видеоформатов для извлечения и манипулирования метаданными.
 ### Где я могу найти более подробную документацию по GroupDocs.Metadata?
- Вы можете получить доступ к полной документации[здесь](https://reference.groupdocs.com/metadata/net/).
+ Вы можете получить доступ к полной документации[здесь](https://tutorials.groupdocs.com/metadata/net/).
 ### Доступна ли бесплатная пробная версия для GroupDocs.Metadata?
  Да, вы можете получить бесплатную пробную версию[здесь](https://releases.groupdocs.com/).
 ### Как я могу получить техническую поддержку для GroupDocs.Метаданные?

@@ -3,7 +3,6 @@ title: Remover tag de letras de arquivos MP3 em .NET
 linktitle: Remover tag de letras de arquivos MP3 em .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda como remover tags de letras de arquivos MP3 usando GroupDocs.Metadata for .NET. Siga nosso guia passo a passo para manipulação eficiente de metadados.
-type: docs
 weight: 18
 url: /pt/net/audio-metadata/remove-lyrics-tag-mp3/
 ---

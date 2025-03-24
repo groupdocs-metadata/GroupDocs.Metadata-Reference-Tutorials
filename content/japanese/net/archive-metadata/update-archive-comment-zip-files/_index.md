@@ -3,7 +3,6 @@ title: .NET を使用して ZIP ファイル内のアーカイブ コメント�
 linktitle: .NET を使用して ZIP ファイル内のアーカイブ コメントを更新する
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して ZIP ファイル内のアーカイブ コメントを更新する方法を学びます。C# アプリケーションでのメタデータ管理を簡単に強化します。
-type: docs
 weight: 15
 url: /ja/net/archive-metadata/update-archive-comment-zip-files/
 ---
@@ -55,4 +54,4 @@ using (Metadata metadata = new Metadata("YourInputFile.zip"))
 ### GroupDocs.Metadata は開発者向けのサポートを提供していますか?
 はい、開発者向けサポートとリソースは[GroupDocs フォーラム](https://forum.groupdocs.com/c/metadata/14).
 ### GroupDocs.Metadata for .NET の包括的なドキュメントはどこで入手できますか?
-ドキュメントは入手可能です[ここ](https://reference.groupdocs.com/metadata/net/).
+ドキュメントは入手可能です[ここ](https://tutorials.groupdocs.com/metadata/net/).

@@ -3,7 +3,6 @@ title: Aktualizujte vestavěné vlastnosti v .NET Project Management Documents
 linktitle: Aktualizujte vestavěné vlastnosti v .NET Project Management Documents
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se aktualizovat metadata v dokumentech pro řízení projektů .NET pomocí GroupDocs.Metadata pro .NET. Vylepšete efektivnější správu dokumentů.
-type: docs
 weight: 12
 url: /cs/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
@@ -57,7 +56,7 @@ Ano, GroupDocs.Metadata podporuje oblíbené formáty správy projektů, jako js
 ### Mohu manipulovat s dalšími vlastnostmi metadat nad rámec podrobností vestavěných dokumentů?
 Absolutně! GroupDocs.Metadata nabízí rozsáhlé možnosti pro správu metadat napříč širokou škálou typů souborů.
 ### Kde najdu další dokumentaci a podporu pro GroupDocs.Metadata?
- Navštivte[GroupDocs.Metadata dokumentace](https://reference.groupdocs.com/metadata/net/) pro podrobné informace. V případě konkrétních dotazů se obraťte na komunitu na adrese[fórum GroupDocs](https://forum.groupdocs.com/c/metadata/14).
+ Navštivte[GroupDocs.Metadata dokumentace](https://tutorials.groupdocs.com/metadata/net/) pro podrobné informace. V případě konkrétních dotazů se obraťte na komunitu na adrese[fórum GroupDocs](https://forum.groupdocs.com/c/metadata/14).
 ### Je k dispozici bezplatná zkušební verze k testování GroupDocs.Metadata?
  Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.groupdocs.com/).
 ### Jak mohu získat dočasnou licenci pro GroupDocs.Metadata?

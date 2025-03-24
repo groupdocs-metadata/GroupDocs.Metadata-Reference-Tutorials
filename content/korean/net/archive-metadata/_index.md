@@ -3,7 +3,6 @@ title: 아카이브 메타데이터
 linktitle: 아카이브 메타데이터
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 RAR, 7Zip, TAR, ZIP과 같은 다양한 아카이브 형식에서 메타데이터 속성을 추출하고 관리하는 방법에 대한 자습서를 살펴보세요.
-type: docs
 weight: 21
 url: /ko/net/archive-metadata/
 ---

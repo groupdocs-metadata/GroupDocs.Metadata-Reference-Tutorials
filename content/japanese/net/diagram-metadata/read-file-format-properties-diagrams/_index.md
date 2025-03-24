@@ -3,7 +3,6 @@ title: .NET のダイアグラムからファイル形式のプロパティを�
 linktitle: .NET のダイアグラムからファイル形式のプロパティを読み取る
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata を使用して .NET のダイアグラムからファイル形式のプロパティを読み取る方法を学習します。詳細なメタデータを簡単に抽出します。
-type: docs
 weight: 13
 url: /ja/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
@@ -49,7 +48,7 @@ using (Metadata metadata = new Metadata("Your Input File"))
 ### GroupDocs.Metadata for .NET の試用版はありますか?
 はい、以下から無料試用版をダウンロードできます。[ここ](https://releases.groupdocs.com/).
 ### GroupDocs.Metadata for .NET の詳細なドキュメントはどこで入手できますか?
-ドキュメントを参照してください[ここ](https://reference.groupdocs.com/metadata/net/).
+ドキュメントを参照してください[ここ](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata for .NET のライセンスを購入するにはどうすればよいですか?
 からライセンスを購入できます[ここ](https://purchase.groupdocs.com/buy).
 ### GroupDocs.Metadata for .NET に関連するテクニカル サポートや質問はどこで受けられますか?

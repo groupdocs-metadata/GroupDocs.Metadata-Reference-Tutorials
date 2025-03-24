@@ -3,7 +3,6 @@ title: Đọc thẻ lời bài hát từ tệp MP3 trong .NET
 linktitle: Đọc thẻ lời bài hát từ tệp MP3 trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất thẻ lời bài hát từ tệp MP3 bằng GroupDocs.Metadata cho .NET. Thực hiện theo hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 13
 url: /vi/net/audio-metadata/read-lyrics-tag-mp3/
 ---
@@ -62,7 +61,7 @@ Có, GroupDocs.Metadata cho phép bạn cập nhật và sửa đổi siêu dữ
 ### GroupDocs.Metadata có hỗ trợ các định dạng âm thanh khác ngoài MP3 không?
 Có, GroupDocs.Metadata hỗ trợ nhiều định dạng âm thanh và video để trích xuất và thao tác siêu dữ liệu.
 ### Tôi có thể tìm tài liệu chi tiết hơn về GroupDocs.Metadata ở đâu?
- Bạn có thể truy cập tài liệu đầy đủ[đây](https://reference.groupdocs.com/metadata/net/).
+ Bạn có thể truy cập tài liệu đầy đủ[đây](https://tutorials.groupdocs.com/metadata/net/).
 ### Có bản dùng thử miễn phí cho GroupDocs.Metadata không?
  Có, bạn có thể tải phiên bản dùng thử miễn phí[đây](https://releases.groupdocs.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ kỹ thuật cho GroupDocs.Metadata?

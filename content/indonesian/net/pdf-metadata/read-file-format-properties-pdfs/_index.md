@@ -3,7 +3,6 @@ title: Baca Properti Format File dari PDF di .NET
 linktitle: Baca Properti Format File dari PDF di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengekstrak properti format file PDF menggunakan GroupDocs.Metadata untuk .NET. Selami manajemen metadata dengan C# sederhana.
-type: docs
 weight: 13
 url: /id/net/pdf-metadata/read-file-format-properties-pdfs/
 ---
@@ -63,7 +62,7 @@ Ya, GroupDocs.Metadata mendukung berbagai format file selain PDF, termasuk DOCX,
 ### Apakah ada versi uji coba yang tersedia untuk GroupDocs.Metadata untuk .NET?
  Ya, Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.groupdocs.com/).
 ### Di mana saya dapat menemukan dokumentasi komprehensif untuk GroupDocs.Metadata?
- Lihat dokumentasi terperinci[Di Sini](https://reference.groupdocs.com/metadata/net/).
+ Lihat dokumentasi terperinci[Di Sini](https://tutorials.groupdocs.com/metadata/net/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk masalah atau pertanyaan apa pun yang terkait dengan GroupDocs.Metadata?
  Anda dapat mencari dukungan dari komunitas GroupDocs.Metadata[forum](https://forum.groupdocs.com/c/metadata/14).
 ### Di mana saya dapat membeli versi berlisensi GroupDocs.Metadata untuk .NET?

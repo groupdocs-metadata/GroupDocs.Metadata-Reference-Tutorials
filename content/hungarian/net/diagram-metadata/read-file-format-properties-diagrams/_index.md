@@ -3,7 +3,6 @@ title: Olvassa el a Fájlformátum tulajdonságait a diagramokból a .NET-ben
 linktitle: Olvassa el a Fájlformátum tulajdonságait a diagramokból a .NET-ben
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan olvashatja ki a fájlformátum-tulajdonságokat diagramokból a .NET-ben a GroupDocs.Metadata használatával. Könnyedén bontsa ki a részletes metaadatokat.
-type: docs
 weight: 13
 url: /hu/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
@@ -49,7 +48,7 @@ Igen, a GroupDocs.Metadata for .NET támogatja a metaadatok széles körének ki
 ### Elérhető a GroupDocs.Metadata for .NET próbaverziója?
  Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.groupdocs.com/).
 ### Hol találom a GroupDocs.Metadata for .NET részletes dokumentációját?
- Lásd a dokumentációt[itt](https://reference.groupdocs.com/metadata/net/).
+ Lásd a dokumentációt[itt](https://tutorials.groupdocs.com/metadata/net/).
 ### Hogyan vásárolhatok licencet a GroupDocs.Metadata for .NET számára?
  Engedélyt vásárolhat innen[itt](https://purchase.groupdocs.com/buy).
 ### Hol kérhetek technikai támogatást, vagy hol tehetek fel kérdéseket a GroupDocs.Metadata for .NET-hez kapcsolódóan?

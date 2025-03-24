@@ -3,7 +3,6 @@ title: Baca Properti Kustom dari PDF di .NET
 linktitle: Baca Properti Kustom dari PDF di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengekstrak properti khusus dari PDF menggunakan GroupDocs.Metadata untuk .NET. Selami manajemen metadata dokumen dengan C#.
-type: docs
 weight: 11
 url: /id/net/pdf-metadata/read-custom-properties-pdfs/
 ---
@@ -54,7 +53,7 @@ Ya, GroupDocs.Metadata memungkinkan Anda mengedit, menghapus, atau menambahkan p
 ### Apakah GroupDocs.Metadata mendukung format file lain selain PDF?
 Ya, GroupDocs.Metadata mendukung berbagai format file termasuk dokumen Word, spreadsheet Excel, presentasi PowerPoint, gambar, dan banyak lagi.
 ### Di mana saya dapat menemukan dokumentasi dan dukungan lebih lanjut untuk GroupDocs.Metadata?
- Mengacu kepada[dokumentasi](https://reference.groupdocs.com/metadata/net/) untuk informasi yang komprehensif. Untuk dukungan tambahan, kunjungi[Forum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14).
+ Mengacu kepada[dokumentasi](https://tutorials.groupdocs.com/metadata/net/) untuk informasi yang komprehensif. Untuk dukungan tambahan, kunjungi[Forum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14).
 ### Apakah ada uji coba gratis yang tersedia untuk GroupDocs.Metadata?
  Ya, Anda bisa mendapatkan[uji coba gratis](https://releases.groupdocs.com/) untuk menjelajahi fitur GroupDocs.Metadata.
 ### Bagaimana cara membeli lisensi untuk GroupDocs.Metadata?

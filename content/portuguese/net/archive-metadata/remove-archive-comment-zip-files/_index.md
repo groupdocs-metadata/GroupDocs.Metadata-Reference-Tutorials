@@ -3,7 +3,6 @@ title: Remover comentários arquivados de arquivos ZIP em .NET
 linktitle: Remover comentários arquivados de arquivos ZIP em .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda a remover comentários de arquivos ZIP usando GroupDocs.Metadata for .NET. Aprimore suas habilidades de gerenciamento de metadados.
-type: docs
 weight: 14
 url: /pt/net/archive-metadata/remove-archive-comment-zip-files/
 ---

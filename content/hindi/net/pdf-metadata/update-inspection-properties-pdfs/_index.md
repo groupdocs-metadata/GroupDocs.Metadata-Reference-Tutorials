@@ -3,7 +3,6 @@ title: .NET का उपयोग करके PDF में निरीक्
 linktitle: .NET का उपयोग करके PDF में निरीक्षण गुण अद्यतन करें
 second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके PDF दस्तावेज़ों में निरीक्षण गुणों को अपडेट करना सीखें। C# के साथ मेटाडेटा और एनोटेशन को कुशलतापूर्वक प्रबंधित करें।
-type: docs
 weight: 17
 url: /hi/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
@@ -67,6 +66,6 @@ metadata.Save("YourInputFile.pdf");
 ### यदि GroupDocs.Metadata का उपयोग करते समय मुझे कोई समस्या आती है तो मैं सहायता कैसे प्राप्त कर सकता हूँ?
  दौरा करना[GroupDocs.Metadata फ़ोरम](https://forum.groupdocs.com/c/metadata/14) सहायता और सामुदायिक समर्थन के लिए।
 ### मैं .NET के लिए GroupDocs.Metadata हेतु विस्तृत दस्तावेज़ कहां पा सकता हूं?
- को देखें[प्रलेखन](https://reference.groupdocs.com/metadata/net/) पुस्तकालय के उपयोग पर व्यापक मार्गदर्शन के लिए।
+ को देखें[प्रलेखन](https://tutorials.groupdocs.com/metadata/net/) पुस्तकालय के उपयोग पर व्यापक मार्गदर्शन के लिए।
 ### क्या मैं परीक्षण प्रयोजनों के लिए अस्थायी लाइसेंस प्राप्त कर सकता हूँ?
  हाँ, आप अनुरोध कर सकते हैं[अस्थायी लाइसेंस](https://purchase.groupdocs.com/temporary-license/) मूल्यांकन प्रयोजनों के लिए.

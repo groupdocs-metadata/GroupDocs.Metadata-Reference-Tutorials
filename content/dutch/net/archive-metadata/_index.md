@@ -3,7 +3,6 @@ title: Metagegevens archiveren
 linktitle: Metagegevens archiveren
 second_title: GroupDocs.Metadata .NET API
 description: Ontdek tutorials over het extraheren en beheren van metadata-eigenschappen uit verschillende archiefformaten zoals RAR, 7Zip, TAR en ZIP met behulp van GroupDocs.Metadata voor .NET.
-type: docs
 weight: 21
 url: /nl/net/archive-metadata/
 ---

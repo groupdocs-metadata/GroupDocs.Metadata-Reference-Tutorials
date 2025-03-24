@@ -3,7 +3,6 @@ title: 从 .NET 中的演示文稿中读取检查属性
 linktitle: 从 .NET 中的演示文稿中读取检查属性
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 提取演示文稿元数据。以编程方式访问评论、隐藏幻灯片等。
-type: docs
 weight: 14
 url: /zh/net/presentation-metadata/read-inspection-properties-presentations/
 ---
@@ -64,7 +63,7 @@ if (root.InspectionPackage.HiddenSlides != null)
 ### 问：如何获得 GroupDocs.Metadata 的临时许可证？
 答：您可以从以下机构获取临时许可证：[这里](https://purchase.groupdocs.com/temporary-license/).
 ### 问：在哪里可以找到有关 .NET 的 GroupDocs.Metadata 的文档？
-答：你可以参考文档[这里](https://reference.groupdocs.com/metadata/net/).
+答：你可以参考文档[这里](https://tutorials.groupdocs.com/metadata/net/).
 ### 问：如何获得 GroupDocs.Metadata 的支持？
 答：如需支持和讨论，请访问 GroupDocs.Metadata 论坛[这里](https://forum.groupdocs.com/c/metadata/14).
 ### 问：我可以下载 GroupDocs.Metadata for .NET 的免费试用版吗？

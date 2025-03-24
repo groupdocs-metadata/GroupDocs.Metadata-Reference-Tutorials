@@ -3,7 +3,6 @@ title: Διαβάστε τις Προσαρμοσμένες Ιδιότητες �
 linktitle: Διαβάστε τις Προσαρμοσμένες Ιδιότητες στα Έγγραφα Διαχείρισης Έργων .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε προσαρμοσμένες ιδιότητες από έγγραφα διαχείρισης έργου .NET χρησιμοποιώντας το GroupDocs.Metadata για .NET. Βελτιώστε τη διαχείριση των μεταδεδομένων σας.
-type: docs
 weight: 11
 url: /el/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
@@ -58,7 +57,7 @@ using (Metadata metadata = new Metadata("YourInputFile"))
 ### Απαιτείται άδεια χρήσης για τη χρήση του GroupDocs.Metadata για .NET;
  Ναι, απαιτείται άδεια για εμπορική χρήση. Μπορείτε να αποκτήσετε προσωρινή άδεια από[εδώ](https://purchase.groupdocs.com/temporary-license/).
 ### Πώς μπορώ να έχω πρόσβαση σε περαιτέρω τεκμηρίωση για το GroupDocs.Metadata;
- Εξερευνήστε λεπτομερή τεκμηρίωση στο[σελίδα αναφοράς](https://reference.groupdocs.com/metadata/net/).
+ Εξερευνήστε λεπτομερή τεκμηρίωση στο[σελίδα αναφοράς](https://tutorials.groupdocs.com/metadata/net/).
 ### Πού μπορώ να λάβω υποστήριξη για ερωτήματα σχετικά με το GroupDocs.Metadata;
  Γίνετε μέλος της κοινότητας στο[Φόρουμ GroupDocs Μεταδεδομένων](https://forum.groupdocs.com/c/metadata/14) για υποστήριξη και συζητήσεις.
 ### Μπορώ να δοκιμάσω το GroupDocs.Metadata δωρεάν πριν το αγοράσω;

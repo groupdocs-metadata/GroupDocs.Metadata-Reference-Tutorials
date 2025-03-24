@@ -3,7 +3,6 @@ title: .NET'teki Diyagramlardan Yerleşik Özellikleri Okuyun
 linktitle: .NET'teki Diyagramlardan Yerleşik Özellikleri Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata'yı kullanarak .NET'teki diyagram dosyalarından meta verileri çıkarmayı öğrenin. Doküman yönetimini ve analizini verimli bir şekilde geliştirin.
-type: docs
 weight: 10
 url: /tr/net/diagram-metadata/read-built-in-properties-diagrams/
 ---

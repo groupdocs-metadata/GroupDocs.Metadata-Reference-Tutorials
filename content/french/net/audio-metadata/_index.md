@@ -3,7 +3,6 @@ title: Métadonnées audio
 linktitle: Métadonnées audio
 second_title: API GroupDocs.Metadata .NET
 description: Découvrez des didacticiels sur la gestion des métadonnées audio avec GroupDocs.Metadata pour .NET. Apprenez à extraire, mettre à jour et supprimer efficacement les balises des fichiers MP3 et WAV.
-type: docs
 weight: 22
 url: /fr/net/audio-metadata/
 ---

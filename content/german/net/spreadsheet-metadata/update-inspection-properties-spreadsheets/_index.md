@@ -3,7 +3,6 @@ title: Aktualisieren Sie Inspektionseigenschaften in Tabellenkalkulationen mit .
 linktitle: Aktualisieren Sie Inspektionseigenschaften in Tabellenkalkulationen mit .NET
 second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie Inspektionseigenschaften in Tabellenkalkulationen mit GroupDocs.Metadata für .NET aktualisieren. Verwalten Sie Kommentare, Unterschriften und ausgeblendete Blätter ganz einfach.
-type: docs
 weight: 16
 url: /de/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ Ja, GroupDocs.Metadata unterstützt verschiedene Tabellenkalkulationsformate, da
 ### Kann ich mit GroupDocs.Metadata andere Metadateneigenschaften ändern?
 Auf jeden Fall. GroupDocs.Metadata ermöglicht Ihnen das Lesen, Aktualisieren, Entfernen und Hinzufügen von Metadateneigenschaften wie Autor, Titel, Erstellungsdatum usw.
 ### Wo finde ich ausführliche Dokumentation für GroupDocs.Metadata für .NET?
- Weitere Informationen finden Sie in der umfassenden[Dokumentation](https://reference.groupdocs.com/metadata/net/) Online verfügbar.
+ Weitere Informationen finden Sie in der umfassenden[Dokumentation](https://tutorials.groupdocs.com/metadata/net/) Online verfügbar.
 ### Gibt es eine kostenlose Testversion für GroupDocs.Metadata für .NET?
  Ja, Sie können auf a zugreifen[Kostenlose Testphase](https://releases.groupdocs.com/) um die API auszuwerten.
 ### Wie erhalte ich technischen Support für GroupDocs.Metadata für .NET?

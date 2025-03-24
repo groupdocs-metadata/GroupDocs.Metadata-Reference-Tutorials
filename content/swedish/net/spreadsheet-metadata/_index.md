@@ -4,7 +4,6 @@ linktitle: Metadata för kalkylblad
 second_title: GroupDocs.Metadata .NET API
 description: Lås upp kraften i GroupDocs.Metadata för .NET med självstudiekurser om att läsa och uppdatera kalkylbladsegenskaper. Öka metadatamanipulation i dina .NET-applikationer.
 
-type: docs
 weight: 27
 url: /sv/net/spreadsheet-metadata/
 ---

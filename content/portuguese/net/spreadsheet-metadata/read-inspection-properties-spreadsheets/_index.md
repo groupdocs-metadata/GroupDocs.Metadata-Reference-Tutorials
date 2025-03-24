@@ -3,7 +3,6 @@ title: Leia as propriedades de inspeção de planilhas em .NET
 linktitle: Leia as propriedades de inspeção de planilhas em .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda a ler propriedades de inspeção em planilhas usando GroupDocs.Metadata for .NET. Acesse comentários, assinaturas digitais e planilhas ocultas sem esforço.
-type: docs
 weight: 13
 url: /pt/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---

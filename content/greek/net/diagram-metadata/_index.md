@@ -3,7 +3,6 @@ title: Διαγράμματα Μεταδεδομένα
 linktitle: Διαγράμματα Μεταδεδομένα
 second_title: GroupDocs.Metadata .NET API
 description: Ανακαλύψτε ολοκληρωμένα σεμινάρια για τη διαχείριση μεταδεδομένων διαγραμμάτων με το GroupDocs.Metadata για .NET. Εξαγωγή, ενημέρωση και ανάλυση ιδιοτήτων χωρίς κόπο.
-type: docs
 weight: 23
 url: /el/net/diagram-metadata/
 ---

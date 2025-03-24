@@ -3,7 +3,6 @@ title: Czytaj wbudowane właściwości z arkuszy kalkulacyjnych w .NET
 linktitle: Czytaj wbudowane właściwości z arkuszy kalkulacyjnych w .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak wyodrębniać metadane z arkuszy kalkulacyjnych w .NET przy użyciu GroupDocs.Metadata, usprawniając zarządzanie dokumentami i organizację w aplikacjach.
-type: docs
 weight: 10
 url: /pl/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Tak, GroupDocs.Metadata obsługuje szeroką gamę formatów plików, w tym arkus
 ### Czy mogę modyfikować metadane przy użyciu GroupDocs.Metadata dla .NET?
 Tak, za pomocą tego interfejsu API możesz nie tylko czytać, ale także edytować, aktualizować i usuwać metadane.
 ### Gdzie mogę znaleźć szczegółową dokumentację GroupDocs.Metadata dla .NET?
- Szczegółowa dokumentacja dostępna jest pod adresem[GroupDocs.Metadata dla dokumentacji .NET](https://reference.groupdocs.com/metadata/net/).
+ Szczegółowa dokumentacja dostępna jest pod adresem[GroupDocs.Metadata dla dokumentacji .NET](https://tutorials.groupdocs.com/metadata/net/).
 ### Jak mogę uzyskać tymczasową licencję do celów testowych?
  Możesz poprosić o licencję tymczasową od[Tutaj](https://purchase.groupdocs.com/temporary-license/).
 ### Czy istnieje forum społecznościowe umożliwiające obsługę GroupDocs.Metadata?

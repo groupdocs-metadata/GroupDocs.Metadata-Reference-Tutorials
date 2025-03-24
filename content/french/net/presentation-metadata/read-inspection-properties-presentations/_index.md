@@ -3,7 +3,6 @@ title: Lire les propriétés d'inspection à partir de présentations dans .NET
 linktitle: Lire les propriétés d'inspection à partir de présentations dans .NET
 second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment extraire des métadonnées de présentation à l’aide de GroupDocs.Metadata pour .NET. Accédez aux commentaires, aux diapositives masquées et bien plus encore par programmation.
-type: docs
 weight: 14
 url: /fr/net/presentation-metadata/read-inspection-properties-presentations/
 ---
@@ -64,7 +63,7 @@ R : GroupDocs.Metadata pour .NET est une API qui permet aux développeurs de li
 ### Q : Comment puis-je obtenir une licence temporaire pour GroupDocs.Metadata ?
  R : Vous pouvez acquérir une licence temporaire auprès de[ici](https://purchase.groupdocs.com/temporary-license/).
 ### Q : Où puis-je trouver la documentation sur GroupDocs.Metadata pour .NET ?
- R : Vous pouvez vous référer à la documentation[ici](https://reference.groupdocs.com/metadata/net/).
+ R : Vous pouvez vous référer à la documentation[ici](https://tutorials.groupdocs.com/metadata/net/).
 ### Q : Comment puis-je obtenir de l'aide pour GroupDocs.Metadata ?
  R : Pour obtenir de l'aide et des discussions, visitez le forum GroupDocs.Metadata[ici](https://forum.groupdocs.com/c/metadata/14).
 ### Q : Puis-je télécharger une version d'essai gratuite de GroupDocs.Metadata pour .NET ?

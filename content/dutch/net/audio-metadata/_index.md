@@ -3,7 +3,6 @@ title: Audio-metagegevens
 linktitle: Audio-metagegevens
 second_title: GroupDocs.Metadata .NET API
 description: Ontdek tutorials over het omgaan met audiometagegevens met GroupDocs.Metadata voor .NET. Leer hoe u tags uit MP3- en WAV-bestanden efficiënt kunt extraheren, bijwerken en verwijderen.
-type: docs
 weight: 22
 url: /nl/net/audio-metadata/
 ---

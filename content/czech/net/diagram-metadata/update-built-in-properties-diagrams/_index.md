@@ -3,7 +3,6 @@ title: Aktualizujte vestavěné vlastnosti v diagramech pomocí .NET
 linktitle: Aktualizujte vestavěné vlastnosti v diagramech pomocí .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se aktualizovat vestavěné vlastnosti v diagramech pomocí GroupDocs.Metadata pro .NET. Bez problémů upravujte metadata pomocí příkladů kódu.
-type: docs
 weight: 14
 url: /cs/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
@@ -15,7 +14,7 @@ tomto tutoriálu prozkoumáme, jak aktualizovat vestavěné vlastnosti v diagram
 Než začnete, ujistěte se, že máte následující:
 
 - Visual Studio: Nainstalované na vašem počítači.
-- GroupDocs.Metadata for .NET: Staženo a přidáno jako reference na váš projekt.
+- GroupDocs.Metadata for .NET: Staženo a přidáno jako tutorials na váš projekt.
 - Základní znalost C#: Pochopení programovacího jazyka C#.
 
 ## Import jmenných prostorů
@@ -79,7 +78,7 @@ Odpověď: Ano, GroupDocs.Metadata for .NET podporuje úpravy různých vlastnos
  A: Můžete navštívit[Fórum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) pro pomoc.
 
 ### Otázka: Kde najdu podrobnou dokumentaci k GroupDocs.Metadata pro .NET?
- Odpověď: Viz souhrn[dokumentace](https://reference.groupdocs.com/metadata/net/) pro hloubkové vedení.
+ Odpověď: Viz souhrn[dokumentace](https://tutorials.groupdocs.com/metadata/net/) pro hloubkové vedení.
 
 ### Otázka: Mohu si zakoupit dočasnou licenci pro krátkodobé použití?
  Odpověď: Ano, můžete získat dočasnou licenci od[tady](https://purchase.groupdocs.com/temporary-license/).

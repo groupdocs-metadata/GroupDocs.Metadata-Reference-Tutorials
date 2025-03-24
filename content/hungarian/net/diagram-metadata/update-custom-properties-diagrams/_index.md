@@ -3,7 +3,6 @@ title: Frissítse az egyéni tulajdonságokat a diagramokban a .NET használatá
 linktitle: Frissítse az egyéni tulajdonságokat a diagramokban a .NET használatával
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan frissítheti az egyéni tulajdonságokat diagramokban a .NET használatával a GroupDocs.Metadata for .NET segítségével. Könnyedén javíthatja a metaadatokat.
-type: docs
 weight: 15
 url: /hu/net/diagram-metadata/update-custom-properties-diagrams/
 ---

@@ -3,7 +3,6 @@ title: Metagegevens laden van de lokale schijf in .NET
 linktitle: Metagegevens laden van de lokale schijf in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Beheer moeiteloos bestandsmetagegevens in .NET-toepassingen met GroupDocs.Metadata voor verbeterde mogelijkheden voor bestandsmanipulatie.
-type: docs
 weight: 10
 url: /nl/net/metadata-loading/load-metadata-local-disk/
 ---
@@ -62,7 +61,7 @@ In deze zelfstudie hebben we onderzocht hoe u GroupDocs.Metadata voor .NET kunt 
 ### Vraag: Hoe kan ik een tijdelijke licentie verkrijgen voor GroupDocs.Metadata?
  A: U kunt een tijdelijke licentie verkrijgen bij de[GroupDocs-aankooppagina](https://purchase.groupdocs.com/temporary-license/).
 ### Vraag: Waar kan ik uitgebreide documentatie voor GroupDocs.Metadata vinden?
- A: Bekijk de gedetailleerde documentatie op[GroupDocs.Metadata voor .NET-documentatie](https://reference.groupdocs.com/metadata/net/).
+ A: Bekijk de gedetailleerde documentatie op[GroupDocs.Metadata voor .NET-documentatie](https://tutorials.groupdocs.com/metadata/net/).
 ### Vraag: Ondersteunt GroupDocs.Metadata een gratis proefversie?
  A: Ja, u kunt een gratis proefversie van GroupDocs.Metadata downloaden[hier](https://releases.groupdocs.com/).
 ### Vraag: Waar kan ik ondersteuning krijgen of vragen stellen met betrekking tot GroupDocs.Metadata?

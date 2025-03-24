@@ -3,7 +3,6 @@ title: アーカイブメタデータ
 linktitle: アーカイブメタデータ
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して、RAR、7Zip、TAR、ZIP などのさまざまなアーカイブ形式からメタデータ プロパティを抽出および管理するチュートリアルをご覧ください。
-type: docs
 weight: 21
 url: /ja/net/archive-metadata/
 ---

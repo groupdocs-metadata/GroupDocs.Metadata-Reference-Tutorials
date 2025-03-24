@@ -3,7 +3,6 @@ title: Perbarui Properti Bawaan dalam Presentasi menggunakan .NET
 linktitle: Perbarui Properti Bawaan dalam Presentasi menggunakan .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara memperbarui properti bawaan dalam presentasi menggunakan .NET dengan GroupDocs.Metadata, pustaka manipulasi metadata serbaguna.
-type: docs
 weight: 15
 url: /id/net/presentation-metadata/update-built-in-properties-presentations/
 ---
@@ -51,7 +50,7 @@ Dalam tutorial ini, kita mempelajari cara menggunakan GroupDocs.Metadata untuk .
 ### T: Apa itu GroupDocs.Metadata untuk .NET?
 J: GroupDocs.Metadata for .NET adalah pustaka manipulasi metadata yang kuat untuk kerangka .NET, memungkinkan pengembang membaca, menulis, dan mengedit metadata dalam berbagai format dokumen.
 ### T: Di mana saya dapat menemukan dokumentasi untuk GroupDocs.Metadata?
- J: Anda dapat mengakses dokumentasi detailnya[Di Sini](https://reference.groupdocs.com/metadata/net/).
+ J: Anda dapat mengakses dokumentasi detailnya[Di Sini](https://tutorials.groupdocs.com/metadata/net/).
 ### T: Bagaimana cara mendapatkan lisensi sementara untuk GroupDocs.Metadata?
  J: Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.groupdocs.com/temporary-license/).
 ### T: Apakah GroupDocs.Metadata mendukung format file lain selain presentasi?

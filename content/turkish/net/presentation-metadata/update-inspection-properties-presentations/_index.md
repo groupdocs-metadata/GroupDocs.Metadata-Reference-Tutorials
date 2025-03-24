@@ -3,7 +3,6 @@ title: .NET kullanarak Sunumlardaki Denetim Özelliklerini Güncelleme
 linktitle: .NET kullanarak Sunumlardaki Denetim Özelliklerini Güncelleme
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata ile .NET kullanarak sunumlardaki inceleme özelliklerini nasıl güncelleyeceğinizi öğrenin. .PPTX dosyaları için kolay, etkili meta veri işleme.
-type: docs
 weight: 17
 url: /tr/net/presentation-metadata/update-inspection-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Evet, GroupDocs.Metadata belgeler, sunumlar, elektronik tablolar, resimler ve da
 ### GroupDocs.Metadata'yı kullanarak dosyalardan meta veri özelliklerini alabilir miyim?
 Kesinlikle GroupDocs.Metadata, geliştiricilerin meta veri özelliklerini programlı olarak ayıklamasına ve analiz etmesine olanak tanır.
 ### GroupDocs.Metadata için ayrıntılı belgeleri nerede bulabilirim?
- Bakın[dokümantasyon](https://reference.groupdocs.com/metadata/net/) GroupDocs.Metadata for .NET'in kullanımına ilişkin kapsamlı rehberlik için.
+ Bakın[dokümantasyon](https://tutorials.groupdocs.com/metadata/net/) GroupDocs.Metadata for .NET'in kullanımına ilişkin kapsamlı rehberlik için.
 ### GroupDocs.Metadata ücretsiz deneme sunuyor mu?
  Evet, şu adrese erişebilirsiniz:[ücretsiz deneme](https://releases.groupdocs.com/) Özelliklerini keşfetmek için GroupDocs.Metadata'ya bakın.
 ### GroupDocs.Metadata için nasıl destek alabilirim?

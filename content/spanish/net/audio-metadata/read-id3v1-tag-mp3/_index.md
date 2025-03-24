@@ -3,7 +3,6 @@ title: Leer la etiqueta ID3V1 de archivos MP3 en .NET
 linktitle: Leer la etiqueta ID3V1 de archivos MP3 en .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda a leer etiquetas ID3V1 de archivos MP3 usando GroupDocs.Metadata para .NET. Tutorial paso a paso con ejemplos de código.
-type: docs
 weight: 11
 url: /es/net/audio-metadata/read-id3v1-tag-mp3/
 ---
@@ -62,6 +61,6 @@ La etiqueta ID3V1 es un estándar para almacenar metadatos (como álbum, artista
 ### ¿Puedo probar GroupDocs.Metadata para .NET antes de comprarlo?
  Sí, puedes obtener una versión de prueba gratuita.[aquí](https://releases.groupdocs.com/).
 ### ¿Dónde puedo encontrar documentación para GroupDocs.Metadata para .NET?
- Puede encontrar documentación detallada y referencias de API.[aquí](https://reference.groupdocs.com/metadata/net/).
+ Puede encontrar documentación detallada y referencias de API.[aquí](https://tutorials.groupdocs.com/metadata/net/).
 ### ¿Cómo obtengo soporte técnico para GroupDocs.Metadata?
  Para soporte técnico, visite el[Foro GroupDocs.Metadatos](https://forum.groupdocs.com/c/metadata/14).

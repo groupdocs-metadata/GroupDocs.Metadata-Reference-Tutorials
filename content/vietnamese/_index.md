@@ -3,7 +3,6 @@ title: Khai phá khả năng làm chủ siêu dữ liệu bằng GroupDocs.Metad
 linktitle: Hướng dẫn về GroupDocs.Metadata
 additionalTitle: Tài liệu tham khảo API GroupDocs
 description: Khám phá các hướng dẫn toàn diện về GroupDocs.Metadata trên các nền tảng. Quản lý siêu dữ liệu thành thạo trong .NET và Java một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/
 is_root: true

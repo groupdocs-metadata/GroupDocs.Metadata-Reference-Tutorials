@@ -3,7 +3,6 @@ title: Laddar metadata från specifikt format i .NET
 linktitle: Laddar metadata från specifikt format i .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du laddar metadata från specifika filformat med GroupDocs.Metadata för .NET i den här omfattande självstudien.
-type: docs
 weight: 12
 url: /sv/net/metadata-loading/load-metadata-specific-format/
 ---
@@ -55,7 +54,7 @@ Metadata är data som tillhandahåller information om annan data, till exempel f
 ### Varför är det viktigt att hantera metadata?
 Att hantera metadata är avgörande för att organisera och förstå digitalt innehåll, underlätta sökbarhet och interoperabilitet.
 ### Var kan jag hitta detaljerad dokumentation för GroupDocs.Metadata for .NET?
- Du kan komma åt dokumentationen[här](https://reference.groupdocs.com/metadata/net/).
+ Du kan komma åt dokumentationen[här](https://tutorials.groupdocs.com/metadata/net/).
 ### Hur kan jag få en tillfällig licens för GroupDocs.Metadata för .NET?
  Besök[den här länken](https://purchase.groupdocs.com/temporary-license/) för att få en tillfällig licens.
 ### Var kan jag få support eller ställa frågor om GroupDocs.Metadata for .NET?

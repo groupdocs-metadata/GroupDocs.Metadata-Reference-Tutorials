@@ -3,7 +3,6 @@ title: Číst vlastnosti inspekce z PDF v .NET
 linktitle: Číst vlastnosti inspekce z PDF v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat vlastnosti inspekce z dokumentů PDF pomocí GroupDocs.Metadata for .NET. Prozkoumejte poznámky, přílohy a další.
-type: docs
 weight: 14
 url: /cs/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
@@ -100,7 +99,7 @@ tomto tutoriálu jsme prozkoumali, jak číst vlastnosti inspekce z PDF pomocí 
 ### Mohu použít GroupDocs.Metadata s jinými formáty souborů kromě PDF?
 Ano, GroupDocs.Metadata podporuje širokou škálu formátů dokumentů včetně dokumentů Microsoft Office, obrázků, zvukových souborů a dalších.
 ### Kde najdu podrobnou dokumentaci k GroupDocs.Metadata pro .NET?
- Odkazovat na[dokumentace](https://reference.groupdocs.com/metadata/net/) pro komplexní návod a reference API.
+ Odkazovat na[dokumentace](https://tutorials.groupdocs.com/metadata/net/) pro komplexní návod a tutorials API.
 ### Je k dispozici zkušební verze pro GroupDocs.Metadata?
  Ano, můžete získat bezplatnou zkušební verzi od[Stránka vydání GroupDocs](https://releases.groupdocs.com/).
 ### Jak mohu získat podporu pro jakékoli problémy nebo dotazy související s GroupDocs.Metadata?

@@ -1,7 +1,6 @@
 ---
 title: Oktatóanyagok és példák a GroupDocs.Metadata for .NET-hez
 linktitle: GroupDocs.Metadata .NET oktatóanyagokhoz
-type: docs
 weight: 10
 url: /hu/net/
 description: A GroupDocs.Metadata segítségével könnyedén kezelheti a fájlok metaadatait .NET-ben. Ismerje meg a betöltési technikákat, a szerkesztést és egyebeket a továbbfejlesztett fájlkezelési lehetőségek érdekében.

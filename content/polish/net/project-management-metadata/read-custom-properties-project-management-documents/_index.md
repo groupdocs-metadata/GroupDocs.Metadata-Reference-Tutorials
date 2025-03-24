@@ -3,7 +3,6 @@ title: Przeczytaj właściwości niestandardowe w dokumentach zarządzania proje
 linktitle: Przeczytaj właściwości niestandardowe w dokumentach zarządzania projektami .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak wyodrębnić niestandardowe właściwości z dokumentów zarządzania projektami .NET przy użyciu GroupDocs.Metadata dla .NET. Usprawnij zarządzanie metadanymi.
-type: docs
 weight: 11
 url: /pl/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
@@ -58,7 +57,7 @@ GroupDocs.Metadata obsługuje szeroką gamę formatów zarządzania projektami, 
 ### Czy do korzystania z GroupDocs.Metadata dla .NET wymagana jest licencja?
  Tak, do użytku komercyjnego wymagana jest licencja. Licencję tymczasową można uzyskać od[Tutaj](https://purchase.groupdocs.com/temporary-license/).
 ### Jak mogę uzyskać dostęp do dalszej dokumentacji GroupDocs.Metadata?
- Zapoznaj się ze szczegółową dokumentacją na stronie[strona referencyjna](https://reference.groupdocs.com/metadata/net/).
+ Zapoznaj się ze szczegółową dokumentacją na stronie[strona referencyjna](https://tutorials.groupdocs.com/metadata/net/).
 ### Gdzie mogę uzyskać pomoc dotyczącą zapytań związanych z GroupDocs.Metadata?
  Dołącz do społeczności na[Forum metadanych GroupDocs](https://forum.groupdocs.com/c/metadata/14) za wsparcie i dyskusje.
 ### Czy mogę bezpłatnie wypróbować GroupDocs.Metadata przed zakupem?

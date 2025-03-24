@@ -3,7 +3,6 @@ title: Perbarui Properti Bawaan dalam Diagram menggunakan .NET
 linktitle: Perbarui Properti Bawaan dalam Diagram menggunakan .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara memperbarui properti bawaan dalam diagram menggunakan GroupDocs.Metadata untuk .NET. Ubah metadata secara lancar dengan contoh kode.
-type: docs
 weight: 14
 url: /id/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
@@ -79,7 +78,7 @@ J: Ya, GroupDocs.Metadata untuk .NET mendukung pengeditan berbagai properti meta
  A: Anda dapat mengunjungi[Forum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) untuk bantuan.
 
 ### T: Di mana saya dapat menemukan dokumentasi terperinci untuk GroupDocs.Metadata untuk .NET?
- A: Lihat secara komprehensif[dokumentasi](https://reference.groupdocs.com/metadata/net/) untuk panduan mendalam.
+ A: Lihat secara komprehensif[dokumentasi](https://tutorials.groupdocs.com/metadata/net/) untuk panduan mendalam.
 
 ### T: Bisakah saya membeli lisensi sementara untuk penggunaan jangka pendek?
  J: Ya, Anda bisa mendapatkan lisensi sementara dari[Di Sini](https://purchase.groupdocs.com/temporary-license/).

@@ -3,7 +3,6 @@ title: Přečtěte si vestavěné vlastnosti v .NET Project Management Documents
 linktitle: Přečtěte si vestavěné vlastnosti v .NET Project Management Documents
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat metadata z dokumentů Project Management pomocí GroupDocs.Metadata for .NET. Vylepšete své možnosti zpracování dokumentů.
-type: docs
 weight: 10
 url: /cs/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---

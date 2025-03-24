@@ -3,7 +3,6 @@ title: metaadat-mesterség feloldása a GroupDocs.Metadata segítségével
 linktitle: GroupDocs.Metadata oktatóanyagok
 additionalTitle: GroupDocs API referenciák
 description: Fedezze fel a GroupDocs.Metadata platformok átfogó oktatóanyagait. Könnyedén sajátítsa el a metaadatkezelést .NET-ben és Java-ban.
-type: docs
 weight: 11
 url: /hu/
 is_root: true

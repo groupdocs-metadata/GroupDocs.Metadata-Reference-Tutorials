@@ -3,7 +3,6 @@ title: オーディオメタデータ
 linktitle: オーディオメタデータ
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用してオーディオ メタデータを処理する方法に関するチュートリアルをご覧ください。MP3 および WAV ファイルからタグを効率的に抽出、更新、削除する方法を学びます。
-type: docs
 weight: 22
 url: /ja/net/audio-metadata/
 ---

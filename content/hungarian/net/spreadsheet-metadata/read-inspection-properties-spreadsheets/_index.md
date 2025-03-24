@@ -3,7 +3,6 @@ title: Olvassa el az Inspection Propers from Spreadsheets .NET-ben
 linktitle: Olvassa el az Inspection Propers from Spreadsheets .NET-ben
 second_title: GroupDocs.Metadata .NET API
 description: Tanulja meg, hogyan olvashatja ki az ellenőrzési tulajdonságokat táblázatokból a GroupDocs.Metadata for .NET használatával. Könnyedén hozzáférhet a megjegyzésekhez, digitális aláírásokhoz és rejtett lapokhoz.
-type: docs
 weight: 13
 url: /hu/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---

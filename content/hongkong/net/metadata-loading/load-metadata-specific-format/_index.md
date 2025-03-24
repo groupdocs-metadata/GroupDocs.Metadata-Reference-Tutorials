@@ -3,7 +3,6 @@ title: 從 .NET 中的特定格式載入元數據
 linktitle: 從 .NET 中的特定格式載入元數據
 second_title: GroupDocs.元資料 .NET API
 description: 在此綜合教學中了解如何使用 GroupDocs.Metadata for .NET 從特定檔案格式載入元資料。
-type: docs
 weight: 12
 url: /zh-hant/net/metadata-loading/load-metadata-specific-format/
 ---
@@ -55,7 +54,7 @@ using (Metadata metadata = new Metadata("Your Input File", loadOptions))
 ### 為什麼管理元資料很重要？
 管理元資料對於組織和理解數位內容、促進可搜尋性和互通性至關重要。
 ### 在哪裡可以找到 GroupDocs.Metadata for .NET 的詳細文件？
-您可以存取文檔[這裡](https://reference.groupdocs.com/metadata/net/).
+您可以存取文檔[這裡](https://tutorials.groupdocs.com/metadata/net/).
 ### 如何取得 GroupDocs.Metadata for .NET 的臨時授權？
 訪問[這個連結](https://purchase.groupdocs.com/temporary-license/)以獲得臨時許可證。
 ### 我可以在哪裡獲得有關 GroupDocs.Metadata for .NET 的支援或提出問題？

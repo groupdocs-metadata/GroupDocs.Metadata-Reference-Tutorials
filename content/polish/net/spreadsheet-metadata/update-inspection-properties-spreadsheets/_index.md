@@ -3,7 +3,6 @@ title: Zaktualizuj właściwości kontroli w arkuszach kalkulacyjnych przy użyc
 linktitle: Zaktualizuj właściwości kontroli w arkuszach kalkulacyjnych przy użyciu platformy .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak aktualizować właściwości inspekcji w arkuszach kalkulacyjnych przy użyciu GroupDocs.Metadata dla platformy .NET. Z łatwością zarządzaj komentarzami, podpisami i ukrytymi arkuszami.
-type: docs
 weight: 16
 url: /pl/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ Tak, GroupDocs.Metadata obsługuje różne formaty arkuszy kalkulacyjnych, w tym
 ### Czy mogę modyfikować inne właściwości metadanych przy użyciu GroupDocs.Metadata?
 Absolutnie GroupDocs.Metadata umożliwia odczytywanie, aktualizowanie, usuwanie i dodawanie właściwości metadanych, takich jak autor, tytuł, data utworzenia itp.
 ### Gdzie mogę znaleźć szczegółową dokumentację GroupDocs.Metadata dla .NET?
- Możesz odwołać się do kompleksowego[dokumentacja](https://reference.groupdocs.com/metadata/net/) dostępny online.
+ Możesz odwołać się do kompleksowego[dokumentacja](https://tutorials.groupdocs.com/metadata/net/) dostępny online.
 ### Czy dostępna jest bezpłatna wersja próbna programu GroupDocs.Metadata dla platformy .NET?
  Tak, możesz uzyskać dostęp do[bezpłatna wersja próbna](https://releases.groupdocs.com/) do oceny API.
 ### Jak mogę uzyskać pomoc techniczną dotyczącą GroupDocs.Metadata dla .NET?

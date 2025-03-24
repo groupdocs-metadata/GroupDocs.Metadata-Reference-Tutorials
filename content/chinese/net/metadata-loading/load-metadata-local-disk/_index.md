@@ -3,7 +3,6 @@ title: 如何在.NET中从本地磁盘加载元数据
 linktitle: 如何在.NET中从本地磁盘加载元数据
 second_title: GroupDocs.元数据 .NET API
 description: 使用 GroupDocs.Metadata 轻松管理 .NET 应用程序中的文件元数据，以增强文件操作功能。
-type: docs
 weight: 10
 url: /zh/net/metadata-loading/load-metadata-local-disk/
 ---
@@ -62,7 +61,7 @@ using (Metadata metadata = new Metadata("Your Input File Path"))
 ### 问：如何获得 GroupDocs.Metadata 的临时许可证？
 答：您可以从以下机构获得临时许可证：[GroupDocs 购买页面](https://purchase.groupdocs.com/temporary-license/).
 ### 问：在哪里可以找到 GroupDocs.Metadata 的综合文档？
-答：查看详细文档：[.NET 文档的 GroupDocs.Metadata](https://reference.groupdocs.com/metadata/net/).
+答：查看详细文档：[.NET 文档的 GroupDocs.Metadata](https://tutorials.groupdocs.com/metadata/net/).
 ### 问：GroupDocs.Metadata 是否支持免费试用版？
 答：是的，您可以访问 GroupDocs.Metadata 的免费试用版：[这里](https://releases.groupdocs.com/).
 ### 问：我在哪里可以获得与 GroupDocs.Metadata 相关的支持或提出问题？

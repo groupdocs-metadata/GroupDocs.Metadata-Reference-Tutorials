@@ -3,7 +3,6 @@ title: Olvassa el az Egyéni tulajdonságok részt a .NET projektmenedzsment dok
 linktitle: Olvassa el az Egyéni tulajdonságok részt a .NET projektmenedzsment dokumentumokban
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthat ki egyéni tulajdonságokat .NET-projektkezelési dokumentumokból a GroupDocs.Metadata for .NET használatával. Javítsa metaadatkezelését.
-type: docs
 weight: 11
 url: /hu/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
@@ -58,7 +57,7 @@ A GroupDocs.Metadata projektmenedzsment formátumok széles skáláját támogat
 ### Szükséges-e licenc a GroupDocs.Metadata for .NET használatához?
  Igen, kereskedelmi használatra engedély szükséges. Ideiglenes jogosítványt szerezhet be[itt](https://purchase.groupdocs.com/temporary-license/).
 ### Hogyan férhetek hozzá a GroupDocs.Metadata további dokumentációjához?
- Tekintse meg a részletes dokumentációt a[hivatkozási oldal](https://reference.groupdocs.com/metadata/net/).
+ Tekintse meg a részletes dokumentációt a[hivatkozási oldal](https://tutorials.groupdocs.com/metadata/net/).
 ### Hol kaphatok támogatást a GroupDocs.Metadata-val kapcsolatos lekérdezésekhez?
  Csatlakozz a közösséghez a[GroupDocs Metadata fórum](https://forum.groupdocs.com/c/metadata/14) támogatásért és megbeszélésekért.
 ### Vásárlás előtt ingyenesen kipróbálhatom a GroupDocs.Metadata szolgáltatást?

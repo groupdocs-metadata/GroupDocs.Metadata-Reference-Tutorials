@@ -3,7 +3,6 @@ title: Baca Properti Inspeksi dari Spreadsheet di .NET
 linktitle: Baca Properti Inspeksi dari Spreadsheet di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara membaca properti inspeksi dari spreadsheet menggunakan GroupDocs.Metadata untuk .NET. Akses komentar, tanda tangan digital, dan lembar tersembunyi dengan mudah.
-type: docs
 weight: 13
 url: /id/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---

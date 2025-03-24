@@ -3,7 +3,6 @@ title: Διαβάστε στατιστικά εγγράφων από αρχεί�
 linktitle: Διαβάστε στατιστικά εγγράφων από αρχεία PDF στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε στατιστικά στοιχεία εγγράφων PDF χρησιμοποιώντας το GroupDocs.Metadata για .NET. Βελτιώστε τις δυνατότητες διαχείρισης εγγράφων σας χωρίς κόπο.
-type: docs
 weight: 12
 url: /el/net/pdf-metadata/read-document-statistics-pdfs/
 ---
@@ -52,7 +51,7 @@ Console.WriteLine("Word Count: " + root.DocumentStatistics.WordCount);
 ### Μπορεί το GroupDocs.Metadata να χειριστεί άλλες μορφές εγγράφων εκτός από το PDF;
 Ναι, το GroupDocs.Metadata υποστηρίζει ένα ευρύ φάσμα μορφών εγγράφων, όπως το Microsoft Office (Word, Excel, PowerPoint), PDF, εικόνες, ήχος, βίντεο και πολλά άλλα.
 ### Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το GroupDocs.Metadata για .NET;
- Μπορείτε να ανατρέξετε στο[τεκμηρίωση](https://reference.groupdocs.com/metadata/net/) για αναλυτικούς οδηγούς, αναφορές API και παραδείγματα κώδικα.
+ Μπορείτε να ανατρέξετε στο[τεκμηρίωση](https://tutorials.groupdocs.com/metadata/net/) για αναλυτικούς οδηγούς, αναφορές API και παραδείγματα κώδικα.
 ### Είναι το GroupDocs.Metadata κατάλληλο για εμπορική χρήση;
  Οπωσδήποτε, το GroupDocs.Metadata προσφέρει εμπορικές άδειες και μπορείτε να τις αγοράσετε[εδώ](https://purchase.groupdocs.com/buy).
 ### Μπορώ να δοκιμάσω το GroupDocs.Metadata πριν από την αγορά;

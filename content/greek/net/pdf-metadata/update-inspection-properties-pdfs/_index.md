@@ -3,7 +3,6 @@ title: Ενημερώστε τις ιδιότητες επιθεώρησης σ�
 linktitle: Ενημερώστε τις ιδιότητες επιθεώρησης σε αρχεία PDF χρησιμοποιώντας .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να ενημερώνετε τις ιδιότητες επιθεώρησης σε έγγραφα PDF χρησιμοποιώντας το GroupDocs.Metadata για .NET. Διαχειριστείτε αποτελεσματικά τα μεταδεδομένα και τους σχολιασμούς με C#.
-type: docs
 weight: 17
 url: /el/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
@@ -67,6 +66,6 @@ metadata.Save("YourInputFile.pdf");
 ### Πώς μπορώ να λάβω υποστήριξη εάν αντιμετωπίσω προβλήματα κατά τη χρήση του GroupDocs.Metadata;
  Επισκέψου το[Φόρουμ GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) για βοήθεια και κοινοτική υποστήριξη.
 ### Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το GroupDocs.Metadata για .NET;
- Αναφέρομαι στο[τεκμηρίωση](https://reference.groupdocs.com/metadata/net/) για ολοκληρωμένη καθοδήγηση σχετικά με τη χρήση της βιβλιοθήκης.
+ Αναφέρομαι στο[τεκμηρίωση](https://tutorials.groupdocs.com/metadata/net/) για ολοκληρωμένη καθοδήγηση σχετικά με τη χρήση της βιβλιοθήκης.
 ### Μπορώ να αποκτήσω προσωρινή άδεια για σκοπούς δοκιμών;
  Ναι, μπορείτε να ζητήσετε ένα[προσωρινή άδεια](https://purchase.groupdocs.com/temporary-license/) για σκοπούς αξιολόγησης.

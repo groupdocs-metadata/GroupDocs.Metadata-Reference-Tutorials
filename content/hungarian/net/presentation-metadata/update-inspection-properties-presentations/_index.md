@@ -3,7 +3,6 @@ title: Frissítse az ellenőrzési tulajdonságokat a prezentációkban .NET has
 linktitle: Frissítse az ellenőrzési tulajdonságokat a prezentációkban .NET használatával
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan frissítheti a prezentációk ellenőrzési tulajdonságait a .NET használatával a GroupDocs.Metadata segítségével. Egyszerű, hatékony metaadat-kezelés .PPTX fájlok esetén.
-type: docs
 weight: 17
 url: /hu/net/presentation-metadata/update-inspection-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Igen, a GroupDocs.Metadata fájlformátumok széles skáláját támogatja, bele
 ### Lekérhetem-e a metaadat-tulajdonságokat fájlokból a GroupDocs.Metadata használatával?
 Természetesen a GroupDocs.Metadata lehetővé teszi a fejlesztők számára, hogy programozottan kivonják és elemezzék a metaadatok tulajdonságait.
 ### Hol találom a GroupDocs.Metadata részletes dokumentációját?
- Utal[dokumentáció](https://reference.groupdocs.com/metadata/net/) átfogó útmutatásért a GroupDocs.Metadata for .NET használatához.
+ Utal[dokumentáció](https://tutorials.groupdocs.com/metadata/net/) átfogó útmutatásért a GroupDocs.Metadata for .NET használatához.
 ### A GroupDocs.Metadata ingyenes próbaverziót kínál?
  Igen, hozzáférhet a[ingyenes próbaverzió](https://releases.groupdocs.com/) a GroupDocs.Metadata szolgáltatásainak felfedezéséhez.
 ### Hogyan kaphatok támogatást a GroupDocs.Metadata számára?

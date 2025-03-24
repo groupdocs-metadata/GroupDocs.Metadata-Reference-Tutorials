@@ -3,7 +3,6 @@ title: Leia propriedades de formato de arquivo de PDFs em .NET
 linktitle: Leia propriedades de formato de arquivo de PDFs em .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda como extrair propriedades de formato de arquivo PDF usando GroupDocs.Metadata for .NET. Mergulhe no gerenciamento de metadados com C# simples.
-type: docs
 weight: 13
 url: /pt/net/pdf-metadata/read-file-format-properties-pdfs/
 ---
@@ -63,7 +62,7 @@ Sim, GroupDocs.Metadata oferece suporte a uma ampla variedade de formatos de arq
 ### Existe uma versão de teste disponível para GroupDocs.Metadata for .NET?
  Sim, você pode baixar uma avaliação gratuita em[aqui](https://releases.groupdocs.com/).
 ### Onde posso encontrar documentação abrangente para GroupDocs.Metadata?
- Consulte a documentação detalhada[aqui](https://reference.groupdocs.com/metadata/net/).
+ Consulte a documentação detalhada[aqui](https://tutorials.groupdocs.com/metadata/net/).
 ### Como posso obter suporte para quaisquer problemas ou dúvidas relacionadas ao GroupDocs.Metadata?
  Você pode buscar suporte na comunidade GroupDocs.Metadata[fórum](https://forum.groupdocs.com/c/metadata/14).
 ### Onde posso comprar uma versão licenciada do GroupDocs.Metadata for .NET?

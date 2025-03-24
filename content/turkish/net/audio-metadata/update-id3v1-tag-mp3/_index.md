@@ -3,7 +3,6 @@ title: .NET kullanarak MP3 Dosyalarındaki ID3V1 Etiketini Güncelleyin
 linktitle: .NET kullanarak MP3 Dosyalarındaki ID3V1 Etiketini Güncelleyin
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak MP3 dosyalarındaki ID3V1 etiketlerini güncelleyin. .NET uygulamalarınızda kolay meta veri işleme için bu öğreticiyi izleyin.
-type: docs
 weight: 19
 url: /tr/net/audio-metadata/update-id3v1-tag-mp3/
 ---
@@ -61,7 +60,7 @@ GroupDocs.Metadata for .NET, geliştiricilerin .NET uygulamalarını kullanarak 
 ### GroupDocs.Metadata for .NET tarafından hangi belge biçimleri desteklenir?
 GroupDocs.Metadata for .NET, PDF, Microsoft Office belgeleri (Word, Excel, PowerPoint), resimler (JPEG, PNG, TIFF), ses ve video dosyaları ve çok daha fazlasını içeren çok çeşitli belge formatlarını destekler.
 ### GroupDocs.Metadata for .NET belgelerini nerede bulabilirim?
- Ayrıntılı belgelere başvurabilirsiniz[Burada](https://reference.groupdocs.com/metadata/net/) API'nin kullanımına ilişkin kapsamlı rehberlik için.
+ Ayrıntılı belgelere başvurabilirsiniz[Burada](https://tutorials.groupdocs.com/metadata/net/) API'nin kullanımına ilişkin kapsamlı rehberlik için.
 ### GroupDocs.Metadata for .NET'in ücretsiz deneme sürümü var mı?
  Evet, GroupDocs.Metadata for .NET'in ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.groupdocs.com/).
 ### GroupDocs.Metadata for .NET için nasıl teknik destek alabilirim?

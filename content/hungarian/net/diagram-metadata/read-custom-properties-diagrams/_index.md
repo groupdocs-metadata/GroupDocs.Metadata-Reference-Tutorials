@@ -3,7 +3,6 @@ title: Olvassa el az egyéni tulajdonságokat a diagramokból a .NET-ben
 linktitle: Olvassa el az egyéni tulajdonságokat a diagramokból a .NET-ben
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthat ki egyéni tulajdonságokat diagramfájlokból a .NET-ben a GroupDocs.Metadata használatával. Egyszerű, lépésről lépésre mutató útmutató fejlesztőknek.
-type: docs
 weight: 11
 url: /hu/net/diagram-metadata/read-custom-properties-diagrams/
 ---
@@ -60,6 +59,6 @@ Igen, a GroupDocs.Metadata különféle dokumentumformátumokat támogat, beleé
 ### Alkalmas-e a GroupDocs.Metadata nagyszabású dokumentumfeldolgozásra?
 Igen, a GroupDocs.Metadata nagy mennyiségű dokumentum hatékony kezelésére készült.
 ### Hol találok további támogatást vagy dokumentációt a GroupDocs.Metadata-hoz?
- Meglátogatni a[GroupDocs.Metadata fórum](https://forum.groupdocs.com/c/metadata/14) támogatásért és fedezze fel a[dokumentáció](https://reference.groupdocs.com/metadata/net/) részletes API-referenciákért.
+ Meglátogatni a[GroupDocs.Metadata fórum](https://forum.groupdocs.com/c/metadata/14) támogatásért és fedezze fel a[dokumentáció](https://tutorials.groupdocs.com/metadata/net/) részletes API-referenciákért.
 ### Vásárlás előtt ingyenesen kipróbálhatom a GroupDocs.Metadata szolgáltatást?
  Igen, letölthet egy ingyenes próbaverziót[itt](https://releases.groupdocs.com/).

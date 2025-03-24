@@ -3,7 +3,6 @@ title: Διαβάστε τις Ενσωματωμένες Ιδιότητες σ�
 linktitle: Διαβάστε τις Ενσωματωμένες Ιδιότητες σε Έγγραφα Διαχείρισης Έργων .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε να εξάγετε μεταδεδομένα από έγγραφα διαχείρισης έργου χρησιμοποιώντας το GroupDocs.Metadata για .NET. Βελτιώστε τις δυνατότητες επεξεργασίας εγγράφων σας.
-type: docs
 weight: 10
 url: /el/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---

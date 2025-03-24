@@ -3,7 +3,6 @@ title: .NET 프레젠테이션에서 문서 통계 읽기
 linktitle: .NET 프레젠테이션에서 문서 통계 읽기
 second_title: GroupDocs.메타데이터 .NET API
 description: 효율적인 메타데이터 관리를 위해 GroupDocs.Metadata를 사용하여 .NET 프레젠테이션에서 문서 통계를 읽는 방법을 알아보세요.
-type: docs
 weight: 12
 url: /ko/net/presentation-metadata/read-document-statistics-presentations/
 ---

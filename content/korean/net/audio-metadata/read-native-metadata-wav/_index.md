@@ -3,7 +3,6 @@ title: .NET의 WAV 파일에서 기본 메타데이터 속성 읽기
 linktitle: .NET의 WAV 파일에서 기본 메타데이터 속성 읽기
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 WAV 파일에서 기본 메타데이터를 추출하는 방법을 알아보세요. WAV 파일 속성을 읽기 위한 쉬운 C# 자습서입니다.
-type: docs
 weight: 23
 url: /ko/net/audio-metadata/read-native-metadata-wav/
 ---
@@ -59,7 +58,7 @@ Console.WriteLine(root.WavPackage.SampleRate);
 ### .NET용 GroupDocs.Metadata를 사용하여 메타데이터를 수정할 수 있습니까?
 예, 이 라이브러리는 지원되는 파일 형식에서 메타데이터 속성 읽기, 업데이트 및 제거를 지원합니다.
 ### GroupDocs.Metadata에 대한 설명서는 어디에서 찾을 수 있나요?
- 전체 문서에 액세스할 수 있습니다.[여기](https://reference.groupdocs.com/metadata/net/).
+ 전체 문서에 액세스할 수 있습니다.[여기](https://tutorials.groupdocs.com/metadata/net/).
 ### .NET용 GroupDocs.Metadata에 대한 무료 평가판이 있습니까?
  예, 무료 평가판을 다운로드할 수 있습니다[여기](https://releases.groupdocs.com/).
 ### .NET용 GroupDocs.Metadata에 대한 지원을 받으려면 어떻게 해야 합니까?

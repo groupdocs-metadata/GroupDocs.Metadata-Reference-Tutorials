@@ -3,7 +3,6 @@ title: Cập nhật thuộc tính kiểm tra trong tệp PDF bằng .NET
 linktitle: Cập nhật thuộc tính kiểm tra trong tệp PDF bằng .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật thuộc tính kiểm tra trong tài liệu PDF bằng GroupDocs.Metadata cho .NET. Quản lý hiệu quả siêu dữ liệu và chú thích bằng C#.
-type: docs
 weight: 17
 url: /vi/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
@@ -67,6 +66,6 @@ Có, GroupDocs.Metadata hỗ trợ nhiều định dạng tài liệu khác nhau
 ### Làm cách nào tôi có thể nhận được hỗ trợ nếu gặp sự cố khi sử dụng GroupDocs.Metadata?
  Tham quan[Diễn đàn GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) để được hỗ trợ và hỗ trợ cộng đồng.
 ### Tôi có thể tìm tài liệu chi tiết về GroupDocs.Metadata cho .NET ở đâu?
- Tham khảo đến[tài liệu](https://reference.groupdocs.com/metadata/net/) để được hướng dẫn toàn diện về cách sử dụng thư viện.
+ Tham khảo đến[tài liệu](https://tutorials.groupdocs.com/metadata/net/) để được hướng dẫn toàn diện về cách sử dụng thư viện.
 ### Tôi có thể xin giấy phép tạm thời cho mục đích thử nghiệm không?
  Có, bạn có thể yêu cầu một[giấy phép tạm thời](https://purchase.groupdocs.com/temporary-license/) cho mục đích đánh giá.

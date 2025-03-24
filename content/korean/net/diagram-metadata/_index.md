@@ -3,7 +3,6 @@ title: 다이어그램 메타데이터
 linktitle: 다이어그램 메타데이터
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 다이어그램 메타데이터를 관리하는 방법에 대한 포괄적인 자습서를 살펴보세요. 속성을 쉽게 추출, 업데이트 및 분석할 수 있습니다.
-type: docs
 weight: 23
 url: /ko/net/diagram-metadata/
 ---

@@ -3,7 +3,6 @@ title: 从 .NET 中的 MP3 文件中删除 ID3V1 标签
 linktitle: 从 .NET 中的 MP3 文件中删除 ID3V1 标签
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 从 MP3 文件中删除 ID3V1 标签。简单的分步指南，包含实际示例。
-type: docs
 weight: 16
 url: /zh/net/audio-metadata/remove-id3v1-tag-mp3/
 ---
@@ -56,7 +55,7 @@ metadata.Save("YourOutputFile.mp3");
 ### 我可以使用此库来处理除 MP3 之外的其他文件格式的元数据吗？
 是的，GroupDocs.Metadata 支持多种文件格式，包括 DOCX、XLSX、PDF、PNG、JPG 等。
 ### 在哪里可以找到有关 .NET 的 GroupDocs.Metadata 的更多文档？
-有详细文档可供查阅[这里](https://reference.groupdocs.com/metadata/net/).
+有详细文档可供查阅[这里](https://tutorials.groupdocs.com/metadata/net/).
 ### 我如何获得支持或询问与 GroupDocs.Metadata 相关的问题？
 您可以在 GroupDocs.Metadata 论坛上发布您的疑问[这里](https://forum.groupdocs.com/c/metadata/14).
 ### 是否有可用于测试目的的临时许可证？

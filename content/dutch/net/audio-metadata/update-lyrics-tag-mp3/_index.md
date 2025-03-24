@@ -3,7 +3,6 @@ title: Update de songteksttag in MP3-bestanden met .NET
 linktitle: Update de songteksttag in MP3-bestanden met .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u metagegevens van MP3-bestanden, inclusief songteksten, artiest- en albumgegevens, programmatisch kunt bijwerken met GroupDocs.Metadata voor .NET.
-type: docs
 weight: 21
 url: /nl/net/audio-metadata/update-lyrics-tag-mp3/
 ---

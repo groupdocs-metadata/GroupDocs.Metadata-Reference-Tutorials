@@ -3,7 +3,6 @@ title: قم بتحديث علامة ID3V1 في ملفات MP3 باستخدام .
 linktitle: قم بتحديث علامة ID3V1 في ملفات MP3 باستخدام .NET
 second_title: GroupDocs.Metadata .NET API
 description: قم بتحديث علامات ID3V1 في ملفات MP3 باستخدام GroupDocs.Metadata لـ .NET. اتبع هذا البرنامج التعليمي لمعالجة بيانات التعريف بسهولة في تطبيقات .NET الخاصة بك.
-type: docs
 weight: 19
 url: /ar/net/audio-metadata/update-id3v1-tag-mp3/
 ---
@@ -61,7 +60,7 @@ GroupDocs.Metadata for .NET عبارة عن واجهة برمجة تطبيقات
 ### ما تنسيقات المستندات التي يدعمها GroupDocs.Metadata لـ .NET؟
 يدعم GroupDocs.Metadata for .NET نطاقًا واسعًا من تنسيقات المستندات بما في ذلك PDF ومستندات Microsoft Office (Word وExcel وPowerPoint) والصور (JPEG وPNG وTIFF) وملفات الصوت والفيديو وغير ذلك الكثير.
 ### أين يمكنني العثور على وثائق GroupDocs.Metadata لـ .NET؟
- يمكنك الرجوع إلى الوثائق التفصيلية[هنا](https://reference.groupdocs.com/metadata/net/) للحصول على إرشادات شاملة حول استخدام واجهة برمجة التطبيقات.
+ يمكنك الرجوع إلى الوثائق التفصيلية[هنا](https://tutorials.groupdocs.com/metadata/net/) للحصول على إرشادات شاملة حول استخدام واجهة برمجة التطبيقات.
 ### هل هناك نسخة تجريبية مجانية متاحة لـ GroupDocs.Metadata لـ .NET؟
  نعم، يمكنك الوصول إلى الإصدار التجريبي المجاني من GroupDocs.Metadata لـ .NET[هنا](https://releases.groupdocs.com/).
 ### كيف يمكنني الحصول على الدعم الفني لـ GroupDocs.Metadata لـ .NET؟

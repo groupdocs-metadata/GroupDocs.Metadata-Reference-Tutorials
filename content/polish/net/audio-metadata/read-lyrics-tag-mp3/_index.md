@@ -3,7 +3,6 @@ title: Przeczytaj znacznik tekstu z plików MP3 w formacie .NET
 linktitle: Przeczytaj znacznik tekstu z plików MP3 w formacie .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak wyodrębnić znaczniki tekstów z plików MP3 przy użyciu GroupDocs.Metadata dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku.
-type: docs
 weight: 13
 url: /pl/net/audio-metadata/read-lyrics-tag-mp3/
 ---
@@ -62,7 +61,7 @@ Tak, GroupDocs.Metadata umożliwia aktualizację i modyfikację metadanych w pli
 ### Czy GroupDocs.Metadata obsługuje inne formaty audio oprócz MP3?
 Tak, GroupDocs.Metadata obsługuje szeroką gamę formatów audio i wideo do ekstrakcji i manipulacji metadanymi.
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację GroupDocs.Metadata?
- Możesz uzyskać dostęp do pełnej dokumentacji[Tutaj](https://reference.groupdocs.com/metadata/net/).
+ Możesz uzyskać dostęp do pełnej dokumentacji[Tutaj](https://tutorials.groupdocs.com/metadata/net/).
 ### Czy dostępna jest bezpłatna wersja próbna GroupDocs.Metadata?
  Tak, możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.groupdocs.com/).
 ### Jak mogę uzyskać pomoc techniczną dotyczącą GroupDocs.Metadata?

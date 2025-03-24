@@ -3,7 +3,6 @@ title: Sunum Meta Verileri
 linktitle: Sunum Meta Verileri
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata eğitimlerini kullanarak .NET'te sunum meta verilerini verimli bir şekilde yönetmeyi öğrenin. Yerleşik ve özel özelliklere kolaylıkla erişin.
-type: docs
 weight: 25
 url: /tr/net/presentation-metadata/
 ---

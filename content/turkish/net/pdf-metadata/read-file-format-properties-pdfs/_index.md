@@ -3,7 +3,6 @@ title: .NET'teki PDF'lerden Dosya Formatı Özelliklerini Okuyun
 linktitle: .NET'teki PDF'lerden Dosya Formatı Özelliklerini Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak PDF dosya formatı özelliklerini nasıl çıkaracağınızı öğrenin. Basit C# ile meta veri yönetimine dalın.
-type: docs
 weight: 13
 url: /tr/net/pdf-metadata/read-file-format-properties-pdfs/
 ---
@@ -63,7 +62,7 @@ Evet, GroupDocs.Metadata, DOCX, XLSX, PPTX ve daha fazlası dahil olmak üzere P
 ### GroupDocs.Metadata for .NET'in deneme sürümü mevcut mu?
  Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.groupdocs.com/).
 ### GroupDocs.Metadata için kapsamlı belgeleri nerede bulabilirim?
- Ayrıntılı belgelere bakın[Burada](https://reference.groupdocs.com/metadata/net/).
+ Ayrıntılı belgelere bakın[Burada](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata ile ilgili herhangi bir sorun veya sorgu için nasıl destek alabilirim?
  GroupDocs.Metadata topluluğundan destek alabilirsiniz[forum](https://forum.groupdocs.com/c/metadata/14).
 ### GroupDocs.Metadata for .NET'in lisanslı sürümünü nereden satın alabilirim?

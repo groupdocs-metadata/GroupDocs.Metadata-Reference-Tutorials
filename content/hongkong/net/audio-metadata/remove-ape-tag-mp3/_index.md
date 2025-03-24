@@ -3,7 +3,6 @@ title: 從 .NET 中的 MP3 檔案中刪除 APE 標籤
 linktitle: 從 .NET 中的 MP3 檔案中刪除 APE 標籤
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 從 MP3 檔案中刪除 APE 標籤。輕鬆管理 .NET 應用程式中的元資料。
-type: docs
 weight: 15
 url: /zh-hant/net/audio-metadata/remove-ape-tag-mp3/
 ---
@@ -13,7 +12,7 @@ url: /zh-hant/net/audio-metadata/remove-ape-tag-mp3/
 在深入學習本教程之前，請確保您具備以下先決條件：
 - C# 和 .NET 架構的基礎知識。
 - Visual Studio 安裝在您的電腦上。
-- 安裝了 .NET 程式庫的 GroupDocs.Metadata（請參閱[文件](https://reference.groupdocs.com/metadata/net/)安裝步驟）。
+- 安裝了 .NET 程式庫的 GroupDocs.Metadata（請參閱[文件](https://tutorials.groupdocs.com/metadata/net/)安裝步驟）。
 
 ## 導入命名空間
 首先，確保將必要的命名空間匯入到您的 C# 專案中：

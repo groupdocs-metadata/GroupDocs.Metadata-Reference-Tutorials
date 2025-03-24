@@ -3,7 +3,6 @@ title: 从 .NET 演示文稿中读取文件格式属性
 linktitle: 从 .NET 演示文稿中读取文件格式属性
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata 读取 .NET 中的演示文件属性。以编程方式访问文件格式详细信息。
-type: docs
 weight: 13
 url: /zh/net/presentation-metadata/read-file-format-properties-presentations/
 ---

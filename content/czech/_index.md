@@ -3,7 +3,6 @@ title: Odemknutí ovládání metadat pomocí GroupDocs.Metadata
 linktitle: Výukové programy GroupDocs.Metadata
 additionalTitle: Reference API GroupDocs
 description: Objevte komplexní výukové programy pro GroupDocs.Metadata napříč platformami. Zvládněte správu metadat v .NET a Java bez námahy.
-type: docs
 weight: 11
 url: /cs/
 is_root: true

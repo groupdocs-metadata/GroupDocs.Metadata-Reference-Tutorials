@@ -3,7 +3,6 @@ title: Lesen Sie benutzerdefinierte Eigenschaften in .NET-Projektmanagementdokum
 linktitle: Lesen Sie benutzerdefinierte Eigenschaften in .NET-Projektmanagementdokumenten
 second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET benutzerdefinierte Eigenschaften aus .NET-Projektmanagementdokumenten extrahieren. Verbessern Sie Ihr Metadatenmanagement.
-type: docs
 weight: 11
 url: /de/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
@@ -58,7 +57,7 @@ GroupDocs.Metadata unterstützt eine Vielzahl von Projektmanagementformaten, dar
 ### Ist für die Nutzung von GroupDocs.Metadata für .NET eine Lizenz erforderlich?
  Ja, für die kommerzielle Nutzung ist eine Lizenz erforderlich. Eine temporäre Lizenz erhalten Sie bei[Hier](https://purchase.groupdocs.com/temporary-license/).
 ### Wie kann ich auf weitere Dokumentation zu GroupDocs.Metadata zugreifen?
- Entdecken Sie die ausführliche Dokumentation unter[Referenzseite](https://reference.groupdocs.com/metadata/net/).
+ Entdecken Sie die ausführliche Dokumentation unter[Referenzseite](https://tutorials.groupdocs.com/metadata/net/).
 ### Wo erhalte ich Unterstützung für GroupDocs.Metadata-bezogene Abfragen?
  Treten Sie der Community bei[GroupDocs-Metadatenforum](https://forum.groupdocs.com/c/metadata/14) für Unterstützung und Diskussionen.
 ### Kann ich GroupDocs.Metadata vor dem Kauf kostenlos testen?

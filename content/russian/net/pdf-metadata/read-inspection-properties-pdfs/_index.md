@@ -3,7 +3,6 @@ title: Чтение свойств проверки из PDF-файлов в .NE
 linktitle: Чтение свойств проверки из PDF-файлов в .NET
 second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как извлечь свойства проверки из документов PDF с помощью GroupDocs.Metadata для .NET. Изучите аннотации, вложения и многое другое.
-type: docs
 weight: 14
 url: /ru/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
@@ -100,7 +99,7 @@ if (root.InspectionPackage.Fields != null)
 ### Могу ли я использовать GroupDocs.Metadata с другими форматами файлов, кроме PDF?
 Да, GroupDocs.Metadata поддерживает широкий спектр форматов документов, включая документы Microsoft Office, изображения, аудиофайлы и многое другое.
 ### Где я могу найти подробную документацию по GroupDocs.Metadata для .NET?
- Обратитесь к[документация](https://reference.groupdocs.com/metadata/net/) для получения подробных рекомендаций и ссылок на API.
+ Обратитесь к[документация](https://tutorials.groupdocs.com/metadata/net/) для получения подробных рекомендаций и ссылок на API.
 ### Доступна ли пробная версия для GroupDocs.Metadata?
  Да, вы можете получить бесплатную пробную версию на сайте[Страница выпусков GroupDocs](https://releases.groupdocs.com/).
 ### Как я могу получить поддержку по любым вопросам или запросам, связанным с GroupDocs.Metadata?

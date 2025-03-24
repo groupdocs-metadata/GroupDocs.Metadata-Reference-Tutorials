@@ -4,7 +4,6 @@ linktitle: Метаданные электронной таблицы
 second_title: GroupDocs.Метаданные .NET API
 description: Раскройте возможности GroupDocs.Metadata для .NET с помощью руководств по чтению и обновлению свойств электронных таблиц. Улучшите возможности манипулирования метаданными в ваших приложениях .NET.
 
-type: docs
 weight: 27
 url: /ru/net/spreadsheet-metadata/
 ---

@@ -3,7 +3,6 @@ title: Update Built-In Properties in Presentations using .NET
 linktitle: Update Built-In Properties in Presentations using .NET
 second_title: GroupDocs.Metadata .NET API
 description: Learn how to update built-in properties in presentations using .NET with GroupDocs.Metadata, a versatile metadata manipulation library.
-type: docs
 weight: 15
 url: /net/presentation-metadata/update-built-in-properties-presentations/
 ---
@@ -51,7 +50,7 @@ In this tutorial, we explored how to use GroupDocs.Metadata for .NET to update b
 ### Q: What is GroupDocs.Metadata for .NET?
 A: GroupDocs.Metadata for .NET is a powerful metadata manipulation library for the .NET framework, allowing developers to read, write, and edit metadata in various document formats.
 ### Q: Where can I find documentation for GroupDocs.Metadata?
-A: You can access the detailed documentation [here](https://reference.groupdocs.com/metadata/net/).
+A: You can access the detailed documentation [here](https://tutorials.groupdocs.com/metadata/net/).
 ### Q: How can I obtain a temporary license for GroupDocs.Metadata?
 A: You can acquire a temporary license [here](https://purchase.groupdocs.com/temporary-license/).
 ### Q: Does GroupDocs.Metadata support other file formats besides presentations?

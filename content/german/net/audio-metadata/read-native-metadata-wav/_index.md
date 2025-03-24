@@ -3,7 +3,6 @@ title: Lesen Sie native Metadateneigenschaften aus WAV-Dateien in .NET
 linktitle: Lesen Sie native Metadateneigenschaften aus WAV-Dateien in .NET
 second_title: GroupDocs.Metadata .NET-API
 description: Entdecken Sie, wie Sie mit GroupDocs.Metadata für .NET native Metadaten aus WAV-Dateien extrahieren. Einfaches C#-Tutorial zum Lesen der WAV-Dateieigenschaften.
-type: docs
 weight: 23
 url: /de/net/audio-metadata/read-native-metadata-wav/
 ---
@@ -59,7 +58,7 @@ GroupDocs.Metadata für .NET ist eine .NET-Bibliothek, die es Entwicklern ermög
 ### Kann ich Metadaten mit GroupDocs.Metadata für .NET ändern?
 Ja, diese Bibliothek unterstützt das Lesen, Aktualisieren und Entfernen von Metadateneigenschaften aus unterstützten Dateiformaten.
 ### Wo finde ich die Dokumentation für GroupDocs.Metadata?
- Sie können auf die vollständige Dokumentation zugreifen[Hier](https://reference.groupdocs.com/metadata/net/).
+ Sie können auf die vollständige Dokumentation zugreifen[Hier](https://tutorials.groupdocs.com/metadata/net/).
 ### Gibt es eine kostenlose Testversion für GroupDocs.Metadata für .NET?
  Ja, Sie können eine kostenlose Testversion herunterladen[Hier](https://releases.groupdocs.com/).
 ### Wie erhalte ich Unterstützung für GroupDocs.Metadata für .NET?

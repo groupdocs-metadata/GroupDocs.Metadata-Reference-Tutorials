@@ -3,7 +3,6 @@ title: .NET で RAR アーカイブからネイティブ メタデータ プロ�
 linktitle: .NET で RAR アーカイブからネイティブ メタデータ プロパティを読み取る
 second_title: GroupDocs.Metadata .NET API
 description: C# で GroupDocs.Metadata for .NET を使用して RAR アーカイブからメタデータ プロパティを抽出する方法を学習します。ファイルの詳細を簡単に調べることができます。
-type: docs
 weight: 10
 url: /ja/net/archive-metadata/read-native-metadata-rar-archives/
 ---

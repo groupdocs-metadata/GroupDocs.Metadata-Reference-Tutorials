@@ -3,7 +3,6 @@ title: Mettre à jour les propriétés intégrées dans les documents de gestion
 linktitle: Mettre à jour les propriétés intégrées dans les documents de gestion de projet .NET
 second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment mettre à jour les métadonnées dans les documents de gestion de projet .NET avec GroupDocs.Metadata for .NET. Améliorez efficacement la gestion des documents.
-type: docs
 weight: 12
 url: /fr/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
@@ -57,7 +56,7 @@ Oui, GroupDocs.Metadata prend en charge les formats de gestion de projet populai
 ### Puis-je manipuler d’autres propriétés de métadonnées au-delà des détails intégrés du document ?
 Absolument! GroupDocs.Metadata offre des fonctionnalités étendues pour gérer les métadonnées sur un large éventail de types de fichiers.
 ### Où puis-je trouver de la documentation supplémentaire et une assistance pour GroupDocs.Metadata ?
- Visiter le[Documentation GroupDocs.Metadonnées](https://reference.groupdocs.com/metadata/net/) pour des informations détaillées. Pour des requêtes spécifiques, engagez-vous avec la communauté au[Forum GroupDocs](https://forum.groupdocs.com/c/metadata/14).
+ Visiter le[Documentation GroupDocs.Metadonnées](https://tutorials.groupdocs.com/metadata/net/) pour des informations détaillées. Pour des requêtes spécifiques, engagez-vous avec la communauté au[Forum GroupDocs](https://forum.groupdocs.com/c/metadata/14).
 ### Existe-t-il un essai gratuit disponible pour tester GroupDocs.Metadata ?
  Oui, vous pouvez accéder à un essai gratuit[ici](https://releases.groupdocs.com/).
 ### Comment puis-je obtenir une licence temporaire pour GroupDocs.Metadata ?

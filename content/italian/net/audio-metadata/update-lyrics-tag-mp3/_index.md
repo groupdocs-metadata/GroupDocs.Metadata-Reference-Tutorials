@@ -3,7 +3,6 @@ title: Aggiorna i tag dei testi nei file MP3 utilizzando .NET
 linktitle: Aggiorna i tag dei testi nei file MP3 utilizzando .NET
 second_title: API GroupDocs.Metadata .NET
 description: Scopri come aggiornare i metadati dei file MP3, inclusi testi, artista e dettagli dell'album in modo programmatico utilizzando GroupDocs.Metadata per .NET.
-type: docs
 weight: 21
 url: /it/net/audio-metadata/update-lyrics-tag-mp3/
 ---

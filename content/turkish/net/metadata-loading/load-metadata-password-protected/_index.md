@@ -3,7 +3,6 @@ title: .NET'te Parola Korumalı Belgeden Meta Veriler Nasıl Yüklenir
 linktitle: .NET'te Parola Korumalı Belgeden Meta Veriler Nasıl Yüklenir
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET ile belge meta verilerini verimli bir şekilde nasıl yöneteceğinizi öğrenin. .NET uygulamalarınızda meta verileri sorunsuz bir şekilde çıkarın, düzenleyin ve işleyin.
-type: docs
 weight: 13
 url: /tr/net/metadata-loading/load-metadata-password-protected/
 ---
@@ -60,6 +59,6 @@ Kesinlikle! GroupDocs.Metadata API'lerini kullanarak meta veri özelliklerini so
 ### Belge yüklemeyle ilgili istisnaları nasıl ele alacağım?
 Olası istisnaları yakalamak ve yönetmek için belge yükleme işlemleriyle ilgili doğru hata yönetimini sağlayın.
 ### GroupDocs.Metadata for .NET'e ilişkin ayrıntılı belgeleri nerede bulabilirim?
- Ziyaret edin[dokümantasyon](https://reference.groupdocs.com/metadata/net/) kapsamlı kılavuzlar ve API referansları için.
+ Ziyaret edin[dokümantasyon](https://tutorials.groupdocs.com/metadata/net/) kapsamlı kılavuzlar ve API referansları için.
 ### GroupDocs.Metadata for .NET'in ücretsiz deneme sürümü var mı?
  Evet, kütüphaneyi bir[ücretsiz deneme](https://releases.groupdocs.com/).

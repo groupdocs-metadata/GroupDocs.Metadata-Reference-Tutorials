@@ -3,7 +3,6 @@ title: 使用 GroupDocs.Metadata 解锁元数据掌握
 linktitle: GroupDocs.Metadata 教程
 additionalTitle: GroupDocs API 参考
 description: 发现跨平台的 GroupDocs.Metadata 综合教程。轻松掌握 .NET 和 Java 中的元数据管理。
-type: docs
 weight: 11
 url: /zh/
 is_root: true

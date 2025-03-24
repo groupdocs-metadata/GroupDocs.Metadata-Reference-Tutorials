@@ -3,7 +3,6 @@ title: Metadados do Diagrama
 linktitle: Metadados do Diagrama
 second_title: API GroupDocs.Metadata .NET
 description: Descubra tutoriais abrangentes sobre como gerenciar metadados de diagramas com GroupDocs.Metadata for .NET. Extraia, atualize e analise propriedades sem esforço.
-type: docs
 weight: 23
 url: /pt/net/diagram-metadata/
 ---

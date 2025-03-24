@@ -3,7 +3,6 @@ title: Olvassa el a Táblázatok egyéni tulajdonságait a .NET-ben
 linktitle: Olvassa el a Táblázatok egyéni tulajdonságait a .NET-ben
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthat ki egyéni tulajdonságokat táblázatokból a GroupDocs.Metadata for .NET használatával. Javítsa a metaadatok kezelését .NET-alkalmazásaiban.
-type: docs
 weight: 11
 url: /hu/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---

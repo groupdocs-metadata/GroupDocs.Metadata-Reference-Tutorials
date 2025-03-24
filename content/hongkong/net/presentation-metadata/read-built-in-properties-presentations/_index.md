@@ -3,7 +3,6 @@ title: 從 .NET 中的簡報中讀取內建屬性
 linktitle: 從 .NET 中的簡報中讀取內建屬性
 second_title: GroupDocs.元資料 .NET API
 description: 在此綜合教學中了解如何使用 GroupDocs.Metadata for .NET 從簡報中擷取內建屬性。
-type: docs
 weight: 10
 url: /zh-hant/net/presentation-metadata/read-built-in-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Console.WriteLine(root.DocumentProperties.NameOfApplication);
 ### 我可以使用 GroupDocs.Metadata for .NET 修改或更新元資料嗎？
 當然，您可以使用此程式庫修改、更新和刪除元資料屬性。
 ### 在哪裡可以找到 GroupDocs.Metadata for .NET 的詳細文件？
-你可以參考文檔[這裡](https://reference.groupdocs.com/metadata/net/)以獲得全面的資訊。
+你可以參考文檔[這裡](https://tutorials.groupdocs.com/metadata/net/)以獲得全面的資訊。
 ### 如何取得 GroupDocs.Metadata for .NET 的臨時授權？
 您可以獲得臨時許可證[這裡](https://purchase.groupdocs.com/temporary-license/)出於評估目的。
 ### 我可以在哪裡尋求與 GroupDocs.Metadata for .NET 相關的協助或提出問題？

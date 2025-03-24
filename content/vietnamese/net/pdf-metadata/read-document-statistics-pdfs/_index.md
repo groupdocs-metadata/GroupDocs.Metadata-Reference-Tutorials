@@ -3,7 +3,6 @@ title: Đọc số liệu thống kê tài liệu từ các tệp PDF trong .NET
 linktitle: Đọc số liệu thống kê tài liệu từ các tệp PDF trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất số liệu thống kê tài liệu PDF bằng GroupDocs.Metadata cho .NET. Nâng cao khả năng quản lý tài liệu của bạn một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/net/pdf-metadata/read-document-statistics-pdfs/
 ---
@@ -52,7 +51,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách tận dụng GroupD
 ### GroupDocs.Metadata có thể xử lý các định dạng tài liệu khác ngoài PDF không?
 Có, GroupDocs.Metadata hỗ trợ nhiều định dạng tài liệu bao gồm Microsoft Office (Word, Excel, PowerPoint), PDF, hình ảnh, âm thanh, video, v.v.
 ### Tôi có thể tìm tài liệu chi tiết về GroupDocs.Metadata cho .NET ở đâu?
- Bạn có thể tham khảo các[tài liệu](https://reference.groupdocs.com/metadata/net/) để có hướng dẫn toàn diện, tài liệu tham khảo API và ví dụ về mã.
+ Bạn có thể tham khảo các[tài liệu](https://tutorials.groupdocs.com/metadata/net/) để có hướng dẫn toàn diện, tài liệu tham khảo API và ví dụ về mã.
 ### GroupDocs.Metadata có phù hợp cho mục đích thương mại không?
  Hoàn toàn có thể, GroupDocs.Metadata cung cấp giấy phép thương mại và bạn có thể mua chúng[đây](https://purchase.groupdocs.com/buy).
 ### Tôi có thể dùng thử GroupDocs.Metadata trước khi mua không?

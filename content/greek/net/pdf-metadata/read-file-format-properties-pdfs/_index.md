@@ -3,7 +3,6 @@ title: Διαβάστε τις ιδιότητες μορφής αρχείου α
 linktitle: Διαβάστε τις ιδιότητες μορφής αρχείου από αρχεία PDF στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε ιδιότητες μορφής αρχείου PDF χρησιμοποιώντας το GroupDocs.Metadata για .NET. Βουτήξτε στη διαχείριση μεταδεδομένων με απλό C#.
-type: docs
 weight: 13
 url: /el/net/pdf-metadata/read-file-format-properties-pdfs/
 ---
@@ -63,7 +62,7 @@ Console.WriteLine("Extension: " + root.FileType.Extension);
 ### Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το GroupDocs.Metadata για .NET;
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής από[εδώ](https://releases.groupdocs.com/).
 ### Πού μπορώ να βρω ολοκληρωμένη τεκμηρίωση για το GroupDocs.Metadata;
- Ανατρέξτε στη λεπτομερή τεκμηρίωση[εδώ](https://reference.groupdocs.com/metadata/net/).
+ Ανατρέξτε στη λεπτομερή τεκμηρίωση[εδώ](https://tutorials.groupdocs.com/metadata/net/).
 ### Πώς μπορώ να λάβω υποστήριξη για τυχόν ζητήματα ή ερωτήματα που σχετίζονται με το GroupDocs.Metadata;
  Μπορείτε να αναζητήσετε υποστήριξη από την κοινότητα GroupDocs.Metadata[δικαστήριο](https://forum.groupdocs.com/c/metadata/14).
 ### Πού μπορώ να αγοράσω μια έκδοση με άδεια του GroupDocs.Metadata για .NET;

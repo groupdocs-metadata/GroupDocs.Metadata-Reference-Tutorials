@@ -3,7 +3,6 @@ title: Lees inspectie-eigenschappen uit presentaties in .NET
 linktitle: Lees inspectie-eigenschappen uit presentaties in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u metagegevens van presentaties kunt extraheren met GroupDocs.Metadata voor .NET. Krijg toegang tot opmerkingen, verborgen dia's en meer programmatisch.
-type: docs
 weight: 14
 url: /nl/net/presentation-metadata/read-inspection-properties-presentations/
 ---
@@ -64,7 +63,7 @@ A: GroupDocs.Metadata voor .NET is een API waarmee ontwikkelaars metagegevens in
 ### Vraag: Hoe kan ik een tijdelijke licentie verkrijgen voor GroupDocs.Metadata?
  A: U kunt een tijdelijke licentie verkrijgen bij[hier](https://purchase.groupdocs.com/temporary-license/).
 ### Vraag: Waar kan ik documentatie vinden voor GroupDocs.Metadata voor .NET?
- A: U kunt de documentatie raadplegen[hier](https://reference.groupdocs.com/metadata/net/).
+ A: U kunt de documentatie raadplegen[hier](https://tutorials.groupdocs.com/metadata/net/).
 ### Vraag: Hoe krijg ik ondersteuning voor GroupDocs.Metadata?
  A: Bezoek het GroupDocs.Metadata-forum voor ondersteuning en discussies[hier](https://forum.groupdocs.com/c/metadata/14).
 ### Vraag: Kan ik een gratis proefversie van GroupDocs.Metadata voor .NET downloaden?

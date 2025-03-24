@@ -3,7 +3,6 @@ title: Ενημερώστε τις ιδιότητες επιθεώρησης σ�
 linktitle: Ενημερώστε τις ιδιότητες επιθεώρησης σε παρουσιάσεις χρησιμοποιώντας .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να ενημερώνετε τις ιδιότητες επιθεώρησης σε παρουσιάσεις χρησιμοποιώντας .NET με GroupDocs.Metadata. Εύκολος, αποτελεσματικός χειρισμός μεταδεδομένων για αρχεία .PPTX.
-type: docs
 weight: 17
 url: /el/net/presentation-metadata/update-inspection-properties-presentations/
 ---
@@ -55,7 +54,7 @@ using (Metadata metadata = new Metadata("YourPresentationFile.pptx"))
 ### Μπορώ να ανακτήσω ιδιότητες μεταδεδομένων από αρχεία χρησιμοποιώντας το GroupDocs.Metadata;
 Οπωσδήποτε, το GroupDocs.Metadata επιτρέπει στους προγραμματιστές να εξάγουν και να αναλύουν τις ιδιότητες μεταδεδομένων μέσω προγραμματισμού.
 ### Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το GroupDocs.Metadata;
- Αναφέρομαι στο[τεκμηρίωση](https://reference.groupdocs.com/metadata/net/) για ολοκληρωμένη καθοδήγηση σχετικά με τη χρήση του GroupDocs.Metadata για .NET.
+ Αναφέρομαι στο[τεκμηρίωση](https://tutorials.groupdocs.com/metadata/net/) για ολοκληρωμένη καθοδήγηση σχετικά με τη χρήση του GroupDocs.Metadata για .NET.
 ### Το GroupDocs.Metadata προσφέρει δωρεάν δοκιμή;
  Ναι, μπορείτε να έχετε πρόσβαση σε ένα[δωρεάν δοκιμή](https://releases.groupdocs.com/) του GroupDocs.Metadata για να εξερευνήσετε τις δυνατότητές του.
 ### Πώς μπορώ να λάβω υποστήριξη για το GroupDocs.Metadata;

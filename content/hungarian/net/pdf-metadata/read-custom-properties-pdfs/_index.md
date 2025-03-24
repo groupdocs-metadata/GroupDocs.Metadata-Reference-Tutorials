@@ -3,7 +3,6 @@ title: Olvasson egyéni tulajdonságokat a .NET-ben található PDF-fájlokból
 linktitle: Olvasson egyéni tulajdonságokat a .NET-ben található PDF-fájlokból
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthat ki egyéni tulajdonságokat PDF-fájlokból a GroupDocs.Metadata for .NET segítségével. Merüljön el a dokumentumok metaadat-kezelésében a C# segítségével.
-type: docs
 weight: 11
 url: /hu/net/pdf-metadata/read-custom-properties-pdfs/
 ---
@@ -54,7 +53,7 @@ Igen, a GroupDocs.Metadata lehetővé teszi a különböző dokumentumformátumo
 ### A GroupDocs.Metadata támogatja a PDF-en kívül más fájlformátumokat is?
 Igen, a GroupDocs.Metadata fájlformátumok széles skáláját támogatja, beleértve a Word-dokumentumokat, Excel-táblázatokat, PowerPoint-prezentációkat, képeket és egyebeket.
 ### Hol találok további dokumentációt és támogatást a GroupDocs.Metadata-hoz?
- Utal[dokumentáció](https://reference.groupdocs.com/metadata/net/) átfogó tájékoztatásért. További támogatásért keresse fel a[GroupDocs.Metadata fórum](https://forum.groupdocs.com/c/metadata/14).
+ Utal[dokumentáció](https://tutorials.groupdocs.com/metadata/net/) átfogó tájékoztatásért. További támogatásért keresse fel a[GroupDocs.Metadata fórum](https://forum.groupdocs.com/c/metadata/14).
 ### Létezik ingyenes próbaverzió a GroupDocs.Metadata számára?
  Igen, kaphat a[ingyenes próbaverzió](https://releases.groupdocs.com/) hogy felfedezze a GroupDocs szolgáltatásait.Metadata.
 ### Hogyan vásárolhatok licencet a GroupDocs.Metadata számára?

@@ -3,7 +3,6 @@ title: .NET kullanarak Diyagramlardaki Yerleşik Özellikleri Güncelleme
 linktitle: .NET kullanarak Diyagramlardaki Yerleşik Özellikleri Güncelleme
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak diyagramlardaki yerleşik özellikleri nasıl güncelleyeceğinizi öğrenin. Kod örnekleriyle meta verileri sorunsuz bir şekilde değiştirin.
-type: docs
 weight: 14
 url: /tr/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
@@ -79,7 +78,7 @@ C: Evet, GroupDocs.Metadata for .NET EXIF, IPTC, XMP ve özel özellikler gibi �
  C: Ziyaret edebilirsiniz[GroupDocs.Meta veri forumu](https://forum.groupdocs.com/c/metadata/14) yardım için.
 
 ### S: GroupDocs.Metadata for .NET'e ilişkin ayrıntılı belgeleri nerede bulabilirim?
- C: Kapsamlı içeriğe bakın[dokümantasyon](https://reference.groupdocs.com/metadata/net/) derinlemesine rehberlik için.
+ C: Kapsamlı içeriğe bakın[dokümantasyon](https://tutorials.groupdocs.com/metadata/net/) derinlemesine rehberlik için.
 
 ### S: Kısa süreli kullanım için geçici bir lisans satın alabilir miyim?
  C: Evet, adresinden geçici lisans alabilirsiniz.[Burada](https://purchase.groupdocs.com/temporary-license/).

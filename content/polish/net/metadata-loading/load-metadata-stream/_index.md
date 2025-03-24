@@ -3,7 +3,6 @@ title: Ładowanie metadanych ze strumienia w samouczku .NET
 linktitle: Ładowanie metadanych ze strumienia w samouczku .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak zarządzać metadanymi plików w platformie .NET za pomocą GroupDocs.Metadata. Przewodnik krok po kroku dotyczący ładowania, edytowania i usuwania metadanych ze strumieni.
-type: docs
 weight: 11
 url: /pl/net/metadata-loading/load-metadata-stream/
 ---
@@ -63,7 +62,7 @@ W tym samouczku omówiliśmy podstawy ładowania metadanych ze strumienia przy u
 ### P: Jak mogę uzyskać tymczasową licencję na GroupDocs.Metadata?
  Odpowiedź: Możesz nabyć licencję tymczasową od[Tutaj](https://purchase.groupdocs.com/temporary-license/).
 ### P: Gdzie mogę znaleźć obszerną dokumentację GroupDocs.Metadata?
- O: Zapoznaj się ze szczegółową dokumentacją[Tutaj](https://reference.groupdocs.com/metadata/net/).
+ O: Zapoznaj się ze szczegółową dokumentacją[Tutaj](https://tutorials.groupdocs.com/metadata/net/).
 ### P: Czy dostępna jest bezpłatna wersja próbna GroupDocs.Metadata?
  Odp.: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.groupdocs.com/).
 ### P: Jak mogę uzyskać pomoc dotyczącą GroupDocs.Metadata?

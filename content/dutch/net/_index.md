@@ -1,7 +1,6 @@
 ---
 title: Zelfstudies en voorbeelden van GroupDocs.Metadata voor .NET
 linktitle: GroupDocs.Metadata voor .NET-zelfstudies
-type: docs
 weight: 10
 url: /nl/net/
 description: Beheer moeiteloos bestandsmetagegevens in .NET met GroupDocs.Metadata. Leer laadtechnieken, bewerkingen en meer voor verbeterde mogelijkheden voor bestandsmanipulatie.

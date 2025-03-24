@@ -3,7 +3,6 @@ title: 从 .NET 中的电子表格读取文件格式属性
 linktitle: 从 .NET 中的电子表格读取文件格式属性
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 读取电子表格文件格式属性。通过简单的 API 调用访问文件格式、MIME 类型等。
-type: docs
 weight: 12
 url: /zh/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
@@ -55,7 +54,7 @@ Console.WriteLine(root.FileType.Extension);
 
 ## 常见问题解答
 ### GroupDocs.Metadata for .NET 是否与所有类型的电子表格格式兼容？
- GroupDocs.Metadata for .NET 支持多种电子表格格式，包括 XLSX、XLS、CSV 等。请参阅[文档](https://reference.groupdocs.com/metadata/net/)获取支持格式的完整列表。
+ GroupDocs.Metadata for .NET 支持多种电子表格格式，包括 XLSX、XLS、CSV 等。请参阅[文档](https://tutorials.groupdocs.com/metadata/net/)获取支持格式的完整列表。
 ### 我可以使用 GroupDocs.Metadata for .NET 编辑元数据属性吗？
 是的，GroupDocs.Metadata for .NET 不仅允许读取，还允许编辑与各种文件格式相关的元数据属性。
 ### 我如何才能获得用于测试目的的临时许可证？

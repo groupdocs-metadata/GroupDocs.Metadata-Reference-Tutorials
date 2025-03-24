@@ -3,7 +3,6 @@ title: Καταργήστε την ετικέτα APE από αρχεία MP3 σ
 linktitle: Καταργήστε την ετικέτα APE από αρχεία MP3 στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να αφαιρείτε ετικέτες APE από αρχεία MP3 χρησιμοποιώντας το GroupDocs.Metadata για .NET. Διαχειριστείτε χωρίς κόπο τα μεταδεδομένα στις εφαρμογές σας .NET.
-type: docs
 weight: 15
 url: /el/net/audio-metadata/remove-ape-tag-mp3/
 ---
@@ -13,7 +12,7 @@ url: /el/net/audio-metadata/remove-ape-tag-mp3/
 Πριν βουτήξετε στο σεμινάριο, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 - Βασικές γνώσεις C# και .NET Framework.
 - Το Visual Studio είναι εγκατεστημένο στον υπολογιστή σας.
--  Εγκαταστάθηκε το GroupDocs.Metadata για τη βιβλιοθήκη .NET (ανατρέξτε στο[τεκμηρίωση](https://reference.groupdocs.com/metadata/net/) για τα βήματα εγκατάστασης).
+-  Εγκαταστάθηκε το GroupDocs.Metadata για τη βιβλιοθήκη .NET (ανατρέξτε στο[τεκμηρίωση](https://tutorials.groupdocs.com/metadata/net/) για τα βήματα εγκατάστασης).
 
 ## Εισαγωγή χώρων ονομάτων
 Πρώτα, φροντίστε να εισαγάγετε τους απαραίτητους χώρους ονομάτων στο έργο σας C#:

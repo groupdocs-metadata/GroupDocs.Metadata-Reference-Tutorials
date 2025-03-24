@@ -3,7 +3,6 @@ title: Xóa thẻ ID3V2 khỏi tệp MP3 trong .NET
 linktitle: Xóa thẻ ID3V2 khỏi tệp MP3 trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách xóa thẻ ID3V2 khỏi tệp MP3 bằng GroupDocs.Metadata cho .NET. Quản lý hiệu quả siêu dữ liệu trong các dự án C# của bạn.
-type: docs
 weight: 17
 url: /vi/net/audio-metadata/remove-id3v2-tag-mp3/
 ---
@@ -55,7 +54,7 @@ GroupDocs.Metadata cho .NET là một thư viện thương mại có sẵn cả 
 ### Tôi có thể xóa các loại siêu dữ liệu khác bằng thư viện này không?
 Có, GroupDocs.Metadata for .NET hỗ trợ nhiều định dạng tệp và cho phép thao tác với nhiều loại siêu dữ liệu khác nhau.
 ### Làm cách nào tôi có thể tìm hiểu thêm về cách làm việc với siêu dữ liệu ở các định dạng tệp khác nhau?
- Tham khảo đến[tài liệu](https://reference.groupdocs.com/metadata/net/) để biết thông tin chi tiết và ví dụ.
+ Tham khảo đến[tài liệu](https://tutorials.groupdocs.com/metadata/net/) để biết thông tin chi tiết và ví dụ.
 ### Tôi có thể nhận hỗ trợ ở đâu nếu gặp sự cố khi sử dụng GroupDocs.Metadata?
  Bạn có thể ghé thăm[Diễn đàn GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) để được cộng đồng hỗ trợ và khắc phục sự cố.
 ### Có giấy phép tạm thời có sẵn cho mục đích thử nghiệm không?

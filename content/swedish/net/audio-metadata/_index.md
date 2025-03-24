@@ -3,7 +3,6 @@ title: Ljudmetadata
 linktitle: Ljudmetadata
 second_title: GroupDocs.Metadata .NET API
 description: Upptäck självstudier om hantering av ljudmetadata med GroupDocs.Metadata för .NET. Lär dig att effektivt extrahera, uppdatera och ta bort taggar från MP3- och WAV-filer.
-type: docs
 weight: 22
 url: /sv/net/audio-metadata/
 ---

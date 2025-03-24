@@ -3,7 +3,6 @@ title: 從 .NET 中的 WAV 檔案讀取本機元資料屬性
 linktitle: 從 .NET 中的 WAV 檔案讀取本機元資料屬性
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 從 WAV 檔案中擷取本機元資料。用於讀取 WAV 檔案屬性的簡單 C# 教學。
-type: docs
 weight: 23
 url: /zh-hant/net/audio-metadata/read-native-metadata-wav/
 ---
@@ -59,7 +58,7 @@ GroupDocs.Metadata for .NET 是一個 .NET 程式庫，允許開發人員以程�
 ### 我可以使用 GroupDocs.Metadata for .NET 修改元資料嗎？
 是的，該程式庫支援從支援的檔案格式讀取、更新和刪除元資料屬性。
 ### 在哪裡可以找到 GroupDocs.Metadata 的文檔？
-您可以存取完整的文檔[這裡](https://reference.groupdocs.com/metadata/net/).
+您可以存取完整的文檔[這裡](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata for .NET 是否有免費試用版？
 是的，您可以下載免費試用版[這裡](https://releases.groupdocs.com/).
 ### 如何獲得對 GroupDocs.Metadata for .NET 的支援？

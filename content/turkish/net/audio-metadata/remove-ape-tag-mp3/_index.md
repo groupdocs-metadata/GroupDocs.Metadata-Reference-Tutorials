@@ -3,7 +3,6 @@ title: .NET'teki MP3 Dosyalarından APE Etiketini Kaldırma
 linktitle: .NET'teki MP3 Dosyalarından APE Etiketini Kaldırma
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak APE etiketlerini MP3 dosyalarından nasıl kaldıracağınızı öğrenin. .NET uygulamalarınızdaki meta verileri zahmetsizce yönetin.
-type: docs
 weight: 15
 url: /tr/net/audio-metadata/remove-ape-tag-mp3/
 ---
@@ -13,7 +12,7 @@ url: /tr/net/audio-metadata/remove-ape-tag-mp3/
 Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 - Temel C# ve .NET framework bilgisi.
 - Makinenizde Visual Studio yüklü.
--  .NET kitaplığı için GroupDocs.Metadata yüklü (bkz.[dokümantasyon](https://reference.groupdocs.com/metadata/net/) Kurulum adımları için).
+-  .NET kitaplığı için GroupDocs.Metadata yüklü (bkz.[dokümantasyon](https://tutorials.groupdocs.com/metadata/net/) Kurulum adımları için).
 
 ## Ad Alanlarını İçe Aktar
 Öncelikle gerekli ad alanlarını C# projenize aktardığınızdan emin olun:

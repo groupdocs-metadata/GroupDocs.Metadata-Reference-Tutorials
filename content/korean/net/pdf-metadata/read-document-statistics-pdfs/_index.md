@@ -3,7 +3,6 @@ title: .NET의 PDF에서 문서 통계 읽기
 linktitle: .NET의 PDF에서 문서 통계 읽기
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 PDF 문서 통계를 추출하는 방법을 알아보세요. 문서 관리 기능을 손쉽게 향상하세요.
-type: docs
 weight: 12
 url: /ko/net/pdf-metadata/read-document-statistics-pdfs/
 ---
@@ -52,7 +51,7 @@ Console.WriteLine("Word Count: " + root.DocumentStatistics.WordCount);
 ### GroupDocs.Metadata는 PDF 이외의 다른 문서 형식을 처리할 수 있습니까?
 예, GroupDocs.Metadata는 Microsoft Office(Word, Excel, PowerPoint), PDF, 이미지, 오디오, 비디오 등을 포함한 광범위한 문서 형식을 지원합니다.
 ### .NET용 GroupDocs.Metadata에 대한 자세한 설명서는 어디서 찾을 수 있나요?
- 당신은[선적 서류 비치](https://reference.groupdocs.com/metadata/net/) 포괄적인 가이드, API 참조 및 코드 예제를 확인하세요.
+ 당신은[선적 서류 비치](https://tutorials.groupdocs.com/metadata/net/) 포괄적인 가이드, API 참조 및 코드 예제를 확인하세요.
 ### GroupDocs.Metadata는 상업적 용도로 적합합니까?
  물론, GroupDocs.Metadata는 상업용 라이센스를 제공하며 이를 구매할 수 있습니다.[여기](https://purchase.groupdocs.com/buy).
 ### 구매하기 전에 GroupDocs.Metadata를 사용해 볼 수 있나요?

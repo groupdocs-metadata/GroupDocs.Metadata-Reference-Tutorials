@@ -3,7 +3,6 @@ title: .NET의 PDF에서 검사 속성 읽기
 linktitle: .NET의 PDF에서 검사 속성 읽기
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 PDF 문서에서 검사 속성을 추출하는 방법을 알아보세요. 주석, 첨부 파일 등을 살펴보세요.
-type: docs
 weight: 14
 url: /ko/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
@@ -100,7 +99,7 @@ if (root.InspectionPackage.Fields != null)
 ### PDF 이외의 다른 파일 형식과 함께 GroupDocs.Metadata를 사용할 수 있습니까?
 예, GroupDocs.Metadata는 Microsoft Office 문서, 이미지, 오디오 파일 등을 포함한 광범위한 문서 형식을 지원합니다.
 ### .NET용 GroupDocs.Metadata에 대한 자세한 설명서는 어디서 찾을 수 있나요?
- 다음을 참조하세요.[선적 서류 비치](https://reference.groupdocs.com/metadata/net/) 포괄적인 지침 및 API 참조를 확인하세요.
+ 다음을 참조하세요.[선적 서류 비치](https://tutorials.groupdocs.com/metadata/net/) 포괄적인 지침 및 API 참조를 확인하세요.
 ### GroupDocs.Metadata에 사용할 수 있는 평가판이 있습니까?
  예, 다음에서 무료 평가판을 얻을 수 있습니다.[GroupDocs 릴리스 페이지](https://releases.groupdocs.com/).
 ### GroupDocs.Metadata와 관련된 문제나 쿼리에 대한 지원을 받으려면 어떻게 해야 합니까?

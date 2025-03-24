@@ -3,7 +3,6 @@ title: Hur man laddar metadata från lokal disk i .NET
 linktitle: Hur man laddar metadata från lokal disk i .NET
 second_title: GroupDocs.Metadata .NET API
 description: Hantera filmetadata enkelt i .NET-applikationer med GroupDocs.Metadata för förbättrade filmanipuleringsmöjligheter.
-type: docs
 weight: 10
 url: /sv/net/metadata-loading/load-metadata-local-disk/
 ---
@@ -62,7 +61,7 @@ den här handledningen undersökte vi hur man använder GroupDocs.Metadata för 
 ### F: Hur kan jag få en tillfällig licens för GroupDocs.Metadata?
  S: Du kan skaffa en tillfällig licens från[GroupDocs köpsida](https://purchase.groupdocs.com/temporary-license/).
 ### F: Var kan jag hitta omfattande dokumentation för GroupDocs.Metadata?
- S: Utforska den detaljerade dokumentationen på[GroupDocs.Metadata för .NET-dokumentation](https://reference.groupdocs.com/metadata/net/).
+ S: Utforska den detaljerade dokumentationen på[GroupDocs.Metadata för .NET-dokumentation](https://tutorials.groupdocs.com/metadata/net/).
 ### F: Stöder GroupDocs.Metadata en gratis testversion?
  S: Ja, du kan få tillgång till en gratis testversion av GroupDocs.Metadata från[här](https://releases.groupdocs.com/).
 ### F: Var kan jag få support eller ställa frågor relaterade till GroupDocs.Metadata?

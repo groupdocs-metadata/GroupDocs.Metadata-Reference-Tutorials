@@ -3,7 +3,6 @@ title: .NET 프로젝트 관리 문서의 기본 제공 속성 업데이트
 linktitle: .NET 프로젝트 관리 문서의 기본 제공 속성 업데이트
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 .NET 프로젝트 관리 문서의 메타데이터를 업데이트하는 방법을 알아보세요. 문서 관리를 효율적으로 강화하세요.
-type: docs
 weight: 12
 url: /ko/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
@@ -57,7 +56,7 @@ metadata.Save("YourInputFile");
 ### 내장된 문서 세부정보 외에 다른 메타데이터 속성을 조작할 수 있나요?
 전적으로! GroupDocs.Metadata는 광범위한 파일 형식에 걸쳐 메타데이터를 관리할 수 있는 광범위한 기능을 제공합니다.
 ### GroupDocs.Metadata에 대한 추가 문서와 지원은 어디서 찾을 수 있나요?
- 방문하다[GroupDocs.Metadata 문서](https://reference.groupdocs.com/metadata/net/) 자세한 정보를 보려면. 구체적인 질문이 있는 경우 다음 커뮤니티에 참여하세요.[GroupDocs 포럼](https://forum.groupdocs.com/c/metadata/14).
+ 방문하다[GroupDocs.Metadata 문서](https://tutorials.groupdocs.com/metadata/net/) 자세한 정보를 보려면. 구체적인 질문이 있는 경우 다음 커뮤니티에 참여하세요.[GroupDocs 포럼](https://forum.groupdocs.com/c/metadata/14).
 ### GroupDocs.Metadata를 테스트할 수 있는 무료 평가판이 있습니까?
  예, 무료 평가판에 액세스할 수 있습니다[여기](https://releases.groupdocs.com/).
 ### GroupDocs.Metadata에 대한 임시 라이센스를 얻으려면 어떻게 해야 합니까?

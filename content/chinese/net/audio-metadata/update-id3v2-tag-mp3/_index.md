@@ -3,7 +3,6 @@ title: 使用 .NET 更新 MP3 文件中的 ID3V2 标签
 linktitle: 使用 .NET 更新 MP3 文件中的 ID3V2 标签
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 .NET 和 GroupDocs.Metadata 更新 MP3 文件中的 ID3V2 标签，以实现高效的文件管理。
-type: docs
 weight: 20
 url: /zh/net/audio-metadata/update-id3v2-tag-mp3/
 ---
@@ -67,7 +66,7 @@ metadata.Save("YourInputFile.mp3");
 ### 我可以免费使用 GroupDocs.Metadata 吗？
 是的，你可以从[这里](https://releases.groupdocs.com/).
 ### 我在哪里可以找到 GroupDocs.Metadata 文档？
-文档可用[这里](https://reference.groupdocs.com/metadata/net/).
+文档可用[这里](https://tutorials.groupdocs.com/metadata/net/).
 ### 如何购买 GroupDocs.Metadata 的许可证？
 您可以购买许可证[这里](https://purchase.groupdocs.com/buy).
 ### 有 GroupDocs.Metadata 支持论坛吗？

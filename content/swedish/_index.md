@@ -3,7 +3,6 @@ title: Låsa upp Metadata Mastery med GroupDocs.Metadata
 linktitle: GroupDocs.Metadata självstudier
 additionalTitle: GroupDocs API-referenser
 description: Upptäck omfattande självstudier för GroupDocs.Metadata över plattformar. Bemästra metadatahantering i .NET och Java utan ansträngning.
-type: docs
 weight: 11
 url: /sv/
 is_root: true

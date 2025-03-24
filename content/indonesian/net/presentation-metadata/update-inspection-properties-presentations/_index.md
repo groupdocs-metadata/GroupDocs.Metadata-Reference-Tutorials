@@ -3,7 +3,6 @@ title: Perbarui Properti Inspeksi dalam Presentasi menggunakan .NET
 linktitle: Perbarui Properti Inspeksi dalam Presentasi menggunakan .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara memperbarui properti inspeksi dalam presentasi menggunakan .NET dengan GroupDocs.Metadata. Manipulasi metadata yang mudah dan efisien untuk file .PPTX.
-type: docs
 weight: 17
 url: /id/net/presentation-metadata/update-inspection-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Ya, GroupDocs.Metadata mendukung berbagai format file termasuk dokumen, presenta
 ### Bisakah saya mengambil properti metadata dari file menggunakan GroupDocs.Metadata?
 Tentu saja, GroupDocs.Metadata memungkinkan pengembang mengekstrak dan menganalisis properti metadata secara terprogram.
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk GroupDocs.Metadata?
- Mengacu kepada[dokumentasi](https://reference.groupdocs.com/metadata/net/) untuk panduan komprehensif tentang penggunaan GroupDocs.Metadata untuk .NET.
+ Mengacu kepada[dokumentasi](https://tutorials.groupdocs.com/metadata/net/) untuk panduan komprehensif tentang penggunaan GroupDocs.Metadata untuk .NET.
 ### Apakah GroupDocs.Metadata menawarkan uji coba gratis?
  Ya, Anda dapat mengakses a[uji coba gratis](https://releases.groupdocs.com/) dari GroupDocs.Metadata untuk menjelajahi fitur-fiturnya.
 ### Bagaimana saya bisa mendapatkan dukungan untuk GroupDocs.Metadata?

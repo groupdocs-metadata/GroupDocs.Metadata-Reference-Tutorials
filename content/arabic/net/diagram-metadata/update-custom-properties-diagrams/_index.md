@@ -3,7 +3,6 @@ title: قم بتحديث الخصائص المخصصة في المخططات ب�
 linktitle: قم بتحديث الخصائص المخصصة في المخططات باستخدام .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية تحديث الخصائص المخصصة في الرسوم التخطيطية باستخدام .NET مع GroupDocs.Metadata لـ .NET. تعزيز البيانات الوصفية بسهولة.
-type: docs
 weight: 15
 url: /ar/net/diagram-metadata/update-custom-properties-diagrams/
 ---

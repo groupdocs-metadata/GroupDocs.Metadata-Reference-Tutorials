@@ -3,7 +3,6 @@ title: Update ingebouwde eigenschappen in diagrammen met .NET
 linktitle: Update ingebouwde eigenschappen in diagrammen met .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u ingebouwde eigenschappen in diagrammen kunt bijwerken met GroupDocs.Metadata voor .NET. Pas metadata naadloos aan met codevoorbeelden.
-type: docs
 weight: 14
 url: /nl/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
@@ -79,7 +78,7 @@ A: Ja, GroupDocs.Metadata voor .NET ondersteunt het bewerken van verschillende m
  A: U kunt een bezoek brengen aan de[GroupDocs.Metadata-forum](https://forum.groupdocs.com/c/metadata/14) Voor assistentie.
 
 ### Vraag: Waar kan ik gedetailleerde documentatie vinden voor GroupDocs.Metadata voor .NET?
- A: Raadpleeg de uitgebreide[documentatie](https://reference.groupdocs.com/metadata/net/) voor diepgaande begeleiding.
+ A: Raadpleeg de uitgebreide[documentatie](https://tutorials.groupdocs.com/metadata/net/) voor diepgaande begeleiding.
 
 ### Vraag: Kan ik een tijdelijke licentie kopen voor kortdurend gebruik?
  A: Ja, u kunt een tijdelijke licentie verkrijgen bij[hier](https://purchase.groupdocs.com/temporary-license/).

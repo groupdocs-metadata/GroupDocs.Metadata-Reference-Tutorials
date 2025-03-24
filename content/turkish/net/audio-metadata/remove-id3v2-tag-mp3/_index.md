@@ -3,7 +3,6 @@ title: ID3V2 Etiketini .NET'teki MP3 Dosyalarından Kaldırma
 linktitle: ID3V2 Etiketini .NET'teki MP3 Dosyalarından Kaldırma
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak ID3V2 etiketlerini MP3 dosyalarından nasıl kaldıracağınızı öğrenin. C# projelerinizde meta verileri verimli bir şekilde yönetin.
-type: docs
 weight: 17
 url: /tr/net/audio-metadata/remove-id3v2-tag-mp3/
 ---
@@ -55,7 +54,7 @@ GroupDocs.Metadata for .NET, hem ücretsiz deneme hem de lisanslı sürümlerin 
 ### Bu kitaplığı kullanarak diğer meta veri türlerini kaldırabilir miyim?
 Evet, GroupDocs.Metadata for .NET çok çeşitli dosya formatlarını destekler ve çeşitli meta veri türlerinin değiştirilmesine olanak tanır.
 ### Farklı dosya formatlarındaki meta verilerle çalışma hakkında nasıl daha fazla bilgi edinebilirim?
- Bakın[dokümantasyon](https://reference.groupdocs.com/metadata/net/) detaylı bilgi ve örnekler için.
+ Bakın[dokümantasyon](https://tutorials.groupdocs.com/metadata/net/) detaylı bilgi ve örnekler için.
 ### GroupDocs.Metadata'yı kullanırken sorunlarla karşılaşırsam nereden destek alabilirim?
  Ziyaret edebilirsiniz[GroupDocs.Meta veri forumu](https://forum.groupdocs.com/c/metadata/14) topluluk desteği ve sorun giderme için.
 ### Test amaçlı geçici bir lisans mevcut mu?

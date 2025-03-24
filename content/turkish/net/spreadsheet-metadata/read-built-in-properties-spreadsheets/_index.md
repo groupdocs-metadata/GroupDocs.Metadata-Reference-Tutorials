@@ -3,7 +3,6 @@ title: .NET'teki Elektronik Tablolardan Yerleşik Özellikleri Okuyun
 linktitle: .NET'teki Elektronik Tablolardan Yerleşik Özellikleri Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata'yı kullanarak .NET'teki elektronik tablolardan meta verileri nasıl çıkaracağınızı öğrenin ve uygulamalarınızda belge yönetimini ve organizasyonunu geliştirin.
-type: docs
 weight: 10
 url: /tr/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Evet, GroupDocs.Metadata elektronik tablolar, belgeler, sunumlar, resimler ve da
 ### GroupDocs.Metadata for .NET'i kullanarak meta verileri değiştirebilir miyim?
 Evet, bu API'yi kullanarak meta verileri yalnızca okuyabilir, aynı zamanda düzenleyebilir, güncelleyebilir ve kaldırabilirsiniz.
 ### GroupDocs.Metadata for .NET'e ilişkin ayrıntılı belgeleri nerede bulabilirim?
- Ayrıntılı belgeler şu adreste mevcuttur:[.NET Belgeleri için GroupDocs.Metadata](https://reference.groupdocs.com/metadata/net/).
+ Ayrıntılı belgeler şu adreste mevcuttur:[.NET Belgeleri için GroupDocs.Metadata](https://tutorials.groupdocs.com/metadata/net/).
 ### Test amaçlı geçici lisansı nasıl alabilirim?
  Geçici lisans talebinde bulunabilirsiniz.[Burada](https://purchase.groupdocs.com/temporary-license/).
 ### GroupDocs.Metadata desteği için bir topluluk forumu var mı?

@@ -3,7 +3,6 @@ title: Chargement des métadonnées
 linktitle: Chargement des métadonnées
 second_title: API GroupDocs.Metadata .NET
 description: Gérez sans effort les métadonnées des fichiers dans .NET avec GroupDocs.Metadata. Apprenez les techniques de chargement, d'édition et bien plus encore pour des capacités améliorées de manipulation de fichiers.
-type: docs
 weight: 20
 url: /fr/net/metadata-loading/
 ---

@@ -3,7 +3,6 @@ title: Metaadatok archiválása
 linktitle: Metaadatok archiválása
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET használatával oktatóanyagokat fedezhet fel a különböző archív formátumokból, például RAR, 7Zip, TAR és ZIP metaadattulajdonságok kinyeréséhez és kezeléséhez.
-type: docs
 weight: 21
 url: /hu/net/archive-metadata/
 ---

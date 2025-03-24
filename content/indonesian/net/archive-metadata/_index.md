@@ -3,7 +3,6 @@ title: Metadata Arsip
 linktitle: Metadata Arsip
 second_title: GroupDocs.Metadata .NET API
 description: Jelajahi tutorial tentang mengekstraksi dan mengelola properti metadata dari berbagai format arsip seperti RAR, 7Zip, TAR, dan ZIP menggunakan GroupDocs.Metadata untuk .NET.
-type: docs
 weight: 21
 url: /id/net/archive-metadata/
 ---

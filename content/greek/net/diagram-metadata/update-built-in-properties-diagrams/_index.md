@@ -3,7 +3,6 @@ title: Ενημερώστε τις ενσωματωμένες ιδιότητες
 linktitle: Ενημερώστε τις ενσωματωμένες ιδιότητες σε διαγράμματα χρησιμοποιώντας .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να ενημερώνετε τις ενσωματωμένες ιδιότητες σε διαγράμματα χρησιμοποιώντας το GroupDocs.Metadata για .NET. Τροποποιήστε τα μεταδεδομένα απρόσκοπτα με παραδείγματα κώδικα.
-type: docs
 weight: 14
 url: /el/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
@@ -79,7 +78,7 @@ metadata.Save("Your Input File");
  Α: Μπορείτε να επισκεφθείτε το[Φόρουμ GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) για βοήθεια.
 
 ### Ε: Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το GroupDocs.Metadata για .NET;
- Α: Ανατρέξτε στην περιεκτική[τεκμηρίωση](https://reference.groupdocs.com/metadata/net/) για καθοδήγηση σε βάθος.
+ Α: Ανατρέξτε στην περιεκτική[τεκμηρίωση](https://tutorials.groupdocs.com/metadata/net/) για καθοδήγηση σε βάθος.
 
 ### Ε: Μπορώ να αγοράσω μια προσωρινή άδεια χρήσης για βραχυπρόθεσμη χρήση;
  Α: Ναι, μπορείτε να λάβετε προσωρινή άδεια από[εδώ](https://purchase.groupdocs.com/temporary-license/).

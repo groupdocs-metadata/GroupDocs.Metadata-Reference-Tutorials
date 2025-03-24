@@ -3,7 +3,6 @@ title: Leer propiedades de formato de archivo de hojas de cálculo en .NET
 linktitle: Leer propiedades de formato de archivo de hojas de cálculo en .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda a leer las propiedades del formato de archivo de una hoja de cálculo usando GroupDocs.Metadata para .NET. Acceda al formato de archivo, al tipo MIME y más con simples llamadas API.
-type: docs
 weight: 12
 url: /es/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
@@ -55,7 +54,7 @@ En este tutorial, exploramos cómo usar GroupDocs.Metadata para .NET para recupe
 
 ## Preguntas frecuentes
 ### ¿GroupDocs.Metadata para .NET es compatible con todo tipo de formatos de hojas de cálculo?
- GroupDocs.Metadata para .NET admite una amplia gama de formatos de hojas de cálculo, incluidos XLSX, XLS, CSV y más. Referirse a[documentación](https://reference.groupdocs.com/metadata/net/) para obtener una lista completa de formatos compatibles.
+ GroupDocs.Metadata para .NET admite una amplia gama de formatos de hojas de cálculo, incluidos XLSX, XLS, CSV y más. Referirse a[documentación](https://tutorials.groupdocs.com/metadata/net/) para obtener una lista completa de formatos compatibles.
 ### ¿Puedo editar propiedades de metadatos usando GroupDocs.Metadata para .NET?
 Sí, GroupDocs.Metadata para .NET permite no solo leer sino también editar propiedades de metadatos asociados con varios formatos de archivo.
 ### ¿Cómo puedo obtener una licencia temporal para realizar pruebas?

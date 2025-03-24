@@ -3,7 +3,6 @@ title: .NET Proje Yönetimi Belgelerindeki Özel Özellikleri Güncelleme
 linktitle: .NET Proje Yönetimi Belgelerindeki Özel Özellikleri Güncelleme
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak .NET proje yönetimi belgelerindeki özel özellikleri nasıl güncelleyeceğinizi öğrenin. Uygulamalarınızda meta veri yönetimini geliştirin.
-type: docs
 weight: 13
 url: /tr/net/project-management-metadata/update-custom-properties-project-management-documents/
 ---

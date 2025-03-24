@@ -4,7 +4,6 @@ linktitle: Metadane arkusza kalkulacyjnego
 second_title: GroupDocs.Metadata API .NET
 description: Odblokuj możliwości GroupDocs.Metadata for .NET dzięki samouczkom dotyczącym odczytywania i aktualizowania właściwości arkusza kalkulacyjnego. Usprawnij manipulację metadanymi w aplikacjach .NET.
 
-type: docs
 weight: 27
 url: /pl/net/spreadsheet-metadata/
 ---

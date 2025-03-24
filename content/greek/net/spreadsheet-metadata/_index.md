@@ -4,7 +4,6 @@ linktitle: Μεταδεδομένα υπολογιστικού φύλλου
 second_title: GroupDocs.Metadata .NET API
 description: Ξεκλειδώστε τη δύναμη του GroupDocs.Metadata για .NET με σεμινάρια για την ανάγνωση και την ενημέρωση των ιδιοτήτων υπολογιστικού φύλλου. Αυξήστε τον χειρισμό μεταδεδομένων στις εφαρμογές σας .NET.
 
-type: docs
 weight: 27
 url: /el/net/spreadsheet-metadata/
 ---

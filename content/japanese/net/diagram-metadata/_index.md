@@ -3,7 +3,6 @@ title: ダイアグラムのメタデータ
 linktitle: ダイアグラムのメタデータ
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用してダイアグラムのメタデータを管理する包括的なチュートリアルをご覧ください。プロパティを簡単に抽出、更新、分析できます。
-type: docs
 weight: 23
 url: /ja/net/diagram-metadata/
 ---

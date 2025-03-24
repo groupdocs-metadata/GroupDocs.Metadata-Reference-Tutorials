@@ -3,7 +3,6 @@ title: Czytaj niestandardowe właściwości z arkuszy kalkulacyjnych w .NET
 linktitle: Czytaj niestandardowe właściwości z arkuszy kalkulacyjnych w .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak wyodrębnić niestandardowe właściwości z arkuszy kalkulacyjnych za pomocą GroupDocs.Metadata dla .NET. Ulepsz manipulację metadanymi w aplikacjach .NET.
-type: docs
 weight: 11
 url: /pl/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---

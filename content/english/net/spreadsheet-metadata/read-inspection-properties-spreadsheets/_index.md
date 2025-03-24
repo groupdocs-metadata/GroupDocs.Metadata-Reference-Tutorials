@@ -3,7 +3,6 @@ title: Read Inspection Properties from Spreadsheets in .NET
 linktitle: Read Inspection Properties from Spreadsheets in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Learn how to read inspection properties from spreadsheets using GroupDocs.Metadata for .NET. Access comments, digital signatures, and hidden sheets effortlessly.
-type: docs
 weight: 13
 url: /net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---

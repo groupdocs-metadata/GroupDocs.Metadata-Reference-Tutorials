@@ -3,7 +3,6 @@ title: Baca Properti Metadata Asli dari Arsip ZIP di .NET
 linktitle: Baca Properti Metadata Asli dari Arsip ZIP di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengekstrak metadata dari arsip ZIP menggunakan GroupDocs.Metadata untuk .NET. Jelajahi petunjuk langkah demi langkah untuk membaca properti asli.
-type: docs
 weight: 13
 url: /id/net/archive-metadata/read-native-metadata-zip-archives/
 ---
@@ -67,7 +66,7 @@ GroupDocs.Metadata untuk .NET adalah perpustakaan canggih yang memungkinkan peng
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk GroupDocs.Metadata?
  Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.groupdocs.com/temporary-license/).
 ### Di mana saya dapat menemukan dokumentasi lengkap GroupDocs.Metadata untuk .NET?
- Dokumentasinya dapat diakses[Di Sini](https://reference.groupdocs.com/metadata/net/).
+ Dokumentasinya dapat diakses[Di Sini](https://tutorials.groupdocs.com/metadata/net/).
 ### Bisakah saya mencoba GroupDocs.Metadata untuk .NET secara gratis?
  Ya, Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.groupdocs.com/).
 ### Bagaimana saya bisa mendapatkan dukungan atau mengajukan pertanyaan tentang GroupDocs.Metadata untuk .NET?

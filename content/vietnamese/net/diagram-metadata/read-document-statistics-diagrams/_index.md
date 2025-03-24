@@ -3,7 +3,6 @@ title: Đọc số liệu thống kê tài liệu từ sơ đồ trong .NET
 linktitle: Đọc số liệu thống kê tài liệu từ sơ đồ trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất số liệu thống kê tài liệu từ sơ đồ trong .NET bằng GroupDocs.Metadata, thư viện thao tác siêu dữ liệu mạnh mẽ.
-type: docs
 weight: 12
 url: /vi/net/diagram-metadata/read-document-statistics-diagrams/
 ---
@@ -53,7 +52,7 @@ Trong hướng dẫn này, chúng ta đã khám phá cách trích xuất số li
 ### Tôi có thể sử dụng GroupDocs.Metadata cho .NET với các định dạng tệp khác ngoài sơ đồ không?
 Có, GroupDocs.Metadata hỗ trợ nhiều định dạng tệp khác nhau bao gồm hình ảnh, tài liệu, bản trình bày, bảng tính, v.v.
 ### Tôi có thể tìm tài liệu chi tiết về GroupDocs.Metadata cho .NET ở đâu?
- Bạn có thể tham khảo các[tài liệu](https://reference.groupdocs.com/metadata/net/) để được hướng dẫn toàn diện.
+ Bạn có thể tham khảo các[tài liệu](https://tutorials.groupdocs.com/metadata/net/) để được hướng dẫn toàn diện.
 ### Có bản dùng thử miễn phí GroupDocs.Metadata cho .NET không?
  Có, bạn có thể truy cập một[dùng thử miễn phí](https://releases.groupdocs.com/) để khám phá các tính năng của GroupDocs.Metadata.
 ### Làm cách nào tôi có thể nhận được hỗ trợ kỹ thuật cho GroupDocs.Metadata cho .NET?

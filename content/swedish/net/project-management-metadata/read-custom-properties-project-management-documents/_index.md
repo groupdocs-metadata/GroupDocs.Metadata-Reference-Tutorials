@@ -3,7 +3,6 @@ title: Läs anpassade egenskaper i .NET Project Management Documents
 linktitle: Läs anpassade egenskaper i .NET Project Management Documents
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du extraherar anpassade egenskaper från .NET-projekthanteringsdokument med GroupDocs.Metadata för .NET. Förbättra din metadatahantering.
-type: docs
 weight: 11
 url: /sv/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
@@ -58,7 +57,7 @@ GroupDocs.Metadata stöder ett brett utbud av projekthanteringsformat, inklusive
 ### Krävs en licens för att använda GroupDocs.Metadata för .NET?
  Ja, en licens krävs för kommersiellt bruk. Du kan få en tillfällig licens från[här](https://purchase.groupdocs.com/temporary-license/).
 ### Hur får jag tillgång till ytterligare dokumentation för GroupDocs.Metadata?
- Utforska detaljerad dokumentation på[referenssida](https://reference.groupdocs.com/metadata/net/).
+ Utforska detaljerad dokumentation på[referenssida](https://tutorials.groupdocs.com/metadata/net/).
 ### Var kan jag få support för GroupDocs.Metadata-relaterade frågor?
  Gå med i gemenskapen på[GroupDocs Metadataforum](https://forum.groupdocs.com/c/metadata/14) för stöd och diskussioner.
 ### Kan jag prova GroupDocs.Metadata gratis innan jag köper?

@@ -3,7 +3,6 @@ title: Ładowanie metadanych
 linktitle: Ładowanie metadanych
 second_title: GroupDocs.Metadata API .NET
 description: Z łatwością zarządzaj metadanymi plików w .NET za pomocą GroupDocs.Metadata. Poznaj techniki ładowania, edytowania i nie tylko, aby uzyskać ulepszone możliwości manipulowania plikami.
-type: docs
 weight: 20
 url: /pl/net/metadata-loading/
 ---

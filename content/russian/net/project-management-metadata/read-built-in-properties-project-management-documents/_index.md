@@ -3,7 +3,6 @@ title: Чтение встроенных свойств в документах 
 linktitle: Чтение встроенных свойств в документах по управлению проектами .NET.
 second_title: GroupDocs.Метаданные .NET API
 description: Научитесь извлекать метаданные из документов управления проектами с помощью GroupDocs.Metadata для .NET. Расширьте свои возможности обработки документов.
-type: docs
 weight: 10
 url: /ru/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---

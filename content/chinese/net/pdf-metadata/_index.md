@@ -3,7 +3,6 @@ title: PDF 元数据
 linktitle: PDF 元数据
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 教程轻松管理 PDF 元数据。使用 C# 代码访问内置和自定义属性。
-type: docs
 weight: 24
 url: /zh/net/pdf-metadata/
 ---

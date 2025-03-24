@@ -3,7 +3,6 @@ title: Läs inbyggda egenskaper från PDF-filer i .NET
 linktitle: Läs inbyggda egenskaper från PDF-filer i .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du läser PDF-metadata i .NET med GroupDocs.Metadata. Få åtkomst till författarens namn, skapandedatum, ämnen och mer med C#-kod.
-type: docs
 weight: 10
 url: /sv/net/pdf-metadata/read-built-in-properties-pdfs/
 ---

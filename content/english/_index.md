@@ -3,7 +3,6 @@ title: Unlocking Metadata Mastery with GroupDocs.Metadata
 linktitle: GroupDocs.Metadata Tutorials
 additionalTitle: GroupDocs API References
 description: Discover comprehensive tutorials for GroupDocs.Metadata across platforms. Master metadata management in .NET and Java effortlessly.
-type: docs
 weight: 11
 url: /
 is_root: true

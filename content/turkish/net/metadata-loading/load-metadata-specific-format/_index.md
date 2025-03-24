@@ -3,7 +3,6 @@ title: .NET'te Belirli Formattan Meta Veri Yükleme
 linktitle: .NET'te Belirli Formattan Meta Veri Yükleme
 second_title: GroupDocs.Metadata .NET API'si
 description: Bu kapsamlı eğitimde GroupDocs.Metadata for .NET'i kullanarak belirli dosya formatlarından meta verileri nasıl yükleyeceğinizi öğrenin.
-type: docs
 weight: 12
 url: /tr/net/metadata-loading/load-metadata-specific-format/
 ---
@@ -55,7 +54,7 @@ Meta veriler, yazar, oluşturulma tarihi veya dosya formatı gibi diğer veriler
 ### Meta verileri yönetmek neden önemlidir?
 Meta verileri yönetmek, dijital içeriği düzenlemek ve anlamak, aranabilirliği ve birlikte çalışabilirliği kolaylaştırmak için çok önemlidir.
 ### GroupDocs.Metadata for .NET'e ilişkin ayrıntılı belgeleri nerede bulabilirim?
- Dokümantasyona ulaşabilirsiniz[Burada](https://reference.groupdocs.com/metadata/net/).
+ Dokümantasyona ulaşabilirsiniz[Burada](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata for .NET için nasıl geçici lisans alabilirim?
  Ziyaret etmek[bu bağlantı](https://purchase.groupdocs.com/temporary-license/) Geçici lisans almak için.
 ### GroupDocs.Metadata for .NET hakkında nereden destek alabilirim veya soru sorabilirim?

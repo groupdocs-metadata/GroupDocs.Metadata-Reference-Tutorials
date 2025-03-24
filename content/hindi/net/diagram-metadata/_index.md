@@ -3,7 +3,6 @@ title: आरेख मेटाडेटा
 linktitle: आरेख मेटाडेटा
 second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata के साथ आरेख मेटाडेटा को प्रबंधित करने पर व्यापक ट्यूटोरियल खोजें। आसानी से गुणों को निकालें, अपडेट करें और उनका विश्लेषण करें।
-type: docs
 weight: 23
 url: /hi/net/diagram-metadata/
 ---

@@ -3,7 +3,6 @@ title: قم بتحديث علامة ID3V2 في ملفات MP3 باستخدام .
 linktitle: قم بتحديث علامة ID3V2 في ملفات MP3 باستخدام .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية تحديث علامات ID3V2 في ملفات MP3 باستخدام .NET مع GroupDocs.Metadata لإدارة الملفات بكفاءة.
-type: docs
 weight: 20
 url: /ar/net/audio-metadata/update-id3v2-tag-mp3/
 ---
@@ -67,7 +66,7 @@ metadata.Save("YourInputFile.mp3");
 ### هل يمكنني استخدام GroupDocs.Metadata مجانًا؟
  نعم، يمكنك الحصول على نسخة تجريبية مجانية من[هنا](https://releases.groupdocs.com/).
 ### أين يمكنني العثور على وثائق GroupDocs.Metadata؟
- الوثائق متاحة[هنا](https://reference.groupdocs.com/metadata/net/).
+ الوثائق متاحة[هنا](https://tutorials.groupdocs.com/metadata/net/).
 ### كيف يمكنني شراء ترخيص لـ GroupDocs.Metadata؟
  يمكنك شراء ترخيص[هنا](https://purchase.groupdocs.com/buy).
 ### هل يوجد منتدى دعم لـ GroupDocs.Metadata؟

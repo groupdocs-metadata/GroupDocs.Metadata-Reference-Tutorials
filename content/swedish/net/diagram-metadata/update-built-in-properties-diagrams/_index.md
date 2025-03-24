@@ -3,7 +3,6 @@ title: Uppdatera inbyggda egenskaper i diagram med .NET
 linktitle: Uppdatera inbyggda egenskaper i diagram med .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du uppdaterar inbyggda egenskaper i diagram med GroupDocs.Metadata för .NET. Ändra metadata sömlöst med kodexempel.
-type: docs
 weight: 14
 url: /sv/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
@@ -79,7 +78,7 @@ S: Ja, GroupDocs.Metadata för .NET stöder redigering av olika metadataegenskap
  A: Du kan besöka[GroupDocs.Metadata-forum](https://forum.groupdocs.com/c/metadata/14) för assistens.
 
 ### F: Var kan jag hitta detaljerad dokumentation för GroupDocs.Metadata for .NET?
- S: Se den omfattande[dokumentation](https://reference.groupdocs.com/metadata/net/) för djupgående vägledning.
+ S: Se den omfattande[dokumentation](https://tutorials.groupdocs.com/metadata/net/) för djupgående vägledning.
 
 ### F: Kan jag köpa en tillfällig licens för kortvarig användning?
  S: Ja, du kan få en tillfällig licens från[här](https://purchase.groupdocs.com/temporary-license/).

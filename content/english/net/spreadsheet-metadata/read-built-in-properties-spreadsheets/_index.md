@@ -3,7 +3,6 @@ title: Read Built-In Properties from Spreadsheets in .NET
 linktitle: Read Built-In Properties from Spreadsheets in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Learn how to extract metadata from spreadsheets in .NET using GroupDocs.Metadata, enhancing document management and organization in your applications.
-type: docs
 weight: 10
 url: /net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Yes, GroupDocs.Metadata supports a wide range of file formats including spreadsh
 ### Can I modify metadata using GroupDocs.Metadata for .NET?
 Yes, you can not only read but also edit, update, and remove metadata using this API.
 ### Where can I find detailed documentation for GroupDocs.Metadata for .NET?
-Detailed documentation is available at [GroupDocs.Metadata for .NET Documentation](https://reference.groupdocs.com/metadata/net/).
+Detailed documentation is available at [GroupDocs.Metadata for .NET Documentation](https://tutorials.groupdocs.com/metadata/net/).
 ### How can I obtain a temporary license for testing purposes?
 You can request a temporary license from [here](https://purchase.groupdocs.com/temporary-license/).
 ### Is there a community forum for GroupDocs.Metadata support?

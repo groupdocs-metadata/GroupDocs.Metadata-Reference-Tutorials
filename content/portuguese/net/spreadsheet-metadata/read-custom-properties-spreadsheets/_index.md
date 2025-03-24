@@ -3,7 +3,6 @@ title: Leia propriedades personalizadas de planilhas em .NET
 linktitle: Leia propriedades personalizadas de planilhas em .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda como extrair propriedades personalizadas de planilhas usando GroupDocs.Metadata for .NET. Aprimore a manipulação de metadados em seus aplicativos .NET.
-type: docs
 weight: 11
 url: /pt/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---

@@ -3,7 +3,6 @@ title: Přečtěte si Uživatelské vlastnosti v .NET Project Management Documen
 linktitle: Přečtěte si Uživatelské vlastnosti v .NET Project Management Documents
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat uživatelské vlastnosti z dokumentů řízení projektů .NET pomocí GroupDocs.Metadata pro .NET. Vylepšete svou správu metadat.
-type: docs
 weight: 11
 url: /cs/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
@@ -58,7 +57,7 @@ GroupDocs.Metadata podporuje širokou škálu formátů projektového řízení,
 ### Je k použití GroupDocs.Metadata pro .NET nutná licence?
  Ano, pro komerční použití je nutná licence. Dočasnou licenci můžete získat od[tady](https://purchase.groupdocs.com/temporary-license/).
 ### Jak mohu získat přístup k další dokumentaci pro GroupDocs.Metadata?
- Prozkoumejte podrobnou dokumentaci na[referenční stránka](https://reference.groupdocs.com/metadata/net/).
+ Prozkoumejte podrobnou dokumentaci na[referenční stránka](https://tutorials.groupdocs.com/metadata/net/).
 ### Kde mohu získat podporu pro dotazy související s GroupDocs.Metadata?
  Připojte se ke komunitě na[Fórum metadat GroupDocs](https://forum.groupdocs.com/c/metadata/14) za podporu a diskuze.
 ### Mohu si GroupDocs.Metadata před nákupem zdarma vyzkoušet?

@@ -3,7 +3,6 @@ title: قراءة الخصائص المخصصة من العروض التقديم
 linktitle: قراءة الخصائص المخصصة من العروض التقديمية في .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية قراءة الخصائص المخصصة من العروض التقديمية في .NET باستخدام GroupDocs.Metadata. الوصول إلى البيانات الوصفية واسترجاعها بكفاءة.
-type: docs
 weight: 11
 url: /ar/net/presentation-metadata/read-custom-properties-presentations/
 ---

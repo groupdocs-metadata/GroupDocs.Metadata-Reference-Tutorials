@@ -3,7 +3,6 @@ title: Lire la balise des paroles à partir de fichiers MP3 dans .NET
 linktitle: Lire la balise des paroles à partir de fichiers MP3 dans .NET
 second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment extraire les balises de paroles de fichiers MP3 à l’aide de GroupDocs.Metadata pour .NET. Suivez notre tutoriel étape par étape.
-type: docs
 weight: 13
 url: /fr/net/audio-metadata/read-lyrics-tag-mp3/
 ---
@@ -62,7 +61,7 @@ Oui, GroupDocs.Metadata vous permet de mettre à jour et de modifier les métado
 ### GroupDocs.Metadata prend-il en charge d'autres formats audio que MP3 ?
 Oui, GroupDocs.Metadata prend en charge une large gamme de formats audio et vidéo pour l'extraction et la manipulation de métadonnées.
 ### Où puis-je trouver une documentation plus détaillée pour GroupDocs.Metadata ?
- Vous pouvez accéder à la documentation complète[ici](https://reference.groupdocs.com/metadata/net/).
+ Vous pouvez accéder à la documentation complète[ici](https://tutorials.groupdocs.com/metadata/net/).
 ### Existe-t-il un essai gratuit disponible pour GroupDocs.Metadata ?
  Oui, vous pouvez obtenir une version d'essai gratuite[ici](https://releases.groupdocs.com/).
 ### Comment puis-je obtenir une assistance technique pour GroupDocs.Metadata ?

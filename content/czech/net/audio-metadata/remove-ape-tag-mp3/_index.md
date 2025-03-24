@@ -3,7 +3,6 @@ title: Odstraňte značku APE ze souborů MP3 v .NET
 linktitle: Odstraňte značku APE ze souborů MP3 v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Přečtěte si, jak odstranit značky APE ze souborů MP3 pomocí GroupDocs.Metadata for .NET. Spravujte metadata ve svých aplikacích .NET bez námahy.
-type: docs
 weight: 15
 url: /cs/net/audio-metadata/remove-ape-tag-mp3/
 ---
@@ -13,7 +12,7 @@ V oblasti vývoje .NET je správa metadat v souborech zásadní pro efektivní o
 Než se ponoříte do výukového programu, ujistěte se, že máte následující předpoklady:
 - Základní znalost C# a .NET frameworku.
 - Visual Studio nainstalované na vašem počítači.
--  Nainstalovaná knihovna GroupDocs.Metadata for .NET (viz[dokumentace](https://reference.groupdocs.com/metadata/net/) pro kroky instalace).
+-  Nainstalovaná knihovna GroupDocs.Metadata for .NET (viz[dokumentace](https://tutorials.groupdocs.com/metadata/net/) pro kroky instalace).
 
 ## Import jmenných prostorů
 Nejprve se ujistěte, že do svého projektu C# importujete potřebné jmenné prostory:

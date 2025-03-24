@@ -3,7 +3,6 @@ title: Đọc Thuộc tính siêu dữ liệu gốc từ Kho lưu trữ 7Zip tro
 linktitle: Đọc Thuộc tính siêu dữ liệu gốc từ Kho lưu trữ 7Zip trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách đọc thuộc tính siêu dữ liệu gốc từ kho lưu trữ 7Zip bằng GroupDocs.Metadata cho .NET. Nâng cao khả năng quản lý dữ liệu của ứng dụng .NET của bạn.
-type: docs
 weight: 11
 url: /vi/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
@@ -64,7 +63,7 @@ Có, GroupDocs.Metadata cung cấp khả năng mạnh mẽ để chỉnh sửa, 
 ### GroupDocs.Metadata có tương thích với các định dạng lưu trữ khác như RAR hoặc TAR không?
 Có, GroupDocs.Metadata hỗ trợ nhiều định dạng lưu trữ, bao gồm RAR, TAR và ZIP, cùng nhiều định dạng khác.
 ### Tôi có thể tìm tài liệu chi tiết về GroupDocs.Metadata cho .NET ở đâu?
- Bạn có thể truy cập tài liệu[đây](https://reference.groupdocs.com/metadata/net/).
+ Bạn có thể truy cập tài liệu[đây](https://tutorials.groupdocs.com/metadata/net/).
 ### Làm cách nào để có được giấy phép tạm thời cho GroupDocs.Metadata?
  Bạn có thể có được giấy phép tạm thời[đây](https://purchase.groupdocs.com/temporary-license/).
 ### GroupDocs.Metadata có cung cấp hỗ trợ cho việc khắc phục sự cố và giải đáp thắc mắc không?

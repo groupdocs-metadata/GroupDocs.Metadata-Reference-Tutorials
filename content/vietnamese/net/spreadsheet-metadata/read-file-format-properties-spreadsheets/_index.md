@@ -3,7 +3,6 @@ title: Đọc thuộc tính định dạng tệp từ bảng tính trong .NET
 linktitle: Đọc thuộc tính định dạng tệp từ bảng tính trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách đọc thuộc tính định dạng tệp bảng tính bằng GroupDocs.Metadata cho .NET. Truy cập định dạng tệp, loại MIME và hơn thế nữa bằng các lệnh gọi API đơn giản.
-type: docs
 weight: 12
 url: /vi/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
@@ -55,7 +54,7 @@ Trong hướng dẫn này, chúng ta đã khám phá cách sử dụng GroupDocs
 
 ## Câu hỏi thường gặp
 ### GroupDocs.Metadata cho .NET có tương thích với tất cả các loại định dạng bảng tính không?
- GroupDocs.Metadata dành cho .NET hỗ trợ nhiều định dạng bảng tính, bao gồm XLSX, XLS, CSV, v.v. Tham khảo đến[tài liệu](https://reference.groupdocs.com/metadata/net/) để có danh sách đầy đủ các định dạng được hỗ trợ.
+ GroupDocs.Metadata dành cho .NET hỗ trợ nhiều định dạng bảng tính, bao gồm XLSX, XLS, CSV, v.v. Tham khảo đến[tài liệu](https://tutorials.groupdocs.com/metadata/net/) để có danh sách đầy đủ các định dạng được hỗ trợ.
 ### Tôi có thể chỉnh sửa thuộc tính siêu dữ liệu bằng GroupDocs.Metadata cho .NET không?
 Có, GroupDocs.Metadata for .NET không chỉ cho phép đọc mà còn chỉnh sửa các thuộc tính siêu dữ liệu được liên kết với các định dạng tệp khác nhau.
 ### Làm cách nào để có được giấy phép tạm thời cho mục đích thử nghiệm?

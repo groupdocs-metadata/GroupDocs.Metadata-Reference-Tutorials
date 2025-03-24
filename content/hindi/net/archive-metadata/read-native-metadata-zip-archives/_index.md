@@ -3,7 +3,6 @@ title: .NET में ZIP अभिलेखागार से मूल मे
 linktitle: .NET में ZIP अभिलेखागार से मूल मेटाडेटा गुण पढ़ें
 second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके ZIP संग्रह से मेटाडेटा निकालने का तरीका जानें। मूल गुण पढ़ने के लिए चरण-दर-चरण निर्देशों का अन्वेषण करें।
-type: docs
 weight: 13
 url: /hi/net/archive-metadata/read-native-metadata-zip-archives/
 ---
@@ -67,7 +66,7 @@ foreach (var file in root.ZipPackage.Files)
 ### मैं GroupDocs.Metadata के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
  आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.groupdocs.com/temporary-license/).
 ### मुझे .NET के लिए GroupDocs.Metadata का संपूर्ण दस्तावेज़ कहां मिल सकता है?
- दस्तावेज़ तक पहुँचा जा सकता है[यहाँ](https://reference.groupdocs.com/metadata/net/).
+ दस्तावेज़ तक पहुँचा जा सकता है[यहाँ](https://tutorials.groupdocs.com/metadata/net/).
 ### क्या मैं .NET के लिए GroupDocs.Metadata निःशुल्क आज़मा सकता हूँ?
  हाँ, आप निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.groupdocs.com/).
 ### मैं .NET के लिए GroupDocs.Metadata के बारे में समर्थन कैसे प्राप्त कर सकता हूँ या प्रश्न कैसे पूछ सकता हूँ?

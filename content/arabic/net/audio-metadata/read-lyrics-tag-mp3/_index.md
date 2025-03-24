@@ -3,7 +3,6 @@ title: قراءة علامة الأغاني من ملفات MP3 في .NET
 linktitle: قراءة علامة الأغاني من ملفات MP3 في .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج علامات كلمات الأغاني من ملفات MP3 باستخدام GroupDocs.Metadata لـ .NET. اتبع البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 13
 url: /ar/net/audio-metadata/read-lyrics-tag-mp3/
 ---
@@ -62,7 +61,7 @@ using (Metadata metadata = new Metadata("YourInputFile.mp3"))
 ### هل يدعم GroupDocs.Metadata تنسيقات الصوت الأخرى إلى جانب MP3؟
 نعم، يدعم GroupDocs.Metadata نطاقًا واسعًا من تنسيقات الصوت والفيديو لاستخراج بيانات التعريف ومعالجتها.
 ### أين يمكنني العثور على مزيد من الوثائق التفصيلية لـ GroupDocs.Metadata؟
- يمكنك الوصول إلى الوثائق الكاملة[هنا](https://reference.groupdocs.com/metadata/net/).
+ يمكنك الوصول إلى الوثائق الكاملة[هنا](https://tutorials.groupdocs.com/metadata/net/).
 ### هل هناك نسخة تجريبية مجانية متاحة لـ GroupDocs.Metadata؟
  نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.groupdocs.com/).
 ### كيف يمكنني الحصول على الدعم الفني لـ GroupDocs.Metadata؟

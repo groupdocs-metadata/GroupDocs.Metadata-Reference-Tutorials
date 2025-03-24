@@ -4,7 +4,6 @@ linktitle: Metadatos de hoja de cálculo
 second_title: API GroupDocs.Metadata .NET
 description: Descubra el poder de GroupDocs.Metadata para .NET con tutoriales sobre cómo leer y actualizar las propiedades de las hojas de cálculo. Eleve la manipulación de metadatos en sus aplicaciones .NET.
 
-type: docs
 weight: 27
 url: /es/net/spreadsheet-metadata/
 ---

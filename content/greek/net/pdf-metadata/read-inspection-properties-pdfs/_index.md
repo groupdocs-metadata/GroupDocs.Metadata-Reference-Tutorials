@@ -3,7 +3,6 @@ title: Διαβάστε τις ιδιότητες επιθεώρησης από 
 linktitle: Διαβάστε τις ιδιότητες επιθεώρησης από αρχεία PDF στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε ιδιότητες επιθεώρησης από έγγραφα PDF χρησιμοποιώντας το GroupDocs.Metadata για .NET. Εξερευνήστε σχολιασμούς, συνημμένα και πολλά άλλα.
-type: docs
 weight: 14
 url: /el/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
@@ -100,7 +99,7 @@ if (root.InspectionPackage.Fields != null)
 ### Μπορώ να χρησιμοποιήσω το GroupDocs.Metadata με άλλες μορφές αρχείων εκτός από το PDF;
 Ναι, το GroupDocs.Metadata υποστηρίζει ένα ευρύ φάσμα μορφών εγγράφων, συμπεριλαμβανομένων εγγράφων του Microsoft Office, εικόνων, αρχείων ήχου και άλλων.
 ### Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το GroupDocs.Metadata για .NET;
- Αναφέρομαι στο[τεκμηρίωση](https://reference.groupdocs.com/metadata/net/) για ολοκληρωμένη καθοδήγηση και αναφορές API.
+ Αναφέρομαι στο[τεκμηρίωση](https://tutorials.groupdocs.com/metadata/net/) για ολοκληρωμένη καθοδήγηση και αναφορές API.
 ### Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το GroupDocs.Metadata;
  Ναι, μπορείτε να αποκτήσετε δωρεάν δοκιμή από το[Σελίδα εκδόσεων GroupDocs](https://releases.groupdocs.com/).
 ### Πώς μπορώ να λάβω υποστήριξη για τυχόν ζητήματα ή ερωτήματα που σχετίζονται με το GroupDocs.Metadata;

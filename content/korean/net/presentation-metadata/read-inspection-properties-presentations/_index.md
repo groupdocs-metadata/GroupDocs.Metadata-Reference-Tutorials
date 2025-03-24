@@ -3,7 +3,6 @@ title: .NET 프레젠테이션에서 검사 속성 읽기
 linktitle: .NET 프레젠테이션에서 검사 속성 읽기
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 프레젠테이션 메타데이터를 추출하는 방법을 알아보세요. 댓글, 숨겨진 슬라이드 등에 프로그래밍 방식으로 액세스하세요.
-type: docs
 weight: 14
 url: /ko/net/presentation-metadata/read-inspection-properties-presentations/
 ---
@@ -64,7 +63,7 @@ A: .NET용 GroupDocs.Metadata는 개발자가 프로그래밍 방식으로 다�
 ### Q: GroupDocs.Metadata에 대한 임시 라이센스를 얻으려면 어떻게 해야 합니까?
  A: 다음에서 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.groupdocs.com/temporary-license/).
 ### Q: .NET용 GroupDocs.Metadata에 대한 설명서는 어디에서 찾을 수 있습니까?
- A: 문서를 참조할 수 있습니다.[여기](https://reference.groupdocs.com/metadata/net/).
+ A: 문서를 참조할 수 있습니다.[여기](https://tutorials.groupdocs.com/metadata/net/).
 ### Q: GroupDocs.Metadata에 대한 지원을 받으려면 어떻게 해야 합니까?
  A: 지원 및 토론을 원하시면 GroupDocs.Metadata 포럼을 방문하세요.[여기](https://forum.groupdocs.com/c/metadata/14).
 ### 질문: .NET용 GroupDocs.Metadata 무료 평가판을 다운로드할 수 있습니까?

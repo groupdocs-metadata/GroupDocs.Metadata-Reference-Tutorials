@@ -3,7 +3,6 @@ title: 使用 .NET 更新 PDF 中的檢查屬性
 linktitle: 使用 .NET 更新 PDF 中的檢查屬性
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 更新 PDF 文件中的檢查屬性。使用 C# 高效管理元資料和註解。
-type: docs
 weight: 17
 url: /zh-hant/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
@@ -67,6 +66,6 @@ metadata.Save("YourInputFile.pdf");
 ### 如果我在使用 GroupDocs.Metadata 時遇到問題，該如何獲得支援？
 參觀[GroupDocs.元資料論壇](https://forum.groupdocs.com/c/metadata/14)尋求幫助和社區支持。
 ### 在哪裡可以找到 GroupDocs.Metadata for .NET 的詳細文件？
-請參閱[文件](https://reference.groupdocs.com/metadata/net/)取得使用圖書館的全面指導。
+請參閱[文件](https://tutorials.groupdocs.com/metadata/net/)取得使用圖書館的全面指導。
 ### 我可以獲得用於測試目的的臨時許可證嗎？
 是的，您可以請求[臨時執照](https://purchase.groupdocs.com/temporary-license/)出於評估目的。

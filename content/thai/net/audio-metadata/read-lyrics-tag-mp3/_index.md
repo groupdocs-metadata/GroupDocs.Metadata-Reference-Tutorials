@@ -3,7 +3,6 @@ title: อ่านแท็กเนื้อเพลงจากไฟล์ 
 linktitle: อ่านแท็กเนื้อเพลงจากไฟล์ MP3 ใน .NET
 second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีแยกแท็กเนื้อเพลงจากไฟล์ MP3 โดยใช้ GroupDocs.Metadata สำหรับ .NET ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเรา
-type: docs
 weight: 13
 url: /th/net/audio-metadata/read-lyrics-tag-mp3/
 ---
@@ -62,7 +61,7 @@ using (Metadata metadata = new Metadata("YourInputFile.mp3"))
 ### GroupDocs.Metadata รองรับรูปแบบเสียงอื่นนอกเหนือจาก MP3 หรือไม่
 ใช่ GroupDocs.Metadata รองรับรูปแบบเสียงและวิดีโอที่หลากหลายสำหรับการดึงและจัดการข้อมูลเมตา
 ### ฉันจะหาเอกสารรายละเอียดเพิ่มเติมสำหรับ GroupDocs.Metadata ได้ที่ไหน
- คุณสามารถเข้าถึงเอกสารฉบับเต็มได้[ที่นี่](https://reference.groupdocs.com/metadata/net/).
+ คุณสามารถเข้าถึงเอกสารฉบับเต็มได้[ที่นี่](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata มีการทดลองใช้ฟรีหรือไม่
  ใช่ คุณสามารถรับเวอร์ชันทดลองใช้ฟรีได้[ที่นี่](https://releases.groupdocs.com/).
 ### ฉันจะรับการสนับสนุนทางเทคนิคสำหรับ GroupDocs.Metadata ได้อย่างไร

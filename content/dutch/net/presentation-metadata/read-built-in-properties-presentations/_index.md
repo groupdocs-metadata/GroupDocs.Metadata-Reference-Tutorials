@@ -3,7 +3,6 @@ title: Lees ingebouwde eigenschappen van presentaties in .NET
 linktitle: Lees ingebouwde eigenschappen van presentaties in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer in deze uitgebreide zelfstudie hoe u ingebouwde eigenschappen uit presentaties kunt extraheren met GroupDocs.Metadata voor .NET.
-type: docs
 weight: 10
 url: /nl/net/presentation-metadata/read-built-in-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Ja, GroupDocs.Metadata voor .NET ondersteunt verschillende presentatieformaten z
 ### Kan ik metagegevens wijzigen of bijwerken met GroupDocs.Metadata voor .NET?
 Absoluut, u kunt metagegevenseigenschappen wijzigen, bijwerken en verwijderen met behulp van deze bibliotheek.
 ### Waar kan ik gedetailleerde documentatie vinden voor GroupDocs.Metadata voor .NET?
- U kunt de documentatie raadplegen[hier](https://reference.groupdocs.com/metadata/net/) voor uitgebreide informatie.
+ U kunt de documentatie raadplegen[hier](https://tutorials.groupdocs.com/metadata/net/) voor uitgebreide informatie.
 ### Hoe kan ik een tijdelijke licentie verkrijgen voor GroupDocs.Metadata voor .NET?
  U kunt een tijdelijke licentie aanschaffen[hier](https://purchase.groupdocs.com/temporary-license/) voor evaluatiedoeleinden.
 ### Waar kan ik hulp zoeken of vragen stellen met betrekking tot GroupDocs.Metadata voor .NET?

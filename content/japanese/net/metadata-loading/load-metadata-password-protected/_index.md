@@ -3,7 +3,6 @@ title: .NET でパスワード保護されたドキュメントからメタデ�
 linktitle: .NET でパスワード保護されたドキュメントからメタデータを読み込む方法
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用してドキュメント メタデータを効率的に管理する方法を学びます。.NET アプリケーションでメタデータをシームレスに抽出、編集、処理します。
-type: docs
 weight: 13
 url: /ja/net/metadata-loading/load-metadata-password-protected/
 ---
@@ -60,6 +59,6 @@ Console.WriteLine("Title: " + documentMetadata.Title);
 ### ドキュメントの読み込みに関連する例外をどのように処理すればよいですか?
 潜在的な例外をキャッチして管理するために、ドキュメントの読み込み操作に関する適切なエラー処理を確保します。
 ### GroupDocs.Metadata for .NET の詳細なドキュメントはどこで入手できますか?
-訪問[ドキュメンテーション](https://reference.groupdocs.com/metadata/net/)包括的なガイドと API リファレンスについては、こちらをご覧ください。
+訪問[ドキュメンテーション](https://tutorials.groupdocs.com/metadata/net/)包括的なガイドと API リファレンスについては、こちらをご覧ください。
 ### GroupDocs.Metadata for .NET に利用できる無料試用版はありますか?
 はい、図書館を探索するには[無料トライアル](https://releases.groupdocs.com/).

@@ -3,7 +3,6 @@ title: Ενημερώστε την ετικέτα στίχων σε αρχεία
 linktitle: Ενημερώστε την ετικέτα στίχων σε αρχεία MP3 χρησιμοποιώντας .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να ενημερώνετε τα μεταδεδομένα αρχείων MP3, συμπεριλαμβανομένων των στοιχείων στίχων, καλλιτέχνη και άλμπουμ μέσω προγραμματισμού, χρησιμοποιώντας το GroupDocs.Metadata για .NET.
-type: docs
 weight: 21
 url: /el/net/audio-metadata/update-lyrics-tag-mp3/
 ---

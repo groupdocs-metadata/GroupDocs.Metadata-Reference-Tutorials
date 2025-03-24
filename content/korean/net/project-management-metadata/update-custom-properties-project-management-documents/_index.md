@@ -3,7 +3,6 @@ title: .NET 프로젝트 관리 문서에서 사용자 정의 속성 업데이�
 linktitle: .NET 프로젝트 관리 문서에서 사용자 정의 속성 업데이트
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 .NET 프로젝트 관리 문서에서 사용자 정의 속성을 업데이트하는 방법을 알아보세요. 애플리케이션의 메타데이터 관리를 강화하세요.
-type: docs
 weight: 13
 url: /ko/net/project-management-metadata/update-custom-properties-project-management-documents/
 ---

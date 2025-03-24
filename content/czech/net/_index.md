@@ -1,7 +1,6 @@
 ---
 title: Návody a příklady GroupDocs.Metadata pro .NET
 linktitle: GroupDocs.Metadata pro .NET výukové programy
-type: docs
 weight: 10
 url: /cs/net/
 description: Spravujte metadata souborů v .NET bez námahy pomocí GroupDocs.Metadata. Naučte se techniky načítání, úpravy a další pro vylepšené možnosti manipulace se soubory.

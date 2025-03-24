@@ -3,7 +3,6 @@ title: .NET を使用してプレゼンテーションの組み込みプロパ�
 linktitle: .NET を使用してプレゼンテーションの組み込みプロパティを更新する
 second_title: GroupDocs.Metadata .NET API
 description: 多目的メタデータ操作ライブラリである GroupDocs.Metadata を使用して .NET でプレゼンテーションの組み込みプロパティを更新する方法を学習します。
-type: docs
 weight: 15
 url: /ja/net/presentation-metadata/update-built-in-properties-presentations/
 ---
@@ -51,7 +50,7 @@ metadata.Save("YourPresentationFile.pptx");
 ### Q: GroupDocs.Metadata for .NET とは何ですか?
 A: GroupDocs.Metadata for .NET は、.NET フレームワーク用の強力なメタデータ操作ライブラリであり、開発者はさまざまなドキュメント形式でメタデータを読み取り、書き込み、編集できます。
 ### Q: GroupDocs.Metadata のドキュメントはどこにありますか?
- A: 詳細なドキュメントにアクセスできます[ここ](https://reference.groupdocs.com/metadata/net/).
+ A: 詳細なドキュメントにアクセスできます[ここ](https://tutorials.groupdocs.com/metadata/net/).
 ### Q: GroupDocs.Metadata の一時ライセンスを取得するにはどうすればよいですか?
 A: 臨時免許証を取得することができます[ここ](https://purchase.groupdocs.com/temporary-license/).
 ### Q: GroupDocs.Metadata はプレゼンテーション以外のファイル形式もサポートしていますか?

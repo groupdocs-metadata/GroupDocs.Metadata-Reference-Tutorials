@@ -3,7 +3,6 @@ title: Lees de songteksttag van mp3-bestanden in .NET
 linktitle: Lees de songteksttag van mp3-bestanden in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u songteksttags uit MP3-bestanden kunt extraheren met GroupDocs.Metadata voor .NET. Volg onze stap-voor-stap handleiding.
-type: docs
 weight: 13
 url: /nl/net/audio-metadata/read-lyrics-tag-mp3/
 ---
@@ -62,7 +61,7 @@ Ja, met GroupDocs.Metadata kunt u metagegevens in MP3-bestanden bijwerken en wij
 ### Ondersteunt GroupDocs.Metadata naast MP3 ook andere audioformaten?
 Ja, GroupDocs.Metadata ondersteunt een breed scala aan audio- en videoformaten voor extractie en manipulatie van metagegevens.
 ### Waar kan ik meer gedetailleerde documentatie voor GroupDocs.Metadata vinden?
- U heeft toegang tot de volledige documentatie[hier](https://reference.groupdocs.com/metadata/net/).
+ U heeft toegang tot de volledige documentatie[hier](https://tutorials.groupdocs.com/metadata/net/).
 ### Is er een gratis proefversie beschikbaar voor GroupDocs.Metadata?
  Ja, u kunt een gratis proefversie krijgen[hier](https://releases.groupdocs.com/).
 ### Hoe kan ik technische ondersteuning krijgen voor GroupDocs.Metadata?

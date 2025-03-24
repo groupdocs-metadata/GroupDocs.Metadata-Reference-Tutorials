@@ -3,7 +3,6 @@ title: Rimuovi il tag ID3V1 dai file MP3 in .NET
 linktitle: Rimuovi il tag ID3V1 dai file MP3 in .NET
 second_title: API GroupDocs.Metadata .NET
 description: Scopri come rimuovere i tag ID3V1 dai file MP3 utilizzando GroupDocs.Metadata per .NET. Facile guida passo passo con esempi pratici.
-type: docs
 weight: 16
 url: /it/net/audio-metadata/remove-id3v1-tag-mp3/
 ---
@@ -56,7 +55,7 @@ In questo tutorial, abbiamo spiegato come rimuovere il tag ID3V1 dai file MP3 ut
 ### Posso manipolare i metadati in altri formati di file oltre a MP3 utilizzando questa libreria?
 Sì, GroupDocs.Metadata supporta un'ampia gamma di formati di file tra cui DOCX, XLSX, PDF, PNG, JPG e altri.
 ### Dove posso trovare ulteriore documentazione su GroupDocs.Metadata per .NET?
- È disponibile la documentazione dettagliata[Qui](https://reference.groupdocs.com/metadata/net/).
+ È disponibile la documentazione dettagliata[Qui](https://tutorials.groupdocs.com/metadata/net/).
 ### Come posso ottenere supporto o porre domande relative a GroupDocs.Metadata?
  Puoi pubblicare le tue domande sul forum GroupDocs.Metadata[Qui](https://forum.groupdocs.com/c/metadata/14).
 ### È disponibile una licenza temporanea a scopo di test?

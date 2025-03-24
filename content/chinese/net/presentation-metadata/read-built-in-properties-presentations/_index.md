@@ -3,7 +3,6 @@ title: 从 .NET 中的演示文稿中读取内置属性
 linktitle: 从 .NET 中的演示文稿中读取内置属性
 second_title: GroupDocs.元数据 .NET API
 description: 在本综合教程中了解如何使用 GroupDocs.Metadata for .NET 从演示文稿中提取内置属性。
-type: docs
 weight: 10
 url: /zh/net/presentation-metadata/read-built-in-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Console.WriteLine(root.DocumentProperties.NameOfApplication);
 ### 我可以使用 GroupDocs.Metadata for .NET 修改或更新元数据吗？
 当然，您可以使用此库修改、更新和删除元数据属性。
 ### 在哪里可以找到有关 .NET 的 GroupDocs.Metadata 的详细文档？
-您可以参考文档[这里](https://reference.groupdocs.com/metadata/net/)了解全面信息。
+您可以参考文档[这里](https://tutorials.groupdocs.com/metadata/net/)了解全面信息。
 ### 如何获取 .NET 的 GroupDocs.Metadata 临时许可证？
 您可以获得临时驾照[这里](https://purchase.groupdocs.com/temporary-license/)出于评估目的。
 ### 我可以在哪里寻求帮助或询问与 GroupDocs.Metadata for .NET 相关的问题？

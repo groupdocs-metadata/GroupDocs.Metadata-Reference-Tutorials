@@ -3,7 +3,6 @@ title: .NET kullanarak Elektronik Tablolardaki Denetim Özelliklerini Güncellem
 linktitle: .NET kullanarak Elektronik Tablolardaki Denetim Özelliklerini Güncelleme
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak e-tablolardaki inceleme özelliklerini nasıl güncelleyeceğinizi öğrenin. Yorumları, imzaları ve gizli sayfaları kolaylıkla yönetin.
-type: docs
 weight: 16
 url: /tr/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ Evet, GroupDocs.Metadata, XLSX, XLS, CSV ve daha fazlası dahil olmak üzere çe
 ### GroupDocs.Metadata'yı kullanarak diğer meta veri özelliklerini değiştirebilir miyim?
 Kesinlikle, GroupDocs.Metadata yazar, başlık, oluşturulma tarihi vb. gibi meta veri özelliklerini okumanıza, güncellemenize, kaldırmanıza ve eklemenize olanak tanır.
 ### GroupDocs.Metadata for .NET'e ilişkin ayrıntılı belgeleri nerede bulabilirim?
- Kapsamlı içeriğe başvurabilirsiniz[dokümantasyon](https://reference.groupdocs.com/metadata/net/) çevrimiçi olarak mevcuttur.
+ Kapsamlı içeriğe başvurabilirsiniz[dokümantasyon](https://tutorials.groupdocs.com/metadata/net/) çevrimiçi olarak mevcuttur.
 ### GroupDocs.Metadata for .NET'in ücretsiz deneme sürümü var mı?
  Evet, şu adrese erişebilirsiniz:[ücretsiz deneme](https://releases.groupdocs.com/) API'yi değerlendirmek için.
 ### GroupDocs.Metadata for .NET için nasıl teknik destek alabilirim?

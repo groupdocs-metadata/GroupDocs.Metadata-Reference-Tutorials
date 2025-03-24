@@ -3,7 +3,6 @@ title: .NET'teki MP3 Dosyalarından ID3V1 Etiketini Okuyun
 linktitle: .NET'teki MP3 Dosyalarından ID3V1 Etiketini Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak MP3 dosyalarından ID3V1 etiketlerini nasıl okuyacağınızı öğrenin. Kod örnekleriyle adım adım eğitim.
-type: docs
 weight: 11
 url: /tr/net/audio-metadata/read-id3v1-tag-mp3/
 ---
@@ -62,6 +61,6 @@ ID3V1 etiketi, MP3 ses dosyalarındaki meta verileri (albüm, sanatçı, başlı
 ### Satın almadan önce GroupDocs.Metadata for .NET'i deneyebilir miyim?
  Evet, ücretsiz deneme sürümünü alabilirsiniz[Burada](https://releases.groupdocs.com/).
 ### GroupDocs.Metadata for .NET belgelerini nerede bulabilirim?
- Ayrıntılı belgeleri ve API referanslarını bulabilirsiniz[Burada](https://reference.groupdocs.com/metadata/net/).
+ Ayrıntılı belgeleri ve API referanslarını bulabilirsiniz[Burada](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata için nasıl teknik destek alabilirim?
  Teknik destek için şu adresi ziyaret edin:[GroupDocs.Meta veri forumu](https://forum.groupdocs.com/c/metadata/14).

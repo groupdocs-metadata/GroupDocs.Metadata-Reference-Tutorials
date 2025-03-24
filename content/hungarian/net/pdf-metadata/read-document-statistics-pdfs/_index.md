@@ -3,7 +3,6 @@ title: Dokumentumstatisztikák olvasása PDF-ekből a .NET-ben
 linktitle: Dokumentumstatisztikák olvasása PDF-ekből a .NET-ben
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthat ki PDF-dokumentumstatisztikát a GroupDocs.Metadata for .NET használatával. Fokozatmentesen fokozza dokumentumkezelési képességeit.
-type: docs
 weight: 12
 url: /hu/net/pdf-metadata/read-document-statistics-pdfs/
 ---
@@ -52,7 +51,7 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan használhatjuk fel a GroupDocs.M
 ### A GroupDocs.Metadata kezelhet más dokumentumformátumokat a PDF-en kívül?
 Igen, a GroupDocs.Metadata a dokumentumformátumok széles skáláját támogatja, beleértve a Microsoft Office-t (Word, Excel, PowerPoint), a PDF-et, a képeket, a hangot, a videót és még sok mást.
 ### Hol találom a GroupDocs.Metadata for .NET részletes dokumentációját?
- Hivatkozhat a[dokumentáció](https://reference.groupdocs.com/metadata/net/) átfogó útmutatókért, API-referenciákért és kódpéldákért.
+ Hivatkozhat a[dokumentáció](https://tutorials.groupdocs.com/metadata/net/) átfogó útmutatókért, API-referenciákért és kódpéldákért.
 ### A GroupDocs.Metadata alkalmas kereskedelmi használatra?
  Természetesen a GroupDocs.Metadata kereskedelmi licenceket kínál, és Ön megvásárolhatja azokat[itt](https://purchase.groupdocs.com/buy).
 ### Kipróbálhatom a GroupDocs.Metadata szolgáltatást vásárlás előtt?

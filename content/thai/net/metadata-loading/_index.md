@@ -3,7 +3,6 @@ title: กำลังโหลดข้อมูลเมตา
 linktitle: กำลังโหลดข้อมูลเมตา
 second_title: GroupDocs.Metadata .NET API
 description: จัดการข้อมูลเมตาของไฟล์ใน .NET ได้อย่างง่ายดายด้วย GroupDocs.Metadata เรียนรู้เทคนิคการโหลด การแก้ไข และอื่นๆ เพื่อเพิ่มความสามารถในการจัดการไฟล์
-type: docs
 weight: 20
 url: /th/net/metadata-loading/
 ---

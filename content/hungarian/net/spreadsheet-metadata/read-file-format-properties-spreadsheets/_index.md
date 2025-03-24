@@ -3,7 +3,6 @@ title: Olvassa el a Fájlformátum tulajdonságait a .NET-ben található tábl�
 linktitle: Olvassa el a Fájlformátum tulajdonságait a .NET-ben található táblázatokból
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan olvassa el a táblázatfájl-formátum tulajdonságait a GroupDocs.Metadata for .NET használatával. Egyszerű API-hívásokkal elérheti a fájlformátumot, MIME-típust és még sok mást.
-type: docs
 weight: 12
 url: /hu/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
@@ -55,7 +54,7 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan használhatjuk a GroupDocs.Metad
 
 ## GYIK
 ### A GroupDocs.Metadata for .NET kompatibilis minden típusú táblázatformátummal?
- A GroupDocs.Metadata for .NET a táblázatformátumok széles skáláját támogatja, beleértve az XLSX-et, XLS-t, CSV-t és egyebeket. Utal[dokumentáció](https://reference.groupdocs.com/metadata/net/) a támogatott formátumok átfogó listájához.
+ A GroupDocs.Metadata for .NET a táblázatformátumok széles skáláját támogatja, beleértve az XLSX-et, XLS-t, CSV-t és egyebeket. Utal[dokumentáció](https://tutorials.groupdocs.com/metadata/net/) a támogatott formátumok átfogó listájához.
 ### Szerkeszthetem a metaadatok tulajdonságait a GroupDocs.Metadata for .NET használatával?
 Igen, a GroupDocs.Metadata for .NET lehetővé teszi a különböző fájlformátumokhoz kapcsolódó metaadat-tulajdonságok nemcsak olvasását, hanem szerkesztését is.
 ### Hogyan szerezhetek ideiglenes licencet tesztelési célból?

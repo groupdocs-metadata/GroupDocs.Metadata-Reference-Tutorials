@@ -3,7 +3,6 @@ title: Baca Properti Inspeksi dari PDF di .NET
 linktitle: Baca Properti Inspeksi dari PDF di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengekstrak properti inspeksi dari dokumen PDF menggunakan GroupDocs.Metadata untuk .NET. Jelajahi anotasi, lampiran, dan lainnya.
-type: docs
 weight: 14
 url: /id/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
@@ -100,7 +99,7 @@ Dalam tutorial ini, kita telah menjelajahi cara membaca properti inspeksi dari P
 ### Bisakah saya menggunakan GroupDocs.Metadata dengan format file lain selain PDF?
 Ya, GroupDocs.Metadata mendukung berbagai format dokumen termasuk dokumen Microsoft Office, gambar, file audio, dan banyak lagi.
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk GroupDocs.Metadata untuk .NET?
- Mengacu kepada[dokumentasi](https://reference.groupdocs.com/metadata/net/) untuk panduan komprehensif dan referensi API.
+ Mengacu kepada[dokumentasi](https://tutorials.groupdocs.com/metadata/net/) untuk panduan komprehensif dan referensi API.
 ### Apakah ada versi uji coba yang tersedia untuk GroupDocs.Metadata?
  Ya, Anda bisa mendapatkan uji coba gratis dari[Halaman rilis GroupDocs](https://releases.groupdocs.com/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk masalah atau pertanyaan apa pun yang terkait dengan GroupDocs.Metadata?

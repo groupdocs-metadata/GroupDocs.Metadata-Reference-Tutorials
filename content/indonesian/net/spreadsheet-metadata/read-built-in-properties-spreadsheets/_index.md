@@ -3,7 +3,6 @@ title: Baca Properti Bawaan dari Spreadsheet di .NET
 linktitle: Baca Properti Bawaan dari Spreadsheet di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengekstrak metadata dari spreadsheet di .NET menggunakan GroupDocs.Metadata, sehingga meningkatkan manajemen dan pengorganisasian dokumen dalam aplikasi Anda.
-type: docs
 weight: 10
 url: /id/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Ya, GroupDocs.Metadata mendukung berbagai format file termasuk spreadsheet, doku
 ### Bisakah saya mengubah metadata menggunakan GroupDocs.Metadata untuk .NET?
 Ya, Anda tidak hanya dapat membaca tetapi juga mengedit, memperbarui, dan menghapus metadata menggunakan API ini.
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk GroupDocs.Metadata untuk .NET?
- Dokumentasi terperinci tersedia di[GroupDocs.Metadata untuk Dokumentasi .NET](https://reference.groupdocs.com/metadata/net/).
+ Dokumentasi terperinci tersedia di[GroupDocs.Metadata untuk Dokumentasi .NET](https://tutorials.groupdocs.com/metadata/net/).
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk tujuan pengujian?
  Anda dapat meminta lisensi sementara dari[Di Sini](https://purchase.groupdocs.com/temporary-license/).
 ### Apakah ada forum komunitas untuk dukungan GroupDocs.Metadata?

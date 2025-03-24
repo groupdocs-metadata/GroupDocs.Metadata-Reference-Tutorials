@@ -3,7 +3,6 @@ title: Jak načíst metadata z místního disku v .NET
 linktitle: Jak načíst metadata z místního disku v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Spravujte bez námahy metadata souborů v aplikacích .NET pomocí GroupDocs.Metadata pro vylepšené možnosti manipulace se soubory.
-type: docs
 weight: 10
 url: /cs/net/metadata-loading/load-metadata-local-disk/
 ---
@@ -62,7 +61,7 @@ tomto tutoriálu jsme prozkoumali, jak využít GroupDocs.Metadata pro .NET k na
 ### Otázka: Jak mohu získat dočasnou licenci pro GroupDocs.Metadata?
  Odpověď: Můžete získat dočasnou licenci z[Nákupní stránka GroupDocs](https://purchase.groupdocs.com/temporary-license/).
 ### Otázka: Kde najdu komplexní dokumentaci k GroupDocs.Metadata?
- Odpověď: Prozkoumejte podrobnou dokumentaci na adrese[GroupDocs.Metadata pro dokumentaci .NET](https://reference.groupdocs.com/metadata/net/).
+ Odpověď: Prozkoumejte podrobnou dokumentaci na adrese[GroupDocs.Metadata pro dokumentaci .NET](https://tutorials.groupdocs.com/metadata/net/).
 ### Otázka: Podporuje GroupDocs.Metadata bezplatnou zkušební verzi?
  Odpověď: Ano, máte přístup k bezplatné zkušební verzi GroupDocs.Metadata z[tady](https://releases.groupdocs.com/).
 ### Otázka: Kde mohu získat podporu nebo klást otázky týkající se GroupDocs.Metadata?

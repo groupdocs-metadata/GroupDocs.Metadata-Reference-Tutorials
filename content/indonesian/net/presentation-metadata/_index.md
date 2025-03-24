@@ -3,7 +3,6 @@ title: Metadata Presentasi
 linktitle: Metadata Presentasi
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengelola metadata presentasi secara efisien di .NET menggunakan tutorial GroupDocs.Metadata. Akses properti bawaan dan khusus dengan mudah.
-type: docs
 weight: 25
 url: /id/net/presentation-metadata/
 ---

@@ -3,7 +3,6 @@ title: Leia as propriedades de formato de arquivo de planilhas em .NET
 linktitle: Leia as propriedades de formato de arquivo de planilhas em .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda a ler propriedades de formato de arquivo de planilha usando GroupDocs.Metadata for .NET. Acesse formato de arquivo, tipo MIME e muito mais com chamadas de API simples.
-type: docs
 weight: 12
 url: /pt/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
@@ -55,7 +54,7 @@ Neste tutorial, exploramos como usar GroupDocs.Metadata for .NET para recuperar 
 
 ## Perguntas frequentes
 ### O GroupDocs.Metadata for .NET é compatível com todos os tipos de formatos de planilha?
- GroupDocs.Metadata for .NET oferece suporte a uma ampla variedade de formatos de planilha, incluindo XLSX, XLS, CSV e muito mais. Consulte o[documentação](https://reference.groupdocs.com/metadata/net/) para obter uma lista abrangente de formatos suportados.
+ GroupDocs.Metadata for .NET oferece suporte a uma ampla variedade de formatos de planilha, incluindo XLSX, XLS, CSV e muito mais. Consulte o[documentação](https://tutorials.groupdocs.com/metadata/net/) para obter uma lista abrangente de formatos suportados.
 ### Posso editar propriedades de metadados usando GroupDocs.Metadata for .NET?
 Sim, GroupDocs.Metadata for .NET permite não apenas a leitura, mas também a edição de propriedades de metadados associadas a vários formatos de arquivo.
 ### Como posso obter uma licença temporária para fins de teste?

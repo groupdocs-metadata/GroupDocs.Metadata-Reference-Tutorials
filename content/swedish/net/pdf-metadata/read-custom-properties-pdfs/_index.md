@@ -3,7 +3,6 @@ title: Läs anpassade egenskaper från PDF-filer i .NET
 linktitle: Läs anpassade egenskaper från PDF-filer i .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du extraherar anpassade egenskaper från PDF-filer med GroupDocs.Metadata för .NET. Dyk in i dokumentmetadatahantering med C#.
-type: docs
 weight: 11
 url: /sv/net/pdf-metadata/read-custom-properties-pdfs/
 ---
@@ -54,7 +53,7 @@ Ja, GroupDocs.Metadata låter dig redigera, ta bort eller lägga till anpassade 
 ### Stöder GroupDocs.Metadata andra filformat än PDF?
 Ja, GroupDocs.Metadata stöder ett brett utbud av filformat inklusive Word-dokument, Excel-kalkylblad, PowerPoint-presentationer, bilder och mer.
 ### Var kan jag hitta ytterligare dokumentation och support för GroupDocs.Metadata?
- Referera till[dokumentation](https://reference.groupdocs.com/metadata/net/) för omfattande information. För ytterligare support, besök[GroupDocs.Metadata-forum](https://forum.groupdocs.com/c/metadata/14).
+ Referera till[dokumentation](https://tutorials.groupdocs.com/metadata/net/) för omfattande information. För ytterligare support, besök[GroupDocs.Metadata-forum](https://forum.groupdocs.com/c/metadata/14).
 ### Finns det en gratis testversion tillgänglig för GroupDocs.Metadata?
  Ja, du kan få en[gratis provperiod](https://releases.groupdocs.com/) för att utforska funktionerna i GroupDocs.Metadata.
 ### Hur kan jag köpa en licens för GroupDocs.Metadata?

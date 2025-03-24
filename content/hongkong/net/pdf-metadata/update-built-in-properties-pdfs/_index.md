@@ -3,7 +3,6 @@ title: 使用 .NET 更新 PDF 中的內建屬性
 linktitle: 使用 .NET 更新 PDF 中的內建屬性
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 C# 和 GroupDocs.Metadata for .NET 更新 PDF 文件屬性。以程式方式修改作者、標題、關鍵字等。
-type: docs
 weight: 15
 url: /zh-hant/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
@@ -72,7 +71,7 @@ using (Metadata metadata = new Metadata("Your Output File Path"))
 ### Q：什麼是 .NET 的 GroupDocs.Metadata？
 答：GroupDocs.Metadata for .NET 是一個函式庫，允許開發人員以程式設計方式讀取、編輯、刪除和操作各種文件格式的元資料。
 ### Q：在哪裡可以找到 GroupDocs.Metadata for .NET 的文檔？
-答：您可以存取文檔[這裡](https://reference.groupdocs.com/metadata/net/).
+答：您可以存取文檔[這裡](https://tutorials.groupdocs.com/metadata/net/).
 ### Q：如何下載 .NET 的 GroupDocs.Metadata？
 答：您可以從以下位置下載 GroupDocs.Metadata for .NET[這個連結](https://releases.groupdocs.com/metadata/net/).
 ### Q：有免費試用嗎？

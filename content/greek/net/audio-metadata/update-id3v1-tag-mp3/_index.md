@@ -3,7 +3,6 @@ title: Ενημερώστε την ετικέτα ID3V1 σε αρχεία MP3 χ
 linktitle: Ενημερώστε την ετικέτα ID3V1 σε αρχεία MP3 χρησιμοποιώντας .NET
 second_title: GroupDocs.Metadata .NET API
 description: Ενημερώστε τις ετικέτες ID3V1 σε αρχεία MP3 χρησιμοποιώντας το GroupDocs.Metadata για .NET. Ακολουθήστε αυτό το σεμινάριο για εύκολο χειρισμό μεταδεδομένων στις εφαρμογές σας .NET.
-type: docs
 weight: 19
 url: /el/net/audio-metadata/update-id3v1-tag-mp3/
 ---
@@ -61,7 +60,7 @@ metadata.Save("YourInputFile.mp3");
 ### Ποιες μορφές εγγράφων υποστηρίζονται από το GroupDocs.Metadata για .NET;
 Το GroupDocs.Metadata για .NET υποστηρίζει ένα ευρύ φάσμα μορφών εγγράφων, όπως PDF, έγγραφα του Microsoft Office (Word, Excel, PowerPoint), εικόνες (JPEG, PNG, TIFF), αρχεία ήχου και βίντεο και πολλά άλλα.
 ### Πού μπορώ να βρω την τεκμηρίωση για το GroupDocs.Metadata για .NET;
- Μπορείτε να ανατρέξετε στην αναλυτική τεκμηρίωση[εδώ](https://reference.groupdocs.com/metadata/net/) για ολοκληρωμένη καθοδήγηση σχετικά με τη χρήση του API.
+ Μπορείτε να ανατρέξετε στην αναλυτική τεκμηρίωση[εδώ](https://tutorials.groupdocs.com/metadata/net/) για ολοκληρωμένη καθοδήγηση σχετικά με τη χρήση του API.
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή για το GroupDocs.Metadata για .NET;
  Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμή του GroupDocs.Metadata για .NET[εδώ](https://releases.groupdocs.com/).
 ### Πώς μπορώ να λάβω τεχνική υποστήριξη για το GroupDocs.Metadata για .NET;

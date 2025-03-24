@@ -3,7 +3,6 @@ title: Olvassa el a Vizsgálati tulajdonságokat a .NET prezentációiból
 linktitle: Olvassa el a Vizsgálati tulajdonságokat a .NET prezentációiból
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthatja ki a prezentáció metaadatait a GroupDocs.Metadata for .NET segítségével. Programozottan hozzáférhet a megjegyzésekhez, rejtett diákhoz és sok máshoz.
-type: docs
 weight: 14
 url: /hu/net/presentation-metadata/read-inspection-properties-presentations/
 ---
@@ -64,7 +63,7 @@ V: A GroupDocs.Metadata for .NET egy olyan API, amely lehetővé teszi a fejlesz
 ### K: Hogyan szerezhetek ideiglenes licencet a GroupDocs.Metadata számára?
  V: Ideiglenes licencet szerezhet be[itt](https://purchase.groupdocs.com/temporary-license/).
 ### K: Hol találom a GroupDocs.Metadata for .NET dokumentációját?
- V: Tekintse meg a dokumentációt[itt](https://reference.groupdocs.com/metadata/net/).
+ V: Tekintse meg a dokumentációt[itt](https://tutorials.groupdocs.com/metadata/net/).
 ### K: Hogyan kaphatok támogatást a GroupDocs.Metadata számára?
  V: Támogatásért és megbeszélésekért keresse fel a GroupDocs.Metadata fórumot[itt](https://forum.groupdocs.com/c/metadata/14).
 ### K: Letölthetem a GroupDocs.Metadata ingyenes próbaverzióját .NET-hez?

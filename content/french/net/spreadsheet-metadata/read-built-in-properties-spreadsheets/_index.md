@@ -3,7 +3,6 @@ title: Lire les propriétés intégrées à partir de feuilles de calcul dans .N
 linktitle: Lire les propriétés intégrées à partir de feuilles de calcul dans .NET
 second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment extraire des métadonnées de feuilles de calcul dans .NET à l'aide de GroupDocs.Metadata, améliorant ainsi la gestion et l'organisation des documents dans vos applications.
-type: docs
 weight: 10
 url: /fr/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Oui, GroupDocs.Metadata prend en charge un large éventail de formats de fichier
 ### Puis-je modifier les métadonnées à l’aide de GroupDocs.Metadata pour .NET ?
 Oui, vous pouvez non seulement lire mais également modifier, mettre à jour et supprimer des métadonnées à l'aide de cette API.
 ### Où puis-je trouver une documentation détaillée pour GroupDocs.Metadata pour .NET ?
- Une documentation détaillée est disponible sur[Documentation GroupDocs.Metadata pour .NET](https://reference.groupdocs.com/metadata/net/).
+ Une documentation détaillée est disponible sur[Documentation GroupDocs.Metadata pour .NET](https://tutorials.groupdocs.com/metadata/net/).
 ### Comment puis-je obtenir une licence temporaire à des fins de test ?
  Vous pouvez demander une licence temporaire auprès de[ici](https://purchase.groupdocs.com/temporary-license/).
 ### Existe-t-il un forum communautaire pour la prise en charge de GroupDocs.Metadata ?

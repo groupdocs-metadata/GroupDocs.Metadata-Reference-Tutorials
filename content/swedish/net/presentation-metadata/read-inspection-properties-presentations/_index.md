@@ -3,7 +3,6 @@ title: Läs inspektionsegenskaper från presentationer i .NET
 linktitle: Läs inspektionsegenskaper från presentationer i .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du extraherar presentationsmetadata med GroupDocs.Metadata för .NET. Få åtkomst till kommentarer, dolda bilder och mer programmatiskt.
-type: docs
 weight: 14
 url: /sv/net/presentation-metadata/read-inspection-properties-presentations/
 ---
@@ -64,7 +63,7 @@ S: GroupDocs.Metadata för .NET är ett API som låter utvecklare läsa, rediger
 ### F: Hur kan jag få en tillfällig licens för GroupDocs.Metadata?
  S: Du kan skaffa en tillfällig licens från[här](https://purchase.groupdocs.com/temporary-license/).
 ### F: Var kan jag hitta dokumentation för GroupDocs.Metadata for .NET?
- S: Du kan hänvisa till dokumentationen[här](https://reference.groupdocs.com/metadata/net/).
+ S: Du kan hänvisa till dokumentationen[här](https://tutorials.groupdocs.com/metadata/net/).
 ### F: Hur får jag support för GroupDocs.Metadata?
  S: För support och diskussioner, besök forumet GroupDocs.Metadata[här](https://forum.groupdocs.com/c/metadata/14).
 ### F: Kan jag ladda ner en gratis provversion av GroupDocs.Metadata för .NET?

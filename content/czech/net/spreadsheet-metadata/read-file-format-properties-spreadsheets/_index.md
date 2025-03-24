@@ -3,7 +3,6 @@ title: Přečtěte si vlastnosti formátu souboru z Tabulek v .NET
 linktitle: Přečtěte si vlastnosti formátu souboru z Tabulek v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se číst vlastnosti formátu souboru tabulky pomocí GroupDocs.Metadata pro .NET. Získejte přístup k formátu souboru, typu MIME a dalším pomocí jednoduchých volání API.
-type: docs
 weight: 12
 url: /cs/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
@@ -55,7 +54,7 @@ V tomto tutoriálu jsme prozkoumali, jak používat GroupDocs.Metadata pro .NET 
 
 ## FAQ
 ### Je GroupDocs.Metadata for .NET kompatibilní se všemi typy tabulkových formátů?
- GroupDocs.Metadata for .NET podporuje širokou škálu tabulkových formátů, včetně XLSX, XLS, CSV a dalších. Odkazovat na[dokumentace](https://reference.groupdocs.com/metadata/net/) pro úplný seznam podporovaných formátů.
+ GroupDocs.Metadata for .NET podporuje širokou škálu tabulkových formátů, včetně XLSX, XLS, CSV a dalších. Odkazovat na[dokumentace](https://tutorials.groupdocs.com/metadata/net/) pro úplný seznam podporovaných formátů.
 ### Mohu upravit vlastnosti metadat pomocí GroupDocs.Metadata for .NET?
 Ano, GroupDocs.Metadata for .NET umožňuje nejen čtení, ale také úpravu vlastností metadat spojených s různými formáty souborů.
 ### Jak mohu získat dočasnou licenci pro testovací účely?

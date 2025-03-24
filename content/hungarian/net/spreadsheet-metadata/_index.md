@@ -4,7 +4,6 @@ linktitle: Táblázat metaadatai
 second_title: GroupDocs.Metadata .NET API
 description: Fedezze fel a GroupDocs.Metadata for .NET erejét a táblázat tulajdonságainak olvasásáról és frissítéséről szóló oktatóanyagokkal. Növelje a metaadatok kezelését .NET-alkalmazásaiban.
 
-type: docs
 weight: 27
 url: /hu/net/spreadsheet-metadata/
 ---

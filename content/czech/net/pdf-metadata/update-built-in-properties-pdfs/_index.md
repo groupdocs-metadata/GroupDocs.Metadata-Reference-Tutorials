@@ -3,7 +3,6 @@ title: Aktualizujte vestavěné vlastnosti v souborech PDF pomocí .NET
 linktitle: Aktualizujte vestavěné vlastnosti v souborech PDF pomocí .NET
 second_title: GroupDocs.Metadata .NET API
 description: Přečtěte si, jak aktualizovat vlastnosti dokumentu PDF pomocí C# a GroupDocs.Metadata pro .NET. Programově upravujte autora, název, klíčová slova a další.
-type: docs
 weight: 15
 url: /cs/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
@@ -72,7 +71,7 @@ V tomto tutoriálu jsme prozkoumali, jak využít GroupDocs.Metadata pro .NET k 
 ### Otázka: Co je GroupDocs.Metadata pro .NET?
 Odpověď: GroupDocs.Metadata for .NET je knihovna, která umožňuje vývojářům programově číst, upravovat, odstraňovat a manipulovat s metadaty v různých formátech dokumentů.
 ### Otázka: Kde najdu dokumentaci k GroupDocs.Metadata pro .NET?
- Odpověď: Máte přístup k dokumentaci[tady](https://reference.groupdocs.com/metadata/net/).
+ Odpověď: Máte přístup k dokumentaci[tady](https://tutorials.groupdocs.com/metadata/net/).
 ### Otázka: Jak si mohu stáhnout GroupDocs.Metadata pro .NET?
  Odpověď: GroupDocs.Metadata pro .NET si můžete stáhnout z[tento odkaz](https://releases.groupdocs.com/metadata/net/).
 ### Otázka: Je k dispozici bezplatná zkušební verze?

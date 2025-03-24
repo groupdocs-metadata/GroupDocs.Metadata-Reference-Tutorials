@@ -1,7 +1,6 @@
 ---
 title: GroupDocs.Metadata for .NET のチュートリアルと例
 linktitle: .NET 用の GroupDocs.Metadata チュートリアル
-type: docs
 weight: 10
 url: /ja/net/
 description: GroupDocs.Metadata を使用すると、.NET でファイルのメタデータを簡単に管理できます。ファイル操作機能を強化するための読み込みテクニックや編集などを学びます。

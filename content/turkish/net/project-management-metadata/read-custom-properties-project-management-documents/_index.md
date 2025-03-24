@@ -3,7 +3,6 @@ title: .NET Proje Yönetimi Belgelerindeki Özel Özellikleri Okuyun
 linktitle: .NET Proje Yönetimi Belgelerindeki Özel Özellikleri Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak .NET proje yönetimi belgelerinden özel özellikleri nasıl çıkaracağınızı öğrenin. Meta veri yönetiminizi geliştirin.
-type: docs
 weight: 11
 url: /tr/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
@@ -58,7 +57,7 @@ GroupDocs.Metadata, Microsoft Project (MPP) dosyaları ve diğerleri de dahil ol
 ### GroupDocs.Metadata for .NET'i kullanmak için lisans gerekli midir?
  Evet, ticari kullanım için lisans gereklidir. adresinden geçici lisans alabilirsiniz.[Burada](https://purchase.groupdocs.com/temporary-license/).
 ### GroupDocs.Metadata'ya ilişkin diğer belgelere nasıl erişebilirim?
- Ayrıntılı belgeleri şu adreste keşfedin:[referans sayfası](https://reference.groupdocs.com/metadata/net/).
+ Ayrıntılı belgeleri şu adreste keşfedin:[referans sayfası](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata ile ilgili sorgular için nereden destek alabilirim?
  Topluluğa katılın[GroupDocs Meta Veri forumu](https://forum.groupdocs.com/c/metadata/14) Destek ve tartışmalar için.
 ### Satın almadan önce GroupDocs.Metadata'yı ücretsiz deneyebilir miyim?

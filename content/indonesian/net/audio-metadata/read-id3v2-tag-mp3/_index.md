@@ -3,7 +3,6 @@ title: Baca Tag ID3V2 dari File MP3 di .NET
 linktitle: Baca Tag ID3V2 dari File MP3 di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengekstrak tag ID3V2 dari file MP3 menggunakan GroupDocs.Metadata untuk .NET. Akses album, artis, dan lainnya secara terprogram.
-type: docs
 weight: 12
 url: /id/net/audio-metadata/read-id3v2-tag-mp3/
 ---

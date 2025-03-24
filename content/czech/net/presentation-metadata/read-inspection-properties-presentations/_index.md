@@ -3,7 +3,6 @@ title: Přečtěte si vlastnosti inspekce z prezentací v .NET
 linktitle: Přečtěte si vlastnosti inspekce z prezentací v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat metadata prezentace pomocí GroupDocs.Metadata for .NET. Získejte přístup ke komentářům, skrytým snímkům a dalším programům.
-type: docs
 weight: 14
 url: /cs/net/presentation-metadata/read-inspection-properties-presentations/
 ---
@@ -64,7 +63,7 @@ Odpověď: GroupDocs.Metadata for .NET je rozhraní API, které umožňuje vývo
 ### Otázka: Jak mohu získat dočasnou licenci pro GroupDocs.Metadata?
  Odpověď: Můžete získat dočasnou licenci od[tady](https://purchase.groupdocs.com/temporary-license/).
 ### Otázka: Kde najdu dokumentaci k GroupDocs.Metadata pro .NET?
- Odpověď: Můžete se podívat do dokumentace[tady](https://reference.groupdocs.com/metadata/net/).
+ Odpověď: Můžete se podívat do dokumentace[tady](https://tutorials.groupdocs.com/metadata/net/).
 ### Otázka: Jak získám podporu pro GroupDocs.Metadata?
  Odpověď: Pro podporu a diskuse navštivte fórum GroupDocs.Metadata[tady](https://forum.groupdocs.com/c/metadata/14).
 ### Otázka: Mohu si stáhnout bezplatnou zkušební verzi GroupDocs.Metadata pro .NET?

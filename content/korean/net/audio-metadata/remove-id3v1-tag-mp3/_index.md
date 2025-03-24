@@ -3,7 +3,6 @@ title: .NET의 MP3 파일에서 ID3V1 태그 제거
 linktitle: .NET의 MP3 파일에서 ID3V1 태그 제거
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 MP3 파일에서 ID3V1 태그를 제거하는 방법을 알아보세요. 실제 사례와 함께 쉬운 단계별 가이드입니다.
-type: docs
 weight: 16
 url: /ko/net/audio-metadata/remove-id3v1-tag-mp3/
 ---
@@ -56,7 +55,7 @@ metadata.Save("YourOutputFile.mp3");
 ### 이 라이브러리를 사용하여 MP3 이외의 다른 파일 형식의 메타데이터를 조작할 수 있습니까?
 예, GroupDocs.Metadata는 DOCX, XLSX, PDF, PNG, JPG 등을 포함한 광범위한 파일 형식을 지원합니다.
 ### .NET용 GroupDocs.Metadata에 대한 추가 문서는 어디서 찾을 수 있나요?
- 자세한 문서가 제공됩니다.[여기](https://reference.groupdocs.com/metadata/net/).
+ 자세한 문서가 제공됩니다.[여기](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata와 관련된 지원을 받거나 질문을 하려면 어떻게 해야 합니까?
  GroupDocs.Metadata 포럼에 쿼리를 게시할 수 있습니다.[여기](https://forum.groupdocs.com/c/metadata/14).
 ### 테스트 목적으로 사용할 수 있는 임시 라이센스가 있습니까?

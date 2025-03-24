@@ -3,7 +3,6 @@ title: كيفية تحميل البيانات التعريفية من القرص
 linktitle: كيفية تحميل البيانات التعريفية من القرص المحلي في .NET
 second_title: GroupDocs.Metadata .NET API
 description: قم بإدارة بيانات تعريف الملف بسهولة في تطبيقات .NET باستخدام GroupDocs.Metadata لتعزيز إمكانيات معالجة الملفات.
-type: docs
 weight: 10
 url: /ar/net/metadata-loading/load-metadata-local-disk/
 ---
@@ -62,7 +61,7 @@ using (Metadata metadata = new Metadata("Your Input File Path"))
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ GroupDocs.Metadata؟
  ج: يمكنك الحصول على ترخيص مؤقت من[صفحة شراء GroupDocs](https://purchase.groupdocs.com/temporary-license/).
 ### س: أين يمكنني العثور على وثائق شاملة لبيانات GroupDocs.Metadata؟
- ج: استكشف الوثائق التفصيلية على[GroupDocs.Metadata لوثائق .NET](https://reference.groupdocs.com/metadata/net/).
+ ج: استكشف الوثائق التفصيلية على[GroupDocs.Metadata لوثائق .NET](https://tutorials.groupdocs.com/metadata/net/).
 ### س: هل يدعم GroupDocs.Metadata الإصدار التجريبي المجاني؟
  ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من GroupDocs.Metadata من[هنا](https://releases.groupdocs.com/).
 ### س: أين يمكنني الحصول على الدعم أو طرح الأسئلة المتعلقة ببيانات GroupDocs.Metadata؟

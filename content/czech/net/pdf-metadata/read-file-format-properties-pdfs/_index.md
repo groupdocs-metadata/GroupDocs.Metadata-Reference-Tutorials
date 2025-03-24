@@ -3,7 +3,6 @@ title: Čtení vlastností formátu souboru z PDF v .NET
 linktitle: Čtení vlastností formátu souboru z PDF v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat vlastnosti formátu souboru PDF pomocí GroupDocs.Metadata for .NET. Ponořte se do správy metadat pomocí jednoduchého C#.
-type: docs
 weight: 13
 url: /cs/net/pdf-metadata/read-file-format-properties-pdfs/
 ---
@@ -63,7 +62,7 @@ Ano, GroupDocs.Metadata podporuje širokou škálu formátů souborů mimo PDF, 
 ### Je k dispozici zkušební verze pro GroupDocs.Metadata pro .NET?
  Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.groupdocs.com/).
 ### Kde najdu komplexní dokumentaci k GroupDocs.Metadata?
- Viz podrobná dokumentace[tady](https://reference.groupdocs.com/metadata/net/).
+ Viz podrobná dokumentace[tady](https://tutorials.groupdocs.com/metadata/net/).
 ### Jak mohu získat podporu pro jakékoli problémy nebo dotazy související s GroupDocs.Metadata?
  Můžete požádat o podporu komunitu GroupDocs.Metadata[Fórum](https://forum.groupdocs.com/c/metadata/14).
 ### Kde si mohu zakoupit licencovanou verzi GroupDocs.Metadata pro .NET?

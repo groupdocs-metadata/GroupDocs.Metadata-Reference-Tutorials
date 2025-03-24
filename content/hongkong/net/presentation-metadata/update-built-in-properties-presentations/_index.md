@@ -3,7 +3,6 @@ title: 使用 .NET 更新簡報中的內建屬性
 linktitle: 使用 .NET 更新簡報中的內建屬性
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 .NET 和多功能元資料操作庫 GroupDocs.Metadata 更新簡報中的內建屬性。
-type: docs
 weight: 15
 url: /zh-hant/net/presentation-metadata/update-built-in-properties-presentations/
 ---
@@ -51,7 +50,7 @@ metadata.Save("YourPresentationFile.pptx");
 ### Q：什麼是 .NET 的 GroupDocs.Metadata？
 答：GroupDocs.Metadata for .NET 是.NET 框架的一個功能強大的元資料操作庫，允許開發人員讀取、寫入和編輯各種文件格式的元資料。
 ### Q：在哪裡可以找到 GroupDocs.Metadata 的文檔？
-答：您可以存取詳細文檔[這裡](https://reference.groupdocs.com/metadata/net/).
+答：您可以存取詳細文檔[這裡](https://tutorials.groupdocs.com/metadata/net/).
 ### Q：如何取得 GroupDocs.Metadata 的臨時許可證？
 答：您可以獲得臨時許可證[這裡](https://purchase.groupdocs.com/temporary-license/).
 ### Q：GroupDocs.Metadata 是否支援簡報以外的其他文件格式？

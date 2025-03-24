@@ -3,7 +3,6 @@ title: .NET में आरेखों से कस्टम गुण पढ
 linktitle: .NET में आरेखों से कस्टम गुण पढ़ें
 second_title: GroupDocs.Metadata .NET एपीआई
 description: GroupDocs.Metadata का उपयोग करके .NET में आरेख फ़ाइलों से कस्टम गुण निकालने का तरीका जानें। डेवलपर्स के लिए आसान चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 11
 url: /hi/net/diagram-metadata/read-custom-properties-diagrams/
 ---
@@ -60,6 +59,6 @@ foreach (var property in customProperties)
 ### क्या GroupDocs.Metadata बड़े पैमाने पर दस्तावेज़ प्रसंस्करण के लिए उपयुक्त है?
 हां, GroupDocs.Metadata को बड़ी मात्रा में दस्तावेज़ों को कुशलतापूर्वक संभालने के लिए डिज़ाइन किया गया है।
 ### मैं GroupDocs.Metadata के लिए अतिरिक्त सहायता या दस्तावेज़ कहां पा सकता हूं?
- दौरा करना[GroupDocs.Metadata फ़ोरम](https://forum.groupdocs.com/c/metadata/14) समर्थन के लिए और अन्वेषण के लिए[प्रलेखन](https://reference.groupdocs.com/metadata/net/) विस्तृत API संदर्भ के लिए.
+ दौरा करना[GroupDocs.Metadata फ़ोरम](https://forum.groupdocs.com/c/metadata/14) समर्थन के लिए और अन्वेषण के लिए[प्रलेखन](https://tutorials.groupdocs.com/metadata/net/) विस्तृत API संदर्भ के लिए.
 ### क्या मैं खरीदने से पहले GroupDocs.Metadata को मुफ्त में आज़मा सकता हूँ?
  हाँ, आप निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.groupdocs.com/).

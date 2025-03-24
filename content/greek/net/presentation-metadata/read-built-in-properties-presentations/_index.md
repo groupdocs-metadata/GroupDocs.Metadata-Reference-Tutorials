@@ -3,7 +3,6 @@ title: Διαβάστε τις Ενσωματωμένες Ιδιότητες α�
 linktitle: Διαβάστε τις Ενσωματωμένες Ιδιότητες από Παρουσιάσεις στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε ενσωματωμένες ιδιότητες από παρουσιάσεις χρησιμοποιώντας το GroupDocs.Metadata για .NET σε αυτό το ολοκληρωμένο σεμινάριο.
-type: docs
 weight: 10
 url: /el/net/presentation-metadata/read-built-in-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Console.WriteLine(root.DocumentProperties.NameOfApplication);
 ### Μπορώ να τροποποιήσω ή να ενημερώσω τα μεταδεδομένα χρησιμοποιώντας το GroupDocs.Metadata για .NET;
 Οπωσδήποτε, μπορείτε να τροποποιήσετε, να ενημερώσετε και να αφαιρέσετε ιδιότητες μεταδεδομένων χρησιμοποιώντας αυτήν τη βιβλιοθήκη.
 ### Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το GroupDocs.Metadata για .NET;
- Μπορείτε να ανατρέξετε στην τεκμηρίωση[εδώ](https://reference.groupdocs.com/metadata/net/) για ολοκληρωμένη ενημέρωση.
+ Μπορείτε να ανατρέξετε στην τεκμηρίωση[εδώ](https://tutorials.groupdocs.com/metadata/net/) για ολοκληρωμένη ενημέρωση.
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το GroupDocs.Metadata για .NET;
  Μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.groupdocs.com/temporary-license/) για σκοπούς αξιολόγησης.
 ### Πού μπορώ να αναζητήσω βοήθεια ή να κάνω ερωτήσεις σχετικά με το GroupDocs.Metadata για .NET;

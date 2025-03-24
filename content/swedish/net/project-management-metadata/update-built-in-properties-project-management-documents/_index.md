@@ -3,7 +3,6 @@ title: Uppdatera inbyggda egenskaper i .NET Project Management Documents
 linktitle: Uppdatera inbyggda egenskaper i .NET Project Management Documents
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du uppdaterar metadata i .NET-projektledningsdokument med GroupDocs.Metadata for .NET. Förbättra dokumenthanteringen effektivt.
-type: docs
 weight: 12
 url: /sv/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
@@ -57,7 +56,7 @@ Ja, GroupDocs.Metadata stöder populära projekthanteringsformat som MPP-filer (
 ### Kan jag manipulera andra metadataegenskaper utöver inbyggda dokumentdetaljer?
 Absolut! GroupDocs.Metadata erbjuder omfattande möjligheter att hantera metadata över ett brett utbud av filtyper.
 ### Var kan jag hitta ytterligare dokumentation och support för GroupDocs.Metadata?
- Besök[GroupDocs.Metadata dokumentation](https://reference.groupdocs.com/metadata/net/) för detaljerad information. För specifika frågor, kontakta communityn på[GroupDocs forum](https://forum.groupdocs.com/c/metadata/14).
+ Besök[GroupDocs.Metadata dokumentation](https://tutorials.groupdocs.com/metadata/net/) för detaljerad information. För specifika frågor, kontakta communityn på[GroupDocs forum](https://forum.groupdocs.com/c/metadata/14).
 ### Finns det en gratis testversion tillgänglig för att testa GroupDocs.Metadata?
  Ja, du kan få tillgång till en gratis provperiod[här](https://releases.groupdocs.com/).
 ### Hur kan jag få en tillfällig licens för GroupDocs.Metadata?

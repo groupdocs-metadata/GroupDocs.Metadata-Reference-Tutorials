@@ -3,7 +3,6 @@ title: Baca Tag ID3V1 dari File MP3 di .NET
 linktitle: Baca Tag ID3V1 dari File MP3 di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara membaca tag ID3V1 dari file MP3 menggunakan GroupDocs.Metadata untuk .NET. Tutorial langkah demi langkah dengan contoh kode.
-type: docs
 weight: 11
 url: /id/net/audio-metadata/read-id3v1-tag-mp3/
 ---
@@ -62,6 +61,6 @@ Tag ID3V1 adalah standar untuk menyimpan metadata (seperti album, artis, judul, 
 ### Bisakah saya mencoba GroupDocs.Metadata untuk .NET sebelum membeli?
  Ya, Anda bisa mendapatkan versi uji coba gratis[Di Sini](https://releases.groupdocs.com/).
 ### Di mana saya dapat menemukan dokumentasi GroupDocs.Metadata untuk .NET?
- Anda dapat menemukan dokumentasi terperinci dan referensi API[Di Sini](https://reference.groupdocs.com/metadata/net/).
+ Anda dapat menemukan dokumentasi terperinci dan referensi API[Di Sini](https://tutorials.groupdocs.com/metadata/net/).
 ### Bagaimana cara mendapatkan dukungan teknis untuk GroupDocs.Metadata?
  Untuk dukungan teknis, kunjungi[Forum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14).

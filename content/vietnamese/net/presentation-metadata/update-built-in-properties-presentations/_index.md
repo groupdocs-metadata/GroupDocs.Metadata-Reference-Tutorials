@@ -3,7 +3,6 @@ title: Cập nhật các thuộc tính tích hợp trong bản trình bày bằn
 linktitle: Cập nhật các thuộc tính tích hợp trong bản trình bày bằng .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật các thuộc tính tích hợp trong bản trình bày bằng .NET với GroupDocs.Metadata, một thư viện thao tác siêu dữ liệu linh hoạt.
-type: docs
 weight: 15
 url: /vi/net/presentation-metadata/update-built-in-properties-presentations/
 ---
@@ -51,7 +50,7 @@ Trong hướng dẫn này, chúng ta đã khám phá cách sử dụng GroupDocs
 ### Câu hỏi: GroupDocs.Metadata dành cho .NET là gì?
 Trả lời: GroupDocs.Metadata cho .NET là thư viện thao tác siêu dữ liệu mạnh mẽ dành cho .NET framework, cho phép các nhà phát triển đọc, viết và chỉnh sửa siêu dữ liệu ở nhiều định dạng tài liệu khác nhau.
 ### Câu hỏi: Tôi có thể tìm tài liệu về GroupDocs.Metadata ở đâu?
- A: Bạn có thể truy cập tài liệu chi tiết[đây](https://reference.groupdocs.com/metadata/net/).
+ A: Bạn có thể truy cập tài liệu chi tiết[đây](https://tutorials.groupdocs.com/metadata/net/).
 ### Câu hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho GroupDocs.Metadata?
  A: Bạn có thể có được giấy phép tạm thời[đây](https://purchase.groupdocs.com/temporary-license/).
 ### Câu hỏi: GroupDocs.Metadata có hỗ trợ các định dạng tệp khác ngoài bản trình bày không?

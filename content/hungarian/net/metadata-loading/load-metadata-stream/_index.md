@@ -3,7 +3,6 @@ title: Metaadatok betöltése a Streamből a .NET oktatóprogramban
 linktitle: Metaadatok betöltése a Streamből a .NET oktatóprogramban
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg a fájlok metaadatainak kezelését .NET-ben a GroupDocs.Metadata segítségével. Lépésről lépésre szóló útmutató a streamek metaadatainak betöltéséhez, szerkesztéséhez és eltávolításához.
-type: docs
 weight: 11
 url: /hu/net/metadata-loading/load-metadata-stream/
 ---
@@ -63,7 +62,7 @@ Ebben az oktatóanyagban bemutattuk a metaadatok adatfolyamból történő betö
 ### K: Hogyan szerezhetek ideiglenes licencet a GroupDocs.Metadata számára?
  V: Ideiglenes licencet szerezhet be[itt](https://purchase.groupdocs.com/temporary-license/).
 ### K: Hol találom a GroupDocs.Metadata átfogó dokumentációját?
- V: Fedezze fel a részletes dokumentációt[itt](https://reference.groupdocs.com/metadata/net/).
+ V: Fedezze fel a részletes dokumentációt[itt](https://tutorials.groupdocs.com/metadata/net/).
 ### K: Elérhető ingyenes próbaverzió a GroupDocs.Metadata számára?
  V: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.groupdocs.com/).
 ### K: Hogyan kaphatok támogatást a GroupDocs.Metadata számára?

@@ -3,7 +3,6 @@ title: .NET で PDF からカスタム プロパティを読み取る
 linktitle: .NET で PDF からカスタム プロパティを読み取る
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して PDF からカスタム プロパティを抽出する方法を学びます。 C# を使用したドキュメントのメタデータ管理を詳しく見てみましょう。
-type: docs
 weight: 11
 url: /ja/net/pdf-metadata/read-custom-properties-pdfs/
 ---
@@ -54,7 +53,7 @@ foreach (var property in customProperties)
 ### GroupDocs.Metadata は PDF 以外のファイル形式もサポートしていますか?
 はい、GroupDocs.Metadata は、Word 文書、Excel スプレッドシート、PowerPoint プレゼンテーション、画像など、幅広いファイル形式をサポートしています。
 ### GroupDocs.Metadata の詳細なドキュメントとサポートはどこで見つかりますか?
-を参照してください。[ドキュメンテーション](https://reference.groupdocs.com/metadata/net/)詳しい情報については、[GroupDocs.Metadata フォーラム](https://forum.groupdocs.com/c/metadata/14).
+を参照してください。[ドキュメンテーション](https://tutorials.groupdocs.com/metadata/net/)詳しい情報については、[GroupDocs.Metadata フォーラム](https://forum.groupdocs.com/c/metadata/14).
 ### GroupDocs.Metadata に利用できる無料トライアルはありますか?
 はい、[無料トライアル](https://releases.groupdocs.com/) GroupDocs.Metadata の機能を調べます。
 ### GroupDocs.Metadata のライセンスを購入するにはどうすればよいですか?

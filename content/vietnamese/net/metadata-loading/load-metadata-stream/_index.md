@@ -3,7 +3,6 @@ title: Tải siêu dữ liệu từ luồng trong hướng dẫn .NET
 linktitle: Tải siêu dữ liệu từ luồng trong hướng dẫn .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách quản lý siêu dữ liệu tệp trong .NET bằng GroupDocs.Metadata. Hướng dẫn từng bước để tải, chỉnh sửa và xóa siêu dữ liệu khỏi luồng.
-type: docs
 weight: 11
 url: /vi/net/metadata-loading/load-metadata-stream/
 ---
@@ -63,7 +62,7 @@ Trong hướng dẫn này, chúng tôi đã trình bày các kiến thức cơ b
 ### Câu hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho GroupDocs.Metadata?
  Đáp: Bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.groupdocs.com/temporary-license/).
 ### Câu hỏi: Tôi có thể tìm tài liệu toàn diện về GroupDocs.Metadata ở đâu?
- A: Khám phá tài liệu chi tiết[đây](https://reference.groupdocs.com/metadata/net/).
+ A: Khám phá tài liệu chi tiết[đây](https://tutorials.groupdocs.com/metadata/net/).
 ### Câu hỏi: Có bản dùng thử miễn phí cho GroupDocs.Metadata không?
  Đ: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.groupdocs.com/).
 ### Câu hỏi: Làm cách nào tôi có thể nhận được hỗ trợ cho GroupDocs.Metadata?

@@ -3,7 +3,6 @@ title: Update ingebouwde eigenschappen in .NET Project Management-documenten
 linktitle: Update ingebouwde eigenschappen in .NET Project Management-documenten
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u metagegevens in .NET-projectbeheerdocumenten kunt bijwerken met GroupDocs.Metadata voor .NET. Verbeter het documentbeheer efficiënt.
-type: docs
 weight: 12
 url: /nl/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
@@ -57,7 +56,7 @@ Ja, GroupDocs.Metadata ondersteunt populaire projectbeheerformaten zoals MPP-bes
 ### Kan ik andere eigenschappen van metagegevens manipuleren dan de ingebouwde documentdetails?
 Absoluut! GroupDocs.Metadata biedt uitgebreide mogelijkheden voor het beheren van metadata over een breed scala aan bestandstypen.
 ### Waar kan ik aanvullende documentatie en ondersteuning voor GroupDocs.Metadata vinden?
- Bezoek de[GroupDocs.Metadata-documentatie](https://reference.groupdocs.com/metadata/net/) voor gedetailleerde informatie. Neem voor specifieke vragen contact op met de community van de[GroupDocs-forum](https://forum.groupdocs.com/c/metadata/14).
+ Bezoek de[GroupDocs.Metadata-documentatie](https://tutorials.groupdocs.com/metadata/net/) voor gedetailleerde informatie. Neem voor specifieke vragen contact op met de community van de[GroupDocs-forum](https://forum.groupdocs.com/c/metadata/14).
 ### Is er een gratis proefversie beschikbaar om GroupDocs.Metadata te testen?
  Ja, u krijgt toegang tot een gratis proefperiode[hier](https://releases.groupdocs.com/).
 ### Hoe kan ik een tijdelijke licentie verkrijgen voor GroupDocs.Metadata?

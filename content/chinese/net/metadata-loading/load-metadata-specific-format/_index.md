@@ -3,7 +3,6 @@ title: 从 .NET 中的特定格式加载元数据
 linktitle: 从 .NET 中的特定格式加载元数据
 second_title: GroupDocs.元数据 .NET API
 description: 在此综合教程中了解如何使用 GroupDocs.Metadata for .NET 从特定文件格式加载元数据。
-type: docs
 weight: 12
 url: /zh/net/metadata-loading/load-metadata-specific-format/
 ---
@@ -55,7 +54,7 @@ using (Metadata metadata = new Metadata("Your Input File", loadOptions))
 ### 为什么管理元数据很重要？
 管理元数据对于组织和理解数字内容、促进可搜索性和互操作性至关重要。
 ### 在哪里可以找到有关 .NET 的 GroupDocs.Metadata 的详细文档？
-您可以访问文档[这里](https://reference.groupdocs.com/metadata/net/).
+您可以访问文档[这里](https://tutorials.groupdocs.com/metadata/net/).
 ### 如何获得 GroupDocs.Metadata for .NET 的临时许可证？
 访问[此链接](https://purchase.groupdocs.com/temporary-license/)以获得临时许可证。
 ### 我在哪里可以获得有关 GroupDocs.Metadata for .NET 的支持或提出问题？

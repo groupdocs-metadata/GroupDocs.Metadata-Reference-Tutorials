@@ -3,7 +3,6 @@ title: Archivkommentar in ZIP-Dateien mit .NET aktualisieren
 linktitle: Archivkommentar in ZIP-Dateien mit .NET aktualisieren
 second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie Archivkommentare in ZIP-Dateien mit GroupDocs.Metadata für .NET aktualisieren. Verbessern Sie mühelos die Metadatenverwaltung in C#-Anwendungen.
-type: docs
 weight: 15
 url: /de/net/archive-metadata/update-archive-comment-zip-files/
 ---
@@ -55,4 +54,4 @@ Ja, die Bibliothek ist sowohl mit .NET Framework- als auch mit .NET Core-Umgebun
 ### Bietet GroupDocs.Metadata Support für Entwickler?
  Ja, Sie finden Entwickler-Support und Ressourcen auf der[GroupDocs-Forum](https://forum.groupdocs.com/c/metadata/14).
 ### Wo finde ich umfassende Dokumentation für GroupDocs.Metadata für .NET?
- Die Dokumentation ist verfügbar[Hier](https://reference.groupdocs.com/metadata/net/).
+ Die Dokumentation ist verfügbar[Hier](https://tutorials.groupdocs.com/metadata/net/).

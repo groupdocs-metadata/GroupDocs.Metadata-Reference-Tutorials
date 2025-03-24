@@ -3,7 +3,6 @@ title: Läs filformategenskaper från presentationer i .NET
 linktitle: Läs filformategenskaper från presentationer i .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du läser egenskaper för presentationsfiler i .NET med GroupDocs.Metadata. Få åtkomst till filformatdetaljer programmatiskt.
-type: docs
 weight: 13
 url: /sv/net/presentation-metadata/read-file-format-properties-presentations/
 ---

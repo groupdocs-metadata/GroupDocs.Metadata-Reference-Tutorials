@@ -3,7 +3,6 @@ title: فتح إتقان البيانات الوصفية باستخدام GroupD
 linktitle: دروس GroupDocs.Metadata
 additionalTitle: مراجع واجهة برمجة تطبيقات GroupDocs
 description: اكتشف البرامج التعليمية الشاملة لـ GroupDocs.Metadata عبر الأنظمة الأساسية. إدارة بيانات التعريف الرئيسية في .NET وJava بسهولة.
-type: docs
 weight: 11
 url: /ar/
 is_root: true

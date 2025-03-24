@@ -3,7 +3,6 @@ title: Entfernen Sie das Liedtext-Tag aus MP3-Dateien in .NET
 linktitle: Entfernen Sie das Liedtext-Tag aus MP3-Dateien in .NET
 second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie mithilfe von GroupDocs.Metadata für .NET Liedtext-Tags aus MP3-Dateien entfernen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Metadatenbearbeitung.
-type: docs
 weight: 18
 url: /de/net/audio-metadata/remove-lyrics-tag-mp3/
 ---

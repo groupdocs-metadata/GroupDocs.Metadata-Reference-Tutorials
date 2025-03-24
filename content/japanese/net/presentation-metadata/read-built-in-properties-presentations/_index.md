@@ -3,7 +3,6 @@ title: .NET のプレゼンテーションから組み込みプロパティを�
 linktitle: .NET のプレゼンテーションから組み込みプロパティを読み取る
 second_title: GroupDocs.Metadata .NET API
 description: この包括的なチュートリアルでは、GroupDocs.Metadata for .NET を使用してプレゼンテーションから組み込みプロパティを抽出する方法を学びます。
-type: docs
 weight: 10
 url: /ja/net/presentation-metadata/read-built-in-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Console.WriteLine(root.DocumentProperties.NameOfApplication);
 ### GroupDocs.Metadata for .NET を使用してメタデータを変更または更新できますか?
 もちろん、このライブラリを使用してメタデータ プロパティを変更、更新、削除できます。
 ### GroupDocs.Metadata for .NET の詳細なドキュメントはどこで入手できますか?
-ドキュメントを参照してください[ここ](https://reference.groupdocs.com/metadata/net/)包括的な情報については。
+ドキュメントを参照してください[ここ](https://tutorials.groupdocs.com/metadata/net/)包括的な情報については。
 ### GroupDocs.Metadata for .NET の一時ライセンスを取得するにはどうすればよいですか?
 一時ライセンスを取得できます[ここ](https://purchase.groupdocs.com/temporary-license/)評価目的のため。
 ### GroupDocs.Metadata for .NET に関するサポートや質問はどこで受けられますか?

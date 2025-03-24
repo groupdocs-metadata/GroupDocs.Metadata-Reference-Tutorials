@@ -3,7 +3,6 @@ title: Leggi le proprietà integrate dai fogli di calcolo in .NET
 linktitle: Leggi le proprietà integrate dai fogli di calcolo in .NET
 second_title: API GroupDocs.Metadata .NET
 description: Scopri come estrarre metadati dai fogli di calcolo in .NET utilizzando GroupDocs.Metadata, migliorando la gestione e l'organizzazione dei documenti nelle tue applicazioni.
-type: docs
 weight: 10
 url: /it/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Sì, GroupDocs.Metadata supporta un'ampia gamma di formati di file inclusi fogli
 ### Posso modificare i metadati utilizzando GroupDocs.Metadata per .NET?
 Sì, puoi non solo leggere ma anche modificare, aggiornare e rimuovere i metadati utilizzando questa API.
 ### Dove posso trovare la documentazione dettagliata per GroupDocs.Metadata per .NET?
- La documentazione dettagliata è disponibile all'indirizzo[GroupDocs.Metadata per la documentazione .NET](https://reference.groupdocs.com/metadata/net/).
+ La documentazione dettagliata è disponibile all'indirizzo[GroupDocs.Metadata per la documentazione .NET](https://tutorials.groupdocs.com/metadata/net/).
 ### Come posso ottenere una licenza temporanea a scopo di test?
  È possibile richiedere una licenza temporanea da[Qui](https://purchase.groupdocs.com/temporary-license/).
 ### Esiste un forum della community per il supporto di GroupDocs.Metadata?

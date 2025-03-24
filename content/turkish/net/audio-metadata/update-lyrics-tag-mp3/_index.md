@@ -3,7 +3,6 @@ title: .NET kullanarak MP3 Dosyalarındaki Şarkı Sözü Etiketini Güncelleyin
 linktitle: .NET kullanarak MP3 Dosyalarındaki Şarkı Sözü Etiketini Güncelleyin
 second_title: GroupDocs.Metadata .NET API'si
 description: Şarkı sözleri, sanatçı ve albüm ayrıntılarını içeren MP3 dosyası meta verilerini GroupDocs.Metadata for .NET'i kullanarak programlı olarak nasıl güncelleyeceğinizi öğrenin.
-type: docs
 weight: 21
 url: /tr/net/audio-metadata/update-lyrics-tag-mp3/
 ---

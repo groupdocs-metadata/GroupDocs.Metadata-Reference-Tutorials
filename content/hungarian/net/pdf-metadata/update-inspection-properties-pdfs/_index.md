@@ -3,7 +3,6 @@ title: Frissítse a vizsgálati tulajdonságokat a PDF-fájlokban .NET használa
 linktitle: Frissítse a vizsgálati tulajdonságokat a PDF-fájlokban .NET használatával
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan frissítheti az ellenőrzési tulajdonságokat PDF-dokumentumokban a GroupDocs.Metadata for .NET használatával. Hatékonyan kezelheti a metaadatokat és a megjegyzéseket a C# segítségével.
-type: docs
 weight: 17
 url: /hu/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
@@ -67,6 +66,6 @@ Igen, a GroupDocs.Metadata támogatja a különféle dokumentumformátumokat, p�
 ### Hogyan kaphatok támogatást, ha problémákat tapasztalok a GroupDocs.Metadata használata során?
  Meglátogatni a[GroupDocs.Metadata fórum](https://forum.groupdocs.com/c/metadata/14) segítségért és közösségi támogatásért.
 ### Hol találom a GroupDocs.Metadata for .NET részletes dokumentációját?
- Utal[dokumentáció](https://reference.groupdocs.com/metadata/net/) átfogó útmutatásért a könyvtár használatához.
+ Utal[dokumentáció](https://tutorials.groupdocs.com/metadata/net/) átfogó útmutatásért a könyvtár használatához.
 ### Kaphatok ideiglenes licencet tesztelési célból?
  Igen, kérheti a[ideiglenes engedély](https://purchase.groupdocs.com/temporary-license/) értékelési célokra.

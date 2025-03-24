@@ -3,7 +3,6 @@ title: 从 .NET 中的 PDF 读取文件格式属性
 linktitle: 从 .NET 中的 PDF 读取文件格式属性
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 提取 PDF 文件格式属性。使用简单的 C# 深入研究元数据管理。
-type: docs
 weight: 13
 url: /zh/net/pdf-metadata/read-file-format-properties-pdfs/
 ---
@@ -63,7 +62,7 @@ Console.WriteLine("Extension: " + root.FileType.Extension);
 ### GroupDocs.Metadata for .NET 有试用版吗？
 是的，您可以从以下位置下载免费试用版[这里](https://releases.groupdocs.com/).
 ### 在哪里可以找到 GroupDocs.Metadata 的综合文档？
-请参阅详细文档[这里](https://reference.groupdocs.com/metadata/net/).
+请参阅详细文档[这里](https://tutorials.groupdocs.com/metadata/net/).
 ### 对于与 GroupDocs.Metadata 相关的任何问题或查询，如何获得支持？
 您可以从 GroupDocs.Metadata 社区寻求支持[论坛](https://forum.groupdocs.com/c/metadata/14).
 ### 在哪里可以购买 GroupDocs.Metadata for .NET 的许可版本？

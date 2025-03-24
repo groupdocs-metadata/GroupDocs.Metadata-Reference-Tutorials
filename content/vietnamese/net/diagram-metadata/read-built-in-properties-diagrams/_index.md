@@ -3,7 +3,6 @@ title: Đọc các thuộc tính tích hợp từ sơ đồ trong .NET
 linktitle: Đọc các thuộc tính tích hợp từ sơ đồ trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất siêu dữ liệu từ các tệp sơ đồ trong .NET bằng GroupDocs.Metadata. Tăng cường quản lý và phân tích tài liệu một cách hiệu quả.
-type: docs
 weight: 10
 url: /vi/net/diagram-metadata/read-built-in-properties-diagrams/
 ---

@@ -3,7 +3,6 @@ title: Laden von Metadaten aus einem bestimmten Format in .NET
 linktitle: Laden von Metadaten aus einem bestimmten Format in .NET
 second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit GroupDocs.Metadata für .NET Metadaten aus bestimmten Dateiformaten laden.
-type: docs
 weight: 12
 url: /de/net/metadata-loading/load-metadata-specific-format/
 ---
@@ -55,7 +54,7 @@ Metadaten sind Daten, die Auskunft über andere Daten geben, etwa den Autor, das
 ### Warum ist die Verwaltung von Metadaten wichtig?
 Die Verwaltung von Metadaten ist für die Organisation und das Verständnis digitaler Inhalte von entscheidender Bedeutung und erleichtert die Durchsuchbarkeit und Interoperabilität.
 ### Wo finde ich ausführliche Dokumentation für GroupDocs.Metadata für .NET?
- Sie können auf die Dokumentation zugreifen[Hier](https://reference.groupdocs.com/metadata/net/).
+ Sie können auf die Dokumentation zugreifen[Hier](https://tutorials.groupdocs.com/metadata/net/).
 ### Wie kann ich eine temporäre Lizenz für GroupDocs.Metadata für .NET erhalten?
  Besuchen[dieser Link](https://purchase.groupdocs.com/temporary-license/) für den Erhalt einer vorläufigen Lizenz.
 ### Wo kann ich Unterstützung erhalten oder Fragen zu GroupDocs.Metadata für .NET stellen?

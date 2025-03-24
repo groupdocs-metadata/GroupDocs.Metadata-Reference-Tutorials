@@ -3,7 +3,6 @@ title: .NET의 스프레드시트에서 파일 형식 속성 읽기
 linktitle: .NET의 스프레드시트에서 파일 형식 속성 읽기
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 스프레드시트 파일 형식 속성을 읽는 방법을 알아보세요. 간단한 API 호출을 통해 파일 형식, MIME 유형 등에 액세스하세요.
-type: docs
 weight: 12
 url: /ko/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
@@ -55,7 +54,7 @@ Console.WriteLine(root.FileType.Extension);
 
 ## FAQ
 ### .NET용 GroupDocs.Metadata는 모든 유형의 스프레드시트 형식과 호환됩니까?
- .NET용 GroupDocs.Metadata는 XLSX, XLS, CSV 등을 포함한 광범위한 스프레드시트 형식을 지원합니다. 다음을 참조하세요.[선적 서류 비치](https://reference.groupdocs.com/metadata/net/) 지원되는 형식의 전체 목록을 보려면
+ .NET용 GroupDocs.Metadata는 XLSX, XLS, CSV 등을 포함한 광범위한 스프레드시트 형식을 지원합니다. 다음을 참조하세요.[선적 서류 비치](https://tutorials.groupdocs.com/metadata/net/) 지원되는 형식의 전체 목록을 보려면
 ### .NET용 GroupDocs.Metadata를 사용하여 메타데이터 속성을 편집할 수 있나요?
 예, .NET용 GroupDocs.Metadata를 사용하면 다양한 파일 형식과 관련된 메타데이터 속성을 읽을 수 있을 뿐 아니라 편집할 수도 있습니다.
 ### 테스트 목적으로 임시 라이센스를 얻으려면 어떻게 해야 합니까?

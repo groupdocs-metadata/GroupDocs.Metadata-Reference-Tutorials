@@ -3,7 +3,6 @@ title: เก็บข้อมูลเมตา
 linktitle: เก็บข้อมูลเมตา
 second_title: GroupDocs.Metadata .NET API
 description: สำรวจบทช่วยสอนเกี่ยวกับการแตกและจัดการคุณสมบัติเมทาดาทาจากรูปแบบไฟล์เก็บถาวรต่างๆ เช่น RAR, 7Zip, TAR และ ZIP โดยใช้ GroupDocs.Metadata สำหรับ .NET
-type: docs
 weight: 21
 url: /th/net/archive-metadata/
 ---

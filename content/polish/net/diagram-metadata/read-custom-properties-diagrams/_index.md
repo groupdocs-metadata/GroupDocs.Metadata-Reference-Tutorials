@@ -3,7 +3,6 @@ title: Przeczytaj właściwości niestandardowe z diagramów w .NET
 linktitle: Przeczytaj właściwości niestandardowe z diagramów w .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak wyodrębnić niestandardowe właściwości z plików diagramów w platformie .NET przy użyciu GroupDocs.Metadata. Łatwy przewodnik krok po kroku dla programistów.
-type: docs
 weight: 11
 url: /pl/net/diagram-metadata/read-custom-properties-diagrams/
 ---
@@ -60,6 +59,6 @@ Tak, GroupDocs.Metadata obsługuje różne formaty dokumentów, w tym prezentacj
 ### Czy GroupDocs.Metadata nadaje się do przetwarzania dokumentów na dużą skalę?
 Tak, GroupDocs.Metadata został zaprojektowany do wydajnej obsługi dużych ilości dokumentów.
 ### Gdzie mogę znaleźć dodatkową pomoc lub dokumentację dotyczącą GroupDocs.Metadata?
- Odwiedzić[Forum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) o wsparcie i poznanie[dokumentacja](https://reference.groupdocs.com/metadata/net/) szczegółowe odniesienia do API.
+ Odwiedzić[Forum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) o wsparcie i poznanie[dokumentacja](https://tutorials.groupdocs.com/metadata/net/) szczegółowe odniesienia do API.
 ### Czy mogę bezpłatnie wypróbować GroupDocs.Metadata przed zakupem?
  Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.groupdocs.com/).

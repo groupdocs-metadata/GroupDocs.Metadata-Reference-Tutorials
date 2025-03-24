@@ -3,7 +3,6 @@ title: Beépített tulajdonságok olvasása a .NET prezentációiból
 linktitle: Beépített tulajdonságok olvasása a .NET prezentációiból
 second_title: GroupDocs.Metadata .NET API
 description: Ebből az átfogó oktatóanyagból megtudhatja, hogyan bonthat ki beépített tulajdonságokat a prezentációkból a GroupDocs.Metadata for .NET segítségével.
-type: docs
 weight: 10
 url: /hu/net/presentation-metadata/read-built-in-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Igen, a GroupDocs.Metadata for .NET támogatja a különféle prezentációs for
 ### Módosíthatom vagy frissíthetem a metaadatokat a GroupDocs.Metadata for .NET használatával?
 Ezzel a könyvtárral természetesen módosíthatja, frissítheti és eltávolíthatja a metaadat-tulajdonságokat.
 ### Hol találom a GroupDocs.Metadata for .NET részletes dokumentációját?
- A dokumentációra hivatkozhat[itt](https://reference.groupdocs.com/metadata/net/) átfogó tájékoztatásért.
+ A dokumentációra hivatkozhat[itt](https://tutorials.groupdocs.com/metadata/net/) átfogó tájékoztatásért.
 ### Hogyan szerezhetek ideiglenes licencet a GroupDocs.Metadata for .NET számára?
  Ideiglenes jogosítványt szerezhet[itt](https://purchase.groupdocs.com/temporary-license/) értékelési célokra.
 ### Hol kérhetek segítséget, vagy hol tehetek fel kérdéseket a GroupDocs.Metadata for .NET-hez kapcsolódóan?

@@ -3,7 +3,6 @@ title: Чтение тега ID3V2 из файлов MP3 в .NET
 linktitle: Чтение тега ID3V2 из файлов MP3 в .NET
 second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как извлечь теги ID3V2 из файлов MP3 с помощью GroupDocs.Metadata для .NET. Доступ к альбому, исполнителю и другим данным программным способом.
-type: docs
 weight: 12
 url: /ru/net/audio-metadata/read-id3v2-tag-mp3/
 ---

@@ -3,7 +3,6 @@ title: Ενημερώστε τις ενσωματωμένες ιδιότητες
 linktitle: Ενημερώστε τις ενσωματωμένες ιδιότητες σε αρχεία PDF χρησιμοποιώντας .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να ενημερώνετε τις ιδιότητες του εγγράφου PDF χρησιμοποιώντας C# και GroupDocs.Metadata για .NET. Τροποποιήστε τον συγγραφέα, τον τίτλο, τις λέξεις-κλειδιά και άλλα μέσω προγραμματισμού.
-type: docs
 weight: 15
 url: /el/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
@@ -72,7 +71,7 @@ using (Metadata metadata = new Metadata("Your Output File Path"))
 ### Ε: Τι είναι το GroupDocs.Metadata για .NET;
 Α: Το GroupDocs.Metadata για .NET είναι μια βιβλιοθήκη που επιτρέπει στους προγραμματιστές να διαβάζουν, να επεξεργάζονται, να αφαιρούν και να χειρίζονται μεταδεδομένα σε διάφορες μορφές εγγράφων μέσω προγραμματισμού.
 ### Ε: Πού μπορώ να βρω την τεκμηρίωση για το GroupDocs.Metadata για .NET;
- Α: Μπορείτε να αποκτήσετε πρόσβαση στην τεκμηρίωση[εδώ](https://reference.groupdocs.com/metadata/net/).
+ Α: Μπορείτε να αποκτήσετε πρόσβαση στην τεκμηρίωση[εδώ](https://tutorials.groupdocs.com/metadata/net/).
 ### Ε: Πώς μπορώ να κατεβάσω το GroupDocs.Metadata για .NET;
  Α: Μπορείτε να κάνετε λήψη του GroupDocs.Metadata για .NET από[αυτός ο σύνδεσμος](https://releases.groupdocs.com/metadata/net/).
 ### Ε: Υπάρχει δωρεάν δοκιμή διαθέσιμη;

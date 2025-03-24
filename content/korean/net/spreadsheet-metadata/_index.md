@@ -4,7 +4,6 @@ linktitle: 스프레드시트 메타데이터
 second_title: GroupDocs.메타데이터 .NET API
 description: 스프레드시트 속성 읽기 및 업데이트에 대한 자습서를 통해 .NET용 GroupDocs.Metadata의 강력한 기능을 활용해 보세요. .NET 애플리케이션에서 메타데이터 조작을 강화하세요.
 
-type: docs
 weight: 27
 url: /ko/net/spreadsheet-metadata/
 ---

@@ -3,7 +3,6 @@ title: Aktualizujte uživatelské vlastnosti v souborech PDF pomocí .NET
 linktitle: Aktualizujte uživatelské vlastnosti v souborech PDF pomocí .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se aktualizovat uživatelské vlastnosti v souborech PDF pomocí .NET s GroupDocs.Metadata. Jednoduché kroky pro efektivní manipulaci s metadaty PDF.
-type: docs
 weight: 16
 url: /cs/net/pdf-metadata/update-custom-properties-pdfs/
 ---

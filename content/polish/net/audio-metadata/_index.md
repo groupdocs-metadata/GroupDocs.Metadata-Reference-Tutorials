@@ -3,7 +3,6 @@ title: Metadane audio
 linktitle: Metadane audio
 second_title: GroupDocs.Metadata API .NET
 description: Odkryj samouczki dotyczące obsługi metadanych audio za pomocą GroupDocs.Metadata dla platformy .NET. Dowiedz się, jak skutecznie wyodrębniać, aktualizować i usuwać znaczniki z plików MP3 i WAV.
-type: docs
 weight: 22
 url: /pl/net/audio-metadata/
 ---

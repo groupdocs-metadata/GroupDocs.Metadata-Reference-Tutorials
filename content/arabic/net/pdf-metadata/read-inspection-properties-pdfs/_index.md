@@ -3,7 +3,6 @@ title: قراءة خصائص الفحص من ملفات PDF في .NET
 linktitle: قراءة خصائص الفحص من ملفات PDF في .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج خصائص الفحص من مستندات PDF باستخدام GroupDocs.Metadata لـ .NET. استكشف التعليقات التوضيحية والمرفقات والمزيد.
-type: docs
 weight: 14
 url: /ar/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
@@ -100,7 +99,7 @@ if (root.InspectionPackage.Fields != null)
 ### هل يمكنني استخدام GroupDocs.Metadata مع تنسيقات ملفات أخرى إلى جانب PDF؟
 نعم، يدعم GroupDocs.Metadata مجموعة واسعة من تنسيقات المستندات بما في ذلك مستندات Microsoft Office والصور والملفات الصوتية والمزيد.
 ### أين يمكنني العثور على الوثائق التفصيلية لـ GroupDocs.Metadata لـ .NET؟
- الرجوع إلى[توثيق](https://reference.groupdocs.com/metadata/net/) للحصول على إرشادات شاملة ومراجع واجهة برمجة التطبيقات.
+ الرجوع إلى[توثيق](https://tutorials.groupdocs.com/metadata/net/) للحصول على إرشادات شاملة ومراجع واجهة برمجة التطبيقات.
 ### هل هناك إصدار تجريبي متاح لـ GroupDocs.Metadata؟
  نعم، يمكنك الحصول على نسخة تجريبية مجانية من[صفحة إصدارات GroupDocs](https://releases.groupdocs.com/).
 ### كيف يمكنني الحصول على الدعم لأية مشكلات أو استفسارات تتعلق بـ GroupDocs.Metadata؟

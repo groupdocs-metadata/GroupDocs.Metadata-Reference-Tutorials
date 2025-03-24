@@ -3,7 +3,6 @@ title: Aktualisieren Sie benutzerdefinierte Eigenschaften in Tabellenkalkulation
 linktitle: Aktualisieren Sie benutzerdefinierte Eigenschaften in Tabellenkalkulationen mit .NET
 second_title: GroupDocs.Metadata .NET-API
 description: Entdecken Sie, wie Sie benutzerdefinierte Eigenschaften in Tabellenkalkulationen mit GroupDocs.Metadata für .NET aktualisieren. Dieses Tutorial verbessert effektiv Ihre Fähigkeiten im Metadatenmanagement.
-type: docs
 weight: 15
 url: /de/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---

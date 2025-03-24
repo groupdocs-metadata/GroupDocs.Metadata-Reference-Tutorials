@@ -3,7 +3,6 @@ title: Actualizar propiedades personalizadas en hojas de cálculo usando .NET
 linktitle: Actualizar propiedades personalizadas en hojas de cálculo usando .NET
 second_title: API GroupDocs.Metadata .NET
 description: Descubra cómo actualizar propiedades personalizadas en hojas de cálculo usando GroupDocs.Metadata para .NET. Este tutorial mejora sus habilidades de gestión de metadatos de forma eficaz.
-type: docs
 weight: 15
 url: /es/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---

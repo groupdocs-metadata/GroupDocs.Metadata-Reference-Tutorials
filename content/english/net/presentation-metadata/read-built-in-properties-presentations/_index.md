@@ -3,7 +3,6 @@ title: Read Built-In Properties from Presentations in .NET
 linktitle: Read Built-In Properties from Presentations in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Learn how to extract built-in properties from presentations using GroupDocs.Metadata for .NET in this comprehensive tutorial.
-type: docs
 weight: 10
 url: /net/presentation-metadata/read-built-in-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Yes, GroupDocs.Metadata for .NET supports various presentation formats like PPTX
 ### Can I modify or update metadata using GroupDocs.Metadata for .NET?
 Absolutely, you can modify, update, and remove metadata properties using this library.
 ### Where can I find detailed documentation for GroupDocs.Metadata for .NET?
-You can refer to the documentation [here](https://reference.groupdocs.com/metadata/net/) for comprehensive information.
+You can refer to the documentation [here](https://tutorials.groupdocs.com/metadata/net/) for comprehensive information.
 ### How can I obtain a temporary license for GroupDocs.Metadata for .NET?
 You can acquire a temporary license [here](https://purchase.groupdocs.com/temporary-license/) for evaluation purposes.
 ### Where can I seek assistance or ask questions related to GroupDocs.Metadata for .NET?

@@ -3,7 +3,6 @@ title: 從 .NET 中的 7Zip 檔案讀取本機元資料屬性
 linktitle: 從 .NET 中的 7Zip 檔案讀取本機元資料屬性
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 從 7Zip 檔案中讀取本機元資料屬性。增強 .NET 應用程式的資料管理功能。
-type: docs
 weight: 11
 url: /zh-hant/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
@@ -64,7 +63,7 @@ foreach (var file in root.SevenZipPackage.Files)
 ### GroupDocs.Metadata 是否與 RAR 或 TAR 等其他存檔格式相容？
 是的，GroupDocs.Metadata 支援多種存檔格式，包括 RAR、TAR 和 ZIP 等。
 ### 在哪裡可以找到 GroupDocs.Metadata for .NET 的詳細文件？
-您可以存取文檔[這裡](https://reference.groupdocs.com/metadata/net/).
+您可以存取文檔[這裡](https://tutorials.groupdocs.com/metadata/net/).
 ### 如何取得 GroupDocs.Metadata 的臨時許可證？
 您可以獲得臨時許可證[這裡](https://purchase.groupdocs.com/temporary-license/).
 ### GroupDocs.Metadata 是否提供故障排除和查詢支援？

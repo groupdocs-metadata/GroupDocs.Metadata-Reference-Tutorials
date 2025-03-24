@@ -3,7 +3,6 @@ title: 使用 .NET 更新電子表格中的檢查屬性
 linktitle: 使用 .NET 更新電子表格中的檢查屬性
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 更新電子表格中的檢查屬性。輕鬆管理評論、簽名和隱藏工作表。
-type: docs
 weight: 16
 url: /zh-hant/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ metadata.Save("YourOutputFile.xlsx");
 ### 我可以使用 GroupDocs.Metadata 修改其他元資料屬性嗎？
 當然，GroupDocs.Metadata 允許您讀取、更新、刪除和新增元資料屬性，例如作者、標題、建立日期等。
 ### 在哪裡可以找到 GroupDocs.Metadata for .NET 的詳細文件？
-您可以參考綜合[文件](https://reference.groupdocs.com/metadata/net/)可以在線獲取。
+您可以參考綜合[文件](https://tutorials.groupdocs.com/metadata/net/)可以在線獲取。
 ### GroupDocs.Metadata for .NET 是否有免費試用版？
 是的，您可以訪問[免費試用](https://releases.groupdocs.com/)評估 API。
 ### 如何獲得 GroupDocs.Metadata for .NET 的技術支援？

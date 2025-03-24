@@ -3,7 +3,6 @@ title: .NET में PDF से निरीक्षण गुण पढ़े
 linktitle: .NET में PDF से निरीक्षण गुण पढ़ें
 second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके PDF दस्तावेज़ों से निरीक्षण गुण निकालने का तरीका जानें। एनोटेशन, अनुलग्नक और बहुत कुछ देखें।
-type: docs
 weight: 14
 url: /hi/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
@@ -100,7 +99,7 @@ if (root.InspectionPackage.Fields != null)
 ### क्या मैं PDF के अलावा अन्य फ़ाइल स्वरूपों के साथ GroupDocs.Metadata का उपयोग कर सकता हूँ?
 हां, GroupDocs.Metadata Microsoft Office दस्तावेज़, चित्र, ऑडियो फ़ाइलें और अधिक सहित दस्तावेज़ स्वरूपों की एक विस्तृत श्रृंखला का समर्थन करता है।
 ### मैं .NET के लिए GroupDocs.Metadata हेतु विस्तृत दस्तावेज़ कहां पा सकता हूं?
- को देखें[प्रलेखन](https://reference.groupdocs.com/metadata/net/) व्यापक मार्गदर्शन और एपीआई संदर्भ के लिए.
+ को देखें[प्रलेखन](https://tutorials.groupdocs.com/metadata/net/) व्यापक मार्गदर्शन और एपीआई संदर्भ के लिए.
 ### क्या GroupDocs.Metadata के लिए कोई परीक्षण संस्करण उपलब्ध है?
  हां, आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं[ग्रुपडॉक्स ने पेज जारी किया](https://releases.groupdocs.com/).
 ### मैं GroupDocs.Metadata से संबंधित किसी भी समस्या या प्रश्न के लिए समर्थन कैसे प्राप्त कर सकता हूं?

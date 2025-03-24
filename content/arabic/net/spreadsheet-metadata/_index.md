@@ -4,7 +4,6 @@ linktitle: البيانات الوصفية لجدول البيانات
 second_title: GroupDocs.Metadata .NET API
 description: أطلق العنان لقوة GroupDocs.Metadata لـ .NET من خلال البرامج التعليمية حول قراءة وتحديث خصائص جدول البيانات. رفع مستوى معالجة بيانات التعريف في تطبيقات .NET الخاصة بك.
 
-type: docs
 weight: 27
 url: /ar/net/spreadsheet-metadata/
 ---

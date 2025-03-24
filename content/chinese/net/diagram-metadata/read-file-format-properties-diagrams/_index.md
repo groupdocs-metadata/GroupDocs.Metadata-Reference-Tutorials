@@ -3,7 +3,6 @@ title: 从 .NET 图表中读取文件格式属性
 linktitle: 从 .NET 图表中读取文件格式属性
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata 从 .NET 中的图表读取文件格式属性。轻松提取详细的元数据。
-type: docs
 weight: 13
 url: /zh/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
@@ -49,7 +48,7 @@ using (Metadata metadata = new Metadata("Your Input File"))
 ### GroupDocs.Metadata for .NET 有试用版吗？
 是的，您可以从以下位置下载免费试用版[这里](https://releases.groupdocs.com/).
 ### 在哪里可以找到有关 .NET 的 GroupDocs.Metadata 的详细文档？
-参考文档[这里](https://reference.groupdocs.com/metadata/net/).
+参考文档[这里](https://tutorials.groupdocs.com/metadata/net/).
 ### 如何购买 GroupDocs.Metadata for .NET 的许可证？
 您可以从购买许可证[这里](https://purchase.groupdocs.com/buy).
 ### 我可以在哪里寻求与 GroupDocs.Metadata for .NET 相关的技术支持或提出问题？

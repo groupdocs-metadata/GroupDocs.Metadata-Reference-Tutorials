@@ -3,7 +3,6 @@ title: .NET में MP3 फ़ाइलों से ID3V2 टैग हटा
 linktitle: .NET में MP3 फ़ाइलों से ID3V2 टैग हटाएँ
 second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके MP3 फ़ाइलों से ID3V2 टैग हटाने का तरीका जानें। अपने C# प्रोजेक्ट में मेटाडेटा को कुशलतापूर्वक प्रबंधित करें।
-type: docs
 weight: 17
 url: /hi/net/audio-metadata/remove-id3v2-tag-mp3/
 ---
@@ -55,7 +54,7 @@ metadata.Save("path/to/your/output.mp3");
 ### क्या मैं इस लाइब्रेरी का उपयोग करके अन्य प्रकार के मेटाडेटा को हटा सकता हूँ?
 हां, .NET के लिए GroupDocs.Metadata फ़ाइल स्वरूपों की एक विस्तृत श्रृंखला का समर्थन करता है और विभिन्न मेटाडेटा प्रकारों के हेरफेर की अनुमति देता है।
 ### मैं विभिन्न फ़ाइल स्वरूपों में मेटाडेटा के साथ काम करने के बारे में अधिक कैसे जान सकता हूँ?
- को देखें[प्रलेखन](https://reference.groupdocs.com/metadata/net/) विस्तृत जानकारी और उदाहरण के लिए.
+ को देखें[प्रलेखन](https://tutorials.groupdocs.com/metadata/net/) विस्तृत जानकारी और उदाहरण के लिए.
 ### अगर मुझे GroupDocs.Metadata का उपयोग करते समय समस्या आती है तो मुझे सहायता कहां से मिल सकती है?
  आप यहां जा सकते हैं[GroupDocs.Metadata फ़ोरम](https://forum.groupdocs.com/c/metadata/14) सामुदायिक सहायता और समस्या निवारण के लिए।
 ### क्या परीक्षण प्रयोजनों के लिए कोई अस्थायी लाइसेंस उपलब्ध है?

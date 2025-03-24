@@ -3,7 +3,6 @@ title: Meta Veri Yükleme
 linktitle: Meta Veri Yükleme
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata ile .NET'teki dosya meta verilerini zahmetsizce yönetin. Gelişmiş dosya işleme yetenekleri için yükleme tekniklerini, düzenlemeyi ve daha fazlasını öğrenin.
-type: docs
 weight: 20
 url: /tr/net/metadata-loading/
 ---

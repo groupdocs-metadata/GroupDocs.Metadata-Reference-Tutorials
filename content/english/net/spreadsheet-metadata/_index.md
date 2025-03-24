@@ -4,7 +4,6 @@ linktitle: Spreadsheet Metadata
 second_title: GroupDocs.Metadata .NET API
 description: Unlock the power of GroupDocs.Metadata for .NET with tutorials on reading and updating spreadsheet properties. Elevate metadata manipulation in your .NET applications.
 
-type: docs
 weight: 27
 url: /net/spreadsheet-metadata/
 ---

@@ -3,7 +3,6 @@ title: Διαβάστε τις ιδιότητες εγγενών μεταδεδ�
 linktitle: Διαβάστε τις ιδιότητες εγγενών μεταδεδομένων από τα αρχεία ZIP στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε μεταδεδομένα από αρχεία ZIP χρησιμοποιώντας το GroupDocs.Metadata για .NET. Εξερευνήστε οδηγίες βήμα προς βήμα για την ανάγνωση εγγενών ιδιοτήτων.
-type: docs
 weight: 13
 url: /el/net/archive-metadata/read-native-metadata-zip-archives/
 ---
@@ -67,7 +66,7 @@ foreach (var file in root.ZipPackage.Files)
 ### Πώς μπορώ να λάβω μια προσωρινή άδεια για το GroupDocs.Metadata;
  Μπορείτε να αποκτήσετε προσωρινή άδεια από[εδώ](https://purchase.groupdocs.com/temporary-license/).
 ### Πού μπορώ να βρω την πλήρη τεκμηρίωση για το GroupDocs.Metadata για .NET;
- Η τεκμηρίωση είναι προσβάσιμη[εδώ](https://reference.groupdocs.com/metadata/net/).
+ Η τεκμηρίωση είναι προσβάσιμη[εδώ](https://tutorials.groupdocs.com/metadata/net/).
 ### Μπορώ να δοκιμάσω το GroupDocs.Metadata για .NET δωρεάν;
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης[εδώ](https://releases.groupdocs.com/).
 ### Πώς μπορώ να λάβω υποστήριξη ή να κάνω ερωτήσεις σχετικά με το GroupDocs.Metadata για .NET;

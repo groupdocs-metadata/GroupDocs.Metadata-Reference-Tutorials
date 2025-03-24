@@ -3,7 +3,6 @@ title: Carregando metadados do stream no tutorial .NET
 linktitle: Carregando metadados do stream no tutorial .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda a gerenciar metadados de arquivos em .NET com GroupDocs.Metadata. Guia passo a passo para carregar, editar e remover metadados de streams.
-type: docs
 weight: 11
 url: /pt/net/metadata-loading/load-metadata-stream/
 ---
@@ -63,7 +62,7 @@ Neste tutorial, abordamos os princípios básicos do carregamento de metadados d
 ### P: Como posso obter uma licença temporária para GroupDocs.Metadata?
  R: Você pode adquirir uma licença temporária de[aqui](https://purchase.groupdocs.com/temporary-license/).
 ### P: Onde posso encontrar documentação abrangente sobre GroupDocs.Metadata?
- R: Explore a documentação detalhada[aqui](https://reference.groupdocs.com/metadata/net/).
+ R: Explore a documentação detalhada[aqui](https://tutorials.groupdocs.com/metadata/net/).
 ### P: Existe uma avaliação gratuita disponível para GroupDocs.Metadata?
  R: Sim, você pode acessar uma avaliação gratuita[aqui](https://releases.groupdocs.com/).
 ### P: Como posso obter suporte para GroupDocs.Metadata?

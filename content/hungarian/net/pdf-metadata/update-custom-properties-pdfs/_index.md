@@ -3,7 +3,6 @@ title: Frissítse a PDF-fájlok egyéni tulajdonságait .NET használatával
 linktitle: Frissítse a PDF-fájlok egyéni tulajdonságait .NET használatával
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan frissítheti az egyéni tulajdonságokat PDF-fájlokban a .NET és GroupDocs.Metadata használatával. Egyszerű lépések a PDF-metaadatok hatékony kezeléséhez.
-type: docs
 weight: 16
 url: /hu/net/pdf-metadata/update-custom-properties-pdfs/
 ---

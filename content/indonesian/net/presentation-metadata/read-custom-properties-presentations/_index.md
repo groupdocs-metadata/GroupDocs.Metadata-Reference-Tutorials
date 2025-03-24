@@ -3,7 +3,6 @@ title: Baca Properti Kustom dari Presentasi di .NET
 linktitle: Baca Properti Kustom dari Presentasi di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara membaca properti khusus dari presentasi di .NET menggunakan GroupDocs.Metadata. Akses dan ambil metadata secara efisien.
-type: docs
 weight: 11
 url: /id/net/presentation-metadata/read-custom-properties-presentations/
 ---

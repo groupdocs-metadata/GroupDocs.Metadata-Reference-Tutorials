@@ -3,7 +3,6 @@ title: 图表元数据
 linktitle: 图表元数据
 second_title: GroupDocs.元数据 .NET API
 description: 发现有关使用 GroupDocs.Metadata for .NET 管理图表元数据的全面教程。轻松提取、更新和分析属性。
-type: docs
 weight: 23
 url: /zh/net/diagram-metadata/
 ---

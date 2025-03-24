@@ -3,7 +3,6 @@ title: Audio metaadatok
 linktitle: Audio metaadatok
 second_title: GroupDocs.Metadata .NET API
 description: Fedezze fel az oktatóanyagokat az audio metaadatok kezeléséről a GroupDocs.Metadata for .NET segítségével. Tanulja meg hatékonyan kivonni, frissíteni és eltávolítani a címkéket MP3- és WAV-fájlokból.
-type: docs
 weight: 22
 url: /hu/net/audio-metadata/
 ---

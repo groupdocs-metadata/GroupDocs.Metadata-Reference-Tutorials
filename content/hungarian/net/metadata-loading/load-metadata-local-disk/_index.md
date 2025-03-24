@@ -3,7 +3,6 @@ title: Hogyan töltsünk be metaadatokat a helyi lemezről a .NET-ben
 linktitle: Hogyan töltsünk be metaadatokat a helyi lemezről a .NET-ben
 second_title: GroupDocs.Metadata .NET API
 description: Könnyedén kezelheti a fájlok metaadatait .NET-alkalmazásokban a GroupDocs.Metadata segítségével a továbbfejlesztett fájlkezelési lehetőségek érdekében.
-type: docs
 weight: 10
 url: /hu/net/metadata-loading/load-metadata-local-disk/
 ---
@@ -62,7 +61,7 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan használhatjuk a GroupDocs.Metad
 ### K: Hogyan szerezhetek ideiglenes licencet a GroupDocs.Metadata számára?
  V: Ideiglenes licencet szerezhet be a[GroupDocs vásárlási oldal](https://purchase.groupdocs.com/temporary-license/).
 ### K: Hol találom a GroupDocs.Metadata átfogó dokumentációját?
- V: Tekintse meg a részletes dokumentációt a címen[GroupDocs.Metadata a .NET-dokumentációhoz](https://reference.groupdocs.com/metadata/net/).
+ V: Tekintse meg a részletes dokumentációt a címen[GroupDocs.Metadata a .NET-dokumentációhoz](https://tutorials.groupdocs.com/metadata/net/).
 ### K: A GroupDocs.Metadata támogatja az ingyenes próbaverziót?
  V: Igen, elérheti a GroupDocs.Metadata ingyenes próbaverzióját innen[itt](https://releases.groupdocs.com/).
 ### K: Hol kaphatok támogatást, vagy hol tehetek fel kérdéseket a GroupDocs.Metadata-val kapcsolatban?

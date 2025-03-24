@@ -3,7 +3,6 @@ title: .NET'teki Diyagramlardan Belge İstatistiklerini Okuyun
 linktitle: .NET'teki Diyagramlardan Belge İstatistiklerini Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: Güçlü bir meta veri işleme kitaplığı olan GroupDocs.Metadata'yı kullanarak .NET'teki diyagramlardan belge istatistiklerini nasıl çıkaracağınızı öğrenin.
-type: docs
 weight: 12
 url: /tr/net/diagram-metadata/read-document-statistics-diagrams/
 ---
@@ -53,7 +52,7 @@ Bu öğreticide, GroupDocs.Metadata for .NET'i kullanarak diyagramlardan belge i
 ### GroupDocs.Metadata for .NET'i diyagramların yanı sıra diğer dosya formatlarıyla da kullanabilir miyim?
 Evet, GroupDocs.Metadata resimler, belgeler, sunumlar, e-tablolar ve daha fazlasını içeren çeşitli dosya formatlarını destekler.
 ### GroupDocs.Metadata for .NET'e ilişkin ayrıntılı belgeleri nerede bulabilirim?
- Şuraya başvurabilirsiniz:[dokümantasyon](https://reference.groupdocs.com/metadata/net/) kapsamlı rehberlik için.
+ Şuraya başvurabilirsiniz:[dokümantasyon](https://tutorials.groupdocs.com/metadata/net/) kapsamlı rehberlik için.
 ### GroupDocs.Metadata for .NET'in ücretsiz deneme sürümü var mı?
  Evet, şu adrese erişebilirsiniz:[ücretsiz deneme](https://releases.groupdocs.com/) GroupDocs.Metadata'nın özelliklerini keşfetmek için.
 ### GroupDocs.Metadata for .NET için nasıl teknik destek alabilirim?

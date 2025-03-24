@@ -3,7 +3,6 @@ title: Update Built-In Properties in Diagrams using .NET
 linktitle: Update Built-In Properties in Diagrams using .NET
 second_title: GroupDocs.Metadata .NET API
 description: Learn how to update built-in properties in diagrams using GroupDocs.Metadata for .NET. Modify metadata seamlessly with code examples.
-type: docs
 weight: 14
 url: /net/diagram-metadata/update-built-in-properties-diagrams/
 ---
@@ -15,7 +14,7 @@ In this tutorial, we'll explore how to update built-in properties in diagrams us
 Before you begin, ensure you have the following:
 
 - Visual Studio: Installed on your machine.
-- GroupDocs.Metadata for .NET: Downloaded and added as a reference to your project.
+- GroupDocs.Metadata for .NET: Downloaded and added as a tutorials to your project.
 - Basic knowledge of C#: Understanding of C# programming language.
 
 ## Import Namespaces
@@ -79,7 +78,7 @@ A: Yes, you can download a free trial from [here](https://releases.groupdocs.com
 A: You can visit the [GroupDocs.Metadata forum](https://forum.groupdocs.com/c/metadata/14) for assistance.
 
 ### Q: Where can I find detailed documentation for GroupDocs.Metadata for .NET?
-A: Refer to the comprehensive [documentation](https://reference.groupdocs.com/metadata/net/) for in-depth guidance.
+A: Refer to the comprehensive [documentation](https://tutorials.groupdocs.com/metadata/net/) for in-depth guidance.
 
 ### Q: Can I purchase a temporary license for short-term usage?
 A: Yes, you can obtain a temporary license from [here](https://purchase.groupdocs.com/temporary-license/).

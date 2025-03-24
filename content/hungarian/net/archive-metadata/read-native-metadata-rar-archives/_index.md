@@ -3,7 +3,6 @@ title: Olvassa el a natív metaadatok tulajdonságait a RAR-archívumból a .NET
 linktitle: Olvassa el a natív metaadatok tulajdonságait a RAR-archívumból a .NET-ben
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthat ki metaadat-tulajdonságokat RAR-archívumokból a GroupDocs.Metadata for .NET segítségével C#-ban. Fedezze fel a fájl részleteit könnyedén.
-type: docs
 weight: 10
 url: /hu/net/archive-metadata/read-native-metadata-rar-archives/
 ---

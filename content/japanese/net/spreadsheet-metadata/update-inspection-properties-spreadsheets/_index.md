@@ -3,7 +3,6 @@ title: .NET を使用してスプレッドシートの検査プロパティを�
 linktitle: .NET を使用してスプレッドシートの検査プロパティを更新する
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用してスプレッドシートの検査プロパティを更新する方法を学習します。コメント、署名、非表示のシートを簡単に管理します。
-type: docs
 weight: 16
 url: /ja/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ metadata.Save("YourOutputFile.xlsx");
 ### GroupDocs.Metadata を使用して他のメタデータ プロパティを変更できますか?
 確かに、GroupDocs.Metadata を使用すると、作成者、タイトル、作成日などのメタデータ プロパティの読み取り、更新、削除、追加が可能になります。
 ### GroupDocs.Metadata for .NET の詳細なドキュメントはどこで入手できますか?
-総合的に参照できます[ドキュメンテーション](https://reference.groupdocs.com/metadata/net/)オンラインで入手可能。
+総合的に参照できます[ドキュメンテーション](https://tutorials.groupdocs.com/metadata/net/)オンラインで入手可能。
 ### GroupDocs.Metadata for .NET に利用できる無料試用版はありますか?
 はい、アクセスできます[無料トライアル](https://releases.groupdocs.com/) API を評価します。
 ### GroupDocs.Metadata for .NET のテクニカル サポートを受けるにはどうすればよいですか?

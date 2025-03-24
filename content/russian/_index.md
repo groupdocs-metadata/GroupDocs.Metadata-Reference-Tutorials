@@ -3,7 +3,6 @@ title: Разблокирование мастерства метаданных 
 linktitle: Учебные пособия по GroupDocs.Метаданным
 additionalTitle: Ссылки на API GroupDocs
 description: Откройте для себя подробные руководства по GroupDocs.Metadata на разных платформах. Освойте управление метаданными в .NET и Java без особых усилий.
-type: docs
 weight: 11
 url: /ru/
 is_root: true

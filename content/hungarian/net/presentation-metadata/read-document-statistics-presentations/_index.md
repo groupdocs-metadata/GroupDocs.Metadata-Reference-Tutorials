@@ -3,7 +3,6 @@ title: Olvassa el a dokumentumstatisztikát a .NET bemutatóiból
 linktitle: Olvassa el a dokumentumstatisztikát a .NET bemutatóiból
 second_title: GroupDocs.Metadata .NET API
 description: Tanulja meg, hogyan olvashat dokumentumstatisztikákat prezentációkból a .NET-ben a GroupDocs.Metadata segítségével a hatékony metaadatkezelés érdekében.
-type: docs
 weight: 12
 url: /hu/net/presentation-metadata/read-document-statistics-presentations/
 ---

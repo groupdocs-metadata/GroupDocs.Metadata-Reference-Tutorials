@@ -3,7 +3,6 @@ title: Cập nhật thuộc tính kiểm tra trong bản trình bày bằng .NET
 linktitle: Cập nhật thuộc tính kiểm tra trong bản trình bày bằng .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật thuộc tính kiểm tra trong bản trình bày bằng .NET với GroupDocs.Metadata. Thao tác siêu dữ liệu dễ dàng, hiệu quả cho các tệp .PPTX.
-type: docs
 weight: 17
 url: /vi/net/presentation-metadata/update-inspection-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Có, GroupDocs.Metadata hỗ trợ nhiều định dạng tệp bao gồm tài l
 ### Tôi có thể truy xuất các thuộc tính siêu dữ liệu từ các tệp bằng GroupDocs.Metadata không?
 Hoàn toàn có thể, GroupDocs.Metadata cho phép các nhà phát triển trích xuất và phân tích các thuộc tính siêu dữ liệu theo chương trình.
 ### Tôi có thể tìm tài liệu chi tiết về GroupDocs.Metadata ở đâu?
- Tham khảo đến[tài liệu](https://reference.groupdocs.com/metadata/net/) để có hướng dẫn toàn diện về cách sử dụng GroupDocs.Metadata cho .NET.
+ Tham khảo đến[tài liệu](https://tutorials.groupdocs.com/metadata/net/) để có hướng dẫn toàn diện về cách sử dụng GroupDocs.Metadata cho .NET.
 ### GroupDocs.Metadata có cung cấp bản dùng thử miễn phí không?
  Có, bạn có thể truy cập một[dùng thử miễn phí](https://releases.groupdocs.com/) của GroupDocs.Metadata để khám phá các tính năng của nó.
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho GroupDocs.Metadata?

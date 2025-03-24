@@ -3,7 +3,6 @@ title: .NET'teki WAV Dosyalarından Bilgi Meta Verilerini Okuyun
 linktitle: .NET'teki WAV Dosyalarından Bilgi Meta Verilerini Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak WAV dosyalarından meta verileri nasıl çıkaracağınızı öğrenin. Ses dosyası yönetimi için meta verilerden yararlanmak üzere bu adım adım öğreticiyi inceleyin.
-type: docs
 weight: 22
 url: /tr/net/audio-metadata/read-info-metadata-wav/
 ---
@@ -66,7 +65,7 @@ Evet, GroupDocs.Metadata resimler, belgeler, sunumlar, elektronik tablolar ve da
 ### GroupDocs.Metadata'nın ücretsiz deneme sürümü mevcut mu?
  Evet, GroupDocs.Metadata'nın ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Burada](https://releases.groupdocs.com/).
 ### GroupDocs.Metadata için ayrıntılı belgeleri nerede bulabilirim?
- Dokümantasyonun tamamına erişebilirsiniz[Burada](https://reference.groupdocs.com/metadata/net/).
+ Dokümantasyonun tamamına erişebilirsiniz[Burada](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata lisansını nasıl satın alabilirim?
  GroupDocs.Metadata lisansını şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.groupdocs.com/buy).
 ### GroupDocs.Metadata hakkında nereden destek alabilirim veya soru sorabilirim?

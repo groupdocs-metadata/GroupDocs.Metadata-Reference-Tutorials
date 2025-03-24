@@ -3,7 +3,6 @@ title: Baca Properti Bawaan dari Presentasi di .NET
 linktitle: Baca Properti Bawaan dari Presentasi di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengekstrak properti bawaan dari presentasi menggunakan GroupDocs.Metadata untuk .NET dalam tutorial komprehensif ini.
-type: docs
 weight: 10
 url: /id/net/presentation-metadata/read-built-in-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Ya, GroupDocs.Metadata untuk .NET mendukung berbagai format presentasi seperti P
 ### Bisakah saya mengubah atau memperbarui metadata menggunakan GroupDocs.Metadata untuk .NET?
 Tentu saja, Anda dapat mengubah, memperbarui, dan menghapus properti metadata menggunakan perpustakaan ini.
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk GroupDocs.Metadata untuk .NET?
- Anda dapat merujuk ke dokumentasi[Di Sini](https://reference.groupdocs.com/metadata/net/) untuk informasi yang komprehensif.
+ Anda dapat merujuk ke dokumentasi[Di Sini](https://tutorials.groupdocs.com/metadata/net/) untuk informasi yang komprehensif.
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk GroupDocs.Metadata untuk .NET?
  Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.groupdocs.com/temporary-license/) untuk tujuan evaluasi.
 ### Di mana saya dapat mencari bantuan atau mengajukan pertanyaan terkait GroupDocs.Metadata untuk .NET?

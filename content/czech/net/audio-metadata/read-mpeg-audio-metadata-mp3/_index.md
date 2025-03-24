@@ -3,7 +3,6 @@ title: Číst MPEG Audio Metadata ze souborů MP3 v .NET
 linktitle: Číst MPEG Audio Metadata ze souborů MP3 v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat metadata zvuku MPEG ze souborů MP3 v .NET pomocí GroupDocs.Metadata. Vylepšete své možnosti analýzy souborů.
-type: docs
 weight: 14
 url: /cs/net/audio-metadata/read-mpeg-audio-metadata-mp3/
 ---

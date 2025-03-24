@@ -3,7 +3,6 @@ title: .NET のプレゼンテーションからドキュメント統計を読�
 linktitle: .NET のプレゼンテーションからドキュメント統計を読み取る
 second_title: GroupDocs.Metadata .NET API
 description: メタデータを効率的に管理するために、GroupDocs.Metadata を使用して .NET のプレゼンテーションからドキュメント統計を読み取る方法を学びます。
-type: docs
 weight: 12
 url: /ja/net/presentation-metadata/read-document-statistics-presentations/
 ---

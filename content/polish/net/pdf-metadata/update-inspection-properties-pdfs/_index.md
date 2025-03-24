@@ -3,7 +3,6 @@ title: Aktualizuj właściwości kontroli w plikach PDF przy użyciu platformy .
 linktitle: Aktualizuj właściwości kontroli w plikach PDF przy użyciu platformy .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak aktualizować właściwości kontroli w dokumentach PDF przy użyciu GroupDocs.Metadata dla .NET. Efektywnie zarządzaj metadanymi i adnotacjami za pomocą języka C#.
-type: docs
 weight: 17
 url: /pl/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
@@ -67,6 +66,6 @@ Tak, GroupDocs.Metadata obsługuje różne formaty dokumentów, takie jak Micros
 ### Jak mogę uzyskać pomoc, jeśli napotkam problemy podczas korzystania z GroupDocs.Metadata?
  Odwiedzić[Forum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) za pomoc i wsparcie społeczne.
 ### Gdzie mogę znaleźć szczegółową dokumentację GroupDocs.Metadata dla .NET?
- Patrz[dokumentacja](https://reference.groupdocs.com/metadata/net/) aby uzyskać szczegółowe wskazówki dotyczące korzystania z biblioteki.
+ Patrz[dokumentacja](https://tutorials.groupdocs.com/metadata/net/) aby uzyskać szczegółowe wskazówki dotyczące korzystania z biblioteki.
 ### Czy mogę uzyskać tymczasową licencję do celów testowych?
  Tak, możesz poprosić o[licencja tymczasowa](https://purchase.groupdocs.com/temporary-license/) w celach ewaluacyjnych.

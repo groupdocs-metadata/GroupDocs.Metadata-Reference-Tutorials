@@ -1,7 +1,6 @@
 ---
 title: Учебники и примеры GroupDocs.Metadata для .NET
 linktitle: GroupDocs.Метаданные для учебных пособий по .NET
-type: docs
 weight: 10
 url: /ru/net/
 description: Легко управляйте метаданными файлов в .NET с помощью GroupDocs.Metadata. Изучите методы загрузки, редактирования и многое другое, чтобы расширить возможности манипулирования файлами.

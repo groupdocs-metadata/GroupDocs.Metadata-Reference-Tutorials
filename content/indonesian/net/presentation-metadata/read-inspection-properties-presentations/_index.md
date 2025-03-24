@@ -3,7 +3,6 @@ title: Baca Properti Inspeksi dari Presentasi di .NET
 linktitle: Baca Properti Inspeksi dari Presentasi di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengekstrak metadata presentasi menggunakan GroupDocs.Metadata untuk .NET. Akses komentar, slide tersembunyi, dan lainnya secara terprogram.
-type: docs
 weight: 14
 url: /id/net/presentation-metadata/read-inspection-properties-presentations/
 ---
@@ -64,7 +63,7 @@ J: GroupDocs.Metadata for .NET adalah API yang memungkinkan pengembang membaca, 
 ### T: Bagaimana cara mendapatkan lisensi sementara untuk GroupDocs.Metadata?
  J: Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.groupdocs.com/temporary-license/).
 ### T: Di mana saya dapat menemukan dokumentasi GroupDocs.Metadata untuk .NET?
- A: Anda dapat merujuk ke dokumentasinya[Di Sini](https://reference.groupdocs.com/metadata/net/).
+ A: Anda dapat merujuk ke dokumentasinya[Di Sini](https://tutorials.groupdocs.com/metadata/net/).
 ### T: Bagaimana cara mendapatkan dukungan untuk GroupDocs.Metadata?
  J: Untuk dukungan dan diskusi, kunjungi forum GroupDocs.Metadata[Di Sini](https://forum.groupdocs.com/c/metadata/14).
 ### T: Dapatkah saya mengunduh uji coba gratis GroupDocs.Metadata untuk .NET?

@@ -3,7 +3,6 @@ title: Sbloccare la padronanza dei metadati con GroupDocs.Metadata
 linktitle: Esercitazioni su GroupDocs.Metadata
 additionalTitle: Riferimenti API GroupDocs
 description: Scopri tutorial completi per GroupDocs.Metadata su tutte le piattaforme. Padroneggia la gestione dei metadati in .NET e Java senza sforzo.
-type: docs
 weight: 11
 url: /it/
 is_root: true

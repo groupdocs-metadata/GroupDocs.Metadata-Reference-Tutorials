@@ -3,7 +3,6 @@ title: Lees bestandsformaateigenschappen uit PDF's in .NET
 linktitle: Lees bestandsformaateigenschappen uit PDF's in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u de eigenschappen van PDF-bestandsindelingen kunt extraheren met GroupDocs.Metadata voor .NET. Duik in metadatabeheer met eenvoudig C#.
-type: docs
 weight: 13
 url: /nl/net/pdf-metadata/read-file-format-properties-pdfs/
 ---
@@ -63,7 +62,7 @@ Ja, GroupDocs.Metadata ondersteunt een breed scala aan bestandsindelingen naast 
 ### Is er een proefversie beschikbaar voor GroupDocs.Metadata voor .NET?
  Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.groupdocs.com/).
 ### Waar kan ik uitgebreide documentatie voor GroupDocs.Metadata vinden?
- Raadpleeg de gedetailleerde documentatie[hier](https://reference.groupdocs.com/metadata/net/).
+ Raadpleeg de gedetailleerde documentatie[hier](https://tutorials.groupdocs.com/metadata/net/).
 ### Hoe kan ik ondersteuning krijgen voor eventuele problemen of vragen met betrekking tot GroupDocs.Metadata?
  U kunt ondersteuning zoeken bij de GroupDocs.Metadata-gemeenschap[forum](https://forum.groupdocs.com/c/metadata/14).
 ### Waar kan ik een gelicentieerde versie van GroupDocs.Metadata voor .NET kopen?

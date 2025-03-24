@@ -3,7 +3,6 @@ title: Đọc số liệu thống kê tài liệu từ bản trình bày trong .
 linktitle: Đọc số liệu thống kê tài liệu từ bản trình bày trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách đọc số liệu thống kê tài liệu từ các bản trình bày trong .NET bằng GroupDocs.Metadata để quản lý siêu dữ liệu hiệu quả.
-type: docs
 weight: 12
 url: /vi/net/presentation-metadata/read-document-statistics-presentations/
 ---

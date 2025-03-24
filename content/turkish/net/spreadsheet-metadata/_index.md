@@ -4,7 +4,6 @@ linktitle: Elektronik Tablo Meta Verileri
 second_title: GroupDocs.Metadata .NET API'si
 description: Elektronik tablo özelliklerini okuma ve güncellemeye ilişkin eğitimlerle GroupDocs.Metadata for .NET'in gücünün kilidini açın. .NET uygulamalarınızda meta veri manipülasyonunu artırın.
 
-type: docs
 weight: 27
 url: /tr/net/spreadsheet-metadata/
 ---

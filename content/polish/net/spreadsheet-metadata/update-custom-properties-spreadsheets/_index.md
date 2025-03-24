@@ -3,7 +3,6 @@ title: Zaktualizuj właściwości niestandardowe w arkuszach kalkulacyjnych przy
 linktitle: Zaktualizuj właściwości niestandardowe w arkuszach kalkulacyjnych przy użyciu platformy .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak aktualizować niestandardowe właściwości w arkuszach kalkulacyjnych za pomocą GroupDocs.Metadata dla .NET. Ten samouczek skutecznie zwiększa Twoje umiejętności zarządzania metadanymi.
-type: docs
 weight: 15
 url: /pl/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---

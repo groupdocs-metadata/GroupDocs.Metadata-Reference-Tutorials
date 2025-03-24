@@ -3,7 +3,6 @@ title: Update Custom Properties in Presentations using .NET
 linktitle: Update Custom Properties in Presentations using .NET
 second_title: GroupDocs.Metadata .NET API
 description: Learn how to manage presentation metadata using GroupDocs.Metadata for .NET. Update custom properties efficiently in PowerPoint files.
-type: docs
 weight: 16
 url: /net/presentation-metadata/update-custom-properties-presentations/
 ---

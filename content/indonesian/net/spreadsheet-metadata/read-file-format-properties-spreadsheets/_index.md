@@ -3,7 +3,6 @@ title: Baca Properti Format File dari Spreadsheet di .NET
 linktitle: Baca Properti Format File dari Spreadsheet di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara membaca properti format file spreadsheet menggunakan GroupDocs.Metadata untuk .NET. Akses format file, tipe MIME, dan lainnya dengan panggilan API sederhana.
-type: docs
 weight: 12
 url: /id/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
@@ -55,7 +54,7 @@ Dalam tutorial ini, kita telah menjelajahi cara menggunakan GroupDocs.Metadata u
 
 ## FAQ
 ### Apakah GroupDocs.Metadata untuk .NET kompatibel dengan semua jenis format spreadsheet?
- GroupDocs.Metadata untuk .NET mendukung berbagai format spreadsheet, termasuk XLSX, XLS, CSV, dan banyak lagi. Mengacu kepada[dokumentasi](https://reference.groupdocs.com/metadata/net/) untuk daftar lengkap format yang didukung.
+ GroupDocs.Metadata untuk .NET mendukung berbagai format spreadsheet, termasuk XLSX, XLS, CSV, dan banyak lagi. Mengacu kepada[dokumentasi](https://tutorials.groupdocs.com/metadata/net/) untuk daftar lengkap format yang didukung.
 ### Bisakah saya mengedit properti metadata menggunakan GroupDocs.Metadata untuk .NET?
 Ya, GroupDocs.Metadata untuk .NET memungkinkan tidak hanya membaca tetapi juga mengedit properti metadata yang terkait dengan berbagai format file.
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk tujuan pengujian?

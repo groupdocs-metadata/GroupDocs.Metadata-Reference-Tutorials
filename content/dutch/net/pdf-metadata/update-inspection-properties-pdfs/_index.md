@@ -3,7 +3,6 @@ title: Update inspectie-eigenschappen in PDF's met .NET
 linktitle: Update inspectie-eigenschappen in PDF's met .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u inspectie-eigenschappen in PDF-documenten kunt bijwerken met GroupDocs.Metadata voor .NET. Beheer metadata en annotaties efficiënt met C#.
-type: docs
 weight: 17
 url: /nl/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
@@ -67,6 +66,6 @@ Ja, GroupDocs.Metadata ondersteunt verschillende documentformaten zoals Microsof
 ### Hoe kan ik ondersteuning krijgen als ik problemen ondervind tijdens het gebruik van GroupDocs.Metadata?
  Bezoek de[GroupDocs.Metadata-forum](https://forum.groupdocs.com/c/metadata/14) voor hulp en gemeenschapsondersteuning.
 ### Waar kan ik gedetailleerde documentatie vinden voor GroupDocs.Metadata voor .NET?
- Verwijs naar de[documentatie](https://reference.groupdocs.com/metadata/net/) voor uitgebreide richtlijnen voor het gebruik van de bibliotheek.
+ Verwijs naar de[documentatie](https://tutorials.groupdocs.com/metadata/net/) voor uitgebreide richtlijnen voor het gebruik van de bibliotheek.
 ### Kan ik een tijdelijke licentie verkrijgen voor testdoeleinden?
  Ja, u kunt een aanvraag indienen[tijdelijke licentie](https://purchase.groupdocs.com/temporary-license/) voor evaluatiedoeleinden.

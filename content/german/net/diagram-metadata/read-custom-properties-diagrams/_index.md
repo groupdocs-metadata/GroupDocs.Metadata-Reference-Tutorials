@@ -3,7 +3,6 @@ title: Lesen Sie benutzerdefinierte Eigenschaften aus Diagrammen in .NET
 linktitle: Lesen Sie benutzerdefinierte Eigenschaften aus Diagrammen in .NET
 second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie mit GroupDocs.Metadata benutzerdefinierte Eigenschaften aus Diagrammdateien in .NET extrahieren. Einfache Schritt-für-Schritt-Anleitung für Entwickler.
-type: docs
 weight: 11
 url: /de/net/diagram-metadata/read-custom-properties-diagrams/
 ---
@@ -60,6 +59,6 @@ Ja, GroupDocs.Metadata unterstützt verschiedene Dokumentformate, darunter Präs
 ### Ist GroupDocs.Metadata für die Dokumentenverarbeitung im großen Maßstab geeignet?
 Ja, GroupDocs.Metadata ist für die effiziente Verarbeitung großer Dokumentmengen konzipiert.
 ### Wo finde ich zusätzlichen Support oder Dokumentation für GroupDocs.Metadata?
- Besuche den[GroupDocs.Metadata-Forum](https://forum.groupdocs.com/c/metadata/14) für Unterstützung und erkunden Sie die[Dokumentation](https://reference.groupdocs.com/metadata/net/) für detaillierte API-Referenzen.
+ Besuche den[GroupDocs.Metadata-Forum](https://forum.groupdocs.com/c/metadata/14) für Unterstützung und erkunden Sie die[Dokumentation](https://tutorials.groupdocs.com/metadata/net/) für detaillierte API-Referenzen.
 ### Kann ich GroupDocs.Metadata vor dem Kauf kostenlos testen?
  Ja, Sie können eine kostenlose Testversion herunterladen[Hier](https://releases.groupdocs.com/).

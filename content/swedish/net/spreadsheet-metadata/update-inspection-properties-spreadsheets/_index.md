@@ -3,7 +3,6 @@ title: Uppdatera inspektionsegenskaper i kalkylblad med .NET
 linktitle: Uppdatera inspektionsegenskaper i kalkylblad med .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du uppdaterar inspektionsegenskaper i kalkylblad med GroupDocs.Metadata för .NET. Hantera kommentarer, signaturer och dolda ark med lätthet.
-type: docs
 weight: 16
 url: /sv/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ Ja, GroupDocs.Metadata stöder olika kalkylarksformat inklusive XLSX, XLS, CSV o
 ### Kan jag ändra andra metadataegenskaper med GroupDocs.Metadata?
 Absolut, GroupDocs.Metadata låter dig läsa, uppdatera, ta bort och lägga till metadataegenskaper som författare, titel, skapelsedatum, etc.
 ### Var kan jag hitta detaljerad dokumentation för GroupDocs.Metadata for .NET?
- Du kan hänvisa till den omfattande[dokumentation](https://reference.groupdocs.com/metadata/net/) tillgänglig online.
+ Du kan hänvisa till den omfattande[dokumentation](https://tutorials.groupdocs.com/metadata/net/) tillgänglig online.
 ### Finns det en gratis testversion tillgänglig för GroupDocs.Metadata för .NET?
  Ja, du kan komma åt en[gratis provperiod](https://releases.groupdocs.com/) för att utvärdera API.
 ### Hur kan jag få teknisk support för GroupDocs.Metadata for .NET?

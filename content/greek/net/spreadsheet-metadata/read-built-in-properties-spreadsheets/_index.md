@@ -3,7 +3,6 @@ title: Διαβάστε τις ενσωματωμένες ιδιότητες α�
 linktitle: Διαβάστε τις ενσωματωμένες ιδιότητες από υπολογιστικά φύλλα στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε μεταδεδομένα από υπολογιστικά φύλλα στο .NET χρησιμοποιώντας GroupDocs.Metadata, βελτιώνοντας τη διαχείριση και την οργάνωση εγγράφων στις εφαρμογές σας.
-type: docs
 weight: 10
 url: /el/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Console.WriteLine(root.DocumentProperties.ContentType);
 ### Μπορώ να τροποποιήσω τα μεταδεδομένα χρησιμοποιώντας το GroupDocs.Metadata για .NET;
 Ναι, μπορείτε όχι μόνο να διαβάσετε αλλά και να επεξεργαστείτε, να ενημερώσετε και να αφαιρέσετε μεταδεδομένα χρησιμοποιώντας αυτό το API.
 ### Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το GroupDocs.Metadata για .NET;
- Λεπτομερής τεκμηρίωση είναι διαθέσιμη στη διεύθυνση[GroupDocs.Μεταδεδομένα για τεκμηρίωση .NET](https://reference.groupdocs.com/metadata/net/).
+ Λεπτομερής τεκμηρίωση είναι διαθέσιμη στη διεύθυνση[GroupDocs.Μεταδεδομένα για τεκμηρίωση .NET](https://tutorials.groupdocs.com/metadata/net/).
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για δοκιμαστικούς σκοπούς;
  Μπορείτε να ζητήσετε μια προσωρινή άδεια από[εδώ](https://purchase.groupdocs.com/temporary-license/).
 ### Υπάρχει κάποιο φόρουμ κοινότητας για υποστήριξη GroupDocs.Metadata;

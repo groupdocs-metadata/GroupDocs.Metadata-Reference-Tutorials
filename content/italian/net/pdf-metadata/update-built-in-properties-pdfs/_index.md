@@ -3,7 +3,6 @@ title: Aggiorna le proprietà integrate nei PDF utilizzando .NET
 linktitle: Aggiorna le proprietà integrate nei PDF utilizzando .NET
 second_title: API GroupDocs.Metadata .NET
 description: Scopri come aggiornare le proprietà del documento PDF utilizzando C# e GroupDocs.Metadata per .NET. Modifica autore, titolo, parole chiave e altro in modo programmatico.
-type: docs
 weight: 15
 url: /it/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
@@ -72,7 +71,7 @@ In questo tutorial, abbiamo esplorato come sfruttare GroupDocs.Metadata per .NET
 ### D: Cos'è GroupDocs.Metadata per .NET?
 R: GroupDocs.Metadata per .NET è una libreria che consente agli sviluppatori di leggere, modificare, rimuovere e manipolare i metadati in vari formati di documenti a livello di codice.
 ### D: Dove posso trovare la documentazione per GroupDocs.Metadata per .NET?
- R: Puoi accedere alla documentazione[Qui](https://reference.groupdocs.com/metadata/net/).
+ R: Puoi accedere alla documentazione[Qui](https://tutorials.groupdocs.com/metadata/net/).
 ### D: Come posso scaricare GroupDocs.Metadata per .NET?
  R: Puoi scaricare GroupDocs.Metadata per .NET da[questo link](https://releases.groupdocs.com/metadata/net/).
 ### D: È disponibile una prova gratuita?

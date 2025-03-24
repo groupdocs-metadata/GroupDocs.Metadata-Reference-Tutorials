@@ -3,7 +3,6 @@ title: قم بتحديث الخصائص المخصصة في العروض الت�
 linktitle: قم بتحديث الخصائص المخصصة في العروض التقديمية باستخدام .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية إدارة بيانات تعريف العرض التقديمي باستخدام GroupDocs.Metadata لـ .NET. قم بتحديث الخصائص المخصصة بكفاءة في ملفات PowerPoint.
-type: docs
 weight: 16
 url: /ar/net/presentation-metadata/update-custom-properties-presentations/
 ---

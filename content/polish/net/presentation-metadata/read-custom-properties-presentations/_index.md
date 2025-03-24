@@ -3,7 +3,6 @@ title: Przeczytaj właściwości niestandardowe z prezentacji w .NET
 linktitle: Przeczytaj właściwości niestandardowe z prezentacji w .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak czytać niestandardowe właściwości z prezentacji w .NET przy użyciu GroupDocs.Metadata. Efektywny dostęp do metadanych i ich pobieranie.
-type: docs
 weight: 11
 url: /pl/net/presentation-metadata/read-custom-properties-presentations/
 ---

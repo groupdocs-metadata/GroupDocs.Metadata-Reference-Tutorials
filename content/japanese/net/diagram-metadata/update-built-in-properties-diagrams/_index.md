@@ -3,7 +3,6 @@ title: .NET を使用して図の組み込みプロパティを更新する
 linktitle: .NET を使用して図の組み込みプロパティを更新する
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して図の組み込みプロパティを更新する方法を学びます。コード例を使用してメタデータをシームレスに変更します。
-type: docs
 weight: 14
 url: /ja/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
@@ -79,7 +78,7 @@ A: はい、GroupDocs.Metadata for .NET は、EXIF、IPTC、XMP、カスタム �
  A: にアクセスできます。[GroupDocs.Metadata フォーラム](https://forum.groupdocs.com/c/metadata/14)援助のために。
 
 ### Q: GroupDocs.Metadata for .NET の詳細なドキュメントはどこで見つけられますか?
- A: 総合的な内容を参照してください。[ドキュメンテーション](https://reference.groupdocs.com/metadata/net/)詳しい指導が受けられます。
+ A: 総合的な内容を参照してください。[ドキュメンテーション](https://tutorials.groupdocs.com/metadata/net/)詳しい指導が受けられます。
 
 ### Q: 短期間の使用のために一時ライセンスを購入できますか?
  A: はい、一時ライセンスは以下から取得できます。[ここ](https://purchase.groupdocs.com/temporary-license/).

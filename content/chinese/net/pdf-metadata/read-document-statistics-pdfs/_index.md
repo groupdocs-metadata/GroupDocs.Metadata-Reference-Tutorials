@@ -3,7 +3,6 @@ title: 使用 .NET 从 PDF 读取文档统计信息
 linktitle: 使用 .NET 从 PDF 读取文档统计信息
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 提取 PDF 文档统计信息。轻松增强您的文档管理能力。
-type: docs
 weight: 12
 url: /zh/net/pdf-metadata/read-document-statistics-pdfs/
 ---
@@ -52,7 +51,7 @@ Console.WriteLine("Word Count: " + root.DocumentStatistics.WordCount);
 ### GroupDocs.Metadata 可以处理除 PDF 之外的其他文档格式吗？
 是的，GroupDocs.Metadata 支持多种文档格式，包括 Microsoft Office（Word、Excel、PowerPoint）、PDF、图像、音频、视频等。
 ### 在哪里可以找到有关 .NET 的 GroupDocs.Metadata 的详细文档？
-您可以参考[文档](https://reference.groupdocs.com/metadata/net/)获取综合指南、API 参考和代码示例。
+您可以参考[文档](https://tutorials.groupdocs.com/metadata/net/)获取综合指南、API 参考和代码示例。
 ### GroupDocs.Metadata适合商业用途吗？
 当然，GroupDocs.Metadata 提供商业许可证，您可以购买它们[这里](https://purchase.groupdocs.com/buy).
 ### 我可以在购买前试用 GroupDocs.Metadata 吗？

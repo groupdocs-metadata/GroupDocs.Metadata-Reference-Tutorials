@@ -3,7 +3,6 @@ title: Läs inspektionsegenskaper från PDF-filer i .NET
 linktitle: Läs inspektionsegenskaper från PDF-filer i .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du extraherar inspektionsegenskaper från PDF-dokument med GroupDocs.Metadata för .NET. Utforska kommentarer, bilagor och mer.
-type: docs
 weight: 14
 url: /sv/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
@@ -100,7 +99,7 @@ den här handledningen har vi utforskat hur man läser inspektionsegenskaper fr�
 ### Kan jag använda GroupDocs.Metadata med andra filformat än PDF?
 Ja, GroupDocs.Metadata stöder ett brett utbud av dokumentformat inklusive Microsoft Office-dokument, bilder, ljudfiler och mer.
 ### Var kan jag hitta detaljerad dokumentation för GroupDocs.Metadata for .NET?
- Referera till[dokumentation](https://reference.groupdocs.com/metadata/net/) för omfattande vägledning och API-referenser.
+ Referera till[dokumentation](https://tutorials.groupdocs.com/metadata/net/) för omfattande vägledning och API-referenser.
 ### Finns det en testversion tillgänglig för GroupDocs.Metadata?
  Ja, du kan få en gratis provperiod från[GroupDocs releasesida](https://releases.groupdocs.com/).
 ### Hur kan jag få support för eventuella problem eller frågor relaterade till GroupDocs.Metadata?

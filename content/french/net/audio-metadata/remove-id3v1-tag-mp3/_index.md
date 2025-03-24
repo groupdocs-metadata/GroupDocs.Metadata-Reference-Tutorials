@@ -3,7 +3,6 @@ title: Supprimer la balise ID3V1 des fichiers MP3 dans .NET
 linktitle: Supprimer la balise ID3V1 des fichiers MP3 dans .NET
 second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment supprimer les balises ID3V1 des fichiers MP3 à l’aide de GroupDocs.Metadata pour .NET. Guide simple étape par étape avec des exemples pratiques.
-type: docs
 weight: 16
 url: /fr/net/audio-metadata/remove-id3v1-tag-mp3/
 ---
@@ -56,7 +55,7 @@ Dans ce didacticiel, nous avons expliqué comment supprimer la balise ID3V1 des 
 ### Puis-je manipuler des métadonnées dans d’autres formats de fichiers que MP3 en utilisant cette bibliothèque ?
 Oui, GroupDocs.Metadata prend en charge un large éventail de formats de fichiers, notamment DOCX, XLSX, PDF, PNG, JPG, etc.
 ### Où puis-je trouver plus de documentation sur GroupDocs.Metadata pour .NET ?
- Une documentation détaillée est disponible[ici](https://reference.groupdocs.com/metadata/net/).
+ Une documentation détaillée est disponible[ici](https://tutorials.groupdocs.com/metadata/net/).
 ### Comment puis-je obtenir de l'aide ou poser des questions relatives à GroupDocs.Metadata ?
  Vous pouvez poster vos requêtes sur le forum GroupDocs.Metadata[ici](https://forum.groupdocs.com/c/metadata/14).
 ### Existe-t-il une licence temporaire disponible à des fins de test ?

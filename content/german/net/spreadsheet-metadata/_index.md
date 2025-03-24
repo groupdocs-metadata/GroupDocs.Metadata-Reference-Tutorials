@@ -4,7 +4,6 @@ linktitle: Tabellenkalkulations-Metadaten
 second_title: GroupDocs.Metadata .NET-API
 description: Nutzen Sie die Leistungsfähigkeit von GroupDocs.Metadata für .NET mit Tutorials zum Lesen und Aktualisieren von Tabelleneigenschaften. Verbessern Sie die Metadatenmanipulation in Ihren .NET-Anwendungen.
 
-type: docs
 weight: 27
 url: /de/net/spreadsheet-metadata/
 ---

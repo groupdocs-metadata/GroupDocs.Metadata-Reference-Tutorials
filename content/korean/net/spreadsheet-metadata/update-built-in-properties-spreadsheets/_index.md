@@ -3,7 +3,6 @@ title: .NET을 사용하여 스프레드시트의 내장 속성 업데이트
 linktitle: .NET을 사용하여 스프레드시트의 내장 속성 업데이트
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 Excel 파일에 내장된 메타데이터 속성을 업데이트하는 방법을 알아보세요. C#을 사용하여 작성자, 생성 시간, 회사 등을 수정하세요.
-type: docs
 weight: 14
 url: /ko/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
 ---

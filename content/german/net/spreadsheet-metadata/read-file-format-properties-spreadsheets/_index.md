@@ -3,7 +3,6 @@ title: Lesen Sie Dateiformateigenschaften aus Tabellenkalkulationen in .NET
 linktitle: Lesen Sie Dateiformateigenschaften aus Tabellenkalkulationen in .NET
 second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie die Eigenschaften von Tabellendateiformaten mithilfe von GroupDocs.Metadata für .NET lesen. Greifen Sie mit einfachen API-Aufrufen auf Dateiformat, MIME-Typ und mehr zu.
-type: docs
 weight: 12
 url: /de/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
@@ -55,7 +54,7 @@ In diesem Tutorial haben wir untersucht, wie Sie GroupDocs.Metadata für .NET ve
 
 ## Häufig gestellte Fragen
 ### Ist GroupDocs.Metadata für .NET mit allen Arten von Tabellenformaten kompatibel?
- GroupDocs.Metadata für .NET unterstützt eine Vielzahl von Tabellenformaten, darunter XLSX, XLS, CSV und mehr. Siehe die[Dokumentation](https://reference.groupdocs.com/metadata/net/) Eine umfassende Liste der unterstützten Formate finden Sie hier.
+ GroupDocs.Metadata für .NET unterstützt eine Vielzahl von Tabellenformaten, darunter XLSX, XLS, CSV und mehr. Siehe die[Dokumentation](https://tutorials.groupdocs.com/metadata/net/) Eine umfassende Liste der unterstützten Formate finden Sie hier.
 ### Kann ich Metadateneigenschaften mit GroupDocs.Metadata für .NET bearbeiten?
 Ja, GroupDocs.Metadata für .NET ermöglicht nicht nur das Lesen, sondern auch das Bearbeiten von Metadateneigenschaften, die verschiedenen Dateiformaten zugeordnet sind.
 ### Wie kann ich eine temporäre Lizenz zu Testzwecken erhalten?

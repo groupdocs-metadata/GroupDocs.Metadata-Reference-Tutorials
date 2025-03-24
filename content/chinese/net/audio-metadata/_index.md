@@ -3,7 +3,6 @@ title: 音频元数据
 linktitle: 音频元数据
 second_title: GroupDocs.元数据 .NET API
 description: 发现使用 GroupDocs.Metadata for .NET 处理音频元数据的教程。学习如何高效地从 MP3 和 WAV 文件中提取、更新和删除标签。
-type: docs
 weight: 22
 url: /zh/net/audio-metadata/
 ---

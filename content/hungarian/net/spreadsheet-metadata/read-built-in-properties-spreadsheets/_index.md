@@ -3,7 +3,6 @@ title: Olvassa el a beépített tulajdonságokat a .NET-ben található tábláz
 linktitle: Olvassa el a beépített tulajdonságokat a .NET-ben található táblázatokból
 second_title: GroupDocs.Metadata .NET API
 description: Tanulja meg, hogyan kinyerhet ki metaadatokat a .NET-ben lévő táblázatokból a GroupDocs.Metadata segítségével, javítva a dokumentumkezelést és -szervezést az alkalmazásokban.
-type: docs
 weight: 10
 url: /hu/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Igen, a GroupDocs.Metadata fájlformátumok széles skáláját támogatja, bele
 ### Módosíthatom a metaadatokat a GroupDocs.Metadata for .NET segítségével?
 Igen, ezzel az API-val nemcsak olvasni, hanem szerkeszteni, frissíteni és eltávolítani is lehet metaadatokat.
 ### Hol találom a GroupDocs.Metadata for .NET részletes dokumentációját?
- A részletes dokumentáció a címen érhető el[GroupDocs.Metadata a .NET-dokumentációhoz](https://reference.groupdocs.com/metadata/net/).
+ A részletes dokumentáció a címen érhető el[GroupDocs.Metadata a .NET-dokumentációhoz](https://tutorials.groupdocs.com/metadata/net/).
 ### Hogyan szerezhetek ideiglenes licencet tesztelési célból?
  Ideiglenes jogosítványt kérhetsz[itt](https://purchase.groupdocs.com/temporary-license/).
 ### Létezik közösségi fórum a GroupDocs.Metadata támogatására?

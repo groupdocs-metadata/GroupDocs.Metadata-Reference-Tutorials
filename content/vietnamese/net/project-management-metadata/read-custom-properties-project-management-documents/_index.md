@@ -3,7 +3,6 @@ title: Đọc Thuộc tính Tùy chỉnh trong Tài liệu Quản lý Dự án .
 linktitle: Đọc Thuộc tính Tùy chỉnh trong Tài liệu Quản lý Dự án .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất các thuộc tính tùy chỉnh từ tài liệu quản lý dự án .NET bằng GroupDocs.Metadata cho .NET. Tăng cường quản lý siêu dữ liệu của bạn.
-type: docs
 weight: 11
 url: /vi/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
@@ -58,7 +57,7 @@ GroupDocs.Metadata hỗ trợ nhiều định dạng quản lý dự án, bao g�
 ### Có cần giấy phép để sử dụng GroupDocs.Metadata cho .NET không?
  Có, cần có giấy phép để sử dụng thương mại. Bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.groupdocs.com/temporary-license/).
 ### Làm cách nào tôi có thể truy cập thêm tài liệu về GroupDocs.Metadata?
- Khám phá tài liệu chi tiết tại[Trang tham khảo](https://reference.groupdocs.com/metadata/net/).
+ Khám phá tài liệu chi tiết tại[Trang tham khảo](https://tutorials.groupdocs.com/metadata/net/).
 ### Tôi có thể nhận hỗ trợ cho các truy vấn liên quan đến GroupDocs.Metadata ở đâu?
  Tham gia cộng đồng tại[Diễn đàn siêu dữ liệu GroupDocs](https://forum.groupdocs.com/c/metadata/14) để được hỗ trợ và thảo luận.
 ### Tôi có thể dùng thử GroupDocs.Metadata miễn phí trước khi mua không?

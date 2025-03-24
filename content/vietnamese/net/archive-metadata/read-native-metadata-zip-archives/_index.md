@@ -3,7 +3,6 @@ title: Đọc thuộc tính siêu dữ liệu gốc từ kho lưu trữ ZIP tron
 linktitle: Đọc thuộc tính siêu dữ liệu gốc từ kho lưu trữ ZIP trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất siêu dữ liệu từ kho lưu trữ ZIP bằng GroupDocs.Metadata cho .NET. Khám phá hướng dẫn từng bước để đọc thuộc tính gốc.
-type: docs
 weight: 13
 url: /vi/net/archive-metadata/read-native-metadata-zip-archives/
 ---
@@ -67,7 +66,7 @@ GroupDocs.Metadata cho .NET là một thư viện mạnh mẽ cho phép các nh�
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho GroupDocs.Metadata?
  Bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.groupdocs.com/temporary-license/).
 ### Tôi có thể tìm tài liệu đầy đủ về GroupDocs.Metadata cho .NET ở đâu?
- Tài liệu có thể được truy cập[đây](https://reference.groupdocs.com/metadata/net/).
+ Tài liệu có thể được truy cập[đây](https://tutorials.groupdocs.com/metadata/net/).
 ### Tôi có thể dùng thử GroupDocs.Metadata cho .NET miễn phí không?
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.groupdocs.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ hoặc đặt câu hỏi về GroupDocs.Metadata cho .NET?

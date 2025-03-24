@@ -3,7 +3,6 @@ title: Odblokowanie mistrzostwa w metadanych za pomocą GroupDocs.Metadata
 linktitle: Poradniki GroupDocs.Metadata
 additionalTitle: Referencje API GroupDocs
 description: Odkryj kompleksowe samouczki dotyczące GroupDocs.Metadata na różnych platformach. Opanuj zarządzanie metadanymi w .NET i Javie bez wysiłku.
-type: docs
 weight: 11
 url: /pl/
 is_root: true

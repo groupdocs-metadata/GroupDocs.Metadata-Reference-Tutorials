@@ -3,7 +3,6 @@ title: Đọc Thuộc tính Kiểm tra từ các tệp PDF trong .NET
 linktitle: Đọc Thuộc tính Kiểm tra từ các tệp PDF trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất các thuộc tính kiểm tra từ tài liệu PDF bằng GroupDocs.Metadata cho .NET. Khám phá các chú thích, tệp đính kèm và hơn thế nữa.
-type: docs
 weight: 14
 url: /vi/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
@@ -100,7 +99,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách đọc thuộc tín
 ### Tôi có thể sử dụng GroupDocs.Metadata với các định dạng tệp khác ngoài PDF không?
 Có, GroupDocs.Metadata hỗ trợ nhiều định dạng tài liệu bao gồm tài liệu Microsoft Office, hình ảnh, tệp âm thanh, v.v.
 ### Tôi có thể tìm tài liệu chi tiết về GroupDocs.Metadata cho .NET ở đâu?
- Tham khảo đến[tài liệu](https://reference.groupdocs.com/metadata/net/) để được hướng dẫn toàn diện và tham khảo API.
+ Tham khảo đến[tài liệu](https://tutorials.groupdocs.com/metadata/net/) để được hướng dẫn toàn diện và tham khảo API.
 ### Có phiên bản dùng thử cho GroupDocs.Metadata không?
  Có, bạn có thể nhận bản dùng thử miễn phí từ[Trang phát hành GroupDocs](https://releases.groupdocs.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho bất kỳ vấn đề hoặc thắc mắc nào liên quan đến GroupDocs.Metadata?

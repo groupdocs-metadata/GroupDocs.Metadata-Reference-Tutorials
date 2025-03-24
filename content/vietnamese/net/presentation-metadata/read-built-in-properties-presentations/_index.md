@@ -3,7 +3,6 @@ title: Đọc các thuộc tính tích hợp từ bản trình bày trong .NET
 linktitle: Đọc các thuộc tính tích hợp từ bản trình bày trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất các thuộc tính tích hợp từ bản trình bày bằng GroupDocs.Metadata cho .NET trong hướng dẫn toàn diện này.
-type: docs
 weight: 10
 url: /vi/net/presentation-metadata/read-built-in-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Có, GroupDocs.Metadata for .NET hỗ trợ nhiều định dạng trình bày k
 ### Tôi có thể sửa đổi hoặc cập nhật siêu dữ liệu bằng GroupDocs.Metadata cho .NET không?
 Tuyệt đối, bạn có thể sửa đổi, cập nhật và xóa thuộc tính siêu dữ liệu bằng thư viện này.
 ### Tôi có thể tìm tài liệu chi tiết về GroupDocs.Metadata cho .NET ở đâu?
- Bạn có thể tham khảo tài liệu[đây](https://reference.groupdocs.com/metadata/net/) để biết thông tin toàn diện.
+ Bạn có thể tham khảo tài liệu[đây](https://tutorials.groupdocs.com/metadata/net/) để biết thông tin toàn diện.
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho GroupDocs.Metadata cho .NET?
  Bạn có thể có được giấy phép tạm thời[đây](https://purchase.groupdocs.com/temporary-license/) cho mục đích đánh giá.
 ### Tôi có thể tìm kiếm trợ giúp hoặc đặt câu hỏi liên quan đến GroupDocs.Metadata cho .NET ở đâu?

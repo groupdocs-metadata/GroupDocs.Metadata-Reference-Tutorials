@@ -3,7 +3,6 @@ title: Projektmanagement-Metadaten
 linktitle: Projektmanagement-Metadaten
 second_title: GroupDocs.Metadata .NET-API
 description: Schöpfen Sie das Potenzial von .NET-Projektmanagementdokumenten mit GroupDocs.Metadata für .NET-Tutorials aus. Extrahieren, aktualisieren und verwalten Sie Metadaten mühelos.
-type: docs
 weight: 26
 url: /de/net/project-management-metadata/
 ---

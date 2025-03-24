@@ -3,7 +3,6 @@ title: .NET प्रोजेक्ट प्रबंधन दस्ताव
 linktitle: .NET प्रोजेक्ट प्रबंधन दस्तावेज़ों में अंतर्निहित गुण पढ़ें
 second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके प्रोजेक्ट प्रबंधन दस्तावेज़ों से मेटाडेटा निकालना सीखें। अपनी दस्तावेज़ प्रसंस्करण क्षमताओं को बढ़ाएँ।
-type: docs
 weight: 10
 url: /hi/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---

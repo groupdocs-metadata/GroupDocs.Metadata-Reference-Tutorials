@@ -3,7 +3,6 @@ title: .NET プロジェクト管理ドキュメントの組み込みプロパ�
 linktitle: .NET プロジェクト管理ドキュメントの組み込みプロパティを更新する
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して .NET プロジェクト管理ドキュメントのメタデータを更新する方法を学びます。文書管理を効率的に強化します。
-type: docs
 weight: 12
 url: /ja/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
@@ -57,7 +56,7 @@ metadata.Save("YourInputFile");
 ### 組み込みのドキュメント詳細以外の他のメタデータ プロパティを操作できますか?
 もちろんです! GroupDocs.Metadata は、さまざまなファイル タイプにわたってメタデータを管理するための広範な機能を提供します。
 ### GroupDocs.Metadata に関する追加のドキュメントとサポートはどこで見つかりますか?
-訪問[GroupDocs.Metadata ドキュメント](https://reference.groupdocs.com/metadata/net/)詳しい情報については、コミュニティにお問い合わせください。具体的な質問については、[GroupDocs フォーラム](https://forum.groupdocs.com/c/metadata/14).
+訪問[GroupDocs.Metadata ドキュメント](https://tutorials.groupdocs.com/metadata/net/)詳しい情報については、コミュニティにお問い合わせください。具体的な質問については、[GroupDocs フォーラム](https://forum.groupdocs.com/c/metadata/14).
 ### GroupDocs.Metadata をテストできる無料トライアルはありますか?
 はい、無料トライアルをご利用いただけます[ここ](https://releases.groupdocs.com/).
 ### GroupDocs.Metadata の一時ライセンスを取得するにはどうすればよいですか?

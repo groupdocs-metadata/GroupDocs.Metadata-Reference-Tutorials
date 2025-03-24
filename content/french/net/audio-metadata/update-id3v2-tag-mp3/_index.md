@@ -3,7 +3,6 @@ title: Mettre à jour la balise ID3V2 dans les fichiers MP3 à l'aide de .NET
 linktitle: Mettre à jour la balise ID3V2 dans les fichiers MP3 à l'aide de .NET
 second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment mettre à jour les balises ID3V2 dans les fichiers MP3 à l'aide de .NET avec GroupDocs.Metadata pour une gestion efficace des fichiers.
-type: docs
 weight: 20
 url: /fr/net/audio-metadata/update-id3v2-tag-mp3/
 ---
@@ -67,7 +66,7 @@ Dans ce didacticiel, nous avons expliqué comment mettre à jour les balises ID3
 ### Puis-je utiliser GroupDocs.Metadata gratuitement ?
  Oui, vous pouvez bénéficier d'un essai gratuit auprès de[ici](https://releases.groupdocs.com/).
 ### Où puis-je trouver la documentation GroupDocs.Metadata ?
- La documentation est disponible[ici](https://reference.groupdocs.com/metadata/net/).
+ La documentation est disponible[ici](https://tutorials.groupdocs.com/metadata/net/).
 ### Comment puis-je acheter une licence pour GroupDocs.Metadata ?
  Vous pouvez acheter une licence[ici](https://purchase.groupdocs.com/buy).
 ### Existe-t-il un forum d'assistance pour GroupDocs.Metadata ?

@@ -3,7 +3,6 @@ title: Mettre à jour les propriétés personnalisées dans les PDF à l'aide de
 linktitle: Mettre à jour les propriétés personnalisées dans les PDF à l'aide de .NET
 second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment mettre à jour les propriétés personnalisées dans les fichiers PDF à l'aide de .NET avec GroupDocs.Metadata. Étapes simples pour manipuler efficacement les métadonnées PDF.
-type: docs
 weight: 16
 url: /fr/net/pdf-metadata/update-custom-properties-pdfs/
 ---

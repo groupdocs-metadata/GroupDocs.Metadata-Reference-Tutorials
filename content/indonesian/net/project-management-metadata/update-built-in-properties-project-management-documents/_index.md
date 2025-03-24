@@ -3,7 +3,6 @@ title: Perbarui Properti Bawaan di Dokumen Manajemen Proyek .NET
 linktitle: Perbarui Properti Bawaan di Dokumen Manajemen Proyek .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara memperbarui metadata dalam dokumen manajemen proyek .NET dengan GroupDocs.Metadata untuk .NET. Meningkatkan manajemen dokumen secara efisien.
-type: docs
 weight: 12
 url: /id/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
@@ -57,7 +56,7 @@ Ya, GroupDocs.Metadata mendukung format manajemen proyek populer seperti file MP
 ### Bisakah saya memanipulasi properti metadata lain selain detail dokumen bawaan?
 Sangat! GroupDocs.Metadata menawarkan kemampuan ekstensif untuk mengelola metadata di berbagai jenis file.
 ### Di mana saya dapat menemukan dokumentasi dan dukungan tambahan untuk GroupDocs.Metadata?
- Mengunjungi[Dokumentasi GroupDocs.Metadata](https://reference.groupdocs.com/metadata/net/) untuk informasi rinci. Untuk pertanyaan spesifik, libatkan komunitas di[Forum Grup Dokumen](https://forum.groupdocs.com/c/metadata/14).
+ Mengunjungi[Dokumentasi GroupDocs.Metadata](https://tutorials.groupdocs.com/metadata/net/) untuk informasi rinci. Untuk pertanyaan spesifik, libatkan komunitas di[Forum Grup Dokumen](https://forum.groupdocs.com/c/metadata/14).
 ### Apakah ada uji coba gratis yang tersedia untuk menguji GroupDocs.Metadata?
  Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.groupdocs.com/).
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk GroupDocs.Metadata?

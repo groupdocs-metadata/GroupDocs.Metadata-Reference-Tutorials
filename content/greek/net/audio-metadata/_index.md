@@ -3,7 +3,6 @@ title: Μεταδεδομένα ήχου
 linktitle: Μεταδεδομένα ήχου
 second_title: GroupDocs.Metadata .NET API
 description: Ανακαλύψτε σεμινάρια σχετικά με το χειρισμό μεταδεδομένων ήχου με το GroupDocs.Metadata για .NET. Μάθετε να εξάγετε, να ενημερώνετε και να αφαιρείτε αποτελεσματικά ετικέτες από αρχεία MP3 και WAV.
-type: docs
 weight: 22
 url: /el/net/audio-metadata/
 ---

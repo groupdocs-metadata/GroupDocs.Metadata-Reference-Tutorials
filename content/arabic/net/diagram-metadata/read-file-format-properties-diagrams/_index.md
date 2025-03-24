@@ -3,7 +3,6 @@ title: قراءة خصائص تنسيق الملف من المخططات في .N
 linktitle: قراءة خصائص تنسيق الملف من المخططات في .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية قراءة خصائص تنسيق الملف من الرسوم التخطيطية في .NET باستخدام GroupDocs.Metadata. استخراج البيانات الوصفية التفصيلية دون عناء.
-type: docs
 weight: 13
 url: /ar/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
@@ -49,7 +48,7 @@ using (Metadata metadata = new Metadata("Your Input File"))
 ### هل هناك إصدار تجريبي متاح لـ GroupDocs.Metadata لـ .NET؟
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.groupdocs.com/).
 ### أين يمكنني العثور على الوثائق التفصيلية لـ GroupDocs.Metadata لـ .NET؟
- الرجوع إلى الوثائق[هنا](https://reference.groupdocs.com/metadata/net/).
+ الرجوع إلى الوثائق[هنا](https://tutorials.groupdocs.com/metadata/net/).
 ### كيف يمكنني شراء ترخيص GroupDocs.Metadata لـ .NET؟
  يمكنك شراء ترخيص من[هنا](https://purchase.groupdocs.com/buy).
 ### أين يمكنني طلب الدعم الفني أو طرح الأسئلة المتعلقة بـ GroupDocs.Metadata لـ .NET؟

@@ -3,7 +3,6 @@ title: .NET의 특정 형식에서 메타데이터 로드
 linktitle: .NET의 특정 형식에서 메타데이터 로드
 second_title: GroupDocs.메타데이터 .NET API
 description: 이 포괄적인 튜토리얼에서 .NET용 GroupDocs.Metadata를 사용하여 특정 파일 형식에서 메타데이터를 로드하는 방법을 알아보세요.
-type: docs
 weight: 12
 url: /ko/net/metadata-loading/load-metadata-specific-format/
 ---
@@ -55,7 +54,7 @@ using (Metadata metadata = new Metadata("Your Input File", loadOptions))
 ### 메타데이터 관리가 왜 중요한가요?
 메타데이터 관리는 디지털 콘텐츠를 구성 및 이해하고 검색 가능성과 상호 운용성을 촉진하는 데 매우 중요합니다.
 ### .NET용 GroupDocs.Metadata에 대한 자세한 설명서는 어디서 찾을 수 있나요?
- 문서에 액세스할 수 있습니다.[여기](https://reference.groupdocs.com/metadata/net/).
+ 문서에 액세스할 수 있습니다.[여기](https://tutorials.groupdocs.com/metadata/net/).
 ### .NET용 GroupDocs.Metadata의 임시 라이센스를 얻으려면 어떻게 해야 합니까?
  방문하다[이 링크](https://purchase.groupdocs.com/temporary-license/) 임시면허를 취득하기 위해
 ### .NET용 GroupDocs.Metadata에 대한 지원을 받거나 질문을 할 수 있는 곳은 어디입니까?

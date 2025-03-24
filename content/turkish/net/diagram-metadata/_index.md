@@ -3,7 +3,6 @@ title: Diyagram Meta Verileri
 linktitle: Diyagram Meta Verileri
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET ile diyagram meta verilerini yönetmeye ilişkin kapsamlı eğitimleri keşfedin. Özellikleri zahmetsizce çıkarın, güncelleyin ve analiz edin.
-type: docs
 weight: 23
 url: /tr/net/diagram-metadata/
 ---

@@ -3,7 +3,6 @@ title: Διαβάστε τις Ενσωματωμένες Ιδιότητες α�
 linktitle: Διαβάστε τις Ενσωματωμένες Ιδιότητες από Διαγράμματα στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε να εξάγετε μεταδεδομένα από αρχεία διαγραμμάτων στο .NET χρησιμοποιώντας το GroupDocs.Metadata. Βελτιώστε τη διαχείριση και ανάλυση εγγράφων αποτελεσματικά.
-type: docs
 weight: 10
 url: /el/net/diagram-metadata/read-built-in-properties-diagrams/
 ---

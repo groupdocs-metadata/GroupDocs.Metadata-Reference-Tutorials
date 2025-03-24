@@ -3,7 +3,6 @@ title: ข้อมูลเมตาการนำเสนอ
 linktitle: ข้อมูลเมตาการนำเสนอ
 second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีจัดการข้อมูลเมตาของการนำเสนอใน .NET อย่างมีประสิทธิภาพโดยใช้บทช่วยสอน GroupDocs.Metadata เข้าถึงคุณสมบัติในตัวและแบบกำหนดเองได้อย่างง่ายดาย
-type: docs
 weight: 25
 url: /th/net/presentation-metadata/
 ---

@@ -3,7 +3,6 @@ title: Aktualizujte vlastnosti inspekce v souborech PDF pomocí .NET
 linktitle: Aktualizujte vlastnosti inspekce v souborech PDF pomocí .NET
 second_title: GroupDocs.Metadata .NET API
 description: Zjistěte, jak aktualizovat vlastnosti kontroly v dokumentech PDF pomocí GroupDocs.Metadata pro .NET. Efektivně spravujte metadata a anotace pomocí C#.
-type: docs
 weight: 17
 url: /cs/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
@@ -67,6 +66,6 @@ Ano, GroupDocs.Metadata podporuje různé formáty dokumentů, jako je Microsoft
 ### Jak mohu získat podporu, pokud při používání GroupDocs.Metadata narazím na problémy?
  Navštivte[Fórum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) za pomoc a podporu komunity.
 ### Kde najdu podrobnou dokumentaci k GroupDocs.Metadata pro .NET?
- Odkazovat na[dokumentace](https://reference.groupdocs.com/metadata/net/) pro komplexní návod k používání knihovny.
+ Odkazovat na[dokumentace](https://tutorials.groupdocs.com/metadata/net/) pro komplexní návod k používání knihovny.
 ### Mohu získat dočasnou licenci pro testovací účely?
  Ano, můžete požádat o a[dočasná licence](https://purchase.groupdocs.com/temporary-license/) pro účely hodnocení.

@@ -3,7 +3,6 @@ title: .NET을 사용하여 PDF의 검사 속성 업데이트
 linktitle: .NET을 사용하여 PDF의 검사 속성 업데이트
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 PDF 문서의 검사 속성을 업데이트하는 방법을 알아보세요. C#을 사용하여 메타데이터와 주석을 효율적으로 관리하세요.
-type: docs
 weight: 17
 url: /ko/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
@@ -67,6 +66,6 @@ metadata.Save("YourInputFile.pdf");
 ### GroupDocs.Metadata를 사용하는 동안 문제가 발생하면 어떻게 지원을 받을 수 있나요?
  방문하다[GroupDocs.메타데이터 포럼](https://forum.groupdocs.com/c/metadata/14) 도움과 지역 사회 지원을 위해.
 ### .NET용 GroupDocs.Metadata에 대한 자세한 설명서는 어디서 찾을 수 있나요?
- 다음을 참조하세요.[선적 서류 비치](https://reference.groupdocs.com/metadata/net/) 도서관 이용에 대한 종합적인 안내를 원하시면
+ 다음을 참조하세요.[선적 서류 비치](https://tutorials.groupdocs.com/metadata/net/) 도서관 이용에 대한 종합적인 안내를 원하시면
 ### 테스트 목적으로 임시 라이센스를 얻을 수 있나요?
  예, 요청하실 수 있습니다[임시면허](https://purchase.groupdocs.com/temporary-license/) 평가 목적으로.

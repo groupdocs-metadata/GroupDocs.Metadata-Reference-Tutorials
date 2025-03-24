@@ -3,7 +3,6 @@ title: .NET Proje Yönetimi Belgelerindeki Yerleşik Özellikleri Güncelleme
 linktitle: .NET Proje Yönetimi Belgelerindeki Yerleşik Özellikleri Güncelleme
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET ile .NET proje yönetimi belgelerindeki meta verileri nasıl güncelleştireceğinizi öğrenin. Belge yönetimini verimli bir şekilde geliştirin.
-type: docs
 weight: 12
 url: /tr/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
@@ -57,7 +56,7 @@ Evet, GroupDocs.Metadata, MPP (Microsoft Project) dosyaları gibi popüler proje
 ### Yerleşik belge ayrıntılarının ötesinde diğer meta veri özelliklerini değiştirebilir miyim?
 Kesinlikle! GroupDocs.Metadata, çok çeşitli dosya türlerinde meta verileri yönetmek için kapsamlı yetenekler sunar.
 ### GroupDocs.Metadata için ek belgeleri ve desteği nerede bulabilirim?
- Ziyaret edin[GroupDocs.Meta veri belgeleri](https://reference.groupdocs.com/metadata/net/) detaylı bilgi için. Spesifik sorularınız için toplulukla etkileşime geçin.[GroupDocs forumu](https://forum.groupdocs.com/c/metadata/14).
+ Ziyaret edin[GroupDocs.Meta veri belgeleri](https://tutorials.groupdocs.com/metadata/net/) detaylı bilgi için. Spesifik sorularınız için toplulukla etkileşime geçin.[GroupDocs forumu](https://forum.groupdocs.com/c/metadata/14).
 ### GroupDocs.Metadata'yı test etmek için ücretsiz bir deneme mevcut mu?
  Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.groupdocs.com/).
 ### GroupDocs.Metadata için nasıl geçici lisans alabilirim?

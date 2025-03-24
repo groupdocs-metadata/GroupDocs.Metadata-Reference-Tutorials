@@ -3,7 +3,6 @@ title: 使用 .NET 更新图表中的内置属性
 linktitle: 使用 .NET 更新图表中的内置属性
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 更新图表中的内置属性。使用代码示例无缝修改元数据。
-type: docs
 weight: 14
 url: /zh/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
@@ -79,7 +78,7 @@ metadata.Save("Your Input File");
 答：您可以访问[GroupDocs.Metadata 论坛](https://forum.groupdocs.com/c/metadata/14)寻求帮助。
 
 ### 问：在哪里可以找到 GroupDocs.Metadata for .NET 的详细文档？
-答：参考综合[文档](https://reference.groupdocs.com/metadata/net/)以获得深入指导。
+答：参考综合[文档](https://tutorials.groupdocs.com/metadata/net/)以获得深入指导。
 
 ### 问：我可以购买临时许可证以供短期使用吗？
 答：是的，你可以从[这里](https://purchase.groupdocs.com/temporary-license/).

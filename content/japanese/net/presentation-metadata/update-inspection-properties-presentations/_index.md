@@ -3,7 +3,6 @@ title: .NET を使用してプレゼンテーションの検査プロパティ�
 linktitle: .NET を使用してプレゼンテーションの検査プロパティを更新する
 second_title: GroupDocs.Metadata .NET API
 description: .NET と GroupDocs.Metadata を使用して、プレゼンテーションの検査プロパティを更新する方法を学びます。 .PPTX ファイルのメタデータを簡単かつ効率的に操作します。
-type: docs
 weight: 17
 url: /ja/net/presentation-metadata/update-inspection-properties-presentations/
 ---
@@ -55,7 +54,7 @@ using (Metadata metadata = new Metadata("YourPresentationFile.pptx"))
 ### GroupDocs.Metadata を使用してファイルからメタデータ プロパティを取得できますか?
 確かに、GroupDocs.Metadata を使用すると、開発者はメタデータ プロパティをプログラムで抽出して分析できます。
 ### GroupDocs.Metadata の詳細なドキュメントはどこで見つけられますか?
-を参照してください。[ドキュメンテーション](https://reference.groupdocs.com/metadata/net/) GroupDocs.Metadata for .NET の使用に関する包括的なガイダンスを参照してください。
+を参照してください。[ドキュメンテーション](https://tutorials.groupdocs.com/metadata/net/) GroupDocs.Metadata for .NET の使用に関する包括的なガイダンスを参照してください。
 ### GroupDocs.Metadata には無料トライアルがありますか?
 はい、アクセスできます[無料トライアル](https://releases.groupdocs.com/) GroupDocs.Metadata の機能を調べてください。
 ### GroupDocs.Metadata のサポートを受けるにはどうすればよいですか?

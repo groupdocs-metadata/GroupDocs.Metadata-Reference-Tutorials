@@ -3,7 +3,6 @@ title: Frissítse az ID3V1 címkét az MP3 fájlokban a .NET használatával
 linktitle: Frissítse az ID3V1 címkét az MP3 fájlokban a .NET használatával
 second_title: GroupDocs.Metadata .NET API
 description: Frissítse az MP3-fájlok ID3V1-címkéit a GroupDocs.Metadata for .NET segítségével. Kövesse ezt az oktatóanyagot a metaadatok egyszerű kezeléséhez .NET-alkalmazásaiban.
-type: docs
 weight: 19
 url: /hu/net/audio-metadata/update-id3v1-tag-mp3/
 ---
@@ -61,7 +60,7 @@ GroupDocs.Metadata for .NET egy hatékony metaadat-manipulációs API, amely leh
 ### Mely dokumentumformátumokat támogatja a GroupDocs.Metadata for .NET?
 A GroupDocs.Metadata for .NET a dokumentumformátumok széles skáláját támogatja, beleértve a PDF-et, Microsoft Office dokumentumokat (Word, Excel, PowerPoint), képeket (JPEG, PNG, TIFF), audio- és videofájlokat és még sok mást.
 ### Hol találom a GroupDocs.Metadata for .NET dokumentációját?
- Olvassa el a részletes dokumentációt[itt](https://reference.groupdocs.com/metadata/net/) átfogó útmutatásért az API használatához.
+ Olvassa el a részletes dokumentációt[itt](https://tutorials.groupdocs.com/metadata/net/) átfogó útmutatásért az API használatához.
 ### Létezik ingyenes próbaverzió a GroupDocs.Metadata for .NET számára?
  Igen, hozzáférhet a GroupDocs.Metadata ingyenes próbaverziójához a .NET-hez[itt](https://releases.groupdocs.com/).
 ### Hogyan kaphatok technikai támogatást a GroupDocs.Metadata for .NET-hez?

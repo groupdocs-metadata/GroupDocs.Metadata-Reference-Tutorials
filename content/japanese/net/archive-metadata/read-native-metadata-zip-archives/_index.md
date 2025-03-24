@@ -3,7 +3,6 @@ title: .NET の ZIP アーカイブからネイティブ メタデータ プロ�
 linktitle: .NET の ZIP アーカイブからネイティブ メタデータ プロパティを読み取る
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して ZIP アーカイブからメタデータを抽出する方法を学びます。ネイティブ プロパティを読み取るための段階的な手順を確認してください。
-type: docs
 weight: 13
 url: /ja/net/archive-metadata/read-native-metadata-zip-archives/
 ---
@@ -67,7 +66,7 @@ GroupDocs.Metadata for .NET は、開発者がさまざまなファイル形式�
 ### GroupDocs.Metadata の一時ライセンスを取得するにはどうすればよいですか?
 一時ライセンスは次から取得できます。[ここ](https://purchase.groupdocs.com/temporary-license/).
 ### GroupDocs.Metadata for .NET の完全なドキュメントはどこで見つけられますか?
-ドキュメントにアクセスできます[ここ](https://reference.groupdocs.com/metadata/net/).
+ドキュメントにアクセスできます[ここ](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata for .NET を無料で試すことはできますか?
 はい、無料試用版をダウンロードできます[ここ](https://releases.groupdocs.com/).
 ### GroupDocs.Metadata for .NET についてサポートを受けたり、質問したりするにはどうすればよいですか?

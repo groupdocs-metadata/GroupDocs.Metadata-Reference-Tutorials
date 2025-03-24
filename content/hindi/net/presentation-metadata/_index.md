@@ -3,7 +3,6 @@ title: प्रस्तुति मेटाडेटा
 linktitle: प्रस्तुति मेटाडेटा
 second_title: GroupDocs.Metadata .NET एपीआई
 description: GroupDocs.Metadata ट्यूटोरियल का उपयोग करके .NET में प्रेजेंटेशन मेटाडेटा को कुशलतापूर्वक प्रबंधित करना सीखें। बिल्ट-इन और कस्टम प्रॉपर्टीज़ तक आसानी से पहुँचें।
-type: docs
 weight: 25
 url: /hi/net/presentation-metadata/
 ---

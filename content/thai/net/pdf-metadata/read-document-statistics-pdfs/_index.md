@@ -3,7 +3,6 @@ title: อ่านสถิติเอกสารจาก PDF ใน .NET
 linktitle: อ่านสถิติเอกสารจาก PDF ใน .NET
 second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีแยกสถิติเอกสาร PDF โดยใช้ GroupDocs.Metadata สำหรับ .NET เพิ่มความสามารถในการจัดการเอกสารของคุณได้อย่างง่ายดาย
-type: docs
 weight: 12
 url: /th/net/pdf-metadata/read-document-statistics-pdfs/
 ---
@@ -52,7 +51,7 @@ Console.WriteLine("Word Count: " + root.DocumentStatistics.WordCount);
 ### GroupDocs.Metadata สามารถจัดการรูปแบบเอกสารอื่นนอกเหนือจาก PDF ได้หรือไม่
 ใช่ GroupDocs.Metadata รองรับรูปแบบเอกสารที่หลากหลาย รวมถึง Microsoft Office (Word, Excel, PowerPoint), PDF, รูปภาพ, เสียง, วิดีโอ และอื่นๆ อีกมากมาย
 ### ฉันจะหาเอกสารโดยละเอียดสำหรับ GroupDocs.Metadata สำหรับ .NET ได้ที่ไหน
- คุณสามารถอ้างถึง[เอกสารประกอบ](https://reference.groupdocs.com/metadata/net/) สำหรับคำแนะนำที่ครอบคลุม การอ้างอิง API และตัวอย่างโค้ด
+ คุณสามารถอ้างถึง[เอกสารประกอบ](https://tutorials.groupdocs.com/metadata/net/) สำหรับคำแนะนำที่ครอบคลุม การอ้างอิง API และตัวอย่างโค้ด
 ### GroupDocs.Metadata เหมาะสำหรับใช้ในเชิงพาณิชย์หรือไม่
  GroupDocs.Metadata เสนอใบอนุญาตเชิงพาณิชย์และคุณสามารถซื้อได้อย่างแน่นอน[ที่นี่](https://purchase.groupdocs.com/buy).
 ### ฉันสามารถลองใช้ GroupDocs.Metadata ก่อนซื้อได้หรือไม่

@@ -3,7 +3,6 @@ title: Přečtěte si vestavěné vlastnosti z diagramů v .NET
 linktitle: Přečtěte si vestavěné vlastnosti z diagramů v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat metadata ze souborů diagramů v .NET pomocí GroupDocs.Metadata. Vylepšete efektivnější správu a analýzu dokumentů.
-type: docs
 weight: 10
 url: /cs/net/diagram-metadata/read-built-in-properties-diagrams/
 ---

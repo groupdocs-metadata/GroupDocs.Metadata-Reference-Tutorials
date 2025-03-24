@@ -3,7 +3,6 @@ title: Baca Properti Kustom di Dokumen Manajemen Proyek .NET
 linktitle: Baca Properti Kustom di Dokumen Manajemen Proyek .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengekstrak properti khusus dari dokumen manajemen proyek .NET menggunakan GroupDocs.Metadata untuk .NET. Tingkatkan manajemen metadata Anda.
-type: docs
 weight: 11
 url: /id/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
@@ -58,7 +57,7 @@ GroupDocs.Metadata mendukung berbagai format manajemen proyek, termasuk file Mic
 ### Apakah lisensi diperlukan untuk menggunakan GroupDocs.Metadata untuk .NET?
  Ya, lisensi diperlukan untuk penggunaan komersial. Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.groupdocs.com/temporary-license/).
 ### Bagaimana saya bisa mengakses dokumentasi lebih lanjut untuk GroupDocs.Metadata?
- Jelajahi dokumentasi terperinci di[halaman referensi](https://reference.groupdocs.com/metadata/net/).
+ Jelajahi dokumentasi terperinci di[halaman referensi](https://tutorials.groupdocs.com/metadata/net/).
 ### Di mana saya bisa mendapatkan dukungan untuk pertanyaan terkait GroupDocs.Metadata?
  Bergabunglah dengan komunitas di[Forum Metadata GroupDocs](https://forum.groupdocs.com/c/metadata/14) untuk dukungan dan diskusi.
 ### Bisakah saya mencoba GroupDocs.Metadata secara gratis sebelum membeli?

@@ -3,7 +3,6 @@ title: Ενημερώστε τις ενσωματωμένες ιδιότητες
 linktitle: Ενημερώστε τις ενσωματωμένες ιδιότητες σε Έγγραφα διαχείρισης έργου .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να ενημερώνετε τα μεταδεδομένα σε έγγραφα διαχείρισης έργου .NET με το GroupDocs.Metadata για .NET. Βελτιώστε τη διαχείριση εγγράφων αποτελεσματικά.
-type: docs
 weight: 12
 url: /el/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
@@ -57,7 +56,7 @@ metadata.Save("YourInputFile");
 ### Μπορώ να χειριστώ άλλες ιδιότητες μεταδεδομένων πέρα από τις ενσωματωμένες λεπτομέρειες του εγγράφου;
 Απολύτως! Το GroupDocs.Metadata προσφέρει εκτεταμένες δυνατότητες διαχείρισης μεταδεδομένων σε ένα ευρύ φάσμα τύπων αρχείων.
 ### Πού μπορώ να βρω πρόσθετη τεκμηρίωση και υποστήριξη για το GroupDocs.Metadata;
- Επισκέψου το[Τεκμηρίωση GroupDocs.Metadata](https://reference.groupdocs.com/metadata/net/) για αναλυτικές πληροφορίες. Για συγκεκριμένα ερωτήματα, επικοινωνήστε με την κοινότητα στο[Φόρουμ GroupDocs](https://forum.groupdocs.com/c/metadata/14).
+ Επισκέψου το[Τεκμηρίωση GroupDocs.Metadata](https://tutorials.groupdocs.com/metadata/net/) για αναλυτικές πληροφορίες. Για συγκεκριμένα ερωτήματα, επικοινωνήστε με την κοινότητα στο[Φόρουμ GroupDocs](https://forum.groupdocs.com/c/metadata/14).
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή για τη δοκιμή του GroupDocs.Metadata;
  Ναι, μπορείτε να έχετε πρόσβαση σε μια δωρεάν δοκιμή[εδώ](https://releases.groupdocs.com/).
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το GroupDocs.Metadata;

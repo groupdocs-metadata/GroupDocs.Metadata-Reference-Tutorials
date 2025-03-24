@@ -3,7 +3,6 @@ title: Leia propriedades integradas de planilhas em .NET
 linktitle: Leia propriedades integradas de planilhas em .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda como extrair metadados de planilhas em .NET usando GroupDocs.Metadata, aprimorando o gerenciamento e a organização de documentos em seus aplicativos.
-type: docs
 weight: 10
 url: /pt/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Sim, GroupDocs.Metadata oferece suporte a uma ampla variedade de formatos de arq
 ### Posso modificar metadados usando GroupDocs.Metadata for .NET?
 Sim, você pode não apenas ler, mas também editar, atualizar e remover metadados usando esta API.
 ### Onde posso encontrar documentação detalhada para GroupDocs.Metadata for .NET?
- A documentação detalhada está disponível em[Documentação do GroupDocs.Metadata para .NET](https://reference.groupdocs.com/metadata/net/).
+ A documentação detalhada está disponível em[Documentação do GroupDocs.Metadata para .NET](https://tutorials.groupdocs.com/metadata/net/).
 ### Como posso obter uma licença temporária para fins de teste?
  Você pode solicitar uma licença temporária de[aqui](https://purchase.groupdocs.com/temporary-license/).
 ### Existe um fórum da comunidade para suporte ao GroupDocs.Metadata?

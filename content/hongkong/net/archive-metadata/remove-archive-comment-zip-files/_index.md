@@ -3,7 +3,6 @@ title: 從 .NET 中的 ZIP 檔案中刪除存檔註釋
 linktitle: 從 .NET 中的 ZIP 檔案中刪除存檔註釋
 second_title: GroupDocs.元資料 .NET API
 description: 了解使用 GroupDocs.Metadata for .NET 刪除 ZIP 存檔註解。增強您的元資料管理技能。
-type: docs
 weight: 14
 url: /zh-hant/net/archive-metadata/remove-archive-comment-zip-files/
 ---

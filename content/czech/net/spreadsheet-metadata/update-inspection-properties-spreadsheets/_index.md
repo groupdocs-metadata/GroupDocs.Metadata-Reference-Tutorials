@@ -3,7 +3,6 @@ title: Aktualizujte vlastnosti inspekce v tabulkách pomocí .NET
 linktitle: Aktualizujte vlastnosti inspekce v tabulkách pomocí .NET
 second_title: GroupDocs.Metadata .NET API
 description: Zjistěte, jak aktualizovat vlastnosti kontroly v tabulkách pomocí GroupDocs.Metadata pro .NET. Snadno spravujte komentáře, podpisy a skryté listy.
-type: docs
 weight: 16
 url: /cs/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ Ano, GroupDocs.Metadata podporuje různé formáty tabulek včetně XLSX, XLS, C
 ### Mohu upravit další vlastnosti metadat pomocí GroupDocs.Metadata?
 Rozhodně vám GroupDocs.Metadata umožňuje číst, aktualizovat, odstraňovat a přidávat vlastnosti metadat, jako je autor, název, datum vytvoření atd.
 ### Kde najdu podrobnou dokumentaci k GroupDocs.Metadata pro .NET?
- Můžete odkazovat na komplexní[dokumentace](https://reference.groupdocs.com/metadata/net/) dostupný online.
+ Můžete odkazovat na komplexní[dokumentace](https://tutorials.groupdocs.com/metadata/net/) dostupný online.
 ### Je k dispozici bezplatná zkušební verze pro GroupDocs.Metadata pro .NET?
  Ano, máte přístup k a[zkušební verze zdarma](https://releases.groupdocs.com/) vyhodnotit API.
 ### Jak mohu získat technickou podporu pro GroupDocs.Metadata pro .NET?

@@ -3,7 +3,6 @@ title: .NET 자습서의 스트림에서 메타데이터 로드
 linktitle: .NET 자습서의 스트림에서 메타데이터 로드
 second_title: GroupDocs.메타데이터 .NET API
 description: GroupDocs.Metadata를 사용하여 .NET에서 파일 메타데이터를 관리하는 방법을 알아보세요. 스트림에서 메타데이터를 로드, 편집, 제거하기 위한 단계별 가이드입니다.
-type: docs
 weight: 11
 url: /ko/net/metadata-loading/load-metadata-stream/
 ---
@@ -63,7 +62,7 @@ metadata.Save("Output File");
 ### Q: GroupDocs.Metadata에 대한 임시 라이센스를 얻으려면 어떻게 해야 합니까?
  A: 다음에서 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.groupdocs.com/temporary-license/).
 ### Q: GroupDocs.Metadata에 대한 포괄적인 문서는 어디에서 찾을 수 있습니까?
- A: 자세한 문서 살펴보기[여기](https://reference.groupdocs.com/metadata/net/).
+ A: 자세한 문서 살펴보기[여기](https://tutorials.groupdocs.com/metadata/net/).
 ### Q: GroupDocs.Metadata에 대한 무료 평가판이 있습니까?
  A: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.groupdocs.com/).
 ### Q: GroupDocs.Metadata에 대한 지원을 받으려면 어떻게 해야 합니까?

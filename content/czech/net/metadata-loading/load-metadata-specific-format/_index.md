@@ -3,7 +3,6 @@ title: Načítání metadat ze specifického formátu v .NET
 linktitle: Načítání metadat ze specifického formátu v .NET
 second_title: GroupDocs.Metadata .NET API
 description: tomto komplexním kurzu se dozvíte, jak načíst metadata ze specifických formátů souborů pomocí GroupDocs.Metadata for .NET.
-type: docs
 weight: 12
 url: /cs/net/metadata-loading/load-metadata-specific-format/
 ---
@@ -55,7 +54,7 @@ Metadata jsou data, která poskytují informace o dalších datech, jako je auto
 ### Proč je správa metadat důležitá?
 Správa metadat je zásadní pro organizaci a pochopení digitálního obsahu, usnadňuje vyhledávání a interoperabilitu.
 ### Kde najdu podrobnou dokumentaci k GroupDocs.Metadata pro .NET?
- Máte přístup k dokumentaci[tady](https://reference.groupdocs.com/metadata/net/).
+ Máte přístup k dokumentaci[tady](https://tutorials.groupdocs.com/metadata/net/).
 ### Jak mohu získat dočasnou licenci pro GroupDocs.Metadata pro .NET?
  Návštěva[tento odkaz](https://purchase.groupdocs.com/temporary-license/) pro získání dočasné licence.
 ### Kde mohu získat podporu nebo se ptát na GroupDocs.Metadata pro .NET?

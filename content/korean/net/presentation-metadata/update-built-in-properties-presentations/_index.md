@@ -3,7 +3,6 @@ title: .NET을 사용하여 프레젠테이션의 기본 제공 속성 업데이
 linktitle: .NET을 사용하여 프레젠테이션의 기본 제공 속성 업데이트
 second_title: GroupDocs.메타데이터 .NET API
 description: 다목적 메타데이터 조작 라이브러리인 GroupDocs.Metadata와 함께 .NET을 사용하여 프레젠테이션의 기본 제공 속성을 업데이트하는 방법을 알아보세요.
-type: docs
 weight: 15
 url: /ko/net/presentation-metadata/update-built-in-properties-presentations/
 ---
@@ -51,7 +50,7 @@ metadata.Save("YourPresentationFile.pptx");
 ### Q: .NET용 GroupDocs.Metadata란 무엇입니까?
 A: .NET용 GroupDocs.Metadata는 .NET 프레임워크를 위한 강력한 메타데이터 조작 라이브러리로, 이를 통해 개발자는 다양한 문서 형식의 메타데이터를 읽고, 쓰고, 편집할 수 있습니다.
 ### Q: GroupDocs.Metadata에 대한 설명서는 어디에서 찾을 수 있습니까?
- A: 자세한 문서에 액세스할 수 있습니다.[여기](https://reference.groupdocs.com/metadata/net/).
+ A: 자세한 문서에 액세스할 수 있습니다.[여기](https://tutorials.groupdocs.com/metadata/net/).
 ### Q: GroupDocs.Metadata에 대한 임시 라이센스를 얻으려면 어떻게 해야 합니까?
  A: 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.groupdocs.com/temporary-license/).
 ### Q: GroupDocs.Metadata는 프레젠테이션 외에 다른 파일 형식을 지원합니까?

@@ -3,7 +3,6 @@ title: Rimuovi il tag APE dai file MP3 in .NET
 linktitle: Rimuovi il tag APE dai file MP3 in .NET
 second_title: API GroupDocs.Metadata .NET
 description: Scopri come rimuovere i tag APE dai file MP3 utilizzando GroupDocs.Metadata per .NET. Gestisci facilmente i metadati nelle tue applicazioni .NET.
-type: docs
 weight: 15
 url: /it/net/audio-metadata/remove-ape-tag-mp3/
 ---
@@ -13,7 +12,7 @@ Nell'ambito dello sviluppo .NET, la gestione dei metadati all'interno dei file Ã
 Prima di immergerti nel tutorial, assicurati di possedere i seguenti prerequisiti:
 - Conoscenza base di C# e framework .NET.
 - Visual Studio installato sul tuo computer.
--  GroupDocs.Metadata per la libreria .NET installata (fare riferimento a[documentazione](https://reference.groupdocs.com/metadata/net/) per le fasi di installazione).
+-  GroupDocs.Metadata per la libreria .NET installata (fare riferimento a[documentazione](https://tutorials.groupdocs.com/metadata/net/) per le fasi di installazione).
 
 ## Importa spazi dei nomi
 Innanzitutto, assicurati di importare gli spazi dei nomi necessari nel tuo progetto C#:

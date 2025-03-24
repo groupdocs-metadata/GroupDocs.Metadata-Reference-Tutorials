@@ -3,7 +3,6 @@ title: .NET의 PDF에서 내장 속성 읽기
 linktitle: .NET의 PDF에서 내장 속성 읽기
 second_title: GroupDocs.메타데이터 .NET API
 description: GroupDocs.Metadata를 사용하여 .NET에서 PDF 메타데이터를 읽는 방법을 알아보세요. C# 코드를 사용하여 작성자 이름, 작성 날짜, 주제 등에 액세스하세요.
-type: docs
 weight: 10
 url: /ko/net/pdf-metadata/read-built-in-properties-pdfs/
 ---

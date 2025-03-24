@@ -3,7 +3,6 @@ title: Frissítse az archív megjegyzést a ZIP-fájlokban a .NET használatáva
 linktitle: Frissítse az archív megjegyzést a ZIP-fájlokban a .NET használatával
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan frissítheti az archív megjegyzéseket ZIP-fájlokban a GroupDocs.Metadata for .NET használatával. Fokozatmentesen javíthatja a metaadatkezelést a C# alkalmazásokban.
-type: docs
 weight: 15
 url: /hu/net/archive-metadata/update-archive-comment-zip-files/
 ---
@@ -55,4 +54,4 @@ Igen, a könyvtár kompatibilis a .NET Framework és a .NET Core környezetekkel
 ### GroupDocs.Metadata nyújt támogatást a fejlesztők számára?
  Igen, fejlesztői támogatást és forrásokat találhat a webhelyen[GroupDocs fórum](https://forum.groupdocs.com/c/metadata/14).
 ### Hol találom a GroupDocs.Metadata for .NET átfogó dokumentációját?
- A dokumentáció elérhető[itt](https://reference.groupdocs.com/metadata/net/).
+ A dokumentáció elérhető[itt](https://tutorials.groupdocs.com/metadata/net/).

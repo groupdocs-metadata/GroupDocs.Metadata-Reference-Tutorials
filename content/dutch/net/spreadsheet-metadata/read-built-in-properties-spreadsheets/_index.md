@@ -3,7 +3,6 @@ title: Lees ingebouwde eigenschappen van spreadsheets in .NET
 linktitle: Lees ingebouwde eigenschappen van spreadsheets in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u metagegevens uit spreadsheets in .NET kunt extraheren met behulp van GroupDocs.Metadata, waardoor u het documentbeheer en de organisatie in uw toepassingen kunt verbeteren.
-type: docs
 weight: 10
 url: /nl/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Ja, GroupDocs.Metadata ondersteunt een breed scala aan bestandsindelingen, waaro
 ### Kan ik metagegevens wijzigen met GroupDocs.Metadata voor .NET?
 Ja, je kunt met deze API niet alleen metadata lezen, maar ook bewerken, bijwerken en verwijderen.
 ### Waar kan ik gedetailleerde documentatie vinden voor GroupDocs.Metadata voor .NET?
- Gedetailleerde documentatie is beschikbaar op[GroupDocs.Metadata voor .NET-documentatie](https://reference.groupdocs.com/metadata/net/).
+ Gedetailleerde documentatie is beschikbaar op[GroupDocs.Metadata voor .NET-documentatie](https://tutorials.groupdocs.com/metadata/net/).
 ### Hoe kan ik een tijdelijke licentie verkrijgen voor testdoeleinden?
  Een tijdelijke licentie kunt u aanvragen bij[hier](https://purchase.groupdocs.com/temporary-license/).
 ### Is er een communityforum voor GroupDocs.Metadata-ondersteuning?

@@ -3,7 +3,6 @@ title: Leggi le proprietà dei metadati nativi dagli archivi RAR in .NET
 linktitle: Leggi le proprietà dei metadati nativi dagli archivi RAR in .NET
 second_title: API GroupDocs.Metadata .NET
 description: Scopri come estrarre le proprietà dei metadati dagli archivi RAR utilizzando GroupDocs.Metadata per .NET in C#. Esplora i dettagli del file senza sforzo.
-type: docs
 weight: 10
 url: /it/net/archive-metadata/read-native-metadata-rar-archives/
 ---

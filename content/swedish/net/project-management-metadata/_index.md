@@ -3,7 +3,6 @@ title: Projektledningsmetadata
 linktitle: Projektledningsmetadata
 second_title: GroupDocs.Metadata .NET API
 description: Lås upp potentialen hos .NET-projektledningsdokument med GroupDocs.Metadata för .NET-självstudier. Extrahera, uppdatera och hantera metadata utan ansträngning.
-type: docs
 weight: 26
 url: /sv/net/project-management-metadata/
 ---

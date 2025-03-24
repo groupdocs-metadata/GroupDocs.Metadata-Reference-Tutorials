@@ -3,7 +3,6 @@ title: قم بتحديث خصائص الفحص في جداول البيانات 
 linktitle: قم بتحديث خصائص الفحص في جداول البيانات باستخدام .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية تحديث خصائص الفحص في جداول البيانات باستخدام GroupDocs.Metadata لـ .NET. إدارة التعليقات والتوقيعات والأوراق المخفية بسهولة.
-type: docs
 weight: 16
 url: /ar/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ metadata.Save("YourOutputFile.xlsx");
 ### هل يمكنني تعديل خصائص بيانات التعريف الأخرى باستخدام GroupDocs.Metadata؟
 بالتأكيد، يتيح لك GroupDocs.Metadata قراءة خصائص البيانات التعريفية وتحديثها وإزالتها وإضافتها مثل المؤلف والعنوان وتاريخ الإنشاء وما إلى ذلك.
 ### أين يمكنني العثور على الوثائق التفصيلية لـ GroupDocs.Metadata لـ .NET؟
- يمكنك الرجوع إلى الشامل[توثيق](https://reference.groupdocs.com/metadata/net/) متوفر على الانترنت.
+ يمكنك الرجوع إلى الشامل[توثيق](https://tutorials.groupdocs.com/metadata/net/) متوفر على الانترنت.
 ### هل هناك نسخة تجريبية مجانية متاحة لـ GroupDocs.Metadata لـ .NET؟
  نعم يمكنك الوصول إلى[تجربة مجانية](https://releases.groupdocs.com/) لتقييم API.
 ### كيف يمكنني الحصول على الدعم الفني لـ GroupDocs.Metadata لـ .NET؟

@@ -3,7 +3,6 @@ title: Cập nhật thẻ ID3V1 trong tệp MP3 bằng .NET
 linktitle: Cập nhật thẻ ID3V1 trong tệp MP3 bằng .NET
 second_title: API GroupDocs.Metadata .NET
 description: Cập nhật thẻ ID3V1 trong tệp MP3 bằng GroupDocs.Metadata cho .NET. Hãy làm theo hướng dẫn này để dễ dàng thao tác siêu dữ liệu trong các ứng dụng .NET của bạn.
-type: docs
 weight: 19
 url: /vi/net/audio-metadata/update-id3v1-tag-mp3/
 ---
@@ -61,7 +60,7 @@ GroupDocs.Metadata cho .NET là API thao tác siêu dữ liệu mạnh mẽ cho 
 ### Những định dạng tài liệu nào được GroupDocs.Metadata hỗ trợ cho .NET?
 GroupDocs.Metadata for .NET hỗ trợ nhiều định dạng tài liệu bao gồm PDF, tài liệu Microsoft Office (Word, Excel, PowerPoint), hình ảnh (JPEG, PNG, TIFF), tệp âm thanh và video, v.v.
 ### Tôi có thể tìm tài liệu về GroupDocs.Metadata cho .NET ở đâu?
- Bạn có thể tham khảo tài liệu chi tiết[đây](https://reference.groupdocs.com/metadata/net/) để được hướng dẫn toàn diện về cách sử dụng API.
+ Bạn có thể tham khảo tài liệu chi tiết[đây](https://tutorials.groupdocs.com/metadata/net/) để được hướng dẫn toàn diện về cách sử dụng API.
 ### Có bản dùng thử miễn phí GroupDocs.Metadata cho .NET không?
  Có, bạn có thể truy cập bản dùng thử miễn phí GroupDocs.Metadata cho .NET[đây](https://releases.groupdocs.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ kỹ thuật cho GroupDocs.Metadata cho .NET?

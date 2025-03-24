@@ -1,7 +1,6 @@
 ---
 title: .NET के लिए GroupDocs.Metadata के ट्यूटोरियल और उदाहरण
 linktitle: .NET ट्यूटोरियल के लिए GroupDocs.Metadata
-type: docs
 weight: 10
 url: /hi/net/
 description: GroupDocs.Metadata के साथ .NET में फ़ाइल मेटाडेटा को आसानी से प्रबंधित करें। उन्नत फ़ाइल हेरफेर क्षमताओं के लिए लोडिंग तकनीक, संपादन और बहुत कुछ सीखें।

@@ -3,7 +3,6 @@ title: Cập nhật nhận xét lưu trữ trong tệp ZIP bằng .NET
 linktitle: Cập nhật nhận xét lưu trữ trong tệp ZIP bằng .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật nhận xét lưu trữ trong tệp ZIP bằng GroupDocs.Metadata cho .NET. Tăng cường quản lý siêu dữ liệu trong các ứng dụng C# một cách dễ dàng.
-type: docs
 weight: 15
 url: /vi/net/archive-metadata/update-archive-comment-zip-files/
 ---
@@ -55,4 +54,4 @@ Có, thư viện tương thích với cả môi trường .NET Framework và .NE
 ### GroupDocs.Metadata có cung cấp hỗ trợ cho nhà phát triển không?
  Có, bạn có thể tìm thấy tài nguyên và hỗ trợ dành cho nhà phát triển trên[diễn đàn GroupDocs](https://forum.groupdocs.com/c/metadata/14).
 ### Tôi có thể tìm tài liệu toàn diện về GroupDocs.Metadata cho .NET ở đâu?
- Tài liệu có sẵn[đây](https://reference.groupdocs.com/metadata/net/).
+ Tài liệu có sẵn[đây](https://tutorials.groupdocs.com/metadata/net/).

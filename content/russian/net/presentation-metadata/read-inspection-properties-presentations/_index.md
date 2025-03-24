@@ -3,7 +3,6 @@ title: Чтение свойств проверки из презентаций 
 linktitle: Чтение свойств проверки из презентаций в .NET
 second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как извлечь метаданные презентации с помощью GroupDocs.Metadata для .NET. Доступ к комментариям, скрытым слайдам и т. д. программным способом.
-type: docs
 weight: 14
 url: /ru/net/presentation-metadata/read-inspection-properties-presentations/
 ---
@@ -64,7 +63,7 @@ if (root.InspectionPackage.HiddenSlides != null)
 ### Вопрос: Как получить временную лицензию на GroupDocs.Metadata?
  О: Вы можете приобрести временную лицензию у[здесь](https://purchase.groupdocs.com/temporary-license/).
 ### Вопрос: Где я могу найти документацию по GroupDocs.Metadata для .NET?
- О: Вы можете обратиться к документации[здесь](https://reference.groupdocs.com/metadata/net/).
+ О: Вы можете обратиться к документации[здесь](https://tutorials.groupdocs.com/metadata/net/).
 ### Вопрос: Как мне получить поддержку GroupDocs.Metadata?
  О: Для поддержки и обсуждения посетите форум GroupDocs.Metadata.[здесь](https://forum.groupdocs.com/c/metadata/14).
 ### Вопрос: Могу ли я загрузить бесплатную пробную версию GroupDocs.Metadata для .NET?

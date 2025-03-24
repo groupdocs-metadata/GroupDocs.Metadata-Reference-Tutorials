@@ -3,7 +3,6 @@ title: Olvassa el az információs metaadatokat a WAV-fájlokból a .NET-ben
 linktitle: Olvassa el az információs metaadatokat a WAV-fájlokból a .NET-ben
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthat ki metaadatokat WAV-fájlokból a GroupDocs.Metadata for .NET segítségével. Merüljön el ebben a lépésenkénti oktatóanyagban a metaadatok hasznosításához az audiofájlok kezeléséhez.
-type: docs
 weight: 22
 url: /hu/net/audio-metadata/read-info-metadata-wav/
 ---
@@ -66,7 +65,7 @@ Igen, a GroupDocs.Metadata fájlformátumok széles skáláját támogatja, bele
 ### Létezik ingyenes próbaverzió a GroupDocs.Metadata számára?
  Igen, letöltheti a GroupDocs.Metadata ingyenes próbaverzióját a webhelyről[itt](https://releases.groupdocs.com/).
 ### Hol találom a GroupDocs.Metadata részletes dokumentációját?
- Hozzáférhet a teljes dokumentációhoz[itt](https://reference.groupdocs.com/metadata/net/).
+ Hozzáférhet a teljes dokumentációhoz[itt](https://tutorials.groupdocs.com/metadata/net/).
 ### Hogyan vásárolhatok licencet a GroupDocs.Metadata számára?
  A GroupDocs.Metadata licencet a webhelyen vásárolhatja meg[vásárlási oldal](https://purchase.groupdocs.com/buy).
 ### Hol kaphatok támogatást, vagy hol tehetek fel kérdéseket a GroupDocs.Metadata-val kapcsolatban?

@@ -3,7 +3,6 @@ title: Διαβάστε τα Μεταδεδομένα πληροφοριών α�
 linktitle: Διαβάστε τα Μεταδεδομένα πληροφοριών από τα αρχεία WAV στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξαγάγετε μεταδεδομένα από αρχεία WAV χρησιμοποιώντας το GroupDocs.Metadata για .NET. Βουτήξτε σε αυτό το βήμα προς βήμα σεμινάριο για να αξιοποιήσετε τα μεταδεδομένα για τη διαχείριση αρχείων ήχου.
-type: docs
 weight: 22
 url: /el/net/audio-metadata/read-info-metadata-wav/
 ---
@@ -66,7 +65,7 @@ Console.WriteLine(root.RiffInfoPackage.Genre);
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή για το GroupDocs.Metadata;
  Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμή του GroupDocs.Metadata από[εδώ](https://releases.groupdocs.com/).
 ### Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το GroupDocs.Metadata;
- Μπορείτε να αποκτήσετε πρόσβαση στην πλήρη τεκμηρίωση[εδώ](https://reference.groupdocs.com/metadata/net/).
+ Μπορείτε να αποκτήσετε πρόσβαση στην πλήρη τεκμηρίωση[εδώ](https://tutorials.groupdocs.com/metadata/net/).
 ### Πώς μπορώ να αγοράσω άδεια χρήσης για το GroupDocs.Metadata;
  Μπορείτε να αγοράσετε μια άδεια για το GroupDocs.Metadata από το[σελίδα αγοράς](https://purchase.groupdocs.com/buy).
 ### Πού μπορώ να λάβω υποστήριξη ή να κάνω ερωτήσεις σχετικά με το GroupDocs.Metadata;

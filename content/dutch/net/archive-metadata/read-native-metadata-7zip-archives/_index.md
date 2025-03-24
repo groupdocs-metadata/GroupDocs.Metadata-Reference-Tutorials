@@ -3,7 +3,6 @@ title: Lees Native Metadata-eigenschappen uit 7Zip-archieven in .NET
 linktitle: Lees Native Metadata-eigenschappen uit 7Zip-archieven in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u native metadata-eigenschappen uit 7Zip-archieven kunt lezen met GroupDocs.Metadata voor .NET. Verbeter de mogelijkheden voor gegevensbeheer van uw .NET-applicatie.
-type: docs
 weight: 11
 url: /nl/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
@@ -64,7 +63,7 @@ Ja, GroupDocs.Metadata biedt robuuste mogelijkheden voor het bewerken, verwijder
 ### Is GroupDocs.Metadata compatibel met andere archiefformaten zoals RAR of TAR?
 Ja, GroupDocs.Metadata ondersteunt een breed scala aan archiefformaten, waaronder onder andere RAR, TAR en ZIP.
 ### Waar kan ik gedetailleerde documentatie vinden voor GroupDocs.Metadata voor .NET?
- U heeft toegang tot de documentatie[hier](https://reference.groupdocs.com/metadata/net/).
+ U heeft toegang tot de documentatie[hier](https://tutorials.groupdocs.com/metadata/net/).
 ### Hoe verkrijg ik een tijdelijke licentie voor GroupDocs.Metadata?
  U kunt een tijdelijke licentie aanschaffen[hier](https://purchase.groupdocs.com/temporary-license/).
 ### Biedt GroupDocs.Metadata ondersteuning voor probleemoplossing en vragen?

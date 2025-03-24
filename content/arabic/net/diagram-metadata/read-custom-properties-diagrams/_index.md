@@ -3,7 +3,6 @@ title: قراءة الخصائص المخصصة من المخططات في .NET
 linktitle: قراءة الخصائص المخصصة من المخططات في .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج الخصائص المخصصة من ملفات المخططات في .NET باستخدام GroupDocs.Metadata. دليل سهل خطوة بخطوة للمطورين.
-type: docs
 weight: 11
 url: /ar/net/diagram-metadata/read-custom-properties-diagrams/
 ---
@@ -60,6 +59,6 @@ foreach (var property in customProperties)
 ### هل GroupDocs.Metadata مناسبة لمعالجة المستندات على نطاق واسع؟
 نعم، تم تصميم GroupDocs.Metadata للتعامل مع كميات كبيرة من المستندات بكفاءة.
 ### أين يمكنني العثور على دعم أو وثائق إضافية لـ GroupDocs.Metadata؟
- قم بزيارة[منتدى GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) للحصول على الدعم واستكشاف[توثيق](https://reference.groupdocs.com/metadata/net/) للحصول على مراجع API مفصلة.
+ قم بزيارة[منتدى GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) للحصول على الدعم واستكشاف[توثيق](https://tutorials.groupdocs.com/metadata/net/) للحصول على مراجع API مفصلة.
 ### هل يمكنني تجربة GroupDocs.Metadata مجانًا قبل الشراء؟
  نعم، يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.groupdocs.com/).

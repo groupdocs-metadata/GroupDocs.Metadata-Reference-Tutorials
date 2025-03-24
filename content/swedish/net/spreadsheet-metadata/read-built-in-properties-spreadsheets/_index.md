@@ -3,7 +3,6 @@ title: Läs inbyggda egenskaper från kalkylblad i .NET
 linktitle: Läs inbyggda egenskaper från kalkylblad i .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du extraherar metadata från kalkylblad i .NET med hjälp av GroupDocs.Metadata, vilket förbättrar dokumenthantering och organisation i dina applikationer.
-type: docs
 weight: 10
 url: /sv/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Ja, GroupDocs.Metadata stöder ett brett utbud av filformat inklusive kalkylblad
 ### Kan jag ändra metadata med GroupDocs.Metadata för .NET?
 Ja, du kan inte bara läsa utan också redigera, uppdatera och ta bort metadata med detta API.
 ### Var kan jag hitta detaljerad dokumentation för GroupDocs.Metadata for .NET?
- Detaljerad dokumentation finns på[GroupDocs.Metadata för .NET-dokumentation](https://reference.groupdocs.com/metadata/net/).
+ Detaljerad dokumentation finns på[GroupDocs.Metadata för .NET-dokumentation](https://tutorials.groupdocs.com/metadata/net/).
 ### Hur kan jag få en tillfällig licens för teständamål?
  Du kan begära en tillfällig licens från[här](https://purchase.groupdocs.com/temporary-license/).
 ### Finns det ett communityforum för GroupDocs.Metadata-stöd?

@@ -3,7 +3,6 @@ title: 从 .NET 中的 MP3 文件读取 MPEG 音频元数据
 linktitle: 从 .NET 中的 MP3 文件读取 MPEG 音频元数据
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata 从 .NET 中的 MP3 文件中提取 MPEG 音频元数据。增强您的文件分析能力。
-type: docs
 weight: 14
 url: /zh/net/audio-metadata/read-mpeg-audio-metadata-mp3/
 ---

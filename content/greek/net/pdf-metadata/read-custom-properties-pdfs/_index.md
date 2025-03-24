@@ -3,7 +3,6 @@ title: Διαβάστε προσαρμοσμένες ιδιότητες από �
 linktitle: Διαβάστε προσαρμοσμένες ιδιότητες από αρχεία PDF στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε προσαρμοσμένες ιδιότητες από αρχεία PDF χρησιμοποιώντας το GroupDocs.Metadata για .NET. Βουτήξτε στη διαχείριση μεταδεδομένων εγγράφων με C#.
-type: docs
 weight: 11
 url: /el/net/pdf-metadata/read-custom-properties-pdfs/
 ---
@@ -54,7 +53,7 @@ foreach (var property in customProperties)
 ### Το GroupDocs.Metadata υποστηρίζει άλλες μορφές αρχείων εκτός από το PDF;
 Ναι, το GroupDocs.Metadata υποστηρίζει ένα ευρύ φάσμα μορφών αρχείων, όπως έγγραφα Word, υπολογιστικά φύλλα Excel, παρουσιάσεις PowerPoint, εικόνες και άλλα.
 ### Πού μπορώ να βρω περαιτέρω τεκμηρίωση και υποστήριξη για το GroupDocs.Metadata;
- Αναφέρομαι στο[τεκμηρίωση](https://reference.groupdocs.com/metadata/net/) για ολοκληρωμένη ενημέρωση. Για πρόσθετη υποστήριξη, επισκεφθείτε το[Φόρουμ GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14).
+ Αναφέρομαι στο[τεκμηρίωση](https://tutorials.groupdocs.com/metadata/net/) για ολοκληρωμένη ενημέρωση. Για πρόσθετη υποστήριξη, επισκεφθείτε το[Φόρουμ GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14).
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή για το GroupDocs.Metadata;
  Ναι, μπορείτε να πάρετε ένα[δωρεάν δοκιμή](https://releases.groupdocs.com/) για να εξερευνήσετε τις δυνατότητες του GroupDocs.Metadata.
 ### Πώς μπορώ να αγοράσω άδεια χρήσης για το GroupDocs.Metadata;

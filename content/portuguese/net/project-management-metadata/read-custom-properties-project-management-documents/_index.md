@@ -3,7 +3,6 @@ title: Leia propriedades personalizadas em documentos de gerenciamento de projet
 linktitle: Leia propriedades personalizadas em documentos de gerenciamento de projetos .NET
 second_title: API GroupDocs.Metadata .NET
 description: Saiba como extrair propriedades personalizadas de documentos de gerenciamento de projetos .NET usando GroupDocs.Metadata for .NET. Aprimore seu gerenciamento de metadados.
-type: docs
 weight: 11
 url: /pt/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
@@ -58,7 +57,7 @@ GroupDocs.Metadata oferece suporte a uma ampla variedade de formatos de gerencia
 ### É necessária uma licença para usar GroupDocs.Metadata for .NET?
  Sim, é necessária uma licença para uso comercial. Você pode obter uma licença temporária em[aqui](https://purchase.groupdocs.com/temporary-license/).
 ### Como posso acessar documentação adicional para GroupDocs.Metadata?
- Explore a documentação detalhada no[página de referência](https://reference.groupdocs.com/metadata/net/).
+ Explore a documentação detalhada no[página de referência](https://tutorials.groupdocs.com/metadata/net/).
 ### Onde posso obter suporte para consultas relacionadas ao GroupDocs.Metadata?
  Junte-se à comunidade no[Fórum de metadados do GroupDocs](https://forum.groupdocs.com/c/metadata/14) para apoio e discussões.
 ### Posso experimentar o GroupDocs.Metadata gratuitamente antes de comprar?

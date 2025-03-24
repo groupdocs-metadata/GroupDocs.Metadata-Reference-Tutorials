@@ -3,7 +3,6 @@ title: .NET'teki Diyagramlardan Özel Özellikleri Okuyun
 linktitle: .NET'teki Diyagramlardan Özel Özellikleri Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata'yı kullanarak .NET'teki diyagram dosyalarından özel özellikleri nasıl çıkaracağınızı öğrenin. Geliştiriciler için kolay adım adım kılavuz.
-type: docs
 weight: 11
 url: /tr/net/diagram-metadata/read-custom-properties-diagrams/
 ---
@@ -60,6 +59,6 @@ Evet, GroupDocs.Metadata; sunumlar, resimler, PDF'ler ve daha fazlası dahil olm
 ### GroupDocs.Metadata büyük ölçekli belge işlemeye uygun mu?
 Evet, GroupDocs.Metadata büyük hacimli belgeleri verimli bir şekilde işleyecek şekilde tasarlanmıştır.
 ### GroupDocs.Metadata için ek desteği veya belgeleri nerede bulabilirim?
- Ziyaret edin[GroupDocs.Meta veri forumu](https://forum.groupdocs.com/c/metadata/14) destek ve keşfetmek için[dokümantasyon](https://reference.groupdocs.com/metadata/net/) ayrıntılı API referansları için.
+ Ziyaret edin[GroupDocs.Meta veri forumu](https://forum.groupdocs.com/c/metadata/14) destek ve keşfetmek için[dokümantasyon](https://tutorials.groupdocs.com/metadata/net/) ayrıntılı API referansları için.
 ### Satın almadan önce GroupDocs.Metadata'yı ücretsiz deneyebilir miyim?
  Evet, ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.groupdocs.com/).

@@ -3,7 +3,6 @@ title: Olvassa el a dokumentumstatisztikát a diagramokból a .NET-ben
 linktitle: Olvassa el a dokumentumstatisztikát a diagramokból a .NET-ben
 second_title: GroupDocs.Metadata .NET API
 description: Tanulja meg, hogyan lehet dokumentumstatisztikát kinyerni diagramokból a .NET-ben a GroupDocs.Metadata, egy hatékony metaadat-kezelési könyvtár segítségével.
-type: docs
 weight: 12
 url: /hu/net/diagram-metadata/read-document-statistics-diagrams/
 ---
@@ -53,7 +52,7 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan lehet dokumentumstatisztikát ki
 ### Használhatom a GroupDocs.Metadata for .NET fájlt a diagramokon kívül más fájlformátumokkal is?
 Igen, a GroupDocs.Metadata különféle fájlformátumokat támogat, beleértve a képeket, dokumentumokat, prezentációkat, táblázatokat és egyebeket.
 ### Hol találom a GroupDocs.Metadata for .NET részletes dokumentációját?
- Hivatkozhat a[dokumentáció](https://reference.groupdocs.com/metadata/net/) átfogó útmutatásért.
+ Hivatkozhat a[dokumentáció](https://tutorials.groupdocs.com/metadata/net/) átfogó útmutatásért.
 ### Létezik ingyenes próbaverzió a GroupDocs.Metadata for .NET számára?
  Igen, hozzáférhet a[ingyenes próbaverzió](https://releases.groupdocs.com/) hogy felfedezze a GroupDocs szolgáltatásait.Metadata.
 ### Hogyan kaphatok technikai támogatást a GroupDocs.Metadata for .NET-hez?

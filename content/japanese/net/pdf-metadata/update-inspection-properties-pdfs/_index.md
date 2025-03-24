@@ -3,7 +3,6 @@ title: .NET を使用して PDF の検査プロパティを更新する
 linktitle: .NET を使用して PDF の検査プロパティを更新する
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して PDF ドキュメントの検査プロパティを更新する方法を学習します。C# を使用してメタデータと注釈を効率的に管理します。
-type: docs
 weight: 17
 url: /ja/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
@@ -67,6 +66,6 @@ metadata.Save("YourInputFile.pdf");
 ### GroupDocs.Metadata の使用中に問題が発生した場合、サポートを受けるにはどうすればよいですか?
 訪問[GroupDocs.Metadata フォーラム](https://forum.groupdocs.com/c/metadata/14)援助とコミュニティサポートのために。
 ### GroupDocs.Metadata for .NET の詳細なドキュメントはどこで入手できますか?
-を参照してください。[ドキュメンテーション](https://reference.groupdocs.com/metadata/net/)図書館の利用に関する包括的なガイダンスをご覧ください。
+を参照してください。[ドキュメンテーション](https://tutorials.groupdocs.com/metadata/net/)図書館の利用に関する包括的なガイダンスをご覧ください。
 ### テスト目的で一時ライセンスを取得できますか?
 はい、リクエストできます[仮免許](https://purchase.groupdocs.com/temporary-license/)評価目的のため。

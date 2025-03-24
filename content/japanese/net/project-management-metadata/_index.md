@@ -3,7 +3,6 @@ title: プロジェクト管理メタデータ
 linktitle: プロジェクト管理メタデータ
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET チュートリアルを使用して、.NET プロジェクト管理ドキュメントの可能性を最大限に引き出します。メタデータを簡単に抽出、更新、管理します。
-type: docs
 weight: 26
 url: /ja/net/project-management-metadata/
 ---

@@ -3,7 +3,6 @@ title: Metadane prezentacji
 linktitle: Metadane prezentacji
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak efektywnie zarządzać metadanymi prezentacji w platformie .NET, korzystając z samouczków GroupDocs.Metadata. Z łatwością uzyskaj dostęp do wbudowanych i niestandardowych właściwości.
-type: docs
 weight: 25
 url: /pl/net/presentation-metadata/
 ---

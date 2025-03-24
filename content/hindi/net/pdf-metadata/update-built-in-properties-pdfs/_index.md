@@ -3,7 +3,6 @@ title: .NET का उपयोग करके PDF में अंतर्न
 linktitle: .NET का उपयोग करके PDF में अंतर्निहित गुण अपडेट करें
 second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए C# और GroupDocs.Metadata का उपयोग करके PDF दस्तावेज़ गुणों को अपडेट करना सीखें। प्रोग्रामेटिक रूप से लेखक, शीर्षक, कीवर्ड और बहुत कुछ संशोधित करें।
-type: docs
 weight: 15
 url: /hi/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
@@ -72,7 +71,7 @@ using (Metadata metadata = new Metadata("Your Output File Path"))
 ### प्रश्न: .NET के लिए GroupDocs.Metadata क्या है?
 A: GroupDocs.Metadata for .NET एक लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से विभिन्न दस्तावेज़ प्रारूपों में मेटाडेटा को पढ़ने, संपादित करने, हटाने और हेरफेर करने की अनुमति देती है।
 ### प्रश्न: मैं .NET के लिए GroupDocs.Metadata हेतु दस्तावेज़ कहां पा सकता हूं?
- उत्तर: आप दस्तावेज़ तक पहुंच सकते हैं[यहाँ](https://reference.groupdocs.com/metadata/net/).
+ उत्तर: आप दस्तावेज़ तक पहुंच सकते हैं[यहाँ](https://tutorials.groupdocs.com/metadata/net/).
 ### प्रश्न: मैं .NET के लिए GroupDocs.Metadata कैसे डाउनलोड कर सकता हूं?
  A: आप .NET के लिए GroupDocs.Metadata को यहां से डाउनलोड कर सकते हैं[इस लिंक](https://releases.groupdocs.com/metadata/net/).
 ### प्रश्न: क्या कोई निःशुल्क परीक्षण उपलब्ध है?

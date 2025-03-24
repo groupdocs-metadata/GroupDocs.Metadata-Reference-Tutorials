@@ -3,7 +3,6 @@ title: .NET में PDF से कस्टम गुण पढ़ें
 linktitle: .NET में PDF से कस्टम गुण पढ़ें
 second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके PDF से कस्टम गुण निकालने का तरीका जानें। C# के साथ दस्तावेज़ मेटाडेटा प्रबंधन में गोता लगाएँ।
-type: docs
 weight: 11
 url: /hi/net/pdf-metadata/read-custom-properties-pdfs/
 ---
@@ -54,7 +53,7 @@ foreach (var property in customProperties)
 ### क्या GroupDocs.Metadata पीडीएफ के अलावा अन्य फ़ाइल स्वरूपों का समर्थन करता है?
 हां, GroupDocs.Metadata वर्ड दस्तावेज़, एक्सेल स्प्रेडशीट, पावरपॉइंट प्रस्तुतियों, छवियों और अधिक सहित फ़ाइल स्वरूपों की एक विस्तृत श्रृंखला का समर्थन करता है।
 ### मैं GroupDocs.Metadata के लिए आगे का दस्तावेज़ीकरण और समर्थन कहां पा सकता हूं?
- को देखें[प्रलेखन](https://reference.groupdocs.com/metadata/net/) विस्तृत जानकारी के लिए। अतिरिक्त सहायता के लिए, यहाँ जाएँ[GroupDocs.Metadata फ़ोरम](https://forum.groupdocs.com/c/metadata/14).
+ को देखें[प्रलेखन](https://tutorials.groupdocs.com/metadata/net/) विस्तृत जानकारी के लिए। अतिरिक्त सहायता के लिए, यहाँ जाएँ[GroupDocs.Metadata फ़ोरम](https://forum.groupdocs.com/c/metadata/14).
 ### क्या GroupDocs.Metadata के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
  हाँ, आप पा सकते हैं[मुफ्त परीक्षण](https://releases.groupdocs.com/) GroupDocs.Metadata की सुविधाओं का पता लगाने के लिए.
 ### मैं GroupDocs.Metadata के लिए लाइसेंस कैसे खरीद सकता हूँ?

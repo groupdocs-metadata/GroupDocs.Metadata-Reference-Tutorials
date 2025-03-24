@@ -3,7 +3,6 @@ title: 在 .NET 中从 RAR 档案读取本机元数据属性
 linktitle: 在 .NET 中从 RAR 档案读取本机元数据属性
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 C# 中的 GroupDocs.Metadata for .NET 从 RAR 档案中提取元数据属性。轻松探索文件详细信息。
-type: docs
 weight: 10
 url: /zh/net/archive-metadata/read-native-metadata-rar-archives/
 ---

@@ -3,7 +3,6 @@ title: Μεταδεδομένα παρουσίασης
 linktitle: Μεταδεδομένα παρουσίασης
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να διαχειρίζεστε αποτελεσματικά τα μεταδεδομένα παρουσίασης στο .NET χρησιμοποιώντας εκπαιδευτικά προγράμματα GroupDocs.Metadata. Αποκτήστε εύκολη πρόσβαση σε ενσωματωμένες και προσαρμοσμένες ιδιότητες.
-type: docs
 weight: 25
 url: /el/net/presentation-metadata/
 ---

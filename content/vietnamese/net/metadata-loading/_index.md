@@ -3,7 +3,6 @@ title: Đang tải siêu dữ liệu
 linktitle: Đang tải siêu dữ liệu
 second_title: API GroupDocs.Metadata .NET
 description: Dễ dàng quản lý siêu dữ liệu tệp trong .NET với GroupDocs.Metadata. Tìm hiểu các kỹ thuật tải, chỉnh sửa và hơn thế nữa để nâng cao khả năng thao tác với tệp.
-type: docs
 weight: 20
 url: /vi/net/metadata-loading/
 ---

@@ -3,7 +3,6 @@ title: Lees Info Metadata van WAV-bestanden in .NET
 linktitle: Lees Info Metadata van WAV-bestanden in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u metagegevens uit WAV-bestanden kunt extraheren met GroupDocs.Metadata voor .NET. Duik in deze stapsgewijze zelfstudie om metagegevens te gebruiken voor het beheer van audiobestanden.
-type: docs
 weight: 22
 url: /nl/net/audio-metadata/read-info-metadata-wav/
 ---
@@ -66,7 +65,7 @@ Ja, GroupDocs.Metadata ondersteunt een breed scala aan bestandsindelingen, waaro
 ### Is er een gratis proefversie beschikbaar voor GroupDocs.Metadata?
  Ja, u kunt een gratis proefversie van GroupDocs.Metadata krijgen van[hier](https://releases.groupdocs.com/).
 ### Waar kan ik gedetailleerde documentatie voor GroupDocs.Metadata vinden?
- U heeft toegang tot de volledige documentatie[hier](https://reference.groupdocs.com/metadata/net/).
+ U heeft toegang tot de volledige documentatie[hier](https://tutorials.groupdocs.com/metadata/net/).
 ### Hoe kan ik een licentie voor GroupDocs.Metadata aanschaffen?
  U kunt een licentie voor GroupDocs.Metadata kopen bij de[aankooppagina](https://purchase.groupdocs.com/buy).
 ### Waar kan ik ondersteuning krijgen of vragen stellen over GroupDocs.Metadata?

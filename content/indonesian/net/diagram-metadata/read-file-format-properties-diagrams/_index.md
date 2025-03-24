@@ -3,7 +3,6 @@ title: Baca Properti Format File dari Diagram di .NET
 linktitle: Baca Properti Format File dari Diagram di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara membaca properti format file dari diagram di .NET menggunakan GroupDocs.Metadata. Ekstrak metadata terperinci dengan mudah.
-type: docs
 weight: 13
 url: /id/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
@@ -49,7 +48,7 @@ Ya, GroupDocs.Metadata untuk .NET mendukung ekstraksi dan modifikasi berbagai me
 ### Apakah ada versi uji coba yang tersedia untuk GroupDocs.Metadata untuk .NET?
  Ya, Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.groupdocs.com/).
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk GroupDocs.Metadata untuk .NET?
- Lihat dokumentasi[Di Sini](https://reference.groupdocs.com/metadata/net/).
+ Lihat dokumentasi[Di Sini](https://tutorials.groupdocs.com/metadata/net/).
 ### Bagaimana cara membeli lisensi GroupDocs.Metadata untuk .NET?
  Anda dapat membeli lisensi dari[Di Sini](https://purchase.groupdocs.com/buy).
 ### Di mana saya dapat mencari dukungan teknis atau mengajukan pertanyaan terkait GroupDocs.Metadata untuk .NET?

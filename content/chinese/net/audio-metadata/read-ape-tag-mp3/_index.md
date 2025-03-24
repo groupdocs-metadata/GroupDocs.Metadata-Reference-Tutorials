@@ -3,7 +3,6 @@ title: 从 .NET 中的 MP3 文件读取 APE 标签
 linktitle: 从 .NET 中的 MP3 文件读取 APE 标签
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 从 MP3 文件读取 APE 标签。通过分步指导探索 C# 中的元数据提取。
-type: docs
 weight: 10
 url: /zh/net/audio-metadata/read-ape-tag-mp3/
 ---
@@ -68,6 +67,6 @@ GroupDocs.Metadata for .NET 是一个 .NET 库，使开发人员能够读取、�
 ### GroupDocs.Metadata 除了 MP3 之外还支持其他文件格式吗？
 是的，GroupDocs.Metadata 支持多种文件格式，包括 PDF、Word、Excel、PowerPoint 等。
 ### 在哪里可以找到 .NET 的 GroupDocs.Metadata 文档？
-请参阅详细文档[这里](https://reference.groupdocs.com/metadata/net/).
+请参阅详细文档[这里](https://tutorials.groupdocs.com/metadata/net/).
 ### 如何获得 GroupDocs.Metadata 的技术支持？
 您可以在[GroupDocs.Metadata 论坛](https://forum.groupdocs.com/c/metadata/14).

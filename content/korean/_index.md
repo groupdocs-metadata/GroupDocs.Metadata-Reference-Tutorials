@@ -3,7 +3,6 @@ title: GroupDocs.Metadata로 메타데이터 숙달 잠금 해제
 linktitle: GroupDocs.메타데이터 튜토리얼
 additionalTitle: GroupDocs API 참조
 description: 다양한 플랫폼에서 GroupDocs.Metadata에 대한 포괄적인 튜토리얼을 찾아보세요. .NET 및 Java에서 손쉽게 메타데이터 관리를 마스터하세요.
-type: docs
 weight: 11
 url: /ko/
 is_root: true

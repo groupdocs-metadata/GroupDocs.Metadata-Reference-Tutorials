@@ -3,7 +3,6 @@ title: Memuat Metadata dari Format Tertentu di .NET
 linktitle: Memuat Metadata dari Format Tertentu di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara memuat metadata dari format file tertentu menggunakan GroupDocs.Metadata untuk .NET dalam tutorial komprehensif ini.
-type: docs
 weight: 12
 url: /id/net/metadata-loading/load-metadata-specific-format/
 ---
@@ -55,7 +54,7 @@ Metadata adalah data yang memberikan informasi tentang data lain, seperti penuli
 ### Mengapa pengelolaan metadata itu penting?
 Mengelola metadata sangat penting untuk mengatur dan memahami konten digital, memfasilitasi kemampuan pencarian dan interoperabilitas.
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk GroupDocs.Metadata untuk .NET?
- Anda dapat mengakses dokumentasinya[Di Sini](https://reference.groupdocs.com/metadata/net/).
+ Anda dapat mengakses dokumentasinya[Di Sini](https://tutorials.groupdocs.com/metadata/net/).
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk GroupDocs.Metadata untuk .NET?
  Mengunjungi[Link ini](https://purchase.groupdocs.com/temporary-license/) untuk mendapatkan izin sementara.
 ### Di mana saya bisa mendapatkan dukungan atau mengajukan pertanyaan tentang GroupDocs.Metadata untuk .NET?

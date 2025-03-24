@@ -3,7 +3,6 @@ title: Frissítse a diagramok beépített tulajdonságait .NET használatával
 linktitle: Frissítse a diagramok beépített tulajdonságait .NET használatával
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan frissítheti a diagramok beépített tulajdonságait a GroupDocs.Metadata for .NET használatával. A metaadatok zökkenőmentes módosítása kódpéldákkal.
-type: docs
 weight: 14
 url: /hu/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
@@ -79,7 +78,7 @@ V: Igen, a GroupDocs.Metadata for .NET támogatja a különböző metaadat-tulaj
  V: Meglátogathatja a[GroupDocs.Metadata fórum](https://forum.groupdocs.com/c/metadata/14) segítségért.
 
 ### K: Hol találom a GroupDocs.Metadata for .NET részletes dokumentációját?
- V: Lásd az átfogó[dokumentáció](https://reference.groupdocs.com/metadata/net/) mélyreható útmutatásért.
+ V: Lásd az átfogó[dokumentáció](https://tutorials.groupdocs.com/metadata/net/) mélyreható útmutatásért.
 
 ### K: Vásárolhatok ideiglenes licencet rövid távú használatra?
  V: Igen, ideiglenes engedélyt szerezhet a következőtől[itt](https://purchase.groupdocs.com/temporary-license/).

@@ -3,7 +3,6 @@ title: Metagegevens laden vanuit een specifiek formaat in .NET
 linktitle: Metagegevens laden vanuit een specifiek formaat in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer in deze uitgebreide zelfstudie hoe u metagegevens uit specifieke bestandsindelingen kunt laden met GroupDocs.Metadata voor .NET.
-type: docs
 weight: 12
 url: /nl/net/metadata-loading/load-metadata-specific-format/
 ---
@@ -55,7 +54,7 @@ Metagegevens zijn gegevens die informatie bieden over andere gegevens, zoals de 
 ### Waarom is het beheren van metadata belangrijk?
 Het beheren van metadata is van cruciaal belang voor het organiseren en begrijpen van digitale inhoud, waardoor de doorzoekbaarheid en interoperabiliteit worden vergemakkelijkt.
 ### Waar kan ik gedetailleerde documentatie vinden voor GroupDocs.Metadata voor .NET?
- U heeft toegang tot de documentatie[hier](https://reference.groupdocs.com/metadata/net/).
+ U heeft toegang tot de documentatie[hier](https://tutorials.groupdocs.com/metadata/net/).
 ### Hoe kan ik een tijdelijke licentie krijgen voor GroupDocs.Metadata voor .NET?
  Bezoek[deze link](https://purchase.groupdocs.com/temporary-license/) voor het verkrijgen van een tijdelijke vergunning.
 ### Waar kan ik ondersteuning krijgen of vragen stellen over GroupDocs.Metadata voor .NET?

@@ -3,7 +3,6 @@ title: .NET의 ZIP 아카이브에서 기본 메타데이터 속성 읽기
 linktitle: .NET의 ZIP 아카이브에서 기본 메타데이터 속성 읽기
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 ZIP 아카이브에서 메타데이터를 추출하는 방법을 알아보세요. 기본 속성을 읽는 단계별 지침을 살펴보세요.
-type: docs
 weight: 13
 url: /ko/net/archive-metadata/read-native-metadata-zip-archives/
 ---
@@ -67,7 +66,7 @@ foreach (var file in root.ZipPackage.Files)
 ### GroupDocs.Metadata에 대한 임시 라이센스를 얻으려면 어떻게 해야 합니까?
  임시면허를 취득하실 수 있습니다.[여기](https://purchase.groupdocs.com/temporary-license/).
 ### .NET용 GroupDocs.Metadata에 대한 전체 설명서는 어디에서 찾을 수 있나요?
- 문서에 액세스할 수 있습니다.[여기](https://reference.groupdocs.com/metadata/net/).
+ 문서에 액세스할 수 있습니다.[여기](https://tutorials.groupdocs.com/metadata/net/).
 ### .NET용 GroupDocs.Metadata를 무료로 사용해 볼 수 있나요?
  예, 무료 평가판을 다운로드할 수 있습니다[여기](https://releases.groupdocs.com/).
 ### .NET용 GroupDocs.Metadata에 대한 지원을 받거나 질문하려면 어떻게 해야 합니까?

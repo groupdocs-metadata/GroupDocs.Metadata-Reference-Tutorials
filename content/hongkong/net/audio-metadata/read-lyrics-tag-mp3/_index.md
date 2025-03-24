@@ -3,7 +3,6 @@ title: 從 .NET 中的 MP3 檔案讀取歌詞標籤
 linktitle: 從 .NET 中的 MP3 檔案讀取歌詞標籤
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 從 MP3 檔案中擷取歌詞標籤。請按照我們的逐步教學進行操作。
-type: docs
 weight: 13
 url: /zh-hant/net/audio-metadata/read-lyrics-tag-mp3/
 ---
@@ -62,7 +61,7 @@ using (Metadata metadata = new Metadata("YourInputFile.mp3"))
 ### GroupDocs.Metadata 是否支援除 MP3 之外的其他音訊格式？
 是的，GroupDocs.Metadata 支援多種音訊和視訊格式以進行元資料提取和操作。
 ### 在哪裡可以找到有關 GroupDocs.Metadata 的更詳細文件？
-您可以存取完整的文檔[這裡](https://reference.groupdocs.com/metadata/net/).
+您可以存取完整的文檔[這裡](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata 是否有免費試用版？
 是的，您可以獲得免費試用版[這裡](https://releases.groupdocs.com/).
 ### 如何獲得 GroupDocs.Metadata 的技術支援？

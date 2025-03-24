@@ -3,7 +3,6 @@ title: Leggere le proprietà integrate nei documenti di gestione dei progetti .N
 linktitle: Leggere le proprietà integrate nei documenti di gestione dei progetti .NET
 second_title: API GroupDocs.Metadata .NET
 description: Impara a estrarre metadati dai documenti di Project Management utilizzando GroupDocs.Metadata per .NET. Migliora le tue capacità di elaborazione dei documenti.
-type: docs
 weight: 10
 url: /it/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---

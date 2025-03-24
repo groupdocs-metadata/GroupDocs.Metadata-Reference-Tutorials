@@ -3,7 +3,6 @@ title: .NET의 다이어그램에서 문서 통계 읽기
 linktitle: .NET의 다이어그램에서 문서 통계 읽기
 second_title: GroupDocs.메타데이터 .NET API
 description: 강력한 메타데이터 조작 라이브러리인 GroupDocs.Metadata를 사용하여 .NET의 다이어그램에서 문서 통계를 추출하는 방법을 알아보세요.
-type: docs
 weight: 12
 url: /ko/net/diagram-metadata/read-document-statistics-diagrams/
 ---
@@ -53,7 +52,7 @@ Console.WriteLine(root.DocumentStatistics.PageCount);
 ### 다이어그램 외에 다른 파일 형식과 함께 .NET용 GroupDocs.Metadata를 사용할 수 있습니까?
 예, GroupDocs.Metadata는 이미지, 문서, 프리젠테이션, 스프레드시트 등을 포함한 다양한 파일 형식을 지원합니다.
 ### .NET용 GroupDocs.Metadata에 대한 자세한 설명서는 어디서 찾을 수 있나요?
- 당신은[선적 서류 비치](https://reference.groupdocs.com/metadata/net/) 종합적인 안내를 위해.
+ 당신은[선적 서류 비치](https://tutorials.groupdocs.com/metadata/net/) 종합적인 안내를 위해.
 ### .NET용 GroupDocs.Metadata에 대한 무료 평가판이 있습니까?
  예, 액세스할 수 있습니다[무료 시험판](https://releases.groupdocs.com/) GroupDocs.Metadata의 기능을 탐색합니다.
 ### .NET용 GroupDocs.Metadata에 대한 기술 지원을 받으려면 어떻게 해야 합니까?

@@ -3,7 +3,6 @@ title: Ενημερώστε τις προσαρμοσμένες ιδιότητε
 linktitle: Ενημερώστε τις προσαρμοσμένες ιδιότητες σε διαγράμματα χρησιμοποιώντας .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να ενημερώνετε προσαρμοσμένες ιδιότητες σε διαγράμματα χρησιμοποιώντας .NET με GroupDocs.Metadata για .NET. Βελτιώστε τα μεταδεδομένα με ευκολία.
-type: docs
 weight: 15
 url: /el/net/diagram-metadata/update-custom-properties-diagrams/
 ---

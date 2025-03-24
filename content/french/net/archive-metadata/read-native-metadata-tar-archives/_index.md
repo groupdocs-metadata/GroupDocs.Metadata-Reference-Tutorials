@@ -3,7 +3,6 @@ title: Lire les propriétés de métadonnées natives des archives TAR dans .NET
 linktitle: Lire les propriétés de métadonnées natives des archives TAR dans .NET
 second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment extraire des métadonnées des archives TAR dans .NET à l'aide de GroupDocs.Metadata. Ce didacticiel vous guide pas à pas tout au long du processus.
-type: docs
 weight: 12
 url: /fr/net/archive-metadata/read-native-metadata-tar-archives/
 ---

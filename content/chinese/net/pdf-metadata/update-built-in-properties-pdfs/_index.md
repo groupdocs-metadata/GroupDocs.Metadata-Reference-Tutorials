@@ -3,7 +3,6 @@ title: 使用 .NET 更新 PDF 中的内置属性
 linktitle: 使用 .NET 更新 PDF 中的内置属性
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 C# 和 GroupDocs.Metadata for .NET 更新 PDF 文档属性。以编程方式修改作者、标题、关键字等。
-type: docs
 weight: 15
 url: /zh/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
@@ -72,7 +71,7 @@ using (Metadata metadata = new Metadata("Your Output File Path"))
 ### 问：.NET 的 GroupDocs.Metadata 是什么？
 答：GroupDocs.Metadata for .NET 是一个库，允许开发人员以编程方式读取、编辑、删除和操作各种文档格式的元数据。
 ### 问：在哪里可以找到 .NET 的 GroupDocs.Metadata 文档？
-答：您可以访问文档[这里](https://reference.groupdocs.com/metadata/net/).
+答：您可以访问文档[这里](https://tutorials.groupdocs.com/metadata/net/).
 ### 问：如何下载适用于 .NET 的 GroupDocs.Metadata？
 答：您可以从以下网址下载 GroupDocs.Metadata for .NET[此链接](https://releases.groupdocs.com/metadata/net/).
 ### 问：有免费试用吗？

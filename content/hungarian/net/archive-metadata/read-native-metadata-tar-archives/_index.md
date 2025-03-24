@@ -3,7 +3,6 @@ title: Olvassa el a natív metaadatok tulajdonságait a TAR Archivesból a .NET-
 linktitle: Olvassa el a natív metaadatok tulajdonságait a TAR Archivesból a .NET-ben
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan lehet metaadatokat kinyerni a .NET TAR archívumából a GroupDocs.Metadata használatával. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton.
-type: docs
 weight: 12
 url: /hu/net/archive-metadata/read-native-metadata-tar-archives/
 ---

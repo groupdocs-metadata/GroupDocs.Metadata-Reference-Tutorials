@@ -4,7 +4,6 @@ linktitle: Siêu dữ liệu bảng tính
 second_title: API GroupDocs.Metadata .NET
 description: Khai phá sức mạnh của GroupDocs.Metadata dành cho .NET bằng các hướng dẫn về cách đọc và cập nhật thuộc tính bảng tính. Nâng cao thao tác siêu dữ liệu trong các ứng dụng .NET của bạn.
 
-type: docs
 weight: 27
 url: /vi/net/spreadsheet-metadata/
 ---

@@ -3,7 +3,6 @@ title: Διαβάστε τα μεταδεδομένα ήχου MPEG από αρ�
 linktitle: Διαβάστε τα μεταδεδομένα ήχου MPEG από αρχεία MP3 στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε μεταδεδομένα ήχου MPEG από αρχεία MP3 στο .NET χρησιμοποιώντας το GroupDocs.Metadata. Βελτιώστε τις δυνατότητες ανάλυσης αρχείων σας.
-type: docs
 weight: 14
 url: /el/net/audio-metadata/read-mpeg-audio-metadata-mp3/
 ---

@@ -3,7 +3,6 @@ title: Chargement de métadonnées à partir d'un format spécifique dans .NET
 linktitle: Chargement de métadonnées à partir d'un format spécifique dans .NET
 second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment charger des métadonnées à partir de formats de fichiers spécifiques à l'aide de GroupDocs.Metadata pour .NET dans ce didacticiel complet.
-type: docs
 weight: 12
 url: /fr/net/metadata-loading/load-metadata-specific-format/
 ---
@@ -55,7 +54,7 @@ Les métadonnées sont des données qui fournissent des informations sur d'autre
 ### Pourquoi la gestion des métadonnées est-elle importante ?
 La gestion des métadonnées est cruciale pour organiser et comprendre le contenu numérique, facilitant ainsi la recherche et l’interopérabilité.
 ### Où puis-je trouver une documentation détaillée pour GroupDocs.Metadata pour .NET ?
- Vous pouvez accéder à la documentation[ici](https://reference.groupdocs.com/metadata/net/).
+ Vous pouvez accéder à la documentation[ici](https://tutorials.groupdocs.com/metadata/net/).
 ### Comment puis-je obtenir une licence temporaire pour GroupDocs.Metadata pour .NET ?
  Visite[ce lien](https://purchase.groupdocs.com/temporary-license/) pour l'obtention d'un permis temporaire.
 ### Où puis-je obtenir de l’aide ou poser des questions sur GroupDocs.Metadata pour .NET ?

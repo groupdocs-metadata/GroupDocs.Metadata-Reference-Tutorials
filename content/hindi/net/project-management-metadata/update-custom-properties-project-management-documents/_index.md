@@ -3,7 +3,6 @@ title: .NET प्रोजेक्ट प्रबंधन दस्ताव
 linktitle: .NET प्रोजेक्ट प्रबंधन दस्तावेज़ों में कस्टम गुण अद्यतन करें
 second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके .NET प्रोजेक्ट प्रबंधन दस्तावेज़ों में कस्टम गुणों को अपडेट करने का तरीका जानें। अपने अनुप्रयोगों में मेटाडेटा प्रबंधन बढ़ाएँ।
-type: docs
 weight: 13
 url: /hi/net/project-management-metadata/update-custom-properties-project-management-documents/
 ---

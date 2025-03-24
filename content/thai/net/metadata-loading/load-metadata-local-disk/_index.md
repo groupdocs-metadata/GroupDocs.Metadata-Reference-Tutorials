@@ -3,7 +3,6 @@ title: วิธีโหลดข้อมูลเมตาจาก Local Dis
 linktitle: วิธีโหลดข้อมูลเมตาจาก Local Disk ใน .NET
 second_title: GroupDocs.Metadata .NET API
 description: จัดการข้อมูลเมตาของไฟล์ในแอปพลิเคชัน .NET ได้อย่างง่ายดายด้วย GroupDocs.Metadata เพื่อความสามารถในการจัดการไฟล์ที่ได้รับการปรับปรุง
-type: docs
 weight: 10
 url: /th/net/metadata-loading/load-metadata-local-disk/
 ---
@@ -62,7 +61,7 @@ using (Metadata metadata = new Metadata("Your Input File Path"))
 ### ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ GroupDocs.Metadata ได้อย่างไร
  ตอบ: คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[หน้าการซื้อ GroupDocs](https://purchase.groupdocs.com/temporary-license/).
 ### ถาม: ฉันจะหาเอกสารที่ครอบคลุมสำหรับ GroupDocs.Metadata ได้ที่ไหน
- ตอบ: สำรวจเอกสารโดยละเอียดได้ที่[GroupDocs.Metadata สำหรับเอกสาร .NET](https://reference.groupdocs.com/metadata/net/).
+ ตอบ: สำรวจเอกสารโดยละเอียดได้ที่[GroupDocs.Metadata สำหรับเอกสาร .NET](https://tutorials.groupdocs.com/metadata/net/).
 ### ถาม: GroupDocs.Metadata รองรับเวอร์ชันทดลองใช้ฟรีหรือไม่
  ตอบ: ได้ คุณสามารถเข้าถึง GroupDocs.Metadata รุ่นทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.groupdocs.com/).
 ### ถาม: ฉันจะรับการสนับสนุนหรือถามคำถามที่เกี่ยวข้องกับ GroupDocs.Metadata ได้ที่ไหน

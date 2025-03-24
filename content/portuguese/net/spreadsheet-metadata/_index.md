@@ -4,7 +4,6 @@ linktitle: Metadados da planilha
 second_title: API GroupDocs.Metadata .NET
 description: Desbloqueie o poder do GroupDocs.Metadata for .NET com tutoriais sobre leitura e atualização de propriedades de planilhas. Eleve a manipulação de metadados em seus aplicativos .NET.
 
-type: docs
 weight: 27
 url: /pt/net/spreadsheet-metadata/
 ---

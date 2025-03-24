@@ -3,7 +3,6 @@ title: 元資料載入
 linktitle: 元資料載入
 second_title: GroupDocs.元資料 .NET API
 description: 使用 GroupDocs.Metadata 輕鬆管理 .NET 中的文件元資料。學習載入技術、編輯等，以增強檔案操作功能。
-type: docs
 weight: 20
 url: /zh-hant/net/metadata-loading/
 ---

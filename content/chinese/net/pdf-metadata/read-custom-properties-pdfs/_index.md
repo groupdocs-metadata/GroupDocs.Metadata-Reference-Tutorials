@@ -3,7 +3,6 @@ title: 在 .NET 中从 PDF 读取自定义属性
 linktitle: 在 .NET 中从 PDF 读取自定义属性
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 从 PDF 中提取自定义属性。使用 C# 深入研究文档元数据管理。
-type: docs
 weight: 11
 url: /zh/net/pdf-metadata/read-custom-properties-pdfs/
 ---
@@ -54,7 +53,7 @@ foreach (var property in customProperties)
 ### GroupDocs.Metadata 除了 PDF 之外还支持其他文件格式吗？
 是的，GroupDocs.Metadata 支持多种文件格式，包括 Word 文档、Excel 电子表格、PowerPoint 演示文稿、图像等。
 ### 在哪里可以找到有关 GroupDocs.Metadata 的更多文档和支持？
-请参阅[文档](https://reference.groupdocs.com/metadata/net/)了解全面信息。如需更多支持，请访问[GroupDocs.Metadata 论坛](https://forum.groupdocs.com/c/metadata/14).
+请参阅[文档](https://tutorials.groupdocs.com/metadata/net/)了解全面信息。如需更多支持，请访问[GroupDocs.Metadata 论坛](https://forum.groupdocs.com/c/metadata/14).
 ### GroupDocs.Metadata 是否有免费试用版？
 是的，你可以得到一个[免费试用](https://releases.groupdocs.com/)探索 GroupDocs.Metadata 的功能。
 ### 如何购买 GroupDocs.Metadata 的许可证？

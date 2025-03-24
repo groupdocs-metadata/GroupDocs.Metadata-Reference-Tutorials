@@ -3,7 +3,6 @@ title: إزالة تعليق الأرشيف من ملفات ZIP في .NET
 linktitle: إزالة تعليق الأرشيف من ملفات ZIP في .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية إزالة تعليقات أرشيف ZIP باستخدام GroupDocs.Metadata لـ .NET. تعزيز مهارات إدارة البيانات الوصفية الخاصة بك.
-type: docs
 weight: 14
 url: /ar/net/archive-metadata/remove-archive-comment-zip-files/
 ---

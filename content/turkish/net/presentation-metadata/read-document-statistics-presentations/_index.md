@@ -3,7 +3,6 @@ title: .NET'teki Sunumlardan Belge İstatistiklerini Okuyun
 linktitle: .NET'teki Sunumlardan Belge İstatistiklerini Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: Verimli meta veri yönetimi için GroupDocs.Metadata'yı kullanarak .NET'teki sunumlardan belge istatistiklerini nasıl okuyacağınızı öğrenin.
-type: docs
 weight: 12
 url: /tr/net/presentation-metadata/read-document-statistics-presentations/
 ---

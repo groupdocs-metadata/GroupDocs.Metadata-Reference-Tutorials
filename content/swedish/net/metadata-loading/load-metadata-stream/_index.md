@@ -3,7 +3,6 @@ title: Laddar metadata från Stream i .NET Tutorial
 linktitle: Laddar metadata från Stream i .NET Tutorial
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hantera filmetadata i .NET med GroupDocs.Metadata. Steg-för-steg-guide för att ladda, redigera och ta bort metadata från strömmar.
-type: docs
 weight: 11
 url: /sv/net/metadata-loading/load-metadata-stream/
 ---
@@ -63,7 +62,7 @@ I den här handledningen har vi täckt grunderna för att ladda metadata från e
 ### F: Hur kan jag få en tillfällig licens för GroupDocs.Metadata?
  S: Du kan skaffa en tillfällig licens från[här](https://purchase.groupdocs.com/temporary-license/).
 ### F: Var kan jag hitta omfattande dokumentation för GroupDocs.Metadata?
- S: Utforska detaljerad dokumentation[här](https://reference.groupdocs.com/metadata/net/).
+ S: Utforska detaljerad dokumentation[här](https://tutorials.groupdocs.com/metadata/net/).
 ### F: Finns det en gratis testversion tillgänglig för GroupDocs.Metadata?
  S: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.groupdocs.com/).
 ### F: Hur kan jag få support för GroupDocs.Metadata?

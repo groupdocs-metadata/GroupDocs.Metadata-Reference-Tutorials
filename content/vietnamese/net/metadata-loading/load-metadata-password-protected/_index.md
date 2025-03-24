@@ -3,7 +3,6 @@ title: Cách tải siêu dữ liệu từ tài liệu được bảo vệ bằng
 linktitle: Cách tải siêu dữ liệu từ tài liệu được bảo vệ bằng mật khẩu trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách quản lý siêu dữ liệu tài liệu một cách hiệu quả với GroupDocs.Metadata cho .NET. Trích xuất, chỉnh sửa và xử lý siêu dữ liệu một cách liền mạch trong các ứng dụng .NET của bạn.
-type: docs
 weight: 13
 url: /vi/net/metadata-loading/load-metadata-password-protected/
 ---
@@ -60,6 +59,6 @@ Tuyệt đối! Bạn có thể trích xuất, cập nhật hoặc xóa các thu
 ### Làm cách nào để xử lý các trường hợp ngoại lệ liên quan đến việc tải tài liệu?
 Đảm bảo xử lý lỗi thích hợp xung quanh các hoạt động tải tài liệu để nắm bắt và quản lý các trường hợp ngoại lệ tiềm ẩn.
 ### Tôi có thể tìm tài liệu chi tiết về GroupDocs.Metadata cho .NET ở đâu?
- Tham quan[tài liệu](https://reference.groupdocs.com/metadata/net/) để có hướng dẫn toàn diện và tài liệu tham khảo API.
+ Tham quan[tài liệu](https://tutorials.groupdocs.com/metadata/net/) để có hướng dẫn toàn diện và tài liệu tham khảo API.
 ### Có bản dùng thử miễn phí GroupDocs.Metadata cho .NET không?
  Có, bạn có thể khám phá thư viện bằng một[dùng thử miễn phí](https://releases.groupdocs.com/).

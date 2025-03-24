@@ -3,7 +3,6 @@ title: Číst statistiky dokumentů z PDF v .NET
 linktitle: Číst statistiky dokumentů z PDF v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat statistiky dokumentů PDF pomocí GroupDocs.Metadata pro .NET. Vylepšete své možnosti správy dokumentů bez námahy.
-type: docs
 weight: 12
 url: /cs/net/pdf-metadata/read-document-statistics-pdfs/
 ---
@@ -52,7 +51,7 @@ V tomto tutoriálu jsme prozkoumali, jak využít GroupDocs.Metadata pro .NET ke
 ### Dokáže GroupDocs.Metadata zpracovat jiné formáty dokumentů kromě PDF?
 Ano, GroupDocs.Metadata podporuje širokou škálu formátů dokumentů včetně Microsoft Office (Word, Excel, PowerPoint), PDF, obrázků, zvuku, videa a mnoha dalších.
 ### Kde najdu podrobnou dokumentaci k GroupDocs.Metadata pro .NET?
- Můžete odkazovat na[dokumentace](https://reference.groupdocs.com/metadata/net/) pro komplexní průvodce, odkazy na rozhraní API a příklady kódu.
+ Můžete odkazovat na[dokumentace](https://tutorials.groupdocs.com/metadata/net/) pro komplexní průvodce, odkazy na rozhraní API a příklady kódu.
 ### Jsou GroupDocs.Metadata vhodná pro komerční použití?
  Rozhodně, GroupDocs.Metadata nabízí komerční licence a můžete si je zakoupit[tady](https://purchase.groupdocs.com/buy).
 ### Mohu GroupDocs.Metadata před nákupem vyzkoušet?

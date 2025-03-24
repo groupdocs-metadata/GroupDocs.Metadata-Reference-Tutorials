@@ -3,7 +3,6 @@ title: Leggi le proprietà di ispezione dai PDF in .NET
 linktitle: Leggi le proprietà di ispezione dai PDF in .NET
 second_title: API GroupDocs.Metadata .NET
 description: Scopri come estrarre le proprietà di ispezione dai documenti PDF utilizzando GroupDocs.Metadata per .NET. Esplora annotazioni, allegati e altro ancora.
-type: docs
 weight: 14
 url: /it/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
@@ -100,7 +99,7 @@ In questo tutorial, abbiamo esplorato come leggere le proprietà di ispezione da
 ### Posso utilizzare GroupDocs.Metadata con altri formati di file oltre al PDF?
 Sì, GroupDocs.Metadata supporta un'ampia gamma di formati di documenti, inclusi documenti di Microsoft Office, immagini, file audio e altro ancora.
 ### Dove posso trovare la documentazione dettagliata per GroupDocs.Metadata per .NET?
- Fare riferimento al[documentazione](https://reference.groupdocs.com/metadata/net/) per indicazioni complete e riferimenti API.
+ Fare riferimento al[documentazione](https://tutorials.groupdocs.com/metadata/net/) per indicazioni complete e riferimenti API.
 ### È disponibile una versione di prova per GroupDocs.Metadata?
  Sì, puoi ottenere una prova gratuita da[Pagina delle versioni di GroupDocs](https://releases.groupdocs.com/).
 ### Come posso ottenere supporto per eventuali problemi o domande relative a GroupDocs.Metadata?

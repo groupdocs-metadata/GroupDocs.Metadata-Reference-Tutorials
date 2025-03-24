@@ -1,7 +1,6 @@
 ---
 title: บทช่วยสอนและตัวอย่าง GroupDocs.Metadata สำหรับ .NET
 linktitle: GroupDocs.Metadata สำหรับ .NET บทช่วยสอน
-type: docs
 weight: 10
 url: /th/net/
 description: จัดการข้อมูลเมตาของไฟล์ใน .NET ได้อย่างง่ายดายด้วย GroupDocs.Metadata เรียนรู้เทคนิคการโหลด การแก้ไข และอื่นๆ เพื่อเพิ่มความสามารถในการจัดการไฟล์

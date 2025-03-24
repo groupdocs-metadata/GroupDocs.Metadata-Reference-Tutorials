@@ -3,7 +3,6 @@ title: Lees aangepaste eigenschappen in .NET Project Management-documenten
 linktitle: Lees aangepaste eigenschappen in .NET Project Management-documenten
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u aangepaste eigenschappen uit .NET-projectbeheerdocumenten kunt extraheren met behulp van GroupDocs.Metadata voor .NET. Verbeter uw metadatabeheer.
-type: docs
 weight: 11
 url: /nl/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
@@ -58,7 +57,7 @@ GroupDocs.Metadata ondersteunt een breed scala aan projectbeheerformaten, waaron
 ### Is er een licentie vereist om GroupDocs.Metadata voor .NET te gebruiken?
  Ja, voor commercieel gebruik is een licentie vereist. Een tijdelijke licentie kunt u verkrijgen bij[hier](https://purchase.groupdocs.com/temporary-license/).
 ### Hoe krijg ik toegang tot verdere documentatie voor GroupDocs.Metadata?
- Bekijk gedetailleerde documentatie op de[referentiepagina](https://reference.groupdocs.com/metadata/net/).
+ Bekijk gedetailleerde documentatie op de[referentiepagina](https://tutorials.groupdocs.com/metadata/net/).
 ### Waar kan ik ondersteuning krijgen voor aan GroupDocs.Metadata gerelateerde vragen?
  Sluit je aan bij de community op de[GroupDocs Metadata-forum](https://forum.groupdocs.com/c/metadata/14) voor ondersteuning en discussies.
 ### Kan ik GroupDocs.Metadata gratis uitproberen voordat ik een aankoop doe?

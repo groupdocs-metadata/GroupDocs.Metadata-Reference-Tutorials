@@ -3,7 +3,6 @@ title: Xóa thẻ APE khỏi tệp MP3 trong .NET
 linktitle: Xóa thẻ APE khỏi tệp MP3 trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách xóa thẻ APE khỏi tệp MP3 bằng GroupDocs.Metadata cho .NET. Dễ dàng quản lý siêu dữ liệu trong các ứng dụng .NET của bạn.
-type: docs
 weight: 15
 url: /vi/net/audio-metadata/remove-ape-tag-mp3/
 ---
@@ -13,7 +12,7 @@ Trong lĩnh vực phát triển .NET, việc quản lý siêu dữ liệu trong 
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
 - Kiến thức cơ bản về C# và .NET framework.
 - Visual Studio được cài đặt trên máy của bạn.
--  GroupDocs.Metadata cho thư viện .NET đã được cài đặt (tham khảo[tài liệu](https://reference.groupdocs.com/metadata/net/) để biết các bước cài đặt).
+-  GroupDocs.Metadata cho thư viện .NET đã được cài đặt (tham khảo[tài liệu](https://tutorials.groupdocs.com/metadata/net/) để biết các bước cài đặt).
 
 ## Nhập không gian tên
 Trước tiên, hãy đảm bảo nhập các không gian tên cần thiết vào dự án C# của bạn:

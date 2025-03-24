@@ -3,7 +3,6 @@ title: Atualizar propriedades de inspeção em planilhas usando .NET
 linktitle: Atualizar propriedades de inspeção em planilhas usando .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda como atualizar propriedades de inspeção em planilhas usando GroupDocs.Metadata for .NET. Gerencie comentários, assinaturas e planilhas ocultas com facilidade.
-type: docs
 weight: 16
 url: /pt/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ Sim, GroupDocs.Metadata oferece suporte a vários formatos de planilha, incluind
 ### Posso modificar outras propriedades de metadados usando GroupDocs.Metadata?
 Com certeza, GroupDocs.Metadata permite ler, atualizar, remover e adicionar propriedades de metadados, como autor, título, data de criação, etc.
 ### Onde posso encontrar documentação detalhada para GroupDocs.Metadata for .NET?
- Você pode consultar o abrangente[documentação](https://reference.groupdocs.com/metadata/net/) Disponível.
+ Você pode consultar o abrangente[documentação](https://tutorials.groupdocs.com/metadata/net/) Disponível.
 ### Existe uma avaliação gratuita disponível para GroupDocs.Metadata for .NET?
  Sim, você pode acessar um[teste grátis](https://releases.groupdocs.com/) para avaliar a API.
 ### Como posso obter suporte técnico para GroupDocs.Metadata for .NET?

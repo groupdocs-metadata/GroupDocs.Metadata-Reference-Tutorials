@@ -3,7 +3,6 @@ title: Đọc thuộc tính kiểm tra từ bản trình bày trong .NET
 linktitle: Đọc thuộc tính kiểm tra từ bản trình bày trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất siêu dữ liệu bản trình bày bằng GroupDocs.Metadata cho .NET. Truy cập nhận xét, trang trình bày ẩn và nhiều tính năng khác theo chương trình.
-type: docs
 weight: 14
 url: /vi/net/presentation-metadata/read-inspection-properties-presentations/
 ---
@@ -64,7 +63,7 @@ Trả lời: GroupDocs.Metadata cho .NET là một API cho phép các nhà phát
 ### Câu hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho GroupDocs.Metadata?
  Đáp: Bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.groupdocs.com/temporary-license/).
 ### Câu hỏi: Tôi có thể tìm tài liệu về GroupDocs.Metadata cho .NET ở đâu?
- Đáp: Bạn có thể tham khảo tài liệu[đây](https://reference.groupdocs.com/metadata/net/).
+ Đáp: Bạn có thể tham khảo tài liệu[đây](https://tutorials.groupdocs.com/metadata/net/).
 ### Câu hỏi: Làm cách nào để tôi nhận được hỗ trợ cho GroupDocs.Metadata?
  Đáp: Để được hỗ trợ và thảo luận, hãy truy cập diễn đàn GroupDocs.Metadata[đây](https://forum.groupdocs.com/c/metadata/14).
 ### Câu hỏi: Tôi có thể tải xuống bản dùng thử miễn phí GroupDocs.Metadata cho .NET không?

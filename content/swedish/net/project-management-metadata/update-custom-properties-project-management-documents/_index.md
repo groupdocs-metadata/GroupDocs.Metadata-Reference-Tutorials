@@ -3,7 +3,6 @@ title: Uppdatera anpassade egenskaper i .NET Project Management Documents
 linktitle: Uppdatera anpassade egenskaper i .NET Project Management Documents
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du uppdaterar anpassade egenskaper i .NET-projekthanteringsdokument med GroupDocs.Metadata för .NET. Förbättra metadatahanteringen i dina applikationer.
-type: docs
 weight: 13
 url: /sv/net/project-management-metadata/update-custom-properties-project-management-documents/
 ---

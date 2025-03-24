@@ -3,7 +3,6 @@ title: Διαβάστε τις ιδιότητες εγγενών μεταδεδ�
 linktitle: Διαβάστε τις ιδιότητες εγγενών μεταδεδομένων από τα αρχεία 7Zip στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να διαβάζετε τις εγγενείς ιδιότητες μεταδεδομένων από τα αρχεία 7Zip χρησιμοποιώντας το GroupDocs.Metadata για .NET. Βελτιώστε τις δυνατότητες διαχείρισης δεδομένων της εφαρμογής σας .NET.
-type: docs
 weight: 11
 url: /el/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
@@ -64,7 +63,7 @@ foreach (var file in root.SevenZipPackage.Files)
 ### Είναι το GroupDocs.Metadata συμβατό με άλλες μορφές αρχειοθέτησης όπως το RAR ή το TAR;
 Ναι, το GroupDocs.Metadata υποστηρίζει ένα ευρύ φάσμα μορφών αρχειοθέτησης, συμπεριλαμβανομένων των RAR, TAR και ZIP, μεταξύ άλλων.
 ### Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το GroupDocs.Metadata για .NET;
- Μπορείτε να αποκτήσετε πρόσβαση στην τεκμηρίωση[εδώ](https://reference.groupdocs.com/metadata/net/).
+ Μπορείτε να αποκτήσετε πρόσβαση στην τεκμηρίωση[εδώ](https://tutorials.groupdocs.com/metadata/net/).
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το GroupDocs.Metadata;
  Μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.groupdocs.com/temporary-license/).
 ### Το GroupDocs.Metadata προσφέρει υποστήριξη για την αντιμετώπιση προβλημάτων και τα ερωτήματα;

@@ -3,7 +3,6 @@ title: Update ingebouwde eigenschappen in Spreadsheets met .NET
 linktitle: Update ingebouwde eigenschappen in Spreadsheets met .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u ingebouwde metagegevenseigenschappen in Excel-bestanden kunt bijwerken met GroupDocs.Metadata voor .NET. Wijzig auteur, aanmaaktijd, bedrijf en meer met C#.
-type: docs
 weight: 14
 url: /nl/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
 ---

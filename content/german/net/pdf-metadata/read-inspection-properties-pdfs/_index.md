@@ -3,7 +3,6 @@ title: Lesen Sie Inspektionseigenschaften aus PDFs in .NET
 linktitle: Lesen Sie Inspektionseigenschaften aus PDFs in .NET
 second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET Prüfeigenschaften aus PDF-Dokumenten extrahieren. Entdecken Sie Anmerkungen, Anhänge und mehr.
-type: docs
 weight: 14
 url: /de/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
@@ -100,7 +99,7 @@ In diesem Tutorial haben wir untersucht, wie man mit GroupDocs.Metadata für .NE
 ### Kann ich GroupDocs.Metadata mit anderen Dateiformaten außer PDF verwenden?
 Ja, GroupDocs.Metadata unterstützt eine breite Palette von Dokumentformaten, darunter Microsoft Office-Dokumente, Bilder, Audiodateien und mehr.
 ### Wo finde ich ausführliche Dokumentation für GroupDocs.Metadata für .NET?
- Siehe die[Dokumentation](https://reference.groupdocs.com/metadata/net/) für umfassende Anleitungen und API-Referenzen.
+ Siehe die[Dokumentation](https://tutorials.groupdocs.com/metadata/net/) für umfassende Anleitungen und API-Referenzen.
 ### Gibt es eine Testversion für GroupDocs.Metadata?
  Ja, Sie können eine kostenlose Testversion erhalten von der[GroupDocs-Veröffentlichungsseite](https://releases.groupdocs.com/).
 ### Wie kann ich Unterstützung bei Problemen oder Fragen im Zusammenhang mit GroupDocs.Metadata erhalten?

@@ -3,7 +3,6 @@ title: 如何從 .NET 受密碼保護的文檔載入元數據
 linktitle: 如何從 .NET 受密碼保護的文檔載入元數據
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 高效管理文件元資料。在 .NET 應用程式中無縫提取、編輯和處理元資料。
-type: docs
 weight: 13
 url: /zh-hant/net/metadata-loading/load-metadata-password-protected/
 ---
@@ -60,6 +59,6 @@ Console.WriteLine("Title: " + documentMetadata.Title);
 ### 如何處理與文件載入相關的異常？
 確保圍繞文檔載入操作進行正確的錯誤處理，以捕獲和管理潛在的異常。
 ### 在哪裡可以找到 GroupDocs.Metadata for .NET 的詳細文件？
-參觀[文件](https://reference.groupdocs.com/metadata/net/)取得全面的指南和 API 參考。
+參觀[文件](https://tutorials.groupdocs.com/metadata/net/)取得全面的指南和 API 參考。
 ### GroupDocs.Metadata for .NET 是否有免費試用版？
 是的，您可以透過[免費試用](https://releases.groupdocs.com/).

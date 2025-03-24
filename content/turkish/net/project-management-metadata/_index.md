@@ -3,7 +3,6 @@ title: Proje Yönetimi Meta Verileri
 linktitle: Proje Yönetimi Meta Verileri
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET eğitimleriyle .NET proje yönetimi belgelerinin potansiyelini ortaya çıkarın. Meta verileri zahmetsizce çıkarın, güncelleyin ve yönetin.
-type: docs
 weight: 26
 url: /tr/net/project-management-metadata/
 ---

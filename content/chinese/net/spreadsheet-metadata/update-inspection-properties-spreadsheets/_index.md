@@ -3,7 +3,6 @@ title: 使用 .NET 更新电子表格中的检查属性
 linktitle: 使用 .NET 更新电子表格中的检查属性
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 更新电子表格中的检查属性。轻松管理评论、签名和隐藏工作表。
-type: docs
 weight: 16
 url: /zh/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ metadata.Save("YourOutputFile.xlsx");
 ### 我可以使用 GroupDocs.Metadata 修改其他元数据属性吗？
 当然，GroupDocs.Metadata 允许您读取、更新、删除和添加元数据属性，例如作者、标题、创建日期等。
 ### 在哪里可以找到有关 .NET 的 GroupDocs.Metadata 的详细文档？
-您可以参考综合[文档](https://reference.groupdocs.com/metadata/net/)可以在线获取。
+您可以参考综合[文档](https://tutorials.groupdocs.com/metadata/net/)可以在线获取。
 ### GroupDocs.Metadata for .NET 有免费试用版吗？
 是的，您可以访问[免费试用](https://releases.groupdocs.com/)评估 API。
 ### 如何获得 GroupDocs.Metadata for .NET 的技术支持？

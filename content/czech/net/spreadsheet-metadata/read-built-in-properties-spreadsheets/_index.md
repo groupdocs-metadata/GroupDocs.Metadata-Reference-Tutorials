@@ -3,7 +3,6 @@ title: Přečtěte si vestavěné vlastnosti z tabulek v .NET
 linktitle: Přečtěte si vestavěné vlastnosti z tabulek v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se, jak extrahovat metadata z tabulek v .NET pomocí GroupDocs.Metadata, čímž se zlepší správa a organizace dokumentů ve vašich aplikacích.
-type: docs
 weight: 10
 url: /cs/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Ano, GroupDocs.Metadata podporuje širokou škálu formátů souborů včetně t
 ### Mohu upravit metadata pomocí GroupDocs.Metadata pro .NET?
 Ano, pomocí tohoto rozhraní API můžete metadata nejen číst, ale také upravovat, aktualizovat a odstraňovat.
 ### Kde najdu podrobnou dokumentaci k GroupDocs.Metadata pro .NET?
- Podrobná dokumentace je k dispozici na[GroupDocs.Metadata pro dokumentaci .NET](https://reference.groupdocs.com/metadata/net/).
+ Podrobná dokumentace je k dispozici na[GroupDocs.Metadata pro dokumentaci .NET](https://tutorials.groupdocs.com/metadata/net/).
 ### Jak mohu získat dočasnou licenci pro testovací účely?
  Můžete požádat o dočasnou licenci z[tady](https://purchase.groupdocs.com/temporary-license/).
 ### Existuje komunitní fórum pro podporu GroupDocs.Metadata?

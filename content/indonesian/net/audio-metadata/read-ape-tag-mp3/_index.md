@@ -3,7 +3,6 @@ title: Baca Tag APE dari File MP3 di .NET
 linktitle: Baca Tag APE dari File MP3 di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara membaca tag APE dari file MP3 menggunakan GroupDocs.Metadata untuk .NET. Jelajahi ekstraksi metadata di C# dengan panduan langkah demi langkah.
-type: docs
 weight: 10
 url: /id/net/audio-metadata/read-ape-tag-mp3/
 ---
@@ -68,6 +67,6 @@ Ya, Anda dapat mengubah atribut metadata seperti judul, penulis, dan tanggal pem
 ### Apakah GroupDocs.Metadata mendukung format file lain selain MP3?
 Ya, GroupDocs.Metadata mendukung berbagai format file termasuk PDF, Word, Excel, PowerPoint, dan banyak lagi.
 ### Di mana saya dapat menemukan dokumentasi GroupDocs.Metadata untuk .NET?
- Lihat dokumentasi terperinci[Di Sini](https://reference.groupdocs.com/metadata/net/).
+ Lihat dokumentasi terperinci[Di Sini](https://tutorials.groupdocs.com/metadata/net/).
 ### Bagaimana saya bisa mendapatkan dukungan teknis untuk GroupDocs.Metadata?
  Anda bisa mendapatkan dukungan dan mengajukan pertanyaan di[Forum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14).

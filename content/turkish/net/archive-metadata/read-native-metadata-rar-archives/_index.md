@@ -3,7 +3,6 @@ title: .NET'teki RAR Arşivlerinden Yerel Meta Veri Özelliklerini Okuyun
 linktitle: .NET'teki RAR Arşivlerinden Yerel Meta Veri Özelliklerini Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: C# dilinde GroupDocs.Metadata for .NET kullanarak RAR arşivlerinden meta veri özelliklerini nasıl çıkaracağınızı öğrenin. Dosya ayrıntılarını zahmetsizce keşfedin.
-type: docs
 weight: 10
 url: /tr/net/archive-metadata/read-native-metadata-rar-archives/
 ---

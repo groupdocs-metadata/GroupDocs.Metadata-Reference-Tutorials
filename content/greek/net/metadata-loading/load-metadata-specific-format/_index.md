@@ -3,7 +3,6 @@ title: Φόρτωση μεταδεδομένων από συγκεκριμένη
 linktitle: Φόρτωση μεταδεδομένων από συγκεκριμένη μορφή στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να φορτώνετε μεταδεδομένα από συγκεκριμένες μορφές αρχείων χρησιμοποιώντας το GroupDocs.Metadata για .NET σε αυτό το περιεκτικό σεμινάριο.
-type: docs
 weight: 12
 url: /el/net/metadata-loading/load-metadata-specific-format/
 ---
@@ -55,7 +54,7 @@ using (Metadata metadata = new Metadata("Your Input File", loadOptions))
 ### Γιατί είναι σημαντική η διαχείριση μεταδεδομένων;
 Η διαχείριση μεταδεδομένων είναι ζωτικής σημασίας για την οργάνωση και την κατανόηση ψηφιακού περιεχομένου, διευκολύνοντας την αναζήτηση και τη διαλειτουργικότητα.
 ### Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το GroupDocs.Metadata για .NET;
- Μπορείτε να αποκτήσετε πρόσβαση στην τεκμηρίωση[εδώ](https://reference.groupdocs.com/metadata/net/).
+ Μπορείτε να αποκτήσετε πρόσβαση στην τεκμηρίωση[εδώ](https://tutorials.groupdocs.com/metadata/net/).
 ### Πώς μπορώ να λάβω μια προσωρινή άδεια για το GroupDocs.Metadata για .NET;
  Επίσκεψη[αυτός ο σύνδεσμος](https://purchase.groupdocs.com/temporary-license/) για την απόκτηση προσωρινής άδειας.
 ### Πού μπορώ να λάβω υποστήριξη ή να κάνω ερωτήσεις σχετικά με το GroupDocs.Metadata για .NET;

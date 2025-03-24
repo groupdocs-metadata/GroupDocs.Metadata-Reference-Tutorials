@@ -3,7 +3,6 @@ title: Przeczytaj właściwości inspekcji z arkuszy kalkulacyjnych w .NET
 linktitle: Przeczytaj właściwości inspekcji z arkuszy kalkulacyjnych w .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak czytać właściwości kontroli z arkuszy kalkulacyjnych przy użyciu GroupDocs.Metadata dla .NET. Bezproblemowy dostęp do komentarzy, podpisów cyfrowych i ukrytych arkuszy.
-type: docs
 weight: 13
 url: /pl/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---

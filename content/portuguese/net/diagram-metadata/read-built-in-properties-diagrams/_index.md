@@ -3,7 +3,6 @@ title: Leia propriedades integradas de diagramas em .NET
 linktitle: Leia propriedades integradas de diagramas em .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda a extrair metadados de arquivos de diagrama em .NET usando GroupDocs.Metadata. Aprimore o gerenciamento e a análise de documentos com eficiência.
-type: docs
 weight: 10
 url: /pt/net/diagram-metadata/read-built-in-properties-diagrams/
 ---

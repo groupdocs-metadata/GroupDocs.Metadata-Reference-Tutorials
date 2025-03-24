@@ -3,7 +3,6 @@ title: Jak načíst metadata z dokumentu chráněného heslem v .NET
 linktitle: Jak načíst metadata z dokumentu chráněného heslem v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se, jak efektivně spravovat metadata dokumentů pomocí GroupDocs.Metadata pro .NET. Bezproblémově extrahujte, upravujte a manipulujte s metadaty ve svých aplikacích .NET.
-type: docs
 weight: 13
 url: /cs/net/metadata-loading/load-metadata-password-protected/
 ---
@@ -60,6 +59,6 @@ Absolutně! Vlastnosti metadat můžete bez problémů extrahovat, aktualizovat 
 ### Jak zpracuji výjimky související s načítáním dokumentů?
 Zajistěte správné zpracování chyb kolem operací načítání dokumentů, abyste mohli zachytit a spravovat potenciální výjimky.
 ### Kde najdu podrobnou dokumentaci k GroupDocs.Metadata pro .NET?
- Navštivte[dokumentace](https://reference.groupdocs.com/metadata/net/) pro komplexní průvodce a reference API.
+ Navštivte[dokumentace](https://tutorials.groupdocs.com/metadata/net/) pro komplexní průvodce a tutorials API.
 ### Je k dispozici bezplatná zkušební verze pro GroupDocs.Metadata pro .NET?
  Ano, knihovnu můžete prozkoumat pomocí a[zkušební verze zdarma](https://releases.groupdocs.com/).

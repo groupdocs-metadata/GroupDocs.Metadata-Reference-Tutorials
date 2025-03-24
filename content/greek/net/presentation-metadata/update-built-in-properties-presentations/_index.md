@@ -3,7 +3,6 @@ title: Ενημερώστε τις ενσωματωμένες ιδιότητες
 linktitle: Ενημερώστε τις ενσωματωμένες ιδιότητες σε παρουσιάσεις χρησιμοποιώντας .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να ενημερώνετε τις ενσωματωμένες ιδιότητες σε παρουσιάσεις χρησιμοποιώντας το .NET με το GroupDocs.Metadata, μια ευέλικτη βιβλιοθήκη χειρισμού μεταδεδομένων.
-type: docs
 weight: 15
 url: /el/net/presentation-metadata/update-built-in-properties-presentations/
 ---
@@ -51,7 +50,7 @@ metadata.Save("YourPresentationFile.pptx");
 ### Ε: Τι είναι το GroupDocs.Metadata για .NET;
 Α: Το GroupDocs.Metadata for .NET είναι μια ισχυρή βιβλιοθήκη χειρισμού μεταδεδομένων για το πλαίσιο .NET, η οποία επιτρέπει στους προγραμματιστές να διαβάζουν, να γράφουν και να επεξεργάζονται μεταδεδομένα σε διάφορες μορφές εγγράφων.
 ### Ε: Πού μπορώ να βρω τεκμηρίωση για το GroupDocs.Metadata;
- Α: Μπορείτε να αποκτήσετε πρόσβαση στη λεπτομερή τεκμηρίωση[εδώ](https://reference.groupdocs.com/metadata/net/).
+ Α: Μπορείτε να αποκτήσετε πρόσβαση στη λεπτομερή τεκμηρίωση[εδώ](https://tutorials.groupdocs.com/metadata/net/).
 ### Ε: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το GroupDocs.Metadata;
  Α: Μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.groupdocs.com/temporary-license/).
 ### Ε: Το GroupDocs.Metadata υποστηρίζει άλλες μορφές αρχείων εκτός από παρουσιάσεις;

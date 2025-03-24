@@ -3,7 +3,6 @@ title: Beheersing van metadata ontsluiten met GroupDocs.Metadata
 linktitle: GroupDocs.Metadata-tutorials
 additionalTitle: GroupDocs API-referenties
 description: Ontdek uitgebreide tutorials voor GroupDocs.Metadata op verschillende platforms. Beheers moeiteloos metadatabeheer in .NET en Java.
-type: docs
 weight: 11
 url: /nl/
 is_root: true

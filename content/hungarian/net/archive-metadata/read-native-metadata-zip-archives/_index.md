@@ -3,7 +3,6 @@ title: Olvassa el a natív metaadat-tulajdonságokat a ZIP-archívumokból a .NE
 linktitle: Olvassa el a natív metaadat-tulajdonságokat a ZIP-archívumokból a .NET-ben
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthat ki metaadatokat ZIP-archívumokból a GroupDocs.Metadata for .NET segítségével. Fedezze fel a natív tulajdonságok olvasására vonatkozó részletes utasításokat.
-type: docs
 weight: 13
 url: /hu/net/archive-metadata/read-native-metadata-zip-archives/
 ---
@@ -67,7 +66,7 @@ GroupDocs.Metadata for .NET egy hatékony könyvtár, amely lehetővé teszi a f
 ### Hogyan szerezhetek ideiglenes licencet a GroupDocs.Metadata számára?
  Ideiglenes jogosítványt szerezhet be[itt](https://purchase.groupdocs.com/temporary-license/).
 ### Hol találom a GroupDocs.Metadata for .NET teljes dokumentációját?
- A dokumentáció elérhető[itt](https://reference.groupdocs.com/metadata/net/).
+ A dokumentáció elérhető[itt](https://tutorials.groupdocs.com/metadata/net/).
 ### Kipróbálhatom ingyenesen a GroupDocs.Metadata for .NET-et?
  Igen, letölthet egy ingyenes próbaverziót[itt](https://releases.groupdocs.com/).
 ### Hogyan kaphatok támogatást, vagy hogyan tehetek fel kérdéseket a GroupDocs.Metadata for .NET-hez kapcsolódóan?

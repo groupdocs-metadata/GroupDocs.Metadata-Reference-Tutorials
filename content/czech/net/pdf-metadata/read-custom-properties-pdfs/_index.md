@@ -3,7 +3,6 @@ title: Čtení uživatelských vlastností z PDF v .NET
 linktitle: Čtení uživatelských vlastností z PDF v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat uživatelské vlastnosti z PDF pomocí GroupDocs.Metadata pro .NET. Ponořte se do správy metadat dokumentu pomocí C#.
-type: docs
 weight: 11
 url: /cs/net/pdf-metadata/read-custom-properties-pdfs/
 ---
@@ -54,7 +53,7 @@ Ano, GroupDocs.Metadata umožňuje upravovat, odstraňovat nebo přidávat uživ
 ### Podporuje GroupDocs.Metadata jiné formáty souborů kromě PDF?
 Ano, GroupDocs.Metadata podporuje širokou škálu formátů souborů včetně dokumentů Word, tabulek Excel, prezentací PowerPoint, obrázků a dalších.
 ### Kde najdu další dokumentaci a podporu pro GroupDocs.Metadata?
- Odkazovat na[dokumentace](https://reference.groupdocs.com/metadata/net/) pro komplexní informace. Další podporu získáte na adrese[Fórum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14).
+ Odkazovat na[dokumentace](https://tutorials.groupdocs.com/metadata/net/) pro komplexní informace. Další podporu získáte na adrese[Fórum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14).
 ### Je k dispozici bezplatná zkušební verze pro GroupDocs.Metadata?
  Ano, můžete získat a[zkušební verze zdarma](https://releases.groupdocs.com/) prozkoumat funkce GroupDocs.Metadata.
 ### Jak si mohu zakoupit licenci pro GroupDocs.Metadata?

@@ -3,7 +3,6 @@ title: Leer propiedades personalizadas de archivos PDF en .NET
 linktitle: Leer propiedades personalizadas de archivos PDF en .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda a extraer propiedades personalizadas de archivos PDF utilizando GroupDocs.Metadata para .NET. Sumérgete en la gestión de metadatos de documentos con C#.
-type: docs
 weight: 11
 url: /es/net/pdf-metadata/read-custom-properties-pdfs/
 ---
@@ -54,7 +53,7 @@ Sí, GroupDocs.Metadata le permite editar, eliminar o agregar propiedades person
 ### ¿GroupDocs.Metadata admite otros formatos de archivo además de PDF?
 Sí, GroupDocs.Metadata admite una amplia gama de formatos de archivo, incluidos documentos de Word, hojas de cálculo de Excel, presentaciones de PowerPoint, imágenes y más.
 ### ¿Dónde puedo encontrar más documentación y soporte para GroupDocs.Metadata?
- Referirse a[documentación](https://reference.groupdocs.com/metadata/net/) para obtener información completa. Para obtener soporte adicional, visite el[Foro GroupDocs.Metadatos](https://forum.groupdocs.com/c/metadata/14).
+ Referirse a[documentación](https://tutorials.groupdocs.com/metadata/net/) para obtener información completa. Para obtener soporte adicional, visite el[Foro GroupDocs.Metadatos](https://forum.groupdocs.com/c/metadata/14).
 ### ¿Existe una prueba gratuita disponible para GroupDocs.Metadata?
  Sí, puedes conseguir un[prueba gratis](https://releases.groupdocs.com/) para explorar las características de GroupDocs.Metadata.
 ### ¿Cómo puedo adquirir una licencia para GroupDocs.Metadata?

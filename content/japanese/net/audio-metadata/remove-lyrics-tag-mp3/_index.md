@@ -3,7 +3,6 @@ title: .NET の MP3 ファイルから歌詞タグを削除する
 linktitle: .NET の MP3 ファイルから歌詞タグを削除する
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して MP3 ファイルから歌詞タグを削除する方法を学びます。メタデータを効率的に操作するには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 18
 url: /ja/net/audio-metadata/remove-lyrics-tag-mp3/
 ---

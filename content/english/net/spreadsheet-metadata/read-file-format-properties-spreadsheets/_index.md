@@ -3,7 +3,6 @@ title: Read File Format Properties from Spreadsheets in .NET
 linktitle: Read File Format Properties from Spreadsheets in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Learn how to read spreadsheet file format properties using GroupDocs.Metadata for .NET. Access file format, MIME type, and more with simple API calls.
-type: docs
 weight: 12
 url: /net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
@@ -55,7 +54,7 @@ In this tutorial, we've explored how to use GroupDocs.Metadata for .NET to retri
 
 ## FAQ's
 ### Is GroupDocs.Metadata for .NET compatible with all types of spreadsheet formats?
-GroupDocs.Metadata for .NET supports a wide range of spreadsheet formats, including XLSX, XLS, CSV, and more. Refer to the [documentation](https://reference.groupdocs.com/metadata/net/) for a comprehensive list of supported formats.
+GroupDocs.Metadata for .NET supports a wide range of spreadsheet formats, including XLSX, XLS, CSV, and more. Refer to the [documentation](https://tutorials.groupdocs.com/metadata/net/) for a comprehensive list of supported formats.
 ### Can I edit metadata properties using GroupDocs.Metadata for .NET?
 Yes, GroupDocs.Metadata for .NET allows not only reading but also editing metadata properties associated with various file formats.
 ### How can I obtain a temporary license for testing purposes?

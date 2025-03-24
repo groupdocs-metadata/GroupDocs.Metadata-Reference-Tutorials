@@ -3,7 +3,6 @@ title: .NET का उपयोग करके एमपी3 फ़ाइलो
 linktitle: .NET का उपयोग करके एमपी3 फ़ाइलों में लिरिक्स टैग अपडेट करें
 second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके प्रोग्रामेटिक रूप से गीत, कलाकार और एल्बम विवरण सहित एमपी3 फ़ाइल मेटाडेटा को अपडेट करना सीखें।
-type: docs
 weight: 21
 url: /hi/net/audio-metadata/update-lyrics-tag-mp3/
 ---

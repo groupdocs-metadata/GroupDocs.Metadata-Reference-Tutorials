@@ -3,7 +3,6 @@ title: Διαβάστε τις εγγενείς ιδιότητες μεταδε�
 linktitle: Διαβάστε τις εγγενείς ιδιότητες μεταδεδομένων από αρχεία WAV στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Ανακαλύψτε πώς να εξαγάγετε εγγενή μεταδεδομένα από αρχεία WAV χρησιμοποιώντας το GroupDocs.Metadata για .NET. Εύκολο σεμινάριο C# για την ανάγνωση ιδιοτήτων αρχείου WAV.
-type: docs
 weight: 23
 url: /el/net/audio-metadata/read-native-metadata-wav/
 ---
@@ -59,7 +58,7 @@ Console.WriteLine(root.WavPackage.SampleRate);
 ### Μπορώ να τροποποιήσω τα μεταδεδομένα χρησιμοποιώντας το GroupDocs.Metadata για .NET;
 Ναι, αυτή η βιβλιοθήκη υποστηρίζει την ανάγνωση, την ενημέρωση και την αφαίρεση ιδιοτήτων μεταδεδομένων από υποστηριζόμενες μορφές αρχείων.
 ### Πού μπορώ να βρω την τεκμηρίωση για το GroupDocs.Metadata;
- Μπορείτε να αποκτήσετε πρόσβαση στην πλήρη τεκμηρίωση[εδώ](https://reference.groupdocs.com/metadata/net/).
+ Μπορείτε να αποκτήσετε πρόσβαση στην πλήρη τεκμηρίωση[εδώ](https://tutorials.groupdocs.com/metadata/net/).
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή για το GroupDocs.Metadata για .NET;
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης[εδώ](https://releases.groupdocs.com/).
 ### Πώς μπορώ να λάβω υποστήριξη για το GroupDocs.Metadata για .NET;

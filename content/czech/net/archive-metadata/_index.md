@@ -3,7 +3,6 @@ title: Metadata archivu
 linktitle: Metadata archivu
 second_title: GroupDocs.Metadata .NET API
 description: Prozkoumejte výukové programy pro extrahování a správu vlastností metadat z různých archivních formátů, jako jsou RAR, 7Zip, TAR a ZIP pomocí GroupDocs.Metadata pro .NET.
-type: docs
 weight: 21
 url: /cs/net/archive-metadata/
 ---

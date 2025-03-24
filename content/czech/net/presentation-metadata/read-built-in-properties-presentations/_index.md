@@ -3,7 +3,6 @@ title: Přečtěte si vestavěné vlastnosti z prezentací v .NET
 linktitle: Přečtěte si vestavěné vlastnosti z prezentací v .NET
 second_title: GroupDocs.Metadata .NET API
 description: tomto komplexním kurzu se dozvíte, jak extrahovat vestavěné vlastnosti z prezentací pomocí GroupDocs.Metadata for .NET.
-type: docs
 weight: 10
 url: /cs/net/presentation-metadata/read-built-in-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Ano, GroupDocs.Metadata for .NET podporuje různé prezentační formáty jako P
 ### Mohu upravit nebo aktualizovat metadata pomocí GroupDocs.Metadata pro .NET?
 Pomocí této knihovny můžete samozřejmě upravovat, aktualizovat a odstraňovat vlastnosti metadat.
 ### Kde najdu podrobnou dokumentaci k GroupDocs.Metadata pro .NET?
- Můžete se podívat na dokumentaci[tady](https://reference.groupdocs.com/metadata/net/) pro komplexní informace.
+ Můžete se podívat na dokumentaci[tady](https://tutorials.groupdocs.com/metadata/net/) pro komplexní informace.
 ### Jak mohu získat dočasnou licenci pro GroupDocs.Metadata pro .NET?
  Můžete získat dočasnou licenci[tady](https://purchase.groupdocs.com/temporary-license/) pro účely hodnocení.
 ### Kde mohu vyhledat pomoc nebo se zeptat na otázky týkající se GroupDocs.Metadata pro .NET?

@@ -3,7 +3,6 @@ title: Aktualizujte vestavěné vlastnosti v tabulkách pomocí .NET
 linktitle: Aktualizujte vestavěné vlastnosti v tabulkách pomocí .NET
 second_title: GroupDocs.Metadata .NET API
 description: Zjistěte, jak aktualizovat vlastnosti vestavěných metadat v souborech aplikace Excel pomocí GroupDocs.Metadata for .NET. Upravte autora, čas vytvoření, společnost a další pomocí C#.
-type: docs
 weight: 14
 url: /cs/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
 ---

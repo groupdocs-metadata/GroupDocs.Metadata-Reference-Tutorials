@@ -3,7 +3,6 @@ title: 專案管理元數據
 linktitle: 專案管理元數據
 second_title: GroupDocs.元資料 .NET API
 description: 使用 GroupDocs.Metadata for .NET 教學釋放 .NET 專案管理文件的潛力。輕鬆擷取、更新和管理元資料。
-type: docs
 weight: 26
 url: /zh-hant/net/project-management-metadata/
 ---

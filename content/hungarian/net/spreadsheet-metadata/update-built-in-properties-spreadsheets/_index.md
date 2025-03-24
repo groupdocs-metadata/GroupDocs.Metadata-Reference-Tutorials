@@ -3,7 +3,6 @@ title: Frissítse a táblázatok beépített tulajdonságait .NET használatáva
 linktitle: Frissítse a táblázatok beépített tulajdonságait .NET használatával
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan frissítheti az Excel-fájlok beépített metaadat-tulajdonságait a GroupDocs.Metadata for .NET segítségével. Módosítsa a szerzőt, a létrehozási időt, a céget és egyebeket a C# segítségével.
-type: docs
 weight: 14
 url: /hu/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
 ---

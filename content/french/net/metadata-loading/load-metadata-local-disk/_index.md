@@ -3,7 +3,6 @@ title: Comment charger des métadonnées à partir d'un disque local dans .NET
 linktitle: Comment charger des métadonnées à partir d'un disque local dans .NET
 second_title: API GroupDocs.Metadata .NET
 description: Gérez sans effort les métadonnées de fichiers dans les applications .NET avec GroupDocs.Metadata pour des capacités améliorées de manipulation de fichiers.
-type: docs
 weight: 10
 url: /fr/net/metadata-loading/load-metadata-local-disk/
 ---
@@ -62,7 +61,7 @@ Dans ce didacticiel, nous avons exploré comment utiliser GroupDocs.Metadata pou
 ### Q : Comment puis-je obtenir une licence temporaire pour GroupDocs.Metadata ?
  R : Vous pouvez acquérir une licence temporaire auprès du[Page d'achat de GroupDocs](https://purchase.groupdocs.com/temporary-license/).
 ### Q : Où puis-je trouver une documentation complète sur GroupDocs.Metadata ?
- R : Explorez la documentation détaillée sur[Documentation GroupDocs.Metadata pour .NET](https://reference.groupdocs.com/metadata/net/).
+ R : Explorez la documentation détaillée sur[Documentation GroupDocs.Metadata pour .NET](https://tutorials.groupdocs.com/metadata/net/).
 ### Q : GroupDocs.Metadata prend-il en charge une version d'essai gratuite ?
  R : Oui, vous pouvez accéder à un essai gratuit de GroupDocs.Metadata à partir de[ici](https://releases.groupdocs.com/).
 ### Q : Où puis-je obtenir de l'aide ou poser des questions relatives à GroupDocs.Metadata ?

@@ -3,7 +3,6 @@ title: Update Inspection Properties in Spreadsheets using .NET
 linktitle: Update Inspection Properties in Spreadsheets using .NET
 second_title: GroupDocs.Metadata .NET API
 description: Learn how to update inspection properties in spreadsheets using GroupDocs.Metadata for .NET. Manage comments, signatures, and hidden sheets with ease.
-type: docs
 weight: 16
 url: /net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ Yes, GroupDocs.Metadata supports various spreadsheet formats including XLSX, XLS
 ### Can I modify other metadata properties using GroupDocs.Metadata?
 Absolutely, GroupDocs.Metadata allows you to read, update, remove, and add metadata properties such as author, title, creation date, etc.
 ### Where can I find detailed documentation for GroupDocs.Metadata for .NET?
-You can refer to the comprehensive [documentation](https://reference.groupdocs.com/metadata/net/) available online.
+You can refer to the comprehensive [documentation](https://tutorials.groupdocs.com/metadata/net/) available online.
 ### Is there a free trial available for GroupDocs.Metadata for .NET?
 Yes, you can access a [free trial](https://releases.groupdocs.com/) to evaluate the API.
 ### How can I get technical support for GroupDocs.Metadata for .NET?

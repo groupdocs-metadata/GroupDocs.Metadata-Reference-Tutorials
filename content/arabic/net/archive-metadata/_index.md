@@ -3,7 +3,6 @@ title: أرشفة البيانات الوصفية
 linktitle: أرشفة البيانات الوصفية
 second_title: GroupDocs.Metadata .NET API
 description: استكشف البرامج التعليمية حول استخراج خصائص بيانات التعريف وإدارتها من تنسيقات أرشيف مختلفة مثل RAR و7Zip وTAR وZIP باستخدام GroupDocs.Metadata لـ .NET.
-type: docs
 weight: 21
 url: /ar/net/archive-metadata/
 ---

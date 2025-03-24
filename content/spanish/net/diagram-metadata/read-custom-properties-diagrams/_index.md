@@ -3,7 +3,6 @@ title: Leer propiedades personalizadas de diagramas en .NET
 linktitle: Leer propiedades personalizadas de diagramas en .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda a extraer propiedades personalizadas de archivos de diagrama en .NET usando GroupDocs.Metadata. Guía sencilla paso a paso para desarrolladores.
-type: docs
 weight: 11
 url: /es/net/diagram-metadata/read-custom-properties-diagrams/
 ---
@@ -60,6 +59,6 @@ Sí, GroupDocs.Metadata admite varios formatos de documentos, incluidas presenta
 ### ¿GroupDocs.Metadata es adecuado para el procesamiento de documentos a gran escala?
 Sí, GroupDocs.Metadata está diseñado para manejar grandes volúmenes de documentos de manera eficiente.
 ### ¿Dónde puedo encontrar soporte o documentación adicional para GroupDocs.Metadata?
- Visita el[Foro GroupDocs.Metadatos](https://forum.groupdocs.com/c/metadata/14) para obtener apoyo y explorar el[documentación](https://reference.groupdocs.com/metadata/net/) para referencias API detalladas.
+ Visita el[Foro GroupDocs.Metadatos](https://forum.groupdocs.com/c/metadata/14) para obtener apoyo y explorar el[documentación](https://tutorials.groupdocs.com/metadata/net/) para referencias API detalladas.
 ### ¿Puedo probar GroupDocs.Metadata gratis antes de comprarlo?
  Sí, puedes descargar una versión de prueba gratuita.[aquí](https://releases.groupdocs.com/).

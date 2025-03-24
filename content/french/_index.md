@@ -3,7 +3,6 @@ title: Débloquer la maîtrise des métadonnées avec GroupDocs.Metadata
 linktitle: Tutoriels GroupDocs.Metadata
 additionalTitle: Références de l'API GroupDocs
 description: Découvrez des didacticiels complets pour GroupDocs.Metadata sur toutes les plateformes. Maîtrisez la gestion des métadonnées dans .NET et Java sans effort.
-type: docs
 weight: 11
 url: /fr/
 is_root: true

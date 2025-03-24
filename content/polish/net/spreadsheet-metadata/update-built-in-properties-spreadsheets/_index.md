@@ -3,7 +3,6 @@ title: Aktualizuj wbudowane właściwości w arkuszach kalkulacyjnych przy użyc
 linktitle: Aktualizuj wbudowane właściwości w arkuszach kalkulacyjnych przy użyciu platformy .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak aktualizować wbudowane właściwości metadanych w plikach Excel przy użyciu GroupDocs.Metadata dla .NET. Modyfikuj autora, czas utworzenia, firmę i inne elementy za pomocą języka C#.
-type: docs
 weight: 14
 url: /pl/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
 ---

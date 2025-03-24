@@ -3,7 +3,6 @@ title: Prezentáció metaadatai
 linktitle: Prezentáció metaadatai
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan kezelheti hatékonyan a prezentációk metaadatait .NET-ben a GroupDocs.Metadata oktatóanyagok segítségével. Könnyedén hozzáférhet a beépített és egyéni tulajdonságokhoz.
-type: docs
 weight: 25
 url: /hu/net/presentation-metadata/
 ---

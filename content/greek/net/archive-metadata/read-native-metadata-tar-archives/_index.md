@@ -3,7 +3,6 @@ title: Διαβάστε τις ιδιότητες εγγενών μεταδεδ�
 linktitle: Διαβάστε τις ιδιότητες εγγενών μεταδεδομένων από τα αρχεία TAR στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε μεταδεδομένα από τα αρχεία TAR στο .NET χρησιμοποιώντας το GroupDocs.Metadata. Αυτό το σεμινάριο σας καθοδηγεί στη διαδικασία βήμα προς βήμα.
-type: docs
 weight: 12
 url: /el/net/archive-metadata/read-native-metadata-tar-archives/
 ---

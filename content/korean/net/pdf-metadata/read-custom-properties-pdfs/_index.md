@@ -3,7 +3,6 @@ title: .NET의 PDF에서 사용자 정의 속성 읽기
 linktitle: .NET의 PDF에서 사용자 정의 속성 읽기
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 PDF에서 사용자 정의 속성을 추출하는 방법을 알아보세요. C#을 사용하여 문서 메타데이터 관리에 대해 알아보세요.
-type: docs
 weight: 11
 url: /ko/net/pdf-metadata/read-custom-properties-pdfs/
 ---
@@ -54,7 +53,7 @@ foreach (var property in customProperties)
 ### GroupDocs.Metadata는 PDF 외에 다른 파일 형식을 지원합니까?
 예, GroupDocs.Metadata는 Word 문서, Excel 스프레드시트, PowerPoint 프리젠테이션, 이미지 등을 포함한 광범위한 파일 형식을 지원합니다.
 ### GroupDocs.Metadata에 대한 추가 문서와 지원은 어디서 찾을 수 있나요?
- 다음을 참조하세요.[선적 서류 비치](https://reference.groupdocs.com/metadata/net/) 포괄적인 정보를 얻으려면. 추가 지원을 받으려면 다음을 방문하세요.[GroupDocs.메타데이터 포럼](https://forum.groupdocs.com/c/metadata/14).
+ 다음을 참조하세요.[선적 서류 비치](https://tutorials.groupdocs.com/metadata/net/) 포괄적인 정보를 얻으려면. 추가 지원을 받으려면 다음을 방문하세요.[GroupDocs.메타데이터 포럼](https://forum.groupdocs.com/c/metadata/14).
 ### GroupDocs.Metadata에 대한 무료 평가판이 있습니까?
  예, 다음을 얻을 수 있습니다.[무료 시험판](https://releases.groupdocs.com/) GroupDocs.Metadata의 기능을 탐색합니다.
 ### GroupDocs.Metadata 라이센스를 어떻게 구매할 수 있나요?

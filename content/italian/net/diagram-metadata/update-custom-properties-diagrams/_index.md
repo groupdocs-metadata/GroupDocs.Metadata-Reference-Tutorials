@@ -3,7 +3,6 @@ title: Aggiorna le proprietà personalizzate nei diagrammi utilizzando .NET
 linktitle: Aggiorna le proprietà personalizzate nei diagrammi utilizzando .NET
 second_title: API GroupDocs.Metadata .NET
 description: Scopri come aggiornare le proprietà personalizzate nei diagrammi utilizzando .NET con GroupDocs.Metadata per .NET. Migliora i metadati con facilità.
-type: docs
 weight: 15
 url: /it/net/diagram-metadata/update-custom-properties-diagrams/
 ---

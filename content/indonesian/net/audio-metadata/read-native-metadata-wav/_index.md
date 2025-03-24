@@ -3,7 +3,6 @@ title: Baca Properti Metadata Asli dari File WAV di .NET
 linktitle: Baca Properti Metadata Asli dari File WAV di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Temukan cara mengekstrak metadata asli dari file WAV menggunakan GroupDocs.Metadata untuk .NET. Tutorial C# yang mudah untuk membaca properti file WAV.
-type: docs
 weight: 23
 url: /id/net/audio-metadata/read-native-metadata-wav/
 ---
@@ -59,7 +58,7 @@ GroupDocs.Metadata untuk .NET adalah pustaka .NET yang memungkinkan pengembang b
 ### Bisakah saya mengubah metadata menggunakan GroupDocs.Metadata untuk .NET?
 Ya, perpustakaan ini mendukung pembacaan, pembaruan, dan penghapusan properti metadata dari format file yang didukung.
 ### Di mana saya dapat menemukan dokumentasi untuk GroupDocs.Metadata?
- Anda dapat mengakses dokumentasi lengkapnya[Di Sini](https://reference.groupdocs.com/metadata/net/).
+ Anda dapat mengakses dokumentasi lengkapnya[Di Sini](https://tutorials.groupdocs.com/metadata/net/).
 ### Apakah ada uji coba gratis yang tersedia untuk GroupDocs.Metadata untuk .NET?
  Ya, Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.groupdocs.com/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk GroupDocs.Metadata untuk .NET?

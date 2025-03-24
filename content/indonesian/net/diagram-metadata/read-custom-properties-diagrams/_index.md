@@ -3,7 +3,6 @@ title: Baca Properti Kustom dari Diagram di .NET
 linktitle: Baca Properti Kustom dari Diagram di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengekstrak properti khusus dari file diagram di .NET menggunakan GroupDocs.Metadata. Panduan langkah demi langkah yang mudah untuk pengembang.
-type: docs
 weight: 11
 url: /id/net/diagram-metadata/read-custom-properties-diagrams/
 ---
@@ -60,6 +59,6 @@ Ya, GroupDocs.Metadata mendukung berbagai format dokumen, termasuk presentasi, g
 ### Apakah GroupDocs.Metadata cocok untuk pemrosesan dokumen skala besar?
 Ya, GroupDocs.Metadata dirancang untuk menangani dokumen dalam jumlah besar secara efisien.
 ### Di mana saya dapat menemukan dukungan atau dokumentasi tambahan untuk GroupDocs.Metadata?
- Mengunjungi[Forum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) untuk dukungan dan eksplorasi[dokumentasi](https://reference.groupdocs.com/metadata/net/) untuk referensi API terperinci.
+ Mengunjungi[Forum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) untuk dukungan dan eksplorasi[dokumentasi](https://tutorials.groupdocs.com/metadata/net/) untuk referensi API terperinci.
 ### Bisakah saya mencoba GroupDocs.Metadata secara gratis sebelum membeli?
  Ya, Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.groupdocs.com/).

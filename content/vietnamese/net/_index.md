@@ -1,7 +1,6 @@
 ---
 title: Hướng dẫn và ví dụ về GroupDocs.Metadata cho .NET
 linktitle: Hướng dẫn GroupDocs.Metadata cho .NET
-type: docs
 weight: 10
 url: /vi/net/
 description: Dễ dàng quản lý siêu dữ liệu tệp trong .NET với GroupDocs.Metadata. Tìm hiểu các kỹ thuật tải, chỉnh sửa và hơn thế nữa để nâng cao khả năng thao tác với tệp.

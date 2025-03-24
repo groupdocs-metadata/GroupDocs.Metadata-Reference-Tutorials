@@ -3,7 +3,6 @@ title: Uppdatera inbyggda egenskaper i PDF-filer med .NET
 linktitle: Uppdatera inbyggda egenskaper i PDF-filer med .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du uppdaterar PDF-dokumentegenskaper med C# och GroupDocs.Metadata för .NET. Ändra författare, titel, sökord och mer programmatiskt.
-type: docs
 weight: 15
 url: /sv/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
@@ -72,7 +71,7 @@ I den här handledningen undersökte vi hur man kan utnyttja GroupDocs.Metadata 
 ### F: Vad är GroupDocs.Metadata för .NET?
 S: GroupDocs.Metadata för .NET är ett bibliotek som låter utvecklare läsa, redigera, ta bort och manipulera metadata i olika dokumentformat programmatiskt.
 ### F: Var kan jag hitta dokumentationen för GroupDocs.Metadata for .NET?
- S: Du kan komma åt dokumentationen[här](https://reference.groupdocs.com/metadata/net/).
+ S: Du kan komma åt dokumentationen[här](https://tutorials.groupdocs.com/metadata/net/).
 ### F: Hur kan jag ladda ner GroupDocs.Metadata för .NET?
  S: Du kan ladda ner GroupDocs.Metadata för .NET från[den här länken](https://releases.groupdocs.com/metadata/net/).
 ### F: Finns det en gratis provperiod?

@@ -3,7 +3,6 @@ title: .NET で 7Zip アーカイブからネイティブ メタデータ プロ
 linktitle: .NET で 7Zip アーカイブからネイティブ メタデータ プロパティを読み取る
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して 7Zip アーカイブからネイティブ メタデータ プロパティを読み取る方法を学習します。.NET アプリケーションのデータ管理機能を強化します。
-type: docs
 weight: 11
 url: /ja/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
@@ -64,7 +63,7 @@ foreach (var file in root.SevenZipPackage.Files)
 ### GroupDocs.Metadata は、RAR や TAR などの他のアーカイブ形式と互換性がありますか?
 はい、GroupDocs.Metadata は、RAR、TAR、ZIP など、幅広いアーカイブ形式をサポートしています。
 ### GroupDocs.Metadata for .NET の詳細なドキュメントはどこで入手できますか?
-ドキュメントにアクセスできます[ここ](https://reference.groupdocs.com/metadata/net/).
+ドキュメントにアクセスできます[ここ](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata の一時ライセンスを取得するにはどうすればよいですか?
 一時ライセンスを取得できます[ここ](https://purchase.groupdocs.com/temporary-license/).
 ### GroupDocs.Metadata はトラブルシューティングや問い合わせに対するサポートを提供していますか?

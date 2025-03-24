@@ -3,7 +3,6 @@ title: .NET'teki Sunumlardaki Yerleşik Özellikleri Okuyun
 linktitle: .NET'teki Sunumlardaki Yerleşik Özellikleri Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: Bu kapsamlı eğitimde GroupDocs.Metadata for .NET kullanarak sunumlardan yerleşik özellikleri nasıl çıkaracağınızı öğrenin.
-type: docs
 weight: 10
 url: /tr/net/presentation-metadata/read-built-in-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Evet, GroupDocs.Metadata for .NET, PPTX, PPT ve daha fazlası gibi çeşitli sun
 ### GroupDocs.Metadata for .NET'i kullanarak meta verileri değiştirebilir veya güncelleyebilir miyim?
 Kesinlikle bu kütüphaneyi kullanarak meta veri özelliklerini değiştirebilir, güncelleyebilir ve kaldırabilirsiniz.
 ### GroupDocs.Metadata for .NET'e ilişkin ayrıntılı belgeleri nerede bulabilirim?
- Belgelere başvurabilirsiniz[Burada](https://reference.groupdocs.com/metadata/net/) kapsamlı bilgi için.
+ Belgelere başvurabilirsiniz[Burada](https://tutorials.groupdocs.com/metadata/net/) kapsamlı bilgi için.
 ### GroupDocs.Metadata for .NET için nasıl geçici lisans alabilirim?
  Geçici lisans alabilirsiniz[Burada](https://purchase.groupdocs.com/temporary-license/) değerlendirme amaçlı.
 ### GroupDocs.Metadata for .NET ile ilgili nereden yardım alabilirim veya soru sorabilirim?

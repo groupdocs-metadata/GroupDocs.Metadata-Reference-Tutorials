@@ -3,7 +3,6 @@ title: Update inspectie-eigenschappen in spreadsheets met .NET
 linktitle: Update inspectie-eigenschappen in spreadsheets met .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u inspectie-eigenschappen in spreadsheets kunt bijwerken met GroupDocs.Metadata voor .NET. Beheer eenvoudig opmerkingen, handtekeningen en verborgen werkbladen.
-type: docs
 weight: 16
 url: /nl/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ Ja, GroupDocs.Metadata ondersteunt verschillende spreadsheetformaten, waaronder 
 ### Kan ik andere metadata-eigenschappen wijzigen met GroupDocs.Metadata?
 Absoluut, met GroupDocs.Metadata kunt u metadata-eigenschappen lezen, bijwerken, verwijderen en toevoegen, zoals auteur, titel, aanmaakdatum, enz.
 ### Waar kan ik gedetailleerde documentatie vinden voor GroupDocs.Metadata voor .NET?
- U kunt verwijzen naar de uitgebreide[documentatie](https://reference.groupdocs.com/metadata/net/) beschikbaar online.
+ U kunt verwijzen naar de uitgebreide[documentatie](https://tutorials.groupdocs.com/metadata/net/) beschikbaar online.
 ### Is er een gratis proefversie beschikbaar voor GroupDocs.Metadata voor .NET?
  Ja, u heeft toegang tot a[gratis proefperiode](https://releases.groupdocs.com/) om de API te evalueren.
 ### Hoe kan ik technische ondersteuning krijgen voor GroupDocs.Metadata voor .NET?

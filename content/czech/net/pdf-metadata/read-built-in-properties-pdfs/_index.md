@@ -3,7 +3,6 @@ title: Číst vestavěné vlastnosti z PDF v .NET
 linktitle: Číst vestavěné vlastnosti z PDF v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se číst metadata PDF v .NET pomocí GroupDocs.Metadata. Získejte přístup ke jménům autorů, datům vytvoření, předmětům a dalším pomocí kódu C#.
-type: docs
 weight: 10
 url: /cs/net/pdf-metadata/read-built-in-properties-pdfs/
 ---

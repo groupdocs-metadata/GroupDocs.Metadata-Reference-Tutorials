@@ -4,7 +4,6 @@ linktitle: Métadonnées de la feuille de calcul
 second_title: API GroupDocs.Metadata .NET
 description: Libérez la puissance de GroupDocs.Metadata pour .NET avec des didacticiels sur la lecture et la mise à jour des propriétés des feuilles de calcul. Améliorez la manipulation des métadonnées dans vos applications .NET.
 
-type: docs
 weight: 27
 url: /fr/net/spreadsheet-metadata/
 ---

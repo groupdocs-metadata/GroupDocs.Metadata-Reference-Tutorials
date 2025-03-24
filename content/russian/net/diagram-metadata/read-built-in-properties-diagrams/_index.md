@@ -3,7 +3,6 @@ title: Чтение встроенных свойств из диаграмм в
 linktitle: Чтение встроенных свойств из диаграмм в .NET
 second_title: GroupDocs.Метаданные .NET API
 description: Научитесь извлекать метаданные из файлов схем в .NET с помощью GroupDocs.Metadata. Повышение эффективности управления и анализа документов.
-type: docs
 weight: 10
 url: /ru/net/diagram-metadata/read-built-in-properties-diagrams/
 ---

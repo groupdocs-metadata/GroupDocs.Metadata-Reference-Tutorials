@@ -3,7 +3,6 @@ title: Perbarui Properti Inspeksi di Spreadsheet menggunakan .NET
 linktitle: Perbarui Properti Inspeksi di Spreadsheet menggunakan .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara memperbarui properti inspeksi di spreadsheet menggunakan GroupDocs.Metadata untuk .NET. Kelola komentar, tanda tangan, dan lembar tersembunyi dengan mudah.
-type: docs
 weight: 16
 url: /id/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ Ya, GroupDocs.Metadata mendukung berbagai format spreadsheet termasuk XLSX, XLS,
 ### Bisakah saya mengubah properti metadata lainnya menggunakan GroupDocs.Metadata?
 Tentu saja, GroupDocs.Metadata memungkinkan Anda membaca, memperbarui, menghapus, dan menambahkan properti metadata seperti penulis, judul, tanggal pembuatan, dll.
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk GroupDocs.Metadata untuk .NET?
- Anda bisa merujuk ke yang komprehensif[dokumentasi](https://reference.groupdocs.com/metadata/net/) tersedia daring.
+ Anda bisa merujuk ke yang komprehensif[dokumentasi](https://tutorials.groupdocs.com/metadata/net/) tersedia daring.
 ### Apakah ada uji coba gratis yang tersedia untuk GroupDocs.Metadata untuk .NET?
  Ya, Anda dapat mengakses a[uji coba gratis](https://releases.groupdocs.com/) untuk mengevaluasi API.
 ### Bagaimana saya bisa mendapatkan dukungan teknis untuk GroupDocs.Metadata untuk .NET?

@@ -1,7 +1,6 @@
 ---
 title: دروس وأمثلة لـ GroupDocs.Metadata لـ .NET
 linktitle: GroupDocs.Metadata لبرامج .NET التعليمية
-type: docs
 weight: 10
 url: /ar/net/
 description: قم بإدارة بيانات تعريف الملف بسهولة في .NET باستخدام GroupDocs.Metadata. تعرف على تقنيات التحميل والتحرير والمزيد لتحسين إمكانيات معالجة الملفات.

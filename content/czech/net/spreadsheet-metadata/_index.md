@@ -4,7 +4,6 @@ linktitle: Metadata tabulky
 second_title: GroupDocs.Metadata .NET API
 description: Odemkněte sílu GroupDocs.Metadata pro .NET pomocí výukových programů pro čtení a aktualizaci vlastností tabulek. Zvyšte úroveň manipulace s metadaty ve svých aplikacích .NET.
 
-type: docs
 weight: 27
 url: /cs/net/spreadsheet-metadata/
 ---

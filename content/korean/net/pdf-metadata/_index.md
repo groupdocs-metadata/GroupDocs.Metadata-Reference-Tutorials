@@ -3,7 +3,6 @@ title: PDF 메타데이터
 linktitle: PDF 메타데이터
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata 튜토리얼을 통해 PDF 메타데이터를 손쉽게 관리하는 방법을 알아보세요. C# 코드를 사용하여 기본 제공 속성과 사용자 지정 속성에 액세스하세요.
-type: docs
 weight: 24
 url: /ko/net/pdf-metadata/
 ---

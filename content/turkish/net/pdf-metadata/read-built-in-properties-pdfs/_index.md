@@ -3,7 +3,6 @@ title: .NET'teki PDF'lerdeki Yerleşik Özellikleri Okuyun
 linktitle: .NET'teki PDF'lerdeki Yerleşik Özellikleri Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata'yı kullanarak .NET'te PDF meta verilerini nasıl okuyacağınızı öğrenin. C# koduyla yazar adlarına, oluşturulma tarihlerine, konulara ve daha fazlasına erişin.
-type: docs
 weight: 10
 url: /tr/net/pdf-metadata/read-built-in-properties-pdfs/
 ---

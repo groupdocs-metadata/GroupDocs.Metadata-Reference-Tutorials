@@ -3,7 +3,6 @@ title: Läs Filformategenskaper från PDF-filer i .NET
 linktitle: Läs Filformategenskaper från PDF-filer i .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du extraherar egenskaper för PDF-filformat med GroupDocs.Metadata för .NET. Dyk in i metadatahantering med enkel C#.
-type: docs
 weight: 13
 url: /sv/net/pdf-metadata/read-file-format-properties-pdfs/
 ---
@@ -63,7 +62,7 @@ Ja, GroupDocs.Metadata stöder ett brett utbud av filformat utöver PDF, inklusi
 ### Finns det en testversion tillgänglig för GroupDocs.Metadata för .NET?
  Ja, du kan ladda ner en gratis testversion från[här](https://releases.groupdocs.com/).
 ### Var kan jag hitta omfattande dokumentation för GroupDocs.Metadata?
- Se den detaljerade dokumentationen[här](https://reference.groupdocs.com/metadata/net/).
+ Se den detaljerade dokumentationen[här](https://tutorials.groupdocs.com/metadata/net/).
 ### Hur kan jag få support för eventuella problem eller frågor relaterade till GroupDocs.Metadata?
  Du kan söka stöd från gruppen GroupDocs.Metadata[forum](https://forum.groupdocs.com/c/metadata/14).
 ### Var kan jag köpa en licensierad version av GroupDocs.Metadata for .NET?

@@ -3,7 +3,6 @@ title: Perbarui Properti Kustom di Dokumen Manajemen Proyek .NET
 linktitle: Perbarui Properti Kustom di Dokumen Manajemen Proyek .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara memperbarui properti kustom di dokumen manajemen proyek .NET menggunakan GroupDocs.Metadata untuk .NET. Tingkatkan manajemen metadata di aplikasi Anda.
-type: docs
 weight: 13
 url: /id/net/project-management-metadata/update-custom-properties-project-management-documents/
 ---

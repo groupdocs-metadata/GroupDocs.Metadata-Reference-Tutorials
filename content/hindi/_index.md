@@ -3,7 +3,6 @@ title: GroupDocs.Metadata के साथ मेटाडेटा महार
 linktitle: GroupDocs.Metadata ट्यूटोरियल
 additionalTitle: ग्रुपडॉक्स एपीआई संदर्भ
 description: विभिन्न प्लेटफ़ॉर्म पर GroupDocs.Metadata के लिए व्यापक ट्यूटोरियल खोजें। .NET और Java में मेटाडेटा प्रबंधन को आसानी से मास्टर करें।
-type: docs
 weight: 11
 url: /hi/
 is_root: true

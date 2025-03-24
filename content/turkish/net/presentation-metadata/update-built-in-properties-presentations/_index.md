@@ -3,7 +3,6 @@ title: .NET kullanarak Sunumlardaki Yerleşik Özellikleri Güncelleme
 linktitle: .NET kullanarak Sunumlardaki Yerleşik Özellikleri Güncelleme
 second_title: GroupDocs.Metadata .NET API'si
 description: Çok yönlü bir meta veri işleme kitaplığı olan GroupDocs.Metadata ile .NET kullanarak sunumlardaki yerleşik özellikleri nasıl güncelleyeceğinizi öğrenin.
-type: docs
 weight: 15
 url: /tr/net/presentation-metadata/update-built-in-properties-presentations/
 ---
@@ -51,7 +50,7 @@ Bu öğreticide, sunum dosyalarındaki yerleşik özellikleri program aracılı�
 ### S: .NET için GroupDocs.Metadata nedir?
 C: GroupDocs.Metadata for .NET, geliştiricilerin çeşitli belge formatlarındaki meta verileri okumasına, yazmasına ve düzenlemesine olanak tanıyan, .NET çerçevesine yönelik güçlü bir meta veri işleme kitaplığıdır.
 ### S: GroupDocs.Metadata belgelerini nerede bulabilirim?
- C: Detaylı dokümantasyona ulaşabilirsiniz.[Burada](https://reference.groupdocs.com/metadata/net/).
+ C: Detaylı dokümantasyona ulaşabilirsiniz.[Burada](https://tutorials.groupdocs.com/metadata/net/).
 ### S: GroupDocs.Metadata için nasıl geçici lisans alabilirim?
  C: Geçici bir lisans alabilirsiniz[Burada](https://purchase.groupdocs.com/temporary-license/).
 ### S: GroupDocs.Metadata sunumların yanı sıra diğer dosya formatlarını da destekliyor mu?

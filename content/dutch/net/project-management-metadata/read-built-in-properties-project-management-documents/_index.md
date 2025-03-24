@@ -3,7 +3,6 @@ title: Lees ingebouwde eigenschappen in .NET Project Management-documenten
 linktitle: Lees ingebouwde eigenschappen in .NET Project Management-documenten
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u metagegevens uit projectmanagementdocumenten kunt extraheren met GroupDocs.Metadata voor .NET. Verbeter uw documentverwerkingsmogelijkheden.
-type: docs
 weight: 10
 url: /nl/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---

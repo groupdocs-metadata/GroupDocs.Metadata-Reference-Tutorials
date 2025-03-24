@@ -3,7 +3,6 @@ title: 更新 .NET 專案管理文件中的內建屬性
 linktitle: 更新 .NET 專案管理文件中的內建屬性
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 更新 .NET 專案管理文件中的元資料。提昇文件管理效率。
-type: docs
 weight: 12
 url: /zh-hant/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
@@ -57,7 +56,7 @@ metadata.Save("YourInputFile");
 ### 除了內建文件詳細資訊之外，我還可以操作其他元資料屬性嗎？
 絕對地！ GroupDocs.Metadata 提供了廣泛的功能來管理各種文件類型的元資料。
 ### 在哪裡可以找到有關 GroupDocs.Metadata 的其他文件和支援？
-參觀[GroupDocs.元資料文檔](https://reference.groupdocs.com/metadata/net/)獲取詳細資訊。對於具體問題，請與社區聯繫：[集團文檔論壇](https://forum.groupdocs.com/c/metadata/14).
+參觀[GroupDocs.元資料文檔](https://tutorials.groupdocs.com/metadata/net/)獲取詳細資訊。對於具體問題，請與社區聯繫：[集團文檔論壇](https://forum.groupdocs.com/c/metadata/14).
 ### 是否有免費試用版可用於測試 GroupDocs.Metadata？
 是的，您可以免費試用[這裡](https://releases.groupdocs.com/).
 ### 如何取得 GroupDocs.Metadata 的臨時許可證？

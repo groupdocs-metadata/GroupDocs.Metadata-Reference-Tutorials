@@ -3,7 +3,6 @@ title: .NET의 MP3 파일에서 APE 태그 제거
 linktitle: .NET의 MP3 파일에서 APE 태그 제거
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 MP3 파일에서 APE 태그를 제거하는 방법을 알아보세요. .NET 애플리케이션에서 메타데이터를 손쉽게 관리하세요.
-type: docs
 weight: 15
 url: /ko/net/audio-metadata/remove-ape-tag-mp3/
 ---
@@ -13,7 +12,7 @@ url: /ko/net/audio-metadata/remove-ape-tag-mp3/
 튜토리얼을 시작하기 전에 다음 전제조건이 충족되었는지 확인하십시오.
 - C# 및 .NET 프레임워크에 대한 기본 지식
 - 컴퓨터에 Visual Studio가 설치되어 있습니다.
--  .NET 라이브러리용 GroupDocs.Metadata가 설치되었습니다(참조:[선적 서류 비치](https://reference.groupdocs.com/metadata/net/) 설치 단계의 경우).
+-  .NET 라이브러리용 GroupDocs.Metadata가 설치되었습니다(참조:[선적 서류 비치](https://tutorials.groupdocs.com/metadata/net/) 설치 단계의 경우).
 
 ## 네임스페이스 가져오기
 먼저 필요한 네임스페이스를 C# 프로젝트로 가져와야 합니다.

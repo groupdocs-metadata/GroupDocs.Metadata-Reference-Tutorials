@@ -3,7 +3,6 @@ title: .NET で PDF から検査プロパティを読み取る
 linktitle: .NET で PDF から検査プロパティを読み取る
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して PDF ドキュメントから検査プロパティを抽出する方法を学びます。注釈や添付ファイルなどを調べます。
-type: docs
 weight: 14
 url: /ja/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
@@ -100,7 +99,7 @@ if (root.InspectionPackage.Fields != null)
 ### GroupDocs.Metadata を PDF 以外のファイル形式で使用できますか?
 はい、GroupDocs.Metadata は、Microsoft Office ドキュメント、画像、オーディオ ファイルなど、幅広いドキュメント形式をサポートしています。
 ### GroupDocs.Metadata for .NET の詳細なドキュメントはどこで入手できますか?
-を参照してください。[ドキュメンテーション](https://reference.groupdocs.com/metadata/net/)包括的なガイダンスと API リファレンス。
+を参照してください。[ドキュメンテーション](https://tutorials.groupdocs.com/metadata/net/)包括的なガイダンスと API リファレンス。
 ### GroupDocs.Metadata の試用版はありますか?
 はい、無料トライアルは[GroupDocs リリースページ](https://releases.groupdocs.com/).
 ### GroupDocs.Metadata に関連する問題や質問についてサポートを受けるにはどうすればよいですか?

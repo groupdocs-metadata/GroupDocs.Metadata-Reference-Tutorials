@@ -3,7 +3,6 @@ title: Φόρτωση μεταδεδομένων από τη ροή στο .NET 
 linktitle: Φόρτωση μεταδεδομένων από τη ροή στο .NET Tutorial
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε να διαχειρίζεστε τα μεταδεδομένα αρχείων στο .NET με το GroupDocs.Metadata. Οδηγός βήμα προς βήμα για τη φόρτωση, την επεξεργασία και την κατάργηση μεταδεδομένων από ροές.
-type: docs
 weight: 11
 url: /el/net/metadata-loading/load-metadata-stream/
 ---
@@ -63,7 +62,7 @@ metadata.Save("Output File");
 ### Ε: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το GroupDocs.Metadata;
  Α: Μπορείτε να αποκτήσετε μια προσωρινή άδεια από[εδώ](https://purchase.groupdocs.com/temporary-license/).
 ### Ε: Πού μπορώ να βρω ολοκληρωμένη τεκμηρίωση για το GroupDocs.Metadata;
- Α: Εξερευνήστε λεπτομερή τεκμηρίωση[εδώ](https://reference.groupdocs.com/metadata/net/).
+ Α: Εξερευνήστε λεπτομερή τεκμηρίωση[εδώ](https://tutorials.groupdocs.com/metadata/net/).
 ### Ε: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το GroupDocs.Metadata;
  Α: Ναι, μπορείτε να έχετε πρόσβαση σε μια δωρεάν δοκιμή[εδώ](https://releases.groupdocs.com/).
 ### Ε: Πώς μπορώ να λάβω υποστήριξη για το GroupDocs.Metadata;

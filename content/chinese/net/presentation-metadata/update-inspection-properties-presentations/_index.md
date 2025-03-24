@@ -3,7 +3,6 @@ title: 使用 .NET 更新演示文稿中的检查属性
 linktitle: 使用 .NET 更新演示文稿中的检查属性
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 .NET 和 GroupDocs.Metadata 更新演示文稿中的检查属性。轻松、高效地操作 .PPTX 文件的元数据。
-type: docs
 weight: 17
 url: /zh/net/presentation-metadata/update-inspection-properties-presentations/
 ---
@@ -55,7 +54,7 @@ using (Metadata metadata = new Metadata("YourPresentationFile.pptx"))
 ### 我可以使用 GroupDocs.Metadata 从文件中检索元数据属性吗？
 当然，GroupDocs.Metadata 允许开发人员以编程方式提取和分析元数据属性。
 ### 在哪里可以找到 GroupDocs.Metadata 的详细文档？
-请参阅[文档](https://reference.groupdocs.com/metadata/net/)有关使用 GroupDocs.Metadata for .NET 的综合指南。
+请参阅[文档](https://tutorials.groupdocs.com/metadata/net/)有关使用 GroupDocs.Metadata for .NET 的综合指南。
 ### GroupDocs.Metadata 是否提供免费试用？
 是的，您可以访问[免费试用](https://releases.groupdocs.com/) GroupDocs.Metadata 来探索其功能。
 ### 如何获得对 GroupDocs.Metadata 的支持？

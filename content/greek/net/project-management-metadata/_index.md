@@ -3,7 +3,6 @@ title: Μεταδεδομένα Διαχείρισης Έργου
 linktitle: Μεταδεδομένα Διαχείρισης Έργου
 second_title: GroupDocs.Metadata .NET API
 description: Ξεκλειδώστε τις δυνατότητες των εγγράφων διαχείρισης έργου .NET με το GroupDocs.Metadata for .NET tutorials. Εξαγωγή, ενημέρωση και διαχείριση μεταδεδομένων χωρίς κόπο.
-type: docs
 weight: 26
 url: /el/net/project-management-metadata/
 ---

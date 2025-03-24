@@ -3,7 +3,6 @@ title: Leia propriedades personalizadas de apresentações em .NET
 linktitle: Leia propriedades personalizadas de apresentações em .NET
 second_title: API GroupDocs.Metadata .NET
 description: Saiba como ler propriedades personalizadas de apresentações em .NET usando GroupDocs.Metadata. Acesse e recupere metadados com eficiência.
-type: docs
 weight: 11
 url: /pt/net/presentation-metadata/read-custom-properties-presentations/
 ---

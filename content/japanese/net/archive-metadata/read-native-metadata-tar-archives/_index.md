@@ -3,7 +3,6 @@ title: .NET の TAR アーカイブからネイティブ メタデータ プロ�
 linktitle: .NET の TAR アーカイブからネイティブ メタデータ プロパティを読み取る
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata を使用して .NET の TAR アーカイブからメタデータを抽出する方法を学習します。このチュートリアルでは、プロセスをステップごとに説明します。
-type: docs
 weight: 12
 url: /ja/net/archive-metadata/read-native-metadata-tar-archives/
 ---

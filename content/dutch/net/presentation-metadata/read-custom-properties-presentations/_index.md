@@ -3,7 +3,6 @@ title: Lees aangepaste eigenschappen uit presentaties in .NET
 linktitle: Lees aangepaste eigenschappen uit presentaties in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u aangepaste eigenschappen uit presentaties in .NET leest met GroupDocs.Metadata. Efficiënt toegang krijgen tot metadata en deze ophalen.
-type: docs
 weight: 11
 url: /nl/net/presentation-metadata/read-custom-properties-presentations/
 ---

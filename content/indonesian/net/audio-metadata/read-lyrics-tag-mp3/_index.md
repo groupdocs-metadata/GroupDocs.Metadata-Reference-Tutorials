@@ -3,7 +3,6 @@ title: Baca Tag Lirik dari File MP3 di .NET
 linktitle: Baca Tag Lirik dari File MP3 di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengekstrak tag lirik dari file MP3 menggunakan GroupDocs.Metadata untuk .NET. Ikuti tutorial langkah demi langkah kami.
-type: docs
 weight: 13
 url: /id/net/audio-metadata/read-lyrics-tag-mp3/
 ---
@@ -62,7 +61,7 @@ Ya, GroupDocs.Metadata memungkinkan Anda memperbarui dan mengubah metadata dalam
 ### Apakah GroupDocs.Metadata mendukung format audio lain selain MP3?
 Ya, GroupDocs.Metadata mendukung berbagai format audio dan video untuk ekstraksi dan manipulasi metadata.
 ### Di mana saya dapat menemukan dokumentasi lebih rinci untuk GroupDocs.Metadata?
- Anda dapat mengakses dokumentasi lengkapnya[Di Sini](https://reference.groupdocs.com/metadata/net/).
+ Anda dapat mengakses dokumentasi lengkapnya[Di Sini](https://tutorials.groupdocs.com/metadata/net/).
 ### Apakah ada uji coba gratis yang tersedia untuk GroupDocs.Metadata?
  Ya, Anda bisa mendapatkan versi uji coba gratis[Di Sini](https://releases.groupdocs.com/).
 ### Bagaimana saya bisa mendapatkan dukungan teknis untuk GroupDocs.Metadata?

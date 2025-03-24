@@ -3,7 +3,6 @@ title: Đọc thẻ ID3V2 từ tệp MP3 trong .NET
 linktitle: Đọc thẻ ID3V2 từ tệp MP3 trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất thẻ ID3V2 từ tệp MP3 bằng GroupDocs.Metadata cho .NET. Truy cập album, nghệ sĩ và nhiều hơn nữa theo chương trình.
-type: docs
 weight: 12
 url: /vi/net/audio-metadata/read-id3v2-tag-mp3/
 ---

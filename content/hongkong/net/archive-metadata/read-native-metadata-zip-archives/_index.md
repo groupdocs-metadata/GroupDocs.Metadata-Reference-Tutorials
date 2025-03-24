@@ -3,7 +3,6 @@ title: 從 .NET 中的 ZIP 檔案讀取本機元資料屬性
 linktitle: 從 .NET 中的 ZIP 檔案讀取本機元資料屬性
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 從 ZIP 檔案中提取元資料。探索讀取本機屬性的分步說明。
-type: docs
 weight: 13
 url: /zh-hant/net/archive-metadata/read-native-metadata-zip-archives/
 ---
@@ -67,7 +66,7 @@ GroupDocs.Metadata for .NET 是一個功能強大的程式庫，可讓開發人�
 ### 如何取得 GroupDocs.Metadata 的臨時許可證？
 您可以從以下地址取得臨時許可證[這裡](https://purchase.groupdocs.com/temporary-license/).
 ### 在哪裡可以找到 GroupDocs.Metadata for .NET 的完整文件？
-可以存取文檔[這裡](https://reference.groupdocs.com/metadata/net/).
+可以存取文檔[這裡](https://tutorials.groupdocs.com/metadata/net/).
 ### 我可以免費試用 GroupDocs.Metadata for .NET 嗎？
 是的，您可以下載免費試用版[這裡](https://releases.groupdocs.com/).
 ### 我如何獲得有關 GroupDocs.Metadata for .NET 的支援或提出問題？

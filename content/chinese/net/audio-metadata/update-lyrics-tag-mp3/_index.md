@@ -3,7 +3,6 @@ title: 使用 .NET 更新 MP3 文件中的歌词标签
 linktitle: 使用 .NET 更新 MP3 文件中的歌词标签
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 以编程方式更新 MP3 文件元数据，包括歌词、艺术家和专辑详细信息。
-type: docs
 weight: 21
 url: /zh/net/audio-metadata/update-lyrics-tag-mp3/
 ---

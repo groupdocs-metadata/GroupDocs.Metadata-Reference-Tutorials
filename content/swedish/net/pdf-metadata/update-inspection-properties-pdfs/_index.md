@@ -3,7 +3,6 @@ title: Uppdatera inspektionsegenskaper i PDF-filer med .NET
 linktitle: Uppdatera inspektionsegenskaper i PDF-filer med .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du uppdaterar inspektionsegenskaper i PDF-dokument med GroupDocs.Metadata för .NET. Hantera metadata och kommentarer effektivt med C#.
-type: docs
 weight: 17
 url: /sv/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
@@ -67,6 +66,6 @@ Ja, GroupDocs.Metadata stöder olika dokumentformat som Microsoft Office, bilder
 ### Hur kan jag få support om jag stöter på problem när jag använder GroupDocs.Metadata?
  Besök[GroupDocs.Metadata-forum](https://forum.groupdocs.com/c/metadata/14) för hjälp och samhällsstöd.
 ### Var kan jag hitta detaljerad dokumentation för GroupDocs.Metadata for .NET?
- Referera till[dokumentation](https://reference.groupdocs.com/metadata/net/) för omfattande vägledning om hur du använder biblioteket.
+ Referera till[dokumentation](https://tutorials.groupdocs.com/metadata/net/) för omfattande vägledning om hur du använder biblioteket.
 ### Kan jag få en tillfällig licens för teständamål?
  Ja, du kan begära en[tillfällig licens](https://purchase.groupdocs.com/temporary-license/) i utvärderingssyfte.

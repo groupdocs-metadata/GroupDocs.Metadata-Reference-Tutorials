@@ -3,7 +3,6 @@ title: Διαβάστε την ετικέτα στίχων από αρχεία M
 linktitle: Διαβάστε την ετικέτα στίχων από αρχεία MP3 στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε ετικέτες στίχων από αρχεία MP3 χρησιμοποιώντας το GroupDocs.Metadata για .NET. Ακολουθήστε το βήμα προς βήμα σεμινάριο μας.
-type: docs
 weight: 13
 url: /el/net/audio-metadata/read-lyrics-tag-mp3/
 ---
@@ -62,7 +61,7 @@ using (Metadata metadata = new Metadata("YourInputFile.mp3"))
 ### Το GroupDocs.Metadata υποστηρίζει άλλες μορφές ήχου εκτός από το MP3;
 Ναι, το GroupDocs.Metadata υποστηρίζει ένα ευρύ φάσμα μορφών ήχου και βίντεο για εξαγωγή και χειρισμό μεταδεδομένων.
 ### Πού μπορώ να βρω πιο λεπτομερή τεκμηρίωση για το GroupDocs.Metadata;
- Μπορείτε να αποκτήσετε πρόσβαση στην πλήρη τεκμηρίωση[εδώ](https://reference.groupdocs.com/metadata/net/).
+ Μπορείτε να αποκτήσετε πρόσβαση στην πλήρη τεκμηρίωση[εδώ](https://tutorials.groupdocs.com/metadata/net/).
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή για το GroupDocs.Metadata;
  Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμαστική έκδοση[εδώ](https://releases.groupdocs.com/).
 ### Πώς μπορώ να λάβω τεχνική υποστήριξη για το GroupDocs.Metadata;

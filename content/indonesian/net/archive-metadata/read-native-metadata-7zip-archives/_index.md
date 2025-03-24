@@ -3,7 +3,6 @@ title: Baca Properti Metadata Asli dari Arsip 7Zip di .NET
 linktitle: Baca Properti Metadata Asli dari Arsip 7Zip di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara membaca properti metadata asli dari arsip 7Zip menggunakan GroupDocs.Metadata untuk .NET. Tingkatkan kemampuan manajemen data aplikasi .NET Anda.
-type: docs
 weight: 11
 url: /id/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
@@ -64,7 +63,7 @@ Ya, GroupDocs.Metadata memberikan kemampuan canggih untuk mengedit, menghapus, d
 ### Apakah GroupDocs.Metadata kompatibel dengan format arsip lain seperti RAR atau TAR?
 Ya, GroupDocs.Metadata mendukung berbagai format arsip, antara lain RAR, TAR, dan ZIP.
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk GroupDocs.Metadata untuk .NET?
- Anda dapat mengakses dokumentasinya[Di Sini](https://reference.groupdocs.com/metadata/net/).
+ Anda dapat mengakses dokumentasinya[Di Sini](https://tutorials.groupdocs.com/metadata/net/).
 ### Bagaimana cara mendapatkan lisensi sementara untuk GroupDocs.Metadata?
  Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.groupdocs.com/temporary-license/).
 ### Apakah GroupDocs.Metadata menawarkan dukungan untuk pemecahan masalah dan pertanyaan?

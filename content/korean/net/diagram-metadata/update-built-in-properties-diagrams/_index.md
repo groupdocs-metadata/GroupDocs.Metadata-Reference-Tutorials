@@ -3,7 +3,6 @@ title: .NET을 사용하여 다이어그램의 기본 제공 속성 업데이트
 linktitle: .NET을 사용하여 다이어그램의 기본 제공 속성 업데이트
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 다이어그램의 기본 제공 속성을 업데이트하는 방법을 알아보세요. 코드 예제를 사용하여 메타데이터를 원활하게 수정하세요.
-type: docs
 weight: 14
 url: /ko/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
@@ -79,7 +78,7 @@ A: 예, .NET용 GroupDocs.Metadata는 EXIF, IPTC, XMP 및 사용자 정의 속�
  A: 다음을 방문하실 수 있습니다.[GroupDocs.메타데이터 포럼](https://forum.groupdocs.com/c/metadata/14) 도움을 위해.
 
 ### Q: .NET용 GroupDocs.Metadata에 대한 자세한 설명서는 어디에서 찾을 수 있습니까?
- A: 포괄적인 내용을 참조하세요.[선적 서류 비치](https://reference.groupdocs.com/metadata/net/) 심층적인 안내를 위해.
+ A: 포괄적인 내용을 참조하세요.[선적 서류 비치](https://tutorials.groupdocs.com/metadata/net/) 심층적인 안내를 위해.
 
 ### Q: 단기 사용을 위해 임시 라이선스를 구입할 수 있나요?
  A: 예, 다음에서 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.groupdocs.com/temporary-license/).

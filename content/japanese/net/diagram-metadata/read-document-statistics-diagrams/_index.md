@@ -3,7 +3,6 @@ title: .NET の図からドキュメント統計を読み取る
 linktitle: .NET の図からドキュメント統計を読み取る
 second_title: GroupDocs.Metadata .NET API
 description: 強力なメタデータ操作ライブラリである GroupDocs.Metadata を使用して、.NET のダイアグラムからドキュメント統計を抽出する方法を学習します。
-type: docs
 weight: 12
 url: /ja/net/diagram-metadata/read-document-statistics-diagrams/
 ---
@@ -53,7 +52,7 @@ Console.WriteLine(root.DocumentStatistics.PageCount);
 ### GroupDocs.Metadata for .NET をダイアグラム以外のファイル形式で使用できますか?
 はい、GroupDocs.Metadata は、画像、ドキュメント、プレゼンテーション、スプレッドシートなど、さまざまなファイル形式をサポートしています。
 ### GroupDocs.Metadata for .NET の詳細なドキュメントはどこで入手できますか?
-参照するには[ドキュメンテーション](https://reference.groupdocs.com/metadata/net/)包括的なガイダンスを提供します。
+参照するには[ドキュメンテーション](https://tutorials.groupdocs.com/metadata/net/)包括的なガイダンスを提供します。
 ### GroupDocs.Metadata for .NET に利用できる無料試用版はありますか?
 はい、アクセスできます[無料トライアル](https://releases.groupdocs.com/) GroupDocs.Metadata の機能を調べます。
 ### GroupDocs.Metadata for .NET のテクニカル サポートを受けるにはどうすればよいですか?

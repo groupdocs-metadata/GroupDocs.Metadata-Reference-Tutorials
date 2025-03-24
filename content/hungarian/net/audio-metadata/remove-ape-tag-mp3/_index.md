@@ -3,7 +3,6 @@ title: Távolítsa el az APE-címkét az MP3-fájlokból a .NET-ben
 linktitle: Távolítsa el az APE-címkét az MP3-fájlokból a .NET-ben
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan távolíthat el APE-címkéket MP3-fájlokból a GroupDocs.Metadata for .NET segítségével. Könnyedén kezelheti a metaadatokat .NET-alkalmazásaiban.
-type: docs
 weight: 15
 url: /hu/net/audio-metadata/remove-ape-tag-mp3/
 ---
@@ -13,7 +12,7 @@ A .NET fejlesztés területén a fájlok metaadatainak kezelése kulcsfontosság
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 - C# és .NET keretrendszer alapismeretei.
 - A Visual Studio telepítve van a gépedre.
--  A GroupDocs.Metadata a .NET könyvtárhoz telepítve (lásd:[dokumentáció](https://reference.groupdocs.com/metadata/net/) a telepítés lépéseihez).
+-  A GroupDocs.Metadata a .NET könyvtárhoz telepítve (lásd:[dokumentáció](https://tutorials.groupdocs.com/metadata/net/) a telepítés lépéseihez).
 
 ## Névterek importálása
 Először győződjön meg róla, hogy importálja a szükséges névtereket a C# projektbe:

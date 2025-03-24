@@ -3,7 +3,6 @@ title: Cách tải siêu dữ liệu từ đĩa cục bộ trong .NET
 linktitle: Cách tải siêu dữ liệu từ đĩa cục bộ trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Dễ dàng quản lý siêu dữ liệu tệp trong các ứng dụng .NET bằng GroupDocs.Metadata để nâng cao khả năng thao tác tệp.
-type: docs
 weight: 10
 url: /vi/net/metadata-loading/load-metadata-local-disk/
 ---
@@ -62,7 +61,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách sử dụng GroupDo
 ### Câu hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho GroupDocs.Metadata?
  Đáp: Bạn có thể xin giấy phép tạm thời từ[Trang mua GroupDocs](https://purchase.groupdocs.com/temporary-license/).
 ### Câu hỏi: Tôi có thể tìm tài liệu toàn diện về GroupDocs.Metadata ở đâu?
- A: Khám phá tài liệu chi tiết tại[GroupDocs.Metadata cho Tài liệu .NET](https://reference.groupdocs.com/metadata/net/).
+ A: Khám phá tài liệu chi tiết tại[GroupDocs.Metadata cho Tài liệu .NET](https://tutorials.groupdocs.com/metadata/net/).
 ### Câu hỏi: GroupDocs.Metadata có hỗ trợ phiên bản dùng thử miễn phí không?
  Đáp: Có, bạn có thể truy cập bản dùng thử miễn phí của GroupDocs.Metadata từ[đây](https://releases.groupdocs.com/).
 ### Câu hỏi: Tôi có thể nhận hỗ trợ hoặc đặt câu hỏi liên quan đến GroupDocs.Metadata ở đâu?

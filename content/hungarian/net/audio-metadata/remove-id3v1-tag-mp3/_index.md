@@ -3,7 +3,6 @@ title: Távolítsa el az ID3V1 címkét az MP3 fájlokból a .NET-ben
 linktitle: Távolítsa el az ID3V1 címkét az MP3 fájlokból a .NET-ben
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan távolíthat el ID3V1 címkéket MP3 fájlokból a GroupDocs.Metadata for .NET segítségével. Könnyű, lépésről lépésre útmutató gyakorlati példákkal.
-type: docs
 weight: 16
 url: /hu/net/audio-metadata/remove-id3v1-tag-mp3/
 ---
@@ -56,7 +55,7 @@ Ebben az oktatóanyagban bemutattuk, hogyan távolíthatja el az ID3V1 címkét 
 ### Az MP3-on kívül más formátumú metaadatokat is kezelhetek ezzel a könyvtárral?
 Igen, a GroupDocs.Metadata a fájlformátumok széles skáláját támogatja, beleértve a DOCX, XLSX, PDF, PNG, JPG és egyéb fájlformátumokat.
 ### Hol találok további dokumentációt a GroupDocs.Metadata for .NET-hez?
- A részletes dokumentáció elérhető[itt](https://reference.groupdocs.com/metadata/net/).
+ A részletes dokumentáció elérhető[itt](https://tutorials.groupdocs.com/metadata/net/).
 ### Hogyan kaphatok támogatást, vagy hogyan tehetek fel kérdéseket a GroupDocs.Metadata-val kapcsolatban?
  Kérdéseit közzéteheti a GroupDocs.Metadata fórumon[itt](https://forum.groupdocs.com/c/metadata/14).
 ### Van-e ideiglenes licenc tesztelési célokra?

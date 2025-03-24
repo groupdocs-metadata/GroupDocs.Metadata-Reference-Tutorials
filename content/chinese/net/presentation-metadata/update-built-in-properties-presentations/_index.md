@@ -3,7 +3,6 @@ title: 使用 .NET 更新演示文稿中的内置属性
 linktitle: 使用 .NET 更新演示文稿中的内置属性
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 .NET 和 GroupDocs.Metadata（一个多功能元数据操作库）更新演示文稿中的内置属性。
-type: docs
 weight: 15
 url: /zh/net/presentation-metadata/update-built-in-properties-presentations/
 ---
@@ -51,7 +50,7 @@ metadata.Save("YourPresentationFile.pptx");
 ### 问：.NET 的 GroupDocs.Metadata 是什么？
 答：GroupDocs.Metadata for .NET 是一个强大的 .NET 框架元数据操作库，允许开发人员读取、写入和编辑各种文档格式的元数据。
 ### 问：在哪里可以找到 GroupDocs.Metadata 的文档？
-答：您可以访问详细文档[这里](https://reference.groupdocs.com/metadata/net/).
+答：您可以访问详细文档[这里](https://tutorials.groupdocs.com/metadata/net/).
 ### 问：如何获得 GroupDocs.Metadata 的临时许可证？
 答：您可以获得临时驾照[这里](https://purchase.groupdocs.com/temporary-license/).
 ### 问：除了演示文稿之外，GroupDocs.Metadata 还支持其他文件格式吗？

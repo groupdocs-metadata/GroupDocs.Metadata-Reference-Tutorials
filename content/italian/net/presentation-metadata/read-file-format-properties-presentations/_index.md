@@ -3,7 +3,6 @@ title: Leggere le proprietà del formato file dalle presentazioni in .NET
 linktitle: Leggere le proprietà del formato file dalle presentazioni in .NET
 second_title: API GroupDocs.Metadata .NET
 description: Informazioni su come leggere le proprietà dei file di presentazione in .NET utilizzando GroupDocs.Metadata. Accedi ai dettagli del formato file in modo programmatico.
-type: docs
 weight: 13
 url: /it/net/presentation-metadata/read-file-format-properties-presentations/
 ---

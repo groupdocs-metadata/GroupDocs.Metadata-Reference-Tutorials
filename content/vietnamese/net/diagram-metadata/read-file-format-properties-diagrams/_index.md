@@ -3,7 +3,6 @@ title: Đọc thuộc tính định dạng tệp từ sơ đồ trong .NET
 linktitle: Đọc thuộc tính định dạng tệp từ sơ đồ trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách đọc thuộc tính định dạng tệp từ sơ đồ trong .NET bằng GroupDocs.Metadata. Trích xuất siêu dữ liệu chi tiết một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
@@ -49,7 +48,7 @@ Có, GroupDocs.Metadata dành cho .NET hỗ trợ trích xuất và sửa đổi
 ### Có phiên bản dùng thử cho GroupDocs.Metadata cho .NET không?
  Có, bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.groupdocs.com/).
 ### Tôi có thể tìm tài liệu chi tiết về GroupDocs.Metadata cho .NET ở đâu?
- Tham khảo tài liệu[đây](https://reference.groupdocs.com/metadata/net/).
+ Tham khảo tài liệu[đây](https://tutorials.groupdocs.com/metadata/net/).
 ### Làm cách nào tôi có thể mua giấy phép GroupDocs.Metadata cho .NET?
  Bạn có thể mua giấy phép từ[đây](https://purchase.groupdocs.com/buy).
 ### Tôi có thể tìm kiếm hỗ trợ kỹ thuật hoặc đặt câu hỏi liên quan đến GroupDocs.Metadata cho .NET ở đâu?

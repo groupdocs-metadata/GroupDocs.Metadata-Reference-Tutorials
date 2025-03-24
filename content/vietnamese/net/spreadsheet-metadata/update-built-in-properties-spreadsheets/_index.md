@@ -3,7 +3,6 @@ title: Cập nhật các thuộc tính tích hợp trong bảng tính bằng .NE
 linktitle: Cập nhật các thuộc tính tích hợp trong bảng tính bằng .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật thuộc tính siêu dữ liệu tích hợp trong tệp Excel bằng GroupDocs.Metadata cho .NET. Sửa đổi tác giả, thời gian tạo, công ty, v.v. bằng C#.
-type: docs
 weight: 14
 url: /vi/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
 ---

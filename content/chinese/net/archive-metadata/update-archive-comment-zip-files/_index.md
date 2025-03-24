@@ -3,7 +3,6 @@ title: 使用 .NET 更新 ZIP 文件中的存档注释
 linktitle: 使用 .NET 更新 ZIP 文件中的存档注释
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 更新 ZIP 文件中的存档注释。轻松增强 C# 应用程序中的元数据管理。
-type: docs
 weight: 15
 url: /zh/net/archive-metadata/update-archive-comment-zip-files/
 ---
@@ -55,4 +54,4 @@ using (Metadata metadata = new Metadata("YourInputFile.zip"))
 ### GroupDocs.Metadata 是否为开发人员提供支持？
 是的，您可以在以下位置找到开发人员支持和资源：[集团文档论坛](https://forum.groupdocs.com/c/metadata/14).
 ### 在哪里可以找到适用于 .NET 的 GroupDocs.Metadata 的综合文档？
-文档可用[这里](https://reference.groupdocs.com/metadata/net/).
+文档可用[这里](https://tutorials.groupdocs.com/metadata/net/).

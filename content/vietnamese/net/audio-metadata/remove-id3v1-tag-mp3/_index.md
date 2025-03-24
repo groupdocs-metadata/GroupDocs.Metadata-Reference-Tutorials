@@ -3,7 +3,6 @@ title: Xóa thẻ ID3V1 khỏi tệp MP3 trong .NET
 linktitle: Xóa thẻ ID3V1 khỏi tệp MP3 trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách xóa thẻ ID3V1 khỏi tệp MP3 bằng GroupDocs.Metadata cho .NET. Hướng dẫn từng bước dễ dàng với các ví dụ thực tế.
-type: docs
 weight: 16
 url: /vi/net/audio-metadata/remove-id3v1-tag-mp3/
 ---
@@ -56,7 +55,7 @@ Trong hướng dẫn này, chúng tôi đã trình bày cách xóa thẻ ID3V1 k
 ### Tôi có thể thao tác siêu dữ liệu ở các định dạng tệp khác ngoài MP3 bằng thư viện này không?
 Có, GroupDocs.Metadata hỗ trợ nhiều định dạng tệp bao gồm DOCX, XLSX, PDF, PNG, JPG, v.v.
 ### Tôi có thể tìm thêm tài liệu về GroupDocs.Metadata cho .NET ở đâu?
- Tài liệu chi tiết có sẵn[đây](https://reference.groupdocs.com/metadata/net/).
+ Tài liệu chi tiết có sẵn[đây](https://tutorials.groupdocs.com/metadata/net/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ hoặc đặt câu hỏi liên quan đến GroupDocs.Metadata?
  Bạn có thể đăng truy vấn của mình trên diễn đàn GroupDocs.Metadata[đây](https://forum.groupdocs.com/c/metadata/14).
 ### Có giấy phép tạm thời có sẵn cho mục đích thử nghiệm không?

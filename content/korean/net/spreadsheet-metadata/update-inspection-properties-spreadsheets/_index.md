@@ -3,7 +3,6 @@ title: .NET을 사용하여 스프레드시트의 검사 속성 업데이트
 linktitle: .NET을 사용하여 스프레드시트의 검사 속성 업데이트
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 스프레드시트의 검사 속성을 업데이트하는 방법을 알아보세요. 댓글, 서명, 숨겨진 시트를 쉽게 관리하세요.
-type: docs
 weight: 16
 url: /ko/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ metadata.Save("YourOutputFile.xlsx");
 ### GroupDocs.Metadata를 사용하여 다른 메타데이터 속성을 수정할 수 있습니까?
 물론, GroupDocs.Metadata를 사용하면 작성자, 제목, 생성 날짜 등과 같은 메타데이터 속성을 읽고, 업데이트하고, 제거하고 추가할 수 있습니다.
 ### .NET용 GroupDocs.Metadata에 대한 자세한 설명서는 어디서 찾을 수 있나요?
- 종합적으로 참고하실 수 있습니다[선적 서류 비치](https://reference.groupdocs.com/metadata/net/) 사용 가능한 온라인.
+ 종합적으로 참고하실 수 있습니다[선적 서류 비치](https://tutorials.groupdocs.com/metadata/net/) 사용 가능한 온라인.
 ### .NET용 GroupDocs.Metadata에 대한 무료 평가판이 있습니까?
  예, 액세스할 수 있습니다[무료 시험판](https://releases.groupdocs.com/) API를 평가합니다.
 ### .NET용 GroupDocs.Metadata에 대한 기술 지원을 받으려면 어떻게 해야 합니까?

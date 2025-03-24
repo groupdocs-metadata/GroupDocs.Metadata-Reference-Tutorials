@@ -3,7 +3,6 @@ title: Διαβάστε προσαρμοσμένες ιδιότητες από �
 linktitle: Διαβάστε προσαρμοσμένες ιδιότητες από υπολογιστικά φύλλα στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε προσαρμοσμένες ιδιότητες από υπολογιστικά φύλλα χρησιμοποιώντας το GroupDocs.Metadata για .NET. Βελτιώστε τον χειρισμό μεταδεδομένων στις εφαρμογές σας .NET.
-type: docs
 weight: 11
 url: /el/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---

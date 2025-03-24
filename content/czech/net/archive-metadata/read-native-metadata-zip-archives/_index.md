@@ -3,7 +3,6 @@ title: Přečtěte si vlastnosti nativních metadat z archivů ZIP v .NET
 linktitle: Přečtěte si vlastnosti nativních metadat z archivů ZIP v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat metadata z archivů ZIP pomocí GroupDocs.Metadata pro .NET. Prozkoumejte podrobné pokyny pro čtení nativních vlastností.
-type: docs
 weight: 13
 url: /cs/net/archive-metadata/read-native-metadata-zip-archives/
 ---
@@ -67,7 +66,7 @@ GroupDocs.Metadata for .NET je výkonná knihovna, která umožňuje vývojář�
 ### Jak mohu získat dočasnou licenci pro GroupDocs.Metadata?
  Dočasnou licenci můžete získat od[tady](https://purchase.groupdocs.com/temporary-license/).
 ### Kde najdu kompletní dokumentaci k GroupDocs.Metadata pro .NET?
- Dokumentace je přístupná[tady](https://reference.groupdocs.com/metadata/net/).
+ Dokumentace je přístupná[tady](https://tutorials.groupdocs.com/metadata/net/).
 ### Mohu vyzkoušet GroupDocs.Metadata pro .NET zdarma?
  Ano, můžete si stáhnout bezplatnou zkušební verzi[tady](https://releases.groupdocs.com/).
 ### Jak mohu získat podporu nebo se ptát na GroupDocs.Metadata pro .NET?

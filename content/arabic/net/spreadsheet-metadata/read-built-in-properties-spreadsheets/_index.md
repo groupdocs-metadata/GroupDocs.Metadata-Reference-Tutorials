@@ -3,7 +3,6 @@ title: قراءة الخصائص المضمنة من جداول البيانات
 linktitle: قراءة الخصائص المضمنة من جداول البيانات في .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج بيانات التعريف من جداول البيانات في .NET باستخدام GroupDocs.Metadata، مما يعزز إدارة المستندات وتنظيمها في تطبيقاتك.
-type: docs
 weight: 10
 url: /ar/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Console.WriteLine(root.DocumentProperties.ContentType);
 ### هل يمكنني تعديل بيانات التعريف باستخدام GroupDocs.Metadata لـ .NET؟
 نعم، لا يمكنك قراءة البيانات الوصفية فحسب، بل يمكنك أيضًا تحريرها وتحديثها وإزالتها باستخدام واجهة برمجة التطبيقات هذه.
 ### أين يمكنني العثور على الوثائق التفصيلية لـ GroupDocs.Metadata لـ .NET؟
- الوثائق التفصيلية متاحة على[GroupDocs.Metadata لوثائق .NET](https://reference.groupdocs.com/metadata/net/).
+ الوثائق التفصيلية متاحة على[GroupDocs.Metadata لوثائق .NET](https://tutorials.groupdocs.com/metadata/net/).
 ### كيف يمكنني الحصول على ترخيص مؤقت لأغراض الاختبار؟
  يمكنك طلب ترخيص مؤقت من[هنا](https://purchase.groupdocs.com/temporary-license/).
 ### هل يوجد منتدى مجتمعي لدعم GroupDocs.Metadata؟

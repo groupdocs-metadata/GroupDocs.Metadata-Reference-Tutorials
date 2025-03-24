@@ -3,7 +3,6 @@ title: ข้อมูลเมตา PDF
 linktitle: ข้อมูลเมตา PDF
 second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีจัดการข้อมูลเมตา PDF ได้อย่างง่ายดายด้วยบทช่วยสอน GroupDocs.Metadata สำหรับ .NET เข้าถึงคุณสมบัติในตัวและแบบกำหนดเองด้วยรหัส C#
-type: docs
 weight: 24
 url: /th/net/pdf-metadata/
 ---

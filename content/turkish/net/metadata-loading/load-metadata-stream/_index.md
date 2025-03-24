@@ -3,7 +3,6 @@ title: .NET Eğitiminde Akıştan Meta Veri Yükleme
 linktitle: .NET Eğitiminde Akıştan Meta Veri Yükleme
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata ile .NET'te dosya meta verilerini yönetmeyi öğrenin. Akışlardan meta verileri yüklemek, düzenlemek ve kaldırmak için adım adım kılavuz.
-type: docs
 weight: 11
 url: /tr/net/metadata-loading/load-metadata-stream/
 ---
@@ -63,7 +62,7 @@ Bu öğreticide, GroupDocs.Metadata for .NET kullanarak bir akıştan meta veri 
 ### S: GroupDocs.Metadata için nasıl geçici lisans alabilirim?
  C: Şu adresten geçici bir lisans alabilirsiniz:[Burada](https://purchase.groupdocs.com/temporary-license/).
 ### S: GroupDocs.Metadata için kapsamlı belgeleri nerede bulabilirim?
- C: Ayrıntılı belgeleri inceleyin[Burada](https://reference.groupdocs.com/metadata/net/).
+ C: Ayrıntılı belgeleri inceleyin[Burada](https://tutorials.groupdocs.com/metadata/net/).
 ### S: GroupDocs.Metadata'nın ücretsiz deneme sürümü mevcut mu?
  C: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.groupdocs.com/).
 ### S: GroupDocs.Metadata için nasıl destek alabilirim?

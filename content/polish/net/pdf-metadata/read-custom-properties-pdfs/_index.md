@@ -3,7 +3,6 @@ title: Czytaj właściwości niestandardowe z plików PDF w .NET
 linktitle: Czytaj właściwości niestandardowe z plików PDF w .NET
 second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak wyodrębnić niestandardowe właściwości z plików PDF przy użyciu GroupDocs.Metadata dla .NET. Zanurz się w zarządzaniu metadanymi dokumentów za pomocą języka C#.
-type: docs
 weight: 11
 url: /pl/net/pdf-metadata/read-custom-properties-pdfs/
 ---
@@ -54,7 +53,7 @@ Tak, GroupDocs.Metadata umożliwia edycję, usuwanie lub dodawanie niestandardow
 ### Czy GroupDocs.Metadata obsługuje inne formaty plików oprócz PDF?
 Tak, GroupDocs.Metadata obsługuje szeroką gamę formatów plików, w tym dokumenty programu Word, arkusze kalkulacyjne programu Excel, prezentacje programu PowerPoint, obrazy i inne.
 ### Gdzie mogę znaleźć dalszą dokumentację i wsparcie dotyczące GroupDocs.Metadata?
- Patrz[dokumentacja](https://reference.groupdocs.com/metadata/net/) w celu uzyskania wyczerpujących informacji. Aby uzyskać dodatkowe wsparcie, odwiedź stronę[Forum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14).
+ Patrz[dokumentacja](https://tutorials.groupdocs.com/metadata/net/) w celu uzyskania wyczerpujących informacji. Aby uzyskać dodatkowe wsparcie, odwiedź stronę[Forum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14).
 ### Czy dostępna jest bezpłatna wersja próbna GroupDocs.Metadata?
  Tak, możesz dostać[bezpłatna wersja próbna](https://releases.groupdocs.com/) aby poznać funkcje GroupDocs.Metadata.
 ### Jak mogę kupić licencję na GroupDocs.Metadata?

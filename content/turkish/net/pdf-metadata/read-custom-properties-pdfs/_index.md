@@ -3,7 +3,6 @@ title: .NET'teki PDF'lerden Özel Özellikleri Okuyun
 linktitle: .NET'teki PDF'lerden Özel Özellikleri Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak PDF'lerden özel özellikleri nasıl çıkaracağınızı öğrenin. C# ile belge meta veri yönetimine dalın.
-type: docs
 weight: 11
 url: /tr/net/pdf-metadata/read-custom-properties-pdfs/
 ---
@@ -54,7 +53,7 @@ Evet, GroupDocs.Metadata çeşitli belge formatlarını düzenlemenize, kaldırm
 ### GroupDocs.Metadata, PDF'nin yanı sıra diğer dosya formatlarını da destekliyor mu?
 Evet, GroupDocs.Metadata, Word belgeleri, Excel elektronik tabloları, PowerPoint sunumları, resimler ve daha fazlasını içeren çok çeşitli dosya formatlarını destekler.
 ### GroupDocs.Metadata için daha fazla belge ve desteği nerede bulabilirim?
- Bakın[dokümantasyon](https://reference.groupdocs.com/metadata/net/) kapsamlı bilgi için. Ek destek için şu adresi ziyaret edin:[GroupDocs.Meta veri forumu](https://forum.groupdocs.com/c/metadata/14).
+ Bakın[dokümantasyon](https://tutorials.groupdocs.com/metadata/net/) kapsamlı bilgi için. Ek destek için şu adresi ziyaret edin:[GroupDocs.Meta veri forumu](https://forum.groupdocs.com/c/metadata/14).
 ### GroupDocs.Metadata'nın ücretsiz deneme sürümü mevcut mu?
  Evet, alabilirsiniz[ücretsiz deneme](https://releases.groupdocs.com/) GroupDocs.Metadata'nın özelliklerini keşfetmek için.
 ### GroupDocs.Metadata lisansını nasıl satın alabilirim?

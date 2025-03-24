@@ -3,7 +3,6 @@ title: Đọc Thuộc tính Tùy chỉnh từ Bảng tính trong .NET
 linktitle: Đọc Thuộc tính Tùy chỉnh từ Bảng tính trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất các thuộc tính tùy chỉnh từ bảng tính bằng GroupDocs.Metadata cho .NET. Tăng cường thao tác siêu dữ liệu trong các ứng dụng .NET của bạn.
-type: docs
 weight: 11
 url: /vi/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---

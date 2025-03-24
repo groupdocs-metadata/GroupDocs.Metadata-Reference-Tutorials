@@ -3,7 +3,6 @@ title: Přečtěte si vlastnosti nativních metadat z archivů 7Zip v .NET
 linktitle: Přečtěte si vlastnosti nativních metadat z archivů 7Zip v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se číst vlastnosti nativních metadat z archivů 7Zip pomocí GroupDocs.Metadata pro .NET. Vylepšete možnosti správy dat své aplikace .NET.
-type: docs
 weight: 11
 url: /cs/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
@@ -64,7 +63,7 @@ Ano, GroupDocs.Metadata poskytuje robustní možnosti pro úpravy, odstraňován
 ### Je GroupDocs.Metadata kompatibilní s jinými archivními formáty, jako je RAR nebo TAR?
 Ano, GroupDocs.Metadata podporuje širokou škálu archivních formátů, mimo jiné včetně RAR, TAR a ZIP.
 ### Kde najdu podrobnou dokumentaci k GroupDocs.Metadata pro .NET?
- Máte přístup k dokumentaci[tady](https://reference.groupdocs.com/metadata/net/).
+ Máte přístup k dokumentaci[tady](https://tutorials.groupdocs.com/metadata/net/).
 ### Jak získám dočasnou licenci pro GroupDocs.Metadata?
  Můžete získat dočasnou licenci[tady](https://purchase.groupdocs.com/temporary-license/).
 ### Nabízí GroupDocs.Metadata podporu pro odstraňování problémů a dotazy?

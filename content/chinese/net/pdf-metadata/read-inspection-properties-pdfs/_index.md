@@ -3,7 +3,6 @@ title: 从 .NET 中的 PDF 读取检查属性
 linktitle: 从 .NET 中的 PDF 读取检查属性
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 从 PDF 文档中提取检查属性。探索注释、附件等。
-type: docs
 weight: 14
 url: /zh/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
@@ -100,7 +99,7 @@ if (root.InspectionPackage.Fields != null)
 ### 我可以将 GroupDocs.Metadata 与除 PDF 之外的其他文件格式一起使用吗？
 是的，GroupDocs.Metadata 支持多种文档格式，包括 Microsoft Office 文档、图像、音频文件等。
 ### 在哪里可以找到有关 .NET 的 GroupDocs.Metadata 的详细文档？
-请参阅[文档](https://reference.groupdocs.com/metadata/net/)获取全面的指导和 API 参考。
+请参阅[文档](https://tutorials.groupdocs.com/metadata/net/)获取全面的指导和 API 参考。
 ### GroupDocs.Metadata 是否有试用版？
 是的，您可以从[GroupDocs 发布页面](https://releases.groupdocs.com/).
 ### 对于与 GroupDocs.Metadata 相关的任何问题或查询，如何获得支持？

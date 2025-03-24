@@ -3,7 +3,6 @@ title: Baca Statistik Dokumen dari Diagram di .NET
 linktitle: Baca Statistik Dokumen dari Diagram di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengekstrak statistik dokumen dari diagram di .NET menggunakan GroupDocs.Metadata, pustaka manipulasi metadata yang canggih.
-type: docs
 weight: 12
 url: /id/net/diagram-metadata/read-document-statistics-diagrams/
 ---
@@ -53,7 +52,7 @@ Dalam tutorial ini, kita menjelajahi cara mengekstrak statistik dokumen dari dia
 ### Bisakah saya menggunakan GroupDocs.Metadata untuk .NET dengan format file lain selain diagram?
 Ya, GroupDocs.Metadata mendukung berbagai format file termasuk gambar, dokumen, presentasi, spreadsheet, dan banyak lagi.
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk GroupDocs.Metadata untuk .NET?
- Anda dapat merujuk ke[dokumentasi](https://reference.groupdocs.com/metadata/net/) untuk panduan komprehensif.
+ Anda dapat merujuk ke[dokumentasi](https://tutorials.groupdocs.com/metadata/net/) untuk panduan komprehensif.
 ### Apakah ada uji coba gratis yang tersedia untuk GroupDocs.Metadata untuk .NET?
  Ya, Anda dapat mengakses a[uji coba gratis](https://releases.groupdocs.com/) untuk menjelajahi fitur GroupDocs.Metadata.
 ### Bagaimana saya bisa mendapatkan dukungan teknis untuk GroupDocs.Metadata untuk .NET?

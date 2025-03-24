@@ -3,7 +3,6 @@ title: Frissítse a vizsgálati tulajdonságokat a táblázatokban a .NET haszn�
 linktitle: Frissítse a vizsgálati tulajdonságokat a táblázatokban a .NET használatával
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan frissítheti a vizsgálati tulajdonságokat a táblázatokban a GroupDocs.Metadata for .NET használatával. Könnyedén kezelheti a megjegyzéseket, aláírásokat és rejtett lapokat.
-type: docs
 weight: 16
 url: /hu/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ Igen, a GroupDocs.Metadata különféle táblázatformátumokat támogat, beleé
 ### Módosíthatok más metaadat-tulajdonságokat a GroupDocs.Metadata segítségével?
 Természetesen a GroupDocs.Metadata lehetővé teszi metaadat-tulajdonságok, például szerző, cím, létrehozási dátum stb. olvasását, frissítését, eltávolítását és hozzáadását.
 ### Hol találom a GroupDocs.Metadata for .NET részletes dokumentációját?
- Lehet hivatkozni az átfogóra[dokumentáció](https://reference.groupdocs.com/metadata/net/) online elérhető.
+ Lehet hivatkozni az átfogóra[dokumentáció](https://tutorials.groupdocs.com/metadata/net/) online elérhető.
 ### Létezik ingyenes próbaverzió a GroupDocs.Metadata for .NET számára?
  Igen, hozzáférhet a[ingyenes próbaverzió](https://releases.groupdocs.com/) az API értékeléséhez.
 ### Hogyan kaphatok technikai támogatást a GroupDocs.Metadata for .NET-hez?

@@ -4,7 +4,6 @@ linktitle: 試算表元數據
 second_title: GroupDocs.元資料 .NET API
 description: 透過有關讀取和更新電子表格屬性的教學課程，解鎖 GroupDocs.Metadata for .NET 的強大功能。提升 .NET 應用程式中的元資料操作。
 
-type: docs
 weight: 27
 url: /zh-hant/net/spreadsheet-metadata/
 ---

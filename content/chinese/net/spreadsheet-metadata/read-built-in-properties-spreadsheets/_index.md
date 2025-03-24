@@ -3,7 +3,6 @@ title: 从 .NET 中的电子表格读取内置属性
 linktitle: 从 .NET 中的电子表格读取内置属性
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata 从 .NET 中的电子表格中提取元数据，增强应用程序中的文档管理和组织。
-type: docs
 weight: 10
 url: /zh/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Console.WriteLine(root.DocumentProperties.ContentType);
 ### 我可以使用 GroupDocs.Metadata for .NET 修改元数据吗？
 是的，您不仅可以使用此 API 读取元数据，还可以编辑、更新和删除元数据。
 ### 在哪里可以找到有关 .NET 的 GroupDocs.Metadata 的详细文档？
-详细文档可参见[.NET 文档的 GroupDocs.Metadata](https://reference.groupdocs.com/metadata/net/).
+详细文档可参见[.NET 文档的 GroupDocs.Metadata](https://tutorials.groupdocs.com/metadata/net/).
 ### 我如何才能获得用于测试目的的临时许可证？
 您可以从申请临时许可证[这里](https://purchase.groupdocs.com/temporary-license/).
 ### 是否有一个 GroupDocs.Metadata 支持的社区论坛？

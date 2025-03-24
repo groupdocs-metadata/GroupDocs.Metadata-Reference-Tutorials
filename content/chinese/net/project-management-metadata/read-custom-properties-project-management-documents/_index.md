@@ -3,7 +3,6 @@ title: 阅读 .NET 项目管理文档中的自定义属性
 linktitle: 阅读 .NET 项目管理文档中的自定义属性
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 从 .NET 项目管理文档中提取自定义属性。增强元数据管理。
-type: docs
 weight: 11
 url: /zh/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
@@ -58,7 +57,7 @@ GroupDocs.Metadata 支持多种项目管理格式，包括 Microsoft Project (MP
 ### 使用 GroupDocs.Metadata for .NET 是否需要许可证？
 是的，商业使用需要许可证。你可以从[这里](https://purchase.groupdocs.com/temporary-license/).
 ### 我如何访问 GroupDocs.Metadata 的更多文档？
-探索详细文档[参考页](https://reference.groupdocs.com/metadata/net/).
+探索详细文档[参考页](https://tutorials.groupdocs.com/metadata/net/).
 ### 在哪里可以获得与 GroupDocs.Metadata 相关的查询的支持？
 加入社区[GroupDocs 元数据论坛](https://forum.groupdocs.com/c/metadata/14)寻求支持和讨论。
 ### 购买之前我可以免费试用 GroupDocs.Metadata 吗？

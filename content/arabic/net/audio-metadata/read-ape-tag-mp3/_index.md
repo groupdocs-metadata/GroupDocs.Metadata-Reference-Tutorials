@@ -3,7 +3,6 @@ title: قراءة علامة APE من ملفات MP3 في .NET
 linktitle: قراءة علامة APE من ملفات MP3 في .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية قراءة علامات APE من ملفات MP3 باستخدام GroupDocs.Metadata لـ .NET. استكشف استخراج البيانات التعريفية في لغة C# مع إرشادات خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/net/audio-metadata/read-ape-tag-mp3/
 ---
@@ -68,6 +67,6 @@ GroupDocs.Metadata for .NET هي مكتبة .NET تمكن المطورين من 
 ### هل يدعم GroupDocs.Metadata تنسيقات الملفات الأخرى إلى جانب MP3؟
 نعم، يدعم GroupDocs.Metadata نطاقًا واسعًا من تنسيقات الملفات بما في ذلك PDF وWord وExcel وPowerPoint والمزيد.
 ### أين يمكنني العثور على وثائق GroupDocs.Metadata لـ .NET؟
- الرجوع إلى الوثائق التفصيلية[هنا](https://reference.groupdocs.com/metadata/net/).
+ الرجوع إلى الوثائق التفصيلية[هنا](https://tutorials.groupdocs.com/metadata/net/).
 ### كيف يمكنني الحصول على الدعم الفني لـ GroupDocs.Metadata؟
  يمكنك الحصول على الدعم وطرح الأسئلة في[منتدى GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14).

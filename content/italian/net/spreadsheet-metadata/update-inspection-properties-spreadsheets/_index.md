@@ -3,7 +3,6 @@ title: Aggiorna le proprietà di ispezione nei fogli di calcolo utilizzando .NET
 linktitle: Aggiorna le proprietà di ispezione nei fogli di calcolo utilizzando .NET
 second_title: API GroupDocs.Metadata .NET
 description: Scopri come aggiornare le proprietà di ispezione nei fogli di calcolo utilizzando GroupDocs.Metadata per .NET. Gestisci facilmente commenti, firme e fogli nascosti.
-type: docs
 weight: 16
 url: /it/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ Sì, GroupDocs.Metadata supporta vari formati di fogli di calcolo tra cui XLSX, 
 ### Posso modificare altre proprietà dei metadati utilizzando GroupDocs.Metadata?
 Assolutamente, GroupDocs.Metadata ti consente di leggere, aggiornare, rimuovere e aggiungere proprietà dei metadati come autore, titolo, data di creazione, ecc.
 ### Dove posso trovare la documentazione dettagliata per GroupDocs.Metadata per .NET?
- Puoi fare riferimento al completo[documentazione](https://reference.groupdocs.com/metadata/net/) disponibile online.
+ Puoi fare riferimento al completo[documentazione](https://tutorials.groupdocs.com/metadata/net/) disponibile online.
 ### È disponibile una prova gratuita per GroupDocs.Metadata per .NET?
  Sì, puoi accedere a[prova gratuita](https://releases.groupdocs.com/) per valutare l'API.
 ### Come posso ottenere supporto tecnico per GroupDocs.Metadata per .NET?

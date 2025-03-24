@@ -3,7 +3,6 @@ title: .NET में TAR अभिलेखागार से मूल मे
 linktitle: .NET में TAR अभिलेखागार से मूल मेटाडेटा गुण पढ़ें
 second_title: GroupDocs.Metadata .NET एपीआई
 description: GroupDocs.Metadata का उपयोग करके .NET में TAR अभिलेखागार से मेटाडेटा निकालने का तरीका जानें। यह ट्यूटोरियल चरण-दर-चरण प्रक्रिया में आपका मार्गदर्शन करता है।
-type: docs
 weight: 12
 url: /hi/net/archive-metadata/read-native-metadata-tar-archives/
 ---

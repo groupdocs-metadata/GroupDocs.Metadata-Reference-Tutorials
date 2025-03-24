@@ -3,7 +3,6 @@ title: Perbarui Properti Inspeksi dalam PDF menggunakan .NET
 linktitle: Perbarui Properti Inspeksi dalam PDF menggunakan .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara memperbarui properti inspeksi dalam dokumen PDF menggunakan GroupDocs.Metadata untuk .NET. Kelola metadata dan anotasi secara efisien dengan C#.
-type: docs
 weight: 17
 url: /id/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
@@ -67,6 +66,6 @@ Ya, GroupDocs.Metadata mendukung berbagai format dokumen seperti Microsoft Offic
 ### Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah saat menggunakan GroupDocs.Metadata?
  Mengunjungi[Forum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) untuk bantuan dan dukungan masyarakat.
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk GroupDocs.Metadata untuk .NET?
- Mengacu kepada[dokumentasi](https://reference.groupdocs.com/metadata/net/) untuk panduan komprehensif tentang penggunaan perpustakaan.
+ Mengacu kepada[dokumentasi](https://tutorials.groupdocs.com/metadata/net/) untuk panduan komprehensif tentang penggunaan perpustakaan.
 ### Bisakah saya mendapatkan lisensi sementara untuk tujuan pengujian?
  Ya, Anda dapat meminta a[izin sementara](https://purchase.groupdocs.com/temporary-license/) untuk tujuan evaluasi.

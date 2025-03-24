@@ -3,7 +3,6 @@ title: Perbarui Properti Bawaan dalam PDF menggunakan .NET
 linktitle: Perbarui Properti Bawaan dalam PDF menggunakan .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara memperbarui properti dokumen PDF menggunakan C# dan GroupDocs.Metadata untuk .NET. Ubah penulis, judul, kata kunci, dan lainnya secara terprogram.
-type: docs
 weight: 15
 url: /id/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
@@ -72,7 +71,7 @@ Dalam tutorial ini, kita mempelajari cara memanfaatkan GroupDocs.Metadata untuk 
 ### T: Apa itu GroupDocs.Metadata untuk .NET?
 J: GroupDocs.Metadata for .NET adalah perpustakaan yang memungkinkan pengembang membaca, mengedit, menghapus, dan memanipulasi metadata dalam berbagai format dokumen secara terprogram.
 ### T: Di mana saya dapat menemukan dokumentasi GroupDocs.Metadata untuk .NET?
- J: Anda dapat mengakses dokumentasinya[Di Sini](https://reference.groupdocs.com/metadata/net/).
+ J: Anda dapat mengakses dokumentasinya[Di Sini](https://tutorials.groupdocs.com/metadata/net/).
 ### T: Bagaimana cara mengunduh GroupDocs.Metadata untuk .NET?
  J: Anda dapat mengunduh GroupDocs.Metadata untuk .NET dari[Link ini](https://releases.groupdocs.com/metadata/net/).
 ### T: Apakah tersedia uji coba gratis?

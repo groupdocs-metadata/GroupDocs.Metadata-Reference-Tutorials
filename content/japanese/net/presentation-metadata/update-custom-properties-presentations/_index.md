@@ -3,7 +3,6 @@ title: .NET を使用してプレゼンテーションのカスタム プロパ�
 linktitle: .NET を使用してプレゼンテーションのカスタム プロパティを更新する
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用してプレゼンテーション メタデータを管理する方法を学びます。 PowerPoint ファイルのカスタム プロパティを効率的に更新します。
-type: docs
 weight: 16
 url: /ja/net/presentation-metadata/update-custom-properties-presentations/
 ---

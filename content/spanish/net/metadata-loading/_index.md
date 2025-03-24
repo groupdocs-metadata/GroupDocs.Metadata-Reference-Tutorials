@@ -3,7 +3,6 @@ title: Carga de metadatos
 linktitle: Carga de metadatos
 second_title: API GroupDocs.Metadata .NET
 description: Administre sin esfuerzo metadatos de archivos en .NET con GroupDocs.Metadata. Aprenda técnicas de carga, edición y más para mejorar las capacidades de manipulación de archivos.
-type: docs
 weight: 20
 url: /es/net/metadata-loading/
 ---

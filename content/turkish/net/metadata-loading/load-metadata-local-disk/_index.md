@@ -3,7 +3,6 @@ title: .NET'te Yerel Diskten Meta Veriler Nasıl Yüklenir
 linktitle: .NET'te Yerel Diskten Meta Veriler Nasıl Yüklenir
 second_title: GroupDocs.Metadata .NET API'si
 description: Gelişmiş dosya işleme yetenekleri için GroupDocs.Metadata ile .NET uygulamalarındaki dosya meta verilerini zahmetsizce yönetin.
-type: docs
 weight: 10
 url: /tr/net/metadata-loading/load-metadata-local-disk/
 ---
@@ -62,7 +61,7 @@ Bu öğreticide, yerel disk dosyalarından meta verileri yüklemek için GroupDo
 ### S: GroupDocs.Metadata için nasıl geçici lisans alabilirim?
  C: Geçici lisansı şu adresten alabilirsiniz:[GroupDocs satın alma sayfası](https://purchase.groupdocs.com/temporary-license/).
 ### S: GroupDocs.Metadata için kapsamlı belgeleri nerede bulabilirim?
- C: Ayrıntılı belgeleri şu adreste inceleyin:[.NET Belgeleri için GroupDocs.Metadata](https://reference.groupdocs.com/metadata/net/).
+ C: Ayrıntılı belgeleri şu adreste inceleyin:[.NET Belgeleri için GroupDocs.Metadata](https://tutorials.groupdocs.com/metadata/net/).
 ### S: GroupDocs.Metadata ücretsiz deneme sürümünü destekliyor mu?
  C: Evet, GroupDocs.Metadata'nın ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[Burada](https://releases.groupdocs.com/).
 ### S: GroupDocs.Metadata ile ilgili nereden destek alabilirim veya soru sorabilirim?

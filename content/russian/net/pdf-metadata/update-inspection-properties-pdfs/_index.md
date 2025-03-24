@@ -3,7 +3,6 @@ title: Обновление свойств проверки в PDF-файлах 
 linktitle: Обновление свойств проверки в PDF-файлах с помощью .NET
 second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как обновить свойства проверки в документах PDF с помощью GroupDocs.Metadata для .NET. Эффективно управляйте метаданными и аннотациями с помощью C#.
-type: docs
 weight: 17
 url: /ru/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
@@ -67,6 +66,6 @@ metadata.Save("YourInputFile.pdf");
 ### Как я могу получить поддержку, если у меня возникнут проблемы при использовании GroupDocs.Metadata?
  Посетить[Форум GroupDocs.Метаданные](https://forum.groupdocs.com/c/metadata/14) за помощь и поддержку общества.
 ### Где я могу найти подробную документацию по GroupDocs.Metadata для .NET?
- Обратитесь к[документация](https://reference.groupdocs.com/metadata/net/) за исчерпывающее руководство по использованию библиотеки.
+ Обратитесь к[документация](https://tutorials.groupdocs.com/metadata/net/) за исчерпывающее руководство по использованию библиотеки.
 ### Могу ли я получить временную лицензию для целей тестирования?
  Да, вы можете запросить[временная лицензия](https://purchase.groupdocs.com/temporary-license/) в целях оценки.

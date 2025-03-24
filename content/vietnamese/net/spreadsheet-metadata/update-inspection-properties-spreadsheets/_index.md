@@ -3,7 +3,6 @@ title: Cập nhật thuộc tính kiểm tra trong bảng tính bằng .NET
 linktitle: Cập nhật thuộc tính kiểm tra trong bảng tính bằng .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật thuộc tính kiểm tra trong bảng tính bằng GroupDocs.Metadata cho .NET. Quản lý nhận xét, chữ ký và trang ẩn một cách dễ dàng.
-type: docs
 weight: 16
 url: /vi/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ Có, GroupDocs.Metadata hỗ trợ nhiều định dạng bảng tính khác nha
 ### Tôi có thể sửa đổi các thuộc tính siêu dữ liệu khác bằng GroupDocs.Metadata không?
 Hoàn toàn có thể, GroupDocs.Metadata cho phép bạn đọc, cập nhật, xóa và thêm các thuộc tính siêu dữ liệu như tác giả, tiêu đề, ngày tạo, v.v.
 ### Tôi có thể tìm tài liệu chi tiết về GroupDocs.Metadata cho .NET ở đâu?
- Bạn có thể tham khảo tổng hợp[tài liệu](https://reference.groupdocs.com/metadata/net/) có sẵn trên mạng.
+ Bạn có thể tham khảo tổng hợp[tài liệu](https://tutorials.groupdocs.com/metadata/net/) có sẵn trên mạng.
 ### Có bản dùng thử miễn phí GroupDocs.Metadata cho .NET không?
  Có, bạn có thể truy cập một[dùng thử miễn phí](https://releases.groupdocs.com/) để đánh giá API.
 ### Làm cách nào tôi có thể nhận được hỗ trợ kỹ thuật cho GroupDocs.Metadata cho .NET?

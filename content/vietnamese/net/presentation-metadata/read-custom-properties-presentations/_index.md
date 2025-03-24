@@ -3,7 +3,6 @@ title: Đọc thuộc tính tùy chỉnh từ bản trình bày trong .NET
 linktitle: Đọc thuộc tính tùy chỉnh từ bản trình bày trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách đọc thuộc tính tùy chỉnh từ bản trình bày trong .NET bằng GroupDocs.Metadata. Truy cập và truy xuất siêu dữ liệu một cách hiệu quả.
-type: docs
 weight: 11
 url: /vi/net/presentation-metadata/read-custom-properties-presentations/
 ---

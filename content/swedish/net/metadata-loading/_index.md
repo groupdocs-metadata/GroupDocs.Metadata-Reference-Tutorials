@@ -3,7 +3,6 @@ title: Metadata laddas
 linktitle: Metadata laddas
 second_title: GroupDocs.Metadata .NET API
 description: Hantera filmetadata enkelt i .NET med GroupDocs.Metadata. Lär dig laddningstekniker, redigering och mer för förbättrade filmanipuleringsmöjligheter.
-type: docs
 weight: 20
 url: /sv/net/metadata-loading/
 ---

@@ -3,7 +3,6 @@ title: Cập nhật thuộc tính tùy chỉnh trong tài liệu quản lý dự
 linktitle: Cập nhật thuộc tính tùy chỉnh trong tài liệu quản lý dự án .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật thuộc tính tùy chỉnh trong tài liệu quản lý dự án .NET bằng GroupDocs.Metadata cho .NET. Tăng cường quản lý siêu dữ liệu trong ứng dụng của bạn.
-type: docs
 weight: 13
 url: /vi/net/project-management-metadata/update-custom-properties-project-management-documents/
 ---

@@ -3,7 +3,6 @@ title: Cara Memuat Metadata dari Disk Lokal di .NET
 linktitle: Cara Memuat Metadata dari Disk Lokal di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Kelola metadata file dengan mudah di aplikasi .NET dengan GroupDocs.Metadata untuk meningkatkan kemampuan manipulasi file.
-type: docs
 weight: 10
 url: /id/net/metadata-loading/load-metadata-local-disk/
 ---
@@ -62,7 +61,7 @@ Dalam tutorial ini, kita mempelajari cara memanfaatkan GroupDocs.Metadata untuk 
 ### T: Bagaimana cara mendapatkan lisensi sementara untuk GroupDocs.Metadata?
  J: Anda dapat memperoleh lisensi sementara dari[Halaman pembelian GroupDocs](https://purchase.groupdocs.com/temporary-license/).
 ### T: Di mana saya dapat menemukan dokumentasi komprehensif untuk GroupDocs.Metadata?
- A: Jelajahi dokumentasi rinci di[GroupDocs.Metadata untuk Dokumentasi .NET](https://reference.groupdocs.com/metadata/net/).
+ A: Jelajahi dokumentasi rinci di[GroupDocs.Metadata untuk Dokumentasi .NET](https://tutorials.groupdocs.com/metadata/net/).
 ### T: Apakah GroupDocs.Metadata mendukung versi uji coba gratis?
  J: Ya, Anda dapat mengakses uji coba gratis GroupDocs.Metadata dari[Di Sini](https://releases.groupdocs.com/).
 ### T: Di mana saya bisa mendapatkan dukungan atau mengajukan pertanyaan terkait GroupDocs.Metadata?

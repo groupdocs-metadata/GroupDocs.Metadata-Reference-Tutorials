@@ -3,7 +3,6 @@ title: Lesen Sie Inspektionseigenschaften aus Tabellenkalkulationen in .NET
 linktitle: Lesen Sie Inspektionseigenschaften aus Tabellenkalkulationen in .NET
 second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET Prüfeigenschaften aus Tabellenkalkulationen lesen. Greifen Sie mühelos auf Kommentare, digitale Signaturen und ausgeblendete Blätter zu.
-type: docs
 weight: 13
 url: /de/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---

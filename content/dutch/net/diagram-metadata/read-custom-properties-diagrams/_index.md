@@ -3,7 +3,6 @@ title: Lees aangepaste eigenschappen uit diagrammen in .NET
 linktitle: Lees aangepaste eigenschappen uit diagrammen in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u aangepaste eigenschappen uit diagrambestanden in .NET kunt extraheren met behulp van GroupDocs.Metadata. Eenvoudige stapsgewijze handleiding voor ontwikkelaars.
-type: docs
 weight: 11
 url: /nl/net/diagram-metadata/read-custom-properties-diagrams/
 ---
@@ -60,6 +59,6 @@ Ja, GroupDocs.Metadata ondersteunt verschillende documentformaten, waaronder pre
 ### Is GroupDocs.Metadata geschikt voor grootschalige documentverwerking?
 Ja, GroupDocs.Metadata is ontworpen om grote hoeveelheden documenten efficiënt te verwerken.
 ### Waar kan ik aanvullende ondersteuning of documentatie vinden voor GroupDocs.Metadata?
- Bezoek de[GroupDocs.Metadata-forum](https://forum.groupdocs.com/c/metadata/14) voor ondersteuning en verken de[documentatie](https://reference.groupdocs.com/metadata/net/) voor gedetailleerde API-referenties.
+ Bezoek de[GroupDocs.Metadata-forum](https://forum.groupdocs.com/c/metadata/14) voor ondersteuning en verken de[documentatie](https://tutorials.groupdocs.com/metadata/net/) voor gedetailleerde API-referenties.
 ### Kan ik GroupDocs.Metadata gratis uitproberen voordat ik een aankoop doe?
  Ja, u kunt een gratis proefversie downloaden[hier](https://releases.groupdocs.com/).

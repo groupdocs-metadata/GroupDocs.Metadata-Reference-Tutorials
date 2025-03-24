@@ -3,7 +3,6 @@ title: Διαβάστε προσαρμοσμένες ιδιότητες από �
 linktitle: Διαβάστε προσαρμοσμένες ιδιότητες από διαγράμματα στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε προσαρμοσμένες ιδιότητες από αρχεία διαγραμμάτων στο .NET χρησιμοποιώντας το GroupDocs.Metadata. Εύκολος οδηγός βήμα προς βήμα για προγραμματιστές.
-type: docs
 weight: 11
 url: /el/net/diagram-metadata/read-custom-properties-diagrams/
 ---
@@ -60,6 +59,6 @@ foreach (var property in customProperties)
 ### Είναι το GroupDocs.Metadata κατάλληλο για επεξεργασία εγγράφων μεγάλης κλίμακας;
 Ναι, το GroupDocs.Metadata έχει σχεδιαστεί για να χειρίζεται αποτελεσματικά μεγάλους όγκους εγγράφων.
 ### Πού μπορώ να βρω πρόσθετη υποστήριξη ή τεκμηρίωση για το GroupDocs.Metadata;
- Επισκέψου το[Φόρουμ GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) για υποστήριξη και εξερεύνηση του[τεκμηρίωση](https://reference.groupdocs.com/metadata/net/) για λεπτομερείς αναφορές API.
+ Επισκέψου το[Φόρουμ GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) για υποστήριξη και εξερεύνηση του[τεκμηρίωση](https://tutorials.groupdocs.com/metadata/net/) για λεπτομερείς αναφορές API.
 ### Μπορώ να δοκιμάσω το GroupDocs.Metadata δωρεάν πριν το αγοράσω;
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης[εδώ](https://releases.groupdocs.com/).

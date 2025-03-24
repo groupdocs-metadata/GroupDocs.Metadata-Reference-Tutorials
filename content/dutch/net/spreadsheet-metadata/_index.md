@@ -4,7 +4,6 @@ linktitle: Spreadsheet-metagegevens
 second_title: GroupDocs.Metadata .NET API
 description: Ontgrendel de kracht van GroupDocs.Metadata voor .NET met tutorials over het lezen en bijwerken van spreadsheeteigenschappen. Verbeter de manipulatie van metagegevens in uw .NET-applicaties.
 
-type: docs
 weight: 27
 url: /nl/net/spreadsheet-metadata/
 ---

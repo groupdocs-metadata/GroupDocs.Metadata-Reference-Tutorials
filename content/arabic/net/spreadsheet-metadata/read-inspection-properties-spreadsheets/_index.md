@@ -3,7 +3,6 @@ title: قراءة خصائص الفحص من جداول البيانات في .N
 linktitle: قراءة خصائص الفحص من جداول البيانات في .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية قراءة خصائص الفحص من جداول البيانات باستخدام GroupDocs.Metadata لـ .NET. يمكنك الوصول إلى التعليقات والتوقيعات الرقمية والأوراق المخفية بسهولة.
-type: docs
 weight: 13
 url: /ar/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---

@@ -3,7 +3,6 @@ title: परियोजना प्रबंधन मेटाडेटा
 linktitle: परियोजना प्रबंधन मेटाडेटा
 second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET ट्यूटोरियल के लिए GroupDocs.Metadata के साथ .NET प्रोजेक्ट प्रबंधन दस्तावेज़ों की क्षमता को अनलॉक करें। मेटाडेटा को आसानी से निकालें, अपडेट करें और प्रबंधित करें।
-type: docs
 weight: 26
 url: /hi/net/project-management-metadata/
 ---

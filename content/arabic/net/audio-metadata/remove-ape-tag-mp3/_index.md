@@ -3,7 +3,6 @@ title: قم بإزالة علامة APE من ملفات MP3 في .NET
 linktitle: قم بإزالة علامة APE من ملفات MP3 في .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية إزالة علامات APE من ملفات MP3 باستخدام GroupDocs.Metadata لـ .NET. قم بإدارة بيانات التعريف بسهولة في تطبيقات .NET الخاصة بك.
-type: docs
 weight: 15
 url: /ar/net/audio-metadata/remove-ape-tag-mp3/
 ---
@@ -13,7 +12,7 @@ url: /ar/net/audio-metadata/remove-ape-tag-mp3/
 قبل الغوص في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
 - المعرفة الأساسية بـ C# و.NET Framework.
 - تم تثبيت Visual Studio على جهازك.
--  تم تثبيت GroupDocs.Metadata لمكتبة .NET (راجع[توثيق](https://reference.groupdocs.com/metadata/net/) لخطوات التثبيت).
+-  تم تثبيت GroupDocs.Metadata لمكتبة .NET (راجع[توثيق](https://tutorials.groupdocs.com/metadata/net/) لخطوات التثبيت).
 
 ## استيراد مساحات الأسماء
 أولاً، تأكد من استيراد مساحات الأسماء الضرورية إلى مشروع C# الخاص بك:

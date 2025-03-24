@@ -3,7 +3,6 @@ title: .NET의 스프레드시트에서 내장 속성 읽기
 linktitle: .NET의 스프레드시트에서 내장 속성 읽기
 second_title: GroupDocs.메타데이터 .NET API
 description: GroupDocs.Metadata를 사용하여 .NET의 스프레드시트에서 메타데이터를 추출하여 애플리케이션의 문서 관리 및 구성을 향상시키는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Console.WriteLine(root.DocumentProperties.ContentType);
 ### .NET용 GroupDocs.Metadata를 사용하여 메타데이터를 수정할 수 있습니까?
 예. 이 API를 사용하면 메타데이터를 읽을 수 있을 뿐만 아니라 편집, 업데이트, 제거할 수도 있습니다.
 ### .NET용 GroupDocs.Metadata에 대한 자세한 설명서는 어디서 찾을 수 있나요?
- 자세한 문서는 다음에서 확인할 수 있습니다.[.NET 문서용 GroupDocs.Metadata](https://reference.groupdocs.com/metadata/net/).
+ 자세한 문서는 다음에서 확인할 수 있습니다.[.NET 문서용 GroupDocs.Metadata](https://tutorials.groupdocs.com/metadata/net/).
 ### 테스트 목적으로 임시 라이센스를 얻으려면 어떻게 해야 합니까?
  다음에서 임시 라이센스를 요청할 수 있습니다.[여기](https://purchase.groupdocs.com/temporary-license/).
 ### GroupDocs.Metadata 지원을 위한 커뮤니티 포럼이 있습니까?

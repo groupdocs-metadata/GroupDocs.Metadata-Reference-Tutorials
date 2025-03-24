@@ -3,7 +3,6 @@ title: .NET의 MP3 파일에서 APE 태그 읽기
 linktitle: .NET의 MP3 파일에서 APE 태그 읽기
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 MP3 파일에서 APE 태그를 읽는 방법을 알아보세요. 단계별 지침을 통해 C#에서 메타데이터 추출을 살펴보세요.
-type: docs
 weight: 10
 url: /ko/net/audio-metadata/read-ape-tag-mp3/
 ---
@@ -68,6 +67,6 @@ Console.WriteLine(root.ApeV2.Language);
 ### GroupDocs.Metadata는 MP3 외에 다른 파일 형식을 지원합니까?
 예, GroupDocs.Metadata는 PDF, Word, Excel, PowerPoint 등을 포함한 광범위한 파일 형식을 지원합니다.
 ### .NET용 GroupDocs.Metadata에 대한 설명서는 어디에서 찾을 수 있나요?
- 자세한 문서를 참고하세요[여기](https://reference.groupdocs.com/metadata/net/).
+ 자세한 문서를 참고하세요[여기](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata에 대한 기술 지원을 받으려면 어떻게 해야 합니까?
  지원을 받고 질문을 할 수 있습니다.[GroupDocs.메타데이터 포럼](https://forum.groupdocs.com/c/metadata/14).

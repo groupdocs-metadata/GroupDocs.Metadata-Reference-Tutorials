@@ -3,7 +3,6 @@ title: اقرأ الخصائص المضمنة في مستندات إدارة م�
 linktitle: اقرأ الخصائص المضمنة في مستندات إدارة مشروع .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعلم كيفية استخراج بيانات التعريف من مستندات إدارة المشاريع باستخدام GroupDocs.Metadata لـ .NET. تعزيز قدرات معالجة المستندات الخاصة بك.
-type: docs
 weight: 10
 url: /ar/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---

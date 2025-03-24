@@ -3,7 +3,6 @@ title: 演示元数据
 linktitle: 演示元数据
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata 教程在 .NET 中有效管理演示元数据。轻松访问内置和自定义属性。
-type: docs
 weight: 25
 url: /zh/net/presentation-metadata/
 ---

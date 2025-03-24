@@ -3,7 +3,6 @@ title: Aktualizujte vestavěné vlastnosti v prezentacích pomocí .NET
 linktitle: Aktualizujte vestavěné vlastnosti v prezentacích pomocí .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se aktualizovat vestavěné vlastnosti v prezentacích pomocí .NET pomocí GroupDocs.Metadata, všestranné knihovny pro manipulaci s metadaty.
-type: docs
 weight: 15
 url: /cs/net/presentation-metadata/update-built-in-properties-presentations/
 ---
@@ -51,7 +50,7 @@ tomto tutoriálu jsme prozkoumali, jak pomocí GroupDocs.Metadata for .NET progr
 ### Otázka: Co je GroupDocs.Metadata pro .NET?
 Odpověď: GroupDocs.Metadata for .NET je výkonná knihovna pro manipulaci s metadaty pro framework .NET, která umožňuje vývojářům číst, zapisovat a upravovat metadata v různých formátech dokumentů.
 ### Otázka: Kde najdu dokumentaci k GroupDocs.Metadata?
- Odpověď: Máte přístup k podrobné dokumentaci[tady](https://reference.groupdocs.com/metadata/net/).
+ Odpověď: Máte přístup k podrobné dokumentaci[tady](https://tutorials.groupdocs.com/metadata/net/).
 ### Otázka: Jak mohu získat dočasnou licenci pro GroupDocs.Metadata?
  Odpověď: Můžete získat dočasnou licenci[tady](https://purchase.groupdocs.com/temporary-license/).
 ### Otázka: Podporuje GroupDocs.Metadata jiné formáty souborů kromě prezentací?

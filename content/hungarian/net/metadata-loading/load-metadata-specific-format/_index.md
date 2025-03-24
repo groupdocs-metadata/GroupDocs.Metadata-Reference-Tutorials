@@ -3,7 +3,6 @@ title: Metaadatok betöltése meghatározott formátumból a .NET-ben
 linktitle: Metaadatok betöltése meghatározott formátumból a .NET-ben
 second_title: GroupDocs.Metadata .NET API
 description: Ebből az átfogó oktatóanyagból megtudhatja, hogyan tölthet be metaadatokat meghatározott fájlformátumokból a GroupDocs.Metadata for .NET segítségével.
-type: docs
 weight: 12
 url: /hu/net/metadata-loading/load-metadata-specific-format/
 ---
@@ -55,7 +54,7 @@ A metaadatok olyan adatok, amelyek információt nyújtanak más adatokról, pé
 ### Miért fontos a metaadatok kezelése?
 metaadatok kezelése kulcsfontosságú a digitális tartalom rendszerezéséhez és megértéséhez, elősegítve a kereshetőséget és az interoperabilitást.
 ### Hol találom a GroupDocs.Metadata for .NET részletes dokumentációját?
- Hozzáférhet a dokumentációhoz[itt](https://reference.groupdocs.com/metadata/net/).
+ Hozzáférhet a dokumentációhoz[itt](https://tutorials.groupdocs.com/metadata/net/).
 ### Hogyan szerezhetek ideiglenes licencet a GroupDocs.Metadata for .NET számára?
  Látogatás[ez a link](https://purchase.groupdocs.com/temporary-license/) ideiglenes engedély megszerzéséhez.
 ### Hol kaphatok támogatást, vagy hol tehetek fel kérdéseket a GroupDocs.Metadata for .NET-hez kapcsolódóan?

@@ -3,7 +3,6 @@ title: Frissítse a .NET projektmenedzsment dokumentumok beépített tulajdonsá
 linktitle: Frissítse a .NET projektmenedzsment dokumentumok beépített tulajdonságait
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan frissítheti a .NET projektmenedzsment dokumentumok metaadatait a GroupDocs.Metadata for .NET segítségével. A dokumentumkezelés hatékony fejlesztése.
-type: docs
 weight: 12
 url: /hu/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
@@ -57,7 +56,7 @@ Igen, a GroupDocs.Metadata támogatja a népszerű projektkezelési formátumoka
 ### Módosíthatok más metaadat-tulajdonságokat a beépített dokumentumrészleteken kívül?
 Teljesen! A GroupDocs.Metadata kiterjedt lehetőségeket kínál a metaadatok kezelésére a fájltípusok széles körében.
 ### Hol találok további dokumentációt és támogatást a GroupDocs.Metadata-hoz?
- Meglátogatni a[GroupDocs.Metadata dokumentáció](https://reference.groupdocs.com/metadata/net/) részletes információkért. Konkrét kérdésekkel forduljon a közösséghez a következő címen:[GroupDocs fórum](https://forum.groupdocs.com/c/metadata/14).
+ Meglátogatni a[GroupDocs.Metadata dokumentáció](https://tutorials.groupdocs.com/metadata/net/) részletes információkért. Konkrét kérdésekkel forduljon a közösséghez a következő címen:[GroupDocs fórum](https://forum.groupdocs.com/c/metadata/14).
 ### Létezik ingyenes próbaverzió a GroupDocs.Metadata tesztelésére?
  Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.groupdocs.com/).
 ### Hogyan szerezhetek ideiglenes licencet a GroupDocs.Metadata számára?

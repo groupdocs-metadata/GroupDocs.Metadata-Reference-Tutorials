@@ -3,7 +3,6 @@ title: 從 .NET 中的圖表中讀取文檔統計信息
 linktitle: 從 .NET 中的圖表中讀取文檔統計信息
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用強大的元資料操作庫 GroupDocs.Metadata 從 .NET 中的圖表中提取文件統計資訊。
-type: docs
 weight: 12
 url: /zh-hant/net/diagram-metadata/read-document-statistics-diagrams/
 ---
@@ -53,7 +52,7 @@ Console.WriteLine(root.DocumentStatistics.PageCount);
 ### 除了圖表之外，我可以將 GroupDocs.Metadata for .NET 與其他文件格式一起使用嗎？
 是的，GroupDocs.Metadata 支援各種文件格式，包括圖像、文件、簡報、電子表格等。
 ### 在哪裡可以找到 GroupDocs.Metadata for .NET 的詳細文件？
-您可以參考[文件](https://reference.groupdocs.com/metadata/net/)進行全面指導。
+您可以參考[文件](https://tutorials.groupdocs.com/metadata/net/)進行全面指導。
 ### GroupDocs.Metadata for .NET 是否有免費試用版？
 是的，您可以訪問[免費試用](https://releases.groupdocs.com/)探索 GroupDocs.Metadata 的功能。
 ### 如何獲得 GroupDocs.Metadata for .NET 的技術支援？

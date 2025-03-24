@@ -3,7 +3,6 @@ title: Aktualizujte značku ID3V1 v souborech MP3 pomocí .NET
 linktitle: Aktualizujte značku ID3V1 v souborech MP3 pomocí .NET
 second_title: GroupDocs.Metadata .NET API
 description: Aktualizujte tagy ID3V1 v souborech MP3 pomocí GroupDocs.Metadata pro .NET. Postupujte podle tohoto návodu pro snadnou manipulaci s metadaty ve vašich aplikacích .NET.
-type: docs
 weight: 19
 url: /cs/net/audio-metadata/update-id3v1-tag-mp3/
 ---
@@ -61,7 +60,7 @@ GroupDocs.Metadata for .NET je výkonné rozhraní API pro manipulaci s metadaty
 ### Jaké formáty dokumentů podporuje GroupDocs.Metadata pro .NET?
 GroupDocs.Metadata for .NET podporuje širokou škálu formátů dokumentů včetně PDF, dokumentů Microsoft Office (Word, Excel, PowerPoint), obrázků (JPEG, PNG, TIFF), audio a video souborů a mnoha dalších.
 ### Kde najdu dokumentaci k GroupDocs.Metadata pro .NET?
- Můžete se podívat na podrobnou dokumentaci[tady](https://reference.groupdocs.com/metadata/net/) pro komplexní návod k používání API.
+ Můžete se podívat na podrobnou dokumentaci[tady](https://tutorials.groupdocs.com/metadata/net/) pro komplexní návod k používání API.
 ### Je k dispozici bezplatná zkušební verze pro GroupDocs.Metadata pro .NET?
  Ano, máte přístup k bezplatné zkušební verzi GroupDocs.Metadata pro .NET[tady](https://releases.groupdocs.com/).
 ### Jak mohu získat technickou podporu pro GroupDocs.Metadata pro .NET?

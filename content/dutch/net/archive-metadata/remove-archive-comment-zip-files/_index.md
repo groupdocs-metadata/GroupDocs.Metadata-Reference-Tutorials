@@ -3,7 +3,6 @@ title: Verwijder archiefopmerkingen uit ZIP-bestanden in .NET
 linktitle: Verwijder archiefopmerkingen uit ZIP-bestanden in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u ZIP-archiefopmerkingen kunt verwijderen met GroupDocs.Metadata voor .NET. Verbeter uw vaardigheden op het gebied van metadatabeheer.
-type: docs
 weight: 14
 url: /nl/net/archive-metadata/remove-archive-comment-zip-files/
 ---

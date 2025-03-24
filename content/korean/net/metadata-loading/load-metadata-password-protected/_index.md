@@ -3,7 +3,6 @@ title: .NET에서 비밀번호로 보호된 문서에서 메타데이터를 로�
 linktitle: .NET에서 비밀번호로 보호된 문서에서 메타데이터를 로드하는 방법
 second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 문서 메타데이터를 효율적으로 관리하는 방법을 알아보세요. .NET 애플리케이션에서 메타데이터를 원활하게 추출, 편집 및 처리합니다.
-type: docs
 weight: 13
 url: /ko/net/metadata-loading/load-metadata-password-protected/
 ---
@@ -60,6 +59,6 @@ Console.WriteLine("Title: " + documentMetadata.Title);
 ### 문서 로딩과 관련된 예외를 어떻게 처리합니까?
 잠재적인 예외를 포착하고 관리하려면 문서 로딩 작업에 대한 적절한 오류 처리를 보장하세요.
 ### .NET용 GroupDocs.Metadata에 대한 자세한 설명서는 어디서 찾을 수 있나요?
- 방문하다[선적 서류 비치](https://reference.groupdocs.com/metadata/net/) 포괄적인 가이드 및 API 참조를 확인하세요.
+ 방문하다[선적 서류 비치](https://tutorials.groupdocs.com/metadata/net/) 포괄적인 가이드 및 API 참조를 확인하세요.
 ### .NET용 GroupDocs.Metadata에 대한 무료 평가판이 있습니까?
  예, 다음으로 도서관을 탐색할 수 있습니다.[무료 시험판](https://releases.groupdocs.com/).

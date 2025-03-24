@@ -4,7 +4,6 @@ linktitle: スプレッドシートのメタデータ
 second_title: GroupDocs.Metadata .NET API
 description: スプレッドシートのプロパティの読み取りと更新に関するチュートリアルで、GroupDocs.Metadata for .NET のパワーを解き放ちます。.NET アプリケーションでのメタデータ操作を向上させます。
 
-type: docs
 weight: 27
 url: /ja/net/spreadsheet-metadata/
 ---

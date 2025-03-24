@@ -3,7 +3,6 @@ title: 프레젠테이션 메타데이터
 linktitle: 프레젠테이션 메타데이터
 second_title: GroupDocs.메타데이터 .NET API
 description: GroupDocs.Metadata 자습서를 사용하여 .NET에서 프레젠테이션 메타데이터를 효율적으로 관리하는 방법을 알아보세요. 내장된 속성과 사용자 정의 속성에 쉽게 액세스하세요.
-type: docs
 weight: 25
 url: /ko/net/presentation-metadata/
 ---

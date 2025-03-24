@@ -3,7 +3,6 @@ title: Đọc thẻ APE từ tệp MP3 trong .NET
 linktitle: Đọc thẻ APE từ tệp MP3 trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách đọc thẻ APE từ tệp MP3 bằng GroupDocs.Metadata cho .NET. Khám phá trích xuất siêu dữ liệu trong C# với hướng dẫn từng bước.
-type: docs
 weight: 10
 url: /vi/net/audio-metadata/read-ape-tag-mp3/
 ---
@@ -68,6 +67,6 @@ Có, bạn có thể sửa đổi các thuộc tính siêu dữ liệu như tiê
 ### GroupDocs.Metadata có hỗ trợ các định dạng tệp khác ngoài MP3 không?
 Có, GroupDocs.Metadata hỗ trợ nhiều định dạng tệp bao gồm PDF, Word, Excel, PowerPoint, v.v.
 ### Tôi có thể tìm tài liệu về GroupDocs.Metadata cho .NET ở đâu?
- Tham khảo tài liệu chi tiết[đây](https://reference.groupdocs.com/metadata/net/).
+ Tham khảo tài liệu chi tiết[đây](https://tutorials.groupdocs.com/metadata/net/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ kỹ thuật cho GroupDocs.Metadata?
  Bạn có thể nhận được hỗ trợ và đặt câu hỏi trong[Diễn đàn GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14).

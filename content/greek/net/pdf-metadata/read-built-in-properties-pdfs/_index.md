@@ -3,7 +3,6 @@ title: Διαβάστε τις Ενσωματωμένες Ιδιότητες α�
 linktitle: Διαβάστε τις Ενσωματωμένες Ιδιότητες από αρχεία PDF στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να διαβάζετε τα μεταδεδομένα PDF στο .NET χρησιμοποιώντας το GroupDocs.Metadata. Αποκτήστε πρόσβαση σε ονόματα συγγραφέων, ημερομηνίες δημιουργίας, θέματα και άλλα με κωδικό C#.
-type: docs
 weight: 10
 url: /el/net/pdf-metadata/read-built-in-properties-pdfs/
 ---

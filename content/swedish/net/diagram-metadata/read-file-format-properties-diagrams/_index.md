@@ -3,7 +3,6 @@ title: Läs filformategenskaper från diagram i .NET
 linktitle: Läs filformategenskaper från diagram i .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du läser filformategenskaper från diagram i .NET med hjälp av GroupDocs.Metadata. Extrahera detaljerad metadata utan ansträngning.
-type: docs
 weight: 13
 url: /sv/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
@@ -49,7 +48,7 @@ Ja, GroupDocs.Metadata för .NET stöder extrahering och modifiering av ett bret
 ### Finns det en testversion tillgänglig för GroupDocs.Metadata för .NET?
  Ja, du kan ladda ner en gratis testversion från[här](https://releases.groupdocs.com/).
 ### Var kan jag hitta detaljerad dokumentation för GroupDocs.Metadata for .NET?
- Se dokumentationen[här](https://reference.groupdocs.com/metadata/net/).
+ Se dokumentationen[här](https://tutorials.groupdocs.com/metadata/net/).
 ### Hur kan jag köpa en licens för GroupDocs.Metadata for .NET?
  Du kan köpa en licens från[här](https://purchase.groupdocs.com/buy).
 ### Var kan jag söka teknisk support eller ställa frågor relaterade till GroupDocs.Metadata for .NET?

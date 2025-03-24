@@ -3,7 +3,6 @@ title: Πώς να φορτώσετε μεταδεδομένα από τοπικ
 linktitle: Πώς να φορτώσετε μεταδεδομένα από τοπικό δίσκο στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Διαχειριστείτε εύκολα τα μεταδεδομένα αρχείων σε εφαρμογές .NET με το GroupDocs.Metadata για βελτιωμένες δυνατότητες χειρισμού αρχείων.
-type: docs
 weight: 10
 url: /el/net/metadata-loading/load-metadata-local-disk/
 ---
@@ -62,7 +61,7 @@ using (Metadata metadata = new Metadata("Your Input File Path"))
 ### Ε: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το GroupDocs.Metadata;
  Α: Μπορείτε να αποκτήσετε μια προσωρινή άδεια από το[Σελίδα αγοράς GroupDocs](https://purchase.groupdocs.com/temporary-license/).
 ### Ε: Πού μπορώ να βρω ολοκληρωμένη τεκμηρίωση για το GroupDocs.Metadata;
- Α: Εξερευνήστε τη λεπτομερή τεκμηρίωση στο[GroupDocs.Μεταδεδομένα για τεκμηρίωση .NET](https://reference.groupdocs.com/metadata/net/).
+ Α: Εξερευνήστε τη λεπτομερή τεκμηρίωση στο[GroupDocs.Μεταδεδομένα για τεκμηρίωση .NET](https://tutorials.groupdocs.com/metadata/net/).
 ### Ε: Υποστηρίζει το GroupDocs.Metadata μια δωρεάν δοκιμαστική έκδοση;
  Α: Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμή του GroupDocs.Metadata από[εδώ](https://releases.groupdocs.com/).
 ### Ε: Πού μπορώ να λάβω υποστήριξη ή να κάνω ερωτήσεις σχετικά με το GroupDocs.Metadata;

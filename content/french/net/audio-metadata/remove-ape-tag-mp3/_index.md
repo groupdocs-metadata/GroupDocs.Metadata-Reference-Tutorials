@@ -3,7 +3,6 @@ title: Supprimer la balise APE des fichiers MP3 dans .NET
 linktitle: Supprimer la balise APE des fichiers MP3 dans .NET
 second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment supprimer les balises APE des fichiers MP3 à l’aide de GroupDocs.Metadata pour .NET. Gérez sans effort les métadonnées dans vos applications .NET.
-type: docs
 weight: 15
 url: /fr/net/audio-metadata/remove-ape-tag-mp3/
 ---
@@ -13,7 +12,7 @@ Dans le domaine du développement .NET, la gestion des métadonnées au sein des
 Avant de plonger dans le didacticiel, assurez-vous de disposer des prérequis suivants :
 - Connaissance de base de C# et du framework .NET.
 - Visual Studio installé sur votre ordinateur.
--  Bibliothèque GroupDocs.Metadata pour .NET installée (voir[Documentation](https://reference.groupdocs.com/metadata/net/) pour les étapes d'installation).
+-  Bibliothèque GroupDocs.Metadata pour .NET installée (voir[Documentation](https://tutorials.groupdocs.com/metadata/net/) pour les étapes d'installation).
 
 ## Importer des espaces de noms
 Tout d’abord, assurez-vous d’importer les espaces de noms nécessaires dans votre projet C# :

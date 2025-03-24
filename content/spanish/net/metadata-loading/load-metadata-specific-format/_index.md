@@ -3,7 +3,6 @@ title: Cargando metadatos desde un formato específico en .NET
 linktitle: Cargando metadatos desde un formato específico en .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda a cargar metadatos desde formatos de archivo específicos usando GroupDocs.Metadata para .NET en este completo tutorial.
-type: docs
 weight: 12
 url: /es/net/metadata-loading/load-metadata-specific-format/
 ---
@@ -55,7 +54,7 @@ Los metadatos son datos que proporcionan información sobre otros datos, como el
 ### ¿Por qué es importante gestionar los metadatos?
 La gestión de metadatos es crucial para organizar y comprender el contenido digital, facilitando la capacidad de búsqueda y la interoperabilidad.
 ### ¿Dónde puedo encontrar documentación detallada para GroupDocs.Metadata para .NET?
- Puedes acceder a la documentación[aquí](https://reference.groupdocs.com/metadata/net/).
+ Puedes acceder a la documentación[aquí](https://tutorials.groupdocs.com/metadata/net/).
 ### ¿Cómo puedo obtener una licencia temporal de GroupDocs.Metadata para .NET?
  Visita[este enlace](https://purchase.groupdocs.com/temporary-license/) para obtener una licencia temporal.
 ### ¿Dónde puedo obtener soporte o hacer preguntas sobre GroupDocs.Metadata para .NET?

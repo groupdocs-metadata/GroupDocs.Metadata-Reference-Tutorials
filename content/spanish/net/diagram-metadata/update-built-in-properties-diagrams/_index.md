@@ -3,7 +3,6 @@ title: Actualizar propiedades integradas en diagramas usando .NET
 linktitle: Actualizar propiedades integradas en diagramas usando .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda a actualizar propiedades integradas en diagramas usando GroupDocs.Metadata para .NET. Modifique los metadatos sin problemas con ejemplos de código.
-type: docs
 weight: 14
 url: /es/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
@@ -79,7 +78,7 @@ R: Sí, GroupDocs.Metadata para .NET admite la edición de varias propiedades de
  R: Puedes visitar el[Foro GroupDocs.Metadatos](https://forum.groupdocs.com/c/metadata/14) para asistencia.
 
 ### P: ¿Dónde puedo encontrar documentación detallada sobre GroupDocs.Metadata para .NET?
- R: Consulte la información completa[documentación](https://reference.groupdocs.com/metadata/net/) para obtener orientación detallada.
+ R: Consulte la información completa[documentación](https://tutorials.groupdocs.com/metadata/net/) para obtener orientación detallada.
 
 ### P: ¿Puedo comprar una licencia temporal para uso a corto plazo?
  R: Sí, puede obtener una licencia temporal de[aquí](https://purchase.groupdocs.com/temporary-license/).

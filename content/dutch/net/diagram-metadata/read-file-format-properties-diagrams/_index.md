@@ -3,7 +3,6 @@ title: Lees bestandsformaateigenschappen uit diagrammen in .NET
 linktitle: Lees bestandsformaateigenschappen uit diagrammen in .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u bestandsindelingseigenschappen uit diagrammen in .NET kunt lezen met behulp van GroupDocs.Metadata. Extraheer moeiteloos gedetailleerde metadata.
-type: docs
 weight: 13
 url: /nl/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
@@ -49,7 +48,7 @@ Ja, GroupDocs.Metadata voor .NET ondersteunt de extractie en wijziging van een b
 ### Is er een proefversie beschikbaar voor GroupDocs.Metadata voor .NET?
  Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.groupdocs.com/).
 ### Waar kan ik gedetailleerde documentatie vinden voor GroupDocs.Metadata voor .NET?
- Raadpleeg de documentatie[hier](https://reference.groupdocs.com/metadata/net/).
+ Raadpleeg de documentatie[hier](https://tutorials.groupdocs.com/metadata/net/).
 ### Hoe kan ik een licentie kopen voor GroupDocs.Metadata voor .NET?
  U kunt een licentie kopen bij[hier](https://purchase.groupdocs.com/buy).
 ### Waar kan ik technische ondersteuning zoeken of vragen stellen met betrekking tot GroupDocs.Metadata voor .NET?

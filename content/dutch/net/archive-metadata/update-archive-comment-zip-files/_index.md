@@ -3,7 +3,6 @@ title: Update archiefcommentaar in ZIP-bestanden met .NET
 linktitle: Update archiefcommentaar in ZIP-bestanden met .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u archiefopmerkingen in ZIP-bestanden kunt bijwerken met GroupDocs.Metadata voor .NET. Verbeter moeiteloos het metadatabeheer in C#-applicaties.
-type: docs
 weight: 15
 url: /nl/net/archive-metadata/update-archive-comment-zip-files/
 ---
@@ -55,4 +54,4 @@ Ja, de bibliotheek is compatibel met zowel .NET Framework- als .NET Core-omgevin
 ### Biedt GroupDocs.Metadata ondersteuning voor ontwikkelaars?
  Ja, u kunt ondersteuning en bronnen voor ontwikkelaars vinden op de[GroupDocs-forum](https://forum.groupdocs.com/c/metadata/14).
 ### Waar kan ik uitgebreide documentatie vinden voor GroupDocs.Metadata voor .NET?
- De documentatie is beschikbaar[hier](https://reference.groupdocs.com/metadata/net/).
+ De documentatie is beschikbaar[hier](https://tutorials.groupdocs.com/metadata/net/).

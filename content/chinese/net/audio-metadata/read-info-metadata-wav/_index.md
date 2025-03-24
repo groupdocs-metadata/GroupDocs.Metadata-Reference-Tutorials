@@ -3,7 +3,6 @@ title: 从 .NET 中的 WAV 文件读取信息元数据
 linktitle: 从 .NET 中的 WAV 文件读取信息元数据
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 从 WAV 文件中提取元数据。深入研究此分步教程，利用元数据进行音频文件管理。
-type: docs
 weight: 22
 url: /zh/net/audio-metadata/read-info-metadata-wav/
 ---
@@ -66,7 +65,7 @@ Console.WriteLine(root.RiffInfoPackage.Genre);
 ### GroupDocs.Metadata 是否有免费试用版？
 是的，您可以从以下位置获取 GroupDocs.Metadata 的免费试用版：[这里](https://releases.groupdocs.com/).
 ### 在哪里可以找到 GroupDocs.Metadata 的详细文档？
-您可以访问完整的文档[这里](https://reference.groupdocs.com/metadata/net/).
+您可以访问完整的文档[这里](https://tutorials.groupdocs.com/metadata/net/).
 ### 如何购买 GroupDocs.Metadata 的许可证？
 您可以从以下位置购买 GroupDocs.Metadata 的许可证[购买页面](https://purchase.groupdocs.com/buy).
 ### 我在哪里可以获得有关 GroupDocs.Metadata 的支持或提出问题？

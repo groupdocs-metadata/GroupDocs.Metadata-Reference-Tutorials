@@ -4,7 +4,6 @@ linktitle: ข้อมูลเมตาของสเปรดชีต
 second_title: GroupDocs.Metadata .NET API
 description: ปลดล็อกพลังของ GroupDocs.Metadata สำหรับ .NET ด้วยบทช่วยสอนเกี่ยวกับการอ่านและการอัปเดตคุณสมบัติสเปรดชีต ยกระดับการจัดการข้อมูลเมตาในแอปพลิเคชัน .NET ของคุณ
 
-type: docs
 weight: 27
 url: /th/net/spreadsheet-metadata/
 ---

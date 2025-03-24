@@ -3,7 +3,6 @@ title: البيانات الوصفية للعرض التقديمي
 linktitle: البيانات الوصفية للعرض التقديمي
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية إدارة بيانات تعريف العرض التقديمي بكفاءة في .NET باستخدام البرامج التعليمية GroupDocs.Metadata. يمكنك الوصول إلى الخصائص المضمنة والمخصصة بسهولة.
-type: docs
 weight: 25
 url: /ar/net/presentation-metadata/
 ---

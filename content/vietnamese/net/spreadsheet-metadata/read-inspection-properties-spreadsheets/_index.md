@@ -3,7 +3,6 @@ title: Đọc thuộc tính kiểm tra từ bảng tính trong .NET
 linktitle: Đọc thuộc tính kiểm tra từ bảng tính trong .NET
 second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách đọc thuộc tính kiểm tra từ bảng tính bằng GroupDocs.Metadata cho .NET. Truy cập nhận xét, chữ ký điện tử và trang tính ẩn một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---

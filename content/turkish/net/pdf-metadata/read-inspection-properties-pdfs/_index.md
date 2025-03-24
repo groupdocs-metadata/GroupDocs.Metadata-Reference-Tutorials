@@ -3,7 +3,6 @@ title: .NET'teki PDF'lerden Denetim Özelliklerini Okuyun
 linktitle: .NET'teki PDF'lerden Denetim Özelliklerini Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak PDF belgelerinden inceleme özelliklerini nasıl çıkaracağınızı öğrenin. Ek açıklamaları, ekleri ve daha fazlasını keşfedin.
-type: docs
 weight: 14
 url: /tr/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
@@ -100,7 +99,7 @@ Bu öğreticide, GroupDocs.Metadata for .NET kullanarak PDF'lerdeki inceleme öz
 ### GroupDocs.Metadata'yı PDF'nin yanı sıra diğer dosya formatlarıyla da kullanabilir miyim?
 Evet, GroupDocs.Metadata, Microsoft Office belgeleri, resimler, ses dosyaları ve daha fazlasını içeren çok çeşitli belge formatlarını destekler.
 ### GroupDocs.Metadata for .NET'e ilişkin ayrıntılı belgeleri nerede bulabilirim?
- Bakın[dokümantasyon](https://reference.groupdocs.com/metadata/net/) kapsamlı rehberlik ve API referansları için.
+ Bakın[dokümantasyon](https://tutorials.groupdocs.com/metadata/net/) kapsamlı rehberlik ve API referansları için.
 ### GroupDocs.Metadata'nın deneme sürümü mevcut mu?
  Evet, ücretsiz deneme sürümünden yararlanabilirsiniz.[GroupDocs sürüm sayfası](https://releases.groupdocs.com/).
 ### GroupDocs.Metadata ile ilgili herhangi bir sorun veya sorgu için nasıl destek alabilirim?

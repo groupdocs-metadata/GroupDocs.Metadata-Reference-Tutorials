@@ -3,7 +3,6 @@ title: Lesen von Dokumentstatistiken aus Diagrammen in .NET
 linktitle: Lesen von Dokumentstatistiken aus Diagrammen in .NET
 second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie mit GroupDocs.Metadata, einer leistungsstarken Bibliothek zur Metadatenbearbeitung, Dokumentstatistiken aus Diagrammen in .NET extrahieren.
-type: docs
 weight: 12
 url: /de/net/diagram-metadata/read-document-statistics-diagrams/
 ---
@@ -53,7 +52,7 @@ In diesem Tutorial haben wir untersucht, wie man mit GroupDocs.Metadata für .NE
 ### Kann ich GroupDocs.Metadata für .NET mit anderen Dateiformaten außer Diagrammen verwenden?
 Ja, GroupDocs.Metadata unterstützt verschiedene Dateiformate, darunter Bilder, Dokumente, Präsentationen, Tabellen und mehr.
 ### Wo finde ich ausführliche Dokumentation für GroupDocs.Metadata für .NET?
- Weitere Informationen finden Sie im[Dokumentation](https://reference.groupdocs.com/metadata/net/) für eine umfassende Beratung.
+ Weitere Informationen finden Sie im[Dokumentation](https://tutorials.groupdocs.com/metadata/net/) für eine umfassende Beratung.
 ### Gibt es eine kostenlose Testversion für GroupDocs.Metadata für .NET?
  Ja, Sie können auf a zugreifen[Kostenlose Testphase](https://releases.groupdocs.com/) um die Funktionen von GroupDocs.Metadata zu erkunden.
 ### Wie erhalte ich technischen Support für GroupDocs.Metadata für .NET?

@@ -3,7 +3,6 @@ title: Удалить тег Lyrics из файлов MP3 в .NET
 linktitle: Удалить тег Lyrics из файлов MP3 в .NET
 second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как удалить теги Lyrics из файлов MP3 с помощью GroupDocs.Metadata для .NET. Следуйте нашему пошаговому руководству для эффективного манипулирования метаданными.
-type: docs
 weight: 18
 url: /ru/net/audio-metadata/remove-lyrics-tag-mp3/
 ---

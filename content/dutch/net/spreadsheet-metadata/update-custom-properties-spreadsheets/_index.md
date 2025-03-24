@@ -3,7 +3,6 @@ title: Update aangepaste eigenschappen in spreadsheets met .NET
 linktitle: Update aangepaste eigenschappen in spreadsheets met .NET
 second_title: GroupDocs.Metadata .NET API
 description: Ontdek hoe u aangepaste eigenschappen in spreadsheets kunt bijwerken met GroupDocs.Metadata voor .NET. Deze tutorial verbetert uw vaardigheden op het gebied van metadatabeheer effectief.
-type: docs
 weight: 15
 url: /nl/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---

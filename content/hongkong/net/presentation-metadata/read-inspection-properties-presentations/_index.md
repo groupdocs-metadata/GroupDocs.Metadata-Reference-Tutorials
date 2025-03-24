@@ -3,7 +3,6 @@ title: 從 .NET 簡報中讀取檢查屬性
 linktitle: 從 .NET 簡報中讀取檢查屬性
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 擷取簡報元資料。以程式設計方式存取評論、隱藏投影片等。
-type: docs
 weight: 14
 url: /zh-hant/net/presentation-metadata/read-inspection-properties-presentations/
 ---
@@ -64,7 +63,7 @@ if (root.InspectionPackage.HiddenSlides != null)
 ### Q：如何取得 GroupDocs.Metadata 的臨時許可證？
 答：您可以從以下機構取得臨時許可證：[這裡](https://purchase.groupdocs.com/temporary-license/).
 ### Q：在哪裡可以找到 GroupDocs.Metadata for .NET 的文檔？
-答：可以參考文檔[這裡](https://reference.groupdocs.com/metadata/net/).
+答：可以參考文檔[這裡](https://tutorials.groupdocs.com/metadata/net/).
 ### Q：如何獲得對 GroupDocs.Metadata 的支援？
 答：如需支援與討論，請造訪 GroupDocs.Metadata 論壇[這裡](https://forum.groupdocs.com/c/metadata/14).
 ### Q：我可以下載 GroupDocs.Metadata for .NET 的免費試用版嗎？

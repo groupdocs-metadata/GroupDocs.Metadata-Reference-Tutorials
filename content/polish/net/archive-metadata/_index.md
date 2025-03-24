@@ -3,7 +3,6 @@ title: Archiwizuj metadane
 linktitle: Archiwizuj metadane
 second_title: GroupDocs.Metadata API .NET
 description: Zapoznaj się z samouczkami dotyczącymi wyodrębniania właściwości metadanych i zarządzania nimi z różnych formatów archiwów, takich jak RAR, 7Zip, TAR i ZIP, przy użyciu GroupDocs.Metadata dla .NET.
-type: docs
 weight: 21
 url: /pl/net/archive-metadata/
 ---

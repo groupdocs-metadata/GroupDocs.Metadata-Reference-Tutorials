@@ -3,7 +3,6 @@ title: 在 .NET 教程中從流加載元數據
 linktitle: 在 .NET 教程中從流加載元數據
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata 管理 .NET 中的文件元資料。從串流中載入、編輯和刪除元資料的逐步指南。
-type: docs
 weight: 11
 url: /zh-hant/net/metadata-loading/load-metadata-stream/
 ---
@@ -63,7 +62,7 @@ metadata.Save("Output File");
 ### Q：如何取得 GroupDocs.Metadata 的臨時許可證？
 答：您可以從以下機構取得臨時許可證：[這裡](https://purchase.groupdocs.com/temporary-license/).
 ### Q：在哪裡可以找到 GroupDocs.Metadata 的綜合文件？
- A：探索詳細文檔[這裡](https://reference.groupdocs.com/metadata/net/).
+ A：探索詳細文檔[這裡](https://tutorials.groupdocs.com/metadata/net/).
 ### Q：GroupDocs.Metadata 是否有免費試用版？
 答：是的，您可以免費試用[這裡](https://releases.groupdocs.com/).
 ### Q：如何獲得對 GroupDocs.Metadata 的支援？

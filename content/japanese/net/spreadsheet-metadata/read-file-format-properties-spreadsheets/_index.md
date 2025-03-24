@@ -3,7 +3,6 @@ title: .NET のスプレッドシートからファイル形式プロパティ�
 linktitle: .NET のスプレッドシートからファイル形式プロパティを読み取る
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用してスプレッドシート ファイル形式のプロパティを読み取る方法を学習します。単純な API 呼び出しでファイル形式、MIME タイプなどにアクセスします。
-type: docs
 weight: 12
 url: /ja/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
@@ -55,7 +54,7 @@ Console.WriteLine(root.FileType.Extension);
 
 ## よくある質問
 ### GroupDocs.Metadata for .NET はあらゆる種類のスプレッドシート形式と互換性がありますか?
- GroupDocs.Metadata for .NET は、XLSX、XLS、CSV などを含む幅広いスプレッドシート形式をサポートしています。を参照してください。[ドキュメンテーション](https://reference.groupdocs.com/metadata/net/)サポートされている形式の包括的なリストについては、こちらをご覧ください。
+ GroupDocs.Metadata for .NET は、XLSX、XLS、CSV などを含む幅広いスプレッドシート形式をサポートしています。を参照してください。[ドキュメンテーション](https://tutorials.groupdocs.com/metadata/net/)サポートされている形式の包括的なリストについては、こちらをご覧ください。
 ### GroupDocs.Metadata for .NET を使用してメタデータ プロパティを編集できますか?
 はい、GroupDocs.Metadata for .NET では、さまざまなファイル形式に関連付けられたメタデータ プロパティの読み取りだけでなく編集も可能です。
 ### テスト目的で一時ライセンスを取得するにはどうすればよいですか?

@@ -3,7 +3,6 @@ title: .NET'teki 7Zip Arşivlerinden Yerel Meta Veri Özelliklerini Okuyun
 linktitle: .NET'teki 7Zip Arşivlerinden Yerel Meta Veri Özelliklerini Okuyun
 second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak 7Zip arşivlerinden yerel meta veri özelliklerini nasıl okuyacağınızı öğrenin. .NET uygulamanızın veri yönetimi yeteneklerini geliştirin.
-type: docs
 weight: 11
 url: /tr/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
@@ -64,7 +63,7 @@ Evet, GroupDocs.Metadata, çeşitli dosya formatlarında meta veri özelliklerin
 ### GroupDocs.Metadata, RAR veya TAR gibi diğer arşiv formatlarıyla uyumlu mu?
 Evet, GroupDocs.Metadata, diğerlerinin yanı sıra RAR, TAR ve ZIP dahil çok çeşitli arşiv formatlarını destekler.
 ### GroupDocs.Metadata for .NET'e ilişkin ayrıntılı belgeleri nerede bulabilirim?
- Dokümantasyona ulaşabilirsiniz[Burada](https://reference.groupdocs.com/metadata/net/).
+ Dokümantasyona ulaşabilirsiniz[Burada](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata için nasıl geçici lisans edinebilirim?
  Geçici lisans alabilirsiniz[Burada](https://purchase.groupdocs.com/temporary-license/).
 ### GroupDocs.Metadata sorun giderme ve sorular için destek sunuyor mu?

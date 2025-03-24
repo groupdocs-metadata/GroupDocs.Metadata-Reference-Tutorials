@@ -3,7 +3,6 @@ title: 从 .NET 中的图表读取自定义属性
 linktitle: 从 .NET 中的图表读取自定义属性
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata 从 .NET 中的图表文件中提取自定义属性。为开发人员提供简单的分步指南。
-type: docs
 weight: 11
 url: /zh/net/diagram-metadata/read-custom-properties-diagrams/
 ---
@@ -60,6 +59,6 @@ foreach (var property in customProperties)
 ### GroupDocs.Metadata 是否适合大规模文档处理？
 是的，GroupDocs.Metadata 旨在有效地处理大量文档。
 ### 在哪里可以找到有关 GroupDocs.Metadata 的更多支持或文档？
-参观[GroupDocs.Metadata 论坛](https://forum.groupdocs.com/c/metadata/14)寻求支持并探索[文档](https://reference.groupdocs.com/metadata/net/)以获取详细的 API 参考。
+参观[GroupDocs.Metadata 论坛](https://forum.groupdocs.com/c/metadata/14)寻求支持并探索[文档](https://tutorials.groupdocs.com/metadata/net/)以获取详细的 API 参考。
 ### 购买之前我可以免费试用 GroupDocs.Metadata 吗？
 是的，您可以下载免费试用版[这里](https://releases.groupdocs.com/).

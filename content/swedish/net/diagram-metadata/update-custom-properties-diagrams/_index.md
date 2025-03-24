@@ -3,7 +3,6 @@ title: Uppdatera anpassade egenskaper i diagram med .NET
 linktitle: Uppdatera anpassade egenskaper i diagram med .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du uppdaterar anpassade egenskaper i diagram med .NET med GroupDocs.Metadata for .NET. Förbättra metadata med lätthet.
-type: docs
 weight: 15
 url: /sv/net/diagram-metadata/update-custom-properties-diagrams/
 ---

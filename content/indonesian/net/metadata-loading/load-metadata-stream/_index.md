@@ -3,7 +3,6 @@ title: Memuat Metadata dari Stream di Tutorial .NET
 linktitle: Memuat Metadata dari Stream di Tutorial .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengelola metadata file di .NET dengan GroupDocs.Metadata. Panduan langkah demi langkah untuk memuat, mengedit, dan menghapus metadata dari aliran.
-type: docs
 weight: 11
 url: /id/net/metadata-loading/load-metadata-stream/
 ---
@@ -63,7 +62,7 @@ Dalam tutorial ini, kami telah membahas dasar-dasar memuat metadata dari aliran 
 ### T: Bagaimana cara mendapatkan lisensi sementara untuk GroupDocs.Metadata?
  J: Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.groupdocs.com/temporary-license/).
 ### T: Di mana saya dapat menemukan dokumentasi komprehensif untuk GroupDocs.Metadata?
- J: Jelajahi dokumentasi terperinci[Di Sini](https://reference.groupdocs.com/metadata/net/).
+ J: Jelajahi dokumentasi terperinci[Di Sini](https://tutorials.groupdocs.com/metadata/net/).
 ### T: Apakah tersedia uji coba gratis untuk GroupDocs.Metadata?
  A: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.groupdocs.com/).
 ### T: Bagaimana cara mendapatkan dukungan untuk GroupDocs.Metadata?

@@ -3,7 +3,6 @@ title: قراءة علامة ID3V2 من ملفات MP3 في .NET
 linktitle: قراءة علامة ID3V2 من ملفات MP3 في .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج علامات ID3V2 من ملفات MP3 باستخدام GroupDocs.Metadata لـ .NET. الوصول إلى الألبوم والفنان والمزيد برمجيًا.
-type: docs
 weight: 12
 url: /ar/net/audio-metadata/read-id3v2-tag-mp3/
 ---

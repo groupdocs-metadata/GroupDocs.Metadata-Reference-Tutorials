@@ -3,7 +3,6 @@ title: .NET で特定の形式からメタデータを読み込む
 linktitle: .NET で特定の形式からメタデータを読み込む
 second_title: GroupDocs.Metadata .NET API
 description: この包括的なチュートリアルでは、GroupDocs.Metadata for .NET を使用して特定のファイル形式からメタデータを読み込む方法を学習します。
-type: docs
 weight: 12
 url: /ja/net/metadata-loading/load-metadata-specific-format/
 ---
@@ -55,7 +54,7 @@ using (Metadata metadata = new Metadata("Your Input File", loadOptions))
 ### メタデータの管理が重要なのはなぜですか?
 メタデータの管理は、デジタル コンテンツを整理して理解し、検索性と相互運用性を促進するために重要です。
 ### GroupDocs.Metadata for .NET の詳細なドキュメントはどこで入手できますか?
-ドキュメントにアクセスできます[ここ](https://reference.groupdocs.com/metadata/net/).
+ドキュメントにアクセスできます[ここ](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata for .NET の一時ライセンスを取得するにはどうすればよいですか?
 訪問[このリンク](https://purchase.groupdocs.com/temporary-license/)仮免許取得のため。
 ### GroupDocs.Metadata for .NET に関するサポートや質問はどこで受けられますか?

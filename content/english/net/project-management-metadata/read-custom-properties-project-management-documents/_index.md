@@ -3,7 +3,6 @@ title: Read Custom Properties in .NET Project Management Documents
 linktitle: Read Custom Properties in .NET Project Management Documents
 second_title: GroupDocs.Metadata .NET API
 description: Learn how to extract custom properties from .NET project management documents using GroupDocs.Metadata for .NET. Enhance your metadata management.
-type: docs
 weight: 11
 url: /net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
@@ -58,7 +57,7 @@ GroupDocs.Metadata supports a wide range of project management formats, includin
 ### Is a license required to use GroupDocs.Metadata for .NET?
 Yes, a license is required for commercial use. You can obtain a temporary license from [here](https://purchase.groupdocs.com/temporary-license/).
 ### How can I access further documentation for GroupDocs.Metadata?
-Explore detailed documentation at the [reference page](https://reference.groupdocs.com/metadata/net/).
+Explore detailed documentation at the [tutorials page](https://tutorials.groupdocs.com/metadata/net/).
 ### Where can I get support for GroupDocs.Metadata related queries?
 Join the community at the [GroupDocs Metadata forum](https://forum.groupdocs.com/c/metadata/14) for support and discussions.
 ### Can I try GroupDocs.Metadata for free before purchasing?

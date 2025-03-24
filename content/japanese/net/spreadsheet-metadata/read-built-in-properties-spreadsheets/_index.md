@@ -3,7 +3,6 @@ title: .NET のスプレッドシートから組み込みプロパティを読�
 linktitle: .NET のスプレッドシートから組み込みプロパティを読み取る
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata を使用して .NET のスプレッドシートからメタデータを抽出し、アプリケーションでのドキュメント管理と整理を強化する方法を学習します。
-type: docs
 weight: 10
 url: /ja/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
@@ -79,7 +78,7 @@ Console.WriteLine(root.DocumentProperties.ContentType);
 ### GroupDocs.Metadata for .NET を使用してメタデータを変更できますか?
 はい、この API を使用すると、メタデータを読み取るだけでなく、編集、更新、削除することもできます。
 ### GroupDocs.Metadata for .NET の詳細なドキュメントはどこで入手できますか?
-詳細なドキュメントは次の場所で入手できます。[GroupDocs.Metadata for .NET ドキュメント](https://reference.groupdocs.com/metadata/net/).
+詳細なドキュメントは次の場所で入手できます。[GroupDocs.Metadata for .NET ドキュメント](https://tutorials.groupdocs.com/metadata/net/).
 ### テスト目的で一時ライセンスを取得するにはどうすればよいですか?
 一時ライセンスは次からリクエストできます。[ここ](https://purchase.groupdocs.com/temporary-license/).
 ### GroupDocs.Metadata サポートのためのコミュニティ フォーラムはありますか?

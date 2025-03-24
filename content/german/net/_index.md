@@ -1,7 +1,6 @@
 ---
 title: Tutorials und Beispiele für GroupDocs.Metadata für .NET
 linktitle: GroupDocs.Metadata für .NET-Tutorials
-type: docs
 weight: 10
 url: /de/net/
 description: Verwalten Sie Dateimetadaten in .NET mühelos mit GroupDocs.Metadata. Lernen Sie Ladetechniken, Bearbeitung und mehr für erweiterte Dateibearbeitungsfunktionen.

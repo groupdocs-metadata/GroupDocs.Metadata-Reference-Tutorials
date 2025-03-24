@@ -3,7 +3,6 @@ title: Cara Memuat Metadata dari Dokumen yang Dilindungi Kata Sandi di .NET
 linktitle: Cara Memuat Metadata dari Dokumen yang Dilindungi Kata Sandi di .NET
 second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengelola metadata dokumen secara efisien dengan GroupDocs.Metadata untuk .NET. Ekstrak, edit, dan tangani metadata dengan lancar di aplikasi .NET Anda.
-type: docs
 weight: 13
 url: /id/net/metadata-loading/load-metadata-password-protected/
 ---
@@ -60,6 +59,6 @@ Sangat! Anda dapat mengekstrak, memperbarui, atau menghapus properti metadata de
 ### Bagaimana cara menangani pengecualian terkait pemuatan dokumen?
 Pastikan penanganan kesalahan yang tepat di sekitar operasi pemuatan dokumen untuk menangkap dan mengelola potensi pengecualian.
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk GroupDocs.Metadata untuk .NET?
- Mengunjungi[dokumentasi](https://reference.groupdocs.com/metadata/net/) untuk panduan komprehensif dan referensi API.
+ Mengunjungi[dokumentasi](https://tutorials.groupdocs.com/metadata/net/) untuk panduan komprehensif dan referensi API.
 ### Apakah ada uji coba gratis yang tersedia untuk GroupDocs.Metadata untuk .NET?
  Ya, Anda dapat menjelajahi perpustakaan dengan a[uji coba gratis](https://releases.groupdocs.com/).

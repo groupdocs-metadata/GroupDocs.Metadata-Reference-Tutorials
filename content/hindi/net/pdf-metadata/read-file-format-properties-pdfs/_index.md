@@ -3,7 +3,6 @@ title: .NET में PDF से फ़ाइल प्रारूप गुण
 linktitle: .NET में PDF से फ़ाइल प्रारूप गुण पढ़ें
 second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके PDF फ़ाइल प्रारूप गुणों को निकालने का तरीका जानें। सरल C# के साथ मेटाडेटा प्रबंधन में गोता लगाएँ।
-type: docs
 weight: 13
 url: /hi/net/pdf-metadata/read-file-format-properties-pdfs/
 ---
@@ -63,7 +62,7 @@ Console.WriteLine("Extension: " + root.FileType.Extension);
 ### क्या .NET के लिए GroupDocs.Metadata का कोई परीक्षण संस्करण उपलब्ध है?
  हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.groupdocs.com/).
 ### मुझे GroupDocs.Metadata के लिए व्यापक दस्तावेज़ कहाँ मिल सकते हैं?
- विस्तृत दस्तावेज़ देखें[यहाँ](https://reference.groupdocs.com/metadata/net/).
+ विस्तृत दस्तावेज़ देखें[यहाँ](https://tutorials.groupdocs.com/metadata/net/).
 ### मैं GroupDocs.Metadata से संबंधित किसी भी समस्या या प्रश्न के लिए समर्थन कैसे प्राप्त कर सकता हूं?
  आप GroupDocs.Metadata समुदाय से सहायता प्राप्त कर सकते हैं[मंच](https://forum.groupdocs.com/c/metadata/14).
 ### मैं .NET के लिए GroupDocs.Metadata का लाइसेंस प्राप्त संस्करण कहां से खरीद सकता हूं?

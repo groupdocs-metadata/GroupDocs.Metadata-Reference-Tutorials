@@ -3,7 +3,6 @@ title: Чтение метаданных MPEG Audio из файлов MP3 в .NE
 linktitle: Чтение метаданных MPEG Audio из файлов MP3 в .NET
 second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как извлечь метаданные аудио MPEG из файлов MP3 в .NET с помощью GroupDocs.Metadata. Расширьте свои возможности анализа файлов.
-type: docs
 weight: 14
 url: /ru/net/audio-metadata/read-mpeg-audio-metadata-mp3/
 ---

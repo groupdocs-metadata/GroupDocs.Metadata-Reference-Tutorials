@@ -3,7 +3,6 @@ title: Leia metadados de informações de arquivos WAV em .NET
 linktitle: Leia metadados de informações de arquivos WAV em .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda como extrair metadados de arquivos WAV usando GroupDocs.Metadata for .NET. Mergulhe neste tutorial passo a passo para aproveitar metadados para gerenciamento de arquivos de áudio.
-type: docs
 weight: 22
 url: /pt/net/audio-metadata/read-info-metadata-wav/
 ---
@@ -66,7 +65,7 @@ Sim, GroupDocs.Metadata oferece suporte a uma ampla variedade de formatos de arq
 ### Existe uma avaliação gratuita disponível para GroupDocs.Metadata?
  Sim, você pode obter uma avaliação gratuita do GroupDocs.Metadata em[aqui](https://releases.groupdocs.com/).
 ### Onde posso encontrar documentação detalhada para GroupDocs.Metadata?
- Você pode acessar a documentação completa[aqui](https://reference.groupdocs.com/metadata/net/).
+ Você pode acessar a documentação completa[aqui](https://tutorials.groupdocs.com/metadata/net/).
 ### Como posso adquirir uma licença para GroupDocs.Metadata?
  Você pode comprar uma licença para GroupDocs.Metadata no site[página de compra](https://purchase.groupdocs.com/buy).
 ### Onde posso obter suporte ou tirar dúvidas sobre GroupDocs.Metadata?

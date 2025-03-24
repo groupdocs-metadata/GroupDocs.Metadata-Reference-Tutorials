@@ -3,7 +3,6 @@ title: Olvassa el az Ellenőrzési tulajdonságokat a .NET-ben található PDF-f
 linktitle: Olvassa el az Ellenőrzési tulajdonságokat a .NET-ben található PDF-fájlokból
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan vonhatja ki a vizsgálati tulajdonságokat PDF-dokumentumokból a GroupDocs.Metadata for .NET segítségével. Fedezze fel a kommentárokat, mellékleteket és egyebeket.
-type: docs
 weight: 14
 url: /hu/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
@@ -100,7 +99,7 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan olvashatja ki a vizsgálati tula
 ### Használhatom a GroupDocs.Metadata-t a PDF-en kívül más fájlformátumokkal is?
 Igen, a GroupDocs.Metadata a dokumentumformátumok széles skáláját támogatja, beleértve a Microsoft Office dokumentumokat, képeket, hangfájlokat és egyebeket.
 ### Hol találom a GroupDocs.Metadata for .NET részletes dokumentációját?
- Utal[dokumentáció](https://reference.groupdocs.com/metadata/net/) átfogó útmutatásért és API-referenciákért.
+ Utal[dokumentáció](https://tutorials.groupdocs.com/metadata/net/) átfogó útmutatásért és API-referenciákért.
 ### Elérhető a GroupDocs.Metadata próbaverziója?
  Igen, ingyenes próbaverziót szerezhet be a[GroupDocs kiadási oldal](https://releases.groupdocs.com/).
 ### Hogyan kaphatok támogatást a GroupDocs.Metadata-val kapcsolatos problémákhoz vagy lekérdezésekhez?

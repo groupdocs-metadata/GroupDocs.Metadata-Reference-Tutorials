@@ -3,7 +3,6 @@ title: Διαβάστε τις ιδιότητες μορφής αρχείου α
 linktitle: Διαβάστε τις ιδιότητες μορφής αρχείου από τις παρουσιάσεις στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να διαβάζετε τις ιδιότητες του αρχείου παρουσίασης στο .NET χρησιμοποιώντας το GroupDocs.Metadata. Πρόσβαση στις λεπτομέρειες μορφής αρχείου μέσω προγραμματισμού.
-type: docs
 weight: 13
 url: /el/net/presentation-metadata/read-file-format-properties-presentations/
 ---

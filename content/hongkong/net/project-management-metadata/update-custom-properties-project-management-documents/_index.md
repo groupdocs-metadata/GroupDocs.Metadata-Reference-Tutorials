@@ -3,7 +3,6 @@ title: 更新 .NET 專案管理文件中的自訂屬性
 linktitle: 更新 .NET 專案管理文件中的自訂屬性
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 更新 .NET 專案管理文件中的自訂屬性。增強應用程式中的元資料管理。
-type: docs
 weight: 13
 url: /zh-hant/net/project-management-metadata/update-custom-properties-project-management-documents/
 ---

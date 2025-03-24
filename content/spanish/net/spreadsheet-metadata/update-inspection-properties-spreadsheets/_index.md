@@ -3,7 +3,6 @@ title: Actualizar propiedades de inspección en hojas de cálculo usando .NET
 linktitle: Actualizar propiedades de inspección en hojas de cálculo usando .NET
 second_title: API GroupDocs.Metadata .NET
 description: Aprenda a actualizar las propiedades de inspección en hojas de cálculo usando GroupDocs.Metadata para .NET. Administre comentarios, firmas y hojas ocultas con facilidad.
-type: docs
 weight: 16
 url: /es/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
@@ -59,7 +58,7 @@ Sí, GroupDocs.Metadata admite varios formatos de hojas de cálculo, incluidos X
 ### ¿Puedo modificar otras propiedades de metadatos usando GroupDocs.Metadata?
 Por supuesto, GroupDocs.Metadata le permite leer, actualizar, eliminar y agregar propiedades de metadatos como autor, título, fecha de creación, etc.
 ### ¿Dónde puedo encontrar documentación detallada para GroupDocs.Metadata para .NET?
- Puede consultar el completo[documentación](https://reference.groupdocs.com/metadata/net/) disponible en linea.
+ Puede consultar el completo[documentación](https://tutorials.groupdocs.com/metadata/net/) disponible en linea.
 ### ¿Existe una prueba gratuita disponible para GroupDocs.Metadata para .NET?
  Sí, puedes acceder a un[prueba gratis](https://releases.groupdocs.com/) para evaluar la API.
 ### ¿Cómo puedo obtener soporte técnico para GroupDocs.Metadata para .NET?

@@ -3,7 +3,6 @@ title: Διαβάστε Document Statistics από Παρουσιάσεις στ
 linktitle: Διαβάστε Document Statistics από Παρουσιάσεις στο .NET
 second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να διαβάζετε στατιστικά στοιχεία εγγράφων από παρουσιάσεις στο .NET χρησιμοποιώντας GroupDocs.Metadata για αποτελεσματική διαχείριση μεταδεδομένων.
-type: docs
 weight: 12
 url: /el/net/presentation-metadata/read-document-statistics-presentations/
 ---

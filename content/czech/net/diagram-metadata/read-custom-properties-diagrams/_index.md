@@ -3,7 +3,6 @@ title: Přečtěte si uživatelské vlastnosti z Diagramů v .NET
 linktitle: Přečtěte si uživatelské vlastnosti z Diagramů v .NET
 second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat uživatelské vlastnosti ze souborů diagramů v .NET pomocí GroupDocs.Metadata. Jednoduchý průvodce krok za krokem pro vývojáře.
-type: docs
 weight: 11
 url: /cs/net/diagram-metadata/read-custom-properties-diagrams/
 ---
@@ -60,6 +59,6 @@ Ano, GroupDocs.Metadata podporuje různé formáty dokumentů, včetně prezenta
 ### Jsou GroupDocs.Metadata vhodná pro rozsáhlé zpracování dokumentů?
 Ano, GroupDocs.Metadata je navržena tak, aby efektivně zpracovávala velké objemy dokumentů.
 ### Kde najdu další podporu nebo dokumentaci pro GroupDocs.Metadata?
- Navštivte[Fórum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) za podporu a prozkoumání[dokumentace](https://reference.groupdocs.com/metadata/net/) pro podrobné API reference.
+ Navštivte[Fórum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14) za podporu a prozkoumání[dokumentace](https://tutorials.groupdocs.com/metadata/net/) pro podrobné API tutorials.
 ### Mohu si GroupDocs.Metadata před nákupem zdarma vyzkoušet?
  Ano, můžete si stáhnout bezplatnou zkušební verzi[tady](https://releases.groupdocs.com/).

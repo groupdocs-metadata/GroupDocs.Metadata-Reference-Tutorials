@@ -3,7 +3,6 @@ title: كيفية تحميل البيانات التعريفية من مستند
 linktitle: كيفية تحميل البيانات التعريفية من مستند محمي بكلمة مرور في .NET
 second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية إدارة بيانات تعريف المستند بكفاءة باستخدام GroupDocs.Metadata لـ .NET. قم باستخراج البيانات التعريفية وتحريرها والتعامل معها بسلاسة في تطبيقات .NET الخاصة بك.
-type: docs
 weight: 13
 url: /ar/net/metadata-loading/load-metadata-password-protected/
 ---
@@ -60,6 +59,6 @@ Console.WriteLine("Title: " + documentMetadata.Title);
 ### كيف أتعامل مع الاستثناءات المتعلقة بتحميل المستندات؟
 تأكد من معالجة الأخطاء بشكل صحيح حول عمليات تحميل المستندات لاكتشاف الاستثناءات المحتملة وإدارتها.
 ### أين يمكنني العثور على الوثائق التفصيلية لـ GroupDocs.Metadata لـ .NET؟
- قم بزيارة[توثيق](https://reference.groupdocs.com/metadata/net/) للحصول على أدلة شاملة ومراجع API.
+ قم بزيارة[توثيق](https://tutorials.groupdocs.com/metadata/net/) للحصول على أدلة شاملة ومراجع API.
 ### هل هناك نسخة تجريبية مجانية متاحة لـ GroupDocs.Metadata لـ .NET؟
  نعم، يمكنك استكشاف المكتبة مع أ[تجربة مجانية](https://releases.groupdocs.com/).

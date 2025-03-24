@@ -3,7 +3,6 @@ title: 使用 .NET 更新電子表格中的自訂屬性
 linktitle: 使用 .NET 更新電子表格中的自訂屬性
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 更新電子表格中的自訂屬性。本教學有效增強您的元資料管理技能。
-type: docs
 weight: 15
 url: /zh-hant/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---

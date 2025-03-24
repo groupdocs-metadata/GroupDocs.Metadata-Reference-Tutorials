@@ -3,7 +3,6 @@ title: 更新 .NET 项目管理文档中的内置属性
 linktitle: 更新 .NET 项目管理文档中的内置属性
 second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 更新 .NET 项目管理文档中的元数据。高效增强文档管理。
-type: docs
 weight: 12
 url: /zh/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
@@ -57,7 +56,7 @@ metadata.Save("YourInputFile");
 ### 除了内置文档详细信息之外，我还可以操作其他元数据属性吗？
 绝对地！ GroupDocs.Metadata 提供了广泛的功能来管理各种文件类型的元数据。
 ### 在哪里可以找到有关 GroupDocs.Metadata 的其他文档和支持？
-参观[GroupDocs.元数据文档](https://reference.groupdocs.com/metadata/net/)获取详细信息。对于具体问题，请与社区联系：[集团文档论坛](https://forum.groupdocs.com/c/metadata/14).
+参观[GroupDocs.元数据文档](https://tutorials.groupdocs.com/metadata/net/)获取详细信息。对于具体问题，请与社区联系：[集团文档论坛](https://forum.groupdocs.com/c/metadata/14).
 ### 是否有免费试用版可用于测试 GroupDocs.Metadata？
 是的，您可以免费试用[这里](https://releases.groupdocs.com/).
 ### 如何获得 GroupDocs.Metadata 的临时许可证？

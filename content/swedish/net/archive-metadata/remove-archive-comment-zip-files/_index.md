@@ -3,7 +3,6 @@ title: Ta bort arkivkommentar från ZIP-filer i .NET
 linktitle: Ta bort arkivkommentar från ZIP-filer i .NET
 second_title: GroupDocs.Metadata .NET API
 description: Lär dig att ta bort ZIP-arkivkommentarer med GroupDocs.Metadata for .NET. Förbättra dina metadatahanteringsfärdigheter.
-type: docs
 weight: 14
 url: /sv/net/archive-metadata/remove-archive-comment-zip-files/
 ---

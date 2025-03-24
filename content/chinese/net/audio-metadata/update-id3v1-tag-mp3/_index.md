@@ -3,7 +3,6 @@ title: 使用 .NET 更新 MP3 文件中的 ID3V1 标签
 linktitle: 使用 .NET 更新 MP3 文件中的 ID3V1 标签
 second_title: GroupDocs.元数据 .NET API
 description: 使用 GroupDocs.Metadata for .NET 更新 MP3 文件中的 ID3V1 标签。按照本教程，您可以在 .NET 应用程序中轻松操作元数据。
-type: docs
 weight: 19
 url: /zh/net/audio-metadata/update-id3v1-tag-mp3/
 ---
@@ -61,7 +60,7 @@ GroupDocs.Metadata for .NET 是一个功能强大的元数据操作 API，允许
 ### GroupDocs.Metadata for .NET 支持哪些文档格式？
 GroupDocs.Metadata for .NET 支持多种文档格式，包括 PDF、Microsoft Office 文档（Word、Excel、PowerPoint）、图像（JPEG、PNG、TIFF）、音频和视频文件等。
 ### 在哪里可以找到 .NET 的 GroupDocs.Metadata 文档？
-您可以参考详细文档[这里](https://reference.groupdocs.com/metadata/net/)有关使用 API 的全面指导。
+您可以参考详细文档[这里](https://tutorials.groupdocs.com/metadata/net/)有关使用 API 的全面指导。
 ### GroupDocs.Metadata for .NET 有免费试用版吗？
 是的，您可以免费试用 GroupDocs.Metadata for .NET[这里](https://releases.groupdocs.com/).
 ### 如何获得 GroupDocs.Metadata for .NET 的技术支持？

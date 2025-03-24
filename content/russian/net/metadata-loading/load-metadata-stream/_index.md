@@ -3,7 +3,6 @@ title: Загрузка метаданных из потока в учебник
 linktitle: Загрузка метаданных из потока в учебнике .NET
 second_title: GroupDocs.Метаданные .NET API
 description: Научитесь управлять метаданными файлов в .NET с помощью GroupDocs.Metadata. Пошаговое руководство по загрузке, редактированию и удалению метаданных из потоков.
-type: docs
 weight: 11
 url: /ru/net/metadata-loading/load-metadata-stream/
 ---
@@ -63,7 +62,7 @@ metadata.Save("Output File");
 ### Вопрос: Как получить временную лицензию на GroupDocs.Metadata?
  О: Вы можете приобрести временную лицензию у[здесь](https://purchase.groupdocs.com/temporary-license/).
 ### Вопрос: Где я могу найти подробную документацию по GroupDocs.Metadata?
- A: Изучите подробную документацию.[здесь](https://reference.groupdocs.com/metadata/net/).
+ A: Изучите подробную документацию.[здесь](https://tutorials.groupdocs.com/metadata/net/).
 ### Вопрос: Доступна ли бесплатная пробная версия GroupDocs.Metadata?
  О: Да, вы можете получить доступ к бесплатной пробной версии.[здесь](https://releases.groupdocs.com/).
 ### Вопрос: Как я могу получить поддержку для GroupDocs.Metadata?

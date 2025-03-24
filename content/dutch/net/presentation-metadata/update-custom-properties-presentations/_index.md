@@ -3,7 +3,6 @@ title: Update aangepaste eigenschappen in presentaties met .NET
 linktitle: Update aangepaste eigenschappen in presentaties met .NET
 second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u metagegevens van presentaties kunt beheren met GroupDocs.Metadata voor .NET. Werk aangepaste eigenschappen efficiënt bij in PowerPoint-bestanden.
-type: docs
 weight: 16
 url: /nl/net/presentation-metadata/update-custom-properties-presentations/
 ---

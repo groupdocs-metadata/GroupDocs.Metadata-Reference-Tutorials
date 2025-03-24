@@ -3,7 +3,6 @@ title: Метаданные управления проектами
 linktitle: Метаданные управления проектами
 second_title: GroupDocs.Метаданные .NET API
 description: Раскройте потенциал документов управления проектами .NET с помощью учебных пособий GroupDocs.Metadata для .NET. Извлекайте, обновляйте и управляйте метаданными без особых усилий.
-type: docs
 weight: 26
 url: /ru/net/project-management-metadata/
 ---

@@ -1,7 +1,6 @@
 ---
 title: .NET için GroupDocs.Metadata Öğreticileri ve Örnekleri
 linktitle: .NET Eğitimleri için GroupDocs.Metadata
-type: docs
 weight: 10
 url: /tr/net/
 description: GroupDocs.Metadata ile .NET'teki dosya meta verilerini zahmetsizce yönetin. Gelişmiş dosya işleme yetenekleri için yükleme tekniklerini, düzenlemeyi ve daha fazlasını öğrenin.

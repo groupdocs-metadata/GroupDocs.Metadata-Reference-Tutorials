@@ -3,7 +3,6 @@ title: .NET プロジェクト管理ドキュメントのカスタム プロパ�
 linktitle: .NET プロジェクト管理ドキュメントのカスタム プロパティを読み取る
 second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して .NET プロジェクト管理ドキュメントからカスタム プロパティを抽出する方法を学びます。メタデータ管理を強化します。
-type: docs
 weight: 11
 url: /ja/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
@@ -58,7 +57,7 @@ GroupDocs.Metadata は、Microsoft Project (MPP) ファイルなどを含む幅�
 ### GroupDocs.Metadata for .NET を使用するにはライセンスが必要ですか?
 はい、商用利用にはライセンスが必要です。一時ライセンスは次から取得できます。[ここ](https://purchase.groupdocs.com/temporary-license/).
 ### GroupDocs.Metadata の詳細ドキュメントにアクセスするにはどうすればよいですか?
-詳細なドキュメントについては、[参考ページ](https://reference.groupdocs.com/metadata/net/).
+詳細なドキュメントについては、[参考ページ](https://tutorials.groupdocs.com/metadata/net/).
 ### GroupDocs.Metadata 関連のクエリのサポートはどこで受けられますか?
 のコミュニティに参加してください[GroupDocs メタデータ フォーラム](https://forum.groupdocs.com/c/metadata/14)サポートとディスカッションのため。
 ### 購入前に GroupDocs.Metadata を無料で試すことはできますか?

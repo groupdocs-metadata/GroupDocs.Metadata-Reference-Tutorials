@@ -3,7 +3,6 @@ title: .NET 프레젠테이션에서 기본 제공 속성 읽기
 linktitle: .NET 프레젠테이션에서 기본 제공 속성 읽기
 second_title: GroupDocs.메타데이터 .NET API
 description: 이 포괄적인 튜토리얼에서 .NET용 GroupDocs.Metadata를 사용하여 프레젠테이션에서 기본 제공 속성을 추출하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/net/presentation-metadata/read-built-in-properties-presentations/
 ---
@@ -55,7 +54,7 @@ Console.WriteLine(root.DocumentProperties.NameOfApplication);
 ### .NET용 GroupDocs.Metadata를 사용하여 메타데이터를 수정하거나 업데이트할 수 있나요?
 물론 이 라이브러리를 사용하여 메타데이터 속성을 수정, 업데이트 및 제거할 수 있습니다.
 ### .NET용 GroupDocs.Metadata에 대한 자세한 설명서는 어디서 찾을 수 있나요?
- 문서를 참고하시면 됩니다[여기](https://reference.groupdocs.com/metadata/net/) 포괄적인 정보를 얻으려면.
+ 문서를 참고하시면 됩니다[여기](https://tutorials.groupdocs.com/metadata/net/) 포괄적인 정보를 얻으려면.
 ### .NET용 GroupDocs.Metadata의 임시 라이센스를 얻으려면 어떻게 해야 합니까?
  임시면허를 취득할 수 있습니다.[여기](https://purchase.groupdocs.com/temporary-license/) 평가 목적으로.
 ### .NET용 GroupDocs.Metadata와 관련된 도움을 구하거나 질문을 할 수 있는 곳은 어디입니까?

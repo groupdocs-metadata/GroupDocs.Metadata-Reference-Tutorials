@@ -3,7 +3,6 @@ title: Membuka Kunci Penguasaan Metadata dengan GroupDocs.Metadata
 linktitle: GroupDocs.Tutorial Metadata
 additionalTitle: Referensi API GroupDocs
 description: Temukan tutorial komprehensif untuk GroupDocs.Metadata di seluruh platform. Kuasai manajemen metadata di .NET dan Java dengan mudah.
-type: docs
 weight: 11
 url: /id/
 is_root: true

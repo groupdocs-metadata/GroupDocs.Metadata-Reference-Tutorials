@@ -3,7 +3,6 @@ title: 使用 .NET 更新簡報中的檢查屬性
 linktitle: 使用 .NET 更新簡報中的檢查屬性
 second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 .NET 和 GroupDocs.Metadata 更新簡報中的檢查屬性。對 .PPTX 檔案進行簡單、有效率的元資料操作。
-type: docs
 weight: 17
 url: /zh-hant/net/presentation-metadata/update-inspection-properties-presentations/
 ---
@@ -55,7 +54,7 @@ using (Metadata metadata = new Metadata("YourPresentationFile.pptx"))
 ### 我可以使用 GroupDocs.Metadata 從文件中檢索元資料屬性嗎？
 當然，GroupDocs.Metadata 允許開發人員以程式設計方式提取和分析元資料屬性。
 ### 在哪裡可以找到 GroupDocs.Metadata 的詳細文件？
-請參閱[文件](https://reference.groupdocs.com/metadata/net/)有關使用 GroupDocs.Metadata for .NET 的綜合指南。
+請參閱[文件](https://tutorials.groupdocs.com/metadata/net/)有關使用 GroupDocs.Metadata for .NET 的綜合指南。
 ### GroupDocs.Metadata 是否提供免費試用？
 是的，您可以訪問[免費試用](https://releases.groupdocs.com/) GroupDocs.Metadata 來探索其功能。
 ### 如何獲得對 GroupDocs.Metadata 的支援？

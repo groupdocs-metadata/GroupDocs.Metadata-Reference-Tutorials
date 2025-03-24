@@ -3,7 +3,6 @@ title: Frissítse a bemutatók beépített tulajdonságait .NET használatával
 linktitle: Frissítse a bemutatók beépített tulajdonságait .NET használatával
 second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan frissítheti a prezentációk beépített tulajdonságait a .NET használatával a GroupDocs.Metadata segítségével, amely egy sokoldalú metaadat-kezelési könyvtár.
-type: docs
 weight: 15
 url: /hu/net/presentation-metadata/update-built-in-properties-presentations/
 ---
@@ -51,7 +50,7 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan használható a GroupDocs.Metada
 ### K: Mi az a GroupDocs.Metadata for .NET?
 V: A GroupDocs.Metadata for .NET egy hatékony metaadat-manipulációs könyvtár a .NET-keretrendszerhez, amely lehetővé teszi a fejlesztők számára a metaadatok olvasását, írását és szerkesztését különféle dokumentumformátumokban.
 ### K: Hol találom a GroupDocs.Metadata dokumentációját?
- V: Hozzáférhet a részletes dokumentációhoz[itt](https://reference.groupdocs.com/metadata/net/).
+ V: Hozzáférhet a részletes dokumentációhoz[itt](https://tutorials.groupdocs.com/metadata/net/).
 ### K: Hogyan szerezhetek ideiglenes licencet a GroupDocs.Metadata számára?
  V: Kaphat ideiglenes engedélyt[itt](https://purchase.groupdocs.com/temporary-license/).
 ### K: A GroupDocs.Metadata a prezentációkon kívül más fájlformátumokat is támogat?

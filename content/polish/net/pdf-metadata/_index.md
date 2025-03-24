@@ -6,6 +6,9 @@ description: Dowiedz się, jak bez wysiłku zarządzać metadanymi PDF, korzysta
 weight: 24
 url: /pl/net/pdf-metadata/
 ---
+
+# Metadane PDF
+
 ## Wstęp
 
  Odblokuj potencjał zarządzania metadanymi PDF za pomocą[GroupDocs.Metadata dla .NET](https://www.groupdocs.com/products/metadata/net). Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, te samouczki oferują bezcenne informacje na temat wykorzystania mocy manipulacji metadanymi.

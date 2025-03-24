@@ -6,6 +6,9 @@ description: tego obszernego samouczka dowiesz się, jak ładować metadane z ok
 weight: 12
 url: /pl/net/metadata-loading/load-metadata-specific-format/
 ---
+
+# Ładowanie metadanych z określonego formatu w .NET
+
 ## Wstęp
 W świecie tworzenia oprogramowania zarządzanie metadanymi – informacjami o innych danych – ma kluczowe znaczenie dla organizowania, zrozumienia i efektywnego wykorzystania różnych typów plików. W tym samouczku omówimy, jak używać GroupDocs.Metadata for .NET do obsługi metadanych w określonych formatach plików. Niezależnie od tego, czy tworzysz aplikacje obejmujące zarządzanie dokumentami, zarządzanie zasobami cyfrowymi czy analizę danych, zrozumienie manipulacji metadanymi może usprawnić przepływy pracy.
 ## Warunki wstępne

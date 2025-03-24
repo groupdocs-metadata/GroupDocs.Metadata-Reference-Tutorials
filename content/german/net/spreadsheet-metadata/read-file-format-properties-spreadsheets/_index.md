@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie die Eigenschaften von Tabellendateiformaten m
 weight: 12
 url: /de/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
+
+# Lesen Sie Dateiformateigenschaften aus Tabellenkalkulationen in .NET
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie GroupDocs.Metadata für .NET nutzen können, um Dateiformateigenschaften effizient aus Tabellenkalkulationen zu lesen. GroupDocs.Metadata für .NET ist eine leistungsstarke API, die es Entwicklern ermöglicht, Metadaten zu extrahieren, zu bearbeiten und zu verwalten, die mit verschiedenen Dateiformaten in ihren .NET-Anwendungen verknüpft sind. Wir werden uns insbesondere auf das Abrufen wesentlicher Informationen über Tabellenkalkulationsdateien mithilfe dieser Bibliothek konzentrieren.
 ## Voraussetzungen

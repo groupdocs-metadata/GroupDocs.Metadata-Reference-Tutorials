@@ -6,6 +6,9 @@ description: Naučte se, jak extrahovat metadata z tabulek v .NET pomocí GroupD
 weight: 10
 url: /cs/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
+
+# Přečtěte si vestavěné vlastnosti z tabulek v .NET
+
 ## Úvod
 tomto tutoriálu se ponoříme do toho, jak využít GroupDocs.Metadata pro .NET k efektivní správě a extrahování metadat z tabulek. GroupDocs.Metadata for .NET je výkonné rozhraní API, které umožňuje vývojářům pracovat s metadaty vloženými do různých formátů souborů, včetně tabulek, prezentací, dokumentů, obrázků a dalších. Tato příručka se zaměřuje konkrétně na extrahování vestavěných vlastností z tabulkových souborů pomocí C#.
 ## Předpoklady

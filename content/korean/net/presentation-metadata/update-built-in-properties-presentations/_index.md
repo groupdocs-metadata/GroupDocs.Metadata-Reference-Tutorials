@@ -6,6 +6,9 @@ description: 다목적 메타데이터 조작 라이브러리인 GroupDocs.Metad
 weight: 15
 url: /ko/net/presentation-metadata/update-built-in-properties-presentations/
 ---
+
+# .NET을 사용하여 프레젠테이션의 기본 제공 속성 업데이트
+
 ## 소개
 이 자습서에서는 .NET 프레임워크를 사용하여 문서 내의 메타데이터를 조작하도록 설계된 포괄적인 라이브러리인 GroupDocs.Metadata for .NET의 강력한 기능을 자세히 살펴보겠습니다. 특히 C#을 사용하여 프로그래밍 방식으로 프레젠테이션(.PPT 및 .PPTX 파일)의 기본 제공 속성을 업데이트하는 방법에 중점을 둘 것입니다.
 ## 전제 조건

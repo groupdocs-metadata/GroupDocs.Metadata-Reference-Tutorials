@@ -7,6 +7,9 @@ weight: 21
 url: /vi/net/archive-metadata/
 ---
 
+# Lưu trữ siêu dữ liệu
+
+
 ## Giới thiệu
 
 Bạn có đang gặp khó khăn với việc quản lý siêu dữ liệu trong các ứng dụng .NET của mình không? Đừng tìm đâu xa! Chào mừng bạn đến với hướng dẫn cơ bản về cách tận dụng GroupDocs.Metadata cho .NET để hợp lý hóa quy trình xử lý siêu dữ liệu của bạn. Cho dù bạn đang xử lý các kho lưu trữ RAR, 7Zip, TAR hay ZIP, chúng tôi đều cung cấp cho bạn các hướng dẫn toàn diện.

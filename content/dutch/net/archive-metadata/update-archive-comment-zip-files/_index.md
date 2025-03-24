@@ -6,6 +6,9 @@ description: Leer hoe u archiefopmerkingen in ZIP-bestanden kunt bijwerken met G
 weight: 15
 url: /nl/net/archive-metadata/update-archive-comment-zip-files/
 ---
+
+# Update archiefcommentaar in ZIP-bestanden met .NET
+
 ## Invoering
 In de wereld van softwareontwikkeling is het beheren van metagegevens binnen bestanden een cruciaal aspect om de integriteit en toegankelijkheid van gegevens te garanderen. GroupDocs.Metadata voor .NET biedt een robuuste oplossing voor .NET-ontwikkelaars om efficiënt te werken met metadata in verschillende bestandsformaten. In deze zelfstudie gaan we dieper in op het gebruik van GroupDocs.Metadata voor .NET om archiefopmerkingen in ZIP-bestanden bij te werken. Aan het einde van deze handleiding heeft u een duidelijk inzicht in hoe u metagegevens binnen ZIP-archieven kunt manipuleren met behulp van deze krachtige bibliotheek.
 ## Vereisten

@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie Metadaten in .NET-Projektmanagementdokumenten
 weight: 12
 url: /de/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
+
+# Aktualisieren Sie integrierte Eigenschaften in .NET-Projektmanagementdokumenten
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie integrierte Eigenschaften in .NET-Projektmanagementdokumenten mithilfe von GroupDocs.Metadata für .NET aktualisieren. Diese Bibliothek ermöglicht die effiziente Bearbeitung von Metadaten für verschiedene Dateiformate, einschließlich Projektmanagementdokumenten wie Microsoft Project (MPP)-Dateien.
 ## Voraussetzungen

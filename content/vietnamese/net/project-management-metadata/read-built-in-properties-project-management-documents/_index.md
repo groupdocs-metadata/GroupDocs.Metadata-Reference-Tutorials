@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất siêu dữ liệu từ tài liệu 
 weight: 10
 url: /vi/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---
+
+# Đọc các thuộc tính tích hợp trong tài liệu quản lý dự án .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ đi sâu vào việc tận dụng GroupDocs.Metadata cho .NET để trích xuất hiệu quả các thuộc tính tích hợp từ tài liệu Quản lý dự án. Thư viện này cung cấp chức năng mạnh mẽ để quản lý siêu dữ liệu ở nhiều định dạng tệp khác nhau, bao gồm Microsoft Project, cho phép các nhà phát triển truy cập các chi tiết tài liệu chính theo chương trình. Chúng tôi sẽ hướng dẫn bạn thực hiện quy trình theo từng bước, chia nhỏ từng ví dụ để đảm bảo sự rõ ràng và dễ thực hiện.
 ## Điều kiện tiên quyết

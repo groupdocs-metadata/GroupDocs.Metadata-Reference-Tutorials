@@ -6,6 +6,9 @@ description: Dowiedz się, jak usuwać komentarze z archiwum ZIP przy użyciu Gr
 weight: 14
 url: /pl/net/archive-metadata/remove-archive-comment-zip-files/
 ---
+
+# Usuń komentarz archiwalny z plików ZIP w .NET
+
 ## Wstęp
 dziedzinie programowania .NET zarządzanie metadanymi w plikach jest niezbędne do zachowania dokładnych informacji o samym pliku. GroupDocs.Metadata dla .NET oferuje potężny zestaw narzędzi, który upraszcza operacje na metadanych w różnych formatach plików, w tym w plikach ZIP. W tym samouczku skupimy się na użyciu GroupDocs.Metadata do programowego usuwania komentarzy archiwalnych z plików ZIP przy użyciu języka C#. 
 ## Warunki wstępne

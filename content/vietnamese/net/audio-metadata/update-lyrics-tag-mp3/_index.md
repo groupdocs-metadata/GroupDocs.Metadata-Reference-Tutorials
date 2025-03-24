@@ -6,6 +6,9 @@ description: Tìm hiểu cách cập nhật siêu dữ liệu tệp MP3, bao g�
 weight: 21
 url: /vi/net/audio-metadata/update-lyrics-tag-mp3/
 ---
+
+# Cập nhật thẻ lời bài hát trong tệp MP3 bằng .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ trình bày cách sử dụng thư viện GroupDocs.Metadata cho .NET để cập nhật thẻ lời bài hát trong tệp MP3 theo chương trình. Quá trình này bao gồm việc truy cập và sửa đổi siêu dữ liệu của tệp MP3, đặc biệt nhắm mục tiêu thông tin lời bài hát.
 ## Điều kiện tiên quyết

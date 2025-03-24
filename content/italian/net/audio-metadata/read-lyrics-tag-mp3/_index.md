@@ -6,6 +6,9 @@ description: Scopri come estrarre i tag dei testi dai file MP3 utilizzando Group
 weight: 13
 url: /it/net/audio-metadata/read-lyrics-tag-mp3/
 ---
+
+# Leggi i tag dei testi dai file MP3 in .NET
+
 ## introduzione
 In questo tutorial impareremo come estrarre e leggere i tag dei testi dai file MP3 utilizzando l'API GroupDocs.Metadata in .NET. GroupDocs.Metadata è una potente libreria che consente agli sviluppatori di lavorare con metadati associati a vari formati di file, inclusi i file MP3. Seguendo questi passaggi, sarai in grado di recuperare in modo efficiente le informazioni relative ai testi incorporate nei file MP3.
 ## Prerequisiti

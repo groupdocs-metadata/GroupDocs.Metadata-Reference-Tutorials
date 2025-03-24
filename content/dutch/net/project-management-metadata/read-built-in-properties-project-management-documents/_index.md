@@ -6,6 +6,9 @@ description: Leer hoe u metagegevens uit projectmanagementdocumenten kunt extrah
 weight: 10
 url: /nl/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---
+
+# Lees ingebouwde eigenschappen in .NET Project Management-documenten
+
 ## Invoering
 In deze zelfstudie gaan we dieper in op het gebruik van GroupDocs.Metadata voor .NET om ingebouwde eigenschappen efficiënt uit Project Management-documenten te extraheren. Deze bibliotheek biedt robuuste functionaliteit voor het beheren van metagegevens in verschillende bestandsformaten, waaronder Microsoft Project, waardoor ontwikkelaars programmatisch toegang kunnen krijgen tot belangrijke documentdetails. We begeleiden u stap voor stap door het proces, waarbij we elk voorbeeld opsplitsen om duidelijkheid en implementatiegemak te garanderen.
 ## Vereisten

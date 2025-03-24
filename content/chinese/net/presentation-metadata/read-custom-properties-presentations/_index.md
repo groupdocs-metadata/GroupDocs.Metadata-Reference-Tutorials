@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata 从 .NET 中的演示文稿�
 weight: 11
 url: /zh/net/presentation-metadata/read-custom-properties-presentations/
 ---
+
+# 从 .NET 中的演示文稿中读取自定义属性
+
 ## 介绍
 在本教程中，我们将探索如何使用 GroupDocs.Metadata 从 .NET 中的演示文稿中读取自定义属性。自定义属性包含嵌入在演示文稿文件中的附加信息，这些信息可用于组织、分类或描述内容。通过利用 GroupDocs.Metadata 库，开发人员可以高效地访问和提取这些自定义属性以用于各种目的。
 ## 先决条件

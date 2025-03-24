@@ -6,6 +6,9 @@ description: Learn how to extract presentation metadata using GroupDocs.Metadata
 weight: 14
 url: /net/presentation-metadata/read-inspection-properties-presentations/
 ---
+
+# Read Inspection Properties from Presentations in .NET
+
 ## Introduction
 In this tutorial, we'll explore how to utilize GroupDocs.Metadata for .NET to read and inspect properties from presentations. GroupDocs.Metadata is a powerful API that allows developers to work with metadata embedded within documents, such as presentations, PDFs, images, and more. We'll focus specifically on presentations (PPTX files) and demonstrate how to extract information like comments, hidden slides, and more.
 ## Prerequisites

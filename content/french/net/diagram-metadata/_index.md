@@ -6,6 +6,9 @@ description: Découvrez des didacticiels complets sur la gestion des métadonné
 weight: 23
 url: /fr/net/diagram-metadata/
 ---
+
+# Métadonnées du diagramme
+
 ## Introduction
 
 Cherchez-vous à exploiter la puissance de la manipulation des métadonnées pour vos fichiers de diagramme dans .NET ? Plongez dans notre série de didacticiels dédiés à GroupDocs.Metadata pour .NET, une bibliothèque robuste conçue pour simplifier les tâches d'extraction, d'analyse et de modification de métadonnées. Que vous soyez un développeur chevronné ou que vous commenciez tout juste votre parcours dans le développement .NET, ces didacticiels proposent des conseils étape par étape pour vous aider à exploiter efficacement les métadonnées.

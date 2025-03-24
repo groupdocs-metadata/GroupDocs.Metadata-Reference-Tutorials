@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak diyagramlardaki yerleşik 
 weight: 14
 url: /tr/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
+
+# .NET kullanarak Diyagramlardaki Yerleşik Özellikleri Güncelleme
+
 ## giriiş
 Bu öğreticide, GroupDocs.Metadata for .NET'i kullanarak diyagramlardaki yerleşik özelliklerin nasıl güncelleştirileceğini keşfedeceğiz. Bu kitaplık, diyagramlar da dahil olmak üzere çeşitli belge formatlarındaki meta verileri değiştirmenize olanak tanır. Önkoşulları ve gerekli ad alanlarını ele alacağız ve bu özellikleri etkili bir şekilde güncellemek için kod örnekleri içeren adım adım bir kılavuz sunacağız.
 

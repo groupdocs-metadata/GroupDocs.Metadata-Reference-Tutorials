@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 從 MP3 檔案中刪
 weight: 15
 url: /zh-hant/net/audio-metadata/remove-ape-tag-mp3/
 ---
+
+# 從 .NET 中的 MP3 檔案中刪除 APE 標籤
+
 ## 介紹
 在 .NET 開發領域，管理文件中的元資料對於有效組織和操作資料至關重要。用於此目的的一個強大工具是 GroupDocs.Metadata for .NET，它提供了從各種檔案格式讀取、編輯和刪除元資料的強大功能。在本教程中，我們將重點放在一項特定任務：使用 GroupDocs.Metadata for .NET 從 MP3 檔案中刪除 APE 標籤。 
 ## 先決條件

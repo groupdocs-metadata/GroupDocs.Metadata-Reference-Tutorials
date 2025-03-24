@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyodrębnić metadane z archiwów ZIP przy użyci
 weight: 13
 url: /pl/net/archive-metadata/read-native-metadata-zip-archives/
 ---
+
+# Przeczytaj natywne właściwości metadanych z archiwów ZIP w .NET
+
 ## Wstęp
 Archiwa ZIP są powszechnie używane do kompresowania i grupowania plików. Podczas pracy z plikami ZIP w aplikacjach .NET często konieczne jest wyodrębnienie właściwości metadanych z tych archiwów. W tym samouczku pokażemy, jak krok po kroku używać GroupDocs.Metadata for .NET do odczytywania natywnych właściwości metadanych z plików ZIP.
 ## Warunki wstępne

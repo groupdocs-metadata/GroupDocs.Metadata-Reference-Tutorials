@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan bonthat ki PDF-dokumentumstatisztikát a GroupD
 weight: 12
 url: /hu/net/pdf-metadata/read-document-statistics-pdfs/
 ---
+
+# Dokumentumstatisztikák olvasása PDF-ekből a .NET-ben
+
 ## Bevezetés
 szoftverfejlesztés világában számos alkalmazás számára kulcsfontosságú a dokumentumok metaadatainak hatékony kezelése. A GroupDocs.Metadata for .NET hatékony eszközöket biztosít a különböző dokumentumformátumokon belüli metaadatok olvasásához és kezeléséhez. Ez az oktatóanyag ennek a képességnek a .NET-t használó PDF-fájlokhoz való kiaknázására összpontosít. Az útmutató végére megérti, hogyan kinyerhet PDF-ekből dokumentumstatisztikát, például karakterszámot, oldalszámot és szószámot a GroupDocs.Metadata segítségével.
 ## Előfeltételek

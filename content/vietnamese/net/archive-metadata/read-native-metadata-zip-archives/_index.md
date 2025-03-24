@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất siêu dữ liệu từ kho lưu tr�
 weight: 13
 url: /vi/net/archive-metadata/read-native-metadata-zip-archives/
 ---
+
+# Đọc thuộc tính siêu dữ liệu gốc từ kho lưu trữ ZIP trong .NET
+
 ## Giới thiệu
 Kho lưu trữ ZIP thường được sử dụng để nén và gộp các tệp lại với nhau. Khi làm việc với các tệp ZIP trong ứng dụng .NET, thường cần phải trích xuất các thuộc tính siêu dữ liệu từ các kho lưu trữ này. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng GroupDocs.Metadata cho .NET để đọc các thuộc tính siêu dữ liệu gốc từ tệp ZIP theo từng bước.
 ## Điều kiện tiên quyết

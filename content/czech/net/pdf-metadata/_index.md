@@ -6,6 +6,9 @@ description: Naučte se, jak snadno spravovat metadata PDF pomocí výukových p
 weight: 24
 url: /cs/net/pdf-metadata/
 ---
+
+# Metadata PDF
+
 ## Úvod
 
  Odemkněte potenciál správy metadat PDF pomocí[GroupDocs.Metadata pro .NET](https://www.groupdocs.com/products/metadata/net). Ať už jste zkušený vývojář nebo teprve začínáte, tyto výukové programy nabízejí neocenitelné poznatky o využití síly manipulace s metadaty.

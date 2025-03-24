@@ -6,6 +6,9 @@ description: Pelajari cara memperbarui properti inspeksi di spreadsheet mengguna
 weight: 16
 url: /id/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
+
+# Perbarui Properti Inspeksi di Spreadsheet menggunakan .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menggunakan GroupDocs.Metadata untuk .NET guna memperbarui properti inspeksi di spreadsheet. GroupDocs.Metadata adalah API canggih yang memungkinkan Anda bekerja dengan metadata yang terkait dengan berbagai format dokumen, termasuk spreadsheet. Kami akan fokus secara khusus pada penghapusan komentar, tanda tangan digital, dan lembar tersembunyi dari spreadsheet menggunakan .NET.
 ## Prasyarat

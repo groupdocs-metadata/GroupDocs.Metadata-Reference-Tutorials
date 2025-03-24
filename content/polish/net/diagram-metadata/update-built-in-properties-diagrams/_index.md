@@ -6,6 +6,9 @@ description: Dowiedz się, jak aktualizować wbudowane właściwości na diagram
 weight: 14
 url: /pl/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
+
+# Zaktualizuj wbudowane właściwości na diagramach przy użyciu platformy .NET
+
 ## Wstęp
 tym samouczku omówimy sposób aktualizowania wbudowanych właściwości na diagramach przy użyciu GroupDocs.Metadata dla platformy .NET. Ta biblioteka umożliwia manipulowanie metadanymi w różnych formatach dokumentów, w tym na diagramach. Omówimy wymagania wstępne, niezbędne przestrzenie nazw i udostępnimy przewodnik krok po kroku z przykładami kodu, aby skutecznie aktualizować te właściwości.
 

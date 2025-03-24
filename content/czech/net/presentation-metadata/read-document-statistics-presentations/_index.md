@@ -6,6 +6,9 @@ description: Naučte se číst statistiky dokumentů z prezentací v .NET pomoc�
 weight: 12
 url: /cs/net/presentation-metadata/read-document-statistics-presentations/
 ---
+
+# Přečtěte si statistiky dokumentů z prezentací v .NET
+
 ## Úvod
 oblasti vývoje .NET je efektivní správa metadat dokumentů zásadní pro aplikace zabývající se prezentacemi, tabulkami a dalšími formáty souborů. GroupDocs.Metadata for .NET poskytuje robustní řešení pro přístup, úpravy a extrahování metadat z různých typů souborů. Tento tutoriál vás provede čtením statistik dokumentů konkrétně z prezentací pomocí GroupDocs.Metadata pro .NET.
 ## Předpoklady

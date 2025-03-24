@@ -6,6 +6,9 @@ description: Lär dig hur du extraherar inbyggda egenskaper från presentationer
 weight: 10
 url: /sv/net/presentation-metadata/read-built-in-properties-presentations/
 ---
+
+# Läs inbyggda egenskaper från presentationer i .NET
+
 ## Introduktion
 När det gäller .NET-utveckling är det avgörande att hantera och extrahera metadata från olika filformat som presentationer. GroupDocs.Metadata för .NET erbjuder en kraftfull lösning för att hantera metadatauppgifter effektivt. Denna handledning kommer att fördjupa sig i att läsa inbyggda egenskaper från presentationer med GroupDocs.Metadata för .NET. I slutet kommer du att ha en tydlig förståelse för hur du kan utnyttja det här biblioteket för att extrahera viktig metadata från presentationsfiler.
 ## Förutsättningar

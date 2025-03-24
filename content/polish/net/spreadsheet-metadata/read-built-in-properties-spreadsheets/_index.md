@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyodrębniać metadane z arkuszy kalkulacyjnych w
 weight: 10
 url: /pl/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
+
+# Czytaj wbudowane właściwości z arkuszy kalkulacyjnych w .NET
+
 ## Wstęp
 tym samouczku omówimy, jak wykorzystać GroupDocs.Metadata dla .NET do wydajnego zarządzania i wyodrębniania metadanych z arkuszy kalkulacyjnych. GroupDocs.Metadata dla .NET to potężny interfejs API, który umożliwia programistom pracę z metadanymi osadzonymi w różnych formatach plików, w tym w arkuszach kalkulacyjnych, prezentacjach, dokumentach, obrazach i innych. W tym przewodniku skupiono się szczególnie na wyodrębnianiu wbudowanych właściwości z plików arkuszy kalkulacyjnych przy użyciu języka C#.
 ## Warunki wstępne

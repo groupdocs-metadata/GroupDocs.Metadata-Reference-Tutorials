@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan bonthat ki egyéni tulajdonságokat táblázato
 weight: 11
 url: /hu/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---
+
+# Olvassa el a Táblázatok egyéni tulajdonságait a .NET-ben
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet egyéni tulajdonságokat kinyerni a táblázatokból a GroupDocs.Metadata for .NET használatával. A GroupDocs.Metadata egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára a metaadat-tulajdonságok olvasását, szerkesztését és kezelését különféle fájlformátumokban, beleértve a táblázatokat is.
 ## Előfeltételek

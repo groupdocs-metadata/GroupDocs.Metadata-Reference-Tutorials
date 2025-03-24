@@ -6,6 +6,9 @@ description: Découvrez comment lire les statistiques de documents à partir de 
 weight: 12
 url: /fr/net/presentation-metadata/read-document-statistics-presentations/
 ---
+
+# Lire les statistiques de documents à partir de présentations dans .NET
+
 ## Introduction
 Dans le domaine du développement .NET, la gestion efficace des métadonnées des documents est cruciale pour les applications traitant de présentations, de feuilles de calcul et d'autres formats de fichiers. GroupDocs.Metadata pour .NET fournit une solution robuste pour accéder, modifier et extraire des métadonnées de différents types de fichiers. Ce didacticiel vous guidera dans la lecture des statistiques de documents spécifiquement à partir de présentations utilisant GroupDocs.Metadata pour .NET.
 ## Conditions préalables

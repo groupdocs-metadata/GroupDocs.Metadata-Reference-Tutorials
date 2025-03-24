@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất thẻ ID3V2 từ tệp MP3 bằng G
 weight: 12
 url: /vi/net/audio-metadata/read-id3v2-tag-mp3/
 ---
+
+# Đọc thẻ ID3V2 từ tệp MP3 trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách trích xuất siêu dữ liệu ID3V2 từ các tệp MP3 bằng GroupDocs.Metadata cho .NET. Thẻ ID3V2 chứa thông tin có giá trị về các tệp MP3, chẳng hạn như album, nghệ sĩ, tiêu đề, v.v. Chúng tôi sẽ trình bày từng bước cách truy cập và sử dụng siêu dữ liệu này trong các ứng dụng .NET của bạn.
 ## Điều kiện tiên quyết

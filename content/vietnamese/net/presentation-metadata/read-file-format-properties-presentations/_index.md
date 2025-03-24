@@ -6,6 +6,9 @@ description: Tìm hiểu cách đọc thuộc tính tệp bản trình bày tron
 weight: 13
 url: /vi/net/presentation-metadata/read-file-format-properties-presentations/
 ---
+
+# Đọc thuộc tính định dạng tệp từ bản trình bày trong .NET
+
 ## Giới thiệu
 Trong thế giới phát triển .NET, việc quản lý siêu dữ liệu trong các tệp là rất quan trọng đối với nhiều ứng dụng khác nhau. GroupDocs.Metadata cho .NET cung cấp các công cụ mạnh mẽ để tương tác với siêu dữ liệu trong tệp một cách hiệu quả. Hướng dẫn này sẽ hướng dẫn bạn qua quy trình đọc các thuộc tính định dạng tệp từ bản trình bày bằng GroupDocs.Metadata cho .NET.
 ## Điều kiện tiên quyết

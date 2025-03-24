@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan bonthat ki ID3V2 címkéket MP3 fájlokból a G
 weight: 12
 url: /hu/net/audio-metadata/read-id3v2-tag-mp3/
 ---
+
+# Olvassa el az ID3V2 címkét az MP3 fájlokból a .NET-ben
+
 ## Bevezetés
 Ebből az oktatóanyagból megtudjuk, hogyan lehet kivonni az ID3V2 metaadatokat MP3-fájlokból a GroupDocs.Metadata for .NET segítségével. Az ID3V2 címkék értékes információkat tartalmaznak az MP3 fájlokról, például albumról, előadóról, címről stb. Lépésről lépésre bemutatjuk, hogyan lehet elérni és használni ezeket a metaadatokat .NET-alkalmazásaiban.
 ## Előfeltételek

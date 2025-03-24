@@ -6,6 +6,9 @@ description: Tìm hiểu cách cập nhật siêu dữ liệu trong tài liệu 
 weight: 12
 url: /vi/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
+
+# Cập nhật các thuộc tính tích hợp trong tài liệu quản lý dự án .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách cập nhật các thuộc tính tích hợp trong tài liệu quản lý dự án .NET bằng GroupDocs.Metadata cho .NET. Thư viện này cho phép thao tác hiệu quả siêu dữ liệu cho các định dạng tệp khác nhau, bao gồm các tài liệu quản lý dự án như tệp Microsoft Project (MPP).
 ## Điều kiện tiên quyết

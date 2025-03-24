@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak elektronik tablolardan den
 weight: 13
 url: /tr/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---
+
+# .NET'teki Elektronik Tablolardan Denetim Özelliklerini Okuyun
+
 ## giriiş
 Bu öğreticide, e-tablolardaki özellikleri denetlemek için GroupDocs.Metadata for .NET'in nasıl kullanılacağını keşfedeceğiz. GroupDocs.Metadata for .NET, geliştiricilerin elektronik tablolar da dahil olmak üzere çeşitli dosya formatlarıyla ilişkili meta verileri okumasına, düzenlemesine ve kaldırmasına olanak tanıyan güçlü bir kitaplıktır. Bu eğitim özellikle C# kullanarak elektronik tablo dosyalarından denetim özelliklerinin okunmasına odaklanmaktadır.
 ## Önkoşullar

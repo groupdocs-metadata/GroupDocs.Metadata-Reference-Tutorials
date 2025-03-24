@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata 管理 .NET 中的文件元�
 weight: 11
 url: /zh/net/metadata-loading/load-metadata-stream/
 ---
+
+# 在 .NET 教程中从流加载元数据
+
 ## 介绍
 在本教程中，我们将探讨如何使用 GroupDocs.Metadata for .NET 来有效管理 .NET 应用程序中的元数据。元数据（例如文档属性）可以提供有关文件的有价值的信息，包括作者、创建日期和关键字等详细信息。 GroupDocs.Metadata 简化了在 .NET 环境中从各种文件格式读取、编辑和删除元数据的过程。本指南将重点关注从流中加载元数据，并使用实际示例演示分步过程。
 ## 先决条件

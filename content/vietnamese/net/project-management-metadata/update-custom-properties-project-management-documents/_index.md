@@ -6,6 +6,9 @@ description: Tìm hiểu cách cập nhật thuộc tính tùy chỉnh trong tà
 weight: 13
 url: /vi/net/project-management-metadata/update-custom-properties-project-management-documents/
 ---
+
+# Cập nhật thuộc tính tùy chỉnh trong tài liệu quản lý dự án .NET
+
 ## Giới thiệu
 Trong lĩnh vực phát triển .NET, việc quản lý siêu dữ liệu tài liệu một cách hiệu quả là rất quan trọng đối với các ứng dụng khác nhau. GroupDocs.Metadata dành cho .NET cung cấp giải pháp mạnh mẽ để tương tác với siêu dữ liệu trên các định dạng tệp khác nhau, bao gồm các tài liệu quản lý dự án như tệp Microsoft Project (MPP). Hướng dẫn này sẽ hướng dẫn bạn quy trình cập nhật các thuộc tính tùy chỉnh trong tài liệu quản lý dự án .NET bằng GroupDocs.Metadata.
 ## Điều kiện tiên quyết

@@ -6,6 +6,9 @@ description: Aprenda como extrair tags de letras de arquivos MP3 usando GroupDoc
 weight: 13
 url: /pt/net/audio-metadata/read-lyrics-tag-mp3/
 ---
+
+# Leia a tag de letras de arquivos MP3 em .NET
+
 ## Introdução
 Neste tutorial, aprenderemos como extrair e ler tags de letras de arquivos MP3 usando a API GroupDocs.Metadata em .NET. GroupDocs.Metadata é uma biblioteca poderosa que permite aos desenvolvedores trabalhar com metadados associados a vários formatos de arquivo, incluindo arquivos MP3. Seguindo essas etapas, você poderá recuperar com eficiência informações relacionadas às letras incorporadas em arquivos MP3.
 ## Pré-requisitos

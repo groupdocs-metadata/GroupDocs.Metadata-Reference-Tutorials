@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyodrębnić znaczniki ID3V2 z plików MP3 przy u
 weight: 12
 url: /pl/net/audio-metadata/read-id3v2-tag-mp3/
 ---
+
+# Odczytaj znacznik ID3V2 z plików MP3 w .NET
+
 ## Wstęp
 W tym samouczku dowiemy się, jak wyodrębnić metadane ID3V2 z plików MP3 przy użyciu GroupDocs.Metadata dla .NET. Tagi ID3V2 zawierają cenne informacje o plikach MP3, takie jak album, wykonawca, tytuł i inne. Zademonstrujemy krok po kroku, jak uzyskać dostęp do tych metadanych i wykorzystać je w aplikacjach .NET.
 ## Warunki wstępne

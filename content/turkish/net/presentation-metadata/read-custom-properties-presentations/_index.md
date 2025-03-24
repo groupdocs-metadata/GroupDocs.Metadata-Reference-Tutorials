@@ -6,6 +6,9 @@ description: GroupDocs.Metadata'yı kullanarak .NET'teki sunumlardan özel özel
 weight: 11
 url: /tr/net/presentation-metadata/read-custom-properties-presentations/
 ---
+
+# .NET'teki Sunumlardan Özel Özellikleri Okuyun
+
 ## giriiş
 Bu öğreticide, GroupDocs.Metadata'yı kullanarak .NET'teki sunumlardan özel özelliklerin nasıl okunacağını keşfedeceğiz. Özel özellikler, sunum dosyasına katıştırılmış, içeriği düzenlemek, kategorilere ayırmak veya açıklamak için yararlı olabilecek ek bilgiler içerir. Geliştiriciler, GroupDocs.Metadata kitaplığından yararlanarak bu özel özelliklere çeşitli amaçlarla verimli bir şekilde erişebilir ve bunları çıkarabilir.
 ## Önkoşullar

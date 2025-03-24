@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用して ZIP アーカイブの�
 weight: 14
 url: /ja/net/archive-metadata/remove-archive-comment-zip-files/
 ---
+
+# .NET の ZIP ファイルからアーカイブ コメントを削除する
+
 ## 導入
 .NET 開発の領域では、ファイル自体に関する正確な情報を維持するために、ファイル内のメタデータを管理することが不可欠です。 GroupDocs.Metadata for .NET は、ZIP ファイルを含むさまざまなファイル形式にわたるメタデータ操作を簡素化する強力なツールキットを提供します。このチュートリアルでは、GroupDocs.Metadata を使用して、C# を使用してプログラムによって ZIP ファイルからアーカイブ コメントを削除することに焦点を当てます。 
 ## 前提条件

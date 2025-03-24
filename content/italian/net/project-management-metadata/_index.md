@@ -7,6 +7,9 @@ weight: 26
 url: /it/net/project-management-metadata/
 ---
 
+# Metadati di gestione del progetto
+
+
 ## introduzione
 
 Ti stai addentrando nel regno dei documenti di gestione dei progetti .NET e cerchi tecniche efficaci di gestione dei metadati? Non guardare oltre! Le esercitazioni di GroupDocs.Metadata per .NET offrono una guida completa per sfruttare i metadati in modo efficace, migliorare le capacità di elaborazione dei documenti e semplificare il flusso di lavoro.

@@ -6,6 +6,9 @@ description: Gerencie facilmente metadados de arquivos em .NET com GroupDocs.Met
 weight: 20
 url: /pt/net/metadata-loading/
 ---
+
+# Carregamento de metadados
+
 ## Introdução
 
 Procurando aprimorar os recursos de manipulação de arquivos de seus aplicativos .NET? Mergulhe nos tutoriais do GroupDocs.Metadata for .NET que cobrem vários aspectos do carregamento de metadados. Desde o carregamento de metadados de discos locais até o manuseio de documentos protegidos por senha, nós ajudamos você.

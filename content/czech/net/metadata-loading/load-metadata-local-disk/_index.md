@@ -6,6 +6,9 @@ description: Spravujte bez námahy metadata souborů v aplikacích .NET pomocí 
 weight: 10
 url: /cs/net/metadata-loading/load-metadata-local-disk/
 ---
+
+# Jak načíst metadata z místního disku v .NET
+
 ## Úvod
 V oblasti vývoje .NET je správa metadat souvisejících se soubory klíčová pro různé aplikace. GroupDocs.Metadata for .NET nabízí robustní řešení pro čtení, úpravy a odstraňování metadat ze souborů bez námahy. Tento tutoriál vás provede procesem načítání metadat z místního disku pomocí GroupDocs.Metadata a pomůže vám efektivně využít tuto výkonnou knihovnu.
 ## Předpoklady

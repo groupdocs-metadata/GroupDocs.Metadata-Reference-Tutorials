@@ -6,6 +6,9 @@ description: Könnyedén kezelheti a fájlok metaadatait .NET-alkalmazásokban a
 weight: 10
 url: /hu/net/metadata-loading/load-metadata-local-disk/
 ---
+
+# Hogyan töltsünk be metaadatokat a helyi lemezről a .NET-ben
+
 ## Bevezetés
 A .NET fejlesztés területén a fájlokhoz társított metaadatok kezelése kulcsfontosságú a különböző alkalmazások számára. A GroupDocs.Metadata for .NET robusztus megoldást kínál a fájlok metaadatainak könnyű olvasásához, szerkesztéséhez és eltávolításához. Ez az oktatóanyag végigvezeti Önt a metaadatok helyi lemezről történő betöltésének folyamatán a GroupDocs.Metadata használatával, így hatékonyan tudja kihasználni ezt a hatékony könyvtárat.
 ## Előfeltételek

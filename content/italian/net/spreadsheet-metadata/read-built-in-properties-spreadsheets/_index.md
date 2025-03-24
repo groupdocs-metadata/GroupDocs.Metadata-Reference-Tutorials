@@ -6,6 +6,9 @@ description: Scopri come estrarre metadati dai fogli di calcolo in .NET utilizza
 weight: 10
 url: /it/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
+
+# Leggi le proprietà integrate dai fogli di calcolo in .NET
+
 ## introduzione
 In questo tutorial, approfondiremo come utilizzare GroupDocs.Metadata per .NET per gestire ed estrarre in modo efficiente i metadati dai fogli di calcolo. GroupDocs.Metadata per .NET è una potente API che consente agli sviluppatori di lavorare con metadati incorporati in vari formati di file, inclusi fogli di calcolo, presentazioni, documenti, immagini e altro ancora. Questa guida si concentra specificamente sull'estrazione delle proprietà integrate dai file di fogli di calcolo utilizzando C#.
 ## Prerequisiti

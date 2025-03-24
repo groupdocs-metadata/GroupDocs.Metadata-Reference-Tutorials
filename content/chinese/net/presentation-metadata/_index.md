@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata 教程在 .NET 中有效管�
 weight: 25
 url: /zh/net/presentation-metadata/
 ---
+
+# 演示元数据
+
 ## 介绍
 
 在当今的数字时代，管理演示文稿中的元数据对于有效组织和检索信息至关重要。 GroupDocs.Metadata for .NET 为寻求简化此流程的开发人员提供了强大的解决方案。无论您是提取内置属性、访问自定义元数据还是更新检查属性，我们的教程都提供了无缝集成到 .NET 项目中的分步指导。

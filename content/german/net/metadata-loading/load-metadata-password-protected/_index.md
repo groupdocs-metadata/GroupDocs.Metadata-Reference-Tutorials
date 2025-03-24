@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie Dokumentmetadaten mit GroupDocs.Metadata für
 weight: 13
 url: /de/net/metadata-loading/load-metadata-password-protected/
 ---
+
+# So laden Sie Metadaten aus einem passwortgeschützten Dokument in .NET
+
 ## Einführung
 In der Welt der .NET-Entwicklung ist die Verwaltung von Metadaten in Dokumenten für verschiedene Anwendungen von entscheidender Bedeutung. GroupDocs.Metadata für .NET bietet leistungsstarke Tools zum einfachen Extrahieren, Bearbeiten und Verwalten von Metadaten. Dieses Tutorial führt Sie durch den Prozess des Ladens von Metadaten aus passwortgeschützten Dokumenten mithilfe von GroupDocs.Metadata.
 ##Voraussetzungen

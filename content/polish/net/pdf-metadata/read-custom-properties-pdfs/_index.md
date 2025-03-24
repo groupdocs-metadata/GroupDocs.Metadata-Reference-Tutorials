@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyodrębnić niestandardowe właściwości z plik
 weight: 11
 url: /pl/net/pdf-metadata/read-custom-properties-pdfs/
 ---
+
+# Czytaj właściwości niestandardowe z plików PDF w .NET
+
 ## Wstęp
 W dziedzinie rozwoju .NET zarządzanie metadanymi w dokumentach ma kluczowe znaczenie dla organizowania i wydobywania cennych informacji. GroupDocs.Metadata dla .NET oferuje zaawansowane narzędzia do odczytywania niestandardowych właściwości z plików PDF, umożliwiając programistom efektywny dostęp do metadanych dokumentów i ich wykorzystywanie. Ten samouczek poprowadzi Cię przez proces wykorzystania GroupDocs.Metadata do pobierania niestandardowych właściwości z plików PDF przy użyciu języka C#.
 ## Warunki wstępne

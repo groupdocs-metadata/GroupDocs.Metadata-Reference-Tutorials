@@ -6,6 +6,9 @@ description: Découvrez comment lire les propriétés de métadonnées natives d
 weight: 11
 url: /fr/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
+
+# Lire les propriétés des métadonnées natives des archives 7Zip dans .NET
+
 ## Introduction
 Dans le domaine du développement .NET, la gestion des métadonnées, telles que les propriétés des documents, les informations sur les fichiers et les balises, est cruciale pour une organisation et une récupération efficaces des données. GroupDocs.Metadata pour .NET fournit une boîte à outils puissante pour accéder et manipuler les métadonnées dans différents formats de fichiers. Ce didacticiel se concentre sur l'exploitation des capacités de GroupDocs.Metadata pour lire les propriétés de métadonnées natives des archives 7Zip dans .NET. 
 ## Conditions préalables

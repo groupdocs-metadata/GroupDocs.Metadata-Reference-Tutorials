@@ -6,6 +6,9 @@ description: Aprenda como extrair metadados de arquivos ZIP usando GroupDocs.Met
 weight: 13
 url: /pt/net/archive-metadata/read-native-metadata-zip-archives/
 ---
+
+# Leia propriedades de metadados nativos de arquivos ZIP em .NET
+
 ## Introdução
 Arquivos ZIP são comumente usados para compactar e agrupar arquivos. Ao trabalhar com arquivos ZIP em aplicativos .NET, muitas vezes é necessário extrair propriedades de metadados desses arquivos. Neste tutorial, exploraremos como usar GroupDocs.Metadata for .NET para ler propriedades de metadados nativos de arquivos ZIP passo a passo.
 ## Pré-requisitos

@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak e-tablolardaki inceleme ö
 weight: 16
 url: /tr/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
+
+# .NET kullanarak Elektronik Tablolardaki Denetim Özelliklerini Güncelleme
+
 ## giriiş
 Bu öğreticide, elektronik tablolardaki inceleme özelliklerini güncellemek için GroupDocs.Metadata for .NET'in nasıl kullanılacağını keşfedeceğiz. GroupDocs.Metadata, elektronik tablolar da dahil olmak üzere çeşitli belge formatlarıyla ilişkili meta verilerle çalışmanıza olanak tanıyan güçlü bir API'dir. Özellikle .NET kullanarak bir e-tablodaki yorumları, dijital imzaları ve gizli sayfaları temizlemeye odaklanacağız.
 ## Önkoşullar

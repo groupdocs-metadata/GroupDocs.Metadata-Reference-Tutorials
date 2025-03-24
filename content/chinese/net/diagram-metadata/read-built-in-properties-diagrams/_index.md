@@ -6,6 +6,9 @@ description: 学习使用 GroupDocs.Metadata 从 .NET 中的图表文件中提�
 weight: 10
 url: /zh/net/diagram-metadata/read-built-in-properties-diagrams/
 ---
+
+# 从 .NET 中的图表读取内置属性
+
 ## 介绍
 在本教程中，我们将深入研究使用 GroupDocs.Metadata for .NET 从图表中读取内置属性。 GroupDocs.Metadata for .NET 是一个功能强大的库，使开发人员能够处理与各种文档类型相关的元数据，包括图表、演示文稿、图像等。具体来说，我们将重点关注使用此库从图表文件中提取元数据属性。
 ## 先决条件

@@ -6,6 +6,9 @@ description: GroupDocs.Metadata'yı kullanarak .NET'teki diyagram dosyalarından
 weight: 11
 url: /tr/net/diagram-metadata/read-custom-properties-diagrams/
 ---
+
+# .NET'teki Diyagramlardan Özel Özellikleri Okuyun
+
 ## giriiş
 Bu öğreticide, özel özellikleri diyagramlardan verimli bir şekilde okumak için GroupDocs.Metadata for .NET'in nasıl kullanılacağını keşfedeceğiz. GroupDocs.Metadata, geliştiricilerin diyagramlar da dahil olmak üzere çeşitli belge formatlarındaki meta verilerle çalışmasına olanak tanıyan güçlü bir API'dir. Özel özellikler, diyagramların içine gömülü değerli bilgiler içerebilir ve bunlara programlı olarak erişim, belge işleme görevlerini kolaylaştırabilir. Bu kılavuzun sonunda, GroupDocs.Metadata for .NET'i kullanarak diyagram dosyalarından özel özellikleri alma bilgisine sahip olacaksınız.
 ## Önkoşullar

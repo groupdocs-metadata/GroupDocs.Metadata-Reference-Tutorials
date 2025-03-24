@@ -6,6 +6,9 @@ description: Tìm hiểu cách cập nhật thẻ ID3V2 trong tệp MP3 bằng .
 weight: 20
 url: /vi/net/audio-metadata/update-id3v2-tag-mp3/
 ---
+
+# Cập nhật thẻ ID3V2 trong tệp MP3 bằng .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách cập nhật thẻ ID3V2 trong tệp MP3 bằng thư viện GroupDocs.Metadata cho .NET. GroupDocs.Metadata là một API mạnh mẽ cho phép các nhà phát triển làm việc với siêu dữ liệu ở nhiều định dạng tệp khác nhau, bao gồm cả MP3. Hướng dẫn này sẽ hướng dẫn bạn từng bước trong quá trình sửa đổi thẻ ID3V2.
 ## Điều kiện tiên quyết

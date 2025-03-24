@@ -6,6 +6,9 @@ description: Dowiedz się, jak aktualizować niestandardowe właściwości w ark
 weight: 15
 url: /pl/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---
+
+# Zaktualizuj właściwości niestandardowe w arkuszach kalkulacyjnych przy użyciu platformy .NET
+
 ## Wstęp
 W tym samouczku omówimy sposób aktualizowania niestandardowych właściwości w arkuszach kalkulacyjnych przy użyciu biblioteki GroupDocs.Metadata for .NET. Właściwości niestandardowe mogą ulepszyć metadane plików arkuszy kalkulacyjnych, zapewniając dodatkowy kontekst lub informacje, które nie są objęte właściwościami standardowymi.
 ## Warunki wstępne

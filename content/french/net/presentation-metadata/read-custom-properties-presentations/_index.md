@@ -6,6 +6,9 @@ description: Découvrez comment lire les propriétés personnalisées des prése
 weight: 11
 url: /fr/net/presentation-metadata/read-custom-properties-presentations/
 ---
+
+# Lire les propriétés personnalisées des présentations dans .NET
+
 ## Introduction
 Dans ce didacticiel, nous allons explorer comment lire les propriétés personnalisées des présentations dans .NET à l'aide de GroupDocs.Metadata. Les propriétés personnalisées contiennent des informations supplémentaires intégrées au fichier de présentation, qui peuvent être utiles pour organiser, catégoriser ou décrire le contenu. En tirant parti de la bibliothèque GroupDocs.Metadata, les développeurs peuvent accéder et extraire efficacement ces propriétés personnalisées à diverses fins.
 ## Conditions préalables

@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie integrierte Eigenschaften in Diagrammen mit G
 weight: 14
 url: /de/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
+
+# Aktualisieren integrierter Eigenschaften in Diagrammen mithilfe von .NET
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie integrierte Eigenschaften in Diagrammen mithilfe von GroupDocs.Metadata für .NET aktualisieren. Mit dieser Bibliothek können Sie Metadaten in verschiedenen Dokumentformaten, einschließlich Diagrammen, bearbeiten. Wir behandeln die Voraussetzungen und erforderlichen Namespaces und bieten eine Schritt-für-Schritt-Anleitung mit Codebeispielen, um diese Eigenschaften effektiv zu aktualisieren.
 

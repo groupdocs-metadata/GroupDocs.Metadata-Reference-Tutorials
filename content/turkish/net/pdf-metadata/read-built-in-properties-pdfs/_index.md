@@ -6,6 +6,9 @@ description: GroupDocs.Metadata'yı kullanarak .NET'te PDF meta verilerini nası
 weight: 10
 url: /tr/net/pdf-metadata/read-built-in-properties-pdfs/
 ---
+
+# .NET'teki PDF'lerdeki Yerleşik Özellikleri Okuyun
+
 ## giriiş
 Bu öğreticide, PDF dosyalarından yerleşik özellikleri okumak için GroupDocs.Metadata for .NET'ten nasıl yararlanılacağını keşfedeceğiz. GroupDocs.Metadata, geliştiricilerin PDF'ler, Microsoft Office belgeleri, resimler ve daha fazlası dahil olmak üzere çeşitli belge formatlarıyla ilişkili meta verilerle çalışmasına olanak tanıyan güçlü bir kitaplıktır. Bu kitaplığı kullanarak PDF dosyalarına gömülü yazar adları, oluşturulma tarihleri, konular ve daha fazlası gibi meta veri niteliklerine kolayca erişebilir ve bunları değiştirebilirsiniz.
 ## Önkoşullar

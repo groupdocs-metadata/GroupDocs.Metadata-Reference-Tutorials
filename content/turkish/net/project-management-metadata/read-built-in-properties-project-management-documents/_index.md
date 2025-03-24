@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak Project Management belgele
 weight: 10
 url: /tr/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---
+
+# .NET Proje Yönetimi Belgelerindeki Yerleşik Özellikleri Okuyun
+
 ## giriiş
 Bu eğitimde, Proje Yönetimi belgelerinden yerleşik özellikleri verimli bir şekilde çıkarmak için GroupDocs.Metadata for .NET'ten yararlanmayı derinlemesine inceleyeceğiz. Bu kitaplık, Microsoft Project de dahil olmak üzere çeşitli dosya formatlarındaki meta verileri yönetmek için güçlü işlevsellik sağlayarak geliştiricilerin önemli belge ayrıntılarına programlı olarak erişmesine olanak tanır. Netlik ve uygulama kolaylığı sağlamak için her örneği parçalara ayırarak süreç boyunca size adım adım rehberlik edeceğiz.
 ## Önkoşullar

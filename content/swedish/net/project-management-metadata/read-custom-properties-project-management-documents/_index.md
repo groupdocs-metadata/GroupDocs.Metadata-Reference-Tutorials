@@ -6,6 +6,9 @@ description: Lär dig hur du extraherar anpassade egenskaper från .NET-projekth
 weight: 11
 url: /sv/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
+
+# Läs anpassade egenskaper i .NET Project Management Documents
+
 ## Introduktion
 en värld av .NET-utveckling är hantering av metadata inom projektledningsdokument en avgörande aspekt av dataorganisation och -hämtning. GroupDocs.Metadata för .NET erbjuder kraftfulla funktioner för att läsa anpassade egenskaper från olika projekthanteringsfilformat som Microsoft Project-filer (MPP). Denna handledning guidar dig genom processen att använda GroupDocs.Metadata för att extrahera anpassade egenskaper från .NET-projektledningsdokument steg för steg.
 ## Förutsättningar

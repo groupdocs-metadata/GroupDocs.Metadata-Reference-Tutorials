@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 PDF에서 사용자 정�
 weight: 11
 url: /ko/net/pdf-metadata/read-custom-properties-pdfs/
 ---
+
+# .NET의 PDF에서 사용자 정의 속성 읽기
+
 ## 소개
 .NET 개발 영역에서 문서 내의 메타데이터를 관리하는 것은 귀중한 정보를 구성하고 추출하는 데 매우 중요합니다. .NET용 GroupDocs.Metadata는 PDF에서 사용자 정의 속성을 읽을 수 있는 강력한 도구를 제공하므로 개발자는 문서 메타데이터에 효율적으로 액세스하고 활용할 수 있습니다. 이 자습서에서는 C#을 사용하여 PDF 파일에서 사용자 정의 속성을 검색하기 위해 GroupDocs.Metadata를 활용하는 프로세스를 안내합니다.
 ## 전제 조건

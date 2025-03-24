@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用してプレゼンテーショ
 weight: 16
 url: /ja/net/presentation-metadata/update-custom-properties-presentations/
 ---
+
+# .NET を使用してプレゼンテーションのカスタム プロパティを更新する
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を利用してプレゼンテーション内のカスタム プロパティを更新する方法を説明します。 GroupDocs.Metadata は、開発者がさまざまなファイル形式のメタデータをプログラムで操作できるようにする強力な API です。具体的には、プレゼンテーション (PowerPoint ファイルなど) に焦点を当て、C# を使用してカスタム プロパティを追加または変更する方法を示します。
 ## 前提条件

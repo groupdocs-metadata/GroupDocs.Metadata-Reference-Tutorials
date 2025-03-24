@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyodrębnić niestandardowe właściwości z doku
 weight: 11
 url: /pl/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
+
+# Przeczytaj właściwości niestandardowe w dokumentach zarządzania projektami .NET
+
 ## Wstęp
 świecie rozwoju .NET zarządzanie metadanymi w dokumentach zarządzania projektami jest kluczowym aspektem organizacji i wyszukiwania danych. GroupDocs.Metadata dla .NET oferuje zaawansowane możliwości odczytywania niestandardowych właściwości z różnych formatów plików zarządzania projektami, takich jak pliki Microsoft Project (MPP). Ten samouczek przeprowadzi Cię krok po kroku przez proces wykorzystania GroupDocs.Metadata do wyodrębniania niestandardowych właściwości z dokumentów zarządzania projektami .NET.
 ## Warunki wstępne

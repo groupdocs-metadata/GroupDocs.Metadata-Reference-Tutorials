@@ -6,6 +6,9 @@ description: GroupDocs.Metadata ile .NET'te dosya meta verilerini yönetmeyi ö�
 weight: 11
 url: /tr/net/metadata-loading/load-metadata-stream/
 ---
+
+# .NET Eğitiminde Akıştan Meta Veri Yükleme
+
 ## giriiş
 Bu öğreticide, .NET uygulamalarınızdaki meta verileri etkili bir şekilde yönetmek için GroupDocs.Metadata for .NET'in nasıl kullanılacağını keşfedeceğiz. Belge özellikleri gibi meta veriler, dosyalar hakkında yazar, oluşturulma tarihi ve anahtar sözcükler gibi ayrıntılar da dahil olmak üzere değerli bilgiler sağlayabilir. GroupDocs.Metadata, .NET ortamındaki çeşitli dosya biçimlerinden meta verileri okuma, düzenleme ve kaldırma işlemini basitleştirir. Bu kılavuz, pratik örnekler kullanarak adım adım prosedürleri göstererek bir akıştan meta veri yüklemeye odaklanacaktır.
 ## Önkoşullar

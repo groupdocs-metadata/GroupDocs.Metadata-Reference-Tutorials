@@ -6,6 +6,9 @@ description: Pelajari cara mengekstrak metadata dari dokumen Manajemen Proyek me
 weight: 10
 url: /id/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---
+
+# Baca Properti Bawaan di Dokumen Manajemen Proyek .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari pemanfaatan GroupDocs.Metadata untuk .NET untuk secara efisien mengekstrak properti bawaan dari dokumen Manajemen Proyek. Pustaka ini menyediakan fungsionalitas canggih untuk mengelola metadata dalam berbagai format file, termasuk Microsoft Project, yang memungkinkan pengembang mengakses detail dokumen penting secara terprogram. Kami akan memandu Anda melalui proses langkah demi langkah, menguraikan setiap contoh untuk memastikan kejelasan dan kemudahan penerapan.
 ## Prasyarat

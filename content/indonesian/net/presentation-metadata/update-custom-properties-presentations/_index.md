@@ -6,6 +6,9 @@ description: Pelajari cara mengelola metadata presentasi menggunakan GroupDocs.M
 weight: 16
 url: /id/net/presentation-metadata/update-custom-properties-presentations/
 ---
+
+# Perbarui Properti Kustom dalam Presentasi menggunakan .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memanfaatkan GroupDocs.Metadata untuk .NET guna memperbarui properti khusus dalam presentasi. GroupDocs.Metadata adalah API canggih yang memungkinkan pengembang memanipulasi metadata dalam berbagai format file secara terprogram. Secara khusus, kami akan fokus pada presentasi (seperti file PowerPoint) dan mendemonstrasikan cara menambah atau mengubah properti kustom menggunakan C#.
 ## Prasyarat

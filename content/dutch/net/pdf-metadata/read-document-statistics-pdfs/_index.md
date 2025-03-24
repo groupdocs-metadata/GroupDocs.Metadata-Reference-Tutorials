@@ -6,6 +6,9 @@ description: Leer hoe u PDF-documentstatistieken kunt extraheren met GroupDocs.M
 weight: 12
 url: /nl/net/pdf-metadata/read-document-statistics-pdfs/
 ---
+
+# Lees documentstatistieken uit PDF's in .NET
+
 ## Invoering
 In de wereld van softwareontwikkeling is het efficiënt beheren van metagegevens van documenten van cruciaal belang voor veel toepassingen. GroupDocs.Metadata voor .NET biedt krachtige tools voor het lezen en manipuleren van metagegevens binnen verschillende documentformaten. Deze tutorial richt zich op het benutten van deze mogelijkheid specifiek voor PDF-bestanden met behulp van .NET. Aan het einde van deze handleiding begrijpt u hoe u documentstatistieken, zoals het aantal tekens, het aantal pagina's en het aantal woorden, uit PDF's kunt extraheren met behulp van GroupDocs.Metadata.
 ## Vereisten

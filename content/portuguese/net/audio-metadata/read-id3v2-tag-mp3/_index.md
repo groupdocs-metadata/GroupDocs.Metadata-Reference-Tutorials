@@ -6,6 +6,9 @@ description: Aprenda como extrair tags ID3V2 de arquivos MP3 usando GroupDocs.Me
 weight: 12
 url: /pt/net/audio-metadata/read-id3v2-tag-mp3/
 ---
+
+# Leia a tag ID3V2 de arquivos MP3 em .NET
+
 ## Introdução
 Neste tutorial, aprenderemos como extrair metadados ID3V2 de arquivos MP3 usando GroupDocs.Metadata for .NET. As tags ID3V2 contêm informações valiosas sobre arquivos MP3, como álbum, artista, título e muito mais. Demonstraremos passo a passo como acessar e utilizar esses metadados em seus aplicativos .NET.
 ## Pré-requisitos

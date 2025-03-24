@@ -6,6 +6,9 @@ description: Learn how to extract custom properties from .NET project management
 weight: 11
 url: /net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
+
+# Read Custom Properties in .NET Project Management Documents
+
 ## Introduction
 In the world of .NET development, managing metadata within project management documents is a crucial aspect of data organization and retrieval. GroupDocs.Metadata for .NET offers powerful capabilities to read custom properties from various project management file formats like Microsoft Project (MPP) files. This tutorial will guide you through the process of utilizing GroupDocs.Metadata to extract custom properties from .NET project management documents step by step.
 ## Prerequisites

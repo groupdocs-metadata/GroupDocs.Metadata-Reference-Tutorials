@@ -6,6 +6,9 @@ description: Pelajari cara mengekstrak properti metadata dari arsip RAR mengguna
 weight: 10
 url: /id/net/archive-metadata/read-native-metadata-rar-archives/
 ---
+
+# Baca Properti Metadata Asli dari Arsip RAR di .NET
+
 ## Perkenalan
 RAR (Roshal Archive) adalah format file populer yang digunakan untuk kompresi dan pengarsipan data. Saat bekerja dengan file RAR di aplikasi .NET, sering kali perlu membaca dan mengekstrak properti metadata yang tertanam dalam arsip ini. Tutorial ini akan memandu Anda melalui proses penggunaan GroupDocs.Metadata untuk .NET guna mengakses dan mengekstrak properti metadata asli dari arsip RAR.
 ## Prasyarat

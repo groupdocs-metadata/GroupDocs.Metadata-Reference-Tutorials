@@ -6,6 +6,9 @@ description: Aprenda como gerenciar com eficiência metadados de apresentação 
 weight: 25
 url: /pt/net/presentation-metadata/
 ---
+
+# Metadados de apresentação
+
 ## Introdução
 
 Na era digital de hoje, o gerenciamento de metadados em apresentações é crucial para uma organização e recuperação eficazes de informações. GroupDocs.Metadata for .NET oferece uma solução robusta para desenvolvedores que buscam agilizar esse processo. Esteja você extraindo propriedades integradas, acessando metadados personalizados ou atualizando propriedades de inspeção, nossos tutoriais fornecem orientação passo a passo para integração perfeita em seus projetos .NET.

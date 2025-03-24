@@ -6,6 +6,9 @@ description: 이 포괄적인 튜토리얼에서 .NET용 GroupDocs.Metadata를 �
 weight: 10
 url: /ko/net/presentation-metadata/read-built-in-properties-presentations/
 ---
+
+# .NET 프레젠테이션에서 기본 제공 속성 읽기
+
 ## 소개
 .NET 개발 영역에서는 프레젠테이션과 같은 다양한 파일 형식에서 메타데이터를 관리하고 추출하는 것이 중요합니다. .NET용 GroupDocs.Metadata는 메타데이터 작업을 효율적으로 처리할 수 있는 강력한 솔루션을 제공합니다. 이 자습서에서는 .NET용 GroupDocs.Metadata를 사용하여 프레젠테이션에서 기본 제공 속성을 읽는 방법을 자세히 살펴봅니다. 결국에는 프레젠테이션 파일에서 필수 메타데이터를 추출하기 위해 이 라이브러리를 활용하는 방법을 명확하게 이해하게 될 것입니다.
 ## 전제 조건

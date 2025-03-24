@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Metadata benutzerdefinierte Eig
 weight: 11
 url: /de/net/diagram-metadata/read-custom-properties-diagrams/
 ---
+
+# Lesen Sie benutzerdefinierte Eigenschaften aus Diagrammen in .NET
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET benutzerdefinierte Eigenschaften effizient aus Diagrammen lesen können. GroupDocs.Metadata ist eine leistungsstarke API, mit der Entwickler mit Metadaten in verschiedenen Dokumentformaten, einschließlich Diagrammen, arbeiten können. Benutzerdefinierte Eigenschaften können wertvolle, in Diagramme eingebettete Informationen enthalten, und der programmgesteuerte Zugriff auf diese kann die Dokumentverarbeitungsaufgaben rationalisieren. Am Ende dieses Handbuchs verfügen Sie über das Wissen, um mit GroupDocs.Metadata für .NET benutzerdefinierte Eigenschaften aus Diagrammdateien abzurufen.
 ## Voraussetzungen

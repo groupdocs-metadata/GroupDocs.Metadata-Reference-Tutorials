@@ -6,6 +6,9 @@ description: Lär dig att extrahera metadata från projektledningsdokument med h
 weight: 10
 url: /sv/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---
+
+# Läs inbyggda egenskaper i .NET Project Management Documents
+
 ## Introduktion
 den här handledningen kommer vi att fördjupa oss i att utnyttja GroupDocs.Metadata för .NET för att effektivt extrahera inbyggda egenskaper från projektledningsdokument. Det här biblioteket tillhandahåller robusta funktioner för att hantera metadata i olika filformat, inklusive Microsoft Project, vilket gör att utvecklare kan komma åt viktiga dokumentdetaljer programmatiskt. Vi guidar dig genom processen steg-för-steg och bryter ner varje exempel för att säkerställa tydlighet och enkel implementering.
 ## Förutsättningar

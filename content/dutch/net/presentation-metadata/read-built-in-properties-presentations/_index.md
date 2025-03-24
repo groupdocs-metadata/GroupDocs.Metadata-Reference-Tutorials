@@ -6,6 +6,9 @@ description: Leer in deze uitgebreide zelfstudie hoe u ingebouwde eigenschappen 
 weight: 10
 url: /nl/net/presentation-metadata/read-built-in-properties-presentations/
 ---
+
+# Lees ingebouwde eigenschappen van presentaties in .NET
+
 ## Invoering
 Op het gebied van .NET-ontwikkeling is het beheren en extraheren van metagegevens uit verschillende bestandsformaten, zoals presentaties, van cruciaal belang. GroupDocs.Metadata voor .NET biedt een krachtige oplossing om metadatataken efficiënt af te handelen. In deze zelfstudie wordt dieper ingegaan op het lezen van ingebouwde eigenschappen uit presentaties met behulp van GroupDocs.Metadata voor .NET. Aan het einde zul je duidelijk begrijpen hoe je deze bibliotheek kunt gebruiken voor het extraheren van essentiële metagegevens uit presentatiebestanden.
 ## Vereisten

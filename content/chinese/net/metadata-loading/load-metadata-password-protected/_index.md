@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 高效管理文档�
 weight: 13
 url: /zh/net/metadata-loading/load-metadata-password-protected/
 ---
+
+# 如何在 .NET 中从受密码保护的文档加载元数据
+
 ## 介绍
 在 .NET 开发领域，管理文档中的元数据对于各种应用程序至关重要。GroupDocs.Metadata for .NET 提供了强大的工具，可以以简单的方式提取、编辑和管理元数据。本教程将引导您完成使用 GroupDocs.Metadata 从受密码保护的文档中加载元数据的过程。
 先决条件

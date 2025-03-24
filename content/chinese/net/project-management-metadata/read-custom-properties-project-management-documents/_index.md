@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 从 .NET 项目管�
 weight: 11
 url: /zh/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
+
+# 阅读 .NET 项目管理文档中的自定义属性
+
 ## 介绍
 在 .NET 开发领域，管理项目管理文档中的元数据是数据组织和检索的一个重要方面。 GroupDocs.Metadata for .NET 提供了从各种项目管理文件格式（例如 Microsoft Project (MPP) 文件）读取自定义属性的强大功能。本教程将指导您逐步完成利用 GroupDocs.Metadata 从 .NET 项目管理文档中提取自定义属性的过程。
 ## 先决条件

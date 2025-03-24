@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET Liedtext-Tag
 weight: 13
 url: /de/net/audio-metadata/read-lyrics-tag-mp3/
 ---
+
+# Lesen Sie den Liedtext-Tag aus MP3-Dateien in .NET
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie Liedtext-Tags aus MP3-Dateien mithilfe der GroupDocs.Metadata-API in .NET extrahieren und lesen. GroupDocs.Metadata ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, mit Metadaten zu arbeiten, die mit verschiedenen Dateiformaten, einschließlich MP3-Dateien, verknüpft sind. Wenn Sie diese Schritte befolgen, können Sie in MP3-Dateien eingebettete textbezogene Informationen effizient abrufen.
 ## Voraussetzungen

@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 從 MP3 檔案中刪
 weight: 16
 url: /zh-hant/net/audio-metadata/remove-id3v1-tag-mp3/
 ---
+
+# 從 .NET 中的 MP3 檔案中刪除 ID3V1 標籤
+
 ## 介紹
 在本教學中，我們將探討如何使用 GroupDocs.Metadata for .NET 從 MP3 檔案中刪除 ID3V1 標記。 GroupDocs.Metadata 是一個功能強大的程式庫，可讓開發人員操作各種檔案格式（包括 MP3 檔案）的元資料屬性。 ID3V1 標籤通常用於儲存 MP3 檔案中的元數據，例如藝術家姓名、曲目標題、專輯和流派，但有時您可能需要根據特定要求將其刪除。我們將使用實際範例逐步完成該過程。
 ## 先決條件

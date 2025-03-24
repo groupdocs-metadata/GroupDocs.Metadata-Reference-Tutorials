@@ -6,6 +6,9 @@ description: Pelajari cara mengekstrak properti khusus dari dokumen manajemen pr
 weight: 11
 url: /id/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
+
+# Baca Properti Kustom di Dokumen Manajemen Proyek .NET
+
 ## Perkenalan
 Dalam dunia pengembangan .NET, pengelolaan metadata dalam dokumen manajemen proyek merupakan aspek penting dalam pengorganisasian dan pengambilan data. GroupDocs.Metadata untuk .NET menawarkan kemampuan canggih untuk membaca properti khusus dari berbagai format file manajemen proyek seperti file Microsoft Project (MPP). Tutorial ini akan memandu Anda melalui proses penggunaan GroupDocs.Metadata untuk mengekstrak properti khusus dari dokumen manajemen proyek .NET langkah demi langkah.
 ## Prasyarat

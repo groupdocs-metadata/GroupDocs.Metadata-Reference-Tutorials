@@ -6,6 +6,9 @@ description: Learn how to read inspection properties from spreadsheets using Gro
 weight: 13
 url: /net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---
+
+# Read Inspection Properties from Spreadsheets in .NET
+
 ## Introduction
 In this tutorial, we'll explore how to use GroupDocs.Metadata for .NET to inspect properties from spreadsheets. GroupDocs.Metadata for .NET is a powerful library that enables developers to read, edit, and remove metadata associated with various file formats, including spreadsheets. This tutorial focuses specifically on reading inspection properties from spreadsheet files using C#.
 ## Prerequisites

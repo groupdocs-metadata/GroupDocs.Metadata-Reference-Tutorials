@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan frissítheti a PDF-dokumentum tulajdonságait C
 weight: 15
 url: /hu/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
+
+# Frissítse a PDF-fájlok beépített tulajdonságait .NET használatával
+
 ## Bevezetés
 Ebben az oktatóanyagban megtudjuk, hogyan használhatja a GroupDocs.Metadata for .NET-et a PDF-dokumentumok beépített tulajdonságainak frissítésére. Ez a könyvtár hatékony eszközkészletet biztosít a különböző dokumentumformátumokon belüli metaadatok kezeléséhez. Végigjárjuk a szükséges lépéseket a tulajdonságok, például a szerző, cím, létrehozás dátuma, kulcsszavak, alkotó és producer módosításához egy PDF-fájlban C# használatával.
 ## Előfeltételek

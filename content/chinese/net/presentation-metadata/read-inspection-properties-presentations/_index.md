@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 提取演示文稿�
 weight: 14
 url: /zh/net/presentation-metadata/read-inspection-properties-presentations/
 ---
+
+# 从 .NET 中的演示文稿中读取检查属性
+
 ## 介绍
 在本教程中，我们将探索如何利用 GroupDocs.Metadata for .NET 读取和检查演示文稿的属性。GroupDocs.Metadata 是一个功能强大的 API，允许开发人员处理嵌入在文档中的元数据，例如演示文稿、PDF、图像等。我们将特别关注演示文稿（PPTX 文件），并演示如何提取评论、隐藏幻灯片等信息。
 ## 先决条件

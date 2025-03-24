@@ -6,6 +6,9 @@ description: Naučte se číst vlastnosti formátu souboru z diagramů v .NET po
 weight: 13
 url: /cs/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
+
+# Přečtěte si Vlastnosti formátu souboru z Diagramů v .NET
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak používat GroupDocs.Metadata pro .NET ke čtení vlastností formátu souboru z diagramů. Tato knihovna umožňuje snadnou manipulaci a extrakci metadat z různých formátů souborů v rámci aplikací .NET. Projdeme si předpoklady, import jmenných prostorů a příklady krok za krokem, abychom ilustrovali, jak toho dosáhnout.
 

@@ -6,6 +6,9 @@ description: Leer bestandsmetagegevens beheren in .NET met GroupDocs.Metadata. S
 weight: 11
 url: /nl/net/metadata-loading/load-metadata-stream/
 ---
+
+# Metagegevens uit Stream laden in .NET-zelfstudie
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u GroupDocs.Metadata voor .NET kunt gebruiken om metagegevens binnen uw .NET-toepassingen effectief te beheren. Metagegevens, zoals documenteigenschappen, kunnen waardevolle informatie over bestanden verschaffen, inclusief details zoals auteur, aanmaakdatum en trefwoorden. GroupDocs.Metadata vereenvoudigt het proces van het lezen, bewerken en verwijderen van metagegevens uit verschillende bestandsformaten in een .NET-omgeving. Deze gids zal zich richten op het laden van metadata uit een stream, waarbij stapsgewijze procedures worden gedemonstreerd aan de hand van praktische voorbeelden.
 ## Vereisten

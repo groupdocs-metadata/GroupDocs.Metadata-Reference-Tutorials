@@ -6,6 +6,9 @@ description: Tìm hiểu cách cập nhật thuộc tính kiểm tra trong bản
 weight: 17
 url: /vi/net/presentation-metadata/update-inspection-properties-presentations/
 ---
+
+# Cập nhật thuộc tính kiểm tra trong bản trình bày bằng .NET
+
 ## Giới thiệu
 Trong lĩnh vực phát triển .NET, việc quản lý và thao tác siêu dữ liệu trong bản trình bày là một khía cạnh quan trọng của việc tổ chức và xử lý dữ liệu. GroupDocs.Metadata cho .NET cung cấp giải pháp mạnh mẽ cho các nhà phát triển để xử lý siêu dữ liệu trong các định dạng tệp khác nhau một cách liền mạch. Hướng dẫn này đi sâu vào cách sử dụng GroupDocs.Metadata để cập nhật các thuộc tính kiểm tra cụ thể cho bản trình bày (tệp .PPTX) bằng C#.
 ## Điều kiện tiên quyết

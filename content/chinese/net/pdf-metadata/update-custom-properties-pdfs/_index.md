@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata 和 .NET 更新 PDF 文件中
 weight: 16
 url: /zh/net/pdf-metadata/update-custom-properties-pdfs/
 ---
+
+# 使用 .NET 更新 PDF 中的自定义属性
+
 ## 介绍
 在本教程中，我们将探讨如何使用 .NET 和 GroupDocs.Metadata 更新 PDF 文件中的自定义属性。自定义属性允许您向 PDF 文档添加其他元数据，这对于分类、可搜索性和信息检索非常有用。 GroupDocs.Metadata 是一个功能强大的 API，使开发人员能够使用 .NET 框架处理各种文件格式（包括 PDF）的元数据。
 ## 先决条件

@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 更新 .NET 專案�
 weight: 12
 url: /zh-hant/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
+
+# 更新 .NET 專案管理文件中的內建屬性
+
 ## 介紹
 在本教學中，我們將探討如何使用 GroupDocs.Metadata for .NET 更新 .NET 專案管理文件中的內建屬性。該程式庫可以有效地操作各種文件格式的元數據，包括 Microsoft Project (MPP) 文件等專案管理文件。
 ## 先決條件

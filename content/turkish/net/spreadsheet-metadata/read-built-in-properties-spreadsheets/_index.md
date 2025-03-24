@@ -6,6 +6,9 @@ description: GroupDocs.Metadata'yı kullanarak .NET'teki elektronik tablolardan 
 weight: 10
 url: /tr/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
+
+# .NET'teki Elektronik Tablolardan Yerleşik Özellikleri Okuyun
+
 ## giriiş
 Bu eğitimde, e-tablolardan meta verileri verimli bir şekilde yönetmek ve çıkarmak için GroupDocs.Metadata for .NET'in nasıl kullanılacağını inceleyeceğiz. GroupDocs.Metadata for .NET, geliştiricilerin elektronik tablolar, sunumlar, belgeler, resimler ve daha fazlası dahil olmak üzere çeşitli dosya formatlarına gömülü meta verilerle çalışmasına olanak tanıyan güçlü bir API'dir. Bu kılavuz özellikle C# kullanarak elektronik tablo dosyalarından yerleşik özelliklerin çıkarılmasına odaklanmaktadır.
 ## Önkoşullar

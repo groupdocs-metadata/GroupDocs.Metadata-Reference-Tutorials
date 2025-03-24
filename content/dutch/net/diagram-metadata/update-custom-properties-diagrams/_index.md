@@ -6,6 +6,9 @@ description: Leer hoe u aangepaste eigenschappen in diagrammen kunt bijwerken me
 weight: 15
 url: /nl/net/diagram-metadata/update-custom-properties-diagrams/
 ---
+
+# Update aangepaste eigenschappen in diagrammen met .NET
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u aangepaste eigenschappen in diagrammen kunt bijwerken met behulp van .NET met behulp van GroupDocs.Metadata voor .NET. Aangepaste eigenschappen in diagrammen kunnen essentieel zijn voor het toevoegen van metagegevens of aanvullende informatie aan uw bestanden, waardoor de bruikbaarheid en organisatie ervan wordt verbeterd. GroupDocs.Metadata voor .NET biedt een robuuste set tools voor het manipuleren en bijwerken van metagegevens binnen verschillende documentformaten, inclusief diagrammen.
 ## Vereisten

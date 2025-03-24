@@ -6,6 +6,9 @@ description: Pelajari cara memperbarui properti kustom dalam diagram menggunakan
 weight: 15
 url: /id/net/diagram-metadata/update-custom-properties-diagrams/
 ---
+
+# Perbarui Properti Kustom dalam Diagram menggunakan .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memperbarui properti khusus dalam diagram menggunakan .NET dengan bantuan GroupDocs.Metadata untuk .NET. Properti khusus dalam diagram dapat menjadi penting untuk menambahkan metadata atau informasi tambahan ke file Anda, sehingga meningkatkan kegunaan dan pengorganisasiannya. GroupDocs.Metadata for .NET menyediakan seperangkat alat canggih untuk memanipulasi dan memperbarui metadata dalam berbagai format dokumen, termasuk diagram.
 ## Prasyarat

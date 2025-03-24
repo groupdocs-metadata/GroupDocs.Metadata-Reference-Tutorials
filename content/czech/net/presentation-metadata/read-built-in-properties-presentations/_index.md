@@ -6,6 +6,9 @@ description: tomto komplexním kurzu se dozvíte, jak extrahovat vestavěné vla
 weight: 10
 url: /cs/net/presentation-metadata/read-built-in-properties-presentations/
 ---
+
+# Přečtěte si vestavěné vlastnosti z prezentací v .NET
+
 ## Úvod
 V oblasti vývoje .NET je zásadní správa a extrahování metadat z různých formátů souborů, jako jsou prezentace. GroupDocs.Metadata for .NET nabízí výkonné řešení pro efektivní zpracování úloh metadat. Tento výukový program se ponoří do čtení vestavěných vlastností z prezentací pomocí GroupDocs.Metadata pro .NET. Na konci budete mít jasnou představu o tom, jak využít tuto knihovnu k extrahování základních metadat ze souborů prezentace.
 ## Předpoklady

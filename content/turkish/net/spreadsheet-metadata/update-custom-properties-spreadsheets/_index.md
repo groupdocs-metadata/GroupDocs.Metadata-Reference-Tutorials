@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak e-tablolardaki özel özel
 weight: 15
 url: /tr/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---
+
+# .NET kullanarak Elektronik Tablolardaki Özel Özellikleri Güncelleme
+
 ## giriiş
 Bu öğreticide, GroupDocs.Metadata for .NET kitaplığını kullanarak e-tablolardaki özel özelliklerin nasıl güncelleştirileceğini keşfedeceğiz. Özel özellikler, standart özelliklerin kapsamadığı ek bağlam veya bilgiler sağlayarak e-tablo dosyalarınızın meta verilerini geliştirebilir.
 ## Önkoşullar

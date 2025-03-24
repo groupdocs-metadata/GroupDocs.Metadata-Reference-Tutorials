@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất số liệu thống kê tài liệu
 weight: 12
 url: /vi/net/diagram-metadata/read-document-statistics-diagrams/
 ---
+
+# Đọc số liệu thống kê tài liệu từ sơ đồ trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng GroupDocs.Metadata cho .NET để trích xuất số liệu thống kê tài liệu từ sơ đồ. GroupDocs.Metadata là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với siêu dữ liệu được liên kết với nhiều định dạng tệp khác nhau. Bằng cách làm theo hướng dẫn từng bước này, bạn sẽ học cách đọc số liệu thống kê tài liệu từ sơ đồ bằng C#.
 ## Điều kiện tiên quyết

@@ -6,6 +6,9 @@ description: .NET के लिए GroupDocs.Metadata का उपयोग क
 weight: 11
 url: /hi/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---
+
+# .NET में स्प्रेडशीट से कस्टम गुण पढ़ें
+
 ## परिचय
 इस ट्यूटोरियल में, हम .NET के लिए GroupDocs.Metadata का उपयोग करके स्प्रेडशीट से कस्टम गुण निकालने का तरीका जानेंगे। GroupDocs.Metadata एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को स्प्रेडशीट सहित विभिन्न फ़ाइल स्वरूपों में मेटाडेटा गुणों को पढ़ने, संपादित करने और हेरफेर करने में सक्षम बनाती है।
 ## आवश्यक शर्तें

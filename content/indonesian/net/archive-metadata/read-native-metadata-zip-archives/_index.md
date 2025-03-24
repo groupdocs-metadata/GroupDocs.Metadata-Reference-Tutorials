@@ -6,6 +6,9 @@ description: Pelajari cara mengekstrak metadata dari arsip ZIP menggunakan Group
 weight: 13
 url: /id/net/archive-metadata/read-native-metadata-zip-archives/
 ---
+
+# Baca Properti Metadata Asli dari Arsip ZIP di .NET
+
 ## Perkenalan
 Arsip ZIP biasanya digunakan untuk mengompresi dan menggabungkan file. Saat bekerja dengan file ZIP di aplikasi .NET, sering kali diperlukan untuk mengekstrak properti metadata dari arsip ini. Dalam tutorial ini, kita akan mempelajari cara menggunakan GroupDocs.Metadata untuk .NET guna membaca properti metadata asli dari file ZIP langkah demi langkah.
 ## Prasyarat

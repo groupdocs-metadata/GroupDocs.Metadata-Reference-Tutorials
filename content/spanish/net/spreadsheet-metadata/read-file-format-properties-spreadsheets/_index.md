@@ -6,6 +6,9 @@ description: Aprenda a leer las propiedades del formato de archivo de una hoja d
 weight: 12
 url: /es/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
+
+# Leer propiedades de formato de archivo de hojas de cálculo en .NET
+
 ## Introducción
 En este tutorial, exploraremos cómo aprovechar GroupDocs.Metadata para .NET para leer de manera eficiente las propiedades de formato de archivo de hojas de cálculo. GroupDocs.Metadata para .NET es una potente API que permite a los desarrolladores extraer, editar y administrar metadatos asociados con varios formatos de archivos dentro de sus aplicaciones .NET. Nos centraremos específicamente en recuperar información esencial sobre archivos de hojas de cálculo utilizando esta biblioteca.
 ## Requisitos previos

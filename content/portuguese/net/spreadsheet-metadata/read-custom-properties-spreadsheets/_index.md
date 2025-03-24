@@ -6,6 +6,9 @@ description: Aprenda como extrair propriedades personalizadas de planilhas usand
 weight: 11
 url: /pt/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---
+
+# Leia propriedades personalizadas de planilhas em .NET
+
 ## Introdução
 Neste tutorial, exploraremos como extrair propriedades personalizadas de planilhas usando GroupDocs.Metadata for .NET. GroupDocs.Metadata é uma biblioteca poderosa que permite aos desenvolvedores ler, editar e manipular propriedades de metadados em vários formatos de arquivo, incluindo planilhas.
 ## Pré-requisitos

@@ -6,6 +6,9 @@ description: GroupDocs.Metadata를 사용하여 .NET의 다이어그램 파일�
 weight: 11
 url: /ko/net/diagram-metadata/read-custom-properties-diagrams/
 ---
+
+# .NET의 다이어그램에서 사용자 정의 속성 읽기
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Metadata를 사용하여 다이어그램에서 사용자 정의 속성을 효율적으로 읽는 방법을 살펴보겠습니다. GroupDocs.Metadata는 개발자가 다이어그램을 포함한 다양한 문서 형식의 메타데이터로 작업할 수 있는 강력한 API입니다. 사용자 정의 속성에는 다이어그램에 포함된 귀중한 정보가 포함될 수 있으며 프로그래밍 방식으로 액세스하면 문서 처리 작업을 간소화할 수 있습니다. 이 가이드를 마치면 .NET용 GroupDocs.Metadata를 사용하여 다이어그램 파일에서 사용자 정의 속성을 검색하는 방법에 대한 지식을 갖추게 됩니다.
 ## 전제 조건

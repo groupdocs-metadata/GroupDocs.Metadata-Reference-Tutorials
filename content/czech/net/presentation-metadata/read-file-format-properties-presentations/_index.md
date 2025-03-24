@@ -6,6 +6,9 @@ description: Naučte se číst vlastnosti souboru prezentace v .NET pomocí Grou
 weight: 13
 url: /cs/net/presentation-metadata/read-file-format-properties-presentations/
 ---
+
+# Přečtěte si vlastnosti formátu souboru z prezentací v .NET
+
 ## Úvod
 Ve světě vývoje .NET je správa metadat v souborech klíčová pro různé aplikace. GroupDocs.Metadata for .NET nabízí výkonné nástroje pro efektivní interakci s metadaty v souborech. Tento výukový program vás provede procesem čtení vlastností formátu souboru z prezentací pomocí GroupDocs.Metadata pro .NET.
 ## Předpoklady

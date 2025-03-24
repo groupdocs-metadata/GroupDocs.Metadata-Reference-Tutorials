@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用して WAV ファイルから�
 weight: 23
 url: /ja/net/audio-metadata/read-native-metadata-wav/
 ---
+
+# .NET で WAV ファイルからネイティブ メタデータ プロパティを読み取る
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を使用して WAV オーディオ ファイルからネイティブ メタデータ プロパティを抽出する方法を学習します。GroupDocs.Metadata for .NET は、開発者が WAV ファイルを含むさまざまなファイル形式に関連付けられたメタデータを読み取り、更新、削除できるようにする強力なライブラリです。
 ## 前提条件

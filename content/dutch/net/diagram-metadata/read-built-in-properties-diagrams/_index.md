@@ -6,6 +6,9 @@ description: Leer metagegevens uit diagrambestanden in .NET extraheren met behul
 weight: 10
 url: /nl/net/diagram-metadata/read-built-in-properties-diagrams/
 ---
+
+# Lees ingebouwde eigenschappen uit diagrammen in .NET
+
 ## Invoering
 In deze zelfstudie gaan we dieper in op het gebruik van GroupDocs.Metadata voor .NET om ingebouwde eigenschappen uit diagrammen te lezen. GroupDocs.Metadata voor .NET is een krachtige bibliotheek waarmee ontwikkelaars kunnen werken met metagegevens die zijn gekoppeld aan verschillende documenttypen, waaronder diagrammen, presentaties, afbeeldingen en meer. We zullen ons specifiek concentreren op het extraheren van metadata-eigenschappen uit diagrambestanden met behulp van deze bibliotheek.
 ## Vereisten

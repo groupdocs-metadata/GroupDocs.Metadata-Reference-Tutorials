@@ -6,6 +6,9 @@ description: Learn how to remove ID3V2 tags from MP3 files using GroupDocs.Metad
 weight: 17
 url: /net/audio-metadata/remove-id3v2-tag-mp3/
 ---
+
+# Remove ID3V2 Tag from MP3 Files in .NET
+
 ## Introduction
 In this tutorial, we will explore how to utilize GroupDocs.Metadata for .NET to remove ID3V2 tags from MP3 files. GroupDocs.Metadata is a powerful library that allows developers to work with metadata in various document and image formats, including MP3 files. Removing ID3V2 tags from MP3 files can be useful for applications where these tags are not needed or where only specific metadata needs to be retained.
 ## Prerequisites

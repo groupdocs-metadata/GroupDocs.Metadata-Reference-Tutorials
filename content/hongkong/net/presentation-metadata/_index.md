@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata 教學課程有效管理 .NET
 weight: 25
 url: /zh-hant/net/presentation-metadata/
 ---
+
+# 表示元資料
+
 ## 介紹
 
 在當今的數位時代，管理簡報中的元資料對於有效組織和檢索資訊至關重要。 GroupDocs.Metadata for .NET 為尋求簡化此流程的開發人員提供了強大的解決方案。無論您是提取內建屬性、存取自訂元資料還是更新檢查屬性，我們的教程都提供了無縫整合到 .NET 專案中的逐步指導。

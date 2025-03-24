@@ -6,6 +6,9 @@ description: Pelajari cara membaca properti format file dari diagram di .NET men
 weight: 13
 url: /id/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
+
+# Baca Properti Format File dari Diagram di .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menggunakan GroupDocs.Metadata untuk .NET untuk membaca properti format file dari diagram. Pustaka ini memungkinkan manipulasi dan ekstraksi metadata dengan mudah dari berbagai format file dalam aplikasi .NET. Kami akan membahas prasyarat, mengimpor namespace, dan contoh langkah demi langkah untuk mengilustrasikan cara mencapai hal ini.
 

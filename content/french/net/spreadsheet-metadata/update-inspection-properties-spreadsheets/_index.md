@@ -6,6 +6,9 @@ description: Découvrez comment mettre à jour les propriétés d'inspection dan
 weight: 16
 url: /fr/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
+
+# Mettre à jour les propriétés d'inspection dans les feuilles de calcul à l'aide de .NET
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment utiliser GroupDocs.Metadata pour .NET pour mettre à jour les propriétés d'inspection dans les feuilles de calcul. GroupDocs.Metadata est une API puissante qui vous permet de travailler avec des métadonnées associées à divers formats de documents, notamment des feuilles de calcul. Nous nous concentrerons spécifiquement sur la suppression des commentaires, des signatures numériques et des feuilles masquées d'une feuille de calcul à l'aide de .NET.
 ## Conditions préalables

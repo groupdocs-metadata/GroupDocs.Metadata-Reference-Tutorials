@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 MP3 파일에서 APE 태
 weight: 15
 url: /ko/net/audio-metadata/remove-ape-tag-mp3/
 ---
+
+# .NET의 MP3 파일에서 APE 태그 제거
+
 ## 소개
 .NET 개발 영역에서 파일 내의 메타데이터를 관리하는 것은 데이터를 효율적으로 구성하고 조작하는 데 중요합니다. 이러한 목적을 위한 강력한 도구 중 하나는 .NET용 GroupDocs.Metadata입니다. 이 도구는 다양한 파일 형식의 메타데이터를 읽고, 편집하고, 제거하는 강력한 기능을 제공합니다. 이 자습서에서는 .NET용 GroupDocs.Metadata를 사용하여 MP3 파일에서 APE 태그를 제거하는 특정 작업에 중점을 둡니다. 
 ## 전제 조건

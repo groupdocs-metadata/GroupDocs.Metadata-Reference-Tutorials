@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất thẻ lời bài hát từ tệp MP
 weight: 13
 url: /vi/net/audio-metadata/read-lyrics-tag-mp3/
 ---
+
+# Đọc thẻ lời bài hát từ tệp MP3 trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách trích xuất và đọc thẻ lời bài hát từ các tệp MP3 bằng API GroupDocs.Metadata trong .NET. GroupDocs.Metadata là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với siêu dữ liệu được liên kết với nhiều định dạng tệp khác nhau, bao gồm cả tệp MP3. Bằng cách làm theo các bước này, bạn sẽ có thể truy xuất thông tin liên quan đến lời bài hát được nhúng trong tệp MP3 một cách hiệu quả.
 ## Điều kiện tiên quyết

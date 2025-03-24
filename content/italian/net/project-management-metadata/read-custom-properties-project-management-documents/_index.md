@@ -6,6 +6,9 @@ description: Scopri come estrarre proprietà personalizzate dai documenti di ges
 weight: 11
 url: /it/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
+
+# Leggere le proprietà personalizzate nei documenti di gestione dei progetti .NET
+
 ## introduzione
 Nel mondo dello sviluppo .NET, la gestione dei metadati all'interno dei documenti di gestione dei progetti è un aspetto cruciale dell'organizzazione e del recupero dei dati. GroupDocs.Metadata per .NET offre potenti funzionalità per leggere proprietà personalizzate da vari formati di file di gestione dei progetti come i file Microsoft Project (MPP). Questo tutorial ti guiderà passo dopo passo attraverso il processo di utilizzo di GroupDocs.Metadata per estrarre proprietà personalizzate dai documenti di gestione dei progetti .NET.
 ## Prerequisiti

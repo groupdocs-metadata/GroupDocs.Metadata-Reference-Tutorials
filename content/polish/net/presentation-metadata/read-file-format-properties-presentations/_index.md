@@ -6,6 +6,9 @@ description: Dowiedz się, jak czytać właściwości pliku prezentacji w .NET p
 weight: 13
 url: /pl/net/presentation-metadata/read-file-format-properties-presentations/
 ---
+
+# Przeczytaj właściwości formatu pliku z prezentacji w .NET
+
 ## Wstęp
 W świecie programowania .NET zarządzanie metadanymi w plikach ma kluczowe znaczenie dla różnych aplikacji. GroupDocs.Metadata dla .NET oferuje zaawansowane narzędzia do efektywnej interakcji z metadanymi w plikach. Ten samouczek przeprowadzi Cię przez proces odczytywania właściwości formatu pliku z prezentacji przy użyciu GroupDocs.Metadata dla .NET.
 ## Warunki wstępne

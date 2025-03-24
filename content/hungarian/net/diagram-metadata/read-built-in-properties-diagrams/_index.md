@@ -6,6 +6,9 @@ description: Tanuljon meg metaadatokat kinyerni a .NET diagramfájlokból a Grou
 weight: 10
 url: /hu/net/diagram-metadata/read-built-in-properties-diagrams/
 ---
+
+# Olvassa el a beépített tulajdonságokat a diagramokból a .NET-ben
+
 ## Bevezetés
 Ebben az oktatóanyagban a GroupDocs.Metadata for .NET használatával foglalkozunk a diagramok beépített tulajdonságainak olvasásához. A GroupDocs.Metadata for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy különféle dokumentumtípusokhoz (például diagramokhoz, prezentációkhoz, képekhez stb.) kapcsolódó metaadatokkal dolgozzanak. Konkrétan a metaadat-tulajdonságok diagramfájlokból történő kinyerésére összpontosítunk ennek a könyvtárnak a használatával.
 ## Előfeltételek

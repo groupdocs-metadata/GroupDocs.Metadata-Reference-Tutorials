@@ -6,6 +6,9 @@ description: Pelajari cara mengekstrak properti format file PDF menggunakan Grou
 weight: 13
 url: /id/net/pdf-metadata/read-file-format-properties-pdfs/
 ---
+
+# Baca Properti Format File dari PDF di .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memanfaatkan GroupDocs.Metadata untuk .NET untuk membaca properti format file dari dokumen PDF. GroupDocs.Metadata for .NET adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan metadata yang terkait dengan berbagai format file, memungkinkan pengelolaan dan ekstraksi atribut metadata secara efisien. Secara khusus, kami akan fokus pada mengekstraksi properti penting dari file PDF menggunakan contoh kode yang sederhana dan efektif.
 ## Prasyarat

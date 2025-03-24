@@ -6,6 +6,9 @@ description: Dowiedz się, jak aktualizować właściwości kontroli w dokumenta
 weight: 17
 url: /pl/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
+
+# Aktualizuj właściwości kontroli w plikach PDF przy użyciu platformy .NET
+
 ## Wstęp
 W tym samouczku omówimy, jak zaktualizować właściwości inspekcji w dokumentach PDF przy użyciu biblioteki GroupDocs.Metadata for .NET. Ta biblioteka pozwala nam efektywnie zarządzać metadanymi, adnotacjami, załącznikami i nie tylko w plikach PDF.
 ## Warunki wstępne

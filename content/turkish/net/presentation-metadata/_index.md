@@ -6,6 +6,9 @@ description: GroupDocs.Metadata eğitimlerini kullanarak .NET'te sunum meta veri
 weight: 25
 url: /tr/net/presentation-metadata/
 ---
+
+# Sunum Meta Verileri
+
 ## giriiş
 
 Günümüzün dijital çağında, sunumlardaki meta verileri yönetmek, bilgilerin etkili bir şekilde düzenlenmesi ve alınması için çok önemlidir. GroupDocs.Metadata for .NET, bu süreci kolaylaştırmak isteyen geliştiriciler için güçlü bir çözüm sunar. İster yerleşik özellikleri çıkarıyor, ister özel meta verilere erişiyor, ister inceleme özelliklerini güncelliyor olun, eğitimlerimiz .NET projelerinizle sorunsuz entegrasyon için adım adım rehberlik sağlar.

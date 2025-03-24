@@ -6,6 +6,9 @@ description: Lär dig hur du uppdaterar anpassade egenskaper i PDF-filer med .NE
 weight: 16
 url: /sv/net/pdf-metadata/update-custom-properties-pdfs/
 ---
+
+# Uppdatera anpassade egenskaper i PDF-filer med .NET
+
 ## Introduktion
 den här handledningen kommer vi att utforska hur du uppdaterar anpassade egenskaper i PDF-filer med .NET med GroupDocs.Metadata. Med anpassade egenskaper kan du lägga till ytterligare metadata till dina PDF-dokument, vilket kan vara användbart för kategorisering, sökbarhet och informationshämtning. GroupDocs.Metadata är ett kraftfullt API som gör det möjligt för utvecklare att arbeta med metadata i olika filformat, inklusive PDF-filer, med hjälp av .NET-ramverket.
 ## Förutsättningar

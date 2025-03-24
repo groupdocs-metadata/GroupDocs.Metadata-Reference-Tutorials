@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak sunum meta verilerini nas�
 weight: 16
 url: /tr/net/presentation-metadata/update-custom-properties-presentations/
 ---
+
+# .NET kullanarak Sunumlardaki Özel Özellikleri Güncelleme
+
 ## giriiş
 Bu öğreticide, sunumlardaki özel özellikleri güncellemek için GroupDocs.Metadata for .NET'ten nasıl yararlanılacağını keşfedeceğiz. GroupDocs.Metadata, geliştiricilerin çeşitli dosya formatlarındaki meta verileri program aracılığıyla değiştirmesine olanak tanıyan güçlü bir API'dir. Özellikle sunumlara (PowerPoint dosyaları gibi) odaklanacağız ve C# kullanarak özel özelliklerin nasıl ekleneceğini veya değiştirileceğini göstereceğiz.
 ## Önkoşullar

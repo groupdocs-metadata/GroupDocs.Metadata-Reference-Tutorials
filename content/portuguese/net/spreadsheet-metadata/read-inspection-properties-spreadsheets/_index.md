@@ -6,6 +6,9 @@ description: Aprenda a ler propriedades de inspeção em planilhas usando GroupD
 weight: 13
 url: /pt/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---
+
+# Leia as propriedades de inspeção de planilhas em .NET
+
 ## Introdução
 Neste tutorial, exploraremos como usar GroupDocs.Metadata for .NET para inspecionar propriedades de planilhas. GroupDocs.Metadata for .NET é uma biblioteca poderosa que permite aos desenvolvedores ler, editar e remover metadados associados a vários formatos de arquivo, incluindo planilhas. Este tutorial se concentra especificamente na leitura de propriedades de inspeção de arquivos de planilha usando C#.
 ## Pré-requisitos

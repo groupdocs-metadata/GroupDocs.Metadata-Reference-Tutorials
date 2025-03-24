@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 從 MP3 檔案中擷
 weight: 13
 url: /zh-hant/net/audio-metadata/read-lyrics-tag-mp3/
 ---
+
+# 從 .NET 中的 MP3 檔案讀取歌詞標籤
+
 ## 介紹
 在本教學中，我們將學習如何使用 .NET 中的 GroupDocs.Metadata API 從 MP3 檔案中擷取和讀取歌詞標籤。 GroupDocs.Metadata 是一個功能強大的程式庫，可讓開發人員處理與各種檔案格式（包括 MP3 檔案）相關的元資料。透過執行這些步驟，您將能夠有效地檢索 MP3 檔案中嵌入的歌詞相關資訊。
 ## 先決條件

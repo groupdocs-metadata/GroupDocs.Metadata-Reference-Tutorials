@@ -6,6 +6,9 @@ description: Lär dig hur du extraherar metadata från kalkylblad i .NET med hj�
 weight: 10
 url: /sv/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
+
+# Läs inbyggda egenskaper från kalkylblad i .NET
+
 ## Introduktion
 den här handledningen kommer vi att fördjupa oss i hur man använder GroupDocs.Metadata för .NET för att effektivt hantera och extrahera metadata från kalkylblad. GroupDocs.Metadata for .NET är ett kraftfullt API som gör det möjligt för utvecklare att arbeta med metadata inbäddade i olika filformat, inklusive kalkylblad, presentationer, dokument, bilder och mer. Den här guiden fokuserar specifikt på att extrahera inbyggda egenskaper från kalkylbladsfiler med C#.
 ## Förutsättningar

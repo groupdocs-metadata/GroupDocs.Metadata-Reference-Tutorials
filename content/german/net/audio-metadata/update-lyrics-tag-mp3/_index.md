@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET Metadaten vo
 weight: 21
 url: /de/net/audio-metadata/update-lyrics-tag-mp3/
 ---
+
+# Aktualisieren Sie den Lyrics-Tag in MP3-Dateien mit .NET
+
 ## Einführung
 In diesem Tutorial zeigen wir, wie Sie die GroupDocs.Metadata for .NET-Bibliothek verwenden, um das Songtext-Tag in MP3-Dateien programmgesteuert zu aktualisieren. Dieser Prozess beinhaltet den Zugriff auf und die Änderung der Metadaten von MP3-Dateien, insbesondere auf die Liedtextinformationen.
 ## Voraussetzungen

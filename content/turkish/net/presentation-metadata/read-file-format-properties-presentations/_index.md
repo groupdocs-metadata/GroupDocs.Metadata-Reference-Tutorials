@@ -6,6 +6,9 @@ description: GroupDocs.Metadata'yı kullanarak .NET'te sunum dosyası özellikle
 weight: 13
 url: /tr/net/presentation-metadata/read-file-format-properties-presentations/
 ---
+
+# .NET'teki Sunumlardan Dosya Formatı Özelliklerini Okuyun
+
 ## giriiş
 .NET geliştirme dünyasında, dosyalar içindeki meta verileri yönetmek çeşitli uygulamalar için çok önemlidir. GroupDocs.Metadata for .NET, dosyalardaki meta verilerle verimli bir şekilde etkileşim kurmak için güçlü araçlar sunar. Bu öğretici, GroupDocs.Metadata for .NET kullanarak sunumlardan dosya formatı özelliklerini okuma sürecinde size rehberlik edecektir.
 ## Önkoşullar

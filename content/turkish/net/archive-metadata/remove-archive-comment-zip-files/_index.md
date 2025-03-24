@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak ZIP arşivi yorumlarını 
 weight: 14
 url: /tr/net/archive-metadata/remove-archive-comment-zip-files/
 ---
+
+# .NET'teki ZIP Dosyalarından Arşiv Yorumunu Kaldırma
+
 ## giriiş
 .NET geliştirme alanında, dosyalar içindeki meta verileri yönetmek, dosyanın kendisi hakkında doğru bilgileri korumak için çok önemlidir. GroupDocs.Metadata for .NET, ZIP dosyaları da dahil olmak üzere çeşitli dosya formatlarında meta veri işlemlerini basitleştiren güçlü bir araç seti sunar. Bu öğreticide, C# kullanarak ZIP dosyalarından arşiv yorumlarını programlı bir şekilde kaldırmak için GroupDocs.Metadata'yı kullanmaya odaklanacağız. 
 ## Önkoşullar

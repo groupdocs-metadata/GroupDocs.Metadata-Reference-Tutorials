@@ -6,6 +6,9 @@ description: Naučte se spravovat metadata souborů v .NET pomocí GroupDocs.Met
 weight: 11
 url: /cs/net/metadata-loading/load-metadata-stream/
 ---
+
+# Načítání metadat ze streamu v kurzu .NET
+
 ## Úvod
 tomto tutoriálu prozkoumáme, jak používat GroupDocs.Metadata pro .NET k efektivní správě metadat ve vašich aplikacích .NET. Metadata, jako jsou vlastnosti dokumentu, mohou poskytnout cenné informace o souborech, včetně podrobností, jako je autor, datum vytvoření a klíčová slova. GroupDocs.Metadata zjednodušuje proces čtení, úpravy a odstraňování metadat z různých formátů souborů v prostředí .NET. Tato příručka se zaměří na načítání metadat ze streamu a na praktických příkladech demonstruje postupy krok za krokem.
 ## Předpoklady

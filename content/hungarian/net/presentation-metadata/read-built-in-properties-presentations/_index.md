@@ -6,6 +6,9 @@ description: Ebből az átfogó oktatóanyagból megtudhatja, hogyan bonthat ki 
 weight: 10
 url: /hu/net/presentation-metadata/read-built-in-properties-presentations/
 ---
+
+# Beépített tulajdonságok olvasása a .NET prezentációiból
+
 ## Bevezetés
 A .NET fejlesztés területén kulcsfontosságú a metaadatok kezelése és kinyerése különféle fájlformátumokból, például prezentációkból. A GroupDocs.Metadata for .NET hatékony megoldást kínál a metaadat-feladatok hatékony kezelésére. Ez az oktatóanyag a GroupDocs.Metadata for .NET használatával prezentációk beépített tulajdonságainak olvasásával foglalkozik. A végére világosan megérti, hogyan használhatja ezt a könyvtárat a lényeges metaadatok kinyerésére a prezentációs fájlokból.
 ## Előfeltételek

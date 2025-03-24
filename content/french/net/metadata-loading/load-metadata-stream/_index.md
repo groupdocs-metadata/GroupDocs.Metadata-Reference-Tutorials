@@ -6,6 +6,9 @@ description: Apprenez à gérer les métadonnées de fichiers dans .NET avec Gro
 weight: 11
 url: /fr/net/metadata-loading/load-metadata-stream/
 ---
+
+# Chargement de métadonnées à partir de Stream dans le didacticiel .NET
+
 ## Introduction
 Dans ce didacticiel, nous explorerons comment utiliser GroupDocs.Metadata pour .NET pour gérer efficacement les métadonnées au sein de vos applications .NET. Les métadonnées, telles que les propriétés du document, peuvent fournir des informations précieuses sur les fichiers, notamment des détails tels que l'auteur, la date de création et les mots-clés. GroupDocs.Metadata simplifie le processus de lecture, de modification et de suppression des métadonnées de divers formats de fichiers dans un environnement .NET. Ce guide se concentrera sur le chargement des métadonnées à partir d'un flux, démontrant les procédures étape par étape à l'aide d'exemples pratiques.
 ## Conditions préalables

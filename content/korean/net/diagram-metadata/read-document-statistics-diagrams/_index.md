@@ -6,6 +6,9 @@ description: 강력한 메타데이터 조작 라이브러리인 GroupDocs.Metad
 weight: 12
 url: /ko/net/diagram-metadata/read-document-statistics-diagrams/
 ---
+
+# .NET의 다이어그램에서 문서 통계 읽기
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Metadata를 사용하여 다이어그램에서 문서 통계를 추출하는 방법을 살펴보겠습니다. GroupDocs.Metadata는 개발자가 다양한 파일 형식과 관련된 메타데이터로 작업할 수 있는 강력한 라이브러리입니다. 이 단계별 가이드를 따르면 C#을 사용하여 다이어그램에서 문서 통계를 읽는 방법을 배울 수 있습니다.
 ## 전제 조건

@@ -6,6 +6,9 @@ description: Aprenda como extrair propriedades personalizadas de arquivos de dia
 weight: 11
 url: /pt/net/diagram-metadata/read-custom-properties-diagrams/
 ---
+
+# Leia propriedades personalizadas de diagramas em .NET
+
 ## Introdução
 Neste tutorial, exploraremos como usar GroupDocs.Metadata for .NET para ler propriedades personalizadas de diagramas com eficiência. GroupDocs.Metadata é uma API poderosa que permite aos desenvolvedores trabalhar com metadados em vários formatos de documentos, incluindo diagramas. As propriedades personalizadas podem conter informações valiosas incorporadas nos diagramas, e acessá-las programaticamente pode agilizar as tarefas de processamento de documentos. Ao final deste guia, você estará equipado com o conhecimento necessário para recuperar propriedades personalizadas de arquivos de diagrama usando GroupDocs.Metadata for .NET.
 ## Pré-requisitos

@@ -8,6 +8,9 @@ url: /vi/
 is_root: true
 ---
 
+# Khai phá khả năng làm chủ siêu dữ liệu bằng GroupDocs.Metadata
+
+
 Khám phá bộ sưu tập toàn diện các hướng dẫn GroupDocs.Metadata được thiết kế riêng cho cả nhà phát triển .NET và Java. Đi sâu vào thế giới quản lý siêu dữ liệu với hướng dẫn từng bước, bao gồm nhiều chủ đề từ kỹ thuật tải đến thao tác nâng cao. Nâng cao kỹ năng quản lý siêu dữ liệu tệp của bạn bất kể ngôn ngữ lập trình ưa thích của bạn.
 
 ## Hướng dẫn GroupDocs.Metadata cho .NET

@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất các thuộc tính kiểm tra từ 
 weight: 14
 url: /vi/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
+
+# Đọc Thuộc tính Kiểm tra từ các tệp PDF trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng GroupDocs.Metadata cho .NET để trích xuất các thuộc tính kiểm tra từ tài liệu PDF theo chương trình. GroupDocs.Metadata là một thư viện .NET mạnh mẽ cho phép các nhà phát triển làm việc với siêu dữ liệu được nhúng ở nhiều định dạng tệp khác nhau, bao gồm cả tệp PDF. Bằng cách tận dụng thư viện này, bạn có thể truy cập và thao tác nhiều loại thuộc tính tài liệu, chú thích, tệp đính kèm, dấu trang, chữ ký số và các trường trong tệp PDF.
 ## Điều kiện tiên quyết

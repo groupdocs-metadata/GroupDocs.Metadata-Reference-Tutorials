@@ -6,6 +6,9 @@ description: Learn how to update inspection properties in PDF documents using Gr
 weight: 17
 url: /net/pdf-metadata/update-inspection-properties-pdfs/
 ---
+
+# Update Inspection Properties in PDFs using .NET
+
 ## Introduction
 In this tutorial, we'll explore how to update inspection properties in PDF documents using the GroupDocs.Metadata for .NET library. This library allows us to efficiently manage metadata, annotations, attachments, and more within PDF files.
 ## Prerequisites

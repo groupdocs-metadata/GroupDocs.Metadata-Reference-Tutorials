@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 教程轻松管理 P
 weight: 24
 url: /zh/net/pdf-metadata/
 ---
+
+# PDF 元数据
+
 ## 介绍
 
 释放 PDF 元数据管理的潜力[.NET 的 GroupDocs.Metadata](https://www.groupdocs.com/products/metadata/net)。无论您是经验丰富的开发人员还是新手，这些教程都为利用元数据操作的力量提供了宝贵的见解。

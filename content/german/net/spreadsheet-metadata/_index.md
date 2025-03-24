@@ -7,6 +7,9 @@ description: Nutzen Sie die Leistungsfähigkeit von GroupDocs.Metadata für .NET
 weight: 27
 url: /de/net/spreadsheet-metadata/
 ---
+
+# Tabellenkalkulations-Metadaten
+
 ## Einführung
 
 GroupDocs.Metadata für .NET bietet eine umfassende Reihe von Tutorials, die Entwicklern die Möglichkeit geben sollen, die Metadatenmanipulation in Tabellenkalkulationsdateien effektiv zu nutzen. Schauen wir uns diese Tutorials genauer an, um zu verstehen, wie sie Ihre .NET-Anwendungen verbessern können.

@@ -6,6 +6,9 @@ description: Descubra tutoriales completos sobre cómo administrar metadatos de 
 weight: 23
 url: /es/net/diagram-metadata/
 ---
+
+# Metadatos del diagrama
+
 ## Introducción
 
 ¿Está buscando aprovechar el poder de la manipulación de metadatos para sus archivos de diagrama en .NET? Sumérjase en nuestra serie de tutoriales dedicados a GroupDocs.Metadata para .NET, una biblioteca sólida diseñada para simplificar las tareas de extracción, análisis y modificación de metadatos. Si es un desarrollador experimentado o recién comienza su viaje en el desarrollo de .NET, estos tutoriales ofrecen orientación paso a paso para ayudarlo a aprovechar los metadatos de manera efectiva.

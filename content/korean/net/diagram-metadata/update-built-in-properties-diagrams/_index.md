@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 다이어그램의 기�
 weight: 14
 url: /ko/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
+
+# .NET을 사용하여 다이어그램의 기본 제공 속성 업데이트
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Metadata를 사용하여 다이어그램의 기본 제공 속성을 업데이트하는 방법을 살펴보겠습니다. 이 라이브러리를 사용하면 다이어그램을 포함한 다양한 문서 형식 내에서 메타데이터를 조작할 수 있습니다. 전제 조건과 필요한 네임스페이스를 다루고 이러한 속성을 효과적으로 업데이트하기 위한 코드 예제가 포함된 단계별 가이드를 제공합니다.
 

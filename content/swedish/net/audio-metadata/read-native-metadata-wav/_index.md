@@ -6,6 +6,9 @@ description: Upptäck hur du extraherar inbyggd metadata från WAV-filer med Gro
 weight: 23
 url: /sv/net/audio-metadata/read-native-metadata-wav/
 ---
+
+# Läs inbyggda metadataegenskaper från WAV-filer i .NET
+
 ## Introduktion
 I den här handledningen kommer du att lära dig hur du använder GroupDocs.Metadata för .NET för att extrahera inbyggda metadataegenskaper från WAV-ljudfiler. GroupDocs.Metadata for .NET är ett kraftfullt bibliotek som låter utvecklare läsa, uppdatera och ta bort metadata som är associerade med olika filformat, inklusive WAV-filer.
 ## Förutsättningar

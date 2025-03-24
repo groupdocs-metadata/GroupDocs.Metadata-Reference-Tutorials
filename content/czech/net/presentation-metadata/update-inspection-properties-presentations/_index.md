@@ -6,6 +6,9 @@ description: Naučte se aktualizovat vlastnosti inspekce v prezentacích pomocí
 weight: 17
 url: /cs/net/presentation-metadata/update-inspection-properties-presentations/
 ---
+
+# Aktualizujte vlastnosti inspekce v prezentacích pomocí .NET
+
 ## Úvod
 V oblasti vývoje .NET je správa a manipulace s metadaty v rámci prezentací zásadním aspektem zpracování a organizace dat. GroupDocs.Metadata for .NET poskytuje vývojářům robustní řešení pro bezproblémové zpracování metadat v různých formátech souborů. Tento kurz se ponoří do toho, jak používat GroupDocs.Metadata k aktualizaci vlastností kontroly speciálně pro prezentace (soubory .PPTX) pomocí C#.
 ## Předpoklady

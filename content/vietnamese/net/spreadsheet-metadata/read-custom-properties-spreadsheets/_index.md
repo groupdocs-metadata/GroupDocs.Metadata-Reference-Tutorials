@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất các thuộc tính tùy chỉnh t�
 weight: 11
 url: /vi/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---
+
+# Đọc Thuộc tính Tùy chỉnh từ Bảng tính trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách trích xuất các thuộc tính tùy chỉnh từ bảng tính bằng GroupDocs.Metadata cho .NET. GroupDocs.Metadata là một thư viện mạnh mẽ cho phép các nhà phát triển đọc, chỉnh sửa và thao tác các thuộc tính siêu dữ liệu ở nhiều định dạng tệp khác nhau, bao gồm cả bảng tính.
 ## Điều kiện tiên quyết

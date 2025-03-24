@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan bonthat ki metaadat-tulajdonságokat RAR-archí
 weight: 10
 url: /hu/net/archive-metadata/read-native-metadata-rar-archives/
 ---
+
+# Olvassa el a natív metaadatok tulajdonságait a RAR-archívumból a .NET-ben
+
 ## Bevezetés
 RAR (Roshal Archive) egy népszerű fájlformátum, amelyet az adatok tömörítésére és archiválására használnak. Amikor RAR-fájlokkal dolgozik .NET-alkalmazásokban, gyakran be kell olvasni és ki kell bontani az archívumokba ágyazott metaadat-tulajdonságokat. Ez az oktatóanyag végigvezeti Önt a GroupDocs.Metadata for .NET használatán a natív metaadat-tulajdonságok eléréséhez és a RAR-archívumokból való kinyeréséhez.
 ## Előfeltételek

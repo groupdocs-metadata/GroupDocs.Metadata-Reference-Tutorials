@@ -6,6 +6,9 @@ description: Aprenda a actualizar los metadatos de archivos MP3, incluidas las l
 weight: 21
 url: /es/net/audio-metadata/update-lyrics-tag-mp3/
 ---
+
+# Actualizar la etiqueta de letras en archivos MP3 usando .NET
+
 ## Introducción
 En este tutorial, demostraremos cómo usar la biblioteca GroupDocs.Metadata para .NET para actualizar la etiqueta de letras en archivos MP3 mediante programación. Este proceso implica acceder y modificar los metadatos de los archivos MP3, específicamente dirigidos a la información de las letras.
 ## Requisitos previos

@@ -6,6 +6,9 @@ description: Naučte se efektivně spravovat metadata prezentací v .NET pomocí
 weight: 25
 url: /cs/net/presentation-metadata/
 ---
+
+# Metadata prezentace
+
 ## Úvod
 
 dnešní digitální době je správa metadat v rámci prezentací zásadní pro efektivní organizaci a vyhledávání informací. GroupDocs.Metadata for .NET nabízí robustní řešení pro vývojáře, kteří chtějí tento proces zefektivnit. Ať už extrahujete vestavěné vlastnosti, přistupujete k vlastním metadatům nebo aktualizujete vlastnosti kontroly, naše výukové programy poskytují podrobné pokyny pro bezproblémovou integraci do vašich projektů .NET.

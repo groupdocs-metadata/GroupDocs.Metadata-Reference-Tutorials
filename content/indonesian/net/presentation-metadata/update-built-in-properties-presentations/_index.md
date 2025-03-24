@@ -6,6 +6,9 @@ description: Pelajari cara memperbarui properti bawaan dalam presentasi mengguna
 weight: 15
 url: /id/net/presentation-metadata/update-built-in-properties-presentations/
 ---
+
+# Perbarui Properti Bawaan dalam Presentasi menggunakan .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari kemampuan hebat GroupDocs.Metadata untuk .NET, pustaka komprehensif yang dirancang untuk memanipulasi metadata dalam dokumen menggunakan kerangka .NET. Secara khusus, kami akan fokus pada memperbarui properti bawaan dalam presentasi (file .PPT dan .PPTX) secara terprogram menggunakan C#.
 ## Prasyarat

@@ -6,6 +6,9 @@ description: Dowiedz się, jak aktualizować komentarze archiwalne w plikach ZIP
 weight: 15
 url: /pl/net/archive-metadata/update-archive-comment-zip-files/
 ---
+
+# Zaktualizuj komentarz archiwalny w plikach ZIP przy użyciu platformy .NET
+
 ## Wstęp
 świecie tworzenia oprogramowania zarządzanie metadanymi w plikach jest krytycznym aspektem zapewnienia integralności i dostępności danych. GroupDocs.Metadata dla .NET oferuje deweloperom .NET solidne rozwiązanie umożliwiające efektywną pracę z metadanymi w różnych formatach plików. W tym samouczku omówimy wykorzystanie GroupDocs.Metadata dla .NET do aktualizowania komentarzy archiwalnych w plikach ZIP. Pod koniec tego przewodnika będziesz mieć pełną wiedzę na temat manipulowania metadanymi w archiwach ZIP przy użyciu tej potężnej biblioteki.
 ## Warunki wstępne

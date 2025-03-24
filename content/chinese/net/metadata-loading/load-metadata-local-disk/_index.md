@@ -6,6 +6,9 @@ description: 使用 GroupDocs.Metadata 轻松管理 .NET 应用程序中的文�
 weight: 10
 url: /zh/net/metadata-loading/load-metadata-local-disk/
 ---
+
+# 如何在.NET中从本地磁盘加载元数据
+
 ## 介绍
 在 .NET 开发领域，管理与文件相关的元数据对于各种应用程序至关重要。GroupDocs.Metadata for .NET 提供了一个强大的解决方案，可轻松读取、编辑和删除文件中的元数据。本教程将指导您完成使用 GroupDocs.Metadata 从本地磁盘加载元数据的过程，帮助您有效地利用这个强大的库。
 ## 先决条件

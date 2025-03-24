@@ -6,6 +6,9 @@ description: Pelajari cara memperbarui properti metadata bawaan di file Excel me
 weight: 14
 url: /id/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
 ---
+
+# Perbarui Properti Bawaan di Spreadsheet menggunakan .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memanfaatkan GroupDocs.Metadata untuk .NET untuk memperbarui properti bawaan di file spreadsheet menggunakan C#. GroupDocs.Metadata adalah API canggih yang memungkinkan pengembang membaca, mengedit, dan menghapus properti metadata dari berbagai format file, termasuk spreadsheet. Kami akan fokus secara khusus pada modifikasi properti seperti penulis, waktu pembuatan, perusahaan, kategori, dan kata kunci dalam file Excel.
 ## Prasyarat

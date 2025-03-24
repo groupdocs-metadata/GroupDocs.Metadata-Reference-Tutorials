@@ -6,6 +6,9 @@ description: 強力なメタデータ操作ライブラリである GroupDocs.Me
 weight: 12
 url: /ja/net/diagram-metadata/read-document-statistics-diagrams/
 ---
+
+# .NET の図からドキュメント統計を読み取る
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を使用して図からドキュメント統計を抽出する方法を説明します。 GroupDocs.Metadata は、開発者がさまざまなファイル形式に関連付けられたメタデータを操作できるようにする強力なライブラリです。このステップバイステップ ガイドに従うことで、C# を使用して図からドキュメントの統計を読み取る方法を学習します。
 ## 前提条件

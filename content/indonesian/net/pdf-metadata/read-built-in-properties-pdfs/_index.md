@@ -6,6 +6,9 @@ description: Pelajari cara membaca metadata PDF di .NET menggunakan GroupDocs.Me
 weight: 10
 url: /id/net/pdf-metadata/read-built-in-properties-pdfs/
 ---
+
+# Baca Properti Bawaan dari PDF di .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memanfaatkan GroupDocs.Metadata untuk .NET untuk membaca properti bawaan dari file PDF. GroupDocs.Metadata adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan metadata yang terkait dengan berbagai format dokumen, termasuk PDF, dokumen Microsoft Office, gambar, dan banyak lagi. Dengan menggunakan perpustakaan ini, Anda dapat dengan mudah mengakses dan memanipulasi atribut metadata yang tertanam dalam file PDF, seperti nama penulis, tanggal pembuatan, subjek, dan lainnya.
 ## Prasyarat

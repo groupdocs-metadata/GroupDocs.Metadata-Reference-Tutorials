@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 7Zip 아카이브에서 
 weight: 11
 url: /ko/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
+
+# .NET의 7Zip 아카이브에서 기본 메타데이터 속성 읽기
+
 ## 소개
 .NET 개발 영역에서 문서 속성, 파일 정보, 태그 등의 메타데이터 관리는 효율적인 데이터 구성 및 검색에 매우 중요합니다. .NET용 GroupDocs.Metadata는 다양한 파일 형식 내에서 메타데이터에 액세스하고 조작하기 위한 강력한 도구 키트를 제공합니다. 이 자습서에서는 GroupDocs.Metadata의 기능을 활용하여 .NET의 7Zip 아카이브에서 기본 메타데이터 속성을 읽는 데 중점을 둡니다. 
 ## 전제 조건

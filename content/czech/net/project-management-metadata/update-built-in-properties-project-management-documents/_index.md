@@ -6,6 +6,9 @@ description: Naučte se aktualizovat metadata v dokumentech pro řízení projek
 weight: 12
 url: /cs/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
+
+# Aktualizujte vestavěné vlastnosti v .NET Project Management Documents
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak aktualizovat vestavěné vlastnosti v dokumentech řízení projektů .NET pomocí GroupDocs.Metadata pro .NET. Tato knihovna umožňuje efektivní manipulaci s metadaty pro různé formáty souborů, včetně dokumentů pro správu projektů, jako jsou soubory Microsoft Project (MPP).
 ## Předpoklady

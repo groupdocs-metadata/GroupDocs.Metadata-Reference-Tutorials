@@ -6,6 +6,9 @@ description: Tìm hiểu cách quản lý siêu dữ liệu PDF dễ dàng với
 weight: 24
 url: /vi/net/pdf-metadata/
 ---
+
+# Siêu dữ liệu PDF
+
 ## Giới thiệu
 
  Mở khóa tiềm năng quản lý siêu dữ liệu PDF với[GroupDocs.Metadata cho .NET](https://www.groupdocs.com/products/metadata/net). Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, những hướng dẫn này đều cung cấp những hiểu biết sâu sắc vô giá về việc khai thác sức mạnh của thao tác siêu dữ liệu.

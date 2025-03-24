@@ -6,6 +6,9 @@ description: 使用 GroupDocs.Metadata for .NET 更新 MP3 文件中的 ID3V1 �
 weight: 19
 url: /zh/net/audio-metadata/update-id3v1-tag-mp3/
 ---
+
+# 使用 .NET 更新 MP3 文件中的 ID3V1 标签
+
 ## 介绍
 在本教程中，我们将学习如何使用 GroupDocs.Metadata for .NET 更新 MP3 文件中的 ID3V1 标签。此库允许您以编程方式操作各种文档格式的元数据。
 ## 先决条件

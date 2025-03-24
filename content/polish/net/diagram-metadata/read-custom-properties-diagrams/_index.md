@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyodrębnić niestandardowe właściwości z plik
 weight: 11
 url: /pl/net/diagram-metadata/read-custom-properties-diagrams/
 ---
+
+# Przeczytaj właściwości niestandardowe z diagramów w .NET
+
 ## Wstęp
 tym samouczku omówimy, jak używać GroupDocs.Metadata dla platformy .NET do wydajnego odczytywania niestandardowych właściwości z diagramów. GroupDocs.Metadata to potężny interfejs API, który umożliwia programistom pracę z metadanymi w różnych formatach dokumentów, w tym diagramami. Właściwości niestandardowe mogą zawierać cenne informacje osadzone w diagramach, a programowy dostęp do nich może usprawnić zadania przetwarzania dokumentów. Pod koniec tego przewodnika będziesz wyposażony w wiedzę umożliwiającą pobieranie niestandardowych właściwości z plików diagramów przy użyciu GroupDocs.Metadata dla platformy .NET.
 ## Warunki wstępne

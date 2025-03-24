@@ -6,6 +6,9 @@ description: GroupDocs.Metadata を使用すると、.NET でファイルのメ�
 weight: 20
 url: /ja/net/metadata-loading/
 ---
+
+# メタデータの読み込み
+
 ## 導入
 
 .NET アプリケーションのファイル操作機能を強化したいですか? メタデータの読み込みのさまざまな側面を網羅した GroupDocs.Metadata for .NET チュートリアルをご覧ください。ローカル ディスクからのメタデータの読み込みからパスワードで保護されたドキュメントの処理まで、すべてを網羅しています。

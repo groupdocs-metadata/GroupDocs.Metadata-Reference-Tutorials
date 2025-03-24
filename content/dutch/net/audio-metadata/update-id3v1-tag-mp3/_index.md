@@ -6,6 +6,9 @@ description: Update ID3V1-tags in MP3-bestanden met GroupDocs.Metadata voor .NET
 weight: 19
 url: /nl/net/audio-metadata/update-id3v1-tag-mp3/
 ---
+
+# Update ID3V1-tag in MP3-bestanden met .NET
+
 ## Invoering
 In deze zelfstudie leren we hoe u ID3V1-tags in MP3-bestanden kunt bijwerken met behulp van GroupDocs.Metadata voor .NET. Met deze bibliotheek kunt u metagegevens in verschillende documentformaten programmatisch manipuleren.
 ## Vereisten

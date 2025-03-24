@@ -6,6 +6,9 @@ description: Scopri come estrarre metadati nativi dai file WAV utilizzando Group
 weight: 23
 url: /it/net/audio-metadata/read-native-metadata-wav/
 ---
+
+# Leggi le proprietà dei metadati nativi dai file WAV in .NET
+
 ## introduzione
 In questo tutorial imparerai come utilizzare GroupDocs.Metadata per .NET per estrarre le proprietà dei metadati nativi dai file audio WAV. GroupDocs.Metadata per .NET è una potente libreria che consente agli sviluppatori di leggere, aggiornare e rimuovere metadati associati a vari formati di file, inclusi i file WAV.
 ## Prerequisiti

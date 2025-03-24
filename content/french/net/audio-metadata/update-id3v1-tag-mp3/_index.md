@@ -6,6 +6,9 @@ description: Mettez à jour les balises ID3V1 dans les fichiers MP3 à l'aide de
 weight: 19
 url: /fr/net/audio-metadata/update-id3v1-tag-mp3/
 ---
+
+# Mettre à jour la balise ID3V1 dans les fichiers MP3 à l'aide de .NET
+
 ## Introduction
 Dans ce didacticiel, nous apprendrons comment mettre à jour les balises ID3V1 dans les fichiers MP3 à l'aide de GroupDocs.Metadata pour .NET. Cette bibliothèque vous permet de manipuler par programmation des métadonnées dans différents formats de documents.
 ## Conditions préalables

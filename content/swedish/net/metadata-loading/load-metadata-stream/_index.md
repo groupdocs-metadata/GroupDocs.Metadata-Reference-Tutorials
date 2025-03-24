@@ -6,6 +6,9 @@ description: Lär dig hantera filmetadata i .NET med GroupDocs.Metadata. Steg-f�
 weight: 11
 url: /sv/net/metadata-loading/load-metadata-stream/
 ---
+
+# Laddar metadata från Stream i .NET Tutorial
+
 ## Introduktion
 den här handledningen kommer vi att utforska hur du använder GroupDocs.Metadata för .NET för att effektivt hantera metadata i dina .NET-applikationer. Metadata, såsom dokumentegenskaper, kan ge värdefull information om filer, inklusive detaljer som författare, datum för skapande och nyckelord. GroupDocs.Metadata förenklar processen att läsa, redigera och ta bort metadata från olika filformat i en .NET-miljö. Den här guiden kommer att fokusera på att ladda metadata från en ström, och demonstrera steg-för-steg-procedurer med praktiska exempel.
 ## Förutsättningar

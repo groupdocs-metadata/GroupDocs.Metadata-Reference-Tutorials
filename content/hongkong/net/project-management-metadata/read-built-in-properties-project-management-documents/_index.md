@@ -6,6 +6,9 @@ description: 了解使用 GroupDocs.Metadata for .NET 從專案管理文件中�
 weight: 10
 url: /zh-hant/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---
+
+# 閱讀 .NET 專案管理文件中的內建屬性
+
 ## 介紹
 在本教程中，我們將深入研究如何利用 GroupDocs.Metadata for .NET 從專案管理文件中高效提取內建屬性。該庫提供了強大的功能來管理各種文件格式（包括 Microsoft Project）的元數據，允許開發人員以程式設計方式存取關鍵文件詳細資訊。我們將逐步指導您完成整個過程，分解每個範例以確保清晰且易於實施。
 ## 先決條件

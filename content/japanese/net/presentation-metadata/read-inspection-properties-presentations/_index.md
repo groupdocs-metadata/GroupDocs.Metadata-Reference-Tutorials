@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用してプレゼンテーショ
 weight: 14
 url: /ja/net/presentation-metadata/read-inspection-properties-presentations/
 ---
+
+# .NET のプレゼンテーションから検査プロパティを読み取る
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を利用してプレゼンテーションからプロパティを読み取り、検査する方法を検討します。 GroupDocs.Metadata は、開発者がプレゼンテーション、PDF、画像などのドキュメント内に埋め込まれたメタデータを操作できるようにする強力な API です。特にプレゼンテーション (PPTX ファイル) に焦点を当て、コメントや非表示のスライドなどの情報を抽出する方法を示します。
 ## 前提条件

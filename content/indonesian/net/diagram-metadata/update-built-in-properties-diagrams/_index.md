@@ -6,6 +6,9 @@ description: Pelajari cara memperbarui properti bawaan dalam diagram menggunakan
 weight: 14
 url: /id/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
+
+# Perbarui Properti Bawaan dalam Diagram menggunakan .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memperbarui properti bawaan dalam diagram menggunakan GroupDocs.Metadata untuk .NET. Pustaka ini memungkinkan Anda memanipulasi metadata dalam berbagai format dokumen, termasuk diagram. Kami akan membahas prasyarat, namespace yang diperlukan, dan memberikan panduan langkah demi langkah dengan contoh kode untuk memperbarui properti ini secara efektif.
 

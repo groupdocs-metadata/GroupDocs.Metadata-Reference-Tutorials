@@ -6,6 +6,9 @@ description: 이 포괄적인 튜토리얼에서 .NET용 GroupDocs.Metadata를 �
 weight: 12
 url: /ko/net/metadata-loading/load-metadata-specific-format/
 ---
+
+# .NET의 특정 형식에서 메타데이터 로드
+
 ## 소개
 소프트웨어 개발 세계에서 메타데이터(다른 데이터에 대한 정보) 관리는 다양한 파일 형식을 효과적으로 구성, 이해 및 활용하는 데 중요합니다. 이 자습서에서는 .NET용 GroupDocs.Metadata를 사용하여 특정 파일 형식의 메타데이터를 처리하는 방법을 살펴보겠습니다. 문서 관리, 디지털 자산 관리 또는 데이터 분석과 관련된 애플리케이션을 구축하는 경우 메타데이터 조작을 이해하면 워크플로를 간소화할 수 있습니다.
 ## 전제 조건

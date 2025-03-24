@@ -6,6 +6,9 @@ description: Leer hoe u songteksttags uit MP3-bestanden kunt extraheren met Grou
 weight: 13
 url: /nl/net/audio-metadata/read-lyrics-tag-mp3/
 ---
+
+# Lees de songteksttag van mp3-bestanden in .NET
+
 ## Invoering
 In deze zelfstudie leren we hoe u songteksttags uit MP3-bestanden kunt extraheren en lezen met behulp van de GroupDocs.Metadata API in .NET. GroupDocs.Metadata is een krachtige bibliotheek waarmee ontwikkelaars kunnen werken met metadata die zijn gekoppeld aan verschillende bestandsformaten, waaronder MP3-bestanden. Door deze stappen te volgen, kunt u efficiënt songtekstgerelateerde informatie ophalen die is ingesloten in MP3-bestanden.
 ## Vereisten

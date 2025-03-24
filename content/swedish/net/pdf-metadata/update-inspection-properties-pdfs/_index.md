@@ -6,6 +6,9 @@ description: Lär dig hur du uppdaterar inspektionsegenskaper i PDF-dokument med
 weight: 17
 url: /sv/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
+
+# Uppdatera inspektionsegenskaper i PDF-filer med .NET
+
 ## Introduktion
 I den här handledningen kommer vi att utforska hur du uppdaterar inspektionsegenskaper i PDF-dokument med hjälp av GroupDocs.Metadata for .NET-biblioteket. Det här biblioteket tillåter oss att effektivt hantera metadata, kommentarer, bilagor och mer i PDF-filer.
 ## Förutsättningar

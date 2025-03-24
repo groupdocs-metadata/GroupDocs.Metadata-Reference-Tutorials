@@ -6,6 +6,9 @@ description: Bu kapsamlı eğitimde GroupDocs.Metadata for .NET kullanarak sunum
 weight: 10
 url: /tr/net/presentation-metadata/read-built-in-properties-presentations/
 ---
+
+# .NET'teki Sunumlardaki Yerleşik Özellikleri Okuyun
+
 ## giriiş
 .NET geliştirme alanında, sunumlar gibi çeşitli dosya formatlarından meta verileri yönetmek ve çıkarmak çok önemlidir. GroupDocs.Metadata for .NET, meta veri görevlerini verimli bir şekilde gerçekleştirmek için güçlü bir çözüm sunar. Bu eğitimde, GroupDocs.Metadata for .NET kullanılarak sunumlardaki yerleşik özelliklerin okunması ele alınacaktır. Sonunda, sunum dosyalarından temel meta verileri çıkarmak için bu kitaplıktan nasıl yararlanabileceğinizi net bir şekilde anlayacaksınız.
 ## Önkoşullar

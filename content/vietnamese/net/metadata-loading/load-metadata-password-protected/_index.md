@@ -6,6 +6,9 @@ description: Tìm hiểu cách quản lý siêu dữ liệu tài liệu một c�
 weight: 13
 url: /vi/net/metadata-loading/load-metadata-password-protected/
 ---
+
+# Cách tải siêu dữ liệu từ tài liệu được bảo vệ bằng mật khẩu trong .NET
+
 ## Giới thiệu
 Trong thế giới phát triển .NET, việc quản lý siêu dữ liệu trong tài liệu là rất quan trọng đối với nhiều ứng dụng khác nhau. GroupDocs.Metadata dành cho .NET cung cấp các công cụ mạnh mẽ để trích xuất, chỉnh sửa và quản lý siêu dữ liệu một cách đơn giản. Hướng dẫn này sẽ hướng dẫn bạn quy trình tải siêu dữ liệu từ các tài liệu được bảo vệ bằng mật khẩu bằng GroupDocs.Metadata.
 ##Điều kiện tiên quyết

@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用して PDF ドキュメント�
 weight: 14
 url: /ja/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
+
+# .NET で PDF から検査プロパティを読み取る
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を利用して PDF ドキュメントから検査プロパティをプログラムで抽出する方法を検討します。 GroupDocs.Metadata は、開発者が PDF を含むさまざまなファイル形式に埋め込まれたメタデータを操作できるようにする強力な .NET ライブラリです。このライブラリを利用すると、PDF ファイル内のさまざまなドキュメント プロパティ、注釈、添付ファイル、ブックマーク、デジタル署名、フィールドにアクセスして操作できます。
 ## 前提条件

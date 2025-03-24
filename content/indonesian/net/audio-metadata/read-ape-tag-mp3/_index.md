@@ -6,6 +6,9 @@ description: Pelajari cara membaca tag APE dari file MP3 menggunakan GroupDocs.M
 weight: 10
 url: /id/net/audio-metadata/read-ape-tag-mp3/
 ---
+
+# Baca Tag APE dari File MP3 di .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menggunakan GroupDocs.Metadata untuk .NET untuk membaca tag APE dari file MP3. Tag APE (Audio Monyet) adalah metadata yang disimpan dalam file MP3 yang berisi informasi tentang konten audio. GroupDocs.Metadata for .NET adalah API canggih yang memungkinkan pengembang bekerja dengan metadata dalam berbagai format file, termasuk file MP3.
 ## Prasyarat

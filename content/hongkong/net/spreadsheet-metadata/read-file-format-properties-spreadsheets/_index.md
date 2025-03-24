@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 讀取電子表格�
 weight: 12
 url: /zh-hant/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
+
+# 從 .NET 中的電子表格讀取檔案格式屬性
+
 ## 介紹
 在本教程中，我們將探討如何利用 GroupDocs.Metadata for .NET 從電子表格中有效地讀取檔案格式屬性。 GroupDocs.Metadata for .NET 是一個功能強大的 API，可讓開發人員提取、編輯和管理與其 .NET 應用程式中的各種檔案格式相關的元資料。我們將特別關注使用該庫檢索有關電子表格文件的基本資訊。
 ## 先決條件

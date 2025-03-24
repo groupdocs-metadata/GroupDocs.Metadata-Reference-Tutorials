@@ -7,6 +7,9 @@ weight: 22
 url: /pl/net/audio-metadata/
 ---
 
+# Metadane audio
+
+
 ## Samouczki dotyczące metadanych audio
 
 Czy jesteś zainteresowany opanowaniem manipulacji metadanymi audio w .NET? GroupDocs.Metadata dla .NET oferuje kompleksowe samouczki pomagające w obsłudze metadanych w plikach MP3 i WAV. Niezależnie od tego, czy wyodrębniasz, aktualizujesz czy usuwasz tagi, nasze szczegółowe przewodniki zawierają jasne informacje i praktyczne przykłady usprawniające proces programowania.

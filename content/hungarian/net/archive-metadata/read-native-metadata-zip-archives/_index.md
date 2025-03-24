@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan bonthat ki metaadatokat ZIP-archívumokból a G
 weight: 13
 url: /hu/net/archive-metadata/read-native-metadata-zip-archives/
 ---
+
+# Olvassa el a natív metaadat-tulajdonságokat a ZIP-archívumokból a .NET-ben
+
 ## Bevezetés
 A ZIP archívumokat általában a fájlok tömörítésére és kötegelésére használják. Amikor ZIP-fájlokkal dolgozik .NET-alkalmazásokban, gyakran ki kell bontani a metaadat-tulajdonságokat ezekből az archívumokból. Ebben az oktatóanyagban lépésről lépésre megvizsgáljuk, hogyan használhatja a GroupDocs.Metadata for .NET-et ZIP-fájlok natív metaadat-tulajdonságainak olvasásához.
 ## Előfeltételek

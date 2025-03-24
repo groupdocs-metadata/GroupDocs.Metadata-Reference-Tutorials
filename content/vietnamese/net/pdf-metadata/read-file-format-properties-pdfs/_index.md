@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất các thuộc tính định dạng t
 weight: 13
 url: /vi/net/pdf-metadata/read-file-format-properties-pdfs/
 ---
+
+# Đọc thuộc tính định dạng tệp từ tệp PDF trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách tận dụng GroupDocs.Metadata cho .NET để đọc các thuộc tính định dạng tệp từ tài liệu PDF. GroupDocs.Metadata for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với siêu dữ liệu được liên kết với các định dạng tệp khác nhau, cho phép quản lý và trích xuất hiệu quả các thuộc tính siêu dữ liệu. Cụ thể, chúng tôi sẽ tập trung vào việc trích xuất các thuộc tính cần thiết từ tệp PDF bằng các ví dụ mã đơn giản và hiệu quả.
 ## Điều kiện tiên quyết

@@ -6,6 +6,9 @@ description: Leer hoe u metagegevens in .NET-projectbeheerdocumenten kunt bijwer
 weight: 12
 url: /nl/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
+
+# Update ingebouwde eigenschappen in .NET Project Management-documenten
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u ingebouwde eigenschappen in .NET-projectbeheerdocumenten kunt bijwerken met behulp van GroupDocs.Metadata voor .NET. Deze bibliotheek maakt efficiënte manipulatie van metadata voor verschillende bestandsformaten mogelijk, inclusief projectmanagementdocumenten zoals Microsoft Project (MPP)-bestanden.
 ## Vereisten

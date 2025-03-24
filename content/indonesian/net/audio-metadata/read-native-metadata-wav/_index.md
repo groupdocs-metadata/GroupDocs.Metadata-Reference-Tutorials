@@ -6,6 +6,9 @@ description: Temukan cara mengekstrak metadata asli dari file WAV menggunakan Gr
 weight: 23
 url: /id/net/audio-metadata/read-native-metadata-wav/
 ---
+
+# Baca Properti Metadata Asli dari File WAV di .NET
+
 ## Perkenalan
 Dalam tutorial ini, Anda akan mempelajari cara memanfaatkan GroupDocs.Metadata untuk .NET untuk mengekstrak properti metadata asli dari file audio WAV. GroupDocs.Metadata untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang membaca, memperbarui, dan menghapus metadata yang terkait dengan berbagai format file, termasuk file WAV.
 ## Prasyarat

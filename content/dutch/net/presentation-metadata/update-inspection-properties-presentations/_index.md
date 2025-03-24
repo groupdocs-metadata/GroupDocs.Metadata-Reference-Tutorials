@@ -6,6 +6,9 @@ description: Leer hoe u inspectie-eigenschappen in presentaties kunt bijwerken m
 weight: 17
 url: /nl/net/presentation-metadata/update-inspection-properties-presentations/
 ---
+
+# Update inspectie-eigenschappen in presentaties met .NET
+
 ## Invoering
 Op het gebied van .NET-ontwikkeling is het beheren en manipuleren van metagegevens binnen presentaties een cruciaal aspect van gegevensverwerking en -organisatie. GroupDocs.Metadata voor .NET biedt ontwikkelaars een robuuste oplossing om metadata binnen verschillende bestandsformaten naadloos te verwerken. In deze zelfstudie wordt uitgelegd hoe u GroupDocs.Metadata kunt gebruiken om inspectie-eigenschappen specifiek voor presentaties (.PPTX-bestanden) bij te werken met behulp van C#.
 ## Vereisten

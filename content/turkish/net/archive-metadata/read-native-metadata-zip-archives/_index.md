@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak ZIP arşivlerinden meta ve
 weight: 13
 url: /tr/net/archive-metadata/read-native-metadata-zip-archives/
 ---
+
+# .NET'teki ZIP Arşivlerinden Yerel Meta Veri Özelliklerini Okuyun
+
 ## giriiş
 ZIP arşivleri genellikle dosyaları sıkıştırmak ve bir araya toplamak için kullanılır. .NET uygulamalarında ZIP dosyalarıyla çalışırken, genellikle bu arşivlerden meta veri özelliklerinin çıkarılması gerekir. Bu öğreticide, ZIP dosyalarından yerel meta veri özelliklerini adım adım okumak için GroupDocs.Metadata for .NET'in nasıl kullanılacağını keşfedeceğiz.
 ## Önkoşullar

@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 从 PDF 中提取自
 weight: 11
 url: /zh/net/pdf-metadata/read-custom-properties-pdfs/
 ---
+
+# 在 .NET 中从 PDF 读取自定义属性
+
 ## 介绍
 在 .NET 开发领域，管理文档中的元数据对于组织和提取有价值的信息至关重要。GroupDocs.Metadata for .NET 提供了强大的工具来从 PDF 中读取自定义属性，使开发人员能够高效地访问和利用文档元数据。本教程将指导您完成利用 GroupDocs.Metadata 使用 C# 从 PDF 文件中检索自定义属性的过程。
 ## 先决条件

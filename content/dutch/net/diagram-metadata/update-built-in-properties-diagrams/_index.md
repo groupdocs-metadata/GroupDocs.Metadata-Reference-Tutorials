@@ -6,6 +6,9 @@ description: Leer hoe u ingebouwde eigenschappen in diagrammen kunt bijwerken me
 weight: 14
 url: /nl/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
+
+# Update ingebouwde eigenschappen in diagrammen met .NET
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u ingebouwde eigenschappen in diagrammen kunt bijwerken met behulp van GroupDocs.Metadata voor .NET. Met deze bibliotheek kunt u metadata manipuleren binnen verschillende documentformaten, inclusief diagrammen. We behandelen de vereisten, de noodzakelijke naamruimten en bieden een stapsgewijze handleiding met codevoorbeelden om deze eigenschappen effectief bij te werken.
 

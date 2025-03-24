@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用してプロジェクト管理
 weight: 10
 url: /ja/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---
+
+# .NET プロジェクト管理ドキュメントの組み込みプロパティを読み取る
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を活用して、プロジェクト管理ドキュメントから組み込みプロパティを効率的に抽出する方法について詳しく説明します。このライブラリは、Microsoft Project を含むさまざまなファイル形式のメタデータを管理するための堅牢な機能を提供し、開発者がプログラムで重要なドキュメントの詳細にアクセスできるようにします。各例を分解してプロセスを段階的に説明し、実装が明確で簡単になるようにします。
 ## 前提条件

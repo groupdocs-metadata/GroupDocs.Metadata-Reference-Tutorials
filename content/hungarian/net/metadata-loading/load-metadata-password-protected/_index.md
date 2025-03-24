@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan kezelheti hatékonyan a dokumentumok metaadatai
 weight: 13
 url: /hu/net/metadata-loading/load-metadata-password-protected/
 ---
+
+# Metaadatok betöltése jelszóval védett dokumentumból a .NET-ben
+
 ## Bevezetés
 A .NET-fejlesztés világában a dokumentumokon belüli metaadatok kezelése kulcsfontosságú a különböző alkalmazások számára. A GroupDocs.Metadata for .NET hatékony eszközöket biztosít a metaadatok egyszerű kinyeréséhez, szerkesztéséhez és kezeléséhez. Ez az oktatóanyag végigvezeti a metaadatok betöltésének folyamatán a jelszóval védett dokumentumokból a GroupDocs.Metadata használatával.
 ##Előfeltételek

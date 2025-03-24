@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET Prüfeigensc
 weight: 14
 url: /de/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
+
+# Lesen Sie Inspektionseigenschaften aus PDFs in .NET
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie GroupDocs.Metadata für .NET nutzen können, um Prüfeigenschaften programmgesteuert aus PDF-Dokumenten zu extrahieren. GroupDocs.Metadata ist eine leistungsstarke .NET-Bibliothek, die es Entwicklern ermöglicht, mit Metadaten zu arbeiten, die in verschiedenen Dateiformaten, einschließlich PDFs, eingebettet sind. Durch die Nutzung dieser Bibliothek können Sie auf eine Vielzahl von Dokumenteigenschaften, Anmerkungen, Anhängen, Lesezeichen, digitalen Signaturen und Feldern in PDF-Dateien zugreifen und diese bearbeiten.
 ## Voraussetzungen

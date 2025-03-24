@@ -6,6 +6,9 @@ description: Découvrez comment supprimer les balises ID3V2 des fichiers MP3 à 
 weight: 17
 url: /fr/net/audio-metadata/remove-id3v2-tag-mp3/
 ---
+
+# Supprimer la balise ID3V2 des fichiers MP3 dans .NET
+
 ## Introduction
 Dans ce didacticiel, nous explorerons comment utiliser GroupDocs.Metadata pour .NET pour supprimer les balises ID3V2 des fichiers MP3. GroupDocs.Metadata est une bibliothèque puissante qui permet aux développeurs de travailler avec des métadonnées dans divers formats de documents et d'images, y compris des fichiers MP3. La suppression des balises ID3V2 des fichiers MP3 peut être utile pour les applications où ces balises ne sont pas nécessaires ou où seules des métadonnées spécifiques doivent être conservées.
 ## Conditions préalables

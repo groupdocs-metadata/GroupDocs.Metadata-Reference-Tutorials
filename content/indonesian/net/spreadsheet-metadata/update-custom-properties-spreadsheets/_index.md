@@ -6,6 +6,9 @@ description: Temukan cara memperbarui properti khusus di spreadsheet menggunakan
 weight: 15
 url: /id/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---
+
+# Perbarui Properti Kustom di Spreadsheet menggunakan .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memperbarui properti khusus di spreadsheet menggunakan pustaka GroupDocs.Metadata untuk .NET. Properti khusus dapat menyempurnakan metadata file spreadsheet Anda, memberikan konteks atau informasi tambahan yang tidak tercakup dalam properti standar.
 ## Prasyarat

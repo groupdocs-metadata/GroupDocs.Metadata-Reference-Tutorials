@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak elektronik tablolardan öz
 weight: 11
 url: /tr/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---
+
+# .NET'teki Elektronik Tablolardan Özel Özellikleri Okuyun
+
 ## giriiş
 Bu öğreticide, GroupDocs.Metadata for .NET'i kullanarak e-tablolardan özel özelliklerin nasıl çıkarılacağını inceleyeceğiz. GroupDocs.Metadata, geliştiricilerin elektronik tablolar da dahil olmak üzere çeşitli dosya formatlarındaki meta veri özelliklerini okumasına, düzenlemesine ve değiştirmesine olanak tanıyan güçlü bir kitaplıktır.
 ## Önkoşullar

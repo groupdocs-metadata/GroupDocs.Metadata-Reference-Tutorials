@@ -6,6 +6,9 @@ description: Naučte se aktualizovat uživatelské vlastnosti v diagramech pomoc
 weight: 15
 url: /cs/net/diagram-metadata/update-custom-properties-diagrams/
 ---
+
+# Aktualizujte uživatelské vlastnosti v diagramech pomocí .NET
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak aktualizovat uživatelské vlastnosti v diagramech pomocí .NET s pomocí GroupDocs.Metadata pro .NET. Uživatelské vlastnosti v diagramech mohou být zásadní pro přidávání metadat nebo dalších informací do vašich souborů, čímž se zlepšuje jejich použitelnost a organizace. GroupDocs.Metadata for .NET poskytuje robustní sadu nástrojů pro manipulaci a aktualizaci metadat v rámci různých formátů dokumentů, včetně diagramů.
 ## Předpoklady

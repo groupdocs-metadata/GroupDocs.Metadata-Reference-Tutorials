@@ -6,6 +6,9 @@ description: Lär dig hur du uppdaterar MP3-filers metadata, inklusive texter, a
 weight: 21
 url: /sv/net/audio-metadata/update-lyrics-tag-mp3/
 ---
+
+# Uppdatera Lyrics Tag i MP3-filer med .NET
+
 ## Introduktion
 den här handledningen kommer vi att visa hur du använder GroupDocs.Metadata for .NET-biblioteket för att uppdatera texttaggen i MP3-filer programmatiskt. Denna process involverar åtkomst till och modifiering av metadata för MP3-filer, specifikt inriktad på textinformationen.
 ## Förutsättningar

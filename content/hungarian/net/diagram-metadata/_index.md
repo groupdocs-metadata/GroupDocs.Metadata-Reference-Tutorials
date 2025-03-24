@@ -6,6 +6,9 @@ description: Fedezze fel az átfogó oktatóanyagokat a diagramok metaadatainak 
 weight: 23
 url: /hu/net/diagram-metadata/
 ---
+
+# Diagram metaadatok
+
 ## Bevezetés
 
 Ki szeretné használni a metaadat-manipuláció erejét diagramfájljaihoz .NET-ben? Merüljön el a GroupDocs.Metadata for .NET-hez készült oktatóanyag-sorozatunkban, amely egy robusztus könyvtár, amelyet a metaadat-kinyerési, -elemzési és -módosítási feladatok egyszerűsítésére terveztek. Akár tapasztalt fejlesztő, akár csak most kezdi a .NET-fejlesztési utat, ezek az oktatóanyagok lépésről lépésre nyújtanak útmutatást a metaadatok hatékony kihasználásához.

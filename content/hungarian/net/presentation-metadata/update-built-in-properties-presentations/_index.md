@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan frissítheti a prezentációk beépített tulaj
 weight: 15
 url: /hu/net/presentation-metadata/update-built-in-properties-presentations/
 ---
+
+# Frissítse a bemutatók beépített tulajdonságait .NET használatával
+
 ## Bevezetés
 Ebben az oktatóanyagban a GroupDocs.Metadata for .NET hatékony képességeit mutatjuk be. Ez egy átfogó könyvtár, amely a dokumentumokon belüli metaadatok .NET keretrendszer használatával történő manipulálására szolgál. Konkrétan a prezentációk beépített tulajdonságainak (.PPT és .PPTX fájlok) C# használatával programozott frissítésére összpontosítunk.
 ## Előfeltételek

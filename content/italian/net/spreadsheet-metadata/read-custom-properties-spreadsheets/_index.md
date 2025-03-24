@@ -6,6 +6,9 @@ description: Scopri come estrarre proprietà personalizzate dai fogli di calcolo
 weight: 11
 url: /it/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---
+
+# Leggere proprietà personalizzate dai fogli di calcolo in .NET
+
 ## introduzione
 In questo tutorial esploreremo come estrarre proprietà personalizzate dai fogli di calcolo utilizzando GroupDocs.Metadata per .NET. GroupDocs.Metadata è una potente libreria che consente agli sviluppatori di leggere, modificare e manipolare le proprietà dei metadati in vari formati di file, inclusi i fogli di calcolo.
 ## Prerequisiti

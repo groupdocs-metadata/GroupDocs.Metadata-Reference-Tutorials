@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak elektronik tablo dosya for
 weight: 12
 url: /tr/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
+
+# .NET'teki Elektronik Tablolardan Dosya Formatı Özelliklerini Okuyun
+
 ## giriiş
 Bu öğreticide, elektronik tablolardan dosya formatı özelliklerini verimli bir şekilde okumak için GroupDocs.Metadata for .NET'ten nasıl yararlanılacağını keşfedeceğiz. GroupDocs.Metadata for .NET, geliştiricilerin .NET uygulamaları içindeki çeşitli dosya formatlarıyla ilişkili meta verileri ayıklamasına, düzenlemesine ve yönetmesine olanak tanıyan güçlü bir API'dir. Bu kitaplığı kullanarak elektronik tablo dosyalarıyla ilgili temel bilgileri almaya özellikle odaklanacağız.
 ## Önkoşullar

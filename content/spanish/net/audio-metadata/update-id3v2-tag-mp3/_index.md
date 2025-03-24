@@ -6,6 +6,9 @@ description: Aprenda a actualizar etiquetas ID3V2 en archivos MP3 usando .NET co
 weight: 20
 url: /es/net/audio-metadata/update-id3v2-tag-mp3/
 ---
+
+# Actualice la etiqueta ID3V2 en archivos MP3 usando .NET
+
 ## Introducción
 En este tutorial, exploraremos cómo actualizar etiquetas ID3V2 en archivos MP3 usando la biblioteca GroupDocs.Metadata para .NET. GroupDocs.Metadata es una potente API que permite a los desarrolladores trabajar con metadatos en varios formatos de archivo, incluido MP3. Este tutorial lo guiará a través del proceso de modificación de etiquetas ID3V2 paso a paso.
 ## Requisitos previos

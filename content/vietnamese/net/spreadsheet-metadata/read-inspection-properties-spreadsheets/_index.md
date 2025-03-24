@@ -6,6 +6,9 @@ description: Tìm hiểu cách đọc thuộc tính kiểm tra từ bảng tính
 weight: 13
 url: /vi/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---
+
+# Đọc thuộc tính kiểm tra từ bảng tính trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng GroupDocs.Metadata cho .NET để kiểm tra các thuộc tính từ bảng tính. GroupDocs.Metadata cho .NET là một thư viện mạnh mẽ cho phép các nhà phát triển đọc, chỉnh sửa và xóa siêu dữ liệu được liên kết với các định dạng tệp khác nhau, bao gồm cả bảng tính. Hướng dẫn này tập trung cụ thể vào việc đọc các thuộc tính kiểm tra từ các tệp bảng tính bằng C#.
 ## Điều kiện tiên quyết

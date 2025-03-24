@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 .NET 프로젝트 관리
 weight: 12
 url: /ko/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
+
+# .NET 프로젝트 관리 문서의 기본 제공 속성 업데이트
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Metadata를 사용하여 .NET 프로젝트 관리 문서 내의 기본 제공 속성을 업데이트하는 방법을 살펴보겠습니다. 이 라이브러리를 사용하면 Microsoft Project(MPP) 파일과 같은 프로젝트 관리 문서를 포함하여 다양한 파일 형식에 대한 메타데이터를 효율적으로 조작할 수 있습니다.
 ## 전제 조건

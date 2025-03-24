@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 從 MP3 檔案中刪
 weight: 18
 url: /zh-hant/net/audio-metadata/remove-lyrics-tag-mp3/
 ---
+
+# 從 .NET 中的 MP3 檔案中刪除歌詞標籤
+
 ## 介紹
 在本教學中，我們將探討如何使用 GroupDocs.Metadata for .NET 從 MP3 檔案中刪除歌詞標籤。 GroupDocs.Metadata 是一個功能強大的 API，可讓開發人員處理各種檔案格式（包括 MP3 檔案）的元資料。透過遵循本指南中概述的步驟，您將能夠有效地操作 .NET 應用程式中的元資料。
 ## 先決條件

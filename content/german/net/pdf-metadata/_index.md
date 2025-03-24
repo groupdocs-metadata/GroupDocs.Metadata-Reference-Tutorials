@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie PDF-Metadaten mühelos mit GroupDocs.Metadata
 weight: 24
 url: /de/net/pdf-metadata/
 ---
+
+# PDF-Metadaten
+
 ## Einführung
 
  Schöpfen Sie das Potenzial der PDF-Metadatenverwaltung mit[GroupDocs.Metadata für .NET](https://www.groupdocs.com/products/metadata/net). Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, diese Tutorials bieten wertvolle Einblicke in die Nutzung der Leistungsfähigkeit der Metadatenmanipulation.

@@ -6,6 +6,9 @@ description: .NET ट्यूटोरियल के लिए GroupDocs.Meta
 weight: 24
 url: /hi/net/pdf-metadata/
 ---
+
+# पीडीएफ मेटाडेटा
+
 ## परिचय
 
  PDF मेटाडेटा प्रबंधन की क्षमता को अनलॉक करें[.NET के लिए GroupDocs.Metadata](https://www.groupdocs.com/products/metadata/net)चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, ये ट्यूटोरियल मेटाडेटा हेरफेर की शक्ति का उपयोग करने में अमूल्य अंतर्दृष्टि प्रदान करते हैं।

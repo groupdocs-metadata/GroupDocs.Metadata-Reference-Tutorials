@@ -6,6 +6,9 @@ description: Pelajari cara mengekstrak metadata dari spreadsheet di .NET menggun
 weight: 10
 url: /id/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
 ---
+
+# Baca Properti Bawaan dari Spreadsheet di .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memanfaatkan GroupDocs.Metadata untuk .NET untuk mengelola dan mengekstrak metadata dari spreadsheet secara efisien. GroupDocs.Metadata for .NET adalah API canggih yang memungkinkan pengembang bekerja dengan metadata yang tertanam dalam berbagai format file, termasuk spreadsheet, presentasi, dokumen, gambar, dan banyak lagi. Panduan ini berfokus secara khusus pada mengekstraksi properti bawaan dari file spreadsheet menggunakan C#.
 ## Prasyarat

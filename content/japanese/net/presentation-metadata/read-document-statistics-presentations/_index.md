@@ -6,6 +6,9 @@ description: メタデータを効率的に管理するために、GroupDocs.Met
 weight: 12
 url: /ja/net/presentation-metadata/read-document-statistics-presentations/
 ---
+
+# .NET のプレゼンテーションからドキュメント統計を読み取る
+
 ## 導入
 .NET 開発の分野では、プレゼンテーション、スプレッドシート、その他のファイル形式を扱うアプリケーションにとって、ドキュメント メタデータを効率的に管理することが非常に重要です。GroupDocs.Metadata for .NET は、さまざまなファイル タイプからメタデータにアクセスし、編集し、抽出するための堅牢なソリューションを提供します。このチュートリアルでは、GroupDocs.Metadata for .NET を使用して、特にプレゼンテーションからドキュメント統計を読み取る方法について説明します。
 ## 前提条件

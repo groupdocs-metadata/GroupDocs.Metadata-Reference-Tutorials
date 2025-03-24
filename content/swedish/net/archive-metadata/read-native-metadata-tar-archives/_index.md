@@ -6,6 +6,9 @@ description: Lär dig hur du extraherar metadata från TAR-arkiv i .NET med hjä
 weight: 12
 url: /sv/net/archive-metadata/read-native-metadata-tar-archives/
 ---
+
+# Läs Native Metadata Properties från TAR Archives i .NET
+
 ## Introduktion
 Inom området mjukvaruutveckling och datahantering är åtkomst och manipulering av metadata en avgörande uppgift. Metadata, som tillhandahåller viktig information om annan data, ger utvecklare möjlighet att förstå, organisera och bearbeta filer effektivt. Denna handledning fördjupar sig i att utnyttja GroupDocs.Metadata för .NET för att läsa inbyggda metadataegenskaper från TAR-arkiv. Vi kommer att utforska steg-för-steg hur du integrerar detta kraftfulla bibliotek i dina .NET-projekt för att hantera TAR-arkivmetadata effektivt.
 ## Förutsättningar

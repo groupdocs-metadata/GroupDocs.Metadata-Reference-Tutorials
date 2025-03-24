@@ -6,6 +6,9 @@ description: Tanulja meg, hogyan olvashat APE-címkéket MP3-fájlokból a Group
 weight: 10
 url: /hu/net/audio-metadata/read-ape-tag-mp3/
 ---
+
+# Olvassa el az APE-címkét az MP3-fájlokból a .NET-ben
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használható a GroupDocs.Metadata for .NET APE-címkék olvasásához MP3-fájlokból. Az APE (Monkey's Audio) címkék olyan MP3-fájlokban tárolt metaadatok, amelyek az audiotartalommal kapcsolatos információkat tartalmaznak. A GroupDocs.Metadata for .NET egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy különböző fájlformátumú metaadatokkal dolgozzanak, beleértve az MP3 fájlokat is.
 ## Előfeltételek

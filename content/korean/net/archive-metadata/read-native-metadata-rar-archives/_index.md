@@ -6,6 +6,9 @@ description: C#에서 .NET용 GroupDocs.Metadata를 사용하여 RAR 아카이�
 weight: 10
 url: /ko/net/archive-metadata/read-native-metadata-rar-archives/
 ---
+
+# .NET의 RAR 아카이브에서 기본 메타데이터 속성 읽기
+
 ## 소개
 RAR(Roshal Archive)은 데이터 압축 및 보관에 사용되는 널리 사용되는 파일 형식입니다. .NET 애플리케이션에서 RAR 파일로 작업할 때 이러한 아카이브에 포함된 메타데이터 속성을 읽고 추출해야 하는 경우가 많습니다. 이 자습서에서는 .NET용 GroupDocs.Metadata를 활용하여 RAR 아카이브에서 기본 메타데이터 속성에 액세스하고 추출하는 과정을 안내합니다.
 ## 전제 조건

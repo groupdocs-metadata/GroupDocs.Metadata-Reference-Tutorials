@@ -6,6 +6,9 @@ description: Leer hoe u moeiteloos PDF-metadata kunt beheren met GroupDocs.Metad
 weight: 24
 url: /nl/net/pdf-metadata/
 ---
+
+# PDF-metagegevens
+
 ## Invoering
 
  Ontgrendel het potentieel van PDF-metagegevensbeheer met[GroupDocs.Metadata voor .NET](https://www.groupdocs.com/products/metadata/net). Of je nu een doorgewinterde ontwikkelaar bent of net begint, deze tutorials bieden waardevolle inzichten in het benutten van de kracht van metadatamanipulatie.

@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用してスプレッドシート
 weight: 13
 url: /ja/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---
+
+# .NET のスプレッドシートから検査プロパティを読み取る
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を使用してスプレッドシートのプロパティを検査する方法について説明します。GroupDocs.Metadata for .NET は、開発者がスプレッドシートを含むさまざまなファイル形式に関連付けられたメタデータを読み取り、編集、削除できるようにする強力なライブラリです。このチュートリアルでは、C# を使用してスプレッドシート ファイルから検査プロパティを読み取ることに特に焦点を当てています。
 ## 前提条件

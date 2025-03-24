@@ -7,6 +7,9 @@ weight: 22
 url: /sv/net/audio-metadata/
 ---
 
+# Ljudmetadata
+
+
 ## Självstudier för metadata för ljud
 
 Är du intresserad av att bemästra ljudmetadatamanipulation i .NET? GroupDocs.Metadata för .NET erbjuder omfattande handledningar som hjälper dig att hantera metadata i MP3- och WAV-filer. Oavsett om du extraherar, uppdaterar eller tar bort taggar ger våra steg-för-steg-guider tydliga insikter och praktiska exempel för att effektivisera din utvecklingsprocess.

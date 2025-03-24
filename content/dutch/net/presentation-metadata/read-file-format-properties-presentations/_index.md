@@ -6,6 +6,9 @@ description: Leer hoe u de eigenschappen van presentatiebestanden in .NET kunt l
 weight: 13
 url: /nl/net/presentation-metadata/read-file-format-properties-presentations/
 ---
+
+# Lees bestandsformaateigenschappen uit presentaties in .NET
+
 ## Invoering
 In de wereld van .NET-ontwikkeling is het beheren van metadata binnen bestanden cruciaal voor verschillende toepassingen. GroupDocs.Metadata voor .NET biedt krachtige tools voor een efficiënte interactie met metadata in bestanden. Deze zelfstudie leidt u door het proces van het lezen van bestandsindelingseigenschappen uit presentaties met behulp van GroupDocs.Metadata voor .NET.
 ## Vereisten

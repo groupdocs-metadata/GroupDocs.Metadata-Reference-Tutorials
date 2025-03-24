@@ -6,6 +6,9 @@ description: Naučte se aktualizovat vestavěné vlastnosti v prezentacích pomo
 weight: 15
 url: /cs/net/presentation-metadata/update-built-in-properties-presentations/
 ---
+
+# Aktualizujte vestavěné vlastnosti v prezentacích pomocí .NET
+
 ## Úvod
 tomto tutoriálu se ponoříme do výkonných možností GroupDocs.Metadata for .NET, komplexní knihovny navržené pro manipulaci s metadaty v dokumentech pomocí rozhraní .NET. Konkrétně se zaměříme na aktualizaci vestavěných vlastností v prezentacích (soubory .PPT a .PPTX) programově pomocí C#.
 ## Předpoklady

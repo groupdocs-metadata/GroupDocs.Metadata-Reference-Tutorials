@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用してスプレッドシート
 weight: 11
 url: /ja/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---
+
+# .NET のスプレッドシートからカスタム プロパティを読み取る
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を使用してスプレッドシートからカスタム プロパティを抽出する方法について説明します。GroupDocs.Metadata は、開発者がスプレッドシートを含むさまざまなファイル形式のメタデータ プロパティを読み取り、編集、操作できるようにする強力なライブラリです。
 ## 前提条件

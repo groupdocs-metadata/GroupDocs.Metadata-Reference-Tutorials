@@ -6,6 +6,9 @@ description: Pelajari cara memperbarui metadata dalam dokumen manajemen proyek .
 weight: 12
 url: /id/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
+
+# Perbarui Properti Bawaan di Dokumen Manajemen Proyek .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memperbarui properti bawaan dalam dokumen manajemen proyek .NET menggunakan GroupDocs.Metadata untuk .NET. Pustaka ini memungkinkan manipulasi metadata yang efisien untuk berbagai format file, termasuk dokumen manajemen proyek seperti file Microsoft Project (MPP).
 ## Prasyarat

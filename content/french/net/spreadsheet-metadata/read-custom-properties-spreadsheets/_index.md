@@ -6,6 +6,9 @@ description: Découvrez comment extraire des propriétés personnalisées de feu
 weight: 11
 url: /fr/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---
+
+# Lire les propriétés personnalisées à partir de feuilles de calcul dans .NET
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment extraire des propriétés personnalisées de feuilles de calcul à l'aide de GroupDocs.Metadata pour .NET. GroupDocs.Metadata est une bibliothèque puissante qui permet aux développeurs de lire, modifier et manipuler les propriétés des métadonnées dans divers formats de fichiers, y compris des feuilles de calcul.
 ## Conditions préalables

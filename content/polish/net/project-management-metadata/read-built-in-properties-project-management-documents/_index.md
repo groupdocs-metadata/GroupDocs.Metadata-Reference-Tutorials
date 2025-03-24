@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyodrębniać metadane z dokumentów zarządzania
 weight: 10
 url: /pl/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---
+
+# Przeczytaj właściwości wbudowane w dokumentach zarządzania projektami .NET
+
 ## Wstęp
 tym samouczku omówimy wykorzystanie GroupDocs.Metadata dla platformy .NET w celu wydajnego wyodrębniania wbudowanych właściwości z dokumentów zarządzania projektami. Ta biblioteka zapewnia solidną funkcjonalność do zarządzania metadanymi w różnych formatach plików, w tym w programie Microsoft Project, umożliwiając programistom programowy dostęp do kluczowych szczegółów dokumentu. Poprowadzimy Cię przez proces krok po kroku, omawiając każdy przykład, aby zapewnić przejrzystość i łatwość wdrożenia.
 ## Warunki wstępne

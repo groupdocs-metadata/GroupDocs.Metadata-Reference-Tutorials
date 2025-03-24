@@ -6,6 +6,9 @@ description: Leer hoe u inspectie-eigenschappen uit spreadsheets kunt lezen met 
 weight: 13
 url: /nl/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---
+
+# Lees inspectie-eigenschappen van spreadsheets in .NET
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u GroupDocs.Metadata voor .NET kunt gebruiken om eigenschappen uit spreadsheets te inspecteren. GroupDocs.Metadata voor .NET is een krachtige bibliotheek waarmee ontwikkelaars metagegevens kunnen lezen, bewerken en verwijderen die zijn gekoppeld aan verschillende bestandsindelingen, waaronder spreadsheets. Deze tutorial richt zich specifiek op het lezen van inspectie-eigenschappen uit spreadsheetbestanden met behulp van C#.
 ## Vereisten

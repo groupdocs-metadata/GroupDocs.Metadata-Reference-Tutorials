@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 從 ZIP 檔案中提
 weight: 13
 url: /zh-hant/net/archive-metadata/read-native-metadata-zip-archives/
 ---
+
+# 從 .NET 中的 ZIP 檔案讀取本機元資料屬性
+
 ## 介紹
 ZIP 檔案通常用於將檔案壓縮和捆綁在一起。在 .NET 應用程式中使用 ZIP 檔案時，通常需要從這些檔案中提取元資料屬性。在本教學中，我們將逐步探索如何使用 GroupDocs.Metadata for .NET 從 ZIP 檔案中讀取本機元資料屬性。
 ## 先決條件

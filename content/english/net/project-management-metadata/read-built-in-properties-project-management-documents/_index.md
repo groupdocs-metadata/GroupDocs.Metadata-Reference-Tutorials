@@ -6,6 +6,9 @@ description: Learn to extract metadata from Project Management documents using G
 weight: 10
 url: /net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---
+
+# Read Built-In Properties in .NET Project Management Documents
+
 ## Introduction
 In this tutorial, we will delve into leveraging GroupDocs.Metadata for .NET to efficiently extract built-in properties from Project Management documents. This library provides robust functionality for managing metadata in various file formats, including Microsoft Project, allowing developers to access key document details programmatically. We will guide you through the process step-by-step, breaking down each example to ensure clarity and ease of implementation.
 ## Prerequisites

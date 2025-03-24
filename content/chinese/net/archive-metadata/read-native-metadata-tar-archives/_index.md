@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata 从 .NET 中的 TAR 存档中
 weight: 12
 url: /zh/net/archive-metadata/read-native-metadata-tar-archives/
 ---
+
+# 从 .NET 中的 TAR 存档读取本机元数据属性
+
 ## 介绍
 在软件开发和数据管理领域，访问和操作元数据是一项至关重要的任务。元数据提供了有关其他数据的基本信息，使开发人员能够有效地理解、组织和处理文件。本教程深入研究了如何利用 GroupDocs.Metadata for .NET 从 TAR 档案中读取本机元数据属性。我们将逐步探索如何将这个强大的库集成到您的 .NET 项目中，以有效地处理 TAR 档案元数据。
 ## 先决条件

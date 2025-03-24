@@ -6,6 +6,9 @@ description: GroupDocs.Metadata を使用して .NET でプレゼンテーショ
 weight: 13
 url: /ja/net/presentation-metadata/read-file-format-properties-presentations/
 ---
+
+# .NET のプレゼンテーションからファイル形式のプロパティを読み取る
+
 ## 導入
 .NET 開発の世界では、ファイル内のメタデータを管理することがさまざまなアプリケーションにとって重要です。 GroupDocs.Metadata for .NET は、ファイル内のメタデータを効率的に操作するための強力なツールを提供します。このチュートリアルでは、GroupDocs.Metadata for .NET を使用してプレゼンテーションからファイル形式プロパティを読み取るプロセスについて説明します。
 ## 前提条件

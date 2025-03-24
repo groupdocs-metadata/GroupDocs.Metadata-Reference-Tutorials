@@ -6,6 +6,9 @@ description: Leer hoe u aangepaste eigenschappen in .NET-projectbeheerdocumenten
 weight: 13
 url: /nl/net/project-management-metadata/update-custom-properties-project-management-documents/
 ---
+
+# Aangepaste eigenschappen bijwerken in .NET Project Management-documenten
+
 ## Invoering
 Op het gebied van .NET-ontwikkeling is het efficiënt beheren van metagegevens van documenten cruciaal voor verschillende toepassingen. GroupDocs.Metadata voor .NET biedt een robuuste oplossing voor interactie met metadata in verschillende bestandsformaten, inclusief projectmanagementdocumenten zoals Microsoft Project (MPP)-bestanden. Deze zelfstudie leidt u door het proces van het bijwerken van aangepaste eigenschappen binnen .NET-projectbeheerdocumenten met behulp van GroupDocs.Metadata.
 ## Vereisten

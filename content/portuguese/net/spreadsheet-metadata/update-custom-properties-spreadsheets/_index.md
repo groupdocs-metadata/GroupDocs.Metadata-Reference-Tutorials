@@ -6,6 +6,9 @@ description: Descubra como atualizar propriedades personalizadas em planilhas us
 weight: 15
 url: /pt/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---
+
+# Atualizar propriedades personalizadas em planilhas usando .NET
+
 ## Introdução
 Neste tutorial, exploraremos como atualizar propriedades personalizadas em planilhas usando a biblioteca GroupDocs.Metadata for .NET. As propriedades personalizadas podem aprimorar os metadados dos arquivos de planilha, fornecendo contexto ou informações adicionais que não são cobertas pelas propriedades padrão.
 ## Pré-requisitos

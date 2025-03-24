@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET を使用して図の組み込みプロ
 weight: 14
 url: /ja/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
+
+# .NET を使用して図の組み込みプロパティを更新する
+
 ## 導入
 このチュートリアルでは、GroupDocs.Metadata for .NET を使用してダイアグラムの組み込みプロパティを更新する方法について説明します。このライブラリを使用すると、ダイアグラムを含むさまざまなドキュメント形式内のメタデータを操作できます。前提条件、必要な名前空間について説明し、これらのプロパティを効果的に更新するためのコード例を含むステップバイステップのガイドを提供します。
 

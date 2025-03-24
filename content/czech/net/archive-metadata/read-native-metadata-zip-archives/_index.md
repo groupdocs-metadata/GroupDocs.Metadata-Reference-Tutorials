@@ -6,6 +6,9 @@ description: Naučte se extrahovat metadata z archivů ZIP pomocí GroupDocs.Met
 weight: 13
 url: /cs/net/archive-metadata/read-native-metadata-zip-archives/
 ---
+
+# Přečtěte si vlastnosti nativních metadat z archivů ZIP v .NET
+
 ## Úvod
 Archivy ZIP se běžně používají ke kompresi a sdružování souborů dohromady. Při práci se soubory ZIP v aplikacích .NET je často nutné extrahovat vlastnosti metadat z těchto archivů. V tomto tutoriálu prozkoumáme, jak používat GroupDocs.Metadata pro .NET ke čtení vlastností nativních metadat ze souborů ZIP krok za krokem.
 ## Předpoklady

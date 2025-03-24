@@ -6,6 +6,9 @@ description: Leer hoe u metagegevenseigenschappen uit RAR-archieven kunt extrahe
 weight: 10
 url: /nl/net/archive-metadata/read-native-metadata-rar-archives/
 ---
+
+# Lees Native Metadata-eigenschappen uit RAR-archieven in .NET
+
 ## Invoering
 RAR (Roshal Archive) is een populair bestandsformaat dat wordt gebruikt voor datacompressie en archivering. Wanneer u met RAR-bestanden in .NET-toepassingen werkt, is het vaak nodig om de metadata-eigenschappen die in deze archieven zijn ingebed, te lezen en te extraheren. Deze tutorial leidt u door het proces van het gebruik van GroupDocs.Metadata voor .NET voor het openen en extraheren van native metadata-eigenschappen uit RAR-archieven.
 ## Vereisten

@@ -6,6 +6,9 @@ description: C# dilinde GroupDocs.Metadata for .NET kullanarak RAR arşivlerinde
 weight: 10
 url: /tr/net/archive-metadata/read-native-metadata-rar-archives/
 ---
+
+# .NET'teki RAR Arşivlerinden Yerel Meta Veri Özelliklerini Okuyun
+
 ## giriiş
 RAR (Roshal Arşivi), veri sıkıştırma ve arşivleme için kullanılan popüler bir dosya formatıdır. .NET uygulamalarında RAR dosyalarıyla çalışırken, genellikle bu arşivlere gömülü meta veri özelliklerini okumak ve çıkarmak gerekir. Bu eğitim, RAR arşivlerinden yerel meta veri özelliklerine erişmek ve bunları çıkarmak için GroupDocs.Metadata for .NET'i kullanma sürecinde size rehberlik edecektir.
 ## Önkoşullar

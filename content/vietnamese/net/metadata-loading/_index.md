@@ -6,6 +6,9 @@ description: Dễ dàng quản lý siêu dữ liệu tệp trong .NET với Grou
 weight: 20
 url: /vi/net/metadata-loading/
 ---
+
+# Đang tải siêu dữ liệu
+
 ## Giới thiệu
 
 Bạn đang tìm cách nâng cao khả năng thao tác tệp của ứng dụng .NET? Đi sâu vào các hướng dẫn GroupDocs.Metadata để biết .NET bao gồm các khía cạnh khác nhau của việc tải siêu dữ liệu. Từ tải siêu dữ liệu từ ổ đĩa cục bộ đến xử lý tài liệu được bảo vệ bằng mật khẩu, chúng tôi đều hỗ trợ bạn.

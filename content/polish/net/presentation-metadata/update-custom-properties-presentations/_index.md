@@ -6,6 +6,9 @@ description: Dowiedz się, jak zarządzać metadanymi prezentacji za pomocą Gro
 weight: 16
 url: /pl/net/presentation-metadata/update-custom-properties-presentations/
 ---
+
+# Zaktualizuj właściwości niestandardowe w prezentacjach przy użyciu platformy .NET
+
 ## Wstęp
 W tym samouczku omówimy, jak wykorzystać GroupDocs.Metadata dla platformy .NET do aktualizowania niestandardowych właściwości w prezentacjach. GroupDocs.Metadata to potężny interfejs API, który umożliwia programistom programowe manipulowanie metadanymi w różnych formatach plików. W szczególności skupimy się na prezentacjach (takich jak pliki programu PowerPoint) i pokażemy, jak dodawać lub modyfikować właściwości niestandardowe za pomocą języka C#.
 ## Warunki wstępne

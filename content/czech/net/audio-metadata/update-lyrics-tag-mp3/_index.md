@@ -6,6 +6,9 @@ description: Naučte se programově aktualizovat metadata souborů MP3, včetně
 weight: 21
 url: /cs/net/audio-metadata/update-lyrics-tag-mp3/
 ---
+
+# Aktualizujte značku textů v souborech MP3 pomocí .NET
+
 ## Úvod
 tomto tutoriálu si ukážeme, jak pomocí knihovny GroupDocs.Metadata for .NET programově aktualizovat tag texty v souborech MP3. Tento proces zahrnuje přístup a úpravu metadat souborů MP3, konkrétně cílení na informace o textech.
 ## Předpoklady

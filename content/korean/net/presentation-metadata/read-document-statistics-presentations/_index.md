@@ -6,6 +6,9 @@ description: 효율적인 메타데이터 관리를 위해 GroupDocs.Metadata를
 weight: 12
 url: /ko/net/presentation-metadata/read-document-statistics-presentations/
 ---
+
+# .NET 프레젠테이션에서 문서 통계 읽기
+
 ## 소개
 .NET 개발 영역에서 문서 메타데이터를 효율적으로 관리하는 것은 프레젠테이션, 스프레드시트 및 기타 파일 형식을 다루는 애플리케이션에 매우 중요합니다. .NET용 GroupDocs.Metadata는 다양한 파일 형식의 메타데이터에 액세스하고, 편집하고, 추출하기 위한 강력한 솔루션을 제공합니다. 이 자습서에서는 특히 .NET용 GroupDocs.Metadata를 사용하여 프레젠테이션에서 문서 통계를 읽는 방법을 안내합니다.
 ## 전제 조건

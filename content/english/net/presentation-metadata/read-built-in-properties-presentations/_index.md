@@ -6,6 +6,9 @@ description: Learn how to extract built-in properties from presentations using G
 weight: 10
 url: /net/presentation-metadata/read-built-in-properties-presentations/
 ---
+
+# Read Built-In Properties from Presentations in .NET
+
 ## Introduction
 In the realm of .NET development, managing and extracting metadata from various file formats like presentations is crucial. GroupDocs.Metadata for .NET offers a powerful solution to handle metadata tasks efficiently. This tutorial will delve into reading built-in properties from presentations using GroupDocs.Metadata for .NET. By the end, you'll have a clear understanding of how to leverage this library for extracting essential metadata from presentation files.
 ## Prerequisites

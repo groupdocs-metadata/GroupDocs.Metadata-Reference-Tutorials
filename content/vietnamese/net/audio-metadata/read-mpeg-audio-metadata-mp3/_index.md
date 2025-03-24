@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất siêu dữ liệu âm thanh MPEG t�
 weight: 14
 url: /vi/net/audio-metadata/read-mpeg-audio-metadata-mp3/
 ---
+
+# Đọc siêu dữ liệu âm thanh MPEG từ tệp MP3 trong .NET
+
 ## Giới thiệu
 Trong thế giới phát triển .NET, việc quản lý siêu dữ liệu trong các tệp là điều cần thiết cho nhiều ứng dụng khác nhau. GroupDocs.Metadata cho .NET cung cấp các công cụ mạnh mẽ để đọc, chỉnh sửa và thao tác siêu dữ liệu trên các định dạng tệp khác nhau. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc tận dụng khả năng này đặc biệt cho các tệp âm thanh MPEG (MP3) trong .NET. Đến cuối hướng dẫn này, bạn sẽ được trang bị để trích xuất hiệu quả siêu dữ liệu âm thanh MPEG từ các tệp MP3 bằng GroupDocs.Metadata.
 ## Điều kiện tiên quyết

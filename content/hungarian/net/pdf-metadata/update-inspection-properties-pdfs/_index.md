@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan frissítheti az ellenőrzési tulajdonságokat 
 weight: 17
 url: /hu/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
+
+# Frissítse a vizsgálati tulajdonságokat a PDF-fájlokban .NET használatával
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet frissíteni a PDF-dokumentumok ellenőrzési tulajdonságait a GroupDocs.Metadata for .NET könyvtár használatával. Ez a könyvtár lehetővé teszi a metaadatok, megjegyzések, mellékletek és egyebek hatékony kezelését a PDF-fájlokon belül.
 ## Előfeltételek

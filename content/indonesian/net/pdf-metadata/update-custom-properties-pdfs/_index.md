@@ -6,6 +6,9 @@ description: Pelajari cara memperbarui properti khusus dalam file PDF menggunaka
 weight: 16
 url: /id/net/pdf-metadata/update-custom-properties-pdfs/
 ---
+
+# Perbarui Properti Kustom dalam PDF menggunakan .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memperbarui properti khusus dalam file PDF menggunakan .NET dengan GroupDocs.Metadata. Properti khusus memungkinkan Anda menambahkan metadata tambahan ke dokumen PDF Anda, yang dapat berguna untuk kategorisasi, kemudahan pencarian, dan pengambilan informasi. GroupDocs.Metadata adalah API canggih yang memungkinkan pengembang bekerja dengan metadata dalam berbagai format file, termasuk PDF, menggunakan kerangka .NET.
 ## Prasyarat

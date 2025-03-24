@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan bonthatja ki a PDF-fájlformátum tulajdonsága
 weight: 13
 url: /hu/net/pdf-metadata/read-file-format-properties-pdfs/
 ---
+
+# Olvassa el a Fájlformátum tulajdonságait a .NET-ben található PDF-fájlokból
+
 ## Bevezetés
 Ebben az oktatóanyagban azt fogjuk megvizsgálni, hogyan használhatjuk fel a GroupDocs.Metadata for .NET-et a fájlformátum-tulajdonságok PDF-dokumentumokból történő olvasásához. A GroupDocs.Metadata for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy különféle fájlformátumokhoz társított metaadatokkal dolgozzanak, lehetővé téve a metaadat-attribútumok hatékony kezelését és kinyerését. Konkrétan arra fogunk összpontosítani, hogy egyszerű és hatékony kódpéldák segítségével kinyerjük az alapvető tulajdonságokat a PDF-fájlokból.
 ## Előfeltételek

@@ -6,6 +6,9 @@ description: Tìm hiểu cách cập nhật các thuộc tính tích hợp trong
 weight: 14
 url: /vi/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
+
+# Cập nhật các thuộc tính tích hợp trong sơ đồ bằng .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách cập nhật các thuộc tính tích hợp trong sơ đồ bằng GroupDocs.Metadata cho .NET. Thư viện này cho phép bạn thao tác siêu dữ liệu trong nhiều định dạng tài liệu khác nhau, bao gồm cả sơ đồ. Chúng tôi sẽ đề cập đến các điều kiện tiên quyết, các vùng chứa tên cần thiết và cung cấp hướng dẫn từng bước kèm theo các ví dụ về mã để cập nhật các thuộc tính này một cách hiệu quả.
 

@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 從 MP3 檔案讀取
 weight: 10
 url: /zh-hant/net/audio-metadata/read-ape-tag-mp3/
 ---
+
+# 從 .NET 中的 MP3 檔案讀取 APE 標籤
+
 ## 介紹
 在本教學中，我們將探討如何使用 GroupDocs.Metadata for .NET 從 MP3 檔案讀取 APE 標籤。 APE（Monkey's Audio）標籤是儲存在 MP3 檔案中的元數據，其中包含音訊內容的資訊。 GroupDocs.Metadata for .NET 是一個功能強大的 API，允許開發人員處理各種檔案格式的元數據，包括 MP3 檔案。
 ## 先決條件

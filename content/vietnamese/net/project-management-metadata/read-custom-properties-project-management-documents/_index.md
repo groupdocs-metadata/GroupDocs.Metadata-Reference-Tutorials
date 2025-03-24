@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất các thuộc tính tùy chỉnh t�
 weight: 11
 url: /vi/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
+
+# Đọc Thuộc tính Tùy chỉnh trong Tài liệu Quản lý Dự án .NET
+
 ## Giới thiệu
 Trong thế giới phát triển .NET, việc quản lý siêu dữ liệu trong các tài liệu quản lý dự án là một khía cạnh quan trọng của việc tổ chức và truy xuất dữ liệu. GroupDocs.Metadata dành cho .NET cung cấp khả năng mạnh mẽ để đọc các thuộc tính tùy chỉnh từ nhiều định dạng tệp quản lý dự án khác nhau như tệp Microsoft Project (MPP). Hướng dẫn này sẽ hướng dẫn bạn qua quy trình sử dụng GroupDocs.Metadata để trích xuất các thuộc tính tùy chỉnh từ tài liệu quản lý dự án .NET từng bước.
 ## Điều kiện tiên quyết

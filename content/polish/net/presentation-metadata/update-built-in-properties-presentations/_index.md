@@ -6,6 +6,9 @@ description: Dowiedz się, jak aktualizować wbudowane właściwości w prezenta
 weight: 15
 url: /pl/net/presentation-metadata/update-built-in-properties-presentations/
 ---
+
+# Zaktualizuj wbudowane właściwości w prezentacjach przy użyciu platformy .NET
+
 ## Wstęp
 tym samouczku zagłębimy się w potężne możliwości GroupDocs.Metadata dla .NET, kompleksowej biblioteki zaprojektowanej do manipulowania metadanymi w dokumentach przy użyciu platformy .NET. W szczególności skupimy się na programowej aktualizacji wbudowanych właściwości prezentacji (plików .PPT i .PPTX) przy użyciu języka C#.
 ## Warunki wstępne

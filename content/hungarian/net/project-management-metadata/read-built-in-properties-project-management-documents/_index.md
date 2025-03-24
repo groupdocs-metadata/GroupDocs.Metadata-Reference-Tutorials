@@ -6,6 +6,9 @@ description: Tanuljon meg metaadatokat kinyerni projektmenedzsment dokumentumokb
 weight: 10
 url: /hu/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---
+
+# Olvassa el a beépített tulajdonságokat a .NET projektmenedzsment dokumentumokban
+
 ## Bevezetés
 Ebben az oktatóanyagban a GroupDocs.Metadata for .NET kihasználásával foglalkozunk, hogy hatékonyan kinyerjük a beépített tulajdonságokat a projektmenedzsment dokumentumokból. Ez a könyvtár robusztus funkcionalitást biztosít a különböző fájlformátumok metaadatainak kezeléséhez, beleértve a Microsoft Projectet is, lehetővé téve a fejlesztők számára, hogy programozottan hozzáférjenek a legfontosabb dokumentumok részleteihez. Lépésről lépésre végigvezetjük Önt a folyamaton, az egyes példákat lebontva az egyértelműség és az egyszerű végrehajtás érdekében.
 ## Előfeltételek

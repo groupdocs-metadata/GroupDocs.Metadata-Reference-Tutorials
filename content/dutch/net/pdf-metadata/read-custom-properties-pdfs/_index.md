@@ -6,6 +6,9 @@ description: Leer hoe u aangepaste eigenschappen uit PDF's kunt extraheren met G
 weight: 11
 url: /nl/net/pdf-metadata/read-custom-properties-pdfs/
 ---
+
+# Lees aangepaste eigenschappen uit PDF's in .NET
+
 ## Invoering
 Op het gebied van .NET-ontwikkeling is het beheren van metadata binnen documenten cruciaal voor het organiseren en extraheren van waardevolle informatie. GroupDocs.Metadata voor .NET biedt krachtige tools om aangepaste eigenschappen uit PDF's te lezen, waardoor ontwikkelaars efficiënt toegang kunnen krijgen tot documentmetagegevens en deze kunnen gebruiken. Deze tutorial begeleidt u bij het gebruik van GroupDocs.Metadata om aangepaste eigenschappen uit PDF-bestanden op te halen met behulp van C#.
 ## Vereisten

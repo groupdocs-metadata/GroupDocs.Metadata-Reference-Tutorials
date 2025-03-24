@@ -6,6 +6,9 @@ description: Pelajari cara mengekstrak metadata dari file diagram di .NET menggu
 weight: 10
 url: /id/net/diagram-metadata/read-built-in-properties-diagrams/
 ---
+
+# Baca Properti Bawaan dari Diagram di .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari penggunaan GroupDocs.Metadata untuk .NET untuk membaca properti bawaan dari diagram. GroupDocs.Metadata untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan metadata yang terkait dengan berbagai jenis dokumen, termasuk diagram, presentasi, gambar, dan banyak lagi. Secara khusus, kami akan fokus pada mengekstraksi properti metadata dari file diagram menggunakan perpustakaan ini.
 ## Prasyarat

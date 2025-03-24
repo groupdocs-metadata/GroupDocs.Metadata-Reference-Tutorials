@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyodrębnić właściwości kontroli z dokumentó
 weight: 14
 url: /pl/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
+
+# Przeczytaj właściwości inspekcji z plików PDF w .NET
+
 ## Wstęp
 W tym samouczku omówimy, jak wykorzystać GroupDocs.Metadata dla .NET do programowego wyodrębnienia właściwości kontroli z dokumentów PDF. GroupDocs.Metadata to potężna biblioteka .NET, która umożliwia programistom pracę z metadanymi osadzonymi w różnych formatach plików, w tym w plikach PDF. Wykorzystując tę bibliotekę, można uzyskać dostęp do szerokiego zakresu właściwości dokumentów, adnotacji, załączników, zakładek, podpisów cyfrowych i pól w plikach PDF oraz manipulować nimi.
 ## Warunki wstępne

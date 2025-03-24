@@ -6,6 +6,9 @@ description: Aprenda a leer propiedades de inspección de hojas de cálculo util
 weight: 13
 url: /es/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---
+
+# Leer propiedades de inspección de hojas de cálculo en .NET
+
 ## Introducción
 En este tutorial, exploraremos cómo usar GroupDocs.Metadata para .NET para inspeccionar propiedades de hojas de cálculo. GroupDocs.Metadata para .NET es una potente biblioteca que permite a los desarrolladores leer, editar y eliminar metadatos asociados con varios formatos de archivos, incluidas las hojas de cálculo. Este tutorial se centra específicamente en la lectura de propiedades de inspección de archivos de hojas de cálculo utilizando C#.
 ## Requisitos previos

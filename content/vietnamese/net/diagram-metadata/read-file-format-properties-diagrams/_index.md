@@ -6,6 +6,9 @@ description: Tìm hiểu cách đọc thuộc tính định dạng tệp từ s�
 weight: 13
 url: /vi/net/diagram-metadata/read-file-format-properties-diagrams/
 ---
+
+# Đọc thuộc tính định dạng tệp từ sơ đồ trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng GroupDocs.Metadata cho .NET để đọc các thuộc tính định dạng tệp từ sơ đồ. Thư viện này cho phép dễ dàng thao tác và trích xuất siêu dữ liệu từ các định dạng tệp khác nhau trong các ứng dụng .NET. Chúng ta sẽ xem xét các điều kiện tiên quyết, nhập vùng tên và ví dụ từng bước để minh họa cách đạt được điều này.
 

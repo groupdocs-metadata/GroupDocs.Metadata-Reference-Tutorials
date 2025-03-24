@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan távolíthat el ID3V1 címkéket MP3 fájlokbó
 weight: 16
 url: /hu/net/audio-metadata/remove-id3v1-tag-mp3/
 ---
+
+# Távolítsa el az ID3V1 címkét az MP3 fájlokból a .NET-ben
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan távolíthatja el az ID3V1 címkét MP3-fájlokból a GroupDocs.Metadata for .NET segítségével. A GroupDocs.Metadata egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy manipulálják a különböző fájlformátumok metaadat-tulajdonságait, beleértve az MP3 fájlokat is. Az ID3V1 címkét általában metaadatok, például az előadó neve, a szám címe, az album és a műfaj MP3-fájlokban való tárolására használják, de előfordulhat, hogy bizonyos követelmények miatt el kell távolítania. Gyakorlati példák segítségével lépésről lépésre végigjárjuk a folyamatot.
 ## Előfeltételek

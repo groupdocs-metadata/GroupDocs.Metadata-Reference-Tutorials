@@ -6,6 +6,9 @@ description: C# ve GroupDocs.Metadata for .NET kullanarak PDF belge özellikleri
 weight: 15
 url: /tr/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
+
+# .NET kullanarak PDF'lerdeki Yerleşik Özellikleri Güncelleme
+
 ## giriiş
 Bu öğreticide, PDF belgelerinin yerleşik özelliklerini güncellemek için GroupDocs.Metadata for .NET'in nasıl kullanılacağını öğreneceğiz. Bu kitaplık, çeşitli belge formatlarındaki meta verileri işlemek için güçlü bir araç seti sağlar. C# kullanarak bir PDF dosyasındaki yazar, başlık, oluşturulma tarihi, anahtar kelimeler, oluşturucu ve yapımcı gibi özellikleri değiştirmek için gerekli adımları izleyeceğiz.
 ## Önkoşullar

@@ -6,6 +6,9 @@ description: Çok yönlü bir meta veri işleme kitaplığı olan GroupDocs.Meta
 weight: 15
 url: /tr/net/presentation-metadata/update-built-in-properties-presentations/
 ---
+
+# .NET kullanarak Sunumlardaki Yerleşik Özellikleri Güncelleme
+
 ## giriiş
 Bu öğreticide, .NET çerçevesini kullanarak belgeler içindeki meta verileri işlemek için tasarlanmış kapsamlı bir kitaplık olan GroupDocs.Metadata for .NET'in güçlü yeteneklerini inceleyeceğiz. Özellikle, sunumlardaki yerleşik özellikleri (.PPT ve .PPTX dosyaları) C# kullanarak programlı olarak güncellemeye odaklanacağız.
 ## Önkoşullar

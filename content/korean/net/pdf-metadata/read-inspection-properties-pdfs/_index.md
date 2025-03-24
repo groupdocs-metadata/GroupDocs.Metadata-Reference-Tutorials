@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 PDF 문서에서 검사 
 weight: 14
 url: /ko/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
+
+# .NET의 PDF에서 검사 속성 읽기
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Metadata를 활용하여 프로그래밍 방식으로 PDF 문서에서 검사 속성을 추출하는 방법을 살펴보겠습니다. GroupDocs.Metadata는 개발자가 PDF를 비롯한 다양한 파일 형식에 포함된 메타데이터로 작업할 수 있는 강력한 .NET 라이브러리입니다. 이 라이브러리를 활용하면 PDF 파일 내의 광범위한 문서 속성, 주석, 첨부 파일, 책갈피, 디지털 서명 및 필드에 액세스하고 조작할 수 있습니다.
 ## 전제 조건

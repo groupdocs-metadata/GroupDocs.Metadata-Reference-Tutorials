@@ -6,6 +6,9 @@ description: Tanulja meg, hogyan kezelheti könnyedén a PDF-metaadatokat a Grou
 weight: 24
 url: /hu/net/pdf-metadata/
 ---
+
+# PDF metaadatok
+
 ## Bevezetés
 
  Használja ki a PDF-metaadat-kezelésben rejlő lehetőségeket[GroupDocs.Metadata .NET-hez](https://www.groupdocs.com/products/metadata/net). Akár tapasztalt fejlesztő, akár csak most kezdő, ezek az oktatóanyagok felbecsülhetetlen értékű betekintést nyújtanak a metaadat-manipuláció erejének kiaknázásához.

@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan olvashat PDF-metaadatokat .NET-ben a GroupDocs.
 weight: 10
 url: /hu/net/pdf-metadata/read-built-in-properties-pdfs/
 ---
+
+# Olvassa el a .NET-ben található PDF-fájlok beépített tulajdonságait
+
 ## Bevezetés
 Ebben az oktatóanyagban azt fogjuk megvizsgálni, hogyan használhatók fel a GroupDocs.Metadata a .NET számára a PDF-fájlok beépített tulajdonságainak olvasására. A GroupDocs.Metadata egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy különféle dokumentumformátumokhoz, köztük PDF-ekhez, Microsoft Office dokumentumokhoz, képekhez és egyebekhez kapcsolódó metaadatokkal dolgozzanak. A könyvtár használatával könnyedén elérheti és kezelheti a PDF-fájlokba ágyazott metaadat-attribútumokat, például a szerzők nevét, létrehozási dátumát, tárgyát stb.
 ## Előfeltételek

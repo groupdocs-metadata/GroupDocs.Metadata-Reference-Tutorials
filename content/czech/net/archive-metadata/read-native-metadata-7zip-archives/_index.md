@@ -6,6 +6,9 @@ description: Naučte se číst vlastnosti nativních metadat z archivů 7Zip pom
 weight: 11
 url: /cs/net/archive-metadata/read-native-metadata-7zip-archives/
 ---
+
+# Přečtěte si vlastnosti nativních metadat z archivů 7Zip v .NET
+
 ## Úvod
 oblasti vývoje .NET je správa metadat – jako jsou vlastnosti dokumentu, informace o souborech a tagy – zásadní pro efektivní organizaci a vyhledávání dat. GroupDocs.Metadata for .NET poskytuje výkonnou sadu nástrojů pro přístup a manipulaci s metadaty v rámci různých formátů souborů. Tento tutoriál se zaměřuje na využití schopností GroupDocs.Metadata ke čtení vlastností nativních metadat z archivů 7Zip v .NET. 
 ## Předpoklady

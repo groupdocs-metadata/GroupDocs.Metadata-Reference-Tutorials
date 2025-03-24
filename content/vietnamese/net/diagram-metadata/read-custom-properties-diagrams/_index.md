@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất các thuộc tính tùy chỉnh t�
 weight: 11
 url: /vi/net/diagram-metadata/read-custom-properties-diagrams/
 ---
+
+# Đọc thuộc tính tùy chỉnh từ sơ đồ trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng GroupDocs.Metadata cho .NET để đọc các thuộc tính tùy chỉnh từ sơ đồ một cách hiệu quả. GroupDocs.Metadata là một API mạnh mẽ cho phép các nhà phát triển làm việc với siêu dữ liệu ở nhiều định dạng tài liệu khác nhau, bao gồm cả sơ đồ. Các thuộc tính tùy chỉnh có thể chứa thông tin có giá trị được nhúng trong sơ đồ và việc truy cập chúng theo chương trình có thể hợp lý hóa các tác vụ xử lý tài liệu. Đến cuối hướng dẫn này, bạn sẽ được trang bị kiến thức để truy xuất các thuộc tính tùy chỉnh từ các tệp sơ đồ bằng GroupDocs.Metadata cho .NET.
 ## Điều kiện tiên quyết

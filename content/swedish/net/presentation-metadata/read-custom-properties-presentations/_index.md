@@ -6,6 +6,9 @@ description: Lär dig hur du läser anpassade egenskaper från presentationer i 
 weight: 11
 url: /sv/net/presentation-metadata/read-custom-properties-presentations/
 ---
+
+# Läs anpassade egenskaper från presentationer i .NET
+
 ## Introduktion
 I den här handledningen kommer vi att utforska hur man läser anpassade egenskaper från presentationer i .NET med hjälp av GroupDocs.Metadata. Anpassade egenskaper innehåller ytterligare information inbäddad i presentationsfilen, som kan vara användbar för att organisera, kategorisera eller beskriva innehållet. Genom att utnyttja GroupDocs.Metadata-biblioteket kan utvecklare effektivt komma åt och extrahera dessa anpassade egenskaper för olika ändamål.
 ## Förutsättningar

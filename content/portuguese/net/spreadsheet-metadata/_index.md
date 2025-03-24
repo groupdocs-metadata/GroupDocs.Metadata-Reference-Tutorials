@@ -7,6 +7,9 @@ description: Desbloqueie o poder do GroupDocs.Metadata for .NET com tutoriais so
 weight: 27
 url: /pt/net/spreadsheet-metadata/
 ---
+
+# Metadados da planilha
+
 ## Introdução
 
 GroupDocs.Metadata for .NET oferece um conjunto abrangente de tutoriais destinados a capacitar os desenvolvedores a aproveitar a manipulação de metadados em arquivos de planilha de maneira eficaz. Vamos nos aprofundar nesses tutoriais para entender como eles podem aprimorar seus aplicativos .NET.

@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan kezelheti a prezentáció metaadatait a GroupDo
 weight: 16
 url: /hu/net/presentation-metadata/update-custom-properties-presentations/
 ---
+
+# Frissítse a prezentációk egyéni tulajdonságait .NET használatával
+
 ## Bevezetés
 Ebben az oktatóanyagban azt fogjuk megvizsgálni, hogyan használhatjuk fel a GroupDocs.Metadata for .NET-et a prezentációk egyéni tulajdonságainak frissítésére. A GroupDocs.Metadata egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a különböző fájlformátumú metaadatokat. Konkrétan a bemutatókra (például PowerPoint-fájlokra) fogunk összpontosítani, és bemutatjuk, hogyan adhatunk hozzá vagy módosíthatunk egyéni tulajdonságokat C# használatával.
 ## Előfeltételek

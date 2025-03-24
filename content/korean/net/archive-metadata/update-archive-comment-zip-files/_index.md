@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 ZIP 파일의 아카이�
 weight: 15
 url: /ko/net/archive-metadata/update-archive-comment-zip-files/
 ---
+
+# .NET을 사용하여 ZIP 파일의 아카이브 주석 업데이트
+
 ## 소개
 소프트웨어 개발 세계에서 파일 내의 메타데이터를 관리하는 것은 데이터 무결성과 접근성을 보장하는 중요한 측면입니다. .NET용 GroupDocs.Metadata는 .NET 개발자가 다양한 파일 형식의 메타데이터를 효율적으로 사용할 수 있는 강력한 솔루션을 제공합니다. 이 자습서에서는 .NET용 GroupDocs.Metadata를 사용하여 ZIP 파일 내의 아카이브 주석을 업데이트하는 방법을 살펴보겠습니다. 이 가이드를 마치면 이 강력한 라이브러리를 사용하여 ZIP 아카이브 내에서 메타데이터를 조작하는 방법을 명확하게 이해하게 될 것입니다.
 ## 전제 조건

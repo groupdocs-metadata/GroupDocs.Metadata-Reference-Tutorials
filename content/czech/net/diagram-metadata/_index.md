@@ -6,6 +6,9 @@ description: Objevte komplexní výukové programy pro správu metadat diagramů
 weight: 23
 url: /cs/net/diagram-metadata/
 ---
+
+# Metadata diagramu
+
 ## Úvod
 
 Chcete využít sílu manipulace s metadaty pro soubory diagramů v .NET? Ponořte se do naší série výukových programů věnovaných GroupDocs.Metadata for .NET, robustní knihovně navržené ke zjednodušení extrakce, analýzy a úprav metadat. Ať už jste zkušený vývojář nebo teprve začínáte svou cestu ve vývoji .NET, tyto výukové programy nabízejí podrobné pokyny, které vám pomohou efektivně využít metadata.

@@ -6,6 +6,9 @@ description: Leer hoe u metagegevens van MP3-bestanden, inclusief songteksten, a
 weight: 21
 url: /nl/net/audio-metadata/update-lyrics-tag-mp3/
 ---
+
+# Update de songteksttag in MP3-bestanden met .NET
+
 ## Invoering
 In deze zelfstudie laten we zien hoe u de GroupDocs.Metadata voor .NET-bibliotheek kunt gebruiken om de songteksttag in MP3-bestanden programmatisch bij te werken. Dit proces omvat het openen en wijzigen van de metagegevens van MP3-bestanden, met name gericht op de songtekstinformatie.
 ## Vereisten

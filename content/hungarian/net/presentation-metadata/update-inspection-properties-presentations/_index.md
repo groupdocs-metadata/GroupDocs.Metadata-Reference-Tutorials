@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan frissítheti a prezentációk ellenőrzési tul
 weight: 17
 url: /hu/net/presentation-metadata/update-inspection-properties-presentations/
 ---
+
+# Frissítse az ellenőrzési tulajdonságokat a prezentációkban .NET használatával
+
 ## Bevezetés
 A .NET fejlesztés területén a prezentációkon belüli metaadatok kezelése és manipulálása az adatfeldolgozás és -szervezés kulcsfontosságú szempontja. A GroupDocs.Metadata for .NET robusztus megoldást kínál a fejlesztők számára a különböző fájlformátumok metaadatainak zökkenőmentes kezelésére. Ez az oktatóanyag bemutatja, hogyan használhatja a GroupDocs.Metadata-t a kifejezetten prezentációk (.PPTX fájlok) ellenőrzési tulajdonságainak frissítéséhez C# használatával.
 ## Előfeltételek

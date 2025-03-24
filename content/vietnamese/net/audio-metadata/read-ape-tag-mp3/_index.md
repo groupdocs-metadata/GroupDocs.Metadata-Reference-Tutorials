@@ -6,6 +6,9 @@ description: Tìm hiểu cách đọc thẻ APE từ tệp MP3 bằng GroupDocs.
 weight: 10
 url: /vi/net/audio-metadata/read-ape-tag-mp3/
 ---
+
+# Đọc thẻ APE từ tệp MP3 trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng GroupDocs.Metadata cho .NET để đọc thẻ APE từ tệp MP3. Thẻ APE (Monkey's Audio) là siêu dữ liệu được lưu trữ trong các tệp MP3 chứa thông tin về nội dung âm thanh. GroupDocs.Metadata cho .NET là một API mạnh mẽ cho phép các nhà phát triển làm việc với siêu dữ liệu ở nhiều định dạng tệp khác nhau, bao gồm cả tệp MP3.
 ## Điều kiện tiên quyết

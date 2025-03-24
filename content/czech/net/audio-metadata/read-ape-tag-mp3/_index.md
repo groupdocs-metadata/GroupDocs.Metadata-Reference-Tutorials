@@ -6,6 +6,9 @@ description: Naučte se číst značky APE ze souborů MP3 pomocí GroupDocs.Met
 weight: 10
 url: /cs/net/audio-metadata/read-ape-tag-mp3/
 ---
+
+# Přečtěte si APE Tag ze souborů MP3 v .NET
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak používat GroupDocs.Metadata pro .NET ke čtení značek APE ze souborů MP3. Tagy APE (Monkey's Audio) jsou metadata uložená v souborech MP3, která obsahují informace o zvukovém obsahu. GroupDocs.Metadata for .NET je výkonné API, které umožňuje vývojářům pracovat s metadaty v různých formátech souborů, včetně souborů MP3.
 ## Předpoklady

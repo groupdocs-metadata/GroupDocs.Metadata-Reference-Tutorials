@@ -6,6 +6,9 @@ description: Pelajari cara memperbarui properti kustom di dokumen manajemen proy
 weight: 13
 url: /id/net/project-management-metadata/update-custom-properties-project-management-documents/
 ---
+
+# Perbarui Properti Kustom di Dokumen Manajemen Proyek .NET
+
 ## Perkenalan
 Dalam bidang pengembangan .NET, mengelola metadata dokumen secara efisien sangat penting untuk berbagai aplikasi. GroupDocs.Metadata untuk .NET memberikan solusi tangguh untuk berinteraksi dengan metadata di berbagai format file, termasuk dokumen manajemen proyek seperti file Microsoft Project (MPP). Tutorial ini akan memandu Anda melalui proses memperbarui properti khusus dalam dokumen manajemen proyek .NET menggunakan GroupDocs.Metadata.
 ## Prasyarat

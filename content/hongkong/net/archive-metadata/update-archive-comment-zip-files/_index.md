@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 更新 ZIP 檔案中
 weight: 15
 url: /zh-hant/net/archive-metadata/update-archive-comment-zip-files/
 ---
+
+# 使用 .NET 更新 ZIP 檔案中的存檔註釋
+
 ## 介紹
 在軟體開發領域，管理文件中的元資料是確保資料完整性和可存取性的關鍵方面。 GroupDocs.Metadata for .NET 為 .NET 開發人員提供了一個強大的解決方案，可以有效地處理各種文件格式的元資料。在本教程中，我們將深入研究使用 GroupDocs.Metadata for .NET 更新 ZIP 檔案中的存檔註解。在本指南結束時，您將清楚地了解如何使用這個強大的程式庫來操作 ZIP 檔案中的元資料。
 ## 先決條件

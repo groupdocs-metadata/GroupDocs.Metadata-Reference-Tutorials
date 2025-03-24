@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 从 ZIP 存档中提
 weight: 13
 url: /zh/net/archive-metadata/read-native-metadata-zip-archives/
 ---
+
+# 从 .NET 中的 ZIP 档案读取本机元数据属性
+
 ## 介绍
 ZIP 存档通常用于将文件压缩和捆绑在一起。在 .NET 应用程序中使用 ZIP 文件时，通常需要从这些存档中提取元数据属性。在本教程中，我们将逐步探索如何使用 GroupDocs.Metadata for .NET 从 ZIP 文件中读取本机元数据属性。
 ## 先决条件

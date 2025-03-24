@@ -6,6 +6,9 @@ description: Naučte se aktualizovat vestavěné vlastnosti v diagramech pomocí
 weight: 14
 url: /cs/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
+
+# Aktualizujte vestavěné vlastnosti v diagramech pomocí .NET
+
 ## Úvod
 tomto tutoriálu prozkoumáme, jak aktualizovat vestavěné vlastnosti v diagramech pomocí GroupDocs.Metadata pro .NET. Tato knihovna umožňuje manipulovat s metadaty v rámci různých formátů dokumentů, včetně diagramů. Pokryjeme předpoklady, potřebné jmenné prostory a poskytneme podrobného průvodce s příklady kódu, jak tyto vlastnosti efektivně aktualizovat.
 

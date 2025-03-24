@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan vonhatja ki a vizsgálati tulajdonságokat PDF-
 weight: 14
 url: /hu/net/pdf-metadata/read-inspection-properties-pdfs/
 ---
+
+# Olvassa el az Ellenőrzési tulajdonságokat a .NET-ben található PDF-fájlokból
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használható a GroupDocs.Metadata for .NET a PDF-dokumentumok ellenőrzési tulajdonságainak programozottan történő kinyerésére. A GroupDocs.Metadata egy hatékony .NET-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy különféle fájlformátumokba, köztük PDF-ekbe ágyazott metaadatokkal dolgozzanak. A könyvtár használatával elérheti és kezelheti a dokumentumtulajdonságok, megjegyzések, mellékletek, könyvjelzők, digitális aláírások és mezők széles körét a PDF-fájlokban.
 ## Előfeltételek

@@ -6,6 +6,9 @@ description: Naučte se extrahovat značky textů ze souborů MP3 pomocí GroupD
 weight: 13
 url: /cs/net/audio-metadata/read-lyrics-tag-mp3/
 ---
+
+# Přečtěte si textový tag ze souborů MP3 v .NET
+
 ## Úvod
 tomto tutoriálu se naučíme, jak extrahovat a číst značky textů ze souborů MP3 pomocí GroupDocs.Metadata API v .NET. GroupDocs.Metadata je výkonná knihovna, která umožňuje vývojářům pracovat s metadaty spojenými s různými formáty souborů, včetně souborů MP3. Dodržováním těchto kroků budete schopni efektivně získávat informace související s texty písní vložené do souborů MP3.
 ## Předpoklady

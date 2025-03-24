@@ -7,6 +7,9 @@ weight: 21
 url: /fr/net/archive-metadata/
 ---
 
+# Archiver les métadonnées
+
+
 ## Introduction
 
 Êtes-vous aux prises avec la gestion des métadonnées dans vos applications .NET ? Cherchez pas plus loin! Bienvenue dans le guide ultime sur l’exploitation de GroupDocs.Metadata pour .NET pour rationaliser votre processus de gestion des métadonnées. Que vous ayez affaire à des archives RAR, 7Zip, TAR ou ZIP, nous avons ce qu'il vous faut grâce à nos didacticiels complets.

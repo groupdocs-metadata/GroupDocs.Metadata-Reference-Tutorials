@@ -6,6 +6,9 @@ description: 了解如何使用 C# 中的 GroupDocs.Metadata for .NET 從 RAR �
 weight: 10
 url: /zh-hant/net/archive-metadata/read-native-metadata-rar-archives/
 ---
+
+# 從 .NET 中的 RAR 檔案讀取本機元資料屬性
+
 ## 介紹
 RAR（Roshal Archive）是一種用於資料壓縮和歸檔的熱門檔案格式。在 .NET 應用程式中使用 RAR 檔案時，通常需要讀取和提取這些檔案中嵌入的元資料屬性。本教學將引導您完成使用 GroupDocs.Metadata for .NET 從 RAR 檔案中存取和擷取本機元資料屬性的過程。
 ## 先決條件

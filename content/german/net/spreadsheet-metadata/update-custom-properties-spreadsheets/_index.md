@@ -6,6 +6,9 @@ description: Entdecken Sie, wie Sie benutzerdefinierte Eigenschaften in Tabellen
 weight: 15
 url: /de/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---
+
+# Aktualisieren Sie benutzerdefinierte Eigenschaften in Tabellenkalkulationen mit .NET
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie benutzerdefinierte Eigenschaften in Tabellenkalkulationen mithilfe der Bibliothek GroupDocs.Metadata für .NET aktualisieren. Benutzerdefinierte Eigenschaften können die Metadaten Ihrer Tabellenkalkulationsdateien verbessern und zusätzlichen Kontext oder Informationen bereitstellen, die nicht von Standardeigenschaften abgedeckt werden.
 ## Voraussetzungen

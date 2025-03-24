@@ -6,6 +6,9 @@ description: Pelajari cara mengelola metadata file di .NET dengan GroupDocs.Meta
 weight: 11
 url: /id/net/metadata-loading/load-metadata-stream/
 ---
+
+# Memuat Metadata dari Stream di Tutorial .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menggunakan GroupDocs.Metadata untuk .NET guna mengelola metadata secara efektif dalam aplikasi .NET Anda. Metadata, seperti properti dokumen, dapat memberikan informasi berharga tentang file, termasuk detail seperti penulis, tanggal pembuatan, dan kata kunci. GroupDocs.Metadata menyederhanakan proses membaca, mengedit, dan menghapus metadata dari berbagai format file di lingkungan .NET. Panduan ini akan berfokus pada memuat metadata dari aliran, mendemonstrasikan prosedur langkah demi langkah menggunakan contoh praktis.
 ## Prasyarat

@@ -6,6 +6,9 @@ description: GroupDocs.Metadata를 사용하여 .NET의 MP3 파일에서 MPEG �
 weight: 14
 url: /ko/net/audio-metadata/read-mpeg-audio-metadata-mp3/
 ---
+
+# .NET의 MP3 파일에서 MPEG 오디오 메타데이터 읽기
+
 ## 소개
 .NET 개발 세계에서 파일 내의 메타데이터를 관리하는 것은 다양한 애플리케이션에 필수적입니다. .NET용 GroupDocs.Metadata는 다양한 파일 형식의 메타데이터를 읽고, 편집하고, 조작할 수 있는 강력한 도구를 제공합니다. 이 자습서에서는 특히 .NET의 MPEG 오디오 파일(MP3)에 대해 이 기능을 활용하는 데 중점을 둡니다. 이 가이드가 끝나면 GroupDocs.Metadata를 사용하여 MP3 파일에서 MPEG 오디오 메타데이터를 효율적으로 추출할 수 있게 됩니다.
 ## 전제 조건

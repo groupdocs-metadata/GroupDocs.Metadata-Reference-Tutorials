@@ -6,6 +6,9 @@ description: Zjistěte, jak aktualizovat vlastnosti kontroly v dokumentech PDF p
 weight: 17
 url: /cs/net/pdf-metadata/update-inspection-properties-pdfs/
 ---
+
+# Aktualizujte vlastnosti inspekce v souborech PDF pomocí .NET
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak aktualizovat vlastnosti inspekce v dokumentech PDF pomocí knihovny GroupDocs.Metadata for .NET. Tato knihovna nám umožňuje efektivně spravovat metadata, anotace, přílohy a další v rámci souborů PDF.
 ## Předpoklady

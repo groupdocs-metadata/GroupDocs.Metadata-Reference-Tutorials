@@ -6,6 +6,9 @@ description: Découvrez comment mettre à jour les propriétés d'inspection dan
 weight: 17
 url: /fr/net/presentation-metadata/update-inspection-properties-presentations/
 ---
+
+# Mettre à jour les propriétés d'inspection dans les présentations à l'aide de .NET
+
 ## Introduction
 Dans le domaine du développement .NET, la gestion et la manipulation des métadonnées dans les présentations constituent un aspect crucial du traitement et de l'organisation des données. GroupDocs.Metadata pour .NET fournit une solution robuste permettant aux développeurs de gérer de manière transparente les métadonnées dans différents formats de fichiers. Ce didacticiel explique comment utiliser GroupDocs.Metadata pour mettre à jour les propriétés d'inspection spécifiquement pour les présentations (fichiers .PPTX) à l'aide de C#.
 ## Conditions préalables

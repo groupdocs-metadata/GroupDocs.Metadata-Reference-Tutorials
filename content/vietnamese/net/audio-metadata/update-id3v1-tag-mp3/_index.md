@@ -6,6 +6,9 @@ description: Cập nhật thẻ ID3V1 trong tệp MP3 bằng GroupDocs.Metadata 
 weight: 19
 url: /vi/net/audio-metadata/update-id3v1-tag-mp3/
 ---
+
+# Cập nhật thẻ ID3V1 trong tệp MP3 bằng .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách cập nhật thẻ ID3V1 trong tệp MP3 bằng GroupDocs.Metadata cho .NET. Thư viện này cho phép bạn thao tác siêu dữ liệu ở nhiều định dạng tài liệu khác nhau theo chương trình.
 ## Điều kiện tiên quyết

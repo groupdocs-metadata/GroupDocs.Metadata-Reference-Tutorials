@@ -6,6 +6,9 @@ description: Leer hoe u de eigenschappen van spreadsheetbestandsindelingen kunt 
 weight: 12
 url: /nl/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
+
+# Lees de bestandsformaateigenschappen van Spreadsheets in .NET
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u GroupDocs.Metadata voor .NET kunt gebruiken om de eigenschappen van bestandsindelingen uit spreadsheets efficiënt te lezen. GroupDocs.Metadata voor .NET is een krachtige API waarmee ontwikkelaars metagegevens die verband houden met verschillende bestandsformaten binnen hun .NET-applicaties kunnen extraheren, bewerken en beheren. We zullen ons specifiek richten op het ophalen van essentiële informatie over spreadsheetbestanden met behulp van deze bibliotheek.
 ## Vereisten

@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak Excel dosyalarındaki yerl
 weight: 14
 url: /tr/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
 ---
+
+# .NET kullanarak Elektronik Tablolardaki Yerleşik Özellikleri Güncelleme
+
 ## giriiş
 Bu öğreticide, C# kullanarak elektronik tablo dosyalarındaki yerleşik özellikleri güncellemek için GroupDocs.Metadata for .NET'in nasıl kullanılacağını keşfedeceğiz. GroupDocs.Metadata, geliştiricilerin elektronik tablolar da dahil olmak üzere çeşitli dosya formatlarındaki meta veri özelliklerini okumasına, düzenlemesine ve kaldırmasına olanak tanıyan güçlü bir API'dir. Özellikle Excel dosyalarındaki yazar, oluşturulma zamanı, şirket, kategori ve anahtar kelimeler gibi özellikleri değiştirmeye odaklanacağız.
 ## Önkoşullar

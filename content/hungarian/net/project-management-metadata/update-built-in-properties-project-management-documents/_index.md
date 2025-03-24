@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan frissítheti a .NET projektmenedzsment dokument
 weight: 12
 url: /hu/net/project-management-metadata/update-built-in-properties-project-management-documents/
 ---
+
+# Frissítse a .NET projektmenedzsment dokumentumok beépített tulajdonságait
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan frissíthetjük a .NET projektmenedzsment dokumentumok beépített tulajdonságait a GroupDocs.Metadata for .NET használatával. Ez a könyvtár lehetővé teszi a különböző fájlformátumok metaadatainak hatékony kezelését, beleértve a projektmenedzsment dokumentumokat, például a Microsoft Project (MPP) fájlokat.
 ## Előfeltételek

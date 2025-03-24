@@ -6,6 +6,9 @@ description: Hantera filmetadata enkelt i .NET-applikationer med GroupDocs.Metad
 weight: 10
 url: /sv/net/metadata-loading/load-metadata-local-disk/
 ---
+
+# Hur man laddar metadata från lokal disk i .NET
+
 ## Introduktion
 När det gäller .NET-utveckling är hantering av metadata associerad med filer avgörande för olika applikationer. GroupDocs.Metadata för .NET erbjuder en robust lösning för att läsa, redigera och ta bort metadata från filer utan ansträngning. Denna handledning guidar dig genom processen att ladda metadata från en lokal disk med GroupDocs.Metadata, vilket hjälper dig att utnyttja detta kraftfulla bibliotek effektivt.
 ## Förutsättningar

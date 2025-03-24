@@ -6,6 +6,9 @@ description: Pelajari cara memperbarui properti dokumen PDF menggunakan C# dan G
 weight: 15
 url: /id/net/pdf-metadata/update-built-in-properties-pdfs/
 ---
+
+# Perbarui Properti Bawaan dalam PDF menggunakan .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menggunakan GroupDocs.Metadata untuk .NET untuk memperbarui properti bawaan dokumen PDF. Pustaka ini menyediakan seperangkat alat canggih untuk memanipulasi metadata dalam berbagai format dokumen. Kami akan memandu langkah-langkah yang diperlukan untuk mengubah properti seperti penulis, judul, tanggal pembuatan, kata kunci, pembuat, dan produser dalam file PDF menggunakan C#.
 ## Prasyarat

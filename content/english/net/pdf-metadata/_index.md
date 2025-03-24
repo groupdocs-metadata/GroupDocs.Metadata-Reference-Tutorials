@@ -6,6 +6,9 @@ description: Learn how to manage PDF metadata effortlessly with GroupDocs.Metada
 weight: 24
 url: /net/pdf-metadata/
 ---
+
+# PDF Metadata
+
 ## Introduction
 
 Unlock the potential of PDF metadata management with [GroupDocs.Metadata for .NET](https://www.groupdocs.com/products/metadata/net). Whether you’re a seasoned developer or just starting, these tutorials offer invaluable insights into harnessing the power of metadata manipulation.

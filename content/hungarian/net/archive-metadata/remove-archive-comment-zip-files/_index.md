@@ -6,6 +6,9 @@ description: Ismerje meg a ZIP-archívum megjegyzéseinek eltávolítását a Gr
 weight: 14
 url: /hu/net/archive-metadata/remove-archive-comment-zip-files/
 ---
+
+# Távolítsa el az archív megjegyzést a ZIP-fájlokból a .NET-ben
+
 ## Bevezetés
 .NET fejlesztés területén a fájlokon belüli metaadatok kezelése elengedhetetlen a fájlról szóló pontos információk megőrzéséhez. A GroupDocs.Metadata for .NET hatékony eszközkészletet kínál, amely leegyszerűsíti a metaadat-műveleteket különféle fájlformátumokban, beleértve a ZIP-fájlokat is. Ebben az oktatóanyagban a GroupDocs.Metadata használatával fogunk összpontosítani az archív megjegyzések eltávolítására a ZIP-fájlokból programozottan, C# használatával. 
 ## Előfeltételek

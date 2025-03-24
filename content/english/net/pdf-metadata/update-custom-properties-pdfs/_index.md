@@ -6,6 +6,9 @@ description: Learn how to update custom properties in PDF files using .NET with 
 weight: 16
 url: /net/pdf-metadata/update-custom-properties-pdfs/
 ---
+
+# Update Custom Properties in PDFs using .NET
+
 ## Introduction
 In this tutorial, we will explore how to update custom properties in PDF files using .NET with GroupDocs.Metadata. Custom properties allow you to add additional metadata to your PDF documents, which can be useful for categorization, searchability, and information retrieval. GroupDocs.Metadata is a powerful API that enables developers to work with metadata in various file formats, including PDFs, using the .NET framework.
 ## Prerequisites

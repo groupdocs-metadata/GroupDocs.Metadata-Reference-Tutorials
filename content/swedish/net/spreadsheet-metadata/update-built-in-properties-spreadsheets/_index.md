@@ -6,6 +6,9 @@ description: Lär dig hur du uppdaterar inbyggda metadataegenskaper i Excel-file
 weight: 14
 url: /sv/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
 ---
+
+# Uppdatera inbyggda egenskaper i kalkylblad med .NET
+
 ## Introduktion
 I den här handledningen kommer vi att utforska hur man använder GroupDocs.Metadata för .NET för att uppdatera inbyggda egenskaper i kalkylarksfiler med C#. GroupDocs.Metadata är ett kraftfullt API som låter utvecklare läsa, redigera och ta bort metadataegenskaper från olika filformat, inklusive kalkylblad. Vi kommer att fokusera specifikt på att ändra egenskaper som författare, skapelsetid, företag, kategori och nyckelord i Excel-filer.
 ## Förutsättningar

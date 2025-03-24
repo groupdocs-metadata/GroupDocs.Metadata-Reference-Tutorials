@@ -6,6 +6,9 @@ description: Tanulja meg, hogyan olvashatja ki az ellenőrzési tulajdonságokat
 weight: 13
 url: /hu/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
 ---
+
+# Olvassa el az Inspection Propers from Spreadsheets .NET-ben
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatja a GroupDocs.Metadata for .NET-et a táblázatokból származó tulajdonságok vizsgálatához. A GroupDocs.Metadata for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára a különféle fájlformátumokhoz, köztük a táblázatokhoz kapcsolódó metaadatok olvasását, szerkesztését és eltávolítását. Ez az oktatóanyag kifejezetten az ellenőrzési tulajdonságok kiolvasására összpontosít a táblázatkezelő fájlokból C# használatával.
 ## Előfeltételek

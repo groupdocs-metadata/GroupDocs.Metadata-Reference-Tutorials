@@ -6,6 +6,9 @@ description: GroupDocs.Metadata for .NET'i kullanarak sunum meta verilerini nas�
 weight: 14
 url: /tr/net/presentation-metadata/read-inspection-properties-presentations/
 ---
+
+# .NET'teki Sunumlardan Denetim Özelliklerini Okuyun
+
 ## giriiş
 Bu öğreticide, sunumlardaki özellikleri okumak ve incelemek için GroupDocs.Metadata for .NET'in nasıl kullanılacağını keşfedeceğiz. GroupDocs.Metadata, geliştiricilerin belgelere gömülü sunumlar, PDF'ler, resimler ve daha fazlası gibi meta verilerle çalışmasına olanak tanıyan güçlü bir API'dir. Özellikle sunumlara (PPTX dosyaları) odaklanacağız ve yorumlar, gizli slaytlar ve daha fazlası gibi bilgilerin nasıl çıkarılacağını göstereceğiz.
 ## Önkoşullar

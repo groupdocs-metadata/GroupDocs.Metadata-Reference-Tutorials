@@ -6,6 +6,9 @@ description: Leer hoe u APE-tags uit MP3-bestanden kunt verwijderen met behulp v
 weight: 15
 url: /nl/net/audio-metadata/remove-ape-tag-mp3/
 ---
+
+# Verwijder de APE-tag uit MP3-bestanden in .NET
+
 ## Invoering
 Op het gebied van .NET-ontwikkeling is het beheren van metagegevens binnen bestanden cruciaal voor het efficiënt organiseren en manipuleren van gegevens. Een krachtig hulpmiddel voor dit doel is GroupDocs.Metadata voor .NET, dat robuuste functionaliteiten biedt voor het lezen, bewerken en verwijderen van metagegevens uit verschillende bestandsformaten. In deze tutorial concentreren we ons op een specifieke taak: het verwijderen van APE-tags uit MP3-bestanden met behulp van GroupDocs.Metadata voor .NET. 
 ## Vereisten

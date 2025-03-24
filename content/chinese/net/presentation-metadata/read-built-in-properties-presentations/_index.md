@@ -6,6 +6,9 @@ description: 在本综合教程中了解如何使用 GroupDocs.Metadata for .NET
 weight: 10
 url: /zh/net/presentation-metadata/read-built-in-properties-presentations/
 ---
+
+# 从 .NET 中的演示文稿中读取内置属性
+
 ## 介绍
 在 .NET 开发领域，管理和提取各种文件格式（如演示文稿）中的元数据至关重要。GroupDocs.Metadata for .NET 提供了一个强大的解决方案来高效处理元数据任务。本教程将深入研究如何使用 GroupDocs.Metadata for .NET 从演示文稿中读取内置属性。最后，您将清楚地了解如何利用此库从演示文稿文件中提取必要的元数据。
 ## 先决条件

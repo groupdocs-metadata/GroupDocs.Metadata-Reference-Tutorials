@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 WAV 파일에서 기본 
 weight: 23
 url: /ko/net/audio-metadata/read-native-metadata-wav/
 ---
+
+# .NET의 WAV 파일에서 기본 메타데이터 속성 읽기
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Metadata를 활용하여 WAV 오디오 파일에서 기본 메타데이터 속성을 추출하는 방법을 배웁니다. .NET용 GroupDocs.Metadata는 개발자가 WAV 파일을 비롯한 다양한 파일 형식과 관련된 메타데이터를 읽고, 업데이트하고, 제거할 수 있는 강력한 라이브러리입니다.
 ## 전제 조건

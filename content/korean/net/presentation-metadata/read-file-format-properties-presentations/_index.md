@@ -6,6 +6,9 @@ description: GroupDocs.Metadata를 사용하여 .NET에서 프레젠테이션 �
 weight: 13
 url: /ko/net/presentation-metadata/read-file-format-properties-presentations/
 ---
+
+# .NET의 프레젠테이션에서 파일 형식 속성 읽기
+
 ## 소개
 .NET 개발 세계에서 파일 내의 메타데이터를 관리하는 것은 다양한 애플리케이션에 매우 중요합니다. .NET용 GroupDocs.Metadata는 파일의 메타데이터와 효율적으로 상호 작용할 수 있는 강력한 도구를 제공합니다. 이 자습서에서는 .NET용 GroupDocs.Metadata를 사용하여 프레젠테이션에서 파일 형식 속성을 읽는 과정을 안내합니다.
 ## 전제 조건

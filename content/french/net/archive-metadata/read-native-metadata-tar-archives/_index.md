@@ -6,6 +6,9 @@ description: Découvrez comment extraire des métadonnées des archives TAR dans
 weight: 12
 url: /fr/net/archive-metadata/read-native-metadata-tar-archives/
 ---
+
+# Lire les propriétés de métadonnées natives des archives TAR dans .NET
+
 ## Introduction
 Dans le domaine du développement de logiciels et de la gestion des données, l’accès aux métadonnées et leur manipulation sont une tâche cruciale. Les métadonnées, qui fournissent des informations essentielles sur d'autres données, permettent aux développeurs de comprendre, d'organiser et de traiter efficacement les fichiers. Ce didacticiel explique comment exploiter GroupDocs.Metadata pour .NET pour lire les propriétés de métadonnées natives des archives TAR. Nous explorerons étape par étape comment intégrer cette puissante bibliothèque dans vos projets .NET pour gérer efficacement les métadonnées des archives TAR.
 ## Conditions préalables

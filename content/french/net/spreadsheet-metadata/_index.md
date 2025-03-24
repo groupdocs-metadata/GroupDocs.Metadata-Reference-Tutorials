@@ -7,6 +7,9 @@ description: Libérez la puissance de GroupDocs.Metadata pour .NET avec des dida
 weight: 27
 url: /fr/net/spreadsheet-metadata/
 ---
+
+# Métadonnées de la feuille de calcul
+
 ## Introduction
 
 GroupDocs.Metadata for .NET propose un ensemble complet de didacticiels destinés à permettre aux développeurs d'exploiter efficacement la manipulation des métadonnées dans les feuilles de calcul. Examinons ces didacticiels pour comprendre comment ils peuvent améliorer vos applications .NET.

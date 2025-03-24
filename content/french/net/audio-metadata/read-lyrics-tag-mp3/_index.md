@@ -6,6 +6,9 @@ description: Découvrez comment extraire les balises de paroles de fichiers MP3 
 weight: 13
 url: /fr/net/audio-metadata/read-lyrics-tag-mp3/
 ---
+
+# Lire la balise des paroles à partir de fichiers MP3 dans .NET
+
 ## Introduction
 Dans ce didacticiel, nous apprendrons comment extraire et lire les balises de paroles de fichiers MP3 à l'aide de l'API GroupDocs.Metadata dans .NET. GroupDocs.Metadata est une bibliothèque puissante qui permet aux développeurs de travailler avec des métadonnées associées à divers formats de fichiers, notamment les fichiers MP3. En suivant ces étapes, vous serez en mesure de récupérer efficacement les informations relatives aux paroles intégrées dans les fichiers MP3.
 ## Conditions préalables

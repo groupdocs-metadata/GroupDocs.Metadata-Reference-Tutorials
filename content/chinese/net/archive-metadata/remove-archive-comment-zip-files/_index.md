@@ -6,6 +6,9 @@ description: 学习使用 GroupDocs.Metadata for .NET 删除 ZIP 存档注释。
 weight: 14
 url: /zh/net/archive-metadata/remove-archive-comment-zip-files/
 ---
+
+# 在 .NET 中从 ZIP 文件中删除存档注释
+
 ## 介绍
 在 .NET 开发领域，管理文件内的元数据对于维护文件本身的准确信息至关重要。GroupDocs.Metadata for .NET 提供了一个强大的工具包，可简化各种文件格式（包括 ZIP 文件）的元数据操作。在本教程中，我们将重点介绍如何使用 GroupDocs.Metadata 通过 C# 以编程方式从 ZIP 文件中删除存档注释。 
 ## 先决条件

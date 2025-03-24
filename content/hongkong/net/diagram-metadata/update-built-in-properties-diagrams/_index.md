@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 更新圖表中的�
 weight: 14
 url: /zh-hant/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
+
+# 使用 .NET 更新圖表中的內建屬性
+
 ## 介紹
 在本教學中，我們將探討如何使用 GroupDocs.Metadata for .NET 更新圖表中的內建屬性。該庫允許您操作各種文件格式（包括圖表）中的元資料。我們將介紹先決條件、必要的命名空間，並提供帶有程式碼範例的逐步指南，以有效更新這些屬性。
 

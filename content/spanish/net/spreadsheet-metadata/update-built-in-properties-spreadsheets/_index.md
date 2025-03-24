@@ -6,6 +6,9 @@ description: Aprenda a actualizar las propiedades de metadatos integradas en arc
 weight: 14
 url: /es/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
 ---
+
+# Actualizar propiedades integradas en hojas de cálculo usando .NET
+
 ## Introducción
 En este tutorial, exploraremos cómo utilizar GroupDocs.Metadata para .NET para actualizar las propiedades integradas en archivos de hojas de cálculo usando C#. GroupDocs.Metadata es una potente API que permite a los desarrolladores leer, editar y eliminar propiedades de metadatos de varios formatos de archivos, incluidas las hojas de cálculo. Nos centraremos específicamente en modificar propiedades como autor, hora de creación, empresa, categoría y palabras clave dentro de archivos de Excel.
 ## Requisitos previos

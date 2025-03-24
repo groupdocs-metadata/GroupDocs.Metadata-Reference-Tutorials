@@ -6,6 +6,9 @@ description: GroupDocs.Metadata를 사용하여 .NET에서 PDF 메타데이터�
 weight: 10
 url: /ko/net/pdf-metadata/read-built-in-properties-pdfs/
 ---
+
+# .NET의 PDF에서 내장 속성 읽기
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Metadata를 활용하여 PDF 파일에서 기본 제공 속성을 읽는 방법을 살펴보겠습니다. GroupDocs.Metadata는 개발자가 PDF, Microsoft Office 문서, 이미지 등을 포함한 다양한 문서 형식과 관련된 메타데이터로 작업할 수 있는 강력한 라이브러리입니다. 이 라이브러리를 사용하면 작성자 이름, 생성 날짜, 주제 등과 같이 PDF 파일에 포함된 메타데이터 속성에 쉽게 액세스하고 조작할 수 있습니다.
 ## 전제 조건

@@ -6,6 +6,9 @@ description: Learn how to update built-in properties in diagrams using GroupDocs
 weight: 14
 url: /net/diagram-metadata/update-built-in-properties-diagrams/
 ---
+
+# Update Built-In Properties in Diagrams using .NET
+
 ## Introduction
 In this tutorial, we'll explore how to update built-in properties in diagrams using GroupDocs.Metadata for .NET. This library allows you to manipulate metadata within various document formats, including diagrams. We'll cover the prerequisites, necessary namespaces, and provide a step-by-step guide with code examples to update these properties effectively.
 

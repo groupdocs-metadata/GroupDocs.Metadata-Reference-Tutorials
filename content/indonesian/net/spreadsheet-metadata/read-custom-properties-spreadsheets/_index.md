@@ -6,6 +6,9 @@ description: Pelajari cara mengekstrak properti khusus dari spreadsheet mengguna
 weight: 11
 url: /id/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
 ---
+
+# Baca Properti Kustom dari Spreadsheet di .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengekstrak properti khusus dari spreadsheet menggunakan GroupDocs.Metadata untuk .NET. GroupDocs.Metadata adalah perpustakaan canggih yang memungkinkan pengembang membaca, mengedit, dan memanipulasi properti metadata dalam berbagai format file, termasuk spreadsheet.
 ## Prasyarat

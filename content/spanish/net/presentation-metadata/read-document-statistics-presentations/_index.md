@@ -6,6 +6,9 @@ description: Aprenda a leer estadísticas de documentos de presentaciones en .NE
 weight: 12
 url: /es/net/presentation-metadata/read-document-statistics-presentations/
 ---
+
+# Leer estadísticas de documentos de presentaciones en .NET
+
 ## Introducción
 En el ámbito del desarrollo de .NET, la gestión eficiente de los metadatos de los documentos es crucial para las aplicaciones que manejan presentaciones, hojas de cálculo y otros formatos de archivos. GroupDocs.Metadata para .NET proporciona una solución sólida para acceder, editar y extraer metadatos de varios tipos de archivos. Este tutorial lo guiará a través de la lectura de estadísticas de documentos específicamente de presentaciones usando GroupDocs.Metadata para .NET.
 ## Requisitos previos

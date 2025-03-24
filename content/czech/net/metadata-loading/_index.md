@@ -6,6 +6,9 @@ description: Spravujte metadata souborů v .NET bez námahy pomocí GroupDocs.Me
 weight: 20
 url: /cs/net/metadata-loading/
 ---
+
+# Načítání metadat
+
 ## Úvod
 
 Chcete vylepšit možnosti manipulace se soubory aplikací .NET? Ponořte se do výukových programů GroupDocs.Metadata for .NET, které pokrývají různé aspekty načítání metadat. Od načítání metadat z místních disků po práci s dokumenty chráněnými heslem, máme pro vás vše.

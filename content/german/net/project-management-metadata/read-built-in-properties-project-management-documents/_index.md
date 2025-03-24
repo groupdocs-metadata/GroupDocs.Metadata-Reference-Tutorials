@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET Metadaten au
 weight: 10
 url: /de/net/project-management-metadata/read-built-in-properties-project-management-documents/
 ---
+
+# Lesen Sie integrierte Eigenschaften in .NET-Projektmanagementdokumenten
+
 ## Einführung
 In diesem Tutorial werden wir uns mit der Nutzung von GroupDocs.Metadata für .NET befassen, um integrierte Eigenschaften effizient aus Projektmanagementdokumenten zu extrahieren. Diese Bibliothek bietet robuste Funktionen zum Verwalten von Metadaten in verschiedenen Dateiformaten, einschließlich Microsoft Project, und ermöglicht Entwicklern den programmgesteuerten Zugriff auf wichtige Dokumentdetails. Wir führen Sie Schritt für Schritt durch den Prozess und unterteilen jedes Beispiel, um Klarheit und einfache Implementierung zu gewährleisten.
 ## Voraussetzungen

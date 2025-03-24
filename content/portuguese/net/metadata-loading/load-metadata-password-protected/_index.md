@@ -6,6 +6,9 @@ description: Aprenda como gerenciar metadados de documentos de forma eficiente c
 weight: 13
 url: /pt/net/metadata-loading/load-metadata-password-protected/
 ---
+
+# Como carregar metadados de um documento protegido por senha no .NET
+
 ## Introdução
 No mundo do desenvolvimento .NET, o gerenciamento de metadados em documentos é crucial para vários aplicativos. GroupDocs.Metadata for .NET fornece ferramentas poderosas para extrair, editar e gerenciar metadados de maneira direta. Este tutorial orientará você no processo de carregamento de metadados de documentos protegidos por senha usando GroupDocs.Metadata.
 ##Pré-requisitos

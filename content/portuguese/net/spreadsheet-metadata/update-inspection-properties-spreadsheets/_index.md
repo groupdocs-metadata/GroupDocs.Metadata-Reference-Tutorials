@@ -6,6 +6,9 @@ description: Aprenda como atualizar propriedades de inspeção em planilhas usan
 weight: 16
 url: /pt/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
 ---
+
+# Atualizar propriedades de inspeção em planilhas usando .NET
+
 ## Introdução
 Neste tutorial, exploraremos como usar GroupDocs.Metadata for .NET para atualizar propriedades de inspeção em planilhas. GroupDocs.Metadata é uma API poderosa que permite trabalhar com metadados associados a vários formatos de documentos, incluindo planilhas. Vamos nos concentrar especificamente na limpeza de comentários, assinaturas digitais e planilhas ocultas de uma planilha usando .NET.
 ## Pré-requisitos

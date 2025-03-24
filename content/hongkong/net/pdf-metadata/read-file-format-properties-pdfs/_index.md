@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 來提取 PDF 文件
 weight: 13
 url: /zh-hant/net/pdf-metadata/read-file-format-properties-pdfs/
 ---
+
+# 從 .NET 中的 PDF 讀取檔案格式屬性
+
 ## 介紹
 在本教學中，我們將探討如何利用 GroupDocs.Metadata for .NET 從 PDF 文件讀取文件格式屬性。 GroupDocs.Metadata for .NET 是一個功能強大的函式庫，使開發人員能夠處理與各種文件格式關聯的元數據，從而實現元數據屬性的高效管理和提取。具體來說，我們將重點放在使用簡單有效的程式碼範例從 PDF 檔案中提取基本屬性。
 ## 先決條件

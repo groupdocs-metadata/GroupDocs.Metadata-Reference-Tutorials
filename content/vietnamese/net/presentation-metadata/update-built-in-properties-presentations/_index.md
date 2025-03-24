@@ -6,6 +6,9 @@ description: Tìm hiểu cách cập nhật các thuộc tính tích hợp trong
 weight: 15
 url: /vi/net/presentation-metadata/update-built-in-properties-presentations/
 ---
+
+# Cập nhật các thuộc tính tích hợp trong bản trình bày bằng .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào các khả năng mạnh mẽ của GroupDocs.Metadata dành cho .NET, một thư viện toàn diện được thiết kế để thao tác siêu dữ liệu trong các tài liệu bằng .NET framework. Cụ thể, chúng tôi sẽ tập trung vào việc cập nhật các thuộc tính tích hợp trong bản trình bày (tệp .PPT và .PPTX) theo chương trình bằng C#.
 ## Điều kiện tiên quyết

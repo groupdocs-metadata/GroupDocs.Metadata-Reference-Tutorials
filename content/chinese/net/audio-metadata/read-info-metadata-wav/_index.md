@@ -6,6 +6,9 @@ description: 了解如何使用 GroupDocs.Metadata for .NET 从 WAV 文件中提
 weight: 22
 url: /zh/net/audio-metadata/read-info-metadata-wav/
 ---
+
+# 从 .NET 中的 WAV 文件读取信息元数据
+
 ## 介绍
 在 .NET 开发领域，管理和提取各种文件格式的元数据是许多应用程序的关键方面。对于 WAV（波形音频文件格式）文件，检索嵌入其中的信息对于对音频内容进行分类、组织和理解至关重要。
 在本教程中，我们将探索如何利用 GroupDocs.Metadata for .NET 从 WAV 文件中读取特定元数据。GroupDocs.Metadata 是一个功能强大的 API，允许开发人员处理各种文件格式的元数据，包括 WAV 等音频文件。

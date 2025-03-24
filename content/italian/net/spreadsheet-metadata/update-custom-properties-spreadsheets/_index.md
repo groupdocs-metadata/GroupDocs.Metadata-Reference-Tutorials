@@ -6,6 +6,9 @@ description: Scopri come aggiornare le proprietà personalizzate nei fogli di ca
 weight: 15
 url: /it/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---
+
+# Aggiorna le proprietà personalizzate nei fogli di calcolo utilizzando .NET
+
 ## introduzione
 In questo tutorial esploreremo come aggiornare le proprietà personalizzate nei fogli di calcolo utilizzando la libreria GroupDocs.Metadata per .NET. Le proprietà personalizzate possono migliorare i metadati dei file del foglio di calcolo, fornendo contesto o informazioni aggiuntivi non coperti dalle proprietà standard.
 ## Prerequisiti

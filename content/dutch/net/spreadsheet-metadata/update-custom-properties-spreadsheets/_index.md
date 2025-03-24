@@ -6,6 +6,9 @@ description: Ontdek hoe u aangepaste eigenschappen in spreadsheets kunt bijwerke
 weight: 15
 url: /nl/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
 ---
+
+# Update aangepaste eigenschappen in spreadsheets met .NET
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u aangepaste eigenschappen in spreadsheets kunt bijwerken met behulp van de GroupDocs.Metadata voor .NET-bibliotheek. Aangepaste eigenschappen kunnen de metagegevens van uw spreadsheetbestanden verbeteren, waardoor extra context of informatie wordt geboden die niet onder de standaardeigenschappen valt.
 ## Vereisten

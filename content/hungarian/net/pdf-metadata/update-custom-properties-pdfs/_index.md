@@ -6,6 +6,9 @@ description: Ismerje meg, hogyan frissítheti az egyéni tulajdonságokat PDF-f�
 weight: 16
 url: /hu/net/pdf-metadata/update-custom-properties-pdfs/
 ---
+
+# Frissítse a PDF-fájlok egyéni tulajdonságait .NET használatával
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan frissíthetők az egyéni tulajdonságok PDF-fájlokban a .NET használatával a GroupDocs.Metadata segítségével. Az egyéni tulajdonságok lehetővé teszik további metaadatok hozzáadását a PDF-dokumentumokhoz, amelyek hasznosak lehetnek a kategorizálás, a kereshetőség és az információ-visszakeresés szempontjából. A GroupDocs.Metadata egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy a .NET-keretrendszer használatával dolgozzanak különféle fájlformátumú metaadatokkal, beleértve a PDF-eket is.
 ## Előfeltételek

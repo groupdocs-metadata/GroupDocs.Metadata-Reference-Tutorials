@@ -6,6 +6,9 @@ description: Découvrez comment supprimer les balises ID3V1 des fichiers MP3 à 
 weight: 16
 url: /fr/net/audio-metadata/remove-id3v1-tag-mp3/
 ---
+
+# Supprimer la balise ID3V1 des fichiers MP3 dans .NET
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment supprimer la balise ID3V1 des fichiers MP3 à l'aide de GroupDocs.Metadata pour .NET. GroupDocs.Metadata est une bibliothèque puissante qui permet aux développeurs de manipuler les propriétés des métadonnées de divers formats de fichiers, y compris les fichiers MP3. La balise ID3V1 est couramment utilisée pour stocker des métadonnées telles que le nom de l'artiste, le titre de la piste, l'album et le genre dans les fichiers MP3, mais vous devrez parfois la supprimer pour des besoins spécifiques. Nous allons parcourir le processus étape par étape à l’aide d’exemples pratiques.
 ## Conditions préalables

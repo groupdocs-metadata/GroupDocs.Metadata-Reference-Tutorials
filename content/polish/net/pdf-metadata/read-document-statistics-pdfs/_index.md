@@ -6,6 +6,9 @@ description: Dowiedz się, jak wyodrębnić statystyki dokumentów PDF przy uży
 weight: 12
 url: /pl/net/pdf-metadata/read-document-statistics-pdfs/
 ---
+
+# Czytaj statystyki dokumentów z plików PDF w .NET
+
 ## Wstęp
 świecie tworzenia oprogramowania efektywne zarządzanie metadanymi dokumentów ma kluczowe znaczenie dla wielu aplikacji. GroupDocs.Metadata dla .NET zapewnia zaawansowane narzędzia do odczytywania i manipulowania metadanymi w różnych formatach dokumentów. W tym samouczku skupiono się na wykorzystaniu tej możliwości specjalnie w przypadku plików PDF przy użyciu platformy .NET. Pod koniec tego przewodnika dowiesz się, jak wyodrębnić statystyki dokumentów, takie jak liczba znaków, liczba stron i liczba słów, z plików PDF za pomocą GroupDocs.Metadata.
 ## Warunki wstępne

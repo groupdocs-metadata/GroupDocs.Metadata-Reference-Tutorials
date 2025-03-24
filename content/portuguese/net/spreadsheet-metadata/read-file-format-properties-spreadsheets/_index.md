@@ -6,6 +6,9 @@ description: Aprenda a ler propriedades de formato de arquivo de planilha usando
 weight: 12
 url: /pt/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
+
+# Leia as propriedades de formato de arquivo de planilhas em .NET
+
 ## Introdução
 Neste tutorial, exploraremos como aproveitar GroupDocs.Metadata for .NET para ler com eficiência propriedades de formato de arquivo em planilhas. GroupDocs.Metadata for .NET é uma API poderosa que permite aos desenvolvedores extrair, editar e gerenciar metadados associados a vários formatos de arquivo em seus aplicativos .NET. Vamos nos concentrar especificamente na recuperação de informações essenciais sobre arquivos de planilhas usando esta biblioteca.
 ## Pré-requisitos

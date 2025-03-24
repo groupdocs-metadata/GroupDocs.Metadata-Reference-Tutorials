@@ -6,6 +6,9 @@ description: Scopri come leggere le proprietà del formato file del foglio di ca
 weight: 12
 url: /it/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
 ---
+
+# Leggere le proprietà del formato file dai fogli di calcolo in .NET
+
 ## introduzione
 In questo tutorial esploreremo come sfruttare GroupDocs.Metadata per .NET per leggere in modo efficiente le proprietà del formato file dai fogli di calcolo. GroupDocs.Metadata per .NET è una potente API che consente agli sviluppatori di estrarre, modificare e gestire i metadati associati a vari formati di file all'interno delle loro applicazioni .NET. Ci concentreremo specificamente sul recupero delle informazioni essenziali sui file dei fogli di calcolo utilizzando questa libreria.
 ## Prerequisiti

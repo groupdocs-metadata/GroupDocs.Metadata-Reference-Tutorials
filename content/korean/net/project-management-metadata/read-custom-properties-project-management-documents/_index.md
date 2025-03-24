@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 .NET 프로젝트 관리
 weight: 11
 url: /ko/net/project-management-metadata/read-custom-properties-project-management-documents/
 ---
+
+# .NET 프로젝트 관리 문서에서 사용자 정의 속성 읽기
+
 ## 소개
 .NET 개발 세계에서 프로젝트 관리 문서 내의 메타데이터를 관리하는 것은 데이터 구성 및 검색의 중요한 측면입니다. .NET용 GroupDocs.Metadata는 Microsoft Project(MPP) 파일과 같은 다양한 프로젝트 관리 파일 형식에서 사용자 정의 속성을 읽을 수 있는 강력한 기능을 제공합니다. 이 튜토리얼에서는 GroupDocs.Metadata를 활용하여 .NET 프로젝트 관리 문서에서 사용자 정의 속성을 추출하는 프로세스를 단계별로 안내합니다.
 ## 전제 조건

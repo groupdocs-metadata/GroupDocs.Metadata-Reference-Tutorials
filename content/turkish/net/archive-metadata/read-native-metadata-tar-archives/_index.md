@@ -6,6 +6,9 @@ description: GroupDocs.Metadata'yı kullanarak .NET'teki TAR arşivlerinden meta
 weight: 12
 url: /tr/net/archive-metadata/read-native-metadata-tar-archives/
 ---
+
+# .NET'teki TAR Arşivlerinden Yerel Meta Veri Özelliklerini Okuyun
+
 ## giriiş
 Yazılım geliştirme ve veri yönetimi alanında meta verilere erişmek ve bunları değiştirmek çok önemli bir görevdir. Diğer veriler hakkında temel bilgiler sağlayan meta veriler, geliştiricilerin dosyaları etkili bir şekilde anlamasını, organize etmesini ve işlemesini sağlar. Bu eğitimde, TAR arşivlerinden yerel meta veri özelliklerini okumak için GroupDocs.Metadata for .NET'ten yararlanma konusu ele alınmaktadır. TAR arşivi meta verilerini verimli bir şekilde yönetmek için bu güçlü kitaplığı .NET projelerinize nasıl entegre edebileceğinizi adım adım keşfedeceğiz.
 ## Önkoşullar

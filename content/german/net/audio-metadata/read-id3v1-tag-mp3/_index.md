@@ -6,6 +6,9 @@ description: Erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET ID3V1-Tags a
 weight: 11
 url: /de/net/audio-metadata/read-id3v1-tag-mp3/
 ---
+
+# Lesen Sie das ID3V1-Tag aus MP3-Dateien in .NET
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET ID3V1-Tags aus MP3-Dateien extrahieren. GroupDocs.Metadata ist eine leistungsstarke Bibliothek, die Ihnen die Arbeit mit Metadaten in verschiedenen Dateiformaten, einschließlich MP3-Audiodateien, ermöglicht. Wir führen Sie Schritt für Schritt durch den Prozess.
 ## Voraussetzungen

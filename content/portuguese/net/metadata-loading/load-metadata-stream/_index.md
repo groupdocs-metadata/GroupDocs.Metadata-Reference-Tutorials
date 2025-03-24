@@ -6,6 +6,9 @@ description: Aprenda a gerenciar metadados de arquivos em .NET com GroupDocs.Met
 weight: 11
 url: /pt/net/metadata-loading/load-metadata-stream/
 ---
+
+# Carregando metadados do stream no tutorial .NET
+
 ## Introdução
 Neste tutorial, exploraremos como usar GroupDocs.Metadata for .NET para gerenciar metadados com eficácia em seus aplicativos .NET. Os metadados, como propriedades do documento, podem fornecer informações valiosas sobre os arquivos, incluindo detalhes como autor, data de criação e palavras-chave. GroupDocs.Metadata simplifica o processo de leitura, edição e remoção de metadados de vários formatos de arquivo em um ambiente .NET. Este guia se concentrará no carregamento de metadados de um fluxo, demonstrando procedimentos passo a passo usando exemplos práticos.
 ## Pré-requisitos

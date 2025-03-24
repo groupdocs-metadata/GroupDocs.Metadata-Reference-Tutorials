@@ -6,6 +6,9 @@ description: .NET용 GroupDocs.Metadata를 사용하여 프로그래밍 방식�
 weight: 21
 url: /ko/net/audio-metadata/update-lyrics-tag-mp3/
 ---
+
+# .NET을 사용하여 MP3 파일의 가사 태그 업데이트
+
 ## 소개
 이 자습서에서는 .NET용 GroupDocs.Metadata 라이브러리를 사용하여 MP3 파일의 가사 태그를 프로그래밍 방식으로 업데이트하는 방법을 보여줍니다. 이 프로세스에는 특히 가사 정보를 대상으로 MP3 파일의 메타데이터에 액세스하고 수정하는 작업이 포함됩니다.
 ## 전제 조건

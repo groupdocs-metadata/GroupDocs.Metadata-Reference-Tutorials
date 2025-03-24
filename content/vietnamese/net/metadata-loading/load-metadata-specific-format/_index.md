@@ -6,6 +6,9 @@ description: Tìm hiểu cách tải siêu dữ liệu từ các định dạng 
 weight: 12
 url: /vi/net/metadata-loading/load-metadata-specific-format/
 ---
+
+# Đang tải siêu dữ liệu từ định dạng cụ thể trong .NET
+
 ## Giới thiệu
 Trong thế giới phát triển phần mềm, việc quản lý siêu dữ liệu—thông tin về các dữ liệu khác—là rất quan trọng để tổ chức, hiểu và sử dụng các loại tệp khác nhau một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng GroupDocs.Metadata cho .NET để xử lý siêu dữ liệu ở các định dạng tệp cụ thể. Cho dù bạn đang xây dựng các ứng dụng liên quan đến quản lý tài liệu, quản lý tài sản kỹ thuật số hay phân tích dữ liệu, việc hiểu thao tác siêu dữ liệu có thể hợp lý hóa quy trình công việc của bạn.
 ## Điều kiện tiên quyết

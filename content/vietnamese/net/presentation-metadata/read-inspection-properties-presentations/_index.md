@@ -6,6 +6,9 @@ description: Tìm hiểu cách trích xuất siêu dữ liệu bản trình bày
 weight: 14
 url: /vi/net/presentation-metadata/read-inspection-properties-presentations/
 ---
+
+# Đọc thuộc tính kiểm tra từ bản trình bày trong .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng GroupDocs.Metadata cho .NET để đọc và kiểm tra các thuộc tính từ bản trình bày. GroupDocs.Metadata là một API mạnh mẽ cho phép các nhà phát triển làm việc với siêu dữ liệu được nhúng trong các tài liệu, chẳng hạn như bản trình bày, tệp PDF, hình ảnh, v.v. Chúng tôi sẽ tập trung cụ thể vào các bản trình bày (tệp PPTX) và trình bày cách trích xuất thông tin như nhận xét, trang trình bày ẩn, v.v.
 ## Điều kiện tiên quyết

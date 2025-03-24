@@ -6,6 +6,9 @@ description: GroupDocs.Metadata'yı kullanarak .NET'teki diyagram dosyalarından
 weight: 10
 url: /tr/net/diagram-metadata/read-built-in-properties-diagrams/
 ---
+
+# .NET'teki Diyagramlardan Yerleşik Özellikleri Okuyun
+
 ## giriiş
 Bu öğreticide, diyagramlardan yerleşik özellikleri okumak için GroupDocs.Metadata for .NET'i kullanmayı inceleyeceğiz. GroupDocs.Metadata for .NET, geliştiricilerin diyagramlar, sunumlar, resimler ve daha fazlası dahil olmak üzere çeşitli belge türleriyle ilişkili meta verilerle çalışmasına olanak tanıyan güçlü bir kitaplıktır. Özellikle, bu kitaplığı kullanarak diyagram dosyalarından meta veri özelliklerini çıkarmaya odaklanacağız.
 ## Önkoşullar

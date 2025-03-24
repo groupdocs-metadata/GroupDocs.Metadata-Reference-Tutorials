@@ -6,6 +6,9 @@ description: Lär dig hur du uppdaterar inbyggda egenskaper i diagram med GroupD
 weight: 14
 url: /sv/net/diagram-metadata/update-built-in-properties-diagrams/
 ---
+
+# Uppdatera inbyggda egenskaper i diagram med .NET
+
 ## Introduktion
 den här handledningen kommer vi att utforska hur du uppdaterar inbyggda egenskaper i diagram med GroupDocs.Metadata för .NET. Detta bibliotek låter dig manipulera metadata inom olika dokumentformat, inklusive diagram. Vi kommer att täcka förutsättningarna, nödvändiga namnutrymmen och tillhandahålla en steg-för-steg-guide med kodexempel för att uppdatera dessa egenskaper effektivt.
 

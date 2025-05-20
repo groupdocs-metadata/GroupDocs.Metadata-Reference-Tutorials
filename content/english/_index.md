@@ -17,7 +17,6 @@ Explore the world of metadata management in .NET with GroupDocs.Metadata tutoria
 
 ### Essential .NET Metadata Tutorials
 
-- [Getting Started](./net/getting-started/)
 - [Document Loading & Saving](./net/document-loading-saving/)
 - [Working with Metadata](./net/working-with-metadata/)
 - [Metadata Standards](./net/metadata-standards/)
@@ -54,7 +53,6 @@ Discover comprehensive tutorials for GroupDocs.Metadata in Java. From basic meta
 
 ### Essential Java Metadata Tutorials
 
-- [Getting Started](./java/getting-started/)
 - [Document Loading & Saving](./java/document-loading-saving/)
 - [Working with Metadata](./java/working-with-metadata/)
 - [Metadata Standards](./java/metadata-standards/)
@@ -65,7 +63,6 @@ Discover comprehensive tutorials for GroupDocs.Metadata in Java. From basic meta
 - [Archive Formats](./java/archive-formats/)
 - [CAD Formats](./java/cad-formats/)
 - [E-Book Formats](./java/ebook-formats/)
-- [3D Formats](./java/3d-formats/)
 - [Diagram Formats](./java/diagram-formats/)
 - [Project Management Formats](./java/project-management-formats/)
 - [Note-Taking Formats](./java/note-taking-formats/)

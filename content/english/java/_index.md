@@ -12,8 +12,6 @@ Welcome to the world of GroupDocs.Metadata for Java tutorials! In today's digita
 
 ## GroupDocs.Metadata for Java Tutorials
 
-### [Getting Started](./getting-started/)
-Begin your journey with GroupDocs.Metadata for Java tutorials that walk you through installation, licensing configuration, and basic operations. Master the fundamentals quickly with our step-by-step guides for metadata management.
 
 ### [Document Loading & Saving](./document-loading-saving/)
 Learn comprehensive document loading and saving operations with GroupDocs.Metadata for Java. Handle files from disk, streams, URLs, and password-protected documents with ease through practical code examples.
@@ -44,9 +42,6 @@ Manage CAD file metadata with GroupDocs.Metadata for Java. Learn to extract and 
 
 ### [E-Book Formats](./ebook-formats/)
 Implement comprehensive metadata management for digital publications with GroupDocs.Metadata for Java. Our tutorials cover extracting and manipulating metadata in EPUB, FB2, and MOBI formats.
-
-### [3D Formats](./3d-formats/)
-Master 3D model metadata with GroupDocs.Metadata for Java. Extract and manipulate metadata in FBX, STL, DAE, and more with our detailed tutorials and code examples for effective 3D asset management.
 
 ### [Diagram Formats](./diagram-formats/)
 Work with metadata in diagramming files using GroupDocs.Metadata for Java. Learn how to extract, modify, and clean metadata in Visio documents for better organization and document properties management.

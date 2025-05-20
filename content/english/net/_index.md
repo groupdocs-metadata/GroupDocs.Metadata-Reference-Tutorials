@@ -55,9 +55,6 @@ Learn how to efficiently manage presentation metadata in .NET using GroupDocs.Me
 Unlock the potential of .NET project management documents with GroupDocs.Metadata for .NET tutorials. Extract, update, and manage metadata effortlessly.
 ### [Spreadsheet Metadata](./spreadsheet-metadata/)
 Unlock the power of GroupDocs.Metadata for .NET with tutorials on reading and updating spreadsheet properties. Elevate metadata manipulation in your .NET applications.
-### [Getting Started](./getting-started/)
-Begin your journey with GroupDocs.Metadata for .NET tutorials that walk you through installation, licensing configuration, and basic operations. Master the fundamentals quickly with our step-by-step guides for metadata management.
-
 ### [Document Loading & Saving](./document-loading-saving/)
 Learn comprehensive document loading and saving operations with GroupDocs.Metadata for .NET. Handle files from disk, streams, URLs, and password-protected documents with ease through practical code examples.
 

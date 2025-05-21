@@ -62,9 +62,6 @@ Learn how to remove Photoshop metadata from JPEG images using GroupDocs.Metadata
 ### [How to Remove XMP Metadata Using GroupDocs.Metadata for .NET](./remove-xmp-metadata-groupdocs-metadata-net/)
 Learn how to efficiently remove XMP metadata from files using GroupDocs.Metadata for .NET. This guide covers setup, code examples, and best practices for digital asset management.
 
-### [How to Save and Update Document Metadata Using GroupDocs.Metadata for .NET](./save-modified-metadata-groupdocs-net/)
-Learn how to efficiently update document metadata with GroupDocs.Metadata for .NET. This guide covers setup, modification, and saving changes seamlessly in your .NET applications.
-
 ### [How to Set Metadata Properties Based on Criteria Using GroupDocs.Metadata for .NET](./groupdocs-metadata-net-set-properties-criteria/)
 Learn how to efficiently manage metadata properties in digital documents using GroupDocs.Metadata for .NET. Follow this guide to set criteria-based metadata updates seamlessly.
 

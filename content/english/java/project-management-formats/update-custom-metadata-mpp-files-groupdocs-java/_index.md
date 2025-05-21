@@ -123,9 +123,15 @@ Updating custom metadata in Project Management (MPP) files using GroupDocs.Metad
 To further explore GroupDocs.Metadata's capabilities, consider experimenting with additional metadata types or integrating other GroupDocs products that complement your document management needs.
 Ready to implement this solution? Dive in and start customizing your project documents today!
 ## FAQ Section
+
 **Q1: What is the primary use of updating custom metadata in MPP files?**
-A1: It allows for dynamic customization of document properties, aiding in better project tracking and resource management.
+
+- A1: It allows for dynamic customization of document properties, aiding in better project tracking and resource management.
+
 **Q2: Can I update metadata without affecting other file contents?**
-A2: Yes, GroupDocs.Metadata focuses on modifying only specified metadata fields without altering the core content of your documents.
+
+- A2: Yes, GroupDocs.Metadata focuses on modifying only specified metadata fields without altering the core content of your documents.
+
 **Q3: Is it necessary to have a license for using GroupDocs.Metadata?**
-A3: A free trial or temporary license suffices for testing purposes. For extended use, consider obtaining a full license.
+
+- A3: A free trial or temporary license suffices for testing purposes. For extended use, consider obtaining a full license.

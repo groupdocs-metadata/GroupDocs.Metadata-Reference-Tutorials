@@ -41,9 +41,6 @@ Learn how to use GroupDocs.Metadata in .NET to efficiently extract specific EXIF
 ### [How to Extract XMP Metadata Using GroupDocs.Metadata for .NET&#58; A Comprehensive Guide](./extract-xmp-metadata-groupdocs-metadata-net/)
 Learn how to efficiently extract and manage XMP metadata with GroupDocs.Metadata for .NET. This guide covers basic, Dublin Core, and Photoshop-specific metadata extraction techniques.
 
-### [How to Extract and Compare EXIF Properties from Images Using GroupDocs.Metadata for .NET](./groupdocs-metadata-extract-compare-exif-properties/)
-Learn how to efficiently extract and compare EXIF properties in images with GroupDocs.Metadata for .NET. Master metadata manipulation for photo organization, forensic analysis, and compliance.
-
 ### [How to Manage IPTC Keywords in .NET Using GroupDocs.Metadata&#58; A Comprehensive Guide](./groupdocs-metadata-net-iptc-keywords/)
 Learn how to efficiently manage and verify IPTC keywords in your digital media files using the powerful GroupDocs.Metadata library for .NET.
 

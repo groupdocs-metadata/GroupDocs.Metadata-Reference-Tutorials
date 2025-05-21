@@ -110,9 +110,6 @@ Learn how to access password-protected documents using the powerful GroupDocs.Me
 ### [Update Word Metadata Using GroupDocs.Metadata .NET&#58; A Step-by-Step Guide](./update-word-metadata-groupdocs-dotnet-tutorial/)
 Learn how to efficiently update metadata in Word documents using GroupDocs.Metadata for .NET. Streamline document management with this comprehensive guide.
 
-### [Updating PDF Metadata Efficiently Using GroupDocs.Metadata .NET&#58; A Step-by-Step Guide](./updating-pdf-metadata-groupdocs-metadata-net/)
-Learn how to update PDF metadata efficiently with GroupDocs.Metadata for .NET. This comprehensive guide covers environment setup, code examples, and practical applications.
-
 ## Additional Resources
 
 - [GroupDocs.Metadata for Net Documentation](https://docs.groupdocs.com/metadata/net/)

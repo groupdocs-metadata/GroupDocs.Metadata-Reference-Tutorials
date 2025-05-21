@@ -40,7 +40,7 @@ Explore archive metadata manipulation with GroupDocs.Metadata for Java. Our tuto
 ### [CAD Formats](./cad-formats/)
 Manage CAD file metadata with GroupDocs.Metadata for Java. Learn to extract and manipulate metadata in engineering files like DWG and DXF to effectively organize technical drawings and maintain project information.
 
-### [E-Book Formats](./ebook-formats/)
+### [E-Book Formats](./e-book-formats/)
 Implement comprehensive metadata management for digital publications with GroupDocs.Metadata for Java. Our tutorials cover extracting and manipulating metadata in EPUB, FB2, and MOBI formats.
 
 ### [Diagram Formats](./diagram-formats/)

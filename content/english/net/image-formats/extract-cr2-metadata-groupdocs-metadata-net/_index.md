@@ -26,14 +26,14 @@ Extracting metadata from Canon RAW (CR2) files can be a daunting task, especiall
 
 Ready to dive into digital image metadata? Let's get started!
 
-## Prerequisites (H2)
+## Prerequisites
 Before we begin, ensure you have the following prerequisites in place:
 
 - **Development Environment:** A .NET development environment like Visual Studio or VS Code with the C# extension is recommended.
 - **GroupDocs.Metadata Library:** We will use GroupDocs.Metadata for .NET to extract metadata from CR2 files.
 - **Basic Knowledge:** Familiarity with C# and understanding of basic file operations in .NET would be beneficial.
 
-## Setting Up GroupDocs.Metadata for .NET (H2)
+## Setting Up GroupDocs.Metadata for .NET
 To start working with GroupDocs.Metadata, you need to install the library. Here are a few options:
 
 ### Installation Instructions
@@ -65,7 +65,7 @@ using GroupDocs.Metadata;
 ## Implementation Guide
 In this section, we'll break down the process of reading CR2 metadata into manageable steps.
 
-### Reading Basic Metadata (H2)
+### Reading Basic Metadata
 **Overview:** Access basic metadata like file type and specific properties such as artist name and copyright information.
 
 #### Step 1: Load the CR2 File
@@ -116,14 +116,14 @@ Get interpreted values for specific settings:
 ```
 **Explanation:** Here, we access the interpreted value for the macro mode setting stored in the CR2 file.
 
-## Practical Applications (H2)
+## Practical Applications
 Understanding and extracting metadata from CR2 files has several practical applications:
 
 1. **Photo Management Systems:** Automate categorization based on metadata like artist or copyright.
 2. **Image Editing Software:** Access camera settings to offer better editing tools tailored to specific lenses or modes.
 3. **Digital Asset Management:** Enhance asset tracking by utilizing detailed metadata for search and retrieval.
 
-## Performance Considerations (H2)
+## Performance Considerations
 When working with GroupDocs.Metadata, consider these performance tips:
 
 - **Optimize Memory Usage:** Dispose of objects promptly using `using` statements to free up resources.
@@ -139,7 +139,7 @@ In this guide, you've learned how to set up GroupDocs.Metadata for .NET and extr
 
 Ready to start extracting CR2 metadata on your own? Give it a try and explore the possibilities!
 
-## FAQ Section (H2)
+## FAQ Section
 
 **1. What is GroupDocs.Metadata for .NET used for?**
 GroupDocs.Metadata for .NET is a powerful library that allows developers to read, modify, add, or remove metadata from various file formats, including CR2 files.

@@ -29,9 +29,6 @@ Learn how to extract metadata from AVI files using the powerful GroupDocs.Metada
 ### [How to Extract ID3v1 Tags from MP3 Files Using GroupDocs.Metadata Java API](./extract-id3v1-tags-mp3-groupdocs-metadata-java/)
 Learn how to extract ID3v1 tags from MP3 files using GroupDocs.Metadata in Java. This tutorial covers setup, code implementation, and best practices.
 
-### [How to Extract MP3 Lyrics Using GroupDocs.Metadata Java&#58; A Step-by-Step Guide](./extract-mp3-lyrics-groupdocs-metadata-java/)
-Learn how to efficiently extract MP3 lyrics and metadata using GroupDocs.Metadata for Java. Follow this step-by-step guide to enhance your audio file management.
-
 ### [How to Extract Subtitles from MKV Files Using Java and GroupDocs.Metadata](./extract-subtitles-mkv-files-java-groupdocs-metadata/)
 Learn how to extract subtitles from MKV files using the powerful GroupDocs.Metadata library in Java. This guide covers setup, implementation, and practical applications.
 

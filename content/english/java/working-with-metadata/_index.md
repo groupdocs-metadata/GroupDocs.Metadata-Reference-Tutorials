@@ -23,9 +23,6 @@ Learn how to automate and update metadata properties in Java using GroupDocs.Met
 ### [Automate Spreadsheet Metadata Updates in Java Using GroupDocs.Metadata](./automate-spreadsheet-metadata-updates-java-groupdocs/)
 Learn to automate spreadsheet metadata updates with Java and GroupDocs.Metadata. Streamline document properties management for Excel spreadsheets efficiently.
 
-### [Efficient Metadata Updates in Java Using Regex and GroupDocs.Metadata](./groupdocs-metadata-java-regex-update/)
-Learn how to automate metadata updates across multiple documents using GroupDocs.Metadata for Java with regex. Streamline your document management efficiently.
-
 ### [Efficiently Remove XMP Metadata from JPEGs Using GroupDocs.Metadata Java Library](./remove-xmp-metadata-jpeg-files-java-groupdocs/)
 Learn how to remove XMP metadata from JPEG files using the GroupDocs.Metadata library in Java for enhanced privacy and storage optimization.
 
@@ -44,9 +41,6 @@ Learn how to use GroupDocs.Metadata for Java to extract built-in properties from
 ### [How to Extract Metadata from PowerPoint Presentations Using GroupDocs.Metadata in Java](./extract-presentation-metadata-groupdocs-java/)
 Learn how to efficiently extract and manage metadata from PowerPoint files using GroupDocs.Metadata for Java. Streamline your document workflows with this comprehensive tutorial.
 
-### [How to Read Custom Metadata from Word Documents Using GroupDocs.Metadata Java](./master-document-metadata-groupdocs-metadata-java/)
-Learn how to efficiently manage and extract custom metadata properties from Word documents using the powerful GroupDocs.Metadata Java library. Enhance document searchability and security.
-
 ### [How to Remove IPTC Metadata from Images Using GroupDocs.Metadata for Java](./remove-iptc-metadata-images-groupdocs-metadata-java/)
 Learn how to remove IPTC metadata from images using the GroupDocs.Metadata library in Java. This guide provides a step-by-step tutorial to enhance your image privacy and file size.
 
@@ -61,12 +55,6 @@ Learn how to manipulate file metadata using GroupDocs.Metadata in Java. This gui
 
 ### [Manage Metadata with GroupDocs.Metadata for Java&#58; A Comprehensive Guide](./manage-metadata-groupdocs-java/)
 Learn how to manage and update metadata properties in various file formats using GroupDocs.Metadata for Java. Enhance document organization and compliance effortlessly.
-
-### [Master Custom Metadata with GroupDocs.Metadata in Java&#58; A Comprehensive Guide for Project Management Documents](./master-custom-metadata-groupdocs-metadata-java/)
-Learn how to efficiently read custom metadata properties using GroupDocs.Metadata in Java. This guide covers setup, best practices, and real-world applications.
-
-### [Master Document Inspection in Java with GroupDocs.Metadata&#58; A Comprehensive Guide for Metadata Management](./mastering-document-inspection-java-groupdocs-metadata/)
-Learn how to efficiently inspect and manipulate metadata, comments, digital signatures, fields, hidden text, and revisions in Word documents using GroupDocs.Metadata for Java.
 
 ### [Master File Metadata Processing in Java with GroupDocs.Metadata](./groupdocs-metadata-java-processing-guide/)
 Learn how to efficiently manage file metadata using GroupDocs.Metadata for Java. Discover techniques for processing, removing, and saving file metadata.

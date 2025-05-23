@@ -14,9 +14,6 @@ Our metadata standards tutorials provide comprehensive guidance for implementing
 ### [Add Custom XMP Metadata to Files with GroupDocs.Metadata Java&#58; A Comprehensive Guide](./add-custom-xmp-metadata-groupdocs-java/)
 Learn how to add custom XMP metadata packages to files using GroupDocs.Metadata for Java. Enhance file data management with this step-by-step tutorial.
 
-### [Add EXIF Artist Name to TIFF Files Using GroupDocs.Metadata for Java](./add-exif-artist-name-tiff-groupdocs-metadata-java/)
-Learn how to add an artist's name as an EXIF property in TIFF files with GroupDocs.Metadata for Java. A step-by-step guide for digital asset management and software development.
-
 ### [EXIF Metadata Management in Java&#58; A Complete Guide Using GroupDocs.Metadata](./exif-metadata-management-java-groupdocs-metadata/)
 Learn how to efficiently manage EXIF metadata in Java applications using GroupDocs.Metadata, covering setup, updates, and saving changes.
 

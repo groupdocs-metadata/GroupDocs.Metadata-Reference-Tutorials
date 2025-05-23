@@ -11,9 +11,6 @@ Master email and contact metadata management with our detailed GroupDocs.Metadat
 
 ## Available Tutorials
 
-### [How to Extract MSG Details Using GroupDocs.Metadata for Java&#58; A Complete Guide](./extract-msg-details-groupdocs-metadata-java/)
-Learn how to efficiently extract key details from Microsoft Outlook MSG files using GroupDocs.Metadata for Java, including sender, subject, recipients, and more.
-
 ### [How to Extract vCard Photo URIs Using GroupDocs.Metadata in Java for Efficient Contact Management](./extract-vcard-photo-uris-groupdocs-metadata-java/)
 Learn how to extract photo URIs from vCards using GroupDocs.Metadata in Java. Enhance your contact management systems with efficient metadata extraction techniques.
 

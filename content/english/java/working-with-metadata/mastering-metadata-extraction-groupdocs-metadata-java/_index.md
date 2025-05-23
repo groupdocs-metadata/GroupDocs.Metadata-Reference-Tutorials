@@ -196,15 +196,14 @@ We encourage you to try implementing these techniques in your projects. Should y
 ## FAQ Section
 
 **Q: How do I handle large presentations efficiently?**
+
 A: Consider processing metadata in chunks and using efficient data structures to manage memory usage effectively.
 
 **Q: Can I extract metadata from other document types?**
+
 A: Yes, GroupDocs.Metadata supports a variety of file formats beyond presentations. Refer to the API documentation for specific instructions.
 
 **Q: What if my custom properties are not being extracted?**
+
 A: Ensure that your `ContainsTagSpecification` is correctly configured and double-check the property tags in your documents.
 
-**Q: Is there support for multi-threaded extraction?**
-
-"keyword_recommendations": [
-  "GroupDocs.Metadata

@@ -8,10 +8,8 @@ keywords:
 - reading open type metadata
 - groupdocs metadata .net
 - open type font metadata
-
+type: docs
 ---
-
-
 # How to Read OpenType Metadata in .NET Using GroupDocs.Metadata
 
 ## Introduction

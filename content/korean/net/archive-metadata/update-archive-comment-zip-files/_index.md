@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 ZIP 파일의 아카이브 설명을 업데이트하는 방법을 알아보세요. C# 애플리케이션의 메타데이터 관리를 손쉽게 향상하세요.
 weight: 15
 url: /ko/net/archive-metadata/update-archive-comment-zip-files/
+type: docs
 ---
-
 # .NET을 사용하여 ZIP 파일의 아카이브 주석 업데이트
 
 ## 소개

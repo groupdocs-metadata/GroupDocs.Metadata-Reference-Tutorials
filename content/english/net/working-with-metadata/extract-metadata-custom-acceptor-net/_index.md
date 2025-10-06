@@ -8,10 +8,8 @@ keywords:
 - metadata extraction .NET
 - GroupDocs.Metadata for .NET
 - custom acceptor metadata
-
+type: docs
 ---
-
-
 # How to Extract Metadata in .NET Using a Custom Acceptor with GroupDocs.Metadata
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak usuwać komentarze z archiwum ZIP przy użyciu GroupDocs.Metadata dla .NET. Zwiększ swoje umiejętności zarządzania metadanymi.
 weight: 14
 url: /pl/net/archive-metadata/remove-archive-comment-zip-files/
+type: docs
 ---
-
 # Usuń komentarz archiwalny z plików ZIP w .NET
 
 ## Wstęp

@@ -8,10 +8,8 @@ keywords:
 - extract CR2 metadata
 - GroupDocs.Metadata for .NET
 - CR2 file metadata
-
+type: docs
 ---
-
-
 # How to Extract Metadata from CR2 Files Using GroupDocs.Metadata in .NET: A Comprehensive Guide
 
 ## Introduction

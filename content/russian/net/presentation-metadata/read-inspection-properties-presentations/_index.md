@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как извлечь метаданные презентации с помощью GroupDocs.Metadata для .NET. Доступ к комментариям, скрытым слайдам и т. д. программным способом.
 weight: 14
 url: /ru/net/presentation-metadata/read-inspection-properties-presentations/
+type: docs
 ---
-
 # Чтение свойств проверки из презентаций в .NET
 
 ## Введение

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata を使用して .NET のダイアグラム ファイルからメタデータを抽出する方法を学習します。ドキュメントの管理と分析を効率的に強化します。
 weight: 10
 url: /ja/net/diagram-metadata/read-built-in-properties-diagrams/
+type: docs
 ---
-
 # .NET のダイアグラムから組み込みプロパティを読み取る
 
 ## 導入

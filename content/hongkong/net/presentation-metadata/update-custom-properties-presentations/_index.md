@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 管理簡報元資料。在 PowerPoint 檔案中高效率更新自訂屬性。
 weight: 16
 url: /zh-hant/net/presentation-metadata/update-custom-properties-presentations/
+type: docs
 ---
-
 # 使用 .NET 更新簡報中的自訂屬性
 
 ## 介紹

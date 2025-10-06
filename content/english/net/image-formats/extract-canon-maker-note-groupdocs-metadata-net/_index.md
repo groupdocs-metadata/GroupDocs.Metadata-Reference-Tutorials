@@ -8,10 +8,8 @@ keywords:
 - Canon MakerNote extraction
 - GroupDocs.Metadata for .NET setup
 - Extracting metadata from JPEG images
-
+type: docs
 ---
-
-
 # Extracting Canon MakerNote Metadata with GroupDocs.Metadata for .NET
 
 ## Introduction

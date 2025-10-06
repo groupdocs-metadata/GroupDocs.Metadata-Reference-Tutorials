@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Khám phá cách cập nhật thuộc tính tùy chỉnh trong bảng tính bằng GroupDocs.Metadata cho .NET. Hướng dẫn này nâng cao kỹ năng quản lý siêu dữ liệu của bạn một cách hiệu quả.
 weight: 15
 url: /vi/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
+type: docs
 ---
-
 # Cập nhật thuộc tính tùy chỉnh trong bảng tính bằng .NET
 
 ## Giới thiệu

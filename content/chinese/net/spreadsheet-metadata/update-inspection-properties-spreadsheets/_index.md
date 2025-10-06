@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 更新电子表格中的检查属性。轻松管理评论、签名和隐藏工作表。
 weight: 16
 url: /zh/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # 使用 .NET 更新电子表格中的检查属性
 
 ## 介绍

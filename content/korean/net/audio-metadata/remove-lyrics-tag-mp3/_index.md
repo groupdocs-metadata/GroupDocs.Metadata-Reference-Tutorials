@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 MP3 파일에서 가사 태그를 제거하는 방법을 알아보세요. 효율적인 메타데이터 조작을 위한 단계별 가이드를 따르세요.
 weight: 18
 url: /ko/net/audio-metadata/remove-lyrics-tag-mp3/
+type: docs
 ---
-
 # .NET의 MP3 파일에서 가사 태그 제거
 
 ## 소개

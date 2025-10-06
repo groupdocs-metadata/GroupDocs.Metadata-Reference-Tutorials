@@ -3,8 +3,8 @@ title: "Metadata Management Tutorials for GroupDocs.Metadata .NET"
 description: "Complete tutorials for adding, extracting, updating, and removing metadata in various document formats using GroupDocs.Metadata for .NET."
 weight: 3
 url: "/net/working-with-metadata/"
+type: docs
 ---
-
 # Metadata Management Tutorials for GroupDocs.Metadata .NET
 
 Master metadata manipulation with our detailed GroupDocs.Metadata .NET tutorials. These step-by-step guides demonstrate how to extract metadata properties, update existing metadata, add new metadata, and completely remove sensitive information from your documents. Each tutorial includes working C# code examples, implementation notes, and best practices to help you build applications that efficiently manage document metadata with clean, maintainable code.

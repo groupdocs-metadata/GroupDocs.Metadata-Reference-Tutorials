@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara memperbarui komentar arsip dalam file ZIP menggunakan GroupDocs.Metadata untuk .NET. Tingkatkan manajemen metadata dalam aplikasi C# dengan mudah.
 weight: 15
 url: /id/net/archive-metadata/update-archive-comment-zip-files/
+type: docs
 ---
-
 # Perbarui Arsip Komentar di File ZIP menggunakan .NET
 
 ## Perkenalan

@@ -6,8 +6,8 @@ description: Fedezze fel a GroupDocs.Metadata for .NET erejét a táblázat tula
 
 weight: 27
 url: /hu/net/spreadsheet-metadata/
+type: docs
 ---
-
 # Táblázat metaadatai
 
 ## Bevezetés

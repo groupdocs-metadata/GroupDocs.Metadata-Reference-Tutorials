@@ -8,10 +8,8 @@ keywords:
 - update EPUB metadata
 - GroupDocs.Metadata .NET
 - digital publication management
-
+type: docs
 ---
-
-
 # How to Update EPUB Metadata Using GroupDocs.Metadata .NET: A Comprehensive Guide
 
 ## Introduction

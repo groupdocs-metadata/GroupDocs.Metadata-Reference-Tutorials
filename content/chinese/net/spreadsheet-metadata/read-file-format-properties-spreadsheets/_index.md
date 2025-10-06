@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 读取电子表格文件格式属性。通过简单的 API 调用访问文件格式、MIME 类型等。
 weight: 12
 url: /zh/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
+type: docs
 ---
-
 # 从 .NET 中的电子表格读取文件格式属性
 
 ## 介绍

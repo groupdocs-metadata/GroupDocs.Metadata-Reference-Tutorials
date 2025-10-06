@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج علامات كلمات الأغاني من ملفات MP3 باستخدام GroupDocs.Metadata لـ .NET. اتبع البرنامج التعليمي خطوة بخطوة.
 weight: 13
 url: /ar/net/audio-metadata/read-lyrics-tag-mp3/
+type: docs
 ---
-
 # قراءة علامة الأغاني من ملفات MP3 في .NET
 
 ## مقدمة

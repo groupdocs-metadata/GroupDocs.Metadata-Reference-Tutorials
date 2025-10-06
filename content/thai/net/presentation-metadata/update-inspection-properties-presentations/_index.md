@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีอัปเดตคุณสมบัติการตรวจสอบในการนำเสนอโดยใช้ .NET พร้อมด้วย GroupDocs.Metadata การจัดการข้อมูลเมตาที่ง่ายและมีประสิทธิภาพสำหรับไฟล์ .PPTX
 weight: 17
 url: /th/net/presentation-metadata/update-inspection-properties-presentations/
+type: docs
 ---
-
 # อัปเดตคุณสมบัติการตรวจสอบในการนำเสนอโดยใช้ .NET
 
 ## การแนะนำ

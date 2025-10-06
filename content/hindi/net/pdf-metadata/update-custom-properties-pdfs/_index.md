@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के साथ GroupDocs.Metadata का उपयोग करके PDF फ़ाइलों में कस्टम प्रॉपर्टीज़ को अपडेट करना सीखें। PDF मेटाडेटा को कुशलतापूर्वक मैनिपुलेट करने के लिए सरल चरण।
 weight: 16
 url: /hi/net/pdf-metadata/update-custom-properties-pdfs/
+type: docs
 ---
-
 # .NET का उपयोग करके PDF में कस्टम गुण अपडेट करें
 
 ## परिचय

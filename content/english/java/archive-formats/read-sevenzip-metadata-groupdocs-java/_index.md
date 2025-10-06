@@ -8,10 +8,8 @@ keywords:
 - SevenZip metadata Java
 - extract SevenZip archive information
 - read SevenZip file properties
-
+type: docs
 ---
-
-
 # How to Read Metadata from a SevenZip Archive Using GroupDocs.Metadata in Java
 
 ## Introduction

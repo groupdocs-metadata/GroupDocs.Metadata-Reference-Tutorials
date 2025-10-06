@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u metagegevens uit projectmanagementdocumenten kunt extraheren met GroupDocs.Metadata voor .NET. Verbeter uw documentverwerkingsmogelijkheden.
 weight: 10
 url: /nl/net/project-management-metadata/read-built-in-properties-project-management-documents/
+type: docs
 ---
-
 # Lees ingebouwde eigenschappen in .NET Project Management-documenten
 
 ## Invoering

@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata
 - Net
 - Document Processing
-
+type: docs
 ---
-
-
 # Export Metadata to CSV Using GroupDocs.Metadata for .NET: A Comprehensive Guide
 
 ## Introduction

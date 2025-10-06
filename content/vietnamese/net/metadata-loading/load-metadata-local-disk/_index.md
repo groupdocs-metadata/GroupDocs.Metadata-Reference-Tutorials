@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Dễ dàng quản lý siêu dữ liệu tệp trong các ứng dụng .NET bằng GroupDocs.Metadata để nâng cao khả năng thao tác tệp.
 weight: 10
 url: /vi/net/metadata-loading/load-metadata-local-disk/
+type: docs
 ---
-
 # Cách tải siêu dữ liệu từ đĩa cục bộ trong .NET
 
 ## Giới thiệu

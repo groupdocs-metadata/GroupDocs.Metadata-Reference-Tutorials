@@ -8,10 +8,8 @@ keywords:
 - update PowerPoint metadata
 - GroupDocs.Metadata .NET tutorial
 - presentation metadata update
-
+type: docs
 ---
-
-
 # How to Update PowerPoint Metadata with GroupDocs.Metadata .NET
 
 In today's digital landscape, managing metadata is essential for both corporate presentations and personal projects. Accurate metadata enhances organization and accessibility. This comprehensive tutorial guides you through using the `GroupDocs.Metadata` library to update presentation metadata properties with GroupDocs.Metadata .NET.

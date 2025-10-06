@@ -8,10 +8,8 @@ keywords:
 - extract vCard photo URIs Java
 - GroupDocs.Metadata setup
 - vCard root package access
-
+type: docs
 ---
-
-
 # How to Extract vCard Photo URIs Using GroupDocs.Metadata in Java
 
 ## Introduction

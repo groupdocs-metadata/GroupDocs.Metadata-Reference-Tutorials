@@ -8,10 +8,8 @@ keywords:
 - remove ID3v1 tags MP3
 - GroupDocs.Metadata for .NET
 - manage audio file metadata
-
+type: docs
 ---
-
-
 # How to Remove ID3v1 Tags from MP3 Files Using GroupDocs.Metadata for .NET
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 从 PDF 中提取自定义属性。使用 C# 深入研究文档元数据管理。
 weight: 11
 url: /zh/net/pdf-metadata/read-custom-properties-pdfs/
+type: docs
 ---
-
 # 在 .NET 中从 PDF 读取自定义属性
 
 ## 介绍

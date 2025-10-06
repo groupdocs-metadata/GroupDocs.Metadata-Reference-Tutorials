@@ -8,10 +8,8 @@ keywords:
 - metadata extraction from WAV files using GroupDocs.Metadata
 - extracting INFO chunk metadata
 - GroupDocs.Metadata for .NET
-
+type: docs
 ---
-
-
 # Mastering Metadata Extraction from WAV Files Using GroupDocs.Metadata for .NET
 
 ## Introduction

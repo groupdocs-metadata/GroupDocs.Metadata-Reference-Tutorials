@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีแยกคุณสมบัติแบบกำหนดเองจากเอกสารการจัดการโครงการ .NET โดยใช้ GroupDocs.Metadata สำหรับ .NET ปรับปรุงการจัดการข้อมูลเมตาของคุณ
 weight: 11
 url: /th/net/project-management-metadata/read-custom-properties-project-management-documents/
+type: docs
 ---
-
 # อ่านคุณสมบัติแบบกำหนดเองในเอกสารการจัดการโครงการ .NET
 
 ## การแนะนำ

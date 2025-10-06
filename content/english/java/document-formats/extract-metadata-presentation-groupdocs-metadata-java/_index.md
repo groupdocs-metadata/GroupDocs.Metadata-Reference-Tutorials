@@ -8,10 +8,8 @@ keywords:
 - extract presentation metadata
 - GroupDocs.Metadata for Java
 - presentation file metadata
-
+type: docs
 ---
-
-
 # How to Extract Built-in Metadata Properties from a Presentation Using GroupDocs.Metadata for Java
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Aprenda a leer propiedades de inspección de hojas de cálculo utilizando GroupDocs.Metadata para .NET. Acceda a comentarios, firmas digitales y hojas ocultas sin esfuerzo.
 weight: 13
 url: /es/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # Leer propiedades de inspección de hojas de cálculo en .NET
 
 ## Introducción

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara memperbarui properti bawaan dalam diagram menggunakan GroupDocs.Metadata untuk .NET. Ubah metadata secara lancar dengan contoh kode.
 weight: 14
 url: /id/net/diagram-metadata/update-built-in-properties-diagrams/
+type: docs
 ---
-
 # Perbarui Properti Bawaan dalam Diagram menggunakan .NET
 
 ## Perkenalan

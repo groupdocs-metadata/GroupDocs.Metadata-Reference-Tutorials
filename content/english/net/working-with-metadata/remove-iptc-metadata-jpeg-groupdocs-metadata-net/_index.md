@@ -8,10 +8,8 @@ keywords:
 - remove IPTC metadata JPEG GroupDocs.Metadata .NET
 - GroupDocs.Metadata library setup C#
 - IPTC metadata removal JPEG
-
+type: docs
 ---
-
-
 # How to Remove IPTC Metadata from JPEGs Using GroupDocs.Metadata .NET
 
 ## Introduction

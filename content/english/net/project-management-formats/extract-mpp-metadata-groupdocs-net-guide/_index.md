@@ -8,10 +8,8 @@ keywords:
 - extract MPP metadata
 - GroupDocs.Metadata for .NET
 - project management document workflows
-
+type: docs
 ---
-
-
 # Extracting MPP Metadata Using GroupDocs.Metadata for .NET: A Comprehensive Guide
 
 ## Introduction

@@ -8,10 +8,8 @@ keywords:
 - IPTC metadata extraction
 - GroupDocs.Metadata for .NET
 - TIFF image processing
-
+type: docs
 ---
-
-
 # Extract IPTC Metadata from TIFF Files Using GroupDocs.Metadata for .NET
 
 ## Introduction

@@ -8,10 +8,8 @@ keywords:
 - detect spreadsheet types GroupDocs
 - spreadsheet file format detection Java
 - handle multiple spreadsheet formats
-
+type: docs
 ---
-
-
 # Detecting Spreadsheet Types with GroupDocs.Metadata for Java
 
 ## Introduction

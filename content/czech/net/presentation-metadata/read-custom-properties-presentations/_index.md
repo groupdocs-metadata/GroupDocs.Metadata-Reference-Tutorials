@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se číst uživatelské vlastnosti z prezentací v .NET pomocí GroupDocs.Metadata. Efektivní přístup k metadatům a jejich načítání.
 weight: 11
 url: /cs/net/presentation-metadata/read-custom-properties-presentations/
+type: docs
 ---
-
 # Přečtěte si uživatelské vlastnosti z prezentací v .NET
 
 ## Úvod

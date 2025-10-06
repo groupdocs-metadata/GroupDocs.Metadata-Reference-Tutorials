@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να διαχειρίζεστε τα μεταδεδομένα παρουσίασης χρησιμοποιώντας το GroupDocs.Metadata για .NET. Ενημερώστε τις προσαρμοσμένες ιδιότητες αποτελεσματικά σε αρχεία PowerPoint.
 weight: 16
 url: /el/net/presentation-metadata/update-custom-properties-presentations/
+type: docs
 ---
-
 # Ενημερώστε τις προσαρμοσμένες ιδιότητες στις Παρουσιάσεις χρησιμοποιώντας .NET
 
 ## Εισαγωγή

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: Çok yönlü bir meta veri işleme kitaplığı olan GroupDocs.Metadata ile .NET kullanarak sunumlardaki yerleşik özellikleri nasıl güncelleyeceğinizi öğrenin.
 weight: 15
 url: /tr/net/presentation-metadata/update-built-in-properties-presentations/
+type: docs
 ---
-
 # .NET kullanarak Sunumlardaki Yerleşik Özellikleri Güncelleme
 
 ## giriiş

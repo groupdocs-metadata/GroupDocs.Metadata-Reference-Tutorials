@@ -8,10 +8,8 @@ keywords:
 - FLV Metadata Extraction
 - GroupDocs.Metadata Java
 - Java Video Metadata
-
+type: docs
 ---
-
-
 # Mastering FLV Metadata Extraction with GroupDocs.Metadata in Java
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية تحديث بيانات التعريف في مستندات إدارة مشروع .NET باستخدام GroupDocs.Metadata لـ .NET. تعزيز إدارة المستندات بكفاءة.
 weight: 12
 url: /ar/net/project-management-metadata/update-built-in-properties-project-management-documents/
+type: docs
 ---
-
 # قم بتحديث الخصائص المضمنة في مستندات إدارة مشروع .NET
 
 ## مقدمة

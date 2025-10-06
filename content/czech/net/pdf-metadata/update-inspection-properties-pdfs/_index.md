@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Zjistěte, jak aktualizovat vlastnosti kontroly v dokumentech PDF pomocí GroupDocs.Metadata pro .NET. Efektivně spravujte metadata a anotace pomocí C#.
 weight: 17
 url: /cs/net/pdf-metadata/update-inspection-properties-pdfs/
+type: docs
 ---
-
 # Aktualizujte vlastnosti inspekce v souborech PDF pomocí .NET
 
 ## Úvod

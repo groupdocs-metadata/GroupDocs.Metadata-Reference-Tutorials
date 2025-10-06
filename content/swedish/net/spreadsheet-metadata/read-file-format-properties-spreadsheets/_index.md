@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du läser egenskaper för kalkylbladsfilformat med GroupDocs.Metadata for .NET. Få åtkomst till filformat, MIME-typ och mer med enkla API-anrop.
 weight: 12
 url: /sv/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
+type: docs
 ---
-
 # Läs filformategenskaper från kalkylblad i .NET
 
 ## Introduktion

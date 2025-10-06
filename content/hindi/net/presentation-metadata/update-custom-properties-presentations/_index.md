@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके प्रस्तुति मेटाडेटा को प्रबंधित करना सीखें। PowerPoint फ़ाइलों में कस्टम गुणों को कुशलतापूर्वक अपडेट करें।
 weight: 16
 url: /hi/net/presentation-metadata/update-custom-properties-presentations/
+type: docs
 ---
-
 # .NET का उपयोग करके प्रस्तुतियों में कस्टम गुण अपडेट करें
 
 ## परिचय

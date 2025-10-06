@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata for .NET
 - .NET Metadata Search
 - Metadata Management with Tags
-
+type: docs
 ---
-
-
 # Mastering Metadata Search with Tags Using GroupDocs.Metadata in .NET
 ## Introduction
 Are you looking to efficiently manage and search metadata properties in your documents? As digital document management grows, extracting specific metadata using tags has become essential for developers working on document processing applications. This guide will help you master how to use **GroupDocs.Metadata .NET** to find metadata properties by utilizing tags effectively.

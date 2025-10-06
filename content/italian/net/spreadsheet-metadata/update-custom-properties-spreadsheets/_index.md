@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Scopri come aggiornare le proprietà personalizzate nei fogli di calcolo utilizzando GroupDocs.Metadata per .NET. Questo tutorial migliora in modo efficace le tue capacità di gestione dei metadati.
 weight: 15
 url: /it/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
+type: docs
 ---
-
 # Aggiorna le proprietà personalizzate nei fogli di calcolo utilizzando .NET
 
 ## introduzione

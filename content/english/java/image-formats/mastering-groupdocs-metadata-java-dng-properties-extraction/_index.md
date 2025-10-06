@@ -8,10 +8,8 @@ keywords:
 - extract DNG properties Java
 - manage image metadata Java
 - digital asset management
-
+type: docs
 ---
-
-
 # Master GroupDocs.Metadata: Extract DNG Properties Using Java
 
 In the digital age, effectively managing image metadata is essential for photographers, developers, and content creators. Whether organizing large collections of digital assets or ensuring compatibility across platforms, understanding how to handle Digital Negative (DNG) files is invaluable. This tutorial will guide you in using GroupDocs.Metadata for Java to extract DNG file properties seamlessly.

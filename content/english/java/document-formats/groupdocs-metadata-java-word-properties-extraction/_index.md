@@ -8,10 +8,8 @@ keywords:
 - extract Word document properties
 - GroupDocs.Metadata Java
 - Word file format detection
-
+type: docs
 ---
-
-
 # Extracting Word Processing File Format Properties with GroupDocs.Metadata in Java
 
 ## Introduction

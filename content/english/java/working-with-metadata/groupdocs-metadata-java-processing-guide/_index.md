@@ -8,10 +8,8 @@ keywords:
 - file metadata processing with GroupDocs.Metadata for Java
 - automate metadata management in Java
 - GroupDocs.Metadata library tutorial
-
+type: docs
 ---
-
-
 # Mastering File Metadata Processing with GroupDocs.Metadata for Java
 
 Efficiently managing file metadata is crucial in today's digital landscape, especially for organizations handling diverse document types. This guide will demonstrate how to use GroupDocs.Metadata for Java to automate and streamline metadata management tasks such as excluding specific formats, removing unwanted properties, and saving processed files.

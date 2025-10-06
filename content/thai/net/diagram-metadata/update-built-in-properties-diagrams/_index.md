@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีอัปเดตคุณสมบัติในตัวในไดอะแกรมโดยใช้ GroupDocs.Metadata สำหรับ .NET แก้ไขข้อมูลเมตาได้อย่างราบรื่นด้วยตัวอย่างโค้ด
 weight: 14
 url: /th/net/diagram-metadata/update-built-in-properties-diagrams/
+type: docs
 ---
-
 # อัปเดตคุณสมบัติในตัวในไดอะแกรมโดยใช้ .NET
 
 ## การแนะนำ

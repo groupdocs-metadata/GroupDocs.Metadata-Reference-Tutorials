@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके स्प्रेडशीट से निरीक्षण गुणों को पढ़ना सीखें। टिप्पणियों, डिजिटल हस्ताक्षरों और छिपी हुई शीटों तक आसानी से पहुंचें।
 weight: 13
 url: /hi/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # .NET में स्प्रेडशीट से निरीक्षण गुण पढ़ें
 
 ## परिचय

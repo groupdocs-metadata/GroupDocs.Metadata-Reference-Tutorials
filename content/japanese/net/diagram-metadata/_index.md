@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用してダイアグラムのメタデータを管理する包括的なチュートリアルをご覧ください。プロパティを簡単に抽出、更新、分析できます。
 weight: 23
 url: /ja/net/diagram-metadata/
+type: docs
 ---
-
 # ダイアグラムのメタデータ
 
 ## 導入

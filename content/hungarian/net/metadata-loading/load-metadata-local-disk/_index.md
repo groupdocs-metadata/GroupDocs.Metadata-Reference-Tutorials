@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Könnyedén kezelheti a fájlok metaadatait .NET-alkalmazásokban a GroupDocs.Metadata segítségével a továbbfejlesztett fájlkezelési lehetőségek érdekében.
 weight: 10
 url: /hu/net/metadata-loading/load-metadata-local-disk/
+type: docs
 ---
-
 # Hogyan töltsünk be metaadatokat a helyi lemezről a .NET-ben
 
 ## Bevezetés

@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata .NET
 - remove metadata .NET
 - metadata removal C#
-
+type: docs
 ---
-
-
 # Guide: Remove Metadata Using GroupDocs.Metadata .NET
 
 ## Introduction

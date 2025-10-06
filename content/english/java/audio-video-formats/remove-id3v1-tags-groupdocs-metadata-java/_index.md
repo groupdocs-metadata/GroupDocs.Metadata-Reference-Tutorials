@@ -8,10 +8,8 @@ keywords:
 - remove ID3v1 tags from MP3 files
 - manage audio metadata with GroupDocs.Metadata
 - Java metadata manipulation
-
+type: docs
 ---
-
-
 # How to Remove ID3v1 Tags from MP3 Files Using GroupDocs.Metadata in Java
 
 ## Introduction

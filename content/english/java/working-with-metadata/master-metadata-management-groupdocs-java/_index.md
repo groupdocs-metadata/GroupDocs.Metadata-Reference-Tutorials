@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata for Java
 - metadata management in Java
 - document metadata analysis
-
+type: docs
 ---
-
-
 # Mastering Metadata Management: Detect and Analyze Document Properties with GroupDocs.Metadata for Java
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 从 7Zip 存档中读取本机元数据属性。增强 .NET 应用程序的数据管理功能。
 weight: 11
 url: /zh/net/archive-metadata/read-native-metadata-7zip-archives/
+type: docs
 ---
-
 # 从 .NET 中的 7Zip 档案读取本机元数据属性
 
 ## 介绍

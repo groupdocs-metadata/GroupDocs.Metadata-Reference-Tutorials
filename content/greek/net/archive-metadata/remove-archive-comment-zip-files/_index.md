@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε να αφαιρείτε σχόλια από το αρχείο ZIP χρησιμοποιώντας το GroupDocs.Metadata για .NET. Βελτιώστε τις δεξιότητές σας στη διαχείριση μεταδεδομένων.
 weight: 14
 url: /el/net/archive-metadata/remove-archive-comment-zip-files/
+type: docs
 ---
-
 # Κατάργηση σχολίου αρχείου από αρχεία ZIP στο .NET
 
 ## Εισαγωγή

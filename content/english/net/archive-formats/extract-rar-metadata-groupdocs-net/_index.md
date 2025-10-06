@@ -8,10 +8,8 @@ keywords:
 - extract RAR metadata
 - GroupDocs.Metadata for .NET tutorial
 - RAR archive metadata management
-
+type: docs
 ---
-
-
 # How to Extract RAR Metadata Using GroupDocs.Metadata for .NET
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके MP3 फ़ाइलों से ID3V2 टैग निकालने का तरीका जानें। प्रोग्रामेटिक रूप से एल्बम, कलाकार और अन्य चीज़ों तक पहुँचें।
 weight: 12
 url: /hi/net/audio-metadata/read-id3v2-tag-mp3/
+type: docs
 ---
-
 # .NET में MP3 फ़ाइलों से ID3V2 टैग पढ़ें
 
 ## परिचय

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthat ki egyéni tulajdonságokat PDF-fájlokból a GroupDocs.Metadata for .NET segítségével. Merüljön el a dokumentumok metaadat-kezelésében a C# segítségével.
 weight: 11
 url: /hu/net/pdf-metadata/read-custom-properties-pdfs/
+type: docs
 ---
-
 # Olvasson egyéni tulajdonságokat a .NET-ben található PDF-fájlokból
 
 ## Bevezetés

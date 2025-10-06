@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata in Java
 - inspect spreadsheet comments Java
 - manage Excel spreadsheet annotations
-
+type: docs
 ---
-
-
 # How to Inspect and Manage Spreadsheet Comments Using GroupDocs.Metadata in Java
 
 ## Introduction

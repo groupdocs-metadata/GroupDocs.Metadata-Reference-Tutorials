@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Kelola metadata file dengan mudah di .NET dengan GroupDocs.Metadata. Pelajari teknik memuat, mengedit, dan lainnya untuk meningkatkan kemampuan manipulasi file.
 weight: 20
 url: /id/net/metadata-loading/
+type: docs
 ---
-
 # Memuat Metadata
 
 ## Perkenalan

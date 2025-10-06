@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u ID3V2-tags uit MP3-bestanden verwijdert met GroupDocs.Metadata voor .NET. Beheer metadata in uw C#-projecten efficiënt.
 weight: 17
 url: /nl/net/audio-metadata/remove-id3v2-tag-mp3/
+type: docs
 ---
-
 # Verwijder de ID3V2-tag uit MP3-bestanden in .NET
 
 ## Invoering

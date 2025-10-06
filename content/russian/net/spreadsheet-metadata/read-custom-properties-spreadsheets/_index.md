@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как извлечь пользовательские свойства из электронных таблиц с помощью GroupDocs.Metadata для .NET. Улучшите манипулирование метаданными в ваших приложениях .NET.
 weight: 11
 url: /ru/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
+type: docs
 ---
-
 # Чтение пользовательских свойств из электронных таблиц в .NET
 
 ## Введение

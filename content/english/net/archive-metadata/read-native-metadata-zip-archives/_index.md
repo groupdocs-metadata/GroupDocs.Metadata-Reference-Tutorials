@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Learn how to extract metadata from ZIP archives using GroupDocs.Metadata for .NET. Explore step-by-step instructions for reading native properties.
 weight: 13
 url: /net/archive-metadata/read-native-metadata-zip-archives/
+type: docs
 ---
-
 # Read Native Metadata Properties from ZIP Archives in .NET
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Upptäck hur du uppdaterar anpassade egenskaper i kalkylblad med GroupDocs.Metadata for .NET. Denna handledning förbättrar dina metadatahanteringsfärdigheter effektivt.
 weight: 15
 url: /sv/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
+type: docs
 ---
-
 # Uppdatera anpassade egenskaper i kalkylblad med .NET
 
 ## Introduktion

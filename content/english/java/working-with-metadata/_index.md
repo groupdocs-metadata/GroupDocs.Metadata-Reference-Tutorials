@@ -3,8 +3,8 @@ title: "Metadata Management Tutorials for GroupDocs.Metadata Java"
 description: "Complete tutorials for adding, extracting, updating, and removing metadata in various document formats using GroupDocs.Metadata for Java."
 weight: 3
 url: "/java/working-with-metadata/"
+type: docs
 ---
-
 # Metadata Management Tutorials for GroupDocs.Metadata Java
 
 Master metadata manipulation with our detailed GroupDocs.Metadata Java tutorials. These step-by-step guides demonstrate how to extract metadata properties, update existing metadata, add new metadata, and completely remove sensitive information from your documents. Each tutorial includes working Java code examples, implementation notes, and best practices to help you build applications that efficiently manage document metadata with clean, maintainable code.

@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 스프레드시트에서 검사 속성을 읽는 방법을 알아보세요. 댓글, 디지털 서명, 숨겨진 시트에 손쉽게 액세스하세요.
 weight: 13
 url: /ko/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # .NET의 스프레드시트에서 검사 속성 읽기
 
 ## 소개

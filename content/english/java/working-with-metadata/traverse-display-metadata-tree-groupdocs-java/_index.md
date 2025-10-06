@@ -8,10 +8,8 @@ keywords:
 - traverse metadata tree with GroupDocs
 - GroupDocs.Metadata for Java setup
 - display nested metadata properties
-
+type: docs
 ---
-
-
 # Efficient Traversal and Display of Metadata Trees with GroupDocs.Metadata in Java
 
 ## Introduction

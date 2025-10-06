@@ -3,8 +3,8 @@ title: "Metadata Standards Implementation with GroupDocs.Metadata for Java"
 description: "Step-by-step tutorials for working with EXIF, XMP, IPTC, and other metadata standards using GroupDocs.Metadata for Java."
 weight: 4
 url: "/java/metadata-standards/"
+type: docs
 ---
-
 # Metadata Standards Implementation with GroupDocs.Metadata for Java
 
 Our metadata standards tutorials provide comprehensive guidance for implementing industry-standard metadata formats with GroupDocs.Metadata in Java. These practical guides demonstrate how to read, write, and manipulate EXIF metadata in images, work with XMP properties across multiple file formats, and handle IPTC information for media assets. Each tutorial includes complete Java code examples for working with standardized metadata, helping you build applications that maintain compatibility with professional workflows and tools.

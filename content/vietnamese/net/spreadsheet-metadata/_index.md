@@ -6,8 +6,8 @@ description: Khai phá sức mạnh của GroupDocs.Metadata dành cho .NET bằ
 
 weight: 27
 url: /vi/net/spreadsheet-metadata/
+type: docs
 ---
-
 # Siêu dữ liệu bảng tính
 
 ## Giới thiệu

@@ -8,10 +8,8 @@ keywords:
 - Panasonic MakerNote Metadata
 - GroupDocs.Metadata Java
 - extracting image metadata
-
+type: docs
 ---
-
-
 # Extract Panasonic MakerNote Metadata with GroupDocs.Metadata in Java
 
 Managing and extracting image metadata is crucial in today’s digital world, especially for software developers and data analysts. This tutorial teaches you how to use GroupDocs.Metadata in Java to extract Panasonic MakerNote properties from JPEG images.

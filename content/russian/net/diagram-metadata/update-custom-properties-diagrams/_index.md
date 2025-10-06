@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как обновить пользовательские свойства на диаграммах с помощью .NET с помощью GroupDocs.Metadata для .NET. Легко расширяйте метаданные.
 weight: 15
 url: /ru/net/diagram-metadata/update-custom-properties-diagrams/
+type: docs
 ---
-
 # Обновление пользовательских свойств в диаграммах с помощью .NET
 
 ## Введение

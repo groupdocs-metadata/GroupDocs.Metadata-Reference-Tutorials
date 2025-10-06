@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất các thuộc tính siêu dữ liệu từ kho lưu trữ RAR bằng GroupDocs.Metadata cho .NET trong C#. Khám phá chi tiết tập tin một cách dễ dàng.
 weight: 10
 url: /vi/net/archive-metadata/read-native-metadata-rar-archives/
+type: docs
 ---
-
 # Đọc thuộc tính siêu dữ liệu gốc từ kho lưu trữ RAR trong .NET
 
 ## Giới thiệu

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du extraherar anpassade egenskaper från kalkylblad med GroupDocs.Metadata för .NET. Förbättra metadatamanipulation i dina .NET-applikationer.
 weight: 11
 url: /sv/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
+type: docs
 ---
-
 # Läs anpassade egenskaper från kalkylblad i .NET
 
 ## Introduktion

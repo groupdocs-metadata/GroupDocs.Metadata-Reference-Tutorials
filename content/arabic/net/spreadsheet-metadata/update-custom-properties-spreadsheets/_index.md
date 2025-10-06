@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: اكتشف كيفية تحديث الخصائص المخصصة في جداول البيانات باستخدام GroupDocs.Metadata لـ .NET. يعزز هذا البرنامج التعليمي مهاراتك في إدارة البيانات الوصفية بشكل فعال.
 weight: 15
 url: /ar/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
+type: docs
 ---
-
 # قم بتحديث الخصائص المخصصة في جداول البيانات باستخدام .NET
 
 ## مقدمة

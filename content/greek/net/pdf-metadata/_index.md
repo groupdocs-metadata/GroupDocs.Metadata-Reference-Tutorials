@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να διαχειρίζεστε τα μεταδεδομένα PDF χωρίς κόπο με τους οδηγούς GroupDocs.Metadata για .NET. Αποκτήστε πρόσβαση σε ενσωματωμένες και προσαρμοσμένες ιδιότητες με κώδικα C#.
 weight: 24
 url: /el/net/pdf-metadata/
+type: docs
 ---
-
 # Μεταδεδομένα PDF
 
 ## Εισαγωγή

@@ -8,10 +8,8 @@ keywords:
 - update PowerPoint metadata Java
 - GroupDocs.Metadata Java library
 - presentation metadata management
-
+type: docs
 ---
-
-
 # How to Update Presentation Metadata with GroupDocs.Metadata Java
 
 ## Introduction

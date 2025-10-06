@@ -8,10 +8,8 @@ keywords:
 - GroupDocs Metadata extraction
 - .NET metadata handling
 - metadata properties by category
-
+type: docs
 ---
-
-
 # Mastering Metadata Extraction in .NET with GroupDocs.Metadata
 
 Unlock the power of metadata extraction with GroupDocs.Metadata for .NET to streamline your digital asset management and enhance data accessibility. This comprehensive guide will walk you through leveraging GroupDocs.Metadata's features, focusing on categorizing metadata properties, filtering by type and value, and matching patterns via regex.

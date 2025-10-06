@@ -8,10 +8,8 @@ keywords:
 - extract tar metadata groupdocs.metadata net
 - groupdocs metadata for dotnet
 - tar file metadata extraction
-
+type: docs
 ---
-
-
 # Extract Tar Metadata with GroupDocs.Metadata for .NET: A Developer’s Comprehensive Guide
 
 ## Introduction

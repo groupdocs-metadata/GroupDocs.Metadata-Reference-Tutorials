@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как обновить теги ID3V2 в файлах MP3 с помощью .NET с GroupDocs.Metadata для эффективного управления файлами.
 weight: 20
 url: /ru/net/audio-metadata/update-id3v2-tag-mp3/
+type: docs
 ---
-
 # Обновите тег ID3V2 в файлах MP3 с помощью .NET.
 
 ## Введение

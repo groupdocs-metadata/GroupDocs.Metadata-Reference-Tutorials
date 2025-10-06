@@ -8,10 +8,8 @@ keywords:
 - EPUB Dublin Core Metadata
 - GroupDocs.Metadata for .NET API
 - Update eBook Metadata
-
+type: docs
 ---
-
-
 # How to Update EPUB Dublin Core Metadata Using GroupDocs.Metadata .NET API for E-Books
 
 ## Introduction

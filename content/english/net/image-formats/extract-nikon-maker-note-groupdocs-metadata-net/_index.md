@@ -8,10 +8,8 @@ keywords:
 - extract Nikon MakerNote
 - GroupDocs.Metadata for .NET
 - Nikon JPEG metadata
-
+type: docs
 ---
-
-
 # How to Extract Nikon MakerNote Properties Using GroupDocs.Metadata for .NET
 
 ## Introduction

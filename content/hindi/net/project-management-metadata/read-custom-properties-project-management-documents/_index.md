@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके .NET प्रोजेक्ट प्रबंधन दस्तावेज़ों से कस्टम गुण निकालने का तरीका जानें। अपना मेटाडेटा प्रबंधन बढ़ाएँ.
 weight: 11
 url: /hi/net/project-management-metadata/read-custom-properties-project-management-documents/
+type: docs
 ---
-
 # .NET प्रोजेक्ट प्रबंधन दस्तावेज़ों में कस्टम गुण पढ़ें
 
 ## परिचय

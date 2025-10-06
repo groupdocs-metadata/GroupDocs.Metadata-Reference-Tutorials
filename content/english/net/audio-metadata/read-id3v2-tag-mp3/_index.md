@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Learn how to extract ID3V2 tags from MP3 files using GroupDocs.Metadata for .NET. Access album, artist, and more programmatically.
 weight: 12
 url: /net/audio-metadata/read-id3v2-tag-mp3/
+type: docs
 ---
-
 # Read ID3V2 Tag from MP3 Files in .NET
 
 ## Introduction

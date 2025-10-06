@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthat ki ID3V2 címkéket MP3 fájlokból a GroupDocs.Metadata for .NET segítségével. Album, előadó és egyebek programozottan elérése.
 weight: 12
 url: /hu/net/audio-metadata/read-id3v2-tag-mp3/
+type: docs
 ---
-
 # Olvassa el az ID3V2 címkét az MP3 fájlokból a .NET-ben
 
 ## Bevezetés

@@ -8,10 +8,8 @@ keywords:
 - extract document metadata
 - GroupDocs.Metadata for .NET
 - manage document metadata
-
+type: docs
 ---
-
-
 # How to Extract Document Metadata with GroupDocs.Metadata for .NET
 
 ## Introduction

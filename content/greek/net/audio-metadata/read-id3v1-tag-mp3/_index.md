@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να διαβάζετε ετικέτες ID3V1 από αρχεία MP3 χρησιμοποιώντας το GroupDocs.Metadata για .NET. Βήμα προς βήμα σεμινάριο με παραδείγματα κώδικα.
 weight: 11
 url: /el/net/audio-metadata/read-id3v1-tag-mp3/
+type: docs
 ---
-
 # Διαβάστε την ετικέτα ID3V1 από αρχεία MP3 στο .NET
 
 ## Εισαγωγή

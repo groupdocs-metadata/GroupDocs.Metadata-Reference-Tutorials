@@ -8,10 +8,8 @@ keywords:
 - set license using stream
 - groupdocs.metadata .net
 - dynamic licensing
-
+type: docs
 ---
-
-
 # Set License Using Stream in GroupDocs.Metadata .NET
 
 ## Introduction

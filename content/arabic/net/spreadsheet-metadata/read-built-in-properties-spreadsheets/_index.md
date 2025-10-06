@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج بيانات التعريف من جداول البيانات في .NET باستخدام GroupDocs.Metadata، مما يعزز إدارة المستندات وتنظيمها في تطبيقاتك.
 weight: 10
 url: /ar/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # قراءة الخصائص المضمنة من جداول البيانات في .NET
 
 ## مقدمة

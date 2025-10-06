@@ -8,10 +8,8 @@ keywords:
 - MP3 Lyrics Tags
 - GroupDocs.Metadata .NET
 - Extract MP3 Metadata
-
+type: docs
 ---
-
-
 # How to Read MP3 Lyrics Tags Using GroupDocs.Metadata for .NET
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak wyodrębnić niestandardowe właściwości z plików PDF przy użyciu GroupDocs.Metadata dla .NET. Zanurz się w zarządzaniu metadanymi dokumentów za pomocą języka C#.
 weight: 11
 url: /pl/net/pdf-metadata/read-custom-properties-pdfs/
+type: docs
 ---
-
 # Czytaj właściwości niestandardowe z plików PDF w .NET
 
 ## Wstęp

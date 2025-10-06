@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Objevte, jak extrahovat nativní metadata ze souborů WAV pomocí GroupDocs.Metadata pro .NET. Snadný C# tutoriál pro čtení vlastností souboru WAV.
 weight: 23
 url: /cs/net/audio-metadata/read-native-metadata-wav/
+type: docs
 ---
-
 # Čtení vlastností nativních metadat ze souborů WAV v .NET
 
 ## Úvod

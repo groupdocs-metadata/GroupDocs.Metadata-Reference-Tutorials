@@ -8,10 +8,8 @@ keywords:
 - extract RAR metadata Java
 - manage archive metadata
 - RAR file details extraction
-
+type: docs
 ---
-
-
 # Extract RAR Metadata Efficiently with GroupDocs.Metadata for Java
 
 ## Introduction

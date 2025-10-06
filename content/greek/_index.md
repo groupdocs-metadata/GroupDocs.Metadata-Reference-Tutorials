@@ -6,8 +6,8 @@ description: Ανακαλύψτε ολοκληρωμένα σεμινάρια γ
 weight: 11
 url: /el/
 is_root: true
+type: docs
 ---
-
 # Ξεκλείδωμα της κυριαρχίας μεταδεδομένων με το GroupDocs.Metadata
 
 

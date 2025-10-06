@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: इस व्यापक ट्यूटोरियल में .NET के लिए GroupDocs.Metadata का उपयोग करके प्रस्तुतियों से अंतर्निहित गुणों को निकालने का तरीका जानें।
 weight: 10
 url: /hi/net/presentation-metadata/read-built-in-properties-presentations/
+type: docs
 ---
-
 # .NET में प्रस्तुतियों से अंतर्निहित गुण पढ़ें
 
 ## परिचय

@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách đọc siêu dữ liệu PDF trong .NET bằng GroupDocs.Metadata. Truy cập tên tác giả, ngày tạo, chủ đề, v.v. bằng mã C#.
 weight: 10
 url: /vi/net/pdf-metadata/read-built-in-properties-pdfs/
+type: docs
 ---
-
 # Đọc Thuộc tính tích hợp từ tệp PDF trong .NET
 
 ## Giới thiệu

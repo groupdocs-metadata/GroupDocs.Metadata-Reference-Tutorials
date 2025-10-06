@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как обновить свойства проверки в электронных таблицах с помощью GroupDocs.Metadata для .NET. Легко управляйте комментариями, подписями и скрытыми листами.
 weight: 16
 url: /ru/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # Обновление свойств проверки в электронных таблицах с помощью .NET
 
 ## Введение

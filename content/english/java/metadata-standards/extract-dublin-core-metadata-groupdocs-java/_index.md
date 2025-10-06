@@ -8,10 +8,8 @@ keywords:
 - extract Dublin Core metadata
 - GroupDocs.Metadata for Java
 - manage digital assets
-
+type: docs
 ---
-
-
 # How to Extract Dublin Core Metadata Using GroupDocs.Metadata for Java
 
 ## Introduction

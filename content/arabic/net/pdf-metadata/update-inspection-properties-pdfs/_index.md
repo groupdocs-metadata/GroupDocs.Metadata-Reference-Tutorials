@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية تحديث خصائص الفحص في مستندات PDF باستخدام GroupDocs.Metadata لـ .NET. إدارة بيانات التعريف والتعليقات التوضيحية بكفاءة باستخدام لغة C#.
 weight: 17
 url: /ar/net/pdf-metadata/update-inspection-properties-pdfs/
+type: docs
 ---
-
 # قم بتحديث خصائص الفحص في ملفات PDF باستخدام .NET
 
 ## مقدمة

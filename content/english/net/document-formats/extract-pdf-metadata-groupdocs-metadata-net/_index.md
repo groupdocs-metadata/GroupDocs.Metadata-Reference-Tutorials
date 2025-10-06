@@ -8,10 +8,8 @@ keywords:
 - Extract PDF Metadata .NET
 - GroupDocs.Metadata for .NET
 - PDF metadata extraction
-
+type: docs
 ---
-
-
 # Extracting PDF Metadata with GroupDocs.Metadata for .NET
 ## Introduction
 In today's digital landscape, efficiently managing and extracting metadata from documents is essential for information retrieval and organization. Developers and IT professionals can significantly streamline their workflows by extracting metadata such as Author, CreatedDate, Subject, Producer, and Keywords from PDF files.

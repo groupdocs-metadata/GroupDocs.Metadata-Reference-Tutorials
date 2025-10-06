@@ -8,10 +8,8 @@ keywords:
 - extract text statistics from PowerPoint
 - GroupDocs.Metadata .NET
 - text statistics PowerPoint presentations
-
+type: docs
 ---
-
-
 # Extract Text Statistics from PowerPoint with GroupDocs.Metadata .NET
 
 ## Introduction

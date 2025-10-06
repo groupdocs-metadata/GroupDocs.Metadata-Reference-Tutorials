@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se spravovat metadata souborů v .NET pomocí GroupDocs.Metadata. Podrobný průvodce pro načítání, úpravy a odstraňování metadat ze streamů.
 weight: 11
 url: /cs/net/metadata-loading/load-metadata-stream/
+type: docs
 ---
-
 # Načítání metadat ze streamu v kurzu .NET
 
 ## Úvod

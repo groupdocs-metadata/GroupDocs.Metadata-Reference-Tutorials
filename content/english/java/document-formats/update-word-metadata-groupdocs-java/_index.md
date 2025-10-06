@@ -8,10 +8,8 @@ keywords:
 - update Word metadata
 - GroupDocs.Metadata Java
 - Word document properties
-
+type: docs
 ---
-
-
 # How to Update Word Document Metadata Using GroupDocs.Metadata Java: A Complete Guide
 
 ## Introduction

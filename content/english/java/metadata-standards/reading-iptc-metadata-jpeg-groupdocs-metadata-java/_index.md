@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata Java
 - extract IPTC metadata JPEG
 - manage digital assets with metadata
-
+type: docs
 ---
-
-
 # Master GroupDocs.Metadata Java: Extract IPTC Metadata from JPEGs Effortlessly
 
 ## Introduction

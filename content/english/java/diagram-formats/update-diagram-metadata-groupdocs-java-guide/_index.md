@@ -8,10 +8,8 @@ keywords:
 - update diagram metadata
 - groupdocs java
 - automate metadata update
-
+type: docs
 ---
-
-
 # How to Update Diagram Metadata in Java Using GroupDocs: A Developer’s Guide
 
 ## Introduction

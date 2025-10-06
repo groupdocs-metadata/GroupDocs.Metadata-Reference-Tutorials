@@ -6,8 +6,8 @@ description: Khám phá các hướng dẫn toàn diện về GroupDocs.Metadata
 weight: 11
 url: /vi/
 is_root: true
+type: docs
 ---
-
 # Khai phá khả năng làm chủ siêu dữ liệu bằng GroupDocs.Metadata
 
 

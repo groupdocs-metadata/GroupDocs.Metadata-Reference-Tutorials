@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Fedezze fel, hogyan frissítheti az egyéni tulajdonságokat a táblázatokban a GroupDocs.Metadata for .NET használatával. Ez az oktatóanyag hatékonyan fejleszti metaadatkezelési készségeit.
 weight: 15
 url: /hu/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
+type: docs
 ---
-
 # Frissítse az egyéni tulajdonságokat a táblázatokban a .NET használatával
 
 ## Bevezetés

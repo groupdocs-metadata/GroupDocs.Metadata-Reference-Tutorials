@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีอัปเดตความคิดเห็นที่เก็บถาวรในไฟล์ ZIP โดยใช้ GroupDocs.Metadata สำหรับ .NET ปรับปรุงการจัดการข้อมูลเมตาในแอปพลิเคชัน C# ได้อย่างง่ายดาย
 weight: 15
 url: /th/net/archive-metadata/update-archive-comment-zip-files/
+type: docs
 ---
-
 # อัปเดตความคิดเห็นที่เก็บถาวรในไฟล์ ZIP โดยใช้ .NET
 
 ## การแนะนำ

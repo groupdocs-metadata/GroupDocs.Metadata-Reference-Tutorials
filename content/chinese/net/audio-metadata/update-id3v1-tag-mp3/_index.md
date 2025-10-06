@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 使用 GroupDocs.Metadata for .NET 更新 MP3 文件中的 ID3V1 标签。按照本教程，您可以在 .NET 应用程序中轻松操作元数据。
 weight: 19
 url: /zh/net/audio-metadata/update-id3v1-tag-mp3/
+type: docs
 ---
-
 # 使用 .NET 更新 MP3 文件中的 ID3V1 标签
 
 ## 介绍

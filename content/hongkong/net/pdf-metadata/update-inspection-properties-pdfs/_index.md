@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 更新 PDF 文件中的檢查屬性。使用 C# 高效管理元資料和註解。
 weight: 17
 url: /zh-hant/net/pdf-metadata/update-inspection-properties-pdfs/
+type: docs
 ---
-
 # 使用 .NET 更新 PDF 中的檢查屬性
 
 ## 介紹

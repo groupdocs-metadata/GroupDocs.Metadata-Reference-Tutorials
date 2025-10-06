@@ -8,10 +8,8 @@ keywords:
 - update author metadata
 - GroupDocs.Metadata for .NET
 - document metadata management
-
+type: docs
 ---
-
-
 # How to Update the 'Author' Metadata Property Using GroupDocs.Metadata for .NET
 
 ## Introduction

@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata .NET
 - remove metadata properties
 - metadata management
-
+type: docs
 ---
-
-
 # Guide to Removing Metadata Properties with GroupDocs.Metadata .NET for Enhanced Data Privacy
 
 ## Introduction

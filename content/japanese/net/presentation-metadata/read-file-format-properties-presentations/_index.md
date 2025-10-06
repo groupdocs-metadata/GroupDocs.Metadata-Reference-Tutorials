@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata を使用して .NET でプレゼンテーション ファイルのプロパティを読み取る方法を学習します。ファイル形式の詳細にプログラムでアクセスします。
 weight: 13
 url: /ja/net/presentation-metadata/read-file-format-properties-presentations/
+type: docs
 ---
-
 # .NET のプレゼンテーションからファイル形式のプロパティを読み取る
 
 ## 導入

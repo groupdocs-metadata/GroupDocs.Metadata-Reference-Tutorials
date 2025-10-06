@@ -8,10 +8,8 @@ keywords:
 - remove IPTC metadata images Java
 - GroupDocs Metadata library Java
 - image privacy file size reduction
-
+type: docs
 ---
-
-
 # How to Remove IPTC Metadata from Images with GroupDocs.Metadata for Java
 
 ## Introduction

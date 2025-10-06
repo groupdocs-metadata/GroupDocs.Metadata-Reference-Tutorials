@@ -8,10 +8,8 @@ keywords:
 - remove ID3v2 tags from MP3
 - manage digital music library
 - GroupDocs.Metadata for .NET
-
+type: docs
 ---
-
-
 # How to Remove ID3v2 Tags from MP3 Files Using GroupDocs.Metadata for .NET
 
 ## Introduction

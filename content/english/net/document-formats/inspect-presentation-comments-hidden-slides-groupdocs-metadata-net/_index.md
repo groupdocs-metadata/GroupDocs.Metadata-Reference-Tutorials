@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata .NET
 - inspect presentation comments
 - hidden slides in presentations
-
+type: docs
 ---
-
-
 # How to Inspect Presentation Comments and Hidden Slides Using GroupDocs.Metadata .NET
 
 ## Introduction

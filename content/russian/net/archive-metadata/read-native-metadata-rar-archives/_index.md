@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как извлечь свойства метаданных из архивов RAR с помощью GroupDocs.Metadata for .NET на C#. Изучите детали файла без особых усилий.
 weight: 10
 url: /ru/net/archive-metadata/read-native-metadata-rar-archives/
+type: docs
 ---
-
 # Чтение собственных свойств метаданных из архивов RAR в .NET
 
 ## Введение

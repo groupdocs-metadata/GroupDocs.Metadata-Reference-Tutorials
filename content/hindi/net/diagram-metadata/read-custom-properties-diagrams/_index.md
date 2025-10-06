@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: GroupDocs.Metadata का उपयोग करके .NET में आरेख फ़ाइलों से कस्टम गुण निकालने का तरीका जानें। डेवलपर्स के लिए आसान चरण-दर-चरण मार्गदर्शिका।
 weight: 11
 url: /hi/net/diagram-metadata/read-custom-properties-diagrams/
+type: docs
 ---
-
 # .NET में आरेखों से कस्टम गुण पढ़ें
 
 ## परिचय

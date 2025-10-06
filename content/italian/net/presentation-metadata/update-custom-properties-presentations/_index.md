@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Scopri come gestire i metadati della presentazione utilizzando GroupDocs.Metadata per .NET. Aggiorna le proprietà personalizzate in modo efficiente nei file PowerPoint.
 weight: 16
 url: /it/net/presentation-metadata/update-custom-properties-presentations/
+type: docs
 ---
-
 # Aggiorna le proprietà personalizzate nelle presentazioni utilizzando .NET
 
 ## introduzione

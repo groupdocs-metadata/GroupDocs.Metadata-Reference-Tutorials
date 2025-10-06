@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách quản lý siêu dữ liệu tài liệu một cách hiệu quả với GroupDocs.Metadata cho .NET. Trích xuất, chỉnh sửa và xử lý siêu dữ liệu một cách liền mạch trong các ứng dụng .NET của bạn.
 weight: 13
 url: /vi/net/metadata-loading/load-metadata-password-protected/
+type: docs
 ---
-
 # Cách tải siêu dữ liệu từ tài liệu được bảo vệ bằng mật khẩu trong .NET
 
 ## Giới thiệu

@@ -6,8 +6,8 @@ description: Scopri tutorial completi per GroupDocs.Metadata su tutte le piattaf
 weight: 11
 url: /it/
 is_root: true
+type: docs
 ---
-
 # Sbloccare la padronanza dei metadati con GroupDocs.Metadata
 
 

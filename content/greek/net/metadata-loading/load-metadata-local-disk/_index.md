@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Διαχειριστείτε εύκολα τα μεταδεδομένα αρχείων σε εφαρμογές .NET με το GroupDocs.Metadata για βελτιωμένες δυνατότητες χειρισμού αρχείων.
 weight: 10
 url: /el/net/metadata-loading/load-metadata-local-disk/
+type: docs
 ---
-
 # Πώς να φορτώσετε μεταδεδομένα από τοπικό δίσκο στο .NET
 
 ## Εισαγωγή

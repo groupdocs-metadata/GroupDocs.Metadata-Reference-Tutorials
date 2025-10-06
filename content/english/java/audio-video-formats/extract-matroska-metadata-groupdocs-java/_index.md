@@ -8,10 +8,8 @@ keywords:
 - extract matroska metadata
 - groupdocs.metadata java
 - read matroska file
-
+type: docs
 ---
-
-
 # Extracting Matroska Metadata with GroupDocs.Metadata for Java
 ## Audio & Video Formats Guide
 

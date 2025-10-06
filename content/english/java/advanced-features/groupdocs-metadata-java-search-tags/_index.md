@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata Java
 - metadata search tags
 - document metadata management
-
+type: docs
 ---
-
-
 # Mastering GroupDocs.Metadata in Java: Efficient Metadata Searches Using Tags
 
 **Introduction**

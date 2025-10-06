@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 使用 GroupDocs.Metadata for .NET 教程释放 .NET 项目管理文档的潜力。轻松提取、更新和管理元数据。
 weight: 26
 url: /zh/net/project-management-metadata/
+type: docs
 ---
-
 # 项目管理元数据
 
 

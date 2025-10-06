@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Lär dig att ta bort ZIP-arkivkommentarer med GroupDocs.Metadata for .NET. Förbättra dina metadatahanteringsfärdigheter.
 weight: 14
 url: /sv/net/archive-metadata/remove-archive-comment-zip-files/
+type: docs
 ---
-
 # Ta bort arkivkommentar från ZIP-filer i .NET
 
 ## Introduktion

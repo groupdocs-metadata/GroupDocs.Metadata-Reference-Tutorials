@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata 從 .NET 中的 TAR 檔案中擷取元資料。本教學將逐步指導您完成流程。
 weight: 12
 url: /zh-hant/net/archive-metadata/read-native-metadata-tar-archives/
+type: docs
 ---
-
 # 從 .NET 中的 TAR 檔案讀取本機元資料屬性
 
 ## 介紹

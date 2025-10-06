@@ -8,10 +8,8 @@ keywords:
 - extract JPEG2000 image comments
 - GroupDocs.Metadata for Java setup
 - read metadata from JPEG2000 images
-
+type: docs
 ---
-
-
 # Extract JPEG2000 Image Comments in Java Using GroupDocs.Metadata: A Step-by-Step Guide
 
 ## Introduction

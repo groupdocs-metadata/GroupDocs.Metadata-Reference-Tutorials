@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách xóa thẻ ID3V1 khỏi tệp MP3 bằng GroupDocs.Metadata cho .NET. Hướng dẫn từng bước dễ dàng với các ví dụ thực tế.
 weight: 16
 url: /vi/net/audio-metadata/remove-id3v1-tag-mp3/
+type: docs
 ---
-
 # Xóa thẻ ID3V1 khỏi tệp MP3 trong .NET
 
 ## Giới thiệu

@@ -3,8 +3,8 @@ title: "Advanced Metadata Features Tutorials for GroupDocs.Metadata .NET"
 description: "Learn advanced techniques for metadata searching, cleaning, comparison, and batch processing with GroupDocs.Metadata for .NET."
 weight: 17
 url: "/net/advanced-features/"
+type: docs
 ---
-
 # Advanced Metadata Features Tutorials for GroupDocs.Metadata .NET
 
 Master sophisticated metadata operations with our advanced GroupDocs.Metadata tutorials for .NET developers. These in-depth guides demonstrate powerful techniques for searching metadata across multiple files, cleaning sensitive information in batches, comparing metadata between documents, and implementing complex property filtering. Each tutorial includes comprehensive C# code examples for advanced metadata scenarios, helping you build professional applications with robust metadata management capabilities for enterprise document workflows and information governance.

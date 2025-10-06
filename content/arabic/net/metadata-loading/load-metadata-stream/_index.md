@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية إدارة بيانات تعريف الملف في .NET باستخدام GroupDocs.Metadata. دليل خطوة بخطوة لتحميل البيانات التعريفية وتحريرها وإزالتها من التدفقات.
 weight: 11
 url: /ar/net/metadata-loading/load-metadata-stream/
+type: docs
 ---
-
 # تحميل بيانات التعريف من الدفق في البرنامج التعليمي .NET
 
 ## مقدمة

@@ -8,10 +8,8 @@ keywords:
 - extract image resources PSD
 - GroupDocs.Metadata Java
 - image resource blocks PSD
-
+type: docs
 ---
-
-
 # Extract Image Resources from PSD Files Using GroupDocs.Metadata in Java
 
 ## Introduction

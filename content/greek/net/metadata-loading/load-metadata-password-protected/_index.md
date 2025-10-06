@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να διαχειρίζεστε αποτελεσματικά τα μεταδεδομένα εγγράφων με το GroupDocs.Metadata για .NET. Εξαγωγή, επεξεργασία και διαχείριση μεταδεδομένων απρόσκοπτα στις εφαρμογές σας .NET.
 weight: 13
 url: /el/net/metadata-loading/load-metadata-password-protected/
+type: docs
 ---
-
 # Πώς να φορτώσετε μεταδεδομένα από έγγραφο που προστατεύεται με κωδικό πρόσβασης στο .NET
 
 ## Εισαγωγή

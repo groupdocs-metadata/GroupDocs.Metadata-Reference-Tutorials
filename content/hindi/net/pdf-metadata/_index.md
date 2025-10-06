@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET ट्यूटोरियल के लिए GroupDocs.Metadata के साथ आसानी से PDF मेटाडेटा को प्रबंधित करना सीखें। C# कोड के साथ बिल्ट-इन और कस्टम प्रॉपर्टीज़ तक पहुँचें।
 weight: 24
 url: /hi/net/pdf-metadata/
+type: docs
 ---
-
 # पीडीएफ मेटाडेटा
 
 ## परिचय

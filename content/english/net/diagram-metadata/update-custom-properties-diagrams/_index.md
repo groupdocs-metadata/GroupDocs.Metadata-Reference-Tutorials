@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Learn how to update custom properties in diagrams using .NET with GroupDocs.Metadata for .NET. Enhance metadata with ease.
 weight: 15
 url: /net/diagram-metadata/update-custom-properties-diagrams/
+type: docs
 ---
-
 # Update Custom Properties in Diagrams using .NET
 
 ## Introduction

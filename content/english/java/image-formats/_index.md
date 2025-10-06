@@ -3,8 +3,8 @@ title: "Image Metadata Management Tutorials with GroupDocs.Metadata for Java"
 description: "Learn to work with metadata in JPEG, PNG, TIFF, BMP, GIF and other image formats with these GroupDocs.Metadata Java tutorials."
 weight: 5
 url: "/java/image-formats/"
+type: docs
 ---
-
 # Image Metadata Management Tutorials with GroupDocs.Metadata for Java
 
 Discover how to efficiently manage metadata in various image formats with our comprehensive GroupDocs.Metadata Java tutorials. These step-by-step guides teach you how to extract, modify, and remove metadata from JPEG, PNG, TIFF, BMP, GIF, PSD and other image formats. Each tutorial provides practical Java code examples for common image metadata operations, helping you build more efficient applications that can process image metadata for cataloging, copyright management, and privacy protection.

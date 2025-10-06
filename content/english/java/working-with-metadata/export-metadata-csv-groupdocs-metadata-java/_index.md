@@ -8,10 +8,8 @@ keywords:
 - export metadata to CSV
 - GroupDocs.Metadata Java tutorial
 - metadata extraction in Java
-
+type: docs
 ---
-
-
 # Export Metadata Properties to CSV Using GroupDocs.Metadata in Java
 
 ## Introduction

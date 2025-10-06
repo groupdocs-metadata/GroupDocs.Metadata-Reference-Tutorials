@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Leer bestandsmetagegevens beheren in .NET met GroupDocs.Metadata. Stapsgewijze handleiding voor het laden, bewerken en verwijderen van metadata uit streams.
 weight: 11
 url: /nl/net/metadata-loading/load-metadata-stream/
+type: docs
 ---
-
 # Metagegevens uit Stream laden in .NET-zelfstudie
 
 ## Invoering

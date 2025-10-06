@@ -8,10 +8,8 @@ keywords:
 - metadata extraction java
 - groupdocs metadata setup
 - extract metadata by category java
-
+type: docs
 ---
-
-
 # Master Metadata Extraction in Java Using GroupDocs.Metadata
 A Comprehensive Guide
 

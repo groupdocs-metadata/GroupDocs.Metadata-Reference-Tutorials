@@ -6,8 +6,8 @@ description: Descubra tutoriais abrangentes para GroupDocs.Metadata em várias p
 weight: 11
 url: /pt/
 is_root: true
+type: docs
 ---
-
 # Desbloqueando o domínio de metadados com GroupDocs.Metadata
 
 

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan frissítheti a prezentációk beépített tulajdonságait a .NET használatával a GroupDocs.Metadata segítségével, amely egy sokoldalú metaadat-kezelési könyvtár.
 weight: 15
 url: /hu/net/presentation-metadata/update-built-in-properties-presentations/
+type: docs
 ---
-
 # Frissítse a bemutatók beépített tulajdonságait .NET használatával
 
 ## Bevezetés

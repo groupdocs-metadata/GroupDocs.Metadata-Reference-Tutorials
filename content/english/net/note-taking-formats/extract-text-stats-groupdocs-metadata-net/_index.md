@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata
 - extract text statistics
 - Note documents
-
+type: docs
 ---
-
-
 # Extract Text Statistics from Note Documents Using GroupDocs.Metadata in .NET
 
 ## Introduction

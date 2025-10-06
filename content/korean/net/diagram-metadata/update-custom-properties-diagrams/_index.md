@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata와 함께 .NET을 사용하여 다이어그램의 사용자 정의 속성을 업데이트하는 방법을 알아보세요. 메타데이터를 쉽게 향상하세요.
 weight: 15
 url: /ko/net/diagram-metadata/update-custom-properties-diagrams/
+type: docs
 ---
-
 # .NET을 사용하여 다이어그램의 사용자 정의 속성 업데이트
 
 ## 소개

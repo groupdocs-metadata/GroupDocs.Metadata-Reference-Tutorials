@@ -8,10 +8,8 @@ keywords:
 - IPTC metadata extraction
 - TIFF images Java
 - GroupDocs.Metadata for Java
-
+type: docs
 ---
-
-
 # How to Extract IPTC Metadata from TIFF Images Using GroupDocs.Metadata for Java
 
 ## Introduction

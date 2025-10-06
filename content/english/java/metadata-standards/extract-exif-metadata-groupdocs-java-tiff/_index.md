@@ -8,10 +8,8 @@ keywords:
 - EXIF metadata extraction
 - GroupDocs.Metadata Java library
 - TIFF image metadata
-
+type: docs
 ---
-
-
 # How to Extract EXIF Metadata from TIFF Images Using GroupDocs.Metadata in Java: A Comprehensive Guide
 
 ## Introduction

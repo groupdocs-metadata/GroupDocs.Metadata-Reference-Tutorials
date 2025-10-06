@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Из этого подробного руководства вы узнаете, как загружать метаданные из файлов определенных форматов с помощью GroupDocs.Metadata для .NET.
 weight: 12
 url: /ru/net/metadata-loading/load-metadata-specific-format/
+type: docs
 ---
-
 # Загрузка метаданных из определенного формата в .NET
 
 ## Введение

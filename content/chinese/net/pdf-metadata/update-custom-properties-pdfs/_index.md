@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata 和 .NET 更新 PDF 文件中的自定义属性。高效操作 PDF 元数据的简单步骤。
 weight: 16
 url: /zh/net/pdf-metadata/update-custom-properties-pdfs/
+type: docs
 ---
-
 # 使用 .NET 更新 PDF 中的自定义属性
 
 ## 介绍

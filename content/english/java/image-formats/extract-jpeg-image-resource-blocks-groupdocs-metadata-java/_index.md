@@ -8,10 +8,8 @@ keywords:
 - extract image resource blocks JPEG
 - GroupDocs Metadata Java
 - JPEG metadata extraction
-
+type: docs
 ---
-
-
 # How to Extract Image Resource Blocks from a JPEG Using GroupDocs.Metadata for Java
 
 ## Introduction

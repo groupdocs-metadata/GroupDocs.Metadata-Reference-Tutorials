@@ -6,8 +6,8 @@ description: Ontdek uitgebreide tutorials voor GroupDocs.Metadata op verschillen
 weight: 11
 url: /nl/
 is_root: true
+type: docs
 ---
-
 # Beheersing van metadata ontsluiten met GroupDocs.Metadata
 
 

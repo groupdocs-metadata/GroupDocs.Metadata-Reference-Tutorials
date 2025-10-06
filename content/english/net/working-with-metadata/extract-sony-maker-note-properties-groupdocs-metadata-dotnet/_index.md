@@ -8,10 +8,8 @@ keywords:
 - extract Sony MakerNote properties
 - GroupDocs.Metadata .NET API
 - Sony camera settings
-
+type: docs
 ---
-
-
 # How to Extract Sony MakerNote Properties Using GroupDocs.Metadata .NET API
 
 ## Introduction

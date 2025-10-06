@@ -6,8 +6,8 @@ description: Découvrez des didacticiels complets pour GroupDocs.Metadata sur to
 weight: 11
 url: /fr/
 is_root: true
+type: docs
 ---
-
 # Débloquer la maîtrise des métadonnées avec GroupDocs.Metadata
 
 

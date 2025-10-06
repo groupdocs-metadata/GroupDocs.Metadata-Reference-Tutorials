@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 在此综合教程中了解如何使用 GroupDocs.Metadata for .NET 从特定文件格式加载元数据。
 weight: 12
 url: /zh/net/metadata-loading/load-metadata-specific-format/
+type: docs
 ---
-
 # 从 .NET 中的特定格式加载元数据
 
 ## 介绍

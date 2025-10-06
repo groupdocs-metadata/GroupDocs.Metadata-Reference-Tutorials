@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как читать пользовательские свойства из презентаций в .NET с помощью GroupDocs.Metadata. Эффективный доступ и извлечение метаданных.
 weight: 11
 url: /ru/net/presentation-metadata/read-custom-properties-presentations/
+type: docs
 ---
-
 # Чтение пользовательских свойств из презентаций в .NET
 
 ## Введение

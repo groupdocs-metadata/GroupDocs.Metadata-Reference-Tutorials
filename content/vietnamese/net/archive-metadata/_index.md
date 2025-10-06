@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Khám phá các hướng dẫn về cách trích xuất và quản lý thuộc tính siêu dữ liệu từ nhiều định dạng lưu trữ khác nhau như RAR, 7Zip, TAR và ZIP bằng GroupDocs.Metadata cho .NET.
 weight: 21
 url: /vi/net/archive-metadata/
+type: docs
 ---
-
 # Lưu trữ siêu dữ liệu
 
 

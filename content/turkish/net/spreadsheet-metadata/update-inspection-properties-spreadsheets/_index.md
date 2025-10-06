@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak e-tablolardaki inceleme özelliklerini nasıl güncelleyeceğinizi öğrenin. Yorumları, imzaları ve gizli sayfaları kolaylıkla yönetin.
 weight: 16
 url: /tr/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # .NET kullanarak Elektronik Tablolardaki Denetim Özelliklerini Güncelleme
 
 ## giriiş

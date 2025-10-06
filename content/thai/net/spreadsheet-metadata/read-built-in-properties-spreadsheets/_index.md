@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีแยกข้อมูลเมตาจากสเปรดชีตใน .NET โดยใช้ GroupDocs.Metadata ปรับปรุงการจัดการเอกสารและการจัดระเบียบในแอปพลิเคชันของคุณ
 weight: 10
 url: /th/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # อ่านคุณสมบัติในตัวจากสเปรดชีตใน .NET
 
 ## การแนะนำ

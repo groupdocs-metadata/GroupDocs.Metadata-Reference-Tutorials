@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 스프레드시트 파일 형식 속성을 읽는 방법을 알아보세요. 간단한 API 호출을 통해 파일 형식, MIME 유형 등에 액세스하세요.
 weight: 12
 url: /ko/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
+type: docs
 ---
-
 # .NET의 스프레드시트에서 파일 형식 속성 읽기
 
 ## 소개

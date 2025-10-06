@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية تحديث الخصائص المخصصة في مستندات إدارة مشروع .NET باستخدام GroupDocs.Metadata لـ .NET. تعزيز إدارة البيانات الوصفية في تطبيقاتك.
 weight: 13
 url: /ar/net/project-management-metadata/update-custom-properties-project-management-documents/
+type: docs
 ---
-
 # قم بتحديث الخصائص المخصصة في مستندات إدارة مشروع .NET
 
 ## مقدمة

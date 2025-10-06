@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية إدارة بيانات تعريف العرض التقديمي باستخدام GroupDocs.Metadata لـ .NET. قم بتحديث الخصائص المخصصة بكفاءة في ملفات PowerPoint.
 weight: 16
 url: /ar/net/presentation-metadata/update-custom-properties-presentations/
+type: docs
 ---
-
 # قم بتحديث الخصائص المخصصة في العروض التقديمية باستخدام .NET
 
 ## مقدمة

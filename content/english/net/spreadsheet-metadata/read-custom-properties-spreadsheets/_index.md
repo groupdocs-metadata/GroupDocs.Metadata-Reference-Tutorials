@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Learn how to extract custom properties from spreadsheets using GroupDocs.Metadata for .NET. Enhance metadata manipulation in your .NET applications.
 weight: 11
 url: /net/spreadsheet-metadata/read-custom-properties-spreadsheets/
+type: docs
 ---
-
 # Read Custom Properties from Spreadsheets in .NET
 
 ## Introduction

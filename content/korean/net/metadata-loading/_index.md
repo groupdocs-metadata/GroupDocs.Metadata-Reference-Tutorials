@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: GroupDocs.Metadata를 사용하면 .NET에서 파일 메타데이터를 손쉽게 관리할 수 있습니다. 향상된 파일 조작 기능을 위한 로딩 기술, 편집 등을 알아보세요.
 weight: 20
 url: /ko/net/metadata-loading/
+type: docs
 ---
-
 # 메타데이터 로딩
 
 ## 소개

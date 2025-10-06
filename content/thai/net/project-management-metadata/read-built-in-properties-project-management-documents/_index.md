@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีดึงข้อมูลเมตาจากเอกสารการจัดการโครงการโดยใช้ GroupDocs.Metadata สำหรับ .NET เพิ่มความสามารถในการประมวลผลเอกสารของคุณ
 weight: 10
 url: /th/net/project-management-metadata/read-built-in-properties-project-management-documents/
+type: docs
 ---
-
 # อ่านคุณสมบัติในตัวในเอกสารการจัดการโครงการ .NET
 
 ## การแนะนำ

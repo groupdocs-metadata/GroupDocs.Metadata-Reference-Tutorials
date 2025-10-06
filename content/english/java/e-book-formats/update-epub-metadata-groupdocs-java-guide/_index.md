@@ -8,10 +8,8 @@ keywords:
 - update EPUB metadata Java
 - GroupDocs.Metadata for Java
 - EPUB file management
-
+type: docs
 ---
-
-
 # How to Update EPUB Metadata Using Java and GroupDocs: A Complete Guide
 
 ## Introduction

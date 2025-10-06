@@ -8,10 +8,8 @@ keywords:
 - read APEv2 tags MP3 GroupDocs Metadata .NET
 - GroupDocs.Metadata for .NET audio metadata management
 - extract APEv2 metadata from MP3
-
+type: docs
 ---
-
-
 # How to Read APEv2 Tags in MP3 Files Using GroupDocs.Metadata for .NET
 
 ## Introduction

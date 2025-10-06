@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment extraire les propriétés d'inspection de documents PDF à l'aide de GroupDocs.Metadata pour .NET. Explorez les annotations, les pièces jointes et bien plus encore.
 weight: 14
 url: /fr/net/pdf-metadata/read-inspection-properties-pdfs/
+type: docs
 ---
-
 # Lire les propriétés d'inspection à partir de fichiers PDF dans .NET
 
 ## Introduction

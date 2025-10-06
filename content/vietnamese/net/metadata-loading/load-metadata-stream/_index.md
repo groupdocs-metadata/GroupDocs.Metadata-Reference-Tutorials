@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách quản lý siêu dữ liệu tệp trong .NET bằng GroupDocs.Metadata. Hướng dẫn từng bước để tải, chỉnh sửa và xóa siêu dữ liệu khỏi luồng.
 weight: 11
 url: /vi/net/metadata-loading/load-metadata-stream/
+type: docs
 ---
-
 # Tải siêu dữ liệu từ luồng trong hướng dẫn .NET
 
 ## Giới thiệu

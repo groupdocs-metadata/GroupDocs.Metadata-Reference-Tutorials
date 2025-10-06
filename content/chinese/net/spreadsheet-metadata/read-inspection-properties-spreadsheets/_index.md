@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 从电子表格中读取检查属性。轻松访问注释、数字签名和隐藏的工作表。
 weight: 13
 url: /zh/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # 从 .NET 中的电子表格读取检查属性
 
 ## 介绍

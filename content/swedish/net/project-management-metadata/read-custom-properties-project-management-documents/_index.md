@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du extraherar anpassade egenskaper från .NET-projekthanteringsdokument med GroupDocs.Metadata för .NET. Förbättra din metadatahantering.
 weight: 11
 url: /sv/net/project-management-metadata/read-custom-properties-project-management-documents/
+type: docs
 ---
-
 # Läs anpassade egenskaper i .NET Project Management Documents
 
 ## Introduktion

@@ -8,10 +8,8 @@ keywords:
 - EXIF data extraction in Java
 - GroupDocs.Metadata for Java
 - reading software tag from EXIF
-
+type: docs
 ---
-
-
 # Extract EXIF Software Tag in Java: A Complete Guide Using GroupDocs.Metadata
 
 ## Introduction

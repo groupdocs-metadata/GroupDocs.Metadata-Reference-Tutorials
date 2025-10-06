@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξαγάγετε μεταδεδομένα από αρχεία WAV χρησιμοποιώντας το GroupDocs.Metadata για .NET. Βουτήξτε σε αυτό το βήμα προς βήμα σεμινάριο για να αξιοποιήσετε τα μεταδεδομένα για τη διαχείριση αρχείων ήχου.
 weight: 22
 url: /el/net/audio-metadata/read-info-metadata-wav/
+type: docs
 ---
-
 # Διαβάστε τα Μεταδεδομένα πληροφοριών από τα αρχεία WAV στο .NET
 
 ## Εισαγωγή

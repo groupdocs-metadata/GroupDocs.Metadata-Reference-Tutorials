@@ -8,10 +8,8 @@ keywords:
 - extract ID3v1 tags MP3
 - groupdocs.metadata java api
 - reading metadata from audio files
-
+type: docs
 ---
-
-
 # How to Extract ID3v1 Tags from MP3 Files Using GroupDocs.Metadata Java API
 
 ## Introduction

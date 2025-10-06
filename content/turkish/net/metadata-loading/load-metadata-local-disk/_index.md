@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: Gelişmiş dosya işleme yetenekleri için GroupDocs.Metadata ile .NET uygulamalarındaki dosya meta verilerini zahmetsizce yönetin.
 weight: 10
 url: /tr/net/metadata-loading/load-metadata-local-disk/
+type: docs
 ---
-
 # .NET'te Yerel Diskten Meta Veriler Nasıl Yüklenir
 
 ## giriiş

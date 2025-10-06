@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u bestandsindelingseigenschappen uit diagrammen in .NET kunt lezen met behulp van GroupDocs.Metadata. Extraheer moeiteloos gedetailleerde metadata.
 weight: 13
 url: /nl/net/diagram-metadata/read-file-format-properties-diagrams/
+type: docs
 ---
-
 # Lees bestandsformaateigenschappen uit diagrammen in .NET
 
 ## Invoering

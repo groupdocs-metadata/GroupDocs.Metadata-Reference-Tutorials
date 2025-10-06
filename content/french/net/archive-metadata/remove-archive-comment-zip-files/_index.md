@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Apprenez à supprimer les commentaires d’archive ZIP à l’aide de GroupDocs.Metadata pour .NET. Améliorez vos compétences en gestion des métadonnées.
 weight: 14
 url: /fr/net/archive-metadata/remove-archive-comment-zip-files/
+type: docs
 ---
-
 # Supprimer le commentaire d'archive des fichiers ZIP dans .NET
 
 ## Introduction

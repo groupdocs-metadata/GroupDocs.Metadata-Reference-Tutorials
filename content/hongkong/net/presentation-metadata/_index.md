@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata 教學課程有效管理 .NET 中的簡報元資料。輕鬆存取內建和自訂屬性。
 weight: 25
 url: /zh-hant/net/presentation-metadata/
+type: docs
 ---
-
 # 表示元資料
 
 ## 介紹

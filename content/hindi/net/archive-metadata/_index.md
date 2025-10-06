@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके RAR, 7Zip, TAR और ZIP जैसे विभिन्न संग्रह प्रारूपों से मेटाडेटा गुणों को निकालने और प्रबंधित करने पर ट्यूटोरियल का अन्वेषण करें।
 weight: 21
 url: /hi/net/archive-metadata/
+type: docs
 ---
-
 # मेटाडेटा संग्रहित करें
 
 

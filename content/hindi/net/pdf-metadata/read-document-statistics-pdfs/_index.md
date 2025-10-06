@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके PDF दस्तावेज़ आँकड़े निकालना सीखें। अपने दस्तावेज़ प्रबंधन क्षमताओं को सहजता से बढ़ाएँ।
 weight: 12
 url: /hi/net/pdf-metadata/read-document-statistics-pdfs/
+type: docs
 ---
-
 # .NET में PDF से दस्तावेज़ सांख्यिकी पढ़ें
 
 ## परिचय

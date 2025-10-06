@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε να εξάγετε μεταδεδομένα από αρχεία διαγραμμάτων στο .NET χρησιμοποιώντας το GroupDocs.Metadata. Βελτιώστε τη διαχείριση και ανάλυση εγγράφων αποτελεσματικά.
 weight: 10
 url: /el/net/diagram-metadata/read-built-in-properties-diagrams/
+type: docs
 ---
-
 # Διαβάστε τις Ενσωματωμένες Ιδιότητες από Διαγράμματα στο .NET
 
 ## Εισαγωγή

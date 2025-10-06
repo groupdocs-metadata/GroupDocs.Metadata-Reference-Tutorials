@@ -8,10 +8,8 @@ keywords:
 - automate torrent metadata updates
 - GroupDocs.Metadata for .NET
 - torrent file metadata automation
-
+type: docs
 ---
-
-
 # How to Automate Torrent Metadata Updates Using GroupDocs.Metadata for .NET
 
 ## Introduction

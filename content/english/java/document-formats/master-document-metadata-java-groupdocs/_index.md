@@ -8,10 +8,8 @@ keywords:
 - document metadata management in Java
 - GroupDocs.Metadata library usage
 - loading password-protected documents
-
+type: docs
 ---
-
-
 # Mastering Document Metadata Management in Java with GroupDocs.Metadata
 
 ## Introduction

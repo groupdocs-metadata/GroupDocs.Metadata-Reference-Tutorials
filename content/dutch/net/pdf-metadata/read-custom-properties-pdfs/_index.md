@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u aangepaste eigenschappen uit PDF's kunt extraheren met GroupDocs.Metadata voor .NET. Duik in het beheer van documentmetagegevens met C#.
 weight: 11
 url: /nl/net/pdf-metadata/read-custom-properties-pdfs/
+type: docs
 ---
-
 # Lees aangepaste eigenschappen uit PDF's in .NET
 
 ## Invoering

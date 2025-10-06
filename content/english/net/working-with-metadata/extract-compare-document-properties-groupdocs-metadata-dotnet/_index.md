@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata .NET
 - extract document properties .NET
 - compare metadata documents
-
+type: docs
 ---
-
-
 # Extract & Compare Document Properties with GroupDocs.Metadata
 
 ## Introduction

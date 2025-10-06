@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية قراءة علامات ID3V1 من ملفات MP3 باستخدام GroupDocs.Metadata لـ .NET. برنامج تعليمي خطوة بخطوة مع أمثلة التعليمات البرمجية.
 weight: 11
 url: /ar/net/audio-metadata/read-id3v1-tag-mp3/
+type: docs
 ---
-
 # قراءة علامة ID3V1 من ملفات MP3 في .NET
 
 ## مقدمة

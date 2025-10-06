@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके ज़िप संग्रह टिप्पणियों को हटाना सीखें। अपने मेटाडेटा प्रबंधन कौशल को बढ़ाएं।
 weight: 14
 url: /hi/net/archive-metadata/remove-archive-comment-zip-files/
+type: docs
 ---
-
 # .NET में ज़िप फ़ाइलों से पुरालेख टिप्पणी हटाएँ
 
 ## परिचय

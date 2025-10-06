@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata Java
 - EML metadata extraction
 - Java email handling
-
+type: docs
 ---
-
-
 # Master Email Metadata Extraction with GroupDocs.Metadata for Java
 
 In today’s digital age, emails are a cornerstone of communication, often containing sensitive information that requires careful management. Extracting metadata such as sender details, email subjects, recipients, attachments, and headers from EML files is crucial for tasks like archiving data or implementing security measures. This tutorial will guide you through using GroupDocs.Metadata for Java to efficiently extract this essential information.

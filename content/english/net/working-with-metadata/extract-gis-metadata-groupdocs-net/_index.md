@@ -8,10 +8,8 @@ keywords:
 - extract metadata GIS files
 - GroupDocs.Metadata .NET tutorial
 - GIS file metadata extraction
-
+type: docs
 ---
-
-
 # How to Extract Metadata from GIS Files Using GroupDocs.Metadata .NET: A Comprehensive Guide
 
 In the dynamic field of geographic information systems (GIS), efficiently managing and extracting metadata is crucial. Whether you're developing mapping software, environmental monitoring tools, or urban planning applications, understanding the metadata within your GIS files is essential. This tutorial will guide you through extracting metadata properties from GIS files using the powerful GroupDocs.Metadata library for .NET.

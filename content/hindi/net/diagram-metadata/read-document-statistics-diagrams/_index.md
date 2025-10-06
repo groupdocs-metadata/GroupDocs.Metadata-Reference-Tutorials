@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: GroupDocs.Metadata, एक शक्तिशाली मेटाडेटा हेरफेर लाइब्रेरी का उपयोग करके .NET में आरेखों से दस्तावेज़ आँकड़े निकालना सीखें।
 weight: 12
 url: /hi/net/diagram-metadata/read-document-statistics-diagrams/
+type: docs
 ---
-
 # .NET में आरेखों से दस्तावेज़ सांख्यिकी पढ़ें
 
 ## परिचय

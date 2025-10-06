@@ -8,10 +8,8 @@ keywords:
 - update ZIP comments with GroupDocs
 - GroupDocs.Metadata for .NET
 - managing metadata in ZIP files
-
+type: docs
 ---
-
-
 # How to Update User Comments in ZIP Archives with GroupDocs.Metadata for .NET
 
 ## Introduction

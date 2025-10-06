@@ -8,10 +8,8 @@ keywords:
 - filter vCard properties
 - GroupDocs.Metadata for .NET
 - work phone numbers and email addresses
-
+type: docs
 ---
-
-
 # How to Filter vCard Properties with GroupDocs.Metadata for .NET
 
 ## Introduction

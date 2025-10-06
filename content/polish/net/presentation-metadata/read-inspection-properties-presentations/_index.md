@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak wyodrębnić metadane prezentacji przy użyciu GroupDocs.Metadata dla platformy .NET. Uzyskaj programowy dostęp do komentarzy, ukrytych slajdów i nie tylko.
 weight: 14
 url: /pl/net/presentation-metadata/read-inspection-properties-presentations/
+type: docs
 ---
-
 # Przeczytaj właściwości inspekcji z prezentacji w .NET
 
 ## Wstęp

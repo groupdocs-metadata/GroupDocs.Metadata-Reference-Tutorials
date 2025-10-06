@@ -8,10 +8,8 @@ keywords:
 - APEv2 tags
 - GroupDocs.Metadata Java
 - extract MP3 metadata
-
+type: docs
 ---
-
-
 # How to Read APEv2 Tags from an MP3 File Using GroupDocs.Metadata for Java
 
 ## Introduction

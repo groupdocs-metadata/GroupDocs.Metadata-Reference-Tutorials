@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 MP3 파일의 ID3V1 태그를 업데이트합니다. .NET 애플리케이션에서 메타데이터를 쉽게 조작하려면 이 튜토리얼을 따르세요.
 weight: 19
 url: /ko/net/audio-metadata/update-id3v1-tag-mp3/
+type: docs
 ---
-
 # .NET을 사용하여 MP3 파일의 ID3V1 태그 업데이트
 
 ## 소개

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat uživatelské vlastnosti z dokumentů řízení projektů .NET pomocí GroupDocs.Metadata pro .NET. Vylepšete svou správu metadat.
 weight: 11
 url: /cs/net/project-management-metadata/read-custom-properties-project-management-documents/
+type: docs
 ---
-
 # Přečtěte si Uživatelské vlastnosti v .NET Project Management Documents
 
 ## Úvod

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak aktualizować właściwości inspekcji w arkuszach kalkulacyjnych przy użyciu GroupDocs.Metadata dla platformy .NET. Z łatwością zarządzaj komentarzami, podpisami i ukrytymi arkuszami.
 weight: 16
 url: /pl/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # Zaktualizuj właściwości kontroli w arkuszach kalkulacyjnych przy użyciu platformy .NET
 
 ## Wstęp

@@ -6,8 +6,8 @@ description: Elektronik tablo özelliklerini okuma ve güncellemeye ilişkin eğ
 
 weight: 27
 url: /tr/net/spreadsheet-metadata/
+type: docs
 ---
-
 # Elektronik Tablo Meta Verileri
 
 ## giriiş

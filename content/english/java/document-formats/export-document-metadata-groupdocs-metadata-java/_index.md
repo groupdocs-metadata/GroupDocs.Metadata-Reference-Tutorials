@@ -8,10 +8,8 @@ keywords:
 - export document metadata with GroupDocs.Metadata
 - manage document metadata in Java
 - export metadata to Excel, XML, CSV
-
+type: docs
 ---
-
-
 # Export Document Metadata with GroupDocs.Metadata in Java
 
 ## Introduction

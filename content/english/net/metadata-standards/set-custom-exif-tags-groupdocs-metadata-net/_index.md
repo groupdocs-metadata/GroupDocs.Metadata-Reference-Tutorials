@@ -8,10 +8,8 @@ keywords:
 - set custom exif tags .net
 - groupdocs.metadata .net tutorial
 - manipulate image metadata
-
+type: docs
 ---
-
-
 # Set Custom EXIF Tags in .NET Using GroupDocs.Metadata: A Comprehensive Developer's Guide
 
 ## Introduction

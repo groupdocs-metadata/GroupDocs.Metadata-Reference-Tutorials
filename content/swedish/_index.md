@@ -6,8 +6,8 @@ description: Upptäck omfattande självstudier för GroupDocs.Metadata över pla
 weight: 11
 url: /sv/
 is_root: true
+type: docs
 ---
-
 # Låsa upp Metadata Mastery med GroupDocs.Metadata
 
 

@@ -8,10 +8,8 @@ keywords:
 - remove user comments from ZIP files
 - GroupDocs.Metadata Java tutorial
 - ZIP file metadata management
-
+type: docs
 ---
-
-
 # How to Remove User Comments from ZIP Archives Using GroupDocs.Metadata in Java
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีโหลดข้อมูลเมตาจากรูปแบบไฟล์เฉพาะโดยใช้ GroupDocs.Metadata สำหรับ .NET ในบทช่วยสอนที่ครอบคลุมนี้
 weight: 12
 url: /th/net/metadata-loading/load-metadata-specific-format/
+type: docs
 ---
-
 # กำลังโหลดข้อมูลเมตาจากรูปแบบเฉพาะใน .NET
 
 ## การแนะนำ

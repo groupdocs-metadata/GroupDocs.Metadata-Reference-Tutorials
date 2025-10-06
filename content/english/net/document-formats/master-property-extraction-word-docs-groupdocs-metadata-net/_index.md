@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata for .NET
 - extract metadata from Word documents
 - manage document properties .NET
-
+type: docs
 ---
-
-
 # Mastering Property Extraction in Word Documents with GroupDocs.Metadata .NET
 
 ## Introduction

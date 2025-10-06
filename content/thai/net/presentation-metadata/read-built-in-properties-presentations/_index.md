@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีแยกคุณสมบัติในตัวออกจากงานนำเสนอโดยใช้ GroupDocs.Metadata สำหรับ .NET ในบทช่วยสอนที่ครอบคลุมนี้
 weight: 10
 url: /th/net/presentation-metadata/read-built-in-properties-presentations/
+type: docs
 ---
-
 # อ่านคุณสมบัติในตัวจากการนำเสนอใน .NET
 
 ## การแนะนำ

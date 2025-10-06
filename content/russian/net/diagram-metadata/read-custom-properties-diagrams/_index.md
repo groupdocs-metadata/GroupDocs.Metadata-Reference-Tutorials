@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как извлечь пользовательские свойства из файлов схем в .NET с помощью GroupDocs.Metadata. Простое пошаговое руководство для разработчиков.
 weight: 11
 url: /ru/net/diagram-metadata/read-custom-properties-diagrams/
+type: docs
 ---
-
 # Чтение пользовательских свойств из диаграмм в .NET
 
 ## Введение

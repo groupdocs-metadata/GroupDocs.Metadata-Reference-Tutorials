@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как обновить настраиваемые свойства в электронных таблицах с помощью GroupDocs.Metadata для .NET. Это руководство эффективно совершенствует ваши навыки управления метаданными.
 weight: 15
 url: /ru/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
+type: docs
 ---
-
 # Обновление пользовательских свойств в электронных таблицах с помощью .NET
 
 ## Введение

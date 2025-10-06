@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: GroupDocs.Metadata를 사용하여 .NET의 다이어그램 파일에서 메타데이터를 추출하는 방법을 알아보세요. 문서 관리 및 분석을 효율적으로 강화합니다.
 weight: 10
 url: /ko/net/diagram-metadata/read-built-in-properties-diagrams/
+type: docs
 ---
-
 # .NET의 다이어그램에서 기본 제공 속성 읽기
 
 ## 소개

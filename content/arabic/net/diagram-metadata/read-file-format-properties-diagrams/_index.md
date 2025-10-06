@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية قراءة خصائص تنسيق الملف من الرسوم التخطيطية في .NET باستخدام GroupDocs.Metadata. استخراج البيانات الوصفية التفصيلية دون عناء.
 weight: 13
 url: /ar/net/diagram-metadata/read-file-format-properties-diagrams/
+type: docs
 ---
-
 # قراءة خصائص تنسيق الملف من المخططات في .NET
 
 ## مقدمة

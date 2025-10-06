@@ -8,10 +8,8 @@ keywords:
 - extract text statistics from diagrams
 - GroupDocs.Metadata .NET
 - diagram file metadata
-
+type: docs
 ---
-
-
 # Extract Text Statistics from Diagrams Using GroupDocs.Metadata in .NET
 
 ## Introduction

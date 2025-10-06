@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan olvassa el a prezentációs fájl tulajdonságait .NET-ben a GroupDocs.Metadata használatával. A fájlformátum részleteinek programozott elérése.
 weight: 13
 url: /hu/net/presentation-metadata/read-file-format-properties-presentations/
+type: docs
 ---
-
 # Olvassa el a Fájlformátum tulajdonságait a .NET bemutatóiból
 
 ## Bevezetés

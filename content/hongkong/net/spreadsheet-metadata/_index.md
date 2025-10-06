@@ -6,8 +6,8 @@ description: 透過有關讀取和更新電子表格屬性的教學課程，解�
 
 weight: 27
 url: /zh-hant/net/spreadsheet-metadata/
+type: docs
 ---
-
 # 試算表元數據
 
 ## 介紹

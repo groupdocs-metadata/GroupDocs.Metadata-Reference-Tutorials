@@ -8,10 +8,8 @@ keywords:
 - extract ID3v2 tags
 - GroupDocs.Metadata .NET library
 - manage MP3 metadata
-
+type: docs
 ---
-
-
 # How to Extract ID3v2 Tags from MP3 Files Using GroupDocs.Metadata .NET Library
 
 ## Introduction

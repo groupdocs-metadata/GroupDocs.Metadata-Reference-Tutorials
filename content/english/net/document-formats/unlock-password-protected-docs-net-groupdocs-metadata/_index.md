@@ -8,10 +8,8 @@ keywords:
 - GroupDocs Metadata
 - password-protected documents
 - .NET document management
-
+type: docs
 ---
-
-
 # Unlock Password-Protected Documents in .NET with GroupDocs.Metadata
 
 ## Introduction

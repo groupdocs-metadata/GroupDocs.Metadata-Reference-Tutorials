@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して PDF ドキュメントの検査プロパティを更新する方法を学習します。C# を使用してメタデータと注釈を効率的に管理します。
 weight: 17
 url: /ja/net/pdf-metadata/update-inspection-properties-pdfs/
+type: docs
 ---
-
 # .NET を使用して PDF の検査プロパティを更新する
 
 ## 導入

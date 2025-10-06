@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: Güçlü bir meta veri işleme kitaplığı olan GroupDocs.Metadata'yı kullanarak .NET'teki diyagramlardan belge istatistiklerini nasıl çıkaracağınızı öğrenin.
 weight: 12
 url: /tr/net/diagram-metadata/read-document-statistics-diagrams/
+type: docs
 ---
-
 # .NET'teki Diyagramlardan Belge İstatistiklerini Okuyun
 
 ## giriiş

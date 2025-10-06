@@ -8,10 +8,8 @@ keywords:
 - clear PDF elements
 - GroupDocs.Metadata .NET
 - remove annotations from PDF
-
+type: docs
 ---
-
-
 # How to Clear PDF Elements with GroupDocs.Metadata .NET: A Comprehensive Guide
 
 ## Introduction

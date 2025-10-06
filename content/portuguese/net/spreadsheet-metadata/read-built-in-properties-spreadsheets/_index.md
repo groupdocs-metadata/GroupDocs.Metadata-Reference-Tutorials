@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Aprenda como extrair metadados de planilhas em .NET usando GroupDocs.Metadata, aprimorando o gerenciamento e a organização de documentos em seus aplicativos.
 weight: 10
 url: /pt/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # Leia propriedades integradas de planilhas em .NET
 
 ## Introdução

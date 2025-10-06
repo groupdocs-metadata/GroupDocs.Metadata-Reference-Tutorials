@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके प्रेजेंटेशन मेटाडेटा निकालने का तरीका जानें। टिप्पणियों, छिपी हुई स्लाइडों और अधिक प्रोग्रामेटिक रूप से एक्सेस करें।
 weight: 14
 url: /hi/net/presentation-metadata/read-inspection-properties-presentations/
+type: docs
 ---
-
 # .NET में प्रस्तुतियों से निरीक्षण गुण पढ़ें
 
 ## परिचय

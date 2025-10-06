@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 .NET 和 GroupDocs.Metadata（一个多功能元数据操作库）更新演示文稿中的内置属性。
 weight: 15
 url: /zh/net/presentation-metadata/update-built-in-properties-presentations/
+type: docs
 ---
-
 # 使用 .NET 更新演示文稿中的内置属性
 
 ## 介绍

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε στατιστικά στοιχεία εγγράφων από διαγράμματα στο .NET χρησιμοποιώντας το GroupDocs.Metadata, μια ισχυρή βιβλιοθήκη χειρισμού μεταδεδομένων.
 weight: 12
 url: /el/net/diagram-metadata/read-document-statistics-diagrams/
+type: docs
 ---
-
 # Διαβάστε Στατιστικά Εγγράφων από Διαγράμματα στο .NET
 
 ## Εισαγωγή

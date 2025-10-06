@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất các thuộc tính tùy chỉnh từ tệp PDF bằng GroupDocs.Metadata cho .NET. Đi sâu vào quản lý siêu dữ liệu tài liệu bằng C#.
 weight: 11
 url: /vi/net/pdf-metadata/read-custom-properties-pdfs/
+type: docs
 ---
-
 # Đọc thuộc tính tùy chỉnh từ tệp PDF trong .NET
 
 ## Giới thiệu

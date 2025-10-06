@@ -8,10 +8,8 @@ keywords:
 - update custom metadata PowerPoint
 - GroupDocs Metadata Java API
 - managing document properties in presentations
-
+type: docs
 ---
-
-
 # How to Update Custom Metadata Properties in Presentations Using GroupDocs.Metadata Java API
 
 ## Introduction

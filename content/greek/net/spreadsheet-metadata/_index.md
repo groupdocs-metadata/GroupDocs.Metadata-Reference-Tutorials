@@ -6,8 +6,8 @@ description: Ξεκλειδώστε τη δύναμη του GroupDocs.Metadata 
 
 weight: 27
 url: /el/net/spreadsheet-metadata/
+type: docs
 ---
-
 # Μεταδεδομένα υπολογιστικού φύλλου
 
 ## Εισαγωγή

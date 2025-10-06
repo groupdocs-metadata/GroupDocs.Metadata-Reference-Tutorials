@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Scopri come leggere le proprietà del formato file dai diagrammi in .NET utilizzando GroupDocs.Metadata. Estrai metadati dettagliati senza sforzo.
 weight: 13
 url: /it/net/diagram-metadata/read-file-format-properties-diagrams/
+type: docs
 ---
-
 # Leggere le proprietà del formato file dai diagrammi in .NET
 
 ## introduzione

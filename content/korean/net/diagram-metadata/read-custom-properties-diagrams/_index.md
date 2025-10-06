@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: GroupDocs.Metadata를 사용하여 .NET의 다이어그램 파일에서 사용자 정의 속성을 추출하는 방법을 알아보세요. 개발자를 위한 쉬운 단계별 가이드입니다.
 weight: 11
 url: /ko/net/diagram-metadata/read-custom-properties-diagrams/
+type: docs
 ---
-
 # .NET의 다이어그램에서 사용자 정의 속성 읽기
 
 ## 소개

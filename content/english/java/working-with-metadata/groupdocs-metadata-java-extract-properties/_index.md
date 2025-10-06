@@ -9,10 +9,8 @@ keywords:
 - groupdocs.metadata java
 - string properties java
 - datetime properties extraction
-
+type: docs
 ---
-
-
 # Extract Metadata in Java: Mastering GroupDocs.Metadata for String and DateTime Properties
 
 ## Introduction

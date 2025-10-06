@@ -8,10 +8,8 @@ keywords:
 - IPTC keywords .NET
 - GroupDocs.Metadata library
 - metadata management .NET
-
+type: docs
 ---
-
-
 # How to Implement and Verify IPTC Keywords Using GroupDocs.Metadata .NET
 
 ## Introduction

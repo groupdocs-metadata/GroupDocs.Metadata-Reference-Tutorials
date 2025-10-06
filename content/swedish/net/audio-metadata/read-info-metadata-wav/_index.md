@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du extraherar metadata från WAV-filer med GroupDocs.Metadata för .NET. Dyk in i denna steg-för-steg handledning för att utnyttja metadata för hantering av ljudfiler.
 weight: 22
 url: /sv/net/audio-metadata/read-info-metadata-wav/
+type: docs
 ---
-
 # Läs infometadata från WAV-filer i .NET
 
 ## Introduktion

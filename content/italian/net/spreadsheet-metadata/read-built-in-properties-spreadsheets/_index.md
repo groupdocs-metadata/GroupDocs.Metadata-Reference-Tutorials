@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Scopri come estrarre metadati dai fogli di calcolo in .NET utilizzando GroupDocs.Metadata, migliorando la gestione e l'organizzazione dei documenti nelle tue applicazioni.
 weight: 10
 url: /it/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # Leggi le proprietà integrate dai fogli di calcolo in .NET
 
 ## introduzione

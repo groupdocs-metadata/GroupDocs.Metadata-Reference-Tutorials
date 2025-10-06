@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara membaca properti file presentasi di .NET menggunakan GroupDocs.Metadata. Akses detail format file secara terprogram.
 weight: 13
 url: /id/net/presentation-metadata/read-file-format-properties-presentations/
+type: docs
 ---
-
 # Baca Properti Format File dari Presentasi di .NET
 
 ## Perkenalan

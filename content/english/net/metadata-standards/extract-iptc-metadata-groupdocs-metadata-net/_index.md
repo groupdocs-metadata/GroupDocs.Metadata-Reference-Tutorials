@@ -8,10 +8,8 @@ keywords:
 - IPTC metadata extraction
 - GroupDocs.Metadata for .NET
 - metadata manipulation in .NET
-
+type: docs
 ---
-
-
 # Comprehensive Guide to Extracting IPTC Metadata with GroupDocs.Metadata for .NET
 ## Introduction
 Managing digital assets effectively requires the ability to extract and leverage metadata embedded within image files, such as JPEGs. This tutorial will guide you through reading basic IPTC metadata properties using **GroupDocs.Metadata for .NET**—a powerful library designed to simplify metadata manipulation in your .NET applications.

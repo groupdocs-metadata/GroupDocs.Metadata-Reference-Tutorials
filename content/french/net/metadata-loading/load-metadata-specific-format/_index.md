@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment charger des métadonnées à partir de formats de fichiers spécifiques à l'aide de GroupDocs.Metadata pour .NET dans ce didacticiel complet.
 weight: 12
 url: /fr/net/metadata-loading/load-metadata-specific-format/
+type: docs
 ---
-
 # Chargement de métadonnées à partir d'un format spécifique dans .NET
 
 ## Introduction

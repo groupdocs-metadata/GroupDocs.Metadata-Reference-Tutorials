@@ -8,10 +8,8 @@ keywords:
 - extract presentation metadata
 - GroupDocs.Metadata .NET
 - document management systems
-
+type: docs
 ---
-
-
 # How to Extract Presentation Metadata Using GroupDocs.Metadata .NET for Enhanced Document Management
 
 ## Introduction

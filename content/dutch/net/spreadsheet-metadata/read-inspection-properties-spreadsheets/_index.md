@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u inspectie-eigenschappen uit spreadsheets kunt lezen met GroupDocs.Metadata voor .NET. Krijg moeiteloos toegang tot opmerkingen, digitale handtekeningen en verborgen werkbladen.
 weight: 13
 url: /nl/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # Lees inspectie-eigenschappen van spreadsheets in .NET
 
 ## Invoering

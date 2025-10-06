@@ -6,8 +6,8 @@ description: 通过阅读和更新电子表格属性的教程，解锁 GroupDocs
 
 weight: 27
 url: /zh/net/spreadsheet-metadata/
+type: docs
 ---
-
 # 电子表格元数据
 
 ## 介绍

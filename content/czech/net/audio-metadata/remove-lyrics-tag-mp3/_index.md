@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Přečtěte si, jak odstranit značky Lyrics ze souborů MP3 pomocí GroupDocs.Metadata for .NET. Postupujte podle našeho podrobného průvodce pro efektivní manipulaci s metadaty.
 weight: 18
 url: /cs/net/audio-metadata/remove-lyrics-tag-mp3/
+type: docs
 ---
-
 # Odstraňte značku textů ze souborů MP3 v .NET
 
 ## Úvod

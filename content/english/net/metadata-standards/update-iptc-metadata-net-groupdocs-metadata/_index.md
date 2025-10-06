@@ -8,10 +8,8 @@ keywords:
 - update IPTC metadata
 - GroupDocs.Metadata for .NET
 - manage image metadata
-
+type: docs
 ---
-
-
 # Update IPTC Metadata in .NET with GroupDocs.Metadata
 ## How to Efficiently Update Basic IPTC Metadata Properties Using GroupDocs.Metadata for .NET
 

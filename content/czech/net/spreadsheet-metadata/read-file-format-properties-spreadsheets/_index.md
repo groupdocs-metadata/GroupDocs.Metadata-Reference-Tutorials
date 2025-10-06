@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se číst vlastnosti formátu souboru tabulky pomocí GroupDocs.Metadata pro .NET. Získejte přístup k formátu souboru, typu MIME a dalším pomocí jednoduchých volání API.
 weight: 12
 url: /cs/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
+type: docs
 ---
-
 # Přečtěte si vlastnosti formátu souboru z Tabulek v .NET
 
 ## Úvod

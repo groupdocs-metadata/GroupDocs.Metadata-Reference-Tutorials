@@ -8,10 +8,8 @@ keywords:
 - update PDF metadata
 - GroupDocs.Metadata Java
 - document management
-
+type: docs
 ---
-
-
 # Efficiently Updating PDF Custom Metadata with GroupDocs.Metadata Java
 
 **Introduction**

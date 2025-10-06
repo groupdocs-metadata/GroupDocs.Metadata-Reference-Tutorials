@@ -8,10 +8,8 @@ keywords:
 - custom XMP package
 - GroupDocs.Metadata .NET
 - metadata management
-
+type: docs
 ---
-
-
 # How to Add a Custom XMP Package Using GroupDocs.Metadata .NET
 
 ## Introduction

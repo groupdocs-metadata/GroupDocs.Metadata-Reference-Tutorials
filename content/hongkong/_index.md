@@ -6,8 +6,8 @@ description: 探索跨平台的 GroupDocs.Metadata 綜合教學。輕鬆掌握 .
 weight: 11
 url: /zh-hant/
 is_root: true
+type: docs
 ---
-
 # 使用 GroupDocs.Metadata 解鎖元資料掌握
 
 

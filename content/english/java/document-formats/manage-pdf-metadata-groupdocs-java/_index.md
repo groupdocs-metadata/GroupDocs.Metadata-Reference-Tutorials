@@ -8,10 +8,8 @@ keywords:
 - manage PDF metadata
 - GroupDocs.Metadata Java
 - detect PDF version
-
+type: docs
 ---
-
-
 # Manage PDF Metadata and Detect Version with GroupDocs.Metadata in Java
 
 ## Introduction

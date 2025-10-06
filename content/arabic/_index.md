@@ -6,8 +6,8 @@ description: اكتشف البرامج التعليمية الشاملة لـ Gr
 weight: 11
 url: /ar/
 is_root: true
+type: docs
 ---
-
 # فتح إتقان البيانات الوصفية باستخدام GroupDocs.Metadata
 
 

@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata for .NET
 - metadata properties criteria
 - update metadata using predicates
-
+type: docs
 ---
-
-
 # How to Set Metadata Properties Based on Criteria Using GroupDocs.Metadata for .NET
 
 ## Introduction

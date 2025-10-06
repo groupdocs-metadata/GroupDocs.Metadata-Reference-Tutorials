@@ -8,10 +8,8 @@ keywords:
 - remove ID3v2 lyrics tag from mp3
 - GroupDocs.Metadata for Java
 - manage audio file metadata
-
+type: docs
 ---
-
-
 # How to Remove the ID3v2 Lyrics Tag from an MP3 File Using GroupDocs.Metadata in Java
 
 ## Introduction

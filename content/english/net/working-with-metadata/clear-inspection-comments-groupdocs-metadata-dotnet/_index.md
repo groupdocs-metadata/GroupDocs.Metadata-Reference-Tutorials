@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata .NET
 - clear inspection comments
 - presentation metadata management
-
+type: docs
 ---
-
-
 # How to Clear Inspection Comments in a Presentation Using GroupDocs.Metadata .NET
 
 ## Introduction

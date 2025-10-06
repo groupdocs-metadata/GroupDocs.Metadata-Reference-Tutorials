@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengekstrak properti khusus dari file diagram di .NET menggunakan GroupDocs.Metadata. Panduan langkah demi langkah yang mudah untuk pengembang.
 weight: 11
 url: /id/net/diagram-metadata/read-custom-properties-diagrams/
+type: docs
 ---
-
 # Baca Properti Kustom dari Diagram di .NET
 
 ## Perkenalan

@@ -8,10 +8,8 @@ keywords:
 - reading DICOM metadata in C#
 - GroupDocs.Metadata .NET
 - extracting DICOM properties
-
+type: docs
 ---
-
-
 # How to Read DICOM Metadata Properties Using GroupDocs.Metadata in C#
 
 ## Introduction

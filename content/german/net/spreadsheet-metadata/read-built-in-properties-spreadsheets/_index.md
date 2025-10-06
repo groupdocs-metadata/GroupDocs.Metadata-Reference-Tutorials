@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie mit GroupDocs.Metadata Metadaten aus Tabellenkalkulationen in .NET extrahieren und so die Dokumentenverwaltung und -organisation in Ihren Anwendungen verbessern.
 weight: 10
 url: /de/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # Integrierte Eigenschaften aus Tabellenkalkulationen in .NET lesen
 
 ## Einführung

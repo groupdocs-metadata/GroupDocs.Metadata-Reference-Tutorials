@@ -8,10 +8,8 @@ keywords:
 - metadata search regex .NET
 - search metadata properties .NET
 - GroupDocs.Metadata library
-
+type: docs
 ---
-
-
 # Mastering Metadata Search with Regex Using GroupDocs.Metadata for .NET
 
 ## Introduction

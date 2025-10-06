@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีอัปเดตคุณสมบัติในตัวในงานนำเสนอโดยใช้ .NET พร้อมด้วย GroupDocs.Metadata ซึ่งเป็นไลบรารีการจัดการข้อมูลเมตาอเนกประสงค์
 weight: 15
 url: /th/net/presentation-metadata/update-built-in-properties-presentations/
+type: docs
 ---
-
 # อัปเดตคุณสมบัติในตัวในการนำเสนอโดยใช้ .NET
 
 ## การแนะนำ

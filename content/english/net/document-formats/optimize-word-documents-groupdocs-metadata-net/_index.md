@@ -9,10 +9,8 @@ keywords:
 - clear comments in Word
 - accept revisions in Word
 - remove fields from Word documents
-
+type: docs
 ---
-
-
 # Optimize Word Documents: Clearing Comments and Revisions with GroupDocs.Metadata .NET
 
 ## Introduction

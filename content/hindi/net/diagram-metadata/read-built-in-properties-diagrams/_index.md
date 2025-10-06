@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: GroupDocs.Metadata का उपयोग करके .NET में आरेख फ़ाइलों से मेटाडेटा निकालना सीखें। दस्तावेज़ प्रबंधन और विश्लेषण को कुशलतापूर्वक बढ़ाएँ।
 weight: 10
 url: /hi/net/diagram-metadata/read-built-in-properties-diagrams/
+type: docs
 ---
-
 # .NET में आरेखों से अंतर्निहित गुण पढ़ें
 
 ## परिचय

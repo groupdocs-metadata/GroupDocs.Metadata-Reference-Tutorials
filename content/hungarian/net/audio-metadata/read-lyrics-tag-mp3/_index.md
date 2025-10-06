@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthat ki dalszövegcímkéket MP3-fájlokból a GroupDocs.Metadata for .NET segítségével. Kövesse lépésről lépésre bemutató oktatóanyagunkat.
 weight: 13
 url: /hu/net/audio-metadata/read-lyrics-tag-mp3/
+type: docs
 ---
-
 # Olvasson dalszövegcímkét az MP3 fájlokból a .NET-ben
 
 ## Bevezetés

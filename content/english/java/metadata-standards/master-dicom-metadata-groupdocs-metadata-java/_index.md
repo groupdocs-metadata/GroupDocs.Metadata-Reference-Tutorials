@@ -8,10 +8,8 @@ keywords:
 - DICOM metadata
 - GroupDocs.Metadata Java
 - read DICOM properties
-
+type: docs
 ---
-
-
 # How to Read and Manage DICOM Metadata in Java Using GroupDocs.Metadata
 
 ## Introduction

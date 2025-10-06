@@ -6,8 +6,8 @@ description: विभिन्न प्लेटफ़ॉर्म पर Grou
 weight: 11
 url: /hi/
 is_root: true
+type: docs
 ---
-
 # GroupDocs.Metadata के साथ मेटाडेटा महारत को अनलॉक करना
 
 

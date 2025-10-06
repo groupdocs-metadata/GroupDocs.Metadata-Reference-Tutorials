@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีอ่านคุณสมบัติรูปแบบไฟล์จากไดอะแกรมใน .NET โดยใช้ GroupDocs.Metadata แยกข้อมูลเมตาที่มีรายละเอียดได้อย่างง่ายดาย
 weight: 13
 url: /th/net/diagram-metadata/read-file-format-properties-diagrams/
+type: docs
 ---
-
 # อ่านคุณสมบัติรูปแบบไฟล์จากไดอะแกรมใน .NET
 
 ## การแนะนำ

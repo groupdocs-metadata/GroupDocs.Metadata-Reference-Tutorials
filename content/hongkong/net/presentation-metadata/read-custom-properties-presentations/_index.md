@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata 從 .NET 中的簡報中讀取自訂屬性。有效地存取和檢索元資料。
 weight: 11
 url: /zh-hant/net/presentation-metadata/read-custom-properties-presentations/
+type: docs
 ---
-
 # 從 .NET 簡報中讀取自訂屬性
 
 ## 介紹

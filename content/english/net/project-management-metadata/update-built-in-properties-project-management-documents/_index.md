@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Learn how to update metadata in .NET project management documents with GroupDocs.Metadata for .NET. Enhance document management efficiently.
 weight: 12
 url: /net/project-management-metadata/update-built-in-properties-project-management-documents/
+type: docs
 ---
-
 # Update Built-In Properties in .NET Project Management Documents
 
 ## Introduction

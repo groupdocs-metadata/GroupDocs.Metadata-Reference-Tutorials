@@ -8,10 +8,8 @@ keywords:
 - GroupDocs Metadata Java
 - update email metadata Java
 - email management with GroupDocs
-
+type: docs
 ---
-
-
 # Mastering Email Metadata Updates in Java with GroupDocs.Metadata
 
 Welcome to your comprehensive guide on managing and updating email metadata programmatically using the powerful GroupDocs.Metadata library in Java. This tutorial will walk you through how to modify primary and CC recipients, change email subjects, and save these updates efficiently. By the end of this guide, you'll be proficient in leveraging GroupDocs.Metadata for Java to streamline your email metadata management tasks.

@@ -8,10 +8,8 @@ keywords:
 - extract MP3 metadata
 - GroupDocs.Metadata for .NET
 - MPEG audio metadata
-
+type: docs
 ---
-
-
 # Extract MP3 Metadata with GroupDocs.Metadata for .NET: A Comprehensive Guide
 
 ## Introduction

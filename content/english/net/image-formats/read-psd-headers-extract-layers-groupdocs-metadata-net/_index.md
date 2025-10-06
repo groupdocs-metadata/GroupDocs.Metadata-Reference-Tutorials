@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata .NET
 - read PSD headers
 - extract layer information
-
+type: docs
 ---
-
-
 # How to Read PSD Headers & Extract Layers Using GroupDocs.Metadata .NET for Enhanced Image Management
 
 ## Introduction

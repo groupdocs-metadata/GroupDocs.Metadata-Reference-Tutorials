@@ -9,10 +9,8 @@ keywords:
 - GroupDocs Metadata Java
 - metadata extraction JPEG
 - image file processing
-
+type: docs
 ---
-
-
 # How to Extract Text Chunks from PNG Files Using GroupDocs.Metadata Java API
 
 ## Introduction

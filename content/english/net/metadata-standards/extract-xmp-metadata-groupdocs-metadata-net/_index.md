@@ -8,10 +8,8 @@ keywords:
 - extract XMP metadata .NET
 - GroupDocs.Metadata for .NET
 - XMP Basic metadata extraction
-
+type: docs
 ---
-
-
 # How to Implement Extract XMP Metadata Using GroupDocs.Metadata for .NET
 
 ## Introduction

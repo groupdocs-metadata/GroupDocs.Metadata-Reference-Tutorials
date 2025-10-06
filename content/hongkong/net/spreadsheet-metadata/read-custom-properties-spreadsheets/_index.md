@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 從電子表格中提取自訂屬性。增強 .NET 應用程式中的元資料操作。
 weight: 11
 url: /zh-hant/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
+type: docs
 ---
-
 # 從 .NET 中的電子表格讀取自訂屬性
 
 ## 介紹

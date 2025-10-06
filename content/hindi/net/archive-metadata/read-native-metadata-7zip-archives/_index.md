@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके 7Zip अभिलेखागार से मूल मेटाडेटा गुणों को पढ़ना सीखें। अपने .NET एप्लिकेशन की डेटा प्रबंधन क्षमताओं को बढ़ाएँ।
 weight: 11
 url: /hi/net/archive-metadata/read-native-metadata-7zip-archives/
+type: docs
 ---
-
 # .NET में 7Zip अभिलेखागार से मूल मेटाडेटा गुण पढ़ें
 
 ## परिचय

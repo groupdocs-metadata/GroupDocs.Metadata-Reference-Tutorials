@@ -8,10 +8,8 @@ keywords:
 - OGG metadata properties
 - GroupDocs.Metadata .NET
 - extracting audio file metadata
-
+type: docs
 ---
-
-
 # How to Read OGG Metadata Properties with GroupDocs.Metadata .NET
 
 ## Introduction

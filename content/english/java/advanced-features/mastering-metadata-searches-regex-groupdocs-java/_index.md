@@ -8,10 +8,8 @@ keywords:
 - metadata searches in Java
 - regex search metadata
 - GroupDocs.Metadata for Java
-
+type: docs
 ---
-
-
 # Efficient Metadata Searches in Java Using Regex with GroupDocs.Metadata
 
 ## Introduction

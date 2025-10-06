@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να ενημερώνετε προσαρμοσμένες ιδιότητες σε έγγραφα διαχείρισης έργου .NET χρησιμοποιώντας GroupDocs.Metadata για .NET. Βελτιώστε τη διαχείριση μεταδεδομένων στις εφαρμογές σας.
 weight: 13
 url: /el/net/project-management-metadata/update-custom-properties-project-management-documents/
+type: docs
 ---
-
 # Ενημερώστε τις προσαρμοσμένες ιδιότητες σε Έγγραφα διαχείρισης έργου .NET
 
 ## Εισαγωγή

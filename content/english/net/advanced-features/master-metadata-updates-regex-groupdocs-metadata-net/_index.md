@@ -8,10 +8,8 @@ keywords:
 - metadata updates regex
 - GroupDocs.Metadata .NET
 - document management system
-
+type: docs
 ---
-
-
 # Mastering Metadata Updates Using Regular Expressions with GroupDocs.Metadata .NET
 
 ## Introduction

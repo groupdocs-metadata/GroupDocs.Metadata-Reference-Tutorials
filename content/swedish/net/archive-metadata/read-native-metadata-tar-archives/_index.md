@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du extraherar metadata från TAR-arkiv i .NET med hjälp av GroupDocs.Metadata. Denna handledning guidar dig genom processen steg för steg.
 weight: 12
 url: /sv/net/archive-metadata/read-native-metadata-tar-archives/
+type: docs
 ---
-
 # Läs Native Metadata Properties från TAR Archives i .NET
 
 ## Introduktion

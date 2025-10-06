@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du uppdaterar inspektionsegenskaper i PDF-dokument med GroupDocs.Metadata för .NET. Hantera metadata och kommentarer effektivt med C#.
 weight: 17
 url: /sv/net/pdf-metadata/update-inspection-properties-pdfs/
+type: docs
 ---
-
 # Uppdatera inspektionsegenskaper i PDF-filer med .NET
 
 ## Introduktion

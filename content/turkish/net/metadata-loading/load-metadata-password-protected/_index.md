@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET ile belge meta verilerini verimli bir şekilde nasıl yöneteceğinizi öğrenin. .NET uygulamalarınızda meta verileri sorunsuz bir şekilde çıkarın, düzenleyin ve işleyin.
 weight: 13
 url: /tr/net/metadata-loading/load-metadata-password-protected/
+type: docs
 ---
-
 # .NET'te Parola Korumalı Belgeden Meta Veriler Nasıl Yüklenir
 
 ## giriiş

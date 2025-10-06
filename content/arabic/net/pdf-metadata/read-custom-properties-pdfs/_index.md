@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج الخصائص المخصصة من ملفات PDF باستخدام GroupDocs.Metadata لـ .NET. انغمس في إدارة البيانات التعريفية للمستندات باستخدام لغة C#.
 weight: 11
 url: /ar/net/pdf-metadata/read-custom-properties-pdfs/
+type: docs
 ---
-
 # قراءة الخصائص المخصصة من ملفات PDF في .NET
 
 ## مقدمة

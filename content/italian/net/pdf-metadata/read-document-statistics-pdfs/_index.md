@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Scopri come estrarre le statistiche dei documenti PDF utilizzando GroupDocs.Metadata per .NET. Migliora le tue capacità di gestione dei documenti senza sforzo.
 weight: 12
 url: /it/net/pdf-metadata/read-document-statistics-pdfs/
+type: docs
 ---
-
 # Leggi le statistiche dei documenti dai PDF in .NET
 
 ## introduzione

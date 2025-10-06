@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 從 ZIP 檔案中提取元資料。探索讀取本機屬性的分步說明。
 weight: 13
 url: /zh-hant/net/archive-metadata/read-native-metadata-zip-archives/
+type: docs
 ---
-
 # 從 .NET 中的 ZIP 檔案讀取本機元資料屬性
 
 ## 介紹

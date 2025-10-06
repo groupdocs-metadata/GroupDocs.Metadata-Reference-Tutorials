@@ -6,8 +6,8 @@ description: Objevte komplexní výukové programy pro GroupDocs.Metadata např�
 weight: 11
 url: /cs/
 is_root: true
+type: docs
 ---
-
 # Odemknutí ovládání metadat pomocí GroupDocs.Metadata
 
 

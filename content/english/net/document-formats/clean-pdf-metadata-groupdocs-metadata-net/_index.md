@@ -8,10 +8,8 @@ keywords:
 - clean PDF metadata GroupDocs.Metadata .NET
 - remove metadata from PDFs
 - sanitize PDF documents using GroupDocs
-
+type: docs
 ---
-
-
 # How to Clean PDF Metadata Using GroupDocs.Metadata .NET: A Developer's Guide
 
 ## Introduction

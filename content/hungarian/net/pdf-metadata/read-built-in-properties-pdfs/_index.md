@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan olvashat PDF-metaadatokat .NET-ben a GroupDocs.Metadata használatával. A C# kóddal elérheti a szerzők nevét, létrehozási dátumát, tárgyát és sok mást.
 weight: 10
 url: /hu/net/pdf-metadata/read-built-in-properties-pdfs/
+type: docs
 ---
-
 # Olvassa el a .NET-ben található PDF-fájlok beépített tulajdonságait
 
 ## Bevezetés

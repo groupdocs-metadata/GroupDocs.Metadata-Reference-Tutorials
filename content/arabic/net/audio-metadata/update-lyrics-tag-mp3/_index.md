@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية تحديث البيانات التعريفية لملفات MP3، بما في ذلك تفاصيل كلمات الأغاني والفنان والألبوم برمجيًا باستخدام GroupDocs.Metadata لـ .NET.
 weight: 21
 url: /ar/net/audio-metadata/update-lyrics-tag-mp3/
+type: docs
 ---
-
 # قم بتحديث علامة كلمات الأغاني في ملفات MP3 باستخدام .NET
 
 ## مقدمة

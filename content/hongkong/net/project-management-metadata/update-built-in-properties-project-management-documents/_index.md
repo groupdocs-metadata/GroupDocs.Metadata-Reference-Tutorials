@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 更新 .NET 專案管理文件中的元資料。提昇文件管理效率。
 weight: 12
 url: /zh-hant/net/project-management-metadata/update-built-in-properties-project-management-documents/
+type: docs
 ---
-
 # 更新 .NET 專案管理文件中的內建屬性
 
 ## 介紹

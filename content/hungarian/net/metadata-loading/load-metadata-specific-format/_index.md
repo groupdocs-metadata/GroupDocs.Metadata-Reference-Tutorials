@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ebből az átfogó oktatóanyagból megtudhatja, hogyan tölthet be metaadatokat meghatározott fájlformátumokból a GroupDocs.Metadata for .NET segítségével.
 weight: 12
 url: /hu/net/metadata-loading/load-metadata-specific-format/
+type: docs
 ---
-
 # Metaadatok betöltése meghatározott formátumból a .NET-ben
 
 ## Bevezetés

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata के साथ दस्तावेज़ मेटाडेटा को कुशलतापूर्वक प्रबंधित करना सीखें। अपने .NET अनुप्रयोगों में मेटाडेटा को सहजता से निकालें, संपादित करें और संभालें।
 weight: 13
 url: /hi/net/metadata-loading/load-metadata-password-protected/
+type: docs
 ---
-
 # .NET में पासवर्ड संरक्षित दस्तावेज़ से मेटाडेटा कैसे लोड करें
 
 ## परिचय

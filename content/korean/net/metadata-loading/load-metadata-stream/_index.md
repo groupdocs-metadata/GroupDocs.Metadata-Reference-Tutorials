@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: GroupDocs.Metadata를 사용하여 .NET에서 파일 메타데이터를 관리하는 방법을 알아보세요. 스트림에서 메타데이터를 로드, 편집, 제거하기 위한 단계별 가이드입니다.
 weight: 11
 url: /ko/net/metadata-loading/load-metadata-stream/
+type: docs
 ---
-
 # .NET 자습서의 스트림에서 메타데이터 로드
 
 ## 소개

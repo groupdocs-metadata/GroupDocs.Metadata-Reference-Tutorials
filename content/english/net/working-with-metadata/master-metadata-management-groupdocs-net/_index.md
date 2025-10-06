@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata .NET
 - .NET metadata management
 - metadata tree traversal
-
+type: docs
 ---
-
-
 # Mastering Metadata Management in .NET
 Traverse and Display Metadata Trees with GroupDocs.Metadata
 

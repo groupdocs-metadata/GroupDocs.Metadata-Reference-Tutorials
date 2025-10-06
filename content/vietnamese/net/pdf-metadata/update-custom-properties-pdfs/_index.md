@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật thuộc tính tùy chỉnh trong tệp PDF bằng .NET với GroupDocs.Metadata. Các bước đơn giản để thao tác siêu dữ liệu PDF một cách hiệu quả.
 weight: 16
 url: /vi/net/pdf-metadata/update-custom-properties-pdfs/
+type: docs
 ---
-
 # Cập nhật thuộc tính tùy chỉnh trong tệp PDF bằng .NET
 
 ## Giới thiệu

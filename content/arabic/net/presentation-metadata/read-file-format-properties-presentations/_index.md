@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية قراءة خصائص ملف العرض التقديمي في .NET باستخدام GroupDocs.Metadata. الوصول إلى تفاصيل تنسيق الملف برمجياً.
 weight: 13
 url: /ar/net/presentation-metadata/read-file-format-properties-presentations/
+type: docs
 ---
-
 # قراءة خصائص تنسيق الملف من العروض التقديمية في .NET
 
 ## مقدمة

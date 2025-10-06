@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีแยกข้อมูลเมตาจากไฟล์เก็บถาวร TAR ใน .NET โดยใช้ GroupDocs.Metadata บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการทีละขั้นตอน
 weight: 12
 url: /th/net/archive-metadata/read-native-metadata-tar-archives/
+type: docs
 ---
-
 # อ่านคุณสมบัติเมตาดาต้าดั้งเดิมจากคลังเก็บ TAR ใน .NET
 
 ## การแนะนำ

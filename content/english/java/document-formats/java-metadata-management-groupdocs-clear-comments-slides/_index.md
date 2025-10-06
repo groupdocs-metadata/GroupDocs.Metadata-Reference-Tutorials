@@ -8,10 +8,8 @@ keywords:
 - Java Metadata Management
 - GroupDocs.Metadata for Java
 - Clearing PowerPoint Comments
-
+type: docs
 ---
-
-
 # Mastering Java Presentation Metadata Management with GroupDocs
 
 ## Introduction

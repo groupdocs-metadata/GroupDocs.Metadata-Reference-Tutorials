@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách quản lý hiệu quả siêu dữ liệu bản trình bày trong .NET bằng cách sử dụng hướng dẫn GroupDocs.Metadata. Truy cập các thuộc tính tích hợp và tùy chỉnh một cách dễ dàng.
 weight: 25
 url: /vi/net/presentation-metadata/
+type: docs
 ---
-
 # Siêu dữ liệu bản trình bày
 
 ## Giới thiệu

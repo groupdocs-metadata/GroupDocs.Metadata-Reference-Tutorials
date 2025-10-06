@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Aprenda a administrar metadatos de archivos en .NET con GroupDocs.Metadata. Guía paso a paso para cargar, editar y eliminar metadatos de transmisiones.
 weight: 11
 url: /es/net/metadata-loading/load-metadata-stream/
+type: docs
 ---
-
 # Cargando metadatos desde Stream en .NET Tutorial
 
 ## Introducción

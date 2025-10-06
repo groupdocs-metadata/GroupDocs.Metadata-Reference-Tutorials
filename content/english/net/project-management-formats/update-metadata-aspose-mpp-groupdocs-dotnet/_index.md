@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata
 - Aspose MPP metadata update
 - Project Management document metadata
-
+type: docs
 ---
-
-
 # Update Metadata in Aspose MPP Files with GroupDocs.Metadata for .NET
 
 ## Introduction

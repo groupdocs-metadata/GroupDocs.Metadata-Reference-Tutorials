@@ -8,10 +8,8 @@ keywords:
 - update MP3 ID3v1 tags
 - GroupDocs.Metadata for Java
 - manage audio file metadata
-
+type: docs
 ---
-
-
 # How to Update MP3 ID3v1 Tags Using GroupDocs.Metadata in Java
 ## Introduction
 Struggling to manage metadata for your music collection? Updating or managing ID3 tags can be cumbersome, especially when dealing with a large number of audio files. This tutorial will guide you through using the GroupDocs.Metadata library in Java to effortlessly update ID3v1 tags for MP3 files.

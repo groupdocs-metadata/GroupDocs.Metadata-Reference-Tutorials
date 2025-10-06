@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية تحديث خصائص الفحص في العروض التقديمية باستخدام .NET مع GroupDocs.Metadata. معالجة سهلة وفعالة للبيانات التعريفية لملفات .PPTX.
 weight: 17
 url: /ar/net/presentation-metadata/update-inspection-properties-presentations/
+type: docs
 ---
-
 # تحديث خصائص الفحص في العروض التقديمية باستخدام .NET
 
 ## مقدمة

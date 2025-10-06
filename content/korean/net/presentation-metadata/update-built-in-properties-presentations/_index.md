@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: 다목적 메타데이터 조작 라이브러리인 GroupDocs.Metadata와 함께 .NET을 사용하여 프레젠테이션의 기본 제공 속성을 업데이트하는 방법을 알아보세요.
 weight: 15
 url: /ko/net/presentation-metadata/update-built-in-properties-presentations/
+type: docs
 ---
-
 # .NET을 사용하여 프레젠테이션의 기본 제공 속성 업데이트
 
 ## 소개

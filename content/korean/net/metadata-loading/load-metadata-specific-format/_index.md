@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: 이 포괄적인 튜토리얼에서 .NET용 GroupDocs.Metadata를 사용하여 특정 파일 형식에서 메타데이터를 로드하는 방법을 알아보세요.
 weight: 12
 url: /ko/net/metadata-loading/load-metadata-specific-format/
+type: docs
 ---
-
 # .NET의 특정 형식에서 메타데이터 로드
 
 ## 소개

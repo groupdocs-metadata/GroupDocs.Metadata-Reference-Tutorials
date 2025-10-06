@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: ค้นพบบทช่วยสอนเกี่ยวกับการจัดการข้อมูลเมตาของเสียงด้วย GroupDocs.Metadata สำหรับ .NET เรียนรู้การแยก อัปเดต และลบแท็กออกจากไฟล์ MP3 และ WAV อย่างมีประสิทธิภาพ
 weight: 22
 url: /th/net/audio-metadata/
+type: docs
 ---
-
 # ข้อมูลเมตาของเสียง
 
 

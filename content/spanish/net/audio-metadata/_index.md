@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Descubra tutoriales sobre cómo manejar metadatos de audio con GroupDocs.Metadata para .NET. Aprenda a extraer, actualizar y eliminar etiquetas de archivos MP3 y WAV de manera eficiente.
 weight: 22
 url: /es/net/audio-metadata/
+type: docs
 ---
-
 # Metadatos de audio
 
 

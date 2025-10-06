@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए C# और GroupDocs.Metadata का उपयोग करके PDF दस्तावेज़ गुणों को अपडेट करना सीखें। प्रोग्रामेटिक रूप से लेखक, शीर्षक, कीवर्ड और बहुत कुछ संशोधित करें।
 weight: 15
 url: /hi/net/pdf-metadata/update-built-in-properties-pdfs/
+type: docs
 ---
-
 # .NET का उपयोग करके PDF में अंतर्निहित गुण अपडेट करें
 
 ## परिचय

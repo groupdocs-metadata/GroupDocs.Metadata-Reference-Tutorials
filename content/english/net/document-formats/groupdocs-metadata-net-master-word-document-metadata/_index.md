@@ -8,10 +8,8 @@ keywords:
 - Word document metadata
 - GroupDocs.Metadata for .NET
 - reading Word metadata
-
+type: docs
 ---
-
-
 # Mastering Word Document Metadata with GroupDocs.Metadata for .NET: A Step-by-Step Guide
 
 ## Introduction

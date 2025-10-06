@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET チュートリアルを使用して、PDF メタデータを簡単に管理する方法を学びます。C# コードを使用して組み込みプロパティとカスタム プロパティにアクセスします。
 weight: 24
 url: /ja/net/pdf-metadata/
+type: docs
 ---
-
 # PDF メタデータ
 
 ## 導入

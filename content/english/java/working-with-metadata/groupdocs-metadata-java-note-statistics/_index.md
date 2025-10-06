@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata
 - document statistics retrieval
 - Java
-
+type: docs
 ---
-
-
 # Retrieve Document Statistics with GroupDocs.Metadata for Java
 
 ## Introduction

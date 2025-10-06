@@ -3,8 +3,8 @@ title: "Project Management Metadata Tutorials for GroupDocs.Metadata .NET"
 description: "Learn to work with metadata in Microsoft Project and other project management formats using GroupDocs.Metadata for .NET."
 weight: 14
 url: "/net/project-management-formats/"
+type: docs
 ---
-
 # Project Management Metadata Tutorials for GroupDocs.Metadata .NET
 
 Discover how to efficiently manage project file metadata with our comprehensive GroupDocs.Metadata .NET tutorials. These step-by-step guides teach you how to extract, modify, and clean metadata from Microsoft Project files and other project management formats. Each tutorial provides practical C# code examples for common project file metadata operations, helping you build robust applications that can process project metadata for better organization, version control, and information governance in project management environments.

@@ -8,10 +8,8 @@ keywords:
 - read vCard metadata
 - GroupDocs.Metadata for Java
 - vCard contact management
-
+type: docs
 ---
-
-
 # How to Read VCard Metadata with GroupDocs.Metadata in Java
 
 ## Introduction

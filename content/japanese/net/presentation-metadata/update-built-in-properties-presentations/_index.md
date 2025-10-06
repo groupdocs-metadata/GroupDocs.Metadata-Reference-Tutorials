@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: 多目的メタデータ操作ライブラリである GroupDocs.Metadata を使用して .NET でプレゼンテーションの組み込みプロパティを更新する方法を学習します。
 weight: 15
 url: /ja/net/presentation-metadata/update-built-in-properties-presentations/
+type: docs
 ---
-
 # .NET を使用してプレゼンテーションの組み込みプロパティを更新する
 
 ## 導入

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara memperbarui properti khusus dalam file PDF menggunakan .NET dengan GroupDocs.Metadata. Langkah sederhana untuk memanipulasi metadata PDF secara efisien.
 weight: 16
 url: /id/net/pdf-metadata/update-custom-properties-pdfs/
+type: docs
 ---
-
 # Perbarui Properti Kustom dalam PDF menggunakan .NET
 
 ## Perkenalan

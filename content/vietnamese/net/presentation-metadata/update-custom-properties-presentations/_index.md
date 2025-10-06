@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách quản lý siêu dữ liệu bản trình bày bằng GroupDocs.Metadata cho .NET. Cập nhật các thuộc tính tùy chỉnh một cách hiệu quả trong tệp PowerPoint.
 weight: 16
 url: /vi/net/presentation-metadata/update-custom-properties-presentations/
+type: docs
 ---
-
 # Cập nhật thuộc tính tùy chỉnh trong bản trình bày bằng .NET
 
 ## Giới thiệu

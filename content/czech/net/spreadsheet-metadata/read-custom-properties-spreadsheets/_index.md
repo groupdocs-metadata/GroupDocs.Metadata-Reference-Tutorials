@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat uživatelské vlastnosti z tabulek pomocí GroupDocs.Metadata for .NET. Vylepšete manipulaci s metadaty ve svých aplikacích .NET.
 weight: 11
 url: /cs/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
+type: docs
 ---
-
 # Přečtěte si uživatelské vlastnosti z tabulek v .NET
 
 ## Úvod

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Hantera filmetadata enkelt i .NET-applikationer med GroupDocs.Metadata för förbättrade filmanipuleringsmöjligheter.
 weight: 10
 url: /sv/net/metadata-loading/load-metadata-local-disk/
+type: docs
 ---
-
 # Hur man laddar metadata från lokal disk i .NET
 
 ## Introduktion

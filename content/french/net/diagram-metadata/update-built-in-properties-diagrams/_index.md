@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment mettre à jour les propriétés intégrées dans les diagrammes à l'aide de GroupDocs.Metadata pour .NET. Modifiez les métadonnées de manière transparente avec des exemples de code.
 weight: 14
 url: /fr/net/diagram-metadata/update-built-in-properties-diagrams/
+type: docs
 ---
-
 # Mettre à jour les propriétés intégrées dans les diagrammes à l'aide de .NET
 
 ## Introduction

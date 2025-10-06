@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีแยกข้อมูลเมตาจากไฟล์ไดอะแกรมใน .NET โดยใช้ GroupDocs.Metadata เพิ่มประสิทธิภาพการจัดการและวิเคราะห์เอกสารอย่างมีประสิทธิภาพ
 weight: 10
 url: /th/net/diagram-metadata/read-built-in-properties-diagrams/
+type: docs
 ---
-
 # อ่านคุณสมบัติในตัวจากไดอะแกรมใน .NET
 
 ## การแนะนำ

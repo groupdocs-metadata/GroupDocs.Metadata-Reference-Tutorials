@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata .NET
 - save document metadata
 - stream processing
-
+type: docs
 ---
-
-
 # Save Document Metadata Using GroupDocs.Metadata .NET: A Comprehensive Guide
 
 ## Introduction

@@ -8,10 +8,8 @@ keywords:
 - update Word document statistics
 - GroupDocs.Metadata for Java
 - document metadata management
-
+type: docs
 ---
-
-
 # How to Update Word Document Statistics with GroupDocs.Metadata for Java
 
 ## Introduction

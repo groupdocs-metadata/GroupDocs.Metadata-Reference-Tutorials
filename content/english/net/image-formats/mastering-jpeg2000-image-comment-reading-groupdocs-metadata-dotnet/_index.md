@@ -8,10 +8,8 @@ keywords:
 - JPEG2000 image comments
 - GroupDocs.Metadata .NET tutorial
 - reading JPEG2000 metadata
-
+type: docs
 ---
-
-
 # How to Read JPEG2000 Image Comments Using GroupDocs.Metadata .NET
 
 ## Introduction

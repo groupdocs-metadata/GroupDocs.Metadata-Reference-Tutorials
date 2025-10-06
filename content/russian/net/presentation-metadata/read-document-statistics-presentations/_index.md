@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как читать статистику документов из презентаций в .NET с помощью GroupDocs.Metadata для эффективного управления метаданными.
 weight: 12
 url: /ru/net/presentation-metadata/read-document-statistics-presentations/
+type: docs
 ---
-
 # Чтение статистики документов из презентаций в .NET
 
 ## Введение

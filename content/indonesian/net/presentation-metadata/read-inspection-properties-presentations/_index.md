@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengekstrak metadata presentasi menggunakan GroupDocs.Metadata untuk .NET. Akses komentar, slide tersembunyi, dan lainnya secara terprogram.
 weight: 14
 url: /id/net/presentation-metadata/read-inspection-properties-presentations/
+type: docs
 ---
-
 # Baca Properti Inspeksi dari Presentasi di .NET
 
 ## Perkenalan

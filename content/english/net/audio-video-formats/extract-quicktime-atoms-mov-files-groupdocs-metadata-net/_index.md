@@ -8,10 +8,8 @@ keywords:
 - extract QuickTime atoms MOV files
 - GroupDocs.Metadata .NET
 - video metadata management
-
+type: docs
 ---
-
-
 # How to Extract QuickTime Atoms from MOV Files Using GroupDocs.Metadata .NET
 
 ## Introduction

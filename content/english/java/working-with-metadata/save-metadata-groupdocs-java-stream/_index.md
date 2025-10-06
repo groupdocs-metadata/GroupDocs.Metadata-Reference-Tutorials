@@ -8,10 +8,8 @@ keywords:
 - save document metadata
 - groupdocs.metadata java
 - stream integration guide
-
+type: docs
 ---
-
-
 # How to Implement Java: Save Document Metadata with GroupDocs.Metadata to a Stream
 
 ## Introduction

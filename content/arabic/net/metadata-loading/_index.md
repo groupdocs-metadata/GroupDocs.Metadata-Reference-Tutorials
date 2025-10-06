@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: قم بإدارة بيانات تعريف الملف بسهولة في .NET باستخدام GroupDocs.Metadata. تعرف على تقنيات التحميل والتحرير والمزيد لتحسين إمكانيات معالجة الملفات.
 weight: 20
 url: /ar/net/metadata-loading/
+type: docs
 ---
-
 # تحميل البيانات الوصفية
 
 ## مقدمة

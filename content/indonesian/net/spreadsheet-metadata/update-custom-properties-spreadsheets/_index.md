@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Temukan cara memperbarui properti khusus di spreadsheet menggunakan GroupDocs.Metadata untuk .NET. Tutorial ini meningkatkan keterampilan manajemen metadata Anda secara efektif.
 weight: 15
 url: /id/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
+type: docs
 ---
-
 # Perbarui Properti Kustom di Spreadsheet menggunakan .NET
 
 ## Perkenalan

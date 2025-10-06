@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Khám phá các hướng dẫn toàn diện về cách quản lý siêu dữ liệu sơ đồ bằng GroupDocs.Metadata cho .NET. Trích xuất, cập nhật và phân tích các thuộc tính một cách dễ dàng.
 weight: 23
 url: /vi/net/diagram-metadata/
+type: docs
 ---
-
 # Siêu dữ liệu sơ đồ
 
 ## Giới thiệu

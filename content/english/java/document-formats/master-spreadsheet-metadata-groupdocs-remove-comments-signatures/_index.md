@@ -8,10 +8,8 @@ keywords:
 - spreadsheet metadata management Java
 - remove comments GroupDocs Metadata
 - erase digital signatures spreadsheet
-
+type: docs
 ---
-
-
 # Mastering Spreadsheet Management with GroupDocs.Metadata for Java: Removing Comments and Digital Signatures
 
 ## Introduction

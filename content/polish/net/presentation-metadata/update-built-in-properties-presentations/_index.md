@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak aktualizować wbudowane właściwości w prezentacjach przy użyciu platformy .NET za pomocą GroupDocs.Metadata, wszechstronnej biblioteki do manipulacji metadanymi.
 weight: 15
 url: /pl/net/presentation-metadata/update-built-in-properties-presentations/
+type: docs
 ---
-
 # Zaktualizuj wbudowane właściwości w prezentacjach przy użyciu platformy .NET
 
 ## Wstęp

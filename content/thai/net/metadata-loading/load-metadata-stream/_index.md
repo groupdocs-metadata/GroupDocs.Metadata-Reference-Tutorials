@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีจัดการข้อมูลเมตาของไฟล์ใน .NET ด้วย GroupDocs.Metadata คำแนะนำทีละขั้นตอนสำหรับการโหลด แก้ไข และลบข้อมูลเมตาออกจากสตรีม
 weight: 11
 url: /th/net/metadata-loading/load-metadata-stream/
+type: docs
 ---
-
 # กำลังโหลดข้อมูลเมตาจากสตรีมใน .NET Tutorial
 
 ## การแนะนำ

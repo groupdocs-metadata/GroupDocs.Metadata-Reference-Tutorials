@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Aprenda como atualizar propriedades de inspeção em planilhas usando GroupDocs.Metadata for .NET. Gerencie comentários, assinaturas e planilhas ocultas com facilidade.
 weight: 16
 url: /pt/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # Atualizar propriedades de inspeção em planilhas usando .NET
 
 ## Introdução

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Tanulja meg, hogyan kinyerhet ki metaadatokat a .NET-ben lévő táblázatokból a GroupDocs.Metadata segítségével, javítva a dokumentumkezelést és -szervezést az alkalmazásokban.
 weight: 10
 url: /hu/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # Olvassa el a beépített tulajdonságokat a .NET-ben található táblázatokból
 
 ## Bevezetés

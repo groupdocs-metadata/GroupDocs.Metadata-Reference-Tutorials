@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: 強力なメタデータ操作ライブラリである GroupDocs.Metadata を使用して、.NET のダイアグラムからドキュメント統計を抽出する方法を学習します。
 weight: 12
 url: /ja/net/diagram-metadata/read-document-statistics-diagrams/
+type: docs
 ---
-
 # .NET の図からドキュメント統計を読み取る
 
 ## 導入

@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata 在 .NET 中讀取 PDF 元資料。使用 C# 代碼存取作者姓名、建立日期、主題等。
 weight: 10
 url: /zh-hant/net/pdf-metadata/read-built-in-properties-pdfs/
+type: docs
 ---
-
 # 從 .NET 中的 PDF 讀取內建屬性
 
 ## 介紹

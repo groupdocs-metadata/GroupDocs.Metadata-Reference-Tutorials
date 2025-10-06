@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके MP3 फ़ाइलों से गीत टैग निकालने का तरीका जानें। हमारे चरण-दर-चरण ट्यूटोरियल का अनुसरण करें।
 weight: 13
 url: /hi/net/audio-metadata/read-lyrics-tag-mp3/
+type: docs
 ---
-
 # .NET में MP3 फ़ाइलों से गीत टैग पढ़ें
 
 ## परिचय

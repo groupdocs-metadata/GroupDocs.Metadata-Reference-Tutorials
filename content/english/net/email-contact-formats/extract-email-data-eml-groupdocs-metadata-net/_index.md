@@ -8,10 +8,8 @@ keywords:
 - extract email data
 - GroupDocs.Metadata for .NET
 - EML file parsing
-
+type: docs
 ---
-
-
 # How to Extract Email Data from EML Files Using GroupDocs.Metadata for .NET
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: tomto komplexním kurzu se dozvíte, jak načíst metadata ze specifických formátů souborů pomocí GroupDocs.Metadata for .NET.
 weight: 12
 url: /cs/net/metadata-loading/load-metadata-specific-format/
+type: docs
 ---
-
 # Načítání metadat ze specifického formátu v .NET
 
 ## Úvod

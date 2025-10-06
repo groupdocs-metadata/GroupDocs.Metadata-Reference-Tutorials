@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके WAV फ़ाइलों से मेटाडेटा निकालने का तरीका जानें। ऑडियो फ़ाइल प्रबंधन के लिए मेटाडेटा का लाभ उठाने के लिए इस चरण-दर-चरण ट्यूटोरियल में गोता लगाएँ।
 weight: 22
 url: /hi/net/audio-metadata/read-info-metadata-wav/
+type: docs
 ---
-
 # .NET में WAV फ़ाइलों से जानकारी मेटाडेटा पढ़ें
 
 ## परिचय

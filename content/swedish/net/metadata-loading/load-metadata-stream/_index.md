@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Lär dig hantera filmetadata i .NET med GroupDocs.Metadata. Steg-för-steg-guide för att ladda, redigera och ta bort metadata från strömmar.
 weight: 11
 url: /sv/net/metadata-loading/load-metadata-stream/
+type: docs
 ---
-
 # Laddar metadata från Stream i .NET Tutorial
 
 ## Introduktion

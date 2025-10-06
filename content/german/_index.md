@@ -6,8 +6,8 @@ description: Entdecken Sie umfassende Tutorials für GroupDocs.Metadata auf alle
 weight: 11
 url: /de/
 is_root: true
+type: docs
 ---
-
 # Erschließen Sie die Metadatenbeherrschung mit GroupDocs.Metadata
 
 

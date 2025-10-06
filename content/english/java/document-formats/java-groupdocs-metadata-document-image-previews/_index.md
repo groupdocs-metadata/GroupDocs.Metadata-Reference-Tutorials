@@ -8,10 +8,8 @@ keywords:
 - document image preview
 - GroupDocs Metadata Java
 - creating document previews with Java
-
+type: docs
 ---
-
-
 # Mastering Document Image Previews in Java with GroupDocs.Metadata
 
 ## Introduction

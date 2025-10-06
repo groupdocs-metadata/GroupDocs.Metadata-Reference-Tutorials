@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak elektronik tablolardan denetim özelliklerini nasıl okuyacağınızı öğrenin. Yorumlara, dijital imzalara ve gizli sayfalara zahmetsizce erişin.
 weight: 13
 url: /tr/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # .NET'teki Elektronik Tablolardan Denetim Özelliklerini Okuyun
 
 ## giriiş

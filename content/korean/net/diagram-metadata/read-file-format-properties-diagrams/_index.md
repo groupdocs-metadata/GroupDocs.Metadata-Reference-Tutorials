@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: GroupDocs.Metadata를 사용하여 .NET의 다이어그램에서 파일 형식 속성을 읽는 방법을 알아보세요. 상세한 메타데이터를 손쉽게 추출하세요.
 weight: 13
 url: /ko/net/diagram-metadata/read-file-format-properties-diagrams/
+type: docs
 ---
-
 # .NET의 다이어그램에서 파일 형식 속성 읽기
 
 ## 소개

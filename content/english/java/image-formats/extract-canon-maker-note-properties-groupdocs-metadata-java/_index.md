@@ -8,10 +8,8 @@ keywords:
 - extract Canon MakerNote properties
 - GroupDocs Metadata Java library
 - JPEG image metadata extraction
-
+type: docs
 ---
-
-
 # Extract Canon MakerNote Properties in Java with GroupDocs.Metadata
 
 ## Introduction

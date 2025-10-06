@@ -8,10 +8,8 @@ keywords:
 - file loading .NET
 - GroupDocs.Metadata for .NET
 - document format detection
-
+type: docs
 ---
-
-
 # Efficient File Loading in .NET Using GroupDocs.Metadata
 
 ## Introduction

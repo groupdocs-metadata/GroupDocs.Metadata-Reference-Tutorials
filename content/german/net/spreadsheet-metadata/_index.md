@@ -6,8 +6,8 @@ description: Nutzen Sie die Leistungsfähigkeit von GroupDocs.Metadata für .NET
 
 weight: 27
 url: /de/net/spreadsheet-metadata/
+type: docs
 ---
-
 # Tabellenkalkulations-Metadaten
 
 ## Einführung

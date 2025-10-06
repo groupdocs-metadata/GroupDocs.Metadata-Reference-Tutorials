@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment gérer efficacement les métadonnées de présentation dans .NET à l’aide des didacticiels GroupDocs.Metadata. Accédez facilement aux propriétés intégrées et personnalisées.
 weight: 25
 url: /fr/net/presentation-metadata/
+type: docs
 ---
-
 # Métadonnées de présentation
 
 ## Introduction

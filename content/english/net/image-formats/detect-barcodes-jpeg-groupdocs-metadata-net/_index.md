@@ -8,10 +8,8 @@ keywords:
 - detect barcodes JPEG
 - GroupDocs.Metadata for .NET
 - barcode detection image processing
-
+type: docs
 ---
-
-
 # How to Detect Barcodes in JPEG Images Using GroupDocs.Metadata for .NET
 
 **Introduction**

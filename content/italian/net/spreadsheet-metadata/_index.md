@@ -6,8 +6,8 @@ description: Sfrutta la potenza di GroupDocs.Metadata per .NET con tutorial sull
 
 weight: 27
 url: /it/net/spreadsheet-metadata/
+type: docs
 ---
-
 # Metadati del foglio di calcolo
 
 ## introduzione

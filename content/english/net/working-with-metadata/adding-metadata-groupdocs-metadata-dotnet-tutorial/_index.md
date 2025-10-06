@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata .NET
 - adding metadata .NET
 - file metadata management
-
+type: docs
 ---
-
-
 # Comprehensive Guide: Adding Metadata to Files with GroupDocs.Metadata for .NET
 
 ## Introduction

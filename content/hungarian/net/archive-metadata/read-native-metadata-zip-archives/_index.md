@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthat ki metaadatokat ZIP-archívumokból a GroupDocs.Metadata for .NET segítségével. Fedezze fel a natív tulajdonságok olvasására vonatkozó részletes utasításokat.
 weight: 13
 url: /hu/net/archive-metadata/read-native-metadata-zip-archives/
+type: docs
 ---
-
 # Olvassa el a natív metaadat-tulajdonságokat a ZIP-archívumokból a .NET-ben
 
 ## Bevezetés

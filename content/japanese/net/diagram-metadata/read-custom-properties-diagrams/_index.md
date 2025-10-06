@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata を使用して .NET のダイアグラム ファイルからカスタム プロパティを抽出する方法を学びます。開発者向けの簡単なステップバイステップ ガイド。
 weight: 11
 url: /ja/net/diagram-metadata/read-custom-properties-diagrams/
+type: docs
 ---
-
 # .NET の図からカスタム プロパティを読み取る
 
 ## 導入

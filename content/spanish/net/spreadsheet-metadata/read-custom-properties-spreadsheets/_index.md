@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Aprenda a extraer propiedades personalizadas de hojas de cálculo utilizando GroupDocs.Metadata para .NET. Mejore la manipulación de metadatos en sus aplicaciones .NET.
 weight: 11
 url: /es/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
+type: docs
 ---
-
 # Leer propiedades personalizadas de hojas de cálculo en .NET
 
 ## Introducción

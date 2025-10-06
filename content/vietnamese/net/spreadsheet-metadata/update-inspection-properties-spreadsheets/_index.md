@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật thuộc tính kiểm tra trong bảng tính bằng GroupDocs.Metadata cho .NET. Quản lý nhận xét, chữ ký và trang ẩn một cách dễ dàng.
 weight: 16
 url: /vi/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # Cập nhật thuộc tính kiểm tra trong bảng tính bằng .NET
 
 ## Giới thiệu

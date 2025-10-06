@@ -8,10 +8,8 @@ keywords:
 - Save JPEG with GroupDocs.Metadata
 - GroupDocs.Metadata .NET
 - manage JPEG metadata
-
+type: docs
 ---
-
-
 # How to Save a JPEG File with GroupDocs.Metadata .NET: A Comprehensive Step-by-Step Guide
 
 ## Introduction

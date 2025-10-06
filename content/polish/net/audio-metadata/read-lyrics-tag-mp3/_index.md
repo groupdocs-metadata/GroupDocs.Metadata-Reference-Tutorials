@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak wyodrębnić znaczniki tekstów z plików MP3 przy użyciu GroupDocs.Metadata dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku.
 weight: 13
 url: /pl/net/audio-metadata/read-lyrics-tag-mp3/
+type: docs
 ---
-
 # Przeczytaj znacznik tekstu z plików MP3 w formacie .NET
 
 ## Wstęp

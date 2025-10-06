@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: GroupDocs.Metadata के साथ .NET में फ़ाइल मेटाडेटा प्रबंधित करना सीखें। स्ट्रीम से मेटाडेटा लोड करने, संपादित करने और हटाने के लिए चरण-दर-चरण मार्गदर्शिका।
 weight: 11
 url: /hi/net/metadata-loading/load-metadata-stream/
+type: docs
 ---
-
 # .NET ट्यूटोरियल में स्ट्रीम से मेटाडेटा लोड हो रहा है
 
 ## परिचय

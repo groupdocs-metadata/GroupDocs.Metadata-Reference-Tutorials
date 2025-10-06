@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 PDF에서 사용자 정의 속성을 추출하는 방법을 알아보세요. C#을 사용하여 문서 메타데이터 관리에 대해 알아보세요.
 weight: 11
 url: /ko/net/pdf-metadata/read-custom-properties-pdfs/
+type: docs
 ---
-
 # .NET의 PDF에서 사용자 정의 속성 읽기
 
 ## 소개

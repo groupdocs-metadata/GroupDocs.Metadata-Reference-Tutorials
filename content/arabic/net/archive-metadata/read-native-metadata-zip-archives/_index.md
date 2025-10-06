@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج بيانات التعريف من أرشيفات ZIP باستخدام GroupDocs.Metadata لـ .NET. استكشف الإرشادات خطوة بخطوة لقراءة الخصائص الأصلية.
 weight: 13
 url: /ar/net/archive-metadata/read-native-metadata-zip-archives/
+type: docs
 ---
-
 # اقرأ خصائص بيانات التعريف الأصلية من أرشيفات ZIP في .NET
 
 ## مقدمة

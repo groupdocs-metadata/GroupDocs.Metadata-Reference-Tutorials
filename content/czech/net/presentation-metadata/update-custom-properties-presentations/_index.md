@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se spravovat metadata prezentace pomocí GroupDocs.Metadata pro .NET. Efektivně aktualizujte uživatelské vlastnosti v souborech PowerPoint.
 weight: 16
 url: /cs/net/presentation-metadata/update-custom-properties-presentations/
+type: docs
 ---
-
 # Aktualizujte uživatelské vlastnosti v prezentacích pomocí .NET
 
 ## Úvod

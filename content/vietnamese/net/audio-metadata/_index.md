@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Khám phá hướng dẫn về cách xử lý siêu dữ liệu âm thanh bằng GroupDocs.Metadata cho .NET. Tìm hiểu cách trích xuất, cập nhật và xóa thẻ khỏi tệp MP3 và WAV một cách hiệu quả.
 weight: 22
 url: /vi/net/audio-metadata/
+type: docs
 ---
-
 # Siêu dữ liệu âm thanh
 
 

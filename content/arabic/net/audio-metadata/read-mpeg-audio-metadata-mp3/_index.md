@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج بيانات التعريف الصوتية بتنسيق MPEG من ملفات MP3 في .NET باستخدام GroupDocs.Metadata. تعزيز قدرات تحليل الملفات الخاصة بك.
 weight: 14
 url: /ar/net/audio-metadata/read-mpeg-audio-metadata-mp3/
+type: docs
 ---
-
 # قراءة بيانات تعريف MPEG الصوتية من ملفات MP3 في .NET
 
 ## مقدمة

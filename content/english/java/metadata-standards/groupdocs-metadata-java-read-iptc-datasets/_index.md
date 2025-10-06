@@ -8,10 +8,8 @@ keywords:
 - read IPTC metadata
 - GroupDocs.Metadata for Java
 - Java image metadata
-
+type: docs
 ---
-
-
 # How to Read IPTC IIM Datasets in Java with GroupDocs.Metadata
 
 ## Introduction

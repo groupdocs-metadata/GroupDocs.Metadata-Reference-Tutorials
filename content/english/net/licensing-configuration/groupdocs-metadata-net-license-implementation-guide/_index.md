@@ -8,10 +8,8 @@ keywords:
 - GroupDocs Metadata .NET
 - implementing GroupDocs license
 - setting up GroupDocs license
-
+type: docs
 ---
-
-
 # Implementing GroupDocs.Metadata .NET License: A Step-by-Step Guide
 
 ## Introduction

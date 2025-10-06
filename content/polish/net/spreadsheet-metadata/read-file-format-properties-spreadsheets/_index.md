@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak czytać właściwości formatu pliku arkusza kalkulacyjnego przy użyciu GroupDocs.Metadata dla .NET. Uzyskaj dostęp do formatu pliku, typu MIME i nie tylko za pomocą prostych wywołań API.
 weight: 12
 url: /pl/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
+type: docs
 ---
-
 # Przeczytaj właściwości formatu pliku z arkuszy kalkulacyjnych w .NET
 
 ## Wstęp

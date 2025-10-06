@@ -8,10 +8,8 @@ keywords:
 - update custom metadata in Visio
 - GroupDocs.Metadata .NET
 - manage diagram metadata
-
+type: docs
 ---
-
-
 # Update Custom Metadata in Visio with GroupDocs.Metadata .NET
 
 ## Introduction

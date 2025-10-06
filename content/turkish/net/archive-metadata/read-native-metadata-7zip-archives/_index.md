@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak 7Zip arşivlerinden yerel meta veri özelliklerini nasıl okuyacağınızı öğrenin. .NET uygulamanızın veri yönetimi yeteneklerini geliştirin.
 weight: 11
 url: /tr/net/archive-metadata/read-native-metadata-7zip-archives/
+type: docs
 ---
-
 # .NET'teki 7Zip Arşivlerinden Yerel Meta Veri Özelliklerini Okuyun
 
 ## giriiş

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata'yı kullanarak .NET'teki diyagramlardan dosya formatı özelliklerini nasıl okuyacağınızı öğrenin. Ayrıntılı meta verileri zahmetsizce çıkarın.
 weight: 13
 url: /tr/net/diagram-metadata/read-file-format-properties-diagrams/
+type: docs
 ---
-
 # .NET'teki Diyagramlardan Dosya Formatı Özelliklerini Okuyun
 
 ## giriiş

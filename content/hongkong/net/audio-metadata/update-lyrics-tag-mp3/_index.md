@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 以程式設計方式更新 MP3 檔案元數據，包括歌詞、藝人和專輯詳細資訊。
 weight: 21
 url: /zh-hant/net/audio-metadata/update-lyrics-tag-mp3/
+type: docs
 ---
-
 # 使用 .NET 更新 MP3 檔案中的歌詞標籤
 
 ## 介紹

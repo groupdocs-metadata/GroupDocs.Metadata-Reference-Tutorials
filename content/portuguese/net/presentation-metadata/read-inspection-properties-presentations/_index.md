@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Aprenda como extrair metadados de apresentação usando GroupDocs.Metadata for .NET. Acesse comentários, slides ocultos e muito mais de forma programática.
 weight: 14
 url: /pt/net/presentation-metadata/read-inspection-properties-presentations/
+type: docs
 ---
-
 # Leia as propriedades de inspeção de apresentações em .NET
 
 ## Introdução

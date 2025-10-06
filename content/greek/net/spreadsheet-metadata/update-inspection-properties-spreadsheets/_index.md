@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να ενημερώνετε τις ιδιότητες επιθεώρησης σε υπολογιστικά φύλλα χρησιμοποιώντας το GroupDocs.Metadata για .NET. Διαχειριστείτε τα σχόλια, τις υπογραφές και τα κρυφά φύλλα με ευκολία.
 weight: 16
 url: /el/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # Ενημερώστε τις ιδιότητες επιθεώρησης σε υπολογιστικά φύλλα χρησιμοποιώντας .NET
 
 ## Εισαγωγή

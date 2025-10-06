@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して図の組み込みプロパティを更新する方法を学びます。コード例を使用してメタデータをシームレスに変更します。
 weight: 14
 url: /ja/net/diagram-metadata/update-built-in-properties-diagrams/
+type: docs
 ---
-
 # .NET を使用して図の組み込みプロパティを更新する
 
 ## 導入

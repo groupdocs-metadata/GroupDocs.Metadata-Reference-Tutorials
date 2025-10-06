@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: कुशल मेटाडेटा प्रबंधन के लिए GroupDocs.Metadata का उपयोग करके .NET में प्रस्तुतियों से दस्तावेज़ आँकड़े पढ़ना सीखें।
 weight: 12
 url: /hi/net/presentation-metadata/read-document-statistics-presentations/
+type: docs
 ---
-
 # .NET में प्रस्तुतियों से दस्तावेज़ आँकड़े पढ़ें
 
 ## परिचय

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعلم كيفية استخراج بيانات التعريف من ملفات المخططات في .NET باستخدام GroupDocs.Metadata. تعزيز إدارة الوثائق وتحليلها بكفاءة.
 weight: 10
 url: /ar/net/diagram-metadata/read-built-in-properties-diagrams/
+type: docs
 ---
-
 # قراءة الخصائص المضمنة من المخططات في .NET
 
 ## مقدمة

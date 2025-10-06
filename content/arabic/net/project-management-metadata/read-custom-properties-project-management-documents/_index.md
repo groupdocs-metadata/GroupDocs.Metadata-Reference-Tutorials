@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج الخصائص المخصصة من مستندات إدارة مشروع .NET باستخدام GroupDocs.Metadata لـ .NET. تعزيز إدارة البيانات الوصفية الخاصة بك.
 weight: 11
 url: /ar/net/project-management-metadata/read-custom-properties-project-management-documents/
+type: docs
 ---
-
 # اقرأ الخصائص المخصصة في مستندات إدارة مشروع NET
 
 ## مقدمة

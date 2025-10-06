@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: उन्नत फ़ाइल हेरफेर क्षमताओं के लिए GroupDocs.Metadata के साथ .NET अनुप्रयोगों में फ़ाइल मेटाडेटा को आसानी से प्रबंधित करें।
 weight: 10
 url: /hi/net/metadata-loading/load-metadata-local-disk/
+type: docs
 ---
-
 # .NET में लोकल डिस्क से मेटाडेटा कैसे लोड करें
 
 ## परिचय

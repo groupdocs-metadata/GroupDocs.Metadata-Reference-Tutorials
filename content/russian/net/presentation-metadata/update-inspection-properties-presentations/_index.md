@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как обновить свойства проверки в презентациях с помощью .NET с помощью GroupDocs.Metadata. Простое и эффективное манипулирование метаданными для файлов .PPTX.
 weight: 17
 url: /ru/net/presentation-metadata/update-inspection-properties-presentations/
+type: docs
 ---
-
 # Обновление свойств проверки в презентациях с помощью .NET
 
 ## Введение

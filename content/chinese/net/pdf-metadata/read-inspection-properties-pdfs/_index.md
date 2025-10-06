@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 从 PDF 文档中提取检查属性。探索注释、附件等。
 weight: 14
 url: /zh/net/pdf-metadata/read-inspection-properties-pdfs/
+type: docs
 ---
-
 # 从 .NET 中的 PDF 读取检查属性
 
 ## 介绍

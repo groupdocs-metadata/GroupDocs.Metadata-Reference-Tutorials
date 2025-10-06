@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: GroupDocs.Metadata를 사용하여 .NET의 스프레드시트에서 메타데이터를 추출하여 애플리케이션의 문서 관리 및 구성을 향상시키는 방법을 알아보세요.
 weight: 10
 url: /ko/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # .NET의 스프레드시트에서 내장 속성 읽기
 
 ## 소개

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีอ่านคุณสมบัติรูปแบบไฟล์สเปรดชีตโดยใช้ GroupDocs.Metadata สำหรับ .NET เข้าถึงรูปแบบไฟล์ ประเภท MIME และอื่นๆ ด้วยการเรียก API แบบง่ายๆ
 weight: 12
 url: /th/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
+type: docs
 ---
-
 # อ่านคุณสมบัติรูปแบบไฟล์จากสเปรดชีตใน .NET
 
 ## การแนะนำ

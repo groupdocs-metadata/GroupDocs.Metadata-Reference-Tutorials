@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata for .NET
 - load metadata from stream
 - document processing with .NET
-
+type: docs
 ---
-
-
 # Load Metadata from Stream Using GroupDocs.Metadata for .NET
 
 ## Introduction

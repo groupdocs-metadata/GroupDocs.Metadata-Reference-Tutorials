@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε μεταδεδομένα από υπολογιστικά φύλλα στο .NET χρησιμοποιώντας GroupDocs.Metadata, βελτιώνοντας τη διαχείριση και την οργάνωση εγγράφων στις εφαρμογές σας.
 weight: 10
 url: /el/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # Διαβάστε τις ενσωματωμένες ιδιότητες από υπολογιστικά φύλλα στο .NET
 
 ## Εισαγωγή

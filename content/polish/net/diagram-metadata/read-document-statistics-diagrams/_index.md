@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak wyodrębniać statystyki dokumentów z diagramów w platformie .NET przy użyciu GroupDocs.Metadata, potężnej biblioteki do manipulacji metadanymi.
 weight: 12
 url: /pl/net/diagram-metadata/read-document-statistics-diagrams/
+type: docs
 ---
-
 # Czytaj statystyki dokumentów z diagramów w .NET
 
 ## Wstęp

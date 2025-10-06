@@ -8,10 +8,8 @@ keywords:
 - extract text statistics diagrams
 - GroupDocs.Metadata Java setup
 - Java diagram metadata extraction
-
+type: docs
 ---
-
-
 # How to Extract Text Statistics from Diagrams Using GroupDocs.Metadata in Java
 
 ## Introduction

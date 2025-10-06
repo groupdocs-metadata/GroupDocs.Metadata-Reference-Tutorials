@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية قراءة بيانات تعريف PDF في .NET باستخدام GroupDocs.Metadata. يمكنك الوصول إلى أسماء المؤلفين وتواريخ الإنشاء والموضوعات والمزيد باستخدام كود C#.
 weight: 10
 url: /ar/net/pdf-metadata/read-built-in-properties-pdfs/
+type: docs
 ---
-
 # قراءة الخصائص المضمنة من ملفات PDF في .NET
 
 ## مقدمة

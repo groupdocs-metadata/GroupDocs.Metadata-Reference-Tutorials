@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีแยกคุณสมบัติการตรวจสอบออกจากเอกสาร PDF โดยใช้ GroupDocs.Metadata สำหรับ .NET สำรวจคำอธิบายประกอบ ไฟล์แนบ และอื่นๆ
 weight: 14
 url: /th/net/pdf-metadata/read-inspection-properties-pdfs/
+type: docs
 ---
-
 # อ่านคุณสมบัติการตรวจสอบจาก PDF ใน .NET
 
 ## การแนะนำ

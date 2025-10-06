@@ -8,10 +8,8 @@ keywords:
 - extract custom metadata .NET
 - GroupDocs.Metadata for .NET
 - presentation metadata extraction
-
+type: docs
 ---
-
-
 # How to Extract Custom Metadata Properties from a Presentation Using GroupDocs.Metadata for .NET
 
 ## Introduction

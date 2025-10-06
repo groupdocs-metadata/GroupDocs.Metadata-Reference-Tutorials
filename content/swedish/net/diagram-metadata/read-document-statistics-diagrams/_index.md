@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du extraherar dokumentstatistik från diagram i .NET med GroupDocs.Metadata, ett kraftfullt bibliotek för metadatamanipulation.
 weight: 12
 url: /sv/net/diagram-metadata/read-document-statistics-diagrams/
+type: docs
 ---
-
 # Läs dokumentstatistik från diagram i .NET
 
 ## Introduktion

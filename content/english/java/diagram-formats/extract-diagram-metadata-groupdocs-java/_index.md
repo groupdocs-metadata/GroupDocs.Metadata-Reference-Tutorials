@@ -8,10 +8,8 @@ keywords:
 - extract diagram metadata java
 - GroupDocs Metadata for Java
 - manage diagram document metadata
-
+type: docs
 ---
-
-
 # Extract Diagram Metadata with GroupDocs for Java
 
 ## Introduction

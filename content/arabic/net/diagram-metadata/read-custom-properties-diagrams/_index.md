@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج الخصائص المخصصة من ملفات المخططات في .NET باستخدام GroupDocs.Metadata. دليل سهل خطوة بخطوة للمطورين.
 weight: 11
 url: /ar/net/diagram-metadata/read-custom-properties-diagrams/
+type: docs
 ---
-
 # قراءة الخصائص المخصصة من المخططات في .NET
 
 ## مقدمة

@@ -8,10 +8,8 @@ keywords:
 - image metadata extraction
 - GroupDocs.Metadata Java
 - extract image file format
-
+type: docs
 ---
-
-
 # Mastering Image Metadata Extraction in Java with GroupDocs.Metadata
 
 ## Introduction

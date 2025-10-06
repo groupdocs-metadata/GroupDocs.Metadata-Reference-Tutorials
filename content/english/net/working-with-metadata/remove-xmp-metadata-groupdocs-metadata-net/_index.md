@@ -8,10 +8,8 @@ keywords:
 - remove XMP metadata .NET
 - GroupDocs.Metadata library
 - metadata removal best practices
-
+type: docs
 ---
-
-
 # How to Remove XMP Metadata Using GroupDocs.Metadata for .NET
 
 ## Introduction

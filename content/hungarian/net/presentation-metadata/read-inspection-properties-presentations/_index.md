@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthatja ki a prezentáció metaadatait a GroupDocs.Metadata for .NET segítségével. Programozottan hozzáférhet a megjegyzésekhez, rejtett diákhoz és sok máshoz.
 weight: 14
 url: /hu/net/presentation-metadata/read-inspection-properties-presentations/
+type: docs
 ---
-
 # Olvassa el a Vizsgálati tulajdonságokat a .NET prezentációiból
 
 ## Bevezetés

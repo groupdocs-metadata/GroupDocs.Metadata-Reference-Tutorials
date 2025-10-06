@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET oktatóanyagok segítségével tárja fel a .NET projektmenedzsment dokumentumokban rejlő lehetőségeket. Könnyedén bontsa ki, frissítse és kezelje a metaadatokat.
 weight: 26
 url: /hu/net/project-management-metadata/
+type: docs
 ---
-
 # Projektmenedzsment metaadatok
 
 

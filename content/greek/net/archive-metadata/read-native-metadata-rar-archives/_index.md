@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε ιδιότητες μεταδεδομένων από αρχεία RAR χρησιμοποιώντας το GroupDocs.Metadata για .NET σε C#. Εξερευνήστε τις λεπτομέρειες του αρχείου χωρίς κόπο.
 weight: 10
 url: /el/net/archive-metadata/read-native-metadata-rar-archives/
+type: docs
 ---
-
 # Διαβάστε τις εγγενείς ιδιότητες μεταδεδομένων από τα αρχεία RAR στο .NET
 
 ## Εισαγωγή

@@ -8,10 +8,8 @@ keywords:
 - Sony MakerNote Metadata
 - GroupDocs.Metadata for Java
 - Extracting Camera Metadata
-
+type: docs
 ---
-
-
 # Mastering Metadata Extraction: Extract Sony MakerNote Properties Using GroupDocs.Metadata Java
 
 ## Introduction

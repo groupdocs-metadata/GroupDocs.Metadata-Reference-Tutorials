@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment mettre à jour les métadonnées d'un fichier MP3, y compris les paroles, l'artiste et les détails de l'album, par programmation à l'aide de GroupDocs.Metadata pour .NET.
 weight: 21
 url: /fr/net/audio-metadata/update-lyrics-tag-mp3/
+type: docs
 ---
-
 # Mettre à jour la balise des paroles dans les fichiers MP3 à l'aide de .NET
 
 ## Introduction

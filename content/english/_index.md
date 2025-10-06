@@ -6,6 +6,7 @@ description: Discover comprehensive tutorials for GroupDocs.Metadata across plat
 weight: 11
 url: /
 is_root: true
+type: docs
 ---
 # Unlocking Metadata Mastery with GroupDocs.Metadata
 Explore a comprehensive collection of GroupDocs.Metadata tutorials tailored for both .NET and Java developers. Dive into the world of metadata management with step-by-step guides, covering a wide range of topics from loading techniques to advanced manipulation. Elevate your skills in file metadata management regardless of your preferred programming language.

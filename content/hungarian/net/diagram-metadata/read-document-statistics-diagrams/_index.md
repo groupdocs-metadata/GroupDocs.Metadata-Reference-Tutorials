@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Tanulja meg, hogyan lehet dokumentumstatisztikát kinyerni diagramokból a .NET-ben a GroupDocs.Metadata, egy hatékony metaadat-kezelési könyvtár segítségével.
 weight: 12
 url: /hu/net/diagram-metadata/read-document-statistics-diagrams/
+type: docs
 ---
-
 # Olvassa el a dokumentumstatisztikát a diagramokból a .NET-ben
 
 ## Bevezetés

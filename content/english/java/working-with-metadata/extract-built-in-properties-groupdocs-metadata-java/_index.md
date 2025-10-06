@@ -8,10 +8,8 @@ keywords:
 - extract built-in properties
 - GroupDocs.Metadata for Java
 - MPP file metadata extraction
-
+type: docs
 ---
-
-
 # How to Extract Built-In Properties from MPP Files Using GroupDocs.Metadata in Java
 
 ## Introduction

@@ -8,10 +8,8 @@ keywords:
 - EXIF tags extraction in .NET
 - GroupDocs.Metadata library usage
 - Reading EXIF metadata with C#
-
+type: docs
 ---
-
-
 # How to Extract Specific EXIF Tags Using GroupDocs.Metadata in .NET for Efficient Metadata Management
 
 ## Introduction

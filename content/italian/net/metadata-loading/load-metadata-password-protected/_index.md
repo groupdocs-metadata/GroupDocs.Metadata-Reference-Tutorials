@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Scopri come gestire i metadati dei documenti in modo efficiente con GroupDocs.Metadata per .NET. Estrai, modifica e gestisci i metadati senza problemi nelle tue applicazioni .NET.
 weight: 13
 url: /it/net/metadata-loading/load-metadata-password-protected/
+type: docs
 ---
-
 # Come caricare metadati da un documento protetto da password in .NET
 
 ## introduzione

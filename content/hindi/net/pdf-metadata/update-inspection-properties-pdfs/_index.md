@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके PDF दस्तावेज़ों में निरीक्षण गुणों को अपडेट करना सीखें। C# के साथ मेटाडेटा और एनोटेशन को कुशलतापूर्वक प्रबंधित करें।
 weight: 17
 url: /hi/net/pdf-metadata/update-inspection-properties-pdfs/
+type: docs
 ---
-
 # .NET का उपयोग करके PDF में निरीक्षण गुण अद्यतन करें
 
 ## परिचय

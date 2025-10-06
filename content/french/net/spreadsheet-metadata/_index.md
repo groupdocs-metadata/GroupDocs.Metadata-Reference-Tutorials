@@ -6,8 +6,8 @@ description: Libérez la puissance de GroupDocs.Metadata pour .NET avec des dida
 
 weight: 27
 url: /fr/net/spreadsheet-metadata/
+type: docs
 ---
-
 # Métadonnées de la feuille de calcul
 
 ## Introduction

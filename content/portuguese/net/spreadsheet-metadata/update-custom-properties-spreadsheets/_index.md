@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Descubra como atualizar propriedades personalizadas em planilhas usando GroupDocs.Metadata for .NET. Este tutorial aprimora suas habilidades de gerenciamento de metadados de maneira eficaz.
 weight: 15
 url: /pt/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
+type: docs
 ---
-
 # Atualizar propriedades personalizadas em planilhas usando .NET
 
 ## Introdução

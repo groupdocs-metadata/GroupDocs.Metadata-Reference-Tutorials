@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthat ki egyéni tulajdonságokat .NET-projektkezelési dokumentumokból a GroupDocs.Metadata for .NET használatával. Javítsa metaadatkezelését.
 weight: 11
 url: /hu/net/project-management-metadata/read-custom-properties-project-management-documents/
+type: docs
 ---
-
 # Olvassa el az Egyéni tulajdonságok részt a .NET projektmenedzsment dokumentumokban
 
 ## Bevezetés

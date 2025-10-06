@@ -6,8 +6,8 @@ description: Temukan tutorial komprehensif untuk GroupDocs.Metadata di seluruh p
 weight: 11
 url: /id/
 is_root: true
+type: docs
 ---
-
 # Membuka Kunci Penguasaan Metadata dengan GroupDocs.Metadata
 
 

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata ile .NET'te dosya meta verilerini yönetmeyi öğrenin. Akışlardan meta verileri yüklemek, düzenlemek ve kaldırmak için adım adım kılavuz.
 weight: 11
 url: /tr/net/metadata-loading/load-metadata-stream/
+type: docs
 ---
-
 # .NET Eğitiminde Akıştan Meta Veri Yükleme
 
 ## giriiş

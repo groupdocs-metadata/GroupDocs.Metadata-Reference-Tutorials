@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して PDF ドキュメントから検査プロパティを抽出する方法を学びます。注釈や添付ファイルなどを調べます。
 weight: 14
 url: /ja/net/pdf-metadata/read-inspection-properties-pdfs/
+type: docs
 ---
-
 # .NET で PDF から検査プロパティを読み取る
 
 ## 導入

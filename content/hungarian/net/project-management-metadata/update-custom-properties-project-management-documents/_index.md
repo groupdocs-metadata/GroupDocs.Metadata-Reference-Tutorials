@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan frissítheti az egyéni tulajdonságokat a .NET projektmenedzsment dokumentumokban a GroupDocs.Metadata for .NET használatával. Javítsa a metaadatkezelést alkalmazásaiban.
 weight: 13
 url: /hu/net/project-management-metadata/update-custom-properties-project-management-documents/
+type: docs
 ---
-
 # Frissítse az egyéni tulajdonságokat a .NET projektmenedzsment dokumentumokban
 
 ## Bevezetés

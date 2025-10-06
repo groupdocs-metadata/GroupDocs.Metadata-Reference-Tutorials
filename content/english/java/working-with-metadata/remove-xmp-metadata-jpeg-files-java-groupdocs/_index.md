@@ -8,10 +8,8 @@ keywords:
 - remove XMP metadata
 - GroupDocs.Metadata Java
 - JPEG metadata management
-
+type: docs
 ---
-
-
 # Efficiently Remove XMP Metadata from JPEGs Using GroupDocs.Metadata Java Library
 
 In today's digital landscape, managing metadata within image files is crucial for maintaining privacy and optimizing storage. This tutorial explores how to effectively remove XMP metadata from JPEG images using the powerful GroupDocs.Metadata library in Java. By leveraging this capability, you can protect sensitive information embedded within your photos while ensuring efficient data management.

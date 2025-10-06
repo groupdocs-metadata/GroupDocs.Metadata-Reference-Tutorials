@@ -8,10 +8,8 @@ keywords:
 - edit DXF metadata .NET
 - update CAD file metadata
 - GroupDocs.Metadata for .NET
-
+type: docs
 ---
-
-
 # Mastering DXF Metadata Editing in .NET with GroupDocs.Metadata
 
 ## Introduction

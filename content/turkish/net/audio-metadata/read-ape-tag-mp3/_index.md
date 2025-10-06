@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak MP3 dosyalarından APE etiketlerini nasıl okuyacağınızı öğrenin. Adım adım rehberlikle C#'ta meta veri çıkarmayı keşfedin.
 weight: 10
 url: /tr/net/audio-metadata/read-ape-tag-mp3/
+type: docs
 ---
-
 # .NET'teki MP3 Dosyalarından APE Etiketini Okuyun
 
 ## giriiş

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak wyodrębniać metadane z arkuszy kalkulacyjnych w .NET przy użyciu GroupDocs.Metadata, usprawniając zarządzanie dokumentami i organizację w aplikacjach.
 weight: 10
 url: /pl/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # Czytaj wbudowane właściwości z arkuszy kalkulacyjnych w .NET
 
 ## Wstęp

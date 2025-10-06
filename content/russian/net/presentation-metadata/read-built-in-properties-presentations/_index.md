@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Из этого подробного руководства вы узнаете, как извлечь встроенные свойства из презентаций с помощью GroupDocs.Metadata для .NET.
 weight: 10
 url: /ru/net/presentation-metadata/read-built-in-properties-presentations/
+type: docs
 ---
-
 # Чтение встроенных свойств из презентаций в .NET
 
 ## Введение

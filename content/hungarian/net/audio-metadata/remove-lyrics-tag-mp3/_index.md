@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan távolíthat el Lyrics címkéket MP3-fájlokból a GroupDocs.Metadata for .NET segítségével. Kövesse lépésenkénti útmutatónkat a hatékony metaadatok kezeléséhez.
 weight: 18
 url: /hu/net/audio-metadata/remove-lyrics-tag-mp3/
+type: docs
 ---
-
 # Távolítsa el a dalszövegcímkét az MP3-fájlokból a .NET-ben
 
 ## Bevezetés

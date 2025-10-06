@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Zjistěte, jak aktualizovat vlastnosti kontroly v tabulkách pomocí GroupDocs.Metadata pro .NET. Snadno spravujte komentáře, podpisy a skryté listy.
 weight: 16
 url: /cs/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # Aktualizujte vlastnosti inspekce v tabulkách pomocí .NET
 
 ## Úvod

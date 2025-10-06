@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất các thuộc tính kiểm tra từ tài liệu PDF bằng GroupDocs.Metadata cho .NET. Khám phá các chú thích, tệp đính kèm và hơn thế nữa.
 weight: 14
 url: /vi/net/pdf-metadata/read-inspection-properties-pdfs/
+type: docs
 ---
-
 # Đọc Thuộc tính Kiểm tra từ các tệp PDF trong .NET
 
 ## Giới thiệu

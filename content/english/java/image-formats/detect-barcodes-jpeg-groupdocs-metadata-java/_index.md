@@ -8,10 +8,8 @@ keywords:
 - Detect Barcodes in JPEG
 - GroupDocs.Metadata Java Library
 - Barcode Detection with Java
-
+type: docs
 ---
-
-
 # How to Detect Barcodes in JPEG Images Using GroupDocs.Metadata Java Library
 
 ## Introduction

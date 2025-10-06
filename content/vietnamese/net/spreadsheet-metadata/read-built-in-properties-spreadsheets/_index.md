@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất siêu dữ liệu từ bảng tính trong .NET bằng GroupDocs.Metadata, nâng cao khả năng tổ chức và quản lý tài liệu trong ứng dụng của bạn.
 weight: 10
 url: /vi/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # Đọc các thuộc tính tích hợp từ bảng tính trong .NET
 
 ## Giới thiệu

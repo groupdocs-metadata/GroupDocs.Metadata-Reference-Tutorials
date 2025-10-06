@@ -8,10 +8,8 @@ keywords:
 - access word document metadata
 - groupdocs.metadata java
 - read word metadata properties
-
+type: docs
 ---
-
-
 # Access Word Document Metadata with GroupDocs in Java
 
 ## How to Extract and Manipulate Metadata Properties of a Word Document Using GroupDocs.Metadata Java

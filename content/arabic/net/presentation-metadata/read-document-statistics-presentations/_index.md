@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية قراءة إحصائيات المستندات من العروض التقديمية في .NET باستخدام GroupDocs.Metadata لإدارة بيانات التعريف بكفاءة.
 weight: 12
 url: /ar/net/presentation-metadata/read-document-statistics-presentations/
+type: docs
 ---
-
 # اقرأ إحصائيات المستند من العروض التقديمية في .NET
 
 ## مقدمة

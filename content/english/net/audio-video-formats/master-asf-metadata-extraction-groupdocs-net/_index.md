@@ -8,10 +8,8 @@ keywords:
 - ASF metadata extraction
 - GroupDocs.Metadata .NET
 - media file management
-
+type: docs
 ---
-
-
 # Mastering ASF Metadata Extraction with GroupDocs.Metadata .NET: A Comprehensive Guide for Developers
 
 ## Introduction

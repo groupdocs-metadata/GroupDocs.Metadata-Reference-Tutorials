@@ -6,8 +6,8 @@ description: Раскройте возможности GroupDocs.Metadata для
 
 weight: 27
 url: /ru/net/spreadsheet-metadata/
+type: docs
 ---
-
 # Метаданные электронной таблицы
 
 ## Введение

@@ -8,10 +8,8 @@ keywords:
 - extract Panasonic MakerNote metadata
 - GroupDocs.Metadata .NET library
 - JPEG image metadata extraction
-
+type: docs
 ---
-
-
 # How to Extract Panasonic MakerNote Metadata with GroupDocs.Metadata .NET
 
 ## Introduction

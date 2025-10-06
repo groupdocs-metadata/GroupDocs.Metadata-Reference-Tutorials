@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีแยกข้อมูลเมตาของเสียง MPEG จากไฟล์ MP3 ใน .NET โดยใช้ GroupDocs.Metadata ปรับปรุงความสามารถในการวิเคราะห์ไฟล์ของคุณ
 weight: 14
 url: /th/net/audio-metadata/read-mpeg-audio-metadata-mp3/
+type: docs
 ---
-
 # อ่านข้อมูลเมตาเสียง MPEG จากไฟล์ MP3 ใน .NET
 
 ## การแนะนำ

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके PDF से कस्टम गुण निकालने का तरीका जानें। C# के साथ दस्तावेज़ मेटाडेटा प्रबंधन में गोता लगाएँ।
 weight: 11
 url: /hi/net/pdf-metadata/read-custom-properties-pdfs/
+type: docs
 ---
-
 # .NET में PDF से कस्टम गुण पढ़ें
 
 ## परिचय

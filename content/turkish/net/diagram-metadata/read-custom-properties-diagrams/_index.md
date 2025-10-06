@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata'yı kullanarak .NET'teki diyagram dosyalarından özel özellikleri nasıl çıkaracağınızı öğrenin. Geliştiriciler için kolay adım adım kılavuz.
 weight: 11
 url: /tr/net/diagram-metadata/read-custom-properties-diagrams/
+type: docs
 ---
-
 # .NET'teki Diyagramlardan Özel Özellikleri Okuyun
 
 ## giriiş

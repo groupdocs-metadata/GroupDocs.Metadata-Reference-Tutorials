@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata Java
 - update project management metadata
 - Java document properties
-
+type: docs
 ---
-
-
 # Efficiently Update Project Management Metadata in Java using GroupDocs.Metadata
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية إزالة علامات الأغاني من ملفات MP3 باستخدام GroupDocs.Metadata لـ .NET. اتبع دليلنا خطوة بخطوة لمعالجة البيانات التعريفية بكفاءة.
 weight: 18
 url: /ar/net/audio-metadata/remove-lyrics-tag-mp3/
+type: docs
 ---
-
 # قم بإزالة علامة الأغاني من ملفات MP3 في .NET
 
 ## مقدمة

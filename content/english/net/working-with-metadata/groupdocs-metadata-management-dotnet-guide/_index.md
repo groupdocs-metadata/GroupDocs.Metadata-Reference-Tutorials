@@ -8,10 +8,8 @@ keywords:
 - metadata management .NET
 - GroupDocs.Metadata .NET tutorial
 - loading metadata URI .NET
-
+type: docs
 ---
-
-
 # Mastering Metadata Management in .NET with GroupDocs.Metadata: A Comprehensive Guide
 
 ## Introduction

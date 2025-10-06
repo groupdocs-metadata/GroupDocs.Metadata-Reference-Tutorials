@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak Excel dosyalarındaki yerleşik meta veri özelliklerini nasıl güncelleştireceğinizi öğrenin. Yazarı, oluşturma zamanını, şirketi ve daha fazlasını C# ile değiştirin.
 weight: 14
 url: /tr/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # .NET kullanarak Elektronik Tablolardaki Yerleşik Özellikleri Güncelleme
 
 ## giriiş

@@ -8,10 +8,8 @@ keywords:
 - PDF metadata management
 - GroupDocs.Metadata .NET
 - copy PDF metadata
-
+type: docs
 ---
-
-
 # Mastering PDF Metadata Management with GroupDocs.Metadata .NET
 
 ## Introduction

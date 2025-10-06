@@ -8,10 +8,8 @@ keywords:
 - EXIF metadata extraction
 - GroupDocs.Metadata for .NET
 - PSD EXIF data
-
+type: docs
 ---
-
-
 # How to Extract EXIF Metadata from PSD Images with .NET and GroupDocs.Metadata
 
 ## Introduction

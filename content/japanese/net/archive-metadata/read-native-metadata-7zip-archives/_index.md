@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して 7Zip アーカイブからネイティブ メタデータ プロパティを読み取る方法を学習します。.NET アプリケーションのデータ管理機能を強化します。
 weight: 11
 url: /ja/net/archive-metadata/read-native-metadata-7zip-archives/
+type: docs
 ---
-
 # .NET で 7Zip アーカイブからネイティブ メタデータ プロパティを読み取る
 
 ## 導入

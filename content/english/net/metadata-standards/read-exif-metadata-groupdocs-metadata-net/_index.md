@@ -8,10 +8,8 @@ keywords:
 - read EXIF metadata
 - GroupDocs.Metadata for .NET
 - EXIF data manipulation
-
+type: docs
 ---
-
-
 # How to Read EXIF Metadata Using GroupDocs.Metadata for .NET
 
 ## Introduction

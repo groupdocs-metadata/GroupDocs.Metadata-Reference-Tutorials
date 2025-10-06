@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat uživatelské vlastnosti z PDF pomocí GroupDocs.Metadata pro .NET. Ponořte se do správy metadat dokumentu pomocí C#.
 weight: 11
 url: /cs/net/pdf-metadata/read-custom-properties-pdfs/
+type: docs
 ---
-
 # Čtení uživatelských vlastností z PDF v .NET
 
 ## Úvod

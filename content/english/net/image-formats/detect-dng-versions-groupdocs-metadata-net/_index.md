@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata
 - DNG image version detection
 - .NET metadata extraction
-
+type: docs
 ---
-
-
 # Detecting DNG Versions and Extracting Metadata with GroupDocs.Metadata for .NET
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج بيانات تعريف العرض التقديمي باستخدام GroupDocs.Metadata لـ .NET. يمكنك الوصول إلى التعليقات والشرائح المخفية وغير ذلك الكثير بطريقة برمجية.
 weight: 14
 url: /ar/net/presentation-metadata/read-inspection-properties-presentations/
+type: docs
 ---
-
 # قراءة خصائص الفحص من العروض التقديمية في .NET
 
 ## مقدمة

@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Scopri come rimuovere i tag dei testi dai file MP3 utilizzando GroupDocs.Metadata per .NET. Segui la nostra guida passo passo per una manipolazione efficiente dei metadati.
 weight: 18
 url: /it/net/audio-metadata/remove-lyrics-tag-mp3/
+type: docs
 ---
-
 # Rimuovi il tag del testo dai file MP3 in .NET
 
 ## introduzione

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج الخصائص المضمنة من العروض التقديمية باستخدام GroupDocs.Metadata لـ .NET في هذا البرنامج التعليمي الشامل.
 weight: 10
 url: /ar/net/presentation-metadata/read-built-in-properties-presentations/
+type: docs
 ---
-
 # قراءة الخصائص المضمنة من العروض التقديمية في .NET
 
 ## مقدمة

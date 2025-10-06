@@ -8,10 +8,8 @@ keywords:
 - read EPUB metadata
 - GroupDocs.Metadata for .NET
 - extract EPUB properties
-
+type: docs
 ---
-
-
 # How to Read EPUB Metadata Using GroupDocs.Metadata for .NET
 
 ## Introduction

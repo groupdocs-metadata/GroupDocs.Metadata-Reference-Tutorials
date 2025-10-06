@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके स्प्रेडशीट से कस्टम गुण निकालना सीखें। अपने .NET अनुप्रयोगों में मेटाडेटा हेरफेर को बढ़ाएँ।
 weight: 11
 url: /hi/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
+type: docs
 ---
-
 # .NET में स्प्रेडशीट से कस्टम गुण पढ़ें
 
 ## परिचय

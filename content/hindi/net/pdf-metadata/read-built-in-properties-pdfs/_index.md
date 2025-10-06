@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: GroupDocs.Metadata का उपयोग करके .NET में PDF मेटाडेटा पढ़ना सीखें। C# कोड के साथ लेखक के नाम, निर्माण तिथियाँ, विषय और बहुत कुछ एक्सेस करें।
 weight: 10
 url: /hi/net/pdf-metadata/read-built-in-properties-pdfs/
+type: docs
 ---
-
 # .NET में PDF से अंतर्निहित गुण पढ़ें
 
 ## परिचय

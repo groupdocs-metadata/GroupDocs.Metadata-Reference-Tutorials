@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как обновить встроенные свойства в презентациях с помощью .NET с помощью GroupDocs.Metadata — универсальной библиотеки для работы с метаданными.
 weight: 15
 url: /ru/net/presentation-metadata/update-built-in-properties-presentations/
+type: docs
 ---
-
 # Обновление встроенных свойств в презентациях с помощью .NET
 
 ## Введение

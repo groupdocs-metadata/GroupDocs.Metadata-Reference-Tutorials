@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Learn how to extract custom properties from PDFs using GroupDocs.Metadata for .NET. Dive into document metadata management with C#.
 weight: 11
 url: /net/pdf-metadata/read-custom-properties-pdfs/
+type: docs
 ---
-
 # Read Custom Properties from PDFs in .NET
 
 ## Introduction

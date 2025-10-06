@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata .NET
 - .NET STL file metadata management
 - 3D file metadata handling
-
+type: docs
 ---
-
-
 # Master .NET Metadata Management with GroupDocs: A Comprehensive STL File Guide
 
 ## Introduction

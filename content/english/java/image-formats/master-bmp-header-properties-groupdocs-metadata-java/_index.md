@@ -8,10 +8,8 @@ keywords:
 - extract BMP header properties
 - GroupDocs.Metadata in Java
 - reading image metadata
-
+type: docs
 ---
-
-
 # Efficiently Extract BMP Header Properties in Java Using GroupDocs.Metadata
 
 ## Introduction

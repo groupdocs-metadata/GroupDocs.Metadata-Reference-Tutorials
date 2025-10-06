@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να ενημερώνετε τις ιδιότητες επιθεώρησης σε παρουσιάσεις χρησιμοποιώντας .NET με GroupDocs.Metadata. Εύκολος, αποτελεσματικός χειρισμός μεταδεδομένων για αρχεία .PPTX.
 weight: 17
 url: /el/net/presentation-metadata/update-inspection-properties-presentations/
+type: docs
 ---
-
 # Ενημερώστε τις ιδιότητες επιθεώρησης σε παρουσιάσεις χρησιμοποιώντας .NET
 
 ## Εισαγωγή

@@ -8,10 +8,8 @@ keywords:
 - OpenType font metadata Java
 - GroupDocs.Metadata for Java
 - reading OpenType font properties
-
+type: docs
 ---
-
-
 # Reading OpenType Font Metadata in Java with GroupDocs.Metadata
 
 In today's digital landscape, fonts are pivotal to branding and user experience. However, accessing font metadata can be complex without the right tools. This comprehensive guide demonstrates how to read OpenType font metadata using the powerful GroupDocs.Metadata library for Java.

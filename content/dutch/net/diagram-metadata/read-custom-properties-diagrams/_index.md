@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u aangepaste eigenschappen uit diagrambestanden in .NET kunt extraheren met behulp van GroupDocs.Metadata. Eenvoudige stapsgewijze handleiding voor ontwikkelaars.
 weight: 11
 url: /nl/net/diagram-metadata/read-custom-properties-diagrams/
+type: docs
 ---
-
 # Lees aangepaste eigenschappen uit diagrammen in .NET
 
 ## Invoering

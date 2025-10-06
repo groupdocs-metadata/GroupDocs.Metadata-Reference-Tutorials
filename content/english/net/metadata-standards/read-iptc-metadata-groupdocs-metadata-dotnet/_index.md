@@ -8,10 +8,8 @@ keywords:
 - IPTC Metadata
 - GroupDocs.Metadata for .NET
 - Extracting Image Metadata
-
+type: docs
 ---
-
-
 # How to Read IPTC Metadata in .NET Using GroupDocs.Metadata
 
 ## Introduction

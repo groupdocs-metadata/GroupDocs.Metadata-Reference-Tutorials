@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: اكتشف البرامج التعليمية حول التعامل مع بيانات التعريف الصوتية باستخدام GroupDocs.Metadata لـ .NET. تعلم كيفية استخراج العلامات وتحديثها وإزالتها بكفاءة من ملفات MP3 وWAV.
 weight: 22
 url: /ar/net/audio-metadata/
+type: docs
 ---
-
 # البيانات الوصفية الصوتية
 
 

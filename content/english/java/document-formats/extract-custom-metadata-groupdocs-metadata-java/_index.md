@@ -8,10 +8,8 @@ keywords:
 - extract custom metadata PDFs Java
 - GroupDocs.Metadata Java library
 - manage non-standard PDF data
-
+type: docs
 ---
-
-
 # How to Extract Custom Metadata from PDFs Using GroupDocs.Metadata in Java
 
 Welcome to this detailed guide on extracting custom metadata properties from PDF documents with the powerful GroupDocs.Metadata library in Java. If you've ever needed to manage or utilize custom data embedded within your PDF files, this tutorial is for you.

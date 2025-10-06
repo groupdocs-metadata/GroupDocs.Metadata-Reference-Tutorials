@@ -3,8 +3,8 @@ title: "Diagram Metadata Tutorials with GroupDocs.Metadata for Java"
 description: "Step-by-step tutorials for working with metadata in Visio and other diagram formats using GroupDocs.Metadata for Java."
 weight: 13
 url: "/java/diagram-formats/"
+type: docs
 ---
-
 # Diagram Metadata Tutorials with GroupDocs.Metadata for Java
 
 Our diagram metadata tutorials provide detailed guidance for managing metadata in diagramming files using GroupDocs.Metadata in Java. These practical guides walk through extracting, modifying, and cleaning metadata in Visio documents and other diagram formats. Each tutorial includes comprehensive Java code examples for diagram metadata operations, helping you build applications that can process diagram files for better organization, maintain document properties, and implement metadata-based workflows for technical documentation.

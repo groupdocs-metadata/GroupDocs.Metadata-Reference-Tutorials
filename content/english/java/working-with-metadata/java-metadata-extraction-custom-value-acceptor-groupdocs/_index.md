@@ -8,10 +8,8 @@ keywords:
 - Java metadata extraction
 - custom value acceptor GroupDocs.Metadata
 - metadata handling in Java
-
+type: docs
 ---
-
-
 # Java Metadata Extraction Using a Custom Value Acceptor with GroupDocs.Metadata
 
 ## Introduction

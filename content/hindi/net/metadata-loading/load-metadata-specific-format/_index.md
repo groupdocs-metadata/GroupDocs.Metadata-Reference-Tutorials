@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: इस व्यापक ट्यूटोरियल में .NET के लिए GroupDocs.Metadata का उपयोग करके विशिष्ट फ़ाइल स्वरूपों से मेटाडेटा लोड करना सीखें।
 weight: 12
 url: /hi/net/metadata-loading/load-metadata-specific-format/
+type: docs
 ---
-
 # .NET में विशिष्ट प्रारूप से मेटाडेटा लोड करना
 
 ## परिचय

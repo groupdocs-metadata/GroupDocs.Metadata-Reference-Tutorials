@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata for .NET
 - manage Excel metadata
 - inspect spreadsheet comments
-
+type: docs
 ---
-
-
 # Master Spreadsheet Metadata Management with GroupDocs.Metadata for .NET
 
 ## Introduction

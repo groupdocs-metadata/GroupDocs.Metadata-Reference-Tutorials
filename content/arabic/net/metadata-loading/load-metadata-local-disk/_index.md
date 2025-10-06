@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: قم بإدارة بيانات تعريف الملف بسهولة في تطبيقات .NET باستخدام GroupDocs.Metadata لتعزيز إمكانيات معالجة الملفات.
 weight: 10
 url: /ar/net/metadata-loading/load-metadata-local-disk/
+type: docs
 ---
-
 # كيفية تحميل البيانات التعريفية من القرص المحلي في .NET
 
 ## مقدمة

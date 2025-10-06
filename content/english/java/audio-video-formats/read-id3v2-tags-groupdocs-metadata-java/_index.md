@@ -8,10 +8,8 @@ keywords:
 - read MP3 ID3v2 tags Java
 - GroupDocs.Metadata Java tutorial
 - manage MP3 metadata with Java
-
+type: docs
 ---
-
-
 # How to Read ID3v2 Tags and Attached Pictures from an MP3 File Using GroupDocs.Metadata for Java
 
 ## Introduction

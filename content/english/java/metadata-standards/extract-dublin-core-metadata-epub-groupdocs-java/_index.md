@@ -8,10 +8,8 @@ keywords:
 - Dublin Core metadata extraction
 - EPUB file metadata
 - GroupDocs.Metadata Java
-
+type: docs
 ---
-
-
 # Extracting Dublin Core Metadata from EPUB with GroupDocs.Metadata Java
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Διαχειριστείτε εύκολα τα μεταδεδομένα αρχείων στο .NET με το GroupDocs.Metadata. Μάθετε τεχνικές φόρτωσης, επεξεργασίας και πολλά άλλα για βελτιωμένες δυνατότητες χειρισμού αρχείων.
 weight: 20
 url: /el/net/metadata-loading/
+type: docs
 ---
-
 # Φόρτωση μεταδεδομένων
 
 ## Εισαγωγή

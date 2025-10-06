@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Learn how to extract metadata from WAV files using GroupDocs.Metadata for .NET. Dive into this step-by-step tutorial to leverage metadata for audio file management.
 weight: 22
 url: /net/audio-metadata/read-info-metadata-wav/
+type: docs
 ---
-
 # Read Info Metadata from WAV Files in .NET
 
 ## Introduction

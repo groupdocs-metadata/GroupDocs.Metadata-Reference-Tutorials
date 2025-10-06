@@ -8,10 +8,8 @@ keywords:
 - AVI metadata handling
 - GroupDocs.Metadata for Java
 - Java multimedia applications
-
+type: docs
 ---
-
-
 # Mastering AVI Metadata Handling with GroupDocs.Metadata for Java
 
 ## Introduction

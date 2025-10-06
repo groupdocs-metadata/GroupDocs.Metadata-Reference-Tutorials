@@ -6,8 +6,8 @@ description: プラットフォーム全体にわたる GroupDocs.Metadata の�
 weight: 11
 url: /ja/
 is_root: true
+type: docs
 ---
-
 # GroupDocs.Metadata でメタデータの習得を解き放つ
 
 

@@ -8,10 +8,8 @@ keywords:
 - remove user comments from zip
 - GroupDocs.Metadata for .NET
 - ZIP archive metadata management
-
+type: docs
 ---
-
-
 # How to Remove a User Comment from a ZIP Archive Using GroupDocs.Metadata for .NET
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata を使用して .NET のスプレッドシートからメタデータを抽出し、アプリケーションでのドキュメント管理と整理を強化する方法を学習します。
 weight: 10
 url: /ja/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # .NET のスプレッドシートから組み込みプロパティを読み取る
 
 ## 導入

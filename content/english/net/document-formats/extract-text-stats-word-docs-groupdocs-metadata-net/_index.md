@@ -8,10 +8,8 @@ keywords:
 - extract text statistics Word documents
 - GroupDocs.Metadata for .NET
 - text statistics extraction
-
+type: docs
 ---
-
-
 # How to Extract Text Statistics from Word Documents Using GroupDocs.Metadata with .NET
 
 ## Introduction

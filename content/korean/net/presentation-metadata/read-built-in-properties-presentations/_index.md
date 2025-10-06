@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: 이 포괄적인 튜토리얼에서 .NET용 GroupDocs.Metadata를 사용하여 프레젠테이션에서 기본 제공 속성을 추출하는 방법을 알아보세요.
 weight: 10
 url: /ko/net/presentation-metadata/read-built-in-properties-presentations/
+type: docs
 ---
-
 # .NET 프레젠테이션에서 기본 제공 속성 읽기
 
 ## 소개

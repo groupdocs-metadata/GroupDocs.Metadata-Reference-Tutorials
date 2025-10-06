@@ -6,8 +6,8 @@ description: Odblokuj możliwości GroupDocs.Metadata for .NET dzięki samouczko
 
 weight: 27
 url: /pl/net/spreadsheet-metadata/
+type: docs
 ---
-
 # Metadane arkusza kalkulacyjnego
 
 ## Wstęp

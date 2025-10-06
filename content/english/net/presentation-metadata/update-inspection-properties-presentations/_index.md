@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Learn how to update inspection properties in presentations using .NET with GroupDocs.Metadata. Easy, efficient metadata manipulation for .PPTX files.
 weight: 17
 url: /net/presentation-metadata/update-inspection-properties-presentations/
+type: docs
 ---
-
 # Update Inspection Properties in Presentations using .NET
 
 ## Introduction

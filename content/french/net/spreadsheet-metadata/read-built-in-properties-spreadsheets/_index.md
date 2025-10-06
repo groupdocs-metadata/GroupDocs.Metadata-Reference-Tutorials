@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment extraire des métadonnées de feuilles de calcul dans .NET à l'aide de GroupDocs.Metadata, améliorant ainsi la gestion et l'organisation des documents dans vos applications.
 weight: 10
 url: /fr/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # Lire les propriétés intégrées à partir de feuilles de calcul dans .NET
 
 ## Introduction

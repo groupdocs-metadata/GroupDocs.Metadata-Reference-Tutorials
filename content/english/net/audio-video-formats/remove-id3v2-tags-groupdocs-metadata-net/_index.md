@@ -8,10 +8,8 @@ keywords:
 - remove ID3v2 tags MP3
 - GroupDocs Metadata .NET
 - optimize audio files
-
+type: docs
 ---
-
-
 # How to Remove ID3v2 Tags from MP3s with GroupDocs.Metadata .NET
 
 ## Introduction

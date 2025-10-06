@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: जानें कि GroupDocs.Metadata का उपयोग करके .NET में स्प्रैडशीट से मेटाडेटा कैसे निकाला जाता है, जो आपके अनुप्रयोगों में दस्तावेज़ प्रबंधन और संगठन को बढ़ाता है।
 weight: 10
 url: /hi/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # .NET में स्प्रेडशीट से अंतर्निहित गुण पढ़ें
 
 ## परिचय

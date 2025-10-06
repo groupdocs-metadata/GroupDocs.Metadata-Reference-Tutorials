@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعلم كيفية استخراج بيانات التعريف من مستندات إدارة المشاريع باستخدام GroupDocs.Metadata لـ .NET. تعزيز قدرات معالجة المستندات الخاصة بك.
 weight: 10
 url: /ar/net/project-management-metadata/read-built-in-properties-project-management-documents/
+type: docs
 ---
-
 # اقرأ الخصائص المضمنة في مستندات إدارة مشروع .NET
 
 ## مقدمة

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se aktualizovat vestavěné vlastnosti v diagramech pomocí GroupDocs.Metadata pro .NET. Bez problémů upravujte metadata pomocí příkladů kódu.
 weight: 14
 url: /cs/net/diagram-metadata/update-built-in-properties-diagrams/
+type: docs
 ---
-
 # Aktualizujte vestavěné vlastnosti v diagramech pomocí .NET
 
 ## Úvod

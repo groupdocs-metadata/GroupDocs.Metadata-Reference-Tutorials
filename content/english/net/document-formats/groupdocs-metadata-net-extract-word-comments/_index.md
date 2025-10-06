@@ -8,10 +8,8 @@ keywords:
 - extract Word comments
 - GroupDocs.Metadata .NET tutorial
 - C# document inspection
-
+type: docs
 ---
-
-
 # Extract & Display Word Comments with GroupDocs.Metadata .NET
 
 ## Mastering Document Inspection: Extract and Display Word Processing Comments Using GroupDocs.Metadata for .NET in C#

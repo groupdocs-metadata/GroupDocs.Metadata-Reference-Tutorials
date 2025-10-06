@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как обновить настраиваемые свойства в документах управления проектами .NET с помощью GroupDocs.Metadata для .NET. Улучшите управление метаданными в ваших приложениях.
 weight: 13
 url: /ru/net/project-management-metadata/update-custom-properties-project-management-documents/
+type: docs
 ---
-
 # Обновление пользовательских свойств в документах управления проектами .NET
 
 ## Введение

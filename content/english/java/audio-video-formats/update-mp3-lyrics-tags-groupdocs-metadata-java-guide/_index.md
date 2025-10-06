@@ -8,10 +8,8 @@ keywords:
 - update MP3 lyrics tags
 - GroupDocs.Metadata for Java
 - manage audio metadata
-
+type: docs
 ---
-
-
 # How to Update MP3 Lyrics Tags Using GroupDocs.Metadata in Java
 
 ## Introduction

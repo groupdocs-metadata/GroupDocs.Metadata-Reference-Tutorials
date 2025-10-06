@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách xóa thẻ Lời bài hát khỏi tệp MP3 bằng GroupDocs.Metadata cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để thao tác siêu dữ liệu hiệu quả.
 weight: 18
 url: /vi/net/audio-metadata/remove-lyrics-tag-mp3/
+type: docs
 ---
-
 # Xóa thẻ lời bài hát khỏi tệp MP3 trong .NET
 
 ## Giới thiệu

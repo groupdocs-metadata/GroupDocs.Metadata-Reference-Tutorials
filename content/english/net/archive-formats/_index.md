@@ -3,8 +3,8 @@ title: "Archive Metadata Tutorials with GroupDocs.Metadata for .NET"
 description: "Complete tutorials for working with metadata in ZIP, RAR, TAR, and other archive formats using GroupDocs.Metadata for .NET."
 weight: 9
 url: "/net/archive-formats/"
+type: docs
 ---
-
 # Archive Metadata Tutorials with GroupDocs.Metadata for .NET
 
 Our archive metadata tutorials provide comprehensive guidance for working with compressed file formats using GroupDocs.Metadata in .NET. These step-by-step guides demonstrate how to extract, modify, and manage metadata in ZIP, RAR, TAR, and other archive formats. Each tutorial includes practical C# code examples for common archive metadata operations, helping you build robust applications that can efficiently process metadata in compressed files for better organization and information management.

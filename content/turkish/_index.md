@@ -6,8 +6,8 @@ description: Farklı platformlarda GroupDocs.Metadata'ya yönelik kapsamlı eği
 weight: 11
 url: /tr/
 is_root: true
+type: docs
 ---
-
 # GroupDocs.Metadata ile Meta Veri Ustalığının Kilidini Açmak
 
 

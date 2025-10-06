@@ -6,8 +6,8 @@ description: Ontgrendel de kracht van GroupDocs.Metadata voor .NET met tutorials
 
 weight: 27
 url: /nl/net/spreadsheet-metadata/
+type: docs
 ---
-
 # Spreadsheet-metagegevens
 
 ## Invoering

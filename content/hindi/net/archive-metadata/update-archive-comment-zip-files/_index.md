@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: जानें कि .NET के लिए GroupDocs.Metadata का उपयोग करके ज़िप फ़ाइलों में संग्रहित टिप्पणियों को कैसे अपडेट किया जाए। C# अनुप्रयोगों में मेटाडेटा प्रबंधन को सहजता से बढ़ाएं।
 weight: 15
 url: /hi/net/archive-metadata/update-archive-comment-zip-files/
+type: docs
 ---
-
 # .NET का उपयोग करके ज़िप फ़ाइलों में पुरालेख टिप्पणी अद्यतन करें
 
 ## परिचय

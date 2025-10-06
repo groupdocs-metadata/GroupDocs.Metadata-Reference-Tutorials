@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 从 MP3 文件中提取 ID3V2 标签。以编程方式访问专辑、艺术家等。
 weight: 12
 url: /zh/net/audio-metadata/read-id3v2-tag-mp3/
+type: docs
 ---
-
 # 在 .NET 中从 MP3 文件中读取 ID3V2 标签
 
 ## 介绍

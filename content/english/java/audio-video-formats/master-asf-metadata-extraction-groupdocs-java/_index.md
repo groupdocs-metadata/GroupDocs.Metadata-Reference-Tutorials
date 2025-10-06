@@ -8,10 +8,8 @@ keywords:
 - ASF Metadata Extraction
 - GroupDocs.Metadata for Java
 - Java Media Management
-
+type: docs
 ---
-
-
 # Mastering ASF Metadata Extraction with GroupDocs.Metadata for Java
 
 **Introduction**

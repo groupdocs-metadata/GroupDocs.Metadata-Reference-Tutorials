@@ -8,10 +8,8 @@ keywords:
 - extract TAR metadata
 - GroupDocs.Metadata for Java
 - TAR archive metadata
-
+type: docs
 ---
-
-
 # How to Extract TAR Metadata Using GroupDocs.Metadata for Java: A Comprehensive Guide
 
 ## Introduction

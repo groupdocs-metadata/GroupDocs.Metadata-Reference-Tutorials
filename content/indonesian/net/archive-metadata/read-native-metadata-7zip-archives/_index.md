@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara membaca properti metadata asli dari arsip 7Zip menggunakan GroupDocs.Metadata untuk .NET. Tingkatkan kemampuan manajemen data aplikasi .NET Anda.
 weight: 11
 url: /id/net/archive-metadata/read-native-metadata-7zip-archives/
+type: docs
 ---
-
 # Baca Properti Metadata Asli dari Arsip 7Zip di .NET
 
 ## Perkenalan

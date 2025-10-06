@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthat ki egyéni tulajdonságokat diagramfájlokból a .NET-ben a GroupDocs.Metadata használatával. Egyszerű, lépésről lépésre mutató útmutató fejlesztőknek.
 weight: 11
 url: /hu/net/diagram-metadata/read-custom-properties-diagrams/
+type: docs
 ---
-
 # Olvassa el az egyéni tulajdonságokat a diagramokból a .NET-ben
 
 ## Bevezetés

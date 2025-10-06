@@ -8,10 +8,8 @@ keywords:
 - Set GroupDocs.Metadata License
 - Java InputStream License Setup
 - Configure GroupDocs Metadata Java
-
+type: docs
 ---
-
-
 # How to Set a License for GroupDocs.Metadata in Java Using an InputStream
 
 ## Introduction

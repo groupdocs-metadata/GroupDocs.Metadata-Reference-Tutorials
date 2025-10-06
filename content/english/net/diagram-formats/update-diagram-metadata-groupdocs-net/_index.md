@@ -8,10 +8,8 @@ keywords:
 - update diagram metadata
 - GroupDocs.Metadata .NET
 - Aspose.Diagram
-
+type: docs
 ---
-
-
 # How to Update Diagram Metadata Using GroupDocs.Metadata .NET: A Comprehensive Guide
 
 ## Introduction

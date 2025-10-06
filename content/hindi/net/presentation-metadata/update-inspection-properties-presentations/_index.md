@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: GroupDocs.Metadata के साथ .NET का उपयोग करके प्रस्तुतियों में निरीक्षण गुणों को अपडेट करना सीखें। .PPTX फ़ाइलों के लिए आसान, कुशल मेटाडेटा हेरफेर।
 weight: 17
 url: /hi/net/presentation-metadata/update-inspection-properties-presentations/
+type: docs
 ---
-
 # .NET का उपयोग करके प्रस्तुतियों में निरीक्षण गुणों को अद्यतन करें
 
 ## परिचय

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีอัปเดตคุณสมบัติแบบกำหนดเองในเอกสารการจัดการโครงการ .NET โดยใช้ GroupDocs.Metadata สำหรับ .NET ปรับปรุงการจัดการข้อมูลเมตาในแอปพลิเคชันของคุณ
 weight: 13
 url: /th/net/project-management-metadata/update-custom-properties-project-management-documents/
+type: docs
 ---
-
 # อัปเดตคุณสมบัติที่กำหนดเองในเอกสารการจัดการโครงการ .NET
 
 ## การแนะนำ

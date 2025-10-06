@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีจัดการข้อมูลเมตาของเอกสารอย่างมีประสิทธิภาพด้วย GroupDocs.Metadata สำหรับ .NET แยก แก้ไข และจัดการข้อมูลเมตาได้อย่างราบรื่นในแอปพลิเคชัน .NET ของคุณ
 weight: 13
 url: /th/net/metadata-loading/load-metadata-password-protected/
+type: docs
 ---
-
 # วิธีโหลดข้อมูลเมตาจากเอกสารที่ป้องกันด้วยรหัสผ่านใน .NET
 
 ## การแนะนำ

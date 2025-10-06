@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak ZIP arşivlerinden meta verileri nasıl çıkaracağınızı öğrenin. Yerel özellikleri okumaya yönelik adım adım talimatları keşfedin.
 weight: 13
 url: /tr/net/archive-metadata/read-native-metadata-zip-archives/
+type: docs
 ---
-
 # .NET'teki ZIP Arşivlerinden Yerel Meta Veri Özelliklerini Okuyun
 
 ## giriiş

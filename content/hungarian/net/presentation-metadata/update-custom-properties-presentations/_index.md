@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan kezelheti a prezentáció metaadatait a GroupDocs.Metadata for .NET használatával. Az egyéni tulajdonságok hatékony frissítése a PowerPoint-fájlokban.
 weight: 16
 url: /hu/net/presentation-metadata/update-custom-properties-presentations/
+type: docs
 ---
-
 # Frissítse a prezentációk egyéni tulajdonságait .NET használatával
 
 ## Bevezetés

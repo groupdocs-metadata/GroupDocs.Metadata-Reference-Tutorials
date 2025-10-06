@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: GroupDocs.Metadata를 사용하여 .NET 프레젠테이션에서 사용자 정의 속성을 읽는 방법을 알아보세요. 메타데이터에 효율적으로 액세스하고 검색합니다.
 weight: 11
 url: /ko/net/presentation-metadata/read-custom-properties-presentations/
+type: docs
 ---
-
 # .NET 프레젠테이션에서 사용자 정의 속성 읽기
 
 ## 소개

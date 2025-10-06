@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment lire les balises ID3V1 à partir de fichiers MP3 à l'aide de GroupDocs.Metadata pour .NET. Tutoriel étape par étape avec des exemples de code.
 weight: 11
 url: /fr/net/audio-metadata/read-id3v1-tag-mp3/
+type: docs
 ---
-
 # Lire la balise ID3V1 à partir de fichiers MP3 dans .NET
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất các thuộc tính tích hợp từ bản trình bày bằng GroupDocs.Metadata cho .NET trong hướng dẫn toàn diện này.
 weight: 10
 url: /vi/net/presentation-metadata/read-built-in-properties-presentations/
+type: docs
 ---
-
 # Đọc các thuộc tính tích hợp từ bản trình bày trong .NET
 
 ## Giới thiệu

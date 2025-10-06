@@ -8,10 +8,8 @@ keywords:
 - update inspection properties Word documents
 - automate document management GroupDocs.Metadata Java
 - clear comments Word processing
-
+type: docs
 ---
-
-
 # How to Update Inspection Properties in Word Documents Using GroupDocs.Metadata for Java
 
 ## Introduction

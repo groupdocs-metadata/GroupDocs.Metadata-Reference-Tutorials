@@ -3,8 +3,8 @@ title: "CAD Metadata Management Tutorials for GroupDocs.Metadata .NET"
 description: "Step-by-step tutorials for working with metadata in CAD formats like DWG, DXF, and others using GroupDocs.Metadata for .NET."
 weight: 10
 url: "/net/cad-formats/"
+type: docs
 ---
-
 # CAD Metadata Management Tutorials for GroupDocs.Metadata .NET
 
 Learn to manage CAD file metadata with our comprehensive GroupDocs.Metadata tutorials for .NET. These detailed guides demonstrate how to extract and manipulate metadata in engineering and design files such as DWG, DXF, and other CAD formats programmatically. Each tutorial includes working C# code examples for common CAD metadata operations, helping you build applications that can effectively organize technical drawings, maintain project information, and implement proper version control for design assets.

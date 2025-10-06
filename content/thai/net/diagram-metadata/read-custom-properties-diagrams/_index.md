@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีแยกคุณสมบัติแบบกำหนดเองจากไฟล์ไดอะแกรมใน .NET โดยใช้ GroupDocs.Metadata คำแนะนำทีละขั้นตอนง่ายๆ สำหรับนักพัฒนา
 weight: 11
 url: /th/net/diagram-metadata/read-custom-properties-diagrams/
+type: docs
 ---
-
 # อ่านคุณสมบัติที่กำหนดเองจากไดอะแกรมใน .NET
 
 ## การแนะนำ

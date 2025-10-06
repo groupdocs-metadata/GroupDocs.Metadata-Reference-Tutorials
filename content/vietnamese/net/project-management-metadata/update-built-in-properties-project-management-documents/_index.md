@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật siêu dữ liệu trong tài liệu quản lý dự án .NET bằng GroupDocs.Metadata cho .NET. Tăng cường quản lý tài liệu một cách hiệu quả.
 weight: 12
 url: /vi/net/project-management-metadata/update-built-in-properties-project-management-documents/
+type: docs
 ---
-
 # Cập nhật các thuộc tính tích hợp trong tài liệu quản lý dự án .NET
 
 ## Giới thiệu

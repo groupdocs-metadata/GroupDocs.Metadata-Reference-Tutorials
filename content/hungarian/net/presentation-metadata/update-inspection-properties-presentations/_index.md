@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan frissítheti a prezentációk ellenőrzési tulajdonságait a .NET használatával a GroupDocs.Metadata segítségével. Egyszerű, hatékony metaadat-kezelés .PPTX fájlok esetén.
 weight: 17
 url: /hu/net/presentation-metadata/update-inspection-properties-presentations/
+type: docs
 ---
-
 # Frissítse az ellenőrzési tulajdonságokat a prezentációkban .NET használatával
 
 ## Bevezetés

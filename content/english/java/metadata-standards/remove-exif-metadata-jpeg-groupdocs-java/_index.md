@@ -8,10 +8,8 @@ keywords:
 - remove EXIF metadata
 - GroupDocs.Metadata for Java
 - JPEG file optimization
-
+type: docs
 ---
-
-
 # How to Remove EXIF Metadata from JPEGs Using GroupDocs.Metadata for Java: A Comprehensive Guide
 
 ## Introduction

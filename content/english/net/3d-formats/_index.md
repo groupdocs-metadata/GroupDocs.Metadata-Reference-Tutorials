@@ -3,8 +3,8 @@ title: "3D Model Metadata Tutorials for GroupDocs.Metadata .NET"
 description: "Complete tutorials for working with metadata in FBX, STL, DAE, and other 3D formats using GroupDocs.Metadata for .NET."
 weight: 12
 url: "/net/3d-formats/"
+type: docs
 ---
-
 # 3D Model Metadata Tutorials for GroupDocs.Metadata .NET
 
 Master 3D model metadata management with our detailed GroupDocs.Metadata tutorials for .NET developers. These comprehensive guides demonstrate how to extract and manipulate metadata in 3D file formats such as FBX, STL, DAE, and more. Each tutorial includes working C# code examples for common 3D metadata operations, helping you build applications that can effectively organize 3D assets, maintain creator information, and implement metadata-based workflows for 3D content management systems.

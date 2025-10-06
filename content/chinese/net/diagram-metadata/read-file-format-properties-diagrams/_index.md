@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata 从 .NET 中的图表读取文件格式属性。轻松提取详细的元数据。
 weight: 13
 url: /zh/net/diagram-metadata/read-file-format-properties-diagrams/
+type: docs
 ---
-
 # 从 .NET 图表中读取文件格式属性
 
 ## 介绍

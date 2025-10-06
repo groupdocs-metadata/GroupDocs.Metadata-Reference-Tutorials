@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 高效管理文件元資料。在 .NET 應用程式中無縫提取、編輯和處理元資料。
 weight: 13
 url: /zh-hant/net/metadata-loading/load-metadata-password-protected/
+type: docs
 ---
-
 # 如何從 .NET 受密碼保護的文檔載入元數據
 
 ## 介紹

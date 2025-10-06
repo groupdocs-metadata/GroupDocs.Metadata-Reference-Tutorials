@@ -8,10 +8,8 @@ keywords:
 - extract JPEG Image Resource Blocks
 - GroupDocs.Metadata .NET
 - image metadata analysis
-
+type: docs
 ---
-
-
 # How to Extract JPEG Image Resource Blocks with GroupDocs.Metadata .NET
 
 ## Introduction

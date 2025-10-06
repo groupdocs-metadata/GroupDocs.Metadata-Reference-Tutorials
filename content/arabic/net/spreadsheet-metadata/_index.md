@@ -6,8 +6,8 @@ description: أطلق العنان لقوة GroupDocs.Metadata لـ .NET من خ
 
 weight: 27
 url: /ar/net/spreadsheet-metadata/
+type: docs
 ---
-
 # البيانات الوصفية لجدول البيانات
 
 ## مقدمة

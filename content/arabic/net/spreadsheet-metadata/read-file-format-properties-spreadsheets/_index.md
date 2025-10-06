@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية قراءة خصائص تنسيق ملف جدول البيانات باستخدام GroupDocs.Metadata لـ .NET. يمكنك الوصول إلى تنسيق الملف ونوع MIME والمزيد من خلال استدعاءات API البسيطة.
 weight: 12
 url: /ar/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
+type: docs
 ---
-
 # قراءة خصائص تنسيق الملف من جداول البيانات في .NET
 
 ## مقدمة

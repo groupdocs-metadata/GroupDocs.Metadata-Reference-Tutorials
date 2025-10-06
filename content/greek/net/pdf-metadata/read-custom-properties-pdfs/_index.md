@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε προσαρμοσμένες ιδιότητες από αρχεία PDF χρησιμοποιώντας το GroupDocs.Metadata για .NET. Βουτήξτε στη διαχείριση μεταδεδομένων εγγράφων με C#.
 weight: 11
 url: /el/net/pdf-metadata/read-custom-properties-pdfs/
+type: docs
 ---
-
 # Διαβάστε προσαρμοσμένες ιδιότητες από αρχεία PDF στο .NET
 
 ## Εισαγωγή

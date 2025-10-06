@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как обновить встроенные свойства в диаграммах с помощью GroupDocs.Metadata для .NET. Легко изменяйте метаданные с помощью примеров кода.
 weight: 14
 url: /ru/net/diagram-metadata/update-built-in-properties-diagrams/
+type: docs
 ---
-
 # Обновление встроенных свойств в диаграммах с помощью .NET
 
 ## Введение

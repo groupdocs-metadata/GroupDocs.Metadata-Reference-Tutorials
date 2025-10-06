@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Explorez des didacticiels sur l'extraction et la gestion des propriétés de métadonnées à partir de divers formats d'archives tels que RAR, 7Zip, TAR et ZIP à l'aide de GroupDocs.Metadata pour .NET.
 weight: 21
 url: /fr/net/archive-metadata/
+type: docs
 ---
-
 # Archiver les métadonnées
 
 

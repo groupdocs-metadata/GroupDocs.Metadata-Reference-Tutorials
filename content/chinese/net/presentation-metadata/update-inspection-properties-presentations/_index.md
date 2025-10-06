@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 .NET 和 GroupDocs.Metadata 更新演示文稿中的检查属性。轻松、高效地操作 .PPTX 文件的元数据。
 weight: 17
 url: /zh/net/presentation-metadata/update-inspection-properties-presentations/
+type: docs
 ---
-
 # 使用 .NET 更新演示文稿中的检查属性
 
 ## 介绍

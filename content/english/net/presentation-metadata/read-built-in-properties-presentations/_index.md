@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Learn how to extract built-in properties from presentations using GroupDocs.Metadata for .NET in this comprehensive tutorial.
 weight: 10
 url: /net/presentation-metadata/read-built-in-properties-presentations/
+type: docs
 ---
-
 # Read Built-In Properties from Presentations in .NET
 
 ## Introduction

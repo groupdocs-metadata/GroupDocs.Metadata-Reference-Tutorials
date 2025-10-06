@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके MP3 फ़ाइलों से APE टैग पढ़ना सीखें। चरण-दर-चरण मार्गदर्शन के साथ C# में मेटाडेटा निष्कर्षण का अन्वेषण करें।
 weight: 10
 url: /hi/net/audio-metadata/read-ape-tag-mp3/
+type: docs
 ---
-
 # .NET में MP3 फ़ाइलों से APE टैग पढ़ें
 
 ## परिचय

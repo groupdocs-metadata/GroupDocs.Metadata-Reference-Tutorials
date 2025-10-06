@@ -8,10 +8,8 @@ keywords:
 - extract metadata from fb2
 - groupdocs.metadata .net
 - digital library management
-
+type: docs
 ---
-
-
 # How to Extract Metadata from an FB2 File Using GroupDocs.Metadata for .NET
 
 ## Introduction

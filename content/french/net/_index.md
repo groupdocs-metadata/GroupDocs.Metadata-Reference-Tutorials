@@ -5,8 +5,8 @@ weight: 10
 url: /fr/net/
 description: Gérez sans effort les métadonnées des fichiers dans .NET avec GroupDocs.Metadata. Apprenez les techniques de chargement, d'édition et bien plus encore pour des capacités améliorées de manipulation de fichiers.
 is_root: true
+type: docs
 ---
-
 # Tutoriels et exemples de GroupDocs.Metadata pour .NET
 
 Bienvenue dans le monde des didacticiels GroupDocs.Metadata pour .NET ! À l’ère numérique d’aujourd’hui, une gestion efficace des métadonnées des fichiers est primordiale pour une manipulation transparente des fichiers. GroupDocs.Metadata offre une solution robuste adaptée aux développeurs .NET, leur permettant de gérer sans effort les tâches de métadonnées avec précision et facilité. Que vous soyez un novice explorant les nuances de la gestion des métadonnées ou un développeur chevronné recherchant des techniques avancées, nos didacticiels fournissent un guide complet pour libérer tout le potentiel de GroupDocs.Metadata pour .NET. Rejoignez-nous dans ce voyage alors que nous approfondissons les subtilités du chargement, de l'extraction et de la manipulation des métadonnées, vous dotant ainsi des connaissances et des outils nécessaires pour exceller dans la gestion des métadonnées de fichiers.

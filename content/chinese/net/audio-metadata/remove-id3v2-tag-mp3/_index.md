@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 从 MP3 文件中删除 ID3V2 标签。有效管理 C# 项目中的元数据。
 weight: 17
 url: /zh/net/audio-metadata/remove-id3v2-tag-mp3/
+type: docs
 ---
-
 # 从 .NET 中的 MP3 文件中删除 ID3V2 标签
 
 ## 介绍

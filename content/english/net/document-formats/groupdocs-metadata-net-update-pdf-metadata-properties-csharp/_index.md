@@ -8,10 +8,8 @@ keywords:
 - update PDF metadata
 - GroupDocs.Metadata for .NET
 - manage PDF properties
-
+type: docs
 ---
-
-
 # Mastering PDF Metadata Updates with GroupDocs.Metadata .NET: Your Comprehensive Guide
 
 ## Introduction

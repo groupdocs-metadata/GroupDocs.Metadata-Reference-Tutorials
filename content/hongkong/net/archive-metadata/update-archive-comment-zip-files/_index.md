@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 更新 ZIP 檔案中的存檔註解。輕鬆增強 C# 應用程式中的元資料管理。
 weight: 15
 url: /zh-hant/net/archive-metadata/update-archive-comment-zip-files/
+type: docs
 ---
-
 # 使用 .NET 更新 ZIP 檔案中的存檔註釋
 
 ## 介紹

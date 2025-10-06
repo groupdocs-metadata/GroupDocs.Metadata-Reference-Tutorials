@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके स्प्रेडशीट में कस्टम गुणों को अपडेट करने का तरीका जानें। यह ट्यूटोरियल आपके मेटाडेटा प्रबंधन कौशल को प्रभावी ढंग से बढ़ाता है।
 weight: 15
 url: /hi/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
+type: docs
 ---
-
 # .NET का उपयोग करके स्प्रेडशीट में कस्टम गुण अपडेट करें
 
 ## परिचय

@@ -8,10 +8,8 @@ keywords:
 - extract MakerNote metadata JPEG
 - GroupDocs.Metadata .NET installation
 - extract camera settings from images
-
+type: docs
 ---
-
-
 # How to Extract MakerNote Metadata from JPEG Images Using GroupDocs.Metadata .NET
 
 ## Introduction

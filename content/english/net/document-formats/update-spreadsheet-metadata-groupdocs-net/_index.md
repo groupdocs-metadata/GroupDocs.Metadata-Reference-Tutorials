@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata .NET
 - update spreadsheet metadata
 - manage spreadsheet properties
-
+type: docs
 ---
-
-
 # How to Update Built-In Metadata Properties in a Spreadsheet Using GroupDocs.Metadata .NET
 
 ## Introduction

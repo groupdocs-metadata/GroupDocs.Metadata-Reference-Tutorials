@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata'yı kullanarak .NET'teki sunumlardan özel özellikleri nasıl okuyacağınızı öğrenin. Meta verilere verimli bir şekilde erişin ve alın.
 weight: 11
 url: /tr/net/presentation-metadata/read-custom-properties-presentations/
+type: docs
 ---
-
 # .NET'teki Sunumlardan Özel Özellikleri Okuyun
 
 ## giriiş

@@ -8,10 +8,8 @@ keywords:
 - image metadata extraction
 - GroupDocs.Metadata for .NET
 - digital asset management
-
+type: docs
 ---
-
-
 # Master Image Metadata Extraction in .NET Using GroupDocs.Metadata
 
 Efficiently extracting image properties is a common challenge for developers managing digital assets. Whether you're developing an application that processes images or need to extract metadata like dimensions, MIME type, and byte order, leveraging powerful libraries can save time and improve functionality. This tutorial explores how to use **GroupDocs.Metadata for .NET** to effortlessly extract image properties.

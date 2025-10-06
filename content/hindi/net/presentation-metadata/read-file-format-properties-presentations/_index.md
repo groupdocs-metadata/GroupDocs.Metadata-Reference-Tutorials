@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: GroupDocs.Metadata का उपयोग करके .NET में प्रेजेंटेशन फ़ाइल गुणों को पढ़ने का तरीका जानें। फ़ाइल प्रारूप विवरण को प्रोग्रामेटिक रूप से एक्सेस करें।
 weight: 13
 url: /hi/net/presentation-metadata/read-file-format-properties-presentations/
+type: docs
 ---
-
 # .NET में प्रस्तुतियों से फ़ाइल स्वरूप गुण पढ़ें
 
 ## परिचय

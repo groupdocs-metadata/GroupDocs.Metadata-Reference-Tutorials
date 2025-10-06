@@ -8,10 +8,8 @@ keywords:
 - read torrent metadata
 - GroupDocs Metadata Java
 - extract torrent file properties
-
+type: docs
 ---
-
-
 # How to Read Torrent Metadata Using GroupDocs.Metadata in Java: A Complete Guide
 
 ## Introduction

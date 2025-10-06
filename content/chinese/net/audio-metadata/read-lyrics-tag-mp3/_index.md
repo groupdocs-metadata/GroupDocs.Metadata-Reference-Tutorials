@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 从 MP3 文件中提取歌词标签。请按照我们的分步教程进行操作。
 weight: 13
 url: /zh/net/audio-metadata/read-lyrics-tag-mp3/
+type: docs
 ---
-
 # 从 .NET 中的 MP3 文件读取歌词标签
 
 ## 介绍

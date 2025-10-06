@@ -8,10 +8,8 @@ keywords:
 - DAE metadata extraction
 - GroupDocs.Metadata for .NET
 - 3D asset management
-
+type: docs
 ---
-
-
 # Extracting DAE Metadata with GroupDocs.Metadata for .NET
 
 In the modern digital landscape, effectively managing and utilizing 3D assets is crucial for industries like gaming, architecture, and virtual reality. A common challenge is extracting metadata from Digital Asset Exchange (DAE) files to gain insights or streamline workflows. This guide will walk you through using GroupDocs.Metadata for .NET to achieve this seamlessly.

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีลบความคิดเห็นที่เก็บ ZIP โดยใช้ GroupDocs.Metadata สำหรับ .NET พัฒนาทักษะการจัดการข้อมูลเมตาของคุณ
 weight: 14
 url: /th/net/archive-metadata/remove-archive-comment-zip-files/
+type: docs
 ---
-
 # ลบความคิดเห็นที่เก็บถาวรออกจากไฟล์ ZIP ใน .NET
 
 ## การแนะนำ

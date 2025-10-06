@@ -8,10 +8,8 @@ keywords:
 - Java PDF statistics extraction
 - GroupDocs.Metadata for Java
 - PDF text analysis
-
+type: docs
 ---
-
-
 # Implementing Java PDF Statistics with GroupDocs.Metadata: A Developer's Guide
 
 ## Introduction

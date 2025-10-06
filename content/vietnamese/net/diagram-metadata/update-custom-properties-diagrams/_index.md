@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật các thuộc tính tùy chỉnh trong sơ đồ bằng .NET với GroupDocs.Metadata cho .NET. Tăng cường siêu dữ liệu một cách dễ dàng.
 weight: 15
 url: /vi/net/diagram-metadata/update-custom-properties-diagrams/
+type: docs
 ---
-
 # Cập nhật thuộc tính tùy chỉnh trong sơ đồ bằng .NET
 
 ## Giới thiệu

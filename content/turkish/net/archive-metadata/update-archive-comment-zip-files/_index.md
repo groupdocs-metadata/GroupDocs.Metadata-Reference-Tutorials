@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak ZIP dosyalarındaki arşiv yorumlarını nasıl güncelleyeceğinizi öğrenin. C# uygulamalarında meta veri yönetimini zahmetsizce geliştirin.
 weight: 15
 url: /tr/net/archive-metadata/update-archive-comment-zip-files/
+type: docs
 ---
-
 # .NET kullanarak ZIP Dosyalarındaki Arşiv Yorumunu Güncelleme
 
 ## giriiş

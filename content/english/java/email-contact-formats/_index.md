@@ -3,8 +3,8 @@ title: "Email and Contact Metadata Tutorials for GroupDocs.Metadata Java"
 description: "Learn to work with metadata in email messages, vCard files, and contact information using GroupDocs.Metadata for Java."
 weight: 8
 url: "/java/email-contact-formats/"
+type: docs
 ---
-
 # Email and Contact Metadata Tutorials for GroupDocs.Metadata Java
 
 Master email and contact metadata management with our detailed GroupDocs.Metadata tutorials for Java developers. These step-by-step guides demonstrate how to extract and modify metadata from email messages in various formats, work with vCard contact information, and manage electronic communications metadata. Each tutorial provides working Java code examples for professional email and contact metadata operations, helping you build applications that can effectively process and organize communication data.

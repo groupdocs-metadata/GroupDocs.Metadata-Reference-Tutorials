@@ -8,10 +8,8 @@ keywords:
 - update custom metadata MPP files
 - GroupDocs.Metadata Java tutorial
 - manage project documents
-
+type: docs
 ---
-
-
 # How to Update Custom Metadata in MPP Files Using GroupDocs.Metadata for Java
 ## Introduction
 Managing project documents effectively is crucial for successful project execution, and custom metadata plays a significant role in enhancing document management systems. Whether you're handling resource allocation or tracking project progress, the ability to update and manage custom metadata properties within your Project Management (MPP) files can dramatically streamline operations.

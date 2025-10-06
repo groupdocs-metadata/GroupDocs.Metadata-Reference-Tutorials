@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Tanulja meg, hogyan kezelheti könnyedén a PDF-metaadatokat a GroupDocs.Metadata for .NET oktatóanyaggal. Hozzáférés a beépített és egyéni tulajdonságokhoz C# kóddal.
 weight: 24
 url: /hu/net/pdf-metadata/
+type: docs
 ---
-
 # PDF metaadatok
 
 ## Bevezetés

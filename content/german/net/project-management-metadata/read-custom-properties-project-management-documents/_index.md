@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET benutzerdefinierte Eigenschaften aus .NET-Projektmanagementdokumenten extrahieren. Verbessern Sie Ihr Metadatenmanagement.
 weight: 11
 url: /de/net/project-management-metadata/read-custom-properties-project-management-documents/
+type: docs
 ---
-
 # Lesen Sie benutzerdefinierte Eigenschaften in .NET-Projektmanagementdokumenten
 
 ## Einführung

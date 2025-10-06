@@ -10,10 +10,8 @@ keywords:
 - PSD Files
 - Extract EXIF Data
 - Java Metadata Extraction
-
+type: docs
 ---
-
-
 # Extract EXIF Metadata from PSD Files Using GroupDocs.Metadata for Java
 
 ## Introduction

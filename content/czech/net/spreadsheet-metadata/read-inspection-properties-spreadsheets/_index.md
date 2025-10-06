@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se číst vlastnosti inspekce z tabulek pomocí GroupDocs.Metadata pro .NET. Získejte snadný přístup ke komentářům, digitálním podpisům a skrytým listům.
 weight: 13
 url: /cs/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # Přečtěte si vlastnosti inspekce z tabulek v .NET
 
 ## Úvod

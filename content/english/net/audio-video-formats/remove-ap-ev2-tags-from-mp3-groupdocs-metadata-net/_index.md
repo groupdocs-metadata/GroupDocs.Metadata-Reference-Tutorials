@@ -8,10 +8,8 @@ keywords:
 - Remove APEv2 Tags
 - GroupDocs.Metadata for .NET
 - Manage MP3 Metadata
-
+type: docs
 ---
-
-
 # How to Remove APEv2 Tags from MP3 Files Using GroupDocs.Metadata for .NET
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके स्प्रेडशीट फ़ाइल प्रारूप गुणों को पढ़ना सीखें। सरल API कॉल के साथ फ़ाइल प्रारूप, MIME प्रकार और अधिक तक पहुँचें।
 weight: 12
 url: /hi/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
+type: docs
 ---
-
 # .NET में स्प्रेडशीट से फ़ाइल प्रारूप गुण पढ़ें
 
 ## परिचय

@@ -8,10 +8,8 @@ keywords:
 - extract MakerNote properties
 - GroupDocs.Metadata in Java
 - JPEG image metadata
-
+type: docs
 ---
-
-
 # Extract MakerNote Properties as TIFF/EXIF Tags Using GroupDocs.Metadata in Java
 
 ## Introduction

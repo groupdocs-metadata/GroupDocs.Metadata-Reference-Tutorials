@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak wyodrębnić niestandardowe właściwości z dokumentów zarządzania projektami .NET przy użyciu GroupDocs.Metadata dla .NET. Usprawnij zarządzanie metadanymi.
 weight: 11
 url: /pl/net/project-management-metadata/read-custom-properties-project-management-documents/
+type: docs
 ---
-
 # Przeczytaj właściwości niestandardowe w dokumentach zarządzania projektami .NET
 
 ## Wstęp

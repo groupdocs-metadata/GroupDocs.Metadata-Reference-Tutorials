@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके PDF दस्तावेज़ों से निरीक्षण गुण निकालने का तरीका जानें। एनोटेशन, अनुलग्नक और बहुत कुछ देखें।
 weight: 14
 url: /hi/net/pdf-metadata/read-inspection-properties-pdfs/
+type: docs
 ---
-
 # .NET में PDF से निरीक्षण गुण पढ़ें
 
 ## परिचय

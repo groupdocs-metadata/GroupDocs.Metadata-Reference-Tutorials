@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 .NET 和多功能元資料操作庫 GroupDocs.Metadata 更新簡報中的內建屬性。
 weight: 15
 url: /zh-hant/net/presentation-metadata/update-built-in-properties-presentations/
+type: docs
 ---
-
 # 使用 .NET 更新簡報中的內建屬性
 
 ## 介紹

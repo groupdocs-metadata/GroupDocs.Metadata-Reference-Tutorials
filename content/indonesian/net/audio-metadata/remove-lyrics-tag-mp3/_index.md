@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara menghapus tag Lirik dari file MP3 menggunakan GroupDocs.Metadata untuk .NET. Ikuti panduan langkah demi langkah kami untuk manipulasi metadata yang efisien.
 weight: 18
 url: /id/net/audio-metadata/remove-lyrics-tag-mp3/
+type: docs
 ---
-
 # Hapus Tag Lirik dari File MP3 di .NET
 
 ## Perkenalan

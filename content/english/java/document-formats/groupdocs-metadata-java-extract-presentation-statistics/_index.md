@@ -8,10 +8,8 @@ keywords:
 - extract presentation statistics
 - GroupDocs.Metadata Java
 - presentation document analysis
-
+type: docs
 ---
-
-
 # How to Extract Presentation Statistics Using GroupDocs.Metadata for Java
 
 In the modern data-driven business environment, managing and analyzing presentation documents is crucial for enhancing productivity and decision-making processes. Whether you're a developer crafting document management solutions or a business analyst seeking insights from presentations, extracting statistics like character count, page count, and word count can be invaluable. This comprehensive tutorial will guide you through using GroupDocs.Metadata for Java to effortlessly gather these key metrics from presentation documents.

@@ -6,8 +6,8 @@ description: Odkryj kompleksowe samouczki dotyczące GroupDocs.Metadata na róż
 weight: 11
 url: /pl/
 is_root: true
+type: docs
 ---
-
 # Odblokowanie mistrzostwa w metadanych za pomocą GroupDocs.Metadata
 
 

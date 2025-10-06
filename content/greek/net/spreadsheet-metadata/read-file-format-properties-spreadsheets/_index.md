@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να διαβάζετε τις ιδιότητες μορφής αρχείου υπολογιστικού φύλλου χρησιμοποιώντας το GroupDocs.Metadata για .NET. Αποκτήστε πρόσβαση σε μορφή αρχείου, τύπο MIME και πολλά άλλα με απλές κλήσεις API.
 weight: 12
 url: /el/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
+type: docs
 ---
-
 # Διαβάστε τις ιδιότητες μορφής αρχείου από υπολογιστικά φύλλα στο .NET
 
 ## Εισαγωγή

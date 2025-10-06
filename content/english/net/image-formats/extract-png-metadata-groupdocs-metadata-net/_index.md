@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata .NET
 - extract PNG metadata
 - C# image metadata
-
+type: docs
 ---
-
-
 # Extracting PNG Metadata Using GroupDocs.Metadata .NET: A Comprehensive Guide for Developers
 
 ## Introduction

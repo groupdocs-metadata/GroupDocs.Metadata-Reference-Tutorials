@@ -8,10 +8,8 @@ keywords:
 - vCard metadata reading
 - GroupDocs.Metadata for .NET
 - reading vCard files
-
+type: docs
 ---
-
-
 # Mastering vCard Metadata Reading with GroupDocs.Metadata for .NET
 
 Welcome to a detailed guide designed to help you utilize GroupDocs.Metadata for .NET in reading and managing vCard metadata properties effectively. Whether you're looking to extract contact information programmatically or integrate this functionality into your application, this tutorial will set you on the right path.

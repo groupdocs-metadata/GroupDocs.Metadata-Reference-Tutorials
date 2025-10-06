@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как извлечь свойства проверки из документов PDF с помощью GroupDocs.Metadata для .NET. Изучите аннотации, вложения и многое другое.
 weight: 14
 url: /ru/net/pdf-metadata/read-inspection-properties-pdfs/
+type: docs
 ---
-
 # Чтение свойств проверки из PDF-файлов в .NET
 
 ## Введение

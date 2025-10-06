@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata .NET
 - update email metadata
 - manage email recipients
-
+type: docs
 ---
-
-
 # Mastering Email Field Updates with GroupDocs.Metadata .NET
 
 ## Introduction

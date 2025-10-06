@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية تحديث خصائص الفحص في جداول البيانات باستخدام GroupDocs.Metadata لـ .NET. إدارة التعليقات والتوقيعات والأوراق المخفية بسهولة.
 weight: 16
 url: /ar/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # قم بتحديث خصائص الفحص في جداول البيانات باستخدام .NET
 
 ## مقدمة

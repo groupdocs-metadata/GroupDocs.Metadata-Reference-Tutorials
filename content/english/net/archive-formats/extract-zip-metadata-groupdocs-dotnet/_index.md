@@ -8,10 +8,8 @@ keywords:
 - extract ZIP metadata
 - GroupDocs.Metadata for .NET
 - ZIP archive properties
-
+type: docs
 ---
-
-
 # How to Extract ZIP Metadata with GroupDocs.Metadata for .NET: A Comprehensive Developer’s Guide
 
 ## Introduction

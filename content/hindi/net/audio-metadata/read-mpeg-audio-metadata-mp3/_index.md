@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: GroupDocs.Metadata का उपयोग करके .NET में MP3 फ़ाइलों से MPEG ऑडियो मेटाडेटा निकालने का तरीका जानें। अपनी फ़ाइल विश्लेषण क्षमताओं को बढ़ाएँ।
 weight: 14
 url: /hi/net/audio-metadata/read-mpeg-audio-metadata-mp3/
+type: docs
 ---
-
 # .NET में MP3 फ़ाइलों से MPEG ऑडियो मेटाडेटा पढ़ें
 
 ## परिचय

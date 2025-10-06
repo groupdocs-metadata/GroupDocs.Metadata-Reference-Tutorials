@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 C# 中的 GroupDocs.Metadata for .NET 從 RAR 檔案中擷取元資料屬性。輕鬆探索文件詳細資訊。
 weight: 10
 url: /zh-hant/net/archive-metadata/read-native-metadata-rar-archives/
+type: docs
 ---
-
 # 從 .NET 中的 RAR 檔案讀取本機元資料屬性
 
 ## 介紹

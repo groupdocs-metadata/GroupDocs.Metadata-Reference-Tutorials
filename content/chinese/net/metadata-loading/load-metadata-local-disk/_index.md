@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 使用 GroupDocs.Metadata 轻松管理 .NET 应用程序中的文件元数据，以增强文件操作功能。
 weight: 10
 url: /zh/net/metadata-loading/load-metadata-local-disk/
+type: docs
 ---
-
 # 如何在.NET中从本地磁盘加载元数据
 
 ## 介绍

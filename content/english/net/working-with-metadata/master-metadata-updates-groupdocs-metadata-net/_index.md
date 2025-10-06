@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata updates
 - metadata management with .NET
 - automating metadata properties
-
+type: docs
 ---
-
-
 # Mastering Metadata Updates with GroupDocs.Metadata for .NET
 
 ## Introduction

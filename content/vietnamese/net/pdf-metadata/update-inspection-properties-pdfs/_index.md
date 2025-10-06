@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật thuộc tính kiểm tra trong tài liệu PDF bằng GroupDocs.Metadata cho .NET. Quản lý hiệu quả siêu dữ liệu và chú thích bằng C#.
 weight: 17
 url: /vi/net/pdf-metadata/update-inspection-properties-pdfs/
+type: docs
 ---
-
 # Cập nhật thuộc tính kiểm tra trong tệp PDF bằng .NET
 
 ## Giới thiệu

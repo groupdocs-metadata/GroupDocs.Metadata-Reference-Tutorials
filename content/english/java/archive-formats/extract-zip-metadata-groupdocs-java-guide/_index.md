@@ -8,10 +8,8 @@ keywords:
 - extract ZIP metadata
 - GroupDocs.Metadata for Java
 - manage digital archives
-
+type: docs
 ---
-
-
 # How to Extract Metadata from ZIP Files Using GroupDocs.Metadata in Java: A Step-by-Step Guide
 
 ## Introduction

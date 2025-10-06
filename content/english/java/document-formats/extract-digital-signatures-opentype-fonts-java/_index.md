@@ -8,10 +8,8 @@ keywords:
 - extract digital signatures OpenType fonts Java
 - digital signature flags OpenType fonts
 - GroupDocs Metadata Java
-
+type: docs
 ---
-
-
 # Extracting Digital Signatures from OpenType Fonts in Java with GroupDocs.Metadata
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengekstrak properti bawaan dari presentasi menggunakan GroupDocs.Metadata untuk .NET dalam tutorial komprehensif ini.
 weight: 10
 url: /id/net/presentation-metadata/read-built-in-properties-presentations/
+type: docs
 ---
-
 # Baca Properti Bawaan dari Presentasi di .NET
 
 ## Perkenalan

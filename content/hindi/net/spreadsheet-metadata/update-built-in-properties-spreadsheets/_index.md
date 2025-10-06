@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके Excel फ़ाइलों में अंतर्निहित मेटाडेटा गुणों को अपडेट करने का तरीका जानें। C# के साथ लेखक, निर्माण समय, कंपनी और बहुत कुछ संशोधित करें।
 weight: 14
 url: /hi/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # .NET का उपयोग करके स्प्रेडशीट में अंतर्निहित गुणों को अपडेट करें
 
 ## परिचय

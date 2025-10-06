@@ -6,8 +6,8 @@ description: Fedezze fel a GroupDocs.Metadata platformok átfogó oktatóanyagai
 weight: 11
 url: /hu/
 is_root: true
+type: docs
 ---
-
 # metaadat-mesterség feloldása a GroupDocs.Metadata segítségével
 
 

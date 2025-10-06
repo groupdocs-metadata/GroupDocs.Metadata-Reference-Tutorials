@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 探索使用 GroupDocs.Metadata for .NET 从各种存档格式（如 RAR、7Zip、TAR 和 ZIP）中提取和管理元数据属性的教程。
 weight: 21
 url: /zh/net/archive-metadata/
+type: docs
 ---
-
 # 存档元数据
 
 

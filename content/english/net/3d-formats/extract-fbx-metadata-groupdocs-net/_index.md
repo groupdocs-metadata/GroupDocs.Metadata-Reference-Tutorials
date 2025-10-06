@@ -8,10 +8,8 @@ keywords:
 - extract FBX metadata .NET
 - FBX file metadata extraction
 - GroupDocs.Metadata library for .NET
-
+type: docs
 ---
-
-
 # How to Extract FBX Metadata Using GroupDocs.Metadata .NET: A Developer’s Guide for 3D Formats
 
 ## Introduction

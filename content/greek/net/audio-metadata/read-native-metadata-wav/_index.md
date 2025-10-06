@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ανακαλύψτε πώς να εξαγάγετε εγγενή μεταδεδομένα από αρχεία WAV χρησιμοποιώντας το GroupDocs.Metadata για .NET. Εύκολο σεμινάριο C# για την ανάγνωση ιδιοτήτων αρχείου WAV.
 weight: 23
 url: /el/net/audio-metadata/read-native-metadata-wav/
+type: docs
 ---
-
 # Διαβάστε τις εγγενείς ιδιότητες μεταδεδομένων από αρχεία WAV στο .NET
 
 ## Εισαγωγή

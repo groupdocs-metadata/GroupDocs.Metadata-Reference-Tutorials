@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用してスプレッドシートの検査プロパティを更新する方法を学習します。コメント、署名、非表示のシートを簡単に管理します。
 weight: 16
 url: /ja/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # .NET を使用してスプレッドシートの検査プロパティを更新する
 
 ## 導入

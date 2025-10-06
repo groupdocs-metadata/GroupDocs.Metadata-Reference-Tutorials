@@ -8,10 +8,8 @@ keywords:
 - read AVI header properties
 - GroupDocs.Metadata for .NET
 - AVI video file metadata
-
+type: docs
 ---
-
-
 # How to Read and Display AVI Header Properties Using GroupDocs.Metadata for .NET
 ## Introduction
 Are you looking to extract and display the header properties of an AVI video file using .NET? This comprehensive tutorial will guide you through accessing and reading AVI header properties with ease, leveraging the powerful GroupDocs.Metadata library. Whether you're a developer working on media applications or dealing with digital assets management, understanding how to handle metadata effectively is crucial.

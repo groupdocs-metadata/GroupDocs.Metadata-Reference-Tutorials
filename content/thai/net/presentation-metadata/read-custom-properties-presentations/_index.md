@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีอ่านคุณสมบัติแบบกำหนดเองจากงานนำเสนอใน .NET โดยใช้ GroupDocs.Metadata เข้าถึงและดึงข้อมูลเมตาอย่างมีประสิทธิภาพ
 weight: 11
 url: /th/net/presentation-metadata/read-custom-properties-presentations/
+type: docs
 ---
-
 # อ่านคุณสมบัติที่กำหนดเองจากการนำเสนอใน .NET
 
 ## การแนะนำ

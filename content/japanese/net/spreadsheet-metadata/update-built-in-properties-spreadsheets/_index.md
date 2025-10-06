@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して Excel ファイルの組み込みメタデータ プロパティを更新する方法を学習します。 C# を使用して作成者、作成時刻、会社などを変更します。
 weight: 14
 url: /ja/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # .NET を使用してスプレッドシートの組み込みプロパティを更新する
 
 ## 導入

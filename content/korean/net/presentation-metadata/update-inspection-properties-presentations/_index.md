@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: GroupDocs.Metadata와 함께 .NET을 사용하여 프레젠테이션의 검사 속성을 업데이트하는 방법을 알아보세요. .PPTX 파일에 대한 쉽고 효율적인 메타데이터 조작.
 weight: 17
 url: /ko/net/presentation-metadata/update-inspection-properties-presentations/
+type: docs
 ---
-
 # .NET을 사용하여 프레젠테이션의 검사 속성 업데이트
 
 ## 소개

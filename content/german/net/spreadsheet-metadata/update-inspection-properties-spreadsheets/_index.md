@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie Inspektionseigenschaften in Tabellenkalkulationen mit GroupDocs.Metadata für .NET aktualisieren. Verwalten Sie Kommentare, Unterschriften und ausgeblendete Blätter ganz einfach.
 weight: 16
 url: /de/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # Aktualisieren Sie Inspektionseigenschaften in Tabellenkalkulationen mit .NET
 
 ## Einführung

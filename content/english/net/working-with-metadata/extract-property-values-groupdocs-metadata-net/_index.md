@@ -8,10 +8,8 @@ keywords:
 - extract metadata properties
 - GroupDocs.Metadata .NET
 - string and DateTime types
-
+type: docs
 ---
-
-
 # How to Extract Metadata Property Values by Type with GroupDocs.Metadata .NET
 
 ## Introduction

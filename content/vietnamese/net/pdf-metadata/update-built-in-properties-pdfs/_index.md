@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật thuộc tính tài liệu PDF bằng C# và GroupDocs.Metadata cho .NET. Sửa đổi tác giả, tiêu đề, từ khóa, v.v. theo chương trình.
 weight: 15
 url: /vi/net/pdf-metadata/update-built-in-properties-pdfs/
+type: docs
 ---
-
 # Cập nhật các thuộc tính tích hợp trong tệp PDF bằng .NET
 
 ## Giới thiệu

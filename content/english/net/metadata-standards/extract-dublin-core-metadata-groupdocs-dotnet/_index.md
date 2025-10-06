@@ -8,10 +8,8 @@ keywords:
 - Dublin Core Metadata
 - GroupDocs.Metadata for .NET
 - metadata extraction
-
+type: docs
 ---
-
-
 # How to Extract Dublin Core Metadata Using GroupDocs.Metadata for .NET
 
 ## Introduction

@@ -8,10 +8,8 @@ keywords:
 - extract WAV metadata
 - WAV file metadata management
 - GroupDocs.Metadata for Java
-
+type: docs
 ---
-
-
 # How to Extract WAV File Metadata Using GroupDocs.Metadata for Java
 
 ## Introduction

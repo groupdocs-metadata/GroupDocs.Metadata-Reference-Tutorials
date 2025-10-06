@@ -8,10 +8,8 @@ keywords:
 - Java IPTC Metadata Management
 - GroupDocs.Metadata for Java
 - Customize IPTC Metadata
-
+type: docs
 ---
-
-
 # Master Java IPTC Metadata Management with GroupDocs.Metadata
 
 Managing metadata efficiently is crucial in the digital age for organizing, searching, and sharing documents effectively. This comprehensive guide will walk you through utilizing the GroupDocs.Metadata library to initialize and customize IPTC packages within your files using Java.

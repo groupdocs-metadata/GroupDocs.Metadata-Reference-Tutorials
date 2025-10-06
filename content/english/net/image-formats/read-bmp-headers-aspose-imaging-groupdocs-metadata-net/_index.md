@@ -8,10 +8,8 @@ keywords:
 - read BMP headers
 - Aspose.Imaging for .NET
 - GroupDocs.Metadata
-
+type: docs
 ---
-
-
 # How to Read BMP Headers Using Aspose.Imaging and GroupDocs.Metadata in .NET
 
 ## Introduction

@@ -8,10 +8,8 @@ keywords:
 - GroupDocs Metadata Java
 - inspect presentation comments
 - identify hidden slides
-
+type: docs
 ---
-
-
 # Inspect Presentation Comments & Hidden Slides Using GroupDocs.Metadata Java API
 
 ## Introduction

@@ -8,10 +8,8 @@ keywords:
 - update MP3 ID3v1 tags
 - GroupDocs.Metadata .NET
 - manage audio file metadata
-
+type: docs
 ---
-
-
 # Update MP3 ID3v1 Tags Easily Using GroupDocs.Metadata .NET: A Step-by-Step Guide
 
 ## Introduction

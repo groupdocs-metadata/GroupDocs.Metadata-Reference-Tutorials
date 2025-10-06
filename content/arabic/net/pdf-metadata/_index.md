@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية إدارة بيانات تعريف PDF بسهولة باستخدام GroupDocs.Metadata لبرامج .NET التعليمية. الوصول إلى الخصائص المضمنة والمخصصة باستخدام كود C#.
 weight: 24
 url: /ar/net/pdf-metadata/
+type: docs
 ---
-
 # البيانات الوصفية لقوات الدفاع الشعبي
 
 ## مقدمة

@@ -8,10 +8,8 @@ keywords:
 - GroupDocs Metadata Java
 - PDF inspection Java
 - Java PDF annotations extraction
-
+type: docs
 ---
-
-
 # Mastering PDF Inspection with GroupDocs.Metadata in Java
 
 ## Introduction

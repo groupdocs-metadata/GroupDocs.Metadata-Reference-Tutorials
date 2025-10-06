@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके स्प्रेडशीट में निरीक्षण गुणों को अपडेट करना सीखें। आसानी से टिप्पणियाँ, हस्ताक्षर और छिपी हुई शीट प्रबंधित करें।
 weight: 16
 url: /hi/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # .NET का उपयोग करके स्प्रेडशीट में निरीक्षण गुण अपडेट करें
 
 ## परिचय

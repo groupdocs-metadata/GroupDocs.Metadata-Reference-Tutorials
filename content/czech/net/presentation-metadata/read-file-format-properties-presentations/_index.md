@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se číst vlastnosti souboru prezentace v .NET pomocí GroupDocs.Metadata. Získejte přístup k podrobnostem o formátu souboru programově.
 weight: 13
 url: /cs/net/presentation-metadata/read-file-format-properties-presentations/
+type: docs
 ---
-
 # Přečtěte si vlastnosti formátu souboru z prezentací v .NET
 
 ## Úvod

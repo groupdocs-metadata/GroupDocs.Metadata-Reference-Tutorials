@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata के साथ ऑडियो मेटाडेटा को संभालने पर ट्यूटोरियल खोजें। MP3 और WAV फ़ाइलों से टैग को कुशलतापूर्वक निकालना, अपडेट करना और हटाना सीखें।
 weight: 22
 url: /hi/net/audio-metadata/
+type: docs
 ---
-
 # ऑडियो मेटाडेटा
 
 

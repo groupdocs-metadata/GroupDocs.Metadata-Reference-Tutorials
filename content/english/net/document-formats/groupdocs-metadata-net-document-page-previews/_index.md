@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata .NET
 - document page previews
 - image preview generation
-
+type: docs
 ---
-
-
 # Create Document Page Image Previews Using GroupDocs.Metadata .NET
 
 ## Introduction

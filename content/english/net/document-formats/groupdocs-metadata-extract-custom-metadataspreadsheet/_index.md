@@ -8,10 +8,8 @@ keywords:
 - extract custom metadata Excel
 - GroupDocs.Metadata .NET setup
 - metadata extraction guide
-
+type: docs
 ---
-
-
 # How to Extract Custom Metadata from Excel Spreadsheets Using GroupDocs.Metadata .NET
 
 ## Introduction

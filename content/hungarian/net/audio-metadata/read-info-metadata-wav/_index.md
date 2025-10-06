@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthat ki metaadatokat WAV-fájlokból a GroupDocs.Metadata for .NET segítségével. Merüljön el ebben a lépésenkénti oktatóanyagban a metaadatok hasznosításához az audiofájlok kezeléséhez.
 weight: 22
 url: /hu/net/audio-metadata/read-info-metadata-wav/
+type: docs
 ---
-
 # Olvassa el az információs metaadatokat a WAV-fájlokból a .NET-ben
 
 ## Bevezetés

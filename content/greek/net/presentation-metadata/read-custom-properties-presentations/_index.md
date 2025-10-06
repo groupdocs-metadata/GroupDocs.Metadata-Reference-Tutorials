@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να διαβάζετε προσαρμοσμένες ιδιότητες από παρουσιάσεις στο .NET χρησιμοποιώντας GroupDocs.Metadata. Αποτελεσματική πρόσβαση και ανάκτηση μεταδεδομένων.
 weight: 11
 url: /el/net/presentation-metadata/read-custom-properties-presentations/
+type: docs
 ---
-
 # Διαβάστε Προσαρμοσμένες Ιδιότητες από Παρουσιάσεις στο .NET
 
 ## Εισαγωγή

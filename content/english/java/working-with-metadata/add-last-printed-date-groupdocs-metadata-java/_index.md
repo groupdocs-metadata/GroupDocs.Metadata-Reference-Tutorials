@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata Java
 - Add Last Printed Date to Documents
 - Document Metadata Management
-
+type: docs
 ---
-
-
 # How to Implement Metadata Property Addition with GroupDocs.Metadata Java
 
 ## Introduction

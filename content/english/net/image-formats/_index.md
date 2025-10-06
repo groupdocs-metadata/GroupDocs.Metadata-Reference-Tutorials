@@ -3,8 +3,8 @@ title: "Image Metadata Management Tutorials with GroupDocs.Metadata for .NET"
 description: "Learn to work with metadata in JPEG, PNG, TIFF, BMP, GIF and other image formats with these GroupDocs.Metadata .NET tutorials."
 weight: 5
 url: "/net/image-formats/"
+type: docs
 ---
-
 # Image Metadata Management Tutorials with GroupDocs.Metadata for .NET
 
 Discover how to efficiently manage metadata in various image formats with our comprehensive GroupDocs.Metadata .NET tutorials. These step-by-step guides teach you how to extract, modify, and remove metadata from JPEG, PNG, TIFF, BMP, GIF, PSD and other image formats. Each tutorial provides practical C# code examples for common image metadata operations, helping you build more efficient applications that can process image metadata for cataloging, copyright management, and privacy protection.

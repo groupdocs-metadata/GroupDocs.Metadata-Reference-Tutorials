@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีแยกคุณสมบัติเมทาดาทาจากไฟล์เก็บถาวร RAR โดยใช้ GroupDocs.Metadata สำหรับ .NET ใน C# สำรวจรายละเอียดไฟล์ได้อย่างง่ายดาย
 weight: 10
 url: /th/net/archive-metadata/read-native-metadata-rar-archives/
+type: docs
 ---
-
 # อ่านคุณสมบัติเมทาดาทาดั้งเดิมจากคลังเก็บ RAR ใน .NET
 
 ## การแนะนำ

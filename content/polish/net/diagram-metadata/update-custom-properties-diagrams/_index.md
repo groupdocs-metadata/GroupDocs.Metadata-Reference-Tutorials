@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak aktualizować właściwości niestandardowe na diagramach przy użyciu platformy .NET za pomocą narzędzia GroupDocs.Metadata dla platformy .NET. Z łatwością ulepszaj metadane.
 weight: 15
 url: /pl/net/diagram-metadata/update-custom-properties-diagrams/
+type: docs
 ---
-
 # Zaktualizuj właściwości niestandardowe na diagramach przy użyciu platformy .NET
 
 ## Wstęp

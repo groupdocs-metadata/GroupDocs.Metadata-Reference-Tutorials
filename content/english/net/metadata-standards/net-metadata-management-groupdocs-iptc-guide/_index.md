@@ -8,10 +8,8 @@ keywords:
 - .NET Metadata Management
 - GroupDocs.Metadata for .NET
 - IPTC Data Handling
-
+type: docs
 ---
-
-
 # Comprehensive Guide to Implementing .NET Metadata Management with GroupDocs.Metadata for IPTC Handling
 
 ## Introduction

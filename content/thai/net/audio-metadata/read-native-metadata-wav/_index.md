@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: ค้นพบวิธีแยกข้อมูลเมตาดั้งเดิมจากไฟล์ WAV โดยใช้ GroupDocs.Metadata สำหรับ .NET บทช่วยสอน C # อย่างง่ายสำหรับการอ่านคุณสมบัติไฟล์ WAV
 weight: 23
 url: /th/net/audio-metadata/read-native-metadata-wav/
+type: docs
 ---
-
 # อ่านคุณสมบัติเมทาดาทาดั้งเดิมจากไฟล์ WAV ใน .NET
 
 ## การแนะนำ

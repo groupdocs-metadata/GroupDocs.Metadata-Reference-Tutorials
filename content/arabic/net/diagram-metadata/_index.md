@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: اكتشف البرامج التعليمية الشاملة حول إدارة بيانات تعريف المخطط باستخدام GroupDocs.Metadata لـ .NET. استخراج وتحديث وتحليل الخصائص دون عناء.
 weight: 23
 url: /ar/net/diagram-metadata/
+type: docs
 ---
-
 # البيانات الوصفية للرسم التخطيطي
 
 ## مقدمة

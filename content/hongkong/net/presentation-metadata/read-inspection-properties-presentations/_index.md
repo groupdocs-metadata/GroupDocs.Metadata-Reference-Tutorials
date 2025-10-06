@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 擷取簡報元資料。以程式設計方式存取評論、隱藏投影片等。
 weight: 14
 url: /zh-hant/net/presentation-metadata/read-inspection-properties-presentations/
+type: docs
 ---
-
 # 從 .NET 簡報中讀取檢查屬性
 
 ## 介紹

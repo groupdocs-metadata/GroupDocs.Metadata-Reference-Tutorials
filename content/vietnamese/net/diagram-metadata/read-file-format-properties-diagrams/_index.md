@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách đọc thuộc tính định dạng tệp từ sơ đồ trong .NET bằng GroupDocs.Metadata. Trích xuất siêu dữ liệu chi tiết một cách dễ dàng.
 weight: 13
 url: /vi/net/diagram-metadata/read-file-format-properties-diagrams/
+type: docs
 ---
-
 # Đọc thuộc tính định dạng tệp từ sơ đồ trong .NET
 
 ## Giới thiệu

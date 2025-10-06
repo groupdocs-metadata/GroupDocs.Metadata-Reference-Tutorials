@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して、.NET でダイアグラム内のカスタム プロパティを更新する方法を学習します。メタデータを簡単に強化します。
 weight: 15
 url: /ja/net/diagram-metadata/update-custom-properties-diagrams/
+type: docs
 ---
-
 # .NET を使用してダイアグラムのカスタム プロパティを更新する
 
 ## 導入

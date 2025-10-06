@@ -8,10 +8,8 @@ keywords:
 - extract XMP metadata
 - GroupDocs.Metadata for Java
 - Java metadata management
-
+type: docs
 ---
-
-
 # How to Extract XMP Metadata Using GroupDocs.Metadata for Java
 
 In today's digital world, effectively managing and utilizing metadata is essential for improving the organization, searchability, and interoperability of media files. This comprehensive guide will walk you through extracting XMP metadata using GroupDocs.Metadata for Java—a powerful tool designed to streamline your workflow with robust metadata management capabilities.

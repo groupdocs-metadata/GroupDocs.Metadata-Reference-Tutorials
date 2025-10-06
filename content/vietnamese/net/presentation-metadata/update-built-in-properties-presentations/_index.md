@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật các thuộc tính tích hợp trong bản trình bày bằng .NET với GroupDocs.Metadata, một thư viện thao tác siêu dữ liệu linh hoạt.
 weight: 15
 url: /vi/net/presentation-metadata/update-built-in-properties-presentations/
+type: docs
 ---
-
 # Cập nhật các thuộc tính tích hợp trong bản trình bày bằng .NET
 
 ## Giới thiệu

@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 管理演示文稿元数据。在 PowerPoint 文件中高效更新自定义属性。
 weight: 16
 url: /zh/net/presentation-metadata/update-custom-properties-presentations/
+type: docs
 ---
-
 # 使用 .NET 更新演示文稿中的自定义属性
 
 ## 介绍

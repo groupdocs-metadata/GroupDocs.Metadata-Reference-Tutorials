@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 提取 PDF 文档统计信息。轻松增强您的文档管理能力。
 weight: 12
 url: /zh/net/pdf-metadata/read-document-statistics-pdfs/
+type: docs
 ---
-
 # 使用 .NET 从 PDF 读取文档统计信息
 
 ## 介绍

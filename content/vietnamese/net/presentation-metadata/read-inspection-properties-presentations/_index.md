@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất siêu dữ liệu bản trình bày bằng GroupDocs.Metadata cho .NET. Truy cập nhận xét, trang trình bày ẩn và nhiều tính năng khác theo chương trình.
 weight: 14
 url: /vi/net/presentation-metadata/read-inspection-properties-presentations/
+type: docs
 ---
-
 # Đọc thuộc tính kiểm tra từ bản trình bày trong .NET
 
 ## Giới thiệu

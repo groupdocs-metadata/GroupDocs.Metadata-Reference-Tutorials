@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie die Eigenschaften von Tabellendateiformaten mithilfe von GroupDocs.Metadata für .NET lesen. Greifen Sie mit einfachen API-Aufrufen auf Dateiformat, MIME-Typ und mehr zu.
 weight: 12
 url: /de/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
+type: docs
 ---
-
 # Lesen Sie Dateiformateigenschaften aus Tabellenkalkulationen in .NET
 
 ## Einführung

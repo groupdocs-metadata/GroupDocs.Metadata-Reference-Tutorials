@@ -8,10 +8,8 @@ keywords:
 - EXIF Metadata
 - GroupDocs.Metadata for Java
 - Image metadata extraction
-
+type: docs
 ---
-
-
 # How to Read and Manage EXIF Metadata in Java Using GroupDocs.Metadata
 
 ## Introduction

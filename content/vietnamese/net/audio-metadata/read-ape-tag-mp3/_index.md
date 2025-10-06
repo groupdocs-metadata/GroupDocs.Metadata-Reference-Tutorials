@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách đọc thẻ APE từ tệp MP3 bằng GroupDocs.Metadata cho .NET. Khám phá trích xuất siêu dữ liệu trong C# với hướng dẫn từng bước.
 weight: 10
 url: /vi/net/audio-metadata/read-ape-tag-mp3/
+type: docs
 ---
-
 # Đọc thẻ APE từ tệp MP3 trong .NET
 
 ## Giới thiệu

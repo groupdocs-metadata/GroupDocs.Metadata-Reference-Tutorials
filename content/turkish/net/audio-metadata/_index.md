@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET ile ses meta verilerinin işlenmesine ilişkin eğitimleri keşfedin. MP3 ve WAV dosyalarından etiketleri verimli bir şekilde çıkarmayı, güncellemeyi ve kaldırmayı öğrenin.
 weight: 22
 url: /tr/net/audio-metadata/
+type: docs
 ---
-
 # Ses Meta Verileri
 
 

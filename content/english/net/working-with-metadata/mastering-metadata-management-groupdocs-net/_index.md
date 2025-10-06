@@ -8,10 +8,8 @@ keywords:
 - metadata management .NET
 - search metadata properties tags
 - GroupDocs Metadata .NET
-
+type: docs
 ---
-
-
 # Mastering Metadata Management: How to Search Metadata Properties Using Tags with GroupDocs.Metadata .NET
 
 ## Introduction

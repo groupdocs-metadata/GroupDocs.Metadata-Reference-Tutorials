@@ -8,10 +8,8 @@ keywords:
 - IPTC metadata
 - GroupDocs.Metadata Java
 - image metadata management
-
+type: docs
 ---
-
-
 # How to Set the IPTC Package Using GroupDocs.Metadata in Java: A Comprehensive Guide
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET ile .NET kullanarak diyagramlardaki özel özellikleri nasıl güncelleyeceğinizi öğrenin. Meta verileri kolaylıkla geliştirin.
 weight: 15
 url: /tr/net/diagram-metadata/update-custom-properties-diagrams/
+type: docs
 ---
-
 # .NET kullanarak Diyagramlardaki Özel Özellikleri Güncelleme
 
 ## giriiş

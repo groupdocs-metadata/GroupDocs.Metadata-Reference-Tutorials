@@ -8,10 +8,8 @@ keywords:
 - update zip comments
 - GroupDocs.Metadata Java
 - manage metadata in archives
-
+type: docs
 ---
-
-
 # How to Update ZIP Archive Comments Using GroupDocs.Metadata for Java
 
 ## Introduction

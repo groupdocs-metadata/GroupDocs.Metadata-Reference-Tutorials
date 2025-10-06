@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Tanuljon meg metaadatokat kinyerni a .NET diagramfájlokból a GroupDocs.Metadata segítségével. Hatékonyan javítja a dokumentumkezelést és -elemzést.
 weight: 10
 url: /hu/net/diagram-metadata/read-built-in-properties-diagrams/
+type: docs
 ---
-
 # Olvassa el a beépített tulajdonságokat a diagramokból a .NET-ben
 
 ## Bevezetés

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthat ki MPEG audio metaadatokat MP3-fájlokból a .NET-ben a GroupDocs.Metadata használatával. Növelje fájlelemzési képességeit.
 weight: 14
 url: /hu/net/audio-metadata/read-mpeg-audio-metadata-mp3/
+type: docs
 ---
-
 # Olvassa el az MPEG audio metaadatokat az MP3 fájlokból a .NET-ben
 
 ## Bevezetés

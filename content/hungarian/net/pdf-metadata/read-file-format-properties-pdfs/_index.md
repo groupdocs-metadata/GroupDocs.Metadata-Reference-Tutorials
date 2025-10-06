@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthatja ki a PDF-fájlformátum tulajdonságait a GroupDocs.Metadata for .NET használatával. Merüljön el a metaadatkezelésben az egyszerű C# segítségével.
 weight: 13
 url: /hu/net/pdf-metadata/read-file-format-properties-pdfs/
+type: docs
 ---
-
 # Olvassa el a Fájlformátum tulajdonságait a .NET-ben található PDF-fájlokból
 
 ## Bevezetés

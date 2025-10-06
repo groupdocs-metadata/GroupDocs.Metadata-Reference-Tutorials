@@ -8,10 +8,8 @@ keywords:
 - extract subtitles MKV
 - Java GroupDocs.Metadata
 - subtitle extraction Java
-
+type: docs
 ---
-
-
 # How to Extract Subtitles from MKV Files Using Java and GroupDocs.Metadata
 
 ## Introduction

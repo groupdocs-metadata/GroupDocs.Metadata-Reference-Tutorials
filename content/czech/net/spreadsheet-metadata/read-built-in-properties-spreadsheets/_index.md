@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se, jak extrahovat metadata z tabulek v .NET pomocí GroupDocs.Metadata, čímž se zlepší správa a organizace dokumentů ve vašich aplikacích.
 weight: 10
 url: /cs/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # Přečtěte si vestavěné vlastnosti z tabulek v .NET
 
 ## Úvod

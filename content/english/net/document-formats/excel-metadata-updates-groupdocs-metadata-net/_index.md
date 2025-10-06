@@ -8,10 +8,8 @@ keywords:
 - Excel Metadata Updates
 - GroupDocs.Metadata for .NET
 - Custom Metadata Properties
-
+type: docs
 ---
-
-
 # Efficiently Update Excel Metadata with GroupDocs.Metadata for .NET
 
 ## Introduction

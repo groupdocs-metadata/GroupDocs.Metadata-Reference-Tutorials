@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat značky textů ze souborů MP3 pomocí GroupDocs.Metadata pro .NET. Postupujte podle našeho podrobného návodu.
 weight: 13
 url: /cs/net/audio-metadata/read-lyrics-tag-mp3/
+type: docs
 ---
-
 # Přečtěte si textový tag ze souborů MP3 v .NET
 
 ## Úvod

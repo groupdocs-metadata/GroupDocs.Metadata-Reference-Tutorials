@@ -8,10 +8,8 @@ keywords:
 - Java metadata manipulation
 - GroupDocs.Metadata library
 - file metadata management
-
+type: docs
 ---
-
-
 # Java Metadata Manipulation with GroupDocs.Metadata: A Comprehensive Guide
 
 ## Introduction

@@ -3,8 +3,8 @@ title: "CAD Metadata Management Tutorials for GroupDocs.Metadata Java"
 description: "Step-by-step tutorials for working with metadata in CAD formats like DWG, DXF, and others using GroupDocs.Metadata for Java."
 weight: 10
 url: "/java/cad-formats/"
+type: docs
 ---
-
 # CAD Metadata Management Tutorials for GroupDocs.Metadata Java
 
 Learn to manage CAD file metadata with our comprehensive GroupDocs.Metadata tutorials for Java. These detailed guides demonstrate how to extract and manipulate metadata in engineering and design files such as DWG, DXF, and other CAD formats programmatically. Each tutorial includes working Java code examples for common CAD metadata operations, helping you build applications that can effectively organize technical drawings, maintain project information, and implement proper version control for design assets.

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีอัปเดตแท็ก ID3V2 ในไฟล์ MP3 โดยใช้ .NET พร้อมด้วย GroupDocs.Metadata เพื่อการจัดการไฟล์ที่มีประสิทธิภาพ
 weight: 20
 url: /th/net/audio-metadata/update-id3v2-tag-mp3/
+type: docs
 ---
-
 # อัปเดตแท็ก ID3V2 ในไฟล์ MP3 โดยใช้ .NET
 
 ## การแนะนำ

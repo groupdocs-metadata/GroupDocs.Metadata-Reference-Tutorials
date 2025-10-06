@@ -8,10 +8,8 @@ keywords:
 - sanitize PDF metadata
 - GroupDocs.Metadata for Java
 - remove PDF metadata
-
+type: docs
 ---
-
-
 # Sanitize PDF Metadata with GroupDocs.Metadata for Java
 
 ## Introduction

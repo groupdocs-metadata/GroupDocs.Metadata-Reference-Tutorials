@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 從 .NET 專案管理文件中擷取自訂屬性。增強元資料管理。
 weight: 11
 url: /zh-hant/net/project-management-metadata/read-custom-properties-project-management-documents/
+type: docs
 ---
-
 # 閱讀 .NET 專案管理文件中的自訂屬性
 
 ## 介紹

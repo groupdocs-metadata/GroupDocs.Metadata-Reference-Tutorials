@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: أطلق العنان لإمكانات مستندات إدارة مشروع .NET باستخدام GroupDocs.Metadata لبرامج .NET التعليمية. قم باستخراج البيانات الوصفية وتحديثها وإدارتها بسهولة.
 weight: 26
 url: /ar/net/project-management-metadata/
+type: docs
 ---
-
 # البيانات الوصفية لإدارة المشاريع
 
 

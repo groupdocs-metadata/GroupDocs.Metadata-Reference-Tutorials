@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan távolíthat el APE-címkéket MP3-fájlokból a GroupDocs.Metadata for .NET segítségével. Könnyedén kezelheti a metaadatokat .NET-alkalmazásaiban.
 weight: 15
 url: /hu/net/audio-metadata/remove-ape-tag-mp3/
+type: docs
 ---
-
 # Távolítsa el az APE-címkét az MP3-fájlokból a .NET-ben
 
 ## Bevezetés

@@ -8,10 +8,8 @@ keywords:
 - EXIF metadata management
 - GroupDocs.Metadata for Java
 - Java image processing
-
+type: docs
 ---
-
-
 # EXIF Metadata Management in Java with GroupDocs.Metadata
 Managing EXIF metadata effectively can significantly enhance your digital image processing capabilities. This comprehensive guide will teach you how to set and update EXIF data using GroupDocs.Metadata for Java. Whether you're a seasoned developer or just starting out, this tutorial will help you handle EXIF metadata proficiently.
 

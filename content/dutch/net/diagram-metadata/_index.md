@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ontdek uitgebreide tutorials over het beheren van diagrammetagegevens met GroupDocs.Metadata voor .NET. Eigenschappen moeiteloos extraheren, bijwerken en analyseren.
 weight: 23
 url: /nl/net/diagram-metadata/
+type: docs
 ---
-
 # Metagegevens van diagrammen
 
 ## Invoering

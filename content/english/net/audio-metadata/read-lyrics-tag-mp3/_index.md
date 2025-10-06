@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Learn how to extract lyrics tags from MP3 files using GroupDocs.Metadata for .NET. Follow our step-by-step tutorial.
 weight: 13
 url: /net/audio-metadata/read-lyrics-tag-mp3/
+type: docs
 ---
-
 # Read Lyrics Tag from MP3 Files in .NET
 
 ## Introduction

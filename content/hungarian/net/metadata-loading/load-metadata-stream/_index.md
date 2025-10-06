@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg a fájlok metaadatainak kezelését .NET-ben a GroupDocs.Metadata segítségével. Lépésről lépésre szóló útmutató a streamek metaadatainak betöltéséhez, szerkesztéséhez és eltávolításához.
 weight: 11
 url: /hu/net/metadata-loading/load-metadata-stream/
+type: docs
 ---
-
 # Metaadatok betöltése a Streamből a .NET oktatóprogramban
 
 ## Bevezetés

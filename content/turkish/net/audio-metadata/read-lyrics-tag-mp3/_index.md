@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak MP3 dosyalarından şarkı sözü etiketlerini nasıl çıkaracağınızı öğrenin. Adım adım eğitimimizi takip edin.
 weight: 13
 url: /tr/net/audio-metadata/read-lyrics-tag-mp3/
+type: docs
 ---
-
 # .NET'teki MP3 Dosyalarından Şarkı Sözü Etiketini Oku
 
 ## giriiş

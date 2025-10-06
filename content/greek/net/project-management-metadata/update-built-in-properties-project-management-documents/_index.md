@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να ενημερώνετε τα μεταδεδομένα σε έγγραφα διαχείρισης έργου .NET με το GroupDocs.Metadata για .NET. Βελτιώστε τη διαχείριση εγγράφων αποτελεσματικά.
 weight: 12
 url: /el/net/project-management-metadata/update-built-in-properties-project-management-documents/
+type: docs
 ---
-
 # Ενημερώστε τις ενσωματωμένες ιδιότητες σε Έγγραφα διαχείρισης έργου .NET
 
 ## Εισαγωγή

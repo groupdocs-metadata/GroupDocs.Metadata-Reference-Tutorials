@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके PDF फ़ाइल प्रारूप गुणों को निकालने का तरीका जानें। सरल C# के साथ मेटाडेटा प्रबंधन में गोता लगाएँ।
 weight: 13
 url: /hi/net/pdf-metadata/read-file-format-properties-pdfs/
+type: docs
 ---
-
 # .NET में PDF से फ़ाइल प्रारूप गुण पढ़ें
 
 ## परिचय

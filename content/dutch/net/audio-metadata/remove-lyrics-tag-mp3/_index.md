@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u Lyrics-tags uit MP3-bestanden verwijdert met GroupDocs.Metadata voor .NET. Volg onze stapsgewijze handleiding voor efficiënte manipulatie van metagegevens.
 weight: 18
 url: /nl/net/audio-metadata/remove-lyrics-tag-mp3/
+type: docs
 ---
-
 # Verwijder de songteksttag uit mp3-bestanden in .NET
 
 ## Invoering

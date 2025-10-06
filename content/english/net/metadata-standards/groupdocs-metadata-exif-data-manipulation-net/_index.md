@@ -8,10 +8,8 @@ keywords:
 - EXIF data management
 - GroupDocs.Metadata for .NET
 - image metadata manipulation
-
+type: docs
 ---
-
-
 # Mastering EXIF Data Management in Images with GroupDocs.Metadata for .NET
 
 ## Introduction

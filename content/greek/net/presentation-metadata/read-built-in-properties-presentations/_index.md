@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε ενσωματωμένες ιδιότητες από παρουσιάσεις χρησιμοποιώντας το GroupDocs.Metadata για .NET σε αυτό το ολοκληρωμένο σεμινάριο.
 weight: 10
 url: /el/net/presentation-metadata/read-built-in-properties-presentations/
+type: docs
 ---
-
 # Διαβάστε τις Ενσωματωμένες Ιδιότητες από Παρουσιάσεις στο .NET
 
 ## Εισαγωγή

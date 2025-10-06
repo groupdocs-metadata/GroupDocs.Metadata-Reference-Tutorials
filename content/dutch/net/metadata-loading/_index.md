@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Beheer moeiteloos bestandsmetagegevens in .NET met GroupDocs.Metadata. Leer laadtechnieken, bewerkingen en meer voor verbeterde mogelijkheden voor bestandsmanipulatie.
 weight: 20
 url: /nl/net/metadata-loading/
+type: docs
 ---
-
 # Metagegevens laden
 
 ## Invoering

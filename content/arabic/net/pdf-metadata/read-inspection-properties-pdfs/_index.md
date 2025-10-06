@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج خصائص الفحص من مستندات PDF باستخدام GroupDocs.Metadata لـ .NET. استكشف التعليقات التوضيحية والمرفقات والمزيد.
 weight: 14
 url: /ar/net/pdf-metadata/read-inspection-properties-pdfs/
+type: docs
 ---
-
 # قراءة خصائص الفحص من ملفات PDF في .NET
 
 ## مقدمة

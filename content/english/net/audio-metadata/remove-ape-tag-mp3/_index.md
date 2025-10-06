@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Learn how to remove APE tags from MP3 files using GroupDocs.Metadata for .NET. Effortlessly manage metadata in your .NET applications.
 weight: 15
 url: /net/audio-metadata/remove-ape-tag-mp3/
+type: docs
 ---
-
 # Remove APE Tag from MP3 Files in .NET
 
 ## Introduction

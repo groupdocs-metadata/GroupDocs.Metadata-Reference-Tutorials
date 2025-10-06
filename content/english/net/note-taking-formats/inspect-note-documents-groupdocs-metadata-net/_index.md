@@ -8,10 +8,8 @@ keywords:
 - inspect note documents
 - GroupDocs.Metadata .NET
 - document metadata management
-
+type: docs
 ---
-
-
 # How to Inspect Note Documents Using GroupDocs.Metadata .NET
 
 ## Introduction

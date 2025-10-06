@@ -8,10 +8,8 @@ keywords:
 - detect spreadsheet types
 - GroupDocs.Metadata .NET
 - spreadsheet format detection
-
+type: docs
 ---
-
-
 # How to Detect Spreadsheet Types Using GroupDocs.Metadata .NET: A Complete Guide
 
 ## Introduction

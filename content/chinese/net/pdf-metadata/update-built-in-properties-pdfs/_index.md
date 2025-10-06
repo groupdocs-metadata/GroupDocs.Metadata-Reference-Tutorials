@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 C# 和 GroupDocs.Metadata for .NET 更新 PDF 文档属性。以编程方式修改作者、标题、关键字等。
 weight: 15
 url: /zh/net/pdf-metadata/update-built-in-properties-pdfs/
+type: docs
 ---
-
 # 使用 .NET 更新 PDF 中的内置属性
 
 ## 介绍

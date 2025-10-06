@@ -6,8 +6,8 @@ description: 다양한 플랫폼에서 GroupDocs.Metadata에 대한 포괄적인
 weight: 11
 url: /ko/
 is_root: true
+type: docs
 ---
-
 # GroupDocs.Metadata로 메타데이터 숙달 잠금 해제
 
 

@@ -8,10 +8,8 @@ keywords:
 - torrent metadata
 - GroupDocs.Metadata .NET
 - read torrent properties
-
+type: docs
 ---
-
-
 # Mastering Torrent File Metadata with GroupDocs.Metadata .NET
 
 ## Introduction

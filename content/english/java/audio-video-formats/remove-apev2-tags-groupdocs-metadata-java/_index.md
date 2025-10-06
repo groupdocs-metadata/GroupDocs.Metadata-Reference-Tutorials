@@ -8,10 +8,8 @@ keywords:
 - remove APEv2 tags from MP3
 - GroupDocs.Metadata Java library
 - streamline audio files
-
+type: docs
 ---
-
-
 # Efficiently Remove APEv2 Tags from MP3 Files Using GroupDocs.Metadata in Java
 
 ## Introduction

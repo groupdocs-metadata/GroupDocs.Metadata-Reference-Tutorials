@@ -3,8 +3,8 @@ title: "Archive Metadata Tutorials with GroupDocs.Metadata for Java"
 description: "Complete tutorials for working with metadata in ZIP, RAR, TAR, and other archive formats using GroupDocs.Metadata for Java."
 weight: 9
 url: "/java/archive-formats/"
+type: docs
 ---
-
 # Archive Metadata Tutorials with GroupDocs.Metadata for Java
 
 Our archive metadata tutorials provide comprehensive guidance for working with compressed file formats using GroupDocs.Metadata in Java. These step-by-step guides demonstrate how to extract, modify, and manage metadata in ZIP, RAR, TAR, and other archive formats. Each tutorial includes practical Java code examples for common archive metadata operations, helping you build robust applications that can efficiently process metadata in compressed files for better organization and information management.

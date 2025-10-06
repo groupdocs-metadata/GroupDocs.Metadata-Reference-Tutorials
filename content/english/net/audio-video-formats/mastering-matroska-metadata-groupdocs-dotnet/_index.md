@@ -8,10 +8,8 @@ keywords:
 - Matroska metadata extraction
 - GroupDocs.Metadata for .NET
 - EBML header reading
-
+type: docs
 ---
-
-
 # Mastering Matroska Metadata Extraction with GroupDocs.Metadata for .NET
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata 讀取 .NET 中的簡報檔案屬性。以程式設計方式存取文件格式詳細資訊。
 weight: 13
 url: /zh-hant/net/presentation-metadata/read-file-format-properties-presentations/
+type: docs
 ---
-
 # 從 .NET 簡報中讀取檔案格式屬性
 
 ## 介紹

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีแยกคุณสมบัติที่กำหนดเองออกจากสเปรดชีตโดยใช้ GroupDocs.Metadata สำหรับ .NET ปรับปรุงการจัดการข้อมูลเมตาในแอปพลิเคชัน .NET ของคุณ
 weight: 11
 url: /th/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
+type: docs
 ---
-
 # อ่านคุณสมบัติที่กำหนดเองจากสเปรดชีตใน .NET
 
 ## การแนะนำ

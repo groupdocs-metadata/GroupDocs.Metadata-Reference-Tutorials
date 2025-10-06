@@ -8,10 +8,8 @@ keywords:
 - XMP metadata management .NET
 - GroupDocs.Metadata for .NET
 - Update XMP schemes in .NET
-
+type: docs
 ---
-
-
 # Mastering XMP Metadata Management in .NET with GroupDocs.Metadata
 
 ## Introduction

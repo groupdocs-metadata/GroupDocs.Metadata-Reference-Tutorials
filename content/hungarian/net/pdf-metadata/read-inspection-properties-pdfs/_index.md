@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan vonhatja ki a vizsgálati tulajdonságokat PDF-dokumentumokból a GroupDocs.Metadata for .NET segítségével. Fedezze fel a kommentárokat, mellékleteket és egyebeket.
 weight: 14
 url: /hu/net/pdf-metadata/read-inspection-properties-pdfs/
+type: docs
 ---
-
 # Olvassa el az Ellenőrzési tulajdonságokat a .NET-ben található PDF-fájlokból
 
 ## Bevezetés

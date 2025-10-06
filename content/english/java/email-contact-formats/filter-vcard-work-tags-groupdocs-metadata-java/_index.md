@@ -8,10 +8,8 @@ keywords:
 - filter vCard work tags
 - GroupDocs.Metadata Java
 - vCard metadata management
-
+type: docs
 ---
-
-
 # Master Filtering vCard Work Tags with GroupDocs.Metadata in Java
 
 ## Introduction

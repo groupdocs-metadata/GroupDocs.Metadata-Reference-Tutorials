@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak sunum meta verilerini nasıl çıkaracağınızı öğrenin. Yorumlara, gizli slaytlara ve daha fazlasına programlı bir şekilde erişin.
 weight: 14
 url: /tr/net/presentation-metadata/read-inspection-properties-presentations/
+type: docs
 ---
-
 # .NET'teki Sunumlardan Denetim Özelliklerini Okuyun
 
 ## giriiş

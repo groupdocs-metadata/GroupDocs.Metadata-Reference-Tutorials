@@ -8,10 +8,8 @@ keywords:
 - note document metadata java
 - groupdocs metadata library
 - java document management
-
+type: docs
 ---
-
-
 # How to Read and Manage Note Document Metadata Using GroupDocs.Metadata in Java
 
 ## Introduction

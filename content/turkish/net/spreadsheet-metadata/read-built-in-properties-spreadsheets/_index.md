@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata'yı kullanarak .NET'teki elektronik tablolardan meta verileri nasıl çıkaracağınızı öğrenin ve uygulamalarınızda belge yönetimini ve organizasyonunu geliştirin.
 weight: 10
 url: /tr/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # .NET'teki Elektronik Tablolardan Yerleşik Özellikleri Okuyun
 
 ## giriiş

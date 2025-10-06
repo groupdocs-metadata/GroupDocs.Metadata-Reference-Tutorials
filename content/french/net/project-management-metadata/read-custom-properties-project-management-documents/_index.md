@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment extraire des propriétés personnalisées à partir de documents de gestion de projet .NET à l'aide de GroupDocs.Metadata pour .NET. Améliorez la gestion de vos métadonnées.
 weight: 11
 url: /fr/net/project-management-metadata/read-custom-properties-project-management-documents/
+type: docs
 ---
-
 # Lire les propriétés personnalisées dans les documents de gestion de projet .NET
 
 ## Introduction

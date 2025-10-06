@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して .NET プロジェクト管理ドキュメントのカスタム プロパティを更新する方法を学習します。アプリケーションのメタデータ管理を強化します。
 weight: 13
 url: /ja/net/project-management-metadata/update-custom-properties-project-management-documents/
+type: docs
 ---
-
 # .NET プロジェクト管理ドキュメントのカスタム プロパティを更新する
 
 ## 導入

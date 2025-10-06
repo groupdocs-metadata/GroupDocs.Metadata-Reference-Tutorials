@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách đọc thuộc tính tệp bản trình bày trong .NET bằng GroupDocs.Metadata. Truy cập chi tiết định dạng tệp theo chương trình.
 weight: 13
 url: /vi/net/presentation-metadata/read-file-format-properties-presentations/
+type: docs
 ---
-
 # Đọc thuộc tính định dạng tệp từ bản trình bày trong .NET
 
 ## Giới thiệu

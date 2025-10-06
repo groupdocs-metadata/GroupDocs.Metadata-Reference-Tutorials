@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε προσαρμοσμένες ιδιότητες από αρχεία διαγραμμάτων στο .NET χρησιμοποιώντας το GroupDocs.Metadata. Εύκολος οδηγός βήμα προς βήμα για προγραμματιστές.
 weight: 11
 url: /el/net/diagram-metadata/read-custom-properties-diagrams/
+type: docs
 ---
-
 # Διαβάστε προσαρμοσμένες ιδιότητες από διαγράμματα στο .NET
 
 ## Εισαγωγή

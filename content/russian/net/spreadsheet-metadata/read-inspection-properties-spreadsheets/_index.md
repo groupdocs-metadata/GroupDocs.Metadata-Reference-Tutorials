@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как читать свойства проверки из электронных таблиц с помощью GroupDocs.Metadata для .NET. Получите доступ к комментариям, цифровым подписям и скрытым листам без особых усилий.
 weight: 13
 url: /ru/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # Чтение свойств проверки из электронных таблиц в .NET
 
 ## Введение

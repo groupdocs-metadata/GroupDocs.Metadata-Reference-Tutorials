@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Ознакомьтесь с подробными руководствами по управлению метаданными диаграмм с помощью GroupDocs.Metadata для .NET. Извлекайте, обновляйте и анализируйте свойства без особых усилий.
 weight: 23
 url: /ru/net/diagram-metadata/
+type: docs
 ---
-
 # Метаданные диаграммы
 
 ## Введение

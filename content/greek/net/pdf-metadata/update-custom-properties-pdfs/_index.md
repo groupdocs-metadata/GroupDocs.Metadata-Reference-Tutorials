@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να ενημερώνετε προσαρμοσμένες ιδιότητες σε αρχεία PDF χρησιμοποιώντας το .NET με το GroupDocs.Metadata. Απλά βήματα για αποτελεσματικό χειρισμό μεταδεδομένων PDF.
 weight: 16
 url: /el/net/pdf-metadata/update-custom-properties-pdfs/
+type: docs
 ---
-
 # Ενημερώστε τις προσαρμοσμένες ιδιότητες σε αρχεία PDF χρησιμοποιώντας .NET
 
 ## Εισαγωγή

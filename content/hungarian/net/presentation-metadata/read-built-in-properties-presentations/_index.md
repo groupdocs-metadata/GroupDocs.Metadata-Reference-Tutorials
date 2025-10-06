@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ebből az átfogó oktatóanyagból megtudhatja, hogyan bonthat ki beépített tulajdonságokat a prezentációkból a GroupDocs.Metadata for .NET segítségével.
 weight: 10
 url: /hu/net/presentation-metadata/read-built-in-properties-presentations/
+type: docs
 ---
-
 # Beépített tulajdonságok olvasása a .NET prezentációiból
 
 ## Bevezetés

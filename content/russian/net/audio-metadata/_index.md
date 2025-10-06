@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Ознакомьтесь с учебными пособиями по обработке метаданных аудио с помощью GroupDocs.Metadata для .NET. Научитесь эффективно извлекать, обновлять и удалять теги из файлов MP3 и WAV.
 weight: 22
 url: /ru/net/audio-metadata/
+type: docs
 ---
-
 # Аудио метаданные
 
 

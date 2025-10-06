@@ -8,10 +8,8 @@ keywords:
 - extract Dublin Core metadata Word
 - GroupDocs.Metadata .NET
 - Word document metadata management
-
+type: docs
 ---
-
-
 # How to Extract Dublin Core Metadata from Word Documents Using GroupDocs.Metadata .NET
 
 ## Introduction

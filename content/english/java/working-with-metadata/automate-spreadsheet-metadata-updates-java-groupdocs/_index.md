@@ -8,10 +8,8 @@ keywords:
 - automate spreadsheet metadata updates Java
 - GroupDocs.Metadata for Java
 - update custom document properties
-
+type: docs
 ---
-
-
 # Automate Spreadsheet Metadata Updates in Java Using GroupDocs.Metadata
 
 Are you tired of manually updating metadata in your spreadsheets? Discover how to automate and streamline the process using GroupDocs.Metadata for Java, saving time and ensuring accuracy.

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用してスプレッドシートからカスタム プロパティを抽出する方法を学習します。.NET アプリケーションでのメタデータ操作を強化します。
 weight: 11
 url: /ja/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
+type: docs
 ---
-
 # .NET のスプレッドシートからカスタム プロパティを読み取る
 
 ## 導入

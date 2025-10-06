@@ -8,10 +8,8 @@ keywords:
 - update custom metadata in word documents
 - GroupDocs.Metadata for .NET
 - automate metadata management
-
+type: docs
 ---
-
-
 # How to Update Custom Metadata in Word Documents Using GroupDocs.Metadata .NET
 
 ## Introduction

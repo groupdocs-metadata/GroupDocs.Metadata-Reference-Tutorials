@@ -6,8 +6,8 @@ description: Desbloqueie o poder do GroupDocs.Metadata for .NET com tutoriais so
 
 weight: 27
 url: /pt/net/spreadsheet-metadata/
+type: docs
 ---
-
 # Metadados da planilha
 
 ## Introdução

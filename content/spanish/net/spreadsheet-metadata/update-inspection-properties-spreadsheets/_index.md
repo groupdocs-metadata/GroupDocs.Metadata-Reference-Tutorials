@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Aprenda a actualizar las propiedades de inspección en hojas de cálculo usando GroupDocs.Metadata para .NET. Administre comentarios, firmas y hojas ocultas con facilidad.
 weight: 16
 url: /es/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # Actualizar propiedades de inspección en hojas de cálculo usando .NET
 
 ## Introducción

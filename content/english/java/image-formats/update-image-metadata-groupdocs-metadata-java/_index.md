@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata for Java
 - image metadata update
 - Dublin Core metadata scheme
-
+type: docs
 ---
-
-
 # How to Update Image Metadata Using GroupDocs.Metadata for Java
 
 ## Introduction

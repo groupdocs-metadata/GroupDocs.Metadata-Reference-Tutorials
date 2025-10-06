@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 .NET 和 GroupDocs.Metadata 更新 MP3 檔案中的 ID3V2 標籤，以實現高效的檔案管理。
 weight: 20
 url: /zh-hant/net/audio-metadata/update-id3v2-tag-mp3/
+type: docs
 ---
-
 # 使用 .NET 更新 MP3 檔案中的 ID3V2 標籤
 
 ## 介紹

@@ -8,10 +8,8 @@ keywords:
 - extract metadata mobi files
 - groupdocs.metadata net
 - mobipocket ebook formats
-
+type: docs
 ---
-
-
 # How to Extract Metadata from Mobipocket Mobi Files Using GroupDocs.Metadata in .NET
 
 ## Introduction

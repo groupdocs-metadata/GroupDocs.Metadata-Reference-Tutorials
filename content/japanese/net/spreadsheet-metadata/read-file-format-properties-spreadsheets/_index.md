@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用してスプレッドシート ファイル形式のプロパティを読み取る方法を学習します。単純な API 呼び出しでファイル形式、MIME タイプなどにアクセスします。
 weight: 12
 url: /ja/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
+type: docs
 ---
-
 # .NET のスプレッドシートからファイル形式プロパティを読み取る
 
 ## 導入

@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 更新电子表格中的自定义属性。本教程有效增强您的元数据管理技能。
 weight: 15
 url: /zh/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
+type: docs
 ---
-
 # 使用 .NET 更新电子表格中的自定义属性
 
 ## 介绍

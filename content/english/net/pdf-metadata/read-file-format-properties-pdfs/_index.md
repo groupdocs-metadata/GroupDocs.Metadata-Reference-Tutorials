@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Learn how to extract PDF file format properties using GroupDocs.Metadata for .NET. Dive into metadata management with simple C#.
 weight: 13
 url: /net/pdf-metadata/read-file-format-properties-pdfs/
+type: docs
 ---
-
 # Read File Format Properties from PDFs in .NET
 
 ## Introduction

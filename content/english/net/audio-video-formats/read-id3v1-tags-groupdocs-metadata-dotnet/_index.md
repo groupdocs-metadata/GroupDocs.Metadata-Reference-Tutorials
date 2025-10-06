@@ -8,10 +8,8 @@ keywords:
 - read ID3v1 tags MP3
 - GroupDocs.Metadata .NET
 - manage music library
-
+type: docs
 ---
-
-
 # How to Read ID3v1 Tags from an MP3 File Using GroupDocs.Metadata for .NET
 
 ## Introduction

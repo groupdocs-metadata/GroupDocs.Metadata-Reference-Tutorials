@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak MP3 dosyalarından ID3V2 etiketlerini nasıl çıkaracağınızı öğrenin. Albüme, sanatçıya ve daha fazlasına programlı olarak erişin.
 weight: 12
 url: /tr/net/audio-metadata/read-id3v2-tag-mp3/
+type: docs
 ---
-
 # .NET'teki MP3 Dosyalarından ID3V2 Etiketini Okuyun
 
 ## giriiş

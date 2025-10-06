@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak diyagramlardaki yerleşik özellikleri nasıl güncelleyeceğinizi öğrenin. Kod örnekleriyle meta verileri sorunsuz bir şekilde değiştirin.
 weight: 14
 url: /tr/net/diagram-metadata/update-built-in-properties-diagrams/
+type: docs
 ---
-
 # .NET kullanarak Diyagramlardaki Yerleşik Özellikleri Güncelleme
 
 ## giriiş

@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как извлечь теги текстов песен из файлов MP3 с помощью GroupDocs.Metadata для .NET. Следуйте нашему пошаговому руководству.
 weight: 13
 url: /ru/net/audio-metadata/read-lyrics-tag-mp3/
+type: docs
 ---
-
 # Чтение тега текста из файлов MP3 в .NET
 
 ## Введение

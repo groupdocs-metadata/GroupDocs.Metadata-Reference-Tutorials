@@ -8,10 +8,8 @@ keywords:
 - metadata management java
 - search metadata properties by tag
 - groupdocs.metadata for java
-
+type: docs
 ---
-
-
 # Mastering Metadata Management: Searching Properties by Tag with GroupDocs.Metadata for Java
 
 ## Introduction

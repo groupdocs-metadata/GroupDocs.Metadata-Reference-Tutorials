@@ -8,10 +8,8 @@ keywords:
 - manage metadata Java
 - update metadata properties GroupDocs
 - Java document management
-
+type: docs
 ---
-
-
 # Manage Metadata with GroupDocs.Metadata for Java: A Comprehensive Guide
 ## Introduction
 In today's digital age, effectively managing metadata is crucial for organizing documents across various formats. Whether dealing with legal documents or any type of file, maintaining accurate metadata ensures your files are properly cataloged and protected. This comprehensive guide will walk you through setting and updating metadata properties using GroupDocs.Metadata for Java—a powerful library that simplifies these tasks.

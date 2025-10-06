@@ -8,10 +8,8 @@ keywords:
 - extract word statistics
 - GroupDocs.Metadata Java tutorial
 - Word document management
-
+type: docs
 ---
-
-
 # Extract Word Document Statistics Using GroupDocs.Metadata Java: A Step-by-Step Guide
 
 ## Introduction

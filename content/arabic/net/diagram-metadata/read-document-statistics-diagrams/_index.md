@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج إحصائيات المستندات من الرسوم التخطيطية في .NET باستخدام GroupDocs.Metadata، وهي مكتبة قوية لمعالجة بيانات التعريف.
 weight: 12
 url: /ar/net/diagram-metadata/read-document-statistics-diagrams/
+type: docs
 ---
-
 # اقرأ إحصائيات المستند من الرسوم التخطيطية في .NET
 
 ## مقدمة

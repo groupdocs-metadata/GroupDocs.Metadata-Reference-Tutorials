@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u aangepaste eigenschappen in .NET-projectbeheerdocumenten kunt bijwerken met behulp van GroupDocs.Metadata voor .NET. Verbeter het metadatabeheer in uw applicaties.
 weight: 13
 url: /nl/net/project-management-metadata/update-custom-properties-project-management-documents/
+type: docs
 ---
-
 # Aangepaste eigenschappen bijwerken in .NET Project Management-documenten
 
 ## Invoering

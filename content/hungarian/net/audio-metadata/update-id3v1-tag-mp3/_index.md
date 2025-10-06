@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Frissítse az MP3-fájlok ID3V1-címkéit a GroupDocs.Metadata for .NET segítségével. Kövesse ezt az oktatóanyagot a metaadatok egyszerű kezeléséhez .NET-alkalmazásaiban.
 weight: 19
 url: /hu/net/audio-metadata/update-id3v1-tag-mp3/
+type: docs
 ---
-
 # Frissítse az ID3V1 címkét az MP3 fájlokban a .NET használatával
 
 ## Bevezetés

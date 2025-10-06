@@ -8,10 +8,8 @@ keywords:
 - extract metadata AVI
 - GroupDocs.Metadata .NET
 - AVI file INFO chunk
-
+type: docs
 ---
-
-
 # Extract Metadata from AVI Files with GroupDocs.Metadata for .NET
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να εξάγετε μεταδεδομένα παρουσίασης χρησιμοποιώντας το GroupDocs.Metadata για .NET. Πρόσβαση σε σχόλια, κρυφές διαφάνειες και άλλα μέσω προγραμματισμού.
 weight: 14
 url: /el/net/presentation-metadata/read-inspection-properties-presentations/
+type: docs
 ---
-
 # Διαβάστε τις ιδιότητες επιθεώρησης από τις παρουσιάσεις στο .NET
 
 ## Εισαγωγή

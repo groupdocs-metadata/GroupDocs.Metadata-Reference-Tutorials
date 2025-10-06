@@ -8,10 +8,8 @@ keywords:
 - import PDF metadata
 - read PDF properties
 - GroupDocs.Metadata .NET
-
+type: docs
 ---
-
-
 # Import and Read PDF Metadata with GroupDocs.Metadata .NET: A Comprehensive Guide
 
 ## Introduction

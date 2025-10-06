@@ -3,8 +3,8 @@ title: "E-Book Metadata Tutorials for GroupDocs.Metadata .NET"
 description: "Learn to work with metadata in EPUB, FB2, MOBI, and other e-book formats using GroupDocs.Metadata for .NET."
 weight: 11
 url: "/net/e-book-formats/"
+type: docs
 ---
-
 # E-Book Metadata Tutorials for GroupDocs.Metadata .NET
 
 Our e-book metadata tutorials show you how to implement comprehensive metadata management for digital publications using GroupDocs.Metadata in .NET. These step-by-step guides cover extracting and manipulating metadata in EPUB, FB2, MOBI, and other e-book formats programmatically. Each tutorial includes detailed C# code examples for common e-book metadata operations, helping you build applications that can effectively organize digital libraries, maintain publication information, and enhance e-book cataloging systems.

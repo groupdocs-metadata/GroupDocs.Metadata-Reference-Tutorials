@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج خصائص تنسيق ملف PDF باستخدام GroupDocs.Metadata لـ .NET. انغمس في إدارة البيانات التعريفية باستخدام لغة C# البسيطة.
 weight: 13
 url: /ar/net/pdf-metadata/read-file-format-properties-pdfs/
+type: docs
 ---
-
 # قراءة خصائص تنسيق الملف من ملفات PDF في .NET
 
 ## مقدمة

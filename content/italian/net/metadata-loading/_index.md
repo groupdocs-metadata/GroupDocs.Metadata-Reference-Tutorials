@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Gestisci facilmente i metadati dei file in .NET con GroupDocs.Metadata. Scopri le tecniche di caricamento, modifica e altro per funzionalità avanzate di manipolazione dei file.
 weight: 20
 url: /it/net/metadata-loading/
+type: docs
 ---
-
 # Caricamento dei metadati
 
 ## introduzione

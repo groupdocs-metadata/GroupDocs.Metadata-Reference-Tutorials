@@ -8,10 +8,8 @@ keywords:
 - extract metadata from MSG
 - GroupDocs.Metadata .NET
 - email metadata extraction
-
+type: docs
 ---
-
-
 # How to Extract Metadata from MSG Files Using GroupDocs.Metadata for .NET: A Complete Guide
 
 ## Introduction

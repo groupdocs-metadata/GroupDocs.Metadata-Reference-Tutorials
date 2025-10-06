@@ -8,10 +8,8 @@ keywords:
 - update torrent metadata
 - GroupDocs.Metadata Java
 - torrent file management
-
+type: docs
 ---
-
-
 # How to Update Torrent Metadata Using GroupDocs.Metadata for Java
 
 ## Introduction

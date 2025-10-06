@@ -8,10 +8,8 @@ keywords:
 - extract PSD header info
 - GroupDocs.Metadata Java
 - PSD layer extraction
-
+type: docs
 ---
-
-
 # How to Extract PSD Header and Layer Information Using GroupDocs.Metadata for Java
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: tomto komplexním kurzu se dozvíte, jak extrahovat vestavěné vlastnosti z prezentací pomocí GroupDocs.Metadata for .NET.
 weight: 10
 url: /cs/net/presentation-metadata/read-built-in-properties-presentations/
+type: docs
 ---
-
 # Přečtěte si vestavěné vlastnosti z prezentací v .NET
 
 ## Úvod

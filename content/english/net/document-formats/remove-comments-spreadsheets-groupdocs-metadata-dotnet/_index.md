@@ -8,10 +8,8 @@ keywords:
 - remove comments from Excel
 - GroupDocs.Metadata .NET
 - manage metadata in spreadsheets
-
+type: docs
 ---
-
-
 # How to Remove Comments from Excel Spreadsheets Using GroupDocs.Metadata .NET - A Step-by-Step Guide
 
 ## Introduction

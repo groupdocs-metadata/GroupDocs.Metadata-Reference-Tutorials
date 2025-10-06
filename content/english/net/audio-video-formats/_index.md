@@ -3,8 +3,8 @@ title: "Audio and Video Metadata Tutorials for GroupDocs.Metadata .NET"
 description: "Step-by-step tutorials for working with metadata in MP3, WAV, AVI, MP4, and other media formats using GroupDocs.Metadata for .NET."
 weight: 7
 url: "/net/audio-video-formats/"
+type: docs
 ---
-
 # Audio and Video Metadata Tutorials for GroupDocs.Metadata .NET
 
 Our audio and video metadata tutorials show you how to work with media file metadata using GroupDocs.Metadata in .NET. These practical guides walk through extracting and modifying metadata in MP3, WAV, AVI, MP4, and other media formats. Each tutorial includes detailed C# code examples for common media metadata operations, helping you build applications that can effectively manage media libraries, implement content categorization, and maintain copyright information for audiovisual assets.

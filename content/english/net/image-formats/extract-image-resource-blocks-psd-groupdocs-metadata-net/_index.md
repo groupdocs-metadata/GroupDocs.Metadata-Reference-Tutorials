@@ -8,10 +8,8 @@ keywords:
 - extract image resource blocks PSD
 - GroupDocs.Metadata for .NET
 - manage Photoshop files programmatically
-
+type: docs
 ---
-
-
 # How to Extract Image Resource Blocks from PSD Files Using GroupDocs.Metadata for .NET
 
 ## Introduction

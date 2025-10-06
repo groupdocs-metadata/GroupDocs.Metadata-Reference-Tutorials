@@ -10,10 +10,8 @@ keywords:
 - metadata management in .NET
 - manage audio file metadata
 - edit MP3 tags with C#
-
+type: docs
 ---
-
-
 # Update MP3 Lyrics Tags Efficiently with GroupDocs.Metadata for .NET: A Step-by-Step Guide
 ## Introduction
 Managing metadata within your MP3 files can be challenging, especially when updating lyrics tags. Many digital audio enthusiasts and developers face difficulties in handling MP3 tags efficiently. However, with the power of GroupDocs.Metadata for .NET, this task becomes straightforward.

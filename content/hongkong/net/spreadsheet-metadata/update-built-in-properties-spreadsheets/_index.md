@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 更新 Excel 檔案中的內建元資料屬性。使用C#修改作者、創建時間、公司等。
 weight: 14
 url: /zh-hant/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # 使用 .NET 更新電子表格中的內建屬性
 
 ## 介紹

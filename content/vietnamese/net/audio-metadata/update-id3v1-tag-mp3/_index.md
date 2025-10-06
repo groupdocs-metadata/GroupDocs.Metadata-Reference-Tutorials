@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Cập nhật thẻ ID3V1 trong tệp MP3 bằng GroupDocs.Metadata cho .NET. Hãy làm theo hướng dẫn này để dễ dàng thao tác siêu dữ liệu trong các ứng dụng .NET của bạn.
 weight: 19
 url: /vi/net/audio-metadata/update-id3v1-tag-mp3/
+type: docs
 ---
-
 # Cập nhật thẻ ID3V1 trong tệp MP3 bằng .NET
 
 ## Giới thiệu

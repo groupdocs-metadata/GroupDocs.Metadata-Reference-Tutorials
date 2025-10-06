@@ -8,10 +8,8 @@ keywords:
 - export document metadata
 - GroupDocs.Metadata .NET
 - metadata management
-
+type: docs
 ---
-
-
 # Export Document Metadata to Excel, XML, and CSV with GroupDocs.Metadata .NET
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Kelola metadata file dengan mudah di aplikasi .NET dengan GroupDocs.Metadata untuk meningkatkan kemampuan manipulasi file.
 weight: 10
 url: /id/net/metadata-loading/load-metadata-local-disk/
+type: docs
 ---
-
 # Cara Memuat Metadata dari Disk Lokal di .NET
 
 ## Perkenalan

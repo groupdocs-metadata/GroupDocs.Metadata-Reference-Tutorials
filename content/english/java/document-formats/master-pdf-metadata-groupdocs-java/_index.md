@@ -8,10 +8,8 @@ keywords:
 - PDF Metadata Management with Java
 - GroupDocs.Metadata for Java
 - Importing PDF Metadata from JSON
-
+type: docs
 ---
-
-
 # Mastering PDF Metadata Management with GroupDocs.Metadata for Java: A Developer's Guide
 
 ## Introduction

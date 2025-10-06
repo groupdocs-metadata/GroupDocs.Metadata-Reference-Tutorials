@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du extraherar inbyggda egenskaper från presentationer med GroupDocs.Metadata för .NET i den här omfattande självstudien.
 weight: 10
 url: /sv/net/presentation-metadata/read-built-in-properties-presentations/
+type: docs
 ---
-
 # Läs inbyggda egenskaper från presentationer i .NET
 
 ## Introduktion

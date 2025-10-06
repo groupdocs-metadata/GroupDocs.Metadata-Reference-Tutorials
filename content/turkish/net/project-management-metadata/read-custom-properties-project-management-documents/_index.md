@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak .NET proje yönetimi belgelerinden özel özellikleri nasıl çıkaracağınızı öğrenin. Meta veri yönetiminizi geliştirin.
 weight: 11
 url: /tr/net/project-management-metadata/read-custom-properties-project-management-documents/
+type: docs
 ---
-
 # .NET Proje Yönetimi Belgelerindeki Özel Özellikleri Okuyun
 
 ## giriiş

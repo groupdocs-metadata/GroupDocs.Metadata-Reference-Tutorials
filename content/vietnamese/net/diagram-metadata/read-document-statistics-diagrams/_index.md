@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất số liệu thống kê tài liệu từ sơ đồ trong .NET bằng GroupDocs.Metadata, thư viện thao tác siêu dữ liệu mạnh mẽ.
 weight: 12
 url: /vi/net/diagram-metadata/read-document-statistics-diagrams/
+type: docs
 ---
-
 # Đọc số liệu thống kê tài liệu từ sơ đồ trong .NET
 
 ## Giới thiệu

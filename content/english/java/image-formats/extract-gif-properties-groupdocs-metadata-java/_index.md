@@ -8,10 +8,8 @@ keywords:
 - extract GIF properties
 - GroupDocs.Metadata for Java
 - GIF metadata extraction
-
+type: docs
 ---
-
-
 # Extracting GIF Properties Using GroupDocs.Metadata in Java
 
 ## Introduction

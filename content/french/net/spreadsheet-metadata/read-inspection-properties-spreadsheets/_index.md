@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment lire les propriétés d'inspection à partir de feuilles de calcul à l'aide de GroupDocs.Metadata pour .NET. Accédez sans effort aux commentaires, aux signatures numériques et aux feuilles cachées.
 weight: 13
 url: /fr/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # Lire les propriétés d'inspection à partir de feuilles de calcul dans .NET
 
 ## Introduction

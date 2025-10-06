@@ -8,10 +8,8 @@ keywords:
 - extract PDF statistics with .NET
 - GroupDocs.Metadata for .NET
 - PDF document analysis
-
+type: docs
 ---
-
-
 # How to Extract PDF Statistics with .NET Using GroupDocs.Metadata: A Comprehensive Guide
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีอัปเดตคุณสมบัติแบบกำหนดเองในไฟล์ PDF โดยใช้ .NET พร้อมด้วย GroupDocs.Metadata ขั้นตอนง่ายๆ สำหรับการจัดการข้อมูลเมตา PDF อย่างมีประสิทธิภาพ
 weight: 16
 url: /th/net/pdf-metadata/update-custom-properties-pdfs/
+type: docs
 ---
-
 # อัปเดตคุณสมบัติแบบกำหนดเองใน PDF โดยใช้ .NET
 
 ## การแนะนำ

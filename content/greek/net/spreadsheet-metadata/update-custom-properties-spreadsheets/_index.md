@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ανακαλύψτε πώς να ενημερώσετε προσαρμοσμένες ιδιότητες σε υπολογιστικά φύλλα χρησιμοποιώντας το GroupDocs.Metadata για .NET. Αυτό το σεμινάριο ενισχύει αποτελεσματικά τις δεξιότητές σας στη διαχείριση μεταδεδομένων.
 weight: 15
 url: /el/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
+type: docs
 ---
-
 # Ενημερώστε τις προσαρμοσμένες ιδιότητες σε υπολογιστικά φύλλα χρησιμοποιώντας .NET
 
 ## Εισαγωγή

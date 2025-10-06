@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET-API
 description: Verwalten Sie Dateimetadaten in .NET-Anwendungen mühelos mit GroupDocs.Metadata für erweiterte Dateibearbeitungsfunktionen.
 weight: 10
 url: /de/net/metadata-loading/load-metadata-local-disk/
+type: docs
 ---
-
 # So laden Sie Metadaten von der lokalen Festplatte in .NET
 
 ## Einführung

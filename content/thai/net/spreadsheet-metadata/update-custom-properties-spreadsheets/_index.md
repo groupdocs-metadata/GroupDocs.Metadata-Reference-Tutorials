@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: ค้นพบวิธีอัปเดตคุณสมบัติที่กำหนดเองในสเปรดชีตโดยใช้ GroupDocs.Metadata สำหรับ .NET บทช่วยสอนนี้ช่วยเพิ่มทักษะการจัดการข้อมูลเมตาของคุณอย่างมีประสิทธิภาพ
 weight: 15
 url: /th/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
+type: docs
 ---
-
 # อัปเดตคุณสมบัติที่กำหนดเองในสเปรดชีตโดยใช้ .NET
 
 ## การแนะนำ

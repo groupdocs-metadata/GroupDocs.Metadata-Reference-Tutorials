@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se aktualizovat vestavěné vlastnosti v prezentacích pomocí .NET pomocí GroupDocs.Metadata, všestranné knihovny pro manipulaci s metadaty.
 weight: 15
 url: /cs/net/presentation-metadata/update-built-in-properties-presentations/
+type: docs
 ---
-
 # Aktualizujte vestavěné vlastnosti v prezentacích pomocí .NET
 
 ## Úvod

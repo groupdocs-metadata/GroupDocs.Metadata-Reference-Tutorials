@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีอ่านคุณสมบัติการตรวจสอบจากสเปรดชีตโดยใช้ GroupDocs.Metadata สำหรับ .NET เข้าถึงความคิดเห็น ลายเซ็นดิจิทัล และแผ่นงานที่ซ่อนอยู่ได้อย่างง่ายดาย
 weight: 13
 url: /th/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # อ่านคุณสมบัติการตรวจสอบจากสเปรดชีตใน .NET
 
 ## การแนะนำ

@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 來提取 PDF 文件格式屬性。使用簡單的 C# 深入研究元資料管理。
 weight: 13
 url: /zh-hant/net/pdf-metadata/read-file-format-properties-pdfs/
+type: docs
 ---
-
 # 從 .NET 中的 PDF 讀取檔案格式屬性
 
 ## 介紹

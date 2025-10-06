@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata for .NET
 - Excel metadata extraction
 - automate Excel metadata
-
+type: docs
 ---
-
-
 # Automate Excel Metadata Extraction with GroupDocs.Metadata for .NET
 
 Tired of manually extracting metadata from spreadsheets? With GroupDocs.Metadata for .NET, you can automate the process of retrieving built-in metadata properties like author details and creation dates from Excel files. This tutorial will guide you through setting up a seamless solution.

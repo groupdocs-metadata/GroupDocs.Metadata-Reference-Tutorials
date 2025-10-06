@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีแยกข้อมูลเมตาของงานนำเสนอโดยใช้ GroupDocs.Metadata สำหรับ .NET เข้าถึงความคิดเห็น สไลด์ที่ซ่อน และอื่นๆ โดยทางโปรแกรม
 weight: 14
 url: /th/net/presentation-metadata/read-inspection-properties-presentations/
+type: docs
 ---
-
 # อ่านคุณสมบัติการตรวจสอบจากการนำเสนอใน .NET
 
 ## การแนะนำ

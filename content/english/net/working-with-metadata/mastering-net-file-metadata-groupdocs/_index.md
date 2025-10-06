@@ -8,10 +8,8 @@ keywords:
 - .NET file metadata management with GroupDocs.Metadata
 - loading file metadata in .NET
 - modifying and saving metadata properties
-
+type: docs
 ---
-
-
 # Mastering .NET File Metadata Management with GroupDocs.Metadata
 
 ## Introduction

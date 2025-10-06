@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να ενημερώνετε τα σχόλια αρχειοθέτησης σε αρχεία ZIP χρησιμοποιώντας το GroupDocs.Metadata για .NET. Βελτιώστε τη διαχείριση μεταδεδομένων σε εφαρμογές C# χωρίς κόπο.
 weight: 15
 url: /el/net/archive-metadata/update-archive-comment-zip-files/
+type: docs
 ---
-
 # Ενημέρωση σχολίου αρχείου σε αρχεία ZIP χρησιμοποιώντας .NET
 
 ## Εισαγωγή

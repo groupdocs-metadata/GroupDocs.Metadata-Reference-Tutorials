@@ -8,10 +8,8 @@ keywords:
 - CAD Metadata Extraction
 - GroupDocs.Metadata .NET
 - C# CAD File Management
-
+type: docs
 ---
-
-
 # Master CAD Metadata Extraction with GroupDocs.Metadata .NET: A C# Guide for Engineers and Developers
 
 ## Introduction

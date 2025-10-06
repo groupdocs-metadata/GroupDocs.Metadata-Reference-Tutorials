@@ -8,10 +8,8 @@ keywords:
 - extract Dublin Core metadata from Word documents
 - GroupDocs.Metadata for Java
 - Java Dublin Core extraction
-
+type: docs
 ---
-
-
 # Extract Dublin Core Metadata from Word Documents Using Java
 ## How to Extract Dublin Core Metadata from Word Documents with GroupDocs.Metadata for Java
 

@@ -8,10 +8,8 @@ keywords:
 - Java Metadata Handling
 - GroupDocs.Metadata for Java
 - load and save metadata
-
+type: docs
 ---
-
-
 # Mastering Java Metadata Handling: Load & Save with GroupDocs.Metadata
 
 ## Introduction

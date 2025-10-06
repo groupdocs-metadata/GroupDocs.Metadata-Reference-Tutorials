@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan kezelheti hatékonyan a dokumentumok metaadatait a GroupDocs.Metadata for .NET segítségével. A metaadatok zökkenőmentes kibontása, szerkesztése és kezelése .NET-alkalmazásaiban.
 weight: 13
 url: /hu/net/metadata-loading/load-metadata-password-protected/
+type: docs
 ---
-
 # Metaadatok betöltése jelszóval védett dokumentumból a .NET-ben
 
 ## Bevezetés

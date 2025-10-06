@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara memperbarui properti bawaan dalam presentasi menggunakan .NET dengan GroupDocs.Metadata, pustaka manipulasi metadata serbaguna.
 weight: 15
 url: /id/net/presentation-metadata/update-built-in-properties-presentations/
+type: docs
 ---
-
 # Perbarui Properti Bawaan dalam Presentasi menggunakan .NET
 
 ## Perkenalan

@@ -8,10 +8,8 @@ keywords:
 - edit SevenZip metadata .NET
 - GroupDocs.Metadata for .NET tutorial
 - modify metadata in archives
-
+type: docs
 ---
-
-
 # Edit SevenZip Metadata Using GroupDocs.Metadata for .NET: A Comprehensive Guide
 
 In today's digital landscape, managing and organizing data efficiently is crucial. One common challenge developers face is extracting and modifying metadata within compressed files, such as those in the SevenZip format. This tutorial will guide you through using GroupDocs.Metadata for .NET to seamlessly edit metadata in your SevenZip archives.

@@ -6,8 +6,8 @@ description: Unlock the power of GroupDocs.Metadata for .NET with tutorials on r
 
 weight: 27
 url: /net/spreadsheet-metadata/
+type: docs
 ---
-
 # Spreadsheet Metadata
 
 ## Introduction

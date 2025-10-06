@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan frissítheti a diagramok beépített tulajdonságait a GroupDocs.Metadata for .NET használatával. A metaadatok zökkenőmentes módosítása kódpéldákkal.
 weight: 14
 url: /hu/net/diagram-metadata/update-built-in-properties-diagrams/
+type: docs
 ---
-
 # Frissítse a diagramok beépített tulajdonságait .NET használatával
 
 ## Bevezetés

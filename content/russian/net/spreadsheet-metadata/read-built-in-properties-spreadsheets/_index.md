@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как извлекать метаданные из электронных таблиц в .NET с помощью GroupDocs.Metadata, что улучшает управление документами и их организацию в ваших приложениях.
 weight: 10
 url: /ru/net/spreadsheet-metadata/read-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # Чтение встроенных свойств из электронных таблиц в .NET
 
 ## Введение

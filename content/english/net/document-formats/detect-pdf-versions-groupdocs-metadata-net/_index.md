@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata
 - detect PDF versions
 - extract file formats
-
+type: docs
 ---
-
-
 # Detecting PDF Versions and File Formats Using GroupDocs.Metadata for .NET
 
 ## Introduction

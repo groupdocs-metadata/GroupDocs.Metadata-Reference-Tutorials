@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用强大的元数据操作库 GroupDocs.Metadata 从 .NET 中的图表中提取文档统计信息。
 weight: 12
 url: /zh/net/diagram-metadata/read-document-statistics-diagrams/
+type: docs
 ---
-
 # 从 .NET 中的图表读取文档统计信息
 
 ## 介绍

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: Bu kapsamlı eğitimde GroupDocs.Metadata for .NET'i kullanarak belirli dosya formatlarından meta verileri nasıl yükleyeceğinizi öğrenin.
 weight: 12
 url: /tr/net/metadata-loading/load-metadata-specific-format/
+type: docs
 ---
-
 # .NET'te Belirli Formattan Meta Veri Yükleme
 
 ## giriiş

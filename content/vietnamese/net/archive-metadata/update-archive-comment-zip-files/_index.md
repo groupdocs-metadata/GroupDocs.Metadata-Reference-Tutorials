@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật nhận xét lưu trữ trong tệp ZIP bằng GroupDocs.Metadata cho .NET. Tăng cường quản lý siêu dữ liệu trong các ứng dụng C# một cách dễ dàng.
 weight: 15
 url: /vi/net/archive-metadata/update-archive-comment-zip-files/
+type: docs
 ---
-
 # Cập nhật nhận xét lưu trữ trong tệp ZIP bằng .NET
 
 ## Giới thiệu

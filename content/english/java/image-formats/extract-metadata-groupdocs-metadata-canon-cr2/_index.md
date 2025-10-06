@@ -8,10 +8,8 @@ keywords:
 - extract metadata from CR2 files
 - GroupDocs.Metadata for Java
 - Canon RAW metadata
-
+type: docs
 ---
-
-
 # Extracting Metadata from Canon CR2 Files with GroupDocs.Metadata Java
 
 In digital photography, extracting metadata from RAW files like Canon's CR2 format is essential for photographers and developers. This comprehensive guide explains how to use GroupDocs.Metadata for Java to read and manage embedded metadata in CR2 files efficiently. Whether you're archiving, automating processes, or enhancing workflows, mastering metadata extraction can significantly improve data management.

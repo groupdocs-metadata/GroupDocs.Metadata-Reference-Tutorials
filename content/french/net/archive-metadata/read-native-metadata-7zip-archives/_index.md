@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment lire les propriétés de métadonnées natives des archives 7Zip à l'aide de GroupDocs.Metadata pour .NET. Améliorez les capacités de gestion des données de votre application .NET.
 weight: 11
 url: /fr/net/archive-metadata/read-native-metadata-7zip-archives/
+type: docs
 ---
-
 # Lire les propriétés des métadonnées natives des archives 7Zip dans .NET
 
 ## Introduction

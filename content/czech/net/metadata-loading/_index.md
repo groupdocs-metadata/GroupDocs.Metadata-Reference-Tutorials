@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Spravujte metadata souborů v .NET bez námahy pomocí GroupDocs.Metadata. Naučte se techniky načítání, úpravy a další pro vylepšené možnosti manipulace se soubory.
 weight: 20
 url: /cs/net/metadata-loading/
+type: docs
 ---
-
 # Načítání metadat
 
 ## Úvod

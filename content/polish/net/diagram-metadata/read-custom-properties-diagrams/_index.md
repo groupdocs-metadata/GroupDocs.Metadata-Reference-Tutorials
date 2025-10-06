@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak wyodrębnić niestandardowe właściwości z plików diagramów w platformie .NET przy użyciu GroupDocs.Metadata. Łatwy przewodnik krok po kroku dla programistów.
 weight: 11
 url: /pl/net/diagram-metadata/read-custom-properties-diagrams/
+type: docs
 ---
-
 # Przeczytaj właściwości niestandardowe z diagramów w .NET
 
 ## Wstęp

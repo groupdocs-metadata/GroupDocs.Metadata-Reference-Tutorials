@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u aangepaste eigenschappen in diagrammen kunt bijwerken met .NET met GroupDocs.Metadata voor .NET. Verbeter metadata eenvoudig.
 weight: 15
 url: /nl/net/diagram-metadata/update-custom-properties-diagrams/
+type: docs
 ---
-
 # Update aangepaste eigenschappen in diagrammen met .NET
 
 ## Invoering

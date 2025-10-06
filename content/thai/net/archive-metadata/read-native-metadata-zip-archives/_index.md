@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีแยกข้อมูลเมตาจากไฟล์ ZIP โดยใช้ GroupDocs.Metadata สำหรับ .NET สำรวจคำแนะนำทีละขั้นตอนสำหรับการอ่านคุณสมบัติดั้งเดิม
 weight: 13
 url: /th/net/archive-metadata/read-native-metadata-zip-archives/
+type: docs
 ---
-
 # อ่านคุณสมบัติเมตาดาต้าดั้งเดิมจากไฟล์ ZIP ใน .NET
 
 ## การแนะนำ

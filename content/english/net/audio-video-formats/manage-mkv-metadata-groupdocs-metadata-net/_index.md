@@ -8,10 +8,8 @@ keywords:
 - MKV Metadata Management
 - GroupDocs.Metadata .NET
 - Managing MKV Subtitle Tracks
-
+type: docs
 ---
-
-
 # Efficient MKV Metadata Management in .NET using GroupDocs.Metadata
 
 ## Introduction

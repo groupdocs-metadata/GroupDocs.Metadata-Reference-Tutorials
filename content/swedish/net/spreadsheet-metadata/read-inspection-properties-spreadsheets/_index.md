@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Lär dig hur du läser inspektionsegenskaper från kalkylblad med GroupDocs.Metadata för .NET. Få åtkomst till kommentarer, digitala signaturer och dolda ark utan ansträngning.
 weight: 13
 url: /sv/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # Läs inspektionsegenskaper från kalkylblad i .NET
 
 ## Introduktion

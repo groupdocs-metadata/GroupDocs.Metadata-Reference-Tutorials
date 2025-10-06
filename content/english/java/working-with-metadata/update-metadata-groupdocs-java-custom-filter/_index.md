@@ -8,10 +8,8 @@ keywords:
 - update metadata Java
 - GroupDocs Metadata Java
 - custom filter metadata update
-
+type: docs
 ---
-
-
 # Automate Metadata Updates in Java Using GroupDocs: A Step-by-Step Guide
 
 ## Introduction

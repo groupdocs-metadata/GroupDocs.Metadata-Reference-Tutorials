@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u ingebouwde eigenschappen in presentaties kunt bijwerken met behulp van .NET met GroupDocs.Metadata, een veelzijdige bibliotheek voor het manipuleren van metagegevens.
 weight: 15
 url: /nl/net/presentation-metadata/update-built-in-properties-presentations/
+type: docs
 ---
-
 # Update ingebouwde eigenschappen in presentaties met .NET
 
 ## Invoering

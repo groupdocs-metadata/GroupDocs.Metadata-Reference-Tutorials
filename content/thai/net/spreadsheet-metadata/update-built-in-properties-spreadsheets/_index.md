@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีอัปเดตคุณสมบัติเมทาดาทาในตัวในไฟล์ Excel โดยใช้ GroupDocs.Metadata สำหรับ .NET แก้ไขผู้เขียน เวลาในการสร้าง บริษัท และอื่นๆ ด้วย C#
 weight: 14
 url: /th/net/spreadsheet-metadata/update-built-in-properties-spreadsheets/
+type: docs
 ---
-
 # อัปเดตคุณสมบัติในตัวในสเปรดชีตโดยใช้ .NET
 
 ## การแนะนำ

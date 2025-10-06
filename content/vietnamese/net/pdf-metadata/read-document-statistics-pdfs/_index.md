@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất số liệu thống kê tài liệu PDF bằng GroupDocs.Metadata cho .NET. Nâng cao khả năng quản lý tài liệu của bạn một cách dễ dàng.
 weight: 12
 url: /vi/net/pdf-metadata/read-document-statistics-pdfs/
+type: docs
 ---
-
 # Đọc số liệu thống kê tài liệu từ các tệp PDF trong .NET
 
 ## Giới thiệu

@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata for .NET
 - .NET diagram file detection
 - automate file format extraction
-
+type: docs
 ---
-
-
 # Automate Diagram File Detection with GroupDocs.Metadata for .NET
 
 ## Introduction

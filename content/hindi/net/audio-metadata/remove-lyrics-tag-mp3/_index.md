@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके MP3 फ़ाइलों से गीत टैग हटाने का तरीका जानें। कुशल मेटाडेटा हेरफेर के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
 weight: 18
 url: /hi/net/audio-metadata/remove-lyrics-tag-mp3/
+type: docs
 ---
-
 # .NET में MP3 फ़ाइलों से गीत टैग हटाएँ
 
 ## परिचय

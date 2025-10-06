@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat vlastnosti formátu souboru PDF pomocí GroupDocs.Metadata for .NET. Ponořte se do správy metadat pomocí jednoduchého C#.
 weight: 13
 url: /cs/net/pdf-metadata/read-file-format-properties-pdfs/
+type: docs
 ---
-
 # Čtení vlastností formátu souboru z PDF v .NET
 
 ## Úvod

@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata 從 .NET 中的 MP3 檔案中提取 MPEG 音訊元資料。增強您的文件分析能力。
 weight: 14
 url: /zh-hant/net/audio-metadata/read-mpeg-audio-metadata-mp3/
+type: docs
 ---
-
 # 從 .NET 中的 MP3 檔案讀取 MPEG 音訊元數據
 
 ## 介紹

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak aktualizować właściwości dokumentu PDF przy użyciu języka C# i GroupDocs.Metadata dla platformy .NET. Modyfikuj autora, tytuł, słowa kluczowe i inne elementy programowo.
 weight: 15
 url: /pl/net/pdf-metadata/update-built-in-properties-pdfs/
+type: docs
 ---
-
 # Aktualizuj wbudowane właściwości w plikach PDF przy użyciu platformy .NET
 
 ## Wstęp

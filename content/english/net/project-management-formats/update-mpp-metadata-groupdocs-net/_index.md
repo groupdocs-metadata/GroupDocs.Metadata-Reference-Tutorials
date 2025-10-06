@@ -8,10 +8,8 @@ keywords:
 - update MPP metadata
 - GroupDocs.Metadata for .NET
 - automate project management documents
-
+type: docs
 ---
-
-
 # How to Update Built-In Properties in Project Management Documents Using GroupDocs.Metadata for .NET
 
 ## Introduction

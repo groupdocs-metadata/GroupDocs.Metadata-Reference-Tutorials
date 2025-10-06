@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε να διαχειρίζεστε τα μεταδεδομένα αρχείων στο .NET με το GroupDocs.Metadata. Οδηγός βήμα προς βήμα για τη φόρτωση, την επεξεργασία και την κατάργηση μεταδεδομένων από ροές.
 weight: 11
 url: /el/net/metadata-loading/load-metadata-stream/
+type: docs
 ---
-
 # Φόρτωση μεταδεδομένων από τη ροή στο .NET Tutorial
 
 ## Εισαγωγή

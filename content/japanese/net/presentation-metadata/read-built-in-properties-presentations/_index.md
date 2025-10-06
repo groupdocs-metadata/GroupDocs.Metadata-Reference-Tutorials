@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: この包括的なチュートリアルでは、GroupDocs.Metadata for .NET を使用してプレゼンテーションから組み込みプロパティを抽出する方法を学びます。
 weight: 10
 url: /ja/net/presentation-metadata/read-built-in-properties-presentations/
+type: docs
 ---
-
 # .NET のプレゼンテーションから組み込みプロパティを読み取る
 
 ## 導入

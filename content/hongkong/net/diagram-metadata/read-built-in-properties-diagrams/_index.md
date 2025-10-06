@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解使用 GroupDocs.Metadata 從 .NET 中的圖表檔案中提取元資料。有效增強文件管理和分析。
 weight: 10
 url: /zh-hant/net/diagram-metadata/read-built-in-properties-diagrams/
+type: docs
 ---
-
 # 從 .NET 圖表中讀取內建屬性
 
 ## 介紹

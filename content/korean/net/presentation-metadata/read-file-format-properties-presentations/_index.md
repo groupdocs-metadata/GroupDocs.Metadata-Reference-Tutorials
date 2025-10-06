@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: GroupDocs.Metadata를 사용하여 .NET에서 프레젠테이션 파일 속성을 읽는 방법을 알아보세요. 프로그래밍 방식으로 파일 형식 세부정보에 액세스합니다.
 weight: 13
 url: /ko/net/presentation-metadata/read-file-format-properties-presentations/
+type: docs
 ---
-
 # .NET의 프레젠테이션에서 파일 형식 속성 읽기
 
 ## 소개

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Tanulja meg, hogyan olvashat APE-címkéket MP3-fájlokból a GroupDocs.Metadata for .NET segítségével. Fedezze fel a metaadatok kinyerését C# nyelven lépésről lépésre.
 weight: 10
 url: /hu/net/audio-metadata/read-ape-tag-mp3/
+type: docs
 ---
-
 # Olvassa el az APE-címkét az MP3-fájlokból a .NET-ben
 
 ## Bevezetés

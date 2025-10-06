@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất các thuộc tính tùy chỉnh từ tệp sơ đồ trong .NET bằng GroupDocs.Metadata. Hướng dẫn từng bước dễ dàng dành cho nhà phát triển.
 weight: 11
 url: /vi/net/diagram-metadata/read-custom-properties-diagrams/
+type: docs
 ---
-
 # Đọc thuộc tính tùy chỉnh từ sơ đồ trong .NET
 
 ## Giới thiệu

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata के साथ .NET प्रोजेक्ट प्रबंधन दस्तावेज़ों में मेटाडेटा अपडेट करने का तरीका जानें। दस्तावेज़ प्रबंधन को कुशलतापूर्वक बढ़ाएँ।
 weight: 12
 url: /hi/net/project-management-metadata/update-built-in-properties-project-management-documents/
+type: docs
 ---
-
 # .NET प्रोजेक्ट प्रबंधन दस्तावेज़ों में अंतर्निहित गुण अपडेट करें
 
 ## परिचय

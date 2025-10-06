@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: C# में .NET के लिए GroupDocs.Metadata का उपयोग करके RAR संग्रह से मेटाडेटा गुण निकालना सीखें। फ़ाइल विवरणों को आसानी से एक्सप्लोर करें।
 weight: 10
 url: /hi/net/archive-metadata/read-native-metadata-rar-archives/
+type: docs
 ---
-
 # .NET में RAR अभिलेखागार से मूल मेटाडेटा गुण पढ़ें
 
 ## परिचय

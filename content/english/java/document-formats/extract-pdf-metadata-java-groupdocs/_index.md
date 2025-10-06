@@ -8,10 +8,8 @@ keywords:
 - extract PDF metadata in Java
 - GroupDocs Metadata library
 - Java document management
-
+type: docs
 ---
-
-
 # How to Extract PDF Metadata in Java Using GroupDocs.Metadata Library
 
 ## Introduction

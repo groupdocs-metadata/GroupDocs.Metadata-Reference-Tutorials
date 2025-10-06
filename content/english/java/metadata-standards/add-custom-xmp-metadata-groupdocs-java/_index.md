@@ -8,10 +8,8 @@ keywords:
 - add custom XMP metadata
 - GroupDocs.Metadata Java
 - custom XMP package
-
+type: docs
 ---
-
-
 # Add Custom XMP Metadata to Files with GroupDocs.Metadata Java
 
 ## Introduction

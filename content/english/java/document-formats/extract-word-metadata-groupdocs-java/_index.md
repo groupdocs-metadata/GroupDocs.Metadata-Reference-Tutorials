@@ -8,10 +8,8 @@ keywords:
 - extract Word document metadata using Java
 - GroupDocs.Metadata for Java setup
 - Java metadata extraction techniques
-
+type: docs
 ---
-
-
 # Extracting Word Document Metadata Using Java: A Comprehensive Guide
 ## Introduction
 Managing document metadata is crucial in the realms of archiving and data processing automation. This tutorial will help you leverage **GroupDocs.Metadata for Java** to efficiently extract property descriptors from Word documents.

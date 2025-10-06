@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके आरेखों में अंतर्निहित गुणों को अपडेट करना सीखें। कोड उदाहरणों के साथ मेटाडेटा को सहजता से संशोधित करें।
 weight: 14
 url: /hi/net/diagram-metadata/update-built-in-properties-diagrams/
+type: docs
 ---
-
 # .NET का उपयोग करके आरेखों में अंतर्निहित गुण अपडेट करें
 
 ## परिचय

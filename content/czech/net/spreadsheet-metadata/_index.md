@@ -6,8 +6,8 @@ description: Odemkněte sílu GroupDocs.Metadata pro .NET pomocí výukových pr
 
 weight: 27
 url: /cs/net/spreadsheet-metadata/
+type: docs
 ---
-
 # Metadata tabulky
 
 ## Úvod

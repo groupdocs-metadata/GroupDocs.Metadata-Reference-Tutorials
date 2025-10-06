@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata for .NET'i kullanarak elektronik tablo dosya formatı özelliklerini nasıl okuyacağınızı öğrenin. Basit API çağrılarıyla dosya biçimine, MIME türüne ve daha fazlasına erişin.
 weight: 12
 url: /tr/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
+type: docs
 ---
-
 # .NET'teki Elektronik Tablolardan Dosya Formatı Özelliklerini Okuyun
 
 ## giriiş

@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách cập nhật thuộc tính kiểm tra trong bản trình bày bằng .NET với GroupDocs.Metadata. Thao tác siêu dữ liệu dễ dàng, hiệu quả cho các tệp .PPTX.
 weight: 17
 url: /vi/net/presentation-metadata/update-inspection-properties-presentations/
+type: docs
 ---
-
 # Cập nhật thuộc tính kiểm tra trong bản trình bày bằng .NET
 
 ## Giới thiệu

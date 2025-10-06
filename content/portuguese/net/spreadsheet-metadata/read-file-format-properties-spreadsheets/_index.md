@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Aprenda a ler propriedades de formato de arquivo de planilha usando GroupDocs.Metadata for .NET. Acesse formato de arquivo, tipo MIME e muito mais com chamadas de API simples.
 weight: 12
 url: /pt/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
+type: docs
 ---
-
 # Leia as propriedades de formato de arquivo de planilhas em .NET
 
 ## Introdução

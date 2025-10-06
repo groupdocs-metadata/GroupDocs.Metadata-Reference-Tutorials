@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Découvrez comment mettre à jour les propriétés personnalisées dans les feuilles de calcul à l'aide de GroupDocs.Metadata pour .NET. Ce didacticiel améliore efficacement vos compétences en matière de gestion des métadonnées.
 weight: 15
 url: /fr/net/spreadsheet-metadata/update-custom-properties-spreadsheets/
+type: docs
 ---
-
 # Mettre à jour les propriétés personnalisées dans les feuilles de calcul à l'aide de .NET
 
 ## Introduction

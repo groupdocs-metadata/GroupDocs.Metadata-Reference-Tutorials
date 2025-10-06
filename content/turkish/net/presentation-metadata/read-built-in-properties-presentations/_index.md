@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: Bu kapsamlı eğitimde GroupDocs.Metadata for .NET kullanarak sunumlardan yerleşik özellikleri nasıl çıkaracağınızı öğrenin.
 weight: 10
 url: /tr/net/presentation-metadata/read-built-in-properties-presentations/
+type: docs
 ---
-
 # .NET'teki Sunumlardaki Yerleşik Özellikleri Okuyun
 
 ## giriiş

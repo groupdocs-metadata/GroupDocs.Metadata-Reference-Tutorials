@@ -8,10 +8,8 @@ keywords:
 - update word metadata java
 - groupdocs metadata for java
 - custom metadata properties in Word documents
-
+type: docs
 ---
-
-
 # How to Update Word Document Metadata Using GroupDocs.Metadata Java API
 ## Introduction
 Managing document metadata effectively is crucial for enhancing organization and retrieval. This tutorial demonstrates how to update custom metadata properties in Word documents using the GroupDocs.Metadata for Java API, a powerful tool for software developers and IT professionals.

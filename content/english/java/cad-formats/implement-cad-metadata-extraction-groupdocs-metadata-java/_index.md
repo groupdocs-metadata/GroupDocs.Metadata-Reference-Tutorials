@@ -8,10 +8,8 @@ keywords:
 - CAD metadata extraction Java
 - GroupDocs.Metadata library
 - Java CAD metadata
-
+type: docs
 ---
-
-
 # Extract CAD Metadata in Java Using GroupDocs.Metadata: A Step-by-Step Guide
 
 ## Introduction

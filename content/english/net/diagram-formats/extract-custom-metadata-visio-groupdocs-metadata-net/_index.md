@@ -8,10 +8,8 @@ keywords:
 - extract custom metadata Visio diagrams
 - GroupDocs.Metadata for .NET
 - manage document properties
-
+type: docs
 ---
-
-
 # How to Extract Custom Metadata from Visio Diagrams Using GroupDocs.Metadata for .NET
 
 ## Introduction

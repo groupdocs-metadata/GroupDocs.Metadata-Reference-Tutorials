@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách đọc thuộc tính siêu dữ liệu gốc từ kho lưu trữ 7Zip bằng GroupDocs.Metadata cho .NET. Nâng cao khả năng quản lý dữ liệu của ứng dụng .NET của bạn.
 weight: 11
 url: /vi/net/archive-metadata/read-native-metadata-7zip-archives/
+type: docs
 ---
-
 # Đọc Thuộc tính siêu dữ liệu gốc từ Kho lưu trữ 7Zip trong .NET
 
 ## Giới thiệu

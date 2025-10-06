@@ -8,10 +8,8 @@ keywords:
 - update email metadata .NET
 - groupdocs metadata for .NET tutorial
 - manage email sender information with GroupDocs
-
+type: docs
 ---
-
-
 # How to Update Email Metadata Using GroupDocs.Metadata for .NET
 
 ## Introduction

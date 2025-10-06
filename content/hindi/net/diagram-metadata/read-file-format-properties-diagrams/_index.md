@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: GroupDocs.Metadata का उपयोग करके .NET में आरेखों से फ़ाइल प्रारूप गुणों को पढ़ना सीखें। विस्तृत मेटाडेटा आसानी से निकालें।
 weight: 13
 url: /hi/net/diagram-metadata/read-file-format-properties-diagrams/
+type: docs
 ---
-
 # .NET में आरेखों से फ़ाइल स्वरूप गुण पढ़ें
 
 ## परिचय

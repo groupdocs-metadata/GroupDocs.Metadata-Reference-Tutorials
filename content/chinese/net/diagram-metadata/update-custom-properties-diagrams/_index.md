@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 更新图表中的自定义属性。轻松增强元数据。
 weight: 15
 url: /zh/net/diagram-metadata/update-custom-properties-diagrams/
+type: docs
 ---
-
 # 使用 .NET 更新图表中的自定义属性
 
 ## 介绍

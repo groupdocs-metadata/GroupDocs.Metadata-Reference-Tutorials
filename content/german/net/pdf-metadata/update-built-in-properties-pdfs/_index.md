@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie PDF-Dokumenteigenschaften mit C# und GroupDocs.Metadata für .NET aktualisieren. Ändern Sie Autor, Titel, Schlüsselwörter und mehr programmgesteuert.
 weight: 15
 url: /de/net/pdf-metadata/update-built-in-properties-pdfs/
+type: docs
 ---
-
 # Integrierte Eigenschaften in PDFs mit .NET aktualisieren
 
 ## Einführung

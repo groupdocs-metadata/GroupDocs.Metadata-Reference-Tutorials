@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 從 WAV 檔案中擷取本機元資料。用於讀取 WAV 檔案屬性的簡單 C# 教學。
 weight: 23
 url: /zh-hant/net/audio-metadata/read-native-metadata-wav/
+type: docs
 ---
-
 # 從 .NET 中的 WAV 檔案讀取本機元資料屬性
 
 ## 介紹

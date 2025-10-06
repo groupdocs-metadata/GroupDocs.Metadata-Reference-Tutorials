@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية تحميل بيانات التعريف من تنسيقات ملفات محددة باستخدام GroupDocs.Metadata لـ .NET في هذا البرنامج التعليمي الشامل.
 weight: 12
 url: /ar/net/metadata-loading/load-metadata-specific-format/
+type: docs
 ---
-
 # تحميل بيانات التعريف من تنسيق محدد في .NET
 
 ## مقدمة

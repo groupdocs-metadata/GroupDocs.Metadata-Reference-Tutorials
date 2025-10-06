@@ -8,10 +8,8 @@ keywords:
 - remove email attachments .net
 - GroupDocs.Metadata for .NET
 - manage email files .NET
-
+type: docs
 ---
-
-
 # How to Remove Email Attachments Using GroupDocs.Metadata for .NET: A Comprehensive Guide
 
 **Introduction**

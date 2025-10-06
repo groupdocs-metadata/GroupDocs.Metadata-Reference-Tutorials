@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata Java
 - remove email attachments Java
 - Java email attachment removal
-
+type: docs
 ---
-
-
 # Remove Email Attachments Using GroupDocs.Metadata in Java: A Step-by-Step Guide
 
 Managing email metadata is crucial for productivity and security in today's digital world. With this tutorial, you'll learn how to use GroupDocs.Metadata in Java to remove unnecessary email attachments easily.

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u de eigenschappen van spreadsheetbestandsindelingen kunt lezen met GroupDocs.Metadata voor .NET. Krijg toegang tot de bestandsindeling, het MIME-type en meer met eenvoudige API-aanroepen.
 weight: 12
 url: /nl/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
+type: docs
 ---
-
 # Lees de bestandsformaateigenschappen van Spreadsheets in .NET
 
 ## Invoering

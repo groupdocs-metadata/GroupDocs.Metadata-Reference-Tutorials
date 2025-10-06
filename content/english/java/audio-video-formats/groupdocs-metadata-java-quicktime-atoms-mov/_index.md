@@ -8,10 +8,8 @@ keywords:
 - GroupDocs Metadata Java
 - QuickTime atoms MOV files
 - video file metadata manipulation
-
+type: docs
 ---
-
-
 # Mastering Metadata Manipulation: Reading QuickTime Atoms in a MOV Video with GroupDocs.Metadata Java
 
 In today's digital landscape, efficiently handling multimedia files like videos is crucial. Whether you're a developer or content creator, mastering how to manipulate video file metadata can significantly streamline your workflow. This tutorial guides you through using the powerful GroupDocs.Metadata library in Java to read QuickTime atoms from MOV files, enhancing your technical toolkit.

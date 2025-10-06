@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie mithilfe von GroupDocs.Metadata benutzerdefinierte Eigenschaften aus Präsentationen in .NET lesen. Metadaten effizient abrufen und abrufen.
 weight: 11
 url: /de/net/presentation-metadata/read-custom-properties-presentations/
+type: docs
 ---
-
 # Lesen Sie benutzerdefinierte Eigenschaften aus Präsentationen in .NET
 
 ## Einführung

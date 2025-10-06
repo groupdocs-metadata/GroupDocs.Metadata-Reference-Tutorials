@@ -8,10 +8,8 @@ keywords:
 - GroupDocs Metadata Java
 - update spreadsheet metadata
 - Java document formats
-
+type: docs
 ---
-
-
 # How to Update Spreadsheet Metadata Using GroupDocs.Metadata in Java
 
 ## Introduction

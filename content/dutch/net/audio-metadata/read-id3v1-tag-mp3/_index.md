@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u ID3V1-tags van MP3-bestanden kunt lezen met GroupDocs.Metadata voor .NET. Stapsgewijze zelfstudie met codevoorbeelden.
 weight: 11
 url: /nl/net/audio-metadata/read-id3v1-tag-mp3/
+type: docs
 ---
-
 # Lees ID3V1-tag van MP3-bestanden in .NET
 
 ## Invoering

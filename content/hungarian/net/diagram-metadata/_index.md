@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Fedezze fel az átfogó oktatóanyagokat a diagramok metaadatainak kezeléséről a GroupDocs.Metadata for .NET segítségével. Könnyedén bontsa ki, frissítse és elemezze a tulajdonságokat.
 weight: 23
 url: /hu/net/diagram-metadata/
+type: docs
 ---
-
 # Diagram metaadatok
 
 ## Bevezetés

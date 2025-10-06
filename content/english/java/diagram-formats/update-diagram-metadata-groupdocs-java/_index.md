@@ -8,10 +8,8 @@ keywords:
 - update custom metadata diagram
 - groupdocs.metadata java tutorial
 - manage diagram file properties
-
+type: docs
 ---
-
-
 # Update Custom Metadata in Diagram Documents Using GroupDocs.Metadata Java
 
 ## Introduction

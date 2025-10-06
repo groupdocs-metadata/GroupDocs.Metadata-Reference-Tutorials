@@ -8,10 +8,8 @@ keywords:
 - Java Metadata Extraction
 - GroupDocs.Metadata
 - File Metadata Manipulation
-
+type: docs
 ---
-
-
 # Mastering Java Metadata Extraction with GroupDocs.Metadata
 
 ## Introduction

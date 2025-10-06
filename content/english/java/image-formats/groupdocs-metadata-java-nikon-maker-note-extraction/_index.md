@@ -8,10 +8,8 @@ keywords:
 - Nikon JPEG Metadata Extraction
 - GroupDocs.Metadata Java
 - Extract Nikon MakerNote
-
+type: docs
 ---
-
-
 # Extract Nikon JPEG Metadata with GroupDocs.Metadata Java: A Complete Guide
 
 ## Introduction

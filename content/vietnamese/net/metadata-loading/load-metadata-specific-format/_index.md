@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách tải siêu dữ liệu từ các định dạng tệp cụ thể bằng GroupDocs.Metadata cho .NET trong hướng dẫn toàn diện này.
 weight: 12
 url: /vi/net/metadata-loading/load-metadata-specific-format/
+type: docs
 ---
-
 # Đang tải siêu dữ liệu từ định dạng cụ thể trong .NET
 
 ## Giới thiệu

@@ -8,10 +8,8 @@ keywords:
 - extract Dublin Core metadata from EPUB
 - GroupDocs.Metadata .NET API
 - EPUB file management
-
+type: docs
 ---
-
-
 # How to Extract Dublin Core Metadata from EPUB Using GroupDocs.Metadata .NET
 
 ## Introduction

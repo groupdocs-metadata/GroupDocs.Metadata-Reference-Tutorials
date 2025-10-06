@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata 管理 .NET 中的文件元数据。从流中加载、编辑和删除元数据的分步指南。
 weight: 11
 url: /zh/net/metadata-loading/load-metadata-stream/
+type: docs
 ---
-
 # 在 .NET 教程中从流加载元数据
 
 ## 介绍

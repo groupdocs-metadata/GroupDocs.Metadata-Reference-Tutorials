@@ -8,10 +8,8 @@ keywords:
 - update word metadata
 - GroupDocs.Metadata .NET
 - programmatically update Word documents
-
+type: docs
 ---
-
-
 # How to Update Word Metadata Properties Using GroupDocs.Metadata .NET: A Comprehensive Tutorial
 
 ## Introduction

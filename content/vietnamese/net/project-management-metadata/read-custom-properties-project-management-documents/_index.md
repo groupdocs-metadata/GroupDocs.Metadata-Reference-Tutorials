@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất các thuộc tính tùy chỉnh từ tài liệu quản lý dự án .NET bằng GroupDocs.Metadata cho .NET. Tăng cường quản lý siêu dữ liệu của bạn.
 weight: 11
 url: /vi/net/project-management-metadata/read-custom-properties-project-management-documents/
+type: docs
 ---
-
 # Đọc Thuộc tính Tùy chỉnh trong Tài liệu Quản lý Dự án .NET
 
 ## Giới thiệu

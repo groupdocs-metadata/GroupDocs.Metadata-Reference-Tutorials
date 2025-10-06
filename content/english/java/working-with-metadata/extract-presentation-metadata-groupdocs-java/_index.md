@@ -9,10 +9,8 @@ keywords:
 - manage PowerPoint metadata
 - GroupDocs.Metadata Java
 - presentation metadata extraction
-
+type: docs
 ---
-
-
 # How to Extract Metadata from PowerPoint Presentations Using GroupDocs.Metadata in Java
 
 ## Introduction

@@ -8,10 +8,8 @@ keywords:
 - extract word metadata GroupDocs .NET
 - manage document metadata .NET
 - automate Word document management
-
+type: docs
 ---
-
-
 # Extract & Manage Word Metadata with GroupDocs for .NET: A Comprehensive Guide
 
 ## Introduction

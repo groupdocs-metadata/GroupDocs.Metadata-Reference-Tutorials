@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีแยกสถิติเอกสารจากไดอะแกรมใน .NET โดยใช้ GroupDocs.Metadata ซึ่งเป็นไลบรารีการจัดการข้อมูลเมตาที่มีประสิทธิภาพ
 weight: 12
 url: /th/net/diagram-metadata/read-document-statistics-diagrams/
+type: docs
 ---
-
 # อ่านสถิติเอกสารจากไดอะแกรมใน .NET
 
 ## การแนะนำ

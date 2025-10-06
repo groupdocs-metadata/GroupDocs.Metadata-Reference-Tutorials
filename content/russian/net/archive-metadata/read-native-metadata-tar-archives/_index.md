@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как извлечь метаданные из архивов TAR в .NET с помощью GroupDocs.Metadata. Это руководство шаг за шагом проведет вас через этот процесс.
 weight: 12
 url: /ru/net/archive-metadata/read-native-metadata-tar-archives/
+type: docs
 ---
-
 # Чтение собственных свойств метаданных из архивов TAR в .NET
 
 ## Введение

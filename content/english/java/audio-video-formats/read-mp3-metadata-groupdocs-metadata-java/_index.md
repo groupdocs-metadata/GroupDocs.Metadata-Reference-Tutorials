@@ -8,10 +8,8 @@ keywords:
 - MP3 metadata extraction Java
 - GroupDocs.Metadata library
 - MPEG audio properties
-
+type: docs
 ---
-
-
 # Mastering MP3 Metadata Extraction in Java with GroupDocs.Metadata
 
 ## Introduction

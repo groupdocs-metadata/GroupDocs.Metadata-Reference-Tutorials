@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να ενημερώνετε τις ενσωματωμένες ιδιότητες σε διαγράμματα χρησιμοποιώντας το GroupDocs.Metadata για .NET. Τροποποιήστε τα μεταδεδομένα απρόσκοπτα με παραδείγματα κώδικα.
 weight: 14
 url: /el/net/diagram-metadata/update-built-in-properties-diagrams/
+type: docs
 ---
-
 # Ενημερώστε τις ενσωματωμένες ιδιότητες σε διαγράμματα χρησιμοποιώντας .NET
 
 ## Εισαγωγή

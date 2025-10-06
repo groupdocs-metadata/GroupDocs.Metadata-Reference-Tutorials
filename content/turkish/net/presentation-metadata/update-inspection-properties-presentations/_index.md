@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API'si
 description: GroupDocs.Metadata ile .NET kullanarak sunumlardaki inceleme özelliklerini nasıl güncelleyeceğinizi öğrenin. .PPTX dosyaları için kolay, etkili meta veri işleme.
 weight: 17
 url: /tr/net/presentation-metadata/update-inspection-properties-presentations/
+type: docs
 ---
-
 # .NET kullanarak Sunumlardaki Denetim Özelliklerini Güncelleme
 
 ## giriiş

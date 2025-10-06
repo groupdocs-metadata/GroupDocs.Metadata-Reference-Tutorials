@@ -8,10 +8,8 @@ keywords:
 - remove photoshop metadata from jpeg
 - groupdocs.metadata for net
 - metadata manipulation in c#
-
+type: docs
 ---
-
-
 # How to Remove Photoshop Metadata from JPEG Images Using GroupDocs.Metadata for .NET
 
 ## Introduction

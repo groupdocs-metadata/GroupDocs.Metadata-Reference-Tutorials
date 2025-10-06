@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se číst vlastnosti formátu souboru z diagramů v .NET pomocí GroupDocs.Metadata. Extrahujte podrobná metadata bez námahy.
 weight: 13
 url: /cs/net/diagram-metadata/read-file-format-properties-diagrams/
+type: docs
 ---
-
 # Přečtěte si Vlastnosti formátu souboru z Diagramů v .NET
 
 ## Úvod

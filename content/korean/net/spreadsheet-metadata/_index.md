@@ -6,8 +6,8 @@ description: 스프레드시트 속성 읽기 및 업데이트에 대한 자습�
 
 weight: 27
 url: /ko/net/spreadsheet-metadata/
+type: docs
 ---
-
 # 스프레드시트 메타데이터
 
 ## 소개

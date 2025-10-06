@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Objevte výukové programy pro manipulaci se zvukovými metadaty pomocí GroupDocs.Metadata pro .NET. Naučte se efektivně extrahovat, aktualizovat a odstraňovat tagy ze souborů MP3 a WAV.
 weight: 22
 url: /cs/net/audio-metadata/
+type: docs
 ---
-
 # Metadata zvuku
 
 

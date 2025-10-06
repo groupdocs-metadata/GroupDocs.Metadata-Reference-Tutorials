@@ -8,10 +8,8 @@ keywords:
 - extract digital signatures open type fonts
 - GroupDocs.Metadata .NET
 - manage font metadata
-
+type: docs
 ---
-
-
 # How to Extract Digital Signatures from OpenType Fonts Using GroupDocs.Metadata .NET
 
 ## Introduction

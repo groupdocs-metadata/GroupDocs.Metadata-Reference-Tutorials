@@ -8,10 +8,8 @@ keywords:
 - extract EXIF metadata
 - GroupDocs.Metadata .NET library
 - EXIF properties extraction
-
+type: docs
 ---
-
-
 # How to Extract Basic EXIF Metadata Properties Using GroupDocs.Metadata .NET
 
 ## Introduction

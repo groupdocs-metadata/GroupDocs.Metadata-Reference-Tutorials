@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用してプレゼンテーション メタデータを抽出する方法を学びます。コメント、非表示のスライドなどにプログラムでアクセスします。
 weight: 14
 url: /ja/net/presentation-metadata/read-inspection-properties-presentations/
+type: docs
 ---
-
 # .NET のプレゼンテーションから検査プロパティを読み取る
 
 ## 導入

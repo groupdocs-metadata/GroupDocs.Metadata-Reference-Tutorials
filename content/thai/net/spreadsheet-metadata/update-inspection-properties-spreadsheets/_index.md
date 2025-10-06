@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีอัปเดตคุณสมบัติการตรวจสอบในสเปรดชีตโดยใช้ GroupDocs.Metadata สำหรับ .NET จัดการความคิดเห็น ลายเซ็น และแผ่นงานที่ซ่อนอยู่ได้อย่างง่ายดาย
 weight: 16
 url: /th/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # อัปเดตคุณสมบัติการตรวจสอบในสเปรดชีตโดยใช้ .NET
 
 ## การแนะนำ

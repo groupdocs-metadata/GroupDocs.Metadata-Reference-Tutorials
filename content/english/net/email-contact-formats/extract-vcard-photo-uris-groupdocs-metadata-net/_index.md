@@ -8,10 +8,8 @@ keywords:
 - Extract vCard Photo URIs .NET
 - GroupDocs.Metadata library
 - vCard contact management
-
+type: docs
 ---
-
-
 # Extracting vCard Photo URIs Using Aspose.Metadata in .NET
 
 ## Introduction

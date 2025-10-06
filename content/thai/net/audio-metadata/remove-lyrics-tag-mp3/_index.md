@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: เรียนรู้วิธีลบแท็กเนื้อเพลงออกจากไฟล์ MP3 โดยใช้ GroupDocs.Metadata สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการข้อมูลเมตาที่มีประสิทธิภาพ
 weight: 18
 url: /th/net/audio-metadata/remove-lyrics-tag-mp3/
+type: docs
 ---
-
 # ลบแท็กเนื้อเพลงออกจากไฟล์ MP3 ใน .NET
 
 ## การแนะนำ

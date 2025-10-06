@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: .NET के लिए GroupDocs.Metadata का उपयोग करके ZIP संग्रह से मेटाडेटा निकालने का तरीका जानें। मूल गुण पढ़ने के लिए चरण-दर-चरण निर्देशों का अन्वेषण करें।
 weight: 13
 url: /hi/net/archive-metadata/read-native-metadata-zip-archives/
+type: docs
 ---
-
 # .NET में ZIP अभिलेखागार से मूल मेटाडेटा गुण पढ़ें
 
 ## परिचय

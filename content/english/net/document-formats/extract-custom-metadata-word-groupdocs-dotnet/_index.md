@@ -8,10 +8,8 @@ keywords:
 - extract custom metadata from Word documents
 - GroupDocs.Metadata .NET library
 - manage document metadata
-
+type: docs
 ---
-
-
 # How to Extract Custom Metadata from Word Documents Using GroupDocs.Metadata .NET
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie benutzerdefinierte Eigenschaften in .NET-Projektmanagementdokumenten mithilfe von GroupDocs.Metadata für .NET aktualisieren. Verbessern Sie die Metadatenverwaltung in Ihren Anwendungen.
 weight: 13
 url: /de/net/project-management-metadata/update-custom-properties-project-management-documents/
+type: docs
 ---
-
 # Aktualisieren Sie benutzerdefinierte Eigenschaften in .NET-Projektmanagementdokumenten
 
 ## Einführung

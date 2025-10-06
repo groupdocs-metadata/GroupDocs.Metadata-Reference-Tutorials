@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat metadata prezentace pomocí GroupDocs.Metadata for .NET. Získejte přístup ke komentářům, skrytým snímkům a dalším programům.
 weight: 14
 url: /cs/net/presentation-metadata/read-inspection-properties-presentations/
+type: docs
 ---
-
 # Přečtěte si vlastnosti inspekce z prezentací v .NET
 
 ## Úvod

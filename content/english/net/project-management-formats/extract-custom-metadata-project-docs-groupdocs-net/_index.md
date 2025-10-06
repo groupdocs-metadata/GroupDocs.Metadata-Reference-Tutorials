@@ -8,10 +8,8 @@ keywords:
 - extract custom metadata
 - GroupDocs.Metadata .NET
 - project management documents
-
+type: docs
 ---
-
-
 # Extract Custom Metadata from Project Documents with GroupDocs.Metadata for .NET
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية إدارة بيانات تعريف المستند بكفاءة باستخدام GroupDocs.Metadata لـ .NET. قم باستخراج البيانات التعريفية وتحريرها والتعامل معها بسلاسة في تطبيقات .NET الخاصة بك.
 weight: 13
 url: /ar/net/metadata-loading/load-metadata-password-protected/
+type: docs
 ---
-
 # كيفية تحميل البيانات التعريفية من مستند محمي بكلمة مرور في .NET
 
 ## مقدمة

@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách quản lý siêu dữ liệu PDF dễ dàng với hướng dẫn GroupDocs.Metadata for .NET. Truy cập các thuộc tính tùy chỉnh và tích hợp sẵn bằng mã C#.
 weight: 24
 url: /vi/net/pdf-metadata/
+type: docs
 ---
-
 # Siêu dữ liệu PDF
 
 ## Giới thiệu

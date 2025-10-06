@@ -10,10 +10,8 @@ keywords:
 - custom metadata properties
 - presentation file metadata
 - extract metadata using Java
-
+type: docs
 ---
-
-
 # Mastering Metadata Extraction with GroupDocs.Metadata in Java
 
 ## Introduction

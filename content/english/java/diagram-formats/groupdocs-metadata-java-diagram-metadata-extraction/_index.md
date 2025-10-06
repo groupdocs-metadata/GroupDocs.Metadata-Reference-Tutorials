@@ -8,10 +8,8 @@ keywords:
 - extract custom metadata diagrams
 - GroupDocs.Metadata for Java
 - manage diagram file properties
-
+type: docs
 ---
-
-
 # How to Extract Custom Metadata from Diagrams Using GroupDocs.Metadata Java
 
 Extracting custom metadata from diagram files is essential for developers managing document properties. With GroupDocs.Metadata for Java, this process becomes seamless, allowing precise handling of metadata. This comprehensive guide walks you through the steps to extract custom metadata using the powerful GroupDocs.Metadata library.

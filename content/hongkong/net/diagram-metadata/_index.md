@@ -5,8 +5,8 @@ second_title: GroupDocs.元資料 .NET API
 description: 了解使用 GroupDocs.Metadata for .NET 管理圖表元資料的綜合教學。輕鬆提取、更新和分析屬性。
 weight: 23
 url: /zh-hant/net/diagram-metadata/
+type: docs
 ---
-
 # 圖元資料
 
 ## 介紹

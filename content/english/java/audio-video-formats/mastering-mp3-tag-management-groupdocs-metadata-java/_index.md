@@ -8,10 +8,8 @@ keywords:
 - MP3 tag management
 - ID3v2 tags
 - GroupDocs.Metadata for Java
-
+type: docs
 ---
-
-
 # Mastering Metadata Manipulation with GroupDocs.Metadata for Java
 ## Introduction
 Managing MP3 file tags can be cumbersome, especially when you need to remove or modify ID3v2 tags without compromising quality. This comprehensive tutorial guides you through adding and removing ID3v2 tags from MP3 files using GroupDocs.Metadata for Java, a powerful library that streamlines media management and maintains clean metadata.

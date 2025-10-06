@@ -6,8 +6,8 @@ description: Lås upp kraften i GroupDocs.Metadata för .NET med självstudiekur
 
 weight: 27
 url: /sv/net/spreadsheet-metadata/
+type: docs
 ---
-
 # Metadata för kalkylblad
 
 ## Introduktion

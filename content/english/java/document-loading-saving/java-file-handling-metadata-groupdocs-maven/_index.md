@@ -8,10 +8,8 @@ keywords:
 - Java File Handling
 - GroupDocs.Metadata for Java
 - Maven Setup
-
+type: docs
 ---
-
-
 # Mastering Java File Handling & Metadata Editing with GroupDocs.Metadata for Maven Projects
 
 ## Introduction

@@ -8,10 +8,8 @@ keywords:
 - remove annotations PDF Java
 - GroupDocs.Metadata for Java
 - clean up PDF files
-
+type: docs
 ---
-
-
 # How to Remove Annotations from a PDF using GroupDocs.Metadata in Java
 
 ## Introduction

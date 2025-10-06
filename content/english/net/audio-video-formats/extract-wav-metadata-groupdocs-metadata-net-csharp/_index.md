@@ -8,10 +8,8 @@ keywords:
 - extract WAV metadata
 - GroupDocs.Metadata for .NET
 - C# audio processing
-
+type: docs
 ---
-
-
 # Extract WAV Metadata Using GroupDocs.Metadata for .NET: A Developer's Guide to C# Audio Processing
 
 ## Introduction

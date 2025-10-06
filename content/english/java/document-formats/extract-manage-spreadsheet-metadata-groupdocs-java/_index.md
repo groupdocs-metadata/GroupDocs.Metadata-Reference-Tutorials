@@ -8,10 +8,8 @@ keywords:
 - extract spreadsheet metadata Java
 - manage spreadsheet metadata GroupDocs
 - spreadsheet metadata handling
-
+type: docs
 ---
-
-
 # Extract & Manage Spreadsheet Metadata with GroupDocs.Metadata Java
 
 ## Introduction

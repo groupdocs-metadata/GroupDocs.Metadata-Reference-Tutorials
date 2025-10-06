@@ -3,8 +3,8 @@ title: "Document Metadata Tutorials for GroupDocs.Metadata Java"
 description: "Complete tutorials for working with metadata in PDF, Word, Excel, PowerPoint and other document formats using GroupDocs.Metadata for Java."
 weight: 6
 url: "/java/document-formats/"
+type: docs
 ---
-
 # Document Metadata Tutorials for GroupDocs.Metadata Java
 
 Learn how to manage document metadata with our GroupDocs.Metadata Java tutorials for common document formats. These detailed guides demonstrate how to extract, modify, and remove metadata from PDF files, Word documents, Excel spreadsheets, PowerPoint presentations, and other document formats. Each tutorial includes working Java code examples that show how to implement professional metadata management solutions for document categorization, compliance, and information governance.

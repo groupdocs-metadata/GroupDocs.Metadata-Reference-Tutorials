@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách trích xuất siêu dữ liệu từ kho lưu trữ ZIP bằng GroupDocs.Metadata cho .NET. Khám phá hướng dẫn từng bước để đọc thuộc tính gốc.
 weight: 13
 url: /vi/net/archive-metadata/read-native-metadata-zip-archives/
+type: docs
 ---
-
 # Đọc thuộc tính siêu dữ liệu gốc từ kho lưu trữ ZIP trong .NET
 
 ## Giới thiệu

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用してスプレッドシートから検査プロパティを読み取る方法を学習します。コメント、デジタル署名、非表示のシートに簡単にアクセスできます。
 weight: 13
 url: /ja/net/spreadsheet-metadata/read-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # .NET のスプレッドシートから検査プロパティを読み取る
 
 ## 導入

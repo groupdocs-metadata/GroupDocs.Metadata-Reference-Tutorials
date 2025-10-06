@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: GroupDocs.Metadata, एक बहुमुखी मेटाडेटा हेरफेर लाइब्रेरी के साथ .NET का उपयोग करके प्रस्तुतियों में अंतर्निहित गुणों को अपडेट करना सीखें।
 weight: 15
 url: /hi/net/presentation-metadata/update-built-in-properties-presentations/
+type: docs
 ---
-
 # .NET का उपयोग करके प्रस्तुतियों में अंतर्निहित गुण अपडेट करें
 
 ## परिचय

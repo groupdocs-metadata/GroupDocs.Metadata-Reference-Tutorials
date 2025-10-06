@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ontgrendel het potentieel van .NET-projectmanagementdocumenten met GroupDocs.Metadata voor .NET-tutorials. Metagegevens moeiteloos extraheren, bijwerken en beheren.
 weight: 26
 url: /nl/net/project-management-metadata/
+type: docs
 ---
-
 # Metagegevens voor projectbeheer
 
 

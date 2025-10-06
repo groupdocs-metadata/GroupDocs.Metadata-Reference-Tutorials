@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara mengekstrak metadata dari dokumen Manajemen Proyek menggunakan GroupDocs.Metadata untuk .NET. Tingkatkan kemampuan pemrosesan dokumen Anda.
 weight: 10
 url: /id/net/project-management-metadata/read-built-in-properties-project-management-documents/
+type: docs
 ---
-
 # Baca Properti Bawaan di Dokumen Manajemen Proyek .NET
 
 ## Perkenalan

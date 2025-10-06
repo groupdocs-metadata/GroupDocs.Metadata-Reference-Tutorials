@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية تحديث الخصائص المضمنة في العروض التقديمية باستخدام .NET مع GroupDocs.Metadata، وهي مكتبة متعددة الاستخدامات لمعالجة بيانات التعريف.
 weight: 15
 url: /ar/net/presentation-metadata/update-built-in-properties-presentations/
+type: docs
 ---
-
 # قم بتحديث الخصائص المضمنة في العروض التقديمية باستخدام .NET
 
 ## مقدمة

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Learn how to load metadata from specific file formats using GroupDocs.Metadata for .NET in this comprehensive tutorial.
 weight: 12
 url: /net/metadata-loading/load-metadata-specific-format/
+type: docs
 ---
-
 # Loading Metadata from Specific Format in .NET
 
 ## Introduction

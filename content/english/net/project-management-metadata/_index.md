@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Unlock the potential of .NET project management documents with GroupDocs.Metadata for .NET tutorials. Extract, update, and manage metadata effortlessly.
 weight: 26
 url: /net/project-management-metadata/
+type: docs
 ---
-
 # Project Management Metadata
 
 

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak wyodrębnić metadane z archiwów TAR w .NET przy użyciu GroupDocs.Metadata. Ten samouczek przeprowadzi Cię przez proces krok po kroku.
 weight: 12
 url: /pl/net/archive-metadata/read-native-metadata-tar-archives/
+type: docs
 ---
-
 # Przeczytaj natywne właściwości metadanych z archiwów TAR w .NET
 
 ## Wstęp

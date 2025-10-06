@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Pelajari cara memperbarui properti kustom dalam diagram menggunakan .NET dengan GroupDocs.Metadata untuk .NET. Tingkatkan metadata dengan mudah.
 weight: 15
 url: /id/net/diagram-metadata/update-custom-properties-diagrams/
+type: docs
 ---
-
 # Perbarui Properti Kustom dalam Diagram menggunakan .NET
 
 ## Perkenalan

@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 PDF 파일 형식 속성을 추출하는 방법을 알아보세요. 간단한 C#을 사용하여 메타데이터 관리에 대해 알아보세요.
 weight: 13
 url: /ko/net/pdf-metadata/read-file-format-properties-pdfs/
+type: docs
 ---
-
 # .NET의 PDF에서 파일 형식 속성 읽기
 
 ## 소개

@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 프로그래밍 방식으로 가사, 아티스트, 앨범 세부 정보 등 MP3 파일 메타데이터를 업데이트하는 방법을 알아보세요.
 weight: 21
 url: /ko/net/audio-metadata/update-lyrics-tag-mp3/
+type: docs
 ---
-
 # .NET을 사용하여 MP3 파일의 가사 태그 업데이트
 
 ## 소개

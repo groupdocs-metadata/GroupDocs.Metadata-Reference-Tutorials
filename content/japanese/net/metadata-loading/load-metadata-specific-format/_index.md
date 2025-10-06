@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: この包括的なチュートリアルでは、GroupDocs.Metadata for .NET を使用して特定のファイル形式からメタデータを読み込む方法を学習します。
 weight: 12
 url: /ja/net/metadata-loading/load-metadata-specific-format/
+type: docs
 ---
-
 # .NET で特定の形式からメタデータを読み込む
 
 ## 導入

@@ -8,10 +8,8 @@ keywords:
 - extract diagram metadata
 - GroupDocs.Metadata for .NET
 - diagram file metadata
-
+type: docs
 ---
-
-
 # How to Extract Diagram Metadata Using GroupDocs.Metadata in .NET: A Comprehensive Guide
 
 ## Introduction

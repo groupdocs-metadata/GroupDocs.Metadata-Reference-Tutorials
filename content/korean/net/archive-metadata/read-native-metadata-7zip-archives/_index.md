@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 7Zip 아카이브에서 기본 메타데이터 속성을 읽는 방법을 알아보세요. .NET 애플리케이션의 데이터 관리 기능을 강화하세요.
 weight: 11
 url: /ko/net/archive-metadata/read-native-metadata-7zip-archives/
+type: docs
 ---
-
 # .NET의 7Zip 아카이브에서 기본 메타데이터 속성 읽기
 
 ## 소개

@@ -8,10 +8,8 @@ keywords:
 - Java metadata update
 - GroupDocs.Metadata for Java
 - automate file metadata
-
+type: docs
 ---
-
-
 # Automating Java Metadata Updates by Date Using GroupDocs.Metadata
 
 ## Introduction

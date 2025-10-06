@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata チュートリアルを使用して、.NET でプレゼンテーション メタデータを効率的に管理する方法を学びます。組み込みプロパティとカスタム プロパティに簡単にアクセスできます。
 weight: 25
 url: /ja/net/presentation-metadata/
+type: docs
 ---
-
 # プレゼンテーションメタデータ
 
 ## 導入

@@ -8,10 +8,8 @@ keywords:
 - GroupDocs Metadata Java
 - document metadata management
 - file loading optimization
-
+type: docs
 ---
-
-
 # Optimize File Loading with GroupDocs.Metadata Java
 
 ## Introduction

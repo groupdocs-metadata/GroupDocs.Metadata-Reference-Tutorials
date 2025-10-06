@@ -8,10 +8,8 @@ keywords:
 - Diagram Detection
 - GroupDocs.Metadata for Java
 - Metadata Management
-
+type: docs
 ---
-
-
 # Mastering Diagram Detection and Metadata Management in Java with GroupDocs.Metadata
 ## Introduction
 

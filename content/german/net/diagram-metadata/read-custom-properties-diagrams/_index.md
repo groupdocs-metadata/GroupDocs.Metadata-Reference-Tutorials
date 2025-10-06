@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie mit GroupDocs.Metadata benutzerdefinierte Eigenschaften aus Diagrammdateien in .NET extrahieren. Einfache Schritt-für-Schritt-Anleitung für Entwickler.
 weight: 11
 url: /de/net/diagram-metadata/read-custom-properties-diagrams/
+type: docs
 ---
-
 # Lesen Sie benutzerdefinierte Eigenschaften aus Diagrammen in .NET
 
 ## Einführung

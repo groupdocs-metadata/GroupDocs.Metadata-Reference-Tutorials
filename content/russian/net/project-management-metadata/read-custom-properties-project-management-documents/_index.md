@@ -5,8 +5,8 @@ second_title: GroupDocs.Метаданные .NET API
 description: Узнайте, как извлечь пользовательские свойства из документов управления проектами .NET с помощью GroupDocs.Metadata для .NET. Улучшите управление метаданными.
 weight: 11
 url: /ru/net/project-management-metadata/read-custom-properties-project-management-documents/
+type: docs
 ---
-
 # Чтение пользовательских свойств в документах по управлению проектами .NET.
 
 ## Введение

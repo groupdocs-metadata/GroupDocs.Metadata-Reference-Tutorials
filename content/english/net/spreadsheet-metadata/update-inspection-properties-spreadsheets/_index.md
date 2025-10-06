@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Learn how to update inspection properties in spreadsheets using GroupDocs.Metadata for .NET. Manage comments, signatures, and hidden sheets with ease.
 weight: 16
 url: /net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # Update Inspection Properties in Spreadsheets using .NET
 
 ## Introduction

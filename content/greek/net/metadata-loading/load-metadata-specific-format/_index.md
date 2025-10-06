@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Μάθετε πώς να φορτώνετε μεταδεδομένα από συγκεκριμένες μορφές αρχείων χρησιμοποιώντας το GroupDocs.Metadata για .NET σε αυτό το περιεκτικό σεμινάριο.
 weight: 12
 url: /el/net/metadata-loading/load-metadata-specific-format/
+type: docs
 ---
-
 # Φόρτωση μεταδεδομένων από συγκεκριμένη μορφή στο .NET
 
 ## Εισαγωγή

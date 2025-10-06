@@ -9,10 +9,8 @@ keywords:
 - GroupDocs.Metadata Java
 - media management systems
 - AVI file metadata
-
+type: docs
 ---
-
-
 # How to Extract AVI Metadata Using GroupDocs.Metadata in Java: A Developer’s Guide
 
 ## Introduction

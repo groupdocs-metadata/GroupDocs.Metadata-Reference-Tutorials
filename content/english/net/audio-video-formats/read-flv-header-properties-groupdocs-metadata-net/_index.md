@@ -8,10 +8,8 @@ keywords:
 - read FLV header properties
 - GroupDocs.Metadata for .NET
 - FLV file metadata
-
+type: docs
 ---
-
-
 # How to Read FLV Header Properties Using GroupDocs.Metadata for .NET (Step-by-Step Guide)
 
 ## Introduction

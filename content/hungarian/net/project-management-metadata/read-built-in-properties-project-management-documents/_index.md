@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Tanuljon meg metaadatokat kinyerni projektmenedzsment dokumentumokból a GroupDocs.Metadata for .NET segítségével. Növelje dokumentumfeldolgozási képességeit.
 weight: 10
 url: /hu/net/project-management-metadata/read-built-in-properties-project-management-documents/
+type: docs
 ---
-
 # Olvassa el a beépített tulajdonságokat a .NET projektmenedzsment dokumentumokban
 
 ## Bevezetés

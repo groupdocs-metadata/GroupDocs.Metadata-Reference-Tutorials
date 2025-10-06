@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak wyodrębniać metadane z plików diagramów w platformie .NET przy użyciu GroupDocs.Metadata. Usprawnij skutecznie zarządzanie dokumentami i ich analizę.
 weight: 10
 url: /pl/net/diagram-metadata/read-built-in-properties-diagrams/
+type: docs
 ---
-
 # Czytaj wbudowane właściwości z diagramów w .NET
 
 ## Wstęp

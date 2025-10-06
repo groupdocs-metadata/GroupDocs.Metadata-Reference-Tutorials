@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se extrahovat uživatelské vlastnosti ze souborů diagramů v .NET pomocí GroupDocs.Metadata. Jednoduchý průvodce krok za krokem pro vývojáře.
 weight: 11
 url: /cs/net/diagram-metadata/read-custom-properties-diagrams/
+type: docs
 ---
-
 # Přečtěte si uživatelské vlastnosti z Diagramů v .NET
 
 ## Úvod

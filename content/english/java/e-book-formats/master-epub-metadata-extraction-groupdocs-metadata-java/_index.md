@@ -8,10 +8,8 @@ keywords:
 - EPUB metadata extraction
 - GroupDocs.Metadata Java
 - digital publishing metadata
-
+type: docs
 ---
-
-
 # Mastering EPUB Metadata Extraction with GroupDocs.Metadata in Java
 Unlock the potential of digital publishing by leveraging the power of metadata extraction from EPUB files using GroupDocs.Metadata in Java. This guide will walk you through extracting essential information such as version details, unique identifiers, and image covers within your EPUB files.
 

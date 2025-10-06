@@ -8,10 +8,8 @@ keywords:
 - EPUB Dublin Core Metadata
 - Java EPUB metadata update
 - GroupDocs.Metadata for Java
-
+type: docs
 ---
-
-
 # How to Update EPUB Dublin Core Metadata Using Java and GroupDocs.Metadata
 
 ## Introduction

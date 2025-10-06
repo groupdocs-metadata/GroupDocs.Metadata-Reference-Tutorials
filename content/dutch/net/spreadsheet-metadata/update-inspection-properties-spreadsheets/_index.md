@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u inspectie-eigenschappen in spreadsheets kunt bijwerken met GroupDocs.Metadata voor .NET. Beheer eenvoudig opmerkingen, handtekeningen en verborgen werkbladen.
 weight: 16
 url: /nl/net/spreadsheet-metadata/update-inspection-properties-spreadsheets/
+type: docs
 ---
-
 # Update inspectie-eigenschappen in spreadsheets met .NET
 
 ## Invoering

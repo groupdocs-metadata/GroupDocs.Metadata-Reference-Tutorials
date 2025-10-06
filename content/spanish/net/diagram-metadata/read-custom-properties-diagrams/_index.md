@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Aprenda a extraer propiedades personalizadas de archivos de diagrama en .NET usando GroupDocs.Metadata. Guía sencilla paso a paso para desarrolladores.
 weight: 11
 url: /es/net/diagram-metadata/read-custom-properties-diagrams/
+type: docs
 ---
-
 # Leer propiedades personalizadas de diagramas en .NET
 
 ## Introducción

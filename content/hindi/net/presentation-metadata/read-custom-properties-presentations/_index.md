@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET एपीआई
 description: GroupDocs.Metadata का उपयोग करके .NET में प्रस्तुतियों से कस्टम गुणों को पढ़ने का तरीका जानें। मेटाडेटा तक कुशलतापूर्वक पहुंचें और पुनः प्राप्त करें।
 weight: 11
 url: /hi/net/presentation-metadata/read-custom-properties-presentations/
+type: docs
 ---
-
 # .NET में प्रस्तुतियों से कस्टम गुण पढ़ें
 
 ## परिचय

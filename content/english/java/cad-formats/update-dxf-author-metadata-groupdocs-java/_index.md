@@ -8,10 +8,8 @@ keywords:
 - update DXF author metadata
 - GroupDocs.Metadata for Java
 - metadata management in CAD files
-
+type: docs
 ---
-
-
 # Update DXF Author Metadata with GroupDocs.Metadata Java: A Developer's Guide
 
 ## Introduction

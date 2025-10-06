@@ -8,10 +8,8 @@ keywords:
 - extract custom PDF metadata
 - GroupDocs.Metadata .NET
 - PDF document management
-
+type: docs
 ---
-
-
 # How to Extract Custom Metadata Properties from a PDF Document Using GroupDocs.Metadata .NET
 
 ## Introduction

@@ -8,10 +8,8 @@ keywords:
 - Java Metadata Handling
 - GroupDocs.Metadata
 - IPTC Keywords
-
+type: docs
 ---
-
-
 # Implementing Java Metadata Handling with GroupDocs.Metadata: Add and Retrieve IPTC Keywords
 
 Managing metadata is crucial in digital asset management, especially for images or documents that require detailed descriptive information. This tutorial focuses on leveraging the powerful GroupDocs.Metadata library to initialize, set, add, and retrieve IPTC keywords in Java. By integrating this functionality into your applications, you can significantly enhance data organization and searchability.

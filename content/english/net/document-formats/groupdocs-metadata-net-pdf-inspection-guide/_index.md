@@ -8,10 +8,8 @@ keywords:
 - PDF inspection
 - GroupDocs.Metadata .NET
 - PDF metadata management
-
+type: docs
 ---
-
-
 # Comprehensive Guide to PDF Inspection with GroupDocs.Metadata .NET
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Leer hoe u aangepaste eigenschappen uit spreadsheets kunt extraheren met GroupDocs.Metadata voor .NET. Verbeter de manipulatie van metagegevens in uw .NET-applicaties.
 weight: 11
 url: /nl/net/spreadsheet-metadata/read-custom-properties-spreadsheets/
+type: docs
 ---
-
 # Lees aangepaste eigenschappen van spreadsheets in .NET
 
 ## Invoering

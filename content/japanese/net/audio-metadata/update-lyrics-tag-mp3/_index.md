@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: GroupDocs.Metadata for .NET を使用して、歌詞、アーティスト、アルバムの詳細などの MP3 ファイルのメタデータをプログラムで更新する方法を学びます。
 weight: 21
 url: /ja/net/audio-metadata/update-lyrics-tag-mp3/
+type: docs
 ---
-
 # .NET を使用して MP3 ファイルの歌詞タグを更新する
 
 ## 導入

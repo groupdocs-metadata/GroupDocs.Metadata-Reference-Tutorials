@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan bonthat ki PDF-dokumentumstatisztikát a GroupDocs.Metadata for .NET használatával. Fokozatmentesen fokozza dokumentumkezelési képességeit.
 weight: 12
 url: /hu/net/pdf-metadata/read-document-statistics-pdfs/
+type: docs
 ---
-
 # Dokumentumstatisztikák olvasása PDF-ekből a .NET-ben
 
 ## Bevezetés

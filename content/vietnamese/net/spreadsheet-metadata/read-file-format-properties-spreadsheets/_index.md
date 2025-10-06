@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Tìm hiểu cách đọc thuộc tính định dạng tệp bảng tính bằng GroupDocs.Metadata cho .NET. Truy cập định dạng tệp, loại MIME và hơn thế nữa bằng các lệnh gọi API đơn giản.
 weight: 12
 url: /vi/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
+type: docs
 ---
-
 # Đọc thuộc tính định dạng tệp từ bảng tính trong .NET
 
 ## Giới thiệu

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: Zaktualizuj znaczniki ID3V1 w plikach MP3 przy użyciu GroupDocs.Metadata dla .NET. Skorzystaj z tego samouczka, aby łatwo manipulować metadanymi w aplikacjach .NET.
 weight: 19
 url: /pl/net/audio-metadata/update-id3v1-tag-mp3/
+type: docs
 ---
-
 # Zaktualizuj znacznik ID3V1 w plikach MP3 przy użyciu platformy .NET
 
 ## Wstęp

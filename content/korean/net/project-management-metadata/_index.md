@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata 튜토리얼을 통해 .NET 프로젝트 관리 문서의 잠재력을 활용해 보세요. 메타데이터를 쉽게 추출, 업데이트 및 관리할 수 있습니다.
 weight: 26
 url: /ko/net/project-management-metadata/
+type: docs
 ---
-
 # 프로젝트 관리 메타데이터
 
 

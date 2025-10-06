@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: tego obszernego samouczka dowiesz się, jak wyodrębnić wbudowane właściwości z prezentacji przy użyciu GroupDocs.Metadata dla platformy .NET.
 weight: 10
 url: /pl/net/presentation-metadata/read-built-in-properties-presentations/
+type: docs
 ---
-
 # Przeczytaj właściwości wbudowane z prezentacji w platformie .NET
 
 ## Wstęp

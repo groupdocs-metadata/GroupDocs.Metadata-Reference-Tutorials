@@ -8,10 +8,8 @@ keywords:
 - remove EXIF metadata
 - GroupDocs.Metadata .NET
 - strip EXIF data JPEG
-
+type: docs
 ---
-
-
 # How to Remove EXIF Metadata from JPEG Files Using GroupDocs.Metadata .NET
 
 ## Introduction

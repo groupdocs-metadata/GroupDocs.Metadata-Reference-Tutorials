@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Discover comprehensive tutorials on managing diagram metadata with GroupDocs.Metadata for .NET. Extract, update, and analyze properties effortlessly.
 weight: 23
 url: /net/diagram-metadata/
+type: docs
 ---
-
 # Diagram Metadata
 
 ## Introduction

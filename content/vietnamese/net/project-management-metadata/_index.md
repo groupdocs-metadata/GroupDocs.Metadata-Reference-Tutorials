@@ -5,8 +5,8 @@ second_title: API GroupDocs.Metadata .NET
 description: Khai phá tiềm năng của các tài liệu quản lý dự án .NET với hướng dẫn GroupDocs.Metadata dành cho .NET. Trích xuất, cập nhật và quản lý siêu dữ liệu một cách dễ dàng.
 weight: 26
 url: /vi/net/project-management-metadata/
+type: docs
 ---
-
 # Siêu dữ liệu quản lý dự án
 
 

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: ปลดล็อกศักยภาพของเอกสารการจัดการโครงการ .NET ด้วยบทเรียน GroupDocs.Metadata สำหรับ .NET แยก อัปเดต และจัดการข้อมูลเมตาได้อย่างง่ายดาย
 weight: 26
 url: /th/net/project-management-metadata/
+type: docs
 ---
-
 # ข้อมูลเมตาการจัดการโครงการ
 
 

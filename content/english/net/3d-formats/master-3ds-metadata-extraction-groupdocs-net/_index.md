@@ -8,10 +8,8 @@ keywords:
 - .3ds metadata extraction
 - GroupDocs.Metadata .NET
 - 3D formats
-
+type: docs
 ---
-
-
 # Efficient .3DS Metadata Extraction with GroupDocs.Metadata for .NET
 
 ## Introduction

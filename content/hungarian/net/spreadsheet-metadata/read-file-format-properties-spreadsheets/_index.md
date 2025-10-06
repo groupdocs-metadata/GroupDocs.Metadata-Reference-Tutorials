@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Ismerje meg, hogyan olvassa el a táblázatfájl-formátum tulajdonságait a GroupDocs.Metadata for .NET használatával. Egyszerű API-hívásokkal elérheti a fájlformátumot, MIME-típust és még sok mást.
 weight: 12
 url: /hu/net/spreadsheet-metadata/read-file-format-properties-spreadsheets/
+type: docs
 ---
-
 # Olvassa el a Fájlformátum tulajdonságait a .NET-ben található táblázatokból
 
 ## Bevezetés

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: Naučte se aktualizovat uživatelské vlastnosti v diagramech pomocí .NET pomocí GroupDocs.Metadata for .NET. Snadno vylepšete metadata.
 weight: 15
 url: /cs/net/diagram-metadata/update-custom-properties-diagrams/
+type: docs
 ---
-
 # Aktualizujte uživatelské vlastnosti v diagramech pomocí .NET
 
 ## Úvod

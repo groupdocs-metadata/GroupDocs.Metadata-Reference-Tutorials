@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET-API
 description: Erfahren Sie, wie Sie benutzerdefinierte Eigenschaften in PDF-Dateien mit .NET und GroupDocs.Metadata aktualisieren. Einfache Schritte zur effizienten Bearbeitung von PDF-Metadaten.
 weight: 16
 url: /de/net/pdf-metadata/update-custom-properties-pdfs/
+type: docs
 ---
-
 # Aktualisieren Sie benutzerdefinierte Eigenschaften in PDFs mit .NET
 
 ## Einführung

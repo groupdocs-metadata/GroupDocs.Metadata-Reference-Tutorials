@@ -3,8 +3,8 @@ title: "Metadata Standards Implementation with GroupDocs.Metadata for .NET"
 description: "Step-by-step tutorials for working with EXIF, XMP, IPTC, and other metadata standards using GroupDocs.Metadata for .NET."
 weight: 4
 url: "/net/metadata-standards/"
+type: docs
 ---
-
 # Metadata Standards Implementation with GroupDocs.Metadata for .NET
 
 Our metadata standards tutorials provide comprehensive guidance for implementing industry-standard metadata formats with GroupDocs.Metadata in .NET. These practical guides demonstrate how to read, write, and manipulate EXIF metadata in images, work with XMP properties across multiple file formats, and handle IPTC information for media assets. Each tutorial includes complete C# code examples for working with standardized metadata, helping you build applications that maintain compatibility with professional workflows and tools.

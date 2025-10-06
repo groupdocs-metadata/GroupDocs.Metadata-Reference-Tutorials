@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata .NET API
 description: تعرف على كيفية استخراج البيانات التعريفية من أرشيفات TAR في .NET باستخدام GroupDocs.Metadata. يرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة.
 weight: 12
 url: /ar/net/archive-metadata/read-native-metadata-tar-archives/
+type: docs
 ---
-
 # اقرأ خصائص بيانات التعريف الأصلية من أرشيفات TAR في .NET
 
 ## مقدمة

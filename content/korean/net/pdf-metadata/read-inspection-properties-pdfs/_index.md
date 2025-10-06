@@ -5,8 +5,8 @@ second_title: GroupDocs.메타데이터 .NET API
 description: .NET용 GroupDocs.Metadata를 사용하여 PDF 문서에서 검사 속성을 추출하는 방법을 알아보세요. 주석, 첨부 파일 등을 살펴보세요.
 weight: 14
 url: /ko/net/pdf-metadata/read-inspection-properties-pdfs/
+type: docs
 ---
-
 # .NET의 PDF에서 검사 속성 읽기
 
 ## 소개

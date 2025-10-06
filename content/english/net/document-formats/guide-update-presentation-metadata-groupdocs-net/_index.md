@@ -8,10 +8,8 @@ keywords:
 - GroupDocs.Metadata for .NET
 - presentation metadata update
 - custom metadata management
-
+type: docs
 ---
-
-
 # How to Update Presentation Metadata Using GroupDocs.Metadata for .NET
 
 ## Introduction

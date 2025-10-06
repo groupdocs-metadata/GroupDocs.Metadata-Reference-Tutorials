@@ -5,8 +5,8 @@ second_title: GroupDocs.元数据 .NET API
 description: 了解如何使用 GroupDocs.Metadata for .NET 从 MP3 文件读取 APE 标签。通过分步指导探索 C# 中的元数据提取。
 weight: 10
 url: /zh/net/audio-metadata/read-ape-tag-mp3/
+type: docs
 ---
-
 # 从 .NET 中的 MP3 文件读取 APE 标签
 
 ## 介绍

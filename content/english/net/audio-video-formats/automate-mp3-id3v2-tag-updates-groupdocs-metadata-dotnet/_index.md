@@ -8,10 +8,8 @@ keywords:
 - automate MP3 ID3v2 tag updates
 - GroupDocs.Metadata for .NET
 - update MP3 tags
-
+type: docs
 ---
-
-
 # Automate MP3 ID3v2 Tag Updates Using GroupDocs.Metadata for .NET: A Step-by-Step Guide
 
 ## Introduction

@@ -5,8 +5,8 @@ second_title: GroupDocs.Metadata API .NET
 description: Dowiedz się, jak aktualizować właściwości niestandardowe w dokumentach zarządzania projektami .NET przy użyciu GroupDocs.Metadata dla .NET. Usprawnij zarządzanie metadanymi w swoich aplikacjach.
 weight: 13
 url: /pl/net/project-management-metadata/update-custom-properties-project-management-documents/
+type: docs
 ---
-
 # Zaktualizuj właściwości niestandardowe w dokumentach zarządzania projektami .NET
 
 ## Wstęp

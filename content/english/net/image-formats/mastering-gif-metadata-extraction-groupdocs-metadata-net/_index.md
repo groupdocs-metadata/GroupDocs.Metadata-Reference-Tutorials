@@ -8,10 +8,8 @@ keywords:
 - GIF Metadata Extraction
 - GroupDocs.Metadata .NET
 - C# Image Metadata Handling
-
+type: docs
 ---
-
-
 # Extracting GIF Metadata with GroupDocs.Metadata .NET: A Complete Guide for Developers
 
 ## Introduction

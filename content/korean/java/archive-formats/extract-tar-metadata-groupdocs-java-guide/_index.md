@@ -1,19 +1,20 @@
 ---
-title: "How to Read TAR Files and Extract Metadata with GroupDocs.Metadata for Java"
-description: "Learn how to read tar archives and extract their metadata using GroupDocs.Metadata for Java in this step-by-step guide."
-date: "2025-12-18"
-weight: 1
-url: "/java/archive-formats/extract-tar-metadata-groupdocs-java-guide/"
+date: '2025-12-18'
+description: 이 단계별 가이드에서 GroupDocs.Metadata for Java를 사용하여 tar 아카이브를 읽고 메타데이터를 추출하는
+  방법을 배워보세요.
 keywords:
 - extract TAR metadata
 - GroupDocs.Metadata for Java
 - TAR archive metadata
+title: Java용 GroupDocs.Metadata를 사용하여 TAR 파일을 읽고 메타데이터 추출하는 방법
 type: docs
+url: /ko/java/archive-formats/extract-tar-metadata-groupdocs-java-guide/
+weight: 1
 ---
 
-# How to Read TAR Files and Extract Metadata with GroupDocs.Metadata for Java
+# GroupDocs.Metadata for Java를 사용하여 TAR 파일을 읽고 메타데이터 추출하는 방법
 
-Extracting metadata from archive files such as **.tar** can feel daunting, especially when you’re searching for a reliable way to **how to read tar** files programmatically. In this guide we’ll walk you through a clear, hands‑on process using GroupDocs.Metadata for Java, so you can confidently read tar archives, pull out file‑level details, and integrate the results into your applications.
+아카이브 파일인 **.tar** 에서 메타데이터를 추출하는 일은 특히 **how to read tar** 파일을 프로그래밍 방식으로 읽는 신뢰할 만한 방법을 찾고 있을 때 어려워 보일 수 있습니다. 이 가이드에서는 GroupDocs.Metadata for Java를 활용한 명확하고 실전적인 과정을 단계별로 안내하므로, tar 아카이브를 자신 있게 읽고 파일 수준의 세부 정보를 추출한 뒤 결과를 애플리케이션에 통합할 수 있습니다.
 
 ## Quick Answers
 - **What library handles TAR metadata in Java?** GroupDocs.Metadata for Java  

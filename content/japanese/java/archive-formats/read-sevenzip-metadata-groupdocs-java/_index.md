@@ -1,17 +1,18 @@
 ---
-title: "How to Read SevenZip Metadata with GroupDocs.Metadata in Java"
-description: "Learn how to read SevenZip archive metadata using GroupDocs.Metadata for Java, a key step in metadata extraction Java projects."
-date: "2025-12-20"
-weight: 1
-url: "/java/archive-formats/read-sevenzip-metadata-groupdocs-java/"
+date: '2025-12-20'
+description: Java 用の GroupDocs.Metadata を使用して SevenZip アーカイブのメタデータを読み取る方法を学びましょう。これはメタデータ抽出
+  Java プロジェクトにおける重要なステップです。
 keywords:
 - SevenZip metadata Java
 - extract SevenZip archive information
 - read SevenZip file properties
+title: JavaでGroupDocs.Metadataを使用してSevenZipメタデータを読み取る方法
 type: docs
+url: /ja/java/archive-formats/read-sevenzip-metadata-groupdocs-java/
+weight: 1
 ---
 
-# How to Read SevenZip Metadata with GroupDocs.Metadata in Java
+# JavaでGroupDocs.Metadataを使用してSevenZipメタデータを読む方法
 
 If you need to **how to read sevenzip** archive information from a Java application, you’ve come to the right place. In this tutorial we’ll walk through using **GroupDocs.Metadata** to pull out file names, sizes, dates and more—exactly the data you need for backup validation, synchronization, or storage‑optimization tasks.
 
@@ -209,6 +210,4 @@ When working with GroupDocs.Metadata and large archives, keep these tips in mind
 
 **Last Updated:** 2025-12-20  
 **Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
----
+**Author:** GroupDocs

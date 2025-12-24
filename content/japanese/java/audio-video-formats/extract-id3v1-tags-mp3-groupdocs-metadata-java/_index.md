@@ -1,19 +1,19 @@
 ---
-title: "How to Extract ID3v1 Tags from MP3 Files Using GroupDocs.Metadata Java API"
-description: "Learn how to extract ID3v1 tags from MP3 files using GroupDocs.Metadata in Java. This tutorial covers setup, code implementation, and best practices."
-date: "2025-12-24"
-weight: 1
-url: "/java/audio-video-formats/extract-id3v1-tags-mp3-groupdocs-metadata-java/"
+date: '2025-12-24'
+description: JavaでGroupDocs.Metadataを使用してMP3ファイルからID3v1タグを抽出する方法を学びましょう。このチュートリアルでは、セットアップ、コード実装、ベストプラクティスをカバーしています。
 keywords:
 - extract ID3v1 tags MP3
 - groupdocs.metadata java api
 - reading metadata from audio files
+title: GroupDocs.Metadata Java API を使用して MP3 ファイルから ID3v1 タグを抽出する方法
 type: docs
+url: /ja/java/audio-video-formats/extract-id3v1-tags-mp3-groupdocs-metadata-java/
+weight: 1
 ---
 
 # How to Extract ID3v1 Tags from MP3 Files Using GroupDocs.Metadata Java API
 
-Managing metadata efficiently is crucial for developers working with audio files. Extracting ID3v1 tags from MP3 files can be challenging without the right tools, but the GroupDocs.Metadata library simplifies this process. **In this guide, you’ll learn how to extract ID3v1 tags from MP3 files using GroupDocs.Metadata**, so you can quickly read MP3 metadata in Java and integrate it into your applications.
+オーディオファイルを扱う開発者にとって、メタデータを効率的に管理することは非常に重要です。適切なツールがなければ MP3 ファイルから ID3v1 タグを抽出するのは困難ですが、GroupDocs.Metadata ライブラリを使用すればこのプロセスがシンプルになります。**このガイドでは、GroupDocs.Metadata を使用して MP3 ファイルから ID3v1 タグを抽出する方法を学び、Java で MP3 メタデータをすばやく読み取り、アプリケーションに統合できるようにします。**
 
 ## Quick Answers
 - **What does “how to extract id3v1” mean?** It refers to reading the legacy ID3v1 tag block embedded at the end of an MP3 file.  
@@ -23,7 +23,7 @@ Managing metadata efficiently is crucial for developers working with audio files
 - **What Java version is required?** Java 8 or later; the library is compatible with newer JDKs as well.
 
 ## What is “how to extract id3v1”?
-ID3v1 is a 128‑byte metadata block located at the very end of an MP3 file. It stores basic information such as **title, artist, album, year, comment, and genre**. Although newer formats like ID3v2 are more feature‑rich, many legacy files still rely on ID3v1, making it important to know how to extract it.
+ID3v1 は、MP3 ファイルの最終部に位置する 128 バイトのメタデータブロックです。**title（タイトル）、artist（アーティスト）、album（アルバム）、year（年）、comment（コメント）、genre（ジャンル）** といった基本情報を格納します。ID3v2 のような新しいフォーマットは機能が豊富ですが、レガシーなファイルの多くは依然として ID3v1 に依存しているため、抽出方法を知っておくことが重要です。
 
 ## Why use GroupDocs.Metadata to read MP3 metadata in Java?
 - **Zero‑dependency parsing** – the library handles low‑level byte reading for you.  

@@ -1,49 +1,50 @@
 ---
-title: "How to Extract ASF Metadata with GroupDocs.Metadata for Java"
-description: "Learn how to extract ASF metadata using GroupDocs.Metadata for Java. This guide covers setup, reading properties, and accessing codec information."
-date: "2025-12-26"
-weight: 1
-url: "/java/audio-video-formats/master-asf-metadata-extraction-groupdocs-java/"
+date: '2025-12-26'
+description: GroupDocs.Metadata for Java를 사용하여 ASF 메타데이터를 추출하는 방법을 배웁니다. 이 가이드는 설정,
+  속성 읽기 및 코덱 정보 액세스를 다룹니다.
 keywords:
 - ASF Metadata Extraction
 - GroupDocs.Metadata for Java
 - Java Media Management
+title: Java용 GroupDocs.Metadata로 ASF 메타데이터 추출하는 방법
 type: docs
+url: /ko/java/audio-video-formats/master-asf-metadata-extraction-groupdocs-java/
+weight: 1
 ---
 
 # Extract ASF Metadata with GroupDocs.Metadata for Java
 
 **Introduction**
 
-In today's digital landscape, efficiently managing multimedia content is crucial. If you need to **extract ASF metadata** from your media files, doing it manually can be time‑consuming and error‑prone. This tutorial walks you through using **GroupDocs.Metadata for Java** to read and display a wide range of ASF properties, empowering you to organize, search, and process your assets with confidence.
+오늘날 디지털 환경에서는 멀티미디어 콘텐츠를 효율적으로 관리하는 것이 매우 중요합니다. 미디어 파일에서 **ASF 메타데이터를 추출**해야 할 경우, 수동으로 수행하면 시간도 많이 걸리고 오류가 발생하기 쉽습니다. 이 튜토리얼에서는 **GroupDocs.Metadata for Java**를 사용하여 다양한 ASF 속성을 읽고 표시하는 방법을 단계별로 안내합니다. 이를 통해 자산을 체계적으로 정리하고, 검색하며, 자신 있게 처리할 수 있습니다.
 
 ### What You’ll Learn
-- How to set up GroupDocs.Metadata in a Java project  
-- How to **extract ASF metadata** such as creation date, file ID, and flags  
-- How to read codec information embedded in ASF files  
-- How to display detailed metadata descriptors and base‑stream properties  
+- Java 프로젝트에 GroupDocs.Metadata를 설정하는 방법  
+- 생성 날짜, 파일 ID, 플래그와 같은 **ASF 메타데이터를 추출**하는 방법  
+- ASF 파일에 포함된 코덱 정보를 읽는 방법  
+- 상세 메타데이터 디스크립터와 베이스 스트림 속성을 표시하는 방법  
 
-Let's get started with the prerequisites.
+필수 사전 준비 사항을 확인해 보겠습니다.
 
 ## Quick Answers
-- **What does “extract ASF metadata” mean?** It means reading embedded information (e.g., timestamps, codecs, descriptors) from an ASF file programmatically.  
-- **Which library is required?** GroupDocs.Metadata for Java (version 24.12 or later).  
-- **Do I need a license?** A free trial or temporary license works for development; a full license is needed for production.  
-- **What Java version is supported?** JDK 8 or higher.  
-- **Can I use Maven?** Yes – Maven is the recommended dependency manager.
+- **What does “extract ASF metadata” mean?** 프로그래밍 방식으로 ASF 파일에서 임베드된 정보(예: 타임스탬프, 코덱, 디스크립터)를 읽는 것을 의미합니다.  
+- **Which library is required?** GroupDocs.Metadata for Java (버전 24.12 이상).  
+- **Do I need a license?** 개발 단계에서는 무료 체험 또는 임시 라이선스로 충분하지만, 프로덕션에서는 정식 라이선스가 필요합니다.  
+- **What Java version is supported?** JDK 8 이상.  
+- **Can I use Maven?** 예 – Maven이 권장되는 의존성 관리 도구입니다.
 
 ## Prerequisites
 
-- **Java Development Kit (JDK)** 8 or newer installed.  
-- **IDE** such as IntelliJ IDEA or Eclipse for convenient coding.  
-- **Maven** configured in your IDE (optional but recommended).  
-- Basic familiarity with Java and external libraries.
+- **Java Development Kit (JDK)** 8 이상 설치  
+- **IDE**(IntelliJ IDEA 또는 Eclipse 등) 사용 권장  
+- **Maven**을 IDE에 설정(선택 사항이지만 권장)  
+- Java와 외부 라이브러리에 대한 기본 지식
 
 ## Setting Up GroupDocs.Metadata for Java
 
 ### Maven Installation
 
-Add the repository and dependency to your `pom.xml`:
+`pom.xml`에 저장소와 의존성을 추가합니다:
 
 ```xml
 <repositories>
@@ -65,17 +66,17 @@ Add the repository and dependency to your `pom.xml`:
 
 ### Direct Download
 
-If you prefer not to use Maven, download the latest JAR from [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Maven을 사용하지 않으려면 최신 JAR 파일을 [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)에서 다운로드하십시오.
 
 ### Licensing Overview
 
-- **Free Trial** – Available on the GroupDocs website for evaluation.  
-- **Temporary License** – Lets you explore all features without restrictions during development.  
-- **Full License** – Required for commercial or production deployments.
+- **Free Trial** – GroupDocs 웹사이트에서 평가용으로 제공  
+- **Temporary License** – 개발 중 모든 기능을 제한 없이 사용할 수 있음  
+- **Full License** – 상업적·프로덕션 환경에 필요
 
 ### Basic Initialization
 
-Below is the minimal code needed to open an ASF file with GroupDocs.Metadata:
+아래 코드는 GroupDocs.Metadata를 사용해 ASF 파일을 여는 최소 예제입니다:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -91,22 +92,22 @@ class MetadataExample {
 
 ## What Is ASF Metadata?
 
-ASF (Advanced Systems Format) is a Microsoft streaming format that stores audio, video, and metadata in a single container. The metadata includes creation timestamps, codec details, stream descriptors, and more. By **extracting ASF metadata**, you gain programmatic insight into file origins, encoding parameters, and content descriptions—essential for media libraries, transcoding pipelines, and compliance audits.
+ASF(Advanced Systems Format)는 Microsoft 스트리밍 포맷으로 오디오, 비디오 및 메타데이터를 하나의 컨테이너에 저장합니다. 메타데이터에는 생성 타임스탬프, 코덱 세부 정보, 스트림 디스크립터 등이 포함됩니다. **ASF 메타데이터를 추출**하면 파일 출처, 인코딩 파라미터, 콘텐츠 설명 등에 대한 프로그래밍적 인사이트를 얻을 수 있어 미디어 라이브러리, 트랜스코딩 파이프라인, 규정 준수 감사 등에 필수적입니다.
 
 ## Why Extract ASF Metadata with GroupDocs.Metadata?
 
-- **Zero‑code parsing** – No need to implement low‑level ASF parsers.  
-- **Rich object model** – Access properties, codecs, descriptors, and stream details through intuitive Java classes.  
-- **Cross‑platform** – Works on any OS that supports Java.  
-- **License flexibility** – Start with a trial and scale to a full license as needed.
+- **Zero‑code parsing** – 저수준 ASF 파서를 직접 구현할 필요 없음  
+- **Rich object model** – 직관적인 Java 클래스를 통해 속성, 코덱, 디스크립터, 스트림 세부 정보를 손쉽게 접근  
+- **Cross‑platform** – Java를 지원하는 모든 OS에서 동작  
+- **License flexibility** – 체험판으로 시작해 필요에 따라 정식 라이선스로 전환 가능
 
 ## Implementation Guide
 
-In the sections below, we’ll walk through concrete code snippets that demonstrate how to **extract ASF metadata** step by step.
+아래 섹션에서는 **ASF 메타데이터를 추출**하는 구체적인 코드 스니펫을 단계별로 살펴봅니다.
 
 ### Reading Basic ASF Metadata Properties
 
-**Overview** – Retrieve fundamental information such as creation date, file ID, and flags.
+**Overview** – 생성 날짜, 파일 ID, 플래그와 같은 기본 정보를 가져옵니다.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -126,11 +127,11 @@ class ReadBasicProperties {
 }
 ```
 
-*Why it matters*: Knowing the creation date helps with version control, while the file ID uniquely identifies the asset across systems.
+*Why it matters*: 생성 날짜를 알면 버전 관리를 용이하게 하고, 파일 ID는 시스템 전반에서 자산을 고유하게 식별하는 데 도움이 됩니다.
 
 ### Displaying ASF Codec Information
 
-**Overview** – Enumerate codecs used for audio and video streams.
+**Overview** – 오디오 및 비디오 스트림에 사용된 코덱을 열거합니다.
 
 ```java
 import com.groupdocs.metadata.core.AsfCodec;
@@ -152,11 +153,11 @@ class ReadCodecInformation {
 }
 ```
 
-*Why it matters*: Codec details are essential when ensuring compatibility with playback devices or when deciding whether to transcode.
+*Why it matters*: 코덱 세부 정보는 재생 장치와의 호환성을 확인하거나 트랜스코딩 여부를 판단할 때 필수적입니다.
 
 ### Displaying Metadata Descriptors
 
-**Overview** – Pull detailed descriptors such as language, stream number, and original title.
+**Overview** – 언어, 스트림 번호, 원본 제목 등 상세 디스크립터를 가져옵니다.
 
 ```java
 import com.groupdocs.metadata.core.AsfBaseDescriptor;
@@ -185,11 +186,11 @@ class ReadMetadataDescriptors {
 }
 ```
 
-*Why it matters*: Descriptors give context such as the language of subtitles or the original filename, which is valuable for cataloging.
+*Why it matters*: 디스크립터는 자막 언어나 원본 파일명과 같은 컨텍스트 정보를 제공해 카탈로그화에 유용합니다.
 
 ### Displaying Base Stream Properties
 
-**Overview** – Access bitrate, timing, and language information for each base stream.
+**Overview** – 각 베이스 스트림의 비트레이트, 타이밍, 언어 정보를 접근합니다.
 
 ```java
 import com.groupdocs.metadata.core.AsfBaseStreamProperty;
@@ -216,15 +217,15 @@ class ReadBaseStreamProperties {
 }
 ```
 
-*Why it matters*: Stream properties help you evaluate quality (bitrate) and synchronize audio/video during playback or editing.
+*Why it matters*: 스트림 속성은 품질(비트레이트) 평가와 오디오/비디오 동기화에 도움이 됩니다.
 
 ## Common Issues & Troubleshooting
 
-| Symptom | Likely Cause | Fix |
-|---------|--------------|-----|
-| `NullPointerException` when calling `getAsfPackage()` | The file path is incorrect or the file is not a valid ASF container. | Verify the path and ensure the file is a proper ASF file. |
-| No codec information displayed | The ASF file uses a proprietary codec not recognized by the library version. | Update GroupDocs.Metadata to the latest version or use a custom codec parser. |
-| Empty descriptor list | The file lacks metadata descriptors (e.g., stripped during encoding). | Use a source file with embedded metadata or re‑encode with metadata preservation. |
+| 증상 | 가능한 원인 | 해결 방법 |
+|------|-------------|----------|
+| `getAsfPackage()` 호출 시 `NullPointerException` 발생 | 파일 경로가 잘못되었거나 파일이 유효한 ASF 컨테이너가 아닙니다. | 경로를 확인하고 파일이 올바른 ASF 파일인지 확인하십시오. |
+| 코덱 정보가 표시되지 않음 | ASF 파일이 라이브러리 버전에서 인식하지 못하는 독점 코덱을 사용합니다. | GroupDocs.Metadata를 최신 버전으로 업데이트하거나 사용자 정의 코덱 파서를 사용하십시오. |
+| 디스크립터 목록이 비어 있음 | 파일에 메타데이터 디스크립터가 없으며(예: 인코딩 중 제거됨) | 메타데이터가 포함된 원본 파일을 사용하거나 메타데이터 보존 옵션으로 다시 인코딩하십시오. |
 
 ## Frequently Asked Questions
 

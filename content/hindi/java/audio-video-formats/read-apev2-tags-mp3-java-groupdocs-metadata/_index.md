@@ -1,19 +1,21 @@
 ---
-title: "How to Read Tags from MP3 Files with Java & GroupDocs.Metadata"
-description: "Learn how to read tags and extract MP3 metadata like Album, Artist, and Genre using GroupDocs.Metadata for Java. This step‑by‑step guide shows how to read APEv2 tags efficiently."
-date: "2026-01-01"
-weight: 1
-url: "/java/audio-video-formats/read-apev2-tags-mp3-java-groupdocs-metadata/"
+date: '2026-01-01'
+description: GroupDocs.Metadata for Java का उपयोग करके टैग पढ़ना और एलबम, कलाकार और
+  जेनर जैसे MP3 मेटाडेटा निकालना सीखें। यह चरण‑दर‑चरण गाइड दिखाता है कि APEv2 टैग
+  को प्रभावी ढंग से कैसे पढ़ा जाए।
 keywords:
 - APEv2 tags
 - GroupDocs.Metadata Java
 - extract MP3 metadata
+title: जावा और GroupDocs.Metadata के साथ MP3 फ़ाइलों से टैग कैसे पढ़ें
 type: docs
+url: /hi/java/audio-video-formats/read-apev2-tags-mp3-java-groupdocs-metadata/
+weight: 1
 ---
 
-# How to Read Tags from MP3 Files Using GroupDocs.Metadata for Java
+# MP3 फ़ाइलों से टैग पढ़ना GroupDocs.Metadata for Java का उपयोग करके
 
-Organizing a digital music collection can feel overwhelming when you don’t have easy access to **how to read tags** such as album name, artist, or genre. In this tutorial you’ll discover **how to read tags** from MP3 files, specifically the APEv2 tag format, by leveraging the powerful **GroupDocs.Metadata** Java library. By the end, you’ll be able to extract MP3 metadata quickly and integrate it into any Java‑based music‑library or digital‑asset‑management solution.
+डिजिटल संगीत संग्रह को व्यवस्थित करना तब भारी लग सकता है जब आपके पास **how to read tags** जैसे एल्बम नाम, कलाकार या शैली तक आसान पहुँच न हो। इस ट्यूटोरियल में आप **how to read tags** को MP3 फ़ाइलों से, विशेष रूप से APEv2 टैग फॉर्मेट से, शक्तिशाली **GroupDocs.Metadata** Java लाइब्रेरी का उपयोग करके सीखेंगे। अंत तक, आप MP3 मेटाडेटा को जल्दी से निकाल सकेंगे और इसे किसी भी Java‑आधारित music‑library या digital‑asset‑management समाधान में एकीकृत कर सकेंगे।
 
 ## Quick Answers
 - **What library should I use?** GroupDocs.Metadata for Java  
@@ -23,7 +25,7 @@ Organizing a digital music collection can feel overwhelming when you don’t hav
 - **What Java version is required?** JDK 8 or newer  
 
 ## What is “how to read tags” in the context of MP3 files?
-Reading tags means accessing the embedded metadata (like album, artist, title, genre) stored inside an audio file. APEv2 is one of the tag formats that can hold rich, searchable information. Extracting this data lets your application sort, filter, and display music details automatically.
+टैग पढ़ना का मतलब है ऑडियो फ़ाइल के भीतर एम्बेडेड मेटाडेटा (जैसे एल्बम, कलाकार, शीर्षक, शैली) तक पहुँच प्राप्त करना। APEv2 एक ऐसा टैग फॉर्मेट है जो समृद्ध, खोज योग्य जानकारी रख सकता है। इस डेटा को निकालने से आपका एप्लिकेशन संगीत विवरणों को स्वचालित रूप से सॉर्ट, फ़िल्टर और प्रदर्शित कर सकता है।
 
 ## Why use GroupDocs.Metadata for Java?
 - **Unified API** – Works with dozens of file types, not just MP3.  

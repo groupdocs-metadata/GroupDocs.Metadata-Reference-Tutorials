@@ -56,7 +56,7 @@ jobs:
         
       - name: Sync to Ceph S3
         run: |
-          aws s3 sync ./public/ s3://tutorials-groupdocs-com/metadata/ \
+          aws s3 sync ./public/ s3://qa-tutorials-groupdocs-com/metadata/ \
             --endpoint-url https://s3-qa.dynabic.com \
             --acl public-read \
             --delete
@@ -70,5 +70,5 @@ jobs:
         run: |
            curl -siG \
             -H "X-Api-Key: ${{ secrets.BUNNY_API_KEY }}" \
-            --data-urlencode "url=https://tutorials.groupdocs.com/metadata" \
+            --data-urlencode "url=https://qa-tutorials.groupdocs.com/metadata" \
             "https://api.dynabic.com/bn/purge?async=true"

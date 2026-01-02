@@ -182,12 +182,6 @@ A: Kelas `TarFile` menyediakan akses ke bidang header TAR standar, termasuk time
 **Q: Bagaimana cara menangani arsip yang dilindungi password?**  
 A: Untuk arsip terenkripsi, berikan password saat membuat objek `Metadata` (lihat referensi API untuk overload yang tepat).
 
----
-
-**Terakhir Diperbarui:** 2025-12-18  
-**Diuji Dengan:** GroupDocs.Metadata untuk Java 24.12  
-**Penulis:** GroupDocs  
-
 **Sumber Daya**  
 - **Dokumentasi:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **Referensi API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -195,3 +189,9 @@ A: Untuk arsip terenkripsi, berikan password saat membuat objek `Metadata` (liha
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Dukungan Gratis:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Lisensi Sementara:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Terakhir Diperbarui:** 2025-12-18  
+**Diuji Dengan:** GroupDocs.Metadata untuk Java 24.12  
+**Penulis:** GroupDocs  

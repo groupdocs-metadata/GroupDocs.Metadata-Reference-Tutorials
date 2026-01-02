@@ -182,12 +182,6 @@ R: La classe `TarFile` fornisce l'accesso ai campi standard dell'intestazione TA
 **D: Come gestisco gli archivi protetti da password?**  
 R: Per gli archivi crittografati, fornisci la password durante la costruzione dell'oggetto `Metadata` (vedi la documentazione API per l'overload esatto).
 
----
-
-**Ultimo aggiornamento:** 2025-12-18  
-**Testato con:** GroupDocs.Metadata per Java 24.12  
-**Autore:** GroupDocs  
-
 **Risorse**  
 - **Documentazione:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **Riferimento API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -195,3 +189,9 @@ R: Per gli archivi crittografati, fornisci la password durante la costruzione de
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Supporto gratuito:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Licenza temporanea:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Ultimo aggiornamento:** 2025-12-18  
+**Testato con:** GroupDocs.Metadata per Java 24.12  
+**Autore:** GroupDocs  

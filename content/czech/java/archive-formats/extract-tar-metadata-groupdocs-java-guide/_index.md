@@ -182,12 +182,6 @@ A: Třída `TarFile` poskytuje přístup ke standardním polím hlavičky TAR, v
 **Q: Jak zacházet s archivem chráněným heslem?**  
 A: Pro šifrované archivy zadejte heslo při vytváření objektu `Metadata` (viz API reference pro přesný přetížený konstruktor).
 
----
-
-**Poslední aktualizace:** 2025-12-18  
-**Testováno s:** GroupDocs.Metadata for Java 24.12  
-**Autor:** GroupDocs  
-
 **Zdroje**  
 - **Dokumentace:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **API Reference:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -195,3 +189,9 @@ A: Pro šifrované archivy zadejte heslo při vytváření objektu `Metadata` (v
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Bezplatná podpora:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Dočasná licence:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Poslední aktualizace:** 2025-12-18  
+**Testováno s:** GroupDocs.Metadata for Java 24.12  
+**Autor:** GroupDocs  

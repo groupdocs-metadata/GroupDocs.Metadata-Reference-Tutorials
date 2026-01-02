@@ -182,12 +182,6 @@ Masz teraz solidną, kompleksową metodę **jak odczytywać tar** pliki i wyodr�
 **P:** Jak obsłużyć archiwa chronione hasłem?  
 **O:** W przypadku zaszyfrowanych archiwów podaj hasło przy tworzeniu obiektu `Metadata` (zobacz referencję API, aby poznać dokładny overload).
 
----
-
-**Ostatnia aktualizacja:** 2025-12-18  
-**Testowano z:** GroupDocs.Metadata for Java 24.12  
-**Autor:** GroupDocs  
-
 **Zasoby**  
 - **Dokumentacja:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **Referencja API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -195,3 +189,9 @@ Masz teraz solidną, kompleksową metodę **jak odczytywać tar** pliki i wyodr�
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Bezpłatne wsparcie:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Tymczasowa licencja:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-18  
+**Testowano z:** GroupDocs.Metadata for Java 24.12  
+**Autor:** GroupDocs  

@@ -181,12 +181,6 @@ A: The `TarFile` class provides access to standard TAR header fields, including 
 **Q: How do I handle password‑protected archives?**  
 A: For encrypted archives, supply the password when constructing the `Metadata` object (see the API reference for the exact overload).
 
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** GroupDocs.Metadata for Java 24.12  
-**Author:** GroupDocs  
-
 **Resources**  
 - **Documentation:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **API Reference:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -194,3 +188,9 @@ A: For encrypted archives, supply the password when constructing the `Metadata` 
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Free Support:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Temporary License:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** GroupDocs.Metadata for Java 24.12  
+**Author:** GroupDocs  

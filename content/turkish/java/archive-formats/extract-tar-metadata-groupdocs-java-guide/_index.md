@@ -182,12 +182,6 @@ C: `TarFile` sınıfı, zaman damgaları dahil olmak üzere standart TAR başlı
 **S: Şifre korumalı arşivlerle nasıl başa çıkılır?**  
 C: Şifreli arşivler için, `Metadata` nesnesini oluştururken şifreyi sağlayın (tam aşırı yükleme için API referansına bakın).
 
----
-
-**Son Güncelleme:** 2025-12-18  
-**Test Edilen Versiyon:** GroupDocs.Metadata for Java 24.12  
-**Yazar:** GroupDocs  
-
 **Kaynaklar**  
 - **Dokümantasyon:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **API Referansı:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -195,3 +189,9 @@ C: Şifreli arşivler için, `Metadata` nesnesini oluştururken şifreyi sağlay
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Ücretsiz Destek:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Geçici Lisans:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Son Güncelleme:** 2025-12-18  
+**Test Edilen Versiyon:** GroupDocs.Metadata for Java 24.12  
+**Yazar:** GroupDocs  

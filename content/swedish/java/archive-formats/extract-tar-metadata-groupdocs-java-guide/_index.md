@@ -183,12 +183,6 @@ A: `TarFile`‑klassen ger åtkomst till standard TAR‑headerfält, inklusive t
 **Q: Hur hanterar jag lösenordsskyddade arkiv?**  
 A: För krypterade arkiv, ange lösenordet när du konstruerar `Metadata`‑objektet (se API‑referensen för den exakta överlagringen).
 
----
-
-**Senast uppdaterad:** 2025-12-18  
-**Testat med:** GroupDocs.Metadata for Java 24.12  
-**Författare:** GroupDocs  
-
 **Resurser**  
 - **Dokumentation:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **API‑referens:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -196,3 +190,9 @@ A: För krypterade arkiv, ange lösenordet när du konstruerar `Metadata`‑obje
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Gratis support:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Tillfällig licens:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Senast uppdaterad:** 2025-12-18  
+**Testat med:** GroupDocs.Metadata for Java 24.12  
+**Författare:** GroupDocs  

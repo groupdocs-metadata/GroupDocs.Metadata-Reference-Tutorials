@@ -183,12 +183,6 @@ R : La classe `TarFile` donne accès aux champs d’en‑tête standards du TA
 **Q : Comment gérer les archives protégées par mot de passe ?**  
 R : Pour les archives chiffrées, fournissez le mot de passe lors de la construction de l’objet `Metadata` (voir la référence API pour la surcharge exacte).
 
----
-
-**Dernière mise à jour :** 2025-12-18  
-**Testé avec :** GroupDocs.Metadata for Java 24.12  
-**Auteur :** GroupDocs  
-
 **Ressources**  
 - **Documentation :** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **Référence API :** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -196,3 +190,9 @@ R : Pour les archives chiffrées, fournissez le mot de passe lors de la constr
 - **GitHub :** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Support gratuit :** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Licence temporaire :** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Dernière mise à jour :** 2025-12-18  
+**Testé avec :** GroupDocs.Metadata for Java 24.12  
+**Auteur :** GroupDocs  

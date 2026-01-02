@@ -183,12 +183,6 @@ A: De `TarFile`‑klasse biedt toegang tot standaard TAR‑headervelden, inclusi
 **Q: Hoe ga ik om met met wachtwoord beveiligde archieven?**  
 A: Voor versleutelde archieven geef je het wachtwoord op bij het construeren van het `Metadata`‑object (zie de API‑referentie voor de exacte overload).
 
----
-
-**Laatst bijgewerkt:** 2025-12-18  
-**Getest met:** GroupDocs.Metadata for Java 24.12  
-**Auteur:** GroupDocs  
-
 **Bronnen**  
 - **Documentatie:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **API‑referentie:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -196,3 +190,9 @@ A: Voor versleutelde archieven geef je het wachtwoord op bij het construeren van
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Gratis ondersteuning:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Tijdelijke licentie:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Laatst bijgewerkt:** 2025-12-18  
+**Getest met:** GroupDocs.Metadata for Java 24.12  
+**Auteur:** GroupDocs  

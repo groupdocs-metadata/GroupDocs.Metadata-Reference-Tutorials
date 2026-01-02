@@ -181,12 +181,6 @@ A: คลาส `TarFile` ให้การเข้าถึงฟิลด์
 **Q: ฉันจะจัดการกับอาร์ไคฟ์ที่มีการป้องกันด้วยรหัสผ่านอย่างไร?**  
 A: สำหรับอาร์ไคฟ์ที่เข้ารหัส, ให้ใส่รหัสผ่านเมื่อสร้างอ็อบเจ็กต์ `Metadata` (ดู API reference สำหรับ overload ที่ตรงกัน).
 
----
-
-**อัปเดตล่าสุด:** 2025-12-18  
-**ทดสอบกับ:** GroupDocs.Metadata for Java 24.12  
-**ผู้เขียน:** GroupDocs  
-
 **ทรัพยากร**  
 - **Documentation:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **API Reference:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -194,3 +188,9 @@ A: สำหรับอาร์ไคฟ์ที่เข้ารหัส, 
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Free Support:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Temporary License:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-18  
+**ทดสอบกับ:** GroupDocs.Metadata for Java 24.12  
+**ผู้เขียน:** GroupDocs  

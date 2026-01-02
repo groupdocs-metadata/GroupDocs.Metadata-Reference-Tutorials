@@ -181,12 +181,6 @@ A: `TarFile` क्लास मानक TAR हेडर फ़ील्ड्
 **Q: पासवर्ड‑प्रोटेक्टेड आर्काइव्स को मैं कैसे हैंडल करूँ?**  
 A: एन्क्रिप्टेड आर्काइव्स के लिए, `Metadata` ऑब्जेक्ट बनाते समय पासवर्ड प्रदान करें (सटीक ओवरलोड के लिए API रेफ़रेंस देखें)।
 
----
-
-**अंतिम अपडेट:** 2025-12-18  
-**टेस्ट किया गया संस्करण:** GroupDocs.Metadata for Java 24.12  
-**लेखक:** GroupDocs  
-
 **Resources**  
 - **Documentation:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **API Reference:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -194,3 +188,9 @@ A: एन्क्रिप्टेड आर्काइव्स के ल�
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Free Support:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Temporary License:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**अंतिम अपडेट:** 2025-12-18  
+**टेस्ट किया गया संस्करण:** GroupDocs.Metadata for Java 24.12  
+**लेखक:** GroupDocs  

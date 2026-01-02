@@ -181,12 +181,6 @@ A: `TarFile` クラスは、タイムスタンプを含む標準的な TAR ヘ�
 **Q: パスワードで保護されたアーカイブを処理するにはどうすればよいですか？**  
 A: 暗号化されたアーカイブの場合、`Metadata` オブジェクトを構築する際にパスワードを渡します（正確なオーバーロードは API リファレンスをご参照ください）。
 
----
-
-**最終更新日:** 2025-12-18  
-**テスト環境:** GroupDocs.Metadata for Java 24.  
-**作者:** GroupDocs  
-
 **リソース**  
 - **ドキュメント:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **API リファレンス:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -194,3 +188,9 @@ A: 暗号化されたアーカイブの場合、`Metadata` オブジェクトを
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **無料サポート:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **一時ライセンス:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**最終更新日:** 2025-12-18  
+**テスト環境:** GroupDocs.Metadata for Java 24.  
+**作者:** GroupDocs  

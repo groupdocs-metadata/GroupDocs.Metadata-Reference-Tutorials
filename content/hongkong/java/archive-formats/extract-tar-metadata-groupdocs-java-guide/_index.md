@@ -179,12 +179,6 @@ A: `TarFile` 類別提供對標準 TAR 標頭欄位的存取，包括時間戳�
 **Q: 我該如何處理受密碼保護的壓縮檔？**  
 A: 對於加密壓縮檔，於建立 `Metadata` 物件時提供密碼（請參考 API 文件取得正確的重載方式）。
 
----
-
-**最後更新：** 2025-12-18  
-**測試環境：** GroupDocs.Metadata for Java 24.12  
-**作者：** GroupDocs  
-
 **資源**  
 - **文件說明：** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **API 參考：** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -192,3 +186,9 @@ A: 對於加密壓縮檔，於建立 `Metadata` 物件時提供密碼（請參�
 - **GitHub：** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **免費支援：** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **臨時授權：** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**最後更新：** 2025-12-18  
+**測試環境：** GroupDocs.Metadata for Java 24.12  
+**作者：** GroupDocs  

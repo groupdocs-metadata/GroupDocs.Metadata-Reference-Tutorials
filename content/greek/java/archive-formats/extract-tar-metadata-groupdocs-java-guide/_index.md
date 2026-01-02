@@ -182,12 +182,6 @@ A: Η κλάση `TarFile` παρέχει πρόσβαση στα τυπικά �
 **Q: Πώς να διαχειριστώ αρχεία με κωδικό πρόσβασης;**  
 A: Για κρυπτογραφημένα αρχεία, παρέχετε τον κωδικό πρόσβασης κατά τη δημιουργία του αντικειμένου `Metadata` (δείτε την αναφορά API για την ακριβή υπερφόρτωση).
 
----
-
-**Τελευταία Ενημέρωση:** 2025-12-18  
-**Δοκιμάστηκε Με:** GroupDocs.Metadata for Java 24.12  
-**Συγγραφέας:** GroupDocs  
-
 **Πόροι**  
 - **Τεκμηρίωση:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **Αναφορά API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -195,3 +189,9 @@ A: Για κρυπτογραφημένα αρχεία, παρέχετε τον �
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Δωρεάν Υποστήριξη:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Προσωρινή Άδεια:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-18  
+**Δοκιμάστηκε Με:** GroupDocs.Metadata for Java 24.12  
+**Συγγραφέας:** GroupDocs  

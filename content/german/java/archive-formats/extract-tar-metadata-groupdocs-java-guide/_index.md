@@ -181,12 +181,6 @@ A: Die `TarFile`‑Klasse bietet Zugriff auf die Standard‑TAR‑Header‑Felde
 **F: Wie gehe ich mit passwortgeschützten Archiven um?**  
 A: Bei verschlüsselten Archiven geben Sie das Passwort beim Erzeugen des `Metadata`‑Objekts an (siehe API‑Referenz für die genaue Überladung).
 
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** GroupDocs.Metadata for Java 24.12  
-**Author:** GroupDocs  
-
 **Resources**  
 - **Dokumentation:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **API‑Referenz:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -194,3 +188,9 @@ A: Bei verschlüsselten Archiven geben Sie das Passwort beim Erzeugen des `Metad
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Kostenloser Support:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Temporäre Lizenz:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** GroupDocs.Metadata for Java 24.12  
+**Author:** GroupDocs  

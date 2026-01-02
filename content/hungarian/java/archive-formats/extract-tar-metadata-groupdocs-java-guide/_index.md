@@ -183,12 +183,6 @@ A: A `TarFile` osztály hozzáférést biztosít a szabványos TAR fejlécmezők
 **Q: Hogyan kezelem a jelszóval védett archívumokat?**  
 A: Titkosított archívumok esetén add meg a jelszót a `Metadata` objektum létrehozásakor (lásd az API referenciát a pontos overloadhoz).
 
----
-
-**Legutóbb frissítve:** 2025-12-18  
-**Tesztelve ezzel:** GroupDocs.Metadata for Java 24.12  
-**Szerző:** GroupDocs  
-
 **Erőforrások**  
 - **Documentation:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **API Reference:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -196,3 +190,9 @@ A: Titkosított archívumok esetén add meg a jelszót a `Metadata` objektum lé
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Free Support:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Temporary License:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Legutóbb frissítve:** 2025-12-18  
+**Tesztelve ezzel:** GroupDocs.Metadata for Java 24.12  
+**Szerző:** GroupDocs  

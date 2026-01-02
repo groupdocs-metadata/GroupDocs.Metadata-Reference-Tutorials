@@ -181,12 +181,6 @@ R: La clase `TarFile` brinda acceso a los campos estándar del encabezado TAR, i
 **P: ¿Cómo manejo archivos protegidos con contraseña?**  
 R: Para archivos cifrados, proporciona la contraseña al crear el objeto `Metadata` (consulta la referencia de la API para la sobrecarga exacta).
 
----
-
-**Última actualización:** 2025-12-18  
-**Probado con:** GroupDocs.Metadata for Java 24.12  
-**Autor:** GroupDocs  
-
 **Recursos**  
 - **Documentación:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **Referencia de API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -194,3 +188,9 @@ R: Para archivos cifrados, proporciona la contraseña al crear el objeto `Metada
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Soporte gratuito:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Licencia temporal:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Última actualización:** 2025-12-18  
+**Probado con:** GroupDocs.Metadata for Java 24.12  
+**Autor:** GroupDocs  

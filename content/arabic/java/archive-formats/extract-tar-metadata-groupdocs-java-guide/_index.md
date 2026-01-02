@@ -183,12 +183,6 @@ for (TarFile file : root.getTarPackage().getFiles()) {
 **س: كيف أتعامل مع الأرشيفات المحمية بكلمة مرور؟**  
 ج: بالنسبة للأرشيفات المشفرة، قدم كلمة المرور عند إنشاء كائن `Metadata` (انظر مرجع API للحصول على التحميل الدقيق).
 
----
-
-**آخر تحديث:** 2025-12-18  
-**تم الاختبار مع:** GroupDocs.Metadata للـ Java 24.12  
-**المؤلف:** GroupDocs  
-
 **الموارد**  
 - **الوثائق:** [وثائق GroupDocs Metadata Java](https://docs.groupdocs.com/metadata/java/)  
 - **مرجع API:** [مرجع GroupDocs API](https://reference.groupdocs.com/metadata/java/)  
@@ -196,3 +190,9 @@ for (TarFile file : root.getTarPackage().getFiles()) {
 - **GitHub:** [GroupDocs Metadata على GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **دعم مجاني:** [منتدى GroupDocs](https://forum.groupdocs.com/c/metadata/)  
 - **ترخيص مؤقت:** [احصل على ترخيص مؤقت](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**آخر تحديث:** 2025-12-18  
+**تم الاختبار مع:** GroupDocs.Metadata للـ Java 24.12  
+**المؤلف:** GroupDocs  

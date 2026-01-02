@@ -181,12 +181,6 @@ A: Класс `TarFile` предоставляет доступ к станда�
 **Q: Как работать с архивами, защищёнными паролем?**  
 A: Для зашифрованных архивов укажите пароль при создании объекта `Metadata` (см. справочник API для точного перегрузки).  
 
----
-
-**Последнее обновление:** 2025-12-18  
-**Тестировано с:** GroupDocs.Metadata for Java 24.12  
-**Автор:** GroupDocs  
-
 **Ресурсы**  
 - **Документация:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **Справочник API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -194,3 +188,9 @@ A: Для зашифрованных архивов укажите пароль 
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Бесплатная поддержка:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Временная лицензия:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Последнее обновление:** 2025-12-18  
+**Тестировано с:** GroupDocs.Metadata for Java 24.12  
+**Автор:** GroupDocs  

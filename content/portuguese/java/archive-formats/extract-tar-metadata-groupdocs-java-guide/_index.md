@@ -182,12 +182,6 @@ A: A classe `TarFile` fornece acesso aos campos padrão do cabeçalho TAR, inclu
 **Q: Como lidar com arquivos protegidos por senha?**  
 A: Para arquivos criptografados, forneça a senha ao construir o objeto `Metadata` (consulte a referência da API para a sobrecarga exata).
 
----
-
-**Última Atualização:** 2025-12-18  
-**Testado Com:** GroupDocs.Metadata para Java 24.12  
-**Autor:** GroupDocs  
-
 **Recursos**  
 - **Documentação:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **Referência da API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -195,3 +189,9 @@ A: Para arquivos criptografados, forneça a senha ao construir o objeto `Metadat
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Suporte Gratuito:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Licença Temporária:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Última Atualização:** 2025-12-18  
+**Testado Com:** GroupDocs.Metadata para Java 24.12  
+**Autor:** GroupDocs  

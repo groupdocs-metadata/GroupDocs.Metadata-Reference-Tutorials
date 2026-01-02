@@ -181,11 +181,6 @@ A: Lớp `TarFile` cung cấp quyền truy cập vào các trường tiêu đề
 **Q: Làm thế nào để xử lý các kho lưu trữ được bảo vệ bằng mật khẩu?**  
 A: Đối với các kho lưu trữ được mã hoá, cung cấp mật khẩu khi tạo đối tượng `Metadata` (xem tài liệu API để biết chi tiết overload).  
 
----  
-**Cập nhật lần cuối:** 2025-12-18  
-**Kiểm thử với:** GroupDocs.Metadata for Java 24.12  
-**Tác giả:** GroupDocs  
-
 **Tài Nguyên**  
 - **Tài liệu:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **Tham chiếu API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -193,3 +188,8 @@ A: Đối với các kho lưu trữ được mã hoá, cung cấp mật khẩu k
 - **GitHub:** [GroupDocs Metadata trên GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Hỗ trợ miễn phí:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **Giấy phép tạm thời:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---  
+**Cập nhật lần cuối:** 2025-12-18  
+**Kiểm thử với:** GroupDocs.Metadata for Java 24.12  
+**Tác giả:** GroupDocs  

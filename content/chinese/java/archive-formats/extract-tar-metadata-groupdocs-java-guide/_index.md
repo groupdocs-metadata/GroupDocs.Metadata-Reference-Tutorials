@@ -181,12 +181,6 @@ A: `TarFile` 类提供对标准 TAR 头字段的访问，包括时间戳。
 **Q: 我该如何处理受密码保护的归档？**  
 A: 对于加密归档，在构造 `Metadata` 对象时提供密码（请参阅 API 参考获取确切的重载方式）。
 
----
-
-**最后更新：** 2025-12-18  
-**测试环境：** GroupDocs.Metadata for Java 24.12  
-**作者：** GroupDocs  
-
 **资源**
 - **文档：** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
 - **API 参考：** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -194,3 +188,9 @@ A: 对于加密归档，在构造 `Metadata` 对象时提供密码（请参阅 A
 - **GitHub：** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **免费支持：** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 - **临时许可证：** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**最后更新：** 2025-12-18  
+**测试环境：** GroupDocs.Metadata for Java 24.12  
+**作者：** GroupDocs  

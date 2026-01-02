@@ -160,12 +160,6 @@ A: En gratis provperiod låter dig testa alla funktioner. En köpt licens krävs
 **Q: Var kan jag få hjälp om jag stöter på fel?**  
 A: Se den officiella dokumentationen, API‑referensen eller ställ frågor i support‑forumet.
 
----
-
-**Senast uppdaterad:** 2025-12-19  
-**Testat med:** GroupDocs.Metadata 24.12 for Java  
-**Författare:** GroupDocs  
-
 **Resurser**  
 - [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - [API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -173,3 +167,9 @@ A: Se den officiella dokumentationen, API‑referensen eller ställ frågor i su
 - [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
 - [Temporary License Application](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Senast uppdaterad:** 2025-12-19  
+**Testat med:** GroupDocs.Metadata 24.12 for Java  
+**Författare:** GroupDocs  

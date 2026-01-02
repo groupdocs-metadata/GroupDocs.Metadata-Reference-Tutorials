@@ -161,12 +161,6 @@ C: Ücretsiz deneme tüm özellikleri test etmenizi sağlar. Üretim kullanımı
 **S: Hatalarla karşılaşırsam nereden yardım alabilirim?**  
 C: Resmi belgelere, API referansına bakın veya destek forumunda sorularınızı yayınlayın.
 
----
-
-**Son Güncelleme:** 2025-12-19  
-**Test Edilen Versiyon:** GroupDocs.Metadata 24.12 for Java  
-**Yazar:** GroupDocs  
-
 **Kaynaklar**  
 - [GroupDocs.Metadata Dokümantasyonu](https://docs.groupdocs.com/metadata/java/)  
 - [API Referansı](https://reference.groupdocs.com/metadata/java/)  
@@ -174,3 +168,9 @@ C: Resmi belgelere, API referansına bakın veya destek forumunda sorularınız�
 - [GitHub Deposu](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Ücretsiz Destek Forumı](https://forum.groupdocs.com/c/metadata/)  
 - [Geçici Lisans Başvurusu](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Son Güncelleme:** 2025-12-19  
+**Test Edilen Versiyon:** GroupDocs.Metadata 24.12 for Java  
+**Yazar:** GroupDocs  

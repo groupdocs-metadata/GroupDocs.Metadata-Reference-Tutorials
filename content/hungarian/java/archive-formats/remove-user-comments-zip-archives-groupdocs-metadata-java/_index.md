@@ -161,12 +161,6 @@ A: Az ingyenes próba lehetővé teszi az összes funkció tesztelését. A vás
 **Q: Hol kaphatok segítséget, ha hibákkal találkozom?**  
 A: Tekintse meg a hivatalos dokumentációt, az API referenciát, vagy tegyen fel kérdéseket a támogatási fórumon.
 
----
-
-**Utolsó frissítés:** 2025-12-19  
-**Tesztelve ezzel:** GroupDocs.Metadata 24.12 for Java  
-**Szerző:** GroupDocs  
-
 **Resources**  
 - [GroupDocs.Metadata dokumentáció](https://docs.groupdocs.com/metadata/java/)  
 - [API referencia](https://reference.groupdocs.com/metadata/java/)  
@@ -174,3 +168,9 @@ A: Tekintse meg a hivatalos dokumentációt, az API referenciát, vagy tegyen fe
 - [GitHub tároló](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Ingyenes támogatási fórum](https://forum.groupdocs.com/c/metadata/)  
 - [Ideiglenes licenc igénylése](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Utolsó frissítés:** 2025-12-19  
+**Tesztelve ezzel:** GroupDocs.Metadata 24.12 for Java  
+**Szerző:** GroupDocs  

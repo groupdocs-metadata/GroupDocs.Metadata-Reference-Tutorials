@@ -161,12 +161,6 @@ R : Un essai gratuit vous permet de tester toutes les fonctionnalités. Une li
 **Q : Où puis‑je obtenir de l’aide en cas d’erreurs ?**  
 R : Consultez la documentation officielle, la référence API, ou postez vos questions sur le forum de support.
 
----
-
-**Last Updated:** 2025-12-19  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
 **Ressources**  
 - [Documentation GroupDocs.Metadata](https://docs.groupdocs.com/metadata/java/)  
 - [Référence API](https://reference.groupdocs.com/metadata/java/)  
@@ -174,3 +168,9 @@ R : Consultez la documentation officielle, la référence API, ou postez vos q
 - [Dépôt GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Forum de support gratuit](https://forum.groupdocs.com/c/metadata/)  
 - [Application de licence temporaire](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs  

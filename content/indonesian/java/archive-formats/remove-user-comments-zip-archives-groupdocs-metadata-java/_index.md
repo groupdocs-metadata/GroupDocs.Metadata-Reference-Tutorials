@@ -161,12 +161,6 @@ A: Versi percobaan gratis memungkinkan Anda menguji semua fitur. Lisensi berbaya
 **Q: Di mana saya dapat mendapatkan bantuan jika mengalami kesalahan?**  
 A: Lihat dokumentasi resmi, referensi API, atau kirim pertanyaan di forum dukungan.
 
----
-
-**Terakhir Diperbarui:** 2025-12-19  
-**Diuji Dengan:** GroupDocs.Metadata 24.12 untuk Java  
-**Penulis:** GroupDocs  
-
 **Sumber Daya**  
 - [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - [API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -174,3 +168,9 @@ A: Lihat dokumentasi resmi, referensi API, atau kirim pertanyaan di forum dukung
 - [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
 - [Temporary License Application](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Terakhir Diperbarui:** 2025-12-19  
+**Diuji Dengan:** GroupDocs.Metadata 24.12 untuk Java  
+**Penulis:** GroupDocs  

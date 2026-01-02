@@ -160,12 +160,6 @@ metadata.save(OUTPUT_ZIP);
 **س: أين يمكنني الحصول على مساعدة إذا واجهت أخطاء؟**  
 ج: راجع الوثائق الرسمية، مرجع API، أو اطرح أسئلة في منتدى الدعم.
 
----
-
-**آخر تحديث:** 2025-12-19  
-**تم الاختبار مع:** GroupDocs.Metadata 24.12 for Java  
-**المؤلف:** GroupDocs  
-
 **الموارد**  
 - [توثيق GroupDocs.Metadata](https://docs.groupdocs.com/metadata/java/)  
 - [مرجع API](https://reference.groupdocs.com/metadata/java/)  
@@ -173,3 +167,9 @@ metadata.save(OUTPUT_ZIP);
 - [مستودع GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [منتدى الدعم المجاني](https://forum.groupdocs.com/c/metadata/)  
 - [طلب ترخيص مؤقت](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**آخر تحديث:** 2025-12-19  
+**تم الاختبار مع:** GroupDocs.Metadata 24.12 for Java  
+**المؤلف:** GroupDocs  

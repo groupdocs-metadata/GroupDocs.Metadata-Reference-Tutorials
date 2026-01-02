@@ -160,12 +160,6 @@ A: Bản dùng thử miễn phí cho phép bạn thử tất cả các tính nă
 **Q: Tôi có thể nhận được trợ giúp ở đâu nếu gặp lỗi?**  
 A: Tham khảo tài liệu chính thức, tham chiếu API, hoặc đăng câu hỏi trên diễn đàn hỗ trợ.
 
----
-
-**Cập nhật lần cuối:** 2025-12-19  
-**Kiểm tra với:** GroupDocs.Metadata 24.12 for Java  
-**Tác giả:** GroupDocs  
-
 **Tài nguyên**  
 - [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - [API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -173,3 +167,9 @@ A: Tham khảo tài liệu chính thức, tham chiếu API, hoặc đăng câu h
 - [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
 - [Temporary License Application](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Cập nhật lần cuối:** 2025-12-19  
+**Kiểm tra với:** GroupDocs.Metadata 24.12 for Java  
+**Tác giả:** GroupDocs  

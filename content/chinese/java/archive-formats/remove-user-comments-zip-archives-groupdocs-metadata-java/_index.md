@@ -158,12 +158,6 @@ A: 免费试用可测试所有功能。生产使用需购买许可证。
 **Q: 如果遇到错误，我可以在哪里获取帮助？**  
 A: 请参考官方文档、API 参考，或在支持论坛上提问。
 
----
-
-**最后更新：** 2025-12-19  
-**测试环境：** GroupDocs.Metadata 24.12 for Java  
-**作者：** GroupDocs  
-
 **资源**  
 - [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - [API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -171,3 +165,9 @@ A: 请参考官方文档、API 参考，或在支持论坛上提问。
 - [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
 - [Temporary License Application](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**最后更新：** 2025-12-19  
+**测试环境：** GroupDocs.Metadata 24.12 for Java  
+**作者：** GroupDocs  

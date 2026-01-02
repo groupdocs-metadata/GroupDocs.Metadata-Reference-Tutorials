@@ -161,12 +161,6 @@ A: Eine kostenlose Testversion ermöglicht das Testen aller Funktionen. Für den
 **Q: Wo kann ich Hilfe erhalten, wenn ich Fehler erlebe?**  
 A: Konsultieren Sie die offizielle Dokumentation, das API‑Referenzhandbuch oder stellen Sie Fragen im Support‑Forum.
 
----
-
-**Zuletzt aktualisiert:** 2025-12-19  
-**Getestet mit:** GroupDocs.Metadata 24.12 for Java  
-**Autor:** GroupDocs  
-
 **Ressourcen**
 - [GroupDocs.Metadata Dokumentation](https://docs.groupdocs.com/metadata/java/)  
 - [API‑Referenz](https://reference.groupdocs.com/metadata/java/)  
@@ -174,3 +168,9 @@ A: Konsultieren Sie die offizielle Dokumentation, das API‑Referenzhandbuch ode
 - [GitHub‑Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Kostenloses Support‑Forum](https://forum.groupdocs.com/c/metadata/)  
 - [Antrag auf temporäre Lizenz](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Zuletzt aktualisiert:** 2025-12-19  
+**Getestet mit:** GroupDocs.Metadata 24.12 for Java  
+**Autor:** GroupDocs  

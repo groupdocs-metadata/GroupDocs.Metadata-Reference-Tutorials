@@ -161,12 +161,6 @@ A: Een gratis proefversie laat je alle functies testen. Een aangeschafte licenti
 **Q: Waar kan ik hulp krijgen als ik fouten tegenkom?**  
 A: Raadpleeg de officiële documentatie, de API‑referentie, of plaats vragen op het ondersteuningsforum.
 
----
-
-**Laatst bijgewerkt:** 2025-12-19  
-**Getest met:** GroupDocs.Metadata 24.12 for Java  
-**Auteur:** GroupDocs  
-
 **Bronnen**  
 - [GroupDocs.Metadata-documentatie](https://docs.groupdocs.com/metadata/java/)  
 - [API-referentie](https://reference.groupdocs.com/metadata/java/)  
@@ -174,3 +168,9 @@ A: Raadpleeg de officiële documentatie, de API‑referentie, of plaats vragen o
 - [GitHub-repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Gratis ondersteuningsforum](https://forum.groupdocs.com/c/metadata/)  
 - [Aanvraag tijdelijke licentie](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Laatst bijgewerkt:** 2025-12-19  
+**Getest met:** GroupDocs.Metadata 24.12 for Java  
+**Auteur:** GroupDocs  

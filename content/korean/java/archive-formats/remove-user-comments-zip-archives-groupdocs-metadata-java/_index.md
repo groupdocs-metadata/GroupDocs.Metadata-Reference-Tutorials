@@ -159,12 +159,6 @@ A: 무료 체험판으로 모든 기능을 테스트할 수 있습니다. 프로
 **Q: 오류가 발생하면 어디에서 도움을 받을 수 있나요?**  
 A: 공식 문서, API 레퍼런스 또는 지원 포럼에 문의하세요.
 
----
-
-**Last Updated:** 2025-12-19  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
 **Resources**  
 - [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - [API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -172,3 +166,9 @@ A: 공식 문서, API 레퍼런스 또는 지원 포럼에 문의하세요.
 - [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
 - [Temporary License Application](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs  

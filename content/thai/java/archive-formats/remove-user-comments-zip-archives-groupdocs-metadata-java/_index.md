@@ -159,12 +159,6 @@ A: การทดลองใช้ฟรีให้คุณทดสอบ�
 **Q: Where can I get help if I encounter errors?**  
 A: ดูเอกสารอย่างเป็นทางการ, API reference, หรือโพสต์คำถามใน support forum
 
----
-
-**อัปเดตล่าสุด:** 2025-12-19  
-**ทดสอบด้วย:** GroupDocs.Metadata 24.12 for Java  
-**ผู้เขียน:** GroupDocs  
-
 **แหล่งข้อมูล**  
 - [เอกสาร GroupDocs.Metadata](https://docs.groupdocs.com/metadata/java/)  
 - [อ้างอิง API](https://reference.groupdocs.com/metadata/java/)  
@@ -172,3 +166,9 @@ A: ดูเอกสารอย่างเป็นทางการ, API re
 - [Repository GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [ฟอรั่มสนับสนุนฟรี](https://forum.groupdocs.com/c/metadata/)  
 - [แบบฟอร์มขอ Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-19  
+**ทดสอบด้วย:** GroupDocs.Metadata 24.12 for Java  
+**ผู้เขียน:** GroupDocs  

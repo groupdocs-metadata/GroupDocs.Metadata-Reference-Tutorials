@@ -159,12 +159,6 @@ A: 無料トライアルで全機能をテストできますが、本番利用�
 **Q: エラーが発生した場合、どこでサポートを受けられますか？**  
 A: 公式ドキュメント、API リファレンス、またはサポートフォーラムに質問を投稿してください。
 
----
-
-**最終更新日:** 2025-12-19  
-**テスト環境:** GroupDocs.Metadata 24.12 for Java  
-**作者:** GroupDocs  
-
 **リソース**  
 - [GroupDocs.Metadata ドキュメント](https://docs.groupdocs.com/metadata/java/)  
 - [API リファレンス](https://reference.groupdocs.com/metadata/java/)  
@@ -172,3 +166,9 @@ A: 公式ドキュメント、API リファレンス、またはサポートフ�
 - [GitHub リポジトリ](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [無料サポートフォーラム](https://forum.groupdocs.com/c/metadata/)  
 - [一時ライセンス申請](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**最終更新日:** 2025-12-19  
+**テスト環境:** GroupDocs.Metadata 24.12 for Java  
+**作者:** GroupDocs  

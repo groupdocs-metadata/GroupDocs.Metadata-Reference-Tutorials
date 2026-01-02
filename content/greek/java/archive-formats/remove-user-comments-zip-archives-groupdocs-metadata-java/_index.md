@@ -161,12 +161,6 @@ metadata.save(OUTPUT_ZIP);
 **Ε: Πού μπορώ να λάβω βοήθεια αν αντιμετωπίσω σφάλματα;**  
 Α: Ανατρέξτε στην επίσημη τεκμηρίωση, την αναφορά API ή δημοσιεύστε ερωτήσεις στο φόρουμ υποστήριξης.
 
----
-
-**Τελευταία ενημέρωση:** 2025-12-19  
-**Δοκιμή με:** GroupDocs.Metadata 24.12 for Java  
-**Συγγραφέας:** GroupDocs  
-
 **Πόροι**  
 - [Τεκμηρίωση GroupDocs.Metadata](https://docs.groupdocs.com/metadata/java/)  
 - [Αναφορά API](https://reference.groupdocs.com/metadata/java/)  
@@ -174,3 +168,9 @@ metadata.save(OUTPUT_ZIP);
 - [Αποθετήριο GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Δωρεάν φόρουμ υποστήριξης](https://forum.groupdocs.com/c/metadata/)  
 - [Αίτηση προσωρινής άδειας](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Τελευταία ενημέρωση:** 2025-12-19  
+**Δοκιμή με:** GroupDocs.Metadata 24.12 for Java  
+**Συγγραφέας:** GroupDocs  

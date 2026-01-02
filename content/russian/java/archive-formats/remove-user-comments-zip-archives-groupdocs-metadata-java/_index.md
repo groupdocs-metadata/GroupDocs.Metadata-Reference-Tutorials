@@ -161,12 +161,6 @@ metadata.save(OUTPUT_ZIP);
 **Q:** Где можно получить помощь, если возникнут ошибки?  
 **A:** Обратитесь к официальной документации, справочнику API или задайте вопросы на форуме поддержки.
 
----
-
-**Последнее обновление:** 2025-12-19  
-**Тестировано с:** GroupDocs.Metadata 24.12 for Java  
-**Автор:** GroupDocs  
-
 **Ресурсы**
 - [Документация GroupDocs.Metadata](https://docs.groupdocs.com/metadata/java/)  
 - [Справочник API](https://reference.groupdocs.com/metadata/java/)  
@@ -174,3 +168,9 @@ metadata.save(OUTPUT_ZIP);
 - [Репозиторий GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Бесплатный форум поддержки](https://forum.groupdocs.com/c/metadata/)  
 - [Заявка на временную лицензию](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Последнее обновление:** 2025-12-19  
+**Тестировано с:** GroupDocs.Metadata 24.12 for Java  
+**Автор:** GroupDocs  

@@ -160,12 +160,6 @@ R: La prueba gratuita permite probar todas las funciones. Se requiere una licenc
 **P: ¿Dónde puedo obtener ayuda si encuentro errores?**  
 R: Consulta la documentación oficial, la referencia de la API o publica preguntas en el foro de soporte.
 
----
-
-**Última actualización:** 2025-12-19  
-**Probado con:** GroupDocs.Metadata 24.12 para Java  
-**Autor:** GroupDocs  
-
 **Recursos**  
 - [Documentación de GroupDocs.Metadata](https://docs.groupdocs.com/metadata/java/)  
 - [Referencia de API](https://reference.groupdocs.com/metadata/java/)  
@@ -173,3 +167,9 @@ R: Consulta la documentación oficial, la referencia de la API o publica pregunt
 - [Repositorio GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Foro de soporte gratuito](https://forum.groupdocs.com/c/metadata/)  
 - [Solicitud de licencia temporal](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Última actualización:** 2025-12-19  
+**Probado con:** GroupDocs.Metadata 24.12 para Java  
+**Autor:** GroupDocs  

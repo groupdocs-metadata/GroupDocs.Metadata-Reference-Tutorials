@@ -160,12 +160,6 @@ Nyní máte kompletní, připravenou metodu pro **remove zip comments java** pom
 **Q:** Kde mohu získat pomoc, pokud narazím na chyby?  
 **A:** Odkazujte se na oficiální dokumentaci, referenci API nebo položte otázky na fóru podpory.
 
----
-
-**Last Updated:** 2025-12-19  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
 **Zdroje**  
 - [Dokumentace GroupDocs.Metadata](https://docs.groupdocs.com/metadata/java/)  
 - [Reference API](https://reference.groupdocs.com/metadata/java/)  
@@ -173,3 +167,9 @@ Nyní máte kompletní, připravenou metodu pro **remove zip comments java** pom
 - [Úložiště GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Bezplatné fórum podpory](https://forum.groupdocs.com/c/metadata/)  
 - [Žádost o dočasnou licenci](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs  

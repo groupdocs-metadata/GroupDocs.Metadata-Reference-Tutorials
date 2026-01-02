@@ -157,12 +157,6 @@ A: A free trial lets you test all features. A purchased license is required for 
 **Q: Where can I get help if I encounter errors?**  
 A: Refer to the official documentation, the API reference, or post questions on the support forum.
 
----
-
-**Last Updated:** 2025-12-19  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
 **Resources**  
 - [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - [API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -170,3 +164,9 @@ A: Refer to the official documentation, the API reference, or post questions on 
 - [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
 - [Temporary License Application](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs  

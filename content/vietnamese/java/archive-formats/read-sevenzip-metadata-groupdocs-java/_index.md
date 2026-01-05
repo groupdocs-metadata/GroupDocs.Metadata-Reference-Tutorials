@@ -16,7 +16,7 @@ weight: 1
 
 Nếu bạn cần **cách đọc sevenzip** thông tin lưu trữ từ một ứng dụng Java, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách sử dụng **GroupDocs.Metadata** để lấy tên tệp, kích thước, ngày tháng và hơn thế nữa—đúng dữ liệu bạn cần cho việc xác thực sao lưu, đồng bộ hoá, hoặc tối ưu hoá lưu trữ.
 
-## Introduction
+## Giới thiệu
 
 Gặp khó khăn trong việc truy cập và đọc các thuộc tính siêu dữ liệu từ các tệp lưu trữ SevenZip bằng Java? Hướng dẫn này sẽ chỉ cho bạn quy trình sử dụng **GroupDocs.Metadata**. Thư viện mạnh mẽ này giúp đơn giản hoá việc trích xuất thông tin quan trọng như tên tệp, kích thước và ngày sửa đổi trực tiếp từ các lưu trữ của bạn.
 
@@ -27,7 +27,7 @@ Trong bài viết này, chúng tôi sẽ trình bày cách tận dụng **GroupD
 - Đọc siêu dữ liệu từ các lưu trữ SevenZip bằng các phương pháp và lớp cụ thể  
 - Các ví dụ thực tế về việc trích xuất các thuộc tính tệp quan trọng như tên, kích thước nén và ngày sửa đổi  
 
-## Quick Answers
+## Câu trả lời nhanh
 - **Thư viện nào tôi nên sử dụng?** GroupDocs.Metadata for Java  
 - **Tôi có thể liệt kê các tệp trong một lưu trữ SevenZip không?** Có – sử dụng `getSevenZipPackage().getFiles()`  
 - **Tôi có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc đánh giá; giấy phép đầy đủ cần thiết cho môi trường sản xuất  
@@ -43,7 +43,7 @@ Trong bài viết này, chúng tôi sẽ trình bày cách tận dụng **GroupD
 - **Performance‑focused** – chỉ đọc thông tin tiêu đề cần thiết cho các tác vụ trích xuất siêu dữ liệu java  
 - **Robust licensing** – có bản dùng thử, giấy phép đầy đủ cho mục đích thương mại  
 
-## Prerequisites
+## Điều kiện tiên quyết
 
 Trước khi bắt đầu với **GroupDocs.Metadata for Java**, hãy đảm bảo môi trường phát triển của bạn được thiết lập đúng cách. Đây là những gì bạn cần:
 
@@ -51,11 +51,11 @@ Trước khi bắt đầu với **GroupDocs.Metadata for Java**, hãy đảm b�
 - **Maven:** Được khuyến nghị để quản lý phụ thuộc, mặc dù bạn có thể thêm JAR thủ công.  
 - **Kiến thức Java cơ bản:** Quen thuộc với các lớp, phương thức và xử lý ngoại lệ.  
 
-## Setting Up GroupDocs.Metadata for Java
+## Thiết lập GroupDocs.Metadata cho Java
 
-Để sử dụng GroupDocs.Metadata, hãy đưa nó vào của bạn qua Maven hoặc tải thư viện trực tiếp.
+Để sử dụng GroupDocs.Metadata, bạn hãy đưa nó qua Maven hoặc tải thư trực tiếp.
 
-### Using Maven
+### Sử dụng Maven
 
 Thêm cấu hình sau vào tệp `pom.xml` của bạn:
 
@@ -77,25 +77,25 @@ Thêm cấu hình sau vào tệp `pom.xml` của bạn:
 </dependencies>
 ```
 
-### Direct Download
+### Tải xuống trực tiếp
 
-Hoặc tải phiên bản mới nhất từ [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Hoặc tải xuống phiên bản mới nhất từ ​​[Bản phát hành GroupDocs.Metadata for Java](https://releases.groupdocs.com/metadata/java/).
 
-#### License Acquisition
+#### Mua lại giấy phép
 
-1. **Free Trial:** Bắt đầu với bản dùng thử miễn phí để kiểm tra khả năng của GroupDocs.Metadata.  
-2. **Temporary License:** Yêu cầu giấy phép tạm thời nếu bạn cần truy cập kéo dài cho mục đích đánh giá.  
-3. **Purchase:** Đối với việc sử dụng lâu dài, hãy cân nhắc mua giấy phép đầy đủ.  
+1. **Dùng thử miễn phí:** Bắt đầu với phiên bản thử miễn phí để kiểm tra khả năng của GroupDocs.Metadata.
+2. **Giấy phép tạm thời:** Yêu cầu giấy phép tạm thời nếu bạn cần truy cập vào giá đánh giá mục tiêu kéo dài.
+3. **Mua hàng:** Đối với việc sử dụng lâu dài, hãy cân nhắc mua giấy phép đầy đủ.
 
-Sau khi cài đặt hoàn tất, chúng ta sẽ chuyển sang triển khai chức năng đọc siêu dữ liệu.
+Sau khi cài đặt hoàn tất, chúng tôi sẽ chuyển sang phát triển chức năng đọc siêu dữ liệu.
 
-## Implementation Guide
+## Hướng dẫn thực hiện
 
-### Accessing Metadata from SevenZip Archives
+### Truy cập siêu dữ liệu từ kho lưu trữ SevenZip
 
-Trong phần này, chúng tôi sẽ trích xuất và in các thuộc tính siêu dữ liệu như tên tệp và kích thước từ một lưu trữ SevenZip.
+Trong phần này, chúng tôi sẽ trích xuất và in các siêu dữ liệu thuộc tính như tệp tên và kích thước từ kho lưu trữ SevenZip.
 
-#### Step 1: Initialize Metadata Object
+#### Bước 1: Khởi tạo đối tượng siêu dữ liệu
 
 Bắt đầu bằng cách khởi tạo đối tượng `Metadata` với đường dẫn tới tệp SevenZip của bạn. Điều này cho GroupDocs biết tệp nào sẽ được xử lý.
 
@@ -109,7 +109,7 @@ public class ReadSevenZipMetadata {
         Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.7z");
 ```
 
-#### Step 2: Obtain the Root Package
+#### Bước 2: Lấy gói gốc
 
 Tiếp theo, truy cập gói gốc của lưu trữ để có điểm vào cho tất cả các tệp và thuộc tính của chúng.
 
@@ -120,7 +120,7 @@ try (
 
 - **Why Use `getRootPackageGeneric()`?** Nó cung cấp một cái nhìn tổng quát về nội dung của lưu trữ, giúp dễ dàng lặp qua các mục mà không cần lo lắng về định dạng tệp cụ thể.
 
-#### Step 3: Iterate Over Archive Entries
+#### Bước 3: Lặp qua các mục lưu trữ
 
 Khi đã truy cập vào gói gốc của lưu trữ, lặp qua từng mục để trích xuất các thuộc tính siêu dữ liệu. Điều này bao gồm việc lấy các chi tiết như tên, kích thước nén và ngày sửa đổi.
 
@@ -143,7 +143,7 @@ for (SevenZipFile file : root.getSevenZipPackage().getFiles()) {
 
 - **Why Extract These Properties?** Biết kích thước tệp giúp quản lý lưu trữ, trong khi ngày sửa đổi có thể quan trọng cho các tác vụ đồng bộ.
 
-#### Step 4: Clean Up Resources
+#### Bước 4: Dọn dẹp tài nguyên
 
 Cuối cùng, hãy chắc chắn giải phóng đối tượng metadata để giải phóng bất kỳ tài nguyên nào mà GroupDocs.Metadata đang giữ.
 
@@ -155,61 +155,61 @@ Cuối cùng, hãy chắc chắn giải phóng đối tượng metadata để gi
 
 - **Why Dispose?** Giải phóng đúng cách các đối tượng giúp ngăn ngừa rò rỉ bộ nhớ trong các ứng dụng chạy lâu.
 
-## Practical Applications
+## Ứng dụng thực tế
 
-Hiểu cách đọc siêu dữ liệu SevenZip mang lại nhiều lợi ích thực tế:
+Hiểu cách đọc SevenZip siêu dữ liệu mang lại nhiều lợi ích thực tế:
 
-1. **Data Backup Management:** Nhanh chóng xác minh tính toàn vẹn và đầy đủ của các lưu trữ sao lưu.  
-2. **File Synchronization Tools:** Sử dụng ngày sửa đổi để quyết định tệp nào cần cập nhật.  
-3. **Storage Optimization:** So sánh kích thước nén và không nén để lên kế hoạch dung lượng.  
+1. **Quản lý sao lưu dữ liệu:** Nhanh chóng xác minh tính năng toàn diện và đầy đủ của các bản lưu trữ.
+2. **Công cụ đồng bộ hóa tệp:** Sử dụng ngày sửa đổi để quyết định tệp nào cần cập nhật.
+3. **Tối ưu hóa lưu trữ:** So sánh kích thước nén và không nén để tăng dung lượng kế hoạch.
 
-Việc tích hợp với các hệ thống khác là khả thi, cho phép trích xuất siêu dữ liệu tự động như một phần của quy trình quản lý dữ liệu lớn hơn.
+Việc tích hợp các hệ thống khác là khả thi, cho phép tự động trích xuất siêu dữ liệu như một phần của trình quản lý dữ liệu lớn hơn.
 
-## Performance Considerations
+## Cân nhắc về hiệu suất
 
-Khi làm việc với GroupDocs.Metadata và các lưu trữ lớn, hãy nhớ những lời khuyên sau:
+Khi làm việc với GroupDocs.Metadata và các kho lưu trữ lớn, hãy nhớ những lời khuyên sau:
 
-- **Batch Processing:** Xử lý các tệp theo lô để quản lý việc sử dụng bộ nhớ hiệu quả.  
-- **Efficient Exception Handling:** Sử dụng try‑with‑resources để quản lý tài nguyên tự động.  
-- **Asynchronous Processing:** Triển khai kỹ thuật bất đồng bộ cho khối lượng công việc nặng.  
+- **Xử lý hàng loạt:** Xử lý các tệp tin theo lô để quản lý việc sử dụng hiệu quả bộ nhớ.
+- **Xử lý ngoại lệ hiệu quả:** Sử dụng try‑with‑resources để quản lý tài nguyên tự động.
+- **Xử lý không đồng bộ:** Triển khai kỹ thuật bất đồng bộ cho khối lượng công việc nặng nề.
 
-## Common Issues and Solutions
+## Các vấn đề thường gặp và giải pháp
 
-| Issue | Solution |
+| Vấn đề | Giải pháp |
 |-------|----------|
-| **`NullPointerException` khi truy cập tệp** | Xác minh đường dẫn lưu trữ là đúng và tệp không bị hỏng. |
-| **Sự tăng đột biến bộ nhớ trên các lưu trữ khổng lồ** | Kích hoạt xử lý theo lô hoặc tăng kích thước heap JVM (`-Xmx`). |
-| **Giấy phép không được công nhận** | Đảm bảo tệp giấy phép được đặt trong thư mục làm việc của ứng dụng hoặc thiết lập qua `License.setLicense(path)`. |
+| **`NullPointerException` khi truy cập tệp ** | Xác minh đường dẫn lưu trữ là đúng và tệp không bị hỏng. |
+| **Bộ nhớ biến đổi tăng lên để lưu trữ** | Kích hoạt xử lý theo lô hoặc tăng heap JVM kích thước (`-Xmx`). |
+| **Giấy phép không được nhận** | Đảm bảo giấy bảo mật được phép đặt trong thư mục làm việc của ứng dụng hoặc thiết lập qua `Lince.setLicen(path)`. |
 
-## Frequently Asked Questions
+## Câu hỏi thường gặp
 
-**Q:** GroupDocs.Metadata là gì?  
-**A:** Đó là một thư viện Java để xử lý siêu dữ liệu trên các định dạng tệp khác nhau, bao gồm cả lưu trữ SevenZip.
+**Q:** GroupDocs.Metadata là gì?
+**A:** Đó là một thư viện Java để xử lý siêu dữ liệu trên các định dạng tệp khác nhau, bao gồm cả kho lưu trữ SevenZip.
 
-**Q:** Tôi có thể sử dụng GroupDocs.Metadata mà không cần Maven không?  
-**A:** Có, bạn có thể tải JAR từ trang chính thức và thêm vào classpath của dự án.
+**Q:** Tôi có thể sử dụng GroupDocs.Metadata mà không cần Maven?
+**A:** Có, bạn có thể tải xuống JAR từ trang chính thức và thêm vào đường dẫn lớp của dự án.
 
-**Q:** Làm thế nào để xử lý các lưu trữ lớn một cách hiệu quả?  
-**A:** Triển khai xử lý theo lô hoặc sử dụng streams bất đồng bộ để giới hạn việc tiêu thụ bộ nhớ.
+**Q:** Làm cách nào để xử lý các kho lưu trữ lớn một cách hiệu quả?
+**A:** Triển khai xử lý theo lô hoặc sử dụng các luồng bất đồng bộ để giới hạn bộ nhớ thụ động.
 
-**Q:** Tôi có thể tìm hướng dẫn chi tiết hơn ở đâu?  
-**A:** Xem [tài liệu chính thức](https://docs.groupdocs.com/metadata/java/) để có tham chiếu API toàn diện.
+**Q:** Tôi có thể tìm hướng dẫn chi tiết hơn ở đâu?
+**A:** Xem [tài liệu chính thức](https://docs.groupdocs.com/metadata/java/) để có giao diện API tham chiếu.
 
-**Q:** Nếu tôi gặp vấn đề với thư viện thì sao?  
+**Q:** Nếu tôi gặp vấn đề với thư viện thì sao?
 **A:** Hỏi cộng đồng trên [diễn đàn hỗ trợ GroupDocs](https://forum.groupdocs.com/c/metadata/).
 
-## Resources
+## Tài nguyên
 
-- **Documentation:** Khám phá thêm tại [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
-- **API Reference:** Kiểm tra thông tin chi tiết API tại [GroupDocs.API Reference](https://reference.groupdocs.com/metadata/java/)  
-- **Download:** Tải phiên bản mới nhất từ [GroupDocs Downloads](https://releases.groupdocs.com/metadata/java/)  
-- **GitHub Repository:** Truy cập các mẫu mã trên [GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- **Free Support Forum:** Tham gia thảo luận hoặc đặt câu hỏi tại [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)
+- **Tài liệu:** Khám phá thêm tại [Tài liệu GroupDocs.Metadata](https://docs.groupdocs.com/metadata/java/)
+- **Tham khảo API:** Kiểm tra API chi tiết thông tin tại [GroupDocs.API Reference](https://reference.groupdocs.com/metadata/java/)
+- **Tải xuống:** Tải phiên bản mới nhất từ ​​[Tải xuống GroupDocs](https://releases.groupdocs.com/metadata/java/)
+- **GitHub Repository:** Truy cập các mẫu mã trên [GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- **Diễn đàn hỗ trợ miễn phí:** Tham gia thảo luận hoặc đặt câu hỏi tại [Hỗ trợ miễn phí GroupDocs](https://forum.groupdocs.com/c/metadata/)
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
+**Cập nhật lần cuối:** 2025-12-20
+**Đã thử nghiệm với:** GroupDocs.Metadata 24.12 cho Java
+**Tác giả:** GroupDocs
 
 ---

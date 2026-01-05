@@ -14,11 +14,11 @@ weight: 1
 # Javaで正規表現とGroupDocs.Metadataを使用してメタデータを検索する方法
 
 ## Quick Answers
-- **主要なライブラリは何ですか？** GroupDocs.Metadata for Java  
-- **メタデータ検索に役立つ機能は？** Regex‑based search via `Specification`  
-- **ライセンスは必要ですか？** A free trial is available; a license is required for production use  
-- **すべてのドキュメントタイプを検索できますか？** Yes, GroupDocs.Metadata supports PDFs, Word, Excel, images, and more  
-- **必要なJavaバージョンは？** JDK 8 or higher  
+- **主要なライブラリは何ですか？** GroupDocs.Metadata for Java
+- **メタデータ検索に役立つ機能は？** Regex‑based search via `Specification`
+- **ライセンスは必要ですか？** A free trial is available; a license is required for production use
+- **すべてのドキュメントタイプを検索できますか？** Yes, GroupDocs.Metadata supports PDFs, Word, Excel, images, and more
+- **必要なJavaバージョンは？** JDK 8 or higher
 
 ## メタデータ検索とは何か、そしてなぜ正規表現を使用するのか
 
@@ -28,15 +28,15 @@ Metadataはファイルに埋め込まれた隠れた属性で、author、creati
 
 Before diving in, make sure you have the following:
 
-- **GroupDocs.Metadata for Java** バージョン 24.12 以上。  
-- 依存関係管理のために Maven がインストールされていること。  
-- Java 8 以上の JDK と IntelliJ IDEA または Eclipse などの IDE。  
+- **GroupDocs.Metadata for Java** バージョン 24.12 以上。
+- 依存関係管理のために Maven がインストールされていること。
+- Java 8 以上の JDK と IntelliJ IDEA または Eclipse などの IDE。
 - Java と正規表現の基本的な知識。
 
 ## GroupDocs.Metadata for Java のセットアップ
 
-### Maven Setup
-Add the repository and dependency to your `pom.xml`:
+### Maven のセットアップ
+`pom.xml` にリポジトリと依存関係を追加します。
 
 ```xml
 <repositories>
@@ -56,7 +56,7 @@ Add the repository and dependency to your `pom.xml`:
 </dependencies>
 ```
 
-### Direct Download
+### 直接ダウンロード
 Maven を使用したくない場合は、最新の JAR を直接 [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) からダウンロードできます。
 
 ### ライセンス取得手順
@@ -74,7 +74,7 @@ Metadata metadata = new Metadata("path/to/your/document");
 
 ### 正規表現パターンの定義
 
-The first step is to decide what you want to match. For example, to find properties named **author** or **company**, you can use:
+最初のステップは、何を一致させたいのかを決めることです。例えば、**author** や **company** という名前のプロパティを検索するには、次のようにします。
 
 ```java
 import java.util.regex.Pattern;

@@ -153,12 +153,6 @@ A: Zweryfikuj, czy ścieżka do pliku jest poprawna, plik istnieje i proces ma u
 **Q: Czy obsługiwane są języki napisów inne niż angielski?**  
 A: Oczywiście — GroupDocs.Metadata odczytuje tagi językowe ISO 639‑2/IETF BCP‑47, więc obsługiwany jest każdy wspierany język.
 
----
-
-**Ostatnia aktualizacja:** 2025-12-24  
-**Testowano z:** GroupDocs.Metadata 24.12 for Java  
-**Autor:** GroupDocs  
-
 **Zasoby**
 - **Dokumentacja:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **Referencja API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -166,3 +160,9 @@ A: Oczywiście — GroupDocs.Metadata odczytuje tagi językowe ISO 639‑2/IET
 - **Repozytorium GitHub:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Darmowe forum wsparcia:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
 - **Tymczasowa licencja:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-24  
+**Testowano z:** GroupDocs.Metadata 24.12 for Java  
+**Autor:** GroupDocs  

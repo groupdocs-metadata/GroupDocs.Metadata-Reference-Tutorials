@@ -167,11 +167,25 @@ public class ReadID3V1Tag {
 - **Stay Updated** – οι νεότερες εκδόσεις της βιβλιοθήκης περιλαμβάνουν διορθώσεις απόδοσης και σφαλμάτων.
 
 ## Συχνές ερωτήσεις
-1. **What is GroupDocs.Metadata Java used for;** Χρησιμοποιείται για τη διαχείριση και εξαγωγή μεταδεδομένων από διάφορες μορφές αρχείων, συμπεριλαμβανομένων των αρχείων ήχου MP3.  
-2. **How do I handle errors when reading ID3v1 tags;** Χρησιμοποιήστε μπλοκ try‑catch γύρω από τις λειτουργίες `Metadata` και καταγράψτε τα μηνύματα εξαιρέσεων για εντοπισμό σφαλμάτων.  
-3. **Can GroupDocs.Metadata read other metadata types besides ID3v1;** Ναι, υποστηρίζει ID3v2, APE και πολλές άλλες μορφές ετικετών σε ήχο, εικόνα και έγγραφα.  
-4. **Is there a cost associated with using GroupDocs.Metadata Java;** Διατίθεται δωρεάν δοκιμή, αλλά απαιτείται πληρωμένη άδεια για παραγωγική χρήση.  
-5. **Where can I find more resources on GroupDocs.Metadata;** Επισκεφθείτε την [documentation](https://docs.groupdocs.com/metadata/java/) και το [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) για ολοκληρωμένους οδηγούς και παραδείγματα.
+
+1. **What is GroupDocs.Metadata Java used for;**
+
+Χρησιμοποιείται για τη διαχείριση και εξαγωγή μεταδεδομένων από διάφορες μορφές αρχείων, συμπεριλαμβανομένων των αρχείων ήχου MP3.  
+
+2. **How do I handle errors when reading ID3v1 tags;**
+
+Χρησιμοποιήστε μπλοκ try‑catch γύρω από τις λειτουργίες `Metadata` και καταγράψτε τα μηνύματα εξαιρέσεων για εντοπισμό σφαλμάτων.  
+
+3. **Can GroupDocs.Metadata read other metadata types besides ID3v1;**
+
+Ναι, υποστηρίζει ID3v2, APE και πολλές άλλες μορφές ετικετών σε ήχο, εικόνα και έγγραφα.  
+
+4. **Is there a cost associated with using GroupDocs.Metadata Java;**
+
+Διατίθεται δωρεάν δοκιμή, αλλά απαιτείται πληρωμένη άδεια για παραγωγική χρήση.  
+5. **Where can I find more resources on GroupDocs.Metadata;**
+
+Επισκεφθείτε την [documentation](https://docs.groupdocs.com/metadata/java/) και το [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) για ολοκληρωμένους οδηγούς και παραδείγματα.
 
 ## Πόροι
 - **Documentation**: [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)  

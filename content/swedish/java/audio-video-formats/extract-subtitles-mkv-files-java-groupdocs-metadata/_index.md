@@ -153,12 +153,6 @@ A: Verifiera att filvägen är korrekt, att filen finns och att processen har l�
 **Q: Finns det stöd för undertextspråk annat än engelska?**  
 A: Absolut—GroupDocs.Metadata läser ISO 639‑2/IETF BCP‑47‑språktaggar, så alla stödjade språk hanteras.
 
----
-
-**Senast uppdaterad:** 2025-12-24  
-**Testad med:** GroupDocs.Metadata 24.12 for Java  
-**Författare:** GroupDocs  
-
 **Resurser**
 - **Dokumentation:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **API‑referens:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -166,3 +160,10 @@ A: Absolut—GroupDocs.Metadata läser ISO 639‑2/IETF BCP‑47‑språktagga
 - **GitHub‑arkiv:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Gratis supportforum:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
 - **Tillfällig licens:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+
+---
+
+**Senast uppdaterad:** 2025-12-24  
+**Testad med:** GroupDocs.Metadata 24.12 for Java  
+**Författare:** GroupDocs  

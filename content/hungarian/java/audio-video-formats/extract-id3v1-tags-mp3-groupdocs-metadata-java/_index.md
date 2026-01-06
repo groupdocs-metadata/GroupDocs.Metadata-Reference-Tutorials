@@ -165,11 +165,26 @@ Sok fájl feldolgozásakor tartsa szem előtt ezeket a tippeket:
 - **Stay Updated** – az újabb könyvtárverziók teljesítményjavításokat és hibajavításokat tartalmaznak.
 
 ## Gyakran ismételt kérdések
-1. **What is GroupDocs.Metadata Java used for?** A különböző fájlformátumok metaadatainak kezelésére és kinyerésére szolgál, beleértve az MP3 audio fájlokat is.  
-2. **How do I handle errors when reading ID3v1 tags?** Használjon try‑catch blokkokat a `Metadata` műveletek körül, és naplózza a kivételüzeneteket a hibakereséshez.  
-3. **Can GroupDocs.Metadata read other metadata types besides ID3v1?** Igen, támogatja az ID3v2, APE sok más címkeformátumot audio, kép és dokumentum fájlok esetén.  
-4. **Is there a cost associated with using GroupDocs.Metadata Java?** Elérhető egy ingyenes próba, de a termelési használathoz fizetős licenc szükséges.  
-5. **Where can I find more resources on GroupDocs.Metadata?** Látogassa meg a [documentation](https://docs.groupdocs.com/metadata/java/) és a [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) oldalakat a részletes útmutatók és példákért.
+
+1. **What is GroupDocs.Metadata Java used for?**
+
+A különböző fájlformátumok metaadatainak kezelésére és kinyerésére szolgál, beleértve az MP3 audio fájlokat is.  
+
+2. **How do I handle errors when reading ID3v1 tags?**
+
+Használjon try‑catch blokkokat a `Metadata` műveletek körül, és naplózza a kivételüzeneteket a hibakereséshez.  
+
+3. **Can GroupDocs.Metadata read other metadata types besides ID3v1?**
+
+Igen, támogatja az ID3v2, APE sok más címkeformátumot audio, kép és dokumentum fájlok esetén.  
+
+4. **Is there a cost associated with using GroupDocs.Metadata Java?**
+
+Elérhető egy ingyenes próba, de a termelési használathoz fizetős licenc szükséges.  
+
+5. **Where can I find more resources on GroupDocs.Metadata?**
+
+Látogassa meg a [documentation](https://docs.groupdocs.com/metadata/java/) és a [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) oldalakat a részletes útmutatók és példákért.
 
 ## Erőforrások
 - **Documentation**: [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)  

@@ -151,12 +151,6 @@ A: ファイルパスが正しいか、ファイルが存在するか、プロ�
 **Q: 英語以外の字幕言語はサポートされていますか？**  
 A: もちろんです。GroupDocs.Metadata は ISO 639‑2/IETF BCP‑47 言語タグを読み取り、サポートされているすべての言語を処理します。
 
----
-
-**最終更新日:** 2025-12-24  
-**テスト環境:** GroupDocs.Metadata 24.12 for Java  
-**作者:** GroupDocs  
-
 **リソース**
 - **ドキュメント:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **API リファレンス:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -164,3 +158,9 @@ A: もちろんです。GroupDocs.Metadata は ISO 639‑2/IETF BCP‑47 言�
 - **GitHub リポジトリ:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **無料サポートフォーラム:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
 - **一時ライセンス:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**最終更新日:** 2025-12-24  
+**テスト環境:** GroupDocs.Metadata 24.12 for Java  
+**作者:** GroupDocs  

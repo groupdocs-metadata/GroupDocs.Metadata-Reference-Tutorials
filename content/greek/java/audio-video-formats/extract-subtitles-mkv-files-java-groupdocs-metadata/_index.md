@@ -153,12 +153,6 @@ A: Επαληθεύστε ότι η διαδρομή του αρχείου εί�
 **Q: Υπάρχει υποστήριξη για γλώσσες υποτίτλων εκτός της Αγγλικής;**  
 A: Απόλυτα—το GroupDocs.Metadata διαβάζει ετικέτες γλώσσας ISO 639‑2/IETF BCP‑47, οπότε οποιαδήποτε υποστηριζόμενη γλώσσα διαχειρίζεται.
 
----
-
-**Τελευταία Ενημέρωση:** 2025-12-24  
-**Δοκιμάστηκε Με:** GroupDocs.Metadata 24.12 for Java  
-**Συγγραφέας:** GroupDocs  
-
 ## Πόροι
 
 - **Documentation:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
@@ -167,3 +161,9 @@ A: Απόλυτα—το GroupDocs.Metadata διαβάζει ετικέτες γ
 - **GitHub Repository:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Free Support Forum:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
 - **Temporary License:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-24  
+**Δοκιμάστηκε Με:** GroupDocs.Metadata 24.12 for Java  
+**Συγγραφέας:** GroupDocs  

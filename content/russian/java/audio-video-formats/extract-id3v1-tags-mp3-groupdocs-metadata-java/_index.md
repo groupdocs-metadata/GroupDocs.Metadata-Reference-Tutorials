@@ -165,11 +165,26 @@ public class ReadID3V1Tag {
 - **Stay Updated** — новые версии библиотеки включают патчи производительности и исправления ошибок.
 
 ## Часто задаваемые вопросы
-1. **What is GroupDocs.Metadata Java used for?** — используется для управления и извлечения метаданных из различных форматов файлов, включая MP3 аудио файлы.  
-2. **How do I handle errors when reading ID3v1 tags?** — используйте блоки try‑catch вокруг операций `Metadata` и записывайте сообщения об исключениях для отладки.  
-3. **Can GroupDocs.Metadata read other metadata types besides ID3v1?** — Да, поддерживает ID3v2, APE и многие другие форматы тегов для аудио, изображений и документов.  
-4. **Is there a cost associated with using GroupDocs.Metadata Java?** — доступна бесплатная пробная версия, но для продакшн‑использования требуется платная лицензия.  
-5. **Where can I find more resources on GroupDocs.Metadata?** — посетите [documentation](https://docs.groupdocs.com/metadata/java/) и [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) для подробных руководств и примеров.
+
+1. **What is GroupDocs.Metadata Java used for?**
+
+— используется для управления и извлечения метаданных из различных форматов файлов, включая MP3 аудио файлы.  
+
+2. **How do I handle errors when reading ID3v1 tags?**
+
+— используйте блоки try‑catch вокруг операций `Metadata` и записывайте сообщения об исключениях для отладки.  
+
+3. **Can GroupDocs.Metadata read other metadata types besides ID3v1?**
+
+— Да, поддерживает ID3v2, APE и многие другие форматы тегов для аудио, изображений и документов.  
+
+4. **Is there a cost associated with using GroupDocs.Metadata Java?**
+
+— доступна бесплатная пробная версия, но для продакшн‑использования требуется платная лицензия.  
+
+5. **Where can I find more resources on GroupDocs.Metadata?**
+
+— посетите [documentation](https://docs.groupdocs.com/metadata/java/) и [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) для подробных руководств и примеров.
 
 ## Ресурсы
 - **Documentation**: [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)

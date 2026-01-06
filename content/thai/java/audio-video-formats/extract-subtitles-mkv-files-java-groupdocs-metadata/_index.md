@@ -152,12 +152,6 @@ A: ตรวจสอบว่าเส้นทางไฟล์ถูกต�
 **Q: มีการสนับสนุนภาษาซับไตเติลอื่นนอกจากภาษาอังกฤษหรือไม่?**  
 A: แน่นอน — GroupDocs.Metadata อ่านแท็กภาษา ISO 639‑2/IETF BCP‑47 ดังนั้นภาษาที่รองรับทั้งหมดจะถูกจัดการ
 
----
-
-**Last Updated:** 2025-12-24  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
 **Resources**
 
 - **Documentation:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
@@ -166,3 +160,9 @@ A: แน่นอน — GroupDocs.Metadata อ่านแท็กภาษ�
 - **GitHub Repository:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Free Support Forum:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
 - **Temporary License:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Last Updated:** 2025-12-24  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs  

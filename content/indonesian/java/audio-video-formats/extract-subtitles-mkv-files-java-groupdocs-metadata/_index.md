@@ -153,12 +153,6 @@ A: Verifikasi bahwa path file sudah benar, file ada, dan proses memiliki izin ba
 **Q: Apakah ada dukungan untuk bahasa subtitle selain Bahasa Inggris?**  
 A: Tentu—GroupDocs.Metadata membaca tag bahasa ISO 639‑2/IETF BCP‑47, sehingga bahasa apa pun yang didukung dapat ditangani.
 
----
-
-**Last Updated:** 2025-12-24  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
 **Sumber Daya**
 - **Dokumentasi:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **Referensi API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -166,3 +160,9 @@ A: Tentu—GroupDocs.Metadata membaca tag bahasa ISO 639‑2/IETF BCP‑47, se
 - **Repositori GitHub:** [Jelajahi di GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Forum Dukungan Gratis:** [Ajukan pertanyaan dan dapatkan dukungan](https://forum.groupdocs.com/c/metadata/)  
 - **Lisensi Sementara:** [Dapatkan lisensi sementara](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Last Updated:** 2025-12-24  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs  

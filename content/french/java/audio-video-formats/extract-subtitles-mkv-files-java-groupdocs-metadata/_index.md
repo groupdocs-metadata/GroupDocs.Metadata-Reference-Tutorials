@@ -153,12 +153,6 @@ R : Vérifiez que le chemin du fichier est correct, que le fichier existe et q
 **Q : Le support des langues de sous‑titres autres que l'anglais est‑il disponible ?**  
 R : Absolument—GroupDocs.Metadata lit les balises de langue ISO 639‑2/IETF BCP‑47, ainsi toute langue prise en charge est gérée.
 
----
-
-**Dernière mise à jour :** 2025-12-24  
-**Testé avec :** GroupDocs.Metadata 24.12 for Java  
-**Auteur :** GroupDocs  
-
 **Ressources**
 - **Documentation :** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **Référence API :** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -166,3 +160,9 @@ R : Absolument—GroupDocs.Metadata lit les balises de langue ISO 639‑2/IE
 - **Dépôt GitHub :** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Forum d'assistance gratuit :** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
 - **Licence temporaire :** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Dernière mise à jour :** 2025-12-24  
+**Testé avec :** GroupDocs.Metadata 24.12 for Java  
+**Auteur :** GroupDocs  

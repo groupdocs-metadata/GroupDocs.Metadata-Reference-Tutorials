@@ -153,12 +153,6 @@ A: Controleer of het bestandspad correct is, het bestand bestaat, en het proces 
 **V: Is er ondersteuning voor ondertitel­talen anders dan Engels?**  
 A: Absoluut—GroupDocs.Metadata leest ISO 639‑2/IETF BCP‑47 taaltags, dus elke ondersteunde taal wordt verwerkt.
 
----
-
-**Last Updated:** 2025-12-24  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
 **Bronnen**
 
 - **Documentation:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
@@ -167,3 +161,9 @@ A: Absoluut—GroupDocs.Metadata leest ISO 639‑2/IETF BCP‑47 taaltags, dus
 - **GitHub Repository:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Free Support Forum:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
 - **Temporary License:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Last Updated:** 2025-12-24  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs  

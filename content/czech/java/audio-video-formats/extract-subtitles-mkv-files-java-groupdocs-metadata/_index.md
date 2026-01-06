@@ -153,12 +153,6 @@ A: Ověřte, že cesta k souboru je správná, soubor existuje a proces má opr�
 **Q: Je podpora pro jazykové titulky jiné než angličtina?**  
 A: Rozhodně — GroupDocs.Metadata čte jazykové značky ISO 639‑2/IETF BCP‑47, takže jakýkoli podporovaný jazyk je zpracován.
 
----
-
-**Poslední aktualizace:** 2025-12-24  
-**Testováno s:** GroupDocs.Metadata 24.12 for Java  
-**Autor:** GroupDocs  
-
 **Zdroje**
 - **Dokumentace:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **Reference API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -166,3 +160,9 @@ A: Rozhodně — GroupDocs.Metadata čte jazykové značky ISO 639‑2/IETF 
 - **GitHub repozitář:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Fórum s volnou podporou:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
 - **Dočasná licence:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Poslední aktualizace:** 2025-12-24  
+**Testováno s:** GroupDocs.Metadata 24.12 for Java  
+**Autor:** GroupDocs  

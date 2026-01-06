@@ -150,12 +150,6 @@ A: 請確認檔案路徑正確、檔案存在且程式具有讀取權限。
 **Q: 是否支援除英語之外的字幕語言？**  
 A: 當然支援——GroupDocs.Metadata 會讀取 ISO 639‑2/IETF BCP‑47 語言標籤，任何支援的語言皆可處理。
 
----
-
-**最後更新:** 2025-12-24  
-**測試環境:** GroupDocs.Metadata 24.12 for Java  
-**作者:** GroupDocs  
-
 **資源**
 - **文件說明:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **API 參考:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -163,3 +157,9 @@ A: 當然支援——GroupDocs.Metadata 會讀取 ISO 639‑2/IETF BCP‑47 �
 - **GitHub 程式庫:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **免費支援論壇:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
 - **臨時授權:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**最後更新:** 2025-12-24  
+**測試環境:** GroupDocs.Metadata 24.12 for Java  
+**作者:** GroupDocs  

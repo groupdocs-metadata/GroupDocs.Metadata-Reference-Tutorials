@@ -151,12 +151,6 @@ A: 核实文件路径是否正确、文件是否存在以及进程是否拥有�
 **Q: 是否支持除英文的字幕语言？**  
 A: 完全支持——GroupDocs.Metadata 能读取 ISO 639‑2/IETF BCP‑47 语言标签，任何受支持的语言均可处理。
 
----
-
-**最后更新：** 2025-12-24  
-**测试环境：** GroupDocs.Metadata 24.12 for Java  
-**作者：** GroupDocs  
-
 **资源**
 
 - **文档：** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
@@ -165,3 +159,9 @@ A: 完全支持——GroupDocs.Metadata 能读取 ISO 639‑2/IETF BCP‑47 �
 - **GitHub 仓库：** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **免费支持论坛：** [提问并获取支持](https://forum.groupdocs.com/c/metadata/)  
 - **临时许可证：** [获取临时许可证](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**最后更新：** 2025-12-24  
+**测试环境：** GroupDocs.Metadata 24.12 for Java  
+**作者：** GroupDocs  

@@ -17,7 +17,7 @@ weight: 1
 
 Mengelola metadata secara efisien sangat penting bagi pengembang yang bekerja dengan file audio. Mengekstrak tag ID3v1 dari file MP3 dapat menjadi tantangan tanpa alat yang tepat, tetapi perpustakaan GroupDocs.Metadata menyederhanakan proses ini. **Dalam panduan ini, Anda akan belajar cara mengekstrak tag ID3v1 dari file MP3 menggunakan GroupDocs.Metadata**, sehingga Anda dapat dengan cepat membaca metadata MP3 di Java dan mengintegrasikannya ke dalam aplikasi Anda.
 
-## Quick Answers
+## Jawaban Cepat
 - **Apa arti “how to extract id3v1”?** Ini merujuk pada pembacaan blok tag ID3v1 warisan yang tertanam di akhir file MP3.  
 - **Perpustakaan mana yang menangani ini?** GroupDocs.Metadata untuk Java menyediakan API sederhana untuk mengakses ID3v1, ID3v2, dan metadata audio lainnya.  
 - **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi permanen diperlukan untuk penggunaan produksi.  
@@ -166,11 +166,26 @@ Saat memproses banyak file, ingat tips berikut:
 - **Stay Updated** – versi perpustakaan yang lebih baru mencakup perbaikan performa dan perbaikan bug.
 
 ## Pertanyaan yang Sering Diajukan
-1. **What is GroupDocs.Metadata Java used for?** Digunakan untuk mengelola dan mengekstrak metadata dari berbagai format file, termasuk file audio MP3.  
-2. **How do I handle errors when reading ID3v1 tags?** Gunakan blok try‑catch di sekitar operasi `Metadata` dan catat pesan pengecualian untuk debugging.  
-3. **Can GroupDocs.Metadata read other metadata types besides ID3v1?** Ya, ia mendukung ID3v2, APE, dan banyak format tag lainnya di seluruh file audio, gambar, dan dokumen.  
-4. **Is there a cost associated with using GroupDocs.Metadata Java?** Versi percobaan gratis tersedia, tetapi lisensi berbayar diperlukan untuk penggunaan produksi.  
-5. **Where can I find more resources on GroupDocs.Metadata?** Kunjungi [documentation](https://docs.groupdocs.com/metadata/java/) dan [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) untuk panduan dan contoh lengkap.
+
+1. **What is GroupDocs.Metadata Java used for?** 
+
+Digunakan untuk mengelola dan mengekstrak metadata dari berbagai format file, termasuk file audio MP3.  
+
+2. **How do I handle errors when reading ID3v1 tags?** 
+
+Gunakan blok try‑catch di sekitar operasi `Metadata` dan catat pesan pengecualian untuk debugging.  
+
+3. **Can GroupDocs.Metadata read other metadata types besides ID3v1?** 
+
+Ya, ia mendukung ID3v2, APE, dan banyak format tag lainnya di seluruh file audio, gambar, dan dokumen.  
+
+4. **Is there a cost associated with using GroupDocs.Metadata Java?** 
+
+Versi percobaan gratis tersedia, tetapi lisensi berbayar diperlukan untuk penggunaan produksi.  
+
+5. **Where can I find more resources on GroupDocs.Metadata?** 
+
+Kunjungi [documentation](https://docs.groupdocs.com/metadata/java/) dan [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) untuk panduan dan contoh lengkap.
 
 ## Sumber Daya
 - **Documentation**: [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)  

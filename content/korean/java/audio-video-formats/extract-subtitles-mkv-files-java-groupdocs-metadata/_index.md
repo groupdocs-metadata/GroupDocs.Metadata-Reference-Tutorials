@@ -152,12 +152,6 @@ A: 파일 경로가 정확한지, 파일이 존재하는지, 프로세스에 읽
 **Q: 영어 외의 자막 언어도 지원하나요?**  
 A: 물론입니다—GroupDocs.Metadata는 ISO 639‑2/IETF BCP‑47 언어 태그를 읽어 모든 지원 언어를 처리합니다.
 
----
-
-**마지막 업데이트:** 2025-12-24  
-**테스트 환경:** GroupDocs.Metadata 24.12 for Java  
-**작성자:** GroupDocs  
-
 **리소스**
 
 - **문서:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
@@ -166,3 +160,9 @@ A: 물론입니다—GroupDocs.Metadata는 ISO 639‑2/IETF BCP‑47 언어 �
 - **GitHub 저장소:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **무료 지원 포럼:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
 - **임시 라이선스:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**마지막 업데이트:** 2025-12-24  
+**테스트 환경:** GroupDocs.Metadata 24.12 for Java  
+**작성자:** GroupDocs  

@@ -153,12 +153,6 @@ A: सुनिश्चित करें कि फ़ाइल पाथ स
 **Q: क्या अंग्रेज़ी के अलावा अन्य भाषा के सबटाइटल सपोर्ट होते हैं?**  
 A: बिल्कुल—GroupDocs.Metadata ISO 639‑2/IETF BCP‑47 भाषा टैग्स पढ़ता है, इसलिए कोई भी सपोर्टेड भाषा संभाली जाती है।
 
----
-
-**Last Updated:** 2025-12-24  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
 ## संसाधन
 
 - **डॉक्यूमेंटेशन:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
@@ -167,3 +161,9 @@ A: बिल्कुल—GroupDocs.Metadata ISO 639‑2/IETF BCP‑47 भा
 - **GitHub रिपॉज़िटरी:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **फ़्री सपोर्ट फ़ोरम:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
 - **टेम्पररी लाइसेंस:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Last Updated:** 2025-12-24  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs  

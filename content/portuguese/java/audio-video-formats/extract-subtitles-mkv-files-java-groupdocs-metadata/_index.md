@@ -152,12 +152,6 @@ A: Verifique se o caminho do arquivo está correto, se o arquivo existe e se o p
 **Q: Há suporte para idiomas de legenda diferentes do inglês?**  
 A: Absolutamente — o GroupDocs.Metadata lê tags de idioma ISO 639‑2/IETF BCP‑47, portanto qualquer idioma suportado é tratado.
 
----
-
-**Última Atualização:** 2025-12-24  
-**Testado com:** GroupDocs.Metadata 24.12 for Java  
-**Autor:** GroupDocs  
-
 **Recursos**
 - **Documentação:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **Referência da API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -165,3 +159,9 @@ A: Absolutamente — o GroupDocs.Metadata lê tags de idioma ISO 639‑2/IETF 
 - **Repositório GitHub:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Fórum de Suporte Gratuito:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
 - **Licença Temporária:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Última Atualização:** 2025-12-24  
+**Testado com:** GroupDocs.Metadata 24.12 for Java  
+**Autor:** GroupDocs  

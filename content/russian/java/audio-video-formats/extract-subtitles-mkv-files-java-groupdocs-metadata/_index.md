@@ -153,12 +153,6 @@ A: Убедитесь, что путь к файлу правильный, фа�
 **Q: Поддерживает ли библиотека субтитры на языках, отличных от английского?**  
 A: Конечно — GroupDocs.Metadata читает теги языков ISO 639‑2/IETF BCP‑47, поэтому любой поддерживаемый язык обрабатывается.
 
----
-
-**Последнее обновление:** 2025-12-24  
-**Тестировано с:** GroupDocs.Metadata 24.12 for Java  
-**Автор:** GroupDocs  
-
 **Ресурсы**
 - **Документация:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **Ссылка на API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -166,3 +160,9 @@ A: Конечно — GroupDocs.Metadata читает теги языков ISO�
 - **Репозиторий GitHub:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Бесплатный форум поддержки:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
 - **Временная лицензия:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Последнее обновление:** 2025-12-24  
+**Тестировано с:** GroupDocs.Metadata 24.12 for Java  
+**Автор:** GroupDocs  

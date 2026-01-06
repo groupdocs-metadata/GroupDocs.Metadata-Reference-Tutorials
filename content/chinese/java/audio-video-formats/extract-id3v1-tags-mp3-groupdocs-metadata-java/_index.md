@@ -164,11 +164,26 @@ public class ReadID3V1Tag {
 - **Stay Updated** – 更新的库版本包含性能补丁和错误修复。
 
 ## 常见问题
-1. **What is GroupDocs.Metadata Java used for?** 它用于管理和提取各种文件格式的元数据，包括 MP3 音频文件。  
-2. **How do I handle errors when reading ID3v1 tags?** 在 `Metadata` 操作周围使用 try‑catch 块，并记录异常信息以进行调试。  
-3. **Can GroupDocs.Metadata read other metadata types besides ID3v1?** 是的，它支持 ID3v2、APE 以及音频、图像和文档文件中的许多其他标签格式。  
-4. **Is there a cost associated with using GroupDocs.Metadata Java?** 提供免费试用，但生产使用需要付费许可证。  
-5. **Where can I find more resources on GroupDocs.Metadata?** 请访问 [documentation](https://docs.groupdocs.com/metadata/java/) 和 [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) 获取完整指南和示例。
+
+1. **What is GroupDocs.Metadata Java used for?*
+
+它用于管理和提取各种文件格式的元数据，包括 MP3 音频文件。  
+
+2. **How do I handle errors when reading ID3v1 tags?**
+
+在 `Metadata` 操作周围使用 try‑catch 块，并记录异常信息以进行调试。  
+
+3. **Can GroupDocs.Metadata read other metadata types besides ID3v1?**
+
+是的，它支持 ID3v2、APE 以及音频、图像和文档文件中的许多其他标签格式。  
+
+4. **Is there a cost associated with using GroupDocs.Metadata Java?**
+
+提供免费试用，但生产使用需要付费许可证。  
+
+5. **Where can I find more resources on GroupDocs.Metadata?**
+
+请访问 [documentation](https://docs.groupdocs.com/metadata/java/) 和 [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) 获取完整指南和示例。
 
 ## 资源
 - **Documentation**: [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)

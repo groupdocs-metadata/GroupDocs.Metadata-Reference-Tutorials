@@ -167,11 +167,26 @@ Birçok dosya işlenirken, şu ipuçlarını aklınızda bulundurun:
 - **Güncel Kalın** – daha yeni kütüphane sürümleri performans yamaları ve hata düzeltmeleri içerir.
 
 ## Sıkça Sorulan Sorular
-1. **GroupDocs.Metadata Java ne için kullanılır?** Çeşitli dosya formatlarından, MP3 ses dosyaları dahil, meta veri yönetimi ve çıkarımı için kullanılır.  
-2. **ID3v1 etiketlerini okurken hataları nasıl yönetirim?** `Metadata` işlemleri etrafında try‑catch blokları kullanın ve hata ayıklama için istisna mesajlarını kaydedin.  
-3. **GroupDocs.Metadata ID3v1 dışındaki diğer meta veri türlerini okuyabilir mi?** Evet, ID3v2, APE ve ses, görüntü ve belge dosyaları üzerindeki birçok diğer etiket formatını destekler.  
-4. **GroupDocs.Metadata Java kullanmanın bir maliyeti var mı?** Ücretsiz bir deneme mevcuttur, ancak üretim kullanımı için ücretli bir lisans gereklidir.  
-5. **GroupDocs.Metadata hakkında daha fazla kaynağa nereden ulaşabilirim?** Kapsamlı kılavuzlar ve örnekler için [documentation](https://docs.groupdocs.com/metadata/java/) ve [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) adresini ziyaret edin.
+
+1. **GroupDocs.Metadata Java ne için kullanılır?**
+
+Çeşitli dosya formatlarından, MP3 ses dosyaları dahil, meta veri yönetimi ve çıkarımı için kullanılır.  
+
+2. **ID3v1 etiketlerini okurken hataları nasıl yönetirim?**
+
+`Metadata` işlemleri etrafında try‑catch blokları kullanın ve hata ayıklama için istisna mesajlarını kaydedin.  
+
+3. **GroupDocs.Metadata ID3v1 dışındaki diğer meta veri türlerini okuyabilir mi?**
+
+Evet, ID3v2, APE ve ses, görüntü ve belge dosyaları üzerindeki birçok diğer etiket formatını destekler.  
+
+4. **GroupDocs.Metadata Java kullanmanın bir maliyeti var mı?**
+
+Ücretsiz bir deneme mevcuttur, ancak üretim kullanımı için ücretli bir lisans gereklidir.  
+
+5. **GroupDocs.Metadata hakkında daha fazla kaynağa nereden ulaşabilirim?**
+
+Kapsamlı kılavuzlar ve örnekler için [documentation](https://docs.groupdocs.com/metadata/java/) ve [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) adresini ziyaret edin.
 
 ## Kaynaklar
 - **Documentation**: [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)  

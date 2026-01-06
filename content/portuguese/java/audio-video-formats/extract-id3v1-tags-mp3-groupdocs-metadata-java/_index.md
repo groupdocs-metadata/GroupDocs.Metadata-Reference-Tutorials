@@ -166,11 +166,26 @@ Ao processar muitos arquivos, tenha em mente estas dicas:
 - **Stay Updated** – versões mais recentes da biblioteca incluem correções de desempenho e bugs.
 
 ## Perguntas Frequentes
-1. **What is GroupDocs.Metadata Java used for?** It's used for managing and extracting metadata from various file formats, including MP3 audio files.  
-2. **How do I handle errors when reading ID3v1 tags?** Use try‑catch blocks around the `Metadata` operations and log the exception messages for debugging.  
-3. **Can GroupDocs.Metadata read other metadata types besides ID3v1?** Yes, it supports ID3v2, APE, and many other tag formats across audio, image, and document files.  
-4. **Is there a cost associated with using GroupDocs.Metadata Java?** A free trial is available, but a paid license is required for production use.  
-5. **Where can I find more resources on GroupDocs.Metadata?** Visit the [documentation](https://docs.groupdocs.com/metadata/java/) and [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) for comprehensive guides and examples.
+
+1. **What is GroupDocs.Metadata Java used for?**
+
+It's used for managing and extracting metadata from various file formats, including MP3 audio files.  
+
+2. **How do I handle errors when reading ID3v1 tags?**
+
+Use try‑catch blocks around the `Metadata` operations and log the exception messages for debugging.  
+
+3. **Can GroupDocs.Metadata read other metadata types besides ID3v1?**
+
+Yes, it supports ID3v2, APE, and many other tag formats across audio, image, and document files.  
+
+4. **Is there a cost associated with using GroupDocs.Metadata Java?**
+
+A free trial is available, but a paid license is required for production use.  
+
+5. **Where can I find more resources on GroupDocs.Metadata?**
+
+Visit the [documentation](https://docs.groupdocs.com/metadata/java/) and [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) for comprehensive guides and examples.
 
 ## Recursos
 - **Documentation**: [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)

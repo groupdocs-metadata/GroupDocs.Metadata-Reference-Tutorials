@@ -153,12 +153,6 @@ R: Verifica que la ruta del archivo sea correcta, que el archivo exista y que el
 **P: ¿Hay soporte para idiomas de subtítulos distintos al inglés?**  
 R: Absolutamente—GroupDocs.Metadata lee etiquetas de idioma ISO 639‑2/IETF BCP‑47, por lo que cualquier idioma compatible es manejado.
 
----
-
-**Última actualización:** 2025-12-24  
-**Probado con:** GroupDocs.Metadata 24.12 para Java  
-**Autor:** GroupDocs  
-
 **Recursos**
 
 - **Documentación:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
@@ -167,3 +161,9 @@ R: Absolutamente—GroupDocs.Metadata lee etiquetas de idioma ISO 639‑2/IETF
 - **Repositorio GitHub:** [Explorar en GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Foro de soporte gratuito:** [Haz preguntas y recibe soporte](https://forum.groupdocs.com/c/metadata/)  
 - **Licencia temporal:** [Obtener una licencia temporal](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Última actualización:** 2025-12-24  
+**Probado con:** GroupDocs.Metadata 24.12 para Java  
+**Autor:** GroupDocs  

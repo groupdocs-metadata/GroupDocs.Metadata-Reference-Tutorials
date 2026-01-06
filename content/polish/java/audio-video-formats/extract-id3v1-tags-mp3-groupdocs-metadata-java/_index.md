@@ -166,11 +166,26 @@ Podczas przetwarzania wielu plików pamiętaj o następujących radach:
 - **Aktualizuj bibliotekę** – nowsze wersje zawierają poprawki wydajności i naprawy błędów.
 
 ## Najczęściej zadawane pytania
-1. **Do czego służy GroupDocs.Metadata Java?** Służy do zarządzania i wyodrębniania metadanych z różnych formatów plików, w tym plików audio MP3.  
-2. **Jak obsługiwać błędy przy odczycie tagów ID3v1?** Używaj bloków try‑catch wokół operacji `Metadata` i loguj komunikaty wyjątków w celu debugowania.  
-3. **Czy GroupDocs.Metadata może czytać inne typy metadanych oprócz ID3v1?** Tak, obsługuje ID3v2, APE i wiele innych formatów tagów w plikach audio, obrazach i dokumentach.  
-4. **Czy korzystanie z GroupDocs.Metadata Java wiąże się z kosztami?** Dostępna jest darmowa wersja próbna, ale do użytku produkcyjnego wymagana jest płatna licencja.  
-5. **Gdzie znaleźć więcej zasobów dotyczących GroupDocs.Metadata?** Odwiedź [dokumentację](https://docs.groupdocs.com/metadata/java/) oraz [repozytorium GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) po kompleksowe przewodniki i przykłady.
+
+1. **Do czego służy GroupDocs.Metadata Java?**
+
+Służy do zarządzania i wyodrębniania metadanych z różnych formatów plików, w tym plików audio MP3.  
+
+2. **Jak obsługiwać błędy przy odczycie tagów ID3v1?**
+
+Używaj bloków try‑catch wokół operacji `Metadata` i loguj komunikaty wyjątków w celu debugowania.  
+
+3. **Czy GroupDocs.Metadata może czytać inne typy metadanych oprócz ID3v1?**
+
+Tak, obsługuje ID3v2, APE i wiele innych formatów tagów w plikach audio, obrazach i dokumentach.  
+
+4. **Czy korzystanie z GroupDocs.Metadata Java wiąże się z kosztami?**
+
+Dostępna jest darmowa wersja próbna, ale do użytku produkcyjnego wymagana jest płatna licencja.  
+
+5. **Gdzie znaleźć więcej zasobów dotyczących GroupDocs.Metadata?**
+
+Odwiedź [dokumentację](https://docs.groupdocs.com/metadata/java/) oraz [repozytorium GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) po kompleksowe przewodniki i przykłady.
 
 ## Zasoby
 - **Dokumentacja**: [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)  

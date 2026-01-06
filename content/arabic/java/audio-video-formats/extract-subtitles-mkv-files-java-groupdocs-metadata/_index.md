@@ -152,12 +152,6 @@ for (MatroskaSubtitleTrack subtitleTrack : root.getMatroskaPackage().getSubtitle
 **س: هل هناك دعم للغات ترجمات غير الإنجليزية؟**  
 ج: بالتأكيد — تقرأ GroupDocs.Metadata وسوم اللغة ISO 639‑2/IETF BCP‑47، لذا أي لغة مدعومة يتم التعامل معها.
 
----
-
-**آخر تحديث:** 2025-12-24  
-**تم الاختبار مع:** GroupDocs.Metadata 24.12 للـ Java  
-**المؤلف:** GroupDocs  
-
 **الموارد**
 
 - **التوثيق:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
@@ -166,3 +160,9 @@ for (MatroskaSubtitleTrack subtitleTrack : root.getMatroskaPackage().getSubtitle
 - **مستودع GitHub:** [استكشف على GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **منتدى الدعم المجاني:** [اسأل أسئلة واحصل على الدعم](https://forum.groupdocs.com/c/metadata/)  
 - **ترخيص مؤقت:** [احصل على ترخيص مؤقت](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**آخر تحديث:** 2025-12-24  
+**تم الاختبار مع:** GroupDocs.Metadata 24.12 للـ Java  
+**المؤلف:** GroupDocs  

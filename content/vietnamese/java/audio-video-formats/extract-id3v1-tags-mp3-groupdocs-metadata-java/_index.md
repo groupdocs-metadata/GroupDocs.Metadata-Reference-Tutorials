@@ -165,11 +165,26 @@ Khi xử lý nhiều tệp, hãy nhớ các lời khuyên sau:
 - **Cập nhật thường xuyên** – các phiên bản thư viện mới bao gồm các bản vá hiệu năng và sửa lỗi.
 
 ## Câu hỏi thường gặp
-1. **GroupDocs.Metadata Java dùng để làm gì?** Nó được dùng để quản lý và trích xuất siêu dữ liệu từ nhiều định dạng tệp, bao gồm cả tệp âm thanh MP3.  
-2. **Làm sao xử lý lỗi khi đọc thẻ ID3v1?** Sử dụng khối `try‑catch` quanh các thao tác `Metadata` và ghi log thông báo ngoại lệ để gỡ lỗi.  
-3. **GroupDocs.Metadata có thể đọc các loại siêu dữ liệu khác ngoài ID3v1 không?** Có, nó hỗ trợ ID3v2, APE và nhiều định dạng thẻ khác trên âm thanh, hình ảnh và tài liệu.  
-4. **Có phí khi sử dụng GroupDocs.Metadata Java không?** Có bản dùng thử miễn phí, nhưng giấy phép trả phí cần thiết cho môi trường sản xuất.  
-5. **Tôi có thể tìm thêm tài nguyên về GroupDocs.Metadata ở đâu?** Truy cập [documentation](https://docs.groupdocs.com/metadata/java/) và [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) để xem hướng dẫn chi tiết và ví dụ.
+
+1. **GroupDocs.Metadata Java dùng để làm gì?**
+
+Nó được dùng để quản lý và trích xuất siêu dữ liệu từ nhiều định dạng tệp, bao gồm cả tệp âm thanh MP3.  
+
+2. **Làm sao xử lý lỗi khi đọc thẻ ID3v1?**
+
+Sử dụng khối `try‑catch` quanh các thao tác `Metadata` và ghi log thông báo ngoại lệ để gỡ lỗi.  
+
+3. **GroupDocs.Metadata có thể đọc các loại siêu dữ liệu khác ngoài ID3v1 không?**
+
+Có, nó hỗ trợ ID3v2, APE và nhiều định dạng thẻ khác trên âm thanh, hình ảnh và tài liệu.  
+
+4. **Có phí khi sử dụng GroupDocs.Metadata Java không?**
+
+Có bản dùng thử miễn phí, nhưng giấy phép trả phí cần thiết cho môi trường sản xuất.  
+
+5. **Tôi có thể tìm thêm tài nguyên về GroupDocs.Metadata ở đâu?**
+
+Truy cập [documentation](https://docs.groupdocs.com/metadata/java/) và [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) để xem hướng dẫn chi tiết và ví dụ.
 
 ## Tài nguyên
 - **Tài liệu**: [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)

@@ -153,12 +153,6 @@ C: Dosya yolunun doğru, dosyanın mevcut ve işlemin okuma izinlerine sahip old
 **S: İngilizce dışındaki altyazı dilleri destekleniyor mu?**  
 C: Kesinlikle—GroupDocs.Metadata ISO 639‑2/IETF BCP‑47 dil etiketlerini okur, böylece desteklenen herhangi bir dil işlenir.
 
----
-
-**Son Güncelleme:** 2025-12-24  
-**Test Edilen Sürüm:** GroupDocs.Metadata 24.12 for Java  
-**Yazar:** GroupDocs  
-
 **Kaynaklar**
 - **Dokümantasyon:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **API Referansı:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -166,3 +160,9 @@ C: Kesinlikle—GroupDocs.Metadata ISO 639‑2/IETF BCP‑47 dil etiketlerini 
 - **GitHub Deposu:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Ücretsiz Destek Forumu:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
 - **Geçici Lisans:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Son Güncelleme:** 2025-12-24  
+**Test Edilen Sürüm:** GroupDocs.Metadata 24.12 for Java  
+**Yazar:** GroupDocs  

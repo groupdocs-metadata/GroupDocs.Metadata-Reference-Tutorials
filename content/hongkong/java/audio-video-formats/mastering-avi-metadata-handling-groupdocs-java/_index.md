@@ -169,12 +169,6 @@ A: 支援 AVI、MP4、MOV、WMV、FLV 等多種格式。完整列表請參考官
 **Q: 如何有效處理非常大的影片檔案？**  
 A: 使用函式庫的串流 API，只處理標頭資訊，並確保資源及時關閉（如 try‑with‑resources 所示）。
 
----
-
-**最後更新：** 2025-12-29  
-**測試環境：** GroupDocs.Metadata 24.12 for Java  
-**作者：** GroupDocs  
-
 **資源**
 - **文件說明：** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **API 參考：** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -182,3 +176,9 @@ A: 使用函式庫的串流 API，只處理標頭資訊，並確保資源及時�
 - **GitHub 程式庫：** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **免費支援論壇：** [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)  
 - **臨時授權：** [Obtain Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**最後更新：** 2025-12-29  
+**測試環境：** GroupDocs.Metadata 24.12 for Java  
+**作者：** GroupDocs  

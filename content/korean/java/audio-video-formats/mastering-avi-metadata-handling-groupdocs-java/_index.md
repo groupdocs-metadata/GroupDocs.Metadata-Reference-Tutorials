@@ -166,9 +166,6 @@ A: AVI, MP4, MOV, WMV, FLV 등 다수의 포맷을 지원합니다. 전체 목�
 **Q: 매우 큰 비디오 파일을 효율적으로 처리하려면 어떻게 해야 하나요?**  
 A: 라이브러리의 스트리밍 API를 사용하고 헤더 정보만 처리하며, (try‑with‑resources 예시와 같이) 리소스를 즉시 닫도록 합니다.
 
-**마지막 업데이트:** 2025-12-29  
-**테스트 환경:** GroupDocs.Metadata 24.12 for Java  
-**작성자:** GroupDocs  
 
 ## 리소스
 - **문서:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
@@ -177,3 +174,9 @@ A: 라이브러리의 스트리밍 API를 사용하고 헤더 정보만 처리�
 - **GitHub 저장소:** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **무료 지원 포럼:** [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)  
 - **임시 라이선스:** [Obtain Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**마지막 업데이트:** 2025-12-29  
+**테스트 환경:** GroupDocs.Metadata 24.12 for Java  
+**작성자:** GroupDocs  

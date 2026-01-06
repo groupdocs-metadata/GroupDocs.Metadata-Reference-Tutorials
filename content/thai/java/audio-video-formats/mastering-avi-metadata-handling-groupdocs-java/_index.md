@@ -170,12 +170,6 @@ A: AVI, MP4, MOV, WMV, FLV และอื่น ๆ อีกหลายรู
 **Q: จะจัดการไฟล์วิดีโอขนาดใหญ่อย่างมีประสิทธิภาพอย่างไร?**  
 A: ใช้ API สตรีมของไลบรารี, ประมวลผลเฉพาะข้อมูลส่วนหัว, และปิดทรัพยากรอย่างรวดเร็ว (ตามตัวอย่าง `try‑with‑resources`)  
 
----  
-
-**Last Updated:** 2025-12-29  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
 **Resources**
 - **Documentation:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **API Reference:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -183,3 +177,9 @@ A: ใช้ API สตรีมของไลบรารี, ประมว�
 - **GitHub Repository:** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Free Support Forum:** [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)  
 - **Temporary License:** [Obtain Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---  
+
+**Last Updated:** 2025-12-29  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs  

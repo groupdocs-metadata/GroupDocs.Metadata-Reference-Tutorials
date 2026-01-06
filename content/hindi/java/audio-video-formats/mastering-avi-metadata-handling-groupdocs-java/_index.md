@@ -170,12 +170,6 @@ A: AVI, MP4, MOV, WMV, FLV, और कई अन्य। पूरी सूच
 **Q: बहुत बड़े वीडियो फ़ाइलों को कुशलतापूर्वक कैसे हैंडल करूँ?**  
 A: लाइब्रेरी के स्ट्रीमिंग API का उपयोग करें, केवल हेडर जानकारी प्रोसेस करें, और रिसोर्सेज़ को तुरंत बंद करें (जैसा कि try‑with‑resources में दिखाया गया है)।
 
----
-
-**अंतिम अपडेट:** 2025-12-29  
-**परीक्षण किया गया:** GroupDocs.Metadata 24.12 for Java  
-**लेखक:** GroupDocs  
-
 **संसाधन**
 - **दस्तावेज़:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **API रेफ़रेंस:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -183,3 +177,9 @@ A: लाइब्रेरी के स्ट्रीमिंग API का 
 - **GitHub रिपॉज़िटरी:** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **फ़्री सपोर्ट फ़ोरम:** [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)  
 - **टेम्पररी लाइसेंस:** [Obtain Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**अंतिम अपडेट:** 2025-12-29  
+**परीक्षण किया गया:** GroupDocs.Metadata 24.12 for Java  
+**लेखक:** GroupDocs  

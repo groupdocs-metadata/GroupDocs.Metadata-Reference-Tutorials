@@ -171,12 +171,6 @@ public class MetadataManagement {
 **В: Как эффективно работать с очень большими видеофайлами?**  
 О: Используйте потоковые API библиотеки, обрабатывайте только информацию заголовка и своевременно закрывайте ресурсы (как показано с try‑with‑resources).
 
----
-
-**Last Updated:** 2025-12-29  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
 **Ресурсы**
 - **Documentation:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **API Reference:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -184,3 +178,9 @@ public class MetadataManagement {
 - **GitHub Repository:** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Free Support Forum:** [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)  
 - **Temporary License:** [Obtain Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Last Updated:** 2025-12-29  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs  

@@ -171,12 +171,6 @@ A: AVI, MP4, MOV, WMV, FLV és még sok más. Tekintse meg a hivatalos dokument�
 **Q: Hogyan kezeljem hatékonyan a nagyon nagy videófájlokat?**  
 A: Használja a könyvtár streaming API-jait, csak a fejlécinformációkat dolgozza fel, és biztosítsa a források gyors lezárását (ahogy a try‑with‑resources példában látható).
 
----
-
-**Utolsó frissítés:** 2025-12-29  
-**Tesztelve ezzel:** GroupDocs.Metadata 24.12 for Java  
-**Szerző:** GroupDocs  
-
 **Erőforrások**
 - **Dokumentáció:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **API referencia:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -184,3 +178,9 @@ A: Használja a könyvtár streaming API-jait, csak a fejlécinformációkat dol
 - **GitHub tároló:** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - ** támogatási fórum:** [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)  
 - **Ideiglenes licenc:** [Obtain Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Utolsó frissítés:** 2025-12-29  
+**Tesztelve ezzel:** GroupDocs.Metadata 24.12 for Java  
+**Szerző:** GroupDocs  

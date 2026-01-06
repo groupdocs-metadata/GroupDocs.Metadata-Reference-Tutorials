@@ -171,12 +171,6 @@ A: AVI, MP4, MOV, WMV, FLV a mnoho dalších. Kompletní seznam najdete v ofici�
 **Q: Jak efektivně zacházet s velmi velkými video soubory?**  
 A: Používejte streamingové API knihovny, zpracovávejte pouze informace z hlavičky a zajistěte rychlé uzavření zdrojů (jak je ukázáno s try‑with‑resources).
 
----
-
-**Poslední aktualizace:** 2025-12-29  
-**Testováno s:** GroupDocs.Metadata 24.12 pro Java  
-**Autor:** GroupDocs  
-
 **Resources**
 - **Dokumentace:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **API Reference:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -184,3 +178,9 @@ A: Používejte streamingové API knihovny, zpracovávejte pouze informace z hla
 - **GitHub Repository:** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Free Support Forum:** [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)  
 - **Temporary License:** [Obtain Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Poslední aktualizace:** 2025-12-29  
+**Testováno s:** GroupDocs.Metadata 24.12 pro Java  
+**Autor:** GroupDocs  

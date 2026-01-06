@@ -169,12 +169,6 @@ public class MetadataManagement {
 **问：如何高效处理非常大的视频文件？**  
 答：使用库的流式 API，仅处理头部信息，并确保及时关闭资源（如 try‑with‑resources 示例所示）。
 
----
-
-**最后更新：** 2025-12-29  
-**测试环境：** GroupDocs.Metadata 24.12 for Java  
-**作者：** GroupDocs  
-
 **资源**
 - **文档：** [GroupDocs Metadata 文档](https://docs.groupdocs.com/metadata/java/)  
 - **API 参考：** [GroupDocs API 参考](https://reference.groupdocs.com/metadata/java/)  
@@ -182,3 +176,9 @@ public class MetadataManagement {
 - **GitHub 仓库：** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **免费支持论坛：** [GroupDocs 免费支持](https://forum.groupdocs.com/c/metadata/)  
 - **临时许可证：** [获取临时许可证](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**最后更新：** 2025-12-29  
+**测试环境：** GroupDocs.Metadata 24.12 for Java  
+**作者：** GroupDocs  

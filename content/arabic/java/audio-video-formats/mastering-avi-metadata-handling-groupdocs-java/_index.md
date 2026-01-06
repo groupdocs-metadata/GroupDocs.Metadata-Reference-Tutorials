@@ -170,12 +170,6 @@ public class MetadataManagement {
 **س: كيف يمكنني التعامل مع ملفات فيديو كبيرة جدًا بكفاءة؟**  
 ج: استخدم واجهات برمجة التطبيقات المتدفقة للمكتبة، عالج فقط معلومات الرأس، وتأكد من إغلاق الموارد بسرعة (كما هو موضح باستخدام try‑with‑resources).
 
----
-
-**آخر تحديث:** 2025-12-29  
-**تم الاختبار مع:** GroupDocs.Metadata 24.12 للـ Java  
-**المؤلف:** GroupDocs  
-
 **الموارد**
 - **التوثيق:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **مرجع API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -183,3 +177,9 @@ public class MetadataManagement {
 - **مستودع GitHub:** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **منتدى الدعم المجاني:** [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)  
 - **ترخيص مؤقت:** [Obtain Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**آخر تحديث:** 2025-12-29  
+**تم الاختبار مع:** GroupDocs.Metadata 24.12 للـ Java  
+**المؤلف:** GroupDocs  

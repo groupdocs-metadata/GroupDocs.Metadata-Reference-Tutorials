@@ -171,11 +171,6 @@ W tym przewodniku omówiliśmy **ekstrakcję metadanych wideo** dla plików AVI 
 **P: Jak efektywnie obsługiwać bardzo duże pliki wideo?**  
 **O:** Używaj interfejsów API strumieniowych biblioteki, przetwarzaj tylko informacje z nagłówka i zapewnij szybkie zamykanie zasobów (jak pokazano w przykładzie z try‑with‑resources).
 
----
-
-**Ostatnia aktualizacja:** 2025-12-29  
-**Testowano z:** GroupDocs.Metadata 24.12 dla Javy  
-**Autor:** GroupDocs  
 
 **Zasoby**
 - **Dokumentacja:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
@@ -184,3 +179,9 @@ W tym przewodniku omówiliśmy **ekstrakcję metadanych wideo** dla plików AVI 
 - **Repozytorium GitHub:** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Darmowe forum wsparcia:** [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)  
 - **Licencja tymczasowa:** [Obtain Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-29  
+**Testowano z:** GroupDocs.Metadata 24.12 dla Javy  
+**Autor:** GroupDocs  

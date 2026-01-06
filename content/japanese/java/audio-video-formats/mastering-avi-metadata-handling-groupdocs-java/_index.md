@@ -174,11 +174,6 @@ A: AVI、MP4、MOV、WMV、FLV など多数。完全な一覧は公式ドキュ�
 **Q: 非常に大きなビデオファイルを効率的に処理するには？**  
 A: ライブラリのストリーミング API を使用し、ヘッダー情報のみを処理し、リソースは速やかにクローズしてください（try‑with‑resources の例参照）。
 
----
-
-**最終更新日:** 2025-12-29  
-**テスト環境:** GroupDocs.Metadata 24.12 for Java  
-**作者:** GroupDocs  
 
 ## リソース
 - **ドキュメント:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
@@ -187,3 +182,9 @@ A: ライブラリのストリーミング API を使用し、ヘッダー情報
 - **GitHub リポジトリ:** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **無料サポートフォーラム:** [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)  
 - **一時ライセンス取得:** [Obtain Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**最終更新日:** 2025-12-29  
+**テスト環境:** GroupDocs.Metadata 24.12 for Java  
+**作者:** GroupDocs  

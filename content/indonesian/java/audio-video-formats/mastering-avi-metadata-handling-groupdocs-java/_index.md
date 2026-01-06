@@ -170,12 +170,7 @@ J: AVI, MP4, MOV, WMV, FLV, dan banyak lainnya. Lihat dokumentasi resmi untuk da
 
 **T: Bagaimana cara menangani file video yang sangat besar secara efisien?**  
 J: Gunakan API streaming perpustakaan, proses hanya informasi header, dan pastikan Anda menutup sumber daya dengan cepat (seperti yang ditunjukkan dengan try‑with‑resources).
-
----
-
-**Last Updated:** 2025-12-29  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
+ 
 
 **Sumber Daya**
 - **Dokumentasi:** [Dokumentasi GroupDocs Metadata](https://docs.groupdocs.com/metadata/java/)  
@@ -184,3 +179,9 @@ J: Gunakan API streaming perpustakaan, proses hanya informasi header, dan pastik
 - **Repositori GitHub:** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Forum Dukungan Gratis:** [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)  
 - **Lisensi Sementara:** [Dapatkan Lisensi Sementara](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Last Updated:** 2025-12-29  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs 

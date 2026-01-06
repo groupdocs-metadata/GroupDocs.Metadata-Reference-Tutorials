@@ -171,12 +171,6 @@ A: AVI, MP4, MOV, WMV, FLV und viele andere. Siehe die offizielle Dokumentation 
 **Q: Wie gehe ich effizient mit sehr großen Videodateien um?**  
 A: Verwenden Sie die Streaming‑APIs der Bibliothek, verarbeiten Sie nur die Kopf‑Informationen und schließen Sie Ressourcen umgehend (wie mit try‑with‑resources demonstriert).
 
----
-
-**Zuletzt aktualisiert:** 2025-12-29  
-**Getestet mit:** GroupDocs.Metadata 24.12 für Java  
-**Autor:** GroupDocs  
-
 **Ressourcen**
 - **Documentation:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **API Reference:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -184,3 +178,9 @@ A: Verwenden Sie die Streaming‑APIs der Bibliothek, verarbeiten Sie nur die Ko
 - **GitHub Repository:** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Free Support Forum:** [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)  
 - **Temporary License:** [Obtain Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Zuletzt aktualisiert:** 2025-12-29  
+**Getestet mit:** GroupDocs.Metadata 24.12 für Java  
+**Autor:** GroupDocs  

@@ -172,12 +172,6 @@ public class MetadataManagement {
 **Ε: Πώς να διαχειριστώ πολύ μεγάλα αρχεία βίντεο αποδοτικά;**  
 Α: Χρησιμοποιήστε τα streaming APIs της βιβλιοθήκης, επεξεργαστείτε μόνο τις πληροφορίες κεφαλίδας και εξασφαλίστε ότι κλείνετε τους πόρους άμεσα (όπως δείχνεται με try‑with‑resources).
 
----
-
-**Last Updated:** 2025-12-29  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
 **Πόροι**
 - **Τεκμηρίωση:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **Αναφορά API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -185,3 +179,9 @@ public class MetadataManagement {
 - **Αποθετήριο GitHub:** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Δωρεάν Φόρουμ Υποστήριξης:** [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)  
 - **Προσωρινή Άδεια:** [Obtain Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Last Updated:** 2025-12-29  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs  

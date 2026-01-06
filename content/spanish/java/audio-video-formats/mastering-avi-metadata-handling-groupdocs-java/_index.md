@@ -171,12 +171,6 @@ A: AVI, MP4, MOV, WMV, FLV y muchos otros. Consulta la documentación oficial pa
 **Q: ¿Cómo manejo archivos de video muy grandes de manera eficiente?**  
 A: Usa las APIs de streaming de la biblioteca, procesa solo la información del encabezado y asegura cerrar los recursos rápidamente (como se muestra con try‑with‑resources).
 
----
-
-**Última actualización:** 2025-12-29  
-**Probado con:** GroupDocs.Metadata 24.12 para Java  
-**Autor:** GroupDocs  
-
 **Recursos**
 - **Documentation:** [Documentación de GroupDocs Metadata](https://docs.groupdocs.com/metadata/java/)  
 - **API Reference:** [Referencia de API de GroupDocs](https://reference.groupdocs.com/metadata/java/)  
@@ -184,3 +178,9 @@ A: Usa las APIs de streaming de la biblioteca, procesa solo la información del 
 - **GitHub Repository:** [Repositorio GitHub de GroupDocs.Metadata](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Free Support Forum:** [Foro de soporte gratuito de GroupDocs](https://forum.groupdocs.com/c/metadata/)  
 - **Temporary License:** [Obtener licencia temporal](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Última actualización:** 2025-12-29  
+**Probado con:** GroupDocs.Metadata 24.12 para Java  
+**Autor:** GroupDocs  

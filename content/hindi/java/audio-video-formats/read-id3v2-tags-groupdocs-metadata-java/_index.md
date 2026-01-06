@@ -72,12 +72,12 @@ weight: 1
 
 ## इम्प्लीमेंटेशन गाइड
 
-### Reading ID3v2 Tags Java – Step‑by‑Step
+### ID3v2 Tags Java पढ़ना – स्टेप-बाय-स्टेप
 
-#### Overview
-MP3 फ़ाइलों से एल्बम नाम, कलाकार, शीर्षक, संगीतकार, कॉपीराइट जानकारी, प्रकाशक नाम, मूल एल्बम और संगीत कुंजी जैसे आवश्यक मेटाडेटा निकालें। यह संगीत पुस्तकालय डेटा को व्यवस्थित या प्रदर्शित करने में उपयोगी है।
+#### ओवरव्यू
+MP3 लाइब्रेरी से एल्बम का नाम, आर्टिस्ट, टाइटल, म्यूज़िशियन, कॉपीराइट जानकारी, पब्लिशर का नाम, मूल एल्बम और म्यूज़िक की जैसे ज़रूरी मेटाडेटा हटाएं। यह म्यूज़िक लाइब्रेरी डेटा को ऑर्गनाइज़ या दिखाने में काम का है।
 
-#### Step 1 – Initialize Metadata
+#### स्टेप 1 – मेटाडेटा इनिशियलाइज़ करें
 अपने MP3 फ़ाइल के पाथ के साथ एक `Metadata` इंस्टेंस बनाकर शुरू करें:
 
 ```java
@@ -90,7 +90,7 @@ public class ReadID3V2Tags {
             MP3RootPackage root = metadata.getRootPackageGeneric();
 ```
 
-#### Step 2 – Access ID3v2 Tags
+#### स्टेप 2 – ID3v2 टैग एक्सेस करें
 जाँचें कि ID3v2 टैग मौजूद है या नहीं और विभिन्न जानकारी पढ़ें:
 
 ```java
@@ -113,12 +113,12 @@ public class ReadID3V2Tags {
 - `getID3V2()` ID3v2 टैग ऑब्जेक्ट को प्राप्त करता है।  
 - प्रत्येक बाद का कॉल (`getAlbum()`, `getArtist()`, आदि) एक विशिष्ट मेटाडेटा फ़ील्ड को निकालता है, जिससे आप **extract mp3 metadata java** को कुछ ही लाइनों के कोड से प्राप्त कर सकते हैं।
 
-### Reading Attached Pictures from ID3v2 Tags Java – Step‑by‑Step
+### ID3v2 Tags Java से अटैच्ड पिक्चर्स पढ़ना – स्टेप-बाय-स्टेप
 
-#### Overview
-अपने MP3 फ़ाइलों में संलग्न चित्रों, जैसे एल्बम कवर या प्रोमोशनल आर्टवर्क, तक पहुँचें और उन्हें प्रदर्शित करें।
+#### ओवरव्यू
+अपने MP3 डेटाबेस में अटैच्ड पिक्चर्स, जैसे एल्बम कवर या प्रोमोशनल आर्टवर्क, तक पहुँचें और उन्हें दिखाएं।
 
-#### Step 1 – Initialize Metadata (again)
+#### स्टेप 1 – मेटाडेटा इनिशियलाइज़ करें (फिर से)
 ```java
 import com.groupdocs.metadata.Metadata;
 import com.groupdocs.metadata.core.ID3V2AttachedPictureFrame;
@@ -130,7 +130,7 @@ public class ReadID3V2AttachedPictures {
             MP3RootPackage root = metadata.getRootPackageGeneric();
 ```
 
-#### Step 2 – Iterate Through Attached Pictures
+#### स्टेप 2 – अटैच्ड पिक्चर्स को दोहराएँ
 ```java
             if (root.getID3V2() != null && root.getID3V2().getAttachedPictures() != null) {
                 for (ID3V2AttachedPictureFrame attachedPicture : root.getID3V2().getAttachedPictures()) {

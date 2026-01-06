@@ -171,11 +171,6 @@ C: AVI, MP4, MOV, WMV, FLV ve daha birçok format desteklenir. Tam liste için r
 **S: Çok büyük video dosyalarını verimli bir şekilde nasıl yönetirim?**  
 C: Kütüphanenin akış (streaming) API'lerini kullanın, yalnızca başlık bilgilerini işleyin ve kaynakları zamanında kapatın (try‑with‑resources örneğinde gösterildiği gibi).
 
----
-
-**Son Güncelleme:** 2025-12-29  
-**Test Edilen Versiyon:** GroupDocs.Metadata 24.12 for Java  
-**Yazar:** GroupDocs  
 
 **Kaynaklar**
 - **Dokümantasyon:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
@@ -184,3 +179,9 @@ C: Kütüphanenin akış (streaming) API'lerini kullanın, yalnızca başlık bi
 - **GitHub Deposu:** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Ücretsiz Destek Forumu:** [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)  
 - **Geçici Lisans:** [Obtain Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Son Güncelleme:** 2025-12-29  
+**Test Edilen Versiyon:** GroupDocs.Metadata 24.12 for Java  
+**Yazar:** GroupDocs  

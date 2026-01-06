@@ -168,13 +168,7 @@ A: Nej. Du kan också ladda ner JAR‑filen direkt från releases‑sidan och l�
 A: AVI, MP4, MOV, WMV, FLV och många fler. Se den officiella dokumentationen för den kompletta listan.
 
 **Q: Hur hanterar jag mycket stora videofiler effektivt?**  
-A: Använd bibliotekets streaming‑API, behandla endast header‑informationen och se till att resurser stängs snabbt (som demonstrerat med try‑with‑resources).
-
----
-
-**Last Updated:** 2025-12-29  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
+A: Använd bibliotekets streaming‑API, behandla endast header‑informationen och se till att resurser stängs snabbt (som demonstrerat med try‑with‑resources). 
 
 **Resources**
 - **Documentation:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
@@ -183,3 +177,9 @@ A: Använd bibliotekets streaming‑API, behandla endast header‑informationen 
 - **GitHub Repository:** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Free Support Forum:** [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)  
 - **Temporary License:** [Obtain Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Last Updated:** 2025-12-29  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs 

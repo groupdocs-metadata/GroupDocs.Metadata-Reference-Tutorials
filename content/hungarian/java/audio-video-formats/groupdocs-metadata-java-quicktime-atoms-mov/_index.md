@@ -178,23 +178,6 @@ Látogasd meg a [GroupDocs weboldalt](https://purchase.groupdocs.com/temporary-l
 **Q5: Alkalmas a GroupDocs.Metadata nagyvállalati projektekhez?**  
 Teljes mértékben. Kifejezetten nagy áteresztőképességű környezetekre tervezték, és robusztus licencelési lehetőségeket kínál nagy telepítésekhez.
 
-## Gyakran Ismételt Kérdések
-
-**Q: Befolyásolja a DOCX fájl vizuális tartalmát a metaadatok hozzáadása?**  
-A: Nem. A metaadatok a csomag core properties részében tárolódnak, és nem módosítják a dokumentum látható elrendezését.
-
-**Q: Hozzáadhatok egyedi kulcs‑érték párokat a szabványos tulajdonságokon túl?**  
-A: Igen. Használd a `CustomProperties` gyűjteményt a `DocumentProperties` objektumon belül, hogy tetszőleges metaadatot tárolj.
-
-**Q: Lehet QuickTime atomokat olvasni egy stream‑elt MOV fájlból (helyi másolat nélkül)?**  
-A: A GroupDocs.Metadata képes `InputStream` objektumokkal dolgozni, így közvetlenül hálózati stream‑ekből vagy felhőtárakból is elemezheted az atomokat.
-
-**Q: Hogyan kezeljem a nagy MOV fájlokat anélkül, hogy kifogynék a memóriából?**  
-A: Iterálj lazán az atomgyűjteményen; a könyvtár atomfejeket kér le igény szerint, a teljes fájlt nem tölti be memóriába.
-
-**Q: Külön licenc szükséges a DOCX és a MOV feldolgozáshoz?**  
-A: Egyetlen GroupDocs.Metadata licenc lefedi az összes támogatott formátumot, beleértve a DOCX‑et és a MOV‑t is.
-
 ---
 
 **Utoljára frissítve:** 2025-12-26  

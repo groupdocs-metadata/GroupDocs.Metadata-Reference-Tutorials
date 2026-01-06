@@ -160,12 +160,6 @@ A: Απόλυτα. Συνδυάστε τον παραπάνω κώδικα με 
 ## Συμπέρασμα
 Τώρα έχετε μια ισχυρή, έτοιμη για παραγωγή προσέγγιση για **πώς να εξάγετε μεταδεδομένα FLV** χρησιμοποιώντας το GroupDocs.Metadata σε Java. Ενσωματώνοντας αυτά τα αποσπάσματα κώδικα στις εφαρμογές σας, μπορείτε να αυτοματοποιήσετε την καταλογοποίηση, την επικύρωση και τον εμπλουτισμό βίντεο χωρίς βαριές εξαρτήσεις.
 
----
-
-**Τελευταία Ενημέρωση:** 2025-12-26  
-**Δοκιμασμένο Με:** GroupDocs.Metadata 24.12 for Java  
-**Συγγραφέας:** GroupDocs  
-
 **Πόροι**
 - **Τεκμηρίωση:** [GroupDocs.Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)
 - **API Reference:** [GroupDocs API Reference for Java](https://reference.groupdocs.com/metadata/java/)
@@ -173,3 +167,9 @@ A: Απόλυτα. Συνδυάστε τον παραπάνω κώδικα με 
 - **Αποθετήριο GitHub:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - **Δωρεάν Φόρουμ Υποστήριξης:** [Join the discussion](https://forum.groupdocs.com/c/metadata/)
 - **Προσωρινή Άδεια:** [Request a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-26  
+**Δοκιμασμένο Με:** GroupDocs.Metadata 24.12 for Java  
+**Συγγραφέας:** GroupDocs  

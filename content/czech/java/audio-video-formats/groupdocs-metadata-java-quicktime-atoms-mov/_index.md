@@ -177,22 +177,7 @@ Typické scénáře zahrnují organizaci firemních knihoven, automatizaci gener
 **Q5: Je GroupDocs.Metadata vhodný pro projekty v podnikovém měřítku?**  
 Rozhodně. Je navržen pro prostředí s vysokou propustností a nabízí robustní licenční možnosti pro rozsáhlá nasazení.
 
-## Často kladené otázky
-
-**Q: Ovlivňuje přidání metadat do DOCX souboru jeho vizuální obsah?**  
-A: Ne. Metadata jsou uložena v části základních vlastností balíčku a nemění viditelné rozložení dokumentu.
-
-**Q: Mohu přidat vlastní páry klíč‑hodnota nad rámec standardních vlastností?**  
-A: Ano. Použijte kolekci `CustomProperties` na `DocumentProperties` k uložení libovolných metadat.
-
-**Q: Je možné číst QuickTime atomy ze streamovaného MOV souboru (bez lokální kopie)?**  
-A: GroupDocs.Metadata funguje s objekty `InputStream`, takže můžete parsovat atomy přímo ze síťových streamů nebo cloudového úložiště.
-
-**Q: Jak zacházet s velkými MOV soubory, aniž by došlo k vyčerpání paměti?**  
-A: Zpracovávejte atomy líně iterací přes kolekci; knihovna načítá hlavičky atomů na vyžádání místo načítání celého souboru do paměti.
-
-**Q: Potřebuji samostatnou licenci pro zpracování DOCX a MOV?**  
-A: Jedna licence GroupDocs.Metadata pokrývá všechny podporované formáty, včetně DOCX a MOV.
+---
 
 **Poslední aktualizace:** 2025-12-26  
 **Testováno s:** GroupDocs.Metadata 24.12 pro Java  

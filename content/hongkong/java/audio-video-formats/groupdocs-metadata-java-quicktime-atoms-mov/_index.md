@@ -175,23 +175,6 @@ QuickTime atom 是 MOV 檔案內的組成單元，儲存編解碼器細節、時
 **Q5: GroupDocs.Metadata 適合企業規模的專案嗎？**  
 絕對適合。它為高吞吐量環境設計，並提供適用於大規模部署的彈性授權方案。
 
-## 常見問題
-
-**Q: 為 DOCX 檔案新增 metadata 會影響其視覺內容嗎？**  
-A: 不會。metadata 儲存在封裝的核心屬性部分，不會改變文件的可見版面配置。
-
-**Q: 我可以在標準屬性之外新增自訂鍵值對嗎？**  
-A: 可以。使用 `DocumentProperties` 上的 `CustomProperties` 集合來儲存任意 metadata。
-
-**Q: 能否從串流的 MOV 檔案（無本機副本）讀取 QuickTime atoms？**  
-A: GroupDocs.Metadata 支援 `InputStream` 物件，因而可直接從網路串流或雲端儲存解析 atoms。
-
-**Q: 如何處理大型 MOV 檔案而不耗盡記憶體？**  
-A: 以惰性方式遍歷 atoms；函式庫會按需讀取 atom 標頭，而非一次載入整個檔案。
-
-**Q: DOCX 與 MOV 處理需要分別授權嗎？**  
-A: 單一的 GroupDocs.Metadata 授權即涵蓋所有支援格式，包括 DOCX 與 MOV。
-
 ---
 
 **最後更新：** 2025-12-26  

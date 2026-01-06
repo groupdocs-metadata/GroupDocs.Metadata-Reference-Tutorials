@@ -160,12 +160,6 @@ A: Absolutamente. Combine o código acima com um loop e considere multithreading
 ## Conclusão
 Agora você tem uma abordagem sólida e pronta para produção para **como extrair metadados FLV** usando GroupDocs.Metadata em Java. Ao integrar esses trechos de código em suas aplicações, você pode automatizar a catalogação, validação e enriquecimento de vídeos sem dependências pesadas.
 
----
-
-**Last Updated:** 2025-12-26  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
 **Recursos**
 - **Documentation:** [GroupDocs.Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)
 - **API Reference:** [GroupDocs API Reference for Java](https://reference.groupdocs.com/metadata/java/)
@@ -173,3 +167,9 @@ Agora você tem uma abordagem sólida e pronta para produção para **como extra
 - **GitHub Repository:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - **Free Support Forum:** [Join the discussion](https://forum.groupdocs.com/c/metadata/)
 - **Temporary License:** [Request a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Last Updated:** 2025-12-26  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs  

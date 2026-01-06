@@ -160,12 +160,6 @@ A: Absolut. Kombinera koden ovan med en loop och överväg multitrådning samtid
 ## Conclusion
 Du har nu ett robust, produktionsklart tillvägagångssätt för **hur du extraherar FLV**‑metadata med GroupDocs.Metadata i Java. Genom att integrera dessa kodsnuttar i dina applikationer kan du automatisera videokatalogisering, validering och berikning utan tunga beroenden.
 
----
-
-**Senast uppdaterad:** 2025-12-26  
-**Testad med:** GroupDocs.Metadata 24.12 för Java  
-**Författare:** GroupDocs  
-
 ## Resources
 - **Dokumentation:** [GroupDocs.Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)
 - **API‑referens:** [GroupDocs API Reference for Java](https://reference.groupdocs.com/metadata/java/)
@@ -173,3 +167,9 @@ Du har nu ett robust, produktionsklart tillvägagångssätt för **hur du extrah
 - **GitHub‑arkiv:** [Utforska på GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - **Gratis supportforum:** [Delta i diskussionen](https://forum.groupdocs.com/c/metadata/)
 - **Tillfällig licens:** [Begär en tillfällig licens](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Senast uppdaterad:** 2025-12-26  
+**Testad med:** GroupDocs.Metadata 24.12 för Java  
+**Författare:** GroupDocs  

@@ -160,12 +160,6 @@ C: Kesinlikle. Yukarıdaki kodu bir döngüyle birleştirin ve JVM bellek limitl
 ## Sonuç
 Artık Java'da GroupDocs.Metadata kullanarak **FLV metadata'sını nasıl çıkaracağınız** konusunda sağlam ve üretime hazır bir yaklaşıma sahipsiniz. Bu kod parçacıklarını uygulamalarınıza entegre ederek, ağır bağımlılıklar olmadan video kataloglamayı, doğrulamayı ve zenginleştirmeyi otomatikleştirebilirsiniz.
 
----
-
-**Son Güncelleme:** 2025-12-26  
-**Test Edilen:** GroupDocs.Metadata 24.12 for Java  
-**Yazar:** GroupDocs  
-
 ## Kaynaklar
 - **Dokümantasyon:** [GroupDocs.Metadata Java Dokümantasyonu](https://docs.groupdocs.com/metadata/java/)
 - **API Referansı:** [GroupDocs API Reference for Java](https://reference.groupdocs.com/metadata/java/)
@@ -173,3 +167,9 @@ Artık Java'da GroupDocs.Metadata kullanarak **FLV metadata'sını nasıl çıka
 - **GitHub Deposu:** [GitHub'da Keşfedin](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - **Ücretsiz Destek Forumu:** [Tartışmaya Katılın](https://forum.groupdocs.com/c/metadata/)
 - **Geçici Lisans:** [Geçici lisans talep edin](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Son Güncelleme:** 2025-12-26  
+**Test Edilen:** GroupDocs.Metadata 24.12 for Java  
+**Yazar:** GroupDocs  

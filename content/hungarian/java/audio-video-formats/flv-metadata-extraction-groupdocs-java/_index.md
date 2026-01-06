@@ -160,12 +160,6 @@ A: Természetesen. Kombinálja a fenti kódot egy ciklussal, és fontolja meg a 
 ## Összegzés
 Most már egy stabil, termelés‑kész megközelítést ismer a **FLV metaadatok kinyerésére** a GroupDocs.Metadata Java könyvtárral. Ezeket a kódrészleteket beépítve alkalmazásaiban automatizálhatja a videók katalogizálását, validálását és gazdagítását nehéz függőségek nélkül.
 
----
-
-**Utolsó frissítés:** 2025-12-26  
-**Tesztelt verzió:** GroupDocs.Metadata 24.12 for Java  
-**Szerző:** GroupDocs  
-
 **Erőforrások**
 - **Dokumentáció:** [GroupDocs.Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)
 - **API Referencia:** [GroupDocs API Reference for Java](https://reference.groupdocs.com/metadata/java/)
@@ -173,3 +167,9 @@ Most már egy stabil, termelés‑kész megközelítést ismer a **FLV metaadato
 - **GitHub tároló:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - **Ingyenes támogatási fórum:** [Join the discussion](https://forum.groupdocs.com/c/metadata/)
 - **Ideiglenes licenc:** [Request a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Utolsó frissítés:** 2025-12-26  
+**Tesztelt verzió:** GroupDocs.Metadata 24.12 for Java  
+**Szerző:** GroupDocs  

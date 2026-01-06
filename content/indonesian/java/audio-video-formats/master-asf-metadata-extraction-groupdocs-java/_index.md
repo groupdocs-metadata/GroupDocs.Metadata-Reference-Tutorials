@@ -27,18 +27,18 @@ Dalam lanskap digital saat ini, mengelola konten multimedia secara efisien sanga
 
 Mari kita mulai dengan prasyarat.
 
-## Quick Answers
-- **Apa arti “mengekstrak metadata ASF”?** Artinya membaca informasi yang tertanam (mis., cap waktu, codec, deskriptor) dari file ASF secara programatis.  
-- **Perpustakaan apa yang diperlukan?** GroupDocs.Metadata untuk Java (versi 24.12 atau lebih baru).  
-- **Apakah saya memerlukan lisensi?** Lisensi percobaan gratis atau lisensi sementara dapat digunakan untuk pengembangan; lisensi penuh diperlukan untuk produksi.  
-- **Versi Java apa yang didukung?** JDK 8 atau lebih tinggi.  
+## Jawaban Cepat
+- **Apa arti “mengekstrak metadata ASF”?** Artinya membaca informasi yang tertanam (mis., cap waktu, codec, deskriptor) dari file ASF secara programatis.
+- **Perpustakaan apa yang diperlukan?** GroupDocs.Metadata untuk Java (versi24.12 atau lebih baru).
+- **Apakah saya memerlukan lisensi?** Lisensi percobaan gratis atau lisensi sementara dapat digunakan untuk pengembangan; lisensi penuh diperlukan untuk produksi.
+- **Versi Java apa yang didukung?** JDK8atau lebih tinggi.
 - **Apakah saya dapat menggunakan Maven?** Ya – Maven adalah manajer dependensi yang direkomendasikan.
 
 ## Prasyarat
 
-- **Java Development Kit (JDK)** 8 atau yang lebih baru terpasang.  
-- **IDE** seperti IntelliJ IDEA atau Eclipse untuk pemrograman yang nyaman.  
-- **Maven** dikonfigurasi di IDE Anda (opsional tetapi disarankan).  
+- **Java Development Kit (JDK)**8atau yang lebih baru terpasang.
+- **IDE** seperti IntelliJ IDEA atau Eclipse untuk pemrograman yang nyaman.
+- **Maven** dikonfigurasi di IDE Anda (opsional tetapi disarankan).
 - Pemahaman dasar tentang Java dan pustaka eksternal.
 
 ## Menyiapkan GroupDocs.Metadata untuk Java

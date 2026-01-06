@@ -176,23 +176,6 @@ System.out.println(properties.getTitle());   // Print title
 **Q5: Is GroupDocs.Metadata suitable for enterprise‑scale projects?**  
 Απόλυτα. Σχεδιάστηκε για περιβάλλοντα υψηλής απόδοσης και προσφέρει ισχυρές επιλογές αδειοδότησης για μεγάλες εγκαταστάσεις.
 
-## Συχνές Ερωτήσεις
-
-**Q: Does adding metadata to a DOCX file affect its visual content?**  
-A: Όχι. Τα μεταδεδομένα αποθηκεύονται στο τμήμα core properties του πακέτου και δεν αλλάζουν τη ορατή διάταξη του εγγράφου.
-
-**Q: Can I add custom key‑value pairs beyond the standard properties?**  
-A: Ναι. Χρησιμοποιήστε τη συλλογή `CustomProperties` στο `DocumentProperties` για να αποθηκεύσετε αυθαίρετα μεταδεδομένα.
-
-**Q: Is it possible to read QuickTime atoms from a streamed MOV file (no local copy)?**  
-A: Το GroupDocs.Metadata λειτουργεί με αντικείμενα `InputStream`, ώστε να μπορείτε να αναλύσετε atoms απευθείας από ροές δικτύου ή αποθήκευση στο cloud.
-
-**Q: How do I handle large MOV files without exhausting memory?**  
-A: Επεξεργαστείτε τα atoms αργά (lazy) επαναλαμβάνοντας τη συλλογή· η βιβλιοθήκη διαβάζει τις κεφαλίδες των atoms κατά απαίτηση αντί να φορτώνει ολόκληρο το αρχείο στη μνήμη.
-
-**Q: Do I need a separate license for DOCX and MOV processing?**  
-A: Μία άδεια GroupDocs.Metadata καλύπτει όλες τις υποστηριζόμενες μορφές, συμπεριλαμβανομένων DOCX και MOV.
-
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-26  

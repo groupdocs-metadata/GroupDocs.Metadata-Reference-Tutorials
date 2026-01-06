@@ -177,23 +177,6 @@ Tipik senaryolar arasında kurumsal kütüphanelerin düzenlenmesi, rapor oluşt
 **Q5: GroupDocs.Metadata kurumsal ölçekli projeler için uygun mu?**  
 Kesinlikle. Yüksek verimlilik ortamları için tasarlanmıştır ve büyük dağıtımlar için sağlam lisans seçenekleri sunar.
 
-## Sıkça Sorulan Sorular
-
-**S: DOCX dosyasına metadata eklemek görsel içeriğini etkiler mi?**  
-C: Hayır. Metadata, paketin temel özellikler kısmında depolanır ve görünür belge düzenini değiştirmez.
-
-**S: Standart özelliklerin ötesinde özel anahtar‑değer çiftleri ekleyebilir miyim?**  
-C: Evet. `DocumentProperties` üzerindeki `CustomProperties` koleksiyonunu kullanarak istediğiniz metadata'yı depolayabilirsiniz.
-
-**S: Yerel kopya olmadan akış olarak gelen bir MOV dosyasından QuickTime atomlarını okuyabilir miyim?**  
-C: GroupDocs.Metadata `InputStream` nesneleriyle çalışır, bu yüzden atomları doğrudan ağ akışlarından veya bulut depolamadan ayrıştırabilirsiniz.
-
-**S: Büyük MOV dosyalarını bellek tüketmeden nasıl yönetebilirim?**  
-C: Koleksiyonu yineleyerek atomları tembel (lazy) şekilde işleyin; kütüphane atom başlıklarını talep üzerine okur, tüm dosyayı belleğe yüklemez.
-
-**S: DOCX ve MOV işleme için ayrı bir lisansa ihtiyacım var mı?**  
-C: Tek bir GroupDocs.Metadata lisansı, DOCX ve MOV dahil tüm desteklenen formatları kapsar.
-
 ---
 
 **Son Güncelleme:** 2025-12-26  

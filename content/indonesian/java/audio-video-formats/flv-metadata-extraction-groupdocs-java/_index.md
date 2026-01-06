@@ -160,12 +160,6 @@ J: Tentu saja. Gabungkan kode di atas dengan loop dan pertimbangkan multi‑thre
 ## Kesimpulan
 Anda kini memiliki pendekatan yang solid dan siap produksi untuk **cara mengekstrak FLV** metadata menggunakan GroupDocs.Metadata di Java. Dengan mengintegrasikan potongan kode ini ke dalam aplikasi Anda, Anda dapat mengotomatisasi katalogisasi video, validasi, dan peningkatan tanpa ketergantungan berat.
 
----
-
-**Terakhir Diperbarui:** 2025-12-26  
-**Diuji Dengan:** GroupDocs.Metadata 24.12 for Java  
-**Penulis:** GroupDocs  
-
 **Sumber Daya**
 - **Dokumentasi:** [GroupDocs.Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)
 - **Referensi API:** [GroupDocs API Reference for Java](https://reference.groupdocs.com/metadata/java/)
@@ -173,3 +167,9 @@ Anda kini memiliki pendekatan yang solid dan siap produksi untuk **cara mengekst
 - **Repositori GitHub:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - **Forum Dukungan Gratis:** [Join the discussion](https://forum.groupdocs.com/c/metadata/)
 - **Lisensi Sementara:** [Request a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Terakhir Diperbarui:** 2025-12-26  
+**Diuji Dengan:** GroupDocs.Metadata 24.12 for Java  
+**Penulis:** GroupDocs  

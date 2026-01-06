@@ -159,12 +159,6 @@ A: 물론 가능합니다. 위 코드를 루프와 결합하고, JVM 메모리 �
 ## 결론
 이제 **FLV 메타데이터를** Java에서 GroupDocs.Metadata를 사용해 추출하는 실무 수준의 방법을 익혔습니다. 이 스니펫들을 애플리케이션에 통합하면 무거운 의존성 없이 비디오 카탈로그화, 검증, 풍부화 작업을 자동화할 수 있습니다.
 
----
-
-**마지막 업데이트:** 2025-12-26  
-**테스트 환경:** GroupDocs.Metadata 24.12 for Java  
-**작성자:** GroupDocs  
-
 **리소스**
 - **문서:** [GroupDocs.Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)
 - **API 레퍼런스:** [GroupDocs API Reference for Java](https://reference.groupdocs.com/metadata/java/)
@@ -172,3 +166,9 @@ A: 물론 가능합니다. 위 코드를 루프와 결합하고, JVM 메모리 �
 - **GitHub 저장소:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - **무료 지원 포럼:** [Join the discussion](https://forum.groupdocs.com/c/metadata/)
 - **임시 라이선스:** [Request a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**마지막 업데이트:** 2025-12-26  
+**테스트 환경:** GroupDocs.Metadata 24.12 for Java  
+**작성자:** GroupDocs  

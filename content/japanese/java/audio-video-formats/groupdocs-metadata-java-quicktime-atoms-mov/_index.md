@@ -174,23 +174,6 @@ QuickTime アトムは、MOV ファイル内の構成要素で、コーデック
 **Q5: Is GroupDocs.Metadata suitable for enterprise‑scale projects?**  
 もちろんです。高スループット環境向けに設計されており、大規模導入向けの堅牢なライセンスオプションが提供されています。
 
-## よくある質問
-
-**Q: Does adding metadata to a DOCX file affect its visual content?**  
-A: いいえ。メタデータはパッケージのコアプロパティ部に保存され、文書の可視レイアウトは変更されません。
-
-**Q: Can I add custom key‑value pairs beyond the standard properties?**  
-A: はい。`DocumentProperties` の `CustomProperties` コレクションを使用して任意のメタデータを保存できます。
-
-**Q: Is it possible to read QuickTime atoms from a streamed MOV file (no local copy)?**  
-A: GroupDocs.Metadata は `InputStream` オブジェクトに対応しているため、ネットワークストリームやクラウドストレージから直接アトムを解析できます。
-
-**Q: How do I handle large MOV files without exhausting memory?**  
-A: コレクションをイテレートしてアトムを遅延処理すれば、ライブラリは必要に応じてアトムヘッダーのみを読み込み、ファイル全体をメモリにロードしません。
-
-**Q: Do I need a separate license for DOCX and MOV processing?**  
-A: 1 つの GroupDocs.Metadata ライセンスで、DOCX や MOV を含むすべてのサポートフォーマットがカバーされます。
-
 ---
 
 **最終更新日:** 2025-12-26  

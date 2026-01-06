@@ -160,12 +160,6 @@ FlvRootPackage root = metadata.getRootPackageGeneric();
 ## Заключение
 Теперь у вас есть надёжный, готовый к продакшн‑использованию подход для **извлечения метаданных FLV** с помощью GroupDocs.Metadata на Java. Интегрируя эти фрагменты кода в свои приложения, вы сможете автоматизировать каталогизацию, проверку и обогащение видео без тяжёлых зависимостей.
 
----
-
-**Last Updated:** 2025-12-26  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
 **Ресурсы**
 - **Документация:** [GroupDocs.Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)
 - **API Reference:** [GroupDocs API Reference for Java](https://reference.groupdocs.com/metadata/java/)
@@ -175,3 +169,7 @@ FlvRootPackage root = metadata.getRootPackageGeneric();
 - **Временная лицензия:** [Request a temporary license](https://purchase.groupdocs.com/temporary-license/)
 
 ---
+
+**Last Updated:** 2025-12-26  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs  

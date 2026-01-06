@@ -177,23 +177,6 @@ Skenario tipikal meliputi pengorganisasian perpustakaan korporat, otomatisasi pe
 **Q5: Apakah GroupDocs.Metadata cocok untuk proyek berskala perusahaan?**  
 Tentu. Dirancang untuk lingkungan throughput tinggi dan menawarkan opsi lisensi yang kuat untuk penyebaran besar.
 
-## Pertanyaan yang Sering Diajukan
-
-**Q: Apakah menambahkan metadata ke file DOCX memengaruhi konten visualnya?**  
-A: Tidak. Metadata disimpan di bagian properti inti paket dan tidak mengubah tata letak dokumen yang terlihat.
-
-**Q: Bisakah saya menambahkan pasangan kunci‑nilai khusus di luar properti standar?**  
-A: Ya. Gunakan koleksi `CustomProperties` pada `DocumentProperties` untuk menyimpan metadata arbitrer.
-
-**Q: Apakah memungkinkan membaca atom QuickTime dari file MOV yang di‑stream (tanpa salinan lokal)?**  
-A: GroupDocs.Metadata bekerja dengan objek `InputStream`, sehingga Anda dapat mengurai atom langsung dari stream jaringan atau penyimpanan cloud.
-
-**Q: Bagaimana menangani file MOV besar tanpa kehabisan memori?**  
-A: Proses atom secara lazy dengan mengiterasi koleksi; perpustakaan membaca header atom sesuai permintaan alih‑alih memuat seluruh file ke memori.
-
-**Q: Apakah saya memerlukan lisensi terpisah untuk pemrosesan DOCX dan MOV?**  
-A: Satu lisensi GroupDocs.Metadata mencakup semua format yang didukung, termasuk DOCX dan MOV.
-
 ---
 
 **Terakhir Diperbarui:** 2025-12-26  

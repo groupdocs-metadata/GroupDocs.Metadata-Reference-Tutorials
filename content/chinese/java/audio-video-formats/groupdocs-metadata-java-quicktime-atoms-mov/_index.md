@@ -158,39 +158,27 @@ System.out.println(properties.getTitle());   // Print title
 - **Batch Processing** – 将文件分批处理（例如一次 100 个），以保持堆内存使用稳定。  
 - **Profiling** – 像 VisualVM 或 YourKit 之类的工具可以在处理成千上万的文件时突出热点。  
 
-## FAQ 部分
+## 常见问题解答部分
 
-**Q1: What is a QuickTime atom?**  
+**问题1：什么是 QuickTime 原子？**
+  
 QuickTime atom 是 MOV 文件内部的构建块，存储编解码器细节、时间戳和轨道布局等信息。
 
-**Q2: Can I read metadata from non‑MOV files using GroupDocs.Metadata?**  
+**问题2：我可以使用 GroupDocs.Metadata 读取非 MOV 文件的元数据吗？**
+  
 是的，该库支持多种格式，包括 MP4、AVI、PDF、DOCX 等。
 
-**Q3: How do I get started with a free trial of GroupDocs.Metadata?**  
+**问题3：如何开始使用 GroupDocs.Metadata 的免费试用版？**
+
 访问 [GroupDocs website](https://purchase.groupdocs.com/temporary-license/) 请求用于评估的临时许可证。
 
-**Q4: What are common use cases for setting document metadata?**  
+**问题4：设置文档元数据的常见用例有哪些？**
+
 常见场景包括组织企业库、自动化报告生成以及提升内容管理系统中的可搜索性。
 
-**Q5: Is GroupDocs.Metadata suitable for enterprise‑scale projects?**  
+**问题5：GroupDocs.Metadata 是否适用于企业级项目？**
+ 
 绝对适用。它专为高吞吐量环境设计，并提供针对大规模部署的强大许可证选项。
-
-## 常见问题解答
-
-**Q: Does adding metadata to a DOCX file affect its visual content?**  
-A: 否。元数据存储在包的核心属性部分，不会改变可见的文档布局。
-
-**Q: Can I add custom key‑value pairs beyond the standard properties?**  
-A: 可以。使用 `DocumentProperties` 上的 `CustomProperties` 集合来存储任意元数据。
-
-**Q: Is it possible to read QuickTime atoms from a streamed MOV file (no local copy)?**  
-A: GroupDocs.Metadata 支持 `InputStream` 对象，因此可以直接从网络流或云存储中解析 atoms。
-
-**Q: How do I handle large MOV files without exhausting memory?**  
-A: 通过惰性遍历集合来处理 atoms；库按需读取 atom 头部，而不是将整个文件加载到内存中。
-
-**Q: Do I need a separate license for DOCX and MOV processing?**  
-A: 单一的 GroupDocs.Metadata 许可证覆盖所有支持的格式，包括 DOCX 和 MOV。
 
 ---
 

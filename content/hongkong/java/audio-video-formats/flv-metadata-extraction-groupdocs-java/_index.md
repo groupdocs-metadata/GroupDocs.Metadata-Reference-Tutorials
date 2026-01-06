@@ -158,12 +158,6 @@ A: 完全可以。將上述程式碼與迴圈結合，並在考慮 JVM 記憶體
 ## 結論
 您現在已掌握使用 GroupDocs.Metadata 在 Java 中 **提取 FLV** 元資料的完整、可投入生產的方法。將這些程式碼片段整合至您的應用程式，即可在不依賴大型套件的情況下，自動化影片目錄編排、驗證與豐富化。
 
----
-
-**最後更新：** 2025-12-26  
-**測試環境：** GroupDocs.Metadata 24.12 for Java  
-**作者：** GroupDocs  
-
 **資源**
 - **文件：** [GroupDocs.Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)
 - **API 參考：** [GroupDocs API Reference for Java](https://reference.groupdocs.com/metadata/java/)
@@ -171,3 +165,9 @@ A: 完全可以。將上述程式碼與迴圈結合，並在考慮 JVM 記憶體
 - **GitHub 儲存庫：** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - **免費支援論壇：** [Join the discussion](https://forum.groupdocs.com/c/metadata/)
 - **臨時授權：** [Request a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**最後更新：** 2025-12-26  
+**測試環境：** GroupDocs.Metadata 24.12 for Java  
+**作者：** GroupDocs  

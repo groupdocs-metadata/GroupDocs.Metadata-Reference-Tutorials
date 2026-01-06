@@ -160,12 +160,6 @@ A: Chắc chắn. Kết hợp đoạn mã trên với một vòng lặp và cân
 ## Kết luận
 Bạn hiện đã có một phương pháp vững chắc, sẵn sàng cho sản xuất để **cách trích xuất FLV** siêu dữ liệu bằng cách sử dụng GroupDocs.Metadata trong Java. Bằng cách tích hợp các đoạn mã này vào ứng dụng của bạn, bạn có thể tự động hoá việc lập danh mục video, xác thực và làm phong phú dữ liệu mà không cần các phụ thuộc nặng.
 
----
-
-**Cập nhật lần cuối:** 2025-12-26  
-**Kiểm tra với:** GroupDocs.Metadata 24.12 cho Java  
-**Tác giả:** GroupDocs  
-
 ## Tài nguyên
 - **Tài liệu:** [GroupDocs.Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)
 - **Tham chiếu API:** [GroupDocs API Reference for Java](https://reference.groupdocs.com/metadata/java/)
@@ -173,3 +167,9 @@ Bạn hiện đã có một phương pháp vững chắc, sẵn sàng cho sản 
 - **Kho GitHub:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - **Diễn đàn Hỗ trợ Miễn phí:** [Join the discussion](https://forum.groupdocs.com/c/metadata/)
 - **Giấy phép Tạm thời:** [Request a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Cập nhật lần cuối:** 2025-12-26  
+**Kiểm tra với:** GroupDocs.Metadata 24.12 cho Java  
+**Tác giả:** GroupDocs  

@@ -176,23 +176,6 @@ Các kịch bản điển hình bao gồm tổ chức thư viện doanh nghiệp
 **Q5: GroupDocs.Metadata có phù hợp cho các dự án quy mô doanh nghiệp không?**  
 Chắc chắn. Nó được thiết kế cho môi trường xử lý cao và cung cấp các tùy chọn giấy phép mạnh mẽ cho triển khai lớn.
 
-## Câu hỏi thường gặp
-
-**Q: Việc thêm siêu dữ liệu vào tệp DOCX có ảnh hưởng đến nội dung hiển thị không?**  
-A: Không. Siêu dữ liệu được lưu trong phần thuộc tính lõi của gói và không thay đổi bố cục hiển thị của tài liệu.
-
-**Q: Tôi có thể thêm các cặp khóa‑giá trị tùy chỉnh ngoài các thuộc tính chuẩn không?**  
-A: Có. Sử dụng bộ sưu tập `CustomProperties` trên `DocumentProperties` để lưu trữ siêu dữ liệu tùy ý.
-
-**Q: Có thể đọc QuickTime atoms từ tệp MOV được truyền luồng (không có bản sao cục bộ) không?**  
-A: GroupDocs.Metadata hoạt động với các đối tượng `InputStream`, vì vậy bạn có thể phân tích atom trực tiếp từ luồng mạng hoặc lưu trữ đám mây.
-
-**Q: Làm thế nào để xử lý các tệp MOV lớn mà không tiêu tốn hết bộ nhớ?**  
-A: Xử lý atom một cách lười biếng bằng cách lặp qua bộ sưu tập; thư viện đọc tiêu đề atom khi cần thay vì tải toàn bộ tệp vào bộ nhớ.
-
-**Q: Tôi có cần giấy phép riêng cho việc xử lý DOCX và MOV không?**  
-A: Một giấy phép GroupDocs.Metadata duy nhất bao phủ tất cả các định dạng được hỗ trợ, bao gồm DOCX và MOV.
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-26  

@@ -158,12 +158,6 @@ A: もちろん可能です。上記のコードをループと組み合わせ�
 ## 結論
 これで、Java で GroupDocs.Metadata を使用して **FLV メタデータを抽出する方法** の堅牢で本番環境向けのアプローチが手に入りました。これらのコードスニペットをアプリケーションに統合することで、重い依存関係なしに動画のカタログ化、検証、情報付加を自動化できます。
 
----
-
-**最終更新日:** 2025-12-26  
-**テスト環境:** GroupDocs.Metadata 24.12 for Java  
-**作者:** GroupDocs  
-
 **リソース**
 - **ドキュメンテーション:** [GroupDocs.Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)
 - **API リファレンス:** [GroupDocs API Reference for Java](https://reference.groupdocs.com/metadata/java/)
@@ -171,3 +165,9 @@ A: もちろん可能です。上記のコードをループと組み合わせ�
 - **GitHub リポジトリ:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - **無料サポートフォーラム:** [Join the discussion](https://forum.groupdocs.com/c/metadata/)
 - **一時ライセンス:** [Request a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**最終更新日:** 2025-12-26  
+**テスト環境:** GroupDocs.Metadata 24.12 for Java  
+**作者:** GroupDocs  

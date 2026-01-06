@@ -160,12 +160,6 @@ O: Zdecydowanie tak. Połącz powyższy kod z pętlą i rozważ wielowątkowoś�
 ## Podsumowanie
 Masz teraz solidne, gotowe do produkcji podejście do **wyodrębniania metadanych FLV** przy użyciu GroupDocs.Metadata w Javie. Integrując te fragmenty kodu w swoich aplikacjach, możesz automatyzować katalogowanie, weryfikację i wzbogacanie wideo bez ciężkich zależności.
 
----
-
-**Last Updated:** 2025-12-26  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
 ## Zasoby
 - **Dokumentacja:** [GroupDocs.Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)
 - **API Reference:** [GroupDocs API Reference for Java](https://reference.groupdocs.com/metadata/java/)
@@ -173,3 +167,9 @@ Masz teraz solidne, gotowe do produkcji podejście do **wyodrębniania metadanyc
 - **Repozytorium GitHub:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - **Forum wsparcia:** [Join the discussion](https://forum.groupdocs.com/c/metadata/)
 - **Licencja tymczasowa:** [Request a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Last Updated:** 2025-12-26  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs  

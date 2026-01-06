@@ -160,12 +160,6 @@ A: Rozhodně. Kombinujte výše uvedený kód s cyklem a zvažte multi‑threadi
 ## Závěr
 Nyní máte solidní, připravený přístup pro **jak extrahovat metadata FLV** pomocí GroupDocs.Metadata v Javě. Integrací těchto úryvků do vašich aplikací můžete automatizovat katalogizaci, validaci a obohacování videí bez těžkých závislostí.
 
----
-
-**Poslední aktualizace:** 2025-12-26  
-**Testováno s:** GroupDocs.Metadata 24.12 pro Javu  
-**Autor:** GroupDocs  
-
 ## Zdroje
 - **Dokumentace:** [GroupDocs.Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)
 - **API Reference:** [GroupDocs API Reference for Java](https://reference.groupdocs.com/metadata/java/)
@@ -173,3 +167,9 @@ Nyní máte solidní, připravený přístup pro **jak extrahovat metadata FLV**
 - **GitHub úložiště:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - **Bezplatné fórum podpory:** [Join the discussion](https://forum.groupdocs.com/c/metadata/)
 - **Dočasná licence:** [Request a temporary license](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Poslední aktualizace:** 2025-12-26  
+**Testováno s:** GroupDocs.Metadata 24.12 pro Javu  
+**Autor:** GroupDocs  

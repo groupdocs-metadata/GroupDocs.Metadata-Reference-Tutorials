@@ -175,23 +175,6 @@ Vanliga scenarier inkluderar organisering av företagsbibliotek, automatisering 
 **Q5: Is GroupDocs.Metadata suitable for enterprise‑scale projects?**  
 Absolut. Det är designat för höggenomströmningsmiljöer och erbjuder robusta licensalternativ för stora distributioner.
 
-## Vanliga frågor
-
-**Q: Påverkar tillägg av metadata i en DOCX‑fil dess visuella innehåll?**  
-A: Nej. Metadata lagras i paketets kärnegenskapsdel och ändrar inte det synliga dokumentets layout.
-
-**Q: Kan jag lägga till anpassade nyckel‑värde‑par utöver standardegenskaperna?**  
-A: Ja. Använd `CustomProperties`‑samlingen på `DocumentProperties` för att lagra godtycklig metadata.
-
-**Q: Är det möjligt att läsa QuickTime‑atomer från en strömad MOV‑fil (utan lokal kopia)?**  
-A: GroupDocs.Metadata fungerar med `InputStream`‑objekt, så du kan pars:a atomer direkt från nätverksströmmar eller molnlagring.
-
-**Q: Hur hanterar jag stora MOV‑filer utan att tömma minnet?**  
-A: Processa atomer lazily genom att iterera över samlingen; biblioteket läser atom‑huvuden på begäran istället för att ladda hela filen i minnet.
-
-**Q: Behöver jag en separat licens för DOCX‑ och MOV‑behandling?**  
-A: En enda GroupDocs.Metadata‑licens täcker alla stödda format, inklusive DOCX och MOV.
-
 ---
 
 **Senast uppdaterad:** 2025-12-26  

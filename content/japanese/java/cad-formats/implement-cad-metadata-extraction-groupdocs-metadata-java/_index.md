@@ -1,19 +1,19 @@
 ---
-title: "How to Use GroupDocs to Extract CAD Metadata in Java"
-description: "Learn how to use GroupDocs to effortlessly extract CAD metadata in Java with GroupDocs.Metadata. Step‑by‑step guide for developers."
-date: "2026-01-08"
-weight: 1
-url: "/java/cad-formats/implement-cad-metadata-extraction-groupdocs-metadata-java/"
+date: '2026-01-08'
+description: GroupDocs.Metadata を使用して、Java で CAD メタデータを簡単に抽出する方法を学びましょう。開発者向けのステップバイステップガイドです。
 keywords:
-  - CAD metadata extraction Java
-  - GroupDocs.Metadata library
-  - Java CAD metadata
+- CAD metadata extraction Java
+- GroupDocs.Metadata library
+- Java CAD metadata
+title: JavaでGroupDocsを使用してCADメタデータを抽出する方法
 type: docs
+url: /ja/java/cad-formats/implement-cad-metadata-extraction-groupdocs-metadata-java/
+weight: 1
 ---
 
-# How to Use GroupDocs to Extract CAD Metadata in Java
+# JavaでGroupDocsを使用してCADメタデータを抽出する方法
 
-In modern engineering and design workflows, being able to **how to use GroupDocs** for reading CAD metadata is a huge productivity boost. Whether you need to audit document ownership, enforce naming conventions, or feed metadata into a document management system, extracting native properties from DWG, DWF, or DXF files becomes painless with the GroupDocs.Metadata library for Java. This tutorial walks you through everything you need—from setting up the library to pulling out author names, creation dates, and version information—so you can integrate metadata extraction directly into your Java applications.
+モダンなエンジニアリングやデザインのワークフローにおいて、CADメタデータを読み取るための **GroupDocsの使い方** ができることは、生産性を大幅に向上させます。ドキュメント所有者の監査、命名規則の適用、またはメタデータをドキュメント管理システムに取り込む必要がある場合でも、DWG、DWF、DXF ファイルからネイティブプロパティを抽出する作業は、GroupDocs.Metadata ライブラリ for Java を使用すれば簡単です。このチュートリアルでは、ライブラリのセットアップから、作成者名、作成日、バージョン情報などを取得する方法まで、Java アプリケーションにメタデータ抽出を直接組み込むために必要なすべてを解説します。
 
 ## Quick Answers
 - **What library is best for CAD metadata?** GroupDocs.Metadata for Java  
@@ -23,7 +23,7 @@ In modern engineering and design workflows, being able to **how to use GroupDocs
 - **Is it suitable for large batches?** Yes, with proper resource handling and selective property extraction  
 
 ## What is GroupDocs.Metadata?
-GroupDocs.Metadata is a Java SDK that provides a unified API for reading, writing, and managing metadata across hundreds of file formats—including CAD files like DWG, DWF, and DXF. It abstracts the complexity of each file type, letting you focus on business logic rather than file‑format quirks.
+GroupDocs.Metadata は、数百種類のファイル形式（DWG、DWF、DXF などの CAD ファイルを含む）に対して、メタデータの読み取り、書き込み、管理を統一的な API で提供する Java SDK です。各ファイル形式固有の複雑さを抽象化し、ビジネスロジックに集中できるようにします。
 
 ## Why Use GroupDocs for CAD Metadata Extraction?
 - **Comprehensive format support** – Handles all major CAD formats out‑of‑the‑box.  

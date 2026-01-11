@@ -1,17 +1,19 @@
 ---
-title: "Extract Diagram Metadata Java – Diagram Metadata Tutorials with GroupDocs.Metadata"
-description: "Step-by-step tutorials to extract diagram metadata Java using GroupDocs.Metadata, covering Visio and other diagram formats."
-weight: 13
-url: "/java/diagram-formats/"
-type: docs
 date: 2026-01-11
+description: Krok po kroku poradniki dotyczące wyodrębniania metadanych diagramów
+  w Javie przy użyciu GroupDocs.Metadata, obejmujące Visio i inne formaty diagramów.
+title: Wyodrębnianie metadanych diagramu w Javie – Samouczki metadanych diagramu z
+  GroupDocs.Metadata
+type: docs
+url: /pl/java/diagram-formats/
+weight: 13
 ---
 
-# Extract Diagram Metadata Java – Diagram Metadata Tutorials with GroupDocs.Metadata
+# Ekstrahowanie Metadanych Diagramu Java – Poradniki Metadanych Diagramów z GroupDocs.Metadata
 
 Welcome to our comprehensive hub for **extract diagram metadata java** using GroupDocs.Metadata. Whether you're working with Visio files, SVG diagrams, or other popular diagram formats, these tutorials walk you through everything you need to read, modify, and manage metadata in Java applications. You’ll discover how to pull creator details, custom properties, and even text statistics, all from within clean, maintainable Java code.
 
-## extract diagram metadata java – What You’ll Learn
+## extract diagram metadata java – Co się nauczysz
 
 In this section we outline the core capabilities you’ll master:
 
@@ -22,7 +24,7 @@ In this section we outline the core capabilities you’ll master:
 
 Understanding **extract diagram metadata java** empowers you to build automated documentation pipelines, enforce corporate metadata policies, and improve searchability across your technical assets.
 
-## Available Tutorials
+## Dostępne poradniki
 
 ### [Extract Diagram Metadata with GroupDocs for Java&#58; A Comprehensive Guide](./extract-diagram-metadata-groupdocs-java/)
 Learn how to efficiently extract and manage metadata from diagram documents using GroupDocs.Metadata for Java, including creator details, company information, and more.
@@ -42,11 +44,11 @@ Learn how to detect diagram types and manage metadata efficiently using GroupDoc
 ### [Update Custom Metadata in Diagram Documents Using GroupDocs.Metadata Java](./update-diagram-metadata-groupdocs-java/)
 Learn how to efficiently update custom metadata in diagram documents with GroupDocs.Metadata for Java. This tutorial covers essential steps and best practices.
 
-## Why Choose GroupDocs.Metadata for Java?
+## Dlaczego warto wybrać GroupDocs.Metadata dla Java?
 
 GroupDocs.Metadata offers a lightweight, dependency‑free API that works across all major Java runtimes. It supports a wide range of diagram formats—including VSDX, VDX, and SVG—so you can **extract diagram metadata java** from virtually any file you encounter. The library also guarantees thread‑safety and high performance, making it ideal for batch processing or real‑time applications.
 
-## Additional Resources
+## Dodatkowe zasoby
 
 - [GroupDocs.Metadata for Java Documentation](https://docs.groupdocs.com/metadata/java/)
 - [GroupDocs.Metadata for Java API Reference](https://reference.groupdocs.com/metadata/java/)
@@ -58,6 +60,4 @@ GroupDocs.Metadata offers a lightweight, dependency‑free API that works across
 ---
 
 **Last Updated:** 2026-01-11  
-**Author:** GroupDocs  
-
----
+**Author:** GroupDocs

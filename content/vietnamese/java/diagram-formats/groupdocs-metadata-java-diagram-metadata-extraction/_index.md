@@ -1,19 +1,20 @@
 ---
-title: "How to Extract Metadata from Diagrams Using GroupDocs Metadata Java"
-description: "Learn how to extract metadata from diagrams efficiently using GroupDocs.Metadata for Java. Enhance your document management capabilities."
-date: "2026-01-16"
-weight: 1
-url: "/java/diagram-formats/groupdocs-metadata-java-diagram-metadata-extraction/"
+date: '2026-01-16'
+description: Tìm hiểu cách trích xuất siêu dữ liệu từ các sơ đồ một cách hiệu quả
+  bằng GroupDocs.Metadata cho Java. Nâng cao khả năng quản lý tài liệu của bạn.
 keywords:
 - extract custom metadata diagrams
 - GroupDocs.Metadata for Java
 - manage diagram file properties
+title: Cách trích xuất siêu dữ liệu từ biểu đồ bằng GroupDocs Metadata Java
 type: docs
+url: /vi/java/diagram-formats/groupdocs-metadata-java-diagram-metadata-extraction/
+weight: 1
 ---
 
-# How to Extract Metadata from Diagrams Using GroupDocs Metadata Java
+# Cách Trích Xuất Metadata Từ Các Sơ Đồ Sử Dụng GroupDocs Metadata Java
 
-Extracting custom metadata from diagram files is essential for developers who need **how to extract metadata** in their applications. With GroupDocs.Metadata for Java, the process becomes seamless, allowing precise handling of both standard and user‑defined properties. In this guide you’ll learn step‑by‑step how to extract metadata, why it matters, and how to integrate the solution into real‑world projects.
+Trích xuất metadata tùy chỉnh từ các tệp sơ đồ là điều cần thiết cho các nhà phát triển cần **cách trích xuất metadata** trong ứng dụng của họ. Với GroupDocs.Metadata cho Java, quá trình trở nên liền mạch, cho phép xử lý chính xác cả các thuộc tính tiêu chuẩn và do người dùng định nghĩa. Trong hướng dẫn này, bạn sẽ học từng bước cách trích xuất metadata, lý do tại sao nó quan trọng, và cách tích hợp giải pháp vào các dự án thực tế.
 
 ## Quick Answers
 - **What library is recommended?** GroupDocs.Metadata for Java (v24.12+)
@@ -22,16 +23,16 @@ Extracting custom metadata from diagram files is essential for developers who ne
 - **Is Maven supported?** Absolutely – add the repository and dependency to your `pom.xml`.
 - **Will it work with large diagrams?** Use try‑with‑resources and cache results to keep memory usage low.
 
-## What is “how to extract metadata” in the context of diagrams?
-Extracting metadata means reading the hidden information stored inside a diagram file—such as author, creation date, or any custom tags you’ve added. This data helps you organize, search, and integrate diagrams with other systems without opening the visual content.
+## What is “cách trích xuất metadata” in the context of diagrams?
+Trích xuất metadata có nghĩa là đọc thông tin ẩn được lưu trong tệp sơ đồ — chẳng hạn như tác giả, ngày tạo, hoặc bất kỳ thẻ tùy chỉnh nào bạn đã thêm. Dữ liệu này giúp bạn tổ chức, tìm kiếm và tích hợp các sơ đồ với các hệ thống khác mà không cần mở nội dung hình ảnh.
 
 ## Why extract custom metadata from diagrams?
-- **Improved Searchability:** Tag diagrams with project‑specific keys and locate them instantly.
-- **Automation:** Sync diagram properties with CRM, DMS, or reporting tools.
-- **Compliance:** Verify that required metadata (e.g., version, owner) is present before publishing.
+- **Improved Searchability:** Gắn thẻ sơ đồ với các khóa dự án‑specific và tìm chúng ngay lập tức.  
+- **Automation:** Đồng bộ thuộc tính sơ đồ với CRM, DMS, hoặc công cụ báo cáo.  
+- **Compliance:** Xác minh rằng metadata yêu cầu (ví dụ: phiên bản, người sở hữu) có mặt trước khi công bố.
 
 ## Introduction
-Accessing or modifying specific metadata in a diagram file is crucial for many applications, such as document management and system integration. In this guide, we explore how to achieve this with GroupDocs.Metadata Java, integrating these functionalities into your projects effortlessly.
+Truy cập hoặc sửa đổi metadata cụ thể trong tệp sơ đồ là quan trọng đối với nhiều ứng dụng, chẳng hạn như quản lý tài liệu và tích hợp hệ thống. Trong hướng dẫn này, chúng tôi sẽ khám phá cách thực hiện điều này với GroupDocs.Metadata Java, tích hợp các chức năng này vào dự án của bạn một cách dễ dàng.
 
 ## Prerequisites
 - **Libraries and Versions:** GroupDocs.Metadata library version 24.12 or later.  
@@ -129,9 +130,9 @@ With this setup, you can perform additional operations on the `root` object as r
 
 ## Practical Applications
 Here are some real‑world scenarios where extracting custom metadata from diagrams is beneficial:
-1. **Document Management Systems:** Enhance searchability and organization by leveraging custom metadata.  
-2. **Integration with CRM Tools:** Sync diagram properties with customer relationship management systems for better tracking.  
-3. **Automated Reporting:** Use metadata to generate reports on document usage and modifications.
+1. **Document Management Systems:** Nâng cao khả năng tìm kiếm và tổ chức bằng cách tận dụng metadata tùy chỉnh.  
+2. **Integration with CRM Tools:** Đồng bộ thuộc tính sơ đồ với hệ thống quản lý quan hệ khách hàng để theo dõi tốt hơn.  
+3. **Automated Reporting:** Sử dụng metadata để tạo báo cáo về việc sử dụng và sửa đổi tài liệu.
 
 ## Performance Considerations
 To optimize performance when working with GroupDocs.Metadata:
@@ -140,7 +141,7 @@ To optimize performance when working with GroupDocs.Metadata:
 - **Optimization Tips:** Cache frequently accessed metadata to reduce redundant operations.
 
 ## Conclusion
-In this guide, we explored **how to extract metadata** from diagrams using GroupDocs.Metadata Java. By following these steps, you can enhance your application's document handling capabilities and integrate seamlessly with other systems.
+In this guide, we explored **cách trích xuất metadata** from diagrams using GroupDocs.Metadata Java. By following these steps, you can enhance your application's document handling capabilities and integrate seamlessly with other systems.
 
 **Next Steps:** Experiment with different diagram formats, explore batch processing, and dive deeper into the advanced features offered by GroupDocs.Metadata.
 
@@ -184,8 +185,7 @@ A: Limits are defined by the underlying file format; most modern diagram formats
 **Tested With:** GroupDocs.Metadata 24.12 for Java  
 **Author:** GroupDocs  
 
-**Resources**  
-- [Documentation](https://docs.groupdocs.com/metadata/java/)  
+**Resources- [Documentation](https://docs.groupdocs.com/metadata/java/)  
 - [API Reference](https://reference.groupdocs.com/metadata/java/)  
 - [Download](https://releases.groupdocs.com/metadata/java/)  
 - [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  

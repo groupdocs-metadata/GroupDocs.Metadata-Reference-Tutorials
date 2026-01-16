@@ -1,19 +1,20 @@
 ---
-title: "How to Extract Metadata from Diagrams Using GroupDocs Metadata Java"
-description: "Learn how to extract metadata from diagrams efficiently using GroupDocs.Metadata for Java. Enhance your document management capabilities."
-date: "2026-01-16"
-weight: 1
-url: "/java/diagram-formats/groupdocs-metadata-java-diagram-metadata-extraction/"
+date: '2026-01-16'
+description: GroupDocs.Metadata for Java를 사용하여 다이어그램에서 메타데이터를 효율적으로 추출하는 방법을 배우세요.
+  문서 관리 기능을 향상시키세요.
 keywords:
 - extract custom metadata diagrams
 - GroupDocs.Metadata for Java
 - manage diagram file properties
+title: GroupDocs Metadata Java를 사용하여 다이어그램에서 메타데이터 추출하는 방법
 type: docs
+url: /ko/java/diagram-formats/groupdocs-metadata-java-diagram-metadata-extraction/
+weight: 1
 ---
 
 # How to Extract Metadata from Diagrams Using GroupDocs Metadata Java
 
-Extracting custom metadata from diagram files is essential for developers who need **how to extract metadata** in their applications. With GroupDocs.Metadata for Java, the process becomes seamless, allowing precise handling of both standard and user‑defined properties. In this guide you’ll learn step‑by‑step how to extract metadata, why it matters, and how to integrate the solution into real‑world projects.
+다이어그램 파일에서 사용자 정의 메타데이터를 추출하는 것은 애플리케이션에서 **how to extract metadata**가 필요한 개발자에게 필수적입니다. GroupDocs.Metadata for Java를 사용하면 이 과정이 원활해져 표준 속성과 사용자 정의 속성을 정확히 처리할 수 있습니다. 이 가이드에서는 메타데이터를 추출하는 방법, 왜 중요한지, 실제 프로젝트에 솔루션을 통합하는 방법을 단계별로 배웁니다.
 
 ## Quick Answers
 - **What library is recommended?** GroupDocs.Metadata for Java (v24.12+)
@@ -23,7 +24,7 @@ Extracting custom metadata from diagram files is essential for developers who ne
 - **Will it work with large diagrams?** Use try‑with‑resources and cache results to keep memory usage low.
 
 ## What is “how to extract metadata” in the context of diagrams?
-Extracting metadata means reading the hidden information stored inside a diagram file—such as author, creation date, or any custom tags you’ve added. This data helps you organize, search, and integrate diagrams with other systems without opening the visual content.
+메타데이터 추출이란 다이어그램 파일 내부에 숨겨진 정보(작성자, 생성 날짜 또는 사용자가 추가한 커스텀 태그 등)를 읽는 것을 의미합니다. 이러한 데이터는 시각적 내용을 열지 않고도 다이어그램을 조직화하고, 검색하며, 다른 시스템과 연동하는 데 도움이 됩니다.
 
 ## Why extract custom metadata from diagrams?
 - **Improved Searchability:** Tag diagrams with project‑specific keys and locate them instantly.
@@ -31,7 +32,7 @@ Extracting metadata means reading the hidden information stored inside a diagram
 - **Compliance:** Verify that required metadata (e.g., version, owner) is present before publishing.
 
 ## Introduction
-Accessing or modifying specific metadata in a diagram file is crucial for many applications, such as document management and system integration. In this guide, we explore how to achieve this with GroupDocs.Metadata Java, integrating these functionalities into your projects effortlessly.
+다이어그램 파일의 특정 메타데이터에 접근하거나 이를 수정하는 것은 문서 관리 및 시스템 통합과 같은 다양한 애플리케이션에서 중요합니다. 이 가이드에서는 GroupDocs.Metadata Java를 사용해 이러한 기능을 손쉽게 구현하고 프로젝트에 통합하는 방법을 살펴봅니다.
 
 ## Prerequisites
 - **Libraries and Versions:** GroupDocs.Metadata library version 24.12 or later.  

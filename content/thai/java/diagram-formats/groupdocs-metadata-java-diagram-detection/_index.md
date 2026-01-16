@@ -1,19 +1,20 @@
 ---
-title: "Extract Diagram Metadata Java: Mastering Diagram Detection with GroupDocs.Metadata"
-description: "Learn how to extract diagram metadata java using GroupDocs.Metadata for Java, detect diagram types, and manage metadata efficiently."
-date: "2026-01-16"
-weight: 1
-url: "/java/diagram-formats/groupdocs-metadata-java-diagram-detection/"
+date: '2026-01-16'
+description: เรียนรู้วิธีดึงข้อมูลเมตาดาต้าแผนภาพด้วย Java โดยใช้ GroupDocs.Metadata
+  for Java, ตรวจจับประเภทแผนภาพ, และจัดการเมตาดาต้าอย่างมีประสิทธิภาพ.
 keywords:
 - Diagram Detection
 - GroupDocs.Metadata for Java
 - Metadata Management
+title: 'ดึงข้อมูลเมตาดาต้าแผนภาพ Java: เชี่ยวชาญการตรวจจับแผนภาพด้วย GroupDocs.Metadata'
 type: docs
+url: /th/java/diagram-formats/groupdocs-metadata-java-diagram-detection/
+weight: 1
 ---
 
 # Extract Diagram Metadata Java: Mastering Diagram Detection with GroupDocs.Metadata
 
-Efficiently managing diagrams is essential for engineers, architects, and business analysts who work with complex visual data. In this tutorial you’ll **extract diagram metadata java** to identify file formats, MIME types, and extensions, then learn how to manipulate that metadata with GroupDocs.Metadata for Java. By the end, you’ll be able to integrate diagram‑type detection and metadata handling directly into your Java applications.
+การจัดการแผนภาพอย่างมีประสิทธิภาพเป็นสิ่งสำคัญสำหรับวิศวกร สถาปนิก และนักวิเคราะห์ธุรกิจที่ทำงานกับข้อมูลภาพที่ซับซ้อน ในบทเรียนนี้คุณจะ **extract diagram metadata java** เพื่อระบุรูปแบบไฟล์, MIME type, และส่วนขยายไฟล์ แล้วเรียนรู้วิธีจัดการเมตาดาต้านั้นด้วย GroupDocs.Metadata for Java เมื่อเสร็จสิ้นคุณจะสามารถรวมการตรวจจับประเภทแผนภาพและการจัดการเมตาดาต้าเข้าไปในแอปพลิเคชัน Java ของคุณได้โดยตรง
 
 ## Quick Answers
 - **What does “extract diagram metadata java” mean?** It refers to reading a diagram file’s internal properties (type, format, MIME, etc.) using Java code.  
@@ -24,7 +25,7 @@ Efficiently managing diagrams is essential for engineers, architects, and busine
 
 ## What is extract diagram metadata java?
 
-Extracting diagram metadata in Java means programmatically reading a diagram file’s descriptive information—such as its format (VDX, VSDX, etc.), MIME type, and file extension—without opening the visual content itself. This enables automated classification, conversion, and storage workflows.
+การ **extract diagram metadata java** หมายถึงการอ่านข้อมูลเชิงบรรยายของไฟล์แผนภาพโดยใช้โปรแกรม Java — เช่น รูปแบบไฟล์ (VDX, VSDX ฯลฯ), MIME type, และส่วนขยายไฟล์ — โดยไม่ต้องเปิดเนื้อหาภาพจริง ซึ่งช่วยให้สามารถทำงานอัตโนมัติในการจัดประเภท, แปลงไฟล์, และจัดเก็บได้อย่างมีประสิทธิภาพ
 
 ## Why extract diagram metadata java?
 
@@ -203,6 +204,4 @@ Dive into GroupDocs.Metadata for Java and unlock powerful diagram management cap
 
 **Last Updated:** 2026-01-16  
 **Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
----
+**Author:** GroupDocs

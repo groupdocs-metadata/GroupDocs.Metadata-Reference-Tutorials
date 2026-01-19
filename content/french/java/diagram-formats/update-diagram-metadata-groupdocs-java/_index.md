@@ -1,47 +1,44 @@
 ---
-title: "How to Update Diagram Metadata Java with GroupDocs.Metadata"
-description: "Learn how to update diagram metadata java and set document properties java using GroupDocs.Metadata for Java. Step‑by‑step guide with best practices."
-date: "2026-01-19"
-weight: 1
-url: "/java/diagram-formats/update-diagram-metadata-groupdocs-java/"
+date: '2026-01-19'
+description: Apprenez comment mettre à jour les métadonnées de diagramme Java et définir
+  les propriétés du document Java en utilisant GroupDocs.Metadata pour Java. Guide
+  étape par étape avec les meilleures pratiques.
 keywords:
 - update diagram metadata java
 - set document properties java
 - groupdocs.metadata java tutorial
+title: Comment mettre à jour les métadonnées de diagramme en Java avec GroupDocs.Metadata
 type: docs
+url: /fr/java/diagram-formats/update-diagram-metadata-groupdocs-java/
+weight: 1
 ---
 
-# Update Diagram Metadata Java with GroupDocs.Metadata
+# Mettre à jour les métadonnéeséliorer les fichiers de diagramme en **updating diagram metadata java** est une exigence courante lorsque vous devez intégrer des informations personnalisées pour la recherche, la conformité ou la collaboration. Dans ce tutoriel, vous apprendrez comment **set document properties java** dans les fichiers VSDX (Visio) à l’aide de la bibliothèque GroupDocs.Metadata. Nous parcourrons l’ensemble du flux de travail — de la configuration du projet au dépannage — afin que vous puissiez appliquer la technique dans des applications réelles.
 
-Enhancing diagram files by **updating diagram metadata java** is a common requirement when you need to embed custom information for search, compliance, or collaboration. In this tutorial you’ll learn how to **set document properties java** inside VSDX (Visio) files using the GroupDocs.Metadata library. We’ll walk through the full workflow—from project setup to troubleshooting—so you can apply the technique in real‑world applications.
+## Réponses rapides
+- **Quelle bibliothèque est nécessaire ?** GroupDocs.Metadata for Java (v24.12 or newer).  
+- **Quels types de fichiers sont pris en charge ?** VSDX, VDX, and other diagram formats supported by GroupDocs.Metadata.  
+- **Ai-je besoin d’une licence ?** A free trial works for evaluation; a permanent license is required for production.  
+- **Combien de lignes de code ?** Less than 30 lines to load a file and set a custom property.  
+- **Est‑il thread‑safe ?** Yes, as long as each thread uses its own `Metadata` instance.
 
-## Quick Answers
-- **What library is needed?** GroupDocs.Metadata for Java (v24.12 or newer).  
-- **Which file types are supported?** VSDX, VDX, and other diagram formats supported by GroupDocs.Metadata.  
-- **Do I need a license?** A free trial works for evaluation; a permanent license is required for production.  
-- **How many lines of code?** Less than 30 lines to load a file and set a custom property.  
-- **Is it thread‑safe?** Yes, as long as each thread uses its own `Metadata` instance.
+## Qu’est‑ce que “update diagram metadata java” ?
+Mettre à jour les métadonnées de diagramme Java signifie lire programmétiquement un fichier de diagramme, modifier ses propriétés intégrées ou personnalisées (telles que l’auteur, l’ID du projet ou des balises personnalisées), et enregistrer les modifications dans le fichier. Cela permet aux systèmes en aval d’interroger ces valeurs sans ouvrir manuellement le diagramme.
 
-## What is “update diagram metadata java”?
-
-Updating diagram metadata Java means programmatically reading a diagram file, modifying its built‑in or custom properties (such as author, project ID, or custom tags), and saving the changes back to the file. This enables downstream systems to query those values without opening the diagram manually.
-
-## Why set document properties java with GroupDocs.Metadata?
-
+## Pourquoi définir les propriétés du document java avec GroupDocs.Metadata ?
 - **Centralized management** – Store business‑critical data directly inside the diagram.  
 - **Searchability** – Custom properties become searchable in DMS or SharePoint.  
 - **Compliance** – Embed audit information (e.g., version, reviewer) for regulatory purposes.  
 - **Performance** – GroupDocs.Metadata works on the file stream only; no heavy UI rendering required.
 
-## Prerequisites
-
-- **Java Development Kit (JDK 8 or later)** with an IDE such as IntelliJ IDEA or Eclipse.  
+## Prérequis
+- **Java Development Kit (JDK 8 or later)** avec un IDE tel qu’IntelliJ IDEA ou Eclipse.  
 - **GroupDocs.Metadata 24.12+** (the latest stable release).  
-- Basic knowledge of Java and the concept of file metadata.
+- Connaissances de base en Java et du concept de métadonnées de fichier.
 
-## Setting Up GroupDocs.Metadata for Java
+## Configuration de GroupDocs.Metadata pour Java
 
-### Using Maven
+### Utilisation de Maven
 
 Add the GroupDocs repository and dependency to your `pom.xml`:
 
@@ -63,12 +60,12 @@ Add the GroupDocs repository and dependency to your `pom.xml`:
 </dependencies>
 ```
 
-### Direct Download
+### Téléchargement direct
 
-Alternatively, download the latest JAR from the official release page:  
+Alternativement, téléchargez le dernier JAR depuis la page officielle de diffusion :  
 [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)
 
-#### License Acquisition Steps
+#### Étapes d’obtention de licence
 
 - **Free Trial** – Explore all features without a license key.  
 - **Temporary License** – Request a time‑limited key for extended evaluation.  
@@ -91,9 +88,9 @@ public class MetadataSetup {
 }
 ```
 
-## Step‑by‑Step Guide to Update Custom Properties
+## Guide étape par étape pour mettre à jour les propriétés personnalisées
 
-### 1. Load the Diagram Document
+### 1. Charger le document de diagramme
 
 First, create a `Metadata` instance that points to your VSDX file:
 
@@ -110,7 +107,7 @@ public class DiagramUpdateCustomProperties {
 }
 ```
 
-### 2. Access the Root Package
+### 2. Accéder au package racine
 
 The `DiagramRootPackage` gives you entry to all document‑level information:
 
@@ -119,7 +116,7 @@ The `DiagramRootPackage` gives you entry to all document‑level information:
 DiagramRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### 3. Set Custom Properties (set document properties java)
+### 3. Définir les propriétés personnalisées (set document properties java)
 
 Now you can add or update any custom key/value pair:
 
@@ -133,47 +130,37 @@ root.getDocumentProperties().set("customProperty1", "Your Value Here");
 - `getDocumentProperties()` – Returns the collection that holds both built‑in and custom properties.  
 - `set(String key, String value)` – Inserts the property if it does not exist or overwrites the existing value.
 
-### 4. Save and Close (handled automatically)
+### 4. Enregistrer et fermer (géré automatiquement)
 
 Because `Metadata` implements `AutoCloseable`, the `try‑with‑resources` block automatically persists changes and releases file handles when execution leaves the block.
 
-## Common Issues & Troubleshooting Tips
-
-- **FileNotFoundException** – Verify the path (`YOUR_DOCUMENT_DIRECTORY/InputVsdx`) is correct and the file is accessible.  
+## Problèmes courants et conseils de dépannage
+- **FileNotFoundException** – Vérifiez que le chemin (`YOUR_DOCUMENT_DIRECTORY/InputVsdx`) est correct et que le fichier est accessible.  
 - **Unsupported Format** – Ensure your GroupDocs.Metadata version supports the specific diagram format you are using.  
 - **Permission Errors** – Run the JVM with sufficient file system permissions, especially on Linux/macOS.
 
-## Practical Applications
-
+## Applications pratiques
 1. **Document Management Systems** – Tag diagrams with project IDs, department codes, or retention dates.  
 2. **Collaboration Platforms** – Store reviewer names and status flags directly inside the file.  
 3. **Regulatory Compliance** – Embed audit trails (e.g., “ApprovedBy”, “ComplianceLevel”) for easy extraction during audits.
 
-## Performance Considerations
-
+## Considérations de performance
 - **Load Only Needed Parts** – Use the `Metadata` API to fetch just the property collection instead of the full document image data.  
 - **Dispose Resources Promptly** – The `try‑with‑resources` pattern shown above ensures streams are closed instantly.  
 - **Memory Management** – For large batches, process files sequentially or use a thread pool with limited concurrency to avoid excessive heap usage.
 
-## Frequently Asked Questions
+## Questions fréquemment posées
 
-**Q: What is metadata in diagrams?**  
-A: Metadata in diagrams refers to data about document properties like author, creation date, custom tags, etc., enhancing document management.
+**Q : What is metadata in diagrams?**  
+A : Metadata in diagrams refers to data about document properties like author, creation date, custom tags, etc., enhancing document management.
 
-**Q: Can I update multiple metadata properties at once?**  
-A: Yes, you can iterate over a map of key/value pairs and call `set` for each entry within the same `Metadata` session.
+**Q : Can I update multiple metadata properties at once?**  
+A : Yes, you can iterate over a map of key/value pairs and: Wrap your` for unexpected errors.
 
-**Q: Is GroupDocs.Metadata Java compatible with all diagram formats?**  
-A: It supports most popular diagram formats (VSDX, VDX, VSSX, etc.). Always check the official compatibility matrix for newer or niche formats.
+**Q : What are the licensing options for GroupDocs.Metadata Java?**  
+A : Options include a free trial, temporary evaluation licenses, and full commercial licenses for unlimited production use.
 
-**Q: How do I handle exceptions when updating metadata?**  
-A: Wrap your code in a try‑catch block and handle specific exceptions like `FileNotFoundException`, `UnsupportedFormatException`, or generic `Exception` for unexpected errors.
-
-**Q: What are the licensing options for GroupDocs.Metadata Java?**  
-A: Options include a free trial, temporary evaluation licenses, and full commercial licenses for unlimited production use.
-
-## Resources
-
+## Ressources
 - [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)
 - [API Reference](https://reference.groupdocs.com/metadata/java/)
 - [Download GroupDocs.Metadata](https://releases.groupdocs.com/metadata/java/)
@@ -183,8 +170,6 @@ A: Options include a free trial, temporary evaluation licenses, and full commerc
 
 ---
 
-**Last Updated:** 2026-01-19  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
----
+**Dernière mise à jour :** 2026-01-19  
+**Testé avec :** GroupDocs.Metadata 24.12 for Java  
+**Auteur :** GroupDocs

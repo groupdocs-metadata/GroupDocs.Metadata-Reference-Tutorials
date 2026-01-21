@@ -1,19 +1,21 @@
 ---
-title: "How to Extract Metadata from PDFs Using GroupDocs.Metadata in Java"
-description: "Learn how to extract metadata from PDF files with GroupDocs.Metadata for Java. This step‑by‑step guide covers setup, code examples, and real‑world use cases."
-date: "2026-01-21"
-weight: 1
-url: "/java/document-formats/extract-custom-metadata-groupdocs-metadata-java/"
+date: '2026-01-21'
+description: Dowiedz się, jak wyodrębniać metadane z plików PDF za pomocą GroupDocs.Metadata
+  dla Javy. Ten przewodnik krok po kroku obejmuje konfigurację, przykłady kodu i rzeczywiste
+  przypadki użycia.
 keywords:
 - extract custom metadata PDFs Java
 - GroupDocs.Metadata Java library
 - manage non-standard PDF data
+title: Jak wyodrębnić metadane z plików PDF przy użyciu GroupDocs.Metadata w Javie
 type: docs
+url: /pl/java/document-formats/extract-custom-metadata-groupdocs-metadata-java/
+weight: 1
 ---
 
-# How to Extract Metadata from PDFs Using GroupDocs.Metadata in Java
+# Jak wyodrębnić metadane z plików PDF przy użyciu GroupDocs.Metadata w Javie
 
-Welcome to this detailed guide on **how to extract metadata** from PDF documents with the powerful GroupDocs.Metadata library in Java. If you've ever needed to manage or utilize custom data embedded within your PDF files, this tutorial is for you.
+Witamy w tym szczegółowym przewodniku dotyczącym **wyodrębniania metadanych** z dokumentów PDF przy użyciu potężnej biblioteki GroupDocs.Metadata w Javie. Jeśli kiedykolwiek musiałeś zarządzać lub wykorzystywać niestandardowe dane osadzone w plikach PDF, ten tutorial jest dla Ciebie.
 
 ## Quick Answers
 - **What library handles PDF metadata in Java?** GroupDocs.Metadata for Java.  
@@ -24,11 +26,11 @@ Welcome to this detailed guide on **how to extract metadata** from PDF documents
 
 ## Introduction
 
-In today's digital age, efficiently managing and utilizing metadata can be a game‑changer for businesses and developers. Metadata in PDFs often includes critical information that isn’t part of the standard document properties—such as custom tags, annotations, or user‑defined fields. This guide will walk you through **how to extract metadata** using GroupDocs.Metadata for Java and show you why this matters for real‑world projects.
+W dzisiejszej erze cyfrowej efektywne zarządzanie i wykorzystywanie metadanych może być przełomem dla firm i programistów. Metadane w plikach PDF często zawierają krytyczne informacje, które nie są częścią standardowych właściwości dokumentu — takie jak niestandardowe tagi, adnotacje czy pola definiowane przez użytkownika. Ten przewodnik pokaże Ci **jak wyodrębnić metadane** przy użyciu GroupDocs.Metadata dla Javy i wyjaśni, dlaczego jest to istotne w projektach rzeczywistych.
 
 ## What is “how to extract metadata” in the context of PDFs?
 
-Extracting metadata means reading both built‑in and custom properties stored inside a PDF file. These properties can describe the author, creation date, custom workflow identifiers, or any other data the creator chose to embed. Accessing this information programmatically lets you automate indexing, compliance checks, and data‑driven workflows.
+Wyodrębnianie metadanych oznacza odczyt zarówno wbudowanych, jak i niestandardowych właściwości przechowywanych wewnątrz pliku PDF. Właściwości te mogą opisywać autora, datę utworzenia, niestandardowe identyfikatory przepływu pracy lub dowolne inne dane, które twórca postanowił osadzić. Programowy dostęp do tych informacji umożliwia automatyzację indeksowania, kontroli zgodności i procesów opartych na danych.
 
 ## Why use GroupDocs.Metadata Java?
 
@@ -39,18 +41,18 @@ Extracting metadata means reading both built‑in and custom properties stored i
 
 ## Prerequisites
 
-Before we dive into code, make sure you have:
+Zanim przejdziemy do kodu, upewnij się, że masz:
 
-1. **Java Development Kit (JDK) 8+** installed and `JAVA_HOME` configured.  
-2. **Maven** (or another build tool) to manage dependencies.  
-3. **Basic Java knowledge** – classes, methods, exception handling.  
+1. **Java Development Kit (JDK) 8+** zainstalowany i skonfigurowane `JAVA_HOME`.  
+2. **Maven** (lub inne narzędzie budujące) do zarządzania zależnościami.  
+3. **Podstawową znajomość Javy** – klasy, metody, obsługa wyjątków.  
 
 ## Setting Up GroupDocs.Metadata for Java
 
-You have two straightforward ways to add the library to your project.
+Masz dwie proste metody, aby dodać bibliotekę do swojego projektu.
 
 ### Maven Setup
-Add the following to your `pom.xml`:
+Dodaj poniższy fragment do swojego `pom.xml`:
 
 ```xml
 <repositories>
@@ -71,23 +73,23 @@ Add the following to your `pom.xml`:
 ```
 
 ### Direct Download
-Alternatively, download the latest version from [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Alternatywnie, pobierz najnowszą wersję z [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 #### License Acquisition Steps
-To try out GroupDocs.Metadata:
+Aby wypróbować GroupDocs.Metadata:
 
 - Start with a free trial to explore its features.  
 - For more extensive testing or commercial use, consider acquiring a temporary license or purchasing a full license.
 
 ### Basic Initialization and Setup
-Once the dependency is added, initialize the library within your Java application. This involves setting up your document path correctly and ensuring all necessary imports are in place.
+Po dodaniu zależności, zainicjalizuj bibliotekę w swojej aplikacji Java. Obejmuje to poprawne ustawienie ścieżki do dokumentu oraz zapewnienie, że wszystkie niezbędne importy są dostępne.
 
 ## Implementation Guide
 
-Now let's walk through **how to extract metadata** from PDFs step by step.
+Teraz przejdźmy krok po kroku przez **jak wyodrębnić metadane** z plików PDF.
 
 ### Step 1: Load the PDF Document
-Begin by loading the PDF document you wish to work with:
+Rozpocznij od załadowania dokumentu PDF, z którym chcesz pracować:
 
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputPdf.pdf")) {
@@ -95,19 +97,17 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputPdf.pdf")) {
 }
 ```
 
-The `Metadata` object represents your PDF file. The try‑with‑resources statement ensures that resources are released automatically.
+Obiekt `Metadata` reprezentuje Twój plik PDF. Instrukcja try‑with‑resources zapewnia automatyczne zwolnienie zasobów.
 
 ### Step 2: Get the Root Package of the PDF Document
-Access the root package to start interacting with metadata:
+Uzyskaj dostęp do pakietu głównego, aby rozpocząć interakcję z metadanymi:
 
 ```java
 PdfRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-This gives you direct access to all document properties, both built‑in and custom.
-
 ### Step 3: Find Custom Properties Using a Tag Specification
-Identify non‑built‑in properties using the `ContainsTagSpecification`:
+Zidentyfikuj właściwości nie‑wbudowane przy użyciu `ContainsTagSpecification`:
 
 ```java
 IReadOnlyList<MetadataProperty> customProperties = root.getDocumentProperties().findProperties(
@@ -115,10 +115,8 @@ IReadOnlyList<MetadataProperty> customProperties = root.getDocumentProperties().
 );
 ```
 
-The code filters out standard PDF metadata, leaving only the custom fields you added.
-
 ### Step 4: Iterate and Display Custom Metadata Properties
-Loop through the extracted properties to display their names and values:
+Iteruj po wyodrębnionych właściwościach, aby wyświetlić ich nazwy i wartości:
 
 ```java
 for (MetadataProperty property : customProperties) {
@@ -126,37 +124,29 @@ for (MetadataProperty property : customProperties) {
 }
 ```
 
-Running this snippet prints every custom property, giving you full visibility into the PDF’s hidden data.
+Uruchomienie tego fragmentu wypisuje każdą niestandardową właściwość, dając pełną widoczność ukrytych danych w PDF.
 
 ## Practical Applications
 
-Extracting custom metadata from PDFs has numerous real‑world uses:
+Wyodrębnianie niestandardowych metadanych z plików PDF ma liczne zastosowania w rzeczywistych scenariuszach:
 
 - **Document Management Systems** – enhance searchability and categorization.  
 - **Legal & Compliance** – verify that required custom tags are present before filing.  
 - **Data Analytics** – aggregate custom fields across thousands of PDFs for reporting.  
 
-Integrating this capability with CRM, ERP, or workflow automation platforms can unlock powerful, data‑driven processes.
+Integracja tej funkcji z systemami CRM, ERP lub platformami automatyzacji przepływów pracy może odblokować potężne, oparte na danych procesy.
 
 ## Performance Considerations
 
-When handling large PDFs or processing many files, keep these tips in mind:
+Podczas pracy z dużymi plikami PDF lub przetwarzania wielu plików, pamiętaj o następujących wskazówkach:
 
 - **Memory Management** – always use try‑with‑resources (as shown) to close streams promptly.  
 - **Batch Processing** – read files in batches or use parallel streams to improve throughput.  
-- **Avoid Unnecessary Calls** – retrieve only the properties you need; the `findProperties` filter helps with that.
+- **Avoid Unnecessary Calls** – retrievefindProperties` filter helps with that.
 
 ## Conclusion
 
-In this tutorial, we covered **how to extract metadata** from PDF files using GroupDocs.Metadata for Java. By following the steps above, you can read both built‑in and custom properties, integrate the data into downstream systems, and improve the overall intelligence of your document workflows.
-
-### Next Steps
-- Experiment with other metadata operations such as editing or deleting properties.  
-- Explore the full API to read metadata from other formats (Word, Excel, images).  
-- Combine metadata extraction with OCR to enrich searchable content.
-
-## FAQ Section
-1. **What is GroupDocs.Metadata?**  
+W tym tutorialu omówiliśmy **jak wyodrębnić metadane** z plików PDF przy użyciu GroupDocs.Metadata dla Javy. Post właściwości, FAQDocs.Metadata?**  
    - A comprehensive library for managing and manipulating file metadata across various formats, including PDFs.  
 2. **Can I use GroupDocs.Metadata for free?**  
    - You can start with a free trial to explore its features.  
@@ -179,6 +169,4 @@ In this tutorial, we covered **how to extract metadata** from PDF files using Gr
 
 **Last Updated:** 2026-01-21  
 **Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
----
+**Author:** GroupDocs

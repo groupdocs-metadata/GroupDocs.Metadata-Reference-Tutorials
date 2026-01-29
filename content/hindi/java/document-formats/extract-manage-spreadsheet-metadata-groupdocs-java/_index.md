@@ -1,19 +1,20 @@
 ---
-title: "Extract Spreadsheet Metadata Java with GroupDocs.Metadata"
-description: "Learn how to extract spreadsheet metadata java and extract creation time java using GroupDocs.Metadata for Java—step‑by‑step guide for developers."
-date: "2026-01-29"
-weight: 1
-url: "/java/document-formats/extract-manage-spreadsheet-metadata-groupdocs-java/"
+date: '2026-01-29'
+description: GroupDocs.Metadata for Java का उपयोग करके स्प्रेडशीट मेटाडेटा और निर्माण
+  समय निकालना सीखें—डेवलपर्स के लिए चरण‑बद्ध गाइड।
 keywords:
 - extract spreadsheet metadata Java
 - manage spreadsheet metadata GroupDocs
 - spreadsheet metadata handling
+title: GroupDocs.Metadata के साथ जावा में स्प्रेडशीट मेटाडेटा निकालें
 type: docs
+url: /hi/java/document-formats/extract-manage-spreadsheet-metadata-groupdocs-java/
+weight: 1
 ---
 
 # Extract Spreadsheet Metadata Java with GroupDocs.Metadata
 
-Working with spreadsheets often requires pulling **extract spreadsheet metadata java** so you can audit, organize, or automate downstream processes. Whether you’re building a document‑processing pipeline or simply need to log who created a file and when, this tutorial shows you how to **extract spreadsheet metadata java** efficiently with GroupDocs.Metadata for Java.
+स्प्रेडशीट्स के साथ काम करते समय अक्सर **extract spreadsheet metadata java** को प्राप्त करना आवश्यक होता है ताकि आप ऑडिट, व्यवस्थित या डाउनस्ट्रीम प्रक्रियाओं को स्वचालित कर सकें। चाहे आप एक दस्तावेज़‑प्रोसेसिंग पाइपलाइन बना रहे हों या केवल यह लॉग करना चाहते हों कि फ़ाइल किसने और कब बनाई, यह ट्यूटोरियल आपको GroupDocs.Metadata for Java के साथ **extract spreadsheet metadata java** को प्रभावी ढंग से करने का तरीका दिखाता है।
 
 ## Quick Answers
 - **What library handles spreadsheet metadata?** GroupDocs.Metadata for Java.  
@@ -85,8 +86,7 @@ try (Metadata metadata = new Metadata(documentPath)) {
 }
 ```
 
-#### Step 2: Access Document Properties
-Retrieve built‑in properties such as author, creation time, and company:
+#### Step 2: Access Document PropertiesRetrieve built‑in properties such as author, creation time, and company:
 
 ```java
 // Obtain root package of the spreadsheet to access its properties
@@ -160,6 +160,4 @@ A: Visit the [GroupDocs Documentation](https://docs.groupdocs.com/metadata/java/
 
 **Last Updated:** 2026-01-29  
 **Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
----
+**Author:** GroupDocs

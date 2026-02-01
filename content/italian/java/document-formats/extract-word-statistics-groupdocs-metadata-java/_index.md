@@ -1,30 +1,30 @@
 ---
-title: "Document Management Java: Extract Word Stats with GroupDocs"
-description: "Learn how to use GroupDocs.Metadata in Java for document management java, extracting word count, page count, and character statistics from Word files."
-date: "2026-02-01"
-weight: 1
-url: "/java/document-formats/extract-word-statistics-groupdocs-metadata-java/"
+date: '2026-02-01'
+description: Scopri come utilizzare GroupDocs.Metadata in Java per la gestione dei
+  documenti, estraendo il conteggio delle parole, il conteggio delle pagine e le statistiche
+  dei caratteri dai file Word.
 keywords:
 - extract word statistics
 - GroupDocs.Metadata Java tutorial
 - Word document management
+title: 'Gestione Documenti Java: Estrai Statistiche Word con GroupDocs'
 type: docs
+url: /it/java/document-formats/extract-word-statistics-groupdocs-metadata-java/
+weight: 1
 ---
 
-# Document Management Java: Extract Word Stats with GroupDocs
+# Document Management Java: Estrai Statistiche Word con GroupDocs
 
-Streamlining your **document management java** process by extracting valuable text statistics from Word documents is now effortless with GroupDocs.Metadata for Java. In this tutorial you’ll learn how to pull word count, page count, and character count from WordProcessing files, and how to manage related metadata—all using simple Java code.
+Ottimizzare il tuo processo di **document management java** estraendo preziose statistiche di testo dai documenti Word è ora semplice con GroupDocs.Metadata per Java. In questo tutorial imparerai come ottenere il conteggio delle parole, il conteggio delle pagine e il conteggio dei caratteri dai file WordProcessing, e come gestire i metadati correlati — tutto usando semplice codice Java.
 
 ## Quick Answers
-- **What library is needed?** GroupDocs.Metadata for Java (Maven or direct JAR).  
-- **Which primary keyword does this guide target?** document management java.  
-- **Can I extract word count java?** Yes – use `getWordCount()` from `DocumentStatistics`.  
-- **How do I get page count java?** Call `getPageCount()` on the root package.  
+- **What library is needed?** GroupDocs.Metadata for Java (Maven word count java?** Yes – use `getWordCount()` from `DocumentStatistics`.  
+ on the root package.  
 - **Is a license required?** A trial or permanent license is needed for full feature access.
 
 ## Introduction
 
-If you’re building a content‑analysis tool, a document‑archiving system, or an automated reporting engine, knowing the exact size of each Word file helps you categorize, search, and process documents more intelligently. This guide walks you through every step—from setting up the library to retrieving statistics and managing metadata—so you can integrate these capabilities into your **document management java** solution with confidence.
+Se stai costruendo uno strumento di analisi dei contenuti, un sistema di archiviazione dei documenti o un motore di reportistica automatizzata, conoscere la dimensione esatta di ogni file Word ti aiuta a categorizzare, cercare e processare i documenti’impostazione della libreria al recupero delle statistiche e alla gestione dei metadati — così potrai integrare queste funzionalità nella tua soluzione **document management java** con fiducia.
 
 ## Prerequisites
 
@@ -56,8 +56,7 @@ To work with GroupDocs.Metadata for Java, include it as a dependency in your pro
 Alternatively, download the latest version from [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Environment Setup Requirements
-- A compatible IDE such as IntelliJ IDEA or Eclipse.  
-- JDK 8 or higher installed.  
+- A compatible IDE such as IntelliJ IDEA8 or higher installed.  
 
 ### Knowledge Prerequisites
 - Basic Java programming.  
@@ -81,9 +80,7 @@ This section covers two main features: reading document statistics and managing 
 ### Feature 1: Read Document Statistics for Word Processing Files
 
 #### Overview
-Extracting text statistics from a Word document is essential for **extract word count java**, **get page count java**, and other analytics scenarios.
-
-#### Step‑by‑Step Implementation
+Extracting text statistics from a‑Step Implementation
 
 **Step 1: Load the WordProcessing Document**  
 ```java
@@ -152,18 +149,12 @@ While this example focuses on statistics, you can extend it to modify author nam
 |-------|----------|
 | Statistics appear zero | Verify the document isn’t corrupted and you’re using the latest GroupDocs.Metadata version. |
 | `NullPointerException` on `getDocumentStatistics()` | Ensure you opened the file with the correct path and that the file is a valid `.docx`. |
-| License errors | Install a valid trial or purchased license before calling any API methods. |
-
-## Frequently Asked Questions
-
-**Q: How do I install GroupDocs.Metadata for a non‑Maven project?**  
-A: Download the JAR from the official website and add it to your project’s build path.
+| License errors | Install a valid trial or purchased license do I install GroupDocs.Metadata for website and add it to your project’s build path.
 
 **Q: What are the system requirements for using GroupDocs.Metadata?**  
 A: JDK 8+, a compatible IDE, and enough RAM to load the documents you plan to process.
 
-**Q: Can I extract metadata from formats other than Word?**  
-A: Yes, GroupDocs.Metadata supports many file types, including PDFs, Excel, and images.
+**Q: many file types, including PDFs, Excel, and images.
 
 **Q: What should I do if the extracted statistics seem inaccurate?**  
 A: Check that the source document isn’t corrupted and upgrade to the latest library version.

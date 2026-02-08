@@ -1,19 +1,27 @@
 ---
-title: "Update ZIP Comment Java – How to Update ZIP Archive Comments Using GroupDocs.Metadata"
-description: "Learn how to update zip comment java using GroupDocs.Metadata for Java in this comprehensive guide."
-date: "2026-02-08"
-weight: 1
-url: "/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-java/"
+date: '2026-02-08'
+description: Tanulja meg, hogyan frissítheti a zip megjegyzést Java-ban a GroupDocs.Metadata
+  for Java segítségével ebben az átfogó útmutatóban.
 keywords:
 - update zip comment java
 - GroupDocs.Metadata Java
 - manage metadata in archives
+title: ZIP megjegyzés frissítése Java – Hogyan frissítsük a ZIP archívum megjegyzéseit
+  a GroupDocs.Metadata segítségével
 type: docs
+url: /hu/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-java/
+weight: 1
 ---
+
+ sure to keep markdown links unchanged.
+
+Translate sentences.
+
+Proceed.
 
 # Update ZIP Comment Java – How to Update ZIP Archive Comments Using GroupDocs.Metadata
 
-Managing digital archives efficiently often means keeping the metadata—like comments—up‑to‑date. In this tutorial you’ll learn **how to update zip comment java** with the powerful **GroupDocs.Metadata** library. We’ll walk through the entire process, from setting up your project to saving the updated archive, and show real‑world scenarios where this capability shines.
+A digitális archívumok hatékony kezelése gyakran azt jelenti, hogy a metaadatokat – például a megjegyzéseket – naprakészen kell tartani. Ebben az útmutatóban megtanulja, **hogyan frissítse a zip comment java**-t a hatékony **GroupDocs.Metadata** könyvtárral. Végigvezetjük a teljes folyamaton, a projekt beállításától a módosított archívum mentéséig, és valós példákat mutatunk be, ahol ez a képesség kiemelkedik.
 
 ## Quick Answers
 - **What does “update zip comment java” do?**  
@@ -28,10 +36,10 @@ Managing digital archives efficiently often means keeping the metadata—like co
   About 10‑15 minutes for a basic update.
 
 ## What is “update zip comment java”?
-Updating a ZIP comment means writing a new textual note into the ZIP file’s metadata section. This comment can be displayed by archive managers and can carry useful information such as version numbers, timestamps, or project identifiers.
+A ZIP megjegyzés frissítése azt jelenti, hogy új szöveges megjegyzést írunk a ZIP fájl metaadat szekciójába. Ez a megjegyzés megjeleníthető az archívumkezelőkben, és hasznos információkat tartalmazhat, például verziószámokat, időbélyegeket vagy projektazonosítókat.
 
 ## Why use GroupDocs.Metadata for this task?
-GroupDocs.Metadata abstracts the low‑level ZIP structures, letting you focus on business logic instead of binary parsing. It offers:
+A GroupDocs.Metadata elrejti az alacsony szintű ZIP struktúrákat, így Ön a üzleti logikára koncentrálhat a bináris elemzés helyett. A könyvtár a következőket kínálja:
 
 - **Strong type safety** – Java objects represent ZIP components.  
 - **Automatic resource handling** – try‑with‑resources ensures streams are closed.  

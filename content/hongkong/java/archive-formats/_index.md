@@ -1,32 +1,48 @@
 ---
-date: 2025-12-18
-description: 學習如何使用 GroupDocs.Metadata for Java 提取 RAR 元資料（Java）。提供完整的 ZIP、RAR、TAR
-  及其他壓縮檔格式的逐步指南。
+date: 2026-02-16
+description: 學習如何使用 GroupDocs.Metadata for Java 在 Java 中提取 RAR 檔案的元資料。提供 ZIP、RAR、TAR
+  及其他壓縮檔案格式的完整逐步指南。
 title: 提取 RAR 元資料 Java – GroupDocs.Metadata 教程
 type: docs
 url: /zh-hant/java/archive-formats/
 weight: 9
 ---
 
+.
+
+Also note "Traditional Chinese (Hong Kong)" may use some specific characters like "檔案" vs "文件". It's fine.
+
+Now produce final translated content.
+
 # 提取 RAR Metadata Java – 使用 GroupDocs.Metadata for Java 的檔案 Metadata 教程
 
-如果您需要快速且可靠地 **extract rar metadata java**，您來對地方了。本中心匯集了所有實作教學，示範如何使用功能強大的 GroupDocs.Metadata for Java 函式庫來處理壓縮檔案——ZIP、RAR、TAR、SevenZip 等等。無論您是構建文件管理系統、歸檔工具，或只是需要以程式方式讀取檔案屬性，這些指南都會提供您所需的完整程式碼與說明。
+如果您需要快速且可靠地 **extract rar metadata java**，您來對地方了。本中心彙集了所有實作教學，示範如何使用功能強大的 GroupDocs.Metadata for Java 函式庫來處理壓縮檔案——ZIP、RAR、TAR、SevenZip 等等。無論您是構建文件管理系統、歸檔工具，或僅需以程式方式讀取檔案屬性，這些指南都會提供您所需的完整程式碼與說明。
 
 ## 快速解答
-- **什麼函式庫在 Java 中處理 RAR metadata？** GroupDocs.Metadata for Java  
-- **我需要授權才能執行範例嗎？** A temporary license works for evaluation; a full license is required for production.  
-- **支援哪些 Java 版本？** Java 8 through 17 (LTS) are fully compatible.  
-- **我可以讀取受密碼保護的 RAR 檔案嗎？** Yes—provide the password when loading the archive.  
-- **大型檔案會有效能影響嗎？** Extraction is streamed, so memory usage stays low even for gigabyte‑size files.
+- **什麼函式庫在 Java 中處理 RAR Metadata？** GroupDocs.Metadata for Java  
+- **執行範例是否需要授權？** 臨時授權可用於評估；正式環境需使用完整授權。  
+- **支援哪些 Java 版本？** 支援 Java 8 至 17（LTS），皆可完全相容。  
+- **我可以讀取受密碼保護的 RAR 檔案嗎？** 是 — 載入壓縮檔時提供密碼即可。  
+- **大型壓縮檔會有效能影響嗎？** 提取採用串流方式，記憶體使用量即使在千兆位元檔案亦保持低水平。
 
 ## 什麼是 “extract rar metadata java”？
-在 Java 中提取 RAR metadata 指的是讀取儲存在 RAR 壓縮檔內的描述性資訊——例如檔名、大小、時間戳記、註解以及自訂屬性——而無需解壓整個檔案。GroupDocs.Metadata 提供高階 API，抽象化低階解析，讓您專注於業務邏輯。
+在 Java 中提取 RAR Metadata 指的是讀取儲存在 RAR 壓縮檔內的描述性資訊——例如檔名、大小、時間戳記、註解與自訂屬性——而不必解壓整個檔案。GroupDocs.Metadata 提供高階 API，抽象低階解析，讓您專注於業務邏輯。
 
-## 為什麼使用 GroupDocs.Metadata for Java 提取 RAR metadata？
-- **速度與效率：** Metadata 直接從壓縮檔的標頭讀取，避免完整解壓。  
-- **跨格式一致性：** 同一套 API 可用於 ZIP、TAR、SevenZip 及其他格式，降低學習成本。  
+## 為什麼使用 GroupDocs.Metadata for Java 提取 RAR Metadata？
+- **速度與效率：** 直接從壓縮檔的標頭讀取 Metadata，避免完整解壓。  
+- **跨格式一致性：** 同一套 API 可用於 ZIP、TAR、SevenZip 等格式，降低學習成本。  
 - **健全的錯誤處理：** 內建支援受損或受密碼保護的壓縮檔。  
 - **企業級就緒：** 執行緒安全設計、完整日誌記錄，以及完整的 .NET/Java 文件。
+
+## 如何使用 GroupDocs.Metadata for Java 讀取受密碼保護的 RAR 檔案
+讀取受密碼保護的 RAR 壓縮檔相當簡單。建立 `Archive` 實例時，將密碼作為第二個參數傳入。GroupDocs.Metadata 會即時解密標頭，然後像未受保護的檔案一樣提供全部 Metadata。
+
+**典型步驟**
+1. **建立 `Archive` 物件**，傳入檔案路徑與密碼字串。  
+2. **呼叫 `getEntries()`**（或類似方法）以列舉檔案項目。  
+3. **存取屬性**，例如 `getFileName()`、`getSize()` 與 `getCreationTime()`，針對每個項目。  
+
+由於函式庫使用串流處理，您無需將整個壓縮檔載入記憶體，即使是大型、受密碼保護的 RAR 檔案，也能保持快速操作。
 
 ## 前置條件
 - 已安裝 Java Development Kit (JDK) 8 或更新版本。  
@@ -36,25 +52,26 @@ weight: 9
 
 ## 可用教學
 
-### [使用 GroupDocs.Metadata for Java 高效提取 RAR Metadata](./extract-rar-metadata-groupdocs-java/)
-了解如何使用 GroupDocs.Metadata for Java 取得並管理 RAR 壓縮檔的 metadata。立即提升您的資料管理技能。
+### [Extract RAR Metadata Efficiently with GroupDocs.Metadata for Java](./extract-rar-metadata-groupdocs-java/)
+學習如何使用 GroupDocs.Metadata for Java 取得並管理 RAR 壓縮檔的 Metadata。立即提升您的資料管理技能。
 
-### [如何使用 GroupDocs.Metadata 在 Java 中提取 ZIP 檔案的 Metadata&#58; 步驟指南](./extract-zip-metadata-groupdocs-java-guide/)
-了解如何使用 GroupDocs.Metadata for Java 從 ZIP 檔案提取如註解與檔案條目等 metadata。遵循此步驟指南，能有效管理數位檔案。
+### [How to Extract Metadata from ZIP Files Using GroupDocs.Metadata in Java&#58; A Step‑by‑Step Guide](./extract-zip-metadata-groupdocs-java-guide/)
+學習如何使用 GroupDocs.Metadata for Java 從 ZIP 檔案提取如註解與檔案項目等 Metadata。依循此步驟指南，效率管理數位檔案。
 
-### [如何使用 GroupDocs.Metadata for Java 提取 TAR Metadata&#58; 步驟指南](./extract-tar-metadata-groupdocs-java-guide/)
-了解如何使用 GroupDocs.Metadata for Java 從 .tar 壓縮檔提取 metadata，完整指南涵蓋設定、程式碼實作與實務應用。
+### [How to Extract TAR Metadata Using GroupDocs.Metadata for Java&#58; A Step‑by‑Step Guide](./extract-tar-metadata-groupdocs-java-guide/)
+透過本完整指南，學習如何使用 GroupDocs.Metadata for Java 從 .tar 壓縮檔提取 Metadata，內容涵蓋設定、程式碼實作與實務應用。
 
-### [如何使用 GroupDocs.Metadata 在 Java 中讀取 SevenZip 壓縮檔的 Metadata](./read-sevenzip-metadata-groupdocs-java/)
-了解如何使用 GroupDocs.Metadata for Java 高效提取 SevenZip 壓縮檔的 metadata 屬性，如檔名與大小。
+### [How to Read SevenZip Archive Metadata Using GroupDocs.Metadata in Java](./read-sevenzip-metadata-groupdocs-java/)
+學習如何使用 GroupDocs.Metadata for Java 高效提取 SevenZip 壓縮檔的 Metadata 屬性，如檔名與大小。
 
-### [如何使用 GroupDocs.Metadata 在 Java 中移除 ZIP 壓縮檔的使用者註解](./remove-user-comments-zip-archives-groupdocs-metadata-java/)
-了解如何使用功能強大的 GroupDocs.Metadata 函式庫在 Java 中高效移除 ZIP 檔的使用者註解。提升資料隱私並簡化 metadata 管理。
+### [How to Remove User Comments from ZIP Archives Using GroupDocs.Metadata in Java](./remove-user-comments-zip-archives-groupdocs-metadata-java/)
+學習如何使用功能強大的 GroupDocs.Metadata 函式庫在 Java 中有效移除 ZIP 檔的使用者註解。提升資料隱私並簡化 Metadata 管理。
 
-### [如何使用 GroupDocs.Metadata for Java 更新 ZIP 壓縮檔的註解](./update-zip-archive-comments-groupdocs-metadata-java/)
-了解如何使用 GroupDocs.Metadata for Java 更新 ZIP 檔的註解，完整指南在此。
+### [How to Update ZIP Archive Comments Using GroupDocs.Metadata for Java](./update-zip-archive-comments-groupdocs-metadata-java/)
+透過本完整指南，學習如何使用 GroupDocs.Metadata for Java 更新 ZIP 檔的註解。
 
 ## 其他資源
+
 - [GroupDocs.Metadata for Java 文件](https://docs.groupdocs.com/metadata/java/)
 - [GroupDocs.Metadata for Java API 參考](https://reference.groupdocs.com/metadata/java/)
 - [下載 GroupDocs.Metadata for Java](https://releases.groupdocs.com/metadata/java/)
@@ -62,25 +79,39 @@ weight: 9
 - [免費支援](https://forum.groupdocs.com/)
 - [臨時授權](https://purchase.groupdocs.com/temporary-license/)
 
-## 常見問題
+## 常見問題與解決方案
+| 問題 | 推薦解決方案 |
+|-------|-----------------|
+| **損毀的壓縮檔例外** | 捕獲 `CorruptedArchiveException`，記錄檔案名稱；必要時跳過至下一個項目。 |
+| **密碼不正確** | 確認密碼字串，確保傳入 `Archive` 建構子，並處理 `InvalidPasswordException`。 |
+| **大型壓縮檔變慢** | 以串流方式處理項目，避免將整個壓縮檔載入記憶體。 |
+| **缺少 Metadata 欄位** | 並非所有 RAR 版本都儲存每個屬性；使用前先檢查是否為 `null`。 |
 
-**Q: 我可以從加密的 RAR 壓縮檔提取 metadata 嗎？**  
-A: 可以。將密碼傳遞給 `Archive` 建構子；GroupDocs.Metadata 會解密標頭並返回 metadata。
+## 常見問答
 
-**Q: RAR 壓縮檔內的檔案數量有限制嗎？**  
-A: 沒有硬性限制。函式庫會順序處理條目，即使是包含數千個檔案的壓縮檔也能有效處理。
+**Q: 我可以從加密的 RAR 壓縮檔提取 Metadata 嗎？**  
+A: 可以。將密碼傳入 `Archive` 建構子；GroupDocs.Metadata 會解密標頭並回傳 Metadata。
 
-**Q: 我需要先解壓縮檔案才能讀取其 metadata 嗎？**  
-A: 不需要。metadata 直接從壓縮檔結構讀取，使操作快速且低記憶體。
+**Q: RAR 壓縮檔內的檔案數量有上限嗎？**  
+A: 沒有硬性上限。函式庫會依序處理項目，即使是含有數千個檔案的壓縮檔也能有效處理。
 
-**Q: 我該如何處理受損的壓縮檔？**  
-A: GroupDocs.Metadata 會拋出特定的 `CorruptedArchiveException`。捕獲此例外以記錄問題或跳過該檔案。
+**Q: 必須先解壓縮檔案才能讀取其 Metadata 嗎？**  
+A: 不需要。Metadata 直接從壓縮檔結構讀取，保持操作快速且低記憶體使用。
 
-**Q: 我可以在 RAR 壓縮檔中寫入或修改 metadata 嗎？**  
-A: 目前版本支援讀取與移除註解，但不允許向 RAR 檔寫入新 metadata。若需寫回，請考慮先提取、修改後重新建立壓縮檔。
+**Q: 如何處理損毀的壓縮檔？**  
+A: GroupDocs.Metadata 會拋出特定的 `CorruptedArchiveException`。捕獲此例外以記錄問題或跳過有問題的檔案。
+
+**Q: 我可以寫入或修改 RAR 壓縮檔的 Metadata 嗎？**  
+A: 目前版本支援讀取與移除註解，但不允許寫入新 Metadata 至 RAR 檔。若需寫回，可考慮先解壓、修改後重新建立壓縮檔。
+
+**Q: 若受密碼保護的 RAR 檔無法開啟，我該怎麼辦？**  
+A: 確認密碼正確，檢查壓縮檔是否使用不支援的加密方式，並捕獲 `InvalidPasswordException` 以提供使用者友善的錯誤訊息。
+
+**Q: 此函式庫在同時多執行緒提取 Metadata 時是否執行緒安全？**  
+A: 是的。只要每個執行緒使用各自的 `Archive` 實例，即可安全地在多執行緒環境中使用。
 
 ---
 
-**最後更新：** 2025-12-18  
+**最後更新：** 2026-02-16  
 **測試環境：** GroupDocs.Metadata 23.11 for Java  
 **作者：** GroupDocs

@@ -1,50 +1,65 @@
 ---
-date: '2025-12-22'
-description: Leer hoe u videometagegevens uit AVI‑bestanden kunt extraheren met GroupDocs.Metadata
-  voor Java. Deze stapsgewijze gids behandelt installatie, code en best practices
-  voor de integratie van GroupDocs Metadata in Java.
+date: '2026-02-21'
+description: Leer hoe je video‑metadata uit AVI‑bestanden kunt extraheren met Java
+  via GroupDocs.Metadata. Stapsgewijze installatie, codevoorbeelden en best practices
+  voor Java‑ontwikkelaars.
 keywords:
 - extract video metadata
 - how to extract avi
 - groupdocs metadata java
 - media management systems
 - AVI file metadata
-title: Hoe video‑metadata uit AVI‑bestanden te extraheren met GroupDocs.Metadata in
-  Java
+title: 'Video-metadata extraheren Java: Hoe AVI‑bestanden te lezen met GroupDocs.Metadata'
 type: docs
 url: /nl/java/audio-video-formats/extract-avi-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
-# Hoe video-metadata uit AVI-bestanden te extraheren met GroupDocs.Metadata in Java
+ tijdelijk lokaal pad of gebruik een stream‑gebaseerde overload van de `Metadata`‑constructor die een `InputStream` accepteert.
 
-Het extraheren van video‑metadata uit AVI‑bestanden is een veelvoorkomende vereiste bij het bouwen van mediabibliotheken, analytics‑pijplijnen of digitale asset‑managementoplossingen. In deze tutorial leer je **hoe je video‑metadata** snel kunt extraheren met de **GroupDocs.Metadata**‑bibliotheek voor Java. We lopen de configuratie stap voor stap door, laten je de exacte code zien die je nodig hebt, en delen tips voor integratie in de echte wereld.
+---
+
+**Last Updated:** 2026-02-21  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs
+
+Translate:
+
+**Laatst bijgewerkt:** 2026-02-21  
+**Getest met:** GroupDocs.Metadata 24.12 for Java  
+**Auteur:** GroupDocs
+
+Make sure to keep markdown formatting.
+
+Now produce final output.# Video-metadata extraheren Java: Hoe AVI-bestanden te lezen met GroupDocs.Metadata
+
+Het extraheren van video‑metadata uit AVI‑bestanden is een veelvoorkomende vereiste bij het bouwen van mediatheken, analytics‑pijplijnen of digitale asset‑managementoplossingen. In deze tutorial leer je **hoe je video‑metadata java** snel kunt extraheren met de **GroupDocs.Metadata**‑bibliotheek voor Java. We lopen de installatie stap voor stap door, tonen de exacte code die je nodig hebt, en delen praktische tips voor integratie in de echte wereld.
 
 ## Snelle antwoorden
-- **Welke bibliotheek kan ik gebruiken?** GroupDocs.Metadata voor Java  
+- **Welke bibliotheek kan ik gebruiken?** GroupDocs.Metadata for Java  
 - **Welke primaire taak lost het op?** Video‑metadata extraheren uit AVI‑containers  
 - **Heb ik een licentie nodig?** Een gratis proefversie is beschikbaar; een licentie is vereist voor productie  
 - **Welke Java‑versie is vereist?** JDK 8 of hoger  
-- **Kan ik veel bestanden tegelijk verwerken?** Ja – gebruik multi‑threading of batchverwerking  
+- **Kan ik veel bestanden tegelijk verwerken?** Ja – gebruik multi‑threading of batch‑verwerking  
 
 ## Wat is video‑metadata‑extractie?
-Video‑metadata‑extractie betekent het lezen van ingebedde informatie zoals auteur, aanmaakdatum, gebruikte software en aangepaste tags die zijn opgeslagen in de bestandsheader. Deze gegevens helpen je video‑assets te organiseren, zoeken en analyseren zonder de media zelf te openen.
+Video‑metadata‑extractie betekent het lezen van ingebedde informatie zoals auteur, aanmaakdatum, gebruikte software en aangepaste tags die in de bestandsheader zijn opgeslagen. Deze gegevens helpen je video‑assets te organiseren, te zoeken en te analyseren zonder de media zelf te openen.
 
 ## Waarom AVI‑metadata extraheren met GroupDocs.Metadata?
 - **Uitgebreide formaatondersteuning** – Ondersteunt AVI, MP4, MOV en vele andere containers.  
 - **Eenvoudige API** – Eén‑regelige aanroepen geven toegang tot alle standaard INFO‑velden.  
-- **Prestatiefocus** – Lage geheugenvoetafdruk, ideaal voor batchtaken.  
-- **Java‑vriendelijk** – Werkt naadloos met Maven, Gradle en elke IDE.
+- **Prestatiegericht** – Lage geheugengebruik, ideaal voor batch‑taken.  
+- **Java‑vriendelijk** – Werkt naadloos met Maven, Gradle en elke IDE.  
 
-## Voorvereisten
-- **GroupDocs.Metadata voor Java** (versie 24.12 of nieuwer).  
-- JDK 8 of hoger en een IDE zoals IntelliJ IDEA of Eclipse.  
-- Basiskennis van Maven en Java‑programmeren.
+## Vereisten
+- **GroupDocs.Metadata for Java** (versie 24.12 of nieuwer).  
+- JDK 8 of later en een IDE zoals IntelliJ IDEA of Eclipse.  
+- Basiskennis van Maven en Java‑programmeren.  
 
 ## GroupDocs.Metadata voor Java instellen
 
 ### Maven‑configuratie
-Voeg de GroupDocs‑repository en afhankelijkheid toe aan je `pom.xml`:
+Add the GroupDocs repository and dependency to your `pom.xml`:
 
 ```xml
 <repositories>
@@ -65,14 +80,14 @@ Voeg de GroupDocs‑repository en afhankelijkheid toe aan je `pom.xml`:
 ```
 
 ### Directe download
-Je kunt de JAR ook rechtstreeks verkrijgen van de officiële release‑pagina: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Je kunt de JAR ook rechtstreeks downloaden van de officiële release‑pagina: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 #### Licentie‑acquisitie
 - **Gratis proefversie** – Verkrijg een tijdelijke sleutel om te experimenteren.  
-- **Volledige licentie** – Koop deze wanneer je klaar bent voor productiegebruik.
+- **Volledige licentie** – Aanschaf wanneer je klaar bent voor productiegebruik.
 
 #### Initialisatie en configuratie
-Hieronder staat de minimale code die nodig is om een AVI‑bestand te openen met GroupDocs.Metadata:
+Below is the minimal code required to open an AVI file with GroupDocs.Metadata:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -87,20 +102,18 @@ public class MetadataSetup {
 }
 ```
 
-## Implementatie‑gids
+## Hoe video‑metadata java uit AVI‑bestanden extraheren?
+We gaan nu in op de concrete stappen om de INFO‑chunk van een AVI‑bestand te lezen.
 
-### Hoe AVI‑video‑metadata extraheren?
-We gaan nu dieper in op de concrete stappen voor het lezen van de INFO‑chunk van een AVI‑bestand.
+### Stapsgewijze implementatie
 
-#### Stapsgewijze implementatie
-
-##### 1. Importeer benodigde pakketten
+#### 1. Importeer benodigde pakketten
 ```java
 import com.groupdocs.metadata.Metadata;
 import com.groupdocs.metadata.core.AviRootPackage;
 ```
 
-##### 2. Maak een metadata‑extractieklasse
+#### 2. Maak een metadata‑extractieklasse
 ```java
 public class ExtractAviInfoMetadata {
     public static void main(String[] args) {
@@ -142,11 +155,11 @@ public class ExtractAviInfoMetadata {
 
 **Uitleg van de code**  
 - **Metadata‑initialisatie** – Het `Metadata`‑object laadt het AVI‑bestand en parseert automatisch de structuur.  
-- **Root‑package‑toegang** – `getRootPackageGeneric()` retourneert een `AviRootPackage` die de top‑level hiërarchie van de container vertegenwoordigt.  
+- **Root‑pakkettoegang** – `getRootPackageGeneric()` retourneert een `AviRootPackage` die de top‑level hiërarchie van de container weergeeft.  
 - **RIFF INFO‑controle** – Niet alle AVI‑bestanden bevatten een INFO‑chunk; de null‑check voorkomt `NullPointerException`.  
-- **Veld‑extractie** – Elke getter (`getArtist()`, `getComment()`, enz.) haalt een specifiek stuk video‑metadata op.
+- **Veld‑extractie** – Elke getter (`getArtist()`, `getComment()`, etc.) haalt een specifiek stuk video‑metadata op.  
 
-##### Probleemoplossingstips
+#### Tips voor probleemoplossing
 - Controleer of het AVI‑bestand niet corrupt is; een beschadigde header veroorzaakt parse‑fouten.  
 - Zorg ervoor dat het bestandspad absoluut is of correct relatief ten opzichte van de werkdirectory van je project.  
 - Als je `null` ontvangt voor een veld, is die specifieke tag niet aanwezig in het bronbestand.
@@ -155,20 +168,29 @@ public class ExtractAviInfoMetadata {
 1. **Media‑beheersystemen** – Automatisch catalogus‑items vullen met auteur, genre en aanmaakdatum.  
 2. **Digital Asset Management (DAM)** – Facet‑gebaseerd zoeken mogelijk maken met geëxtraheerde tags.  
 3. **Content‑analytics** – Bijhouden welke software de meeste video's heeft geproduceerd of productietrends over tijd analyseren.  
-4. **Database‑integratie** – De opgehaalde waarden opslaan in een relationele tabel voor rapportage en auditing.
+4. **Database‑integratie** – De opgehaalde waarden opslaan in een relationele tabel voor rapportage en auditing.  
 
 ## Prestatie‑overwegingen
-- **Batchverwerking** – Plaats de extractielogica in een thread‑pool om grote collecties efficiënt te verwerken.  
+- **Batch‑verwerking** – Plaats de extractielogica in een thread‑pool om grote collecties efficiënt te verwerken.  
 - **Geheugentuning** – Verhoog de JVM‑heap (`-Xmx2g` of hoger) bij het verwerken van zeer grote AVI‑bestanden.  
-- **Resource‑opschoning** – Het try‑with‑resources‑blok verwijdert automatisch native handles; houd dit altijd aan.
+- **Resource‑opschoning** – Het try‑with‑resources‑blok verwijdert automatisch native handles; houd dit altijd aan.  
+
+## Veelvoorkomende problemen en oplossingen
+
+| Probleem | Oorzaak | Oplossing |
+|----------|---------|-----------|
+| `NullPointerException` on `root.getRiffInfoPackage()` | AVI‑bestand mist een INFO‑chunk | Voeg een null‑check toe (al getoond) of controleer of bronbestanden metadata bevatten |
+| File not found | Onjuist pad of ontbrekende bestandsrechten | Gebruik een absoluut pad of plaats het bestand in de resources‑map van het project |
+| Slow processing on thousands of files | Enkelvoudige thread‑uitvoering | Implementeer een `ExecutorService` om extracties parallel uit te voeren |
+| Unexpected `null` values for fields | Tag niet aanwezig in de AVI‑header | Behandel `null` als “niet beschikbaar” en verwerk het op een nette manier in je UI of logs |
 
 ## Veelgestelde vragen
 
 **Q: Kan GroupDocs.Metadata aangepaste tags lezen die geen deel uitmaken van de standaard INFO‑chunk?**  
-A: Ja, de bibliotheek biedt een generiek woordenboek voor elke niet‑standaard sleutel/waarde‑paar die is opgeslagen in het RIFF INFO‑blok.
+A: Ja, de bibliotheek biedt een generiek woordenboek voor alle niet‑standaard sleutel/waarde‑paren die zijn opgeslagen in het RIFF INFO‑blok.
 
 **Q: Heb ik een aparte licentie nodig voor elke implementatie‑omgeving?**  
-A: Eén licentie dekt alle omgevingen (ontwikkeling, staging, productie) zolang je voldoet aan de licentievoorwaarden.
+A: Eén licentie dekt alle omgevingen (development, staging, production) zolang je voldoet aan de licentievoorwaarden.
 
 **Q: Is het mogelijk om AVI‑metadata te wijzigen, niet alleen te lezen?**  
 A: Absoluut. Hetzelfde `AviRootPackage` biedt setter‑methoden zoals `setArtist(String)` om velden bij te werken en vervolgens het bestand op te slaan.
@@ -179,11 +201,8 @@ A: FFmpeg is een krachtig command‑line‑tool, maar GroupDocs.Metadata biedt e
 **Q: Wat als mijn AVI‑bestanden zijn opgeslagen in een cloud‑bucket (bijv. AWS S3)?**  
 A: Download het bestand naar een tijdelijk lokaal pad of gebruik een stream‑gebaseerde overload van de `Metadata`‑constructor die een `InputStream` accepteert.
 
-## Conclusie
-Je hebt nu een volledige, productie‑klare methode om **video‑metadata** uit AVI‑containers te **extraheren** met **GroupDocs.Metadata voor Java**. Integreer de voorbeeldcode, pas de foutafhandeling aan jouw behoeften aan, en begin vandaag nog met het verrijken van je media‑workflows.
-
 ---
 
-**Laatst bijgewerkt:** 2025-12-22  
+**Laatst bijgewerkt:** 2026-02-21  
 **Getest met:** GroupDocs.Metadata 24.12 for Java  
 **Auteur:** GroupDocs

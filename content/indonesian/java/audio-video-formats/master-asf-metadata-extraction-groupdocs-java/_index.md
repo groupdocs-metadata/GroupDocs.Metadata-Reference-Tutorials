@@ -1,45 +1,44 @@
 ---
-date: '2025-12-26'
-description: Pelajari cara mengekstrak metadata ASF menggunakan GroupDocs.Metadata
+date: '2026-02-27'
+description: Pelajari cara mengekstrak metadata ASF Java menggunakan GroupDocs.Metadata
   untuk Java. Panduan ini mencakup pengaturan, membaca properti, dan mengakses informasi
   codec.
 keywords:
 - ASF Metadata Extraction
 - GroupDocs.Metadata for Java
 - Java Media Management
-title: Cara Mengekstrak Metadata ASF dengan GroupDocs.Metadata untuk Java
+title: Cara Mengekstrak Metadata ASF di Java dengan GroupDocs.Metadata
 type: docs
 url: /id/java/audio-video-formats/master-asf-metadata-extraction-groupdocs-java/
 weight: 1
 ---
 
-# Ekstrak Metadata ASF dengan GroupDocs.Metadata untuk Java
+# Ekstrak Metadata ASF Java dengan GroupDocs.Metadata untuk Java
 
-**Pendahuluan**
-
-Dalam lanskap digital saat ini, mengelola konten multimedia secara efisien sangat penting. Jika Anda perlu **mengekstrak metadata ASF** dari file media Anda, melakukannya secara manual dapat memakan waktu dan rawan kesalahan. Tutorial ini memandu Anda menggunakan **GroupDocs.Metadata untuk Java** untuk membaca dan menampilkan berbagai properti ASF, memungkinkan Anda mengatur, mencari, dan memproses aset Anda dengan percaya diri.
-
-### Apa yang Akan Anda Pelajari
-- Cara menyiapkan GroupDocs.Metadata dalam proyek Java  
-- Cara **mengekstrak metadata ASF** seperti tanggal pembuatan, ID file, dan flag  
-- Cara membaca informasi codec yang tertanam dalam file ASF  
-- Cara menampilkan deskriptor metadata terperinci dan properti aliran dasar  
-
-Mari kita mulai dengan prasyarat.
+Di lanskap digital saat ini, mengelola konten multimedia secara efisien sangat penting, dan Anda mungkin perlu **extract asf metadata java** dari file media Anda. Melakukan ini secara manual dapat memakan waktu dan rawan kesalahan. Tutorial ini memandu Anda menggunakan **GroupDocs.Metadata for Java** untuk membaca dan menampilkan berbagai properti ASF, memungkinkan Anda mengorganisir, mencari, dan memproses aset Anda dengan percaya diri.
 
 ## Jawaban Cepat
-- **Apa arti “mengekstrak metadata ASF”?** Artinya membaca informasi yang tertanam (mis., cap waktu, codec, deskriptor) dari file ASF secara programatis.
-- **Perpustakaan apa yang diperlukan?** GroupDocs.Metadata untuk Java (versi24.12 atau lebih baru).
-- **Apakah saya memerlukan lisensi?** Lisensi percobaan gratis atau lisensi sementara dapat digunakan untuk pengembangan; lisensi penuh diperlukan untuk produksi.
-- **Versi Java apa yang didukung?** JDK8atau lebih tinggi.
+- **Apa arti “extract ASF metadata”?** Artinya membaca informasi yang tertanam (misalnya timestamp, codec, deskriptor) dari file ASF secara programatik.  
+- **Perpustakaan apa yang diperlukan?** GroupDocs.Metadata for Java (versi 24.12 atau lebih baru).  
+- **Apakah saya memerlukan lisensi?** Lisensi percobaan gratis atau lisensi sementara dapat digunakan untuk pengembangan; lisensi penuh diperlukan untuk produksi.  
+- **Versi Java apa yang didukung?** JDK 8 atau lebih tinggi.  
 - **Apakah saya dapat menggunakan Maven?** Ya – Maven adalah manajer dependensi yang direkomendasikan.
+
+## Apa itu extract asf metadata java?
+Mengekstrak metadata ASF dengan Java memberi Anda akses programatik ke deskripsi internal file, seperti tanggal pembuatan, detail codec, dan atribut aliran. Informasi ini penting untuk katalogisasi media, pemeriksaan kepatuhan, dan pipeline pemrosesan otomatis.
+
+## Mengapa mengekstrak metadata ASF Java dengan GroupDocs.Metadata?
+- **Zero‑code parsing** – Tidak perlu menulis parser ASF tingkat rendah.  
+- **Rich object model** – Akses properti, codec, deskriptor, dan detail aliran melalui kelas Java yang intuitif.  
+- **Cross‑platform** – Berfungsi pada semua OS yang mendukung Java.  
+- **License flexibility** – Mulai dengan percobaan dan tingkatkan ke lisensi penuh sesuai kebutuhan.  
 
 ## Prasyarat
 
-- **Java Development Kit (JDK)**8atau yang lebih baru terpasang.
-- **IDE** seperti IntelliJ IDEA atau Eclipse untuk pemrograman yang nyaman.
-- **Maven** dikonfigurasi di IDE Anda (opsional tetapi disarankan).
-- Pemahaman dasar tentang Java dan pustaka eksternal.
+- **Java Development Kit (JDK)** 8 atau lebih baru terpasang.  
+- **IDE** seperti IntelliJ IDEA atau Eclipse untuk pemrograman yang nyaman.  
+- **Maven** dikonfigurasi di IDE Anda (opsional tetapi direkomendasikan).  
+- Familiaritas dasar dengan Java dan pustaka eksternal.
 
 ## Menyiapkan GroupDocs.Metadata untuk Java
 
@@ -69,11 +68,11 @@ Tambahkan repositori dan dependensi ke `pom.xml` Anda:
 
 Jika Anda lebih memilih tidak menggunakan Maven, unduh JAR terbaru dari [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-### Gambaran Lisensi
+### Ikhtisar Lisensi
 
 - **Free Trial** – Tersedia di situs web GroupDocs untuk evaluasi.  
 - **Temporary License** – Memungkinkan Anda menjelajahi semua fitur tanpa batas selama pengembangan.  
-- **Full License** – Diperlukan untuk penyebaran komersial atau produksi.
+- **Full License** – Diperlukan untuk penggunaan komersial atau produksi.
 
 ### Inisialisasi Dasar
 
@@ -91,24 +90,11 @@ class MetadataExample {
 }
 ```
 
-## Apa itu Metadata ASF?
-
-ASF (Advanced Systems Format) adalah format streaming Microsoft yang menyimpan audio, video, dan metadata dalam satu kontainer. Metadata mencakup cap waktu pembuatan, detail codec, deskriptor aliran, dan lainnya. Dengan **mengekstrak metadata ASF**, Anda memperoleh wawasan programatis tentang asal file, parameter enkoding, dan deskripsi konten—penting untuk perpustakaan media, pipeline transcoding, dan audit kepatuhan.
-
-## Mengapa Mengekstrak Metadata ASF dengan GroupDocs.Metadata?
-
-- **Zero‑code parsing** – Tidak perlu mengimplementasikan parser ASF tingkat rendah.  
-- **Rich object model** – Akses properti, codec, deskriptor, dan detail aliran melalui kelas Java yang intuitif.  
-- **Cross‑platform** – Berfungsi pada sistem operasi apa pun yang mendukung Java.  
-- **License flexibility** – Mulai dengan percobaan dan tingkatkan ke lisensi penuh sesuai kebutuhan.
-
-## Panduan Implementasi
-
-Pada bagian di bawah ini, kami akan membahas contoh kode konkret yang menunjukkan cara **mengekstrak metadata ASF** langkah demi langkah.
+## Cara mengekstrak ASF metadata java – Panduan Langkah‑per‑Langkah
 
 ### Membaca Properti Metadata ASF Dasar
 
-**Overview** – Retrieve fundamental information such as creation date, file ID, and flags.
+**Overview** – Mengambil informasi dasar seperti tanggal pembuatan, ID file, dan flag.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -132,7 +118,7 @@ class ReadBasicProperties {
 
 ### Menampilkan Informasi Codec ASF
 
-**Overview** – Enumerate codecs used for audio and video streams.
+**Overview** – Mengenumerasi codec yang digunakan untuk aliran audio dan video.
 
 ```java
 import com.groupdocs.metadata.core.AsfCodec;
@@ -154,11 +140,11 @@ class ReadCodecInformation {
 }
 ```
 
-*Mengapa penting*: Detail codec penting saat memastikan kompatibilitas dengan perangkat pemutar atau saat memutuskan apakah harus melakukan transcoding.
+*Mengapa penting*: Detail codec penting saat memastikan kompatibilitas dengan perangkat pemutaran atau ketika memutuskan apakah perlu transcoding.
 
 ### Menampilkan Deskriptor Metadata
 
-**Overview** – Pull detailed descriptors such as language, stream number, and original title.
+**Overview** – Mengambil deskriptor detail seperti bahasa, nomor aliran, dan judul asli.
 
 ```java
 import com.groupdocs.metadata.core.AsfBaseDescriptor;
@@ -191,7 +177,7 @@ class ReadMetadataDescriptors {
 
 ### Menampilkan Properti Aliran Dasar
 
-**Overview** – Access bitrate, timing, and language information for each base stream.
+**Overview** – Mengakses informasi bitrate, timing, dan bahasa untuk setiap aliran dasar.
 
 ```java
 import com.groupdocs.metadata.core.AsfBaseStreamProperty;
@@ -218,39 +204,39 @@ class ReadBaseStreamProperties {
 }
 ```
 
-*Mengapa penting*: Properti aliran membantu Anda mengevaluasi kualitas (bitrate) dan menyinkronkan audio/video selama pemutaran atau pengeditan.
+*Mengapa penting*: Properti aliran membantu Anda mengevaluasi kualitas (bitrate) dan menyinkronkan audio/video selama pemutaran atau penyuntingan.
 
 ## Masalah Umum & Pemecahan Masalah
 
 | Gejala | Penyebab Kemungkinan | Solusi |
-|--------|----------------------|--------|
-| `NullPointerException` when calling `getAsfPackage()` | Path file tidak benar atau file bukan kontainer ASF yang valid. | Verifikasi path dan pastikan file adalah file ASF yang tepat. |
+|---------|----------------------|--------|
+| `NullPointerException` when calling `getAsfPackage()` | Jalur file tidak benar atau file bukan kontainer ASF yang valid. | Verifikasi jalur dan pastikan file adalah file ASF yang tepat. |
 | No codec information displayed | File ASF menggunakan codec proprietari yang tidak dikenali oleh versi pustaka. | Perbarui GroupDocs.Metadata ke versi terbaru atau gunakan parser codec khusus. |
-| Empty descriptor list | File tidak memiliki deskriptor metadata (mis., dihapus selama enkoding). | Gunakan file sumber dengan metadata yang tertanam atau enkode ulang dengan pelestarian metadata. |
+| Empty descriptor list | File tidak memiliki deskriptor metadata (misalnya, dihapus selama encoding). | Gunakan file sumber dengan metadata yang tertanam atau lakukan re‑encode dengan pelestarian metadata. |
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Bisakah saya mengekstrak metadata dari format video lain dengan pustaka yang sama?**  
-J: Ya, GroupDocs.Metadata mendukung MP4, MKV, AVI, dan banyak lagi. Cukup buat instance kelas paket yang sesuai.
+**Q: Apakah saya dapat mengekstrak metadata dari format video lain dengan pustaka yang sama?**  
+A: Ya, GroupDocs.Metadata mendukung MP4, MKV, AVI, dan banyak lagi. Cukup instantiate kelas paket yang sesuai.
 
-**T: Apakah memungkinkan mengubah metadata ASF setelah ekstraksi?**  
-J: Tentu saja. Pustaka menyediakan metode setter untuk sebagian besar properti, memungkinkan Anda mengedit dan kemudian menyimpan file.
+**Q: Apakah memungkinkan untuk memodifikasi metadata ASF setelah ekstraksi?**  
+A: Tentu saja. Pustaka menyediakan metode setter untuk sebagian besar properti, memungkinkan Anda mengedit dan kemudian menyimpan file.
 
-**T: Apakah saya memerlukan JVM 64‑bit untuk file ASF yang besar?**  
-J: Tidak harus, tetapi JVM 64‑bit memberikan lebih banyak ruang heap, yang membantu saat memproses file media yang sangat besar.
+**Q: Apakah saya memerlukan JVM 64‑bit untuk file ASF yang besar?**  
+A: Tidak harus, tetapi JVM 64‑bit memberi Anda lebih banyak ruang heap, yang membantu saat memproses file media yang sangat besar.
 
-**T: Bagaimana lisensi memengaruhi penggunaan percobaan?**  
-J: Lisensi percobaan menghapus semua batas fungsional tetapi menambahkan watermark pada output tertentu. Untuk produksi, beli lisensi penuh.
+**Q: Bagaimana lisensi memengaruhi penggunaan percobaan?**  
+A: Lisensi percobaan menghapus semua batas fungsional tetapi menambahkan watermark pada output tertentu. Untuk produksi, beli lisensi penuh.
 
-**T: Bisakah saya menjalankan kode ini di Android?**  
-J: GroupDocs.Metadata dibangun untuk Java SE; untuk Android Anda perlu menggunakan versi .NET atau wrapper yang kompatibel.
+**Q: Apakah saya dapat menjalankan kode ini di Android?**  
+A: GroupDocs.Metadata dibangun untuk Java SE; untuk Android Anda perlu menggunakan versi .NET atau wrapper yang kompatibel.
 
 ## Kesimpulan
 
-Dengan mengikuti panduan ini, Anda kini tahu cara **mengekstrak metadata ASF** menggunakan GroupDocs.Metadata untuk Java. Anda dapat membaca properti dasar, informasi codec, deskriptor terperinci, dan atribut aliran—memberikan visibilitas penuh terhadap aset media Anda. Langkah selanjutnya meliputi mengintegrasikan ekstraksi ini ke dalam pipeline pemrosesan batch, membangun basis data metadata yang dapat dicari, atau memperluas kode untuk mengubah dan menyimpan kembali file ASF.
+Dengan mengikuti panduan ini, Anda kini tahu cara **extract ASF metadata Java** menggunakan GroupDocs.Metadata. Anda dapat membaca properti dasar, informasi codec, deskriptor detail, dan atribut aliran—memberikan visibilitas penuh terhadap aset media Anda. Langkah selanjutnya meliputi mengintegrasikan ekstraksi ini ke dalam pipeline pemrosesan batch, membangun basis data metadata yang dapat dicari, atau memperluas kode untuk memodifikasi dan menyimpan kembali file ASF.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-26  
+**Terakhir Diperbarui:** 2026-02-27  
 **Diuji Dengan:** GroupDocs.Metadata 24.12 untuk Java  
 **Penulis:** GroupDocs

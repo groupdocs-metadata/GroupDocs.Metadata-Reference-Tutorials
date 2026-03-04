@@ -1,42 +1,41 @@
 ---
-date: '2025-12-18'
-description: Pelajari cara membaca arsip tar dan mengekstrak metadata‑nya menggunakan
-  GroupDocs.Metadata untuk Java dalam panduan langkah demi langkah ini.
+date: '2026-03-04'
+description: Pelajari cara mengekstrak metadata tar Java menggunakan GroupDocs.Metadata
+  untuk Java dalam panduan langkah demi langkah ini.
 keywords:
-- extract TAR metadata
+- extract tar metadata java
 - GroupDocs.Metadata for Java
 - TAR archive metadata
-title: Cara Membaca File TAR dan Mengekstrak Metadata dengan GroupDocs.Metadata untuk
-  Java
+title: Cara Mengekstrak Metadata TAR di Java dengan GroupDocs.Metadata
 type: docs
 url: /id/java/archive-formats/extract-tar-metadata-groupdocs-java-guide/
 weight: 1
 ---
 
-# Cara Membaca File TAR dan Mengekstrak Metadata dengan GroupDocs.Metadata untuk Java
+# Cara Mengekstrak Metadata TAR Java dengan GroupDocs.Metadata
 
-Mengekstrak metadata dari file arsip seperti **.tar** dapat terasa menakutkan, terutama ketika Anda mencari cara yang dapat diandalkan untuk **how to read tar** file secara programatis. Dalam panduan ini kami akan memandu Anda melalui proses yang jelas dan praktis menggunakan GroupDocs.Metadata untuk Java, sehingga Anda dapat dengan percaya diri membaca arsip tar, mengambil detail tingkat file, dan mengintegrasikan hasilnya ke dalam aplikasi Anda.
+Mengekstrak informasi arsip **TAR** dapat terasa menakutkan, terutama ketika Anda perlu **mengekstrak metadata tar java** dengan cepat dan andal. Dalam panduan ini kami akan memandu Anda melalui proses yang jelas dan praktis menggunakan GroupDocs.Metadata untuk Java, sehingga Anda dapat dengan percaya diri membaca file TAR, mengambil detail tingkat file, dan mengintegrasikan hasilnya ke dalam aplikasi Anda.
 
 ## Jawaban Cepat
-- **Library apa yang menangani metadata TAR di Java?** GroupDocs.Metadata for Java  
+- **Perpustakaan apa yang menangani metadata TAR di Java?** GroupDocs.Metadata untuk Java  
 - **Berapa lama implementasi dasar memakan waktu?** Sekitar 10–15 menit  
-- **Apakah saya memerlukan lisensi?** Lisensi percobaan gratis atau lisensi sementara dapat digunakan untuk evaluasi; lisensi berbayar diperlukan untuk produksi  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis atau lisensi sementara cukup untuk evaluasi; lisensi berbayar diperlukan untuk produksi  
 - **Bisakah saya memproses file TAR besar?** Ya, tetapi buang objek `Metadata` untuk membebaskan sumber daya  
-- **Apakah ini sama dengan membaca .tar.gz?** Anda harus mendekompresi .gz terlebih dahulu, kemudian gunakan pendekatan yang sama  
+- **Apakah ini sama dengan membaca .tar.gz?** Anda harus mendekompresi .gz terlebih dahulu, lalu gunakan pendekatan yang sama  
 
-## Cara Membaca File TAR Menggunakan GroupDocs.Metadata untuk Java
-Berikut adalah ikhtisar singkat langkah-langkah yang akan Anda ikuti:
+## Cara mengekstrak metadata tar java dengan GroupDocs.Metadata untuk Java
+Berikut adalah ikhtisar singkat langkah‑langkah yang akan Anda ikuti:
 
 1. **Tambahkan dependensi GroupDocs.Metadata** ke proyek Maven Anda.  
 2. **Inisialisasi objek `Metadata`** dengan path ke arsip `.tar` Anda.  
-3. **Akses paket root** untuk bekerja dengan konten arsip.  
+3. **Akses paket root** untuk bekerja dengan isi arsip.  
 4. **Iterasi setiap entri** untuk membaca nama file, ukuran, dan properti lainnya.  
 5. **Buang objek `Metadata`** ketika Anda selesai.
 
 ### Mengapa memilih GroupDocs.Metadata?
-- **API lengkap** yang mengabstraksi parsing TAR tingkat rendah.  
-- **Dukungan lintas platform** untuk runtime Java Windows, Linux, dan macOS.  
-- **Penanganan error yang kuat** dan manajemen sumber daya bawaan, yang penting ketika Anda mencari cara **how to read tar** file secara skala besar.  
+- **API lengkap** yang menyembunyikan parsing TAR tingkat rendah.  
+- **Dukungan lintas‑platform** untuk runtime Java Windows, Linux, dan macOS.  
+- **Penanganan error yang kuat** dan manajemen sumber daya bawaan, yang penting ketika Anda mencari **cara membaca tar** secara skala besar.
 
 ## Prasyarat
 - **Java Development Kit (JDK) 8 atau lebih tinggi**  
@@ -65,12 +64,12 @@ Tambahkan repositori dan dependensi ke `pom.xml` Anda:
 </dependencies>
 ```
 
-**Unduhan Langsung:** Alternatifnya, unduh versi terbaru dari [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+**Unduhan Langsung:** Sebagai alternatif, unduh versi terbaru dari [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-### Langkah Akuisisi Lisensi
-Mulailah dengan percobaan gratis atau minta lisensi sementara dari situs web GroupDocs. Ini memungkinkan Anda menjelajahi semua fitur tanpa batasan selama pengembangan.
+### Langkah‑langkah Akuisisi Lisensi
+Mulailah dengan percobaan gratis atau minta lisensi sementara dari situs web GroupDocs. Ini memungkinkan Anda mengeksplor semua fitur tanpa batasan selama pengembangan.
 
-### Inisialisasi dan Penyiapan Dasar
+### Inisialisasi dan Pengaturan Dasar
 Setelah perpustakaan tersedia, Anda dapat membuat instance `Metadata` yang menunjuk ke file TAR Anda:
 
 ```java
@@ -98,23 +97,23 @@ public class TarMetadataExample {
 ### Membaca Metadata dari Arsip TAR
 
 #### Inisialisasi Objek Metadata
-Buat sebuah instance `Metadata` dengan path file `.tar` Anda.
+Buat instance `Metadata` dengan path file `.tar` Anda.
 
 ```java
 Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.tar");
 ```
-**Mengapa:** Langkah ini menyiapkan objek yang akan memberi Anda akses ke struktur internal arsip, yang merupakan dasar dari **how to read tar** file.
+**Mengapa:** Langkah ini menyiapkan objek yang akan memberi Anda akses ke struktur internal arsip, yang merupakan dasar **cara membaca tar**.
 
 #### Akses Paket Root
-Dapatkan paket root untuk berinteraksi dengan konten arsip TAR:
+Ambil paket root untuk berinteraksi dengan isi arsip TAR:
 
 ```java
 TarRootPackage root = metadata.getRootPackageGeneric();
 ```
-Panggilan ini penting untuk menavigasi hierarki arsip.
+Pemanggilan ini penting untuk menavigasi hierarki arsip.
 
-#### Dapatkan Jumlah Entri
-Tentukan berapa banyak entri (file/folder) yang terdapat dalam arsip:
+#### Dapatkan Total Entri
+Tentukan berapa banyak entri (file/folder) yang ada dalam arsip:
 
 ```java
 int totalEntries = root.getTarPackage().getTotalEntries();
@@ -123,7 +122,7 @@ System.out.println("Total Entries: " + totalEntries);
 **Penjelasan:** Mengetahui jumlah entri membantu Anda merencanakan loop dan memvalidasi kelengkapan arsip.
 
 #### Iterasi Setiap Entri File
-Lakukan loop pada setiap entri untuk mengekstrak detail seperti nama dan ukuran:
+Loop melalui setiap entri untuk mengekstrak detail seperti nama dan ukuran:
 
 ```java
 for (TarFile file : root.getTarPackage().getFiles()) {
@@ -133,54 +132,55 @@ for (TarFile file : root.getTarPackage().getFiles()) {
     System.out.println("File Size: " + fileSize);
 }
 ```
-**Mengapa:** Memproses setiap file secara terpisah memberi Anda metadata yang terperinci, yang sering diperlukan untuk pelaporan, migrasi, atau validasi cadangan.
+**Mengapa:** Memproses setiap file secara terpisah memberi Anda metadata yang detail, yang sering diperlukan untuk pelaporan, migrasi, atau validasi backup.
 
 ### Tips Pemecahan Masalah
 - **Masalah Umum:** Ekstraksi gagal – periksa kembali path file dan pastikan file TAR dapat dibaca oleh proses Java.  
-- **Tips Kinerja:** Selalu panggil `metadata.dispose()` setelah selesai untuk membebaskan sumber daya native, terutama saat menangani arsip besar.  
+- **Tips Performa:** Selalu panggil `metadata.dispose()` setelah selesai untuk membebaskan sumber daya native, terutama saat menangani arsip besar.
 
 ## Aplikasi Praktis
 1. **Migrasi Data:** Validasi jumlah file dan ukuran sebelum memindahkan data antar sistem.  
-2. **Solusi Cadangan:** Buat laporan inventaris untuk memastikan setiap file dalam arsip cadangan terhitung.  
-3. **Sistem Manajemen Konten (CMS):** Memperkaya aset yang disimpan dengan metadata tingkat TAR untuk pencarian dan organisasi yang lebih baik.  
+2. **Solusi Backup:** Buat laporan inventaris untuk memastikan setiap file dalam arsip backup tercatat.  
+3. **Sistem Manajemen Konten (CMS):** Perkaya aset yang disimpan dengan metadata tingkat TAR untuk pencarian dan organisasi yang lebih baik.
 
-## Pertimbangan Kinerja
+## Pertimbangan Performa
 Saat menangani arsip yang sangat besar:
+
 - **Buang objek segera** untuk menghindari kebocoran memori.  
 - **Manfaatkan API streaming Java** jika Anda perlu memproses entri tanpa memuat seluruh daftar ke memori.  
 
 ## Kesimpulan
-Anda kini memiliki metode end‑to‑end yang solid untuk **how to read tar** file dan mengekstrak metadata mereka menggunakan GroupDocs.Metadata untuk Java. Kemampuan ini dapat diintegrasikan ke dalam alat migrasi, utilitas cadangan, atau sistem berbasis Java apa pun yang memerlukan wawasan tentang isi arsip.
+Anda kini memiliki metode end‑to‑end yang solid untuk **mengekstrak metadata tar java** menggunakan GroupDocs.Metadata untuk Java. Kemampuan ini dapat diintegrasikan ke dalam alat migrasi, utilitas backup, atau sistem berbasis Java apa pun yang memerlukan wawasan tentang isi arsip.
 
-**Langkah Selanjutnya:** Jelajahi kelas tambahan dalam API GroupDocs.Metadata—seperti properti `TarFile` untuk timestamp atau izin—untuk lebih memperkaya alur kerja ekstraksi metadata Anda.
+**Langkah Selanjutnya:** Jelajahi kelas tambahan dalam API GroupDocs.Metadata—seperti properti `TarFile` untuk timestamp atau izin—untuk semakin memperkaya alur kerja ekstraksi metadata Anda.
 
 ## Pertanyaan yang Sering Diajukan
 
-**Q: Apa kasus penggunaan utama untuk mengekstrak metadata dari file TAR?**  
-A: Ekstraksi metadata membantu dalam tugas manajemen file seperti validasi, cadangan, dan migrasi.
+**T: Apa kasus penggunaan utama untuk mengekstrak metadata dari file TAR?**  
+J: Ekstraksi metadata membantu dalam tugas manajemen file seperti validasi, backup, dan migrasi.
 
-**Q: Bisakah saya mengekstrak metadata dari file .tar.gz yang terkompresi?**  
-A: GroupDocs.Metadata mendukung berbagai format arsip; Anda harus mendekompresi lapisan .gz terlebih dahulu.
+**T: Bisakah saya mengekstrak metadata dari file .tar.gz yang terkompresi?**  
+J: GroupDocs.Metadata mendukung berbagai format arsip; Anda harus mendekompresi lapisan .gz terlebih dahulu.
 
-**Q: Apakah ada batasan jumlah file yang dapat diproses dalam satu arsip TAR?**  
-A: Perpustakaan menangani arsip besar secara efisien, namun kinerja keseluruhan tergantung pada sumber daya sistem Anda.
+**T: Apakah ada batasan jumlah file yang dapat diproses dalam satu arsip TAR?**  
+J: Perpustakaan menangani arsip besar secara efisien, tetapi performa keseluruhan tergantung pada sumber daya sistem Anda.
 
-**Q: Bagaimana cara membuang objek metadata dengan benar?**  
-A: Gunakan `metadata.dispose()` untuk melepaskan sumber daya native setelah operasi selesai.
+**T: Bagaimana cara membuang objek metadata dengan benar?**  
+J: Gunakan `metadata.dispose()` untuk melepaskan sumber daya native setelah operasi selesai.
 
-**Q: Di mana saya dapat menemukan informasi lebih lanjut atau dukungan untuk GroupDocs.Metadata?**  
-A: Kunjungi [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/) dan bergabung dengan forum komunitas mereka untuk dukungan.
+**T: Di mana saya dapat menemukan informasi atau dukungan lebih lanjut untuk GroupDocs.Metadata?**  
+J: Kunjungi [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/) dan bergabunglah dengan forum komunitas mereka untuk dukungan.
 
-**Q&A Tambahan**
+**Tambahan Q&A**
 
-**Q: Apakah GroupDocs.Metadata bekerja di lingkungan Windows dan Linux?**  
-A: Ya, perpustakaan Java bersifat platform‑independen dan dapat dijalankan di mana saja JDK yang kompatibel terpasang.
+**T: Apakah GroupDocs.Metadata bekerja di lingkungan Windows dan Linux?**  
+J: Ya, perpustakaan Java bersifat platform‑independen dan berjalan di mana saja JDK yang kompatibel terpasang.
 
-**Q: Bisakah saya mengambil timestamp file (pembuatan/modifikasi) dari entri TAR?**  
-A: Kelas `TarFile` menyediakan akses ke bidang header TAR standar, termasuk timestamp.
+**T: Bisakah saya mengambil timestamp file (pembuatan/modifikasi) dari entri TAR?**  
+J: Kelas `TarFile` menyediakan akses ke bidang header TAR standar, termasuk timestamp.
 
-**Q: Bagaimana cara menangani arsip yang dilindungi password?**  
-A: Untuk arsip terenkripsi, berikan password saat membuat objek `Metadata` (lihat referensi API untuk overload yang tepat).
+**T: Bagaimana cara menangani arsip yang dilindungi password?**  
+J: Untuk arsip terenkripsi, berikan password saat membangun objek `Metadata` (lihat referensi API untuk overload yang tepat).
 
 **Sumber Daya**  
 - **Dokumentasi:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
@@ -192,6 +192,6 @@ A: Untuk arsip terenkripsi, berikan password saat membuat objek `Metadata` (liha
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-18  
+**Terakhir Diperbarui:** 2026-03-04  
 **Diuji Dengan:** GroupDocs.Metadata untuk Java 24.12  
-**Penulis:** GroupDocs  
+**Penulis:** GroupDocs

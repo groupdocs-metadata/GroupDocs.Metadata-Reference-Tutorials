@@ -16,30 +16,30 @@ weight: 1
 
 Dalam alur kerja rekayasa dan desain modern, kemampuan **cara menggunakan GroupDocs** untuk membaca metadata CAD memberikan peningkatan produktivitas yang besar. Baik Anda perlu mengaudit kepemilikan dokumen, menegakkan konvensi penamaan, atau memasukkan metadata ke dalam sistem manajemen dokumen, mengekstrak properti asli dari file DWG, DWF, atau DXF menjadi mudah dengan pustaka GroupDocs.Metadata untuk Java. Tutorial ini memandu Anda melalui semua yang diperlukan—dari menyiapkan pustaka hingga mengambil nama penulis, tanggal pembuatan, dan informasi versi—sehingga Anda dapat mengintegrasikan ekstraksi metadata langsung ke dalam aplikasi Java Anda.
 
-## Quick Answers
-- **Library apa yang terbaik untuk metadata CAD?** GroupDocs.Metadata untuk Java  
-- **Versi Java mana yang diperlukan?** JDK 8 atau lebih tinggi  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi diperlukan untuk produksi  
-- **Bisakah saya mengekstrak beberapa properti sekaligus?** Ya, gunakan API `CadRootPackage` untuk mengakses semua bidang asli  
-- **Apakah cocok untuk batch besar?** Ya, dengan penanganan sumber daya yang tepat dan ekstraksi properti selektif  
+## Jawaban Cepat
+- **Library apa yang terbaik untuk metadata CAD?** GroupDocs.Metadata untuk Java
+- **Versi Java mana yang diperlukan?** JDK8 atau lebih tinggi
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi diperlukan untuk produksi
+- ** membujuk saya mengekstrak beberapa properti sekaligus?** Ya, gunakan API `CadRootPackage` untuk mengakses semua bidang asli
+- **Apakah cocok untuk batch besar?** Ya, dengan penanganan sumber daya yang tepat dan ekstraksi sifat optik
 
-## What is GroupDocs.Metadata?
-GroupDocs.Metadata adalah SDK Java yang menyediakan API terpadu untuk membaca, menulis, dan mengelola metadata di ratusan format file—termasuk file CAD seperti DWG, DWF, dan DXF. SDK ini menyederhanakan kompleksitas tiap jenis file, memungkinkan Anda fokus pada logika bisnis daripada keanehan format file.
+## Apa itu GroupDocs.Metadata?
+GroupDocs.Metadata adalah SDK Java yang menyediakan API terpadu untuk membaca, menulis, dan mengelola metadata dalam ratusan format file—termasuk file CAD seperti DWG, DWF, dan DXF. SDK ini rumit tiap jenis file, memungkinkan Anda fokus pada logika bisnis daripada keanehan format file.
 
-## Why Use GroupDocs for CAD Metadata Extraction?
-- **Dukungan format yang komprehensif** – Menangani semua format CAD utama secara langsung.  
-- **API sederhana** – Panggilan satu baris dapat mengambil penulis, versi, cap waktu, dan properti khusus.  
-- **Dioptimalkan untuk kinerja** – Dirancang untuk bekerja secara efisien dengan file besar dan operasi massal.  
-- **Lintas platform** – Berfungsi di lingkungan Java apa pun, mulai dari aplikasi desktop hingga layanan cloud.  
+## Mengapa Menggunakan GroupDocs untuk Ekstraksi Metadata CAD?
+- **Format Dukungan yang komprehensif** – menggabungkan semua format CAD utama secara langsung.
+- **API sederhana** – Panggilan satu baris dapat mengambil penulis, versi, cap waktu, dan properti khusus.
+- **Dioptimalkan untuk kinerja** – dirancang untuk bekerja secara efisien dengan file besar dan operasi massal.
+- **Lintas platform** – Berfungsi di lingkungan Java apa pun, mulai dari aplikasi desktop hingga layanan cloud.
 
-## Prerequisites
-- **Java Development Kit (JDK)** 8 atau lebih baru.  
-- **IDE** seperti Eclipse, IntelliJ IDEA, atau VS Code.  
-- **Maven** (opsional) jika Anda lebih suka mengelola dependensi melalui `pom.xml`.  
-- Pemahaman dasar tentang konsep file CAD (lapisan, blok, dll.) berguna tetapi tidak wajib.  
+## Prasyarat
+- **Java Development Kit (JDK)**8 atau lebih baru.
+- **IDE** seperti Eclipse, IntelliJ IDEA, atau VS Code.
+- **Maven** (opsional) jika Anda lebih suka mengelola dependensi melalui `pom.xml`.
+- Pemahaman dasar tentang konsep file CAD (lapisan, blok, dll.) berguna tetapi tidak wajib.
 
-## Setting Up GroupDocs.Metadata for Java
-### Maven Setup
+## Menyiapkan GroupDocs.Metadata untuk Java
+### Pengaturan Maven
 Tambahkan repositori GroupDocs dan dependensi metadata ke `pom.xml` Anda:
 
 ```xml
@@ -60,17 +60,17 @@ Tambahkan repositori GroupDocs dan dependensi metadata ke `pom.xml` Anda:
 </dependencies>
 ```
 
-### Direct Download
-Jika Anda lebih suka penyiapan manual, unduh JAR terbaru dari halaman rilis resmi:  
-[GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)
+### Unduh Langsung
+Jika Anda lebih suka penyiapan manual, unduh JAR terbaru dari halaman rilis resmi:
+[GroupDocs.Metadata untuk rilis Java](https://releases.groupdocs.com/metadata/java/)
 
-#### License Acquisition Steps
-- **Percobaan Gratis** – Jelajahi fitur inti tanpa lisensi.  
-- **Lisensi Sementara** – Dapatkan kunci berjangka waktu untuk pengujian ekstensif.  
-- **Pembelian** – Membuka semua fungsi dan dukungan premium untuk penggunaan produksi.  
+#### Langkah-Langkah Akuisisi Lisensi
+- **Percobaan Gratis** – Menjelajahi fitur inti tanpa lisensi.
+- **Lisensi Sementara** – Dapatkan kunci berjangka waktu untuk pengujian ekstensif.
+- **Pembelian** – Membuka semua fungsi dan dukungan premium untuk penggunaan produksi.
 
-### Basic Initialization
-Setelah pustaka berada di classpath Anda, buat instance `Metadata` yang menunjuk ke file CAD Anda:
+### Inisialisasi Dasar
+Setelah pustaka berada di classpath Anda, buat instance `Metadata` yang mengarah ke file CAD Anda:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -92,12 +92,12 @@ public class CadReadNativeMetadataProperties {
 }
 ```
 
-This snippet sets the stage for reading any native CAD property you need.
+Cuplikan ini menetapkan tahapan untuk membaca properti CAD asli apa pun yang Anda perlukan.
 
-## How to Use GroupDocs for CAD Metadata Extraction
+## Cara Menggunakan GroupDocs untuk Ekstraksi Metadata CAD
 Berikut adalah panduan langkah demi langkah yang memperluas inisialisasi dasar menjadi alur kerja pembacaan metadata yang lengkap.
 
-### Step 1: Open the CAD File with a `Metadata` Object
+### Langkah 1: Buka File CAD dengan Objek `Metadata`
 ```java
 try (Metadata metadata = new Metadata("path/to/your/file.dwg")) {
     // Proceed to access the root package
@@ -105,75 +105,75 @@ try (Metadata metadata = new Metadata("path/to/your/file.dwg")) {
 ```
 *Mengapa?* Menggunakan blok try‑with‑resources menjamin bahwa handle file dilepaskan dengan cepat, yang penting saat memproses banyak file dalam satu batch.
 
-### Step 2: Retrieve the `CadRootPackage`
+### Langkah 2: Ambil `CadRootPackage`
 ```java
 cadRootPackage root = metadata.getRootPackageGeneric();
 ```
 *Mengapa?* Objek `root` adalah pintu gerbang Anda ke semua properti CAD asli, seperti versi, penulis, dan komentar.
 
-### Step 3: Extract Desired Properties
+### Langkah 3: Ekstrak Properti yang Diinginkan
 Anda dapat mengambil properti apa pun yang diekspos oleh `CadPackage`. Berikut adalah yang paling umum:
 
-#### Get AutoCAD Version
+#### Dapatkan Versi AutoCAD
 ```java
 System.out.println(root.getCadPackage().getAcadVersion());
 ```
-*Mengapa?* Mengetahui versi AutoCAD membantu Anda memutuskan apakah file perlu dikonversi sebelum diproses lebih lanjut.
+*Mengapa?* Mengetahui versi AutoCAD membantu Anda memutuskan apakah file perlu konversi sebelum memproses lebih lanjut.
 
-#### Get Author Name
+#### Dapatkan Nama Penulis
 ```java
 System.out.println(root.getCadPackage().getAuthor());
 ```
-*Mengapa?* Metadata penulis sering diperlukan untuk audit kepatuhan dan pelacakan atribusi.
+*Mengapa?* Metadata penulis sering diperlukan untuk mengaudit kepatuhan dan pelacakan atribusi.
 
-#### Get Comments
+#### Dapatkan Komentar
 ```java
 System.out.println(root.getCadPackage().getComments());
 ```
-*Mengapa?* Komentar dapat berisi catatan desain, detail revisi, atau instruksi klien.
+*Mengapa?* Komentar dapat berisi catatan desain, revisi detail, atau instruksi klien.
 
 > **Tip:** Lanjutkan pola ini untuk bidang lain seperti `CreatedDateTime`, `HyperlinkBase`, atau properti khusus apa pun yang Anda definisikan dalam file CAD Anda.
 
-#### Troubleshooting Tips
-- Pastikan file CAD tidak rusak dan jalurnya benar.  
-- Pastikan versi GroupDocs.Metadata cocok dengan JDK Anda (24.12 bekerja dengan JDK 8+).  
-- Jika suatu properti mengembalikan `null`, berarti file sumber tidak memiliki bidang metadata tersebut.  
+#### Tip Mengatasi Masalah
+- Pastikan file CAD tidak rusak dan jalurnya benar.
+- Pastikan versi GroupDocs.Metadata cocok dengan JDK Anda (24.12 bekerja dengan JDK8+).
+- Jika suatu properti mengembalikan `null`, berarti file sumber tidak memiliki bidang metadata tersebut.
 
-## Practical Applications
-1. Sistem Manajemen Dokumen – Menandai file secara otomatis berdasarkan penulis atau tanggal pembuatan.  
-2. Kontrol Versi – Mendeteksi versi AutoCAD yang tidak cocok sebelum melakukan commit perubahan.  
-3. Kepatuhan Regulasi – Mengekspor metadata yang diperlukan untuk standar hukum atau industri.  
+## Aplikasi Praktis
+1. Sistem Manajemen Dokumen – Menandai file secara otomatis berdasarkan penulis atau tanggal pembuatan.
+2. Kontrol Versi – Mendeteksi versi AutoCAD yang tidak cocok sebelum melakukan perubahan.
+3. Peraturan Kepatuhan – Mengekspor metadata yang diperlukan untuk standar hukum atau industri.
 
-## Performance Considerations
-- **Ekstraksi Selektif** – Ambil hanya bidang yang Anda butuhkan untuk mengurangi beban I/O.  
-- **Pemrosesan Batch** – Gunakan kembali satu instance `Metadata` saat mengulang banyak file, tetapi selalu tutup setelah setiap file.  
-- **Caching** – Simpan metadata yang sering diakses dalam cache ringan jika Anda memerlukan pencarian berulang.  
+## Pertimbangan Kinerja
+- **Ekstraksi Selektif** – Ambil hanya bidang yang Anda perlukan untuk mengurangi beban I/O.
+- **Pemrosesan Batch** – Gunakan kembali satu instance `Metadata` saat mengulang banyak file, tetapi selalu tutup setelah setiap file.
+- **Caching** – Menyimpan metadata yang sering diakses dalam cache ringan jika Anda memerlukan pencarian berulang.
 
-## Conclusion
-Anda kini mengetahui **cara menggunakan GroupDocs** untuk membaca metadata CAD asli di Java, mulai dari menyiapkan SDK hingga mengekstrak properti spesifik seperti penulis, versi, dan komentar. Integrasikan potongan kode ini ke dalam alur kerja yang lebih besar—seperti pipeline ingest dokumen otomatis atau pemeriksaan kepatuhan—untuk memanfaatkan sepenuhnya nilai metadata yang sudah tertanam dalam aset CAD Anda.
+## Kesimpulan
+Anda kini mengetahui **cara menggunakan GroupDocs** untuk membaca metadata CAD asli di Java, mulai dari menyiapkan SDK hingga merinci properti spesifik seperti penulis, versi, dan komentar. Integrasikan potongan kode ini ke dalam alur kerja yang lebih besar—seperti pipeline penyerapan dokumen otomatis atau pemeriksaan kepatuhan—untuk memanfaatkan sepenuhnya nilai metadata yang sudah tertanam dalam aset CAD Anda.
 
-### Next Steps
-- Bereksperimen menulis metadata kembali ke file CAD menggunakan metode `set*`.  
-- Jelajahi referensi API lengkap untuk skenario lanjutan seperti penanganan properti khusus.  
-- Gabungkan ekstraksi metadata dengan produk GroupDocs lainnya (misalnya, GroupDocs.Viewer) untuk solusi dokumen end‑to‑end.  
+### Langkah Selanjutnya
+- Bereksperimen menulis metadata kembali ke file CAD menggunakan metode `set*`.
+- Menjelajahi referensi API lengkap untuk skenario lanjutan seperti penanganan properti khusus.
+- Gabungkan ekstraksi metadata dengan produk GroupDocs lainnya (misalnya, GroupDocs.Viewer) untuk solusi dokumen end‑to‑end.
 
-## Frequently Asked Questions
-**T: Apa itu GroupDocs.Metadata?**  
-J: Sebuah pustaka Java yang menyediakan API terpadu untuk membaca dan menulis metadata di ratusan format file, termasuk file CAD.
+## Pertanyaan yang Sering Diajukan
+**T: Apa itu GroupDocs.Metadata?**
+J: Sebuah perpustakaan Java yang menyediakan API terpadu untuk membaca dan menulis metadata dalam ratusan format file, termasuk file CAD.
 
-**T: Bisakah saya menggunakan GroupDocs.Metadata tanpa membeli lisensi?**  
-J: Ya, percobaan gratis memungkinkan Anda mengevaluasi fitur inti. Lisensi diperlukan untuk penerapan produksi.
+**T: Bisakah saya menggunakan GroupDocs.Metadata tanpa membeli lisensi?**
+J: Ya, percobaan gratis memungkinkan Anda menyalakan fitur inti. Lisensi diperlukan untuk penerapan produksi.
 
-**T: Bagaimana cara menangani file CAD yang sangat besar?**  
-J: Ekstrak hanya properti yang diperlukan, gunakan try‑with‑resources untuk mengelola memori, dan pertimbangkan caching hasil untuk akses berulang.
+**T: Bagaimana cara menangani file CAD yang sangat besar?**
+J: Ekstrak hanya properti yang diperlukan, gunakan try‑with‑resources untuk mengelola memori, dan memperhitungkan hasil caching untuk akses berulang.
 
-**T: Kesalahan umum apa yang terjadi saat membaca metadata CAD?**  
-J: Korupsi file, versi pustaka yang tidak cocok, atau bidang metadata yang tidak ada (yang mengembalikan `null`) adalah masalah umum.
+**T: Kesalahan umum apa yang terjadi saat membaca metadata CAD?**
+J: File korupsi, versi pustaka yang tidak cocok, atau bidang metadata yang tidak ada (yang mengembalikan `null`) adalah masalah umum.
 
-**T: Apakah pustaka ini kompatibel dengan aplikasi Java yang ada?**  
+**T: Apakah perpustakaan ini kompatibel dengan aplikasi Java yang ada?**
 J: Tentu saja. API sederhana ini dapat dipanggil dari proyek Java apa pun—desktop, server, atau berbasis cloud.
 
-## Resources
+## Sumber daya
 - [Dokumentasi](https://docs.groupdocs.com/metadata/java/)
 - [Referensi API](https://reference.groupdocs.com/metadata/java/)
 - [Unduh](https://releases.groupdocs.com/metadata/java/)

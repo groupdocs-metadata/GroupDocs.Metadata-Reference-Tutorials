@@ -60,16 +60,16 @@ Add the GroupDocs repository and the metadata dependency to your `pom.xml`:
 </dependencies>
 ```
 
-### Direct Download
-If you prefer manual setup, download the latest JAR from the official release page:  
-[GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)
+### Bezpośrednie pobieranie
+Jeśli wolisz konfigurację ręczną, pobierz najnowszy plik JAR z oficjalnej strony wydania:
+[GroupDocs.Metadata dla wersji Java](https://releases.groupdocs.com/metadata/java/)
 
-#### License Acquisition Steps
-- **Darmowa wersja próbna** – Poznaj podstawowe funkcje bez licencji.  
-- **Licencja tymczasowa** – Uzyskaj klucz czasowo ograniczony do intensywnych testów.  
-- **Zakup** – Odblokuj pełną funkcjonalność i wsparcie premium do użytku produkcyjnego.  
+#### Kroki nabycia licencji
+- **Darmowa wersja próbna** – Poznaj podstawowe funkcje bez licencji.
+- **Licencja tymczasowa** – uzyskanie klucza czasowo ograniczonego do stosowaniach egzaminacyjnych.
+- **Zakup** – Odblokuj pełną funkcjonalność i wsparcie premium do użytku produkcyjnego.
 
-### Basic Initialization
+### Podstawowa inicjalizacja
 Once the library is on your classpath, create a `Metadata` instance pointing at your CAD file:
 
 ```java
@@ -92,97 +92,99 @@ public class CadReadNativeMetadataProperties {
 }
 ```
 
-This snippet sets the stage for reading any native CAD property you need.
+Ten fragment kodu przygotowuje grunt pod odczytanie dowolnej natywnej właściwości CAD, której potrzebujesz.
 
 ## Jak używać GroupDocs do wyodrębniania metadanych CAD
-Below is a step‑by‑step guide that expands the basic initialization into a complete metadata‑reading workflow.
+Poniżej znajduje się przewodnik krok po kroku, który rozszerza podstawową inicjalizację do kompletnego procesu odczytu metadanych.
 
-### Step 1: Open the CAD File with a `Metadata` Object
+### Krok 1: Otwórz plik CAD za pomocą obiektu `Metadane`
 ```java
 try (Metadata metadata = new Metadata("path/to/your/file.dwg")) {
     // Proceed to access the root package
 }
 ```
-*Why?* Using a try‑with‑resources block guarantees that file handles are released promptly, which is essential when processing many files in a batch.
 
-### Step 2: Retrieve the `CadRootPackage`
+*Dlaczego?* Użycie bloku try-with-resources gwarantuje szybkie zwalnianie uchwytów plików, co jest niezbędne podczas przetwarzania wielu plików wsadowo.
+
+### Krok 2: Pobierz `CadRootPackage`
 ```java
 cadRootPackage root = metadata.getRootPackageGeneric();
 ```
-*Why?* The `root` object is your gateway to all native CAD properties, such as version, author, and comments.
 
-### Step 3: Extract Desired Properties
-You can pull out any property exposed by the `CadPackage`. Here are the most common ones:
+*Dlaczego?* Obiekt `root` jest bramą do wszystkich natywnych właściwości CAD, takich jak wersja, autor i komentarze.
 
-#### Get AutoCAD Version
+### Krok 3: Wyodrębnij żądane właściwości
+Możesz wyodrębnić dowolną właściwość udostępnioną przez `CadPackage`. Oto najczęstsze z nich:
+
+#### Pobierz wersję programu AutoCAD
 ```java
 System.out.println(root.getCadPackage().getAcadVersion());
 ```
-*Why?* Knowing the AutoCAD version helps you decide if a file needs conversion before further processing.
+*Dlaczego?* Znajomość wersji programu AutoCAD pomaga zdecydować, czy plik wymaga konwersji przed dalszym przetwarzaniem.
 
-#### Get Author Name
+#### Pobierz imię i nazwisko autora
 ```java
 System.out.println(root.getCadPackage().getAuthor());
 ```
-*Why?* Author metadata is often required for compliance audits and attribution tracking.
+*Dlaczego?* Metadane autora są często wymagane do audytów zgodności i śledzenia atrybucji.
 
-#### Get Comments
+#### Pobierz komentarze
 ```java
 System.out.println(root.getCadPackage().getComments());
 ```
-*Why?* Comments may contain design notes, revision details, or client instructions.
+*Dlaczego?* Komentarze mogą zawierać uwagi do projektu, szczegóły wersji lub instrukcje klienta.
 
-> **Tip:** Continue this pattern for other fields such as `CreatedDateTime`, `HyperlinkBase`, or any custom property you have defined in your CAD files.
+> **Wskazówka:** Kontynuuj ten wzór dla innych pól, takich jak „CreatedDateTime”, „HyperlinkBase” lub dowolnej niestandardowej właściwości zdefiniowanej w plikach CAD.
 
-#### Troubleshooting Tips
-- Sprawdź, czy plik CAD nie jest uszkodzony i ścieżka jest poprawna.  
-- Upewnij się, że wersja GroupDocs.Metadata pasuje do Twojego JDK (24.12 działa z JDK 8+).  
-- Jeśli właściwość zwraca `null`, źródłowy plik po prostu nie zawiera tego pola metadanych.  
+#### Wskazówki dotyczące rozwiązywania problemów
+- Sprawdź, czy plik CAD nie jest uszkodzony i ścieżki są poprawne.
+- nastąpi, że wersja GroupDocs.Metadata pasuje do Twojego JDK (24.12 działa z JDK8+).
+- Jeśli odprowadzane `null`, źródłowy plik po prostu nie zawiera tego pola metadanych.
 
-## Praktyczne zastosowania
-1. **Systemy zarządzania dokumentami** – Automatyczne tagowanie plików według autora lub daty utworzenia.  
-2. **Kontrola wersji** – Wykrywanie niezgodnych wersji AutoCAD przed zatwierdzeniem zmian.  
-3. **Zgodność regulacyjna** – Eksport wymaganych metadanych dla wymogów prawnych lub branżowych.  
+## Praktyczne zastosowanie
+1. **Systemy zarządzania dokumentami** – automatyczne tagowanie plików według autora lub daty.
+2. **Wersja Kontroli** – Wykrywanie niezgodnych wersji AutoCAD przed zatwierdzeniem zmiany.
+3. **Zgodność regulacyjna** – Eksport wymaganych metadanych dla prawnych lub branżowych.
 
 ## Rozważania dotyczące wydajności
-- **Selektywne wyodrębnianie** – Pobieraj tylko potrzebne pola, aby zmniejszyć obciążenie I/O.  
-- **Przetwarzanie wsadowe** – Ponownie używaj jednego obiektu `Metadata` przy iteracji po wielu plikach, ale zawsze zamykaj go po każdym pliku.  
-- **Cache** – Przechowuj często używane metadane w lekkim cache, jeśli potrzebujesz powtarzalnych zapytań.  
+- **Selektywne wyodrębnianie** – Pobieraj tylko potrzebne pola, aby zastosować obciążenie I/O.
+- **Przetwarzanie wsadowe** – wykluczenie jednego obiektu `Metadata` przy iteracji po wielu plikach, ale zawsze zamykaj go po każdym pliku.
+- **Cache** – Przechowuj często używane metadane w lekkim cache, odpowiednio powtarzalnych zapytań.
 
 ## Zakończenie
-You now know **jak używać GroupDocs** to read native CAD metadata in Java, from setting up the SDK to extracting specific properties like author, version, and comments. Integrate these snippets into larger workflows—such as automated document ingestion pipelines or compliance checks—to unlock the full value of the metadata already embedded in your CAD assets.
+Teraz wiesz, jak **jak dostosować GroupDocs** do odczytywania natywnych metadanych CAD w Javie, od konfiguracji pakietu SDK po wyodrębnianie określonych właściwości, takich jak autor, wersja i komentarze. Zintegruj te fragmenty z większymi przepływami pracy — takimi jak automatyczne potoki przyjmowania dokumentów lub kontrole zgodności — aby odblokować pełną wartość metadanych już osadzonych w zasobach CAD.
 
-### Kolejne kroki
-- Eksperymentuj z zapisywaniem metadanych z powrotem do pliku CAD przy użyciu metod `set*`.  
-- Zapoznaj się z pełną referencją API dla zaawansowanych scenariuszy, takich jak obsługa własnych właściwości.  
-- Połącz wyodrębnianie metadanych z innymi produktami GroupDocs (np. GroupDocs.Viewer) w celu uzyskania kompleksowych rozwiązań dokumentowych.
+###Kolejne kroki
+- Eksperymentuj z zapisywaniem metadanych z powrotem do pliku CAD przy użyciu metody `set*`.
+- Zapoznaj się z pełną referencją API dla zaawansowanych scenariuszy, takich jak obsługa wyposażenia.
+- Połącz wyodrębnianie metadanych z innymi produktami GroupDocs (np. GroupDocs.Viewer) w celu uzyskania kompleksowych rozwiązań alternatywnych dokumentowych.
 
-## Najczęściej zadawane pytania
-**P: Co to jest GroupDocs.Metadata?**  
-A: Biblioteka Java, która zapewnia zunifikowane API do odczytywania i zapisywania metadanych w setkach formatów plików, w tym w plikach CAD.
+###zadawane pytania
+**P: Co to jest GroupDocs.Metadata?**
+A: Biblioteka Java, która zapewnia zunifikowane API do udostępniania i zastrzeżonych metadanych w zestawach formatów plików, w tym w plikach CAD.
 
-**P: Czy mogę używać GroupDocs.Metadata bez zakupu licencji?**  
-A: Tak, darmowa wersja próbna pozwala ocenić podstawowe funkcje. Licencja jest wymagana w środowiskach produkcyjnych.
+**P: Czy można zastosować GroupDocs.Metadata bez zakupu licencji?**
+A: Tak, wersja próbna pozwala sprawdzić podstawowe funkcje. Licencja jest wymagana w środowisku produkcyjnym.
 
-**P: Jak powinienem obsługiwać bardzo duże pliki CAD?**  
-A: Wyodrębniaj tylko potrzebne właściwości, używaj try‑with‑resources do zarządzania pamięcią i rozważ cache wyników przy powtarzalnych odczytach.
+**P: Jak powinienem wystąpić bardzo duże pliki CAD?**
+A: Wyodrębniaj tylko skutki, używając try-with-resources do zarządzania pamięcią i wyników wyników pamięci podręcznej przy powtarzalnych odczytach.
 
-**P: Jakie typowe błędy występują przy odczycie metadanych CAD?**  
-A: Uszkodzenie pliku, niezgodna wersja biblioteki lub brak pól metadanych (zwracających `null`) to typowe problemy.
+**P: Jakie typowe błędy występują przy odczycie metadanych CAD?**
+A: istnieje plik, niezgodny z wersją biblioteki lub brak metadanych (zwracających `null`) do typowych problemów.
 
-**P: Czy biblioteka jest kompatybilna z istniejącymi aplikacjami Java?**  
-A: Absolutnie. Jej proste API może być wywoływane z dowolnego projektu Java — desktopowego, serwerowego lub opartego na chmurze.
+**P: Czy biblioteka jest kompatybilna z kompatybilną aplikacją Java?**
+O: Absolutnie. Jej proste API może być wywoływane z dowolnego projektu Java — desktopowego, serwerowego lub głównego na platformie internetowej.
 
 ## Zasoby
 - [Dokumentacja](https://docs.groupdocs.com/metadata/java/)
-- [Referencja API](https://reference.groupdocs.com/metadata/java/)
+- [API referencji](https://reference.groupdocs.com/metadata/java/)
 - [Pobierz](https://releases.groupdocs.com/metadata/java/)
 - [Repozytorium GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - [Darmowe forum wsparcia](https://forum.groupdocs.com/c/metadata/)
-- [Uzyskanie licencji tymczasowej](https://purchase.groupdocs.com/temporary-license)
+- [Użycie licencji tymczasowej](https://purchase.groupdocs.com/temporary-license)
 
 ---
 
-**Last Updated:** 2026-01-08  
-**Tested With:** GroupDocs.Metadata 24.12  
-**Author:** GroupDocs
+**Ostatnia aktualizacja:** 2026-01-08
+**Testowano z:** GroupDocs.Metadata 24.12
+**Autor:** GroupDocs

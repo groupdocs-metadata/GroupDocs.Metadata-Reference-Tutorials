@@ -15,31 +15,31 @@ weight: 1
 
 モダンなエンジニアリングやデザインのワークフローにおいて、CADメタデータを読み取るための **GroupDocsの使い方** ができることは、生産性を大幅に向上させます。ドキュメント所有者の監査、命名規則の適用、またはメタデータをドキュメント管理システムに取り込む必要がある場合でも、DWG、DWF、DXF ファイルからネイティブプロパティを抽出する作業は、GroupDocs.Metadata ライブラリ for Java を使用すれば簡単です。このチュートリアルでは、ライブラリのセットアップから、作成者名、作成日、バージョン情報などを取得する方法まで、Java アプリケーションにメタデータ抽出を直接組み込むために必要なすべてを解説します。
 
-## Quick Answers
-- **What library is best for CAD metadata?** GroupDocs.Metadata for Java  
-- **Which Java version is required?** JDK 8 or higher  
-- **Do I need a license?** A free trial works for evaluation; a license is required for production  
-- **Can I extract multiple properties at once?** Yes, use the `CadRootPackage` API to access all native fields  
-- **Is it suitable for large batches?** Yes, with proper resource handling and selective property extraction  
+## クイックアンサー
+- **CADメタデータに最適なライブラリはどれですか？** Java版GroupDocs.Metadata
+- **必要なJavaのバージョンは？** JDK8以上
+- **ライセンスは必要ですか？** 評価版は無料トライアルでご利用いただけますが、本番環境ではライセンスが必要です
+- **複数のプロパティを一度に抽出できますか？** はい。すべてのネイティブフィールドにアクセスするには、`CadRootPackage` APIを使用してください
+- **大規模なバッチ処理に適していますか？** はい。適切なリソース処理と選択的なプロパティ抽出を行えば可能です
 
-## What is GroupDocs.Metadata?
+## GroupDocs.Metadataとは何ですか？
 GroupDocs.Metadata は、数百種類のファイル形式（DWG、DWF、DXF などの CAD ファイルを含む）に対して、メタデータの読み取り、書き込み、管理を統一的な API で提供する Java SDK です。各ファイル形式固有の複雑さを抽象化し、ビジネスロジックに集中できるようにします。
 
-## Why Use GroupDocs for CAD Metadata Extraction?
-- **Comprehensive format support** – Handles all major CAD formats out‑of‑the‑box.  
-- **Simple API** – One‑line calls retrieve author, version, timestamps, and custom properties.  
-- **Performance‑optimized** – Designed to work efficiently with large files and bulk operations.  
-- **Cross‑platform** – Works on any Java‑compatible environment, from desktop apps to cloud services.
+## CAD メタデータ抽出に GroupDocs を使用する理由
+- **包括的なフォーマットサポート** – 主要な CAD フォーマットをすべてすぐに使用できます。
+- **シンプルな API** – 1 行の呼び出しで、作成者、バージョン、タイムスタンプ、カスタムプロパティを取得できます。
+- **パフォーマンス最適化** – 大容量ファイルや一括操作を効率的に処理できるように設計されています。
+- **クロスプラットフォーム** – デスクトップアプリからクラウドサービスまで、あらゆる Java 互換環境で動作します。
 
-## Prerequisites
-- **Java Development Kit (JDK)** 8 or newer.  
-- **IDE** such as Eclipse, IntelliJ IDEA, or VS Code.  
-- **Maven** (optional) if you prefer dependency management via `pom.xml`.  
-- Basic familiarity with CAD file concepts (layers, blocks, etc.) is helpful but not required.
+## 前提条件
+- **Java Development Kit (JDK)**8 以降。
+- **IDE** (Eclipse、IntelliJ IDEA、VS Code など)。
+- **Maven** (オプション) (`pom.xml` による依存関係管理を希望する場合)。
+- CAD ファイルの概念 (レイヤー、ブロックなど) に関する基本的な知識があると役立ちますが、必須ではありません。
 
-## Setting Up GroupDocs.Metadata for Java
-### Maven Setup
-Add the GroupDocs repository and the metadata dependency to your `pom.xml`:
+## Java 用 GroupDocs.Metadata の設定
+### Maven のセットアップ
+GroupDocs リポジトリとメタデータ依存関係を `pom.xml` に追加します。
 
 ```xml
 <repositories>
@@ -59,17 +59,17 @@ Add the GroupDocs repository and the metadata dependency to your `pom.xml`:
 </dependencies>
 ```
 
-### Direct Download
-If you prefer manual setup, download the latest JAR from the official release page:  
+### 直接ダウンロード
+手動でセットアップする場合は、公式リリースページから最新の JAR をダウンロードしてください。
 [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)
 
-#### License Acquisition Steps
-- **Free Trial** – Explore core features without a license.  
-- **Temporary License** – Get a time‑limited key for extensive testing.  
-- **Purchase** – Unlock full functionality and premium support for production use.
+#### ライセンス取得手順
+- **無料トライアル** – ライセンスなしでコア機能を試すことができます。
+- **一時ライセンス** – 期間限定のキーを取得して、広範囲なテストを行うことができます。
+- **購入** – 本番環境での使用に必要なすべての機能とプレミアムサポートを利用できます。
 
-### Basic Initialization
-Once the library is on your classpath, create a `Metadata` instance pointing at your CAD file:
+### 基本的な初期化
+ライブラリがクラスパスに追加されたら、CAD ファイルを指す `Metadata` インスタンスを作成します。
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -91,88 +91,88 @@ public class CadReadNativeMetadataProperties {
 }
 ```
 
-This snippet sets the stage for reading any native CAD property you need.
+このスニペットは、必要なネイティブCADプロパティの読み取り準備を整えます。
 
-## How to Use GroupDocs for CAD Metadata Extraction
-Below is a step‑by‑step guide that expands the basic initialization into a complete metadata‑reading workflow.
+## GroupDocs を使用した CAD メタデータ抽出方法
+以下は、基本的な初期化手順を完全なメタデータ読み取りワークフローに拡張するステップバイステップガイドです。
 
-### Step 1: Open the CAD File with a `Metadata` Object
+### ステップ 1: `Metadata` オブジェクトを含む CAD ファイルを開く
 ```java
 try (Metadata metadata = new Metadata("path/to/your/file.dwg")) {
     // Proceed to access the root package
 }
 ```
-*Why?* Using a try‑with‑resources block guarantees that file handles are released promptly, which is essential when processing many files in a batch.
+*理由* try-with-resources ブロックを使用すると、ファイルハンドルが迅速に解放されることが保証されます。これは、多数のファイルを一括処理する際に不可欠です。
 
-### Step 2: Retrieve the `CadRootPackage`
+### ステップ 2: `CadRootPackage` を取得する
 ```java
 cadRootPackage root = metadata.getRootPackageGeneric();
 ```
-*Why?* The `root` object is your gateway to all native CAD properties, such as version, author, and comments.
+*理由* `root` オブジェクトは、バージョン、作成者、コメントなど、すべてのネイティブ CAD プロパティへのゲートウェイです。
 
-### Step 3: Extract Desired Properties
-You can pull out any property exposed by the `CadPackage`. Here are the most common ones:
+### ステップ 3: 必要なプロパティの抽出
+`CadPackage` によって公開される任意のプロパティを取得できます。最も一般的なプロパティを以下に示します。
 
-#### Get AutoCAD Version
+#### AutoCAD のバージョンを取得する
 ```java
 System.out.println(root.getCadPackage().getAcadVersion());
 ```
-*Why?* Knowing the AutoCAD version helps you decide if a file needs conversion before further processing.
+*理由* AutoCAD のバージョンがわかれば、さらに処理を進める前にファイルを変換する必要があるかどうかを判断できます。
 
-#### Get Author Name
+#### 作成者名を取得する
 ```java
 System.out.println(root.getCadPackage().getAuthor());
 ```
-*Why?* Author metadata is often required for compliance audits and attribution tracking.
+*なぜ？* コンプライアンス監査や帰属追跡には、著者メタデータが必要になることがよくあります。
 
-#### Get Comments
+#### コメントを取得する
 ```java
 System.out.println(root.getCadPackage().getComments());
 ```
-*Why?* Comments may contain design notes, revision details, or client instructions.
+*理由* コメントには、設計メモ、リビジョンの詳細、クライアントからの指示などが含まれる場合があります。
 
-> **Tip:** Continue this pattern for other fields such as `CreatedDateTime`, `HyperlinkBase`, or any custom property you have defined in your CAD files.
+> **ヒント:** `CreatedDateTime`、`HyperlinkBase`、またはCADファイルで定義したカスタムプロパティなど、他のフィールドにもこのパターンを適用してください。
 
-#### Troubleshooting Tips
-- Verify the CAD file is not corrupted and the path is correct.  
-- Ensure the GroupDocs.Metadata version matches your JDK (24.12 works with JDK 8+).  
-- If a property returns `null`, the source file simply does not contain that metadata field.
+#### トラブルシューティングのヒント
+- CADファイルが破損していないこと、およびパスが正しいことを確認してください。
+- GroupDocs.MetadataのバージョンがJDKと一致していることを確認してください（24.12はJDK8以降で動作します）。
+- プロパティが`null`を返す場合、ソースファイルにそのメタデータフィールドが含まれていません。
 
-## Practical Applications
-1. **Document Management Systems** – Auto‑tag files by author or creation date.  
-2. **Version Control** – Detect mismatched AutoCAD versions before committing changes.  
-3. **Regulatory Compliance** – Export required metadata for legal or industry standards.  
+## 実用的なアプリケーション
+1. **ドキュメント管理システム** – 作成者または作成日でファイルに自動タグ付けします。
+2. **バージョン管理** – 変更をコミットする前に、一致しないAutoCADのバージョンを検出します。
+3. **法規制コンプライアンス** – 法規制または業界標準に必要なメタデータをエクスポートします。
 
-## Performance Considerations
-- **Selective Extraction** – Pull only the fields you need to reduce I/O overhead.  
-- **Batch Processing** – Reuse a single `Metadata` instance when looping through many files, but always close it after each file.  
-- **Caching** – Store frequently accessed metadata in a lightweight cache if you need repeated look‑ups.
+## パフォーマンスに関する考慮事項
+- **選択的抽出** – I/O オーバーヘッドを削減するために、必要なフィールドのみを取得します。
+- **バッチ処理** – 多数のファイルをループ処理する際に単一の `Metadata` インスタンスを再利用しますが、各ファイルの処理後には必ず閉じます。
+- **キャッシュ** – 頻繁にアクセスされるメタデータを繰り返し参照する必要がある場合は、軽量キャッシュに保存します。
 
-## Conclusion
-You now know **how to use GroupDocs** to read native CAD metadata in Java, from setting up the SDK to extracting specific properties like author, version, and comments. Integrate these snippets into larger workflows—such as automated document ingestion pipelines or compliance checks—to unlock the full value of the metadata already embedded in your CAD assets.
+## まとめ
+これで、SDK の設定から作成者、バージョン、コメントなどの特定のプロパティの抽出まで、**GroupDocs** を使用して Java でネイティブ CAD メタデータを読み取る方法がわかりました。これらのスニペットを、自動ドキュメント取り込みパイプラインやコンプライアンスチェックなどの大規模なワークフローに統合することで、CAD アセットにすでに埋め込まれているメタデータの価値を最大限に引き出します。
 
-### Next Steps
-- Experiment with writing metadata back to a CAD file using the `set*` methods.  
-- Explore the full API reference for advanced scenarios like custom property handling.  
-- Combine metadata extraction with other GroupDocs products (e.g., GroupDocs.Viewer) for end‑to‑end document solutions.
+### 次のステップ
+- `set*` メソッドを使用して、メタデータを CAD ファイルに書き戻す方法を試してみてください。
+- カスタムプロパティの処理などの高度なシナリオについては、完全な API リファレンスを参照してください。
+- メタデータ抽出を他の GroupDocs 製品（GroupDocs.Viewer など）と組み合わせて、エンドツーエンドのドキュメントソリューションを実現します。
 
-## Frequently Asked Questions
-**Q: What is GroupDocs.Metadata?**  
-A: A Java library that provides a unified API for reading and writing metadata across hundreds of file formats, including CAD files.
+## よくある質問
+**Q: GroupDocs.Metadata とは何ですか？**
+A: CAD ファイルを含む数百種類のファイル形式のメタデータの読み書きを可能にする統合 API を提供する Java ライブラリです。
 
-**Q: Can I use GroupDocs.Metadata without purchasing a license?**  
-A: Yes, a free trial lets you evaluate core features. A license is required for production deployments.
+**Q: ライセンスを購入せずに GroupDocs.Metadata を使用できますか？**
+A: はい、無料トライアルでコア機能を評価できます。本番環境への導入にはライセンスが必要です。
 
-**Q: How should I handle very large CAD files?**  
-A: Extract only the needed properties, use try‑with‑resources to manage memory, and consider caching results for repeated accesses.
+**Q: 非常に大きな CAD ファイルはどのように処理すればよいですか？**
+A: 必要なプロパティのみを抽出し、try-with-resources を使用してメモリを管理し、繰り返しアクセスが発生した場合は結果をキャッシュすることを検討してください。
 
-**Q: What common errors occur when reading CAD metadata?**  
-A: File corruption, mismatched library version, or missing metadata fields (which return `null`) are typical issues.
+**Q: CAD メタデータの読み取り時に発生する一般的なエラーは何ですか？**
+A: ファイルの破損、ライブラリバージョンの不一致、メタデータフィールドの欠落（`null` を返す）などが一般的な問題です。
 
-**Q: Is the library compatible with existing Java applications?**  
-A: Absolutely. Its simple API can be called from any Java project—desktop, server, or cloud‑based.
+**Q: このライブラリは既存の Java アプリケーションと互換性がありますか？**
+A: もちろんです。シンプルな API は、デスクトップ、サーバー、クラウドベースなど、あらゆる Java プロジェクトから呼び出すことができます。
 
-## Resources
+## リソース
 - [Documentation](https://docs.groupdocs.com/metadata/java/)
 - [API Reference](https://reference.groupdocs.com/metadata/java/)
 - [Download](https://releases.groupdocs.com/metadata/java/)

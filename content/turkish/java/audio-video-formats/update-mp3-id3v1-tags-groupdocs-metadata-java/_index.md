@@ -7,7 +7,7 @@ keywords:
 - update MP3 ID3v1 tags
 - GroupDocs.Metadata for Java
 - manage audio file metadata
-title: 'MP3 Etiketlerini Toplu Düzenleme: Java’da GroupDocs.Metadata Kullanarak ID3v1
+title: 'MP3 Etiketlerini Toplu Düzenleme - Java’da GroupDocs.Metadata Kullanarak ID3v1
   Etiketlerini Güncelleme'
 type: docs
 url: /tr/java/audio-video-formats/update-mp3-id3v1-tags-groupdocs-metadata-java/
@@ -157,18 +157,6 @@ Artık GroupDocs.Metadata kullanarak Java'da **MP3 etiketlerini toplu olarak dü
 - Adımları bir metoda sarın ve bir klasörü işlemek için döngü içinde çağırın.  
 - Tür veya parça numarası gibi ek meta veri alanlarını keşfedin.  
 - Bu yaklaşımı teknik olmayan kullanıcılar için bir UI veya komut satırı aracıyla birleştirin.
-
-## SSS Bölümü
-1. **ID3v1 etiketi nedir?**  
-   - ID3v1 etiketi, bir MP3 dosyasının ilk 128 baytı içinde albüm adı, sanatçı, başlık gibi meta verileri saklar.  
-2. **Birden fazla etiketi aynı anda güncelleyebilir miyim?**  
-   - Evet, kodunuzda ID3v1 etiketinin çeşitli özelliklerini aynı anda değiştirebilirsiniz.  
-3. **MP3'te mevcut bir ID3v1 etiketi yoksa ne olur?**  
-   - GroupDocs.Metadata kütüphanesi, mevcut olmadığında yeni bir ID3v1 etiketi oluşturmanıza olanak tanır.  
-4. **GroupDocs.Metadata ücretsiz mi?**  
-   - Ücretsiz bir deneme sürümü mevcuttur ve uzun süreli test için geçici bir lisans alınabilir.  
-5. **Meta veri güncellemeleri sırasında hataları nasıl yönetirim?**  
-   - `IOException` gibi istisnaları nazikçe yönetmek için try‑catch blokları kullanın.
 
 ## Sıkça Sorulan Sorular
 

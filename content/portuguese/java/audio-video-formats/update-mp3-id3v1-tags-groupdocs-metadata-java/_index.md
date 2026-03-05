@@ -7,7 +7,7 @@ keywords:
 - update MP3 ID3v1 tags
 - GroupDocs.Metadata for Java
 - manage audio file metadata
-title: 'Como editar tags de MP3 em lote: atualizar tags ID3v1 usando GroupDocs.Metadata
+title: 'Como editar tags de MP3 em lote - atualizar tags ID3v1 usando GroupDocs.Metadata
   em Java'
 type: docs
 url: /pt/java/audio-video-formats/update-mp3-id3v1-tags-groupdocs-metadata-java/
@@ -157,18 +157,6 @@ Agora você tem um método completo e pronto para produção para **editar em lo
 - Envolva as etapas em um método e chame‑o a partir de um loop para processar uma pasta inteira.  
 - Explore campos adicionais de metadados, como gênero ou número da faixa.  
 - Combine esta abordagem com uma interface UI ou ferramenta de linha de comando para usuários não técnicos.
-
-## Seção de Perguntas Frequentes
-1. **O que é uma tag ID3v1?**  
-   - Uma tag ID3v1 armazena metadados como nome do álbum, artista, título dentro dos primeiros 128 bytes de um arquivo MP3.  
-2. **Posso atualizar várias tags de uma vez?**  
-   - Sim, você pode modificar várias propriedades da tag ID3v1 simultaneamente no seu código.  
-3. **E se o MP3 não possuir uma tag ID3v1 existente?**  
-   - A biblioteca GroupDocs.Metadata permite criar uma nova tag ID3v1 quando nenhuma existe.  
-4. **O GroupDocs.Metadata é gratuito para uso?**  
-   - Um teste gratuito está disponível, e uma licença temporária pode ser obtida para testes prolongados.  
-5. **Como lidar com erros durante atualizações de metadados?**  
-   - Use blocos try‑catch para gerenciar graciosamente exceções como `IOException`.
 
 ## Perguntas Frequentes
 

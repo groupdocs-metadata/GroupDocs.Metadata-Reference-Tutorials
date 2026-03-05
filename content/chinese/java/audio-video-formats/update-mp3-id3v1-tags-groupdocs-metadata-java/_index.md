@@ -6,7 +6,7 @@ keywords:
 - update MP3 ID3v1 tags
 - GroupDocs.Metadata for Java
 - manage audio file metadata
-title: 如何批量编辑 MP3 标签：使用 GroupDocs.Metadata 在 Java 中更新 ID3v1 标签
+title: 如何批量编辑 MP3 标签 - 使用 GroupDocs.Metadata 在 Java 中更新 ID3v1 标签
 type: docs
 url: /zh/java/audio-video-formats/update-mp3-id3v1-tags-groupdocs-metadata-java/
 weight: 1
@@ -155,18 +155,6 @@ metadata.save(outputDirectory);
 - 将这些步骤封装为方法，并在循环中调用以处理整个文件夹。  
 - 探索其他元数据字段，如流派或曲目编号。  
 - 将此方法与 UI 或命令行工具结合，为非技术用户提供便利。
-
-## 常见问题章节
-1. **什么是 ID3v1 标签？**  
-   - ID3v1 标签在 MP3 文件的前 128 字节内存储专辑名称、艺术家、标题等元数据。  
-2. **我可以一次更新多个标签吗？**  
-   - 可以，您可以在代码中同时修改 ID3v1 标签的多个属性。  
-3. **如果 MP3 没有现有的 ID3v1 标签怎么办？**  
-   - GroupDocs.Metadata 库允许在不存在时创建新的 ID3v1 标签。  
-4. **GroupDocs.Metadata 是否免费使用？**  
-   - 提供免费试用，临时许可证可用于延长测试。  
-5. **如何在元数据更新期间处理错误？**  
-   - 使用 try‑catch 块优雅地管理如 `IOException` 等异常。
 
 ## 常见问答
 

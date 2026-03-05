@@ -7,7 +7,7 @@ keywords:
 - update MP3 ID3v2 tags
 - GroupDocs.Metadata in Java
 - manage audio metadata
-title: 'Jak aktualizovat ID3v2 tagy MP3 pomocí GroupDocs.Metadata v Javě: komplexní
+title: 'Jak aktualizovat ID3v2 tagy MP3 pomocí GroupDocs.Metadata v Javě - komplexní
   průvodce'
 type: docs
 url: /cs/java/audio-video-formats/update-mp3-id3v2-tags-groupdocs-metadata-java/
@@ -70,15 +70,15 @@ Přidejte následující repozitář a závislost do souboru `pom.xml`:
 </dependencies>
 ```
 
-### Direct Download
-Alternativně můžete stáhnout nejnovější verzi z [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+### Přímé stažení
+Alternativně si můžete stáhnout nejnovější verzi z [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-#### License Acquisition
-- **Bezplatná zkušební verze:** Začněte stažením zkušební verze pro prozkoumání základních funkcí.  
-- **Dočasná licence:** Pro rozšířené funkce bez omezení během zkušebního období požádejte o dočasnou licenci na jejich oficiální stránce.  
-- **Zakoupení licence:** Pokud jste spokojeni s výkonem, zvažte zakoupení plné licence pro další používání.
+#### Získání licence
+- **Bezplatná zkušební verze:** Začněte stažení zkušební verze pro prozkoumání základních funkcí.
+- **Dočasná licence:** Pro rozšířené funkce bez omezení během zkušebního období požádejte o dočasnou licenci na jejich oficiální stránce.
+- **Zakoupení licence:** Pokud jste spokojeni s výkonem, znovu zakoupení plné licence pro další používání.
 
-### Basic Initialization and Setup
+### Základní inicializace a nastavení
 Pro inicializaci GroupDocs.Metadata ve vašem Java projektu:
 
 ```java
@@ -96,18 +96,18 @@ public class MetadataExample {
 }
 ```
 
-Toto nastavení zajistí, že jste připraveni prozkoumat výkonné funkce GroupDocs.Metadata.
+Toto nastavení zajistí, že jste připraveni vyzkoušet výkonné funkce GroupDocs.Metadata.
 
 ## Průvodce implementací
-V této sekci vás provedeme aktualizací ID3v2 tagů v MP3 souboru pomocí GroupDocs.Metadata pro Javu. Proces je rozdělen do zvládnutelných kroků s vysvětleními a ukázkami kódu.
+V této vás provedeme aktualizaci ID3v2 sekce tagů v souboru MP3 pomocí GroupDocs.Metadata pro Javu. Proces je rozdělen do zvládnutých kroků s vysvětleními a ukázkami kódu.
 
-### Update ID3v2 Tag in an MP3 File
+### Aktualizujte značku ID3v2 v souboru MP3
 
-#### Overview
+#### Přehled
 Aktualizace ID3v2 tagu zahrnuje úpravu metadat, jako jsou název, umělec, album atd., v MP3 souboru. Tato funkčnost je klíčová pro udržení organizovaných hudebních knihoven a zajištění konzistence metadat napříč soubory.
 
-#### Step 1: Load the MP3 File Using Metadata Class
-Začněte načtením vašeho MP3 souboru pomocí třídy `Metadata`. Příkaz try‑with‑resources zajišťuje, že prostředky jsou po provedení automaticky uzavřeny:
+#### Krok 1: Načtěte soubor MP3 pomocí třídy metadat
+Začněte načtením vašeho MP3 souboru pomocí třídy `Metadata`. Příkaz try-with-resources zajišťuje, že prostředky jsou po provedení automaticky uzavřeny:
 
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/Mp3WithID3V2.mp3")) {
@@ -115,14 +115,14 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/Mp3WithID3V2.mp3"
 }
 ```
 
-#### Step 2: Get the Root Package of the MP3 File
+#### Krok 2: Získejte kořenový balíček souboru MP3
 Extrahujte kořenový balíček pro přístup k ID3v2 tagu:
 
 ```java
 MP3RootPackage root = metadata.getRootPackageGeneric();
 ```
 
-#### Step 3: Check if ID3v2 Tag is Present, If Not Create a New One
+#### Krok 3: Zkontrolujte, zda je přítomen tag ID3v2, pokud ne, vytvořte nový
 Ujistěte se, že ID3v2 tag existuje; pokud ne, vytvořte jej:
 
 ```java
@@ -131,7 +131,7 @@ if (root.getID3V2() == null) {
 }
 ```
 
-#### Step 4: Update the Tag with Desired Information
+#### Krok 4: Aktualizujte tag požadovanými informacemi
 Upravte pole jako název nebo umělec podle potřeby. Například pro aktualizaci názvu:
 
 ```java

@@ -8,7 +8,7 @@ keywords:
 - GroupDocs.Metadata in Java
 - manage audio metadata
 title: 'Comment mettre à jour les balises ID3v2 des MP3 avec GroupDocs.Metadata en
-  Java : guide complet'
+  Java - guide complet'
 type: docs
 url: /fr/java/audio-video-formats/update-mp3-id3v2-tags-groupdocs-metadata-java/
 weight: 1

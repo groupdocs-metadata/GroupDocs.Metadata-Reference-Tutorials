@@ -7,7 +7,7 @@ keywords:
 - update MP3 ID3v1 tags
 - GroupDocs.Metadata for Java
 - manage audio file metadata
-title: 'Jak hromadně upravovat MP3 tagy: Aktualizace ID3v1 tagů pomocí GroupDocs.Metadata
+title: 'Jak hromadně upravovat MP3 tagy - Aktualizace ID3v1 tagů pomocí GroupDocs.Metadata
   v Javě'
 type: docs
 url: /cs/java/audio-video-formats/update-mp3-id3v1-tags-groupdocs-metadata-java/
@@ -157,18 +157,6 @@ Nyní máte kompletní, připravenou metodu pro **hromadnou úpravu MP3 tagů** 
 - Zabalte kroky do metody a zavolejte ji ze smyčky pro zpracování celé složky.  
 - Prozkoumejte další pole metadat, jako je žánr nebo číslo skladby.  
 - Kombinujte tento přístup s UI nebo nástrojem příkazové řádky pro netechnické uživatele.
-
-## Sekce FAQ
-1. **Co je ID3v1 tag?**  
-   - ID3v1 tag ukládá metadata jako název alba, interpreta, titul v prvních 128 bajtech MP3 souboru.  
-2. **Mohu aktualizovat více tagů najednou?**  
-   - Ano, můžete v kódu najednou upravit různé vlastnosti ID3v1 tagu.  
-3. **Co když MP3 nemá existující ID3v1 tag?**  
-   - Knihovna GroupDocs.Metadata vám umožní vytvořit nový ID3v1 tag, pokud neexistuje.  
-4. **Je GroupDocs.Metadata zdarma k použití?**  
-   - K dispozici je bezplatná zkušební verze a dočasná licence může být získána pro rozšířené testování.  
-5. **Jak zacházet s chybami během aktualizací metadat?**  
-   - Používejte bloky try‑catch pro elegantní správu výjimek, jako je `IOException`.
 
 ## Často kladené otázky
 

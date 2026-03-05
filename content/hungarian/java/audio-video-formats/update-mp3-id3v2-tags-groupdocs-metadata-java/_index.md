@@ -8,7 +8,7 @@ keywords:
 - GroupDocs.Metadata in Java
 - manage audio metadata
 title: 'Hogyan frissítsük az MP3 ID3v2 címkéket a GroupDocs.Metadata segítségével
-  Java-ban: Átfogó útmutató'
+  Java-ban - Átfogó útmutató'
 type: docs
 url: /hu/java/audio-video-formats/update-mp3-id3v2-tags-groupdocs-metadata-java/
 weight: 1
@@ -16,37 +16,37 @@ weight: 1
 
 # MP3 ID3v2 címkék frissítése a GroupDocs.Metadata Java könyvtárral: Átfogó útmutató
 
-Ebben az oktatóanyagban megtanulja, **hogyan frissítse az mp3** címkéket a **GroupDocs.Metadata** Java könyvtár segítségével. Az MP3 metaadatok frissítése elengedhetetlen a digitális zenei gyűjtemények szervezéséhez, és néhány kódsorral rendezetten és kereshetően tarthatja könyvtárát.
+az oktatóanyagban megtanulja, **hogyan frissítse az mp3** címkéket a **GroupDocs.Metadata** Java könyvtár segítségével. Az MP3 metaadatok frissítése elengedhetetlen a digitális zenei gyűjtemények szervezéséhez, és néhány kódsorral rendezett és kereshetően tarthatja könyvtárát.
 
-## Quick Answers
-- **Mire terjed ki ez az útmutató?** MP3 ID3v2 címkék frissítése a GroupDocs.Metadata Java könyvtárral.  
-- **Szükségem van licencre?** Egy ingyenes próba verzió elegendő az alapfeladatokhoz; a termeléshez ideiglenes vagy teljes licenc szükséges.  
-- **Feldolgozhatok sok fájlt egyszerre?** Igen – kötegelt módon frissítheti az mp3 címkéket fájlok ciklusozásával.  
-- **Melyik Java verzió szükséges?** JDK 8 vagy újabb.  
+## Gyors válaszok
+- **Mire terjed ki ez az útmutató?** MP3 ID3v2 címkék frissítése a GroupDocs.Metadata Java könyvtárral.
+- **Szükségem van licenc?** Egy ingyenes próba verzió elegendő az alapfeladatokhoz; a termeléshez ideiglenes vagy teljes licenc szükséges.
+- **Feldolgozhatok sok fájlt egyszerre?** Igen – kötegelt módosíthatja az mp3 címkéket fájlok ciklusozásával.
+- **Melyik Java verzió szükséges?** JDK8 vagy újabb.
 - **A GroupDocs.Metadata jó mp3 címke könyvtár Java-hoz?** Teljesen – egy teljes funkcionalitású MP3 címke könyvtár Java megoldást kínál.
 
-## Introduction
+## Bevezetés
 Az MP3 metaadatok frissítése elengedhetetlen a digitális zenei gyűjtemények szervezéséhez. Akár fejlesztőként automatizálja ezt a folyamatot, akár audiofilként tartja karban könyvtárát, az ID3 címkék kezelése kulcsfontosságú.
 
-Ebben az oktatóanyagban végigvezetjük a ID3v2 címkék MP3 fájlokban történő frissítésén a **GroupDocs.Metadata** Java használatával. Ez a megoldás egyszerűsíti a metaadat-kezelést minimális kódbonyolultsággal, biztosítva, hogy zenei fájljai mindig naprakészek és megfelelően címkézettek legyenek.
+Ebben az oktatóanyagban végigvezetjük az ID3v2 címkék MP3 fájlokban történő frissítését a **GroupDocs.Metadata** Java segítségével. Ez a megoldás egyszerűsíti a metaadat-kezelést minimális kódbonyolultsággal, hogy zenei fájljai mindig naprakészek és megfelelően címkézettek legyenek.
 
 **Mit fog megtanulni:**
 - A GroupDocs.Metadata Java környezet beállítása
-- Lépésről‑lépésre útmutató az ID3v2 címkék MP3 fájlokban történő frissítéséhez
+- Lépésről-lépésre útmutató az ID3v2 címkék MP3 fájlokban történő frissítéséhez
 - Gyakorlati alkalmazások és integrációs lehetőségek, beleértve a kötegelt mp3 címke frissítést
 
-Kezdjük a szükséges előfeltételek áttekintésével, mielőtt a megvalósítás részleteibe merülnénk.
+Kezdjük a szükséges előfeltételek áttekintésével.
 
-## Prerequisites
-Mielőtt elkezdené, győződjön meg arról, hogy a következőkkel rendelkezik:
+## Előfeltételek
+Mielőtt elkezdené, g meg mindent arról, hogy a következőkkel rendelkezik:
 
-1. **Java Development Kit (JDK):** Győződjön meg róla, hogy a gépén JDK 8 vagy újabb telepítve van.  
-2. **GroupDocs.Metadata könyvtár:** A könyvtár 24.12-es verzióját fogjuk használni.  
-3. **IDE:** Bármely Java‑kompatibilis IDE, például IntelliJ IDEA vagy Eclipse megfelelő a kód írásához és futtatásához.  
+1. **Java Development Kit (JDK):** Gén még róla, hogy a gép JDK8 vagy újabb telepítés van.
+2. **GroupDocs.Metadata könyvtár:** A könyvtár 24.12-es verzióját fogjuk használni.
+3. **IDE:** Bármely Java-kompatibilis IDE, például IntelliJ IDEA vagy Eclipse megfelelő kód írásához és futtatásához.
 
-Emellett ajánlott alapvető Java programozási ismeretekkel rendelkezni, mint például osztályok, metódusok és kivételkezelés, a hatékony követés érdekében.
+ajánlott alapvető Java programozási ismeretekkel rendelkezni, mint például osztályok, metódusok és kivételkezelés, a hatékony követés érdekében.
 
-## Setting Up GroupDocs.Metadata for Java
+## A GroupDocs.Metadata beállítása Java számára
 Ahhoz, hogy a GroupDocs.Metadata-t a projektjében használja, két fő lehetőség áll rendelkezésre: Maven-en keresztül vagy közvetlen letöltéssel. Íme, hogyan integrálhatja:
 
 ### Maven Setup
@@ -70,15 +70,15 @@ Adja hozzá a következő tárolót és függőséget a `pom.xml` fájlhoz:
 </dependencies>
 ```
 
-### Direct Download
+### Közvetlen letöltés
 Alternatívaként letöltheti a legújabb verziót a [GroupDocs.Metadata Java kiadások](https://releases.groupdocs.com/metadata/java/) oldalról.
 
-#### License Acquisition
-- **Ingyenes próba:** Kezdje a próbaverzió letöltésével az alapfunkciók felfedezéséhez.  
-- **Ideiglenes licenc:** Kiterjesztett funkciók korlátozás nélküli használatához a kiértékelési időszak alatt kérjen ideiglenes licencet a hivatalos oldalon.  
+#### Licenc megszerzése
+- **Ingyenes próba:** Kezdje a próbaverzió letöltésével az alapfunkciók felfedezéséhez.
+- **Ideiglenes licenc:** Kiterjesztett funkciók nélküli használat a kiértékelési időszak alatt kérjen ideiglenes licencet a hivatalos oldalon.
 - **Licenc vásárlása:** Ha elégedett a teljesítménnyel, fontolja meg a teljes licenc megvásárlását a folyamatos használathoz.
 
-### Basic Initialization and Setup
+### Alapvető inicializálás és beállítás
 Ahhoz, hogy a GroupDocs.Metadata-t inicializálja a Java projektjében:
 
 ```java
@@ -98,13 +98,13 @@ public class MetadataExample {
 
 Ez a beállítás biztosítja, hogy készen áll a GroupDocs.Metadata erőteljes funkcióinak felfedezésére.
 
-## Implementation Guide
-Ebben a szakaszban végigvezetjük az ID3v2 címkék MP3 fájlban történő frissítésén a GroupDocs.Metadata Java használatával. A folyamat kezelhető lépésekre bontva, magyarázatokkal és kódrészletekkel.
+## Megvalósítási útmutató
+Ebben a szakaszban végigvezetjük az ID3v2 címkék MP3 fájlban történő frissítését a GroupDocs.Metadata Java segítségével. A folyamat kezelhető lépésekre bontva, magyarázatokkal és kódrészletekkel.
 
 ### ID3v2 címke frissítése MP3 fájlban
 
 #### Áttekintés
-Az ID3v2 címke frissítése magában foglalja a metaadatok, például cím, előadó, album stb. módosítását egy MP3 fájlban. Ez a funkció elengedhetetlen a rendezett zenei könyvtárak fenntartásához és a metaadatok konzisztenciájának biztosításához a fájlok között.
+Az ID3v2 címke frissítése magában foglalja a metaadatokat, például cím, előadó, album stb. módosítását egy MP3 fájlban. Ez a funkció elengedhetetlen a rendezett zenei könyvtárak fenntartásához és a metaadatok konzisztenciájának biztosításához a fájlok között.
 
 #### 1. lépés: MP3 fájl betöltése a Metadata osztállyal
 Kezdje az MP3 fájl betöltésével a `Metadata` osztály segítségével. A try‑with‑resources utasítás biztosítja, hogy a források automatikusan bezáródjanak a végrehajtás után:

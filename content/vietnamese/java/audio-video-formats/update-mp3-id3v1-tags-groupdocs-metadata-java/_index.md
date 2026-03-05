@@ -7,7 +7,7 @@ keywords:
 - update MP3 ID3v1 tags
 - GroupDocs.Metadata for Java
 - manage audio file metadata
-title: 'Cách chỉnh sửa hàng loạt thẻ MP3: Cập nhật thẻ ID3v1 bằng GroupDocs.Metadata
+title: 'Cách chỉnh sửa hàng loạt thẻ MP3 - Cập nhật thẻ ID3v1 bằng GroupDocs.Metadata
   trong Java'
 type: docs
 url: /vi/java/audio-video-formats/update-mp3-id3v1-tags-groupdocs-metadata-java/
@@ -157,18 +157,6 @@ Bạn hiện đã có một phương pháp hoàn chỉnh, sẵn sàng cho môi t
 - Đặt các bước vào một phương thức và gọi nó từ vòng lặp để xử lý toàn bộ thư mục.  
 - Khám phá các trường siêu dữ liệu bổ sung như thể loại hoặc số track.  
 - Kết hợp cách tiếp cận này với giao diện UI hoặc công cụ dòng lệnh cho người dùng không chuyên.
-
-## Phần Câu hỏi thường gặp
-1. **ID3v1 tag là gì?**  
-   - Thẻ ID3v1 lưu trữ siêu dữ liệu như tên album, nghệ sĩ, tiêu đề trong 128 byte đầu tiên của tệp MP3.  
-2. **Tôi có thể cập nhật nhiều thẻ cùng lúc không?**  
-   - Có, bạn có thể sửa đổi đồng thời nhiều thuộc tính của thẻ ID3v1 trong mã của mình.  
-3. **Nếu MP3 không có thẻ ID3v1 hiện có thì sao?**  
-   - Thư viện GroupDocs.Metadata cho phép bạn tạo một thẻ ID3v1 mới khi không có sẵn.  
-4. **GroupDocs.Metadata có miễn phí để sử dụng không?**  
-   - Có bản dùng thử miễn phí, và giấy phép tạm thời có thể được lấy để thử nghiệm mở rộng.  
-5. **Làm sao tôi xử lý lỗi khi cập nhật siêu dữ liệu?**  
-   - Sử dụng khối try‑catch để quản lý một cách nhẹ nhàng các ngoại lệ như `IOException`.
 
 ## Câu hỏi thường gặp
 

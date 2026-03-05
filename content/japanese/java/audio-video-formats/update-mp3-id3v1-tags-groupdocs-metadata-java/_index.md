@@ -156,18 +156,6 @@ You now have a complete, production‑ready method for **batch edit MP3 tags** u
 - ジャンルやトラック番号など、追加のメタデータフィールドを調査してください。  
 - この手法を UI やコマンドラインツールと組み合わせ、非技術者向けに提供してください。
 
-## FAQ セクション
-1. **ID3v1 タグとは何ですか？**  
-   - An ID3v1 tag stores metadata like album name, artist, title within the first 128 bytes of an MP3 file.  
-2. **複数のタグを同時に更新できますか？**  
-   - Yes, you can modify various properties of the ID3v1 tag simultaneously in your code.  
-3. **MP3 に既存の ID3v1 タグがない場合は？**  
-   - The GroupDocs.Metadata library allows you to create a new ID3v1 tag when none exists.  
-4. **GroupDocs.Metadata は無料で使用できますか？**  
-   - A free trial is available, and a temporary license can be obtained for extended testing.  
-5. **メタデータ更新中のエラーはどう処理すればよいですか？**  
-   - Use try‑catch blocks to gracefully manage exceptions like `IOException`.
-
 ## よくある質問
 
 **Q: ディレクトリ全体の MP3 タグを一括編集するには？**  

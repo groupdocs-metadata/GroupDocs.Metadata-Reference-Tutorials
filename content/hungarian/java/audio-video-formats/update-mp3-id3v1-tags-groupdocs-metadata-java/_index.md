@@ -8,7 +8,7 @@ keywords:
 - update MP3 ID3v1 tags
 - GroupDocs.Metadata for Java
 - manage audio file metadata
-title: 'Hogyan szerkesszünk tömegesen MP3 címkéket: ID3v1 címkék frissítése a GroupDocs.Metadata
+title: 'Hogyan szerkesszünk tömegesen MP3 címkéket - ID3v1 címkék frissítése a GroupDocs.Metadata
   használatával Java-ban'
 type: docs
 url: /hu/java/audio-video-formats/update-mp3-id3v1-tags-groupdocs-metadata-java/
@@ -158,18 +158,6 @@ Most már rendelkezel egy teljes, termelés‑kész módszerrel a **kötegelt MP
 - Csomagold a lépéseket egy metódusba, és hívd meg egy ciklusból a teljes mappa feldolgozásához.  
 - Fedezd fel a további metaadat mezőket, például műfaj vagy sorszám.  
 - Kombináld ezt a megközelítést UI‑val vagy parancssori eszközzel a nem technikai felhasználók számára.
-
-## Gyakran Ismételt Kérdések – FAQ
-1. **Mi az az ID3v1 címke?**  
-   - Az ID3v1 címke metaadatokat (album neve, előadó, cím stb.) tárol az MP3 fájl első 128 bájtjában.  
-2. **Frissíthetek több címkét egyszerre?**  
-   - Igen, a kódban egyszerre módosíthatod az ID3v1 címke különböző tulajdonságait.  
-3. **Mi van, ha az MP3‑nak nincs meglévő ID3v1 címkéje?**  
-   - A GroupDocs.Metadata könyvtár lehetővé teszi új ID3v1 címke létrehozását, ha nincs jelen.  
-4. **Ingyenes a GroupDocs.Metadata használata?**  
-   - Elérhető egy ingyenes próba, és ideiglenes licenc szerezhető a hosszabb teszteléshez.  
-5. **Hogyan kezeljem a hibákat a metaadat frissítése során?**  
-   - Használj try‑catch blokkokat a `IOException` és egyéb kivételek elegáns kezeléséhez.
 
 ## Gyakran Ismételt Kérdések
 

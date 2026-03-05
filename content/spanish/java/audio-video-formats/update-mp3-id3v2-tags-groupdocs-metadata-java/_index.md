@@ -7,8 +7,7 @@ keywords:
 - update MP3 ID3v2 tags
 - GroupDocs.Metadata in Java
 - manage audio metadata
-title: 'Cómo actualizar etiquetas ID3v2 de MP3 usando GroupDocs.Metadata en Java:
-  una guía completa'
+title: 'Cómo actualizar etiquetas ID3v2 de MP3 usando GroupDocs.Metadata en Java - una guía completa'
 type: docs
 url: /es/java/audio-video-formats/update-mp3-id3v2-tags-groupdocs-metadata-java/
 weight: 1

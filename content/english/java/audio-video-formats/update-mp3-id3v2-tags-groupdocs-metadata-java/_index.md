@@ -1,5 +1,5 @@
 ---
-title: "How to Update MP3 ID3v2 Tags Using GroupDocs.Metadata in Java: A Comprehensive Guide"
+title: "How to Update MP3 ID3v2 Tags Using GroupDocs.Metadata in Java - A Comprehensive Guide"
 description: "Learn how to update MP3 ID3v2 tags with the GroupDocs.Metadata library in Java. This guide shows how to update mp3 tags, use GroupDocs.Metadata Java, and handle batch update mp3 tags."
 date: "2026-01-06"
 weight: 1

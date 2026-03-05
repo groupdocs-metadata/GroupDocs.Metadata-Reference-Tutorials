@@ -16,29 +16,29 @@ weight: 1
 
 CAD 図面のメタデータ管理は、設計ファイルを正確かつ追跡可能に保つ必要がある開発者にとって、日常的でありながら重要な作業です。このチュートリアルでは、**GroupDocs.Metadata for Java** ライブラリを使用して、プログラムで **DXF の作者情報を更新する方法** を学びます。プロジェクトのセットアップから更新されたファイルの保存まで、すべての手順を順を追って説明するので、安心して自分の Java アプリケーションにこの機能を組み込むことができます。
 
-## Quick Answers
+## クイックアンサー
 - **「how to update dxf」とは何ですか？** DXF ファイル内のメタデータ（例: Author フィールド）を更新することです。  
 - **どのライブラリがこれを処理しますか？** GroupDocs.Metadata for Java。  
 - **必要な最低 Java バージョンは？** JDK 8 以上。  
 - **ライセンスは必要ですか？** 評価用には無料トライアルで動作しますが、本番環境ではフルライセンスが必要です。  
 - **複数ファイルを同時に処理できますか？** はい—単一ファイルのロジックをループでラップすればバッチ更新が可能です。
 
-## What is DXF Metadata and Why Update It?
+## DXFメタデータとは何か？なぜ更新する必要があるのか​​？
 DXF（Drawing Exchange Format）ファイルは、設計ジオメトリ **と** 作者、タイトル、作成日などの記述的プロパティのセットを格納します。このメタデータを更新することで、バージョン管理、コンプライアンス報告、共同作業フローが改善されます。更新を自動化することで、手動編集のミスを排除し、すべての図面で一貫した作者情報の付与が保証されます。
 
-## Why Use GroupDocs.Metadata for Java?
+## JavaでGroupDocs.Metadataを使用する理由
 - **Comprehensive CAD support** – DXF、DWG、その他のフォーマットをサポート。  
 - **Simple API** – プロパティの読み書きをワンラインで実行。  
 - **Performance‑optimized** – 大容量ファイルやバッチ処理でも高性能。  
 
-## Prerequisites
+## 前提条件
 - **GroupDocs.Metadata for Java**（バージョン 24.12 以降）。  
 - JDK 8 以上と IDE（IntelliJ IDEA、Eclipse など）。  
 - 基本的な Java の知識とファイル I/O の理解。
 
-## Setting Up GroupDocs.Metadata for Java
+## JavaでGroupDocs.Metadataを設定する
 
-### Maven Installation
+### Mavenのインストール
 `pom.xml` にリポジトリと依存関係を追加します:
 
 ```xml
@@ -59,15 +59,15 @@ DXF（Drawing Exchange Format）ファイルは、設計ジオメトリ **と** 
 </dependencies>
 ```
 
-### Direct Download
+### 直接ダウンロード
 あるいは、公式リリースページから最新の JAR をダウンロードします: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-### License Acquisition
+### ライセンスの取得
 - **Free Trial** – API を試すための一時キーを取得します。  
 - **Temporary License** – 機能制限なしで拡張テストに使用できます。  
 - **Full License** – 商用展開には必須です。
 
-### Basic Initialization and Setup
+### 基本的な初期化とセットアップ
 ソース DXF ファイルを指す `Metadata` インスタンスを作成します:
 
 ```java
@@ -76,9 +76,9 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputDxf")) {
 }
 ```
 
-## How to Update DXF Author Metadata Using GroupDocs.Metadata for Java
+## GroupDocs.Metadata for Java を使用して DXF 作成者メタデータを更新する方法
 
-### Step 1: Load the DXF File
+### ステップ 1: DXF ファイルを読み込む
 `Metadata` オブジェクトがファイルを読み込み、操作できるように準備します。
 
 ```java
@@ -88,7 +88,7 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputDxf")) {
 ```
 *重要な理由:* ファイルを正しく読み込むことで、内部のプロパティツリーへフルアクセスが可能になります。
 
-### Step 2: Access the CAD Root Package
+### ステップ 2: CAD ルートパッケージにアクセスする
 DXF プロパティを操作するために、CAD 固有のルートパッケージを取得します。
 
 ```java
@@ -96,7 +96,7 @@ CadRootPackage root = metadata.getRootPackageGeneric();
 ```
 これにより、すべての CAD 関連メタデータフィールドへのゲートウェイが得られます。
 
-### Step 3: Update the ‘Author’ Property
+### ステップ 3: 「作成者」プロパティを更新する
 `setProperties` メソッドを使用し、**Author** キーを対象とした仕様で更新します。
 
 ```java
@@ -104,7 +104,7 @@ root.getCadPackage().setProperties(new WithNameSpecification("Author"), new Prop
 ```
 *説明:* `WithNameSpecification` は名前でプロパティを特定し、`PropertyValue` が新しい作者文字列を提供します。
 
-### Step 4: Save the Modified File
+### ステップ 4: 変更したファイルを保存する
 元のファイルをそのままにして、変更を新しい場所に書き込みます。
 
 ```java
@@ -112,21 +112,21 @@ metadata.save("YOUR_OUTPUT_DIRECTORY/OutputDxf");
 ```
 これで DXF ファイルに更新された作者情報が含まれます。
 
-## Common Issues and Solutions
+## よくある問題と解決策
 - **Incorrect file path** – `YOUR_DOCUMENT_DIRECTORY` が既存の DXF ファイルを指しているか再確認してください。  
 - **Version mismatch** – GroupDocs.Metadata 24.12 以上を使用していることを確認してください。古いバージョンでは CAD API が利用できない場合があります。  
 - **Permission errors** – 入出力ディレクトリの読み書き権限を確認してください。  
 
-## Practical Applications
+## 実践的な応用
 1. **Automated version control** – 図面が保存されるたびに現在の開発者名を付加します。  
 2. **Batch processing** – DXF ファイルが入ったフォルダーをループし、社内の作者標準を適用します。  
 3. **Integration with PLM systems** – 作者メタデータを製品ライフサイクル管理データベースと同期させます。
 
-## Performance Tips
+## パフォーマンスに関するヒント
 - 大量バッチの場合は、ファイルを順次処理するかスレッドプールを使用しますが、メモリ使用量を監視してください。  
 - 可能であれば単一の `Metadata` インスタンスを再利用し、オブジェクト生成のオーバーヘッドを削減します。  
 
-## Frequently Asked Questions (Original FAQ)
+## よくある質問（FAQ）
 
 **Q:** サポートされていない DXF バージョンはどう扱いますか？  
 **A:** 最新の GroupDocs ドキュメントを参照してください。新しいリリースでは最近の DXF 仕様へのサポートが追加されています。
@@ -143,7 +143,7 @@ metadata.save("YOUR_OUTPUT_DIRECTORY/OutputDxf");
 **Q:** セッションごとのメタデータ更新に制限はありますか？  
 **A:** 明確な上限はありませんが、大規模バッチではヒープサイズの増加やストリーミング手法が必要になる場合があります。
 
-## Additional Resources
+## 追加リソース
 - [ドキュメント](https://docs.groupdocs.com/metadata/java/)
 - [API リファレンス](https://reference.groupdocs.com/metadata/java/)
 - [GroupDocs.Metadata のダウンロード](https://releases.groupdocs.com/metadata/java/)

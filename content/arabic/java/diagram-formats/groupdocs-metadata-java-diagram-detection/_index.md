@@ -6,7 +6,7 @@ keywords:
 - Diagram Detection
 - GroupDocs.Metadata for Java
 - Metadata Management
-title: 'استخراج بيانات تعريف المخططات في جافا: إتقان اكتشاف المخططات باستخدام GroupDocs.Metadata'
+title: 'استخراج بيانات تعريف المخططات في جافا - إتقان اكتشاف المخططات باستخدام GroupDocs.Metadata'
 type: docs
 url: /ar/java/diagram-formats/groupdocs-metadata-java-diagram-detection/
 weight: 1
@@ -155,23 +155,6 @@ String fileFormat = root.getDiagramType().getFileFormat();  // Example: obtainin
 في هذا الدليل أظهرنا كيفية **استخراج بيانات تعريف المخطط Java** باستخدام GroupDocs.Metadata للغة Java، متضمنين اكتشاف أنواع المخططات، استرجاع تفاصيل الصيغة، وتعديل البيانات الوصفية الأساسية. تمكّنك هذه التقنيات من بناء تطبيقات Java أكثر ذكاءً وتعتمد على البيانات الوصفية.
 
 لاستكشاف المزيد من الإمكانات، راجع [مرجع API الرسمي](https://reference.groupdocs.com/metadata/java/) أو انضم إلى المجتمع عبر [منتدى الدعم المجاني](https://forum.groupdocs.com/c/metadata/).
-
-## قسم الأسئلة المتكررة
-
-1. **هل يمكنني استخدام GroupDocs.Metadata لمعالجة دفعات من المخططات؟**  
-   نعم! لفّ كود الاستخراج داخل حلقة للتعامل مع ملفات متعددة بكفاءة.
-
-2. **ما الصيغ التي يدعمها GroupDocs.Metadata للغة Java؟**  
-   يدعم مجموعة واسعة من صيغ المخططات، بما في ذلك VDX. راجع [الوثائق](https://docs.groupdocs.com/metadata/java/) للقائمة الكاملة.
-
-3. **كيف أتعامل مع المخططات غير المدعومة؟**  
-   نفّذ كتل try‑catch حول الوصول إلى البيانات الوصفية وسجّل اسم الملف للمراجعة لاحقًا.
-
-4. **هل هناك دعم لخصائص بيانات وصفية مخصصة؟**  
-   بالتأكيد—يمكنك تعريف وتعديل خصائص مخصصة لتناسب احتياجات تطبيقك.
-
-5. **هل يمكن دمج GroupDocs.Metadata مع مكتبات Java أخرى؟**  
-   نعم، يعمل بسلاسة جنبًا إلى جنب مع أطر Java أخرى مثل Spring أو Apache POI.
 
 ## أسئلة شائعة
 

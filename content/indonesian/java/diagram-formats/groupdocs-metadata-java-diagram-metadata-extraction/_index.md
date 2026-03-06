@@ -145,23 +145,6 @@ Dalam panduan ini, kami mengeksplorasi **how to extract metadata** dari diagram 
 
 **Langkah Selanjutnya:** Bereksperimen dengan format diagram yang berbeda, jelajahi pemrosesan batch, dan selami lebih dalam fitur lanjutan yang ditawarkan oleh GroupDocs.Metadata.
 
-## Bagian FAQ
-
-1. **Bagaimana cara menangani file diagram besar?**  
-   - Gunakan praktik manajemen memori yang efisien untuk memastikan pemrosesan yang lancar.
-
-2. **Bisakah saya mengekstrak metadata dari file non‑diagram?**  
-   - Ya, GroupDocs.Metadata mendukung berbagai format file; lihat dokumentasi untuk metode spesifik.
-
-3. **Bagaimana jika properti tidak ditemukan selama ekstraksi?**  
-   - Pastikan dokumen Anda berisi properti khusus yang diharapkan dan verifikasi pathnya.
-
-4. **Apakah ada dukungan untuk pemrosesan batch?**  
-   - Meskipun panduan ini fokus pada file tunggal, GroupDocs.Metadata dapat diperluas untuk operasi batch.
-
-5. **Bagaimana cara mengatasi masalah dengan akses metadata?**  
-   - Periksa dokumentasi dan forum untuk solusi umum serta saran komunitas.
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Apakah GroupDocs.Metadata bekerja dengan file diagram terenkripsi?**  
@@ -179,12 +162,6 @@ A: GroupDocs.Metadata mengabstraksi format yang mendasarinya, menyediakan API te
 **Q: Apakah ada batasan jumlah properti khusus yang dapat saya simpan?**  
 A: Batasan ditentukan oleh format file yang mendasarinya; kebanyakan format diagram modern mendukung puluhan tag khusus.
 
----
-
-**Terakhir Diperbarui:** 2026-01-16  
-**Diuji Dengan:** GroupDocs.Metadata 24.12 untuk Java  
-**Penulis:** GroupDocs  
-
 **Sumber Daya**  
 - [Documentation](https://docs.groupdocs.com/metadata/java/)  
 - [API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -192,3 +169,9 @@ A: Batasan ditentukan oleh format file yang mendasarinya; kebanyakan format diag
 - [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
 - [Temporary License Acquisition](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Terakhir Diperbarui:** 2026-01-16  
+**Diuji Dengan:** GroupDocs.Metadata 24.12 untuk Java  
+**Penulis:** GroupDocs  

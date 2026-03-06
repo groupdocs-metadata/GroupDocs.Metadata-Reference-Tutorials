@@ -149,23 +149,6 @@ V tomto průvodci jsme prozkoumali **jak extrahovat metadata** z diagramů pomoc
 
 ## Často kladené otázky
 
-1. **Jak zacházet s velkými soubory diagramů?**  
-   - Používejte efektivní postupy správy paměti, aby bylo zajištěno plynulé zpracování.
-
-2. **Mohu extrahovat metadata z ne‑diagramových souborů?**  
-   - Ano, GroupDocs.Metadata podporuje různé formáty souborů; podívejte se do dokumentace na konkrétní metody.
-
-3. **Co když během extrakce není vlastnost nalezena?**  
-   - Ujistěte se, že váš dokument obsahuje očekávané vlastní vlastnosti a ověřte cestu.
-
-4. **Je podporováno dávkové zpracování?**  
-   - I když se tento průvodce zaměřuje na jednotlivé soubory, GroupDocs.Metadata lze rozšířit pro dávkové operace.
-
-5. **Jak řešit problémy s přístupem k metadatům?**  
-   - Prohlédněte si dokumentaci a fóra pro běžná řešení a rady od komunity.
-
-## Často kladené otázky
-
 **Q: Funguje GroupDocs.Metadata s šifrovanými soubory diagramů?**  
 A: Ano, můžete zadat heslo při otevírání souboru pomocí přetížení konstruktoru `Metadata`.
 
@@ -181,12 +164,6 @@ A: GroupDocs.Metadata abstrahuje podkladový formát a poskytuje jednotné API p
 **Q: Existují nějaká omezení počtu vlastních vlastností, které mohu uložit?**  
 A: Omezení jsou definována podkladovým formátem souboru; většina moderních formátů diagramů podporuje desítky vlastních štítků.
 
----
-
-**Poslední aktualizace:** 2026-01-16  
-**Testováno s:** GroupDocs.Metadata 24.12 for Java  
-**Autor:** GroupDocs  
-
 **Zdroje**  
 - [Dokumentace](https://docs.groupdocs.com/metadata/java/)  
 - [Reference API](https://reference.groupdocs.com/metadata/java/)  
@@ -194,3 +171,9 @@ A: Omezení jsou definována podkladovým formátem souboru; většina moderníc
 - [GitHub repozitář](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Bezplatné fórum podpory](https://forum.groupdocs.com/c/metadata/)  
 - [Získání dočasné licence](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Poslední aktualizace:** 2026-01-16  
+**Testováno s:** GroupDocs.Metadata 24.12 for Java  
+**Autor:** GroupDocs  

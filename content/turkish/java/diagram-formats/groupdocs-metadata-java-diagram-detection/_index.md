@@ -7,7 +7,7 @@ keywords:
 - Diagram Detection
 - GroupDocs.Metadata for Java
 - Metadata Management
-title: 'Diagram Metaverilerini Java ile Çıkarma: GroupDocs.Metadata ile Diagram Algılamada
+title: 'Diagram Metaverilerini Java ile Çıkarma - GroupDocs.Metadata ile Diagram Algılamada
   Ustalık'
 type: docs
 url: /tr/java/diagram-formats/groupdocs-metadata-java-diagram-detection/
@@ -157,23 +157,6 @@ Bu deseni, ihtiyaç duyulduğunda diğer diyagrama özgü metaveri alanlarını 
 Bu rehberde, GroupDocs.Metadata for Java kullanarak **extract diagram metadata java** nasıl yapılır gösterdik; diyagram türlerinin tespiti, format detaylarının alınması ve temel metaveri manipülasyonu konularını kapsadık. Bu teknikler, daha akıllı, metaveri‑odaklı Java uygulamaları oluşturmanızı sağlar.
 
 Daha fazla yeteneği keşfetmek için resmi [API Referansına](https://reference.groupdocs.com/metadata/java/) göz atın veya topluluğa [ücretsiz destek forumunda](https://forum.groupdocs.com/c/metadata/) katılın.
-
-## SSS Bölümü
-
-1. **GroupDocs.Metadata'ı diyagramların toplu işlenmesi için kullanabilir miyim?**  
-   Evet! Çıkarma kodunu bir döngü içinde sararak birden fazla dosyayı verimli bir şekilde işleyebilirsiniz.
-
-2. **GroupDocs.Metadata for Java hangi formatları destekliyor?**  
-   VDX dahil olmak üzere geniş bir diyagram formatı yelpazesini destekler. Tam liste için [belgelere](https://docs.groupdocs.com/metadata/java/) bakın.
-
-3. **Desteklenmeyen diyagramları nasıl ele alırım?**  
-   Metaveri erişimi etrafında try‑catch blokları uygulayın ve dosya adını daha sonra inceleme için kaydedin.
-
-4. **Özel metaveri özellikleri için destek var mı?**  
-   Kesinlikle—uygulamanızın ihtiyaçlarına göre özel özellikler tanımlayabilir ve manipüle edebilirsiniz.
-
-5. **GroupDocs.Metadata diğer Java kütüphaneleriyle entegre edilebilir mi?**  
-   Evet, Spring veya Apache POI gibi diğer Java çerçeveleriyle sorunsuz çalışır.
 
 ## Sıkça Sorulan Sorular
 

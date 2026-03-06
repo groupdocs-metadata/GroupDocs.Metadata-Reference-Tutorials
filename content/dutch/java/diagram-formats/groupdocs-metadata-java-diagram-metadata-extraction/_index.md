@@ -145,23 +145,6 @@ In deze gids hebben we **hoe metadata uit diagrammen te extraheren** met GroupDo
 
 **Volgende stappen:** Experimenteer met verschillende diagramformaten, verken batchverwerking, en duik dieper in de geavanceerde functies die GroupDocs.Metadata biedt.
 
-## FAQ‑sectie
-
-1. **Hoe ga ik om met grote diagrambestanden?**  
-   - Gebruik efficiënte geheugenbeheerpraktijken om een soepele verwerking te garanderen.
-
-2. **Kan ik metadata extraheren uit niet‑diagrambestanden?**  
-   - Ja, GroupDocs.Metadata ondersteunt diverse bestandsformaten; raadpleeg de documentatie voor specifieke methoden.
-
-3. **Wat als een eigenschap niet wordt gevonden tijdens het extraheren?**  
-   - Zorg ervoor dat je document de verwachte aangepaste eigenschappen bevat en controleer het pad.
-
-4. **Is er ondersteuning voor batchverwerking?**  
-   - Hoewel deze gids zich richt op enkele bestanden, kan GroupDocs.Metadata worden uitgebreid voor batchbewerkingen.
-
-5. **Hoe los ik problemen met metadata‑toegang op?**  
-   - Controleer de documentatie en forums voor veelvoorkomende oplossingen en community‑advies.
-
 ## Veelgestelde vragen
 
 **V: Werkt GroupDocs.Metadata met versleutelde diagrambestanden?**  
@@ -179,12 +162,6 @@ A: GroupDocs.Metadata abstraheert het onderliggende formaat en biedt een uniform
 **V: Zijn er limieten aan het aantal aangepaste eigenschappen dat ik kan opslaan?**  
 A: Limieten worden bepaald door het onderliggende bestandsformaat; de meeste moderne diagramformaten ondersteunen tientallen aangepaste tags.
 
----
-
-**Laatst bijgewerkt:** 2026-01-16  
-**Getest met:** GroupDocs.Metadata 24.12 voor Java  
-**Auteur:** GroupDocs  
-
 **Bronnen**  
 - [Documentation](https://docs.groupdocs.com/metadata/java/)  
 - [API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -192,3 +169,9 @@ A: Limieten worden bepaald door het onderliggende bestandsformaat; de meeste mod
 - [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
 - [Temporary License Acquisition](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Laatst bijgewerkt:** 2026-01-16  
+**Getest met:** GroupDocs.Metadata 24.12 voor Java  
+**Auteur:** GroupDocs  

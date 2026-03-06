@@ -14,50 +14,50 @@ url: /ru/java/diagram-formats/extract-diagram-metadata-groupdocs-java/
 weight: 1
 ---
 
-# java document properties – Извлечение метаданных диаграмм с помощью GroupDocs for Java
+# Свойства документа Java – Извлечение диаграммы метаданных с помощью GroupDocs для Java
 
-## Introduction
-Ищете способ эффективно извлекать и управлять **java document properties** из ваших файлов диаграмм? Понимание базовых метаданных — таких как данные о создателе, информация о компании и время создания — имеет решающее значение для управления документацией. Это подробное руководство проведёт вас через извлечение встроенных свойств метаданных с помощью GroupDocs.Metadata for Java и покажет реальные сценарии, где эти свойства приносят пользу.
+## Введение
+Найдите способ эффективно использовать и управлять **свойствами Java-документов** на основе диаграмм ваших файлов? Понимание базовых метаданных — таких как данные об создателе, информация о компании и времени создания — имеет решающее значение для управления документацией. Это подробное руководство проведет вас через извлечение встроенных метаданных свойств с помощью GroupDocs.Metadata для Java и покажет реальные ситуации, в которых эти свойства применяются.
 
 **Что вы узнаете**
-- Как извлекать метаданные, такие как создатель, компания, ключевые слова, язык, дата создания и категория.  
-- Настройка среды с необходимыми библиотеками и зависимостями.  
-- Практические применения извлечённых метаданных в реальных проектах.  
+- Как возникают метаданные, как такие создатель, компания, ключевые слова, язык, категория и создание.
+- Настройка среды с обновлением библиотек и зависимостей.
+- Практические применение извлечённых метаданных в собственных проектах.
 
-Давайте настроим вашу среду перед тем, как приступить к извлечению ценной информации из ваших диаграмм!
+Давайте настроим вашу среду перед тем, как приступить к извлечению ценной информации из вашей диаграммы!
 
-## Quick Answers
-- **What is the primary purpose of java document properties?** Чтобы раскрыть встроенную информацию, такую как автор, дата создания и категория, для лучшего управления ресурсами.  
-- **Which library provides the easiest access to these properties?** GroupDocs.Metadata for Java.  
-- **Do I need a license to run the examples?** Бесплатная пробная версия подходит для оценки; постоянная лицензия требуется для продакшн‑использования.  
-- **Can I read the file creation date java using this API?** Да — `getTimeCreated()` возвращает метку времени создания.  
-- **Is it possible to read diagram category?** Абсолютно — `getCategory()` возвращает свойство категории диаграммы.
+## Быстрые ответы
+- **Какова основная цель свойств Java-документа?** Чтобы открыть встроенную информацию, такую ​​как автор, дата создания и категория, для лучшего управления проектами.
+- **Какая библиотека обеспечивает самый простой доступ к этим свойствам?** GroupDocs.Metadata для Java.
+- **Нужна ли мне лицензия для запуска примеров?** Бесплатная пробная версия подходит для оценок; Постоянная лицензия требуется для продакшн‑использования.
+- **Могу ли я прочитать дату создания файла Java с помощью этого API?** Да — `getTimeCreated()` возвращает метку времени создания.
+- **Можно ли прочитать категорию диаграммы?** Абсолютно — `getCategory()` возвращает свойство категории диаграммы.
 
-## What are java document properties?
-Java document properties — это встроенные поля метаданных, хранящиеся внутри файла (например, автор, компания, ключевые слова). Они позволяют автоматизировать классификацию, поиск и проверки соответствия без открытия содержимого файла.
+## Что такое свойства Java-документа?
+Свойства документа Java — это встроенные поля метаданных, хранящиеся внутри файла (например, автор, компания, ключевые слова). Они позволяют автоматизировать классификацию, поиск и проверку соответствия без отклонения файла.
 
-## Why use GroupDocs.Metadata for Java?
-GroupDocs.Metadata предлагает **metadata library example**, который абстрагирует низкоуровневый разбор файлов. Он поддерживает десятки форматов, предоставляет чистую объектную модель и автоматически управляет ресурсами, позволяя сосредоточиться на бизнес‑логике.
+## Зачем использовать GroupDocs.Metadata для Java?
+GroupDocs.Metadata предлагает **пример библиотеки метаданных**, который абстрагирует низкоуровневые файлы анализа. Он поддерживает десять форматов, обеспечивает четкую объектную модель и автоматическое управление задачами, уделяя особое внимание бизнес-логике.
 
-## Prerequisites
-Before proceeding, ensure you have the following:
+## Предварительные условия
+Прежде чем продолжить, убедитесь, что у вас есть следующее:
 
-### Required Libraries and Dependencies
-- **GroupDocs.Metadata for Java** (version 24.12 or later).  
-- **Java Development Kit (JDK)** – рекомендуется JDK 8+.
+### Необходимые библиотеки и зависимости
+- **GroupDocs.Метаданные для Java** (версия 24.12 или новее).
+- **Комплект разработки Java (JDK)** – рекомендуется JDK8+.
 
-### Environment Setup Requirements
-- IDE, например IntelliJ IDEA или Eclipse.  
+### Требования к настройке среды
+- IDE, например IntelliJ IDEA или Eclipse.
 - Maven для управления зависимостями (опционально, но рекомендуется).
 
-### Knowledge Prerequisites
+### Необходимые знания
 Базовые навыки программирования на Java и знакомство с IDE достаточны.
 
-## Setting Up GroupDocs.Metadata for Java
-Integrate GroupDocs.Metadata into your project using Maven or a direct download.
+## Настройка GroupDocs.Metadata для Java
+Интегрируйте GroupDocs.Metadata в свой проект с помощью Maven или прямой загрузки.
 
-**Maven Setup**  
-Add the following to your `pom.xml` file:
+**Настройка Maven**
+Добавьте следующее в файл `pom.xml`:
 ```xml
 <repositories>
    <repository>
@@ -76,16 +76,16 @@ Add the following to your `pom.xml` file:
 </dependencies>
 ```
 
-**Direct Download**  
-Alternatively, download the latest version from [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+**Прямая загрузка**
+Либо загрузите последнюю версию из [GroupDocs.Metadata для выпусков Java] (https://releases.groupdocs.com/metadata/java/).
 
-### License Acquisition
-- **Free Trial** – Исследуйте все функции без затрат.  
-- **Temporary License** – Полезно для краткосрочной оценки. Оформите через [GroupDocs' purchase page](https://purchase.groupdocs.com/temporary-license/).  
-- **Purchase** – Требуется для продакшн‑развёртываний.
+### Получение лицензии
+- **Бесплатная пробная версия** – Исследуйте все функции без затрат.
+- **Временная лицензия** – Полезно для постепенной оценки. Оформите через [страницу покупки GroupDocs](https://purchase.groupdocs.com/temporary-license/).
+- **Покупка** – Требуется для продакшн‑развёртывания.
 
-### Basic Initialization and Setup
-Initialize GroupDocs.Metadata in your Java project:
+### Базовая инициализация и настройка
+Инициализируйте GroupDocs.Metadata в своем проекте Java:
 ```java
 import com.groupdocs.metadata.Metadata;
 import com.groupdocs.metadata.core.DiagramRootPackage;
@@ -94,27 +94,27 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/your-diagram-file
     DiagramRootPackage root = metadata.getRootPackageGeneric();
 }
 ```
-Replace `"YOUR_DOCUMENT_DIRECTORY/your-diagram-file.vsdx"` with your actual file path.
+Замените `"YOUR_DOCUMENT_DIRECTORY/your-diagram-file.vsdx" на фактический путь к файлу.
 
-## Implementation Guide
+## Руководство по внедрению
 
-### Extracting Built‑in java document properties from a Diagram Document
-Эта функция позволяет получать такие важные свойства, как создатель, компания, ключевые слова, язык, **file creation date java** и категория.
+### Извлечение встроенных свойств Java-документа из документа схемы
+Эта функция позволяет получить такие важные свойства, как создатель, компания, ключевые слова, язык, **дата создания файла java** и категория.
 
-#### Step‑by‑Step Implementation
-##### Step 1: Initialize the Metadata Class
+#### Пошаговое внедрение
+##### Шаг 1. Инициализируйте класс метаданных
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/your-diagram-file.vsdx")) {
 ```
-*Why?* Это открывает диаграмму для чтения и подготавливает API к извлечению свойств.
+*Почему?* Это открывает диаграмму для чтения и подготавливает API для извлечения свойства.
 
-##### Step 2: Access the Root Package
+##### Шаг 2. Доступ к корневому пакету
 ```java
 DiagramRootPackage root = metadata.getRootPackageGeneric();
 ```
-*Explanation*: Корневой пакет содержит основные свойства документа, которые вы будете запрашивать.
+*Пояснение*: Корневой пакет содержит документ об основных свойствах, который вы хотите задать.
 
-##### Step 3: Extract and Print Metadata Properties
+##### Шаг 3. Извлечение и печать свойств метаданных
 ```java
 String creator = root.getDocumentProperties().getCreator();
 String company = root.getDocumentProperties().getCompany();
@@ -131,60 +131,60 @@ System.out.println("Language: " + language);
 System.out.println("Time Created: " + timeCreated);
 System.out.println("Category: " + category);
 ```
-*Why?* Печать подтверждает, что **java document properties** успешно получены.
+*Почему?* Печать подтверждения о том, что **свойства Java-документа** успешно получены.
 
-### Troubleshooting Tips
-- **File Path Issues** – Тщательно проверьте путь, чтобы избежать `FileNotFoundException`.  
-- **Library Compatibility** – Убедитесь, что используете GroupDocs.Metadata версии 24.12 или новее.  
-- **Memory Management** – Блок try‑with‑resources гарантирует автоматическое закрытие экземпляра `Metadata`.
+### Советы по устранению неполадок
+- **Проблемы с путем к файлу** — тщательно проверьте путь, чтобы избежать `FileNotFoundException`.
+- **Совместимость библиотек** – убедитесь, что используются GroupDocs.Metadata версии 24.12 или новее.
+- **Управление памятью** — блокировка попыток с ресурсами обеспечивает обязательное закрытие экземпляра «Метаданные».
 
-## Practical Applications
-Извлечение **java document properties** из файлов диаграмм может быть неоценимым:
+## Практическое применение
+Извлечение **свойств Java-документа** из диаграммы файлов может быть неоценимым:
 
-1. **Content Management Systems** – Автоматически помечайте диаграммы с помощью извлечённых ключевых слов и категорий.  
-2. **Collaboration Platforms** – Показывайте создателя документа и компанию для повышения прослеживаемости.  
-3. **Data Analytics** – Сводите данные о языке и дате создания для отчётов по локализации.  
+1. **Системы управления контентом** — автоматически помечайте диаграммы с помощью извлечения ключевых слов и категорий.
+2. **Платформы для совместной работы** – покажите документ создателя и компанию для повышения прослеживаемости.
+3. **Аналитика данных** — Считывает данные о языке и дате создания для отчётов по местонахождению.
 
-## Performance Considerations
-- **Optimize Memory Usage** – Всегда используйте try‑with‑resources, как показано.  
-- **Batch Processing** – Обрабатывайте несколько файлов в цикле, чтобы снизить накладные расходы.  
-- **Resource Monitoring** – Следите за использованием кучи при работе с большими коллекциями диаграмм.
+## Вопросы производительности
+- **Оптимизация использования памяти** – Всегда используйте пробу с ресурсами, как показано.
+- **Пакетная обработка** – обрабатывайте несколько файлов в цикле, чтобы снизить накладные расходы.
+- **Мониторинг ресурсов** – Следите за использованием кучи при работе с нарисованной коллекцией диаграмм.
 
-## Common Issues and Solutions
+## Распространенные проблемы и решения
 | Проблема | Решение |
 |----------|---------|
 | `FileNotFoundException` | Проверьте абсолютный или относительный путь и убедитесь, что файл существует. |
-| `UnsupportedOperationException` | Убедитесь, что формат диаграммы поддерживается GroupDocs.Metadata. |
-| High memory consumption | Обрабатывайте файлы небольшими партиями и своевременно закрывайте каждый экземпляр `Metadata`. |
+| `UnsupportedOperationException` | Убедитесь, что формат диаграммы соответствует GroupDocs.Metadata. |
+| Высокое потребление памяти | Обрабатывайте файлы небольшими партиями и своевременно закрывайте каждый экземпляр метаданных. |
 
-## Frequently Asked Questions
-**Q: What version of Java is required for GroupDocs.Metadata?**  
-A: JDK 8 или выше рекомендуется для полной совместимости.
+## Часто задаваемые вопросы
+**Вопрос: Какая версия Java требуется для GroupDocs.Metadata?**
+О: Для полной совместимости рекомендуется JDK8 или выше.
 
-**Q: Can I extract metadata from formats other than diagrams?**  
-A: Да, GroupDocs.Metadata поддерживает множество типов документов, включая PDF, Word и Excel.
+**В: Могу ли я извлечь метаданные из форматов, отличных от диаграмм?**
+Ответ: Да, GroupDocs.Metadata поддерживает множество типов документов, включая PDF, Word и Excel.
 
-**Q: How do I handle very large diagram files efficiently?**  
-A: Используйте пакетную обработку, ограничьте количество одновременно работающих экземпляров `Metadata` и контролируйте память JVM.
+**В: Как эффективно обрабатывать очень большие файлы диаграмм?**
+Ответ: Используйте пакетную обработку, ограничьте количество одновременно работающих экземпляров «Метаданных» и контролируйте память JVM.
 
-**Q: What are typical errors when extracting metadata?**  
-A: Частыми ошибками являются неверные пути к файлам и несовместимые версии библиотек.
+**Вопрос: Каковы типичные ошибки при извлечении метаданных?**
+Ответ: Частыми ошибками являются неверные пути к файлам и несовместимые версии библиотек.
 
-**Q: Is it possible to customize which metadata fields are read?**  
-A: Хотя в этом руководстве рассматриваются встроенные свойства, API позволяет запрашивать и пользовательские свойства.
+**В: Можно ли настроить чтение полей метаданных?**
+О: Хотя в этом руководстве рассматриваются встроенные свойства, API позволяет запрашивать и пользовательские свойства.
 
-## Resources
-- [Documentation](https://docs.groupdocs.com/metadata/java/)  
-- [API Reference](https://reference.groupdocs.com/metadata/java/)  
-- [Download](https://releases.groupdocs.com/metadata/java/)  
-- [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
-- [Temporary License Application](https://purchase.groupdocs.com/temporary-license/)
+## Ресурсы
+- [Документация](https://docs.groupdocs.com/metadata/java/)
+- [Справочник по API](https://reference.groupdocs.com/metadata/java/)
+- [Скачать](https://releases.groupdocs.com/metadata/java/)
+- [Репозиторий GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- [Форум бесплатной поддержки](https://forum.groupdocs.com/c/metadata/)
+- [Заявка на временную лицензию](https://purchase.groupdocs.com/temporary-license/)
 
-Следуя этому руководству, вы теперь умеете использовать **java document properties** из файлов диаграмм с помощью GroupDocs.Metadata for Java. Внедрите эти техники в свои рабочие процессы для улучшения организации активов, соответствия требованиям и автоматизации.
+Следуя этому замыслу, вы теперь умеете использовать **свойства Java-документа** из файлов диаграмм с помощью GroupDocs.Metadata для Java. Внедрите это оборудование в свои рабочие процессы для улучшения организации активов, соответствия требованиям и автоматизации.
 
 ---
 
-**Last Updated:** 2026-01-16  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs
+**Последнее обновление:** 16.01.2026
+**Протестировано с:** GroupDocs.Metadata 24.12 для Java
+**Автор:** GroupDocs

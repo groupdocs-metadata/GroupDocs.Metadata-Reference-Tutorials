@@ -6,7 +6,7 @@ keywords:
 - Diagram Detection
 - GroupDocs.Metadata for Java
 - Metadata Management
-title: 'Estrai i metadati dei diagrammi Java: padroneggiare il rilevamento dei diagrammi
+title: 'Estrai i metadati dei diagrammi Java - padroneggiare il rilevamento dei diagrammi
   con GroupDocs.Metadata'
 type: docs
 url: /it/java/diagram-formats/groupdocs-metadata-java-diagram-detection/
@@ -156,23 +156,6 @@ Puoi estendere questo schema per leggere o modificare altri campi di metadati sp
 In questa guida abbiamo dimostrato come **estrarre i metadati dei diagrammi in Java** usando GroupDocs.Metadata per Java, coprendo il rilevamento dei tipi di diagramma, il recupero dei dettagli di formato e la manipolazione di base dei metadati. Queste tecniche ti consentono di creare applicazioni Java più intelligenti, guidate dai metadati.
 
 Per esplorare ulteriori funzionalità, consulta il riferimento ufficiale dell'[API Reference](https://reference.groupdocs.com/metadata/java/) o unisciti alla community sul [free support forum](https://forum.groupdocs.com/c/metadata/).
-
-## Sezione FAQ
-
-1. **Posso usare GroupDocs.Metadata per l'elaborazione batch di diagrammi?**  
-   Sì! Avvolgi il codice di estrazione in un ciclo per gestire più file in modo efficiente.
-
-2. **Quali formati sono supportati da GroupDocs.Metadata per Java?**  
-   Supporta una vasta gamma di formati di diagramma, incluso VDX. Vedi la [documentazione](https://docs.groupdocs.com/metadata/java/) per l'elenco completo.
-
-3. **Come gestisco i diagrammi non supportati?**  
-   Implementa blocchi try‑catch attorno all'accesso ai metadati e registra il nome del file per una revisione successiva.
-
-4. **È previsto il supporto per proprietà di metadati personalizzate?**  
-   Assolutamente—puoi definire e manipolare proprietà personalizzate per soddisfare le esigenze della tua applicazione.
-
-5. **GroupDocs.Metadata può essere integrato con altre librerie Java?**  
-   Sì, funziona senza problemi accanto ad altri framework Java come Spring o Apache POI.
 
 ## Domande Frequenti
 

@@ -145,23 +145,6 @@ Neste guia, exploramos **how to extract metadata** de diagramas usando o GroupDo
 
 **Próximos Passos:** Experimente diferentes formatos de diagramas, explore o processamento em lote e aprofunde-se nos recursos avançados oferecidos pelo GroupDocs.Metadata.
 
-## Seção de FAQ
-
-1. **Como lidar com arquivos de diagramas grandes?**  
-   - Use práticas eficientes de gerenciamento de memória para garantir um processamento suave.
-
-2. **Posso extrair metadados de arquivos que não são diagramas?**  
-   - Sim, o GroupDocs.Metadata suporta vários formatos de arquivo; consulte a documentação para métodos específicos.
-
-3. **E se uma propriedade não for encontrada durante a extração?**  
-   - Certifique‑se de que seu documento contém as propriedades personalizadas esperadas e verifique o caminho.
-
-4. **Existe suporte para processamento em lote?**  
-   - Embora este guia foque em arquivos individuais, o GroupDocs.Metadata pode ser estendido para operações em lote.
-
-5. **Como solucionar problemas de acesso a metadados?**  
-   - Verifique a documentação e os fóruns para soluções comuns e conselhos da comunidade.
-
 ## Perguntas Frequentes
 
 **Q: O GroupDocs.Metadata funciona com arquivos de diagramas criptografados?**  
@@ -179,12 +162,6 @@ A: O GroupDocs.Metadata abstrai o formato subjacente, expondo uma API unificada 
 **Q: Existem limites para o número de propriedades personalizadas que posso armazenar?**  
 A: Os limites são definidos pelo formato de arquivo subjacente; a maioria dos formatos modernos de diagramas suporta dezenas de tags personalizadas.
 
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
 **Recursos**  
 - [Documentation](https://docs.groupdocs.com/metadata/java/)  
 - [API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -192,3 +169,9 @@ A: Os limites são definidos pelo formato de arquivo subjacente; a maioria dos f
 - [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
 - [Temporary License Acquisition](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs  

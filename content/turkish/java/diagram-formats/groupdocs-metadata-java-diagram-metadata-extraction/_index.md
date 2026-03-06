@@ -145,23 +145,6 @@ Bu rehberde, GroupDocs.Metadata Java kullanarak diyagramlardan **metadata nasıl
 
 **Sonraki Adımlar:** Farklı diyagram formatlarıyla denemeler yapın, toplu işleme keşfedin ve GroupDocs.Metadata’ın sunduğu gelişmiş özelliklere daha derinlemesine bakın.
 
-## SSS Bölümü
-
-1. **Büyük diyagram dosyalarını nasıl yönetirim?**  
-   - Sorunsuz işleme sağlamak için verimli bellek yönetimi uygulayın.
-
-2. **Diyagram olmayan dosyalardan metadata çıkarabilir miyim?**  
-   - Evet, GroupDocs.Metadata çeşitli dosya formatlarını destekler; belirli yöntemler için dokümantasyona bakın.
-
-3. **Çıkarma sırasında bir özellik bulunamazsa ne olur?**  
-   - Belgenizin beklenen özel özellikleri içerdiğinden emin olun ve yolu doğrulayın.
-
-4. **Toplu işleme desteği var mı?**  
-   - Bu rehber tek dosyalara odaklansa da, GroupDocs.Metadata toplu işlemler için genişletilebilir.
-
-5. **Metadata erişiminde sorunları nasıl gideririm?**  
-   - Yaygın çözümler ve topluluk tavsiyeleri için dokümantasyon ve forumları kontrol edin.
-
 ## Sıkça Sorulan Sorular
 
 **S: GroupDocs.Metadata şifreli diyagram dosyalarıyla çalışır mı?**  
@@ -179,12 +162,6 @@ C: GroupDocs.Metadata temel formatı soyutlayarak desteklenen diyagram tipleri i
 **S: Saklayabileceğim özel özellik sayısında bir limit var mı?**  
 C: Limitler dosya formatının kendisine bağlıdır; çoğu modern diyagram formatı onlarca özel etiket destekler.
 
----
-
-**Son Güncelleme:** 2026-01-16  
-**Test Edilen Sürüm:** GroupDocs.Metadata 24.12 for Java  
-**Yazar:** GroupDocs  
-
 **Kaynaklar**  
 - [Documentation](https://docs.groupdocs.com/metadata/java/)  
 - [API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -192,3 +169,9 @@ C: Limitler dosya formatının kendisine bağlıdır; çoğu modern diyagram for
 - [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
 - [Temporary License Acquisition](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Son Güncelleme:** 2026-01-16  
+**Test Edilen Sürüm:** GroupDocs.Metadata 24.12 for Java  
+**Yazar:** GroupDocs  

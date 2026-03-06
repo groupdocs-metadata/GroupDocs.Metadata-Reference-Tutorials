@@ -145,23 +145,6 @@ DiagramRootPackage root = metadata.getRootPackageGeneric();
 
 **الخطوات التالية:** جرب صيغ مخططات مختلفة، استكشف المعالجة الدفعية، وتعمق أكثر في الميزات المتقدمة التي تقدمها GroupDocs.Metadata.
 
-## قسم الأسئلة المتكررة
-
-1. **كيف أتعامل مع ملفات المخططات الكبيرة؟**  
-   - استخدم ممارسات إدارة الذاكرة الفعّالة لضمان معالجة سلسة.
-
-2. **هل يمكنني استخراج البيانات الوصفية من ملفات غير المخططات؟**  
-   - نعم، يدعم GroupDocs.Metadata صيغ ملفات متعددة؛ راجع الوثائق للطرق المحددة.
-
-3. **ماذا لو لم يتم العثور على خاصية أثناء الاستخراج؟**  
-   - تأكد من أن المستند يحتوي على الخصائص المخصصة المتوقعة وتحقق من المسار.
-
-4. **هل هناك دعم للمعالجة الدفعية؟**  
-   - رغم أن هذا الدليل يركز على ملفات فردية، يمكن توسيع GroupDocs.Metadata للعمليات الدفعية.
-
-5. **كيف أقوم باستكشاف مشكلات الوصول إلى البيانات الوصفية؟**  
-   - راجع الوثائق والمنتديات للحصول على حلول شائعة ونصائح المجتمع.
-
 ## الأسئلة المتكررة
 
 **س: هل يعمل GroupDocs.Metadata مع ملفات المخططات المشفرة؟**  
@@ -179,10 +162,6 @@ DiagramRootPackage root = metadata.getRootPackageGeneric();
 **س: هل هناك حدود لعدد الخصائص المخصصة التي يمكنني تخزينها؟**  
 ج: الحدود تحددها صيغة الملف الأساسية؛ تدعم معظم صيغ المخططات الحديثة عشرات الوسوم المخصصة.
 
-**آخر تحديث:** 2026-01-16  
-**تم الاختبار مع:** GroupDocs.Metadata 24.12 for Java  
-**المؤلف:** GroupDocs  
-
 **الموارد**  
 - [التوثيق](https://docs.groupdocs.com/metadata/java/)  
 - [مرجع API](https://reference.groupdocs.com/metadata/java/)  
@@ -190,3 +169,7 @@ DiagramRootPackage root = metadata.getRootPackageGeneric();
 - [مستودع GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [منتدى الدعم المجاني](https://forum.groupdocs.com/c/metadata/)  
 - [الحصول على ترخيص مؤقت](https://purchase.groupdocs.com/temporary-license/)
+
+**آخر تحديث:** 2026-01-16  
+**تم الاختبار مع:** GroupDocs.Metadata 24.12 for Java  
+**المؤلف:** GroupDocs  

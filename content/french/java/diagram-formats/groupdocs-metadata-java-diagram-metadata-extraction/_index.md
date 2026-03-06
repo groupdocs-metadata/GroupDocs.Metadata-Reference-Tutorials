@@ -149,23 +149,6 @@ Dans ce guide, nous avons exploré **how to extract metadata** des diagrammes en
 
 **Prochaines étapes :** Expérimentez différents formats de diagrammes, explorez le traitement par lots, et plongez plus profondément dans les fonctionnalités avancées offertes par GroupDocs.Metadata.
 
-## Section FAQ
-
-1. **Comment gérer les gros fichiers de diagrammes ?**  
-   - Utilisez des pratiques de gestion de mémoire efficaces pour assurer un traitement fluide.
-
-2. **Puis-je extraire des métadonnées de fichiers non‑diagrammes ?**  
-   - Oui, GroupDocs.Metadata prend en charge divers formats de fichiers ; consultez la documentation pour les méthodes spécifiques.
-
-3. **Que faire si une propriété n'est pas trouvée lors de l'extraction ?**  
-   - Assurez‑vous que votre document contient les propriétés personnalisées attendues et vérifiez le chemin.
-
-4. **Existe‑t‑il une prise en charge du traitement par lots ?**  
-   - Bien que ce guide se concentre sur les fichiers uniques, GroupDocs.Metadata peut être étendu aux opérations par lots.
-
-5. **Comment dépanner les problèmes d'accès aux métadonnées ?**  
-   - Consultez la documentation et les forums pour des solutions courantes et des conseils de la communauté.
-
 ## Questions fréquemment posées
 
 **Q : GroupDocs.Metadata fonctionne‑t‑il avec des fichiers de diagrammes chiffrés ?**  
@@ -183,11 +166,6 @@ A : GroupDocs.Metadata abstrait le format sous‑jacent, exposant une API unif
 **Q : Existe‑t‑il des limites au nombre de propriétés personnalisées que je peux stocker ?**  
 A : Les limites sont définies par le format de fichier sous‑jacent ; la plupart des formats de diagrammes modernes prennent en charge des dizaines de balises personnalisées.
 
----
-**Dernière mise à jour :** 2026-01-16  
-**Testé avec :** GroupDocs.Metadata 24.12 pour Java  
-**Auteur :** GroupDocs  
-
 **Ressources**  
 - [Documentation](https://docs.groupdocs.com/metadata/java/)  
 - [Référence API](https://reference.groupdocs.com/metadata/java/)  
@@ -195,3 +173,8 @@ A : Les limites sont définies par le format de fichier sous‑jacent ; la p
 - [Dépôt GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Forum d'assistance gratuit](https://forum.groupdocs.com/c/metadata/)  
 - [Acquisition de licence temporaire](https://purchase.groupdocs.com/temporary-license/)
+
+---
+**Dernière mise à jour :** 2026-01-16  
+**Testé avec :** GroupDocs.Metadata 24.12 pour Java  
+**Auteur :** GroupDocs  

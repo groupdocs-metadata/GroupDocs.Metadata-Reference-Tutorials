@@ -145,23 +145,6 @@ Ebben az útmutatóban megvizsgáltuk, hogyan kell **metaadatokat kinyerni** dia
 
 **Következő lépések:** Kísérletezzen különböző diagramformátumokkal, fedezze fel a kötegelt feldolgozást, és merüljön mélyebben a GroupDocs.Metadata által kínált fejlett funkciókba.
 
-## FAQ szekció
-
-1. **Hogyan kezeljem a nagy diagramfájlokat?**  
-   - Alkalmazzon hatékony memória‑kezelési gyakorlatokat a zökkenőmentes feldolgozás érdekében.
-
-2. **Kinyerhetek metaadatokat nem‑diagram fájlokból?**  
-   - Igen, a GroupDocs.Metadata számos fájlformátumot támogat; a konkrét módszerekért tekintse meg a dokumentációt.
-
-3. **Mi történik, ha egy tulajdonság nem található a kinyerés során?**  
-   - Győződjön meg arról, hogy a dokumentum tartalmazza a várt egyedi tulajdonságokat, és ellenőrizze az elérési utat.
-
-4. **Van támogatás kötegelt feldolgozáshoz?**  
-   - Bár ez az útmutató egyetlen fájlra fókuszál, a GroupDocs.Metadata kiterjeszthető kötegelt műveletekre.
-
-5. **Hogyan hibaelhárítsam a metaadat‑hozzáférési problémákat?**  
-   - Tekintse meg a dokumentációt és a fórumokat a gyakori megoldások és a közösségi tanácsok érdekében.
-
 ## Gyakran Ismételt Kérdések
 
 **Q: A GroupDocs.Metadata működik titkosított diagramfájlokkal?**  
@@ -179,12 +162,6 @@ A: A GroupDocs.Metadata elvonja a mögöttes formátumot, egységes API-t biztos
 **Q: Van korlátozás az egyedi tulajdonságok számában, amelyet tárolhatok?**  
 A: A korlátokat az alaprendszer fájlformátuma határozza meg; a legtöbb modern diagramformátum tucatnyi egyedi címkét támogat.
 
----
-
-**Utolsó frissítés:** 2026-01-16  
-**Tesztelve:** GroupDocs.Metadata 24.12 for Java  
-**Szerző:** GroupDocs  
-
 **Erőforrások**  
 - [Documentation](https://docs.groupdocs.com/metadata/java/)  
 - [API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -192,3 +169,9 @@ A: A korlátokat az alaprendszer fájlformátuma határozza meg; a legtöbb mode
 - [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
 - [Temporary License Acquisition](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Utolsó frissítés:** 2026-01-16  
+**Tesztelve:** GroupDocs.Metadata 24.12 for Java  
+**Szerző:** GroupDocs  

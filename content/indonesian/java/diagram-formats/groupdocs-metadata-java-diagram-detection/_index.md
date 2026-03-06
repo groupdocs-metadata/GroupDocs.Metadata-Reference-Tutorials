@@ -156,23 +156,6 @@ Dalam panduan ini kami menunjukkan cara **extract diagram metadata java** menggu
 
 Untuk menjelajahi lebih banyak kemampuan, lihat [API Reference](https://reference.groupdocs.com/metadata/java/) resmi atau bergabung dengan komunitas di [forum dukungan gratis](https://forum.groupdocs.com/c/metadata/).
 
-## Bagian FAQ
-
-1. **Can I use GroupDocs.Metadata for batch processing of diagrams?**  
-   Ya! Bungkus kode ekstraksi dalam loop untuk menangani banyak file secara efisien.
-
-2. **What formats are supported by GroupDocs.Metadata for Java?**  
-   Ini mendukung berbagai format diagram, termasuk VDX. Lihat [documentation](https://docs.groupdocs.com/metadata/java/) untuk daftar lengkap.
-
-3. **How do I handle unsupported diagrams?**  
-   Implementasikan blok try‑catch di sekitar akses metadata dan catat nama file untuk ditinjau nanti.
-
-4. **Is there support for custom metadata properties?**  
-   Tentu saja—Anda dapat mendefinisikan dan memanipulasi properti khusus sesuai kebutuhan aplikasi Anda.
-
-5. **Can GroupDocs.Metadata be integrated with other Java libraries?**  
-   Ya, ia bekerja mulus bersama kerangka kerja Java lainnya seperti Spring atau Apache POI.
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Does extracting diagram metadata affect the original diagram file?**  

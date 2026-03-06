@@ -145,23 +145,6 @@ En esta guía, exploramos **cómo extraer metadatos** de diagramas usando GroupD
 
 **Próximos pasos:** Experimente con diferentes formatos de diagramas, explore el procesamiento por lotes y profundice en las funciones avanzadas que ofrece GroupDocs.Metadata.
 
-## Sección de preguntas frecuentes
-
-1. **¿Cómo manejo archivos de diagramas grandes?**  
-   - Utilice prácticas eficientes de gestión de memoria para garantizar un procesamiento fluido.
-
-2. **¿Puedo extraer metadatos de archivos que no son diagramas?**  
-   - Sí, GroupDocs.Metadata admite varios formatos de archivo; consulte la documentación para métodos específicos.
-
-3. **¿Qué ocurre si no se encuentra una propiedad durante la extracción?**  
-   - Verifique que su documento contenga las propiedades personalizadas esperadas y confirme la ruta.
-
-4. **¿Existe soporte para procesamiento por lotes?**  
-   - Aunque esta guía se centra en archivos individuales, GroupDocs.Metadata puede ampliarse para operaciones por lotes.
-
-5. **¿Cómo soluciono problemas de acceso a metadatos?**  
-   - Revise la documentación y los foros para encontrar soluciones comunes y consejos de la comunidad.
-
 ## Preguntas frecuentes
 
 **P: ¿GroupDocs.Metadata funciona con archivos de diagramas encriptados?**  
@@ -179,12 +162,6 @@ R: GroupDocs.Metadata abstrae el formato subyacente, exponiendo una API unificad
 **P: ¿Existen límites en la cantidad de propiedades personalizadas que puedo almacenar?**  
 R: Los límites están definidos por el formato de archivo subyacente; la mayoría de los formatos de diagramas modernos admiten decenas de etiquetas personalizadas.
 
----
-
-**Última actualización:** 2026-01-16  
-**Probado con:** GroupDocs.Metadata 24.12 para Java  
-**Autor:** GroupDocs  
-
 **Recursos**  
 - [Documentation](https://docs.groupdocs.com/metadata/java/)  
 - [API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -192,3 +169,9 @@ R: Los límites están definidos por el formato de archivo subyacente; la mayor�
 - [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
 - [Temporary License Acquisition](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Última actualización:** 2026-01-16  
+**Probado con:** GroupDocs.Metadata 24.12 para Java  
+**Autor:** GroupDocs  

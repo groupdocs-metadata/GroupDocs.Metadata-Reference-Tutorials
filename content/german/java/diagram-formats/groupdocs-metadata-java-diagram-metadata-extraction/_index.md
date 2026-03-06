@@ -145,23 +145,6 @@ In diesem Leitfaden haben wir **how to extract metadata** aus Diagrammen mit Gro
 
 **Nächste Schritte:** Experimentieren Sie mit verschiedenen Diagrammformaten, erkunden Sie die Batch‑Verarbeitung und tauchen Sie tiefer in die erweiterten Funktionen von GroupDocs.Metadata ein.
 
-## FAQ‑Abschnitt
-
-1. **Wie gehe ich mit großen Diagrammdateien um?**  
-   - Verwenden Sie effiziente Speicher‑Management‑Praktiken, um eine reibungslose Verarbeitung sicherzustellen.
-
-2. **Kann ich Metadaten aus Nicht‑Diagramm‑Dateien extrahieren?**  
-   - Ja, GroupDocs.Metadata unterstützt verschiedene Dateiformate; siehe die Dokumentation für spezifische Methoden.
-
-3. **Was passiert, wenn eine Eigenschaft beim Extrahieren nicht gefunden wird?**  
-   - Stellen Sie sicher, dass Ihr Dokument die erwarteten benutzerdefinierten Eigenschaften enthält und überprüfen Sie den Pfad.
-
-4. **Gibt es Unterstützung für Batch‑Verarbeitung?**  
-   - Obwohl sich dieser Leitfaden auf Einzeldateien konzentriert, kann GroupDocs.Metadata für Batch‑Operationen erweitert werden.
-
-5. **Wie behebe ich Probleme beim Zugriff auf Metadaten?**  
-   - Prüfen Sie die Dokumentation und Foren für gängige Lösungen und Community‑Ratschläge.
-
 ## Häufig gestellte Fragen
 
 **Q: Funktioniert GroupDocs.Metadata mit verschlüsselten Diagrammdateien?**  
@@ -179,12 +162,6 @@ A: GroupDocs.Metadata abstrahiert das zugrunde liegende Format und stellt eine e
 **Q: Gibt es Beschränkungen für die Anzahl der speicherbaren benutzerdefinierten Eigenschaften?**  
 A: Die Grenzen werden durch das zugrunde liegende Dateiformat definiert; die meisten modernen Diagrammformate unterstützen Dutzende benutzerdefinierter Tags.
 
----
-
-**Zuletzt aktualisiert:** 2026-01-16  
-**Getestet mit:** GroupDocs.Metadata 24.12 für Java  
-**Autor:** GroupDocs  
-
 **Ressourcen**  
 - [Documentation](https://docs.groupdocs.com/metadata/java/)  
 - [API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -192,3 +169,9 @@ A: Die Grenzen werden durch das zugrunde liegende Dateiformat definiert; die mei
 - [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
 - [Temporary License Acquisition](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Zuletzt aktualisiert:** 2026-01-16  
+**Getestet mit:** GroupDocs.Metadata 24.12 für Java  
+**Autor:** GroupDocs  

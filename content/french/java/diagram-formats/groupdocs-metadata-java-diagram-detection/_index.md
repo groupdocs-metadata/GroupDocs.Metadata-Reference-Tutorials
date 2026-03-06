@@ -7,7 +7,7 @@ keywords:
 - Diagram Detection
 - GroupDocs.Metadata for Java
 - Metadata Management
-title: 'Extraire les métadonnées de diagramme Java : Maîtriser la détection de diagrammes
+title: 'Extraire les métadonnées de diagramme Java - Maîtriser la détection de diagrammes
   avec GroupDocs.Metadata'
 type: docs
 url: /fr/java/diagram-formats/groupdocs-metadata-java-diagram-detection/
@@ -142,22 +142,6 @@ Vous pouvez étendre ce modèle pour lire ou modifier d'autres champs de métado
 Dans ce guide, nous avons démontré comment **extraire les métadonnées de diagramme java** en utilisant GroupDocs.Metadata pour Java, couvrant la détection des types de diagrammes, la récupération des détails de format et la manipulation de base des métadonnées. Ces techniques vous permettent de créer des applications Java plus intelligentes, guidées par les métadonnées.
 
 Pour explorer davantage de fonctionnalités, consultez la [Référence API](https://reference.groupdocs.com/metadata/java/) officielle ou rejoignez la communauté sur le [forum de support gratuit](https://forum.groupdocs.com/c/metadata/).
-
-## Section FAQ
-1. **Puis-je utiliser GroupDocs.Metadata pour le traitement par lots de diagrammes ?**  
-   Oui ! Encapsulez le code d'extraction dans une boucle pour gérer plusieurs fichiers efficacement.
-
-2. **Quels formats sont pris en charge par GroupDocs.Metadata pour Java ?**  
-   Il prend en charge un large éventail de formats de diagrammes, y compris VDX. Consultez la [documentation](https://docs.groupdocs.com/metadata/java/) pour la liste complète.
-
-3. **Comment gérer les diagrammes non pris en charge ?**  
-   Implémentez des blocs try‑catch autour de l'accès aux métadonnées et consignez le nom du fichier pour une révision ultérieure.
-
-4. **Existe-t-il un support pour les propriétés de métadonnées personnalisées ?**  
-   Absolument — vous pouvez définir et manipuler des propriétés personnalisées pour répondre aux besoins de votre application.
-
-5. **GroupDocs.Metadata peut-il être intégré à d’autres bibliothèques Java ?**  
-   Oui, il fonctionne de manière transparente avec d’autres frameworks Java tels que Spring ou Apache POI.
 
 ## Questions fréquemment posées
 **Q : L’extraction des métadonnées de diagramme affecte‑t‑elle le fichier de diagramme original ?**  

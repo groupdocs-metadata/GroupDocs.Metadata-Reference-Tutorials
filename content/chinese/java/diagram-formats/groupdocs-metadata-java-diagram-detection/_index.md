@@ -5,7 +5,7 @@ keywords:
 - Diagram Detection
 - GroupDocs.Metadata for Java
 - Metadata Management
-title: 提取图表元数据 Java：使用 GroupDocs.Metadata 精通图表检测
+title: 提取图表元数据 Java - 使用 GroupDocs.Metadata 精通图表检测
 type: docs
 url: /zh/java/diagram-formats/groupdocs-metadata-java-diagram-detection/
 weight: 1
@@ -154,23 +154,6 @@ String fileFormat = root.getDiagramType().getFileFormat();  // Example: obtainin
 本指南演示了如何使用 GroupDocs.Metadata for Java **extract diagram metadata java**，包括图表类型检测、格式细节获取以及基本的元数据操作。这些技术帮助您构建更智能、基于元数据的 Java 应用程序。
 
 欲了解更多功能，请查阅官方的 [API Reference](https://reference.groupdocs.com/metadata/java/) 或加入 [免费支持论坛](https://forum.groupdocs.com/c/metadata/) 与社区交流。
-
-## FAQ 部分
-
-1. **我可以使用 GroupDocs.Metadata 对图表进行批量处理吗？**  
-   可以！将提取代码放入循环即可高效处理多个文件。
-
-2. **GroupDocs.Metadata for Java 支持哪些格式？**  
-   支持多种图表格式，包括 VDX 等。完整列表请参阅 [文档](https://docs.groupdocs.com/metadata/java/)。
-
-3. **如何处理不受支持的图表？**  
-   在访问元数据时使用 try‑catch 捕获异常，并记录文件名以便后续审查。
-
-4. **是否支持自定义元数据属性？**  
-   完全支持——您可以定义并操作自定义属性，以满足应用需求。
-
-5. **GroupDocs.Metadata 能否与其他 Java 库集成？**  
-   能，它可以无缝配合 Spring、Apache POI 等其他 Java 框架使用。
 
 ## 常见问题
 

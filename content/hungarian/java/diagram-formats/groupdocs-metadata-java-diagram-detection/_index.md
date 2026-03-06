@@ -6,7 +6,7 @@ keywords:
 - Diagram Detection
 - GroupDocs.Metadata for Java
 - Metadata Management
-title: 'Diagram metaadatok kinyerése Java: A diagramfelismerés mestersége a GroupDocs.Metadata
+title: 'Diagram metaadatok kinyerése Java - A diagramfelismerés mestersége a GroupDocs.Metadata
   segítségével'
 type: docs
 url: /hu/java/diagram-formats/groupdocs-metadata-java-diagram-detection/
@@ -156,23 +156,6 @@ Kiterjesztheted ezt a mintát más diagram‑specifikus metaadat mezők (szerző
 Ebben az útmutatóban bemutattuk, hogyan **extract diagram metadata java**-t használva a GroupDocs.Metadata for Java segítségével, lefedve a diagramtípusok felismerését, a formátum részleteinek lekérését és az alap metaadat manipulációt. Ezek a technikák felhatalmaznak, hogy okosabb, metaadat‑vezérelt Java alkalmazásokat építs.
 
 További képességek felfedezéséhez nézd meg a hivatalos [API Referenciát](https://reference.groupdocs.com/metadata/java/), vagy csatlakozz a közösséghez az [ingyenes támogatási fórumon](https://forum.groupdocs.com/c/metadata/).
-
-## Gyakran Ismételt Kérdések
-
-1. **Használhatom a GroupDocs.Metadata-ot diagramok kötegelt feldolgozásához?**  
-   Igen! Csomagold a kinyerő kódot egy ciklusba, hogy hatékonyan kezeld a többjlt.
-
-2. **Milyen formátumokat támogat a GroupDocs.Metadata for Java?**  
-   Széles körű diagramformátumokat támogat, beleértve a VDX-et. Lásd a [dokumentációt](https://docs.groupdocs.com/metadata/java/) a teljes listáért.
-
-3. **Hogyan kezelem a nem támogatott diagramokat?**  
-   Implementálj try‑catch blokkokat a metaadat hozzáférés körül, és naplózd a fájlnevet későbbi áttekintéshez.
-
-4. **Támogatottak a saját metaadat tulajdonságok?**  
-   Teljesen; definiálhatsz és manipulálhatsz egyedi tulajdonságokat, hogy megfeleljenek az alkalmazásod igényeinek.
-
-5. **Integrálható a GroupDocs.Metadata más Java könyvtárakkal?**  
-   Igen, zökkenőmentesen működik más Java keretrendszerekkel, például a Spring vagy az Apache POI.
 
 ## Gyakran Feltett Kérdések
 

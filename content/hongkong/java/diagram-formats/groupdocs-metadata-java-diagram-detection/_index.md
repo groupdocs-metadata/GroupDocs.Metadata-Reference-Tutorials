@@ -5,7 +5,7 @@ keywords:
 - Diagram Detection
 - GroupDocs.Metadata for Java
 - Metadata Management
-title: 提取圖表元資料（Java）：掌握使用 GroupDocs.Metadata 進行圖表偵測
+title: 提取圖表元資料（Java） - 掌握使用 GroupDocs.Metadata 進行圖表偵測
 type: docs
 url: /zh-hant/java/diagram-formats/groupdocs-metadata-java-diagram-detection/
 weight: 1

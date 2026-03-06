@@ -6,7 +6,7 @@ keywords:
 - Diagram Detection
 - GroupDocs.Metadata for Java
 - Metadata Management
-title: 'Extrair Metadados de Diagramas Java: Dominando a Detecção de Diagramas com
+title: 'Extrair Metadados de Diagramas Java - Dominando a Detecção de Diagramas com
   GroupDocs.Metadata'
 type: docs
 url: /pt/java/diagram-formats/groupdocs-metadata-java-diagram-detection/
@@ -156,23 +156,6 @@ Você pode estender esse padrão para ler ou modificar outros campos de metadado
 Neste guia demonstramos como **extrair metadados de diagrama java** usando o GroupDocs.Metadata para Java, abordando a detecção de tipos de diagramas, a recuperação de detalhes de formato e a manipulação básica de metadados. Essas técnicas permitem que você crie aplicações Java mais inteligentes e orientadas por metadados.
 
 Para explorar mais recursos, consulte a [Referência da API](https://reference.groupdocs.com/metadata/java/) oficial ou participe da comunidade no [fórum de suporte gratuito](https://forum.groupdocs.com/c/metadata/).
-
-## Seção de Perguntas Frequentes
-
-1. **Posso usar o GroupDocs.Metadata para processamento em lote de diagramas?**  
-   Sim! Envolva o código de extração em um loop para lidar com vários arquivos de forma eficiente.
-
-2. **Quais formatos são suportados pelo GroupDocs.Metadata para Java?**  
-   Ele suporta uma ampla variedade de formatos de diagrama, incluindo VDX. Veja a [documentação](https://docs.groupdocs.com/metadata/java/) para a lista completa.
-
-3. **Como lidar com diagramas não suportados?**  
-   Implemente blocos try‑catch ao redor do acesso a metadados e registre o nome do arquivo para revisão posterior.
-
-4. **Existe suporte a propriedades de metadados personalizadas?**  
-   Absolutamente — você pode definir e manipular propriedades personalizadas conforme as necessidades da sua aplicação.
-
-5. **O GroupDocs.Metadata pode ser integrado a outras bibliotecas Java?**  
-   Sim, funciona perfeitamente ao lado de outros frameworks Java, como Spring ou Apache POI.
 
 ## Perguntas Frequentes
 

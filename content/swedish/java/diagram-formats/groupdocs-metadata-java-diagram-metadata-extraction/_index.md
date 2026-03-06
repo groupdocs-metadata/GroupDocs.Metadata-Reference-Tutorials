@@ -145,23 +145,6 @@ I den här guiden har vi utforskat **how to extract metadata** från diagram med
 
 **Nästa steg:** Experimentera med olika diagramformat, utforska batch‑bearbetning och fördjupa dig i de avancerade funktionerna som GroupDocs.Metadata erbjuder.
 
-## FAQ‑sektion
-
-1. **Hur hanterar jag stora diagramfiler?**  
-   - Använd effektiva minneshanteringsmetoder för att säkerställa smidig bearbetning.
-
-2. **Kan jag extrahera metadata från icke‑diagramfiler?**  
-   - Ja, GroupDocs.Metadata stöder olika filformat; se dokumentationen för specifika metoder.
-
-3. **Vad händer om en egenskap inte hittas vid extrahering?**  
-   - Säkerställ att ditt dokument innehåller de förväntade anpassade egenskaperna och verifiera sökvägen.
-
-4. **Finns stöd för batch‑bearbetning?**  
-   - Även om den här guiden fokuserar på enskilda filer, kan GroupDocs.Metadata utökas för batch‑operationer.
-
-5. **Hur felsöker jag problem med metadataåtkomst?**  
-   - Kontrollera dokumentationen och forum för vanliga lösningar och community‑råd.
-
 ## Vanliga frågor
 
 **Q: Fungerar GroupDocs.Metadata med krypterade diagramfiler?**  
@@ -179,12 +162,6 @@ A: GroupDocs.Metadata abstraherar det underliggande formatet och erbjuder ett en
 **Q: Finns det några begränsningar för antalet anpassade egenskaper jag kan lagra?**  
 A: Begränsningarna definieras av det underliggande filformatet; de flesta moderna diagramformat stödjer dussintals anpassade taggar.
 
----
-
-**Senast uppdaterad:** 2026-01-16  
-**Testad med:** GroupDocs.Metadata 24.12 för Java  
-**Författare:** GroupDocs  
-
 **Resurser**  
 - [Documentation](https://docs.groupdocs.com/metadata/java/)  
 - [API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -192,3 +169,9 @@ A: Begränsningarna definieras av det underliggande filformatet; de flesta moder
 - [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
 - [Temporary License Acquisition](https://purchase.groupdocs.com/temporary-license/)
+
+---
+
+**Senast uppdaterad:** 2026-01-16  
+**Testad med:** GroupDocs.Metadata 24.12 för Java  
+**Författare:** GroupDocs  

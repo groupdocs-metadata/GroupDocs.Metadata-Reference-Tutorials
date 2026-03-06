@@ -5,7 +5,7 @@ keywords:
 - Diagram Detection
 - GroupDocs.Metadata for Java
 - Metadata Management
-title: 'Javaで図メタデータを抽出: GroupDocs.Metadataで図検出をマスターする'
+title: 'Javaで図メタデータを抽出 - GroupDocs.Metadataで図検出をマスターする'
 type: docs
 url: /ja/java/diagram-formats/groupdocs-metadata-java-diagram-detection/
 weight: 1
@@ -154,23 +154,6 @@ String fileFormat = root.getDiagramType().getFileFormat();  // Example: obtainin
 本ガイドでは、GroupDocs.Metadata for Java を使用して **extract diagram metadata java** を行う方法を示し、図タイプの検出、形式詳細の取得、基本的なメタデータ操作をカバーしました。これらの手法により、メタデータ駆動型のよりスマートな Java アプリケーションを構築できます。
 
 さらに機能を探るには、公式の [API Reference](https://reference.groupdocs.com/metadata/java/) を確認するか、[無料サポートフォーラム](https://forum.groupdocs.com/c/metadata/) のコミュニティに参加してください。
-
-## FAQ セクション
-
-1. **GroupDocs.Metadata を使用して図のバッチ処理ができますか？**  
-   はい！抽出コードをループでラップして、複数ファイルを効率的に処理できます。
-
-2. **GroupDocs.Metadata for Java がサポートするフォーマットは何ですか？**  
-   VDX など、幅広い図フォーマットをサポートしています。完全なリストは [documentation](https://docs.groupdocs.com/metadata/java/) を参照してください。
-
-3. **サポートされていない図はどう処理しますか？**  
-   メタデータアクセスを try‑catch で囲み、ファイル名をログに記録して後で確認できるようにします。
-
-4. **カスタムメタデータプロパティのサポートはありますか？**  
-   もちろんです。アプリケーションの要件に合わせてカスタムプロパティを定義・操作できます。
-
-5. **GroupDocs.Metadata を他の Java ライブラリと統合できますか？**  
-   はい、Spring や Apache POI などの他の Java フレームワークとシームレスに連携します。
 
 ## よくある質問
 

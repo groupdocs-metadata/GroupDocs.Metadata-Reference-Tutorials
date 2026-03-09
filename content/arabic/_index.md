@@ -1,33 +1,100 @@
 ---
-title: فتح إتقان البيانات الوصفية باستخدام GroupDocs.Metadata
-linktitle: دروس GroupDocs.Metadata
-additionalTitle: مراجع واجهة برمجة تطبيقات GroupDocs
-description: اكتشف البرامج التعليمية الشاملة لـ GroupDocs.Metadata عبر الأنظمة الأساسية. إدارة بيانات التعريف الرئيسية في .NET وJava بسهولة.
-weight: 11
-url: /ar/
+additionalTitle: GroupDocs API References
+date: 2026-03-09
+description: استكشف مجموعة دروس GroupDocs.Metadata لـ .NET و Java. إتقان إدارة البيانات
+  الوصفية عبر المنصات بسهولة.
 is_root: true
+linktitle: GroupDocs.Metadata Tutorials
+title: دورة GroupDocs.Metadata – إتقان البيانات الوصفية
 type: docs
+url: /ar/
+weight: 11
 ---
-# فتح إتقان البيانات الوصفية باستخدام GroupDocs.Metadata
 
+ with bold formatting: **text**.
 
-استكشف مجموعة شاملة من دروس GroupDocs.Metadata المصممة خصيصًا لمطوري .NET وJava. انغمس في عالم إدارة البيانات الوصفية باستخدام أدلة خطوة بخطوة، تغطي مجموعة واسعة من المواضيع بدءًا من تقنيات التحميل وحتى المعالجة المتقدمة. ارفع مهاراتك في إدارة البيانات التعريفية للملفات بغض النظر عن لغة البرمجة المفضلة لديك.
+Also bullet points: use dash -.
 
-## GroupDocs.Metadata لبرامج .NET التعليمية
+Now produce final answer.# GroupDocs.Metadata Tutorial – إتقان إدارة البيانات الوصفية
+
+مرحبًا بك في مركز **دروس GroupDocs.Metadata**، وجهتك الشاملة لإتقان إدارة البيانات الوصفية في بيئات **.NET** و **Java**. سواءً كنت تستخرج أو تعدل أو تحذف البيانات الوصفية من المستندات أو الصور أو الأرشيفات أو ملفات الوسائط المتعددة، فإن هذه الأدلة خطوة بخطوة ستساعدك على الحصول على نتائج بسرعة وموثوقية.
+
+## ما هو دليل GroupDocs.Metadata؟
+
+سلسلة دروس GroupDocs.Metadata تقدم تعليمات عملية ومحددة لكل لغة تُظهر لك كيفية العمل مع مجموعة كاملة من معايير البيانات الوصفية التي تدعمها GroupDocs. باتباع هذه الدروس، ستتعلم كيفية:
+
+- تحميل وحفظ الملفات مع الحفاظ على سلامة البيانات الوصفية.  
+- قراءة وتعديل وإزالة البيانات الوصفية لعشرات صيغ الملفات.  
+- تطبيق ميزات متقدمة مثل المعالجة الجماعية، ومعالجة البيانات الوصفية المخصصة، وتكوين الترخيص.
+
+## لماذا تستخدم GroupDocs.Metadata لإدارة البيانات الوصفية؟
+
+* **Cross‑platform consistency** – تعمل واجهة برمجة التطبيقات (API) نفسها عبر .NET و Java، مما يقلل من منحنى التعلم.  
+* **Broad format support** – من ملفات PDF ومستندات Office إلى الصوت والفيديو وCAD وملفات 3D، يمكنك إدارة البيانات الوصفية في أي نوع تقريبًا من الملفات.  
+* **Enterprise‑ready** – الترخيص المدمج، الأداء العالي، والوثائق الشاملة تجعلها مناسبة للتطبيقات الإنتاجية.
+
+### GroupDocs.Metadata for .NET Tutorials
 {{% alert color="primary" %}}
-استكشف عالم إدارة بيانات التعريف في .NET باستخدام البرامج التعليمية GroupDocs.Metadata. بدءًا من تقنيات التحميل ووصولاً إلى تحرير البيانات الوصفية للملف ومعالجتها، توفر برامجنا التعليمية إرشادات شاملة للمطورين على جميع مستويات المهارة. انغمس في موضوعات مختلفة مثل الأرشيف والصوت وملفات PDF والعرض التقديمي وإدارة البيانات التعريفية لجداول البيانات، مما يفتح الإمكانات الكاملة لـ GroupDocs.Metadata لـ .NET. ارفع قدراتك على معالجة الملفات وقم بتبسيط سير عملك من خلال برامجنا التعليمية سهلة المتابعة.
+استكشف عالم إدارة البيانات الوصفية في .NET مع دروس GroupDocs.Metadata. من تقنيات التحميل إلى تعديل وتلاعب بيانات الملف، تقدم دروسنا إرشادات شاملة للمطورين على جميع مستويات الخبرة. تعمق في مواضيع متنوعة مثل الأرشيف، الصوت، PDF، العروض التقديمية، وإدارة بيانات الجداول، لتفتح الإمكانات الكاملة لـ GroupDocs.Metadata لـ .NET. ارتق بقدراتك على معالجة الملفات وسهّل سير عملك مع دروسنا السهلة المتابعة.
 {{% /alert %}}
 
-وهذه روابط لبعض الموارد المفيدة:
- 
+#### Essential .NET Metadata Tutorials
+
+- [تحميل وحفظ المستندات](./net/document-loading-saving/)
+- [العمل مع البيانات الوصفية](./net/working-with-metadata/)
+- [معايير البيانات الوصفية](./net/metadata-standards/)
+- [صيغ الصور](./net/image-formats/)
+- [صيغ المستندات](./net/document-formats/)
+- [صيغ الصوت والفيديو](./net/audio-video-formats/)
+- [صيغ البريد الإلكتروني والجهات الاتصال](./net/email-contact-formats/)
+- [صيغ الأرشيف](./net/archive-formats/)
+- [صيغ CAD](./net/cad-formats/)
+- [صيغ الكتب الإلكترونية](./net/e-book-formats/)
+- [صيغ 3D](./net/3d-formats/)
+- [صيغ المخططات](./net/diagram-formats/)
+- [صيغ إدارة المشاريع](./net/project-management-formats/)
+- [صيغ تدوين الملاحظات](./net/note-taking-formats/)
+- [ملفات التورنت](./net/torrent-files/)
+- [الميزات المتقدمة](./net/advanced-features/)
+- [الترخيص والتكوين](./net/licensing-configuration/)
+
+هذه روابط لبعض الموارد المفيدة:
+
 - [تحميل البيانات الوصفية](./net/metadata-loading/)
-- [أرشفة البيانات الوصفية](./net/archive-metadata/)
-- [البيانات الوصفية الصوتية](./net/audio-metadata/)
-- [البيانات الوصفية للرسم التخطيطي](./net/diagram-metadata/)
-- [البيانات الوصفية لقوات الدفاع الشعبي](./net/pdf-metadata/)
-- [البيانات الوصفية للعرض التقديمي](./net/presentation-metadata/)
-- [البيانات الوصفية لإدارة المشاريع](./net/project-management-metadata/)
-- [البيانات الوصفية لجدول البيانات](./net/spreadsheet-metadata/)
+- [بيانات الوصفية للأرشيف](./net/archive-metadata/)
+- [بيانات الوصفية للصوت](./net/audio-metadata/)
+- [بيانات الوصفية للمخططات](./net/diagram-metadata/)
+- [بيانات الوصفية لملفات PDF](./net/pdf-metadata/)
+- [بيانات الوصفية للعروض التقديمية](./net/presentation-metadata/)
+- [بيانات الوصفية لإدارة المشاريع](./net/project-management-metadata/)
+- [بيانات الوصفية للجداول](./net/spreadsheet-metadata/)
 
+### GroupDocs.Metadata for Java Tutorials
+{{% alert color="primary" %}}
+اكتشف دروسًا شاملة لـ GroupDocs.Metadata في Java. من استخراج البيانات الوصفية الأساسي إلى التلاعب المتقدم، توفر أدلتنا خطوة بخطوة للمطورين بلغة Java المعرفة اللازمة لتنفيذ حلول قوية لإدارة البيانات الوصفية. تعلم العمل مع صيغ ملفات متعددة تشمل المستندات، الصور، ملفات الصوت، وأكثر. إتقان تقنيات القراءة، التعديل، الإزالة، والبحث في البيانات الوصفية لتعزيز تطبيقات معالجة المستندات الخاصة بك بقدرات بيانات وصفية متينة.
+{{% /alert %}}
 
+#### Essential Java Metadata Tutorials
 
+- [تحميل وحفظ المستندات](./java/document-loading-saving/)
+- [العمل مع البيانات الوصفية](./java/working-with-metadata/)
+- [معايير البيانات الوصفية](./java/metadata-standards/)
+- [صيغ الصور](./java/image-formats/)
+- [صيغ المستندات](./java/document-formats/)
+- [صيغ الصوت والفيديو](./java/audio-video-formats/)
+- [صيغ البريد الإلكتروني والجهات الاتصال](./java/email-contact-formats/)
+- [صيغ الأرشيف](./java/archive-formats/)
+- [صيغ CAD](./java/cad-formats/)
+- [صيغ الكتب الإلكترونية](./java/e-book-formats/)
+- [صيغ المخططات](./java/diagram-formats/)
+- [صيغ إدارة المشاريع](./java/project-management-formats/)
+- [صيغ تدوين الملاحظات](./java/note-taking-formats/)
+- [ملفات التورنت](./java/torrent-files/)
+- [الميزات المتقدمة](./java/advanced-features/)
+- [الترخيص والتكوين](./java/licensing-configuration/)
+
+---
+
+**Last Updated:** 2026-03-09  
+**Tested With:** GroupDocs.Metadata أحدث إصدار (2026)  
+**Author:** GroupDocs

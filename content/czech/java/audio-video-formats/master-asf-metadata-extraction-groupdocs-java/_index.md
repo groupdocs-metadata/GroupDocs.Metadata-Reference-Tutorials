@@ -1,51 +1,50 @@
 ---
-date: '2025-12-26'
-description: Naučte se, jak extrahovat metadata ASF pomocí GroupDocs.Metadata pro
-  Javu. Tento průvodce pokrývá nastavení, čtení vlastností a přístup k informacím
+date: '2026-02-27'
+description: Naučte se, jak extrahovat ASF metadata v Javě pomocí GroupDocs.Metadata
+  pro Javu. Tento průvodce pokrývá nastavení, čtení vlastností a přístup k informacím
   o kodeku.
 keywords:
 - ASF Metadata Extraction
 - GroupDocs.Metadata for Java
 - Java Media Management
-title: Jak extrahovat metadata ASF pomocí GroupDocs.Metadata pro Java
+title: Jak extrahovat metadata ASF v Javě pomocí GroupDocs.Metadata
 type: docs
 url: /cs/java/audio-video-formats/master-asf-metadata-extraction-groupdocs-java/
 weight: 1
 ---
 
-# Extrahovat ASF metadata pomocí GroupDocs.Metadata pro Java
+# Extract ASF Metadata Java with GroupDocs.Metadata for Java
 
-**Úvod**
-
-V dnešním digitálním prostředí je efektivní správa multimediálního obsahu klíčová. Pokud potřebujete **extrahovat ASF metadata** ze svých mediálních souborů, ruční provádění může být časově náročné a náchylné k chybám. Tento tutoriál vás provede používáním **GroupDocs.Metadata pro Java** k načtení a zobrazení široké škály vlastností ASF, což vám umožní organizovat, vyhledávat a zpracovávat vaše aktiva s jistotou.
-
-### Co se naučíte
-- Jak nastavit GroupDocs.Metadata v Java projektu  
-- Jak **extrahovat ASF metadata** jako datum vytvoření, ID souboru a příznaky  
-- Jak číst informace o kodecích vložené v ASF souborech  
-- Jak zobrazit podrobné popisy metadat a vlastnosti základních streamů  
-
-Pojďme začít s předpoklady.
+V dnešním digitálním prostředí je efektivní správa multimediálního obsahu klíčová a možná budete potřebovat **extrahovat asf metadata java** ze svých mediálních souborů. Provádět to ručně může být časově náročné a náchylné k chybám. Tento tutoriál vás provede používáním **GroupDocs.Metadata for Java** k načtení a zobrazení široké škály vlastností ASF, což vám umožní organizovat, vyhledávat a zpracovávat vaše aktiva s jistotou.
 
 ## Rychlé odpovědi
-- **Co znamená „extrahovat ASF metadata“?** Znamená to programově číst vložené informace (např. časová razítka, kodeky, popisy) z ASF souboru.  
-- **Která knihovna je vyžadována?** GroupDocs.Metadata pro Java (verze 24.12 nebo novější).  
-- **Potřebuji licenci?** Pro vývoj stačí bezplatná zkušební verze nebo dočasná licence; pro produkci je nutná plná licence.  
+- **Co znamená „extrahovat ASF metadata“?** Znamená to programově číst vložené informace (např. časová razítka, kodeky, popisovače) z ASF souboru.  
+- **Která knihovna je vyžadována?** GroupDocs.Metadata for Java (verze 24.12 nebo novější).  
+- **Potřebuji licenci?** Pro vývoj stačí bezplatná zkušební nebo dočasná licence; pro produkci je potřeba plná licence.  
 - **Jaká verze Javy je podporována?** JDK 8 nebo vyšší.  
 - **Mohu použít Maven?** Ano – Maven je doporučený správce závislostí.
+
+## Co je extract asf metadata java?
+Extrahování ASF metadata pomocí Javy vám poskytuje programatický přístup k internímu popisu souboru, jako jsou data vytvoření, podrobnosti o kodeku a atributy streamu. Tyto informace jsou nezbytné pro katalogizaci médií, kontrolu souladu a automatizované zpracovatelské pipeline.
+
+## Proč extrahovat ASF metadata Java s GroupDocs.Metadata?
+- **Zero‑code parsing** – Není potřeba psát nízkoúrovňové ASF parsery.  
+- **Rich object model** – Přístup k vlastnostem, kodekům, popisovačům a detailům streamu prostřednictvím intuitivních Java tříd.  
+- **Cross‑platform** – Funguje na jakémkoli OS, který podporuje Javu.  
+- **License flexibility** – Začněte se zkušební licencí a podle potřeby přejděte na plnou licenci.  
 
 ## Předpoklady
 
 - **Java Development Kit (JDK)** 8 nebo novější nainstalovaný.  
 - **IDE** jako IntelliJ IDEA nebo Eclipse pro pohodlné programování.  
-- **Maven** nakonfigurovaný ve vašem IDE (volitelné, ale doporučené).  
+- **Maven** nakonfigurovaný ve vaší IDE (volitelné, ale doporučené).  
 - Základní znalost Javy a externích knihoven.
 
 ## Nastavení GroupDocs.Metadata pro Java
 
-### Instalace pomocí Maven
+### Maven instalace
 
-Přidejte repozitář a závislost do vašeho `pom.xml`:
+Přidejte repozitář a závislost do svého `pom.xml`:
 
 ```xml
 <repositories>
@@ -67,11 +66,11 @@ Přidejte repozitář a závislost do vašeho `pom.xml`:
 
 ### Přímé stažení
 
-Pokud raději nepoužíváte Maven, stáhněte nejnovější JAR z [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Pokud nechcete používat Maven, stáhněte si nejnovější JAR z [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-### Přehled licencování
+### Přehled licencí
 
-- **Free Trial** – K dispozici na webu GroupDocs pro vyhodnocení.  
+- **Free Trial** – K dispozici na webu GroupDocs pro vyzkoušení.  
 - **Temporary License** – Umožňuje prozkoumat všechny funkce bez omezení během vývoje.  
 - **Full License** – Vyžadována pro komerční nebo produkční nasazení.
 
@@ -91,22 +90,9 @@ class MetadataExample {
 }
 ```
 
-## Co jsou ASF metadata?
+## Jak extrahovat ASF metadata java – krok za krokem
 
-ASF (Advanced Systems Format) je streamingový formát od Microsoftu, který ukládá audio, video a metadata v jednom kontejneru. Metadata zahrnují časová razítka vytvoření, podrobnosti o kodecích, popisy streamů a další. **Extrahováním ASF metadat** získáte programový přehled o původu souboru, parametrech kódování a popisech obsahu – což je nezbytné pro mediální knihovny, transkódovací řetězce a audity souladu.
-
-## Proč extrahovat ASF metadata pomocí GroupDocs.Metadata?
-
-- **Zero‑code parsing** – Není potřeba implementovat nízkoúrovňové ASF parsery.  
-- **Rich object model** – Přístup k vlastnostem, kodekům, popisům a detailům streamů prostřednictvím intuitivních Java tříd.  
-- **Cross‑platform** – Funguje na jakémkoli OS, který podporuje Javu.  
-- **License flexibility** – Začněte s trial verzí a podle potřeby přejděte na plnou licenci.
-
-## Průvodce implementací
-
-V následujících sekcích projdeme konkrétní ukázky kódu, které krok za krokem ukazují, jak **extrahovat ASF metadata**.
-
-### Čtení základních vlastností ASF metadat
+### Čtení základních vlastností ASF metadata
 
 **Přehled** – Získání základních informací, jako je datum vytvoření, ID souboru a příznaky.
 
@@ -130,9 +116,9 @@ class ReadBasicProperties {
 
 *Proč je to důležité*: Znalost data vytvoření pomáhá při správě verzí, zatímco ID souboru jednoznačně identifikuje aktivum napříč systémy.
 
-### Zobrazení informací o kodecích ASF
+### Zobrazení informací o ASF kodecích
 
-**Přehled** – Vyjmenování kodeků používaných pro audio a video streamy.
+**Přehled** – Vypsání kodeků používaných pro audio a video streamy.
 
 ```java
 import com.groupdocs.metadata.core.AsfCodec;
@@ -154,11 +140,11 @@ class ReadCodecInformation {
 }
 ```
 
-*Proč je to důležité*: Detaily o kodecích jsou nezbytné pro zajištění kompatibility se zařízeními pro přehrávání nebo při rozhodování, zda soubor transkódovat.
+*Proč je to důležité*: Detaily o kodeku jsou zásadní při zajišťování kompatibility s přehrávacími zařízeními nebo při rozhodování o transkódování.
 
-### Zobrazení popisů metadat
+### Zobrazení popisovačů metadat
 
-**Přehled** – Získání podrobných popisů, jako je jazyk, číslo streamu a původní název.
+**Přehled** – Vytažení podrobných popisovačů, jako je jazyk, číslo streamu a původní název.
 
 ```java
 import com.groupdocs.metadata.core.AsfBaseDescriptor;
@@ -187,9 +173,9 @@ class ReadMetadataDescriptors {
 }
 ```
 
-*Proč je to důležité*: Popisy poskytují kontext, jako je jazyk titulků nebo původní název souboru, což je cenné pro katalogizaci.
+*Proč je to důležité*: Popisovače poskytují kontext, například jazyk titulků nebo původní název souboru, což je cenné pro katalogizaci.
 
-### Zobrazení vlastností základního streamu
+### Zobrazení základních vlastností streamu
 
 **Přehled** – Přístup k bitrate, časování a informacím o jazyce pro každý základní stream.
 
@@ -222,11 +208,11 @@ class ReadBaseStreamProperties {
 
 ## Časté problémy a řešení
 
-| Příznak | Pravděpodobná příčina | Oprava |
-|---------|------------------------|--------|
-| `NullPointerException` při volání `getAsfPackage()` | Cesta k souboru je nesprávná nebo soubor není platný ASF kontejner. | Ověřte cestu a ujistěte se, že soubor je správný ASF soubor. |
-| Žádné informace o kodeku nejsou zobrazeny | ASF soubor používá proprietární kodek, který není rozpoznán verzí knihovny. | Aktualizujte GroupDocs.Metadata na nejnovější verzi nebo použijte vlastní parser kodeků. |
-| Prázdný seznam popisů | Soubor postrádá metadata popisy (např. byly odstraněny během kódování). | Použijte zdrojový soubor s vloženými metadaty nebo pře‑kódujte s zachováním metadat. |
+| Příznak | Předpokládaná příčina | Řešení |
+|---------|-----------------------|--------|
+| `NullPointerException` při volání `getAsfPackage()` | Špatná cesta k souboru nebo soubor není platný ASF kontejner. | Ověřte cestu a ujistěte se, že soubor je správný ASF soubor. |
+| Žádné informace o kodeku se nezobrazují | ASF soubor používá proprietární kodek, který knihovna nepozná. | Aktualizujte GroupDocs.Metadata na nejnovější verzi nebo použijte vlastní parser kodeku. |
+| Prázdný seznam popisovačů | Soubor postrádá metadata popisovače (např. byly odstraněny během enkódování). | Použijte zdrojový soubor s vloženými metadaty nebo pře‑enkódujte se zachováním metadat. |
 
 ## Často kladené otázky
 
@@ -234,23 +220,23 @@ class ReadBaseStreamProperties {
 A: Ano, GroupDocs.Metadata podporuje MP4, MKV, AVI a mnoho dalších. Stačí vytvořit instanci příslušné třídy balíčku.
 
 **Q: Je možné po extrahování upravit ASF metadata?**  
-A: Rozhodně. Knihovna poskytuje setter metody pro většinu vlastností, což vám umožní upravit a následně soubor uložit.
+A: Rozhodně. Knihovna poskytuje setter metody pro většinu vlastností, což vám umožní editovat a následně soubor uložit.
 
 **Q: Potřebuji 64‑bitovou JVM pro velké ASF soubory?**  
 A: Není to nutné, ale 64‑bitová JVM vám poskytne více haldy, což pomáhá při zpracování velmi velkých mediálních souborů.
 
-**Q: Jak licence ovlivňuje použití zkušební verze?**  
-A: Zkušební licence odstraňuje všechna funkční omezení, ale přidává vodoznak k některým výstupům. Pro produkční nasazení zakupte plnou licenci.
+**Q: Jak licence ovlivňuje používání zkušební verze?**  
+A: Zkušební licence odstraňuje všechny funkční limity, ale přidává vodoznak k některým výstupům. Pro produkci zakupte plnou licenci.
 
-**Q: Mohu spustit tento kód na Androidu?**  
-A: GroupDocs.Metadata je vytvořen pro Java SE; pro Android byste museli použít .NET verzi nebo kompatibilní obal.
+**Q: Můžu spustit tento kód na Androidu?**  
+A: GroupDocs.Metadata je vytvořeno pro Java SE; pro Android byste museli použít .NET verzi nebo kompatibilní wrapper.
 
 ## Závěr
 
-Po absolvování tohoto průvodce nyní víte, jak **extrahovat ASF metadata** pomocí GroupDocs.Metadata pro Java. Můžete číst základní vlastnosti, informace o kodecích, podrobné popisy a atributy streamů – což vám poskytuje úplný přehled o vašich mediálních aktivech. Další kroky zahrnují integraci tohoto extrahování do dávkových zpracovatelských řetězců, vytvoření prohledávatelných databází metadat nebo rozšíření kódu o úpravu a opětovné uložení ASF souborů.
+Po prostudování tohoto návodu víte, jak **extrahovat ASF metadata Java** pomocí GroupDocs.Metadata. Můžete číst základní vlastnosti, informace o kodecích, podrobné popisovače i atributy streamu – což vám poskytne úplný přehled o vašich mediálních aktivech. Další kroky zahrnují integraci tohoto extrahování do dávkových zpracovatelských pipeline, vytvoření vyhledávatelné databáze metadat nebo rozšíření kódu o úpravy a opětovné uložení ASF souborů.
 
 ---
 
-**Poslední aktualizace:** 2025-12-26  
-**Testováno s:** GroupDocs.Metadata 24.12 pro Java  
+**Poslední aktualizace:** 2026-02-27  
+**Testováno s:** GroupDocs.Metadata 24.12 for Java  
 **Autor:** GroupDocs

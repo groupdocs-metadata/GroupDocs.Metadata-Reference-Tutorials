@@ -1,19 +1,20 @@
 ---
-title: "Update PDF Metadata Java with GroupDocs: A Complete Guide"
-description: "Learn how to update PDF metadata Java using GroupDocs.Metadata. Set author, title, keywords, and dates efficiently in your Java applications."
-date: "2026-02-11"
-weight: 1
-url: "/java/document-formats/java-pdf-metadata-update-groupdocs-guide/"
+date: '2026-02-11'
+description: GroupDocs.Metadata를 사용하여 Java에서 PDF 메타데이터를 업데이트하는 방법을 배우세요. Java 애플리케이션에서
+  저자, 제목, 키워드 및 날짜를 효율적으로 설정하세요.
 keywords:
 - Java PDF Metadata
 - GroupDocs.Metadata update
 - update PDF metadata Java
+title: 'GroupDocs를 사용한 Java PDF 메타데이터 업데이트: 완전 가이드'
 type: docs
+url: /ko/java/document-formats/java-pdf-metadata-update-groupdocs-guide/
+weight: 1
 ---
 
-# Update PDF Metadata Java with GroupDocs: A Complete Guide
+# GroupDocs와 함께 PDF 메타데이터 업데이트 Java: 완전 가이드
 
-Managing PDF metadata is a routine yet essential task for any Java developer who works with document libraries. In this tutorial you’ll discover **how to update PDF metadata Java** projects using the powerful GroupDocs.Metadata API. We'll walk through setting up the library, changing built‑in properties such as author, title, creation date, and keywords, and saving the updated file—all with clear, production‑ready code.
+PDF 메타데이터 관리는 문서 라이브러리를 사용하는 모든 Java 개발자에게 일상적이면서도 필수적인 작업입니다. 이 튜토리얼에서는 강력한 GroupDocs.Metadata API를 사용하여 **how to update PDF metadata Java** 프로젝트를 수행하는 방법을 알아봅니다. 라이브러리 설정, 저자, 제목, 생성 날짜, 키워드와 같은 내장 속성을 변경하고, 업데이트된 파일을 저장하는 과정을 명확하고 프로덕션 수준의 코드와 함께 단계별로 안내합니다.
 
 ## Quick Answers
 - **What library can I use to edit PDF metadata in Java?** GroupDocs.Metadata for Java.  
@@ -22,17 +23,17 @@ Managing PDF metadata is a routine yet essential task for any Java developer who
 - **Can I process large PDFs efficiently?** Yes—use try‑with‑resources and avoid loading the whole file into memory.  
 - **Is Java 8 sufficient?** Java 8 or newer is supported.
 
-## What is “update pdf metadata java”?
-Updating PDF metadata in Java means programmatically modifying the document’s built‑in properties (author, title, keywords, dates, etc.) without altering the visible content. This is useful for automating document management, ensuring compliance, and improving searchability in content repositories.
+## “update pdf metadata java”란?
+Java에서 PDF 메타데이터를 업데이트한다는 것은 문서의 가시적인 내용은 변경하지 않고 저자, 제목, 키워드, 날짜 등 내장 속성을 프로그래밍 방식으로 수정하는 것을 의미합니다. 이는 문서 관리 자동화, 규정 준수 보장, 콘텐츠 저장소에서 검색 가능성 향상에 유용합니다.
 
-## Why use GroupDocs.Metadata for updating PDF metadata Java?
-GroupDocs.Metadata offers a clean, type‑safe API that works across all major PDF versions. It abstracts low‑level PDF structures, handles encryption automatically, and provides robust error handling—so you can focus on business logic rather than PDF internals.
+## 왜 GroupDocs.Metadata를 사용해 PDF 메타데이터를 업데이트 Java 해야 할까요?
+GroupDocs.Metadata는 모든 주요 PDF 버전을 지원하는 깔끔하고 타입‑안전한 API를 제공합니다. 저수준 PDF 구조를 추상화하고, 암호화를 자동으로 처리하며, 강력한 오류 처리를 제공하므로 PDF 내부 구현보다 비즈니스 로직에 집중할 수 있습니다.
 
 ## Prerequisites
-- **Java Development Kit** 8 or higher (Java 11+ recommended).  
-- **IDE** such as IntelliJ IDEA or Eclipse for easy project management.  
-- **Maven** (or the ability to add JARs manually).  
-- Basic familiarity with Java and PDF concepts.
+- **Java Development Kit** 8 이상 (Java 11+ 권장).  
+- **IDE**(IntelliJ IDEA 또는 Eclipse 등)로 프로젝트를 손쉽게 관리.  
+- **Maven**(또는 JAR를 수동으로 추가할 수 있는 환경).  
+- Java와 PDF 개념에 대한 기본 지식.
 
 ## Setting Up GroupDocs.Metadata for Java
 

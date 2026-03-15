@@ -1,52 +1,60 @@
 ---
-date: '2025-12-26'
-description: Pelajari cara mengekstrak komentar zip java menggunakan GroupDocs.Metadata
-  untuk Java. Ikuti panduan langkah demi langkah ini untuk mengelola arsip digital
-  secara efisien.
+date: '2026-03-15'
+description: Pelajari cara mengekstrak komentar zip di Java dan membaca arsip zip
+  yang dilindungi kata sandi menggunakan GroupDocs.Metadata untuk Java. Ikuti panduan
+  langkah demi langkah ini untuk mengelola arsip digital secara efisien.
 keywords:
 - extract ZIP metadata
 - GroupDocs.Metadata for Java
 - manage digital archives
-title: Ekstrak komentar zip java menggunakan GroupDocs.Metadata – Panduan
+title: Cara mengekstrak komentar zip di Java menggunakan GroupDocs.Metadata – Panduan
 type: docs
 url: /id/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/
 weight: 1
 ---
 
-# Ekstrak komentar zip java menggunakan GroupDocs.Metadata – Panduan
+ says translate all text content. So translate to Indonesian: "**Last Updated:**" becomes "**Terakhir Diperbarui:**". Keep bold.
 
-Mengelola arsip digital secara efisien sangat penting, terutama ketika menangani koleksi besar file yang dikompresi ke dalam arsip ZIP. **Dalam tutorial ini Anda akan belajar cara mengekstrak komentar zip java** dan metadata berguna lainnya tanpa harus membuka setiap file secara manual. Pengembang sering perlu mengambil komentar dan entri file untuk mengorganisir serta memahami isi arsip dengan cepat. Panduan ini akan memandu Anda menggunakan GroupDocs.Metadata untuk Java guna mengekstrak informasi tersebut secara mulus.
+Similarly "**Tested With:**" -> "**Diuji Dengan:**". "**Author:**" -> "**Penulis:**".
+
+Now ensure we keep markdown formatting.
+
+Now produce final content with all translations.
+
+Check for any missing elements: code block placeholders remain unchanged. No Hugo shortcodes present.
+
+Make sure to keep bold markers.
+
+Now produce final answer.# Cara mengekstrak komentar zip java menggunakan GroupDocs.Metadata – Panduan
+
+Mengelola arsip digital secara efisien sangat penting, terutama ketika menangani koleksi besar file yang dikompres menjadi arsip ZIP. **Dalam tutorial ini Anda akan belajar cara mengekstrak komentar zip java** dan metadata berguna lainnya tanpa harus membuka setiap file secara manual. Pada akhir panduan ini Anda juga akan melihat cara **membaca arsip zip yang dilindungi kata sandi** bila diperlukan, memberikan Anda kotak peralatan lengkap untuk inspeksi arsip di Java.
 
 ## Jawaban Cepat
-- **Apa arti “extract zip comments java”?** Itu merujuk pada pengambilan bidang komentar yang disimpan dalam arsip ZIP menggunakan kode Java.  
-- **Perpustakaan mana yang terbaik untuk tugas ini?** GroupDocs.Metadata untuk Java menyediakan API sederhana untuk membaca metadata ZIP.  
+- **Apa arti “extract zip comments java”?** Ini merujuk pada pengambilan bidang komentar yang disimpan dalam arsip ZIP menggunakan kode Java.  
+- **Library mana yang terbaik untuk tugas ini?** GroupDocs.Metadata untuk Java menyediakan API sederhana untuk membaca metadata ZIP.  
 - **Apakah saya memerlukan lisensi?** Versi percobaan gratis tersedia, tetapi lisensi permanen diperlukan untuk penggunaan produksi.  
 - **Bisakah saya memproses file ZIP besar?** Ya—proses dalam batch dan gunakan fitur concurrency Java untuk kinerja yang lebih baik.  
-- **Apakah pendekatan ini thread‑safe?** Perpustakaan dirancang untuk penggunaan bersamaan ketika setiap thread bekerja dengan instance `Metadata` masing‑masing.
+- **Apakah pendekatan ini thread‑safe?** Library dirancang untuk penggunaan bersamaan ketika setiap thread bekerja dengan instance `Metadata` masing‑masing.
 
-## Apa itu “extract zip comments java”?
-Mengekstrak komentar zip java berarti membaca string komentar opsional yang dapat dilampirkan pada arsip ZIP. Komentar ini sering berisi catatan, info versi, atau konteks lain yang membantu Anda mengidentifikasi tujuan arsip tanpa harus membukanya.
+## Cara mengekstrak komentar zip menggunakan GroupDocs.Metadata
+Mengekstrak komentar zip java berarti membaca string komentar opsional yang dapat dilampirkan pada arsip ZIP. Komentar ini sering berisi catatan, info versi, atau konteks lain yang membantu Anda mengidentifikasi tujuan arsip tanpa membukanya.
 
-## Mengapa menggunakan GroupDocs.Metadata untuk Java?
-GroupDocs.Metadata mengabstraksi detail format ZIP tingkat rendah, memungkinkan Anda fokus pada logika bisnis. Ia mendukung berbagai tipe arsip, menawarkan penanganan error yang kuat, dan terintegrasi dengan mudah pada proyek Java standar.
+### Mengapa menggunakan GroupDocs.Metadata untuk Java?
+GroupDocs.Metadata menyembunyikan detail format ZIP tingkat rendah, memungkinkan Anda fokus pada logika bisnis. Ia mendukung berbagai tipe arsip, menawarkan penanganan error yang kuat, dan mudah diintegrasikan dengan proyek Java standar.
 
-## Prasyarat
+### Prasyarat
 - **Java Development Kit (JDK) 8+** terpasang.  
 - **IDE** seperti IntelliJ IDEA, Eclipse, atau NetBeans.  
 - **Pengetahuan dasar Java** (kelas, try‑with‑resources, streams).  
-- **Perpustakaan GroupDocs.Metadata** (ditambahkan via Maven atau JAR manual).
+- **Library GroupDocs.Metadata** (ditambahkan melalui Maven atau JAR manual).
 
-### Perpustakaan yang Diperlukan
+### Library yang Diperlukan
 
-Sertakan perpustakaan GroupDocs.Metadata. Anda dapat menambahkannya via Maven untuk manajemen dependensi atau mengunduh langsung dari situs GroupDocs.
+Sertakan library GroupDocs.Metadata. Anda dapat menambahkannya melalui Maven untuk manajemen dependensi atau mengunduh langsung dari situs web GroupDocs.
 
-## Menyiapkan GroupDocs.Metadata untuk Java
+#### Pengaturan Maven
 
-Memulai dengan GroupDocs.Metadata sangat mudah, baik Anda menambahkannya melalui alat build seperti Maven atau secara manual menyertakan file JAR dalam proyek.
-
-### Pengaturan Maven
-
-Untuk menambahkan GroupDocs.Metadata ke proyek Anda menggunakan Maven, sertakan repositori dan dependensi berikut di file `pom.xml` Anda:
+Untuk menambahkan GroupDocs.Metadata ke proyek Anda menggunakan Maven, sertakan repository dan dependensi berikut dalam file `pom.xml` Anda:
 
 ```xml
 <repositories>
@@ -66,18 +74,18 @@ Untuk menambahkan GroupDocs.Metadata ke proyek Anda menggunakan Maven, sertakan 
 </dependencies>
 ```
 
-### Unduhan Langsung
+#### Unduhan Langsung
 
-Sebagai alternatif, unduh versi terbaru GroupDocs.Metadata untuk Java dari [tautan ini](https://releases.groupdocs.com/metadata/java/). Tambahkan file JAR yang diunduh ke path build proyek Anda.
+Sebagai alternatif, unduh versi terbaru GroupDocs.Metadata untuk Java dari [tautan ini](https://releases.groupdocs.com/metadata/java/). Tambahkan file JAR yang diunduh ke jalur build proyek Anda.
 
-#### Langkah‑langkah Akuisisi Lisensi
-- **Percobaan Gratis:** Mulai dengan percobaan gratis yang tersedia di situs GroupDocs.  
-- **Lisensi Sementara:** Dapatkan lisensi sementara untuk akses penuh dengan mengunjungi [GroupDocs Licensing](https://purchase.groupdocs.com/temporary-license/).  
-- **Pembelian:** Pertimbangkan membeli lisensi untuk penggunaan jangka panjang.
+#### Langkah-langkah Akuisisi Lisensi
+- **Free Trial:** Mulai dengan percobaan gratis yang tersedia di situs web GroupDocs.  
+- **Temporary License:** Dapatkan lisensi sementara untuk akses penuh dengan mengunjungi [GroupDocs Licensing](https://purchase.groupdocs.com/temporary-license/).  
+- **Purchase:** Pertimbangkan untuk membeli lisensi untuk penggunaan jangka panjang.
 
 #### Inisialisasi dan Pengaturan Dasar
 
-Inisialisasi proyek Anda dengan cuplikan kode pengaturan berikut:
+Inisialisasi proyek Anda dengan potongan kode pengaturan berikut:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -95,13 +103,9 @@ public class MetadataExtractor {
 }
 ```
 
-## Panduan Implementasi
-
-Pada bagian ini, kami akan menguraikan proses mengekstrak metadata arsip ZIP menggunakan GroupDocs.Metadata.
-
 ### Mengekstrak Komentar Arsip dan Jumlah Entri
 
-Pertama, mari ambil komentar dan hitung entri dalam file ZIP:
+Sekarang mari kita ambil komentar dan hitung entri dalam file ZIP:
 
 ```java
 import com.groupdocs.metadata.core.ZipRootPackage;
@@ -139,75 +143,73 @@ public class MetadataExtractor {
 
 #### Poin Penting
 - **`getRootPackageGeneric()`** mengambil paket root arsip ZIP, penting untuk mengakses metadata.  
-- **`getComment()`** mengambil komentar apa pun yang terkait dengan file ZIP—fitur berguna untuk arsip yang memerlukan konteks atau catatan.  
-- **`getTotalEntries()`** memberikan jumlah semua file dalam arsip, berguna untuk memahami ruang lingkup isinya.
+- **`getComment()`** mengambil semua komentar yang terkait dengan file ZIP—fitur berguna untuk arsip yang memerlukan konteks atau catatan.  
+- **`getTotalEntries()`** memberikan jumlah semua file dalam arsip, berguna untuk memahami cakupan isinya.
 
-### Mengiterasi File‑file
+### Mengiterasi File
 
-Iterasi setiap file dalam arsip ZIP untuk mengumpulkan dan mencetak metadata terperinci:
+Metode pembantu `printFileInfo` (ditunjukkan di atas) mencetak informasi detail untuk setiap entri. Ini menunjukkan cara Anda dapat menelusuri setiap file dalam arsip dan mengekstrak properti seperti nama, ukuran terkompresi, metode kompresi, flag, dan timestamp.
+
+### Membaca arsip zip yang dilindungi kata sandi
+
+Jika Anda perlu **membaca zip yang dilindungi kata sandi**, cukup berikan kata sandi saat membuat objek `Metadata`:
 
 ```java
-// Code snippet included above in `printFileInfo` method.
+String password = "yourPassword";
+try (Metadata metadata = new Metadata(inputZip, password)) {
+    // The same extraction logic works here
+}
 ```
 
-#### Penjelasan
-- **`getFiles()`** mengembalikan koleksi semua file dalam paket ZIP, memungkinkan Anda melakukan loop.  
-- Detail tiap file—nama, ukuran terkompresi, ukuran tidak terkompresi, metode kompresi, flag, dan tanggal/waktu modifikasi—dicetak menggunakan fungsi bantuan `printFileInfo`.
+GroupDocs.Metadata akan mendekripsi arsip secara langsung, memungkinkan Anda menerapkan logika ekstraksi komentar yang sama tanpa kode tambahan.
 
 ## Aplikasi Praktis
 
-Berikut beberapa skenario dunia nyata di mana **extract zip comments java** sangat berguna:
-
+Berikut beberapa skenario dunia nyata di mana mengekstrak komentar zip java bersinar:
 1. **Sistem Pengarsipan Otomatis** – Gunakan metadata untuk mengkategorikan dan menandai arsip secara otomatis tanpa inspeksi manual.  
-2. **Verifikasi Cadangan** – Daftar dan verifikasi isi ZIP cadangan secara programatis.  
-3. **Platform Manajemen Konten** – Tampilkan detail arsip secara dinamis kepada pengguna akhir, meningkatkan transparansi.
+2. **Verifikasi Cadangan** – Daftar dan verifikasi isi ZIP cadangan secara programatik.  
+3. **Platform Manajemen Konten** – Secara dinamis menampilkan detail arsip kepada pengguna akhir, meningkatkan transparansi.  
 
 ## Pertimbangan Kinerja
 
-Saat mengekstrak metadata dari banyak atau besar file ZIP, perhatikan tips berikut:
-
-- **Penggunaan Memori Efisien** – Lepaskan objek segera; blok try‑with‑resources sudah membantu.  
-- **Pemrosesan Batch** – Proses arsip dalam grup untuk membatasi tekanan memori.  
-- **Threading** – Manfaatkan `ExecutorService` Java untuk memparalelkan ekstraksi pada banyak arsip.
+Saat mengekstrak metadata dari banyak atau file ZIP besar, perhatikan tips berikut:
+- **Efficient Memory Use** – Lepaskan objek dengan cepat; blok try‑with‑resources sudah membantu.  
+- **Batch Processing** – Proses arsip dalam grup untuk membatasi tekanan memori.  
+- **Threading** – Manfaatkan `ExecutorService` Java untuk memparalelkan ekstraksi di banyak arsip.
 
 ## Masalah Umum dan Solusinya
-- **Komentar kosong dikembalikan** – Pastikan ZIP memang berisi komentar; beberapa alat menghilangkannya.  
-- **Encoding tidak didukung** – Contoh menggunakan `cp866`; sesuaikan charset dengan encoding arsip Anda (misalnya UTF‑8).  
-- **Arsip besar menyebabkan OutOfMemoryError** – Tingkatkan ukuran heap JVM atau proses file dalam mode streaming.
+- **Empty comment returned** – Pastikan ZIP memang berisi komentar; beberapa alat menghilangkannya.  
+- **Unsupported encoding** – Contoh menggunakan `cp866`; sesuaikan charset agar cocok dengan encoding arsip Anda (mis., UTF‑8).  
+- **Large archives cause OutOfMemoryError** – Tingkatkan ukuran heap JVM atau proses file dalam mode streaming.  
+- **Password‑protected ZIP fails** – Verifikasi bahwa kata sandi yang diberikan benar dan arsip menggunakan metode enkripsi yang didukung.
 
 ## Bagian FAQ
 
-**T: Apa tujuan utama mengekstrak metadata ZIP?**  
-J: Mengekstrak metadata ZIP membantu mengotomatisasi pengelolaan dan organisasi arsip file tanpa harus memeriksa setiap item secara manual.
+**Q: Apa tujuan utama mengekstrak metadata ZIP?**  
+A: Mengekstrak metadata ZIP membantu mengotomatisasi pengelolaan dan organisasi arsip file tanpa harus memeriksa setiap item secara manual.
 
-**T: Bisakah saya mengekstrak metadata dari format arsip lain menggunakan GroupDocs.Metadata?**  
-J: Ya, GroupDocs.Metadata mendukung berbagai tipe arsip seperti RAR dan 7z selain ZIP.
+**Q: Bisakah saya mengekstrak metadata dari format arsip lain menggunakan GroupDocs.Metadata?**  
+A: Ya, GroupDocs.Metadata mendukung berbagai tipe arsip seperti RAR dan 7z selain ZIP.
 
-**T: Bagaimana cara menangani file ZIP besar secara efisien dengan GroupDocs.Metadata?**  
-J: Optimalkan penggunaan memori dengan memproses file dalam batch dan memanfaatkan fitur concurrency Java untuk tugas ekstraksi paralel.
+**Q: Bagaimana cara menangani file ZIP besar secara efisien dengan GroupDocs.Metadata?**  
+A: Optimalkan penggunaan memori dengan memproses file dalam batch dan memanfaatkan fitur concurrency Java untuk tugas ekstraksi paralel.
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Apakah saya memerlukan lisensi komersial untuk menjalankan kode ini di produksi?**  
-J: Ya, lisensi GroupDocs.Metadata yang valid diperlukan untuk penyebaran produksi. Versi percobaan tersedia untuk evaluasi.
+**Q: Apakah saya memerlukan lisensi komersial untuk menjalankan kode ini di produksi?**  
+A: Ya, lisensi GroupDocs.Metadata yang valid diperlukan untuk penyebaran produksi. Versi percobaan gratis tersedia untuk evaluasi.
 
-**T: Apakah memungkinkan membaca arsip ZIP yang dilindungi kata sandi?**  
-J: GroupDocs.Metadata dapat membuka arsip yang dilindungi kata sandi ketika Anda menyediakan kata sandi yang benar melalui API.
+**Q: Apakah memungkinkan membaca arsip ZIP yang dilindungi kata sandi?**  
+A: GroupDocs.Metadata dapat membuka arsip yang dilindungi kata sandi ketika Anda memberikan kata sandi yang benar melalui API.
 
-**T: Versi Java mana yang didukung?**  
-J: Perpustakaan bekerja dengan Java 8 dan versi lebih baru, termasuk Java 11, 17, dan selanjutnya.
+**Q: Versi Java mana yang didukung?**  
+A: Library ini bekerja dengan Java 8 dan versi yang lebih baru, termasuk Java 11, 17, dan selanjutnya.
 
-**T: Bisakah saya mengekstrak hanya entri file tertentu saja alih‑alih mengiterasi semua file?**  
-J: Ya—Anda dapat memfilter koleksi yang dikembalikan oleh `getFiles()` berdasarkan nama file atau kriteria lain.
-
-## Kesimpulan
-
-Dengan mengikuti panduan ini, Anda kini tahu cara **mengekstrak komentar zip java** dan metadata berharga lainnya menggunakan GroupDocs.Metadata untuk Java. Kemampuan ini menyederhanakan manajemen arsip, meningkatkan verifikasi cadangan, dan memungkinkan aplikasi berbasis konten menampilkan informasi arsip secara otomatis. Jelajahi lebih lanjut dengan mengintegrasikan teknik ini ke dalam alur kerja yang lebih besar atau bereksperimen dengan format arsip lain yang didukung.
+**Q: Bisakah saya mengekstrak hanya entri file tertentu alih-alih mengiterasi semua file?**  
+A: Ya—Anda dapat menyaring koleksi yang dikembalikan oleh `getFiles()` berdasarkan nama file atau kriteria lain.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-26  
-**Diuji Dengan:** GroupDocs.Metadata 24.12 untuk Java  
-**Penulis:** GroupDocs  
-
----
+**Terakhir Diperbarui:** 2026-03-15  
+**Diuji Dengan:** GroupDocs.Metadata 24.12 for Java  
+**Penulis:** GroupDocs

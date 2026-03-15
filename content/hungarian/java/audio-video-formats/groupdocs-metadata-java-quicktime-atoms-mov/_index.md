@@ -1,46 +1,46 @@
 ---
-date: '2025-12-26'
-description: Tanulja meg, hogyan adhat hozzá metaadatokat a docx fájlokhoz, és hogyan
-  olvashat hatékonyan QuickTime atomokat MOV fájlokban a hatékony GroupDocs.Metadata
-  Java könyvtár segítségével. Emellett fedezze fel, hogyan állíthat be dokumentum
-  tulajdonságokat Java-ban.
+date: '2026-03-15'
+description: Tanulja meg, hogyan állíthat be dokumentumtulajdonságokat DOCX fájlokban,
+  és hogyan nyerhet ki Java videó metaadatokat, például QuickTime atomokat MOV fájlokból
+  a GroupDocs.Metadata for Java segítségével.
 keywords:
 - GroupDocs Metadata Java
 - QuickTime atoms MOV files
 - video file metadata manipulation
-title: Metaadatok hozzáadása a docx-hez, atomok olvasása a GroupDocs Java-val
+title: Dokumentum tulajdonságok beállítása DOCX-ben és QuickTime atomok olvasása a
+  GroupDocs Java segítségével
 type: docs
 url: /hu/java/audio-video-formats/groupdocs-metadata-java-quicktime-atoms-mov/
 weight: 1
 ---
 
-# DOCX metaadatok hozzáadása, atomok olvasása a GroupDocs Java-val
+# DOCX dokumentum tulajdonságok beállítása és QuickTime atomok olvasása GroupDocs Java-val
 
-A modern médiafolyamatokban a **DOCX metaadatok hozzáadása** mellett a videótárolók technikai részleteinek kinyerése óriási termelékenységnövekedést jelent. Ebben az útmutatóban megmutatjuk, hogyan teszi lehetővé a GroupDocs.Metadata Java könyvtár mind a **DOCX metaadatok hozzáadását**, mind a QuickTime atomok olvasását MOV fájlokból – tiszta, Java‑központú módon. Végigvezetünk a telepítésen, kódrészleteken és valós példákon, hogy azonnal alkalmazni tudd ezeket a technikákat.
+Modern média csővezetékekben a **dokumentum tulajdonságok beállítása** a DOCX fájlokban, miközben Java videó metaadatokat nyerünk ki MOV konténerekből, óriási termelékenységnövekedést biztosít. Ebben az útmutatóban megmutatjuk, hogyan teszi lehetővé a GroupDocs.Metadata könyvtár Java-hoz, hogy **add metadata to docx** dokumentumokhoz metaadatokat adjon, és QuickTime atomokat olvasson MOV fájlokból – mindezt tiszta, Java‑központú módon. Végigvezetünk a beállításon, kódrészleteken és valós példákon, hogy azonnal alkalmazni tudd ezeket a technikákat.
 
 ## Gyors válaszok
-- **Mit jelent a „DOCX metaadatok hozzáadása”?** Ez azt jelenti, hogy olyan tulajdonságokat (pl. szerző, cím vagy egyedi címkék) írunk a DOCX fájl magmetaadat-szakaszába.  
-- **Olvasni tudja ugyanaz a könyvtár a videó atomokat?** Igen – a GroupDocs.Metadata képes a QuickTime atomok elemzésére MOV tárolókban.  
-- **Szükség van licencre fejlesztéshez?** Egy ingyenes próba a kiértékeléshez elegendő; termeléshez ideiglenes vagy teljes licenc szükséges.  
-- **Melyik Java verzió szükséges?** JDK 8 vagy újabb.  
-- **Támogatott a kötegelt feldolgozás?** Teljesen – fájlokat ciklusokban vagy stream-ekben lehet feldolgozni nagy gyűjtemények esetén.
+- **What does “add metadata to docx” mean?** Ez azt jelenti, hogy olyan tulajdonságokat írunk, mint a szerző, cím vagy egyéni címkék a DOCX fájl mag metaadat szekciójába.  
+- **Can the same library read video atoms?** Igen—GroupDocs.Metadata képes a QuickTime atomok elemzésére MOV konténerekben.  
+- **Do I need a license for development?** Egy ingyenes próbaalkalmazás elegendő értékeléshez; egy ideiglenes vagy teljes licenc szükséges a termeléshez.  
+- **Which Java version is required?** JDK 8 vagy újabb.  
+- **Is batch processing supported?** Teljesen támogatott—fájlokat ciklusokban vagy stream-ekben dolgozhatsz fel nagy gyűjtemények esetén.
 
-## Mi a „DOCX metaadatok hozzáadása”?
-A DOCX fájlba metaadatok hozzáadása azt jelenti, hogy leíró információkat (szerző, cím, kulcsszavak stb.) ágyazunk közvetlenül a dokumentum csomagba. Ezek a metaadatok kereshetők az irodai alkalmazások és a tartalomkezelő rendszerek által, megkönnyítve a fájlok szervezését és visszakeresését.
+## Mi az a “add metadata to docx”?
+A DOCX fájlba történő metaadat hozzáadása azt jelenti, hogy leíró információkat (szerző, cím, kulcsszavak stb.) ágyazunk közvetlenül a dokumentum csomagba. Ezek a metaadatok kereshetők az irodai alkalmazások és a tartalomkezelő rendszerek által, ami megkönnyíti a fájlok szervezését és visszakeresését.
 
-## Miért használjuk a GroupDocs.Metadata‑t ehhez a feladathoz?
-A GroupDocs.Metadata egységes API‑t biztosít számos fájltípushoz, köztük a DOCX‑hez és a MOV‑hoz. Elrejti a low‑level ZIP és atom‑elemzési részleteket, így a vállalati logikára koncentrálhatsz a fájlformátum‑különlegességek helyett. Emellett a könyvtár teljesen Java‑kompatibilis, és támogatja mind az olvasási, mind a írási műveleteket.
+## Miért használjuk a GroupDocs.Metadata-ot ehhez a feladathoz?
+A GroupDocs.Metadata egységes API-t biztosít számos fájltípushoz, köztük a DOCX és MOV formátumokhoz. Elrejti az alacsony szintű ZIP és atom elemzési részleteket, így az üzleti logikára koncentrálhatsz a fájlformátum sajátosságai helyett. Emellett a könyvtár teljesen Java‑kompatibilis, és támogatja a olvasási és írási műveleteket is, így ideális a **java video metadata** szcenáriókhoz.
 
 ## Előfeltételek
 
 - **Java Development Kit (JDK) 8+** – biztosítja a könyvtárral való kompatibilitást.  
-- **Maven** – a függőségkezeléshez (vagy a JAR manuális letöltéséhez).  
-- **Alapvető Java ismeretek** – különösen a try‑with‑resources és az objektum‑orientált minták terén.  
+- **Maven** – a függőségkezeléshez (vagy a JAR-t manuálisan letöltheted).  
+- **Basic Java knowledge** – különösen a try‑with‑resources és az objektum‑orientált minták körül.  
 
 ## A GroupDocs.Metadata beállítása Java-hoz
 
-### Telepítés Maven‑nel
-Add hozzá a tárolót és a függőséget a `pom.xml` fájlodhoz:
+### Telepítés Maven használatával
+Add the repository and dependency to your `pom.xml`:
 
 ```xml
 <repositories>
@@ -63,22 +63,22 @@ Add hozzá a tárolót és a függőséget a `pom.xml` fájlodhoz:
 ### Közvetlen letöltés
 Alternatívaként töltsd le a legújabb verziót közvetlenül a [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) oldalról.
 
-### Licencbeszerzési lépések
-1. **Ingyenes próba** – kezdj el felfedezni kötelezettség nélkül.  
-2. **Ideiglenes licenc** – szerezz be egy kiterjesztett próba‑kulcsot fejlesztéshez.  
-3. **Vásárlás** – szerezd be a teljes licencet a termelési környezethez.
+### Licenc megszerzésének lépései
+1. **Free Trial** – kezdj el felfedezni kötelezettség nélkül.  
+2. **Temporary License** – szerezz egy próba‑kiterjesztett kulcsot fejlesztéshez.  
+3. **Purchase** – szerezd be a teljes licencet a termelési környezethez.
 
 Most, hogy a környezet készen áll, merüljünk el a két fő szcenárióban.
 
-## Hogyan olvassuk a QuickTime atomokat egy MOV videóból
+## Hogyan olvassuk a QuickTime atomokat egy MOV videóban
 
 ### Áttekintés
-A QuickTime atomok alacsony szintű videóinformációkat tárolnak, például a hossz, a kodekek és a sávelrendezés adatait. Ezek kinyerése lehetővé teszi videókatalógusok építését, fájlok validálását vagy automatizált minőség‑ellenőrzéseket.
+A QuickTime atomok alacsony szintű videó információkat tárolnak, mint például a hossz, a kodekek és a sáv elrendezés. Kinyerésük lehetővé teszi videó katalógusok építését, fájlok ellenőrzését vagy automatizált minőségellenőrzések végrehajtását.
 
-### Lépés‑ről‑lépésre megvalósítás
+### Lépésről‑lépésre megvalósítás
 
-**1. lépés: MOV fájl megnyitása**  
-Hozz létre egy `Metadata` példányt, és töltsd be a MOV fájlt:
+**1. lépés: A MOV fájl megnyitása**  
+Create a `Metadata` instance and load your MOV file:
 
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputMov.mov")) {
@@ -86,16 +86,16 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputMov.mov")) {
 }
 ```
 
-*Magyarázat*: A try‑with‑resources blokk garantálja, hogy a fájlkezelő automatikusan felszabadul.
+*Explanation*: A try‑with‑resources blokk automatikusan felszabadítja a fájlkezelőt.
 
-**2. lépés: Gyökércsomag elérése**  
-Szerezd meg a gyökércsomagot, amely az összes atomot tartalmazza:
+**2. lépés: A gyökércsomag elérése**  
+Hozd vissza a gyökércsomagot, amely az összes atomot tartalmazza:
 
 ```java
 MovRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-**3. lépés: Atomok iterálása**  
+**3. lépés: Az egyes atomok iterálása**  
 Iterálj végig az atomgyűjteményen, és írd ki a kulcsfontosságú tulajdonságokat:
 
 ```java
@@ -106,21 +106,21 @@ for (MovAtom atom : root.getMovPackage().getAtoms()) {
 }
 ```
 
-*Magyarázat*: Ez az egyszerű ciklus megjeleníti minden QuickTime atom típusát, eltolását és méretét, így gyors áttekintést kapsz a fájl belső struktúrájáról.
+*Explanation*: Ez az egyszerű ciklus megjeleníti minden QuickTime atom típusát, eltolását és méretét, így gyors áttekintést kapsz a fájl belső struktúrájáról.
 
 #### Hibaelhárítási tippek
-- **Fájl nem található** – ellenőrizd az útvonalat és a fájlnevet.  
-- **Érvénytelen formátum** – győződj meg róla, hogy valódi MOV tárolóról van szó; más formátumok parsing hibát okozhatnak.
+- **File Not Found** – ellenőrizd újra az elérési utat és a fájlnevet.  
+- **Invalid Format** – győződj meg arról, hogy a bemenet valódi MOV konténer; más formátumok elemzési hibát okoznak.
 
-## Hogyan adjunk metaadatokat egy DOCX‑hez (document properties beállítása Java‑ban)
+## Hogyan adjunk metaadatot a docx-hez (set document properties java)
 
 ### Áttekintés
-A videóelemzés mellett gyakran szükség van **document properties Java**‑stílusú beállításra – szerző, cím vagy egyedi mezők írására egy DOCX fájlba. A GroupDocs.Metadata ezt egyszerűvé teszi.
+A videóelemzésen túl gyakran szükség van **set document properties**—szerző, cím vagy egyéni mezők írására egy DOCX fájlba. A GroupDocs.Metadata ezt egyszerűvé teszi.
 
-### Lépés‑ről‑lépésre megvalósítás
+### Lépésről‑lépésre megvalósítás
 
-**1. lépés: DOCX fájl megnyitása**  
-Hozz létre egy `Metadata` példányt egy DOCX dokumentumhoz:
+**1. lépés: A DOCX fájl megnyitása**  
+Példányosítsd a `Metadata`-t egy DOCX dokumentumhoz:
 
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputDocx.docx")) {
@@ -129,7 +129,7 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputDocx.docx"))
 ```
 
 **2. lépés: Tulajdonságok elérése és beállítása**  
-Szerezd meg a `DocumentProperties` objektumot, és rendelj értékeket:
+Hozd vissza a `DocumentProperties` objektumot, és rendelj értékeket:
 
 ```java
 DocumentProperties properties = metadata.getDocumentProperties();
@@ -140,46 +140,46 @@ System.out.println(properties.getAuthor()); // Print author
 System.out.println(properties.getTitle());   // Print title
 ```
 
-*Magyarázat*: Itt **DOCX metaadatokat adunk hozzá** azzal, hogy frissítjük a szerző és a cím mezőket, majd kiírjuk őket a változtatás ellenőrzéséhez.
+*Explanation*: Itt **add metadata to docx** a szerző és cím mezők frissítésével, majd kiíratjuk őket a változás ellenőrzéséhez. Ez a fő módja a **set document properties** egy DOCX fájlban.
 
 #### Hibaelhárítási tippek
-- **Nem támogatott fájltípus** – ellenőrizd, hogy a fájlkiterjesztés `.docx`.  
-- **Jogosultsági problémák** – győződj meg arról, hogy az alkalmazásnak írási joga van a célkönyvtárhoz.
+- **Unsupported File Type** – ellenőrizd, hogy a fájl kiterjesztése `.docx`.  
+- **Permission Issues** – győződj meg arról, hogy az alkalmazásnak írási jogosultsága van a célkönyvtárhoz.
 
 ## Gyakorlati alkalmazások
 
-| Szcenárió | Miért fontos |
-|-----------|--------------|
-| **Videószerkesztő szoftver** | Automatikusan feltölti a timeline‑t a QuickTime atomokból kinyert kodek‑ és hosszadatokkal. |
-| **Médiakönyvtárak** | Nagy gyűjtemények indexelése atom‑metaadatok olvasásával, majd minden bejegyzés címkézése kereshető mezőkkel. |
-| **Dokumentumkezelő rendszerek** | **DOCX metaadatok hozzáadása** a szerző, projekt vagy megfelelőségi címkék közvetlen beágyazásával a fájlokba. |
-| **Digitális eszközkezelés (DAM)** | Kombinálja a videó atom‑kivonatot és a DOCX metaadatokat egy egységes eszköznyilvántartás létrehozásához. |
+| Scenario | Why it matters |
+|----------|----------------|
+| **Video Editing Software** | Automatikusan tölti fel az idővonalakat a QuickTime atomokból kinyert kodek és időtartam adatokkal. |
+| **Media Libraries** | Nagy gyűjtemények indexelése atom metaadatok olvasásával, majd minden bejegyzés címkézése kereshető mezőkkel. |
+| **Document Management Systems** | Használd a **set document properties** funkciót, hogy szerző, projekt vagy megfelelőségi címkéket ágyazz be közvetlenül a fájlokba. |
+| **Digital Asset Management** | Kombináld a videó atom kinyerést és a DOCX metaadatokat, hogy egységes eszköznyilvántartásokat hozz létre. |
 
-## Teljesítmény‑szempontok
+## Teljesítménybeli megfontolások
 
-- **Memóriakezelés** – mindig használj try‑with‑resources blokkot a fájl‑stream-ek lezárásához.  
-- **Kötegelt feldolgozás** – dolgozz fájlcsoportokban (pl. 100‑onként), hogy a heap‑használat stabil maradjon.  
-- **Profilozás** – a VisualVM vagy a YourKit segíthet a forró pontok azonosításában, ha több ezer fájlt kezelsz.
+- **Memory Management** – mindig használj try‑with‑resources-t a fájl stream-ek lezárásához.  
+- **Batch Processing** – dolgozz fel fájlokat csoportokban (pl. 100 egyszerre), hogy a heap használat stabil maradjon.  
+- **Profiling** – olyan eszközök, mint a VisualVM vagy a YourKit kiemelhetik a forró pontokat több ezer fájl kezelésekor.
 
 ## GyIK szekció
 
-**Q1: Mi az a QuickTime atom?**  
-A QuickTime atom egy építőelem a MOV fájlokban, amely információkat tárol, például kodek‑adatokat, időbélyegeket és sávelrendezést.
+**Q1: What is a QuickTime atom?**  
+A QuickTime atom egy építőelem a MOV fájlokban, amely információkat tárol, mint például a kodek részletek, időbélyegek és a sáv elrendezése.
 
-**Q2: Olvashatok metaadatokat nem‑MOV fájlokból a GroupDocs.Metadata‑val?**  
-Igen, a könyvtár számos formátumot támogat, köztük MP4, AVI, PDF, DOCX és még sok más.
+**Q2: Can I read metadata from non‑MOV files using GroupDocs.Metadata?**  
+Igen, a könyvtár számos formátumot támogat, köztük MP4, AVI, PDF, DOCX és mások.
 
-**Q3: Hogyan kezdjek hozzá a GroupDocs.Metadata ingyenes próbaverziójával?**  
-Látogasd meg a [GroupDocs weboldalt](https://purchase.groupdocs.com/temporary-license/), és kérj egy ideiglenes licencet a kiértékeléshez.
+**Q3: How do I get started with a free trial of GroupDocs.Metadata?**  
+Látogasd meg a [GroupDocs weboldalt](https://purchase.groupdocs.com/temporary-license/), hogy ideiglenes licencet kérj értékelési célokra.
 
-**Q4: Milyen tipikus felhasználási esetek vannak a dokumentum metaadatok beállítására?**  
-Általános forgatókönyvek: vállalati könyvtárak szervezése, jelentésgenerálás automatizálása, kereshetőség javítása tartalomkezelő rendszerekben.
+**Q4: What are common use cases for setting document metadata?**  
+Tipikus szcenáriók közé tartozik a vállalati könyvtárak szervezése, jelentésgenerálás automatizálása és a kereshetőség javítása a tartalomkezelő rendszerekben.
 
-**Q5: Alkalmas a GroupDocs.Metadata nagyvállalati projektekhez?**  
-Teljes mértékben. Kifejezetten nagy áteresztőképességű környezetekre tervezték, és robusztus licencelési lehetőségeket kínál nagy telepítésekhez.
+**Q5: Is GroupDocs.Metadata suitable for enterprise‑scale projects?**  
+Teljes mértékben. Nagy áteresztőképességű környezetekhez tervezték, és erős licencelési lehetőségeket kínál nagy telepítésekhez.
 
 ---
 
-**Utoljára frissítve:** 2025-12-26  
+**Legutóbb frissítve:** 2026-03-15  
 **Tesztelve a következővel:** GroupDocs.Metadata 24.12 for Java  
 **Szerző:** GroupDocs

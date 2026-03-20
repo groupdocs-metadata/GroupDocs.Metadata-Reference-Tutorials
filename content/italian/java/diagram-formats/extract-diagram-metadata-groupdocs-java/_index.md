@@ -1,59 +1,51 @@
 ---
-date: '2026-01-16'
-description: Scopri come estrarre e gestire in modo efficiente le proprietà dei documenti
-  Java dai file di diagramma utilizzando GroupDocs.Metadata per Java, inclusi i dettagli
-  del creatore, le informazioni sull'azienda e molto altro.
+date: '2026-03-20'
+description: Scopri come estrarre i metadati dei diagrammi in Java usando GroupDocs.Metadata,
+  incluso come leggere le proprietà del documento in Java, come creatore, azienda
+  e data di creazione.
 keywords:
 - extract diagram metadata java
 - GroupDocs Metadata for Java
 - manage diagram document metadata
-title: Proprietà dei documenti Java – Estrai i metadati del diagramma con GroupDocs
-  per Java
+title: Estrai i metadati del diagramma Java con GroupDocs
 type: docs
 url: /it/java/diagram-formats/extract-diagram-metadata-groupdocs-java/
 weight: 1
 ---
 
-# java document properties – Estrai i Metadati del Diagramma con GroupDocs per Java
+# Estrai metadati diagramma Java con GroupDocs
 
 ## Introduzione
-Stai cercando di estrarre e gestire in modo efficiente **java document properties** dai tuoi file di diagramma? Comprendere i metadati sottostanti — come i dettagli del creatore, le informazioni sull'azienda e la data di creazione — è fondamentale per la gestione della documentazione. Questa guida completa ti accompagnerà nell'estrazione delle proprietà dei metadati integrati utilizzando GroupDocs.Metadata per Java e ti mostrerà scenari reali in cui queste proprietà aggiungono valore.
+Se hai bisogno di **estrarre metadati diagramma Java** in modo rapido e affidabile, sei nel posto giusto. In molti ambienti aziendali, i file di diagramma (Visio, VSDX, ecc.) contengono informazioni nascoste come autore, azienda, parole‑chiave, lingua e timestamp di creazione. Estrarre queste **java document properties** dal file ti consente di automatizzare la classificazione degli asset, garantire la conformità e alimentare flussi di lavoro basati sulla ricerca senza aprire il diagramma stesso.
 
-**Cosa Imparerai**
-- Come estrarre i metadati come creatore, azienda, parole chiave, lingua, data di creazione e categoria.  
-- Configurare l'ambiente con le librerie e le dipendenze necessarie.  
-- Applicazioni pratiche dei metadati estratti in progetti reali.
+## Risposte rapide
+- **Cosa significa “extract diagram metadata Java”?** È il processo di lettura programmatica delle proprietà incorporate (autore, data di creazione, ecc.) dai file di diagramma usando Java.  
+- **Quale libreria semplifica questo compito?** GroupDocs.Metadata for Java fornisce un’API pulita che astrae l’analisi a basso livello dei file.  
+- **È necessaria una licenza per gli esempi?** Una prova gratuita è sufficiente per la valutazione; è richiesta una licenza permanente per l’uso in produzione.  
+- **Posso leggere la data di creazione del file Java con questa API?** Sì—`getTimeCreated()` restituisce il timestamp di creazione.  
+- **È possibile leggere la categoria di un diagramma?** Assolutamente—`getCategory()` restituisce la proprietà di categoria del diagramma.
 
-Configuriamo il tuo ambiente prima di immergerci nell'estrazione di informazioni preziose dai tuoi diagrammi!
+## Che cos’è “extract diagram metadata Java”?
+“Extract diagram metadata Java” indica il recupero dei campi di metadati integrati memorizzati all’interno di un file di diagramma (ad es. creatore, azienda, parole‑chiave). Questi campi consentono classificazione automatica, ricerca e controlli di conformità senza aprire il contenuto del file.
 
-## Risposte Rapide
-- **Qual è lo scopo principale delle java document properties?** Esporre le informazioni incorporate come autore, data di creazione e categoria per una migliore gestione delle risorse.  
-- **Quale libreria fornisce l'accesso più semplice a queste proprietà?** GroupDocs.Metadata per Java.  
-- **Ho bisogno di una licenza per eseguire gli esempi?** Una prova gratuita è sufficiente per la valutazione; è necessaria una licenza permanente per la produzione.  
-- **Posso leggere la data di creazione del file java usando questa API?** Sì — `getTimeCreated()` restituisce il timestamp di creazione.  
-- **È possibile leggere la categoria del diagramma?** Assolutamente — `getCategory()` restituisce la proprietà di categoria del diagramma.
-
-## Cosa sono le java document properties?
-Le java document properties sono i campi di metadati integrati memorizzati all'interno di un file (ad es., autore, azienda, parole chiave). Consentono la classificazione automatica, la ricerca e i controlli di conformità senza aprire il contenuto del file.
-
-## Perché utilizzare GroupDocs.Metadata per Java?
-GroupDocs.Metadata offre un **metadata library example** che astrae l'analisi a basso livello dei file. Supporta decine di formati, fornisce un modello di oggetti pulito e gestisce automaticamente la gestione delle risorse, così puoi concentrarti sulla logica di business.
+## Perché utilizzare GroupDocs.Metadata for Java?
+GroupDocs.Metadata offre un **metadata library example** che astrae l’analisi a basso livello dei file. Supporta decine di formati, fornisce un modello di oggetti chiaro e gestisce automaticamente le risorse, così puoi concentrarti sulla logica di business invece che sulle particolarità dei formati di file.
 
 ## Prerequisiti
-Prima di procedere, assicurati di avere quanto segue:
+Prima di iniziare, assicurati di avere quanto segue:
 
-### Librerie e Dipendenze Richieste
-- **GroupDocs.Metadata per Java** (versione 24.12 o successiva).  
-- **Java Development Kit (JDK)** – Si consiglia JDK 8+.
+### Librerie e dipendenze richieste
+- **GroupDocs.Metadata for Java** (versione 24.12 o successiva).  
+- **Java Development Kit (JDK)** – è consigliato JDK 8+.
 
-### Requisiti per la Configurazione dell'Ambiente
+### Requisiti per la configurazione dell’ambiente
 - Un IDE come IntelliJ IDEA o Eclipse.  
 - Maven per la gestione delle dipendenze (opzionale ma consigliato).
 
-### Prerequisiti di Conoscenza
+### Prerequisiti di conoscenza
 Sono sufficienti competenze di programmazione Java di base e familiarità con un IDE.
 
-## Configurazione di GroupDocs.Metadata per Java
+## Configurazione di GroupDocs.Metadata for Java
 Integra GroupDocs.Metadata nel tuo progetto usando Maven o un download diretto.
 
 **Configurazione Maven**  
@@ -76,15 +68,15 @@ Aggiungi quanto segue al tuo file `pom.xml`:
 </dependencies>
 ```
 
-**Download Diretto**  
-In alternativa, scarica l'ultima versione da [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+**Download diretto**  
+In alternativa, scarica l’ultima versione da [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-### Acquisizione della Licenza
-- **Free Trial** – Esplora tutte le funzionalità senza costi.  
-- **Temporary License** – Utile per valutazioni a breve termine. Richiedi tramite [GroupDocs' purchase page](https://purchase.groupdocs.com/temporary-license/).  
-- **Purchase** – Necessario per le distribuzioni in produzione.
+### Acquisizione della licenza
+- **Prova gratuita** – Esplora tutte le funzionalità senza costi.  
+- **Licenza temporanea** – Utile per valutazioni a breve termine. Richiedi tramite la [pagina di acquisto di GroupDocs](https://purchase.groupdocs.com/temporary-license/).  
+- **Acquisto** – Necessario per le distribuzioni in produzione.
 
-### Inizializzazione e Configurazione di Base
+### Inizializzazione e configurazione di base
 Inizializza GroupDocs.Metadata nel tuo progetto Java:
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -94,27 +86,27 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/your-diagram-file
     DiagramRootPackage root = metadata.getRootPackageGeneric();
 }
 ```
-Sostituisci `"YOUR_DOCUMENT_DIRECTORY/your-diagram-file.vsdx"` con il percorso reale del tuo file.
+Sostituisci `"YOUR_DOCUMENT_DIRECTORY/your-diagram-file.vsdx"` con il percorso effettivo del tuo file.
 
-## Guida all'Implementazione
+## Guida all’implementazione
 
-### Estrarre le java document properties integrate da un Documento Diagramma
-Questa funzionalità ti consente di recuperare proprietà essenziali come creatore, azienda, parole chiave, lingua, **file creation date java**, e categoria.
+### Estrarre le proprietà di documento java integrate da un Diagram Document
+Questa funzionalità ti consente di recuperare proprietà essenziali come creatore, azienda, parole‑chiave, lingua, **java read creation date** e categoria.
 
-#### Implementazione Passo‑per‑Passo
-##### Passo 1: Inizializza la Classe Metadata
+#### Implementazione passo‑passo
+##### Passo 1: Inizializzare la classe Metadata
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/your-diagram-file.vsdx")) {
 ```
-*Perché?* Questo apre il diagramma per la lettura e prepara l'API per estrarre le proprietà.
+*Perché?* Questo apre il diagramma in lettura e prepara l’API all’estrazione delle proprietà.
 
-##### Passo 2: Accedi al Pacchetto Radice
+##### Passo 2: Accedere al pacchetto radice
 ```java
 DiagramRootPackage root = metadata.getRootPackageGeneric();
 ```
-*Spiegazione*: Il pacchetto radice contiene le proprietà principali del documento che interrogherai.
+*Spiegazione*: Il pacchetto radice contiene le proprietà di documento principali che interrogherai.
 
-##### Passo 3: Estrai e Stampa le Proprietà dei Metadati
+##### Passo 3: Estrarre e stampare le proprietà dei metadati
 ```java
 String creator = root.getDocumentProperties().getCreator();
 String company = root.getDocumentProperties().getCompany();
@@ -131,60 +123,66 @@ System.out.println("Language: " + language);
 System.out.println("Time Created: " + timeCreated);
 System.out.println("Category: " + category);
 ```
-*Perché?* La stampa verifica che le **java document properties** siano state recuperate con successo.
+*Perché?* La stampa verifica che le **java document properties** siano state recuperate correttamente.
 
-### Suggerimenti per la Risoluzione dei Problemi
-- **Problemi di Percorso File** – Controlla nuovamente il percorso per evitare `FileNotFoundException`.  
-- **Compatibilità della Libreria** – Assicurati di utilizzare la versione 24.12 o successiva di GroupDocs.Metadata.  
-- **Gestione della Memoria** – Il blocco try‑with‑resources garantisce che l'istanza `Metadata` venga chiusa automaticamente.
+### Come leggere le proprietà del documento Java
+L’oggetto `getDocumentProperties()` fornisce accesso diretto ai campi standard. Se ti servono campi personalizzati aggiuntivi, la stessa API offre metodi come `getCustomProperties()`—utile per scenari di **extract custom properties java**.
 
-## Applicazioni Pratiche
-L'estrazione delle **java document properties** dai file di diagramma può essere inestimabile:
+### Come leggere la data di creazione Java
+Il metodo `getTimeCreated()` restituisce un `java.util.Date` che rappresenta il timestamp di creazione del diagramma. È la chiamata consigliata per il requisito **java read creation date**.
 
-1. **Sistemi di Gestione dei Contenuti** – Tagga automaticamente i diagrammi usando parole chiave e categorie estratte.  
-2. **Piattaforme di Collaborazione** – Mostra il creatore del documento e l'azienda per migliorare la tracciabilità.  
-3. **Analisi dei Dati** – Aggrega dati di lingua e data di creazione per i report di localizzazione.  
+### Suggerimenti per la risoluzione dei problemi
+- **Problemi di percorso file** – Verifica attentamente il percorso per evitare `FileNotFoundException`.  
+- **Compatibilità della libreria** – Assicurati di usare GroupDocs.Metadata versione 24.12 o successiva.  
+- **Gestione della memoria** – Il blocco try‑with‑resources garantisce la chiusura automatica dell’istanza `Metadata`.
 
-## Considerazioni sulle Prestazioni
-- **Ottimizza l'Uso della Memoria** – Usa sempre try‑with‑resources come mostrato.  
-- **Elaborazione in Batch** – Elabora più file in un ciclo per ridurre l'overhead.  
-- **Monitoraggio delle Risorse** – Tieni d'occhio l'uso dell'heap quando gestisci grandi collezioni di diagrammi.
+## Applicazioni pratiche
+Estrarre **extract diagram metadata Java** dai file di diagramma può rivelarsi prezioso:
 
-## Problemi Comuni e Soluzioni
+1. **Sistemi di gestione dei contenuti** – Tag automatici dei diagrammi usando parole‑chiave e categorie estratte.  
+2. **Piattaforme di collaborazione** – Visualizza l’autore del documento e l’azienda per migliorare la tracciabilità.  
+3. **Analisi dei dati** – Aggrega lingua e data di creazione per report di localizzazione.  
+
+## Considerazioni sulle prestazioni
+- **Ottimizza l’uso della memoria** – Usa sempre try‑with‑resources come mostrato.  
+- **Elaborazione batch** – Processa più file in un ciclo per ridurre l’overhead.  
+- **Monitoraggio delle risorse** – Controlla l’utilizzo dell’heap quando gestisci grandi collezioni di diagrammi.
+
+## Problemi comuni e soluzioni
 | Problema | Soluzione |
 |----------|-----------|
 | `FileNotFoundException` | Verifica il percorso assoluto o relativo e assicurati che il file esista. |
 | `UnsupportedOperationException` | Conferma che il formato del diagramma sia supportato da GroupDocs.Metadata. |
-| Alto consumo di memoria | Elabora i file in batch più piccoli e chiudi prontamente ogni istanza `Metadata`. |
+| Consumo elevato di memoria | Processa i file in batch più piccoli e chiudi prontamente ogni istanza `Metadata`. |
 
-## Domande Frequenti
+## Domande frequenti
 **D: Quale versione di Java è richiesta per GroupDocs.Metadata?**  
-R: Si consiglia JDK 8 o superiore per la piena compatibilità.
+R: È consigliato JDK 8 o superiore per la piena compatibilità.
 
 **D: Posso estrarre metadati da formati diversi dai diagrammi?**  
-R: Sì, GroupDocs.Metadata supporta molti tipi di documenti, inclusi PDF, Word ed Excel.
+R: Sì, GroupDocs.Metadata supporta molti tipi di documento, inclusi PDF, Word ed Excel.
 
 **D: Come gestire file di diagramma molto grandi in modo efficiente?**  
-R: Usa l'elaborazione in batch, limita il numero di istanze `Metadata` concorrenti e monitora la memoria della JVM.
+R: Usa l’elaborazione batch, limita il numero di istanze `Metadata` concorrenti e monitora la memoria della JVM.
 
-**D: Quali sono gli errori tipici durante l'estrazione dei metadati?**  
-R: Gli errori comuni includono percorsi file errati e versioni della libreria non corrispondenti.
+**D: Quali sono gli errori tipici durante l’estrazione dei metadati?**  
+R: Errori comuni includono percorsi file errati e versioni della libreria non corrispondenti.
 
 **D: È possibile personalizzare quali campi di metadati vengono letti?**  
-R: Sebbene questa guida tratti le proprietà integrate, l'API consente di interrogare anche proprietà personalizzate.
+R: Sebbene questa guida copra le proprietà integrate, l’API consente anche di interrogare proprietà personalizzate per esigenze di **extract custom properties java**.
 
 ## Risorse
-- [Documentazione](https://docs.groupdocs.com/metadata/java/)  
-- [Riferimento API](https://reference.groupdocs.com/metadata/java/)  
-- [Download](https://releases.groupdocs.com/metadata/java/)  
-- [Repository GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- [Forum di Supporto Gratuito](https://forum.groupdocs.com/c/metadata/)  
-- [Applicazione Licenza Temporanea](https://purchase.groupdocs.com/temporary-license/)
+- [Documentazione](https://docs.groupdocs.com/metadata/java/)
+- [Riferimento API](https://reference.groupdocs.com/metadata/java/)
+- [Download](https://releases.groupdocs.com/metadata/java/)
+- [Repository GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- [Forum di supporto gratuito](https://forum.groupdocs.com/c/metadata/)
+- [Applicazione licenza temporanea](https://purchase.groupdocs.com/temporary-license/)
 
-Seguendo questa guida, ora possiedi le competenze per sfruttare le **java document properties** dai file di diagramma usando GroupDocs.Metadata per Java. Integra queste tecniche nei tuoi flussi di lavoro per migliorare l'organizzazione delle risorse, la conformità e l'automazione.
+Seguendo questa guida, ora possiedi le competenze per sfruttare **extract diagram metadata Java** dai file di diagramma usando GroupDocs.Metadata for Java. Integra queste tecniche nei tuoi flussi di lavoro per migliorare l’organizzazione degli asset, la conformità e l’automazione.
 
 ---
 
-**Ultimo Aggiornamento:** 2026-01-16  
-**Testato Con:** GroupDocs.Metadata 24.12 per Java  
+**Ultimo aggiornamento:** 2026-03-20  
+**Testato con:** GroupDocs.Metadata 24.12 per Java  
 **Autore:** GroupDocs

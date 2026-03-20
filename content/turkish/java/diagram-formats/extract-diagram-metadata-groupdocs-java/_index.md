@@ -1,59 +1,54 @@
 ---
-date: '2026-01-16'
-description: GroupDocs.Metadata for Java kullanarak diyagram dosyalarından Java belge
-  özelliklerini verimli bir şekilde çıkarmayı ve yönetmeyi, oluşturucu detayları,
-  şirket bilgileri ve daha fazlasını öğrenin.
+date: '2026-03-20'
+description: GroupDocs.Metadata kullanarak Java'da diyagram meta verilerini nasıl
+  çıkaracağınızı, oluşturucu, şirket ve oluşturulma tarihi gibi belge özelliklerini
+  Java'da nasıl okuyacağınızı öğrenin.
 keywords:
 - extract diagram metadata java
 - GroupDocs Metadata for Java
 - manage diagram document metadata
-title: java belge özellikleri – GroupDocs for Java ile Diyagram Meta Verilerini Çıkar
+title: GroupDocs ile Java’da Diyagram Meta Verilerini Çıkar
 type: docs
 url: /tr/java/diagram-formats/extract-diagram-metadata-groupdocs-java/
 weight: 1
 ---
 
-# java document properties – GroupDocs for Java ile Diyagram Meta Verilerini Çıkarın
+# GroupDocs ile Java Diyagram Metaverisini Çıkarma
 
 ## Giriş
-Diyagram dosyalarınızdan **java document properties** öğelerini verimli bir şekilde çıkarmak ve yönetmek mi istiyorsunuz? Oluşturucu detayları, şirket bilgileri ve oluşturulma zamanı gibi temel meta verileri anlamak, belge yönetimi için çok önemlidir. Bu kapsamlı rehber, GroupDocs.Metadata for Java kullanarak yerleşik meta veri özelliklerini nasıl çıkaracağınızı adım adım gösterir ve bu özelliklerin değer kattığı gerçek dünya senaryolarını sunar.
+Eğer **extract diagram metadata Java**'yi hızlı ve güvenilir bir şekilde çıkarmanız gerekiyorsa, doğru yerdesiniz. Birçok kurumsal ortamda, diyagram dosyaları (Visio, VSDX vb.) yazar, şirket, anahtar kelimeler, dil ve oluşturulma zaman damgaları gibi gizli bilgiler içerir. Bu **java document properties**'i dosyadan çekmek, varlık sınıflandırmasını otomatikleştirmenizi, uyumluluğu sağlamanızı ve diyagramı açmadan arama‑tabanlı iş akışlarını güçlendirmenizi sağlar.
 
-**Neler Öğreneceksiniz**
-- Oluşturucu, şirket, anahtar kelimeler, dil, oluşturulma tarihi ve kategori gibi meta verileri nasıl çıkaracağınızı.
-- Gerekli kütüphaneler ve bağımlılıklarla ortamınızı nasıl kuracağınızı.
-- Çıkarılan meta verilerin gerçek dünya projelerindeki pratik uygulamalarını.
-
-Diyagramlarınızdan değerli bilgiler çıkarmaya başlamadan önce ortamınızı kurun!
+Bu öğreticide, bu özellikleri **GroupDocs.Metadata for Java** kullanarak nasıl okuyacağınızı öğrenecek, gerçek dünya kullanım örneklerini görecek ve büyük dosya gruplarıyla çalışmak için ipuçları alacaksınız.
 
 ## Hızlı Yanıtlar
-- **java document properties'in temel amacı nedir?** Yazar, oluşturulma tarihi ve kategori gibi gömülü bilgileri ortaya çıkararak varlık yönetimini iyileştirmek.  
-- **Bu özelliklere en kolay erişimi sağlayan kütüphane hangisidir?** GroupDocs.Metadata for Java.  
-- **Örnekleri çalıştırmak için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için kalıcı bir lisans gereklidir.  
-- **Bu API ile java dosya oluşturulma tarihini okuyabilir miyim?** Evet—`getTimeCreated()` oluşturulma zaman damgasını döndürür.  
-- **Diyagram kategorisini okumak mümkün mü?** Kesinlikle—`getCategory()` diyagramın kategori özelliğini döndürür.
+- **“extract diagram metadata Java” ne anlama geliyor?** Bu, Java kullanarak diyagram dosyalarından gömülü özellikleri (yazar, oluşturulma tarihi vb.) programlı olarak okuma sürecidir.  
+- **Bu görevi basitleştiren kütüphane hangisidir?** GroupDocs.Metadata for Java, düşük seviyeli dosya ayrıştırmasını soyutlayan temiz bir API sağlar.  
+- **Örnekler için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim kullanımı için kalıcı bir lisans gereklidir.  
+- **Bu API ile dosyanın oluşturulma tarihini Java’da okuyabilir miyim?** Evet—`getTimeCreated()` oluşturulma zaman damgasını döndürür.  
+- **Bir diyagramın kategorisini okumak mümkün mü?** Kesinlikle—`getCategory()` diyagramın kategori özelliğini döndürür.
 
-## java document properties nedir?
-Java document properties, bir dosya içinde depolanan yerleşik meta veri alanlarıdır (ör. yazar, şirket, anahtar kelimeler). Dosya içeriğini açmadan otomatik sınıflandırma, arama ve uyumluluk kontrollerine olanak tanırlar.
+## extract diagram metadata Java nedir?
+**extract diagram metadata Java**, bir diyagram dosyası içinde depolanan yerleşik metaveri alanlarını (ör. oluşturucu, şirket, anahtar kelimeler) geri getirmeyi ifade eder. Bu alanlar, dosya içeriğini açmadan otomatik sınıflandırma, arama ve uyumluluk kontrolleri yapmayı mümkün kılar.
 
-## Neden GroupDocs.Metadata for Java Kullanmalısınız?
-GroupDocs.Metadata, düşük seviyeli dosya ayrıştırmasını soyutlayan bir **metadata library example** sunar. Düzine formatı destekler, temiz bir nesne modeli sağlar ve kaynak yönetimini otomatik olarak gerçekleştirir, böylece iş mantığına odaklanabilirsiniz.
+## Neden GroupDocs.Metadata for Java Kullanmalı?
+GroupDocs.Metadata, düşük seviyeli dosya ayrıştırmasını soyutlayan **metadata library example** sunar. Onlarca formatı destekler, temiz bir nesne modeli sağlar ve kaynak yönetimini otomatik olarak gerçekleştirir; böylece dosya‑formatı incelikleriyle uğraşmak yerine iş mantığına odaklanabilirsiniz.
 
-## Ön Koşullar
-İlerlemeye başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+## Önkoşullar
+Önceden aşağıdakilerin kurulu olduğundan emin olun:
 
 ### Gerekli Kütüphaneler ve Bağımlılıklar
-- **GroupDocs.Metadata for Java** (versiyon 24.12 veya daha yeni).  
+- **GroupDocs.Metadata for Java** (versiyon 24.12 veya üzeri).  
 - **Java Development Kit (JDK)** – JDK 8+ önerilir.
 
 ### Ortam Kurulum Gereksinimleri
 - IntelliJ IDEA veya Eclipse gibi bir IDE.  
 - Bağımlılık yönetimi için Maven (isteğe bağlı ancak önerilir).
 
-### Bilgi Ön Koşulları
-Temel Java programlama becerileri ve bir IDE'ye aşinalık yeterlidir.
+### Bilgi Önkoşulları
+Temel Java programlama becerileri ve bir IDE’ye aşina olmak yeterlidir.
 
 ## GroupDocs.Metadata for Java Kurulumu
-GroupDocs.Metadata'i projenize Maven veya doğrudan indirme yoluyla entegre edin.
+GroupDocs.Metadata'i projenize Maven ile ya da doğrudan indirme yöntemiyle entegre edin.
 
 **Maven Kurulumu**  
 `pom.xml` dosyanıza aşağıdakileri ekleyin:
@@ -76,12 +71,12 @@ GroupDocs.Metadata'i projenize Maven veya doğrudan indirme yoluyla entegre edin
 ```
 
 **Doğrudan İndirme**  
-Alternatif olarak, en son sürümü [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) adresinden indirin.
+Alternatif olarak, en yeni sürümü [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) adresinden indirin.
 
 ### Lisans Alımı
-- **Free Trial** – Ücretsiz tam özellikleri keşfedin.  
-- **Temporary License** – Kısa vadeli değerlendirme için kullanışlı. [GroupDocs satın alma sayfası](https://purchase.groupdocs.com/temporary-license/) üzerinden başvurun.  
-- **Purchase** – Üretim dağıtımları için gereklidir.
+- **Free Trial** – Ücretsiz olarak tam özellikleri keşfedin.  
+- **Temporary License** – Kısa vadeli değerlendirme için uygundur. [GroupDocs' purchase page](https://purchase.groupdocs.com/temporary-license/) üzerinden başvurun.  
+- **Purchase** – Üretim ortamları için gereklidir.
 
 ### Temel Başlatma ve Kurulum
 Java projenizde GroupDocs.Metadata'i başlatın:
@@ -97,23 +92,23 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/your-diagram-file
 
 ## Uygulama Kılavuzu
 
-### Diyagram Belgesinden Yerleşik java document properties Çıkarma
-Bu özellik, oluşturucu, şirket, anahtar kelimeler, dil, **file creation date java**, ve kategori gibi temel özellikleri almanızı sağlar.
+### Diyagram Belgesinden Yerleşik java belge özelliklerini çıkarma
+Bu özellik, oluşturucu, şirket, anahtar kelimeler, dil, **java read creation date** ve kategori gibi temel özellikleri almanızı sağlar.
 
-#### Adım Adım Uygulama
-##### Adım 1: Metadata Sınıfını Başlatın
+#### Adım‑Adım Uygulama
+##### Adım 1: Metadata Sınıfını Başlatma
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/your-diagram-file.vsdx")) {
 ```
-*Neden?* Bu, diyagramı okuma için açar ve API'yi özellikleri çıkarmaya hazırlar.
+*Why?* Bu, diyagramı okuma amaçlı açar ve API'nin özellikleri çıkarmasına hazır hâle getirir.
 
-##### Adım 2: Root Pakete Erişin
+##### Adım 2: Kök Pakete Erişim
 ```java
 DiagramRootPackage root = metadata.getRootPackageGeneric();
 ```
-*Açıklama*: Root paket, sorgulayacağınız temel belge özelliklerini barındırır.
+*Explanation*: Kök paket, sorgulayacağınız temel belge özelliklerini barındırır.
 
-##### Adım 3: Meta Veri Özelliklerini Çıkarın ve Yazdırın
+##### Adım 3: Metaveri Özelliklerini Çıkar ve Yazdır
 ```java
 String creator = root.getDocumentProperties().getCreator();
 String company = root.getDocumentProperties().getCompany();
@@ -130,60 +125,66 @@ System.out.println("Language: " + language);
 System.out.println("Time Created: " + timeCreated);
 System.out.println("Category: " + category);
 ```
-*Neden?* Yazdırma, **java document properties**'in başarıyla alındığını doğrular.
+*Why?* Yazdırma, **java document properties**'in başarıyla alındığını doğrular.
+
+### Java'da belge özelliklerini nasıl okuyabilirsiniz
+`getDocumentProperties()` nesnesi, standart alanlara doğrudan erişim sağlar. Ek özel alanlara ihtiyacınız varsa aynı API `getCustomProperties()` gibi metodlar sunar—**extract custom properties java** senaryoları için faydalıdır.
+
+### Java'da oluşturulma tarihini nasıl okuyabilirsiniz
+`getTimeCreated()` metodu, diyagramın oluşturulma zaman damgasını temsil eden bir `java.util.Date` döndürür. Bu, **java read creation date** ihtiyacı için temel çağrıdır.
 
 ### Sorun Giderme İpuçları
-- **Dosya Yolu Sorunları** – `FileNotFoundException` hatasından kaçınmak için yolu iki kez kontrol edin.  
-- **Kütüphane Uyumluluğu** – GroupDocs.Metadata sürüm 24.12 veya daha yeni bir sürüm kullandığınızdan emin olun.  
-- **Bellek Yönetimi** – try‑with‑resources bloğu, `Metadata` örneğinin otomatik olarak kapatılmasını sağlar.
+- **Dosya Yolu Sorunları** – `FileNotFoundException` almamak için yolu iki kez kontrol edin.  
+- **Kütüphane Uyumluluğu** – GroupDocs.Metadata sürüm 24.12 veya daha yenisini kullandığınızdan emin olun.  
+- **Bellek Yönetimi** – `try‑with‑resources` bloğu, `Metadata` örneğinin otomatik olarak kapanmasını sağlar.
 
 ## Pratik Uygulamalar
-Diyagram dosyalarından **java document properties** çıkarmak çok değerli olabilir:
+**extract diagram metadata Java**'yi diyagram dosyalarından çıkarmak şu senaryolarda çok değerlidir:
 
 1. **İçerik Yönetim Sistemleri** – Çıkarılan anahtar kelimeler ve kategorilerle diyagramları otomatik etiketleyin.  
-2. **İşbirliği Platformları** – İzlenebilirliği artırmak için belge oluşturucusunu ve şirketi gösterin.  
-3. **Veri Analitiği** – Yerelleştirme raporlaması için dil ve oluşturulma tarihi verilerini toplayın.  
+2. **İşbirliği Platformları** – Belge oluşturucusunu ve şirketi göstererek izlenebilirliği artırın.  
+3. **Veri Analitiği** – Dil ve oluşturulma tarihi verilerini toplayarak yerelleştirme raporlaması yapın.  
 
 ## Performans Düşünceleri
-- **Bellek Kullanımını Optimize Edin** – Gösterildiği gibi her zaman try‑with‑resources kullanın.  
-- **Toplu İşleme** – Aşırı yükü azaltmak için bir döngüde birden fazla dosyayı işleyin.  
-- **Kaynak İzleme** – Büyük diyagram koleksiyonlarıyla çalışırken yığın kullanımını izleyin.
+- **Bellek Kullanımını Optimize Edin** – Her zaman gösterildiği gibi `try‑with‑resources` kullanın.  
+- **Toplu İşleme** – Birden fazla dosyayı döngü içinde işleyerek ek yükü azaltın.  
+- **Kaynak İzleme** – Büyük diyagram koleksiyonlarıyla çalışırken heap kullanımını izleyin.
 
 ## Yaygın Sorunlar ve Çözümler
 | Sorun | Çözüm |
 |-------|----------|
-| `FileNotFoundException` | Mutlak ya da göreli yolu doğrulayın ve dosyanın var olduğundan emin olun. |
-| `UnsupportedOperationException` | Diyagram formatının GroupDocs.Metadata tarafından desteklendiğini onaylayın. |
-| High memory consumption | Dosyaları daha küçük partilerde işleyin ve her `Metadata` örneğini zamanında kapatın. |
+| `FileNotFoundException` | Mutlak ya da göreli yolu doğrulayın ve dosyanın mevcut olduğundan emin olun. |
+| `UnsupportedOperationException` | Diyagram formatının GroupDocs.Metadata tarafından desteklendiğini kontrol edin. |
+| Yüksek bellek tüketimi | Dosyaları daha küçük partiler halinde işleyin ve her `Metadata` örneğini hemen kapatın. |
 
-## Sıkça Sorulan Sorular
-**S: GroupDocs.Metadata için hangi Java sürümü gereklidir?**  
+## Sık Sorulan Sorular
+**S: GroupDocs.Metadata için hangi Java sürümü gerekir?**  
 C: Tam uyumluluk için JDK 8 veya üzeri önerilir.
 
-**S: Diyagram dışındaki formatlardan meta veri çıkarabilir miyim?**  
-C: Evet, GroupDocs.Metadata PDF, Word ve Excel dahil birçok belge tipini destekler.
+**S: Diyagram dışındaki formatlardan da metaveri çıkarabilir miyim?**  
+C: Evet, GroupDocs.Metadata PDF, Word, Excel gibi birçok belge tipini destekler.
 
-**S: Çok büyük diyagram dosyalarını verimli bir şekilde nasıl yönetebilirim?**  
-C: Toplu işleme kullanın, eşzamanlı `Metadata` örnek sayısını sınırlayın ve JVM belleğini izleyin.
+**S: Çok büyük diyagram dosyalarını verimli bir şekilde nasıl ele alabilirim?**  
+C: Toplu işleme kullanın, aynı anda çalışan `Metadata` örnek sayısını sınırlayın ve JVM belleğini izleyin.
 
-**S: Meta veri çıkarırken tipik hatalar nelerdir?**  
-C: Yaygın hatalar arasında hatalı dosya yolları ve uyumsuz kütüphane sürümleri bulunur.
+**S: Metaveri çıkarırken tipik hatalar nelerdir?**  
+C: Yanlış dosya yolları ve uyumsuz kütüphane sürümleri en yaygın hatalardır.
 
-**S: Okunan meta veri alanlarını özelleştirmek mümkün mü?**  
-C: Bu rehber yerleşik özellikleri kapsasa da, API özel alanları sorgulamanıza da izin verir.
+**S: Okunan metaveri alanlarını özelleştirmek mümkün mü?**  
+C: Bu kılavuz yerleşik özellikleri kapsasa da, API **extract custom properties java** ihtiyaçları için özel alanları sorgulamanıza da izin verir.
 
 ## Kaynaklar
 - [Documentation](https://docs.groupdocs.com/metadata/java/)
-- [API Referansı](https://reference.groupdocs.com/metadata/java/)
-- [İndirme](https://releases.groupdocs.com/metadata/java/)
-- [GitHub Deposu](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
-- [Ücretsiz Destek Forumu](https://forum.groupdocs.com/c/metadata/)
-- [Geçici Lisans Başvurusu](https://purchase.groupdocs.com/temporary-license/)
+- [API Reference](https://reference.groupdocs.com/metadata/java/)
+- [Download](https://releases.groupdocs.com/metadata/java/)
+- [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- [Free Support Forum](https://forum.groupdocs.com/c/metadata/)
+- [Temporary License Application](https://purchase.groupdocs.com/temporary-license/)
 
-Bu rehberi izleyerek, artık GroupDocs.Metadata for Java kullanarak diyagram dosyalarından **java document properties**'i kullanma becerisine sahipsiniz. Bu teknikleri iş akışlarınıza entegre ederek varlık organizasyonunu, uyumluluğu ve otomasyonu geliştirin.
+Bu kılavuzu izleyerek, artık **extract diagram metadata Java**'yi GroupDocs.Metadata for Java kullanarak diyagram dosyalarından çıkarma becerisine sahipsiniz. Bu teknikleri iş akışlarınıza entegre ederek varlık organizasyonunu, uyumluluğu ve otomasyonu geliştirin.
 
 ---
 
-**Last Updated:** 2026-01-16  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs
+**Son Güncelleme:** 2026-03-20  
+**Test Edilen Sürüm:** GroupDocs.Metadata 24.12 for Java  
+**Yazar:** GroupDocs

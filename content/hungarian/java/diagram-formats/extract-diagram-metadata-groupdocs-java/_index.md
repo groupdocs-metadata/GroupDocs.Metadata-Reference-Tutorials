@@ -1,60 +1,52 @@
 ---
-date: '2026-01-16'
-description: Tanulja meg, hogyan lehet hatékonyan kinyerni és kezelni a Java dokumentum
-  tulajdonságait diagramfájlokból a GroupDocs.Metadata for Java segítségével, beleértve
-  a szerző adatait, a céginformációkat és egyebeket.
+date: '2026-03-20'
+description: Tanulja meg, hogyan lehet Java-ban diagram metaadatokat kinyerni a GroupDocs.Metadata
+  használatával, beleértve a dokumentum tulajdonságok, például a szerző, a cég és
+  a létrehozás dátuma olvasását.
 keywords:
 - extract diagram metadata java
 - GroupDocs Metadata for Java
 - manage diagram document metadata
-title: java dokumentum tulajdonságok – Diagram metaadatok kinyerése a GroupDocs for
-  Java-val
+title: Diagram metaadatok kinyerése Java-val a GroupDocs segítségével
 type: docs
 url: /hu/java/diagram-formats/extract-diagram-metadata-groupdocs-java/
 weight: 1
 ---
 
-# java dokumentum tulajdonságok – Diagram metaadatok kinyerése a GroupDocs for Java segítségével
+# Diagram metaadatok kinyerése Java-val a GroupDocs segítségével
 
 ## Bevezetés
-Szeretné hatékonyan kinyerni és kezelni a **java dokumentum tulajdonságokat** a diagramfájljaiból? Az alapvető metaadatok – például a szerző adatai, a céginformációk és a létrehozási idő – megértése kulcsfontosságú a dokumentációkezelésben. Ez az átfogó útmutató végigvezet a beépített metaadat‑tulajdonságok kinyerésén a GroupDocs.Metadata for Java használatával, és valós példákat mutat be, ahol ezek a tulajdonságok értéket adnak.
-
-**Mit fog megtanulni**
-- Hogyan nyerjen ki metaadatokat, mint a szerző, cég, kulcsszavak, nyelv, létrehozási dátum és kategória.
-- Hogyan állítsa be a környezetet a szükséges könyvtárakkal és függőségekkel.
-- Gyakorlati alkalmazások a kinyert metaadatok felhasználására valós projektekben.
-
-Állítsuk be a környezetet, mielőtt belemerülnénk a diagramokból származó értékes információk kinyerésébe!
+Ha gyorsan és megbízhatóan szeretne **extract diagram metadata Java**-t kinyerni, jó helyen jár. Sok vállalati környezetben a diagramfájlok (Visio, VSDX stb.) rejtett információkat tartalmaznak, például a szerzőt, a céget, kulcsszavakat, nyelvet és a létrehozás időbélyegét. Ezeknek a **java document properties**-nek a fájlból való kinyerése lehetővé teszi az eszközök osztályozásának automatizálását, a megfelelőség érvényesítését és keresés‑alapú munkafolyamatok működtetését a diagram megnyitása nélkül. Ebben az útmutatóban megtanulja, hogyan olvassa be ezeket a tulajdonságokat a **GroupDocs.Metadata for Java** segítségével, megtekintheti a valós példákat, és tippeket kap a nagy fájlbatch-ek kezeléséhez.
 
 ## Gyors válaszok
-- **Mi a fő célja a java dokumentum tulajdonságoknak?** Az beágyazott információk, például a szerző, a létrehozási dátum és a kategória feltárása a jobb eszközkezelés érdekében.  
-- **Melyik könyvtár biztosítja a legegyszerűbb hozzáférést ezekhez a tulajdonságokhoz?** A GroupDocs.Metadata for Java.  
-- **Szükségem van licencre a példák futtatásához?** Egy ingyenes próba megfelelő az értékeléshez; a termeléshez állandó licenc szükséges.  
-- **Olvashatom a fájl létrehozási dátumát java használatával ezen az API-val?** Igen – a `getTimeCreated()` visszaadja a létrehozási időbélyeget.  
-- **Lehet olvasni a diagram kategóriáját?** Természetesen – a `getCategory()` visszaadja a diagram kategória tulajdonságát.
+- **Mi a “extract diagram metadata Java” jelentése?** Ez a folyamat, amely programozottan beolvassa a diagramfájlokba ágyazott tulajdonságokat (szerző, létrehozás dátuma stb.) Java használatával.  
+- **Melyik könyvtár egyszerűsíti ezt a feladatot?** A GroupDocs.Metadata for Java tiszta API-t biztosít, amely elrejti az alacsony szintű fájlparszolást.  
+- **Szükségem van licencre a példákhoz?** Egy ingyenes próba a kiértékeléshez működik; a termelési használathoz állandó licenc szükséges.  
+- **Olvashatom a fájl létrehozási dátumát Java-val ezzel az API-val?** Igen—`getTimeCreated()` visszaadja a létrehozás időbélyegét.  
+- **Lehet a diagram kategóriáját beolvasni?** Természetesen—`getCategory()` visszaadja a diagram kategória tulajdonságát.
 
-## Mik azok a java dokumentum tulajdonságok?
-A java dokumentum tulajdonságok a fájlban tárolt beépített metaadat‑mezők (például szerző, cég, kulcsszavak). Lehetővé teszik az automatikus osztályozást, keresést és megfelelőségi ellenőrzéseket a fájl tartalmának megnyitása nélkül.
+## Mi az extract diagram metadata Java?
+Az extract diagram metadata Java a diagramfájlban (pl. létrehozó, cég, kulcsszavak) tárolt beépített metaadatmezők lekérdezését jelenti. Ezek a mezők lehetővé teszik az automatizált osztályozást, keresést és megfelelőségi ellenőrzéseket a fájl tartalmának megnyitása nélkül.
 
-## Miért használjuk a GroupDocs.Metadata for Java‑t?
-A GroupDocs.Metadata egy **metadata library example**‑t kínál, amely elrejti az alacsony szintű fájl‑elemzést. Támogat tucatnyi formátumot, tiszta objektummodellt biztosít, és automatikusan kezeli az erőforrásokat, így Ön a üzleti logikára koncentrálhat.
+## Miért használjuk a GroupDocs.Metadata for Java-t?
+A GroupDocs.Metadata egy **metadata library example**-t kínál, amely elrejti az alacsony szintű fájlparszolást. Támogat tucatnyi formátumot, tiszta objektummodellt biztosít, és automatikusan kezeli az erőforrások kezelését, így az üzleti logikára koncentrálhat a fájlformátum sajátosságai helyett.
 
-## Előfeltételek
-Mielőtt folytatná, győződjön meg róla, hogy a következőkkel rendelkezik:
+## Előkövetelmények
+Mielőtt belemerülnénk, győződjön meg róla, hogy a következőkkel rendelkezik:
 
 ### Szükséges könyvtárak és függőségek
-- **GroupDocs.Metadata for Java** (24.12‑es vagy újabb verzió).  
-- **Java Development Kit (JDK)** – ajánlott a JDK 8+.
+- **GroupDocs.Metadata for Java** (24.12 vagy újabb verzió).  
+- **Java Development Kit (JDK)** – JDK 8+ ajánlott.
 
 ### Környezet beállítási követelmények
-- IntelliJ IDEA vagy Eclipse IDE.  
+- IntelliJ IDEA vagy Eclipse típusú IDE.  
 - Maven a függőségkezeléshez (opcionális, de ajánlott).
 
-### Tudás‑előfeltételek
-Alapvető Java programozási ismeretek és egy IDE használata elegendő.
+### Tudás előkövetelmények
+Alap Java programozási ismeretek és egy IDE ismerete elegendő.
 
 ## A GroupDocs.Metadata for Java beállítása
-Integrálja a GroupDocs.Metadata‑t a projektjébe Maven‑nel vagy közvetlen letöltéssel.
+Integrálja a GroupDocs.Metadata-et a projektjébe Maven vagy közvetlen letöltés segítségével.
 
 **Maven beállítás**  
 Adja hozzá a következőt a `pom.xml` fájlhoz:
@@ -80,12 +72,12 @@ Adja hozzá a következőt a `pom.xml` fájlhoz:
 Alternatívaként töltse le a legújabb verziót a [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) oldalról.
 
 ### Licenc beszerzése
-- **Ingyenes próba** – Fedezze fel a teljes funkcionalitást költség nélkül.  
-- **Ideiglenes licenc** – Rövid távú értékeléshez hasznos. Jelentkezzen a [GroupDocs vásárlási oldalán](https://purchase.groupdocs.com/temporary-license/).  
-- **Vásárlás** – Szükséges a termelési környezetben való használathoz.
+- **Free Trial** – Fedezze fel a teljes funkciókészletet költség nélkül.  
+- **Temporary License** – Hasznos rövid távú kiértékeléshez. Jelentkezzen a [GroupDocs vásárlási oldalán](https://purchase.groupdocs.com/temporary-license/).  
+- **Purchase** – Szükséges a termelési környezethez.
 
-### Alapvető inicializálás és beállítás
-Inicializálja a GroupDocs.Metadata‑t a Java projektben:
+### Alap inicializálás és beállítás
+Inicializálja a GroupDocs.Metadata-et a Java projektjében:
 ```java
 import com.groupdocs.metadata.Metadata;
 import com.groupdocs.metadata.core.DiagramRootPackage;
@@ -94,27 +86,27 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/your-diagram-file
     DiagramRootPackage root = metadata.getRootPackageGeneric();
 }
 ```
-Cserélje le a `"YOUR_DOCUMENT_DIRECTORY/your-diagram-file.vsdx"` részt a saját fájlútvonalára.
+Cserélje le a `"YOUR_DOCUMENT_DIRECTORY/your-diagram-file.vsdx"`-t a tényleges fájl útvonalára.
 
 ## Implementációs útmutató
 
-### Beépített java dokumentum tulajdonságok kinyerése egy Diagram dokumentumból
-Ez a funkció lehetővé teszi a létfontosságú tulajdonságok, például a szerző, cég, kulcsszavak, nyelv, **file creation date java**, és a kategória lekérdezését.
+### Beépített java dokumentum tulajdonságok kinyerése egy Diagram Dokumentumból
+Ez a funkció lehetővé teszi, hogy a létrehozó, cég, kulcsszavak, nyelv, **java read creation date**, és a kategória alapvető tulajdonságait lekérje.
 
-#### Lépés‑ről‑lépésre megvalósítás
+#### Lépésről‑lépésre megvalósítás
 ##### 1. lépés: A Metadata osztály inicializálása
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/your-diagram-file.vsdx")) {
 ```
-*Miért?* Ez megnyitja a diagramot olvasásra, és felkészíti az API‑t a tulajdonságok kinyerésére.
+*Miért?* Ez megnyitja a diagramot olvasásra, és előkészíti az API-t a tulajdonságok kinyerésére.
 
-##### 2. lépés: A gyökér‑csomag elérése
+##### 2. lépés: A gyökércsomag elérése
 ```java
 DiagramRootPackage root = metadata.getRootPackageGeneric();
 ```
-*Magyarázat*: A gyökér‑csomag tartalmazza a lekérdezni kívánt alapvető dokumentumtulajdonságokat.
+*Magyarázat*: A gyökércsomag tartalmazza a lekérdezni kívánt alap dokumentumtulajdonságokat.
 
-##### 3. lépés: Metaadat‑tulajdonságok kinyerése és kiírása
+##### 3. lépés: Metaadat tulajdonságok kinyerése és kiírása
 ```java
 String creator = root.getDocumentProperties().getCreator();
 String company = root.getDocumentProperties().getCompany();
@@ -131,60 +123,66 @@ System.out.println("Language: " + language);
 System.out.println("Time Created: " + timeCreated);
 System.out.println("Category: " + category);
 ```
-*Miért?* A kiírás ellenőrzi, hogy a **java dokumentum tulajdonságok** sikeresen lekérdezésre kerültek-e.
+*Miért?* A kiírás ellenőrzi, hogy a **java document properties** sikeresen lekérve lettek.
+
+### Hogyan olvassuk a dokumentum tulajdonságait Java-ban
+A `getDocumentProperties()` objektum közvetlen hozzáférést biztosít a szabványos mezőkhöz. Ha további egyedi mezőkre van szüksége, ugyanaz az API olyan metódusokat kínál, mint a `getCustomProperties()`—hasznos **extract custom properties java** esetekben.
+
+### Hogyan olvassuk a létrehozási dátumot Java-ban
+A `getTimeCreated()` metódus egy `java.util.Date` objektumot ad vissza, amely a diagram létrehozási időbélyegét jelenti. Ez a fő hívás a **java read creation date** igényhez.
 
 ### Hibaelhárítási tippek
-- **Fájlútvonal‑problémák** – Ellenőrizze a megadott útvonalat a `FileNotFoundException` elkerülése érdekében.  
-- **Könyvtár‑kompatibilitás** – Győződjön meg róla, hogy a GroupDocs.Metadata 24.12‑es vagy újabb verzióját használja.  
-- **Memória‑kezelés** – A try‑with‑resources blokk biztosítja, hogy a `Metadata` példány automatikusan bezáródik.
+- **Fájl útvonal problémák** – Ellenőrizze kétszer az útvonalat a `FileNotFoundException` elkerülése érdekében.  
+- **Könyvtár kompatibilitás** – Győződjön meg róla, hogy a GroupDocs.Metadata 24.12 vagy újabb verzióját használja.  
+- **Memória kezelés** – A try‑with‑resources blokk garantálja, hogy a `Metadata` példány automatikusan bezárul.
 
 ## Gyakorlati alkalmazások
-A **java dokumentum tulajdonságok** kinyerése diagramfájlokból számos területen felbecsülhetetlen:
+Az **extract diagram metadata Java** kinyerése diagram fájlokból felbecsülhetetlen lehet:
 
 1. **Tartalomkezelő rendszerek** – Automatikus címkézés a kinyert kulcsszavak és kategóriák alapján.  
 2. **Együttműködési platformok** – A dokumentum szerzőjének és cégének megjelenítése a nyomon követhetőség javítása érdekében.  
-3. **Adat‑analitika** – Nyelvi és létrehozási dátum adatok aggregálása a lokalizációs jelentésekhez.  
+3. **Adat-analitika** – Nyelv és létrehozási dátum adatok aggregálása a lokalizációs jelentésekhez.
 
-## Teljesítmény‑szempontok
-- **Memóriahasználat optimalizálása** – Mindig használjon try‑with‑resources blokkot, ahogy a példában látható.  
+## Teljesítmény szempontok
+- **Memóriahasználat optimalizálása** – Mindig használja a bemutatott try‑with‑resources megoldást.  
 - **Kötegelt feldolgozás** – Több fájlt dolgozzon fel egy ciklusban a terhelés csökkentése érdekében.  
-- **Erőforrás‑monitorozás** – Figyelje a heap‑használatot nagy diagramgyűjtemények kezelésekor.
+- **Erőforrás monitorozás** – Figyelje a heap használatát nagy diagramgyűjtemények kezelésekor.
 
 ## Gyakori problémák és megoldások
-| Probléma | Megoldás |
-|----------|----------|
-| `FileNotFoundException` | Ellenőrizze a teljes vagy relatív útvonalat, és győződjön meg róla, hogy a fájl létezik. |
-| `UnsupportedOperationException` | Győződjön meg arról, hogy a diagramformátum támogatott a GroupDocs.Metadata‑val. |
-| Magas memóriafogyasztás | Dolgozzon kisebb kötegekben, és minden `Metadata` példányt zárjon le azonnal. |
+| Issue | Solution |
+|-------|----------|
+| `FileNotFoundException` | Ellenőrizze a abszolút vagy relatív útvonalat, és győződjön meg róla, hogy a fájl létezik. |
+| `UnsupportedOperationException` | Erősítse meg, hogy a diagram formátumot a GroupDocs.Metadata támogatja. |
+| High memory consumption | Fájlokat kisebb kötegekben dolgozzon fel, és minden `Metadata` példányt azonnal zárjon. |
 
-## Gyakran feltett kérdések
-**K: Milyen Java verzió szükséges a GroupDocs.Metadata‑hoz?**  
-A: JDK 8 vagy újabb ajánlott a teljes kompatibilitáshoz.
+## Gyakran ismételt kérdések
+**K: Milyen Java verzió szükséges a GroupDocs.Metadata-hez?**  
+V: A teljes kompatibilitáshoz JDK 8 vagy újabb ajánlott.
 
-**K: Kinyerhetek metaadatot más, diagramoktól eltérő formátumokból is?**  
-A: Igen, a GroupDocs.Metadata számos dokumentumtípust támogat, beleértve a PDF‑et, Word‑et és Excel‑t is.
+**K: Kinyerhetek metaadatot más, a diagramoknál eltérő formátumokból?**  
+V: Igen, a GroupDocs.Metadata számos dokumentumtípust támogat, többek között PDF, Word és Excel formátumokat.
 
-**K: Hogyan kezeljem a nagyon nagy diagramfájlokat hatékonyan?**  
-A: Használjon kötegelt feldolgozást, korlátozza a párhuzamos `Metadata` példányok számát, és figyelje a JVM memóriahasználatát.
+**K: Hogyan kezeljem hatékonyan a nagyon nagy diagramfájlokat?**  
+V: Használjon kötegelt feldolgozást, korlátozza a párhuzamos `Metadata` példányok számát, és figyelje a JVM memóriahasználatát.
 
-**K: Melyek a tipikus hibák a metaadat kinyerésekor?**  
-A: Gyakori hibák közé tartozik a helytelen fájlútvonal és a nem megfelelő könyvtárverzió.
+**K: Milyen tipikus hibák fordulnak elő a metaadatok kinyerésekor?**  
+V: Gyakori hibák a helytelen fájlútvonalak és a nem megfelelő könyvtárverziók.
 
-**K: Lehet testreszabni, hogy mely metaadat‑mezők legyenek beolvasva?**  
-A: Bár ez az útmutató a beépített tulajdonságokra koncentrál, az API lehetővé teszi egyedi tulajdonságok lekérdezését is.
+**K: Lehet testre szabni, mely metaadatmezők kerülnek beolvasásra?**  
+V: Bár ez az útmutató a beépített tulajdonságokra fókuszál, az API lehetővé teszi egyedi mezők lekérdezését **extract custom properties java** igényekhez.
 
 ## Források
-- [Documentation](https://docs.groupdocs.com/metadata/java/)
-- [API Reference](https://reference.groupdocs.com/metadata/java/)
-- [Download](https://releases.groupdocs.com/metadata/java/)
-- [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
-- [Free Support Forum](https://forum.groupdocs.com/c/metadata/)
-- [Temporary License Application](https://purchase.groupdocs.com/temporary-license/)
+- [Dokumentáció](https://docs.groupdocs.com/metadata/java/)
+- [API referencia](https://reference.groupdocs.com/metadata/java/)
+- [Letöltés](https://releases.groupdocs.com/metadata/java/)
+- [GitHub tároló](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- [Ingyenes támogatási fórum](https://forum.groupdocs.com/c/metadata/)
+- [Ideiglenes licenc igénylés](https://purchase.groupdocs.com/temporary-license/)
 
-Ezzel az útmutatóval most már képes a **java dokumentum tulajdonságok** kinyerésére diagramfájlokból a GroupDocs.Metadata for Java használatával. Alkalmazza ezeket a technikákat munkafolyamataiban az eszközök szervezésének, megfelelőségnek és automatizálásnak a javítása érdekében.
+Ezzel az útmutatóval most már képes a **extract diagram metadata Java** kinyerésére diagram fájlokból a GroupDocs.Metadata for Java segítségével. Alkalmazza ezeket a technikákat a munkafolyamataiban az eszközök szervezésének, a megfelelőség és az automatizálás javítása érdekében.
 
 ---
 
-**Utoljára frissítve:** 2026-01-16  
-**Tesztelt verzió:** GroupDocs.Metadata 24.12 for Java  
-**Szerző:** GroupDocs
+**Last Updated:** 2026-03-20  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs

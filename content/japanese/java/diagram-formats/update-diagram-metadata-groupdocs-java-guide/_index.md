@@ -1,23 +1,24 @@
 ---
-title: "Change Creation Time in Diagram Metadata Using GroupDocs Java"
-description: "Learn how to change creation time and automate metadata update for diagram files using GroupDocs.Metadata in Java."
-date: "2026-01-19"
-weight: 1
-url: "/java/diagram-formats/update-diagram-metadata-groupdocs-java-guide/"
+date: '2026-01-19'
+description: GroupDocs.Metadata を使用して Java で図面ファイルの作成時間を変更し、メタデータの更新を自動化する方法を学びましょう。
 keywords:
 - update diagram metadata
 - groupdocs java
 - automate metadata update
+title: GroupDocs Java を使用してダイアグラム メタデータの作成時刻を変更する
 type: docs
+url: /ja/java/diagram-formats/update-diagram-metadata-groupdocs-java-guide/
+weight: 1
 ---
-# Change Creation Time in Diagram Metadata Using GroupDocs Java
 
-Updating metadata properties such as creator, **change creation time**, and category manually can be tedious. Automate this process with the GroupDocs.Metadata library for Java, and you’ll be able to **change creation time** and other built‑in properties in a single, repeatable step. This guide walks you through setting up the library, updating diagram metadata, and applying best‑practice performance tips so you can keep your documents consistent and searchable.
+# GroupDocs Java を使用したダイアグラム メタデータの作成時間の変更
+
+creator、**change creation time**、category順で変更リンス ヒントの適用方法を順を追って説明し、ドキュメントを一貫性があり検索可能な状態に保つ方法をご紹介します。
 
 ## Quick Answers
 - **What is the primary goal?** Change creation time and other metadata in diagram files.  
 - **Which library should I use?** GroupDocs.Metadata for Java.  
-- **Do I need a license?** A free trial works for testing; a full license is required for production.  
+- **Do I need a license; a full license is required for production.  
 - **Can I batch‑process many diagrams?** Yes—use the same approach inside a loop or parallel stream.  
 - **What Java version is required?** JDK 8 or higher.
 
@@ -26,13 +27,10 @@ Changing the creation time means overwriting the original timestamp stored insid
 
 ## Why automate metadata update for diagrams?
 - **Consistency:** Guarantees every file follows the same naming and categorization rules.  
-- **Searchability:** Updated keywords and categories improve document discovery in DMS solutions.  
-- **Compliance:** Helps meet audit requirements by ensuring accurate timestamps.  
+- **Searchability:** Updated keywords and categories improve document discovery in DMS solutions by ensuring accurate timestamps.  
 
 ## Prerequisites
-- **Java Development Kit (JDK) 8+** installed.  
-- **IDE** such as IntelliJ IDEA or Eclipse.  
-- **Maven** (or manual JAR handling) for dependency management.  
+- **Java Development Kit (JDK)  management.  
 - Basic knowledge of Java classes, methods, and exception handling.
 
 ### Required Libraries and Dependencies
@@ -67,7 +65,7 @@ Understanding of Java syntax and basic file I/O will make the tutorial smoother,
 ## Setting Up GroupDocs.Metadata for Java
 ### Installation Instructions
 **Maven Users:** The snippet above adds the repository and the required JAR automatically.  
-**Direct Download Users:** After downloading the JAR from [GroupDocs](https://releases.groupdocs.com/metadata/java/), add it to your project’s classpath.
+**Direct Download Users:** After downloading the JAR from [GroupDocs](/java/), add it to your project’s classpath.
 
 ### License Acquisition
 - **Free Trial:** Explore the library without cost.  
@@ -177,16 +175,12 @@ Ready to try it out? Head over to [GroupDocs.Metadata for Java releases](https:/
 **Q: Can I use this approach with other diagram formats like VSDX?**  
 A: Yes, the same API works for all diagram formats supported by GroupDocs.Metadata.
 
-**Q: Do I need a license for development builds?**  
-A: A free trial is sufficient for development and testing; a full license is required for production deployments.
+**Q: Do IA: A free trial is sufficient for development and testing; a full license is required for production deployments.
 
-**Q: How can I update multiple properties in one call?**  
-A: Set each property on the `DocumentProperties` object before calling `metadata.save(...)`; the library writes them all at once.
+**Q: How can`; the library writes them all at once.
 
 **Q: Is it safe to overwrite the original file?**  
 A: It’s recommended to save to a new file (as shown) to avoid data loss, then replace the original if needed.
 
 **Q: What if I need to set a custom creation date instead of the current time?**  
 A: Create a `java.util.Date` (or `java.time` instance) with the desired timestamp and pass it to `setTimeCreated`.
-
----

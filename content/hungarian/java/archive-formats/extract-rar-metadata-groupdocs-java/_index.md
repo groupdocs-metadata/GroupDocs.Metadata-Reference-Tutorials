@@ -1,43 +1,49 @@
 ---
-date: '2025-12-18'
-description: Ismerje meg, hogyan használhatja a GroupDocs.Metadata for Java könyvtárat
-  RAR metaadatok kinyerésére, a tömörített méret lekérésére, és az archívum részleteinek
-  programozott kezelésére.
+date: '2026-02-19'
+description: Tanulja meg, hogyan lehet lekérni a tömörített méretet Java‑ban, miközben
+  RAR metaadatokat nyer ki a GroupDocs.Metadata for Java segítségével. Lépésről‑lépésre
+  útmutató, kódrészletek és legjobb gyakorlatok.
 keywords:
 - extract RAR metadata Java
 - manage archive metadata
 - RAR file details extraction
-title: Hogyan használjuk a GroupDocs.Metadata-ot RAR metaadatok hatékony kinyeréséhez
-  Java-val
+title: Tömörített méret lekérése Java-val a GroupDocs.Metadata segítségével
 type: docs
 url: /hu/java/archive-formats/extract-rar-metadata-groupdocs-java/
 weight: 1
 ---
 
-# Hogyan használjuk a GroupDocs.Metadata-ot RAR metaadatok hatékony kinyeréséhez Java-val
+# Get Compressed Size Java with GroupDocs.Metadata
 
-A mai adat‑központú világban, a **GroupDocs használata** tömörített fájlok kezelése során óriási különbséget jelenthet a teljesítmény és a karbantarthatóság tekintetében. Ez az útmutató végigvezet a RAR archívumok gazdag metaadatainak kinyerésén a GroupDocs.Metadata for Java segítségével, beleértve azt is, hogyan **get compressed size java** minden bejegyzéshez. A végére egy kész‑használatra kész megoldást kapsz, amelyet bármely Java projektbe beilleszthetsz.
+A modern adatközpontú alkalmazásokban a **getting compressed size java** gyakori követelmény a RAR archívumokban lévő fájlok esetén. Akár egy biztonsági mentés ellenőrző eszközt, egy digitális eszközkezelő rendszert épít, vagy egyszerűen csak archívum‑összefoglalókat szeretne megjeleníteni, a metaadatok kiolvasása az archívum kicsomagolása nélkül időt és erőforrásokat takarít meg. Ez az útmutató bemutatja, hogyan használja a GroupDocs.Metadata for Java‑t a gazdag RAR metaadatok – köztük az egyes bejegyzések tömörített mérete – gyors és megbízható lekéréséhez.
 
-## Gyors válaszok
+## Quick Answers
 - **Milyen könyvtár szükséges?** GroupDocs.Metadata for Java  
-- **Lekérhetem a tömörített méreteket?** Igen – használd a `rarFile.getCompressedSize()`  
-- **Szükségem van licencre?** Egy ingyenes próba működik fejlesztéshez; a teljes licenc szükséges a termeléshez  
+- **Lekérhetem a tömörített méreteket?** Igen – használja a `rarFile.getCompressedSize()`  
+- **Szükségem van licencre?** Egy ingyenes próba a fejlesztéshez működik; a teljes licenc a termeléshez szükséges  
 - **Melyik Java verzió támogatott?** Java 8+ (bármely Maven‑kompatibilis környezet)  
-- **Lehetséges a kötegelt feldolgozás?** Teljesen – iterálj egy mappán RAR fájlokkal, és használd újra ugyanazt a kódot  
+- **Lehetséges kötegelt feldolgozás?** Természetesen – iteráljon egy mappán RAR fájlokkal, és használja újra ugyanazt a kódot  
+- **Hogyan kezeljem a nagy archívumokat?** Feldolgozza a bejegyzéseket egyesével, és a befejezéskor zárja be a metadata objektumot  
 
-## Bevezetés
-A tömörített archívumok kezelése gyakori kihívás a data‑management, backup vagy digital‑asset‑management rendszereket építő fejlesztők számára. A **how to use GroupDocs** elsajátításával a RAR metaadatok olvasásához automatizálhatod a katalógusépítést, ellenőrizheted a biztonsági mentések integritását, és gazdagíthatod a fájlkeresési képességeket anélkül, hogy kicsomagolnád az egész archívumot.
+## What is “get compressed size java” and why does it matter?
+A **get compressed size java** művelet beolvassa egy fájl méretét, ahogyan az egy RAR konténerben tárolódik. Ennek az értéknek a ismerete lehetővé teszi, hogy:
 
-## Előfeltételek
-- **GroupDocs.Metadata for Java** (24.12 vagy újabb verzió).  
-- Maven‑kompatibilis Java fejlesztői környezet (IDE, JDK 8+).  
-- Alap Java ismeretek (fájl I/O, ciklusok, és objektum‑orientált koncepciók).  
+* Ellenőrizze, hogy az archívum megfelel-e a várt tömörítési arányoknak.  
+* Becsülje a letöltési vagy átvitel időt anélkül, hogy teljesen kicsomagolná az adatokat.  
+* Készítsen kereshető leltárakat, amelyek megjelenítik az eredeti és a tömörített méreteket.  
 
-## A GroupDocs.Metadata for Java beállítása
-Integráld a könyvtárat Maven vagy közvetlen letöltés segítségével.
+## Prerequisites
+Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
 
-### Maven beállítás
-Add the repository and dependency to your `pom.xml`:
+- **GroupDocs.Metadata for Java** (legújabb verzió).  
+- Maven‑kompatibilis fejlesztői környezettel (IDE, JDK 8+).  
+- Alapvető Java ismeretekkel (fájl‑I/O, ciklusok és objektum‑orientált koncepciók).  
+
+## Setting Up GroupDocs.Metadata for Java
+A könyvtárat hozzáadhatja Maven‑en keresztül vagy közvetlenül letöltheti.
+
+### Maven Setup
+Adja hozzá a tárolót és a függőséget a `pom.xml`‑hez:
 
 ```xml
 <repositories>
@@ -57,12 +63,12 @@ Add the repository and dependency to your `pom.xml`:
 </dependencies>
 ```
 
-### Közvetlen letöltés
-Alternatívaként töltsd le a [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) oldalról.
+### Direct Download
+Alternatívaként töltse le a [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-**License Acquisition**: Kezdj egy ingyenes próbaverzióval vagy szerezz ideiglenes licencet. Teljes hozzáféréshez fontold meg a licenc megvásárlását.
+**Licenc megszerzése**: Kezdje egy ingyenes próba verzióval vagy szerezzen be egy ideiglenes licencet. A termeléshez teljes hozzáféréshez vásároljon licencet a szállítótól.
 
-Initialize GroupDocs.Metadata in your project:
+Inicializálja a GroupDocs.Metadata‑et a projektben:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -76,13 +82,12 @@ public class MetadataSetup {
 }
 ```
 
-## Implementációs útmutató
-Kövesd ezeket a lépéseket a RAR archívum metaadatainak kinyeréséhez, beleértve azt is, hogyan **get compressed size java** minden bejegyzéshez.
+## Implementation Guide – Extracting RAR Metadata and Getting Compressed Size
 
-### RAR archívum metaadatainak elérése
-Lekérdezzük a teljes bejegyzések számát, fájlneveket, tömörített méreteket, módosítási dátumokat és kitömörített méreteket.
+### How to get compressed size java from RAR archives?
+Az alábbi lépésről‑lépésre bemutató pontosan megmutatja, hogyan olvassa ki minden bejegyzés tömörített méretét.
 
-#### 1. lépés: Metadata objektum inicializálása
+#### Step 1: Initialize the Metadata object
 ```java
 // Specify the path to your input RAR file
 String rarFilePath = "YOUR_DOCUMENT_DIRECTORY/input.rar";
@@ -90,20 +95,20 @@ String rarFilePath = "YOUR_DOCUMENT_DIRECTORY/input.rar";
 // Initialize Metadata object with the specified RAR file path\ nMetadata metadata = new Metadata(rarFilePath);
 ```
 
-#### 2. lépés: Gyökércsomag lekérése
+#### Step 2: Obtain the root package of the RAR archive
 ```java
 // Obtain the root package of the RAR archive
 RarRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-#### 3. lépés: Teljes bejegyzések lekérdezése és kiírása
+#### Step 3: Retrieve total entry count
 ```java
 // Retrieve and print the total number of entries in the RAR package
 int totalEntries = root.getRarPackage().getTotalEntries();
 system.out.println("Total Entries: " + totalEntries);
 ```
 
-#### 4. lépés: Fájlok iterálása részletek kinyeréséhez
+#### Step 4: Iterate over each file and read its properties
 ```java
 // Iterate over each file within the RAR archive
 for (RarFile rarFile : root.getRarPackage().getFiles()) {
@@ -115,58 +120,59 @@ for (RarFile rarFile : root.getRarPackage().getFiles()) {
 }
 ```
 
-**Troubleshooting Tips**:  
-- Ellenőrizd, hogy a `rarFilePath` egy létező RAR fájlra mutat.  
-- Győződj meg róla, hogy az alkalmazásnak olvasási jogosultsága van az archívumhoz.  
-- Ha „unsupported format” (nem támogatott formátum) hibát kapsz, ellenőrizd, hogy a RAR verzió kompatibilis-e a GroupDocs.Metadata‑dal (támogatja a RAR 4 és RAR 5 verziókat).  
+**Troubleshooting Tips**  
+- Ellenőrizze, hogy a `rarFilePath` egy létező RAR fájlra mutat.  
+- Győződjön meg arról, hogy az alkalmazásnak olvasási jogosultsága van az archívumhoz.  
+- Ha “unsupported format” hibát kap, ellenőrizze, hogy a RAR verzió kompatibilis‑e a GroupDocs.Metadata‑tel (támogatja a RAR 4 és RAR 5 verziókat).  
 
-## Miért használjuk a GroupDocs.Metadata-ot RAR fájlokhoz?
-- **Nincs szükség kicsomagolásra** – a metaadatok közvetlenül az archívum fejléceiből olvasódnak.  
-- **Kereszt‑formátum konzisztencia** – ugyanaz az API működik ZIP, 7z és más archívumok esetén.  
-- **Teljesítmény‑orientált** – csak a szükséges mezőket érjük el, így alacsony a memóriahasználat.  
+## Why Use GroupDocs.Metadata for RAR Files?
+- **No extraction needed** – a metaadatok közvetlenül az archívum fejléceiből olvasódnak.  
+- **Cross‑format consistency** – ugyanaz az API működik ZIP, 7z és más archívumok esetén is.  
+- **Performance‑focused** – csak a szükséges mezőket érinti, így alacsony a memóriahasználat.  
 
-## Gyakori felhasználási esetek
+## Common Use Cases
 1. **Data Management Systems** – automatikusan katalogizálja az archívum tartalmát kereshető leltárakhoz.  
 2. **Digital Asset Management** – gazdagítja a médiakönyvtárakat archívumszintű részletekkel.  
 3. **Backup Verification** – összehasonlítja a tárolt tömörített méreteket a várt értékekkel.  
 4. **File‑Sharing Platforms** – megjeleníti az archívum összefoglalókat teljes kicsomagolás nélkül.  
 
-## Teljesítmény szempontok
-- **Csak a szükséges tulajdonságok elérése** – kerüld a nehéz metódusok hívását, ha csak fájlnevekre és méretekre van szükség.  
-- **Metadata objektumok felszabadítása** – hívd meg a `metadata.close()` metódust a befejezéskor a natív erőforrások felszabadításához.  
-- **Kötegelt feldolgozás** – több RAR fájlt dolgozz fel egy ciklusban, ugyanazt a JVM-et újrahasználva a kezdési költség csökkentése érdekében.  
+## Performance Considerations
+- **Access only needed properties** – kerüld a nehéz metódusok hívását, ha csak fájlnevekre és méretekre van szükség.  
+- **Dispose of metadata objects** – hívd a `metadata.close()`‑t a befejezéskor a natív erőforrások felszabadításához.  
+- **Batch processing** – több RAR fájlt dolgozz fel egy ciklusban, ugyanazt a JVM‑et használva a start‑overhead csökkentéséhez.  
 
-## Gyakran Ismételt Kérdések
-**Q: Mi az a GroupDocs.Metadata for Java?**  
-A: Egy erőteljes könyvtár, amely megkönnyíti a metaadatok olvasását, frissítését és kezelését különböző fájlformátumokban, beleértve a RAR archívumokat.
+## Frequently Asked Questions
 
-**Q: Hogyan szerezhetek licencet a teljes hozzáféréshez?**  
-A: Látogasd meg a [GroupDocs purchase page](https://purchase.groupdocs.com/temporary-license/) oldalt, hogy ideiglenes vagy állandó licencet szerezz.
+**Q: What is GroupDocs.Metadata for Java?**  
+A: Egy erőteljes könyvtár, amely megkönnyíti a metaadatok olvasását, frissítését és kezelését különböző fájlformátumokban, köztük a RAR archívumokban.
 
-**Q: Használhatom a GroupDocs.Metadata-ot más archívumtípusokkal is, a RAR-on kívül?**  
-A: Igen, több archívumformátumot támogat, beleértve a ZIP-et és a 7z-et.
+**Q: How do I obtain a license for full access?**  
+A: Látogassa meg a [GroupDocs purchase page](https://purchase.groupdocs.com/temporary-license/) oldalt, hogy ideiglenes vagy állandó licencet szerezzen.
 
-**Q: Milyen gyakori problémák merülnek fel a metaadatok Java-ban történő kezelésénél?**  
-A: Nagy fájlok kezelése és a memória hatékony kezelése kihívást jelenthet.
+**Q: Can I use GroupDocs.Metadata with other archive types besides RAR?**  
+A: Igen, több archívumformátumot támogat, többek között a ZIP‑et és a 7z‑t.
 
-**Q: Hol kaphatok támogatást, ha problémáim vannak?**  
-A: Lépj kapcsolatba a [GroupDocs free support forum](https://forum.groupdocs.com/c/metadata/) oldallal, hogy szakértőktől és a közösségtől kapj segítséget.
+**Q: What are some common issues when working with metadata in Java?**  
+A: Nagy fájlok kezelése és a memória hatékony menedzselése jelenthet kihívást.
 
-## Erőforrások
-- **Dokumentáció**: [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)  
-- **API Referencia**: [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
-- **Letöltés**: [Latest Version Downloads](https://releases.groupdocs.com/metadata/java/)  
+**Q: Where can I get support if I encounter problems?**  
+A: Lépjen kapcsolatba a [GroupDocs free support forum](https://forum.groupdocs.com/c/metadata/)‑nal, ahol szakértők és a közösség segíthet.  
+
+## Resources
+- **Documentation**: [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)  
+- **API Reference**: [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
+- **Download**: [Latest Version Downloads](https://releases.groupdocs.com/metadata/java/)  
 - **GitHub**: [Source Code on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- **Ingyenes támogatás**: [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
+- **Free Support**: [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
 
-## Következtetés
-Most már tudod, **how to use GroupDocs.Metadata**-t, hogy átfogó metaadatokat nyerj ki RAR archívumokból, beleértve azt is, hogyan **get compressed size java** minden bejegyzéshez. Integráld ezt a kódrészletet a projektjeidbe, hogy növeld az adatkezelési képességeket, javítsd a biztonsági mentés ellenőrzését, és gazdagítsd a fájlkeresési élményt.
+## Conclusion
+Most már tudja, **hogyan kell használni a GroupDocs.Metadata‑et** a RAR archívumok átfogó metaadatainak kinyeréséhez, beleértve a **get compressed size java** lekérését minden bejegyzésnél. Integrálja ezt a kódrészletet projektjeibe a adatkezelési képességek növelése, a biztonsági mentés ellenőrzésének javítása és a fájlkeresési élmény gazdagítása érdekében.
 
-### Következő lépések
-Fedezd fel a GroupDocs.Metadata további funkcióit a [comprehensive documentation](https://docs.groupdocs.com/metadata/java/) oldalon, vagy mélyedj el a Java programozásban a fejlett metaadatkezeléshez.
+### Next Steps
+Fedezze fel a GroupDocs.Metadata további funkcióit a [comprehensive documentation](https://docs.groupdocs.com/metadata/java/)‑ban, vagy mélyedjen el a Java programozásban a fejlett metaadatkezelés érdekében.
 
 ---
 
-**Utoljára frissítve:** 2025-12-18  
-**Tesztelve ezzel:** GroupDocs.Metadata 24.12 for Java  
-**Szerző:** GroupDocs
+**Last Updated:** 2026-02-19  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs

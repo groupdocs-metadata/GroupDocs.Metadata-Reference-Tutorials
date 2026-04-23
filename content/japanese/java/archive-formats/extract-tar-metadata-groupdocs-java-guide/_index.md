@@ -1,49 +1,49 @@
 ---
-date: '2025-12-18'
-description: このステップバイステップガイドで、GroupDocs.Metadata for Java を使用して tar アーカイブの読み取りとメタデータの抽出方法を学びましょう。
+date: '2026-03-04'
+description: このステップバイステップガイドで、GroupDocs.Metadata for Java を使用して Java の tar メタデータを抽出する方法を学びましょう。
 keywords:
-- extract TAR metadata
+- extract tar metadata java
 - GroupDocs.Metadata for Java
 - TAR archive metadata
-title: GroupDocs.Metadata for Java を使用して TAR ファイルを読み取り、メタデータを抽出する方法
+title: GroupDocs.Metadata を使用した Java での TAR メタデータ抽出方法
 type: docs
 url: /ja/java/archive-formats/extract-tar-metadata-groupdocs-java-guide/
 weight: 1
 ---
 
-# TAR ファイルの読み取りとメタデータ抽出方法（GroupDocs.Metadata for Java）
+# GroupDocs.Metadata を使用した Java での TAR メタデータ抽出方法
 
-**.tar** のようなアーカイブファイルからメタデータを抽出することは、特にプログラムで **how to read tar** ファイルを読み取る信頼できる方法を探している場合、困難に感じられることがあります。このガイドでは、GroupDocs.Metadata for Java を使用した明確で実践的な手順をご紹介します。これにより、tar アーカイブを自信を持って読み取り、ファイルレベルの詳細を取得し、結果をアプリケーションに統合できます。
+**TAR** アーカイブ情報の抽出は、特に **extract tar metadata java** を迅速かつ確実に行う必要がある場合、困難に感じることがあります。このガイドでは、GroupDocs.Metadata for Java を使用した明確で実践的な手順をご紹介しますので、TAR ファイルを自信を持って読み取り、ファイルレベルの詳細を取得し、結果をアプリケーションに統合できます。
 
-## クイック回答
+## Quick Answers
 - **Java で TAR メタデータを扱うライブラリは何ですか？** GroupDocs.Metadata for Java  
-- **基本的な実装にどれくらい時間がかかりますか？** 約 10〜15 分  
-- **ライセンスは必要ですか？** 評価期間は無料トライアルまたは一時ライセンスで利用可能です。製品環境では有料ライセンスが必要です  
-- **大きな TAR ファイルを処理できますか？** はい、ただしリソース解放のために `Metadata` オブジェクトを破棄してください  
-- **.tar.gz の読み取りと同じですか？** まず .gz を解凍し、その後同じ手順を使用します  
+- **基本的な実装にどれくらい時間がかかりますか？** About 10–15 minutes  
+- **ライセンスは必要ですか？** A free trial or temporary license works for evaluation; a paid license is required for production  
+- **大きな TAR ファイルを処理できますか？** Yes, but dispose of the `Metadata` object to free resources  
+- **.tar.gz の読み取りと同じですか？** You’ll need to decompress the .gz first, then use the same approach  
 
-## GroupDocs.Metadata for Java を使用した TAR ファイルの読み取り方法
+## How to extract tar metadata java with GroupDocs.Metadata for Java
 以下は、実行する手順の簡単な概要です。
 
-1. **GroupDocs.Metadata の依存関係を** Maven プロジェクトに追加します。  
-2. **`Metadata` オブジェクトを** `.tar` アーカイブへのパスで初期化します。  
-3. **ルートパッケージにアクセスして** アーカイブの内容を操作します。  
-4. **各エントリを反復処理して** ファイル名、サイズ、その他のプロパティを読み取ります。  
-5. **作業が完了したら `Metadata` オブジェクトを破棄します。**  
+1. **GroupDocs.Metadata の依存関係を追加** Maven プロジェクトに。  
+2. **`Metadata` オブジェクトを初期化** `.tar` アーカイブへのパスで。  
+3. **ルートパッケージにアクセス** アーカイブの内容を操作するために。  
+4. **各エントリを反復処理** ファイル名、サイズ、その他のプロパティを読み取ります。  
+5. **`Metadata` オブジェクトを破棄** 終了時に。
 
-### なぜ GroupDocs.Metadata を選ぶのか？
-- **フル機能 API** で低レベルの TAR パースを抽象化します。  
-- **クロスプラットフォーム対応** Windows、Linux、macOS の Java ランタイムをサポートします。  
-- **堅牢なエラーハンドリング** と組み込みリソース管理を提供し、大規模に **how to read tar** ファイルを扱う際に不可欠です。  
+### Why choose GroupDocs.Metadata?
+- **フル機能 API** 低レベルの TAR パースを抽象化します。  
+- **クロスプラットフォームサポート** Windows、Linux、macOS の Java ランタイム向け。  
+- **堅牢なエラーハンドリング** と組み込みリソース管理。大規模に **how to read tar** ファイルを扱う際に重要です。  
 
-## 前提条件
+## Prerequisites
 - **Java Development Kit (JDK) 8 以上**  
-- **Maven**（依存関係管理用）  
+- **Maven** 依存関係管理用  
 - **GroupDocs.Metadata for Java 24.12**（またはそれ以降） – 最新バージョンは公式リリースページからダウンロードできます  
 
-## GroupDocs.Metadata for Java の設定
+## Setting Up GroupDocs.Metadata for Java
 
-リポジトリと依存関係を `pom.xml` に追加します：
+リポジトリと依存関係を `pom.xml` に追加します:
 
 ```xml
 <repositories>
@@ -63,13 +63,13 @@ weight: 1
 </dependencies>
 ```
 
-**直接ダウンロード:** あるいは、最新バージョンを [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) からダウンロードしてください。
+**Direct Download:** 代わりに、最新バージョンを [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) からダウンロードしてください。
 
-### ライセンス取得手順
-まずは無料トライアルを開始するか、GroupDocs のウェブサイトから一時ライセンスをリクエストしてください。これにより、開発中に制限なくすべての機能を試すことができます。
+### License Acquisition Steps
+無料トライアルから開始するか、GroupDocs のウェブサイトで一時ライセンスをリクエストしてください。これにより、開発中に機能制限なしですべての機能を試すことができます。
 
-### 基本的な初期化とセットアップ
-ライブラリが利用可能になったら、TAR ファイルを指す `Metadata` インスタンスを作成できます：
+### Basic Initialization and Setup
+ライブラリが利用可能になったら、TAR ファイルを指す `Metadata` インスタンスを作成できます:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -91,37 +91,37 @@ public class TarMetadataExample {
 }
 ```
 
-## 実装ガイド
+## Implementation Guide
 
-### TAR アーカイブからメタデータを読み取る
+### Reading Metadata from a TAR Archive
 
-#### Metadata オブジェクトの初期化
-`Metadata` のインスタンスを `.tar` ファイルのパスで作成します。
+#### Initialize the Metadata Object
+`.tar` ファイルパスで `Metadata` のインスタンスを作成します。
 
 ```java
 Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.tar");
 ```
-**理由:** この手順は、アーカイブ内部構造へのアクセスを提供するオブジェクトを準備し、**how to read tar** ファイルの基礎となります。
+**Why:** このステップは、アーカイブの内部構造へのアクセスを提供するオブジェクトを準備します。これは **how to read tar** ファイルの基礎です。
 
-#### ルートパッケージへのアクセス
-TAR アーカイブの内容とやり取りするために、ルートパッケージを取得します：
+#### Access the Root Package
+TAR アーカイブの内容とやり取りするためにルートパッケージを取得します:
 
 ```java
 TarRootPackage root = metadata.getRootPackageGeneric();
 ```
 この呼び出しは、アーカイブの階層をナビゲートするために不可欠です。
 
-#### エントリ総数の取得
-アーカイブに含まれるエントリ（ファイル/フォルダー）の数を確認します：
+#### Get Total Entries
+アーカイブが含むエントリ（ファイル/フォルダー）の数を決定します:
 
 ```java
 int totalEntries = root.getTarPackage().getTotalEntries();
 System.out.println("Total Entries: " + totalEntries);
 ```
-**説明:** エントリ数を把握することで、ループ計画やアーカイブの完全性の検証に役立ちます。
+**Explanation:** エントリ数を把握することで、ループ計画やアーカイブの完全性検証が容易になります。
 
-#### 各ファイルエントリを反復処理する
-各エントリをループし、名前やサイズなどの詳細を抽出します：
+#### Iterate Over Each File Entry
+名前やサイズなどの詳細を抽出するために各エントリをループします:
 
 ```java
 for (TarFile file : root.getTarPackage().getFiles()) {
@@ -131,66 +131,66 @@ for (TarFile file : root.getTarPackage().getFiles()) {
     System.out.println("File Size: " + fileSize);
 }
 ```
-**理由:** 各ファイルを個別に処理することで、レポート、マイグレーション、バックアップ検証などで必要となる詳細なメタデータが取得できます。
+**Why:** 各ファイルを個別に処理することで、レポート作成、移行、バックアップ検証などでしばしば必要となる粒度の高いメタデータが得られます。
 
-### トラブルシューティングのヒント
-- **一般的な問題:** 抽出に失敗する – ファイルパスを再確認し、Java プロセスが TAR ファイルを読み取れることを確認してください。  
-- **パフォーマンスのヒント:** 大きなアーカイブを扱う際は、作業完了後に必ず `metadata.dispose()` を呼び出してネイティブリソースを解放してください。  
+### Troubleshooting Tips
+- **Common Issue:** 抽出に失敗した場合 – ファイルパスを再確認し、Java プロセスが TAR ファイルを読み取れることを確認してください。  
+- **Performance Tip:** 完了後は必ず `metadata.dispose()` を呼び出してネイティブリソースを解放してください。特に大きなアーカイブを扱う場合に重要です。
 
-## 実用的な活用例
-1. **データマイグレーション:** システム間でデータを移行する前に、ファイル数とサイズを検証します。  
-2. **バックアップソリューション:** バックアップアーカイブ内のすべてのファイルが確実に含まれていることを確認するインベントリレポートを生成します。  
-3. **コンテンツ管理システム (CMS):** 検索性と整理を向上させるために、保存資産に TAR レベルのメタデータを付加します。  
+## Practical Applications
+1. **Data Migration:** システム間でデータを移行する前に、ファイル数とサイズを検証します。  
+2. **Backup Solutions:** バックアップアーカイブ内のすべてのファイルが揃っていることを確認するインベントリレポートを生成します。  
+3. **Content Management Systems (CMS):** 保存された資産に TAR レベルのメタデータを付加し、検索と整理を改善します。
 
-## パフォーマンス上の考慮点
-大規模なアーカイブを扱う際は：
+## Performance Considerations
+大量のアーカイブを扱う場合:
 
-- **オブジェクトは速やかに破棄** してメモリリークを防止します。  
-- **Java のストリーミング API を活用** して、エントリ全体をメモリにロードせずに処理できます。  
+- **Dispose objects promptly** メモリリークを防ぐためにオブジェクトを速やかに破棄してください。  
+- **Leverage Java’s streaming APIs** エントリをメモリに全てロードせずに処理したい場合は、Java のストリーミング API を活用してください。  
 
-## 結論
-これで、GroupDocs.Metadata for Java を使用して **how to read tar** ファイルを読み取り、メタデータを抽出するための確実なエンドツーエンドの手法が手に入りました。この機能は、マイグレーションツール、バックアップユーティリティ、またはアーカイブ内容の把握が必要なあらゆる Java ベースのシステムに組み込むことができます。
+## Conclusion
+GroupDocs.Metadata for Java を使用して **extract tar metadata java** を行うための堅実なエンドツーエンド手法が手に入りました。この機能は、移行ツール、バックアップユーティリティ、またはアーカイブ内容の可視化が必要な任意の Java ベースシステムに組み込むことができます。
 
-**次のステップ:** タイムスタンプや権限などの `TarFile` プロパティなど、GroupDocs.Metadata API の追加クラスを調査し、メタデータ抽出ワークフローをさらに充実させましょう。
+**Next Steps:** `TarFile` のタイムスタンプやパーミッションなどのプロパティなど、GroupDocs.Metadata API の追加クラスを調査し、メタデータ抽出ワークフローをさらに充実させてください。
 
-## よくある質問
+## Frequently Asked Questions
 
-**Q: TAR ファイルからメタデータを抽出する主なユースケースは何ですか？**  
-A: メタデータ抽出は、検証、バックアップ、マイグレーションなどのファイル管理タスクに役立ちます。
+**Q:** TAR ファイルからメタデータを抽出する主なユースケースは何ですか？  
+**A:** メタデータ抽出は、検証、バックアップ、移行などのファイル管理タスクに役立ちます。
 
-**Q: 圧縮された .tar.gz ファイルからメタデータを抽出できますか？**  
-A: GroupDocs.Metadata はさまざまなアーカイブ形式をサポートしており、まず .gz 層を解凍する必要があります。
+**Q:** 圧縮された .tar.gz ファイルからメタデータを抽出できますか？  
+**A:** GroupDocs.Metadata はさまざまなアーカイブ形式をサポートしています。まず .gz 層を解凍する必要があります。
 
-**Q: 単一の TAR アーカイブで処理できるファイル数に制限はありますか？**  
-A: ライブラリは大規模アーカイブを効率的に処理しますが、全体的なパフォーマンスはシステムリソースに依存します。
+**Q:** 単一の TAR アーカイブで処理できるファイル数に制限はありますか？  
+**A:** ライブラリは大規模アーカイブを効率的に処理しますが、全体的なパフォーマンスはシステムリソースに依存します。
 
-**Q: メタデータオブジェクトを適切に破棄するにはどうすればよいですか？**  
-A: 操作完了後に `metadata.dispose()` を使用してネイティブリソースを解放します。
+**Q:** メタデータオブジェクトを適切に破棄する方法は？  
+**A:** 操作完了後に `metadata.dispose()` を使用してネイティブリソースを解放してください。
 
-**Q: GroupDocs.Metadata に関する詳細情報やサポートはどこで得られますか？**  
-A: [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/) を訪れ、コミュニティフォーラムに参加してサポートを受けてください。
+**Q:** GroupDocs.Metadata に関する追加情報やサポートはどこで得られますか？  
+**A:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/) を参照し、コミュニティフォーラムに参加してサポートを受けてください。
 
-**追加の Q&A**
+## Additional Q&A
 
-**Q: GroupDocs.Metadata は Windows と Linux の両方の環境で動作しますか？**  
-A: はい、Java ライブラリはプラットフォームに依存せず、互換性のある JDK がインストールされていればどこでも実行できます。
+**Q:** GroupDocs.Metadata は Windows と Linux の両方の環境で動作しますか？  
+**A:** はい、Java ライブラリはプラットフォームに依存せず、互換性のある JDK がインストールされていればどこでも実行できます。
 
-**Q: TAR エントリからファイルのタイムスタンプ（作成/更新）を取得できますか？**  
-A: `TarFile` クラスは、タイムスタンプを含む標準的な TAR ヘッダー フィールドへのアクセスを提供します。
+**Q:** TAR エントリからファイルのタイムスタンプ（作成/変更）を取得できますか？  
+**A:** `TarFile` クラスは標準的な TAR ヘッダー項目へのアクセスを提供し、タイムスタンプも含まれます。
 
-**Q: パスワードで保護されたアーカイブを処理するにはどうすればよいですか？**  
-A: 暗号化されたアーカイブの場合、`Metadata` オブジェクトを構築する際にパスワードを渡します（正確なオーバーロードは API リファレンスをご参照ください）。
+**Q:** パスワード保護されたアーカイブはどう扱いますか？  
+**A:** 暗号化されたアーカイブの場合、`Metadata` オブジェクトを構築するときにパスワードを渡してください（正確なオーバーロードは API リファレンスをご確認ください）。
 
-**リソース**  
-- **ドキュメント:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
-- **API リファレンス:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
-- **ダウンロード:** [GroupDocs Releases](https://releases.groupdocs.com/metadata/java/)  
+## Resources
+- **Documentation:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
+- **API Reference:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
+- **Download:** [GroupDocs Releases](https://releases.groupdocs.com/metadata/java/)  
 - **GitHub:** [GroupDocs Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- **無料サポート:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
-- **一時ライセンス:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+- **Free Support:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
+- **Temporary License:** [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 
-**最終更新日:** 2025-12-18  
-**テスト環境:** GroupDocs.Metadata for Java 24.  
-**作者:** GroupDocs  
+**最終更新日:** 2026-03-04  
+**テスト済みバージョン:** GroupDocs.Metadata for Java 24.12  
+**作者:** GroupDocs

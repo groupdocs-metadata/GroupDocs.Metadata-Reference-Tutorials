@@ -1,11 +1,60 @@
 ---
-date: '2026-01-16'
+date: '2026-05-17'
 description: Μάθετε πώς να εξάγετε μεταδεδομένα από διαγράμματα αποτελεσματικά χρησιμοποιώντας
   το GroupDocs.Metadata για Java. Βελτιώστε τις δυνατότητες διαχείρισης εγγράφων σας.
 keywords:
-- extract custom metadata diagrams
-- GroupDocs.Metadata for Java
-- manage diagram file properties
+- how to extract metadata
+- GroupDocs.Metadata Java
+- diagram metadata extraction
+schemas:
+- author: GroupDocs
+  dateModified: '2026-05-17'
+  description: Learn how to extract metadata from diagrams efficiently using GroupDocs.Metadata
+    for Java. Enhance your document management capabilities.
+  headline: How to Extract Metadata from Diagrams Using GroupDocs Metadata Java
+  type: TechArticle
+- description: Learn how to extract metadata from diagrams efficiently using GroupDocs.Metadata
+    for Java. Enhance your document management capabilities.
+  name: How to Extract Metadata from Diagrams Using GroupDocs Metadata Java
+  steps:
+  - name: Load the Diagram File
+    text: 'The `Metadata` class is the entry point for reading any supported document''s
+      metadata. Begin by creating a `Metadata` object with your diagram path:'
+  - name: Access the Root Package
+    text: 'The root package provides access to the diagram''s core metadata structures.
+      Retrieve it to interact with its properties:'
+  - name: Find Custom Properties
+    text: 'Use a specification to filter out built‑in document properties and focus
+      on custom ones:'
+  - name: Process Each Custom Property
+    text: 'Iterate over the properties to process their names and values:'
+  - name: Initialize the Metadata Object
+    text: 'Again, start with the `Metadata` class to open the diagram file:'
+  - name: Obtain the Root Package
+    text: 'Access the root package to explore various metadata elements: With this
+      setup, you can perform additional operations on the `root` object as required,
+      such as retrieving built‑in properties, enumerating pages, or extracting embedded
+      thumbnails.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can provide the password when opening the file via the `Metadata`
+      constructor overload.
+    question: Does GroupDocs.Metadata work with encrypted diagram files?
+  - answer: '`MetadataProperty` represents an individual metadata field that can be
+      read or modified. Absolutely—use the `setValue` method on `MetadataProperty`
+      objects and then save changes.'
+    question: Can I write or update custom metadata after extraction?
+  - answer: Retrieve all properties via `root.getDocumentProperties().findProperties(null)`
+      and filter as needed.
+    question: Is there a way to list all built‑in properties alongside custom ones?
+  - answer: GroupDocs.Metadata abstracts the underlying format, exposing a unified
+      API for supported diagram types.
+    question: How does the library handle different diagram standards (e.g., Visio,
+      Draw.io)?
+  - answer: Limits are defined by the underlying file format; most modern diagram
+      formats support dozens of custom tags.
+    question: Are there any limits on the number of custom properties I can store?
+  type: FAQPage
 title: Πώς να εξάγετε μεταδεδομένα από διαγράμματα χρησιμοποιώντας το GroupDocs Metadata
   Java
 type: docs
@@ -15,35 +64,33 @@ weight: 1
 
 # Πώς να εξάγετε μεταδεδομένα από διαγράμματα χρησιμοποιώντας το GroupDocs Metadata Java
 
-Η εξαγωγή προσαρμοσμένων μεταδεδομένων από αρχεία διαγράμματος είναι απαραίτητη για προγραμματιστές που χρειάζονται **πώς να εξάγετε μεταδεδομένα** στις εφαρμογές τους. Με το GroupDocs.Metadata για Java, η διαδικασία γίνεται αδιάσπαστη, επιτρέποντας ακριβή διαχείριση τόσο των τυπικών όσο και των ορισμένων από τον χρήστη ιδιοτήτων. Σε αυτόν τον οδηγό θα μάθετε βήμα‑βήμα πώς να εξάγετε μεταδεδομένα, γιατί είναι σημαντικό, και πώς να ενσωματώσετε τη λύση σε πραγματικά έργα.
+Σε αυτό το ολοκληρωμένο tutorial θα ανακαλύψετε **πώς να εξάγετε μεταδεδομένα** από αρχεία διαγραμμάτων με το GroupDocs.Metadata για Java. Είτε δημιουργείτε σύστημα διαχείρισης εγγράφων, ενσωματώνετε διαγράμματα σε CRM, ή απλώς χρειάζεστε έλεγχο ιδιοτήτων αρχείων, αυτός ο οδηγός σας καθοδηγεί βήμα-βήμα—from τη ρύθμιση της βιβλιοθήκης μέχρι την επεξεργασία προσαρμοσμένων ετικετών—ώστε να αρχίσετε να εκμεταλλεύεστε τα κρυφά δεδομένα των διαγραμμάτων αμέσως.
 
 ## Γρήγορες Απαντήσεις
-- **Ποια βιβλιοθήκη συνιστάται;** GroupDocs.Metadata for Java (v24.12+)
-- **Μπορώ να διαβάσω προσαρμοσμένες ιδιότητες;** Ναι – το API σας επιτρέπει να φιλτράρετε και να ανακτήσετε μεταδεδομένα ορισμένα από τον χρήστη.
-- **Χρειάζομαι άδεια;** Διατίθενται δωρεάν δοκιμή και προσωρινή άδεια· απαιτείται πληρωμένη άδεια για παραγωγή.
-- **Υποστηρίζεται το Maven;** Απόλυτα – προσθέστε το αποθετήριο και την εξάρτηση στο `pom.xml` σας.
+- **Ποια βιβλιοθήκη συνιστάται;** GroupDocs.Metadata for Java (v24.12+).  
+- **Μπορώ να διαβάσω προσαρμοσμένες ιδιότητες;** Ναι – το API σας επιτρέπει να φιλτράρετε και να ανακτήσετε μεταδεδομένα που ορίζονται από τον χρήστη.  
+- **Χρειάζομαι άδεια;** Μια δωρεάν δοκιμή και προσωρινή άδεια είναι διαθέσιμες· απαιτείται πληρωμένη άδεια για παραγωγή.  
+- **Υποστηρίζεται το Maven;** Απόλυτα – προσθέστε το αποθετήριο και την εξάρτηση στο `pom.xml`.  
 - **Θα λειτουργήσει με μεγάλα διαγράμματα;** Χρησιμοποιήστε try‑with‑resources και αποθηκεύστε τα αποτελέσματα στην κρυφή μνήμη για να διατηρήσετε τη χρήση μνήμης χαμηλή.
 
-## Τι σημαίνει “πώς να εξάγετε μεταδεδομένα” στο πλαίσιο των διαγραμμάτων;
-Η εξαγωγή μεταδεδομένων σημαίνει ανάγνωση των κρυφών πληροφοριών που αποθηκεύονται μέσα σε ένα αρχείο διαγράμματος—όπως ο συγγραφέας, η ημερομηνία δημιουργίας ή τυχόν προσαρμοσμένες ετικέτες που έχετε προσθέσει. Αυτά τα δεδομένα σας βοηθούν να οργανώσετε, να αναζητήσετε και να ενσωματώσετε τα διαγράμματα με άλλα συστήματα χωρίς να ανοίξετε το οπτικό περιεχόμενο.
+## Τι σημαίνει «πώς να εξάγετε μεταδεδομένα» στο πλαίσιο των διαγραμμάτων;
+Η εξαγωγή μεταδεδομένων σημαίνει ανάγνωση των κρυφών πληροφοριών που αποθηκεύονται μέσα σε ένα αρχείο διαγράμματος—όπως ο συγγραφέας, η ημερομηνία δημιουργίας ή οποιεσδήποτε προσαρμοσμένες ετικέτες έχετε προσθέσει. Αυτά τα δεδομένα σας βοηθούν να οργανώσετε, να αναζητήσετε και να ενσωματώσετε τα διαγράμματα με άλλα συστήματα χωρίς να ανοίγετε το οπτικό περιεχόμενο.
 
 ## Γιατί να εξάγετε προσαρμοσμένα μεταδεδομένα από διαγράμματα;
-- **Βελτιωμένη Αναζητησιμότητα:** Ετικετοποιήστε τα διαγράμματα με κλειδιά ειδικά για το έργο και εντοπίστε τα άμεσα.
-- **Αυτοματοποίηση:** Συγχρονίστε τις ιδιότητες του διαγράμματος με CRM, DMS ή εργαλεία αναφοράς.
-- **Συμμόρφωση:** Επαληθεύστε ότι τα απαιτούμενα μεταδεδομένα (π.χ., έκδοση, ιδιοκτήτης) είναι παρόντα πριν από τη δημοσίευση.
+Η εξαγωγή προσαρμοσμένων μεταδεδομένων από διαγράμματα ενισχύει τον αυτοματισμό και τη διακυβέρνηση. Το GroupDocs.Metadata υποστηρίζει **50+ diagram formats** και μπορεί να επεξεργαστεί αρχεία έως **500 MB** χωρίς να φορτώνει ολόκληρο το έγγραφο στη μνήμη, παρέχοντάς σας γρήγορη, χαμηλού κόστους πρόσβαση τόσο σε τυπικές όσο και σε χρήστη‑ορισμένες ιδιότητες.
 
 ## Εισαγωγή
-Η πρόσβαση ή η τροποποίηση συγκεκριμένων μεταδεδομένων σε ένα αρχείο διαγράμματος είναι κρίσιμη για πολλές εφαρμογές, όπως η διαχείριση εγγράφων και η ενσωμάτωση συστημάτων. Σε αυτόν τον οδηγό, εξερευνούμε πώς να το επιτύχουμε με το GroupDocs.Metadata Java, ενσωματώνοντας αυτές τις λειτουργίες στα έργα σας άψογα.
+Η πρόσβαση ή η τροποποίηση συγκεκριμένων μεταδεδομένων σε ένα αρχείο διαγράμματος είναι κρίσιμη για πολλές εφαρμογές, όπως η διαχείριση εγγράφων και η ενσωμάτωση συστημάτων. Σε αυτόν τον οδηγό, εξερευνούμε πώς να το επιτύχουμε με το GroupDocs.Metadata Java, ενσωματώνοντας αυτές τις λειτουργίες στα έργα σας χωρίς κόπο.
 
 ## Προαπαιτούμενα
-- **Βιβλιοθήκες και Εκδόσεις:** Βιβλιοθήκη GroupDocs.Metadata έκδοση 24.12 ή νεότερη.  
-- **Ρύθμιση Περιβάλλοντος:** Περιβάλλον ανάπτυξης Java με Maven.  
-- **Προαπαιτούμενες Γνώσεις:** Βασική εξοικείωση με τον προγραμματισμό Java.
+- **Βιβλιοθήκες και Εκδόσεις:** GroupDocs.Metadata library version 24.12 or later.  
+- **Ρύθμιση Περιβάλλοντος:** Java development environment with Maven.  
+- **Προαπαιτούμενες Γνώσεις:** Basic familiarity with Java programming.
 
 ## Ρύθμιση του GroupDocs.Metadata για Java
 
 ### Χρήση Maven
-Προσθέστε την ακόλουθη διαμόρφωση στο αρχείο `pom.xml` σας:
+Προσθέστε την παρακάτω διαμόρφωση στο αρχείο `pom.xml` σας:
 
 ```xml
 <repositories>
@@ -66,27 +113,27 @@ weight: 1
 ### Άμεση Λήψη
 Εναλλακτικά, κατεβάστε την πιο πρόσφατη έκδοση από [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-**Απόκτηση Άδειας:** Η GroupDocs προσφέρει δωρεάν δοκιμή και προσωρινές άδειες για δοκιμή των βιβλιοθηκών τους χωρίς περιορισμούς. Για μακροπρόθεσμη χρήση, μπορείτε να αγοράσετε άδεια.
+**License Acquisition:** Το GroupDocs προσφέρει δωρεάν δοκιμή και προσωρινές άδειες για δοκιμή των βιβλιοθηκών τους χωρίς περιορισμούς. Για μακροπρόθεσμη χρήση, μπορείτε να αγοράσετε άδεια.
 
-**Αρχικοποίηση και Ρύθμιση:** Μόλις εγκατασταθεί, αρχικοποιήστε το αντικείμενο Metadata με τη διαδρομή του εγγράφου σας για να ξεκινήσετε να εργάζεστε με μεταδεδομένα.
+**Initialization and Setup:** Μόλις εγκατασταθεί, αρχικοποιήστε το αντικείμενο Metadata με τη διαδρομή του εγγράφου σας για να αρχίσετε να εργάζεστε με τα μεταδεδομένα.
 
 ## Οδηγός Υλοποίησης
 
-Θα χωρίσουμε την υλοποίηση σε δύο κύρια χαρακτηριστικά: εξαγωγή προσαρμοσμένων ιδιοτήτων μεταδεδομένων από διαγράμματα και φόρτωση μεταδεδομένων διαγράμματος.
+Θα χωρίσουμε την υλοποίηση σε δύο κύριες λειτουργίες: εξαγωγή προσαρμοσμένων ιδιοτήτων μεταδεδομένων από διαγράμματα και φόρτωση μεταδεδομένων διαγράμματος.
 
-### Εξαγωγή Προσαρμοσμένων Ιδιοτήτων Μεταδεδομένων από Διαγράμματα
+### Πώς να εξάγετε προσαρμοσμένες ιδιότητες μεταδεδομένων από διαγράμματα;
 
-Αυτή η δυνατότητα σας επιτρέπει να έχετε πρόσβαση σε μη‑τυπικές, ορισμένες από τον χρήστη ιδιότητες σε ένα αρχείο διαγράμματος.
+Φορτώστε τις προσαρμοσμένες ιδιότητές σας με λίγες μόνο γραμμές κώδικα. Πρώτα, δημιουργήστε μια παρουσία `Metadata`, μετά μεταβείτε στο root package και φιλτράρετε τις ενσωματωμένες ιδιότητες για να απομονώσετε τις ορισμένες από τον χρήστη.
 
 #### Βήμα 1: Φόρτωση του Αρχείου Διαγράμματος
-Ξεκινήστε δημιουργώντας ένα αντικείμενο `Metadata` με τη διαδρομή του εγγράφου σας:
+Η κλάση `Metadata` είναι το σημείο εισόδου για την ανάγνωση των μεταδεδομένων οποιουδήποτε υποστηριζόμενου εγγράφου. Ξεκινήστε δημιουργώντας ένα αντικείμενο `Metadata` με τη διαδρομή του διαγράμματος σας:
 
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY")) {
 ```
 
-#### Βήμα 2: Πρόσβαση στο Ριζικό Πακέτο
-Ανακτήστε το ριζικό πακέτο για διαγράμματα ώστε να αλληλεπιδράσετε με τις ιδιότητές του:
+#### Βήμα 2: Πρόσβαση στο Root Package
+Το root package παρέχει πρόσβαση στις βασικές δομές μεταδεδομένων του διαγράμματος. Ανακτήστε το για να αλληλεπιδράσετε με τις ιδιότητές του:
 
 ```java
 DiagramRootPackage root = metadata.getRootPackageGeneric();
@@ -100,7 +147,7 @@ IReadOnlyList<MetadataProperty> customProperties = root.getDocumentProperties().
 ```
 
 #### Βήμα 4: Επεξεργασία Κάθε Προσαρμοσμένης Ιδιότητας
-Επανάληψη πάνω στις ιδιότητες για επεξεργασία των ονομάτων και των τιμών τους:
+Διατρέξτε τις ιδιότητες για να επεξεργαστείτε τα ονόματα και τις τιμές τους:
 
 ```java
 for (MetadataProperty property : customProperties) {
@@ -109,25 +156,25 @@ for (MetadataProperty property : customProperties) {
 }
 ```
 
-### Φόρτωση και Πρόσβαση σε Μεταδεδομένα Διαγράμματος
+### Πώς να φορτώσετε και να αποκτήσετε πρόσβαση στα μεταδεδομένα διαγράμματος;
 
-Αυτή η δυνατότητα εστιάζει στην πρόσβαση σε στοιχεία μεταδεδομένων μέσα σε ένα αρχείο διαγράμματος.
+Πέρα από τις προσαρμοσμένες ετικέτες, συχνά χρειάζεται να διαβάσετε τυπικές ιδιότητες όπως ο συγγραφέας, η ημερομηνία δημιουργίας ή η ώρα τελευταίας τροποποίησης. Τα παρακάτω βήματα δείχνουν πώς να αποκτήσετε το πλήρες σύνολο μεταδεδομένων.
 
 #### Βήμα 1: Αρχικοποίηση του Αντικειμένου Metadata
-Παρόμοια με την εξαγωγή προσαρμοσμένων ιδιοτήτων, ξεκινήστε με την αρχικοποίηση:
+Ξανά, ξεκινήστε με την κλάση `Metadata` για να ανοίξετε το αρχείο διαγράμματος:
 
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY")) {
 ```
 
-#### Βήμα 2: Απόκτηση του Ριζικού Πακέτου
-Πρόσβαση στο ριζικό πακέτο για εξερεύνηση διαφόρων στοιχείων μεταδεδομένων:
+#### Βήμα 2: Απόκτηση του Root Package
+Πρόσβαση στο root package για να εξερευνήσετε διάφορα στοιχεία μεταδεδομένων:
 
 ```java
 DiagramRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-Με αυτή τη ρύθμιση, μπορείτε να εκτελέσετε πρόσθετες λειτουργίες στο αντικείμενο `root` όπως απαιτείται.
+Με αυτή τη ρύθμιση, μπορείτε να εκτελέσετε πρόσθετες λειτουργίες στο αντικείμενο `root` όπως η ανάκτηση ενσωματωμένων ιδιοτήτων, η απαρίθμηση σελίδων ή η εξαγωγή ενσωματωμένων μικρογραφιών.
 
 ## Πρακτικές Εφαρμογές
 Ακολουθούν μερικά σενάρια πραγματικού κόσμου όπου η εξαγωγή προσαρμοσμένων μεταδεδομένων από διαγράμματα είναι ωφέλιμη:
@@ -137,42 +184,51 @@ DiagramRootPackage root = metadata.getRootPackageGeneric();
 
 ## Σκέψεις για την Απόδοση
 Για βελτιστοποίηση της απόδοσης κατά την εργασία με το GroupDocs.Metadata:
-- **Χρήση Πόρων:** Παρακολουθήστε την κατανάλωση μνήμης, ειδικά κατά την επεξεργασία μεγάλων εγγράφων.  
+- **Χρήση Πόρων:** Παρακολουθήστε την κατανάλωση μνήμης, ειδικά όταν επεξεργάζεστε μεγάλα έγγραφα.  
 - **Διαχείριση Μνήμης Java:** Εφαρμόστε βέλτιστες πρακτικές όπως η χρήση try‑with‑resources για αυτόματη διαχείριση πόρων.  
-- **Συμβουλές Βελτιστοποίησης:** Αποθηκεύστε στην κρυφή μνήμη συχνά προσπελάσιμα μεταδεδομένα για μείωση επαναλαμβανόμενων λειτουργιών.
+- **Συμβουλές Βελτιστοποίησης:** Αποθηκεύστε στην κρυφή μνήμη τα συχνά προσπελάσιμα μεταδεδομένα για να μειώσετε τις επαναλαμβανόμενες λειτουργίες και να αποφύγετε επαναλαμβανόμενες κλήσεις I/O.
 
-## Συμπέρασμα
-Σε αυτόν τον οδηγό, εξετάσαμε **πώς να εξάγετε μεταδεδομένα** από διαγράμματα χρησιμοποιώντας το GroupDocs.Metadata Java. Ακολουθώντας αυτά τα βήματα, μπορείτε να ενισχύσετε τις δυνατότητες διαχείρισης εγγράφων της εφαρμογής σας και να ενσωματωθείτε άψογα με άλλα συστήματα.
-
-**Επόμενα Βήματα:** Πειραματιστείτε με διαφορετικές μορφές διαγραμμάτων, εξερευνήστε την επεξεργασία σε παρτίδες και εμβαθύνετε στις προχωρημένες δυνατότητες που προσφέρει το GroupDocs.Metadata.
+## Συχνά Προβλήματα και Λύσεις
+- **Problem:** `OutOfMemoryError` when handling very large diagrams.  
+  **Solution:** Process diagrams one at a time inside a try‑with‑resources block and enable streaming mode if available.  
+- **Problem:** Custom properties return `null`.  
+  **Solution:** Ensure the diagram actually contains user‑defined tags and that you are using the correct specification filter.  
+- **Problem:** License exception on production servers.  
+  **Solution:** `License` is the class used to load and apply a GroupDocs license file. Apply a permanent license file via `License license = new License(); license.setLicense("path/to/license.lic");` before any metadata operations.
 
 ## Συχνές Ερωτήσεις
 
-**Ε: Λειτουργεί το GroupDocs.Metadata με κρυπτογραφημένα αρχεία διαγράμματος;**  
-Α: Ναι, μπορείτε να παρέχετε τον κωδικό πρόσβασης κατά το άνοιγμα του αρχείου μέσω του υπερφορτωμένου κατασκευαστή `Metadata`.
+**Q: Does GroupDocs.Metadata work with encrypted diagram files?**  
+A: Yes, you can provide the password when opening the file via the `Metadata` constructor overload.
 
-**Ε: Μπορώ να γράψω ή να ενημερώσω προσαρμοσμένα μεταδεδομένα μετά την εξαγωγή;**  
-Α: Απόλυτα—χρησιμοποιήστε τη μέθοδο `setValue` στα αντικείμενα `MetadataProperty` και στη συνέχεια αποθηκεύστε τις αλλαγές.
+**Q: Can I write or update custom metadata after extraction?**  
+A: `MetadataProperty` represents an individual metadata field that can be read or modified. Absolutely—use the `setValue` method on `MetadataProperty` objects and then save changes.
 
-**Ε: Υπάρχει τρόπος να παραθέσω όλες τις ενσωματωμένες ιδιότητες μαζί με τις προσαρμοσμένες;**  
-Α: Ανακτήστε όλες τις ιδιότητες μέσω `root.getDocumentProperties().findProperties(null)` και φιλτράρετε όπως χρειάζεται.
+**Q: Is there a way to list all built‑in properties alongside custom ones?**  
+A: Retrieve all properties via `root.getDocumentProperties().findProperties(null)` and filter as needed.
 
-**Ε: Πώς η βιβλιοθήκη διαχειρίζεται διαφορετικά πρότυπα διαγράμματος (π.χ., Visio, Draw.io);**  
-Α: Το GroupDocs.Metadata αφαιρεί την υποκείμενη μορφή, εκθέτοντας ένα ενοποιημένο API για τους υποστηριζόμενους τύπους διαγράμματος.
+**Q: How does the library handle different diagram standards (e.g., Visio, Draw.io)?**  
+A: GroupDocs.Metadata abstracts the underlying format, exposing a unified API for supported diagram types.
 
-**Ε: Υπάρχουν όρια στον αριθμό των προσαρμοσμένων ιδιοτήτων που μπορώ να αποθηκεύσω;**  
-Α: Τα όρια ορίζονται από τη βασική μορφή αρχείου· τα περισσότερα σύγχρονα μορφότυπα διαγράμματος υποστηρίζουν δεκάδες προσαρμοσμένες ετικέτες.
+**Q: Are there any limits on the number of custom properties I can store?**  
+A: Limits are defined by the underlying file format; most modern diagram formats support dozens of custom tags.
 
-**Πόροι**  
-- [Τεκμηρίωση](https://docs.groupdocs.com/metadata/java/)  
-- [Αναφορά API](https://reference.groupdocs.com/metadata/java/)  
-- [Λήψη](https://releases.groupdocs.com/metadata/java/)  
-- [Αποθετήριο GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- [Δωρεάν Φόρουμ Υποστήριξης](https://forum.groupdocs.com/c/metadata/)  
-- [Απόκτηση Προσωρινής Άδειας](https://purchase.groupdocs.com/temporary-license/)
+## Πόροι  
+- [Documentation](https://docs.groupdocs.com/metadata/java/)  
+- [API Reference](https://reference.groupdocs.com/metadata/java/)  
+- [Download](https://releases.groupdocs.com/metadata/java/)  
+- [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
+- [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
+- [Temporary License Acquisition](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 
-**Τελευταία Ενημέρωση:** 2026-01-16  
-**Δοκιμή Με:** GroupDocs.Metadata 24.12 for Java  
-**Συγγραφέας:** GroupDocs  
+**Last Updated:** 2026-05-17  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs
+
+## Σχετικά Μαθήματα
+
+- [Extract Diagram Metadata Java - Mastering Diagram Detection with GroupDocs.Metadata](/metadata/java/diagram-formats/groupdocs-metadata-java-diagram-detection/)
+- [Extract Diagram Metadata Java – Diagram Metadata Tutorials with GroupDocs.Metadata](/metadata/java/diagram-formats/)
+- [Master Metadata Management: Detect Document Properties & Encryption Status with GroupDocs.Metadata for Java](/metadata/java/working-with-metadata/master-metadata-management-groupdocs-java/)

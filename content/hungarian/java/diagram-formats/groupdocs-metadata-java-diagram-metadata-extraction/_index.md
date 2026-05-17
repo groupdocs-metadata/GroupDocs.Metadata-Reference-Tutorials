@@ -1,12 +1,61 @@
 ---
-date: '2026-01-16'
-description: Tanulja meg, hogyan lehet hatékonyan kinyerni a metaadatokat diagramokból
+date: '2026-05-17'
+description: Ismerje meg, hogyan lehet hatékonyan metaadatokat kinyerni diagramokból
   a GroupDocs.Metadata for Java használatával. Fejlessze dokumentumkezelési képességeit.
 keywords:
-- extract custom metadata diagrams
-- GroupDocs.Metadata for Java
-- manage diagram file properties
-title: Hogyan lehet metaadatokat kinyerni diagramokból a GroupDocs Metadata Java segítségével
+- how to extract metadata
+- GroupDocs.Metadata Java
+- diagram metadata extraction
+schemas:
+- author: GroupDocs
+  dateModified: '2026-05-17'
+  description: Learn how to extract metadata from diagrams efficiently using GroupDocs.Metadata
+    for Java. Enhance your document management capabilities.
+  headline: How to Extract Metadata from Diagrams Using GroupDocs Metadata Java
+  type: TechArticle
+- description: Learn how to extract metadata from diagrams efficiently using GroupDocs.Metadata
+    for Java. Enhance your document management capabilities.
+  name: How to Extract Metadata from Diagrams Using GroupDocs Metadata Java
+  steps:
+  - name: Load the Diagram File
+    text: 'The `Metadata` class is the entry point for reading any supported document''s
+      metadata. Begin by creating a `Metadata` object with your diagram path:'
+  - name: Access the Root Package
+    text: 'The root package provides access to the diagram''s core metadata structures.
+      Retrieve it to interact with its properties:'
+  - name: Find Custom Properties
+    text: 'Use a specification to filter out built‑in document properties and focus
+      on custom ones:'
+  - name: Process Each Custom Property
+    text: 'Iterate over the properties to process their names and values:'
+  - name: Initialize the Metadata Object
+    text: 'Again, start with the `Metadata` class to open the diagram file:'
+  - name: Obtain the Root Package
+    text: 'Access the root package to explore various metadata elements: With this
+      setup, you can perform additional operations on the `root` object as required,
+      such as retrieving built‑in properties, enumerating pages, or extracting embedded
+      thumbnails.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can provide the password when opening the file via the `Metadata`
+      constructor overload.
+    question: Does GroupDocs.Metadata work with encrypted diagram files?
+  - answer: '`MetadataProperty` represents an individual metadata field that can be
+      read or modified. Absolutely—use the `setValue` method on `MetadataProperty`
+      objects and then save changes.'
+    question: Can I write or update custom metadata after extraction?
+  - answer: Retrieve all properties via `root.getDocumentProperties().findProperties(null)`
+      and filter as needed.
+    question: Is there a way to list all built‑in properties alongside custom ones?
+  - answer: GroupDocs.Metadata abstracts the underlying format, exposing a unified
+      API for supported diagram types.
+    question: How does the library handle different diagram standards (e.g., Visio,
+      Draw.io)?
+  - answer: Limits are defined by the underlying file format; most modern diagram
+      formats support dozens of custom tags.
+    question: Are there any limits on the number of custom properties I can store?
+  type: FAQPage
+title: Hogyan lehet metaadatokat kinyerni diagramokból a GroupDocs Metadata Java használatával
 type: docs
 url: /hu/java/diagram-formats/groupdocs-metadata-java-diagram-metadata-extraction/
 weight: 1
@@ -14,32 +63,30 @@ weight: 1
 
 # Hogyan lehet metaadatokat kinyerni diagramokból a GroupDocs Metadata Java használatával
 
-Az egyedi metaadatok kinyerése diagramfájlokból elengedhetetlen a fejlesztők számára, akiknek **metaadatok kinyerése** szükséges az alkalmazásaikban. A GroupDocs.Metadata for Java segítségével a folyamat zökkenőmentes, lehetővé téve a szabványos és a felhasználó által definiált tulajdonságok pontos kezelését. Ebben az útmutatóban lépésről lépésre megtanulja, hogyan kell metaadatokat kinyerni, miért fontos ez, és hogyan integrálja a megoldást a valós projektekbe.
+Ebben az átfogó útmutatóban megtudja, **hogyan kell metaadatokat kinyerni** diagramfájlokból a GroupDocs.Metadata for Java segítségével. Akár dokumentumkezelő rendszert épít, diagramokat integrál egy CRM-be, vagy egyszerűen csak auditálni szeretné a fájl tulajdonságait, ez az útmutató minden lépésen végigvezet – a könyvtár beállításától a saját címkék feldolgozásáig –, hogy azonnal elkezdhesse használni a diagramok rejtett adatait.
 
 ## Gyors válaszok
-- **Melyik könyvtár ajánlott?** GroupDocs.Metadata for Java (v24.12+)
-- **Olvashatok egyedi tulajdonságokat?** Igen – az API lehetővé teszi a felhasználó által definiált metaadatok szűrését és lekérését.
-- **Szükségem van licencre?** Elérhető ingyenes próba és ideiglenes licenc; a termeléshez fizetett licenc szükséges.
-- **Támogatja a Maven?** Természetesen – adja hozzá a tárolót és a függőséget a `pom.xml` fájlhoz.
+- **Melyik könyvtár ajánlott?** GroupDocs.Metadata for Java (v24.12+).  
+- **Olvashatok egyéni tulajdonságokat?** Igen – az API lehetővé teszi a felhasználó által definiált metaadatok szűrését és lekérését.  
+- **Szükségem van licencre?** Elérhető egy ingyenes próba és ideiglenes licenc; a termeléshez fizetett licenc szükséges.  
+- **Támogatja a Maven?** Teljesen – adja hozzá a tárolót és a függőséget a `pom.xml`-hez.  
 - **Működik nagy diagramokkal?** Használjon try‑with‑resources-t és gyorsítótárazza az eredményeket a memóriahasználat alacsonyan tartásához.
 
-## Mi a “metaadatok kinyerése” a diagramok kontextusában?
-A metaadatok kinyerése azt jelenti, hogy elolvassa a diagramfájlban tárolt rejtett információkat – például a szerzőt, a létrehozás dátumát vagy bármely egyedi címkét, amelyet hozzáadott. Ezek az adatok segítenek a diagramok szervezésében, keresésében és más rendszerekkel való integrálásában anélkül, hogy megnyitná a vizuális tartalmat.
+## Mi a „metaadatok kinyerése” a diagramok kontextusában?
+A metaadatok kinyerése azt jelenti, hogy elolvassa a diagramfájlban tárolt rejtett információkat – például a szerzőt, a létrehozás dátumát vagy bármely egyéni címkét, amelyet hozzáadott. Ezek az adatok segítenek a diagramok szervezésében, keresésében és más rendszerekkel való integrálásában anélkül, hogy a vizuális tartalmat meg kellene nyitni.
 
-## Miért kinyerjünk egyedi metaadatokat diagramokból?
-- **Fejlett kereshetőség:** Címkézze a diagramokat projektspecifikus kulcsokkal, és találja meg őket azonnal.  
-- **Automatizálás:** Szinkronizálja a diagram tulajdonságait a CRM-mel, DMS-sel vagy jelentéskészítő eszközökkel.  
-- **Megfelelőség:** Ellenőrizze, hogy a kötelező metaadatok (pl. verzió, tulajdonos) jelen vannak-e a közzététel előtt.
+## Miért kell egyéni metaadatokat kinyerni diagramokból?
+Az egyéni metaadatok diagramokból való kinyerése fokozza az automatizálást és a kormányzást. A GroupDocs.Metadata támogat **50+ diagramformátumot**, és akár **500 MB**-os fájlokat is feldolgozhat anélkül, hogy a teljes dokumentumot a memóriába töltené, így gyors, alacsony erőforrásigényű hozzáférést biztosít a szabványos és a felhasználó által definiált tulajdonságokhoz.
 
 ## Bevezetés
-A diagramfájlban lévő specifikus metaadatok elérése vagy módosítása számos alkalmazás számára kritikus, például dokumentumkezelés és rendszerintegráció esetén. Ebben az útmutatóban azt vizsgáljuk meg, hogyan valósítható meg ez a GroupDocs.Metadata Java segítségével, és hogyan integrálhatók ezek a funkciók a projektjeibe könnyedén.
+A diagramfájlban lévő specifikus metaadatok elérése vagy módosítása számos alkalmazás számára kritikus, például dokumentumkezelés és rendszerintegráció esetén. Ebben az útmutatóban azt vizsgáljuk meg, hogyan valósítható ez meg a GroupDocs.Metadata Java segítségével, és hogyan integrálhatók ezek a funkciók a projektjeibe könnyedén.
 
 ## Előfeltételek
 - **Könyvtárak és verziók:** GroupDocs.Metadata könyvtár verzió 24.12 vagy újabb.  
 - **Környezet beállítása:** Java fejlesztői környezet Maven-nel.  
-- **Tudás előfeltételek:** Alapvető ismeretek a Java programozásban.
+- **Tudás előfeltételek:** Alapvető ismeretek a Java programozásról.
 
-## A GroupDocs.Metadata for Java beállítása
+## A GroupDocs.Metadata beállítása Java-hoz
 
 ### Maven használata
 Adja hozzá a következő konfigurációt a `pom.xml` fájlhoz:
@@ -65,40 +112,40 @@ Adja hozzá a következő konfigurációt a `pom.xml` fájlhoz:
 ### Közvetlen letöltés
 Alternatívaként töltse le a legújabb verziót a [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) oldalról.
 
-**Licenc beszerzése:** A GroupDocs ingyenes próbaidőszakot és ideiglenes licenceket kínál könyvtáraik korlátok nélküli teszteléséhez. Hosszabb távú használathoz megvásárolhatja a licencet.
+**Licenc beszerzése:** A GroupDocs ingyenes próbaidőszakot és ideiglenes licenceket kínál könyvtáraik korlátok nélküli teszteléséhez. Hosszú távú használathoz megvásárolhat egy licencet.
 
 **Inicializálás és beállítás:** A telepítés után inicializálja a Metadata objektumot a dokumentum útvonalával, hogy elkezdje a metaadatokkal való munkát.
 
-## Megvalósítási útmutató
+## Implementációs útmutató
 
-A megvalósítást két fő funkcióra bontjuk: egyedi metaadat‑tulajdonságok kinyerése diagramokból és a diagram metaadatainak betöltése.
+Az implementációt két fő funkcióra bontjuk: egyéni metaadat-tulajdonságok kinyerése diagramokból és a diagram metaadatainak betöltése.
 
-### Egyedi metaadat‑tulajdonságok kinyerése diagramokból
+### Hogyan kell egyéni metaadat-tulajdonságokat kinyerni diagramokból?
 
-Ez a funkció lehetővé teszi a nem szabványos, felhasználó által definiált tulajdonságok elérését egy diagramfájlban.
+Töltsön be egyéni tulajdonságokat néhány kódsorral. Először hozzon létre egy `Metadata` példányt, majd navigáljon a gyökércsomaghoz, és szűrje ki a beépített tulajdonságokat, hogy elkülönítse a felhasználó által definiáltakat.
 
-#### 1. lépés: A diagramfájl betöltése
-Kezdje egy `Metadata` objektum létrehozásával a dokumentum útvonalával:
+#### 1. lépés: Diagramfájl betöltése
+A `Metadata` osztály a belépési pont bármely támogatott dokumentum metaadatainak olvasásához. Kezdje a `Metadata` objektum létrehozásával a diagram útvonalával:
 
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY")) {
 ```
 
 #### 2. lépés: A gyökércsomag elérése
-Szerezze meg a diagramok gyökércsomagját, hogy a tulajdonságokkal dolgozhasson:
+A gyökércsomag hozzáférést biztosít a diagram alap metaadatstruktúráihoz. Hívja le, hogy a tulajdonságokkal dolgozhasson:
 
 ```java
 DiagramRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-#### 3. lépés: Egyedi tulajdonságok keresése
-Használjon specifikációt a beépített dokumentumtulajdonságok kiszűréséhez és az egyedi tulajdonságokra való fókuszáláshoz:
+#### 3. lépés: Egyéni tulajdonságok keresése
+Használjon specifikációt a beépített dokumentumtulajdonságok kiszűréséhez és az egyéni tulajdonságokra fókuszáljon:
 
 ```java
 IReadOnlyList<MetadataProperty> customProperties = root.getDocumentProperties().findProperties(new ContainsTagSpecification(Tags.getDocument().getBuiltIn()).not());
 ```
 
-#### 4. lépés: Egyedi tulajdonságok feldolgozása
+#### 4. lépés: Minden egyéni tulajdonság feldolgozása
 Iteráljon a tulajdonságokon, hogy feldolgozza azok nevét és értékét:
 
 ```java
@@ -108,70 +155,81 @@ for (MetadataProperty property : customProperties) {
 }
 ```
 
-### Diagram metaadatainak betöltése és elérése
+### Hogyan kell betölteni és elérni a diagram metaadatait?
 
-Ez a funkció a diagramfájl metaadat‑komponenseinek elérésére összpontosít.
+Az egyéni címkék mellett gyakran szükség van a szabványos tulajdonságok, például a szerző, a létrehozás dátuma vagy az utolsó módosítás időpontjának olvasására. A következő lépések bemutatják, hogyan szerezheti meg a teljes metaadatkészletet.
 
 #### 1. lépés: A Metadata objektum inicializálása
-Az egyedi tulajdonságok kinyeréséhez hasonlóan, kezdje az inicializálással:
+Ismét kezdje a `Metadata` osztállyal a diagramfájl megnyitásához:
 
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY")) {
 ```
 
 #### 2. lépés: A gyökércsomag lekérése
-Érje el a gyökércsomagot, hogy különböző metaadat‑elemeket fedezzen fel:
+Hozzáfér a gyökércsomaghoz, hogy különböző metaadat-elemeket fedezzen fel:
 
 ```java
 DiagramRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-Ezzel a beállítással további műveleteket hajthat végre a `root` objektumon, ahogy szükséges.
+Ezzel a beállítással további műveleteket végezhet a `root` objektumon, például beépített tulajdonságok lekérdezése, oldalak felsorolása vagy beágyazott miniatűrök kinyerése.
 
 ## Gyakorlati alkalmazások
-Íme néhány valós életbeli forgatókönyv, ahol a diagramok egyedi metaadatainak kinyerése előnyös:
-1. **Dokumentumkezelő rendszerek:** Javítsa a kereshetőséget és a szervezést egyedi metaadatok felhasználásával.  
-2. **Integráció CRM eszközökkel:** Szinkronizálja a diagram tulajdonságait az ügyfélkapcsolat‑kezelő rendszerekkel a jobb nyomon követés érdekében.  
+Íme néhány valós példaszakasz, ahol az egyéni metaadatok diagramokból való kinyerése előnyös:
+
+1. **Dokumentumkezelő rendszerek:** Javítsa a kereshetőséget és a szervezést egyéni metaadatok kihasználásával.  
+2. **Integráció CRM eszközökkel:** Szinkronizálja a diagram tulajdonságait az ügyfélkapcsolat-kezelő rendszerekkel a jobb nyomon követés érdekében.  
 3. **Automatizált jelentéskészítés:** Használja a metaadatokat jelentések generálásához a dokumentumhasználatról és módosításokról.
 
-## Teljesítménybeli megfontolások
-A teljesítmény optimalizálásához a GroupDocs.Metadata használata során:
-- **Erőforrás‑használat:** Figyelje a memóriafogyasztást, különösen nagy dokumentumok feldolgozásakor.  
-- **Java memória kezelés:** Alkalmazzon bevált gyakorlatokat, például try‑with‑resources használatát az automatikus erőforrás‑kezeléshez.  
-- **Optimalizációs tippek:** Gyorsítótárazza a gyakran elérhető metaadatokat a redundáns műveletek csökkentése érdekében.
+## Teljesítményfontosságú szempontok
+A teljesítmény optimalizálásához a GroupDocs.Metadata használatakor:
 
-## Összegzés
-Ebben az útmutatóban megvizsgáltuk, hogyan kell **metaadatokat kinyerni** diagramokból a GroupDocs.Metadata Java használatával. A lépések követésével javíthatja alkalmazása dokumentumkezelési képességeit, és zökkenőmentesen integrálhatja más rendszerekkel.
+- **Erőforrás-használat:** Figyelje a memóriafogyasztást, különösen nagy dokumentumok feldolgozásakor.  
+- **Java memória-kezelés:** Alkalmazzon bevált gyakorlatokat, például try‑with‑resources használatát az automatikus erőforrás-kezeléshez.  
+- **Optimalizálási tippek:** Gyorsítótárazza a gyakran elért metaadatokat, hogy csökkentse az ismétlődő műveleteket és elkerülje a többszörös I/O hívásokat.
 
-**Következő lépések:** Kísérletezzen különböző diagramformátumokkal, fedezze fel a kötegelt feldolgozást, és merüljön mélyebben a GroupDocs.Metadata által kínált fejlett funkciókba.
+## Gyakori problémák és megoldások
+- **Probléma:** `OutOfMemoryError` nagyon nagy diagramok kezelésekor.  
+  **Megoldás:** Diagramokat egyenként dolgozza fel egy try‑with‑resources blokkban, és ha elérhető, engedélyezze a streaming módot.  
+- **Probléma:** Az egyéni tulajdonságok `null` értéket adnak vissza.  
+  **Megoldás:** Győződjön meg arról, hogy a diagram valóban tartalmaz felhasználó által definiált címkéket, és a megfelelő specifikációs szűrőt használja.  
+- **Probléma:** Licenckivétel a termelési szervereken.  
+  **Megoldás:** A `License` osztályt használják a GroupDocs licencfájl betöltésére és alkalmazására. Alkalmazzon állandó licencfájlt a `License license = new License(); license.setLicense("path/to/license.lic");` kóddal, mielőtt bármilyen metaadat műveletet végezne.
 
-## Gyakran Ismételt Kérdések
+## Gyakran feltett kérdések
 
 **Q: A GroupDocs.Metadata működik titkosított diagramfájlokkal?**  
 A: Igen, a jelszót megadhatja a fájl megnyitásakor a `Metadata` konstruktor túlterhelésén keresztül.
 
-**Q: Írhatok vagy frissíthetek egyedi metaadatokat a kinyerés után?**  
-A: Teljesen – használja a `setValue` metódust a `MetadataProperty` objektumokon, majd mentse a változtatásokat.
+**Q: Írhatok vagy frissíthetek egyéni metaadatokat a kinyerés után?**  
+A: A `MetadataProperty` egy egyedi metaadatmezőt képvisel, amely olvasható vagy módosítható. Természetesen—használja a `setValue` metódust a `MetadataProperty` objektumokon, majd mentse a változásokat.
 
-**Q: Van mód az összes beépített tulajdonság felsorolására az egyedi mellett?**  
-A: Szerezze meg az összes tulajdonságot a `root.getDocumentProperties().findProperties(null)` hívással, és szűrje szükség szerint.
+**Q: Van mód az összes beépített tulajdonság felsorolására az egyéni mellett?**  
+A: Az összes tulajdonság lekérhető a `root.getDocumentProperties().findProperties(null)` segítségével, és szükség szerint szűrheti.
 
-**Q: Hogyan kezeli a könyvtár a különböző diagram szabványokat (pl. Visio, Draw.io)?**  
+**Q: Hogyan kezeli a könyvtár a különböző diagramstandardokat (pl. Visio, Draw.io)?**  
 A: A GroupDocs.Metadata elvonja a mögöttes formátumot, egységes API-t biztosítva a támogatott diagramtípusokhoz.
 
-**Q: Van korlátozás az egyedi tulajdonságok számában, amelyet tárolhatok?**  
-A: A korlátokat az alaprendszer fájlformátuma határozza meg; a legtöbb modern diagramformátum tucatnyi egyedi címkét támogat.
+**Q: Van korlátozás arra, hogy hány egyéni tulajdonságot tárolhatok?**  
+A: A korlátokat a háttérben lévő fájlformátum határozza meg; a legtöbb modern diagramformátum tucatnyi egyéni címkét támogat.
 
-**Erőforrások**  
-- [Documentation](https://docs.groupdocs.com/metadata/java/)  
-- [API Reference](https://reference.groupdocs.com/metadata/java/)  
-- [Download](https://releases.groupdocs.com/metadata/java/)  
-- [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
-- [Temporary License Acquisition](https://purchase.groupdocs.com/temporary-license/)
+## Erőforrások  
+- [Dokumentáció](https://docs.groupdocs.com/metadata/java/)  
+- [API referencia](https://reference.groupdocs.com/metadata/java/)  
+- [Letöltés](https://releases.groupdocs.com/metadata/java/)  
+- [GitHub tároló](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
+- [Ingyenes támogatási fórum](https://forum.groupdocs.com/c/metadata/)  
+- [Ideiglenes licenc beszerzése](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 
-**Utolsó frissítés:** 2026-01-16  
-**Tesztelve:** GroupDocs.Metadata 24.12 for Java  
-**Szerző:** GroupDocs  
+**Legutóbb frissítve:** 2026-05-17  
+**Tesztelve ezzel:** GroupDocs.Metadata 24.12 for Java  
+**Szerző:** GroupDocs
+
+## Kapcsolódó oktatóanyagok
+
+- [Diagram metaadatok kinyerése Java - Diagram felismerés mesterfokon a GroupDocs.Metadata segítségével](/metadata/java/diagram-formats/groupdocs-metadata-java-diagram-detection/)
+- [Diagram metaadatok kinyerése Java – Diagram metaadat oktatóanyagok a GroupDocs.Metadata segítségével](/metadata/java/diagram-formats/)
+- [Mester metaadatkezelés: Dokumentumtulajdonságok és titkosítási állapot felismerése a GroupDocs.Metadata for Java segítségével](/metadata/java/working-with-metadata/master-metadata-management-groupdocs-java/)

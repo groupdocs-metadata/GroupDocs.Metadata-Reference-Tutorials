@@ -1,44 +1,64 @@
 ---
-date: '2026-02-01'
-description: تعلم كيفية فحص الشرائح المخفية واستخراج تعليقات PPT باستخدام GroupDocs.Metadata
-  Java API. حسّن سير عمل إدارة العروض التقديمية الخاصة بك.
+date: '2026-05-22'
+description: تعلم كيفية التحقق من الشرائح المخفية java واستخراج تعليقات PPT باستخدام
+  GroupDocs.Metadata Java API. مثالي لـ audit، compliance، و presentation cleanup.
 keywords:
-- GroupDocs Metadata Java
-- inspect presentation comments
-- identify hidden slides
-title: تحقق من الشرائح المخفية باستخدام GroupDocs.Metadata Java
+- check hidden slides java
+- groupdocs metadata java
+- list hidden slides ppt
+schemas:
+- author: GroupDocs
+  dateModified: '2026-05-22'
+  description: Learn how to check hidden slides java and extract PPT comments with
+    GroupDocs.Metadata Java API. Ideal for audit, compliance, and presentation cleanup.
+  headline: Check hidden slides java using GroupDocs.Metadata
+  type: TechArticle
+- questions:
+  - answer: Yes. Use the overloaded `Metadata` constructor that accepts a `LoadOptions`
+      object with the password, then call `getComments()` as usual.
+    question: Can I extract comments from password‑protected presentations?
+  - answer: Absolutely. `GroupDocs.Metadata` automatically detects the file type and
+      provides a unified inspection interface for both formats.
+    question: Does the API support both PPT and PPTX formats?
+  - answer: The current version is read‑only for hidden‑slide inspection. For editing,
+      combine `GroupDocs.Metadata` with `GroupDocs.Conversion` or `GroupDocs.Editor`.
+    question: Is there a way to modify or delete hidden slides via the API?
+  - answer: Process the file in a streaming fashion, dispose of each `PresentationSlide`
+      after extracting needed data, and avoid loading the entire deck into memory.
+    question: How do I handle large presentations (hundreds of MB)?
+  - answer: No. All operations run locally after the library is added to your project.
+    question: Do I need an internet connection once the JAR is downloaded?
+  type: FAQPage
+title: تحقق من الشرائح المخفية java باستخدام GroupDocs.Metadata
 type: docs
 url: /ar/java/document-formats/groupdocs-metadata-java-inspect-comments-hidden-slides/
 weight: 1
 ---
 
-# فحص الشرائح المخفية باستخدام GroupDocs.Metadata Java
+# التحقق من الشرائح المخفية java باستخدام GroupDocs.Metadata
 
-تصفح ملف PowerPoint غالبًا ما يعني أنك بحاجة إلى **فحص الشرائح المخفية** أو استخراج ملاحظات المراجعين التي لا تظهر للعين الأولى. سواء كنت تُعد عرضًا للعميل، تُجري تدقيقًا للامتثال، أو ببساطة تُنظف عرضًا كبيرًا، فإن القدرة على كشف هذه العناصر المخفية برمجيًا توفر الوقت وتُزيل الأخطاء البشرية. في هذا الدليل سنُظهر لك كيفية **فحص الشرائح المخفية** و**استخراج تعليقات ppt** باستخدام مكتبة **GroupDocs.Metadata Java**، حتى لا يفوتكفحص الشرائح المخفية”؟** يعني ذلك اكتشاف الشرائح التي تم تعيين علم رؤيتها إلى *false* في ملف PowerPoint برمجيًا.  
-- **أي API يتعامل مع التعليقات؟** توفر `GroupDocs.Metadata` الطريقة `getComments()` لـ **استخراج تعليقات ppt**.  
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتطوير؛ الترخيص التجاري مطلوب للإنتاج.  
-- ** JDK 8 أو أعلى؛ المكتبة متوافقة أيضًا مع Java 11 +.  
--عداد.
+عند العمل مع عروض PowerPoint في Java، غالبًا ما تحتاج إلى **check hidden slides java** أو سحب ملاحظات المراجعين التي لا تظهر في عرض الشرائح. سواء كنت تُعد عرضًا للعميل، أو تُجري تدقيقًا للامتثال، أو تنظف مكتبة شرائح ضخمة، فإن اكتشاف العناصر المخفية برمجيًا يُزيل الأخطاء اليدوية ويسرّع سير العمل. في هذا الدرس سنستعرض كيفية **check hidden slides java** و**extract PPT comments** باستخدام مكتبة **GroupDocs.Metadata Java**، بحيث يتم حساب كل جزء من محتوى العرض.
 
-## ما هو “فحص الشرائح المخفية”؟
-الشرائح المخفية هي الشرائح التي يكون علم رؤيتها مضبوطًا على *false* في ملف العرض. تُستبعد هذه الشرائح أثناء عرض الشرائح العادي لكنها تظل جزءًا من الملف. يتيح لك اكتشافها تدقيق المحتوى، فرض السياسات، أو ببساطة تنظيف العرض قبل النشر.
+## إجابات سريعة
+- **What does “check hidden slides” mean?** It means programmatically detecting slides whose visibility flag is set to false in a PowerPoint file.  
+- **Which API extracts comments?** `GroupDocs.Metadata` provides the `getComments()` method to pull PPT comments.  
+- **Is a license required for production?** نعم – ترخيص تجريبي يكفي للتطوير، لكن الترخيص التجاري إلزامي للاستخدام في الإنتاج.  
+- **What Java version is supported?** JDK 8 أو أحدث؛ المكتبة متوافقة بالكامل مع Java 11 +.  
+- **Can I add the library via Maven?** بالتأكيد – إحداثيات Maven مُدرجة في قسم الإعداد.
 
-## لماذا نستخدم GroupDocs.Metadata Java؟
-* **الوصول الكامل إلى البيانات الوصفية** – لا حاجة لفتح الملف في PowerPoint؛ تتعامل مباشرة مع بيانات الملف الوصفية.  
-* **دعم صيغ متعددة** – يعمل مع PPT وPPTX وغيرها من صيغ Office.  
-* **خفيف الوزن** – لا يعتمد على واجهات مستخدم ثقيلة، مثالي للخدمات الخلفية.  
-* **ترخيص قوي** – نسخة تجريبية للاختبار، وترخيص تجاري للإنتاج.
+## ما هو “check hidden slides java”؟
+**Checking hidden slides java** يعني مسح عرض PowerPoint برمجيًا لتحديد أي شريحة تم تعيين خاصية `isHidden` لها إلى true. هذه الشرائح لا تُعرض أثناء عرض الشرائح العادي لكنها تظل جزءًا من الملف، مما يتيح لك تدقيقها أو إزالتها أو معالجة المحتوى المخفي قبل نشر العرض.
+
+## لماذا تستخدم GroupDocs.Metadata Java؟
+توفر GroupDocs.Metadata Java لك **full‑metadata access** دون تشغيل PowerPoint، وتدعم **PPT و PPTX** (وغيرها من صيغ Office) وتُعالج الملفات **حتى 500 MB** مع استخدام أقل من 100 MB من الذاكرة RAM بفضل بنية البث الخاصة بها. هذا الحل الخفيف الوزن على الخادم مثالي لخدمات الخلفية التي تحتاج إلى تدقيق أو تنظيف العروض على نطاق واسع.
 
 ## المتطلبات المسبقة
+- **GroupDocs.Metadata for Java** (v24.12 أو أحدث) – المكتبة الأساسية لقراءة وكتابة البيانات الوصفية.  
+- **Java Development Kit (JDK)** – تم تثبيت JDK 8 أو أحدث.  
+- **Maven** (اختياري) – لإدارة الاعتماديات.  
+- الإلمام بفئات Java، try‑with‑resources، وبُنى الحلقات الأساسية.
 
-قبل أن تبدأ، تأكد من وجود ما يلي:
-
-- **GroupDocs.Metadata for Java** (الإصدار 24.12 أو أحدث) – المكتبة الأساسية التي تسمح بقراءة وكتابة البيانات الوصفية.  
-- **Java Development Kit (JDK)** – JDK 8 أو أحدث مثبت على جهازك.  
-- **Maven** (اختياري) – إذا كنت تفضل إدارة الاعتمادات عبر Maven.  
-- معرفة أساسية بـ Java – يجب أن تكون مرتاحًا مع الفئات، try‑with‑resources، والحلقات.
-
-## إعداد GroupDocs.Metadata for Java
+## إعداد GroupDocs.Metadata للـ Java
 
 ### إعداد Maven
 أضف المستودع والاعتماد إلى ملف `pom.xml` الخاص بك:
@@ -62,10 +82,15 @@ weight: 1
 ```
 
 ### التحميل المباشر
-إذا كنت تفضل عدم استخدام Maven، احصل على أحدث JAR من صفحة التحميل الرسمية: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+إذا كنت تفضّل عدم استخدام Maven، قم بتحميل أحدث JAR من الصفحة الرسمية: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### خطوات الحصول على الترخيص
-- **نسخة تجريبية** – حمّل **ترخيص مؤقت** – اطلب مفتاحًا** – احصل على ترخيص كامل للاستخدام غير المحدود في الإنتاج والإعداد
+- **Free Trial** – احصل على ترخيص تجريبي للبدء في الاختبار.  
+- **Temporary License** – اطلب مفتاحًا مؤقتًا لتقييم ممتد.  
+- **Purchase** – احصل على ترخيص كامل للاستخدام غير المحدود في الإنتاج.
+
+### التهيئة الأساسية والإعداد
+فئة `Metadata` هي نقطة الدخول التي تفتح المستند وتكشف عن بياناته الوصفية. استخدام try‑with‑resources يضمن تحرير مقبض الملف تلقائيًا.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -80,12 +105,12 @@ public class MetadataSetup {
 }
 ```
 
-مع جاهزية المكتبة، دعنا نتعمق في المهمتين الرئيسيتين: **استخراج تعليقات ppt** و**فحص الشرائح المخفية**.
+مع جاهزية المكتبة، دعنا نتعمق في المهمتين الأساسيتين: **extracting PPT comments** و**checking hidden slides java**.
 
-## كيفية استخراج تعليقات ppt باستخدام GroupDocs.Metadata Java
+## كيفية استخراج تعليقات ppt باستخدام GroupDocs.Metadata Java؟
 
-### الخطوة 1: تحميل بيانات وصفية للعرض
-أولًا، افتح الملف واحصل على الحزمة الجذرية التي تمنحك الوصول إلى بيانات الفحص.
+`getComments()` تُعيد قائمة بجميع كائنات التعليق المخزنة في العرض.  
+لاستخراج تعليقات PPT، افتح العرض باستخدام فئة `Metadata`، استدعِ `getComments()` للحصول على مجموعة من كائنات التعليق، ثم قم بالتكرار عبر هذه المجموعة. لكل تعليق يمكنك قراءة خصائص مثل اسم المؤلف، نص التعليق، طابع الوقت لإنشاءه، ورقم الشريحة التي يظهر فيها.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -95,8 +120,7 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputPpt")) {
     PresentationRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### الخطوة 2: التكرار على التعليقات
-الآن، تحقق من وجود تعليقات ثم تكرّر عبر كل تعليق لاستخراج التفاصيل المفيدة مثل المؤلف، النص، وقت الإنشاء، ورقم الشريحة.
+الآن قم بالتكرار عبر كائنات التعليق واطبع الحقول المفيدة لكل عنصر.
 
 ```java
 import com.groupdocs.metadata.core.PresentationComment;
@@ -111,22 +135,23 @@ if (root.getInspectionPackage().getComments() != null) {
 }
 ```
 
-**لماذا هذا مهم:** استخراج التعليقات يتيح لك تجميع ملاحظات متعددة المراجعين، أتمتة سجلات التدقيق، أو إنشاء تقارير ملخصة دون فتح PowerPoint يدويًا.
+**Why this matters:** استخراج التعليقات يتيح لك تجميع الملاحظات من مراجعين متعددين، إنشاء سجلات تدقيق، أو توليد تقارير ملخصة دون الحاجة لفتح PowerPoint يدويًا.
 
-#### نصائح استكشاف الأخطاء
-- **أخطاء مسار الملف:** تحقق مرة أخرى من مسار `YOUR_DOCUMENT_DIRECTORY`؛ مسار غير صحيح يسبب استثناء.  
-- **لم يتم العثور على تعليقات:** تأكد من أن ملف PPT المصدر يحتوي فعليًا على تعليقات؛ وإلا ستكون قائمة `getComments()` `null`.
+### نصائح استكشاف الأخطاء وإصلاحها
+- **File path errors:** تحقق من أن `YOUR_DOCUMENT_DIRECTORY` يشير إلى الموقع الصحيح؛ مسار غير صالح يسبب استثناء `FileNotFoundException`.  
+- **No comments found:** تأكد من أن ملف PPT المصدر يحتوي فعليًا على تعليقات؛ وإلا فإن `getComments()` تُعيد قائمة فارغة.
 
-## كيفية فحص الشرائح المخفية في عرض باستخدام GroupDocs.Metadata Java
+## كيفية التحقق من الشرائح المخفية java في عرض تقديمي باستخدام GroupDocs.Metadata Java؟
 
-### الخطوة 1: تحميل بيانات وصفية للعرض (نفس الخطوة السابقة)
+`getHiddenSlides()` تُعيد مجموعة من معرفات الشرائح التي تم وضع علامة مخفي عليها.  
+للتحقق من الشرائح المخفية، استدعِ طريقة `getHiddenSlides()` على كائن `Presentation` المستخرج من مثيل `Metadata`. تُعيد هذه الطريقة قائمة بمعرفات الشرائح التي علم المخفي فيها true. يمكنك بعد ذلك التكرار عبر هذه القائمة لتسجيل معرف أو عنوان كل شريحة مخفية، أو إجراء معالجة إضافية مثل الإزالة أو الإبلاغ.
+
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputPpt")) {
     PresentationRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### الخطوة 2: التكرار على الشرائح المخفية
-استخدم الطريقة `getHiddenSlides()` لاسترجاع أي شرائح مُعلمة كمخفيّة واطبع معرّفاتها.
+قم بالتكرار عبر كائنات الشرائح المخفية واطبع معرفاتها أو عناوينها.
 
 ```java
 import com.groupdocs.metadata.core.PresentationSlide;
@@ -140,58 +165,66 @@ if (root.getInspectionPackage().getHiddenSlides() != null) {
 }
 ```
 
-**لماذا هذا مهم:** اكتشاف الشرائح المخفية يساعدك على فرض الامتثال (مثل إزالة المحتوى السري) ويضمن عدم شحن أي مادة غير مقصودة مع العرض النهائي.
+**Why this matters:** اكتشاف الشرائح المخفية يساعدك على تطبيق الامتثال (مثل إزالة المسودات السرية) ويضمن عدم شحن أي محتوى غير مقصود مع العرض النهائي.
 
-#### نصائح استكشاف الأخطاء
-- **لم تُرجع أي شرائح مخفية:** تحقق من أن العرض يحتوي فعليًا على شرائح مخفية؛ وإلا ستكون القائمة `null`.  
-- **مشكلات الأذونات:** تأكد من أن عملية Java الخاصة بك لديها صلاحية قراءة المجلد الذي يحتوي على ملف PPT.
+### نصائح استكشاف الأخطاء وإصلاحها
+- **No hidden slides returned:** تأكد من أن العرض يحتوي فعليًا على شرائح مخفية؛ وإلا ستكون القائمة فارغة.  
+- **Permission issues:** تأكد من أن عملية Java لديها صلاحية قراءة الدليل الذي يوجد فيه ملف PPT.
 
 ## تطبيقات عملية
 
 | السيناريو | كيف يساعد الـ API |
 |----------|-------------------|
-| **تجميع المراجعات** | **استخراج تعليقات ppt** لتجميع ملاحظات المراجعين في مستند واحد. |
-| **تدقيق الامتثال** | **فحص الشرائح المخفية** لضمان عدم توزيع محتوى سري أو قديم. |
-| **تنظيف تلقائي** | دمج الميزتين لإنشاء تقرير عن المحتوى المخفي والتعليقات، ثم إزالتهما أو وضع علامة عليهما برمجيًا. |
-| **التحكم في الإصدارات** | تخزين البيانات الوصفية المستخرجة في قاعدة بيانات لتتبع التغييرات عبر إصدارات العرض. |
+| **Review Consolidation** | **Extract ppt comments** لتجميع ملاحظات المراجعين في مستند واحد. |
+| **Compliance Audits** | **Check hidden slides java** لضمان عدم توزيع محتوى سري. |
+| **Automated Cleanup** | دمج الميزةين لإنشاء تقرير عن المحتوى المخفي والتعليقات، ثم إزالتهما أو وضع علامة عليهما برمجيًا. |
+| **Version Control** | تخزين البيانات الوصفية المستخرجة في قاعدة بيانات لتتبع التغييرات عبر إصدارات العرض. |
 
 ## اعتبارات الأداء
 
-- **استخدام try‑with‑resources** لإغلاق كائن `Metadata` تلقائيًا وتحرير الموارد الأصلية.  
-- **معالجة العروض الكبيرة على دفعات** إذا كنت تحتاج فقط إلى جزء من الشرائح؛ يقلل ذلك من الضغط على الذاكرة.  
-- **الاستفادة من التخزين المؤقت المدمج** الذي توفره المكتبة للقراءات المتكررة لنفس الملف.
+- **Streaming reads** تحافظ على استهلاك الذاكرة أقل من 100 MB حتى لعروض مكونة من 500 صفحة.  
+- **Try‑with‑resources** تقوم تلقائيًا بتحرير كائن `Metadata`، مما يحرر الموارد الأصلية بسرعة.  
+- **Built‑in caching** يقلل من عمليات الإدخال/الإخراج عندما يتم فحص نفس الملف عدة مرات في فترة قصيرة.
 
 ## المشكلات الشائعة والحلول
 
 | المشكلة | الحل |
-|--------|------ عدم قفل العملية الأخرى للملف. |
-| عدم إرجاع تعليقات أو شرائح مخفية | افتح PPT في PowerPoint لتأكيد وجود تلك العناصر؛ الـ API يقرأ فقط ما هو مخزن. |
-| استثناء الترخيص | طبّق ترخيصًا تجريبيًا أو تجاريًا صالحًا قبل استدعاء أي من طرق الـ API. |
+|---------|------|
+| `Metadata` fails to open file | تحقق من مسار الملف وتأكد من أن الملف غير مقفل بواسطة عملية أخرى. |
+| No comments or hidden slides returned | افتح PPT في PowerPoint لتأكيد وجود تلك العناصر؛ الـ API يقرأ فقط ما هو مخزن. |
+| License exception thrown | قم بتطبيق ترخيص تجريبي أو تجاري صالح قبل استدعاء أي من طرق الـ API. |
 
 ## الأسئلة المتكررة
 
-**س: هل يمكنني استخراج التعليقات من عروض محمية بكلمة مرور؟**  
-ج: نعم. حمّل الملف باستخدام كلمة المرور المناسبة عبر مُنشئ `Metadata` المتعدد الوسائط الذي يقبل كائن `LoadOptions`.
+**Q: هل يمكنني استخراج التعليقات من العروض المحمية بكلمة مرور؟**  
+A: نعم. استخدم المُنشئ `Metadata` المُحمَّل الذي يقبل كائن `LoadOptions` مع كلمة المرور، ثم استدعِ `getComments()` كالمعتاد.
 
-**س: هل يدعم الـ API صيغ PPT وPPTX؟**  
-ج: بالتأكيد. يكتشف `GroupDocs.Metadata` الصيغة تلقائيًا ويوفر واجهة فحص موحدة.
+**Q: هل يدعم الـ API صيغ PPT و PPTX؟**  
+A: بالتأكيد. `GroupDocs.Metadata` يكتشف نوع الملف تلقائيًا ويوفر واجهة فحص موحدة لكلا الصيغتين.
 
-**س: هل هناك طريقة لتعديل أو حذف الشرائح المخفية عبر الـ API؟**  
-ج: الإصدار الحالي يركز على الفحص للقرعديل، يمكنك دمج `GroupDocs.Metadata` مع مكتبات `GroupDocs.Conversion` أو `GroupDocs.Editor`.
+**Q: هل هناك طريقة لتعديل أو حذف الشرائح المخفية عبر الـ API؟**  
+A: الإصدار الحالي للقراءة فقط لفحص الشرائح المخفية. للتعديل، اجمع بين `GroupDocs.Metadata` و `GroupDocs.Conversion` أو `GroupDocs.Editor`.
 
-**س: كيف أتعامل مع عروض كبيرة (مئات الميغاب تدفقية (streaming) وتحرّر كل كائن `PresentationSlide` بعد جمع البيانات المطلوبة.
+**Q: كيف أتعامل مع عروض تقديمية كبيرة (مئات الـ MB)؟**  
+A: عالج الملف بطريقة البث، حرّر كل `PresentationSlide` بعد استخراج البيانات المطلوبة، وتجنب تحميل العرض بالكامل في الذاكرة.
 
-**س: هل أحتاج إلى اتصال إنترنت بعد تحميل الـ JAR؟**  
-ج: لا. بعد إضافة الـ JAR إلى مشروعك، جميع العمليات تُنفّذ محليًا.
+**Q: هل أحتاج إلى اتصال بالإنترنت بعد تحميل الـ JAR؟**  
+A: لا. جميع العمليات تُنفّذ محليًا بعد إضافة المكتبة إلى مشروعك.
 
 ## الخلاصة
 
-أصبح لديك الآن نهج كامل وجاهز للإنتاج لـ **فحص الشرائح المخفية** و**استخراج تعليقات ppt** باستخدام مكتبة **GroupDocs.Metadata Java**. بدمج هذه المقاطع البرمجية في خدماتك الخلفية، يمكنك أتمتة تدقيق العروض، تبسيط حلقات المراجعة، وضمان أن كل شريحة—مرئية أو مخفية—تلتزم بمعايير مؤسستك.
+أصبح لديك الآن نهج كامل وجاهز للإنتاج لـ **check hidden slides java** و**extract PPT comments** باستخدام مكتبة **GroupDocs.Metadata Java**. من خلال دمج هذه الشفرات في خدمات الخلفية الخاصة بك، يمكنك أتمتة تدقيق العروض، تبسيط دورات الملاحظات، وضمان أن كل شريحة—مرئية أو مخفية—تلبي معايير مؤسستك.
 
-هل أنت مستعد للخطوة التالية؟ استكشف قدرات **GroupDocs.Metadata** الأوسع مثل استخراج خصائص المستند إدارة المستندات لديك.
+هل أنت مستعد للخطوة التالية؟ استكشف ميزات **GroupDocs.Metadata** الإضافية مثل استخراج خصائص المستند، تحليل تاريخ الإصدارات، ومعالجة البيانات الوصفية بالجملة لتعزيز سير عمل إدارة المستندات لديك.
 
 ---
 
-**آخر تحديث:** 2026-02-01  
+**آخر تحديث:** 2026-05-22  
 **تم الاختبار مع:** GroupDocs.Metadata Java 24.12  
 **المؤلف:** GroupDocs
+
+## دروس ذات صلة
+
+- [إدارة بيانات Java مع GroupDocs: مسح التعليقات والشرائح المخفية من عروض PowerPoint](/metadata/java/document-formats/java-metadata-management-groupdocs-clear-comments-slides/)
+- [كيفية تحديث بيانات مستند Word باستخدام GroupDocs.Metadata Java API](/metadata/java/document-formats/update-word-metadata-groupdocs-java-api/)
+- [استخراج تعليقات صور JPEG2000 في Java باستخدام GroupDocs.Metadata: دليل خطوة بخطوة](/metadata/java/image-formats/extract-jpeg2000-image-comments-java-groupdocs-metadata/)

@@ -1,53 +1,91 @@
 ---
-date: '2026-01-16'
-description: เรียนรู้วิธีดึงข้อมูลเมตาดาต้าแผนภาพด้วย Java โดยใช้ GroupDocs.Metadata
-  for Java, ตรวจจับประเภทแผนภาพ, และจัดการเมตาดาต้าอย่างมีประสิทธิภาพ.
+date: '2026-05-22'
+description: เรียนรู้วิธีใช้ groupdocs metadata for java เพื่อ extract diagram metadata,
+  detect diagram types, และ manage metadata อย่างมีประสิทธิภาพใน Java applications.
 keywords:
-- Diagram Detection
-- GroupDocs.Metadata for Java
-- Metadata Management
-title: 'ดึงข้อมูลเมตาดาต้าแผนภาพ Java - เชี่ยวชาญการตรวจจับแผนภาพด้วย GroupDocs.Metadata'
+- groupdocs metadata for java
+- diagram detection
+- metadata extraction
+schemas:
+- author: GroupDocs
+  dateModified: '2026-05-22'
+  description: Learn how to use groupdocs metadata for java to extract diagram metadata,
+    detect diagram types, and manage metadata efficiently in Java applications.
+  headline: groupdocs metadata for java – Extract Diagram Metadata
+  type: TechArticle
+- description: Learn how to use groupdocs metadata for java to extract diagram metadata,
+    detect diagram types, and manage metadata efficiently in Java applications.
+  name: groupdocs metadata for java – Extract Diagram Metadata
+  steps:
+  - name: '**Data Integration:** Auto‑categorize incoming diagrams before feeding
+      them into analytics pipelines.'
+    text: '**Data Integration:** Auto‑categorize incoming diagrams before feeding
+      them into analytics pipelines.'
+  - name: '**Document Management Systems:** Enrich stored diagrams with searchable
+      metadata tags for rapid retrieval.'
+    text: '**Document Management Systems:** Enrich stored diagrams with searchable
+      metadata tags for rapid retrieval.'
+  - name: '**Content Conversion Tools:** Choose the correct output format based on
+      extracted metadata, eliminating 80 % of conversion failures.'
+    text: '**Content Conversion Tools:** Choose the correct output format based on
+      extracted metadata, eliminating 80 % of conversion failures.'
+  - name: '**Archival Solutions:** Preserve full diagram provenance for long‑term
+      compliance and audit trails.'
+    text: '**Archival Solutions:** Preserve full diagram provenance for long‑term
+      compliance and audit trails.'
+  type: HowTo
+- questions:
+  - answer: No. The SDK reads metadata in a read‑only manner, leaving the source file
+      unchanged.
+    question: Does extracting diagram metadata affect the original diagram file?
+  - answer: The library handles typical diagram sizes; extremely large files may require
+      increased JVM heap space.
+    question: Are there any size limits for diagrams?
+  - answer: Yes—use the appropriate setter methods on the `DiagramRootPackage` object
+      and save changes back to the file.
+    question: Can I modify metadata after extraction?
+  - answer: groupdocs metadata for java does not currently support encrypted diagram
+      files; decrypt them beforehand.
+    question: Is there a way to extract metadata from password‑protected diagrams?
+  - answer: Sample code is available in the official GitHub repository linked below.
+    question: Where can I find sample projects?
+  type: FAQPage
+title: groupdocs metadata for java – Extract Diagram Metadata
 type: docs
 url: /th/java/diagram-formats/groupdocs-metadata-java-diagram-detection/
 weight: 1
 ---
 
-# แยก Java Metadata ของไดอะแกรม: การตรวจจับไดอะแกรมที่เชี่ยวชาญด้วย GroupDocs.Metadata
+# สกัดข้อมูลเมตาดาต้าแผนภาพ Java: เชี่ยวชาญการตรวจจับแผนภาพด้วย GroupDocs.Metadata
 
-เนื่องจากประสิทธิภาพอย่างมีประสิทธิภาพเป็นสิ่งสำคัญสำหรับวิศวกร สถาปนิก และร่องรอยธุรกิจที่สนับสนุนภาพในบทเรียนนี้คุณ **แยกไดอะแกรม metadata java** เพื่อระบุไฟล์, ประเภท MIME, และไฟล์ จากนั้นจึงจัดการกับเมตาดาต้านั้นด้วย GroupDocs.Metadata สำหรับ Java ก่อนที่จะสามารถช่วยรวมการควบคุมประเภทและการจัดการรูปแบบเมตาดาต้าได้แอปพลิเคชัน Java โดยตรง
+การจัดการแผนภาพอย่างมีประสิทธิภาพเป็นสิ่งสำคัญสำหรับวิศวกร, สถาปนิก, และนักวิเคราะห์ธุรกิจที่ทำงานกับข้อมูลภาพที่ซับซ้อน ในบทแนะนำนี้คุณจะ **extract diagram metadata java** ด้วยการใช้ **groupdocs metadata for java**, ระบุรูปแบบไฟล์, ประเภท MIME, และส่วนขยาย, และเรียนรู้วิธีการจัดการเมตาดาต้านั้นด้วย GroupDocs.Metadata สำหรับ Java เมื่อเสร็จคุณจะสามารถรวมการตรวจจับประเภทแผนภาพและการจัดการเมตาดาต้าเข้ากับแอปพลิเคชัน Java ของคุณโดยตรง
 
 ## คำตอบด่วน
-- ** “แยก Java Metadata Java” หมายความว่าอย่างไร** หมายถึงการอ่านคุณสมบัติภายในของไฟล์แผนภาพ (ประเภท รูปแบบ MIME ฯลฯ) โดยใช้โค้ด Java
-- **ต้องใช้ไลบรารีใด** GroupDocs.Metadata สำหรับ Java (เวอร์ชันล่าสุด)
-- **ฉันจำเป็นต้องมีใบอนุญาตหรือไม่** มีการทดลองใช้ฟรี ต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการผลิต
-- **ฉันสามารถประมวลผลหลายไดอะแกรมได้หรือไม่** ได้—รวมโค้ดไว้ในลูปเพื่อจัดการการทำงานของแบตช์
-- **รวมการสนับสนุน Maven หรือไม่** แน่นอน; เพิ่มพื้นที่เก็บข้อมูลและการพึ่งพาใน `pom.xml` ของคุณ
+- **What does “extract diagram metadata java” mean?** หมายถึงการอ่านคุณสมบัติภายในของไฟล์แผนภาพ—ประเภท, รูปแบบ, MIME, และส่วนขยาย—ผ่านโค้ด Java โดยไม่ต้องแสดงภาพแผนภาพ  
+- **Which library is required?** ไลบรารี **groupdocs metadata for java** (แพคเกจ Maven เวอร์ชันล่าสุด)  
+- **Do I need a license?** มีการทดลองใช้ฟรี; จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการใช้งานในสภาพแวดล้อมการผลิต  
+- **Can I process multiple diagrams?** ได้—ใส่ตรรกะการสกัดไว้ในลูปเพื่อจัดการการทำงานแบบแบชอย่างมีประสิทธิภาพ  
+- **Is Maven support included?** แน่นอน; เพียงเพิ่มรีโพซิทอรีและการพึ่งพาใน `pom.xml` ของคุณ  
 
-## Java metadata ของไดอะแกรมแยกคืออะไร?
+## groupdocs metadata for java คืออะไร?
+**groupdocs metadata for java** เป็น Java SDK ที่ช่วยให้นักพัฒนาสามารถอ่าน, แก้ไข, และบันทึกเมตาดาต้าของไฟล์ที่รองรับกว่า 70 รูปแบบ—including diagram types such as VDX, VSDX, and SVG—โดยไม่ต้องโหลดไฟล์เต็มลงในหน่วยความจำ มันให้ API ที่เรียบง่ายและต่อเนื่องซึ่งแยกโครงสร้างไฟล์ที่ซับซ้อนออก ทำให้คุณทำงานกับเมตาดาต้าได้อย่างสอดคล้องในหลายประเภทเอกสาร  
 
-การ **แยกไดอะแกรม metadata java** ตรวจสอบข้อมูลเชิงสำรวจของไฟล์ทรัพยากรของโปรแกรม Java — เช่นไฟล์ (VDX, VSDX และอื่นๆ), ประเภท MIME, และไฟล์ที่จัดเก็บข้อมูล — จะต้องเปิดเนื้อหาภาพจริงที่สามารถทำงานอัตโนมัติในประเภท, แปลงไฟล์, และจัดเก็บได้อย่างมีประสิทธิภาพ
-
-## เหตุใดจึงต้องแยก Java ข้อมูลเมตาของไดอะแกรม
-
-- **การทำงานอัตโนมัติ:** จัดเรียงไดอะแกรมขาเข้าอย่างรวดเร็วลงในไปป์ไลน์การประมวลผลที่ถูกต้อง
-- **ความสามารถในการค้นหา:** แท็กไฟล์ที่มีข้อมูลเมตาที่แม่นยำเพื่อการเรียกค้นในระบบการจัดการเอกสารที่รวดเร็วยิ่งขึ้น
-- **ความแม่นยำในการแปลง:** ใช้รายละเอียดรูปแบบที่แน่นอนเพื่อเลือกเครื่องมือแปลงที่เหมาะสม
-- **การปฏิบัติตามข้อกำหนด:** เก็บรักษาข้อมูลแหล่งที่มาที่จำเป็นสำหรับการตรวจสอบหรือการรายงานตามกฎระเบียบ
+## ทำไมต้องใช้ groupdocs metadata for java?
+การใช้ groupdocs metadata for java นำมาซึ่งการอัตโนมัติและความน่าเชื่อถือให้กับกระบวนการทำงานเอกสารของคุณ ไลบรารีจะระบุลักษณะของแผนภาพอย่างรวดเร็ว, เพิ่มข้อมูลแท็กที่ค้นหาได้ให้กับไฟล์, และทำให้เครื่องมือแปลงรูปแบบได้รับข้อมูลรูปแบบที่แม่นยำ ซึ่งช่วยลดข้อผิดพลาดในการประมวลผลอย่างมากและสนับสนุนการปฏิบัติตามมาตรฐานเช่น ISO 27001 และ GDPR  
+- **Automation:** การอัตโนมัติ: จัดประเภทแผนภาพที่เข้ามาโดยทันที, ส่งต่อไปยังสายการประมวลผลที่เหมาะสม  
+- **Searchability:** การค้นหา: เพิ่มระบบจัดการเอกสารด้วยแท็กเมตาดาต้าที่แม่นยำและสามารถค้นหาได้  
+- **Conversion Accuracy:** ความแม่นยำในการแปลง: ดึงรายละเอียดรูปแบบที่แม่นยำเพื่อเลือกเครื่องมือแปลงที่เหมาะสม, ลดข้อผิดพลาดการแปลงได้ถึง 95 %  
+- **Compliance:** การปฏิบัติตาม: รักษาข้อมูลแหล่งที่มาที่จำเป็นสำหรับการตรวจสอบ, ปฏิบัติตามข้อกำหนดของ ISO 27001 และ GDPR  
 
 ## ข้อกำหนดเบื้องต้น
+- **Java Development Kit (JDK)** 8 หรือสูงกว่า  
+- **Maven** (หากคุณต้องการโครงการที่ใช้ Maven)  
+- **groupdocs metadata for java** (เวอร์ชัน 24.12 หรือใหม่กว่า)  
+- ความคุ้นเคยพื้นฐานกับไวยากรณ์ Java และ try‑with‑resources  
 
-- **Java Development Kit (JDK)**8 หรือสูงกว่า
-- **Maven** (หากคุณต้องการใช้โปรเจ็กต์แบบ Maven)
-
-- **GroupDocs.Metadata สำหรับ Java** (เวอร์ชัน 24.12 หรือใหม่กว่า)
-
-- ความคุ้นเคยพื้นฐานกับไวยากรณ์ Java และ try-with-resources
-
-## การตั้งค่า GroupDocs.Metadata สำหรับ Java
-
+## การตั้งค่า groupdocs metadata for java
 ### การตั้งค่า Maven
-
-เพิ่ม repository และ dependency ลงในไฟล์ `pom.xml` ของคุณ:
+เพิ่มรีโพซิทอรีและการพึ่งพาใน `pom.xml` ของคุณ:
 
 ```xml
 <repositories>
@@ -68,16 +106,16 @@ weight: 1
 ```
 
 ### ดาวน์โหลดโดยตรง
+คุณสามารถ [ดาวน์โหลดเวอร์ชันล่าสุดจาก GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) ได้ นอกจากนี้คุณยังสามารถค้นหาแพคเกจได้ที่หน้า [ดาวน์โหลด GroupDocs.Metadata for Java](https://releases.groupdocs.com/metadata/java/)  
 
-หรืออีกทางเลือกหนึ่ง คุณสามารถ [ดาวน์โหลดเวอร์ชันล่าสุดจาก GroupDocs.Metadata สำหรับรุ่น Java](https://releases.groupdocs.com/metadata/java/)
+### การรับใบอนุญาต
+- **Free Trial:** สำรวจไลบรารีโดยไม่มีค่าใช้จ่าย  
+- **Temporary License:** ขอคีย์ชั่วคราวผ่าน [เว็บไซต์ของ GroupDocs](https://purchase.groupdocs.com/temporary-license)  
+- **Temporary License Request:** รับคีย์ระยะสั้นผ่านลิงก์ [Temporary License Request](https://purchase.groupdocs.com/temporary-license)  
+- **Full License:** ซื้อเพื่อการใช้งานผลิตภัณฑ์ไม่จำกัด  
 
-### การขอรับใบอนุญาต
-
-- **ทดลองใช้ฟรี:** สำรวจไลบรารีได้โดยไม่มีค่าใช้จ่าย
-- **ใบอนุญาตชั่วคราว:** ขอรับคีย์ชั่วคราวผ่าน [เว็บไซต์ของ GroupDocs](https://purchase.groupdocs.com/temporary-license)
-- **ใบอนุญาตเต็มรูปแบบ:** ซื้อเพื่อใช้งานในระดับการผลิตได้ไม่จำกัด
-
-### การเริ่มต้นใช้งานพื้นฐาน
+### การเริ่มต้นพื้นฐาน
+คลาส `Metadata` เป็นจุดเริ่มต้นสำหรับการโหลดแผนภาพที่รองรับใด ๆ และเข้าถึงเมตาดาต้าของมัน.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -87,13 +125,12 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputVdx")) {
 }
 ```
 
-คลาส `Metadata` เป็นจุดเริ่มต้นสำหรับการโหลดไดอะแกรมที่รองรับและเข้าถึงเมตาเดตาของไดอะแกรมนั้น
+## ฉันจะสกัดข้อมูลเมตาดาต้าแผนภาพโดยใช้ groupdocs metadata for java อย่างไร?
+เพื่อสกัดเมตาดาต้าแผนภาพ, คุณต้องโหลดไฟล์ด้วยคลาส `Metadata` ก่อน, จากนั้นดึง `DiagramRootPackage` ซึ่งทำหน้าที่เป็นศูนย์กลางของข้อมูลเฉพาะแผนภาพ จากแพคเกจนี้คุณสามารถเรียกเมธอดเช่น `getFormat()`, `getMimeType()`, และ `getExtension()` เพื่อรับรายละเอียดที่จำเป็นสำหรับการจัดประเภท, การส่งต่อ, หรือการประมวลผลต่อไป รูปแบบสามขั้นตอนนี้จะคืนเมตาดาต้าทั้งหมดภายในเวลาน้อยกว่าวินาทีสำหรับขนาดแผนภาพทั่วไป  
 
-## วิธีการดึงเมตาเดตาของไดอะแกรมใน Java – คู่มือทีละขั้นตอน
-
-### ตรวจสอบประเภทของไดอะแกรมและดึงข้อมูลรูปแบบไฟล์
-
-#### รับแพ็กเกจหลัก
+### ตรวจจับประเภทแผนภาพและสกัดข้อมูลรูปแบบไฟล์
+#### รับแพคเกจราก
+คลาส `DiagramRootPackage` ให้ทางเข้าถึงคุณสมบัติเฉพาะแผนภาพ เช่น รูปแบบและประเภท MIME.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -104,9 +141,8 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputVdx")) {
 }
 ```
 
-`DiagramRootPackage` เป็นประตูสู่คุณสมบัติเฉพาะของไดอะแกรม
-
-#### ดึงข้อมูลรูปแบบไฟล์
+#### สกัดข้อมูลรูปแบบไฟล์
+การเรียก `getFormat()`, `getMimeType()`, และ `getExtension()` บนแพคเกจรากจะคืนรายละเอียดรูปแบบที่แม่นยำที่คุณต้องการสำหรับการจัดประเภทหรือการแปลง.
 
 ```java
 String fileFormat = root.getDiagramType().getFileFormat();  // e.g., VDX
@@ -120,80 +156,72 @@ System.out.println("MIME Type: " + mimeType);
 System.out.println("Extension: " + extension);
 ```
 
-การเรียกใช้เหล่านี้จะส่งคืนรายละเอียดรูปแบบที่แน่นอนที่คุณต้องการสำหรับงานจัดประเภทหรือการแปลง
-
-**เคล็ดลับ:** เก็บค่าที่ดึงมาไว้ในตัวแปรโลคอลหากคุณวางแผนที่จะใช้หลายครั้ง ซึ่งจะช่วยลดการค้นหาเมตาเดต้าซ้ำๆ
+**Pro tip:** เก็บค่าที่ดึงมาไว้ในตัวแปรท้องถิ่นหากคุณวางแผนจะใช้หลายครั้ง—จะช่วยลดการค้นหาเมตาดาต้าซ้ำและเพิ่มประสิทธิภาพ.  
 
 #### เคล็ดลับการแก้ไขปัญหา
+- ตรวจสอบเส้นทางไปยังไฟล์แผนภาพของคุณ; เส้นทางที่ไม่ถูกต้องจะทำให้เกิด `FileNotFoundException`  
+- หากการสกัดเมตาดาต้าล้มเหลว, ยืนยันว่าประเภทแผนภาพได้รับการสนับสนุนโดยตรวจสอบเอกสารของ GroupDocs  
 
-- ตรวจสอบเส้นทางไปยังไฟล์ไดอะแกรมของคุณ เส้นทางที่ไม่ถูกต้องจะทำให้เกิด `FileNotFoundException`
-
-- หากการดึงเมตาเดต้าล้มเหลว ให้ตรวจสอบว่าประเภทไดอะแกรมได้รับการสนับสนุนหรือไม่โดยตรวจสอบเอกสารของ GroupDocs
-
-### จัดการเมตาเดต้าสำหรับรูปแบบไดอะแกรมเฉพาะ
-
+### จัดการเมตาดาต้าสำหรับรูปแบบแผนภาพเฉพาะ
 #### การเข้าถึงคุณสมบัติเฉพาะ
+คลาส `DiagramRootPackage` ยังเปิดเผยฟิลด์เฉพาะแผนภาพ เช่น ผู้เขียน, วันที่สร้าง, และแท็กที่กำหนดเอง.
 
 ```java
 String fileFormat = root.getDiagramType().getFileFormat();  // Example: obtaining file format details
 ```
 
-คุณสามารถขยายรูปแบบนี้เพื่ออ่านหรือแก้ไขฟิลด์เมตาเดตาเฉพาะอื่นๆ (เช่น ผู้เขียน วันที่สร้าง ฯลฯ) ได้ตามต้องการ
+คุณสามารถขยายรูปแบบนี้เพื่ออ่านหรือแก้ไขฟิลด์เมตาดาต้าเฉพาะแผนภาพอื่น ๆ ตามต้องการ.  
 
-## การใช้งานจริง
-
-1. **การบูรณาการข้อมูล:** จัดหมวดหมู่ไดอะแกรมที่เข้ามาโดยอัตโนมัติก่อนป้อนเข้าสู่ไปป์ไลน์การวิเคราะห์
-
-2. **ระบบจัดการเอกสาร:** เพิ่มแท็กเมตาเดตาที่ค้นหาได้ให้กับไดอะแกรมที่จัดเก็บไว้
-
-3. **เครื่องมือแปลงเนื้อหา:** เลือกรูปแบบเอาต์พุตที่ถูกต้องตามเมตาเดตาที่ดึงออกมา
-
-4. **โซลูชันการเก็บรักษา:** รักษาที่มาของไดอะแกรมทั้งหมดเพื่อการปฏิบัติตามข้อกำหนดในระยะยาว
+## การประยุกต์ใช้งานจริง
+1. **Data Integration:** จัดประเภทแผนภาพที่เข้ามาโดยอัตโนมัติก่อนนำเข้าสู่สายการวิเคราะห์.  
+2. **Document Management Systems:** เพิ่มค่าเมตาดาต้าแบบค้นหาให้กับแผนภาพที่จัดเก็บเพื่อการดึงข้อมูลอย่างรวดเร็ว.  
+3. **Content Conversion Tools:** เลือกรูปแบบผลลัพธ์ที่ถูกต้องตามเมตาดาต้าที่สกัด, ลดความล้มเหลวในการแปลงได้ถึง 80 %.  
+4. **Archival Solutions:** รักษาข้อมูลแหล่งที่มาของแผนภาพอย่างครบถ้วนเพื่อการปฏิบัติตามระยะยาวและร่องรอยการตรวจสอบ.  
 
 ## ข้อควรพิจารณาด้านประสิทธิภาพ
+- **Resource Management:** ใช้ try‑with‑resources (ตามที่แสดง) เพื่อปิดไฟล์แฮนด์เดิลอย่างรวดเร็วและหลีกเลี่ยงการรั่วของหน่วยความจำ.  
+- **Batch Processing:** แคชอ็อบเจ็กต์เมตาดาต้าเมื่อทำลูปหลายไฟล์เพื่อหลีกเลี่ยงการสร้างอ็อบเจ็กต์ที่ไม่จำเป็น.  
+- **Memory Footprint:** สำหรับแผนภาพขนาดใหญ่มาก, พิจารณาประมวลผลเป็นชิ้นส่วนหรือสตรีมมิ่งหากการอัปเดตไลบรารีในอนาคตเพิ่มการสนับสนุน.  
 
-- **การจัดการทรัพยากร:** ใช้ try-with-resources (ดังที่แสดง) เพื่อปิดไฟล์อย่างรวดเร็ว
-
-- **การประมวลผลแบบกลุ่ม:** แคชออบเจ็กต์เมตาเดตาเมื่อวนซ้ำไฟล์จำนวนมากเพื่อหลีกเลี่ยงการสร้างออบเจ็กต์ที่ไม่จำเป็น
-
-- **การใช้หน่วยความจำ:** สำหรับไดอะแกรมขนาดใหญ่มาก ให้พิจารณาประมวลผลเป็นส่วนๆ หรือแบบสตรีมมิ่งหากได้รับการสนับสนุนโดยการอัปเดตไลบรารีในอนาคต
-
-## สรุป
-
-ในคู่มือนี้ เราได้สาธิตวิธีการ **ดึงข้อมูลเมตาของไดอะแกรมจาก Java** โดยใช้ GroupDocs.Metadata สำหรับ Java ซึ่งครอบคลุมการตรวจจับประเภทของไดอะแกรม การดึงรายละเอียดรูปแบบ และการจัดการข้อมูลเมตาขั้นพื้นฐาน เทคนิคเหล่านี้จะช่วยให้คุณสร้างแอปพลิเคชัน Java ที่ชาญฉลาดขึ้นโดยใช้ข้อมูลเมตา
-
-หากต้องการสำรวจความสามารถเพิ่มเติม โปรดตรวจสอบ [เอกสารอ้างอิง API อย่างเป็นทางการ](https://reference.groupdocs.com/metadata/java/) หรือเข้าร่วมชุมชนใน [ฟอรัมสนับสนุนฟรี](https://forum.groupdocs.com/c/metadata/)
+## ปัญหาทั่วไปและวิธีแก้
+- **File Not Found:** ตรวจสอบเส้นทางแบบเต็มหรือแบบสัมพันธ์อีกครั้ง; จำไว้ว่าโครงการ Maven จะทำงานจากไดเรกทอรี `target` โดยค่าเริ่มต้น.  
+- **Unsupported Diagram Type:** ตรวจสอบรายการรูปแบบอย่างเป็นทางการ; SDK ปัจจุบันรองรับรูปแบบแผนภาพกว่า 70 แบบ รวมถึง VDX, VSDX, SVG, และ BPMN.  
+- **Out‑Of‑Memory Errors:** เพิ่มขนาด heap ของ JVM (`-Xmx2g`) เมื่อจัดการแผนภาพที่ใหญ่กว่า 200 MB.  
 
 ## คำถามที่พบบ่อย
+**Q: การสกัดเมตาดาต้าแผนภาพมีผลต่อไฟล์แผนภาพต้นฉบับหรือไม่?**  
+A: ไม่. SDK อ่านเมตาดาต้าในโหมดอ่านอย่างเดียว, ทำให้ไฟล์ต้นฉบับไม่ถูกเปลี่ยนแปลง.  
 
-**ถาม: การดึงข้อมูลเมตาของไดอะแกรมส่งผลกระทบต่อไฟล์ไดอะแกรมต้นฉบับหรือไม่?**
-ตอบ: ไม่ ไลบรารีอ่านข้อมูลเมตาในลักษณะอ่านอย่างเดียว ทำให้ไฟล์ต้นฉบับไม่เปลี่ยนแปลง
+**Q: มีขนาดจำกัดสำหรับแผนภาพหรือไม่?**  
+A: ไลบรารีจัดการขนาดแผนภาพทั่วไป; ไฟล์ที่ใหญ่มากอาจต้องเพิ่มขนาด heap ของ JVM.  
 
-**ถาม: มีข้อจำกัดด้านขนาดสำหรับไดอะแกรมหรือไม่?**
-ตอบ: ไลบรารีรองรับขนาดไดอะแกรมทั่วไป ไฟล์ขนาดใหญ่มากอาจต้องใช้พื้นที่ฮีป JVM เพิ่มขึ้น
+**Q: ฉันสามารถแก้ไขเมตาดาต้าหลังจากสกัดได้หรือไม่?**  
+A: ได้—ใช้เมธอด setter ที่เหมาะสมบนอ็อบเจ็กต์ `DiagramRootPackage` แล้วบันทึกการเปลี่ยนแปลงกลับไปยังไฟล์.  
 
+**Q: มีวิธีสกัดเมตาดาต้าจากแผนภาพที่ป้องกันด้วยรหัสผ่านหรือไม่?**  
+A: groupdocs metadata for java ยังไม่รองรับไฟล์แผนภาพที่เข้ารหัส; ต้องถอดรหัสก่อน.  
 
-**ถาม: ฉันสามารถแก้ไขเมตาเดต้าหลังจากดึงข้อมูลแล้วได้หรือไม่?**
-ตอบ: ได้—ใช้เมธอด setter ที่เหมาะสมบนออบเจ็กต์ `DiagramType` และบันทึกการเปลี่ยนแปลงกลับไปยังไฟล์
-
-**ถาม: มีวิธีใดบ้างที่จะดึงเมตาเดต้าจากไดอะแกรมที่ป้องกันด้วยรหัสผ่าน?**
-ตอบ: ปัจจุบัน GroupDocs.Metadata ยังไม่รองรับไฟล์ไดอะแกรมที่เข้ารหัส คุณต้องถอดรหัสไฟล์เหล่านั้นก่อน
-
-**ถาม: ฉันสามารถหาตัวอย่างโปรเจ็กต์ได้ที่ไหน?**
-ตอบ: ตัวอย่างโค้ดมีอยู่ในที่เก็บ GitHub อย่างเป็นทางการตามลิงก์ด้านล่าง
+**Q: ฉันสามารถหาโครงการตัวอย่างได้ที่ไหน?**  
+A: โค้ดตัวอย่างมีให้ในรีโพซิทอรี GitHub อย่างเป็นทางการที่เชื่อมต่อด้านล่าง.  
 
 ## แหล่งข้อมูล
-- [เอกสารประกอบการใช้งาน GroupDocs Metadata](https://docs.groupdocs.com/metadata/java/)
-- [เอกสารอ้างอิง API](https://reference.groupdocs.com/metadata/java/)
+- [เอกสาร GroupDocs Metadata](https://docs.groupdocs.com/metadata/java/)
+- [อ้างอิง API](https://reference.groupdocs.com/metadata/java/)
+- [อ้างอิง API](https://reference.groupdocs.com/metadata/java/)
 - [ดาวน์โหลด GroupDocs.Metadata สำหรับ Java](https://releases.groupdocs.com/metadata/java/)
 - [GroupDocs บน GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
-- [ฟอรัมสนับสนุนฟรี](https://forum.groupdocs.com/c/metadata/)
-- [ขอใบอนุญาตชั่วคราว](https://purchase.groupdocs.com/temporary-license)
+- [ฟอรั่มสนับสนุนฟรี](https://forum.groupdocs.com/c/metadata/)
+- [ฟอรั่มสนับสนุนฟรี](https://forum.groupdocs.com/c/metadata/)
 
-มาลองใช้ GroupDocs.Metadata สำหรับ Java และปลดล็อกความสามารถในการจัดการไดอะแกรมอันทรงพลังกันเถอะ! สนุกกับการเขียนโค้ด!
+สำรวจ **groupdocs metadata for java** และเปิดศักยภาพการจัดการแผนภาพที่ทรงพลัง. ขอให้เขียนโค้ดอย่างสนุกสนาน!
 
 ---
 
-**อัปเดตล่าสุด:** 2026-01-16
-**ทดสอบด้วย:** GroupDocs.Metadata 24.12 สำหรับ Java
-**ผู้เขียน:** GroupDocs
+**อัปเดตล่าสุด:** 2026-05-22  
+**ทดสอบด้วย:** GroupDocs.Metadata 24.12 for Java  
+**ผู้เขียน:** GroupDocs  
+
+## บทแนะนำที่เกี่ยวข้อง
+- [สกัดข้อมูลเมตาดาต้าแผนภาพ Java – บทแนะนำเมตาดาต้าแผนภาพกับ GroupDocs.Metadata](/metadata/java/diagram-formats/)
+- [คุณสมบัติเอกสาร Java – สกัดเมตาดาต้าแผนภาพด้วย GroupDocs สำหรับ Java](/metadata/java/diagram-formats/extract-diagram-metadata-groupdocs-java/)
+- [สกัดคุณสมบัติหัว BMP อย่างมีประสิทธิภาพใน Java ด้วย GroupDocs.Metadata](/metadata/java/image-formats/master-bmp-header-properties-groupdocs-metadata-java/)

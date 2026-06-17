@@ -1,47 +1,47 @@
 ---
-date: '2025-12-24'
-description: เรียนรู้วิธีดึงแท็ก ID3v1 จากไฟล์ MP3 ด้วย GroupDocs.Metadata ใน Java
-  บทเรียนนี้ครอบคลุมการตั้งค่า การเขียนโค้ด และแนวทางปฏิบัติที่ดีที่สุด.
+date: '2026-03-09'
+description: เรียนรู้วิธีใช้ GroupDocs Metadata MP3 เพื่ออ่านแท็ก ID3v1 ใน Java คู่มือขั้นตอนต่อขั้นตอนนี้ครอบคลุมการตั้งค่า
+  การเขียนโค้ด และแนวปฏิบัติที่ดีที่สุดสำหรับการสกัดข้อมูลเมตาดาต้า MP3 ด้วย Java
 keywords:
 - extract ID3v1 tags MP3
 - groupdocs.metadata java api
 - reading metadata from audio files
-title: วิธีดึงแท็ก ID3v1 จากไฟล์ MP3 ด้วย GroupDocs.Metadata Java API
+title: สกัดแท็ก ID3v1 จาก MP3 ด้วย GroupDocs Metadata MP3
 type: docs
 url: /th/java/audio-video-formats/extract-id3v1-tags-mp3-groupdocs-metadata-java/
 weight: 1
 ---
 
-# วิธีดึงข้อมูลแท็ก ID3v1 จากไฟล์ MP3 ด้วย GroupDocs.Metadata Java API
+# Extract ID3v1 Tags from MP3 using groupdocs metadata mp3 (Java)
 
-การจัดการเมตาดาต้าอย่างมีประสิทธิภาพเป็นสิ่งสำคัญสำหรับนักพัฒนาที่ทำงานกับไฟล์เสียง การดึงแท็ก ID3v1 จากไฟล์ MP3 อาจเป็นเรื่องท้าทายหากไม่มีเครื่องมือที่เหมาะสม แต่ไลบรารี GroupDocs.Metadata ทำให้กระบวนการนี้ง่ายขึ้น **ในคู่มือนี้ คุณจะได้เรียนรู้วิธีดึงแท็ก ID3v1 จากไฟล์ MP3 ด้วย GroupDocs.Metadata** เพื่อให้คุณสามารถอ่านเมตาดาต้า MP3 ใน Java ได้อย่างรวดเร็วและนำไปผสานในแอปพลิเคชันของคุณ
+หากคุณต้องการดึงข้อมูลเก่าเช่น ชื่อเพลง, ศิลปิน หรืออัลบั้มจากไฟล์ MP3, **groupdocs metadata mp3** ทำให้การทำงานเป็นเรื่องง่าย ในบทแนะนำนี้คุณจะได้เห็นวิธีการดึงแท็ก ID3v1 ด้วย GroupDocs.Metadata Java API ทำไมไลบรารีนี้เป็นตัวเลือกที่ดีสำหรับการทำงานกับเมตาดาต้า MP3 ใน Java และวิธีการรวมโค้ดเข้ากับโปรเจกต์ของคุณ
 
-## คำตอบอย่างรวดเร็ว
-- **What does “how to extract id3v1” mean?** หมายถึงการอ่านบล็อกแท็ก ID3v1 แบบดั้งเดิมที่ฝังอยู่ที่ส่วนท้ายของไฟล์ MP3.  
-- **Which library handles this?** GroupDocs.Metadata for Java ให้ API ที่ง่ายต่อการเข้าถึง ID3v1, ID3v2 และเมตาดาต้าเสียงอื่น ๆ.  
-- **Do I need a license?** สามารถใช้การทดลองใช้งานฟรีเพื่อการประเมินผล; จำเป็นต้องมีไลเซนส์ถาวรสำหรับการใช้งานในสภาพแวดล้อมการผลิต.  
-- **Can I read other MP3 metadata at the same time?** ใช่ – `MP3RootPackage` เดียวกันเปิดให้เข้าถึง ID3v2, APE และรูปแบบแท็กอื่น ๆ.  
-- **What Java version is required?** Java 8 หรือใหม่กว่า; ไลบรารีเข้ากันได้กับ JDK เวอร์ชันใหม่ ๆ ด้วย  
+## Quick Answers
+- **What is ID3v1?** เป็นแท็กขนาด 128 ไบต์ที่อยู่ท้ายไฟล์ MP3 เพื่อเก็บข้อมูลพื้นฐานของเพลง  
+- **Which library reads it?** API ของ **groupdocs metadata mp3** ให้ส่วนต่อประสาน Java ที่เรียบง่าย  
+- **Do I need a license?** มีการทดลองใช้งานฟรี; ต้องมีลิขสิทธิ์แบบชำระเงินสำหรับการใช้งานจริง  
+- **Can I read other tags at the same time?** ใช่ – `MP3RootPackage` เดียวกันยังให้เข้าถึง ID3v2, APE และอื่น ๆ อีก  
+- **What Java version is required?** Java 8 หรือใหม่กว่า; ไลบรารีทำงานกับ JDK ล่าสุด  
 
-## “how to extract id3v1” คืออะไร?
-ID3v1 คือบล็อกเมตาดาต้าขนาด 128 ไบต์ที่อยู่ที่ส่วนท้ายของไฟล์ MP3 มันเก็บข้อมูลพื้นฐานเช่น **title, artist, album, year, comment, and genre** แม้ว่ารูปแบบใหม่อย่าง ID3v2 จะมีคุณสมบัติมากกว่า แต่ไฟล์ดั้งเดิมหลายไฟล์ยังคงพึ่งพา ID3v1 ทำให้การรู้วิธีดึงข้อมูลนี้เป็นสิ่งสำคัญ
+## What is groupdocs metadata mp3?
+`groupdocs metadata mp3` หมายถึงส่วนของไลบรารี GroupDocs.Metadata ที่จัดการไฟล์เสียง มันทำให้การแยกวิเคราะห์ไบต์ระดับต่ำเป็นนามธรรมและให้วัตถุที่มีประเภทสำหรับ ID3v1, ID3v2, APE ฯลฯ เพื่อให้คุณมุ่งเน้นที่ตรรกะธุรกิจแทนการจัดการข้อผิดพลาดของรูปแบบไฟล์  
 
-## ทำไมต้องใช้ GroupDocs.Metadata เพื่ออ่านเมตาดาต้า MP3 ใน Java?
-- **Zero‑dependency parsing** – ไลบรารีจัดการการอ่านไบต์ระดับต่ำให้คุณ  
-- **Cross‑format support** – API เดียวกันทำงานกับรูปภาพ, เอกสาร, และไฟล์เสียง  
-- **Robust error handling** – การตรวจสอบในตัวช่วยป้องกันการล่มเมื่อไม่มีแท็ก  
+## Why use GroupDocs.Metadata for Java mp3 metadata?
+- **Zero‑dependency parsing** – ไม่จำเป็นต้องจัดการสตรีมระดับไบต์ด้วยตนเอง  
+- **Cross‑format consistency** – API เดียวกันทำงานกับรูปภาพ, เอกสาร, และเสียง  
+- **Robust error handling** – แท็กที่หายไปจะถูกจัดการอย่างปลอดภัยโดยไม่ทำให้แอปพลิเคชันหยุดทำงาน  
 - **Performance‑optimized** – ใช้ try‑with‑resources เพื่อปิดสตรีมโดยอัตโนมัติ  
 
-## ข้อกำหนดเบื้องต้น
-- **Java Development Kit (JDK) 8+** ติดตั้งและกำหนดค่าแล้ว  
-- **Maven** (หรือเครื่องมือสร้างอื่น) เพื่อจัดการ dependencies  
-- ไฟล์ MP3 ที่มีแท็ก ID3v1 (คุณสามารถตรวจสอบได้ด้วยโปรแกรมเล่นสื่อใดก็ได้)  
+## Prerequisites
+- **JDK 8+** ติดตั้งและเพิ่มลงใน `PATH` ของคุณ  
+- **Maven** (หรือ Gradle) สำหรับการจัดการ dependencies  
+- ไฟล์ MP3 ที่มีแท็ก ID3v1 จริง (ไฟล์เก่าส่วนใหญ่มี)  
 
-## การตั้งค่า GroupDocs.Metadata สำหรับ Java
-เพื่อใช้ GroupDocs.Metadata ในโปรเจกต์ของคุณ ให้เพิ่มเป็น dependency หากคุณใช้ Maven ให้ทำตามขั้นตอนต่อไปนี้:
+## Setting Up GroupDocs.Metadata for Java
+Add the library to your project via Maven (or download the JAR directly).
 
-### การกำหนดค่า Maven
-เพิ่มโค้ดต่อไปนี้ในไฟล์ `pom.xml` ของคุณ:
+### Maven Configuration
+Add the repository and dependency to your `pom.xml`:
 
 ```xml
 <repositories>
@@ -61,16 +61,16 @@ ID3v1 คือบล็อกเมตาดาต้าขนาด 128 ไบ
 </dependencies>
 ```
 
-### ดาวน์โหลดโดยตรง
-หากคุณต้องการ คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดโดยตรงจาก [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+### Direct Download
+If you prefer a manual approach, grab the latest JAR from [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-#### การรับไลเซนส์
-- **Free Trial** – เริ่มสำรวจ API ได้ฟรี  
-- **Temporary License** – รับคีย์ที่มีระยะเวลาจำกัดสำหรับการทดสอบต่อเนื่อง  
-- **Purchase** – ซื้อไลเซนส์เต็มรูปแบบสำหรับการใช้งานในสภาพแวดล้อมการผลิต  
+#### License Acquisition
+- **Free Trial** – เริ่มสำรวจโดยไม่มีค่าใช้จ่าย  
+- **Temporary License** – รับคีย์ที่มีอายุจำกัดสำหรับการทดสอบต่อเนื่อง  
+- **Purchase** – รับลิขสิทธิ์เต็มสำหรับการใช้งานในสภาพแวดล้อมการผลิต  
 
-### การเริ่มต้นและตั้งค่าพื้นฐาน
-เมื่อไลบรารีอยู่ใน classpath แล้ว คุณสามารถสร้างอินสแตนซ์ `Metadata` ที่ชี้ไปยังไฟล์ MP3 ของคุณได้:
+### Basic Initialization and Setup
+Once the JAR is on your classpath, create a `Metadata` instance that points to your MP3 file:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -88,11 +88,12 @@ public class MetadataSetup {
 }
 ```
 
-## วิธีดึงแท็ก ID3v1 จากไฟล์ MP3
-ด้านล่างเป็นขั้นตอนแบบละเอียดที่แสดงวิธีอ่านบล็อก ID3v1 ด้วย API
+## How to Use groupdocs metadata mp3 to Extract ID3v1 Tags
 
-### ขั้นตอนที่ 1: เปิดไฟล์ MP3
-แรกสุด ให้เปิดไฟล์ด้วยคลาส `Metadata`.
+Below is a step‑by‑step walkthrough that shows exactly how to read the ID3v1 block using the API.
+
+### Step 1: Open the MP3 File
+First, open the file with the `Metadata` class.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -104,23 +105,23 @@ public class ReadID3V1Tag {
             // Proceed with accessing the root package
 ```
 
-### ขั้นตอนที่ 2: เข้าถึง Root Package
-`MP3RootPackage` ให้จุดเข้าถึงทุกคอลเลกชันของแท็ก.
+### Step 2: Access the Root Package
+The `MP3RootPackage` gives you entry points to all tag collections.
 
 ```java
             MP3RootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### ขั้นตอนที่ 3: ตรวจสอบแท็ก ID3v1
-ตรวจสอบให้แน่ใจว่าไฟล์มีบล็อก ID3v1 อยู่จริงก่อนพยายามอ่าน
+### Step 3: Check for ID3v1 Tags
+Make sure the file actually contains an ID3v1 block before trying to read it.
 
 ```java
             if (root.getID3V1() != null) {
                 // Proceed with extracting tag information
 ```
 
-### ขั้นตอนที่ 4: ดึงและพิมพ์เมตาดาต้า
-ตอนนี้ดึงฟิลด์แต่ละรายการและแสดงผล
+### Step 4: Extract and Print Metadata
+Now pull the individual fields and display them.
 
 ```java
                 String album = root.getID3V1().getAlbum();
@@ -142,58 +143,55 @@ public class ReadID3V1Tag {
 }
 ```
 
-#### เคล็ดลับการตั้งค่าที่สำคัญ
+#### Key Configuration Tips
 - **File Path** – ตรวจสอบเส้นทางให้แน่ใจ; เส้นทางผิดจะทำให้เกิด `FileNotFoundException`  
-- **Exception Handling** – ควรห่อการเรียกใช้ด้วย try‑with‑resources เพื่อปิดสตรีมโดยอัตโนมัติเสมอ  
+- **Exception Handling** – ควรห่อการเรียกใช้ด้วย try‑with‑resources เพื่อปิดสตรีมโดยอัตโนมัติ  
 
-#### การแก้ไขปัญหา
-- **No ID3v1 data?** ตรวจสอบว่า MP3 มีแท็ก ID3v1 จริงหรือไม่ (ไฟล์สมัยใหม่บางไฟล์มีเฉพาะ ID3v2 เท่านั้น)  
-- **Version Mismatch** – ตรวจสอบว่าคุณใช้เวอร์ชันล่าสุดของ GroupDocs.Metadata; เวอร์ชันเก่าอาจไม่รองรับลักษณะของแท็กใหม่  
+#### Troubleshooting
+- **No ID3v1 data?** ตรวจสอบว่า MP3 มีแท็ก ID3v1 จริงหรือไม่ (ไฟล์สมัยใหม่บางไฟล์มีเฉพาะ ID3v2)  
+- **Version Mismatch** – ตรวจสอบว่าคุณใช้เวอร์ชันล่าสุดของ GroupDocs.Metadata; เวอร์ชันเก่าอาจไม่รองรับคุณลักษณะของแท็กใหม่  
 
-## การประยุกต์ใช้งานจริง
-การอ่านแท็ก ID3v1 มีประโยชน์ในหลายสถานการณ์จริง:
-1. **Music Library Management** – สร้างเพลย์ลิสต์อัตโนมัติหรือจัดระเบียบไฟล์ตามเมตาดาต้า artist/album  
-2. **Audio Archiving** – รักษาข้อมูลแท็กดั้งเดิมเมื่อต้องย้ายคอลเลกชันขนาดใหญ่ไปยังคลาวด์  
-3. **Streaming Service Integration** – เพิ่มรายละเอียดแทร็กที่แม่นยำให้กับแคตาล็อกสตรีมมิ่งโดยไม่ต้องพึ่งฐานข้อมูลภายนอก  
+## Practical Applications (get album artist, java mp3 metadata)
+Reading ID3v1 tags is useful in many real‑world scenarios:
 
-## ข้อควรพิจารณาด้านประสิทธิภาพ
-เมื่อประมวลผลไฟล์จำนวนมาก ให้คำนึงถึงเคล็ดลับต่อไปนี้:
+1. **Music Library Management** – สร้างเพลย์ลิสต์อัตโนมัติหรือจัดเรียงไฟล์ตามศิลปิน/อัลบั้ม  
+2. **Audio Archiving** – เก็บข้อมูลแท็กเก่าเมื่อต้องย้ายคอลเลกชันขนาดใหญ่ไปยังคลาวด์  
+3. **Streaming Service Integration** – เพิ่มรายละเอียดเพลงที่แม่นยำให้กับแคตตาล็อกโดยไม่ต้องพึ่งฐานข้อมูลภายนอก  
+
+## Performance Considerations
+When processing many files, keep these tips in mind:
+
 - **Stream One File at a Time** – หลีกเลี่ยงการโหลด MP3 ขนาดใหญ่หลายไฟล์พร้อมกันในหน่วยความจำ  
-- **Reuse Metadata Instances** – หากต้องอ่านหลายไฟล์ในชุด ให้สร้างอ็อบเจ็กต์ `Metadata` ใหม่ต่อไฟล์ภายในลูป  
+- **Reuse Metadata Instances** – สร้างอ็อบเจ็กต์ `Metadata` ใหม่ต่อไฟล์ภายในลูปสำหรับงานแบตช์  
 - **Stay Updated** – เวอร์ชันไลบรารีใหม่ ๆ มีแพตช์ประสิทธิภาพและการแก้ไขบั๊ก  
 
-## คำถามที่พบบ่อย
+## Frequently Asked Questions
 
-1. **What is GroupDocs.Metadata Java used for?**
+**Q: GroupDocs.Metadata Java ใช้ทำอะไร?**  
+A: มันจัดการและดึงเมตาดาต้าจากรูปแบบไฟล์หลากหลาย รวมถึงไฟล์เสียง MP3  
 
-ใช้สำหรับจัดการและดึงเมตาดาต้าจากรูปแบบไฟล์ต่าง ๆ รวมถึงไฟล์ MP3  
+**Q: จะจัดการข้อผิดพลาดเมื่ออ่านแท็ก ID3v1 อย่างไร?**  
+A: ห่อการทำงานของ `Metadata` ด้วยบล็อก try‑catch และบันทึกข้อความข้อยกเว้นสำหรับการดีบัก  
 
-2. **How do I handle errors when reading ID3v1 tags?**
+**Q: GroupDocs.Metadata สามารถอ่านประเภทเมตาดาต้าอื่น ๆ นอกเหนือจาก ID3v1 ได้หรือไม่?**  
+A: ได้, มันรองรับ ID3v2, APE, และรูปแบบแท็กอื่น ๆ มากมายในไฟล์เสียง, รูปภาพ, และเอกสาร  
 
-ใช้บล็อก try‑catch รอบการทำงานของ `Metadata` และบันทึกข้อความข้อยกเว้นสำหรับการดีบัก  
+**Q: มีค่าใช้จ่ายในการใช้ GroupDocs.Metadata Java หรือไม่?**  
+A: มีการทดลองใช้งานฟรี, แต่ต้องมีลิขสิทธิ์แบบชำระเงินสำหรับการใช้งานในสภาพแวดล้อมการผลิต  
 
-3. **Can GroupDocs.Metadata read other metadata types besides ID3v1?**
+**Q: จะหาแหล่งข้อมูลเพิ่มเติมเกี่ยวกับ GroupDocs.Metadata ได้จากที่ไหน?**  
+A: เยี่ยมชม [documentation](https://docs.groupdocs.com/metadata/java/) และ [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) เพื่อรับคู่มือและตัวอย่างที่ครบถ้วน  
 
-ใช่, รองรับ ID3v2, APE และรูปแบบแท็กอื่น ๆ มากมายสำหรับไฟล์เสียง, รูปภาพ, และเอกสาร  
-
-4. **Is there a cost associated with using GroupDocs.Metadata Java?**
-
-มีการทดลองใช้ฟรี แต่ต้องมีไลเซนส์แบบชำระเงินสำหรับการใช้งานในสภาพแวดล้อมการผลิต  
-
-5. **Where can I find more resources on GroupDocs.Metadata?**
-
-เยี่ยมชม [documentation](https://docs.groupdocs.com/metadata/java/) และ [GitHub repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) เพื่อรับคู่มือและอย่างอย่างครบถ้วน  
-
-## แหล่งข้อมูล
-- **Documentation**: [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)  
-- **API Reference**: [GroupDocs Metadata API Reference](https://reference.groupdocs.com/metadata/java/)  
-- **Download**: [GroupDocs Metadata Downloads](https://releases.groupdocs.com/metadata/java/)  
-- **GitHub Repository**: [GroupDocs.Metadata for Java on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- **Free Support**: [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
-- **Temporary License**: [Obtain a Temporary License](https://purchase.groupdocs.com/temporary-license)  
+## Resources
+- **Documentation**: [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)
+- **API Reference**: [GroupDocs Metadata API Reference](https://reference.groupdocs.com/metadata/java/)
+- **Download**: [GroupDocs Metadata Downloads](https://releases.groupdocs.com/metadata/java/)
+- **GitHub Repository**: [GroupDocs.Metadata for Java on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- **Free Support**: [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)
+- **Temporary License**: [Obtain a Temporary License](https://purchase.groupdocs.com/temporary-license)
 
 ---
 
-**อัปเดตล่าสุด:** 2025-12-24  
+**อัปเดตล่าสุด:** 2026-03-09  
 **ทดสอบด้วย:** GroupDocs.Metadata 24.12  
 **ผู้เขียน:** GroupDocs

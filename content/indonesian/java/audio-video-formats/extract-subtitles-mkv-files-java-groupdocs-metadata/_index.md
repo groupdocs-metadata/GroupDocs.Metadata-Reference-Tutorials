@@ -1,31 +1,31 @@
 ---
-date: '2025-12-24'
-description: Pelajari cara mengekstrak subtitle mkv dari file MKV menggunakan Java
-  dan GroupDocs.Metadata. Panduan langkah demi langkah ini mencakup pengaturan, implementasi,
-  dan contoh penggunaan dunia nyata.
+date: '2026-03-09'
+description: Pelajari cara mengekstrak subtitle MKV secara batch dari file MKV menggunakan
+  Java dan GroupDocs.Metadata. Panduan langkah demi langkah ini mencakup pengaturan,
+  implementasi, dan kasus penggunaan dunia nyata.
 keywords:
-- extract subtitles MKV
+- batch extract mkv subtitles
 - Java GroupDocs.Metadata
 - subtitle extraction Java
-title: Cara mengekstrak subtitle mkv dengan Java dan GroupDocs.Metadata
+title: Cara mengekstrak subtitle mkv secara batch dengan Java dan GroupDocs.Metadata
 type: docs
 url: /id/java/audio-video-formats/extract-subtitles-mkv-files-java-groupdocs-metadata/
 weight: 1
 ---
 
-# Cara mengekstrak subtitle mkv dengan Java dan GroupDocs.Metadata
+# Cara mengekstrak subtitle mkv secara batch dengan Java dan GroupDocs.Metadata
 
-Mengekstrak subtitle dari kontainer MKV dapat terasa seperti mencari jarum dalam tumpukan jerami, terutama ketika Anda membutuhkan teks untuk terjemahan, aksesibilitas, atau alur kerja manajemen konten. Dalam tutorial ini Anda akan belajar **cara mengekstrak subtitle mkv** secara efisien menggunakan pustaka GroupDocs.Metadata untuk Java. Kami akan membahas pengaturan yang diperlukan, menunjukkan kode yang tepat yang Anda butuhkan, dan mendiskusikan skenario praktis di mana ekstraksi subtitle memberikan perbedaan nyata.
+Mengekstrak subtitle dari kontainer MKV dapat terasa seperti mencari jarum dalam tumpukan jerami, terutama ketika Anda membutuhkan teks untuk terjemahan, aksesibilitas, atau alur kerja manajemen konten. Dalam tutorial ini Anda akan belajar **cara mengekstrak subtitle mkv secara batch** secara efisien menggunakan pustaka GroupDocs.Metadata untuk Java. Kami akan membahas pengaturan yang diperlukan, menunjukkan kode yang tepat yang Anda butuhkan, dan mendiskusikan skenario praktis di mana ekstraksi subtitle memberikan perbedaan nyata.
 
 ## Jawaban Cepat
-- **Library apa yang menangani ekstraksi subtitle MKV?** GroupDocs.Metadata for Java  
-- **Kata kunci utama apa yang ditargetkan panduan ini?** extract mkv subtitles  
-- **Apakah saya membutuhkan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi penuh diperlukan untuk produksi.  
+- **Perpustakaan apa yang menangani ekstraksi subtitle MKV?** GroupDocs.Metadata for Java  
+- **Kata kunci utama apa yang ditargetkan panduan ini?** batch extract mkv subtitles  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi penuh diperlukan untuk produksi.  
 - **Bisakah saya memproses file MKV besar?** Ya—proses subtitle dalam aliran atau batch untuk menjaga penggunaan memori tetap rendah.  
 - **Apakah Java 8 sudah cukup?** Ya, JDK 8 atau yang lebih baru didukung.
 
-## Apa itu “extract mkv subtitles”?
-Mengekstrak subtitle mkv berarti membaca trek subtitle yang tertanam di dalam kontainer Matroska (MKV) dan mengambil teks, timing, serta informasi bahasa mereka. Operasi ini penting untuk alur kerja seperti pipeline terjemahan otomatis, pemeriksaan kualitas subtitle, dan kepatuhan aksesibilitas.
+## Apa itu “batch extract mkv subtitles”?
+Mengekstrak subtitle mkv secara batch berarti membaca semua trek subtitle yang tertanam di dalam kontainer Matroska (MKV) dan mengambil teks, waktu, serta informasi bahasa mereka sekaligus. Operasi ini penting untuk alur kerja seperti pipeline terjemahan otomatis, pemeriksaan kualitas subtitle, dan kepatuhan aksesibilitas.
 
 ## Mengapa menggunakan GroupDocs.Metadata untuk Java?
 GroupDocs.Metadata menawarkan API tingkat tinggi yang mengabstraksi struktur Matroska yang kompleks, memungkinkan Anda fokus pada logika bisnis daripada parsing tingkat rendah. Ia mendukung berbagai format subtitle, menangani tag bahasa, dan terintegrasi dengan mulus ke dalam proyek Java standar.
@@ -65,7 +65,7 @@ Jika Anda lebih memilih tidak menggunakan Maven, Anda dapat mengunduh JAR terbar
 ### Akuisisi Lisensi
 - Mulai dengan percobaan gratis untuk menjelajahi API.  
 - Dapatkan lisensi pengembangan sementara jika diperlukan.  
-- Beli lisensi penuh untuk penerapan komersial.
+- Beli lisensi penuh untuk penyebaran komersial.
 
 ### Inisialisasi dan Pengaturan Dasar
 Buat instance `Metadata` yang menunjuk ke file MKV Anda:
@@ -78,7 +78,7 @@ try (Metadata metadata = new Metadata("path/to/your/file.mkv")) {
 
 Baris ini membuka file dan menyiapkannya untuk ekstraksi metadata.
 
-## Cara mengekstrak subtitle mkv menggunakan GroupDocs.Metadata
+## Cara mengekstrak subtitle mkv secara batch menggunakan GroupDocs.Metadata
 
 ### Langkah 1: Inisialisasi objek Metadata
 Pertama, buat instance kelas `Metadata` dengan path ke file MKV Anda:
@@ -97,7 +97,7 @@ MatroskaRootPackage root = metadata.getRootPackageGeneric();
 ```
 
 ### Langkah 3: Iterasi melalui trek subtitle
-Lakukan loop pada setiap trek subtitle, baca bahasa, timecode, durasi, dan teks subtitle sebenarnya:
+Loop melalui setiap trek subtitle, baca bahasa, timecode, durasi, dan teks subtitle yang sebenarnya:
 
 ```java
 for (MatroskaSubtitleTrack subtitleTrack : root.getMatroskaPackage().getSubtitleTracks()) {
@@ -114,7 +114,7 @@ for (MatroskaSubtitleTrack subtitleTrack : root.getMatroskaPackage().getSubtitle
 }
 ```
 
-Loop ini mencetak metadata setiap subtitle dan konten teksnya, memberikan Anda tampilan lengkap setiap caption yang tertanam dalam file MKV.
+Loop ini mencetak metadata setiap subtitle dan konten teksnya, memberi Anda tampilan lengkap dari setiap caption yang tertanam dalam file MKV.
 
 ## Masalah Umum dan Solusinya
 - **File Not Found** – Periksa kembali path absolut dan izin file.  
@@ -122,17 +122,17 @@ Loop ini mencetak metadata setiap subtitle dan konten teksnya, memberikan Anda t
 - **Insufficient memory on large files** – Proses subtitle dalam potongan atau gunakan API streaming jika tersedia.
 
 ## Aplikasi Praktis
-1. **Translation Projects** – Ekspor subtitle, terjemahkan, dan sisipkan kembali ke dalam video.  
-2. **Content Management Systems** – Indeks teks subtitle untuk dapat dicari dalam perpustakaan video.  
+1. **Translation Projects** – Ekspor subtitle, terjemahkan, dan sisipkan kembali ke video.  
+2. **Content Management Systems** – Indeks teks subtitle untuk kemampuan pencarian dalam perpustakaan video.  
 3. **Accessibility Enhancements** – Verifikasi bahwa setiap video menyertakan caption dengan timing yang tepat.
 
 ## Tips Kinerja
 - Gunakan koleksi yang efisien (mis., `ArrayList`) untuk penyimpanan sementara.  
-- Tutup objek `Metadata` dengan cepat (try‑with‑resources) untuk membebaskan sumber daya native.  
-- Jaga agar pustaka GroupDocs.Metadata tetap terbaru untuk peningkatan kinerja.
+- Tutup objek `Metadata` segera (try‑with‑resources) untuk membebaskan sumber daya native.  
+- Jaga agar pustaka GroupDocs.Metadata tetap terbaru untuk perbaikan kinerja.
 
 ## Kesimpulan
-Anda kini memiliki metode yang jelas dan siap produksi untuk **mengekstrak subtitle mkv** menggunakan GroupDocs.Metadata di Java. Baik Anda membangun pipeline terjemahan subtitle, memperkaya CMS media, atau memastikan kepatuhan aksesibilitas, pendekatan ini menghemat waktu Anda dan menghilangkan kebutuhan akan parsing tingkat rendah.
+Anda kini memiliki metode yang jelas dan siap produksi untuk **mengekstrak subtitle mkv secara batch** menggunakan GroupDocs.Metadata di Java. Baik Anda membangun pipeline terjemahan subtitle, memperkaya CMS media, atau memastikan kepatuhan aksesibilitas, pendekatan ini menghemat waktu Anda dan menghilangkan kebutuhan parsing tingkat rendah.
 
 Selanjutnya, jelajahi fitur lain seperti menyematkan metadata khusus, mengekstrak trek audio, atau memproses batch beberapa file video. Selamat coding!
 
@@ -142,27 +142,28 @@ Selanjutnya, jelajahi fitur lain seperti menyematkan metadata khusus, mengekstra
 A: JDK 8 atau yang lebih baru diperlukan.
 
 **Q: Bisakah saya mengekstrak subtitle dari format video lain dengan GroupDocs.Metadata?**  
-A: Ya, pustaka mendukung beberapa kontainer, tetapi panduan ini fokus pada MKV.
+A: Ya, pustaka ini mendukung beberapa kontainer, tetapi panduan ini berfokus pada MKV.
 
 **Q: Bagaimana cara menangani banyak trek subtitle dalam file MKV?**  
 A: Iterasi melalui setiap `MatroskaSubtitleTrack` seperti yang ditunjukkan dalam contoh kode.
 
 **Q: Apa yang harus saya lakukan jika aplikasi saya melempar `FileNotFoundException`?**  
-A: Verifikasi bahwa path file sudah benar, file ada, dan proses memiliki izin baca.
+A: Verifikasi bahwa path file benar, file ada, dan proses memiliki izin baca.
 
-**Q: Apakah ada dukungan untuk bahasa subtitle selain Bahasa Inggris?**  
-A: Tentu—GroupDocs.Metadata membaca tag bahasa ISO 639‑2/IETF BCP‑47, sehingga bahasa apa pun yang didukung dapat ditangani.
+**Q: Apakah ada dukungan untuk bahasa subtitle selain bahasa Inggris?**  
+A: Tentu—GroupDocs.Metadata membaca tag bahasa ISO 639‑2/IETF BCP‑47, sehingga semua bahasa yang didukung dapat ditangani.
 
-**Sumber Daya**
-- **Dokumentasi:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
-- **Referensi API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
-- **Unduhan:** [Dapatkan versi terbaru](https://releases.groupdocs.com/metadata/java/)  
-- **Repositori GitHub:** [Jelajahi di GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- **Forum Dukungan Gratis:** [Ajukan pertanyaan dan dapatkan dukungan](https://forum.groupdocs.com/c/metadata/)  
-- **Lisensi Sementara:** [Dapatkan lisensi sementara](https://purchase.groupdocs.com/temporary-license/)
+## Sumber Daya
+
+- **Documentation:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
+- **API Reference:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
+- **Download:** [Get the latest version](https://releases.groupdocs.com/metadata/java/)  
+- **GitHub Repository:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
+- **Free Support Forum:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
+- **Temporary License:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 
-**Last Updated:** 2025-12-24  
+**Last Updated:** 2026-03-09  
 **Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
+**Author:** GroupDocs

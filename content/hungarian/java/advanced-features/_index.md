@@ -1,13 +1,16 @@
 ---
-title: "metadata regex search java – Advanced Metadata Features Tutorials for GroupDocs.Metadata Java"
-description: "Learn how to perform metadata regex search java with GroupDocs.Metadata for Java, covering advanced searching, cleaning, comparison, and batch processing."
-weight: 17
-url: "/java/advanced-features/"
+date: '2026-03-06'
+description: Tanulja meg, hogyan végezhet metaadat regex keresést Java-ban a GroupDocs.Metadata
+  for Java segítségével, beleértve a fejlett keresést, tisztítást, összehasonlítást
+  és kötegelt feldolgozást.
+title: metaadat regex keresés Java – Haladó metaadat-funkciók oktatóanyagok a GroupDocs.Metadata
+  Java-hoz
 type: docs
-date: "2026-03-06"
+url: /hu/java/advanced-features/
+weight: 17
 ---
 
-# metadata regex search java – Advanced Metadata Features Tutorials for GroupDocs.Metadata Java
+# metadata regex search java – Haladó Metaadat Funkciók Oktatóanyagok a GroupDocs.Metadata Java-hoz
 
 Welcome! In this guide you’ll discover how to master **metadata regex search java** using the powerful GroupDocs.Metadata library. Whether you’re building a document‑management system, an information‑governance tool, or just need to locate specific metadata patterns across dozens of files, this tutorial walks you through the most effective techniques. We’ll cover searching with regular expressions, batch cleaning, comparing metadata, and advanced property filtering—all with ready‑to‑use Java examples.
 

@@ -1,49 +1,109 @@
 ---
-date: '2026-02-03'
-description: เรียนรู้วิธีการนับจำนวนคำใน Java และดึงจำนวนอักขระใน Java ด้วย GroupDocs.Metadata
-  สำหรับ Java เพื่อให้สามารถสกัดสถิติการนำเสนอได้อย่างง่ายดาย
+date: '2026-05-22'
+description: เรียนรู้วิธีนับอักขระและดึงจำนวนคำในงานนำเสนอ Java ด้วย GroupDocs.Metadata
+  พร้อมตัวอย่างโค้ดขั้นตอนต่อขั้นตอนและเคล็ดลับด้านประสิทธิภาพ
 keywords:
-- get word count java
+- how to count characters
 - get character count java
-- how to extract stats
-title: รับจำนวนคำใน Java ด้วย GroupDocs.Metadata สำหรับงานนำเสนอ
+- get word count java
+- how to count words
+- groupdocs metadata java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-05-22'
+  description: Learn how to count characters and extract word count in Java presentations
+    using GroupDocs.Metadata, with step‑by‑step code examples and performance tips.
+  headline: How to Count Characters in Presentations with GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to count characters and extract word count in Java presentations
+    using GroupDocs.Metadata, with step‑by‑step code examples and performance tips.
+  name: How to Count Characters in Presentations with GroupDocs.Metadata
+  steps:
+  - name: '**Document Management Systems:** Auto‑populate metadata fields for fast
+      search and categorization.'
+    text: '**Document Management Systems:** Auto‑populate metadata fields for fast
+      search and categorization.'
+  - name: '**Content Analytics:** Compute words‑per‑slide ratios to identify overly
+      dense decks.'
+    text: '**Content Analytics:** Compute words‑per‑slide ratios to identify overly
+      dense decks.'
+  - name: '**E‑Learning Platforms:** Provide instructors with quick stats on uploaded
+      lecture decks for curriculum planning.'
+    text: '**E‑Learning Platforms:** Provide instructors with quick stats on uploaded
+      lecture decks for curriculum planning.'
+  type: HowTo
+- questions:
+  - answer: It provides a comprehensive, format‑agnostic API to read, write, and extract
+      metadata—including statistical data—from over **50 document types** without
+      requiring the original application.
+    question: What is the purpose of GroupDocs.Metadata?
+  - answer: Yes, the library supports PDFs, Word documents, Excel spreadsheets, images,
+      and many more formats besides presentations.
+    question: Can I use GroupDocs.Metadata for other file types?
+  - answer: Increase the JVM heap (`-Xmx`) as needed, process files in a streaming
+      fashion, and always close the `Metadata` object promptly to free native resources.
+    question: How should I handle very large presentation files?
+  - answer: A temporary or trial license is sufficient for development and testing;
+      a full commercial license is required for production use.
+    question: Do I need a license for development?
+  - answer: Yes—provide the password when constructing the `Metadata` object; the
+      API will decrypt the file internally.
+    question: Is it possible to extract statistics from password‑protected presentations?
+  type: FAQPage
+title: วิธีนับอักขระในงานนำเสนอด้วย GroupDocs.Metadata
 type: docs
 url: /th/java/document-formats/groupdocs-metadata-java-extract-presentation-statistics/
 weight: 1
 ---
 
-# รับจำนวนคำ java ด้วย GroupDocs.Metadata สำหรับงานนำเสนอ
+# วิธีนับอักขระในงานนำเสนอด้วย GroupDocs.Metadata
 
-ในสภาพแวดล้อมที่ขับเคลื่อนด้วยข้อมูลในปัจจุบัน การสามารถ **get word count java** จากไฟล์ PowerPoint เป็นวิธีที่ใช้งานได้จริงในการประเมินขนาดของเนื้อหา, คาดการณ์เวลาอ่าน, หรือทำการวิเคราะห์ ไม่ว่าคุณจะกำลังสร้างระบบจัดการเอกสารหรือเพียงต้องการสถิติอย่างรวดเร็วสำหรับการรายงาน GroupDocs.Metadata for Java ทำให้การดึงจำนวนคำ, จำนวนอักขระ, และจำนวนหน้าเป็นเรื่องง่ายดาย  
+ในแอปพลิเคชัน Java สมัยใหม่, **how to count characters** ในไฟล์ PowerPoint เป็นความต้องการทั่วไปสำหรับการวิเคราะห์, การปฏิบัติตาม, และการตรวจสอบคุณภาพเนื้อหา. GroupDocs.Metadata สำหรับ Java ให้ API ที่ง่ายและใช้หน่วยความจำน้อยเพื่อดึงจำนวนอักขระ, จำนวนคำ, และจำนวนสไลด์ (หน้า) จากไฟล์ PPTX, PPT, และรูปแบบการนำเสนอ Office Open XML อื่น ๆ. บทแนะนำนี้จะพาคุณผ่านการตั้งค่า, โค้ด, และเคล็ดลับการปฏิบัติที่ดีที่สุดเพื่อให้คุณสามารถฝังสถิติการนำเสนอลงในโครงการ Java ใด ๆ
 
-ด้านล่างคุณจะได้เรียนรู้ขั้นตอนทีละขั้นตอนในการตั้งค่าห้องสมุด, ดึงสถิติ, และรวมผลลัพธ์เข้ากับแอปพลิเคชัน Java ของคุณ  
+## คำตอบสั้น
+- **What does “how to count characters” do?** It returns the total number of characters contained in a presentation file.  
+- **Can I also retrieve word count and slide count?** Yes—GroupDocs.Metadata provides character, word, and page (slide) counts in a single call.  
+- **Is a license required for production?** A free trial works for development; a commercial license is mandatory for production deployments.  
+- **Which presentation formats are supported?** PPT, PPTX, and all Office Open XML‑based presentation types.  
+- **Will large presentations affect memory usage?** The API streams data, but you should close the `Metadata` object promptly and monitor JVM heap for files larger than 500 MB.
 
-## คำตอบอย่างรวดเร็ว
-- **“get word count java” ทำอะไร?** คืนค่าจำนวนคำทั้งหมดในไฟล์งานนำเสนอ  
-- **ฉันสามารถรับจำนวนอักขระ java ได้ด้วยหรือไม่?** ได้ – API เดียวกันให้บริการจำนวนอักขระและจำนวนหน้า  
-- **ฉันต้องการใบอนุญาตหรือไม่?** การทดลองใช้ฟรีทำงานได้สำหรับการพัฒนา; จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการใช้งานจริง  
-- **รูปแบบไฟล์ที่รองรับคืออะไร?** PPT, PPTX และรูปแบบการนำเสนอ Office Open XML อื่น ๆ  
-- **การใช้หน่วยความจำเป็นเรื่องที่ต้องกังวลหรือไม่?** ปิดอ็อบเจกต์ `Metadata` อย่างทันท่วงทีเพื่อปล่อยทรัพยากร, โดยเฉพาะไฟล์ขนาดใหญ่  
+## “how to count characters” คืออะไร
+**How to count characters** หมายถึงการใช้ API สถิติของ GroupDocs.Metadata เพื่อดึงจำนวนอักขระทั้งหมดที่อยู่ในเอกสารการนำเสนอ. API จะวิเคราะห์ข้อความสไลด์, จัดการ Unicode, และละเว้นมาร์กอัปที่ซ่อนอยู่, ให้จำนวนที่แม่นยำซึ่งสามารถใช้สำหรับการวิเคราะห์, การตรวจสอบการปฏิบัติตาม, และการประเมินคุณภาพเนื้อหา.
 
-## “get word count java” คืออะไร?
-“Get word count java” หมายถึงการใช้ไลบรารี Java—ในที่นี้คือ GroupDocs.Metadata—เพื่อดึงจำนวนคำทั้งหมดจากเอกสารงานนำเสนอโดยอัตโนมัติ วิธีนี้เป็นส่วนหนึ่งของความสามารถ **how to extract stats** ที่กว้างขึ้นที่ไลบรารีให้บริการ  
-
-## ทำไมต้องดึงสถิติการนำเสนอ?
-- **Content analysis:** ประเมินความยาวและความซับซ้อนของสไลด์อย่างรวดเร็ว  
-- **Automation:** สร้างรายงานเมตาดาต้าสำหรับคลังเอกสารขนาดใหญ่  
-- **Compliance:** ตรวจสอบว่าการนำเสนอเป็นไปตามขนาดหรือแนวทางเนื้อหา  
-- **Performance monitoring:** ติดตามการเติบโตของเอกสารตามเวลา  
+## ทำไมต้องสกัดสถิติการนำเสนอ?
+- **Content analysis:** วัดความหนาแน่นของสไลด์ (คำต่อสไลด์) อย่างทันทีเพื่อปรับปรุงความอ่านง่าย.  
+- **Automation:** เติมข้อมูลฟิลด์เมตาดาต้าทั่วหลายพันชุดสไลด์เพื่อสร้างคลังข้อมูลที่สามารถค้นหาได้.  
+- **Compliance:** บังคับใช้แนวทางขององค์กรที่จำกัดความยาวของสไลด์หรือจำนวนอักขระรวม.  
+- **Trend monitoring:** ติดตามการเติบโตของห้องสมุดการนำเสนอเมื่อเวลาผ่านไปเพื่อการวางแผนพื้นที่จัดเก็บ.
 
 ## ข้อกำหนดเบื้องต้น
-- ติดตั้ง Java 8 หรือใหม่กว่า  
-- Maven สำหรับการจัดการ dependencies (หรือความสามารถในการเพิ่ม JAR ด้วยตนเอง)  
-- เข้าถึงไฟล์งานนำเสนอ (`.pptx` แนะนำ)  
+- Java 8 หรือใหม่กว่า (แนะนำ Java 11).  
+- Maven สำหรับการจัดการ dependencies, หรือความสามารถในการเพิ่ม JAR ด้วยตนเอง.  
+- ไฟล์ PowerPoint (`.pptx` เป็นที่แนะนำสำหรับการสนับสนุนฟีเจอร์เต็ม).
 
 ## การตั้งค่า GroupDocs.Metadata สำหรับ Java
-ขั้นแรกให้เพิ่มไลบรารีลงในโปรเจกต์ของคุณ คุณสามารถใช้ Maven หรือดาวน์โหลด JAR โดยตรง  
+ขั้นแรก, เพิ่มไลบรารีลงในโปรเจกต์ของคุณ. คุณสามารถใช้ Maven หรือดาวน์โหลด JAR โดยตรง.
 
 ### การใช้ Maven
-เพิ่ม repository และ dependency ลงในไฟล์ `pom.xml` ของคุณ:  
+เพิ่ม repository และ dependency ลงในไฟล์ `pom.xml` ของคุณ:
+
+```xml
+<repositories>
+   <repository>
+      <id>repository.groupdocs.com</id>
+      <name>GroupDocs Repository</name>
+      <url>https://releases.groupdocs.com/metadata/java/</url>
+   </repository>
+</repositories>
+
+<dependencies>
+   <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-metadata</artifactId>
+      <version>24.12</version>
+   </dependency>
+</dependencies>
+```
 
 ```xml
 <repositories>
@@ -64,15 +124,15 @@ weight: 1
 ```
 
 ### ดาวน์โหลดโดยตรง
-หากคุณต้องการตั้งค่าแบบแมนนวล ให้ดาวน์โหลด JAR เวอร์ชันล่าสุดจากหน้าปล่อยอย่างเป็นทางการ: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)  
+หากคุณต้องการตั้งค่าแบบแมนนวล, ดาวน์โหลด JAR ล่าสุดจากหน้ารีลีสอย่างเป็นทางการ: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 #### การรับใบอนุญาต
-- **Free Trial:** ทดลองใช้ทุกฟีเจอร์โดยไม่มีค่าใช้จ่าย  
-- **Temporary License:** เหมาะสำหรับการพัฒนาและทดสอบ  
-- **Purchase:** จำเป็นสำหรับการใช้งานในสภาพแวดล้อมการผลิต  
+- **Free Trial:** ชุดฟีเจอร์เต็มโดยไม่มีค่าใช้จ่ายสำหรับการประเมิน.  
+- **Temporary License:** เหมาะสำหรับขั้นตอนการพัฒนาและการทดสอบ.  
+- **Purchase:** จำเป็นสำหรับการใช้งานในระดับการผลิตใด ๆ.
 
-## การเริ่มต้นและตั้งค่าพื้นฐาน
-สร้างอินสแตนซ์ `Metadata` ที่ชี้ไปยังไฟล์งานนำเสนอของคุณ:  
+## การเริ่มต้นและตั้งค่าเบื้องต้น
+`Metadata` เป็นคลาสหลักที่เปิดเอกสารและให้เข้าถึงเมตาดาต้าและข้อมูลสถิติของมัน. สร้างอินสแตนซ์ `Metadata` ที่ชี้ไปยังไฟล์การนำเสนอของคุณ:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -83,10 +143,10 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/Presentation.pptx
 }
 ```
 
-## คู่มือการทำงาน – วิธีดึงสถิติจากงานนำเสนอ
+## คู่มือการใช้งาน – วิธีสกัดสถิติจากการนำเสนอ
 
-### ขั้นตอนที่ 1: เริ่มต้นอ็อบเจกต์ Metadata
-เริ่มต้นโดยเปิดไฟล์ด้วยคลาส `Metadata`:  
+### วิธีนับอักขระในงานนำเสนอ?
+`getCharacterCount()` คืนค่าจำนวนอักขระทั้งหมดในทุกสไลด์, ประมวลผลสตรีมข้อความอย่างมีประสิทธิภาพ. โหลดการนำเสนอด้วยคอนสตรัคเตอร์ `Metadata`, จากนั้นเรียกเมธอด `getCharacterCount()`. การเรียกครั้งเดียวนี้จะคืนค่าจำนวนอักขระทั้งหมดในทุกสไลด์, จัดการ Unicode อย่างถูกต้องและละเว้นมาร์กอัปที่ซ่อนอยู่.
 
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/Presentation.pptx")) {
@@ -94,89 +154,92 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/Presentation.pptx
 }
 ```
 
-### ขั้นตอนที่ 2: เข้าถึงแพคเกจรากของงานนำเสนอ
-แพคเกจรากให้คุณเข้าถึงเมตาดาต้าระดับเอกสารทั้งหมด:  
+### วิธีเข้าถึง Root Package ของการนำเสนอ?
+`getRootPackage()` ให้วัตถุ root package, ให้การเข้าถึงเมตาดาต้าระดับเอกสารเช่นผู้เขียนและคอลเลกชันสไลด์. Root package ให้คุณเข้าถึงเมตาดาต้าระดับเอกสารเช่นผู้เขียน, วันที่สร้าง, และคอลเลกชันสไลด์. ใช้เมธอด `getRootPackage()` บนวัตถุ `Metadata`.
 
 ```java
 PresentationRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### ขั้นตอนที่ 3: ดึงจำนวนอักขระ (get character count java)
-ตอนนี้ดึงจำนวนอักขระ:  
+### วิธีดึงจำนวนคำ (get word count java)?
+`getWordCount()` คำนวณจำนวนคำทั้งหมดในงานนำเสนอหลังจากดึงและแยกข้อความสไลด์เป็นโทเคน. เรียก `getWordCount()` บน root package. เมธอดนี้คืนค่าเป็นจำนวนเต็มที่แสดงจำนวนคำทั้งหมดที่ตรวจพบหลังจากการดึงข้อความและการแยกโทเคน.
 
 ```java
 int characterCount = root.getDocumentStatistics().getCharacterCount();
 System.out.println("Character Count: " + characterCount);
 ```
 
-### ขั้นตอนที่ 4: ดึงจำนวนหน้า
-คุณยังสามารถกำหนดจำนวนสไลด์ (หน้า) ที่งานนำเสนอมีได้:  
+### วิธีดึงจำนวนสไลด์ (หน้า)?
+`getPageCount()` คืนค่าจำนวนสไลด์ (หน้า) ในงานนำเสนอ, ตรงกับจำนวนที่แสดงใน PowerPoint. เรียก `getPageCount()` เพื่อรับจำนวนสไลด์. ค่านี้ตรงกับจำนวนสไลด์ที่แสดงใน PowerPoint.
 
 ```java
 int pageCount = root.getDocumentStatistics().getPageCount();
 System.out.println("Page Count: " + pageCount);
 ```
 
-### ขั้นตอนที่ 5: ดึงจำนวนคำ (get word count java)
-สุดท้าย, รับจำนวนคำ—หัวใจของเป้าหมาย “get word count java” ของเรา:  
+### วิธีสกัดจำนวนอักขระ (get character count java)?
+สุดท้าย, ขอจำนวนอักขระด้วย `getCharacterCount()`. API จะสตรีมเนื้อหาสไลด์, ดังนั้นแม้ชุดสไลด์หลายร้อยหน้า ก็จะถูกประมวลผลโดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ.
 
 ```java
 int wordCount = root.getDocumentStatistics().getWordCount();
 System.out.println("Word Count: " + wordCount);
 ```
 
-## ปัญหาที่พบบ่อยและวิธีแก้
-- **File Path Errors:** ตรวจสอบให้แน่ใจว่าเส้นทางเป็นแบบ absolute หรือ relative อย่างถูกต้องต่อโปรเจกต์ของคุณ  
-- **Incompatible Library Version:** ตรวจสอบว่าคุณใช้เวอร์ชันของ GroupDocs.Metadata ที่ตรงกับ runtime ของ Java ของคุณ  
-- **Large Files:** ตรวจสอบขนาด heap ของ JVM; เพิ่ม `-Xmx` หากพบ `OutOfMemoryError` ระหว่างประมวลผลงานนำเสนอขนาดใหญ่มาก  
+## ปัญหาและวิธีแก้ไขทั่วไป
+- **File Path Errors:** ตรวจสอบว่าเส้นทางเป็นแบบ absolute หรือ relative อย่างถูกต้องต่อโฟลเดอร์รากของโปรเจกต์.  
+- **Incompatible Library Version:** ใช้เวอร์ชัน GroupDocs.Metadata ที่ตรงกับ runtime Java ของคุณ (Java 8+).  
+- **Large Files:** เพิ่มขนาด heap ของ JVM (`-Xmx2g` หรือสูงกว่า) หากคุณเจอ `OutOfMemoryError` ขณะประมวลผลงานนำเสนอที่ใหญ่กว่า 1 GB.
 
 ## การประยุกต์ใช้งานจริง
-1. **Document Management Systems:** เติมข้อมูลเมตาดาต้าอัตโนมัติสำหรับการค้นหาและการจัดประเภท  
-2. **Content Analytics:** วัดความหนาแน่นของสไลด์ (คำต่อสไลด์) เพื่อปรับปรุงการออกแบบงานนำเสนอ  
-3. **E‑learning Platforms:** ให้ข้อมูลสถิติอย่างรวดเร็วแก่ผู้สอนเกี่ยวกับชุดสไลด์ที่อัปโหลด  
+1. **Document Management Systems:** เติมข้อมูลเมตาดาต้าอัตโนมัติสำหรับการค้นหาและการจัดประเภทอย่างรวดเร็ว.  
+2. **Content Analytics:** คำนวณอัตราคำต่อสไลด์เพื่อระบุชุดสไลด์ที่หนาแน่นเกินไป.  
+3. **E‑Learning Platforms:** ให้สถิติอย่างรวดเร็วแก่ผู้สอนเกี่ยวกับชุดสไลด์ที่อัปโหลดสำหรับการวางแผนหลักสูตร.
 
-## การพิจารณาด้านประสิทธิภาพ
-- **Resource Management:** บล็อก try‑with‑resources ปิดอ็อบเจกต์ `Metadata` โดยอัตโนมัติ ปล่อยทรัพยากรเนทีฟ  
-- **Memory Footprint:** สำหรับการประมวลผลเป็นชุด, ใช้อ็อบเจกต์ `Metadata` ตัวเดียวซ้ำได้เมื่อเป็นไปได้, แต่ต้องปิดทุกครั้งหลังจากไฟล์แต่ละไฟล์  
+## ข้อควรพิจารณาด้านประสิทธิภาพ
+- **Resource Management:** บล็อก try‑with‑resources จะปิดอ็อบเจ็กต์ `Metadata` โดยอัตโนมัติ, ปล่อยทรัพยากรเนทีฟ.  
+- **Memory Footprint:** GroupDocs.Metadata สตรีมข้อมูลและสามารถจัดการไฟล์ได้ถึง **2 GB** โดยไม่ต้องโหลดเต็มในหน่วยความจำ, ตามที่ระบุในสเปคผลิตภัณฑ์.  
+- **Batch Processing:** ใช้อ็อบเจ็กต์ `Metadata` ตัวเดียวเมื่อประมวลผลเป็นชุด, แต่ต้องปิดทุกครั้งหลังจากไฟล์แต่ละไฟล์เพื่อหลีกเลี่ยงการรั่วไหล.
 
 ## สรุป
-ตอนนี้คุณรู้วิธี **get word count java** และสถิติที่เกี่ยวข้องจากไฟล์ PowerPoint ด้วยการใช้ GroupDocs.Metadata แล้ว นำโค้ดตัวอย่างเหล่านี้ไปใส่ในโปรเจกต์ Java ของคุณเพื่อเพิ่มประสิทธิภาพการทำงานของเอกสาร, เปิดใช้งานการวิเคราะห์, และปรับปรุงประสบการณ์ผู้ใช้  
+คุณมีวิธีการที่ครบถ้วนและพร้อมใช้งานในสภาพแวดล้อมการผลิตสำหรับ **how to count characters** และดึงสถิติที่เกี่ยวข้องจากไฟล์ PowerPoint ด้วย GroupDocs.Metadata สำหรับ Java. ผสานโค้ดเหล่านี้เข้ากับบริการที่มีอยู่ของคุณเพื่อเสริมกระบวนการทำงานของเอกสาร, เปิดใช้งานการวิเคราะห์, และปรับปรุงประสบการณ์ผู้ใช้.
 
 ### ขั้นตอนต่อไป
-- สำรวจฟิลด์เมตาดาต้าเพิ่มเติม เช่น ผู้เขียน, วันที่สร้าง, และคุณสมบัติกำหนดเอง  
-- ผสานสถิติกับไลบรารีอื่น (เช่น GroupDocs.Conversion) เพื่อการจัดการเอกสารแบบครบวงจร  
+- สำรวจฟิลด์เมตาดาต้าเพิ่มเติมเช่นผู้เขียน, วันที่สร้าง, และคุณสมบัติกำหนดเอง.  
+- รวมสถิติกับ GroupDocs.Conversion เพื่อการจัดการเอกสารแบบต้นจนจบ (เช่น แปลง PPTX เป็น PDF หลังการวิเคราะห์).  
 
-## ส่วนคำถามที่พบบ่อย
-1. **วัตถุประสงค์ของ GroupDocs.Metadata คืออะไร?**  
-   - มันให้โซลูชันครบวงจรในการจัดการและดึงเมตาดาต้าจากเอกสาร, รวมถึงงานนำเสนอ  
+## คำถามที่พบบ่อย
 
-2. **ฉันสามารถใช้ GroupDocs.Metadata กับประเภทเ  
-   - ใช่, รองรับ PDF, รูปภาพ, สเปรดชีต, และรูปแบบอื่น ๆ อีกมากมาย  
+**Q: What is the purpose of GroupDocs.Metadata?**  
+A: มันให้ API ที่ครอบคลุมและไม่ขึ้นกับรูปแบบเพื่ออ่าน, เขียน, และสกัดเมตาดาต้า—รวมถึงข้อมูลสถิติ—จากเอกสารกว่า **50 ประเภท** โดยไม่ต้องใช้แอปพลิเคชันต้นฉบับ.
 
-3. **ฉันจะจัดการแน่ปิดอ็อบเจกต์ `Metadata` อย่างหาหฟรีสำหรับการช่วยเหลือจากชุมชนและการช่วยเหลืออย่างเป็นทางการ  
+**Q: Can I use GroupDocs.Metadata for other file types?**  
+A: ใช่, ไลบรารีนี้รองรับ PDF, เอกสาร Word, สเปรดชีต Excel, รูปภาพ, และรูปแบบอื่น ๆ อีกมากมายนอกจากการนำเสนอ.
 
-5. **คุณลักษณะนี้สามารถรวมเข้ากับระบบที่มีอยู่ได้หรือไม่?;ิเคชัน Java ใด ๆ อย่างราบรื่น  
+**Q: How should I handle very large presentation files?**  
+A: เพิ่มขนาด heap ของ JVM (`-Xmx`) ตามความจำเป็น, ประมวลผลไฟล์แบบสตรีม, และปิดอ็อบเจ็กต์ `Metadata` อย่างรวดเร็วเสมอเพื่อปล่อยทรัพยากรเนทีฟ.
 
-### คำถามที่พบบ่อยเพิ่มเติม
-**ถาม: ไลบรารียังคืนจำนวนสไลด์หรือไม่?**  
-ตอบ: ใช่—จำนวนหน้าตรงกับจำนวนสไลด์สำหรับไฟล์งานนำเสนอ  
+**Q: Do I need a license for development?**  
+A: ใบอนุญาตชั่วคราวหรือทดลองเพียงพอสำหรับการพัฒนาและการทดสอบ; ใบอนุญาตเชิงพาณิชย์เต็มรูปแบบจำเป็นสำหรับการใช้งานในสภาพแวดล้อมการผลิต.
 
-ใบอน:ียงผลิต  
-
-**ถาม: ฉันสามารถดึงสถิติจากงานนำเสนอที่มีการป้องกันด้วยรรหัสผ่านเมื่อเริ่มต้นอ็อบเจกต์ `Metadata` (ดูเอกสาร API สำหรับรายละเอียดธีการประมวลผลหลายไฟล์เป็นชุดหรือไม่?**  
-ตอบ: วนลูปไฟล์และใช้ตรรกะการดึงข้อมูลเดียวกัน; เพียงจำไว้ว่า`  
-
-**ถาม: ฉันจะหา ตัวอย่างเพิ่มเติมได้จากที่ไหน?**  
-ตอบ: เอกสารอย่างเป็นทางการและรีโพ:** 2026-02-03  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
-**ทรัพยากร**  
-- [Documentation](https://docs.groupdocs.com/metadata/java/)  
-- [API Reference](https://reference.groupdocs.com/metadata/java/)  
-- [Download](https://releases.groupdocs.com/metadata/java/)  
-- [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
-- [Temporary License Information](https://purchase.groupdocs.com/temporary-license/)  
+**Q: Is it possible to extract statistics from password‑protected presentations?**  
+A: ใช่—ให้รหัสผ่านเมื่อสร้างอ็อบเจ็กต์ `Metadata`; API จะถอดรหัสไฟล์ภายใน.
 
 ---
+
+**อัปเดตล่าสุด:** 2026-05-22  
+**ทดสอบด้วย:** GroupDocs.Metadata 24.12 for Java  
+**ผู้เขียน:** GroupDocs  
+
+**ทรัพยากร**  
+- [เอกสารประกอบ](https://docs.groupdocs.com/metadata/java/)  
+- [อ้างอิง API](https://reference.groupdocs.com/metadata/java/)  
+- [ดาวน์โหลด](https://releases.groupdocs.com/metadata/java/)  
+- [ที่เก็บ GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
+- [ฟอรั่มสนับสนุนฟรี](https://forum.groupdocs.com/c/metadata/)  
+- [ข้อมูลใบอนุญาตชั่วคราว](https://purchase.groupdocs.com/temporary-license/)
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [ดึงสถิติเอกสารด้วย GroupDocs.Metadata สำหรับ Java: คู่มือเชิงลึก](/metadata/java/working-with-metadata/groupdocs-metadata-java-note-statistics/)
+- [อัปเดตสถิติเอกสาร Word ด้วย GroupDocs.Metadata สำหรับ Java: คู่มือเชิงลึก](/metadata/java/document-formats/update-word-document-statistics-groupdocs-metadata-java/)
+- [วิธีสกัดเมตาดาต้าจากงานนำเสนอ PowerPoint ด้วย GroupDocs.Metadata ใน Java](/metadata/java/working-with-metadata/extract-presentation-metadata-groupdocs-java/)

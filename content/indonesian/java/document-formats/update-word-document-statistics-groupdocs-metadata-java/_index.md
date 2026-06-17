@@ -1,18 +1,19 @@
 ---
-title: "Update Word Stats Java with GroupDocs.Metadata Guide"
-description: "Learn how to update word stats java using GroupDocs.Metadata for Java and efficiently manage Word document metadata."
-date: "2026-03-25"
-weight: 1
-url: "/java/document-formats/update-word-document-statistics-groupdocs-metadata-java/"
+date: '2026-03-25'
+description: Pelajari cara memperbarui statistik Word di Java menggunakan GroupDocs.Metadata
+  untuk Java dan mengelola metadata dokumen Word secara efisien.
 keywords:
 - update word stats java
 - groupdocs metadata java
+title: Perbarui Statistik Word Java dengan Panduan GroupDocs.Metadata
 type: docs
+url: /id/java/document-formats/update-word-document-statistics-groupdocs-metadata-java/
+weight: 1
 ---
 
 # How to Update Word Document Statistics with GroupDocs.Metadata for Java
 
-Are you looking to **update word stats java** and enhance your Word documents by updating their statistics programmatically? Whether you're a developer or a business professional, managing document metadata is a critical part of modern content workflows. In this guide we’ll walk through using **GroupDocs.Metadata for Java** to modify Word document statistics quickly and reliably.
+Apakah Anda ingin **update word stats java** dan meningkatkan dokumen Word Anda dengan memperbarui statistiknya secara programatis? Baik Anda seorang pengembang maupun profesional bisnis, mengelola metadata dokumen adalah bagian penting dari alur kerja konten modern. Dalam panduan ini kami akan menjelaskan cara menggunakan **GroupDocs.Metadata for Java** untuk memodifikasi statistik dokumen Word dengan cepat dan dapat diandalkan.
 
 ## Quick Answers
 - **What does “update word stats java” do?** It refreshes built‑in Word statistics (word count, page count, etc.) inside a .docx file.  

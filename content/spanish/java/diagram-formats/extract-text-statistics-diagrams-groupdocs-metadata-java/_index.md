@@ -1,5 +1,5 @@
 ---
-date: '2026-01-13'
+date: '2026-03-20'
 description: Aprende cómo obtener el recuento de páginas de diagramas y extraer estadísticas
   de texto de los diagramas usando GroupDocs.Metadata para Java. Configuración paso
   a paso y ejemplos de código incluidos.
@@ -16,7 +16,7 @@ weight: 1
 
 # Obtener el recuento de páginas de diagramas usando GroupDocs.Metadata para Java
 
-En los proyectos de software modernos, poder **obtener el recuento de páginas de diagramas** rápidamente puede ahorrar mucho tiempo, especialmente cuando necesitas generar informes o automatizar canalizaciones de documentación. En este tutorial, aprenderás a usar GroupDocs.Metadata para Java para extraer tanto el recuento de páginas como otras estadísticas de texto útiles de archivos de diagramas como VDX. Revisaremos la configuración requerida, te mostraremos el código exacto que necesitas y discutiremos escenarios del mundo real donde esta capacidad destaca.
+En los proyectos de software modernos, poder **obtener el recuento de páginas de diagramas** rápidamente puede ahorrar mucho tiempo, especialmente cuando necesitas generar informes o automatizar pipelines de documentación. Este tutorial te muestra exactamente cómo usar GroupDocs.Metadata para Java para extraer el recuento de páginas y otras estadísticas de texto útiles de archivos de diagramas como VDX, VSDX y más.
 
 ## Respuestas rápidas
 - **¿Qué significa “obtener el recuento de páginas de diagramas”?** Devuelve el número total de páginas (o hojas) dentro de un archivo de diagrama.  
@@ -70,7 +70,8 @@ Si prefieres no usar Maven, descarga el JAR más reciente desde la página ofici
 - **Licencia temporal** – Solicita una clave temporal para pruebas sin restricciones.  
 - **Licencia completa** – Compra para uso ilimitado en producción.  
 
-### Inicialización básica
+## Inicialización básica
+
 A continuación se muestra el código mínimo necesario para comenzar a trabajar con un archivo de diagrama. Este fragmento **inicializa el objeto Metadata**, que es el punto de entrada para todas las operaciones posteriores, incluido obtener el recuento de páginas del diagrama.
 
 ```java
@@ -86,11 +87,12 @@ public class DiagramInitialization {
 }
 ```
 
-## Guía de implementación – Obtener el recuento de páginas de diagramas
+## Cómo leer estadísticas de diagramas con GroupDocs.Metadata Java
 
-Ahora que la biblioteca está lista, profundicemos en los pasos exactos para obtener el recuento de páginas.
+Ahora que la biblioteca está lista, repasemos los pasos exactos para recuperar el recuento de páginas y otras estadísticas.
 
 ### Paso 1: Obtener el paquete raíz
+
 Cada tipo de diagrama tiene un paquete raíz específico que brinda acceso a sus metadatos. Usa el método genérico `getRootPackageGeneric()` para obtenerlo.
 
 ```java
@@ -106,8 +108,9 @@ public class DiagramReadDocumentStatistics {
             DiagramRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### Paso 2: Acceder a las estadísticas del documento (Obtener el recuento de páginas de diagramas)
-Con el paquete raíz en mano, puedes llamar a `getDocumentStatistics()` y luego a `getPageCount()` para **obtener el recuento de páginas de diagramas**.
+### Paso 2: Acceder a las estadísticas del documento (Obtener el recuento de páginas del diagrama)
+
+Con el paquete raíz en mano, puedes llamar a `getDocumentStatistics()` y luego a `getPageCount()` para **obtener el recuento de páginas del diagrama**.
 
 ```java
             int pageCount = root.getDocumentStatistics().getPageCount();
@@ -120,6 +123,7 @@ Con el paquete raíz en mano, puedes llamar a `getDocumentStatistics()` y luego 
 **Explicación**: `getDocumentStatistics()` devuelve un objeto que contiene varias métricas útiles, incluido el número de páginas. Por lo tanto, la variable `pageCount` representa el total de páginas del diagrama.
 
 ### Paso 3: Manejar excepciones de forma adecuada
+
 Las operaciones relacionadas con archivos pueden fallar por muchas razones (archivo faltante, formato no compatible, etc.). Envuelve tu código en un bloque try‑catch para mostrar mensajes de error claros.
 
 ```java
@@ -130,46 +134,47 @@ Las operaciones relacionadas con archivos pueden fallar por muchas razones (arch
 }
 ```
 
-**Consejos de solución de problemas**  
-- Verifica que la ruta del archivo (`inputPath`) apunte a un archivo de diagrama existente.  
-- Asegúrate de que el formato del diagrama (p. ej., VDX) sea compatible con la versión actual de GroupDocs.Metadata.  
-- Si recibes un error de licencia, confirma que se haya aplicado una clave de licencia válida, ya sea de prueba o completa.
-
 ## Aplicaciones prácticas
 
 | Caso de uso | Cómo ayuda el recuento de páginas |
-|-------------|-----------------------------------|
-| **Gestión de proyectos** | Estimar rápidamente el esfuerzo contando las páginas en diagramas de flujo o de arquitectura. |
+|------------|-----------------------------------|
+| **Gestión de proyectos** | Estimar rápidamente el esfuerzo contando páginas en diagramas de flujo o diagramas de arquitectura. |
 | **Informes automatizados** | Generar tablas resumidas que enumeren cada diagrama y su recuento de páginas para revisiones de interesados. |
-| **Analítica de datos** | Alimentar métricas de recuento de páginas en paneles de control para monitorizar el crecimiento de la documentación a lo largo del tiempo. |
+| **Análisis de datos** | Alimentar métricas de recuento de páginas en paneles de control para monitorear el crecimiento de la documentación a lo largo del tiempo. |
 
 ## Consideraciones de rendimiento
-- **Gestión de recursos**: Usa el try‑with‑resources de Java (como se muestra) para cerrar automáticamente el objeto `Metadata` y liberar memoria.  
+
+- **Gestión de recursos**: Usa try‑with‑resources de Java (como se muestra) para cerrar automáticamente el objeto `Metadata` y liberar memoria.  
 - **Procesamiento por lotes**: Al manejar muchos diagramas, reutiliza una única instancia de `Metadata` por archivo y evita cargar datos innecesarios.  
 
-## Conclusión
-Ahora sabes cómo **obtener el recuento de páginas de diagramas** y extraer otras estadísticas de texto usando GroupDocs.Metadata para Java. Este enfoque ligero puede integrarse en canalizaciones de automatización más grandes, herramientas de informes o cualquier aplicación que necesite una visión rápida de los archivos de diagramas.
+## Problemas comunes y soluciones
 
-### Próximos pasos
+- **Archivo no encontrado** – Verifica nuevamente el `inputPath` y asegura que el archivo exista en el disco.  
+- **Formato no compatible** – Verifica que tu tipo de diagrama (p.ej., VDX) esté listado en los formatos compatibles para la versión que estás usando.  
+- **Error de licencia** – Asegúrate de que se haya aplicado una clave de licencia válida (de prueba o completa) antes de crear el objeto `Metadata`.  
+
+## Preguntas frecuentes
+
+**Q:** ¿Qué formatos de archivo son compatibles con GroupDocs.Metadata para diagramas?  
+**A:** Soporta VDX, VSDX y muchos otros formatos de diagramas comunes utilizados en entornos empresariales.
+
+**Q:** ¿Puedo usar GroupDocs.Metadata con documentos que no sean diagramas?  
+**A:** Sí, la biblioteca funciona con PDFs, archivos Word, hojas de cálculo y más, ofreciendo una experiencia unificada de extracción de metadatos.
+
+**Q:** ¿Cómo manejo formatos de archivo no compatibles?  
+**A:** Verifica la extensión del archivo con la lista de formatos compatibles en la documentación. Para formatos desconocidos, considera convertirlos primero a un tipo compatible.
+
+**Q:** ¿Existe un límite en la cantidad de diagramas que puedo procesar a la vez?  
+**A:** No hay un límite estricto, pero procesar un lote muy grande puede requerir atención al uso de memoria y a las estrategias de subprocesos.
+
+**Q:** ¿Qué debo hacer si encuentro un error de inicialización?  
+**A:** Verifica nuevamente la ruta del archivo, asegura que los JAR se hayan añadido correctamente a tu classpath y confirma que se haya aplicado una licencia válida (incluso una de prueba).
+
+## Próximos pasos
+
 - Explora estadísticas adicionales como autor, fecha de creación y propiedades personalizadas.  
 - Combina la lógica de recuento de páginas con el escaneo del sistema de archivos para procesar carpetas completas de diagramas.  
-- Revisa los recursos oficiales para una cobertura más profunda de la API.  
-
-## Sección de preguntas frecuentes
-1. **¿Qué formatos de archivo son compatibles con GroupDocs.Metadata para diagramas?**  
-   - Soporta VDX, VSDX y muchos otros formatos de diagramas comunes utilizados en entornos empresariales.  
-
-2. **¿Puedo usar GroupDocs.Metadata con documentos que no sean diagramas?**  
-   - Sí, la biblioteca funciona con PDFs, archivos Word, hojas de cálculo y más, ofreciendo una experiencia unificada de extracción de metadatos.  
-
-3. **¿Cómo manejo formatos de archivo no compatibles?**  
-   - Verifica la extensión del archivo con la lista de formatos compatibles en la documentación. Para formatos desconocidos, considera convertirlos primero a un tipo compatible.  
-
-4. **¿Existe un límite en la cantidad de diagramas que puedo procesar a la vez?**  
-   - No hay un límite estricto, pero procesar un lote muy grande puede requerir atención al uso de memoria y a las estrategias de subprocesos.  
-
-5. **¿Qué debo hacer si encuentro un error de inicialización?**  
-   - Verifica nuevamente la ruta del archivo, asegura que los JARs estén correctamente añadidos a tu classpath y confirma que se haya aplicado una licencia válida (incluso una de prueba).  
+- Revisa la referencia oficial de la API para opciones de personalización más avanzadas.
 
 ## Recursos
 - [Documentación](https://docs.groupdocs.com/metadata/java/)
@@ -181,6 +186,6 @@ Ahora sabes cómo **obtener el recuento de páginas de diagramas** y extraer otr
 
 ---
 
-**Última actualización:** 2026-01-13  
-**Probado con:** GroupDocs.Metadata 24.12 for Java  
+**Última actualización:** 2026-03-20  
+**Probado con:** GroupDocs.Metadata 24.12 para Java  
 **Autor:** GroupDocs

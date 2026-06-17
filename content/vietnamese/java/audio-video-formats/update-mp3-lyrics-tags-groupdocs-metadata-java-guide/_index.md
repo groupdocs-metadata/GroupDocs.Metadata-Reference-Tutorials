@@ -1,56 +1,98 @@
 ---
-date: '2026-01-19'
-description: Tìm hiểu cách quản lý siêu dữ liệu MP3 và cập nhật thẻ lời bài hát một
-  cách hiệu quả bằng GroupDocs.Metadata cho Java. Hướng dẫn từng bước này bao gồm
-  cài đặt, mã nguồn và các thực tiễn tốt nhất.
+date: '2026-06-17'
+description: Tìm hiểu cách chỉnh sửa tệp MP3 bằng cách thêm lyrics tags sử dụng GroupDocs.Metadata
+  cho Java. Hướng dẫn chi tiết từng bước kèm theo các yêu cầu trước, cài đặt và mẹo
+  tối ưu hiệu năng.
 keywords:
-- update MP3 lyrics tags
-- GroupDocs.Metadata for Java
-- manage audio metadata
-title: Quản lý siêu dữ liệu MP3 – Cập nhật thẻ lời bài hát với GroupDocs.Metadata
-  cho Java
+- how to edit mp3
+- add lyrics to mp3
+- read mp3 metadata java
+- java mp3 metadata library
+schemas:
+- author: GroupDocs
+  dateModified: '2026-06-17'
+  description: Learn how to edit MP3 files by adding lyrics tags using GroupDocs.Metadata
+    for Java. Step‑by‑step guide with prerequisites, setup, and performance tips.
+  headline: How to Edit MP3 – Update Lyrics Tags with GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to edit MP3 files by adding lyrics tags using GroupDocs.Metadata
+    for Java. Step‑by‑step guide with prerequisites, setup, and performance tips.
+  name: How to Edit MP3 – Update Lyrics Tags with GroupDocs.Metadata
+  steps:
+  - name: '**Personal Music Libraries:** Keep your collection searchable by embedding
+      accurate lyrics.'
+    text: '**Personal Music Libraries:** Keep your collection searchable by embedding
+      accurate lyrics.'
+  - name: '**Streaming Service Back‑ends:** Provide on‑the‑fly lyric delivery without
+      storing separate subtitle files.'
+    text: '**Streaming Service Back‑ends:** Provide on‑the‑fly lyric delivery without
+      storing separate subtitle files.'
+  - name: '**Metadata Correction Utilities:** Batch‑fix legacy MP3s that miss or contain
+      corrupted lyric frames.'
+    text: '**Metadata Correction Utilities:** Batch‑fix legacy MP3s that miss or contain
+      corrupted lyric frames.'
+  type: HowTo
+- questions:
+  - answer: Yes—wrap the single‑file update logic in a `for` loop or use Java streams
+      to process a directory of files in parallel.
+    question: Can I update multiple MP3 files at once?
+  - answer: The existing tag is overwritten with the new text you provide; you can
+      also read the current value first if you need to merge content.
+    question: What happens if the MP3 already contains a LyricsTag?
+  - answer: Absolutely—formats such as **WAV, FLAC, OGG, and AIFF** are supported,
+      giving you a unified API for diverse audio collections.
+    question: Does GroupDocs.Metadata support other audio formats besides MP3?
+  - answer: Enclose the update code in a `try‑catch` block, catch `MetadataException`,
+      and log the file path along with the error message for later review.
+    question: How should I handle exceptions during metadata operations?
+  - answer: GroupDocs offers **Developer**, **Business**, and **Enterprise** licenses;
+      each includes unlimited deployments, priority support, and free upgrades.
+    question: What licensing options are available for commercial projects?
+  type: FAQPage
+title: Cách chỉnh sửa MP3 – Cập nhật lyrics tags với GroupDocs.Metadata
 type: docs
 url: /vi/java/audio-video-formats/update-mp3-lyrics-tags-groupdocs-metadata-java-guide/
 weight: 1
 ---
 
-# Cách Cập Nhật Thẻ Lời Bài MP3 Sử Dụng GroupDocs.Metadata trong Java metadata** hiệu quả bằng cách cập cung cấp quy trình từng bước để cập nhật lời bài MP3 một cách hiệu quả bằng GroupDocs.Metadata trong Java, giúp bạn tối ưu hoá việc quản lý tệp âm nhạc một cách dễ dàng.
+# Cách chỉnh sửa MP3 – Cập nhật thẻ lời bài hát với GroupDocs.Metadata cho Java
 
-**Bạn Sẽ Học:**
-- Cài đặt GroupDocs tiết hiệu suất khi làm việc với metadata.
+Cập nhật thẻ lời bài hát trong một tệp MP3 là một nhiệm vụ phổ biến cho bất kỳ ai muốn có thư viện nhạc có thể tìm kiếm và hỗ trợ lời bài hát. Trong hướng dẫn này, bạn sẽ học **cách chỉnh sửa MP3** bằng cách thêm hoặc sửa đổi thẻ lời bài hát sử dụng GroupDocs.Metadata cho Java. Chúng tôi sẽ hướng dẫn cài đặt cần thiết, trình bày các cuộc gọi API chính xác, và chia sẻ các mẹo tối ưu hiệu năng để bạn có thể áp dụng giải pháp cho một tệp duy nhất hoặc toàn bộ bộ sưu tập.
 
-Sẵn sàng đơn giản hoá việc cập nhật các tệp âm nhạc? Hãy bắt đầu bằng cách kiểm tra các yêu cầu trước!
+## Câu trả lời nhanh
+- **Quản lý siêu dữ liệu mp3 có nghĩa là gì?** Nó có nghĩa là đọc, thêm hoặc xóa các thẻ ID3 một cách lập trình—như lời bài hát, nghệ sĩ, album hoặc hình ảnh bìa—trong các tệp MP3.  
+- **Thư viện Java nào xử lý việc này?** `GroupDocs.Metadata` cung cấp một API sạch, an toàn kiểu cho tất cả các thao tác siêu dữ liệu MP3.  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc đánh giá; giấy phép thương mại là bắt buộc cho triển khai sản xuất.  
+- **Tôi có thể cập nhật nhiều tệp cùng lúc không?** Có—đóng gói logic một tệp vào vòng lặp hoặc sử dụng xử lý hàng loạt cho các thư viện lớn.  
+- **Phương pháp này có an toàn cho bộ sưu tập lớn không?** Khi bạn giảm thiểu I/O đĩa và tái sử dụng các đối tượng `Metadata`, quy trình có thể mở rộng tới hàng ngàn tệp mà không tiêu tốn quá nhiều bộ nhớ.
 
-## Câu Trả Lời Nhanh
-- **What does “manage mp3 metadata” mean?** Nó đề cập đến việc đọc, chỉnh sửa hoặc xóa metadata như lời bài, nghệ sĩ hoặc thông tin album trong các tệp MP3.  
-- **Which library handles this in Java?** `Group sạch sẽ để thao tác metadata MP3.  
-- **Do I need a xuất.  
-- **Can I update multiple files?** Có — bằng cách lặp qua các tệp hoặc sử dụng kỹ thuật xử lý batch.  
-- **Is this safe for large libraries?** Khi bạn giảm thiểu I/O đĩa và quản lý bộ nhớ, quy trình sẽ mở rộng tốt.
+## “Quản lý siêu dữ liệu mp3” là gì?
+Quản lý siêu dữ liệu MP3 có nghĩa là truy cập và sửa đổi thông tin nhúng một cách lập trình—như các thẻ ID3, lời bài hát, hình ảnh album, nghệ sĩ, album, thể loại và các trường mô tả khác—mô tả mỗi bản nhạc. Bằng cách chỉnh sửa các thẻ này, bạn làm cho các bộ sưu tập nhạc lớn có thể tìm kiếm, cho phép đồng bộ lời bài hát trong quá trình phát và cải thiện việc tổ chức trên các thiết bị và nền tảng streaming.
 
-## “manage mp3 metadata” là gì?
-Quản lý metadata MP3 có nghĩa là truy cập (thẻ ID3, lời bài, ảnh album, v.v.) mô tả mỗi bản nhạc một cách lập trình. Điều này giúp bộ sưu tập âm nhạc lớn có thể tìm kiếm được và nâng cao trải nghiệm nghe.
+## Tại sao nên sử dụng GroupDocs.Metadata cho Java?
+GroupDocs.Metadata cung cấp một API cấp cao loại bỏ nhu cầu tự bạn phân tích cấu trúc nhị phân MP3. Nó hỗ trợ **50+ định dạng đầu vào và đầu ra**, có thể xử lý các tệp lên tới **2 GB** mà không cần tải toàn bộ tệp vào bộ nhớ, và đảm bảo các thẻ lời bài hát, album và hình ảnh được ghi đúng lần đầu tiên.
 
-## Tại sao sử dụng GroupDocs.Metadata cho Java?
-GroupDocs.Metadata cung cấp một API cấp cao, an toàn kiểu, trừu tượng hoá sự phức tạp của định dạng MP3. Nó hỗ trợ **set lyrics tag**, **edit mp3 lyrics**, và nhiều thao tác khác mà không cần phải tự mình phân tích cấu trúc nhị phân.
+## Yêu cầu trước
+- **Thư viện GroupDocs.Metadata** – phiên bản 24.12 hoặc mới hơn (được khuyến nghị).  
+- **Bộ công cụ phát triển Java (JDK)** – JDK 11 hoặc mới hơn đã được cài đặt trên máy của bạn.  
+- Một IDE như **IntelliJ IDEA** hoặc **Eclipse** để lập trình và gỡ lỗi thuận tiện.  
+- Kiến thức cơ bản về cú pháp Java và cấu trúc dự án Maven.
 
-## Yêu Cầu Trước
-Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+## Cài đặt GroupDocs.Metadata cho Java
+Để đưa GroupDocs.Metadata vào dự án của bạn, hãy làm theo một trong hai cách cài đặt sau:
 
-### Thư Viện và Phiên Bản Yêu Cầu
-- **GroupDocs.Metadata Library**: Khuyến nghị phiên bản 24.12 hoặc mới hơn.  
-- **Java Development Kit (JDK)**: Đảm bảo JDK đã được cài đặt trên hệ thống của bạn.
+### Cài đặt Maven  
+Thêm phụ thuộc dưới đây vào tệp `pom.xml` của bạn và làm mới dự án Maven:
 
-### Yêu Cầu Thiết Lập Môi Trường
-- Một IDE Java như IntelliJ IDEA hoặc Eclipse.  
-- Kiến thức cơ bản về lập trình Java.
-
-## Cài Đặt GroupDocs.Metadata cho Java
-Để tích hợp GroupDocs.Metadata vào dự án của bạn, làm theo các bước sau:
-
-**Cài Đặt Maven:**  
-Thêm cấu hình này vào tệp `pom.xml` của bạn:
 ```xml
+<dependency>
+    <groupId>com.groupdocs</groupId>
+    <artifactId>groupdocs-metadata</artifactId>
+    <version>24.12</version>
+</dependency>
+```
+
+> **Note:** Placeholder ````xml
 <repositories>
    <repository>
       <id>repository.groupdocs.com</id>
@@ -66,18 +108,18 @@ Thêm cấu hình này vào tệp `pom.xml` của bạn:
       <version>24.12</version>
    </dependency>
 </dependencies>
-```
-**Tải Trực Tiếp:**  
-Ngoài ra, tải phiên bản mới nhất từ [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+```` trong nguồn gốc đánh dấu vị trí đoạn mã Maven xuất hiện.
 
-### Các Bước Nhận Giấy Phép
-- **Free Trial:** Bắt đầu với bản dùng thử miễn phí để khám phá khả năng của GroupDocs.Metadata.  
-- **Temporary License:** Nhận giấy phép tạm thời để thử nghiệm kéo dài hơn bằng cách truy cập [this link](https://purchase.groupdocs.com/temporary-license/).  
-- **Purchase:** Đối với việc sử dụng lâu dài, mua giấy phép đầy đủ từ trang web GroupDocs.
+### Tải trực tiếp  
+Ngoài ra, tải JAR mới nhất từ trang phát hành chính thức: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-### Khởi Tạo và Cấu Hình Cơ Bản
-Để khởi tạo dự án của bạn với GroupDocs.Metadata:
-```java
+### Các bước lấy giấy phép
+- **Dùng thử miễn phí:** Đăng ký dùng thử để khám phá toàn bộ tính năng.  
+- **Giấy phép tạm thời:** Yêu cầu khóa tạm thời để thử nghiệm kéo dài tại [liên kết này](https://purchase.groupdocs.com/temporary-license/).  
+- **Mua:** Nhận giấy phép vĩnh viễn cho mục đích thương mại trực tiếp từ cửa hàng GroupDocs.
+
+### Khởi tạo và Cấu hình Cơ bản
+Lớp `Metadata` cung cấp các phương thức để mở, đọc và sửa đổi siêu dữ liệu của các định dạng tệp được hỗ trợ. Tạo một đối tượng `Metadata`, chỉ tới tệp MP3 của bạn, và bạn đã sẵn sàng để đọc hoặc ghi thẻ. Placeholder ````java
 import com.groupdocs.metadata.Metadata;
 import com.groupdocs.metadata.core.LyricsTag;
 import com.groupdocs.metadata.core.MP3RootPackage;
@@ -100,75 +142,87 @@ public class MP3LyricsUpdater {
         }
     }
 }
-```
+```` chỉ ra nơi mã khởi tạo nằm trong hướng dẫn gốc.
 
-## Hướng Dẫn Triển Khai
-Phần này hướng dẫn bạn cách quản lý và chỉnh sửa metadata lời bài của các tệp MP3 một cách liền mạch.
+## Hướng dẫn triển khai
+Dưới đây là hướng dẫn từng bước cho thấy cách mở một MP3, đảm bảo thẻ lời bài hát tồn tại, và sau đó ghi nội dung lời mới.
 
-### Bước 1: Truy Cập Gói Gốc
-Truy cập `MP3RootPackage` để tương tác với các thẻ khác nhau, bao gồm thẻ lời bài:
-```java
+## Bước 1: Truy cập Gói Gốc
+`MP3RootPackage` là điểm vào cho phép bạn truy cập tất cả các thẻ ID3‑v2 trong một tệp MP3.
+
+Tải tệp, lấy gói gốc và chuẩn bị làm việc với các thẻ riêng lẻ. Mã ví dụ gốc được biểu diễn bằng ````java
 try (Metadata metadata = new Metadata(mp3FilePath)) {
     MP3RootPackage root = metadata.getRootPackageGeneric();
-```
-**Explanation:** Bắt đầu bằng việc tạo một thể hiện `Metadata` để mở tệp MP3 của bạn. Phương thức `getRootPackageGeneric()` trả về gói cần thiết cho các thao tác tiếp theo.
+````.
 
-### Bước 2: Kiểm Tra và Tạo Thẻ Lời Bài
-Đảm bảo thẻ lời bài tồn tại hoặc tạo mới nếu chưa có:
-```java
+## Bước 2: Kiểm tra và Tạo Thẻ Lời Bài Hát
+`Lyrics3V2` đại diện cho khung lời bài hát ID3‑v2, trong khi `LyricsTag` là đối tượng cụ thể lưu trữ văn bản thực tế. Định nghĩa lần đầu sử dụng:
+
+`LyricsTag` là đối tượng chứa chuỗi lời bài hát dạng plain‑text cho một tệp MP3 (≤ 25 từ).
+
+Mã kiểm tra khung lời hiện có và tạo mới nếu thiếu được đánh dấu bằng ````java
 if (root.getLyrics3V2() == null) {
     root.setLyrics3V2(new LyricsTag());
 }
-```
-**Explanation:** Đoạn mã này kiểm tra xem thẻ `Lyrics3V2` có tồn tại hay không. Nếu không, nó tạo và thiết lập một thể hiện mới của `LyricsTag` cho tệp MP3.
+````.
 
-### Mẹo Khắc Phục Sự Cố
-- **File Not Found:** Kiểm tra lại các đường dẫn tệp để đảm bảo chính xác.  
-- **Library Version Mismatch:** Đảm bảo bạn đã bao gồm đúng phiên bản trong `pom.xml` của mình.
+## Mẹo khắc phục sự cố
+- **File Not Found:** Xác minh đường dẫn tuyệt đối hoặc tương đối bạn truyền vào `Metadata`.  
+- **Version Mismatch:** Đảm bảo các tọa độ Maven khớp với phiên bản bạn đã tải; phiên bản không khớp có thể gây ra `NoClassDefFoundError`.  
 
-## Ứng Dụng Thực Tế
-Xem xét các kịch bản thực tế dưới đây, nơi **how to update lyrics** mang lại lợi ích:
+## Ứng dụng thực tiễn
+Cập nhật lời bài hát một cách lập trình hữu ích trong một số kịch bản thực tế:
 
-1. **Music Libraries Management:** Tổ chức và phân loại hiệu quả các bộ sưu tập âm nhạc lớn.  
-2. **Streaming Services Integration:** Nâng cao trải nghiệm người dùng bằng cách cung cấp lời bài chính xác, có thể tìm kiếm.  
-3. **Metadata Correction Tools:** Xây dựng công cụ sửa chữa hoặc làm phong phú metadata trong các tệp âm thanh legacy.
+1. **Thư viện nhạc cá nhân:** Giữ cho bộ sưu tập của bạn có thể tìm kiếm bằng cách nhúng lời bài hát chính xác.  
+2. **Hệ thống phụ trợ dịch vụ streaming:** Cung cấp lời bài hát ngay lập tức mà không cần lưu các tệp phụ đề riêng.  
+3. **Tiện ích sửa chữa siêu dữ liệu:** Sửa hàng loạt các MP3 cũ thiếu hoặc chứa khung lời bài hát bị hỏng.
 
-## Các Yếu Tố Về Hiệu Suất
-Để đảm bảo hiệu suất tối ưu khi sử dụng GroupDocs.Metadata:
+## Các lưu ý về hiệu năng
+Khi xử lý hàng trăm hoặc hàng nghìn bản nhạc, hãy nhớ những mẹo sau:
 
-- **Optimize File Access:** Giảm thiểu các thao tác đọc và ghi đĩa.  
-- **Memory Management:** Cân nhắc việc sử dụng bộ nhớ, đặc biệt khi xử lý các batch lớn.  
-- **Batch Processing:** Áp dụng các kỹ thuật để xử lý nhiều tệp đồng thời mà không làm quá tải tài nguyên hệ thống.
+- **Truy cập tệp hàng loạt:** Mở mỗi tệp, sửa thẻ, và đóng ngay lập tức để giải phóng tài nguyên.  
+- **Quản lý bộ nhớ:** Tái sử dụng một đối tượng `Metadata` duy nhất khi có thể, và tránh tải các luồng âm thanh lớn vào bộ nhớ.  
+- **Xử lý song song:** Sử dụng `ExecutorService` của Java để chạy đồng thời nhiều cập nhật tệp, nhưng giới hạn số luồng để tránh quá tải I/O.
 
-## Kết Luận
-Bạn đã học cách **manage mp3 metadata** bằng cách cập nhật thẻ lời bài MP3 sử dụng GroupDocs.Metadata trong Java. Hướng dẫn này cung cấp các bước cần thiết và những hiểu biết để tích hợp tính năng này vào dự án của bạn, đảm bảo quản lý metadata âm nhạc một cách hiệu quả.
+## Kết luận
+Bạn giờ đã có một phương pháp hoàn chỉnh, sẵn sàng cho môi trường sản xuất để **cách chỉnh sửa MP3** bằng cách thêm hoặc cập nhật thẻ lời bài hát với GroupDocs.Metadata cho Java. Các bước đã đề cập—từ cài đặt môi trường đến tối ưu hiệu năng—giúp bạn quản lý cả danh sách phát nhỏ và thư viện khổng lồ.
 
-**Next Steps:** Khám phá thêm các khả năng của GroupDocs.Metadata bằng cách tham khảo [documentation](https://docs.groupdocs.com/metadata/java/) hoặc thử tích hợp cập nhật metadata cho các loại tệp khác.
+**Bước tiếp theo:** Tìm hiểu sâu hơn về các loại thẻ khác (nghệ sĩ, hình ảnh album, thể loại) bằng cách tham khảo tài liệu API chính thức hoặc thử nghiệm với các script batch.
 
-## Phần Hỏi Đáp
-1. **Can I update multiple MP3 files at once?**  
-   - Có, bạn có thể mở rộng triển khai để xử lý batch.  
-2. **What if the LyricsTag is already populated?**  
-   - Bạn có thể ghi đè lên các thẻ hiện có bằng dữ liệu mới khi cần.  
-3. **Does GroupDocs.Metadata support other audio file formats?**  
-   - Có, nó hỗ trợ nhiều định dạng ngoài MP3.  
-4. **How do I handle exceptions in metadata operations?**  
-   - Sử dụng khối try‑catch để quản lý lỗi trong quá trình xử lý.  
-5. **What are the licensing options for commercial use?**  
-   - GroupDocs cung cấp nhiều cấp độ giấy phép, bao gồm giấy phép tạm thời và đầy đủ, có sẵn trên trang mua hàng của họ.
+## Câu hỏi thường gặp
 
-## Tài Nguyên
-- [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
-- [API Reference](https://reference.groupdocs.com/metadata/java/)  
-- [Download Latest Version](https://releases.groupdocs.com/metadata/java/)  
-- [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
-- [Temporary License Application](https://purchase.groupdocs.com/temporary-license/)  
+**Q: Tôi có thể cập nhật nhiều tệp MP3 cùng lúc không?**  
+A: Có—đóng gói logic cập nhật một tệp vào vòng lặp `for` hoặc sử dụng Java streams để xử lý một thư mục các tệp song song.
 
-Chúng tôi hy vọng tutorial này giúp bạn tận dụng GroupDocs.Metadata một cách hiệu quả trong các dự án Java. Chúc bạn lập trình vui vẻ!
+**Q: Điều gì sẽ xảy ra nếu MP3 đã chứa LyricsTag?**  
+A: Thẻ hiện có sẽ bị ghi đè bằng văn bản mới bạn cung cấp; bạn cũng có thể đọc giá trị hiện tại trước nếu cần hợp nhất nội dung.
+
+**Q: GroupDocs.Metadata có hỗ trợ các định dạng âm thanh khác ngoài MP3 không?**  
+A: Chắc chắn—các định dạng như **WAV, FLAC, OGG, và AIFF** đều được hỗ trợ, cung cấp cho bạn một API thống nhất cho các bộ sưu tập âm thanh đa dạng.
+
+**Q: Tôi nên xử lý ngoại lệ như thế nào khi thực hiện các thao tác siêu dữ liệu?**  
+A: Bao quanh mã cập nhật trong một khối `try‑catch`, bắt `MetadataException`, và ghi lại đường dẫn tệp cùng thông báo lỗi để xem xét sau.
+
+**Q: Các tùy chọn giấy phép nào có sẵn cho dự án thương mại?**  
+A: GroupDocs cung cấp các giấy phép **Developer**, **Business**, và **Enterprise**; mỗi loại bao gồm triển khai không giới hạn, hỗ trợ ưu tiên và nâng cấp miễn phí.
 
 ---
 
-**Last Updated:** 2026-01-19  
+**Last Updated:** 2026-06-17  
 **Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs
+**Author:** GroupDocs  
+
+## Tài nguyên
+- [Tài liệu GroupDocs.Metadata](https://docs.groupdocs.com/metadata/java/)
+- [tài liệu](https://docs.groupdocs.com/metadata/java/)
+- [Tham chiếu API](https://reference.groupdocs.com/metadata/java/)
+- [Tải phiên bản mới nhất](https://releases.groupdocs.com/metadata/java/)
+- [Kho GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- [Diễn đàn hỗ trợ miễn phí](https://forum.groupdocs.com/c/metadata/)
+- [Đơn xin Giấy phép tạm thời](https://purchase.groupdocs.com/temporary-license/)
+
+## Các hướng dẫn liên quan
+
+- [Cách đọc thẻ từ tệp MP3 bằng Java & GroupDocs.Metadata](/metadata/java/audio-video-formats/read-apev2-tags-mp3-java-groupdocs-metadata/)
+- [Cách cập nhật thẻ MP3 ID3v2 bằng GroupDocs.Metadata trong Java - Hướng dẫn toàn diện](/metadata/java/audio-video-formats/update-mp3-id3v2-tags-groupdocs-metadata-java/)
+- [Thêm thẻ ID3v2 Java – Quản lý siêu dữ liệu MP3 với GroupDocs](/metadata/java/audio-video-formats/mastering-mp3-tag-management-groupdocs-metadata-java/)

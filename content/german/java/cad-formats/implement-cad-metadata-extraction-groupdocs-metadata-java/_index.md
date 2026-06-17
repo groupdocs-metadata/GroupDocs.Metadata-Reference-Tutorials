@@ -1,7 +1,7 @@
 ---
-date: '2026-01-08'
-description: Erfahren Sie, wie Sie GroupDocs verwenden, um CAD‑Metadaten mühelos in
-  Java mit GroupDocs.Metadata zu extrahieren. Schritt‑für‑Schritt‑Anleitung für Entwickler.
+date: '2026-03-17'
+description: Lernen Sie, wie Sie GroupDocs verwenden, um CAD‑Metadaten in Java mühelos
+  mit GroupDocs.Metadata zu extrahieren. Schritt‑für‑Schritt‑Anleitung für Entwickler.
 keywords:
 - CAD metadata extraction Java
 - GroupDocs.Metadata library
@@ -14,33 +14,36 @@ weight: 1
 
 # So verwenden Sie GroupDocs zum Extrahieren von CAD-Metadaten in Java
 
-In modernen Ingenieur- und Design-Workflows ist die Möglichkeit, **GroupDocs zu verwenden** zum Lesen von CAD-Metadaten, ein enormer Produktivitätsschub. Egal, ob Sie die Dokumenten‑Eigentümerschaft prüfen, Namenskonventionen durchsetzen oder Metadaten in ein Dokumenten‑Management‑System einspeisen müssen – das Extrahieren nativer Eigenschaften aus DWG-, DWF- oder DXF‑Dateien wird mit der GroupDocs.Metadata‑Bibliothek für Java mühelos. Dieses Tutorial führt Sie durch alles, was Sie benötigen – von der Einrichtung der Bibliothek bis zum Auslesen von Autorennamen, Erstellungsdaten und Versionsinformationen – damit Sie die Metadatenextraktion direkt in Ihre Java‑Anwendungen integrieren können.
+Wenn Sie **CAD-Metadaten in Java** schnell und zuverlässig extrahieren müssen, sind Sie hier genau richtig. In modernen Ingenieur‑ und Design‑Workflows kann das Auslesen nativer Eigenschaften wie Autor, Version und Zeitstempel aus DWG-, DWF‑ oder DXF‑Dateien Stunden manueller Arbeit sparen. Dieses Tutorial führt Sie durch alles, was Sie benötigen – von der Installation des GroupDocs.Metadata‑SDK bis zum Lesen der gängigsten CAD‑Metadatenfelder – sodass Sie die Lösung direkt in Ihre Java‑Anwendungen einbetten können.
 
-## Schnelle Antworten
-- **Welche Bibliothek ist am besten für CAD‑Metadaten?** GroupDocs.Metadata für Java  
+## Schnellantworten
+- **Welche Bibliothek ist am besten für CAD-Metadaten?** GroupDocs.Metadata for Java  
 - **Welche Java‑Version wird benötigt?** JDK 8 oder höher  
-- **Benötige ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Evaluierung; eine Lizenz ist für die Produktion erforderlich  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Evaluierung; für die Produktion ist eine Lizenz erforderlich  
 - **Kann ich mehrere Eigenschaften gleichzeitig extrahieren?** Ja, verwenden Sie die `CadRootPackage`‑API, um auf alle nativen Felder zuzugreifen  
-- **Ist sie für große Stapel geeignet?** Ja, bei richtiger Ressourcenverwaltung und selektiver Eigenschaftsextraktion  
+- **Ist es für große Stapel geeignet?** Ja, bei richtiger Ressourcenverwaltung und selektivem Extrahieren von Eigenschaften  
+
+## So extrahieren Sie CAD-Metadaten in Java mit GroupDocs
+Im Folgenden finden Sie einen prägnanten, schrittweisen Fahrplan, der die grundlegende Initialisierung zu einem vollwertigen Extraktions‑Workflow ausbaut. Befolgen Sie jeden Schritt, und Sie erhalten ein wiederverwendbares Snippet, das in jedes Java‑Projekt eingefügt werden kann.
 
 ## Was ist GroupDocs.Metadata?
 GroupDocs.Metadata ist ein Java‑SDK, das eine einheitliche API zum Lesen, Schreiben und Verwalten von Metadaten über Hunderte von Dateiformaten hinweg bereitstellt – einschließlich CAD‑Dateien wie DWG, DWF und DXF. Es abstrahiert die Komplexität jedes Dateityps, sodass Sie sich auf die Geschäftslogik statt auf Dateiformat‑Eigenheiten konzentrieren können.
 
-## Warum GroupDocs für die CAD‑Metadaten‑Extraktion verwenden?
-- **Umfassende Formatunterstützung** – Unterstützt alle gängigen CAD‑Formate sofort einsatzbereit.  
+## Warum GroupDocs für die Extraktion von CAD‑Metadaten verwenden?
+- **Umfassende Formatunterstützung** – Unterstützt alle gängigen CAD‑Formate sofort.  
 - **Einfache API** – Einzeilige Aufrufe holen Autor, Version, Zeitstempel und benutzerdefinierte Eigenschaften.  
-- **Leistungsoptimiert** – Entwickelt, um effizient mit großen Dateien und Batch‑Operationen zu arbeiten.  
+- **Leistungsoptimiert** – Entwickelt, um effizient mit großen Dateien und Massenoperationen zu arbeiten.  
 - **Plattformübergreifend** – Funktioniert in jeder Java‑kompatiblen Umgebung, von Desktop‑Apps bis zu Cloud‑Diensten.  
 
 ## Voraussetzungen
 - **Java Development Kit (JDK)** 8 oder neuer.  
 - **IDE** wie Eclipse, IntelliJ IDEA oder VS Code.  
 - **Maven** (optional), falls Sie die Abhängigkeitsverwaltung über `pom.xml` bevorzugen.  
-- Grundlegende Kenntnisse der CAD‑Dateikonzepte (Layer, Blöcke usw.) sind hilfreich, aber nicht erforderlich.  
+- Grundlegende Kenntnisse der CAD‑Dateikonzepte (Layer, Blöcke usw.) sind hilfreich, aber nicht erforderlich.
 
 ## Einrichtung von GroupDocs.Metadata für Java
 ### Maven‑Einrichtung
-Fügen Sie das GroupDocs‑Repository und die Metadaten‑Abhängigkeit zu Ihrer `pom.xml` hinzu:
+Fügen Sie das GroupDocs‑Repository und die Metadata‑Abhängigkeit zu Ihrer `pom.xml` hinzu:
 
 ```xml
 <repositories>
@@ -61,15 +64,15 @@ Fügen Sie das GroupDocs‑Repository und die Metadaten‑Abhängigkeit zu Ihrer
 ```
 
 ### Direkter Download
-Wenn Sie die manuelle Einrichtung bevorzugen, laden Sie das neueste JAR von der offiziellen Release‑Seite herunter:  
-[GroupDocs.Metadata für Java Releases](https://releases.groupdocs.com/metadata/java/)
+Falls Sie die manuelle Einrichtung bevorzugen, laden Sie das neueste JAR von der offiziellen Release‑Seite herunter:  
+[GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)
 
 #### Schritte zum Erwerb einer Lizenz
 - **Kostenlose Testversion** – Erkunden Sie die Kernfunktionen ohne Lizenz.  
 - **Temporäre Lizenz** – Erhalten Sie einen zeitlich begrenzten Schlüssel für umfangreiche Tests.  
 - **Kauf** – Schalten Sie die volle Funktionalität und Premium‑Support für den Produktionseinsatz frei.
 
-### Grundlegende Initialisierung
+## Grundlegende Initialisierung
 Sobald die Bibliothek im Klassenpfad ist, erstellen Sie eine `Metadata`‑Instanz, die auf Ihre CAD‑Datei verweist:
 
 ```java
@@ -92,10 +95,11 @@ public class CadReadNativeMetadataProperties {
 }
 ```
 
-## So verwenden Sie GroupDocs für die CAD‑Metadaten‑Extraktion
-Im Folgenden finden Sie eine Schritt‑für‑Schritt‑Anleitung, die die grundlegende Initialisierung zu einem vollständigen Metadaten‑Lese‑Workflow erweitert.
+Dieses Snippet legt die Grundlage, um jede benötigte native CAD‑Eigenschaft zu lesen.
 
-### Schritt 1: Öffnen Sie die CAD‑Datei mit einem `Metadata`‑Objekt
+## Schritt‑für‑Schritt‑Anleitung
+
+### Schritt 1: Öffnen der CAD‑Datei mit einem `Metadata`‑Objekt
 ```java
 try (Metadata metadata = new Metadata("path/to/your/file.dwg")) {
     // Proceed to access the root package
@@ -109,8 +113,8 @@ cadRootPackage root = metadata.getRootPackageGeneric();
 ```
 *Warum?* Das `root`‑Objekt ist Ihr Zugang zu allen nativen CAD‑Eigenschaften, wie Version, Autor und Kommentaren.
 
-### Schritt 3: Gewünschte Eigenschaften extrahieren
-Sie können jede vom `CadPackage` bereitgestellte Eigenschaft auslesen. Hier sind die gebräuchlichsten:
+### Schritt 3: Gewünschte Eigenschaften extrahieren  
+Sie können jede vom `CadPackage` bereitgestellte Eigenschaft auslesen. Hier sind die gängigsten:
 
 #### AutoCAD‑Version abrufen
 ```java
@@ -138,21 +142,21 @@ System.out.println(root.getCadPackage().getComments());
 - Gibt eine Eigenschaft `null` zurück, enthält die Quelldatei dieses Metadatenfeld einfach nicht.
 
 ## Praktische Anwendungsfälle
-1. **Dokumenten‑Management‑Systeme** – Dateien automatisch nach Autor oder Erstellungsdatum taggen.  
-2. **Versionskontrolle** – Inkonsistente AutoCAD‑Versionen vor dem Commit erkennen.  
-3. **Regulatorische Konformität** – Erforderliche Metadaten für rechtliche oder branchenspezifische Standards exportieren.
+1. **Document Management Systeme** – Dateien automatisch nach Autor oder Erstellungsdatum taggen.  
+2. **Versionskontrolle** – Erkennen Sie nicht übereinstimmende AutoCAD‑Versionen, bevor Änderungen committet werden.  
+3. **Regulatorische Konformität** – Exportieren Sie erforderliche Metadaten für rechtliche oder branchenspezifische Standards.  
 
 ## Leistungsüberlegungen
-- **Selektive Extraktion** – Nur die benötigten Felder auslesen, um I/O‑Overhead zu reduzieren.  
-- **Batch‑Verarbeitung** – Wiederverwenden einer einzelnen `Metadata`‑Instanz beim Durchlaufen vieler Dateien, jedoch nach jeder Datei schließen.  
-- **Caching** – Häufig abgefragte Metadaten in einem leichten Cache speichern, wenn wiederholte Abfragen nötig sind.
+- **Selektives Extrahieren** – Ziehen Sie nur die Felder, die Sie benötigen, um den I/O‑Overhead zu reduzieren.  
+- **Batch‑Verarbeitung** – Verwenden Sie eine einzelne `Metadata`‑Instanz beim Durchlaufen vieler Dateien, schließen Sie sie jedoch nach jeder Datei.  
+- **Caching** – Speichern Sie häufig abgefragte Metadaten in einem leichten Cache, wenn wiederholte Abfragen nötig sind.
 
 ## Fazit
-Sie wissen jetzt, **wie Sie GroupDocs** zum Lesen nativer CAD‑Metadaten in Java verwenden, von der Einrichtung des SDK bis zum Extrahieren spezifischer Eigenschaften wie Autor, Version und Kommentare. Integrieren Sie diese Code‑Snippets in größere Workflows – etwa automatisierte Dokument‑Ingest‑Pipelines oder Compliance‑Prüfungen – um den vollen Wert der bereits in Ihren CAD‑Assets eingebetteten Metadaten zu nutzen.
+Sie wissen jetzt, **wie Sie CAD‑Metadaten in Java** mit GroupDocs.Metadata extrahieren, von der Einrichtung des SDK bis zum Abrufen spezifischer Eigenschaften wie Autor, Version und Kommentare. Integrieren Sie diese Snippets in größere Workflows – etwa automatisierte Dokument‑Ingestion‑Pipelines oder Compliance‑Prüfungen – um den vollen Wert der bereits in Ihren CAD‑Assets eingebetteten Metadaten zu nutzen.
 
 ### Nächste Schritte
-- Experimentieren Sie mit dem Schreiben von Metadaten zurück in eine CAD‑Datei mittels der `set*`‑Methoden.  
-- Erkunden Sie die vollständige API‑Referenz für fortgeschrittene Szenarien wie die Handhabung benutzerdefinierter Eigenschaften.  
+- Experimentieren Sie mit dem Schreiben von Metadaten zurück in eine CAD‑Datei mithilfe der `set*`‑Methoden.  
+- Erkunden Sie die vollständige API‑Referenz für erweiterte Szenarien wie die Handhabung benutzerdefinierter Eigenschaften.  
 - Kombinieren Sie die Metadaten‑Extraktion mit anderen GroupDocs‑Produkten (z. B. GroupDocs.Viewer) für End‑zu‑End‑Dokumentlösungen.
 
 ## Häufig gestellte Fragen
@@ -162,7 +166,7 @@ A: Eine Java‑Bibliothek, die eine einheitliche API zum Lesen und Schreiben von
 **F: Kann ich GroupDocs.Metadata ohne Kauf einer Lizenz verwenden?**  
 A: Ja, eine kostenlose Testversion ermöglicht die Evaluierung der Kernfunktionen. Für den Produktionseinsatz ist eine Lizenz erforderlich.
 
-**F: Wie sollte ich sehr große CAD‑Dateien handhaben?**  
+**F: Wie gehe ich mit sehr großen CAD‑Dateien um?**  
 A: Extrahieren Sie nur die benötigten Eigenschaften, verwenden Sie try‑with‑resources zur Speicherverwaltung und erwägen Sie das Caching von Ergebnissen für wiederholte Zugriffe.
 
 **F: Welche häufigen Fehler treten beim Lesen von CAD‑Metadaten auf?**  
@@ -181,6 +185,6 @@ A: Absolut. Die einfache API kann aus jedem Java‑Projekt aufgerufen werden –
 
 ---
 
-**Zuletzt aktualisiert:** 2026-01-08  
+**Zuletzt aktualisiert:** 2026-03-17  
 **Getestet mit:** GroupDocs.Metadata 24.12  
 **Autor:** GroupDocs

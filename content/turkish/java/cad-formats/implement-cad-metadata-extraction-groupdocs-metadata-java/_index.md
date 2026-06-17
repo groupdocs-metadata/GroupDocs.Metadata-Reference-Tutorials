@@ -1,46 +1,49 @@
 ---
-date: '2026-01-08'
+date: '2026-03-17'
 description: GroupDocs'u kullanarak Java'da GroupDocs.Metadata ile CAD meta verilerini
-  zahmetsizce nasıl çıkaracağınızı öğrenin. Geliştiriciler için adım adım rehber.
+  zahmetsizce çıkarmayı öğrenin. Geliştiriciler için adım adım rehber.
 keywords:
 - CAD metadata extraction Java
 - GroupDocs.Metadata library
 - Java CAD metadata
-title: Java'da GroupDocs ile CAD Metaverisini Nasıl Çıkarılır
+title: Java'da CAD Metaverisini Çıkarmak için GroupDocs Nasıl Kullanılır
 type: docs
 url: /tr/java/cad-formats/implement-cad-metadata-extraction-groupdocs-metadata-java/
 weight: 1
 ---
 
-# Java’da CAD Metaverilerini Çıkarmak İçin GroupDocs Nasıl Kullanılır
+# GroupDocs'u Java'da CAD metadata'yı Çıkarmak İçin Nasıl Kullanılır
 
-Modern mühendislik ve tasarım iş akışlarında, CAD metaverilerini okumak için **GroupDocs'i nasıl kullanılır** bilmek büyük bir verimlilik artışı sağlar. Belge sahipliğini denetlemeniz, adlandırma kurallarını uygulamanız veya metaverileri bir belge yönetim sistemine beslemeniz gerektiğinde, DWG, DWF veya DXF dosyalarından yerel özellikleri çıkarmak, Java için GroupDocs.Metadata kütüphanesi sayesinde zahmetsiz olur. Bu öğretici, kütüphaneyi kurmaktan yazar adlarını, oluşturma tarihlerini ve sürüm bilgilerini çekmeye kadar ihtiyacınız olan her şeyi adım adım gösterir; böylece metaveri çıkarımını doğrudan Java uygulamalarınıza entegre edebilirsiniz.
+Eğer **extract cad metadata java** dosyalarını hızlı ve güvenilir bir şekilde çıkarmanız gerekiyorsa, doğru yerdesiniz. Modern mühendislik ve tasarım iş akışlarında, DWG, DWF veya DXF dosyalarından yazar, sürüm ve zaman damgaları gibi yerel özellikleri çekmek saatler süren manuel çalışmayı tasarruf ettirebilir. Bu öğretici, GroupDocs.Metadata SDK'sını kurmaktan en yaygın CAD metadata alanlarını okumaya kadar ihtiyacınız olan her şeyi adım adım gösterir—böylece çözümü doğrudan Java uygulamalarınıza entegre edebilirsiniz.
 
-## Hızlı Yanıtlar
-- **CAD metaverileri için en iyi kütüphane hangisidir?** GroupDocs.Metadata for Java  
+## Quick Answers
+- **CAD metadata için en iyi kütüphane hangisidir?** GroupDocs.Metadata for Java  
 - **Hangi Java sürümü gereklidir?** JDK 8 veya üzeri  
-- **Lisans gerekir mi?** Değerlendirme için ücretsiz deneme çalışır; üretim için lisans gereklidir  
-- **Birden fazla özelliği aynı anda çıkarabilir miyim?** Evet, tüm yerel alanlara erişmek için `CadRootPackage` API’sini kullanın  
-- **Büyük toplu işlemler için uygun mu?** Evet, doğru kaynak yönetimi ve seçici özellik çıkarımıyla  
+- **Bir lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için lisans gereklidir  
+- **Birden fazla özelliği aynı anda çıkarabilir miyim?** Evet, tüm yerel alanlara erişmek için `CadRootPackage` API'sini kullanın  
+- **Büyük toplular için uygun mu?** Evet, uygun kaynak yönetimi ve seçici özellik çıkarımıyla  
+
+## GroupDocs kullanarak CAD metadata java nasıl çıkarılır
+Aşağıda temel başlatmayı tam özellikli bir çıkarım iş akışına genişleten özlü bir adım‑adım yol haritası bulunmaktadır. Her adımı izleyin, ve herhangi bir Java projesine ekleyebileceğiniz yeniden kullanılabilir bir kod parçacığı elde edeceksiniz.
 
 ## GroupDocs.Metadata Nedir?
-GroupDocs.Metadata, yüzlerce dosya formatı – DWG, DWF ve DXF gibi CAD dosyaları dahil – üzerinde metaveri okuma, yazma ve yönetme için birleşik bir API sağlayan bir Java SDK’sıdır. Her dosya tipinin karmaşıklığını soyutlayarak iş mantığınıza odaklanmanızı, dosya‑formatı incelikleriyle uğraşmamanızı sağlar.
+GroupDocs.Metadata, yüzlerce dosya formatı—DWG, DWF ve DXF gibi CAD dosyaları da dahil—üzerinde metadata okuma, yazma ve yönetme için birleşik bir API sağlayan bir Java SDK'sıdır. Her dosya tipinin karmaşıklığını soyutlayarak iş mantığınıza odaklanmanızı, dosya‑formatı incelikleriyle uğraşmamanızı sağlar.
 
-## CAD Metaveri Çıkarma İçin Neden GroupDocs Kullanılır?
-- **Kapsamlı format desteği** – Tüm büyük CAD formatlarını kutudan çıkar çıkmaz destekler.  
-- **Basit API** – Tek satır çağrılarla yazar, sürüm, zaman damgaları ve özel özellikleri alır.  
+## Why Use GroupDocs for CAD Metadata Extraction?
+- **Kapsamlı format desteği** – Tüm büyük CAD formatlarını kutudan çıkar çıkmaz işler.  
+- **Basit API** – Tek satır çağrılar yazar, sürüm, zaman damgaları ve özel özellikleri alır.  
 - **Performans‑optimizeli** – Büyük dosyalar ve toplu işlemlerle verimli çalışacak şekilde tasarlanmıştır.  
-- **Çapraz‑platform** – Masaüstü uygulamalardan bulut hizmetlerine, Java‑uyumlu her ortamda çalışır.
+- **Çapraz‑platform** – Masaüstü uygulamalardan bulut hizmetlerine, Java uyumlu herhangi bir ortamda çalışır.  
 
-## Ön Koşullar
-- **Java Development Kit (JDK)** 8 veya daha yenisi.  
-- **IDE** – Eclipse, IntelliJ IDEA veya VS Code gibi.  
-- **Maven** (isteğe bağlı) – `pom.xml` üzerinden bağımlılık yönetimini tercih ederseniz.  
-- CAD dosyası kavramlarına (katmanlar, bloklar vb.) temel bir aşinalık faydalı ama zorunlu değildir.
+## Prerequisites
+- **Java Development Kit (JDK)** 8 veya daha yeni.  
+- **IDE** (Eclipse, IntelliJ IDEA veya VS Code gibi).  
+- **Maven** (isteğe bağlı) `pom.xml` üzerinden bağımlılık yönetimini tercih ederseniz.  
+- CAD dosya kavramlarına (katmanlar, bloklar vb.) temel aşinalık faydalıdır ancak zorunlu değildir.
 
-## GroupDocs.Metadata for Java Kurulumu
-### Maven Kurulumu
-GroupDocs deposunu ve metaveri bağımlılığını `pom.xml` dosyanıza ekleyin:
+## Setting Up GroupDocs.Metadata for Java
+### Maven Setup
+GroupDocs deposunu ve metadata bağımlılığını `pom.xml` dosyanıza ekleyin:
 
 ```xml
 <repositories>
@@ -60,17 +63,17 @@ GroupDocs deposunu ve metaveri bağımlılığını `pom.xml` dosyanıza ekleyin
 </dependencies>
 ```
 
-### Doğrudan İndirme
-Manuel kurulum tercih ediyorsanız, resmi sürüm sayfasından en yeni JAR’ı indirin:  
+### Direct Download
+Manuel kurulumu tercih ediyorsanız, resmi sürüm sayfasından en son JAR'ı indirin:  
 [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)
 
-#### Lisans Edinme Adımları
-- **Ücretsiz Deneme** – Lisans keşfedin.  
-- **Geçici Lisans** – Kapsamlı testler için zaman sınırlı bir anahtar alın.  
-- **Satın Alma** – Üretim kullanımında tam işlevsellik ve premium destek için kilidi açın.
+#### License Acquisition Steps
+- **Free Trial** – Lisans olmadan temel özellikleri keşfedin.  
+- **Temporary License** – Geniş testler için zaman sınırlı bir anahtar alın.  
+- **Purchase** – Üretim kullanımı için tam işlevselliği ve premium desteği açın.
 
-### Temel Başlatma
-Kütüphane sınıf yolunuza eklendikten sonra, CAD dosyanıza işaret eden bir `Metadata` örneği oluşturun:
+## Basic Initialization
+Kütüphane sınıf yolunuzda olduğunda, CAD dosyanıza işaret eden bir `Metadata` örneği oluşturun:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -94,86 +97,85 @@ public class CadReadNativeMetadataProperties {
 
 Bu kod parçacığı, ihtiyacınız olan herhangi bir yerel CAD özelliğini okumak için sahneyi hazırlar.
 
-## CAD Metaveri Çıkarma İçin GroupDocs Nasıl Kullanılır
-Aşağıda, temel başlatmayı tam bir metaveri‑okuma iş akışına genişleten adım‑adım bir rehber bulacaksınız.
+## Step‑by‑Step Guide
 
-### Adım 1: `Metadata` Nesnesi ile CAD Dosyasını Açın
+### Step 1: Open the CAD File with a `Metadata` Object
 ```java
 try (Metadata metadata = new Metadata("path/to/your/file.dwg")) {
     // Proceed to access the root package
 }
 ```
-*Neden?* Try‑with‑resources bloğu, dosya tanıtıcılarının hızlı bir şekilde serbest bırakılmasını garanti eder; bu, toplu dosya işleme sırasında çok önemlidir.
+*Why?* Using a try‑with‑resources block guarantees that file handles are released promptly, which is essential when processing many files in a batch.
 
-### Adım 2: `CadRootPackage`’ı Alın
+### Step 2: Retrieve the `CadRootPackage`
 ```java
 cadRootPackage root = metadata.getRootPackageGeneric();
 ```
-*Neden?* `root` nesnesi, sürüm, yazar ve yorumlar gibi tüm yerel CAD özelliklerine açılan kapınızdır.
+*Why?* The `root` object is your gateway to all native CAD properties, such as version, author, and comments.
 
-### Adım 3: İstenen Özellikleri Çıkarın
-`CadPackage` tarafından sunulan herhangi bir özelliği çekebilirsiniz. En yaygın olanlar şunlardır:
+### Step 3: Extract Desired Properties  
+Any property exposed by the `CadPackage` can be pulled out. Below are the most common ones:
 
-#### AutoCAD Sürümünü Alın
+#### Get AutoCAD Version
 ```java
 System.out.println(root.getCadPackage().getAcadVersion());
 ```
-*Neden?* AutoCAD sürümünü bilmek, dosyanın daha ileri işleme geçmeden önce dönüştürülmesi gerekip gerekmediğine karar vermenize yardımcı olur.
+*Why?* Knowing the AutoCAD version helps you decide if a file needs conversion before further processing.
 
-#### Yazar Adını Alın
+#### Get Author Name
 ```java
 System.out.println(root.getCadPackage().getAuthor());
 ```
-*Neden?* Yazar metaverisi, uyumluluk denetimleri ve atıf takibi için sıkça gereklidir.
+*Why?* Author metadata is often required for compliance audits and attribution tracking.
 
-#### Yorumları Alın
+#### Get Comments
 ```java
 System.out.println(root.getCadPackage().getComments());
 ```
-*Neden?* Yorumlar tasarım notları, revizyon detayları veya müşteri talimatları içerebilir.
+*Why?* Comments may contain design notes, revision details, or client instructions.
 
-> **İpucu:** `CreatedDateTime`, `HyperlinkBase` gibi diğer alanlar veya CAD dosyalarınızda tanımlı herhangi bir özel özellik için bu deseni tekrarlayın.
+> **Tip:** Continue this pattern for other fields such as `CreatedDateTime`, `HyperlinkBase`, or any custom property you have defined in your CAD files.
 
-#### Sorun Giderme İpuçları
+#### Troubleshooting Tips
 - CAD dosyasının bozuk olmadığını ve yolun doğru olduğunu doğrulayın.  
-- GroupDocs.Metadata sürümünün JDK’nizle eşleştiğinden emin olun (24.12, JDK 8+ ile çalışır).  
-- Bir özellik `null` dönerse, kaynak dosyada o metaveri alanı bulunmamaktadır.
+- GroupDocs.Metadata sürümünün JDK'nizle (24.12 JDK 8+ ile çalışır) eşleştiğinden emin olun.  
+- Bir özellik `null` dönerse, kaynak dosya o metadata alanını içermiyordur.
 
-## Pratik Uygulamalar
-1. **Belge Yönetim Sistemleri** – Dosyaları yazar veya oluşturma tarihine göre otomatik etiketleyin.  
-2. **Sürüm Kontrolü** – Değişiklik gönderilmeden önce uyumsuz AutoCAD sürümlerini tespit edin.  
-3. **Regülasyon Uyumu** – Yasal veya sektör standartları için gerekli metaverileri dışa aktarın.
+## Practical Applications
+1. **Document Management Systems** – Dosyaları yazar veya oluşturulma tarihine göre otomatik etiketleyin.  
+2. **Version Control** – Değişiklikleri göndermeden önce uyumsuz AutoCAD sürümlerini tespit edin.  
+3. **Regulatory Compliance** – Yasal veya sektör standartları için gerekli metadata'yı dışa aktarın.  
 
-## Performans Düşünceleri
-- **Seçici Çıkarma** – Gerekli alanları yalnızca çekerek I/O yükünü azaltın.  
-- **Toplu İşleme** – Birçok dosya arasında dönerken tek bir `Metadata` örneğini yeniden kullanın, ancak her dosyadan sonra mutlaka kapatın.  
-- **Önbellekleme** – Tekrarlanan erişimler için sık kullanılan metaverileri hafif bir önbellekte saklayın.
+## Performance Considerations
+- **Selective Extraction** – I/O yükünü azaltmak için yalnızca ihtiyacınız olan alanları çekin.  
+- **Batch Processing** – Birçok dosya üzerinde dönerken tek bir `Metadata` örneğini yeniden kullanın, ancak her dosyadan sonra mutlaka kapatın.  
+- **Caching** – Tekrarlanan sorgulamalar için sık erişilen metadata'yı hafif bir önbellekte saklayın.
 
-## Sonuç
-Artık **GroupDocs'i nasıl kullanılır** konusunda Java’da yerel CAD metaverilerini okuma, yazar, sürüm ve yorum gibi belirli özellikleri çıkarma konularında bilgi sahibisiniz. Bu kod parçacıklarını otomatik belge alım hatları veya uyumluluk kontrolleri gibi daha büyük iş akışlarına entegre ederek, CAD varlıklarınızda zaten gömülü olan metaverinin tam değerini ortaya çıkarabilirsiniz.
+## Conclusion
+Artık GroupDocs.Metadata kullanarak **how to extract cad metadata java** konusunu, SDK kurulumundan yazar, sürüm ve yorum gibi belirli özelliklerin alınmasına kadar biliyorsunuz. Bu kod parçacıklarını otomatik belge alım hatları veya uyumluluk kontrolleri gibi daha büyük iş akışlarına entegre ederek CAD varlıklarınıza gömülü metadata'nın tam değerini ortaya çıkarabilirsiniz.
 
-### Sonraki Adımlar
-- `set*` metodlarını kullanarak bir CAD dosyasına metaveri geri yazmayı deneyin.  
+### Next Steps
+- `set*` metodlarını kullanarak metadata'yı bir CAD dosyasına geri yazmayı deneyin.  
 - Özel özellik yönetimi gibi ileri senaryolar için tam API referansını keşfedin.  
-- Metaveri çıkarımını diğer GroupDocs ürünleri (ör. GroupDocs.Viewer) ile birleştirerek uç‑uç belge çözümleri oluşturun.
+- Metadata çıkarımını diğer GroupDocs ürünleri (ör. GroupDocs.Viewer) ile birleştirerek uçtan uca belge çözümleri oluşturun.
 
-## Sık Sorulan Sorular
+## Frequently Asked Questions
 **S: GroupDocs.Metadata nedir?**  
-C: CAD dosyaları dahil yüzlerce dosya formatı için metaveri okuma ve yazma sağlayan birleşik bir API sunan bir Java kütüphanesidir.
+C: Yüzlerce dosya formatı, CAD dosyaları dahil, üzerinde metadata okuma ve yazma için birleşik bir API sağlayan bir Java kütüphanesidir.
 
-**S: GroupDocs.Metadata’i lisans satın almadan kullanabilir miyim?**  
+**S: GroupDocs.Metadata'ı lisans satın almadan kullanabilir miyim?**  
 C: Evet, ücretsiz deneme temel özellikleri değerlendirmenize olanak tanır. Üretim ortamları için lisans gereklidir.
 
 **S: Çok büyük CAD dosyalarını nasıl yönetmeliyim?**  
-C: Sadece ihtiyaç duyulan özellikleri çıkarın, bellek yönetimi için try‑with‑resources kullanın ve tekrar eden erişimler için sonuçları önbelleğe almayı düşünün.
+C: Yalnızca ihtiyaç duyulan özellikleri çıkarın, bellek yönetimi için try‑with‑resources kullanın ve tekrar eden erişimler için sonuçları önbelleğe almayı düşünün.
 
-**S: CAD metaverisi okurken hangi yaygın hatalar ortaya çıkar?**  
-C: Dosya bozulması, kütüphane sürümü uyumsuzluğu veya eksik metaveri alanları (`null` dönen) tipik sorunlardır.
+**S: CAD metadata okurken hangi yaygın hatalar ortaya çıkar?**  
+C: Dosya bozulması, kütüphane sürümü uyumsuzluğu veya eksik metadata alanları (null döner) tipik sorunlardır.
 
 **S: Kütüphane mevcut Java uygulamalarıyla uyumlu mu?**  
-C: Kesinlikle. Basit API’si, masaüstü, sunucu veya bulut‑tabanlı herhangi bir Java projesinden çağrılabilir.
+C: Kesinlikle. Basit API'si masaüstü, sunucu veya bulut‑tabanlı herhangi bir Java projesinden çağrılabilir.
 
-## Kaynaklar
+## Resources
 - [Documentation](https://docs.groupdocs.com/metadata/java/)
 - [API Reference](https://reference.groupdocs.com/metadata/java/)
 - [Download](https://releases.groupdocs.com/metadata/java/)
@@ -183,6 +185,6 @@ C: Kesinlikle. Basit API’si, masaüstü, sunucu veya bulut‑tabanlı herhangi
 
 ---
 
-**Son Güncelleme:** 2026-01-08  
-**Test Edilen Sürüm:** GroupDocs.Metadata 24.12  
-**Yazar:** GroupDocs
+**Last Updated:** 2026-03-17  
+**Tested With:** GroupDocs.Metadata 24.12  
+**Author:** GroupDocs

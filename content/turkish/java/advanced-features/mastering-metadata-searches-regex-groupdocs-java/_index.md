@@ -1,46 +1,46 @@
 ---
-date: '2025-12-20'
-description: Java'da regex kullanarak GroupDocs.Metadata ile meta verileri verimli
+date: '2026-02-21'
+description: GroupDocs.Metadata kullanarak regex ile Java meta verilerini verimli
   bir şekilde nasıl arayacağınızı öğrenin. Belge yönetimini artırın, aramaları kolaylaştırın
   ve veri organizasyonunu iyileştirin.
 keywords:
 - metadata searches in Java
 - regex search metadata
 - GroupDocs.Metadata for Java
-title: GroupDocs.Metadata ile Java'da Regex Kullanarak Metaveri Nasıl Aranır
+title: Regex ve GroupDocs.Metadata kullanarak Java metadata nasıl aranır
 type: docs
 url: /tr/java/advanced-features/mastering-metadata-searches-regex-groupdocs-java/
 weight: 1
 ---
 
-# Java'da Regex Kullanarak GroupDocs.Metadata ile Metadata Arama
+# Java'da metadata arama Regex ile GroupDocs.Metadata
 
-Java uygulamalarınızda **metadata nasıl aranır** hızlı ve doğru bir şekilde merak ediyorsanız, doğru yerdesiniz. Bu öğreticide GroupDocs.Metadata'i düzenli ifadeler (regex) ile birlikte kullanarak belirli metadata özelliklerini nasıl bulacağınızı adım adım göstereceğiz—yazar, şirket veya herhangi bir özel etikete göre filtreleme ihtiyacınız olsun. Sonunda, herhangi bir belge‑işleme hattına ekleyebileceğiniz net, üretim‑hazır bir çözüm elde edeceksiniz.
+Java uygulamalarınızda **metadata java nasıl aranır** sorusuna hızlı ve doğru bir yanıt arıyorsanız, doğru yerdesiniz. Bu öğreticide GroupDocs.Metadata'i düzenli ifadeler (regex) ile birlikte kullanarak belirli metadata özelliklerini nasıl bulacağınızı göstereceğiz—yazar, şirket ya da herhangi bir özel etikete göre filtreleme ihtiyacınız olsun. Sonunda, herhangi bir belge‑işleme hattına ekleyebileceğiniz, üretim‑hazır bir çözüm elde edeceksiniz.
 
 ## Hızlı Yanıtlar
-- **Ana kütüphane nedir?** GroupDocs.Metadata for Java  
-- **Metadata bulmanıza yardımcı olan özellik nedir?** `Specification` aracılığıyla regex‑tabanlı arama  
-- **Lisans gerekli mi?** Ücretsiz deneme mevcuttur; üretim kullanımı için lisans gereklidir  
+- **Birincil kütüphane nedir?** GroupDocs.Metadata for Java  
+- **Metadata bulmayı sağlayan özellik nedir?** `Specification` aracılığıyla regex‑tabanlı arama  
+- **Lisans gerekli mi?** Ücretsiz deneme mevcuttur; üretim kullanımı için lisans gerekir  
 - **Herhangi bir belge türünde arama yapabilir miyim?** Evet, GroupDocs.Metadata PDF, Word, Excel, görüntüler ve daha fazlasını destekler  
-- **Gerekli Java sürümü nedir?** JDK 8 ve üzeri  
+- **Hangi Java sürümü gerekir?** JDK 8 ve üzeri  
 
-## Metadata arama nedir ve neden regex kullanılır?
+## metadata java arama nedir ve neden regex kullanılır?
 
-Metadata, bir dosyaya gömülü gizli niteliklerdir—yazar, oluşturulma tarihi, şirket vb. Bu nitelikleri düz metin eşlemesiyle aramak basit durumlar için işe yarar, ancak regex esnek desenler tanımlamanıza olanak sağlar (ör. “author*” veya “.*company.*”) ve böylece tek bir geçişte birden fazla ilgili özelliği bulabilirsiniz. Bu, manuel incelemenin mümkün olmadığı büyük belge depolarıyla çalışırken özellikle faydalıdır.
+Metadata, bir dosyaya gömülü gizli niteliklerdir—yazar, oluşturulma tarihi, şirket vb. Bu nitelikleri düz metin eşlemesiyle aramak basit durumlar için yeterli olabilir, ancak regex esnek desenler tanımlamanıza olanak tanır (ör. “author*” ya da “.*company.*”) ve tek bir geçişte birden fazla ilgili özelliği bulmanızı sağlar. Bu esneklik, binlerce belgeye sahip olduğunuzda metadata’yı hızlı ve sürdürülebilir bir şekilde sorgulamanız için kritiktir.
 
-## Ön Koşullar
+## Önkoşullar
 
-İlerlemeye başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-- **GroupDocs.Metadata for Java** sürüm 24.12 ve üzeri.  
-- Bağımlılık yönetimi için Maven kurulu.  
+- **GroupDocs.Metadata for Java** sürüm 24.12 veya daha yeni.  
+- Bağımlılık yönetimi için Maven kurulmuş.  
 - Java 8 + JDK ve IntelliJ IDEA veya Eclipse gibi bir IDE.  
-- Java ve düzenli ifadeler hakkında temel bilgi.  
+- Java ve düzenli ifadeler konusunda temel bilgi.
 
 ## GroupDocs.Metadata for Java Kurulumu
 
 ### Maven Kurulumu
-`pom.xml` dosyanıza aşağıdaki depo ve bağımlılığı ekleyin:
+`pom.xml` dosyanıza depo ve bağımlılığı ekleyin:
 
 ```xml
 <repositories>
@@ -61,11 +61,11 @@ Metadata, bir dosyaya gömülü gizli niteliklerdir—yazar, oluşturulma tarihi
 ```
 
 ### Doğrudan İndirme
-Maven kullanmak istemiyorsanız, en son JAR dosyasını doğrudan [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) adresinden indirebilirsiniz.
+Maven kullanmak istemiyorsanız, en yeni JAR dosyasını doğrudan [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) adresinden indirebilirsiniz.
 
 ### Lisans Edinme Adımları
 1. GroupDocs web sitesini ziyaret edin ve geçici bir deneme lisansı talep edin.  
-2. Sağlanan talimatları izleyerek lisans dosyasını Java projenize yükleyin—bu, tam API'yi açar.
+2. Lisans dosyasını Java projenize yüklemek için verilen talimatları izleyin—bu, tam API erişimini açar.
 
 ### Temel Başlatma
 Kütüphane sınıf yolunuza eklendikten sonra metadata ile çalışmaya başlayabilirsiniz:
@@ -74,13 +74,13 @@ Kütüphane sınıf yolunuza eklendikten sonra metadata ile çalışmaya başlay
 Metadata metadata = new Metadata("path/to/your/document");
 ```
 
-Artık belge metadata'sını aramak için regex desenleri uygulamaya hazırsınız.
+Artık regex desenlerini belge metadata’sını aramak için kullanmaya hazırsınız.
 
-## Uygulama Kılavuzu
+## regex deseniyle metadata java nasıl aranır
 
 ### Regex Desenini Tanımlama
 
-İlk adım, neyi eşleştirmek istediğinize karar vermektir. Örneğin, **author** veya **company** adlı özellikleri bulmak için şu deseni kullanabilirsiniz:
+İlk adım, neyi eşleyeceğinize karar vermektir. Örneğin, **author** veya **company** adlı özellikleri bulmak için şu deseni kullanabilirsiniz:
 
 ```java
 import java.util.regex.Pattern;
@@ -88,11 +88,11 @@ import java.util.regex.Pattern;
 Pattern pattern = Pattern.compile("author|company");
 ```
 
-> **Pro ipucu:** Metadata anahtarlarınız büyük/küçük harf farklılıkları gösterebiliyorsa, büyük/küçük harfe duyarsız bayrakları (`(?i)`) kullanın.
+> **İpucu:** Metadata anahtarlarınız büyük/küçük harf duyarlılığı gösterebileceği için `(?i)` bayrağını (case‑insensitive) kullanın.
 
 ### Specification ile Metadata Arama
 
-GroupDocs.Metadata, bir lambda ifadesi kabul eden `Specification` sınıfını sağlar. Lambda, her bir `MetadataProperty` nesnesini alır ve regex'inizi uygulamanıza izin verir:
+GroupDocs.Metadata, bir lambda ifadesi kabul eden `Specification` sınıfını sağlar. Lambda, her `MetadataProperty` nesnesini alır ve regex’inizi uygulamanıza izin verir:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -119,60 +119,60 @@ try (Metadata metadata = new Metadata("path/to/your/document")) {
 
 **Ana öğelerin açıklaması**
 
-| Element | Purpose |
-|---------|---------|
-| `Specification` | Özel lambda'nızı sarar, böylece kütüphane özellikleri nasıl filtreleyeceğini bilir. |
-| `pattern.matcher(property.getName()).find()` | Regex'i her bir özellik adına uygular. |
-| `findProperties(spec)` | Spec'i karşılayan tüm özelliklerin yalnızca okunabilir bir listesini döndürür. |
+| Öğe | Amaç |
+|-----|------|
+| `Specification` | Kütüphanenin özellikleri nasıl filtreleyeceğini bilen özel lambda’nızı sarar. |
+| `pattern.matcher(property.getName()).find()` | Regex’i her özellik adına uygular. |
+| `findProperties(spec)` | Spec’i karşılayan tüm özelliklerin salt‑okunur listesini döndürür. |
 
-Bu yaklaşımı, birden fazla specification'ı zincirleyerek (ör. adı *ve* değeriyle filtreleme) veya daha karmaşık regex desenleri oluşturarak genişletebilirsiniz.
+Bu yaklaşımı, birden fazla specification’ı zincirleyerek (ör. isim *ve* değer ile filtreleme) ya da daha karmaşık regex desenleri oluşturarak genişletebilirsiniz.
 
-### Aramayı Özelleştirme
+## Aramayı Özelleştirme ve Genişletme
 
-- **Belge metadata'sını** birden fazla terim için ara: `Pattern.compile("author|company|title")`  
-- **Wildcard kullan**: `Pattern.compile(".*date.*")` “date” içeren herhangi bir özelliği bulur.  
-- **Değer kontrolleriyle birleştir**: Lambda içinde, `property.getValue()`'ı başka bir desenle de karşılaştırın.
+- **Birden çok terim:** `Pattern.compile("author|company|title")`  
+- **Wildcard arama:** `Pattern.compile(".*date.*")` “date” içeren herhangi bir özelliği bulur.  
+- **Değer‑tabanlı filtreleme:** Lambda içinde `property.getValue()` ile başka bir desen karşılaştırarak daha derin aramalar yapabilirsiniz.
 
 ## Pratik Uygulamalar
 
 | Senaryo | Regex nasıl yardımcı olur |
-|----------|-----------------|
-| **Belge Yönetim Sistemleri** | Yazar veya departmana göre dosyaları kodlamadan otomatik sınıflandırır. |
-| **İçerik Filtreleme** | Toplu işleme başlamadan önce gerekli metadata'ya (ör. `company` etiketi olmayan) sahip olmayan dosyaları hariç tutar. |
-| **Dijital Varlık Yönetimi** | Birçok klasörde depolanmış belirli bir fotoğrafçının çektiği görüntüleri hızlıca bulur. |
+|----------|---------------------------|
+| **Belge Yönetim Sistemleri** | Yazar veya departmana göre dosyaları otomatik‑kategorize eder, her ismi tek tek kodlamazsınız. |
+| **İçerik Filtreleme** | Toplu işlem öncesinde gerekli metadata’ya (ör. `company` etiketi) sahip olmayan dosyaları dışarı çıkarır. |
+| **Dijital Varlık Yönetimi** | Çok sayıda klasörde saklanan belirli bir fotoğrafçının çektiği görüntüleri hızlıca bulur. |
 
 ## Performans Düşünceleri
 
 Binlerce dosya taranırken:
 
-1. **Regex kapsamını sınırlayın** – motorun her karakteri incelemesine neden olan `.*` gibi çok geniş desenlerden kaçının.  
-2. **Derlenmiş `Pattern` nesnelerini yeniden kullanın** – bir deseni derlemek maliyetlidir; aramayı tekrar tekrar yapıyorsanız statik tutun.  
-3. **Toplu işleme** – bellek kullanımını öngörülebilir tutmak için belgeleri gruplar halinde yükleyip arayın.  
-4. **JVM yığınını ayarlayın**; büyük taramalarda `OutOfMemoryError` alırsanız.
+1. **Regex kapsamını sınırlayın** – `.*` gibi çok geniş desenlerden kaçının; motorun her karakteri incelemesini engeller.  
+2. **Derlenmiş `Pattern` nesnelerini yeniden kullanın** – Desen derleme maliyetlidir; aramayı tekrar tekrar çağırıyorsanız nesneyi statik tutun.  
+3. **Toplu işleme** – Bellek kullanımını öngörülebilir tutmak için belgeleri gruplar halinde yükleyip arayın.  
+4. **JVM yığınını ayarlayın** – Büyük taramalarda `OutOfMemoryError` alırsanız yığını artırın.
 
-Bu ipuçlarını izlemek aramalarınızı hızlı tutar ve uygulamanızın kararlılığını sağlar.
+Bu ipuçlarını izleyerek aramalarınızı hızlı ve uygulamanızı stabil tutabilirsiniz.
 
-## Yaygın Sorunlar ve Çözümler
+## Yaygın Sorunlar & Çözümler
 
-- **Yanlış dosya yolu** – `new Metadata(...)` ile verdiğiniz yolun mevcut ve okunabilir bir dosyaya işaret ettiğinden emin olun.  
-- **Regex sözdizimi hataları** – Sorunları erken fark etmek için çevrimiçi bir test aracı veya `Pattern.compile` içinde try‑catch kullanın.  
-- **Eşleşme bulunamadı** – Filtre olmadan `metadata.getProperties()`'i yazdırarak özellik adlarını doğrulayın; bu, doğru deseni oluşturmanıza yardımcı olur.
+- **Yanlış dosya yolu** – `new Metadata(...)` içine verdiğiniz yolun mevcut ve okunabilir bir dosyaya işaret ettiğinden emin olun.  
+- **Regex sözdizimi hataları** – Çevrimiçi bir test aracı kullanın veya `Pattern.compile`’ı try‑catch bloğuna alarak hataları erken yakalayın.  
+- **Eşleşme bulunamadı** – Önce filtre olmadan `metadata.getProperties()` yazdırın; bu, hedefleyebileceğiniz kesin özellik adlarını gösterir.
 
-## SSS Bölümü
+## Sık Sorulan Sorular
 
 ### GroupDocs.Metadata for Java nasıl kurulur?
-**Kurulum** bölümünde verilen Maven kurulumu veya doğrudan indirme talimatlarını izleyin.
+**Setting Up** bölümünde verilen Maven kurulumu ya da doğrudan indirme talimatlarını izleyin.
 
-### Regex desenlerini diğer dosya türleriyle kullanabilir miyim?
+### Diğer dosya türleriyle regex desenleri kullanılabilir mi?
 Evet, GroupDocs.Metadata PDF, Word, Excel, görüntüler ve daha birçok formatı destekler. Desenin, ilgili dosya türünün metadata şemasına uygun olduğundan emin olun.
 
-### Regex desenim hiçbir özellikle eşleşmezse ne olur?
-Özellik adlarında yazım hataları, büyük/küçük harf duyarlılığı veya beklenmeyen boşlukları kontrol edin. Deseni basitleştirip bilinen bir özellikte test edin.
+### Regex desenim hiçbir özelliği eşleştirmiyorsa ne yapmalıyım?
+Yazım hatalarını, büyük/küçük harf duyarlılığını veya özellik adlarındaki beklenmedik boşlukları kontrol edin. Deseni basitleştirip bilinen bir özellik üzerinde test edin.
 
-### Büyük veri setlerini verimli bir şekilde nasıl yönetirim?
-Regex karmaşıklığını sınırlayın, derlenmiş desenleri yeniden kullanın ve belgeleri **Performans Düşünceleri** bölümünde açıklandığı gibi toplu işleyin.
+### Büyük veri setlerini verimli şekilde nasıl yönetirim?
+Regex karmaşıklığını sınırlayın, derlenmiş desenleri yeniden kullanın ve belgeleri **Performance Considerations** bölümünde açıklandığı gibi toplu işleyin.
 
-### Metadata aramaları için daha fazla örnek nerede bulunur?
+### Metadata aramalarıyla ilgili daha fazla örnek nerede bulunur?
 Ek kullanım senaryoları ve kod parçacıkları için [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/) adresini inceleyin.
 
 ## Kaynaklar
@@ -180,6 +180,6 @@ Ek kullanım senaryoları ve kod parçacıkları için [GroupDocs.Metadata Docum
 
 ---
 
-**Son Güncelleme:** 2025-12-20  
-**Test Edilen Versiyon:** GroupDocs.Metadata 24.12 for Java  
+**Son Güncelleme:** 2026-02-21  
+**Test Edilen Sürüm:** GroupDocs.Metadata 24.12 for Java  
 **Yazar:** GroupDocs

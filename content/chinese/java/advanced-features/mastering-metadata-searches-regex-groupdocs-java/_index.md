@@ -1,39 +1,51 @@
 ---
-date: '2025-12-20'
-description: 学习如何在 Java 中使用正则表达式和 GroupDocs.Metadata 高效搜索元数据。提升文档管理，简化搜索，改善数据组织。
+date: '2026-02-21'
+description: 学习如何使用 GroupDocs.Metadata 通过正则表达式高效搜索 Java 元数据。提升文档管理，简化搜索，改善数据组织。
 keywords:
 - metadata searches in Java
 - regex search metadata
 - GroupDocs.Metadata for Java
-title: 如何在 Java 中使用正则表达式和 GroupDocs.Metadata 搜索元数据
+title: 如何使用正则表达式在 Java 中搜索元数据（使用 GroupDocs.Metadata）
 type: docs
 url: /zh/java/advanced-features/mastering-metadata-searches-regex-groupdocs-java/
 weight: 1
 ---
 
-# 如何在 Java 中使用正则表达式与 GroupDocs.Metadata 搜索元数据
+Specification" is code, keep. We'll translate header cells.
 
-如果您想在 Java 应用程序中快速、准确地 **搜索元数据**，您来对地方了。在本教程中，我们将演示如何结合 GroupDocs.Metadata 和正则表达式（regex）来定位特定的元数据属性——无论您是需要按作者、公司或任何自定义标签进行过滤。完成后，您将拥有一个清晰、可用于生产环境的解决方案，能够直接嵌入任何文档处理流水线。
+Similarly other tables.
+
+Bullet lists: translate each bullet.
+
+Let's do.
+
+Also note "## Quick Answers" -> "## 快速答案". etc.
+
+Proceed.
+
+# 如何使用正则表达式在 GroupDocs.Metadata 中搜索 Java 元数据
+
+如果您想在 Java 应用程序中快速、准确地 **如何搜索 metadata java**，您来对地方了。在本教程中，我们将演示如何结合 GroupDocs.Metadata 与正则表达式（regex）来定位特定的元数据属性——无论是按作者、公司还是任何自定义标签进行过滤。完成后，您将拥有一个可直接嵌入任何文档处理流水线的生产就绪方案。
 
 ## 快速答案
 - **主要库是什么？** GroupDocs.Metadata for Java  
-- **哪个功能帮助您查找元数据？** Regex‑based search via `Specification`  
-- **我需要许可证吗？** A free trial is available; a license is required for production use  
-- **我可以搜索任何文档类型吗？** Yes, GroupDocs.Metadata supports PDFs, Word, Excel, images, and more  
-- **需要哪个 Java 版本？** JDK 8 or higher  
+- **哪个功能帮助您查找元数据？** 通过 `Specification` 实现的基于正则的搜索  
+- **需要许可证吗？** 提供免费试用；生产环境需要许可证  
+- **可以搜索所有文档类型吗？** 是的，GroupDocs.Metadata 支持 PDF、Word、Excel、图片等多种格式  
+- **需要哪个 Java 版本？** JDK 8 或更高  
 
-## 什么是元数据搜索以及为何使用正则表达式？
+## 什么是 search metadata java，为什么使用正则？
 
-元数据是嵌入文件中的隐藏属性——作者、创建日期、公司等。使用普通字符串匹配来搜索这些属性在简单情况下可行，但正则表达式允许您定义灵活的模式（例如 “author*” 或 “.*company.*”），从而在一次扫描中定位多个相关属性。当处理大型文档库且手动检查不可能时，这尤其有用。
+元数据是嵌入文件中的隐藏属性——作者、创建日期、公司等。使用普通字符串匹配可以处理简单情况，但正则允许您定义灵活的模式（例如 “author*” 或 “.*company.*”），从而在一次扫描中定位多个相关属性。当您拥有成千上万的文档并需要快速、可维护的查询方式时，这种灵活性尤为关键。
 
 ## 前置条件
 
-在深入之前，请确保您具备以下条件：
+在开始之前，请确保您具备以下条件：
 
-- **GroupDocs.Metadata for Java** 版本 24.12 或更高。  
+- **GroupDocs.Metadata for Java** 版本 24.12 或更高。  
 - 已安装 Maven 用于依赖管理。  
-- Java 8 以上的 JDK 和如 IntelliJ IDEA 或 Eclipse 的 IDE。  
-- 对 Java 和正则表达式有基本了解。  
+- Java 8 + JDK 和 IntelliJ IDEA 或 Eclipse 等 IDE。  
+- 对 Java 和正则表达式有基本了解。
 
 ## 设置 GroupDocs.Metadata for Java
 
@@ -59,26 +71,26 @@ weight: 1
 ```
 
 ### 直接下载
-如果您不想使用 Maven，也可以直接从 [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) 下载最新的 JAR。
+如果不想使用 Maven，可以直接从 [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) 下载最新的 JAR 包。
 
-### 获取许可证的步骤
-1. 访问 GroupDocs 网站并请求临时试用许可证。  
+### 许可证获取步骤
+1. 访问 GroupDocs 网站并申请临时试用许可证。  
 2. 按照提供的说明在 Java 项目中加载许可证文件——这将解锁完整 API。
 
 ### 基本初始化
-库加入类路径后，您即可开始使用元数据：
+库加入类路径后，即可开始使用元数据：
 
 ```java
 Metadata metadata = new Metadata("path/to/your/document");
 ```
 
-现在，您可以使用正则表达式模式来搜索文档元数据。
+现在，您可以使用正则模式搜索文档元数据了。
 
-## 实现指南
+## 如何使用正则模式搜索 metadata java
 
-### 定义正则表达式模式
+### 定义正则模式
 
-第一步是确定要匹配的内容。例如，要查找名称为 **author** 或 **company** 的属性，可以使用：
+第一步是确定要匹配的内容。例如，要查找名称为 **author** 或 **company** 的属性，可使用：
 
 ```java
 import java.util.regex.Pattern;
@@ -86,11 +98,11 @@ import java.util.regex.Pattern;
 Pattern pattern = Pattern.compile("author|company");
 ```
 
-> **技巧提示：** 如果元数据键的大小写可能不同，请使用不区分大小写的标志 (`(?i)`)。
+> **Pro tip:** 如果元数据键的大小写可能不一致，可使用不区分大小写的标志 (`(?i)`)。
 
 ### 使用 Specification 搜索元数据
 
-GroupDocs.Metadata 提供了一个接受 lambda 表达式的 `Specification` 类。该 lambda 接收每个 `MetadataProperty`，并允许您应用正则表达式：
+GroupDocs.Metadata 提供了 `Specification` 类，可接受 lambda 表达式。该 lambda 接收每个 `MetadataProperty`，并让您应用正则：
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -117,65 +129,60 @@ try (Metadata metadata = new Metadata("path/to/your/document")) {
 
 **关键元素说明**
 
-| 元素 | 目的 |
-|---------|---------|
-| `Specification` | 将您的自定义 lambda 包装起来，使库能够知道如何过滤属性。 |
-| `pattern.matcher(property.getName()).find()` | 将正则表达式应用于每个属性名称。 |
-| `findProperties(spec)` | 返回满足该规范的所有属性的只读列表。 |
+| 元素 | 用途 |
+|------|------|
+| `Specification` | 包装自定义 lambda，使库能够知道如何过滤属性。 |
+| `pattern.matcher(property.getName()).find()` | 将正则应用于每个属性名称。 |
+| `findProperties(spec)` | 返回满足该规范的只读属性列表。 |
 
-您可以通过链式多个 Specification（例如，按名称 *和* 值过滤）或构建更复杂的正则表达式模式来扩展此方法。
+您可以通过链式多个 Specification（例如同时按名称和数值过滤）或构建更复杂的正则模式来扩展此方法。
 
-### 自定义搜索
+## 定制与扩展搜索
 
-- **搜索文档元数据** 多个术语：`Pattern.compile("author|company|title")`  
-- **使用通配符**：`Pattern.compile(".*date.*")` 可查找包含 “date” 的任何属性。  
-- **结合值检查**：在 lambda 中，还可以将 `property.getValue()` 与另一个模式进行比较。  
+- **多个关键词：** `Pattern.compile("author|company|title")`  
+- **通配符搜索：** `Pattern.compile(".*date.*")` 可查找包含 “date” 的任何属性。  
+- **基于数值的过滤：** 在 lambda 中，还可以将 `property.getValue()` 与其他模式比较，以实现更深层次的搜索。
 
-## 实际应用
+## 实际应用场景
 
-| 场景 | 正则表达式的帮助 |
-|----------|-----------------|
+| 场景 | 正则的帮助 |
+|------|------------|
 | **文档管理系统** | 自动按作者或部门对文件进行分类，无需为每个名称硬编码。 |
-| **内容过滤** | 在批量处理之前排除缺少必需元数据（例如没有 `company` 标签）的文件。 |
-| **数字资产管理** | 快速定位存储在多个文件夹中由特定摄影师拍摄的图像。 |
+| **内容过滤** | 在批量处理前排除缺少必需元数据（如没有 `company` 标签）的文件。 |
+| **数字资产管理** | 快速定位存储在多个文件夹中的特定摄影师拍摄的图片。 |
 
 ## 性能考虑
 
-在扫描数千个文件时：
+在扫描成千上万的文件时：
 
-1. **限制正则表达式范围** – 避免使用过于宽泛的模式如 `.*`，因为它会迫使引擎检查每个字符。  
-2. **复用已编译的 `Pattern` 对象** – 编译模式成本高；如果重复调用搜索，请将其设为静态。  
-3. **批量处理** – 分组加载和搜索文档，以保持内存使用可预测。  
-4. **如果在大规模扫描期间遇到 `OutOfMemoryError`，请调整 JVM 堆大小。**  
+1. **限制正则范围** – 避免使用过于宽泛的模式如 `.*`，因为它会让引擎检查每个字符。  
+2. **复用已编译的 `Pattern` 对象** – 编译模式成本高，若频繁搜索请将其设为 static。  
+3. **批量处理** – 将文档分组加载并搜索，以保持内存使用可预测。  
+4. **调整 JVM 堆**，如果在大规模扫描时遇到 `OutOfMemoryError`。
 
-遵循这些提示可保持搜索快速且应用程序稳定。
+遵循这些技巧可保持搜索速度快且应用稳定。
 
 ## 常见问题与解决方案
 
-- **文件路径不正确** – 再次确认传递给 `new Metadata(...)` 的路径指向一个存在且可读的文件。  
-- **正则语法错误** – 使用在线测试工具或在 try‑catch 中使用 `Pattern.compile` 以提前发现问题。  
-- **未找到匹配项** – 通过打印 `metadata.getProperties()`（不使用过滤器）来验证属性名称；这有助于您制定正确的模式。  
+- **文件路径不正确** – 再次确认传递给 `new Metadata(...)` 的路径指向的是一个存在且可读的文件。  
+- **正则语法错误** – 使用在线测试工具或在 `Pattern.compile` 外层加 try‑catch 以提前捕获问题。  
+- **未找到匹配项** – 先在没有过滤条件的情况下打印 `metadata.getProperties()`，这可以显示可供定位的确切属性名称。
 
-## FAQ 部分
+## 常见问答
 
 ### 如何安装 GroupDocs.Metadata for Java？
+请参考 **设置** 部分提供的 Maven 配置或直接下载说明。
 
-请按照 **设置** 部分提供的 Maven 设置或直接下载说明进行操作。
+### 可以在其他文件类型上使用正则模式吗？
+可以，GroupDocs.Metadata 支持 PDF、Word、Excel、图片等多种格式。只需确保模式与特定文件类型的元数据结构相匹配。
 
-### 我可以在其他文件类型中使用正则表达式模式吗？
+### 如果我的正则模式没有匹配到任何属性怎么办？
+检查是否有拼写错误、大小写问题或属性名中存在意外空格。简化模式并在已知属性上进行测试。
 
-是的，GroupDocs.Metadata 支持 PDF、Word、Excel、图像等多种格式。只需确保模式与特定文件类型的元数据架构相匹配。
-
-### 如果我的正则表达式模式未匹配到任何属性怎么办？
-
-检查属性名称中是否有拼写错误、大小写敏感或意外的空白。简化模式并针对已知属性进行测试。
-
-### 如何高效处理大型数据集？
-
-限制正则表达式的复杂度，复用已编译的模式，并按照 **性能考虑** 部分所述批量处理文档。
+### 如何高效处理大数据集？
+限制正则复杂度、复用已编译的模式，并按批次处理文档，详见 **性能考虑** 小节。
 
 ### 在哪里可以找到更多元数据搜索示例？
-
 浏览 [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/) 获取更多用例和代码片段。
 
 ## 资源
@@ -183,6 +190,6 @@ try (Metadata metadata = new Metadata("path/to/your/document")) {
 
 ---
 
-**最后更新：** 2025-12-20  
+**最后更新：** 2026-02-21  
 **测试环境：** GroupDocs.Metadata 24.12 for Java  
 **作者：** GroupDocs

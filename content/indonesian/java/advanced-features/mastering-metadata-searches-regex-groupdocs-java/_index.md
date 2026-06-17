@@ -1,21 +1,21 @@
 ---
-date: '2025-12-20'
-description: Pelajari cara mencari metadata secara efisien di Java menggunakan regex
-  dengan GroupDocs.Metadata. Tingkatkan manajemen dokumen, permudah pencarian, dan
-  perbaiki organisasi data.
+date: '2026-02-21'
+description: Pelajari cara mencari metadata Java secara efisien dengan regex menggunakan
+  GroupDocs.Metadata. Tingkatkan manajemen dokumen, permudah pencarian, dan perbaiki
+  organisasi data.
 keywords:
 - metadata searches in Java
 - regex search metadata
 - GroupDocs.Metadata for Java
-title: Cara Mencari Metadata di Java Menggunakan Regex dengan GroupDocs.Metadata
+title: Cara mencari metadata Java menggunakan Regex dengan GroupDocs.Metadata
 type: docs
 url: /id/java/advanced-features/mastering-metadata-searches-regex-groupdocs-java/
 weight: 1
 ---
 
-# Cara Mencari Metadata di Java Menggunakan Regex dengan GroupDocs.Metadata
+# Cara mencari metadata java menggunakan Regex dengan GroupDocs.Metadata
 
-Jika Anda bertanya-tanya **cara mencari metadata** dengan cepat dan akurat dalam aplikasi Java Anda, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan menjelaskan cara menggunakan GroupDocs.Metadata bersama dengan regular expressions (regex) untuk menemukan properti metadata tertentu—baik Anda perlu menyaring berdasarkan penulis, perusahaan, atau tag khusus apa pun. Pada akhir tutorial, Anda akan memiliki solusi yang jelas dan siap produksi yang dapat Anda masukkan ke dalam pipeline pemrosesan dokumen apa pun.
+Jika Anda bertanya-tanya **bagaimana cara mencari metadata java** dengan cepat dan akurat dalam aplikasi Java Anda, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan menjelaskan cara menggunakan GroupDocs.Metadata bersama dengan regular expressions (regex) untuk menemukan properti metadata tertentu—baik Anda perlu menyaring berdasarkan penulis, perusahaan, atau tag khusus apa pun. Pada akhir tutorial, Anda akan memiliki solusi yang jelas dan siap produksi yang dapat Anda masukkan ke dalam pipeline pemrosesan dokumen apa pun.
 
 ## Jawaban Cepat
 - **Apa perpustakaan utama?** GroupDocs.Metadata for Java  
@@ -24,13 +24,15 @@ Jika Anda bertanya-tanya **cara mencari metadata** dengan cepat dan akurat dalam
 - **Apakah saya dapat mencari semua jenis dokumen?** Yes, GroupDocs.Metadata supports PDFs, Word, Excel, images, and more  
 - **Versi Java apa yang diperlukan?** JDK 8 or higher  
 
-## Apa itu pencarian metadata dan mengapa menggunakan regex?
+## Apa itu pencarian metadata java dan mengapa menggunakan regex?
 
-Metadata adalah atribut tersembunyi yang tertanam dalam sebuah file—penulis, tanggal pembuatan, perusahaan, dll. Mencari atribut-atribut ini dengan pencocokan string biasa bekerja untuk kasus sederhana, tetapi regex memungkinkan Anda mendefinisikan pola fleksibel (mis., “author*” atau “.*company.*”) sehingga Anda dapat menemukan beberapa properti terkait dalam satu kali proses. Ini sangat berguna ketika menangani repositori dokumen besar di mana inspeksi manual tidak memungkinkan.
+Metadata adalah atribut tersembunyi yang tertanam dalam sebuah file—penulis, tanggal pembuatan, perusahaan, dll. Mencari atribut-atribut ini dengan pencocokan string biasa bekerja untuk kasus sederhana, tetapi regex memungkinkan Anda mendefinisikan pola fleksibel (misalnya “author*” atau “.*company.*”) sehingga Anda dapat menemukan beberapa properti terkait dalam satu kali proses. Fleksibilitas ini penting ketika Anda memiliki ribuan dokumen dan membutuhkan cara yang cepat dan dapat dipelihara untuk menanyakan metadata mereka.
 
 ## Prasyarat
 
-- **GroupDocs.Metadata untuk Java** versi 24.12 atau lebih baru.  
+Sebelum memulai, pastikan Anda memiliki hal berikut:
+
+- **GroupDocs.Metadata for Java** versi 24.12 atau lebih baru.  
 - Maven terpasang untuk manajemen dependensi.  
 - JDK Java 8 + dan IDE seperti IntelliJ IDEA atau Eclipse.  
 - Pemahaman dasar tentang Java dan regular expressions.
@@ -38,7 +40,7 @@ Metadata adalah atribut tersembunyi yang tertanam dalam sebuah file—penulis, t
 ## Menyiapkan GroupDocs.Metadata untuk Java
 
 ### Pengaturan Maven
-Tambahkan repository dan dependensi ke `pom.xml` Anda:
+Tambahkan repositori dan dependensi ke `pom.xml` Anda:
 
 ```xml
 <repositories>
@@ -59,11 +61,11 @@ Tambahkan repository dan dependensi ke `pom.xml` Anda:
 ```
 
 ### Unduhan Langsung
-Jika Anda lebih memilih tidak menggunakan Maven, Anda dapat mengunduh JAR terbaru secara langsung dari [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Jika Anda lebih memilih tidak menggunakan Maven, Anda dapat mengunduh JAR terbaru langsung dari [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Langkah-langkah Akuisisi Lisensi
 1. Kunjungi situs web GroupDocs dan minta lisensi percobaan sementara.  
-2. Ikuti instruksi yang diberikan untuk memuat file lisensi ke dalam proyek Java Anda—ini membuka akses penuh ke API.
+2. Ikuti instruksi yang diberikan untuk memuat file lisensi dalam proyek Java Anda—ini membuka akses penuh ke API.
 
 ### Inisialisasi Dasar
 Setelah perpustakaan berada di classpath Anda, Anda dapat mulai bekerja dengan metadata:
@@ -74,7 +76,7 @@ Metadata metadata = new Metadata("path/to/your/document");
 
 Sekarang Anda siap menerapkan pola regex untuk mencari metadata dokumen.
 
-## Panduan Implementasi
+## Cara mencari metadata java dengan pola regex
 
 ### Mendefinisikan Pola Regex
 
@@ -123,61 +125,61 @@ try (Metadata metadata = new Metadata("path/to/your/document")) {
 | `pattern.matcher(property.getName()).find()` | Menerapkan regex ke setiap nama properti. |
 | `findProperties(spec)` | Mengembalikan daftar read‑only dari semua properti yang memenuhi spec. |
 
-Anda dapat memperluas pendekatan ini dengan menggabungkan beberapa specification (mis., filter berdasarkan nama *dan* nilai) atau dengan membangun pola regex yang lebih kompleks.
+Anda dapat memperluas pendekatan ini dengan menggabungkan beberapa specification (misalnya, filter berdasarkan nama *dan* nilai) atau dengan membuat pola regex yang lebih kompleks.
 
-### Menyesuaikan Pencarian
+## Menyesuaikan dan Memperluas Pencarian
 
-- **Cari metadata dokumen** untuk beberapa istilah: `Pattern.compile("author|company|title")`  
-- **Gunakan wildcard**: `Pattern.compile(".*date.*")` menemukan properti apa pun yang mengandung “date”.  
-- **Kombinasikan dengan pemeriksaan nilai**: Di dalam lambda, juga bandingkan `property.getValue()` dengan pola lain.
+- **Beberapa istilah:** `Pattern.compile("author|company|title")`  
+- **Pencarian wildcard:** `Pattern.compile(".*date.*")` menemukan setiap properti yang mengandung “date”.  
+- **Penyaringan berbasis nilai:** Di dalam lambda, juga bandingkan `property.getValue()` dengan pola lain untuk pencarian yang lebih mendalam.
 
 ## Aplikasi Praktis
 
 | Skenario | Bagaimana regex membantu |
 |----------|--------------------------|
-| **Document Management Systems** | Mengkategorikan file secara otomatis berdasarkan penulis atau departemen tanpa harus menuliskan setiap nama secara hard‑code. |
-| **Content Filtering** | Mengecualikan file yang tidak memiliki metadata wajib (mis., tidak ada tag `company`) sebelum pemrosesan massal. |
-| **Digital Asset Management** | Dengan cepat menemukan gambar yang dibuat oleh fotografer tertentu yang disimpan di banyak folder. |
+| **Sistem Manajemen Dokumen** | Mengkategorikan otomatis file berdasarkan penulis atau departemen tanpa mengkodekan setiap nama secara manual. |
+| **Penyaringan Konten** | Mengecualikan file yang tidak memiliki metadata wajib (misalnya, tidak ada tag `company`) sebelum pemrosesan massal. |
+| **Manajemen Aset Digital** | Dengan cepat menemukan gambar yang dibuat oleh fotografer tertentu yang disimpan di banyak folder. |
 
 ## Pertimbangan Kinerja
 
 Saat memindai ribuan file:
 
 1. **Batasi ruang lingkup regex** – hindari pola yang terlalu luas seperti `.*` yang memaksa engine memeriksa setiap karakter.  
-2. **Gunakan kembali objek `Pattern` yang telah dikompilasi** – kompilasi pola mahal; simpan secara statis jika Anda memanggil pencarian berulang kali.  
-3. **Pemrosesan batch** – muat dan cari dokumen dalam grup untuk menjaga penggunaan memori tetap dapat diprediksi.  
-4. **Sesuaikan heap JVM** jika Anda menemukan `OutOfMemoryError` selama pemindaian besar.
+2. **Gunakan kembali objek `Pattern` yang sudah dikompilasi** – mengompilasi pola memakan biaya; jadikan statis jika Anda memanggil pencarian berulang kali.  
+3. **Pemrosesan batch** – muat dan cari dokumen dalam kelompok untuk menjaga penggunaan memori tetap dapat diprediksi.  
+4. **Sesuaikan heap JVM** jika Anda mengalami `OutOfMemoryError` selama pemindaian besar.  
 
-Menerapkan tips ini membuat pencarian Anda cepat dan aplikasi tetap stabil.
+Mengikuti tip ini menjaga pencarian Anda tetap cepat dan aplikasi Anda stabil.
 
 ## Masalah Umum & Solusi
 
 - **Path file tidak benar** – Periksa kembali bahwa path yang Anda berikan ke `new Metadata(...)` mengarah ke file yang ada dan dapat dibaca.  
-- **Kesalahan sintaks regex** – Gunakan tester online atau `Pattern.compile` dalam blok try‑catch untuk menemukan masalah lebih awal.  
-- **Tidak ada hasil yang cocok** – Verifikasi nama properti dengan mencetak `metadata.getProperties()` tanpa filter; ini membantu Anda membuat pola yang tepat.
+- **Kesalahan sintaks regex** – Gunakan penguji online atau bungkus `Pattern.compile` dalam try‑catch untuk menampilkan masalah lebih awal.  
+- **Tidak ada hasil yang cocok** – Cetak `metadata.getProperties()` tanpa filter terlebih dahulu; ini mengungkapkan nama properti tepat yang dapat Anda targetkan.
 
-## Bagian FAQ
+## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara menginstal GroupDocs.Metadata untuk Java?
-Ikuti panduan Maven atau instruksi unduhan langsung yang disediakan di bagian **Menyiapkan**.
+Ikuti petunjuk pengaturan Maven atau unduhan langsung yang disediakan di bagian **Setting Up**.
 
 ### Bisakah saya menggunakan pola regex dengan tipe file lain?
-Ya, GroupDocs.Metadata mendukung PDF, Word, Excel, gambar, dan banyak format lainnya. Pastikan pola sesuai dengan skema metadata tipe file tertentu.
+Ya, GroupDocs.Metadata mendukung PDF, Word, Excel, gambar, dan banyak format lainnya. Pastikan pola tersebut sesuai dengan skema metadata dari tipe file tertentu.
 
 ### Bagaimana jika pola regex saya tidak cocok dengan properti apa pun?
-Periksa typo, sensitivitas huruf, atau spasi tak terduga dalam nama properti. Sederhanakan pola dan uji terhadap properti yang diketahui.
+Periksa adanya typo, sensitivitas huruf, atau spasi tak terduga dalam nama properti. Sederhanakan pola dan uji terhadap properti yang diketahui.
 
 ### Bagaimana cara menangani dataset besar secara efisien?
-Batasi kompleksitas regex, gunakan kembali pola yang telah dikompilasi, dan proses dokumen dalam batch seperti dijelaskan di **Pertimbangan Kinerja**.
+Batasi kompleksitas regex, gunakan kembali pola yang sudah dikompilasi, dan proses dokumen dalam batch seperti yang dijelaskan di bagian **Performance Considerations**.
 
 ### Di mana saya dapat menemukan contoh lebih banyak pencarian metadata?
 Jelajahi [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/) untuk contoh penggunaan tambahan dan potongan kode.
 
 ## Sumber Daya
-- **Documentation:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)
+- **Dokumentasi:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs
+**Terakhir Diperbarui:** 2026-02-21  
+**Diuji Dengan:** GroupDocs.Metadata 24.12 for Java  
+**Penulis:** GroupDocs

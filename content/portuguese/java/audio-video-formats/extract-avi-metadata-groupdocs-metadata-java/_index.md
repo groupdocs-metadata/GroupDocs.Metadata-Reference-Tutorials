@@ -1,50 +1,49 @@
 ---
-date: '2025-12-22'
-description: Aprenda como extrair metadados de vídeo de arquivos AVI com o GroupDocs.Metadata
-  para Java. Este guia passo a passo cobre a configuração, o código e as melhores
-  práticas para a integração do GroupDocs Metadata em Java.
+date: '2026-02-21'
+description: Aprenda a extrair metadados de vídeo em Java de arquivos AVI usando o
+  GroupDocs.Metadata. Configuração passo a passo, exemplos de código e boas práticas
+  para desenvolvedores Java.
 keywords:
 - extract video metadata
 - how to extract avi
 - groupdocs metadata java
 - media management systems
 - AVI file metadata
-title: Como extrair metadados de vídeo de arquivos AVI usando GroupDocs.Metadata em
-  Java
+title: 'Extrair Metadados de Vídeo em Java: Como Ler Arquivos AVI com GroupDocs.Metadata'
 type: docs
 url: /pt/java/audio-video-formats/extract-avi-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
-# Como Extrair Metadados de Vídeo de Arquivos AVI Usando GroupDocs.Metadata em Java
+# Extrair Metadados de Vídeo Java: Como Ler Arquivos AVI com GroupDocs.Metadata
 
-Extrair metadados de vídeo de arquivos AVI é uma necessidade comum ao construir bibliotecas de mídia, pipelines de análise ou soluções de gerenciamento de ativos digitais. Neste tutorial você aprenderá **como extrair metadados de vídeo** rapidamente com a biblioteca **GroupDocs.Metadata** para Java. Vamos percorrer a configuração, mostrar o código exato que você precisa e compartilhar dicas para integração no mundo real.
+Extrair metadados de vídeo de arquivos AVI é uma necessidade comum ao construir bibliotecas de mídia, pipelines de análise ou soluções de gerenciamento de ativos digitais. Neste tutorial, você aprenderá **como extrair metadados de vídeo java** rapidamente com a biblioteca **GroupDocs.Metadata** para Java. Vamos percorrer a configuração, mostrar o código exato que você precisa e compartilhar dicas práticas para integração no mundo real.
 
 ## Respostas Rápidas
 - **Qual biblioteca posso usar?** GroupDocs.Metadata for Java  
-- **Qual tarefa principal ele resolve?** Extrair metadados de vídeo de contêineres AVI  
+- **Qual tarefa principal ela resolve?** Extrair metadados de vídeo de contêineres AVI  
 - **Preciso de licença?** Um teste gratuito está disponível; uma licença é necessária para produção  
 - **Qual versão do Java é necessária?** JDK 8 ou superior  
-- **Posso processar muitos arquivos de uma vez?** Sim – use multithreading ou processamento em lote  
+- **Posso processar muitos arquivos de uma vez?** Sim – use multi‑threading ou processamento em lote  
 
 ## O que é extração de metadados de vídeo?
-A extração de metadados de vídeo significa ler informações incorporadas, como autor, data de criação, software usado e tags personalizadas armazenadas no cabeçalho do arquivo. Esses dados ajudam a organizar, pesquisar e analisar ativos de vídeo sem abrir a mídia propriamente dita.
+Extração de metadados de vídeo significa ler informações incorporadas, como autor, data de criação, software usado e tags personalizadas armazenadas no cabeçalho do arquivo. Esses dados ajudam a organizar, buscar e analisar ativos de vídeo sem abrir a mídia propriamente dita.
 
 ## Por que extrair metadados AVI com GroupDocs.Metadata?
-- **Suporte abrangente a formatos** – Lida com AVI, MP4, MOV e muitos outros contêineres.  
+- **Suporte abrangente a formatos** – Manipula AVI, MP4, MOV e muitos outros contêineres.  
 - **API simples** – Chamadas de uma linha dão acesso a todos os campos INFO padrão.  
 - **Foco em desempenho** – Baixo consumo de memória, ideal para trabalhos em lote.  
 - **Amigável ao Java** – Funciona perfeitamente com Maven, Gradle e qualquer IDE.
 
-## Pré‑requisitos
+## Pré-requisitos
 - **GroupDocs.Metadata for Java** (versão 24.12 ou mais recente).  
 - JDK 8 ou superior e uma IDE como IntelliJ IDEA ou Eclipse.  
-- Familiaridade básica com Maven e programação Java.  
+- Familiaridade básica com Maven e programação Java.
 
 ## Configurando GroupDocs.Metadata para Java
 
 ### Configuração Maven
-Adicione o repositório GroupDocs e a dependência ao seu `pom.xml`:
+Add the GroupDocs repository and dependency to your `pom.xml`:
 
 ```xml
 <repositories>
@@ -72,7 +71,7 @@ Você também pode obter o JAR diretamente da página oficial de lançamentos: [
 - **Licença completa** – Compre quando estiver pronto para uso em produção.
 
 #### Inicialização e Configuração
-Abaixo está o código mínimo necessário para abrir um arquivo AVI com GroupDocs.Metadata:
+Below is the minimal code required to open an AVI file with GroupDocs.Metadata:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -87,20 +86,18 @@ public class MetadataSetup {
 }
 ```
 
-## Guia de Implementação
-
-### Como extrair metadados de vídeo AVI?
+## Como extrair metadados de vídeo java de arquivos AVI?
 Agora vamos mergulhar nos passos concretos para ler o bloco INFO de um arquivo AVI.
 
-#### Implementação passo a passo
+### Implementação passo a passo
 
-##### 1. Importar pacotes necessários
+#### 1. Importe os pacotes necessários
 ```java
 import com.groupdocs.metadata.Metadata;
 import com.groupdocs.metadata.core.AviRootPackage;
 ```
 
-##### 2. Criar uma classe de extração de metadados
+#### 2. Crie uma classe de extração de metadados
 ```java
 public class ExtractAviInfoMetadata {
     public static void main(String[] args) {
@@ -141,12 +138,12 @@ public class ExtractAviInfoMetadata {
 ```
 
 **Explicação do código**  
-- **Inicialização de Metadata** – O objeto `Metadata` carrega o arquivo AVI e analisa automaticamente sua estrutura.  
+- **Inicialização de metadados** – O objeto `Metadata` carrega o arquivo AVI e analisa sua estrutura automaticamente.  
 - **Acesso ao pacote raiz** – `getRootPackageGeneric()` retorna um `AviRootPackage` que representa a hierarquia de nível superior do contêiner.  
-- **Verificação RIFF INFO** – Nem todos os arquivos AVI contêm um bloco INFO; a verificação de null impede `NullPointerException`.  
-- **Extração de campos** – Cada getter (`getArtist()`, `getComment()`, etc.) obtém um pedaço específico de metadado de vídeo.  
+- **Verificação RIFF INFO** – Nem todos os arquivos AVI contêm um bloco INFO; a verificação de nulo impede `NullPointerException`.  
+- **Extração de campos** – Cada getter (`getArtist()`, `getComment()`, etc.) obtém uma peça específica dos metadados de vídeo.  
 
-##### Dicas de solução de problemas
+#### Dicas de solução de problemas
 - Verifique se o arquivo AVI não está corrompido; um cabeçalho danificado causará erros de análise.  
 - Garanta que o caminho do arquivo seja absoluto ou corretamente relativo ao diretório de trabalho do seu projeto.  
 - Se você receber `null` para um campo, essa tag específica não está presente no arquivo de origem.
@@ -160,7 +157,16 @@ public class ExtractAviInfoMetadata {
 ## Considerações de Desempenho
 - **Processamento em lote** – Envolva a lógica de extração em um pool de threads para lidar com grandes coleções de forma eficiente.  
 - **Ajuste de memória** – Aumente o heap da JVM (`-Xmx2g` ou superior) ao processar arquivos AVI muito grandes.  
-- **Limpeza de recursos** – O bloco try‑with‑resources descarta automaticamente os handles nativos; mantenha sempre.  
+- **Limpeza de recursos** – O bloco try‑with‑resources descarta automaticamente os manipuladores nativos; mantenha sempre.
+
+## Problemas Comuns e Soluções
+
+| Problema | Causa | Solução |
+|----------|-------|----------|
+| `NullPointerException` on `root.getRiffInfoPackage()` | Arquivo AVI não possui um bloco INFO | Adicione uma verificação de nulo (já mostrada) ou verifique se os arquivos de origem contêm metadados |
+| Arquivo não encontrado | Caminho incorreto ou permissões de arquivo ausentes | Use um caminho absoluto ou coloque o arquivo na pasta de recursos do projeto |
+| Processamento lento em milhares de arquivos | Execução monothread | Implemente um `ExecutorService` para executar extrações em paralelo |
+| Valores inesperados `null` para campos | Tag não presente no cabeçalho AVI | Trate `null` como “não disponível” e lide graciosamente na sua UI ou logs |
 
 ## Perguntas Frequentes
 
@@ -170,7 +176,7 @@ A: Sim, a biblioteca expõe um dicionário genérico para quaisquer pares chave/
 **Q: Preciso de uma licença separada para cada ambiente de implantação?**  
 A: Uma única licença cobre todos os ambientes (desenvolvimento, teste, produção) desde que você cumpra os termos de licenciamento.
 
-**Q: É possível modificar metadados AVI, não apenas lê‑los?**  
+**Q: É possível modificar os metadados AVI, não apenas lê‑los?**  
 A: Absolutamente. O mesmo `AviRootPackage` fornece métodos setter como `setArtist(String)` para atualizar campos e então salvar o arquivo.
 
 **Q: Como essa abordagem se compara ao uso do FFmpeg para extração de metadados?**  
@@ -179,11 +185,8 @@ A: FFmpeg é uma ferramenta de linha de comando poderosa, mas o GroupDocs.Metada
 **Q: E se meus arquivos AVI estiverem armazenados em um bucket na nuvem (por exemplo, AWS S3)?**  
 A: Baixe o arquivo para um caminho local temporário ou use uma sobrecarga baseada em stream do construtor `Metadata` que aceita um `InputStream`.
 
-## Conclusão
-Agora você tem um método completo e pronto para produção para **extrair metadados de vídeo** de contêineres AVI usando **GroupDocs.Metadata for Java**. Incorpore o código de exemplo, adapte o tratamento de erros às suas necessidades e comece a enriquecer seus fluxos de trabalho de mídia hoje.
-
 ---
 
-**Última atualização:** 2025-12-22  
+**Última atualização:** 2026-02-21  
 **Testado com:** GroupDocs.Metadata 24.12 for Java  
 **Autor:** GroupDocs

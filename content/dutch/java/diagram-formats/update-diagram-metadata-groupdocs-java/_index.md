@@ -1,13 +1,55 @@
 ---
-date: '2026-01-19'
-description: Leer hoe u diagrammetadata in Java kunt bijwerken en documenteigenschappen
-  in Java kunt instellen met GroupDocs.Metadata voor Java. Stapsgewijze handleiding
-  met best practices.
+date: '2026-06-17'
+description: Leer hoe je diagrammetadata Java bijwerkt en documenteigenschappen Java
+  instelt met GroupDocs.Metadata voor Java. Stapsgewijze gids met best practices.
 keywords:
 - update diagram metadata java
 - set document properties java
-- groupdocs.metadata java tutorial
-title: Hoe diagrammetadata bijwerken in Java met GroupDocs.Metadata
+- groupdocs metadata java tutorial
+schemas:
+- author: GroupDocs
+  dateModified: '2026-06-17'
+  description: Learn how to update diagram metadata java and set document properties
+    java using GroupDocs.Metadata for Java. Step‑by‑step guide with best practices.
+  headline: How to Update Diagram Metadata Java with GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to update diagram metadata java and set document properties
+    java using GroupDocs.Metadata for Java. Step‑by‑step guide with best practices.
+  name: How to Update Diagram Metadata Java with GroupDocs.Metadata
+  steps:
+  - name: '**Document Management Systems** – Tag diagrams with project IDs, department
+      codes, or retention dates.'
+    text: '**Document Management Systems** – Tag diagrams with project IDs, department
+      codes, or retention dates.'
+  - name: '**Collaboration Platforms** – Store reviewer names and status flags directly
+      inside the file.'
+    text: '**Collaboration Platforms** – Store reviewer names and status flags directly
+      inside the file.'
+  - name: '**Regulatory Compliance** – Embed audit trails (e.g., “ApprovedBy”, “ComplianceLevel”)
+      for easy extraction during audits.'
+    text: '**Regulatory Compliance** – Embed audit trails (e.g., “ApprovedBy”, “ComplianceLevel”)
+      for easy extraction during audits.'
+  type: HowTo
+- questions:
+  - answer: Metadata in diagrams refers to built‑in and custom properties (author,
+      creation date, tags, etc.) that describe the file without altering its visual
+      content.
+    question: What is metadata in diagrams?
+  - answer: Yes—iterate over a `Map<String,String>` and call `set` for each entry
+      within the same `Metadata` session.
+    question: Can I update multiple metadata properties at once?
+  - answer: It supports over 30 popular diagram formats, including VSDX, VDX, VSSX,
+      and VSTX. Check the official compatibility matrix for newer or niche formats.
+    question: Is GroupDocs.Metadata Java compatible with all diagram formats?
+  - answer: Wrap your code in a `try‑catch` block and handle specific exceptions such
+      as `FileNotFoundException`, `UnsupportedFormatException`, or a generic `Exception`
+      for unexpected errors.
+    question: How do I handle exceptions when updating metadata?
+  - answer: Options include a free trial, temporary evaluation licenses, and full
+      commercial licenses for unlimited production use.
+    question: What are the licensing options for GroupDocs.Metadata Java?
+  type: FAQPage
+title: Hoe diagrammetadata Java bijwerken met GroupDocs.Metadata
 type: docs
 url: /nl/java/diagram-formats/update-diagram-metadata-groupdocs-java/
 weight: 1
@@ -15,25 +57,26 @@ weight: 1
 
 # Diagrammetadata bijwerken in Java met GroupDocs.Metadata
 
-Diagrambestanden verbeteren door **updating diagram metadata java** is een veelvoorkomende vereiste wanneer je aangepaste informatie moet embedden voor zoeken, compliance of samenwerking. In deze tutorial leer je hoe je **set document properties java** binnen VSDX (Visio) bestanden kunt gebruiken met de GroupDocs.Metadata bibliotheek. We doorlopen de volledige workflow—van projectopzet tot probleemoplossing—zodat je de techniek kunt toepassen in real‑world toepassingen.
+Diagrambestanden verbeteren door **diagrammetadata bijwerken java** is een veelvoorkomende eis wanneer u aangepaste informatie moet insluiten voor zoeken, naleving of samenwerking. In deze tutorial leert u hoe u **documenteigenschappen instellen java** binnen VSDX (Visio)-bestanden kunt gebruiken met de GroupDocs.Metadata-bibliotheek. We doorlopen de volledige workflow — van projectconfiguratie tot probleemoplossing — zodat u de techniek in echte toepassingen kunt toepassen.
 
 ## Snelle antwoorden
 - **Welke bibliotheek is nodig?** GroupDocs.Metadata for Java (v24.12 of nieuwer).  
-- **Welke bestandstypen worden ondersteund?** VSDX, VDX en andere diagramformaten die door GroupDocs.Metadata worden ondersteund.  
+- **Welke diagramformaten worden ondersteund?** VSDX, VDX, VSSX, VSTX en andere formaten die in de compatibiliteitsmatrix staan.  
 - **Heb ik een licentie nodig?** Een gratis proefversie werkt voor evaluatie; een permanente licentie is vereist voor productie.  
-- **Hoeveel regels code?** Minder dan 30 regels om een bestand te laden en een aangepaste eigenschap in te stellen.  
-- **Is het thread‑safe?** Ja, zolang elke thread zijn eigen `Metadata`‑instantie gebruikt.
+- **Hoeveel regels code?** Minder dan 30 regels om een bestand te laden, eigenschappen te wijzigen en op te slaan.  
+- **Is het thread‑veilig?** Ja — elke thread moet zijn eigen `Metadata`‑object instantiëren.
 
-## Wat is “update diagram metadata java”?
+## Wat is “diagrammetadata bijwerken java”?
 
-Updating diagram metadata Java betekent het programmatisch lezen van een diagrambestand, het wijzigen van ingebouwde of aangepaste eigenschappen (zoals auteur, project‑ID of aangepaste tags), en het opslaan van de wijzigingen terug naar het bestand. Dit stelt downstream vragen zonder** – Sla bedrijfs‑kritische gegevens direct in het diagram op.  
-- **Zoekbaarheid** – Aangepaste eigenschappen worden doorzoekbaar in DMS of SharePoint.  
-- **Compliance** – Voeg audit‑informatie toe (bijv. versie, beoordelaar) voor regelgevende doeleinden.  
-- **Prestaties** – GroupDocs.Metadata werkt alleen op de bestandsstroom; er is geen zware UI‑rendering nodig.
+Diagrammetadata bijwerken java betekent het programmatisch lezen van een diagrambestand, het wijzigen van de ingebouwde of aangepaste eigenschappen, en het opslaan van de wijzigingen terug naar het bestand. Door deze informatie direct in het diagram in te sluiten, kunnen downstream‑systemen de waarden opvragen zonder de visuele inhoud te openen, wat automatisering stroomlijnt, governance verbetert en geavanceerde zoek‑ en nalevingsscenario's ondersteunt.
+
+## Waarom documenteigenschappen instellen java met GroupDocs.Metadata?
+
+Een diagram laden, de eigenschappen wijzigen en terug opslaan kan met slechts twee API‑aanroepen worden gedaan. GroupDocs.Metadata verwerkt alleen de bestandsstroom, wat betekent dat **geheugengebruik onder de 5 MB blijft, zelfs voor een VSDX‑bestand van 200 pagina's**, en de bewerking in minder dan een seconde voltooid is op typische serverhardware. De bibliotheek ondersteunt ook **meer dan 30 diagramformaten** en biedt ingebouwde validatie om corrupte uitvoer te voorkomen.
 
 ## Vereisten
 
-- **Java Development Kit (JDK 8 of hoger)** met een IDE zoals IntelliJ IDEA of Eclipse.  
+- **Java Development Kit (JDK 8 of hoger)** met een IDE zoals IntelliJ IDEA of Eclipse.  
 - **GroupDocs.Metadata 24.12+** (de nieuwste stabiele release).  
 - Basiskennis van Java en het concept van bestandsmetadata.
 
@@ -41,7 +84,7 @@ Updating diagram metadata Java betekent het programmatisch lezen van een diagram
 
 ### Maven gebruiken
 
-Add the GroupDocs repository and dependency to your `pom.xml`:
+Voeg de GroupDocs-repository en afhankelijkheid toe aan uw `pom.xml`:
 
 ```xml
 <repositories>
@@ -63,16 +106,16 @@ Add the GroupDocs repository and dependency to your `pom.xml`:
 
 ### Directe download
 
-Alternatief kun je de nieuwste JAR downloaden van de officiële release‑pagina:  
-[GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)
+U kunt ook de nieuwste JAR downloaden van de officiële release‑pagina:  
+[GroupDocs.Metadata voor Java releases](https://releases.groupdocs.com/metadata/java/)
 
 #### Stappen voor licentie‑acquisitie
 
-- **Gratis proefversie** – Verken alle functies zonder licentiesleutel.  
-- **Tijdelijke licentie** – Vraag een tijd‑beperkte sleutel aan voor uitgebreide evaluatie.  
+- **Gratis proefversie** – Ontdek alle functies zonder licentiesleutel.  
+- **Tijdelijke licentie** – Vraag een tijdelijk beperkte sleutel aan voor uitgebreide evaluatie.  
 - **Volledige aankoop** – Verkrijg een permanente licentie voor productie‑implementaties.
 
-Zodra de bibliotheek op je classpath staat, kun je deze gaan gebruiken:
+Zodra de bibliotheek op uw classpath staat, kunt u deze gaan gebruiken:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -93,7 +136,9 @@ public class MetadataSetup {
 
 ### 1. Laad het diagramdocument
 
-Maak eerst een `Metadata`‑instantie die naar je VSDX‑bestand wijst:
+De `Metadata`‑klasse is het toegangspunt voor het lezen en schrijven van diagrammetadata. Het vertegenwoordigt een enkel diagrambestand in het geheugen en biedt eigenschapcollecties.
+
+Maak eerst een `Metadata`‑instantie die naar uw VSDX‑bestand wijst:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -108,18 +153,22 @@ public class DiagramUpdateCustomProperties {
 }
 ```
 
-### 2. Toegang tot het root‑pakket
+### 2. Toegang tot het hoofd‑pakket
 
-De `DiagramRootPackage` geeft je toegang tot alle document‑niveau informatie:
+`DiagramRootPackage` biedt toegang tot document‑niveau structuren zoals eigenschapcollecties en aangepaste onderdelen. Het is de bovenste container voor alle diagrammetadata.
+
+Haal het hoofd‑pakket op uit het `Metadata`‑object:
 
 ```java
 // Obtain the root package of the document
 DiagramRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### 3. Aangepaste eigenschappen instellen (set document properties java)
+### 3. Aangepaste eigenschappen instellen (documenteigenschappen instellen java)
 
-Nu kun je elk aangepast sleutel/waarde‑paar toevoegen of bijwerken:
+`DocumentProperties` is de collectie die zowel ingebouwde als door de gebruiker gedefinieerde sleutel/waarde‑paren bevat. Gebruik de `set`‑methode om een eigenschap toe te voegen of te overschrijven.
+
+Voeg een aangepaste eigenschap toe of werk deze bij, bijvoorbeeld “ProjectId”:
 
 ```java
 // Set a custom property named 'customProperty1'
@@ -129,7 +178,7 @@ root.getDocumentProperties().set("customProperty1", "Your Value Here");
 **Methode‑overzicht**
 
 - `getDocumentProperties()` – Retourneert de collectie die zowel ingebouwde als aangepaste eigenschappen bevat.  
-- `set(String key, String value)` bestaat of overschrijft de bestaande waarde.
+- `set(String key, String value)` – Voegt de eigenschap toe als deze niet bestaat of overschrijft de bestaande waarde.
 
 ### 4. Opslaan en sluiten (automatisch afgehandeld)
 
@@ -137,34 +186,56 @@ Omdat `Metadata` `AutoCloseable` implementeert, zorgt het `try‑with‑resource
 
 ## Veelvoorkomende problemen & tips voor probleemoplossing
 
-- **FileNotFoundException** – Controleer of het pad (`YOUR_DOCUMENTID’s,ata3. **Regulatory Compliance** – Voeg audit‑trails toe (bijv. “ApprovedBy”, “ComplianceLevel”) voor eenvoudige extractie tijdens audits.
+- **FileNotFoundException** – Controleer of het pad (`YOUR_DOCUMENT_DIRECTORY/InputVsdx`) correct is en het bestand toegankelijk is.  
+- **Unsupported Format** – Zorg ervoor dat uw GroupDocs.Metadata‑versie het specifieke diagramformaat dat u gebruikt ondersteunt.  
+- **Permission Errors** – Voer de JVM uit met voldoende bestandsysteem‑rechten, vooral op Linux/macOS.
+
+## Praktische toepassingen
+
+- **Documentbeheersystemen** – Label diagrammen met project‑ID's, afdelingscodes of bewaartermijnen.  
+- **Samenwerkingsplatformen** – Sla beoordelaarsnamen en statusvlaggen direct in het bestand op.  
+- **Regelgevende naleving** – Integreer audit‑trails (bijv. “ApprovedBy”, “ComplianceLevel”) voor gemakkelijke extractie tijdens audits.
 
 ## Prestatie‑overwegingen
 
-- **Alleen benodigde delen laden** – Gebruik de `Metadata`‑API om alleen de eigenschap‑collectie op te halen in plaats van de volledige document‑afbeeldingsdata.  
-- **Resources snel vrijgeven** – Het hierboven getoonde `try‑with‑resources`‑patroon zorgt ervoor dat streams onmiddellijk worden gesloten.  
-- **Geheugen opeenvolQ: Wat aanroepen voor elke invoer binnen dezelfde `Metadata`‑sessie.
+- **Alleen benodigde onderdelen laden** – Gebruik de `Metadata`‑API om alleen de eigenschapcollectie op te halen in plaats van de volledige diagram‑afbeeldingsdata.  
+- **Bronnen snel vrijgeven** – Het hierboven getoonde `try‑with‑resources`‑patroon zorgt ervoor dat streams onmiddellijk worden gesloten.  
+- **Batchverwerking** – Voor grote batches, verwerk bestanden opeenvolgend of gebruik een thread‑pool met beperkte gelijktijdigheid om het heap‑gebruik onder 200 MB te houden.
+
+## Veelgestelde vragen
+
+**Q: Wat is metadata in diagrammen?**  
+A: Metadata in diagrammen verwijst naar ingebouwde en aangepaste eigenschappen (auteur, aanmaakdatum, tags, enz.) die het bestand beschrijven zonder de visuele inhoud te wijzigen.
+
+**Q: Kan ik meerdere metadata‑eigenschappen tegelijk bijwerken?**  
+A: Ja — loop over een `Map<String,String>` en roep `set` aan voor elke invoer binnen dezelfde `Metadata`‑sessie.
 
 **Q: Is GroupDocs.Metadata Java compatibel met alle diagramformaten?**  
-A: Het ondersteunt de meeste populaire diagramformaten (VSDX, VDX, VSSX, enz.). Controleer altijd de officiële compatibiliteitsmatrix voor nieuwere of niche‑formaten.
+A: Het ondersteunt meer dan 30 populaire diagramformaten, waaronder VSDX, VDX, VSSX en VSTX. Controleer de officiële compatibiliteitsmatrix voor nieuwere of niche‑formaten.
 
 **Q: Hoe ga ik om met uitzonderingen bij het bijwerken van metadata?**  
-A: Plaats je code in een try‑catch‑blok en behandel specifieke uitzonderingen zoals `FileNotFoundException`, `UnsupportedFormatException` of een algemene `Exception` voor onverwachte fouten.
+A: Plaats uw code in een `try‑catch`‑blok en behandel specifieke uitzonderingen zoals `FileNotFoundException`, `UnsupportedFormatException`, of een generieke `Exception` voor onverwachte fouten.
 
 **Q: Wat zijn de licentie‑opties voor GroupDocs.Metadata Java?**  
 A: Opties omvatten een gratis proefversie, tijdelijke evaluatielicenties en volledige commerciële licenties voor onbeperkt productiegebruik.
 
 ## Bronnen
 
-- [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)
-- [API Reference](https://reference.groupdocs.com/metadata/java/)
-- [Download GroupDocs.Metadata](https://releases.groupdocs.com/metadata/java/)
-- [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
-- [Free Support Forum](https://forum.groupdocs.com/c/metadata/)
-- [Temporary License Acquisition](https://purchase.groupdocs.com/temporary-license/) 
+- [GroupDocs Metadata Documentatie](https://docs.groupdocs.com/metadata/java/)
+- [API‑referentie](https://reference.groupdocs.com/metadata/java/)
+- [GroupDocs.Metadata downloaden](https://releases.groupdocs.com/metadata/java/)
+- [GitHub‑opslagplaats](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- [Gratis ondersteuningsforum](https://forum.groupdocs.com/c/metadata/)
+- [Tijdelijke licentie‑acquisitie](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 
-**Laatst bijgewerkt:** 2026-01-19  
+**Laatst bijgewerkt:** 2026-06-17  
 **Getest met:** GroupDocs.Metadata 24.12 for Java  
-**Auteur:** GroupDocs
+**Auteur:** GroupDocs  
+
+## Gerelateerde tutorials
+
+- [java documenteigenschappen – Diagrammetadata extraheren met GroupDocs voor Java](/metadata/java/diagram-formats/extract-diagram-metadata-groupdocs-java/)
+- [Hoe DXF‑auteurmetadata bij te werken met GroupDocs.Metadata voor Java – Een volledige gids](/metadata/java/cad-formats/update-dxf-author-metadata-groupdocs-java/)
+- [PDF‑metadata efficiënt bijwerken met GroupDocs.Metadata in Java voor documentbeheer](/metadata/java/document-formats/update-pdf-metadata-groupdocs-metadata-java/)

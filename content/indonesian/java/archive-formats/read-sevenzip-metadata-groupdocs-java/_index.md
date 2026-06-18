@@ -1,7 +1,7 @@
 ---
-date: '2025-12-20'
-description: Pelajari cara membaca metadata arsip SevenZip menggunakan GroupDocs.Metadata
-  untuk Java, langkah penting dalam proyek ekstraksi metadata Java.
+date: '2026-02-19'
+description: Pelajari cara membaca metadata SevenZip di Java menggunakan GroupDocs.Metadata
+  untuk Java, termasuk cara mendapatkan ukuran terkompresi dan properti arsip lainnya.
 keywords:
 - SevenZip metadata Java
 - extract SevenZip archive information
@@ -14,48 +14,44 @@ weight: 1
 
 # Cara Membaca Metadata SevenZip dengan GroupDocs.Metadata di Java
 
-Jika Anda perlu **cara membaca sevenzip** informasi arsip dari aplikasi Java, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan menjelaskan cara menggunakan **GroupDocs.Metadata** untuk mengambil nama file, ukuran, tanggal, dan lainnya—tepat data yang Anda butuhkan untuk validasi cadangan, sinkronisasi, atau tugas optimasi penyimpanan.
+Jika Anda perlu **read sevenzip metadata java** dari aplikasi Java, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan menjelaskan cara menggunakan **GroupDocs.Metadata** untuk mengambil nama file, ukuran terkompresi, ukuran tidak terkompresi, tanggal modifikasi, dan lainnya—tepat data yang Anda butuhkan untuk validasi cadangan, sinkronisasi, atau tugas optimasi penyimpanan.
 
-## Pendahuluan
+## Introduction
 
-Kesulitan mengakses dan membaca properti metadata dari file arsip SevenZip menggunakan Java? Tutorial ini akan memandu Anda melalui proses menggunakan **GroupDocs.Metadata**. Sebuah pustaka yang kuat, ia menyederhanakan ekstraksi informasi penting seperti nama file, ukuran, dan tanggal modifikasi langsung dari arsip Anda.
+Kesulitan mengakses dan membaca properti metadata dari file arsip SevenZip menggunakan Java? Tutorial ini akan memandu Anda melalui proses penggunaan **GroupDocs.Metadata**. Sebuah pustaka yang kuat, ia menyederhanakan ekstraksi informasi penting seperti nama file, ukuran, dan tanggal modifikasi langsung dari arsip Anda.
 
-Dalam artikel ini, kami akan menunjukkan cara memanfaatkan **GroupDocs.Metadata untuk Java** untuk secara efisien mengakses properti metadata dalam file SevenZip.
+## Quick Answers
+- **What library should I use?** GroupDocs.Metadata for Java  
+- **Can I list files inside a SevenZip archive?** Yes – use `getSevenZipPackage().getFiles()`  
+- **Do I need a license?** A free trial works for evaluation; a full license is required for production  
+- **Which Java version is supported?** JDK 8 or higher  
+- **Is Maven required?** Not mandatory, but Maven simplifies dependency management  
 
-### Apa yang Akan Anda Pelajari
-- Menyiapkan GroupDocs.Metadata dalam proyek Java  
-- Membaca metadata dari arsip SevenZip menggunakan metode dan kelas tertentu  
-- Contoh praktis mengekstrak atribut file utama seperti nama, ukuran terkompresi, dan tanggal modifikasi  
+## What is “how to read sevenzip” in Java?
+Membaca metadata SevenZip berarti membuka kontainer `.7z`, mengenumerasi setiap entri, dan mengambil properti seperti **compressed size**, **uncompressed size**, **file name**, dan **modification date** tanpa mengekstrak file sebenarnya.
 
-## Jawaban Cepat
-- **Pustaka apa yang harus saya gunakan?** GroupDocs.Metadata untuk Java  
-- **Apakah saya dapat menampilkan daftar file di dalam arsip SevenZip?** Ya – gunakan `getSevenZipPackage().getFiles()`  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi penuh diperlukan untuk produksi  
-- **Versi Java mana yang didukung?** JDK 8 atau lebih tinggi  
-- **Apakah Maven diperlukan?** Tidak wajib, tetapi Maven mempermudah manajemen dependensi  
+## read sevenzip metadata java
+Menggunakan kata kunci utama dalam heading khusus membantu pembaca dan mesin pencari memahami fokus panduan ini. Di bawah ini kami akan membahas langkah‑langkah tepat yang Anda perlukan untuk **read sevenzip metadata java** secara efisien.
 
-## Apa itu “cara membaca sevenzip” dalam Java?
-Membaca metadata SevenZip berarti membuka kontainer `.7z`, mengenumerasi setiap entri, dan mengambil properti seperti **ukuran terkompresi**, **ukuran tidak terkompresi**, **nama file**, dan **tanggal modifikasi** tanpa mengekstrak file sebenarnya.
+## Why Use GroupDocs.Metadata Java for Metadata Extraction?
+- **Unified API** – works across dozens of archive and document formats  
+- **No external tools** – everything happens inside your Java process  
+- **Performance‑focused** – reads only the header information needed for metadata extraction java tasks  
+- **Robust licensing** – trial available, full license for commercial use  
 
-## Mengapa Menggunakan GroupDocs.Metadata Java untuk Ekstraksi Metadata?
-- **API Terpadu** – bekerja pada puluhan format arsip dan dokumen  
-- **Tanpa alat eksternal** – semua terjadi di dalam proses Java Anda  
-- **Berfokus pada kinerja** – membaca hanya informasi header yang diperlukan untuk tugas ekstraksi metadata java  
-- **Lisensi yang kuat** – tersedia versi percobaan, lisensi penuh untuk penggunaan komersial  
+## Prerequisites
 
-## Prasyarat
-
-Sebelum menyelam ke dalam **GroupDocs.Metadata untuk Java**, pastikan lingkungan pengembangan Anda sudah siap. Berikut yang Anda perlukan:
+Sebelum menyelam ke **GroupDocs.Metadata for Java**, pastikan lingkungan pengembangan Anda sudah disiapkan dengan benar. Berikut yang Anda perlukan:
 
 - **Java Development Kit (JDK):** Versi 8 atau lebih tinggi.  
 - **Maven:** Disarankan untuk penanganan dependensi, meskipun Anda dapat menambahkan JAR secara manual.  
-- **Pengetahuan Dasar Java:** Familiaritas dengan kelas, metode, dan penanganan pengecualian.  
+- **Basic Java Knowledge:** Familiarity with classes, methods, and exception handling.  
 
-## Menyiapkan GroupDocs.Metadata untuk Java
+## Setting Up GroupDocs.Metadata for Java
 
 Untuk menggunakan GroupDocs.Metadata, sertakan dalam proyek Anda melalui Maven atau dengan mengunduh pustaka secara langsung.
 
-### Menggunakan Maven
+### Using Maven
 
 Tambahkan konfigurasi berikut ke file `pom.xml` Anda:
 
@@ -77,25 +73,25 @@ Tambahkan konfigurasi berikut ke file `pom.xml` Anda:
 </dependencies>
 ```
 
-### Unduhan Langsung
+### Direct Download
 
-Sebagai alternatif, unduh versi terbaru dari [rilisan GroupDocs.Metadata untuk Java](https://releases.groupdocs.com/metadata/java/).
+Atau, unduh versi terbaru dari [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-#### Akuisisi Lisensi
+#### License Acquisition
 
-1. **Percobaan Gratis:** Mulai dengan percobaan gratis untuk menguji kemampuan GroupDocs.Metadata.  
-2. **Lisensi Sementara:** Ajukan permohonan lisensi sementara jika Anda memerlukan akses lebih lama untuk tujuan evaluasi.  
-3. **Pembelian:** Untuk penggunaan jangka panjang, pertimbangkan membeli lisensi penuh.  
+1. **Free Trial:** Mulai dengan percobaan gratis untuk menguji kemampuan GroupDocs.Metadata.  
+2. **Temporary License:** Ajukan lisensi sementara jika Anda memerlukan akses lebih lama untuk tujuan evaluasi.  
+3. **Purchase:** Untuk penggunaan jangka panjang, pertimbangkan membeli lisensi penuh.  
 
 Dengan pengaturan selesai, mari lanjut ke implementasi fungsi pembacaan metadata.
 
-## Panduan Implementasi
+## Implementation Guide
 
-### Mengakses Metadata dari Arsip SevenZip
+### Accessing Metadata from SevenZip Archives
 
 Pada bagian ini, kami akan mengekstrak dan mencetak properti metadata seperti nama file dan ukuran dari arsip SevenZip.
 
-#### Langkah 1: Inisialisasi Objek Metadata
+#### Step 1: Initialize Metadata Object
 
 Mulailah dengan menginisialisasi objek `Metadata` menggunakan path ke file SevenZip Anda. Ini memberi tahu GroupDocs file mana yang akan diproses.
 
@@ -109,20 +105,20 @@ public class ReadSevenZipMetadata {
         Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.7z");
 ```
 
-#### Langkah 2: Dapatkan Paket Root
+#### Step 2: Obtain the Root Package
 
-Selanjutnya, akses paket root arsip Anda sebagai titik masuk ke semua file dan propertinya.
+Selanjutnya, akses root package arsip Anda sebagai titik masuk ke semua file dan propertinya.
 
 ```java
 try (
     SevenZipRootPackage root = metadata.getRootPackageGeneric()) {
 ```
 
-- **Mengapa Menggunakan `getRootPackageGeneric()`?** Ia menyediakan tampilan umum dari isi arsip, memudahkan iterasi entri tanpa harus memikirkan format file spesifik.
+- **Why Use `getRootPackageGeneric()`?** Ia memberikan tampilan umum dari isi arsip, memudahkan iterasi entri tanpa harus memperhatikan format file tertentu.
 
-#### Langkah 3: Iterasi Entri Arsip
+#### Step 3: Iterate Over Archive Entries
 
-Dengan akses ke paket root arsip, iterasikan setiap entri untuk mengekstrak properti metadata. Ini melibatkan pengambilan detail seperti nama, ukuran terkompresi, dan tanggal modifikasi.
+Dengan akses ke root package arsip, iterasikan setiap entri untuk mengekstrak properti metadata. Ini melibatkan pengambilan detail seperti nama, ukuran terkompresi, dan tanggal modifikasi.
 
 ```java
 int totalEntries = root.getSevenZipPackage().getTotalEntries();
@@ -141,11 +137,11 @@ for (SevenZipFile file : root.getSevenZipPackage().getFiles()) {
 }
 ```
 
-- **Mengapa Mengekstrak Properti Ini?** Mengetahui ukuran file membantu mengelola penyimpanan, sementara tanggal modifikasi dapat menjadi kunci untuk tugas sinkronisasi.
+- **Why Extract These Properties?** Mengetahui ukuran file membantu mengelola penyimpanan, sementara tanggal modifikasi dapat menjadi kunci untuk tugas sinkronisasi. Pemanggilan `getCompressedSize()` adalah cara Java untuk **get compressed size java** pada setiap entri.
 
-#### Langkah 4: Bersihkan Sumber Daya
+#### Step 4: Clean Up Resources
 
-Akhirnya, pastikan Anda membuang objek metadata untuk melepaskan sumber daya yang dipakai oleh GroupDocs.Metadata.
+Akhirnya, pastikan Anda membuang (dispose) objek metadata untuk melepaskan sumber daya yang digunakan oleh GroupDocs.Metadata.
 
 ```java
 } finally {
@@ -153,63 +149,61 @@ Akhirnya, pastikan Anda membuang objek metadata untuk melepaskan sumber daya yan
 }
 ```
 
-- **Mengapa Membuang?** Membuang objek secara tepat membantu mencegah kebocoran memori pada aplikasi yang berjalan lama.
+- **Why Dispose?** Membuang objek secara tepat membantu mencegah kebocoran memori pada aplikasi yang berjalan lama.
 
-## Aplikasi Praktis
+## Practical Applications
 
-Memahami cara membaca metadata SevenZip memiliki banyak manfaat dunia nyata:
+Memahami cara **read sevenzip metadata java** memberikan banyak manfaat dunia nyata:
 
-1. **Manajemen Cadangan Data:** Cepat memverifikasi integritas dan kelengkapan arsip cadangan.  
-2. **Alat Sinkronisasi File:** Gunakan tanggal modifikasi untuk memutuskan file mana yang perlu diperbarui.  
-3. **Optimasi Penyimpanan:** Bandingkan ukuran terkompresi vs. tidak terkompresi untuk merencanakan kapasitas.  
+1. **Data Backup Management:** Memverifikasi integritas dan kelengkapan arsip cadangan dengan cepat.  
+2. **File Synchronization Tools:** Menggunakan tanggal modifikasi untuk menentukan file mana yang perlu diperbarui.  
+3. **Storage Optimization:** Membandingkan ukuran terkompresi vs. tidak terkompresi untuk merencanakan kapasitas.  
 
 Integrasi dengan sistem lain memungkinkan ekstraksi metadata otomatis sebagai bagian dari alur kerja manajemen data yang lebih besar.
 
-## Pertimbangan Kinerja
+## Performance Considerations
 
 Saat bekerja dengan GroupDocs.Metadata dan arsip besar, perhatikan tips berikut:
 
-- **Pemrosesan Batch:** Proses file dalam batch untuk mengelola penggunaan memori secara efektif.  
-- **Penanganan Pengecualian Efisien:** Gunakan try‑with‑resources untuk manajemen sumber daya otomatis.  
-- **Pemrosesan Asinkron:** Implementasikan teknik asinkron untuk beban kerja berat.  
+- **Batch Processing:** Proses file secara batch untuk mengelola penggunaan memori secara efektif.  
+- **Efficient Exception Handling:** Gunakan try‑with‑resources untuk manajemen sumber daya otomatis.  
+- **Asynchronous Processing:** Terapkan teknik asinkron untuk beban kerja berat.  
 
-## Masalah Umum dan Solusinya
+## Common Issues and Solutions
 
-| Masalah | Solusi |
-|---------|--------|
-| **`NullPointerException` saat mengakses file** | Pastikan path arsip benar dan file tidak rusak. |
-| **Lonjakan memori pada arsip sangat besar** | Aktifkan pemrosesan batch atau tingkatkan ukuran heap JVM (`-Xmx`). |
-| **Lisensi tidak dikenali** | Pastikan file lisensi ditempatkan di direktori kerja aplikasi atau diatur melalui `License.setLicense(path)`. |
+| Issue | Solution |
+|-------|----------|
+| **`NullPointerException` when accessing a file** | Pastikan path arsip benar dan file tidak rusak. |
+| **Memory spikes on huge archives** | Aktifkan batch processing atau tingkatkan ukuran heap JVM (`-Xmx`). |
+| **License not recognized** | Pastikan file lisensi ditempatkan di direktori kerja aplikasi atau diatur melalui `License.setLicense(path)`. |
 
-## Pertanyaan yang Sering Diajukan
+## Frequently Asked Questions
 
-**Q:** Apa itu GroupDocs.Metadata?  
+**Q:** What is GroupDocs.Metadata?  
 **A:** Itu adalah pustaka Java untuk menangani metadata di berbagai format file, termasuk arsip SevenZip.
 
-**Q:** Bisakah saya menggunakan GroupDocs.Metadata tanpa Maven?  
+**Q:** Can I use GroupDocs.Metadata without Maven?  
 **A:** Ya, Anda dapat mengunduh JAR dari situs resmi dan menambahkannya ke classpath proyek Anda.
 
-**Q:** Bagaimana cara menangani arsip besar secara efisien?  
-**A:** Terapkan pemrosesan batch atau gunakan aliran asinkron untuk membatasi konsumsi memori.
+**Q:** How do I handle large archives efficiently?  
+**A:** Implement batch processing atau gunakan aliran asinkron untuk membatasi konsumsi memori.
 
-**Q:** Di mana saya dapat menemukan panduan lebih detail?  
-**A:** Lihat [dokumentasi resmi](https://docs.groupdocs.com/metadata/java/) untuk referensi API yang komprehensif.
+**Q:** Where can I find more detailed guidance?  
+**A:** Lihat [official documentation](https://docs.groupdocs.com/metadata/java/) untuk referensi API yang komprehensif.
 
-**Q:** Bagaimana jika saya menemukan masalah dengan pustaka ini?  
-**A:** Tanyakan pada komunitas di [forum dukungan GroupDocs](https://forum.groupdocs.com/c/metadata/).
+**Q:** What if I encounter issues with the library?  
+**A:** Tanyakan pada komunitas di [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/).
 
-## Sumber Daya
+## Resources
 
-- **Dokumentasi:** Jelajahi lebih lanjut di [Dokumentasi GroupDocs.Metadata](https://docs.groupdocs.com/metadata/java/)  
-- **Referensi API:** Periksa informasi API detail di [Referensi GroupDocs.API](https://reference.groupdocs.com/metadata/java/)  
-- **Unduhan:** Dapatkan versi terbaru dari [Unduhan GroupDocs](https://releases.groupdocs.com/metadata/java/)  
-- **Repositori GitHub:** Akses contoh kode di [GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- **Forum Dukungan Gratis:** Bergabung dalam diskusi atau ajukan pertanyaan di [Dukungan Gratis GroupDocs](https://forum.groupdocs.com/c/metadata/)
-
----
-
-**Terakhir Diperbarui:** 2025-12-20  
-**Diuji Dengan:** GroupDocs.Metadata 24.12 untuk Java  
-**Penulis:** GroupDocs  
+- **Documentation:** Jelajahi lebih lanjut di [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
+- **API Reference:** Periksa informasi API detail di [GroupDocs.API Reference](https://reference.groupdocs.com/metadata/java/)  
+- **Download:** Dapatkan versi terbaru dari [GroupDocs Downloads](https://releases.groupdocs.com/metadata/java/)  
+- **GitHub Repository:** Akses contoh kode di [GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
+- **Free Support Forum:** Bergabung dalam diskusi atau ajukan pertanyaan di [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)
 
 ---
+
+**Last Updated:** 2026-02-19  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs

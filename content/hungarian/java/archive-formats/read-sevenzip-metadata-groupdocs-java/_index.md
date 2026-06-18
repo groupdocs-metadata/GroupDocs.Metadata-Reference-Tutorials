@@ -1,12 +1,13 @@
 ---
-date: '2025-12-20'
-description: Tanulja meg, hogyan olvassa el a SevenZip archívum metaadatait a GroupDocs.Metadata
-  for Java használatával, ami egy kulcsfontosságú lépés a metaadat-kinyerés Java projektekben.
+date: '2026-02-19'
+description: Tanulja meg, hogyan olvassa be a SevenZip metaadatait Java-ban a GroupDocs.Metadata
+  for Java segítségével, beleértve a tömörített méret és egyéb archívum tulajdonságok
+  lekérését.
 keywords:
 - SevenZip metadata Java
 - extract SevenZip archive information
 - read SevenZip file properties
-title: Hogyan olvassuk a SevenZip metaadatait a GroupDocs.Metadata segítségével Java-ban
+title: Hogyan olvassuk a SevenZip metaadatokat a GroupDocs.Metadata segítségével Java-ban
 type: docs
 url: /hu/java/archive-formats/read-sevenzip-metadata-groupdocs-java/
 weight: 1
@@ -14,46 +15,45 @@ weight: 1
 
 # Hogyan olvassuk a SevenZip metaadatokat a GroupDocs.Metadata segítségével Java-ban
 
-Ha **how to read sevenzip** archívum információkat szeretne lekérni egy Java alkalmazásból, jó helyen jár. Ebben az útmutatóban végigvezetjük a **GroupDocs.Metadata** használatán, hogy kinyerje a fájlneveket, méreteket, dátumokat és egyebeket – pontosan az adatokat, amelyekre a biztonsági mentés ellenőrzéséhez, szinkronizáláshoz vagy tárolás‑optimalizálási feladatokhoz szüksége van.
+Ha Java alkalmazásból kell **read sevenzip metadata java** olvasni, jó helyen jár. Ebben az útmutatóban bemutatjuk, hogyan használhatja a **GroupDocs.Metadata**-t fájlnevek, tömörített méretek, kitömörített méretek, módosítási dátumok és egyéb adatok kinyerésére – pontosan azokra az információkra, amelyekre a biztonsági mentés ellenőrzéséhez, szinkronizáláshoz vagy tárolás‑optimalizálási feladatokhoz szükség van.
 
 ## Bevezetés
 
-Küzd a SevenZip archívumfájlok metaadat‑tulajdonságainak elérésével és olvasásával Java-ban? Ez az útmutató végigvezeti a **GroupDocs.Metadata** használatának folyamatán. Ez a hatékony könyvtár egyszerűsíti a fontos információk, például a fájlnevek, méretek és módosítási dátumok közvetlen kinyerését az archívumokból.
-
-Ebben a cikkben bemutatjuk, hogyan használhatja ki a **GroupDocs.Metadata for Java**‑t a metaadat‑tulajdonságok hatékony eléréséhez a SevenZip fájlokban.
-
-### Mit fog megtanulni
-- A GroupDocs.Metadata beállítása egy Java projektben  
-- Metaadatok olvasása SevenZip archívumokból specifikus módszerek és osztályok használatával  
-- Gyakorlati példák a kulcsfontosságú fájlattribútumok, például név, tömörített méret és módosítási dátum kinyerésére  
+Küzd a SevenZip archívumfájlok metaadat‑tulajdonságainak elérésével és olvasásával Java-ban? Ez az útmutató végigvezeti a **GroupDocs.Metadata** használatának folyamatán. Ez a hatékony könyvtár leegyszerűsíti a fontos információk, például fájlnevek, méretek és módosítási dátumok közvetlen kinyerését az archívumokból.
 
 ## Gyors válaszok
 - **Milyen könyvtárat használjak?** GroupDocs.Metadata for Java  
-- **Listázhatok fájlokat egy SevenZip archívumban?** Igen – használja a `getSevenZipPackage().getFiles()`‑t  
-- **Szükségem van licencre?** Egy ingyenes próba működik értékeléshez; a teljes licenc szükséges a termeléshez  
+- **Listázhatok fájlokat egy SevenZip archívumban?** Igen – használja a `getSevenZipPackage().getFiles()`  
+- **Szükségem van licencre?** Egy ingyenes próba a kiértékeléshez megfelelő; a teljes licenc a termeléshez szükséges  
 - **Melyik Java verzió támogatott?** JDK 8 vagy újabb  
-- **Kell a Maven?** Nem kötelező, de a Maven egyszerűsíti a függőségkezelést  
+- **Kell a Maven?** Nem kötelező, de a Maven egyszerűsíti a függőségek kezelését  
 
-## Mi az a “how to read sevenzip” Java-ban?
-A SevenZip metaadatok olvasása azt jelenti, hogy megnyitja a `.7z` konténert, felsorolja az egyes bejegyzéseket, és kinyeri a tulajdonságokat, például a **compressed size**, **uncompressed size**, **file name**, és **modification date** értékeket anélkül, hogy a tényleges fájlokat kicsomagolná.
+## Mi az a „how to read sevenzip” Java-ban?
 
-## Miért használja a GroupDocs.Metadata Java‑t metaadat‑kinyeréshez?
-- **Unified API** – több tucat archívum‑ és dokumentumformátumon működik  
-- **No external tools** – minden a Java folyamatán belül történik  
-- **Performance‑focused** – csak a metaadat‑kinyeréshez szükséges fejlécinformációkat olvassa  
+A SevenZip metaadatok olvasása azt jelenti, hogy megnyitja a `.7z` konténert, felsorolja az egyes bejegyzéseket, és kinyeri a **compressed size**, **uncompressed size**, **file name**, és **modification date** tulajdonságokat anélkül, hogy a tényleges fájlokat kicsomagolná.
+
+## read sevenzip metadata java
+
+Az elsődleges kulcsszó dedikált címsorban való használata segíti az olvasókat és a keresőmotorokat a guide fókuszának megértésében. Az alábbiakban részletesen bemutatjuk a lépéseket, amelyekkel hatékonyan **read sevenzip metadata java** tudja elvégezni.
+
+## Miért használja a GroupDocs.Metadata Java-t metaadatok kinyeréséhez?
+
+- **Unified API** – több tucat archívum- és dokumentumformátumon működik  
+- **No external tools** – minden a Java folyamaton belül történik  
+- **Performance‑focused** – csak a metaadat extraction java feladatokhoz szükséges fejlécinformációkat olvassa  
 - **Robust licensing** – próba elérhető, teljes licenc kereskedelmi használathoz  
 
-## Előfeltételek
+## Előkövetelmények
 
-Mielőtt belemerülne a **GroupDocs.Metadata for Java**‑ba, győződjön meg arról, hogy a fejlesztői környezete megfelelően be van állítva. Íme, amire szüksége lesz:
+Mielőtt elkezdené a **GroupDocs.Metadata for Java** használatát, győződjön meg arról, hogy a fejlesztői környezet megfelelően be van állítva. Íme, amire szüksége lesz:
 
-- **Java Development Kit (JDK):** 8‑as vagy újabb verzió.  
-- **Maven:** Ajánlott a függőségek kezeléséhez, bár a JAR‑t manuálisan is hozzáadhatja.  
+- **Java Development Kit (JDK):** 8-as vagy újabb verzió.  
+- **Maven:** Ajánlott a függőségek kezeléséhez, bár a JAR-t manuálisan is hozzáadhatja.  
 - **Alap Java ismeretek:** Osztályok, metódusok és kivételkezelés ismerete.  
 
-## A GroupDocs.Metadata beállítása Java‑hoz
+## A GroupDocs.Metadata beállítása Java-hoz
 
-A GroupDocs.Metadata használatához adja hozzá a projektjéhez Maven‑en keresztül vagy a könyvtár közvetlen letöltésével.
+A GroupDocs.Metadata használatához adja hozzá a projektjéhez Maven-en keresztül vagy a könyvtár közvetlen letöltésével.
 
 ### Maven használata
 
@@ -82,9 +82,10 @@ Adja hozzá a következő konfigurációt a `pom.xml` fájlhoz:
 Alternatívaként töltse le a legújabb verziót a [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) oldalról.
 
 #### Licenc beszerzése
-1. **Ingyenes próba:** Kezdje egy ingyenes próbaidőszakkal a GroupDocs.Metadata képességeinek teszteléséhez.  
-2. **Ideiglenes licenc:** Kérjen ideiglenes licencet, ha hosszabb értékelési hozzáférésre van szüksége.  
-3. **Vásárlás:** Hosszú távú használathoz fontolja meg a teljes licenc megvásárlását.  
+
+1. **Free Trial:** Kezdje egy ingyenes próbaidőszakkal a GroupDocs.Metadata képességeinek teszteléséhez.  
+2. **Temporary License:** Kérjen ideiglenes licencet, ha hosszabb kiértékelési hozzáférésre van szüksége.  
+3. **Purchase:** Hosszú távú használathoz fontolja meg egy teljes licenc megvásárlását.
 
 A beállítás befejezése után lépjünk tovább a metaadat‑olvasási funkció megvalósítására.
 
@@ -92,11 +93,11 @@ A beállítás befejezése után lépjünk tovább a metaadat‑olvasási funkci
 
 ### Metaadatok elérése SevenZip archívumokból
 
-Ebben a szakaszban kinyerjük és kiírjuk a metaadat‑tulajdonságokat, például a fájlneveket és méreteket egy SevenZip archívumból.
+Ebben a szakaszban kinyerjük és kiírjuk a metaadat-tulajdonságokat, például a fájlneveket és méreteket egy SevenZip archívumból.
 
-#### 1. lépés: A Metadata objektum inicializálása
+#### 1. lépés: Metadata objektum inicializálása
 
-Kezdje a `Metadata` objektum inicializálásával a SevenZip fájl elérési útjával. Ez megmondja a GroupDocs‑nak, mely fájlon kell dolgozni.
+Kezdje a `Metadata` objektum inicializálásával a SevenZip fájl elérési útjával. Ez megmondja a GroupDocs-nak, melyik fájlon kell dolgoznia.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -108,7 +109,7 @@ public class ReadSevenZipMetadata {
         Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.7z");
 ```
 
-#### 2. lépés: A gyökércsomag lekérése
+#### 2. lépés: Gyökércsomag lekérése
 
 Ezután érje el az archívum gyökércsomagját, amely belépési pontot biztosít az összes fájlhoz és azok tulajdonságaihoz.
 
@@ -117,11 +118,11 @@ try (
     SevenZipRootPackage root = metadata.getRootPackageGeneric()) {
 ```
 
-- **Miért használja a `getRootPackageGeneric()`‑t?** Általános nézetet biztosít az archívum tartalmáról, megkönnyítve a bejegyzések iterálását anélkül, hogy a konkrét fájlformátumok miatt aggódna.
+- **Miért használja a `getRootPackageGeneric()`‑t?** Általános nézetet biztosít az archívum tartalmáról, megkönnyítve a bejegyzések iterálását anélkül, hogy konkrét fájlformátumok miatt aggódna.
 
-#### 3. lépés: Az archívum bejegyzéseinek iterálása
+#### 3. lépés: Archívumbejegyzések iterálása
 
-A gyökércsomag elérése után iteráljon végig minden bejegyzésen a metaadat‑tulajdonságok kinyeréséhez. Ez magában foglalja a név, a tömörített méret és a módosítási dátum lekérését.
+Miután hozzáfér a archívum gyökércsomagjához, iteráljon minden bejegyzésen a metaadat-tulajdonságok kinyeréséhez. Ez magában foglalja a név, a tömörített méret és a módosítási dátum lekérését.
 
 ```java
 int totalEntries = root.getSevenZipPackage().getTotalEntries();
@@ -140,7 +141,7 @@ for (SevenZipFile file : root.getSevenZipPackage().getFiles()) {
 }
 ```
 
-- **Miért kell ezeket a tulajdonságokat kinyerni?** A fájlméretek ismerete segít a tárolás kezelésében, míg a módosítási dátum kulcsfontosságú lehet a szinkronizálási feladatoknál.
+- **Miért kell ezeket a tulajdonságokat kinyerni?** A fájlméretek ismerete segít a tárolás kezelésében, míg a módosítási dátum kulcsfontosságú lehet a szinkronizálási feladatoknál. A `getCompressedSize()` hívás a Java módja a **get compressed size java** lekérésének minden bejegyzéshez.
 
 #### 4. lépés: Erőforrások felszabadítása
 
@@ -152,50 +153,50 @@ Végül győződjön meg róla, hogy eldobja a metadata objektumot, hogy felszab
 }
 ```
 
-- **Miért kell eldobni?** Az objektumok megfelelő eldobása segít elkerülni a memória szivárgásokat a hosszú távon futó alkalmazásokban.
+- **Miért kell eldobni?** Az objektumok megfelelő eldobása segít megelőzni a memória szivárgásokat a hosszú távú alkalmazásokban.
 
 ## Gyakorlati alkalmazások
 
-A SevenZip metaadatok olvasásának megértése számos valós előnnyel jár:
+A **read sevenzip metadata java** megértése számos valós előnnyel jár:
 
-1. **Adatbiztonsági mentés kezelése:** Gyorsan ellenőrizze a mentési archívumok integritását és teljességét.  
+1. **Adatbiztonsági mentés kezelése:** Gyorsan ellenőrizze a biztonsági mentés archívumok integritását és teljességét.  
 2. **Fájl szinkronizációs eszközök:** Használja a módosítási dátumokat annak eldöntésére, mely fájlokat kell frissíteni.  
-3. **Tárolás optimalizálása:** Hasonlítsa össze a tömörített és a tömörítetlen méreteket a kapacitástervezéshez.  
+3. **Tárolás optimalizálása:** Hasonlítsa össze a tömörített és kitömörített méreteket a kapacitástervezéshez.
 
-Az integráció más rendszerekkel lehetséges, lehetővé téve az automatikus metaadat‑kinyerést a nagyobb adatkezelési munkafolyamatok részeként.
+Az integráció más rendszerekkel lehetséges, lehetővé téve az automatikus metaadat-kinyerést a nagyobb adatkezelési munkafolyamatok részeként.
 
-## Teljesítménybeli megfontolások
+## Teljesítmény szempontok
 
-GroupDocs.Metadata és nagy archívumok használata közben tartsa szem előtt a következő tippeket:
+GroupDocs.Metadata és nagy archívumok használata során vegye figyelembe ezeket a tippeket:
 
-- **Kötegelt feldolgozás:** Fájlokat kötegekben dolgozzon fel a memóriahasználat hatékony kezelése érdekében.  
-- **Hatékony kivételkezelés:** Használjon try‑with‑resources‑t az automatikus erőforrás‑kezeléshez.  
-- **Aszinkron feldolgozás:** Valósítsa meg az aszinkron technikákat a nehéz terhelésekhez.  
+- **Batch Processing:** Fájlok feldolgozása kötegekben a memóriahasználat hatékony kezelése érdekében.  
+- **Efficient Exception Handling:** Használjon try‑with‑resources-t az automatikus erőforrás-kezeléshez.  
+- **Asynchronous Processing:** Aszinkron technikák alkalmazása nagy terhelés esetén.
 
 ## Gyakori problémák és megoldások
 
-| Probléma | Megoldás |
-|----------|----------|
-| **`NullPointerException` when accessing a file** | Ellenőrizze, hogy az archívum útvonala helyes‑e, és a fájl nem sérült. |
-| **Memory spikes on huge archives** | Engedélyezze a kötegelt feldolgozást, vagy növelje a JVM heap méretét (`-Xmx`). |
-| **License not recognized** | Győződjön meg arról, hogy a licencfájl az alkalmazás munkakönyvtárában van, vagy állítsa be a `License.setLicense(path)`‑ segítségével. |
+| Issue | Solution |
+|-------|----------|
+| **`NullPointerException` fájl elérésekor** | Ellenőrizze, hogy az archívum útvonala helyes-e, és a fájl nem sérült. |
+| **Memória csúcsok hatalmas archívumoknál** | Engedélyezze a kötegelt feldolgozást vagy növelje a JVM heap méretét (`-Xmx`). |
+| **A licenc nem ismerhető fel** | Győződjön meg róla, hogy a licencfájl az alkalmazás munkakönyvtárában van, vagy állítsa be a `License.setLicense(path)` segítségével. |
 
-## Gyakran feltett kérdések
+## Gyakran Ismételt Kérdések
 
 **Q:** Mi az a GroupDocs.Metadata?  
-**A:** Egy Java könyvtár a metaadatok kezelésére különböző fájlformátumok között, beleértve a SevenZip archívumokat.
+**A:** Egy Java könyvtár, amely különböző fájlformátumok metaadatainak kezelésére szolgál, beleértve a SevenZip archívumokat.
 
-**Q:** Használhatom a GroupDocs.Metadata‑ot Maven nélkül?  
-**A:** Igen, letöltheti a JAR‑t a hivatalos oldalról, és hozzáadhatja a projekt osztályútvonalához.
+**Q:** Használhatom a GroupDocs.Metadata‑t Maven nélkül?  
+**A:** Igen, letöltheti a JAR-t a hivatalos oldalról, és hozzáadhatja a projekt osztályútvonalához.
 
 **Q:** Hogyan kezeljem hatékonyan a nagy archívumokat?  
-**A:** Alkalmazzon kötegelt feldolgozást vagy aszinkron streameket a memóriahasználat korlátozásához.
+**A:** Alkalmazzon kötegelt feldolgozást vagy aszinkron stream-eket a memóriahasználat korlátozásához.
 
 **Q:** Hol találok részletesebb útmutatót?  
-**A:** Lásd a [hivatalos dokumentációt](https://docs.groupdocs.com/metadata/java/) a teljes API‑referenciákért.
+**A:** Tekintse meg a [hivatalos dokumentációt](https://docs.groupdocs.com/metadata/java/) a teljes API referenciáért.
 
 **Q:** Mit tegyek, ha problémáim vannak a könyvtárral?  
-**A:** Kérdezze a közösséget a [GroupDocs támogatási fórumon](https://forum.groupdocs.com/c/metadata/).
+**A:** Kérdezze a közösséget a [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/) oldalon.
 
 ## Erőforrások
 
@@ -203,10 +204,10 @@ GroupDocs.Metadata és nagy archívumok használata közben tartsa szem előtt a
 - **API Reference:** Részletes API információk a [GroupDocs.API Reference](https://reference.groupdocs.com/metadata/java/) oldalon  
 - **Download:** A legújabb verzió letölthető a [GroupDocs Downloads](https://releases.groupdocs.com/metadata/java/) oldalról  
 - **GitHub Repository:** Kódminták a [GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) oldalon  
-- **Free Support Forum:** Csatlakozzon a beszélgetésekhez vagy tegyen fel kérdéseket a [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/) oldalon  
+- **Free Support Forum:** Csatlakozzon a beszélgetésekhez vagy tegyen fel kérdéseket a [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/) fórumon
 
 ---
 
-**Utolsó frissítés:** 2025-12-20  
-**Tesztelve:** GroupDocs.Metadata 24.12 for Java  
+**Legutóbb frissítve:** 2026-02-19  
+**Tesztelve a következővel:** GroupDocs.Metadata 24.12 for Java  
 **Szerző:** GroupDocs

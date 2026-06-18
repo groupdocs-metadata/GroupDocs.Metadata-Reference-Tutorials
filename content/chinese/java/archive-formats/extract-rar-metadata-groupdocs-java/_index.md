@@ -1,40 +1,47 @@
 ---
-date: '2025-12-18'
-description: 了解如何使用 GroupDocs.Metadata for Java 提取 RAR 元数据、获取压缩大小，并以编程方式管理归档详细信息。
+date: '2026-02-19'
+description: 了解如何在使用 GroupDocs.Metadata for Java 提取 RAR 元数据时获取压缩大小（Java）。一步步指南、代码示例和最佳实践。
 keywords:
 - extract RAR metadata Java
 - manage archive metadata
 - RAR file details extraction
-title: 如何使用 GroupDocs.Metadata 用 Java 高效提取 RAR 元数据
+title: 使用 GroupDocs.Metadata 获取 Java 的压缩大小
 type: docs
 url: /zh/java/archive-formats/extract-rar-metadata-groupdocs-java/
 weight: 1
 ---
 
-# 如何使用 GroupDocs.Metadata 高效提取 RAR 元数据（Java）
+# 使用 GroupDocs.Metadata 获取 Java 压缩大小
 
-在当今数据驱动的世界中，**如何使用 GroupDocs** 处理压缩文件可以在性能和可维护性方面产生巨大的差异。本教程将指导您使用 GroupDocs.Metadata for Java 提取 RAR 档案的丰富元数据，包括如何为每个条目**获取压缩大小（Java）**。完成后，您将拥有一个可直接运行的解决方案，可嵌入任何 Java 项目中。
+在现代以数据为中心的应用中，**getting compressed size java** 用于读取 RAR 压缩包中文件的压缩大小是一项常见需求。无论您是在构建备份验证工具、数字资产管理系统，还是仅仅需要展示归档摘要，直接读取这些元数据而无需解压归档都能节省时间和资源。本教程将展示如何使用 GroupDocs.Metadata for Java 快速可靠地获取丰富的 RAR 元数据——包括每个条目的压缩大小。
 
 ## 快速答案
-- **需要的库是什么？** GroupDocs.Metadata for Java  
-- **我可以检索压缩大小吗？** 是的 – 使用 `rarFile.getCompressedSize()`  
-- **我需要许可证吗？** 免费试用可用于开发；生产环境需要完整许可证  
+- **需要哪个库？** GroupDocs.Metadata for Java  
+- **可以获取压缩大小吗？** 可以 – 使用 `rarFile.getCompressedSize()`  
+- **需要许可证吗？** 开发阶段可使用免费试用版；生产环境需要正式许可证  
 - **支持哪个 Java 版本？** Java 8+（任何兼容 Maven 的环境）  
-- **批处理是否可行？** 完全可以 – 对 RAR 文件夹进行循环并复用相同代码  
+- **可以批量处理吗？** 完全可以 – 循环遍历文件夹中的 RAR 文件并复用相同代码  
+- **如何处理大型归档？** 逐条处理条目，完成后关闭元数据对象  
 
-## 介绍
-处理压缩档案是构建数据管理、备份或数字资产管理系统的开发者常见的挑战。通过掌握**如何使用 GroupDocs**读取 RAR 元数据，您可以实现自动目录编制、验证备份完整性，并在无需解压整个档案的情况下增强文件搜索功能。
+## 什么是 “get compressed size java”，它为何重要？
+**get compressed size java** 操作读取文件在 RAR 容器中存储时的大小。了解该值可以帮助您：
+
+* 验证归档的压缩比是否符合预期。  
+* 在不完全解压数据的情况下估算下载或传输时间。  
+* 构建可搜索的清单，显示原始大小和压缩大小。
 
 ## 前置条件
-- **GroupDocs.Metadata for Java**（版本 24.12 或更高）  
-- 兼容 Maven 的 Java 开发环境（IDE、JDK 8+）  
-- 基本的 Java 知识（文件 I/O、循环和面向对象概念）  
+在开始之前，请确保您拥有：
+
+- **GroupDocs.Metadata for Java**（最新版本）。  
+- 一个兼容 Maven 的开发环境（IDE、JDK 8+）。  
+- 基本的 Java 知识（文件 I/O、循环和面向对象概念）。  
 
 ## 设置 GroupDocs.Metadata for Java
-使用 Maven 或直接下载集成该库。
+您可以通过 Maven 添加库，也可以直接下载。
 
 ### Maven 设置
-在您的 `pom.xml` 中添加仓库和依赖：
+在 `pom.xml` 中添加仓库和依赖：
 
 ```xml
 <repositories>
@@ -57,7 +64,7 @@ weight: 1
 ### 直接下载
 或者，从 [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) 下载。
 
-**许可证获取**：先使用免费试用或获取临时许可证。若需完整功能，请考虑购买许可证。
+**获取许可证**：先使用免费试用版或获取临时许可证。生产环境下请从供应商处购买正式许可证。
 
 在项目中初始化 GroupDocs.Metadata：
 
@@ -73,11 +80,10 @@ public class MetadataSetup {
 }
 ```
 
-## 实现指南
-按照以下步骤提取 RAR 档案元数据，包括如何为每个条目**获取压缩大小（Java）**。
+## 实现指南 – 提取 RAR 元数据并获取压缩大小
 
-### 访问 RAR 档案元数据
-我们将获取总条目数、文件名、压缩大小、修改日期和未压缩大小。
+### 如何从 RAR 归档中获取 compressed size java？
+下面是逐步演示，展示如何读取每个条目的压缩大小。
 
 #### 步骤 1：初始化 Metadata 对象
 ```java
@@ -87,20 +93,20 @@ String rarFilePath = "YOUR_DOCUMENT_DIRECTORY/input.rar";
 // Initialize Metadata object with the specified RAR file path\ nMetadata metadata = new Metadata(rarFilePath);
 ```
 
-#### 步骤 2：获取根包
+#### 步骤 2：获取 RAR 归档的根包
 ```java
 // Obtain the root package of the RAR archive
 RarRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-#### 步骤 3：检索并打印总条目数
+#### 步骤 3：检索总条目数
 ```java
 // Retrieve and print the total number of entries in the RAR package
 int totalEntries = root.getRarPackage().getTotalEntries();
 system.out.println("Total Entries: " + totalEntries);
 ```
 
-#### 步骤 4：遍历文件以提取详细信息
+#### 步骤 4：遍历每个文件并读取其属性
 ```java
 // Iterate over each file within the RAR archive
 for (RarFile rarFile : root.getRarPackage().getFiles()) {
@@ -112,60 +118,61 @@ for (RarFile rarFile : root.getRarPackage().getFiles()) {
 }
 ```
 
-**故障排除提示**：
-- 确保 `rarFilePath` 指向一个存在的 RAR 文件。  
-- 确保应用程序对该档案具有读取权限。  
-- 如果遇到“不可支持的格式”错误，请确认 RAR 版本与 GroupDocs.Metadata 兼容（支持 RAR 4 和 RAR 5）。
+**故障排除提示**  
+- 确认 `rarFilePath` 指向的是一个存在的 RAR 文件。  
+- 确保应用程序对该归档拥有读取权限。  
+- 若出现 “unsupported format” 错误，请确认 RAR 版本与 GroupDocs.Metadata 兼容（支持 RAR 4 与 RAR 5）。  
 
-## 为什么使用 GroupDocs.Metadata 处理 RAR 文件？
-- **无需解压** – 元数据直接从档案头读取。  
-- **跨格式一致性** – 同一 API 可用于 ZIP、7z 等其他档案。  
-- **性能导向** – 仅访问所需字段，保持低内存使用。  
+## 为什么选择 GroupDocs.Metadata 处理 RAR 文件？
+- **无需解压** – 直接从归档头读取元数据。  
+- **跨格式一致性** – 同一套 API 同时适用于 ZIP、7z 等其他归档。  
+- **性能导向** – 只访问所需字段，保持低内存占用。  
 
 ## 常见使用场景
-1. **数据管理系统** – 自动为可搜索的清单编目档案内容。  
-2. **数字资产管理** – 用档案级细节丰富媒体库。  
-3. **备份验证** – 将存储的压缩大小与预期值进行比较。  
-4. **文件共享平台** – 在不完全解压的情况下显示档案摘要。  
+1. **数据管理系统** – 自动为可搜索清单编目归档内容。  
+2. **数字资产管理** – 为媒体库添加归档级别的详细信息。  
+3. **备份验证** – 将存储的压缩大小与预期值进行对比。  
+4. **文件共享平台** – 在不完全解压的情况下展示归档摘要。  
 
-## 性能考虑因素
-- **仅访问所需属性** – 如果只需要文件名和大小，请避免调用耗时方法。  
-- **释放 metadata 对象** – 完成后调用 `metadata.close()` 以释放本地资源。  
-- **批处理** – 在循环中处理多个 RAR 文件，复用同一 JVM 以降低启动开销。  
+## 性能注意事项
+- **仅访问必要属性** – 若只需文件名和大小，请避免调用耗时方法。  
+- **释放元数据对象** – 完成后调用 `metadata.close()` 释放本地资源。  
+- **批量处理** – 在循环中处理多个 RAR 文件，复用同一 JVM 以降低启动开销。  
 
-## 常见问题
-**问：什么是 GroupDocs.Metadata for Java？**  
-**答**：一个强大的库，能够读取、更新和管理各种文件格式（包括 RAR 档案）的元数据。
+## 常见问答
 
-**问：如何获取完整访问的许可证？**  
-**答**：访问 [GroupDocs purchase page](https://purchase.groupdocs.com/temporary-license/) 获取临时或永久许可证。
+**Q: 什么是 GroupDocs.Metadata for Java？**  
+A: 一个强大的库，支持读取、更新和管理多种文件格式的元数据，包括 RAR 归档。
 
-**问：除了 RAR，我还能将 GroupDocs.Metadata 用于其他压缩类型吗？**  
-**答**：可以，它支持包括 ZIP 和 7z 在内的多种压缩格式。
+**Q: 如何获取完整功能的许可证？**  
+A: 访问 [GroupDocs purchase page](https://purchase.groupdocs.com/temporary-license/) 获取临时或永久许可证。
 
-**问：在 Java 中使用元数据时常见的问题有哪些？**  
-**答**：处理大文件和高效管理内存可能会有挑战。
+**Q: GroupDocs.Metadata 能否处理除 RAR 之外的归档类型？**  
+A: 可以，支持包括 ZIP、7z 在内的多种归档格式。
 
-**问：如果遇到问题，在哪里可以获得支持？**  
-**答**：请前往 [GroupDocs free support forum](https://forum.groupdocs.com/c/metadata/) 寻求专家和社区的帮助。
+**Q: 在 Java 中使用元数据时常见的问题有哪些？**  
+A: 处理大文件和高效管理内存可能会比较棘手。
+
+**Q: 遇到问题时可以在哪里获取支持？**  
+A: 前往 [GroupDocs free support forum](https://forum.groupdocs.com/c/metadata/) 向专家和社区求助。
 
 ## 资源
 - **文档**： [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **API 参考**： [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
 - **下载**： [Latest Version Downloads](https://releases.groupdocs.com/metadata/java/)  
 - **GitHub**： [Source Code on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- **免费支持**： [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
+- **免费支持**： [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)
 
 ## 结论
-现在您已经了解**如何使用 GroupDocs.Metadata**从 RAR 档案中提取全面的元数据，包括如何为每个条目**获取压缩大小（Java）**。将此代码片段集成到您的项目中，可提升数据管理能力、改进备份验证，并丰富文件搜索体验。
+现在您已经了解 **如何使用 GroupDocs.Metadata** 从 RAR 归档中提取完整的元数据，包括如何 **get compressed size java** 为每个条目获取压缩大小。将此代码片段集成到项目中，可提升数据管理能力、改进备份验证，并丰富文件搜索体验。
 
-### 下一步
-在其 [comprehensive documentation](https://docs.groupdocs.com/metadata/java/) 中探索 GroupDocs.Metadata 的更多功能，或深入学习 Java 编程以实现高级元数据处理。
+### 后续步骤
+在其 [comprehensive documentation](https://docs.groupdocs.com/metadata/java/) 中探索更多 GroupDocs.Metadata 功能，或深入学习 Java 编程以实现高级元数据处理。
 
 ---
 
-**Last Updated:** 2025-12-18  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
+**最后更新：** 2026-02-19  
+**测试环境：** GroupDocs.Metadata 24.12 for Java  
+**作者：** GroupDocs  
 
 ---

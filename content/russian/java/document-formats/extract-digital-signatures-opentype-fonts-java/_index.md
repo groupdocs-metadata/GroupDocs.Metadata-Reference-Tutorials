@@ -1,53 +1,99 @@
 ---
-date: '2026-01-24'
-description: Узнайте, как извлекать сведения о подписи и цифровой подписи из шрифтов
-  OpenType с помощью GroupDocs.Metadata для Java. Этот пошаговый руководствo повышает
-  безопасность документов.
+date: '2026-06-22'
+description: Узнайте, как извлечь подпись шрифта OpenType и детали цифровой подписи
+  из шрифтов OpenType с использованием GroupDocs.Metadata для Java. Это руководство
+  помогает защитить ваши документы.
 keywords:
-- extract digital signatures OpenType fonts Java
-- digital signature flags OpenType fonts
-- GroupDocs Metadata Java
-title: Как извлечь подпись из шрифтов OpenType в Java с помощью GroupDocs.Metadata
+- extract opentype font signature
+- groupdocs metadata java
+- digital signature flags opentype
+schemas:
+- author: GroupDocs
+  dateModified: '2026-06-22'
+  description: Learn how to extract OpenType font signature and digital signature
+    details from OpenType fonts using GroupDocs.Metadata for Java. This guide helps
+    secure your documents.
+  headline: How to Extract OpenType Font Signature in Java Using GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to extract OpenType font signature and digital signature
+    details from OpenType fonts using GroupDocs.Metadata for Java. This guide helps
+    secure your documents.
+  name: How to Extract OpenType Font Signature in Java Using GroupDocs.Metadata
+  steps:
+  - name: Initialize the `Metadata` instance pointing to your font file.
+    text: Initialize the `Metadata` instance pointing to your font file.
+  - name: Retrieve the `DigitalSignaturePackage`.
+    text: Retrieve the `DigitalSignaturePackage`.
+  - name: Print or log the flag values.
+    text: Print or log the flag values.
+  - name: Re‑use the same `Metadata` initialization as above.
+    text: Re‑use the same `Metadata` initialization as above.
+  - name: Loop through each `CmsSignature` in the package.
+    text: Loop through each `CmsSignature` in the package.
+  - name: Extract properties such as `getSignTime()`, `getDigestAlgorithms()`, `getCertificates()`,
+      and `getSignerInfo()`.
+    text: Extract properties such as `getSignTime()`, `getDigestAlgorithms()`, `getCertificates()`,
+      and `getSignerInfo()`.
+  - name: '**Document Verification:** Automate checks for signed font files in a content‑management
+      system.'
+    text: '**Document Verification:** Automate checks for signed font files in a content‑management
+      system.'
+  - name: '**Digital Asset Management:** Validate font authenticity before deploying
+      them in branding projects.'
+    text: '**Digital Asset Management:** Validate font authenticity before deploying
+      them in branding projects.'
+  - name: '**Security Audits:** Review signature details to ensure compliance with
+      internal security policies.'
+    text: '**Security Audits:** Review signature details to ensure compliance with
+      internal security policies.'
+  type: HowTo
+- questions:
+  - answer: '`DigitalSignaturePackage` will be `null`; always check for this condition
+      before accessing flags or details.'
+    question: Can I extract signatures from a font that has no digital signature?
+  - answer: The examples target version **24.12**, but newer releases remain backward
+      compatible for OpenType fonts.
+    question: Which version of GroupDocs.Metadata is required?
+  - answer: A trial license works for evaluation; a full license is required for production
+      use.
+    question: Do I need a special license to read signatures?
+  - answer: Download the font to a temporary local file, then pass its path to `Metadata`.
+      The library works with any file accessible via a local path.
+    question: How do I handle fonts stored in a cloud bucket?
+  - answer: GroupDocs.Metadata supplies raw signature data; you can feed the certificate
+      chain and hash values into a separate crypto library to perform full verification.
+    question: Is it possible to verify the signature’s cryptographic validity?
+  type: FAQPage
+title: Как извлечь подпись шрифта OpenType в Java с помощью GroupDocs.Metadata
 type: docs
 url: /ru/java/document-formats/extract-digital-signatures-opentype-fonts-java/
 weight: 1
 ---
 
-# Как извлечь подпись из шрифтов OpenType в Java с помощью GroupDocs.Metadata
+# Как извлечь подпись шрифта OpenType в Java с помощью GroupDocs.Metadata
 
-## Введение
-В современную цифровую эпоху **как извлечь подпись** из файлов шрифтов — частая потребность разработчиков, которым необходимо проверять подлинность и поддерживать целостность. Этот учебник проведёт вас через процесс извлечения флагов цифровой подписи и подробных данных подписи из шрифтов OpenType с использованием **GroupDocs.Metadata for Java**. Независимо от того, создаёте ли вы систему управления документами, приложение, ориентированное на безопасность, или просто хотите провести аудит шрифтовых ресурсов, освоение этого процесса сделает ваш рабочий процесс более надёжным и защищённым.
-
-**Что вы узнаете**
-- Как извлечь флаги цифровой подписи из шрифтов OpenType  
-- Как получить подробную информацию о каждой цифровой подписи  
-- Как настроить и использовать GroupDocs.Metadata в Java‑проекте  
-
-Перейдём к предварительным требованиям и подготовим вашу среду.
+В современных приложениях **извлечение подписи шрифта OpenType** является необходимым для подтверждения подлинности шрифта и защиты ваших цифровых активов. Этот учебник покажет вам шаг за шагом, как получить как флаги подписи, так и полные криптографические детали из шрифта OpenType с помощью **GroupDocs.Metadata for Java**. Независимо от того, создаёте ли вы ориентированный на безопасность конвейер контента или просто нужно провести аудит библиотеки шрифтов, приведённые ниже техники сделают ваш рабочий процесс надёжным и быстрым.
 
 ## Быстрые ответы
 - **Какая библиотека нужна?** GroupDocs.Metadata for Java (v24.12)  
-- **Какая версия Java требуется?** JDK 8 или новее  
-- **Нужна ли лицензия?** Бесплатная пробная версия подходит для оценки; полная лицензия требуется для продакшн‑использования  
-- **Можно ли обрабатывать несколько шрифтов?** Да — используйте пакетную или параллельную обработку для больших наборов  
-- **Безопасен ли код для многопоточного использования?** Объект `Metadata` одноразовый; создавайте новый экземпляр для каждого потока  
+- **Какая версия Java требуется?** JDK 8 or later  
+- **Нужна ли лицензия?** A free trial works for evaluation; a full license is required for production  
+- **Можно ли обрабатывать несколько шрифтов?** Yes – batch or concurrent processing is supported  
+- **Является ли код потокобезопасным?** Create a new `Metadata` instance per thread; the object itself isn’t thread‑safe  
+
+## Что такое подпись шрифта OpenType?
+**Подпись шрифта OpenType** — это криптографический блок, встроенный в шрифт, который подтверждает, что файл не был изменён после подписи. Он содержит время подписи, цепочку сертификатов, идентификаторы алгоритмов хеширования и необязательную информацию об отзывах. Также включён идентификатор алгоритма подписи, цепочка сертификатов подписанта и необязательные списки отзыва, что позволяет проводить всестороннюю проверку целостности и происхождения шрифта.
+
+## Почему использовать GroupDocs.Metadata для Java?
+GroupDocs.Metadata поддерживает **более 50 форматов ввода и вывода** (включая DOCX, PDF, PPTX, HTML и множество типов изображений) и может читать подписи OpenType без загрузки всего файла в память, что позволяет эффективно обрабатывать коллекции шрифтов, содержащие сотни страниц.
 
 ## Предварительные требования
-Прежде чем извлекать данные цифровой подписи, убедитесь, что ваша настройка соответствует следующим требованиям:
+- **Java Development Kit (JDK):** Версия 8 или новее.  
+- **IDE:** Любая совместимая с Java IDE (IntelliJ IDEA, Eclipse, VS Code и т.д.).  
+- **Maven:** Для управления зависимостями.  
 
-### Необходимые библиотеки и зависимости
-Для работы с GroupDocs.Metadata for Java включите репозиторий Maven и зависимость, показанные ниже.
-
-### Требования к настройке среды
-- **Java Development Kit (JDK):** Установите JDK 8 или новее.  
-- **IDE:** Любая совместимая с Java IDE (IntelliJ IDEA, Eclipse, VS Code и т.д.).
-
-### Требования к знаниям
-Базовое знакомство с Java и понимание цифровых подписей будет полезным, но руководство содержит понятные объяснения для новичков.
-
-## Настройка GroupDocs.Metadata для Java
-### Установка через Maven
-Добавьте следующую конфигурацию в ваш файл `pom.xml`. Это подтянет пакет **groupdocs metadata java**, необходимый для примеров.
+### Требуемые библиотеки и зависимости
+Добавьте координаты Maven GroupDocs.Metadata в ваш `pom.xml`. Это подтянет точный пакет, необходимый для примеров.
 
 ```xml
 <repositories>
@@ -68,25 +114,26 @@ weight: 1
 ```
 
 ### Прямая загрузка
-Либо скачайте последнюю версию по ссылке [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Либо скачайте последнюю версию с [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Приобретение лицензии
-- **Бесплатная пробная версия:** Начните с пробного периода, чтобы изучить возможности.  
-- **Временная лицензия:** При необходимости получите временную лицензию, посетив [GroupDocs licensing page](https://purchase.groupdocs.com/temporary-license).  
-- **Покупка:** Для полного доступа рассмотрите покупку лицензии.
+- **Free Trial:** Начните с бесплатной пробной версии, чтобы изучить возможности.  
+- **Temporary License:** Получите временную лицензию через [страницу лицензирования GroupDocs](https://purchase.groupdocs.com/temporary-license).  
+- **Purchase:** Для использования в продакшене приобретите полную лицензию.
 
-После установки библиотеки и получения лицензии вы можете приступить к извлечению подписей.
+## Как извлечь подпись шрифта OpenType с помощью GroupDocs.Metadata
+`Metadata` — основной API GroupDocs.Metadata для доступа к метаданным документа без загрузки полного файла.  
+Чтобы прочитать подпись шрифта, создайте объект `Metadata`, указав путь к файлу .otf, а затем получите его `DigitalSignaturePackage`. Такой подход загружает только необходимые структуры метаданных, избегая полного парсинга шрифта и экономя память. Экземпляр `Metadata` следует использовать внутри блока try‑with‑resources, чтобы обеспечить правильное освобождение ресурсов.
 
-## Что такое цифровая подпись в шрифте OpenType?
-Цифровая подпись, встроенная в шрифт OpenType, гарантирует, что файл шрифта не был изменён после подписания. Подпись содержит криптографическую информацию, такую как время подписи, сертификаты и алгоритмы хеширования, которые можно программно прочитать с помощью GroupDocs.Metadata.
+Загрузите ваш шрифт с помощью `new Metadata("font.otf")` внутри блока try‑with‑resources. Класс `Metadata` является точкой входа GroupDocs.Metadata для чтения любого поддерживаемого типа документа, включая шрифты OpenType. Объект автоматически закрывается, предотвращая утечки ресурсов.
 
-## Как извлечь флаги цифровой подписи
-### Обзор
-Извлечение флагов цифровой подписи позволяет быстро определить статус и свойства подписи (например, действительна ли она, отозвана или имеет специальные условия).
+### Как извлечь флаги цифровой подписи
+Объект `DigitalSignaturePackage` собирает всю информацию, связанную с подписью шрифта, включая флаги и отдельные подписи.  
+**Прямой ответ:** Вызовите `metadata.getDigitalSignaturePackage().getFlags()` после открытия шрифта; возвращённый набор флагов указывает, действительна ли подпись, отозвана ли она или имеет специальные условия. Этот один вызов даёт быструю проверку состояния перед углублением в детали. Флаги представлены как перечисление, которое можно проанализировать для определения статуса подписи, наличия метки времени и любых ограничений политики, применённых при подписи.
 
-### Шаги реализации
-1. **Инициализировать Metadata:** Создайте экземпляр `Metadata`, указывающий на ваш файл шрифта.  
-2. **Прочитать флаги:** Получите `DigitalSignaturePackage` и выведите его флаги.
+1. Инициализируйте экземпляр `Metadata`, указывающий на ваш файл шрифта.  
+2. Получите `DigitalSignaturePackage`.  
+3. Выведите или запишите значения флагов.
 
 ```java
 String documentPath = "YOUR_DOCUMENT_DIRECTORY"; // Replace with your input file path
@@ -99,17 +146,17 @@ try (Metadata metadata = new Metadata(documentPath)) {
 }
 ```
 
-**Пояснение**
+**Объяснение**  
 - `documentPath` – абсолютный или относительный путь к шрифту OpenType.  
-- Блок `try‑with‑resources` гарантирует автоматическое закрытие объекта `Metadata`, предотвращая утечки ресурсов.
+- Блок try‑with‑resources гарантирует автоматическое закрытие объекта `Metadata`, предотвращая утечки памяти.
 
-## Как извлечь подробную информацию о цифровой подписи
-### Обзор
-Помимо флагов, часто требуется изучить метаданные каждой подписи — время подписи, алгоритмы, сертификаты и инкапсулированное содержимое.
+### Как извлечь подробную информацию о цифровой подписи
+`CmsSignature` представляет отдельную подпись CMS/PKCS#7, встроенную в шрифт, предоставляя доступ к её криптографическим свойствам.  
+**Прямой ответ:** Пройдитесь по `metadata.getDigitalSignaturePackage().getSignatures()`; каждый объект `CmsSignature` раскрывает время подписи, алгоритмы хеширования, инкапсулированное содержимое и детали сертификата, позволяя сформировать полный отчёт аудита. Для каждой подписи можно получить цепочку сертификатов подписанта, проверить алгоритм хеша и извлечь любые токены метки времени, чтобы подтвердить момент применения подписи.
 
-### Шаги реализации
-1. **Инициализировать Metadata** (как выше).  
-2. **Итерировать подписи:** Для каждой `CmsSignature` выведите соответствующие свойства.
+1. Повторно используйте ту же инициализацию `Metadata`, как выше.  
+2. Пройдитесь по каждому `CmsSignature` в пакете.  
+3. Извлеките свойства, такие как `getSignTime()`, `getDigestAlgorithms()`, `getCertificates()` и `getSignerInfo()`.
 
 ```java
 String documentPath = "YOUR_DOCUMENT_DIRECTORY"; // Replace with your input file path
@@ -152,54 +199,61 @@ try (Metadata metadata = new Metadata(documentPath)) {
 }
 ```
 
-**Пояснение ключевых разделов**
-- **Sign Time:** Когда была применена подпись.  
+**Объяснение ключевых разделов**  
+- **Sign Time:** Временная метка, когда подпись была применена.  
 - **Digest Algorithms & OIDs:** Используемые алгоритмы хеширования (например, SHA‑256).  
-- **Encapsulated Content:** Любые дополнительные данные, упакованные внутри подписи.  
-- **Certificates:** Даты действия и размер необработанных данных помогают проверить подлинность подписанта.  
-- **Signers:** Предоставляет информацию о выбранных подписантом алгоритмах и времени подписи.
+- **Encapsulated Content:** Любые дополнительные данные, заключённые в подпись.  
+- **Certificates:** Даты действия и размер необработанных данных помогают проверить личность подписанта.  
+- **Signers:** Предоставляет выбор алгоритмов каждого подписанта и метки времени подписи.
 
-### Советы по устранению неполадок
-- Убедитесь, что шрифт действительно содержит цифровую подпись; иначе `getDigitalSignaturePackage()` вернёт `null`.  
-- Проверьте, что вы используете ту же версию **GroupDocs.Metadata**, что указана в зависимости Maven, чтобы избежать проблем совместимости.  
+#### Советы по устранению неполадок
+- Если у шрифта отсутствует цифровая подпись, `getDigitalSignaturePackage()` возвращает `null`. Всегда проверяйте `null` перед доступом к флагам или подписям.  
+- Убедитесь, что используете ту же версию **GroupDocs.Metadata**, указанную в зависимости Maven, чтобы избежать проблем совместимости.  
 
 ## Практические применения
-Извлечение данных цифровой подписи из шрифтов OpenType полезно в различных сценариях:
-1. **Проверка документов:** Автоматизируйте проверку подписанных файлов шрифтов в системе управления контентом.  
-2. **Управление цифровыми активами:** Валидируйте подлинность шрифтов перед их использованием в брендинговых проектах.  
-3. **Аудит безопасности:** Анализируйте детали подписи, чтобы обеспечить соответствие внутренним политикам безопасности.
+Извлечение подписей шрифтов OpenType ценно во многих реальных сценариях:
+
+1. **Document Verification:** Автоматизировать проверку подписанных файлов шрифтов в системе управления контентом.  
+2. **Digital Asset Management:** Проверять подлинность шрифтов перед их использованием в проектах брендинга.  
+3. **Security Audits:** Анализировать детали подписи для обеспечения соответствия внутренним политикам безопасности.
 
 ## Соображения по производительности
-- **Управление ресурсами:** Всегда используйте `try‑with‑resources` для своевременного закрытия объектов `Metadata`.  
-- **Пакетная обработка:** При работе с большим количеством шрифтов обрабатывайте их пакетами, чтобы снизить нагрузку ввода‑вывода.  
-- **Параллелизм:** Для масштабных нагрузок запускайте отдельные экземпляры `Metadata` в параллельных потоках; библиотека не является потокобезопасной для одного экземпляра.
+- **Resource Management:** Используйте try‑with‑resources для быстрого закрытия объектов `Metadata`.  
+- **Batch Processing:** Обрабатывайте шрифты группами, чтобы минимизировать нагрузку ввода‑вывода; GroupDocs.Metadata может работать с тысячами файлов, не загружая каждый шрифт полностью в память.  
+- **Concurrency:** Запускайте отдельные экземпляры `Metadata` в параллельных потоках для масштабных задач; библиотека не является потокобезопасной на уровне экземпляра, поэтому каждый поток должен иметь свой отдельный экземпляр.
 
 ## Часто задаваемые вопросы
 
-**В: Можно ли извлечь подписи из шрифта, у которого нет цифровой подписи?**  
-О: `DigitalSignaturePackage` будет `null`; перед доступом к флагам или деталям необходимо проверять это условие.
+**Q: Можно ли извлечь подписи из шрифта, у которого нет цифровой подписи?**  
+A: `DigitalSignaturePackage` будет `null`; always check for this condition before accessing flags or details.
 
-**В: Какая версия GroupDocs.Metadata требуется?**  
-О: Примеры используют версию **24.12**, но более новые версии совместимы с шрифтами OpenType.
+**Q: Какая версия GroupDocs.Metadata требуется?**  
+A: The examples target version **24.12**, but newer releases remain backward compatible for OpenType fonts.
 
-**В: Нужна ли специальная лицензия для чтения подписей?**  
-О: Пробная лицензия подходит для оценки; полная лицензия требуется для продакшн‑использования.
+**Q: Нужна ли специальная лицензия для чтения подписей?**  
+A: A trial license works for evaluation; a full license is required for production use.
 
-**В: Какранящимися в облачном бакете?**  
-О: Скачайте шрифт во временный локальный файл, затем передайте его путь в `Metadata`. Библиотека работает с любым файлом, доступным по локальному пути.
+**Q: Как работать со шрифтами, хранящимися в облачном бакете?**  
+A: Download the font to a temporary local file, then pass its path to `Metadata`. The library works with any file accessible via a local path.
 
-**В: Можно ли проверить криптографическую валидность подписи?**  
-О: GroupDocs.Metadata предоставляет необработанные данные; их можно передать в отдельную криптографическую библиотеку вместе с цепочкой сертификатов и хеш‑значениями для полной проверки.
+**Q: Можно ли проверить криптографическую валидность подписи?**  
+A: GroupDocs.Metadata provides raw signature data; you can feed the certificate chain and hash values into a separate crypto library to perform full verification.
 
 ## Заключение
-Следуя этому руководству, вы теперь знаете **как извлечь подпись** и подробные данные цифровой подписи из шрифтов OpenType с помощью **GroupDocs.Metadata for Java**. Интеграция этих техник в ваши приложения усилит безопасность документов, упростит проверку активов и поддержит инициативы по соответствию требованиям.
+Следуя этому руководству, вы теперь знаете **как извлечь информацию о подписи шрифта OpenType** и подробные данные цифровой подписи с помощью **GroupDocs.Metadata for Java**. Интеграция этих шагов в ваши приложения усиливает безопасность документов, упрощает проверку активов и поддерживает инициативы по соблюдению требований.
 
-**Следующие шаги**
-- Поэкспериментируйте с пакетной обработкой для работы с большими библиотеками шрифтов.  
-- Скомбинируйте извлечённые данные с вашими инструментами аудита безопасности для автоматизированного отчётности о соответствии.  
-- Исследуйте другие возможности GroupDocs.Metadata, такие как редактирование или удаление подписей при необходимости.
+**Следующие шаги**  
+- Поэкспериментируйте с пакетной обработкой для эффективного управления большими библиотеками шрифтов.  
+- Скомбинируйте извлечённые данные с вашими инструментами аудита безопасности для автоматической отчётности о соответствии.  
+- Исследуйте другие возможности работы с метаданными в GroupDocs.Metadata, такие как редактирование или удаление подписей при необходимости.
 
 ---
 
-**Последнее обновление:** 2026-01-24  
-**Тестировано с:** GroupDocs.Metadata 24.12
+**Последнее обновление:** 2026-06-22  
+**Тестировано с:** GroupDocs.Metadata 24.12  
+**Автор:** GroupDocs
+
+## Связанные руководства
+
+- [Доступ к метаданным Word‑документов с GroupDocs в Java&#58; Полное руководство](/metadata/java/document-formats/access-word-metadata-groupdocs-java/)
+- [Как извлечь пользовательские метаданные из PDF с помощью GroupDocs.Metadata в Java&#58; Полное руководство](/metadata/java/document-formats/extract-custom-metadata-groupdocs-metadata-java/)

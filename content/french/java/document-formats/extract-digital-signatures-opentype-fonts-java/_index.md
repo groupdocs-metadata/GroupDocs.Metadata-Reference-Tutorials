@@ -1,50 +1,99 @@
 ---
-date: '2026-01-24'
-description: Apprenez comment extraire les détails de signature et de signature numérique
-  des polices OpenType à l'aide de GroupDocs.Metadata pour Java. Ce guide étape par
-  étape renforce la sécurité des documents.
+date: '2026-06-22'
+description: Apprenez comment extraire la signature de police OpenType et les détails
+  de la digital signature des polices OpenType en utilisant GroupDocs.Metadata pour
+  Java. Ce guide aide à sécuriser vos documents.
 keywords:
-- extract digital signatures OpenType fonts Java
-- digital signature flags OpenType fonts
-- GroupDocs Metadata Java
-title: Comment extraire la signature des polices OpenType en Java à l'aide de GroupDocs.Metadata
+- extract opentype font signature
+- groupdocs metadata java
+- digital signature flags opentype
+schemas:
+- author: GroupDocs
+  dateModified: '2026-06-22'
+  description: Learn how to extract OpenType font signature and digital signature
+    details from OpenType fonts using GroupDocs.Metadata for Java. This guide helps
+    secure your documents.
+  headline: How to Extract OpenType Font Signature in Java Using GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to extract OpenType font signature and digital signature
+    details from OpenType fonts using GroupDocs.Metadata for Java. This guide helps
+    secure your documents.
+  name: How to Extract OpenType Font Signature in Java Using GroupDocs.Metadata
+  steps:
+  - name: Initialize the `Metadata` instance pointing to your font file.
+    text: Initialize the `Metadata` instance pointing to your font file.
+  - name: Retrieve the `DigitalSignaturePackage`.
+    text: Retrieve the `DigitalSignaturePackage`.
+  - name: Print or log the flag values.
+    text: Print or log the flag values.
+  - name: Re‑use the same `Metadata` initialization as above.
+    text: Re‑use the same `Metadata` initialization as above.
+  - name: Loop through each `CmsSignature` in the package.
+    text: Loop through each `CmsSignature` in the package.
+  - name: Extract properties such as `getSignTime()`, `getDigestAlgorithms()`, `getCertificates()`,
+      and `getSignerInfo()`.
+    text: Extract properties such as `getSignTime()`, `getDigestAlgorithms()`, `getCertificates()`,
+      and `getSignerInfo()`.
+  - name: '**Document Verification:** Automate checks for signed font files in a content‑management
+      system.'
+    text: '**Document Verification:** Automate checks for signed font files in a content‑management
+      system.'
+  - name: '**Digital Asset Management:** Validate font authenticity before deploying
+      them in branding projects.'
+    text: '**Digital Asset Management:** Validate font authenticity before deploying
+      them in branding projects.'
+  - name: '**Security Audits:** Review signature details to ensure compliance with
+      internal security policies.'
+    text: '**Security Audits:** Review signature details to ensure compliance with
+      internal security policies.'
+  type: HowTo
+- questions:
+  - answer: '`DigitalSignaturePackage` will be `null`; always check for this condition
+      before accessing flags or details.'
+    question: Can I extract signatures from a font that has no digital signature?
+  - answer: The examples target version **24.12**, but newer releases remain backward
+      compatible for OpenType fonts.
+    question: Which version of GroupDocs.Metadata is required?
+  - answer: A trial license works for evaluation; a full license is required for production
+      use.
+    question: Do I need a special license to read signatures?
+  - answer: Download the font to a temporary local file, then pass its path to `Metadata`.
+      The library works with any file accessible via a local path.
+    question: How do I handle fonts stored in a cloud bucket?
+  - answer: GroupDocs.Metadata supplies raw signature data; you can feed the certificate
+      chain and hash values into a separate crypto library to perform full verification.
+    question: Is it possible to verify the signature’s cryptographic validity?
+  type: FAQPage
+title: Comment extraire la signature de police OpenType en Java avec GroupDocs.Metadata
 type: docs
 url: /fr/java/document-formats/extract-digital-signatures-opentype-fonts-java/
 weight: 1
 ---
 
- pour les développeurs qui doivent vérifier l'authenticité et maintenir l'intégrité. Ce tutoriel vous guide à travers numérique Que vous construisiez un système de gestion de documents, une application axée sur la sécurité, ou que vous ayez simplement besoin d'auditer les actifs de police, maîtriser ce processus rendra votre flux de travail plus fiable et sécurisé.
+# Comment extraire la signature de police OpenType en Java avec GroupDocs.Metadata
 
-**What You'll Learn**
-- Comment extraire les indicateurs de signature numérique des polices OpenType  
-- Comment récupérer les informations détaillées sur chaque signature numérique  
-- Comment configurer et utiliser GroupDocs.Metadata dans un projet Java  
+Dans les applications modernes, **extraire les données de signature de police OpenType** est essentiel pour confirmer l’authenticité des polices et protéger vos actifs numériques. Ce tutoriel vous montre, étape par étape, comment récupérer à la fois les indicateurs de signature et les détails cryptographiques complets d’une police OpenType à l’aide de **GroupDocs.Metadata pour Java**. Que vous construisiez un pipeline de contenu axé sur la sécurité ou que vous ayez simplement besoin d’auditer une bibliothèque de polices, les techniques ci‑dessous rendront votre flux de travail fiable et rapide.
 
-Plongeons dans les prérequis et préparons votre environnement.
+## Réponses rapides
+- **Quelle bibliothèque faut‑il ?** GroupDocs.Metadata for Java (v24.12)  
+- **Quelle version de Java est requise ?** JDK 8 ou ultérieure  
+- **Ai‑je besoin d’une licence ?** Un essai gratuit suffit pour l’évaluation ; une licence complète est requise pour la production  
+- **Puis‑je traiter plusieurs polices ?** Oui – le traitement par lots ou concurrent est pris en charge  
+- **Le code est‑il thread‑safe ?** Créez une nouvelle instance `Metadata` par thread ; l’objet lui‑même n’est pas thread‑safe  
 
-## Quick Answers
-- **Quelle bibliothèque est‑elle nécessaire ?** GroupDocs.Metadata for Java (v24.12)  
-- **Quelle version de Java est requise ?** JDK 8 ou ultérieure  
-- **Ai‑je besoin d’une licence ?** Un essai gratuit suffit pour l’évaluation ; une licence complète est requise pour la production  
-- **Puis‑je traiter plusieurs polices ?** Oui – utilisez le traitement par lots ou concurrent pour de grands ensembles  
-- **Le code est‑il thread‑safe ?** L’objet `Metadata` est jetable ; créez une nouvelle instance par thread  
+## Qu’est-ce qu’une signature de police OpenType ?
+La **signature de police OpenType** est un bloc cryptographique intégré dans la police qui prouve que le fichier n’a pas été modifié depuis sa signature. Elle contient l’heure de signature, la chaîne de certificats, les identifiants des algorithmes de hachage et des informations de révocation facultatives. Elle inclut également un identifiant d’algorithme de signature, la chaîne de certificats du signataire et des listes de révocation optionnelles, permettant une vérification complète de l’intégrité et de l’origine de la police.
 
-## Prerequisites
-Avant d’extraire les données de signature numérique, assurez‑vous que votre configuration répond à ces exigences :
+## Pourquoi utiliser GroupDocs.Metadata pour Java ?
+GroupDocs.Metadata prend en charge **plus de 50 formats d’entrée et de sortie** (y compris DOCX, PDF, PPTX, HTML et de nombreux types d’image) et peut lire les signatures OpenType sans charger le fichier complet en mémoire, vous permettant de traiter efficacement des collections de polices de plusieurs centaines de pages.
 
-### Required Libraries and Dependencies
-Pour travailler avec GroupDocs.Metadata for Java, incluez le dépôt Maven et la dépendance indiqués ci‑dessous.
+## Prérequis
+- **Java Development Kit (JDK) :** Version 8 ou supérieure.  
+- **IDE :** Tout IDE compatible Java (IntelliJ IDEA, Eclipse, VS Code, etc.).  
+- **Maven :** Pour la gestion des dépendances.  
 
-### Environment Setup Requirements
-- **Java Development Kit (JDK) :** Installez JDK 8 ou ultérieur.  
-- **IDE :** Tout IDE compatible Java (IntelliJ IDEA, Eclipse, VS Code, etc.).
-
-### Knowledge Prerequisites
-Une connaissance de base de Java et une compréhension des signatures numériques seront utiles, mais le guide comprend des explications claires pour les débutants.
-
-## Setting Up GroupDocs.Metadata for Java
-### Maven Installation
-Ajoutez la configuration suivante à votre fichier `pom.xml`. Cela récupère le package **groupdocs metadata java** requis pour les exemples.
+### Bibliothèques et dépendances requises
+Ajoutez les coordonnées Maven de GroupDocs.Metadata à votre `pom.xml`. Cela récupère le package exact nécessaire aux exemples.
 
 ```xml
 <repositories>
@@ -64,16 +113,27 @@ Ajoutez la configuration suivante à votre fichier `pom.xml`. Cela récupère le
 </dependencies>
 ```
 
-### Direct Download
-Sinon, téléchargez la dernière version depuis [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+### Téléchargement direct
+Alternativement, téléchargez la dernière version depuis [GroupDocs.Metadata pour Java – versions](https://releases.groupdocs.com/metadata/java/).
 
- Commencez avec un essai gratuit pour explorer les fonctionnalités.  
-- **Temporary License :** Obtenez une licence temporaire si nécessaire en visitant la [page de licence GroupDocs](https://purchase.groupdocs.com/temporary-license).  
-- **Purchase , que vous pouvez lire de façon program Extract Digital elle est valide, révoquée ou possède des conditions spéciales).
+### Obtention de licence
+- **Essai gratuit :** Commencez avec un essai gratuit pour explorer les fonctionnalités.  
+- **Licence temporaire :** Obtenez une licence temporaire via la [page de licence GroupDocs](https://purchase.groupdocs.com/temporary-license).  
+- **Achat :** Pour une utilisation en production, achetez une licence complète.
 
-### Implementation Steps
-1. **Initialize Metadata :** Créez une instance `Metadata` pointant vers votre fichier de police.  
-2. **Read Flags :** Accédez au `DigitalSignaturePackage` et affichez ses indicateurs.
+## Comment extraire la signature de police OpenType à l’aide de GroupDocs.Metadata
+La classe `Metadata` est l’API centrale de GroupDocs.Metadata pour accéder aux métadonnées d’un document sans charger le fichier complet.  
+Pour lire la signature d’une police, créez une instance `Metadata` avec le chemin du fichier .otf puis accédez à son `DigitalSignaturePackage`. Cette approche ne charge que les structures de métadonnées nécessaires, évitant l’analyse complète de la police et maintenant une faible utilisation de la mémoire. L’instance `Metadata` doit être utilisée dans un bloc try‑with‑resources pour garantir une libération correcte des ressources.
+
+Chargez votre fichier de police avec `new Metadata("font.otf")` à l’intérieur d’un bloc try‑with‑resources. La classe `Metadata` est le point d’entrée de GroupDocs.Metadata pour lire tout type de document pris en charge, y compris les polices OpenType. L’objet se ferme automatiquement, évitant les fuites de ressources.
+
+### Comment extraire les indicateurs de signature numérique
+L’objet `DigitalSignaturePackage` regroupe toutes les informations liées à la signature pour la police, y compris les indicateurs et les signatures individuelles.  
+**Réponse directe :** Appelez `metadata.getDigitalSignaturePackage().getFlags()` après avoir ouvert la police ; l’ensemble d’indicateurs retourné vous indique si la signature est valide, révoquée ou possède des conditions spéciales. Cet appel unique vous fournit un contrôle rapide de l’état avant d’approfondir les détails. Les indicateurs sont représentés sous forme d’énumération pouvant être inspectée pour déterminer le statut de la signature, la présence d’un horodatage et toute contrainte de politique appliquée lors de la signature.
+
+1. Initialise l’instance `Metadata` pointant vers votre fichier de police.  
+2. Récupère le `DigitalSignaturePackage`.  
+3. Affiche ou consigne les valeurs des indicateurs.
 
 ```java
 String documentPath = "YOUR_DOCUMENT_DIRECTORY"; // Replace with your input file path
@@ -86,17 +146,17 @@ try (Metadata metadata = new Metadata(documentPath)) {
 }
 ```
 
-**Explanation**
+**Explication**  
 - `documentPath` – chemin absolu ou relatif vers la police OpenType.  
-- Le bloc `try‑with‑resources` garantit que l’objet `Metadata` est fermé automatiquement, évitant les fuites de ressources.
+- Le bloc try‑with‑resources garantit que l’objet `Metadata` est fermé automatiquement, évitant les fuites de mémoire.
 
-## How to Extract Detailed Digital Signature Information
-### Overview
-Au‑delà des indicateurs, vous devez souvent inspecter les métadonnées de chaque signature — heure de signature, algorithmes, certificats et contenu encapsulé.
+### Comment extraire les informations détaillées de la signature numérique
+`CmsSignature` représente une signature CMS/PKCS#7 individuelle intégrée dans la police, offrant l’accès à ses propriétés cryptographiques.  
+**Réponse directe :** Parcourez `metadata.getDigitalSignaturePackage().getSignatures()` ; chaque objet `CmsSignature` expose l’heure de signature, les algorithmes de hachage, le contenu encapsulé et les détails du certificat, vous permettant de créer un rapport d’audit complet. Pour chaque signature, vous pouvez récupérer la chaîne de certificats du signataire, vérifier l’algorithme de hachage et extraire les jetons d’horodatage afin de confirmer le moment où la signature a été appliquée.
 
-### Implementation Steps
-1. **Initialize Metadata** (identique à ci‑dessus).  
-2. **Iterate Over Signatures :** Pour chaque `CmsSignature`, affichez les propriétés pertinentes.
+1. Réutilisez la même initialisation `Metadata` que ci‑dessus.  
+2. Parcourez chaque `CmsSignature` du package.  
+3. Extrayez les propriétés telles que `getSignTime()`, `getDigestAlgorithms()`, `getCertificates()` et `getSignerInfo()`.
 
 ```java
 String documentPath = "YOUR_DOCUMENT_DIRECTORY"; // Replace with your input file path
@@ -139,56 +199,59 @@ try (Metadata metadata = new Metadata(documentPath)) {
 }
 ```
 
-**Explanation of Key Sections**
-- **Sign Time :** Moment où la signature a été appliquée.  
-- **Digest Algorithms & OIDs :** Algorithmes de hachage utilisés (par ex., SHA‑256).  
-- **Encapsulated Content :** Toute donnée supplémentaire encapsulée dans la signature.  
-- **Certificates :** Les dates de validité et la taille des données brutes aident à vérifier l’identité du signataire.  
-- **Signers :** Fournit les choix d’algorithme de chaque signataire et les horodatages de signature.
+**Explication des sections clés**  
+- **Heure de signature :** Horodatage de l’application de la signature.  
+- **Algorithmes de hachage & OID :** Algorithmes de hachage utilisés (p. ex., SHA‑256).  
+- **Contenu encapsulé :** Toute donnée supplémentaire encapsulée dans la signature.  
+- **Certificats :** Dates de validité et taille des données brutes aident à vérifier l’identité du signataire.  
+- **Signataires :** Fournit les choix d’algorithme de chaque signataire et les horodatages de signature.
 
-### Troubleshooting Tips
-- Assurez‑vous que la police contient réellement une signature numérique ; sinon `getDigitalSignaturePackage()` renvoie `null`.  
-- Vérifiez que vous utilisez la même version de **GroupDocs.Metadata** que celle indiquée dans la dépendance Maven afin d’éviter les problèmes de compatibilité.  
+#### Conseils de dépannage
+- Si la police ne possède pas de signature numérique, `getDigitalSignaturePackage()` renvoie `null`. Vérifiez toujours la valeur `null` avant d’accéder aux indicateurs ou aux signatures.  
+- Assurez‑vous d’utiliser la même version de **GroupDocs.Metadata** que celle définie dans la dépendance Maven afin d’éviter les problèmes de compatibilité.  
 
-## Practical Applications
-L’extraction des données de signature numérique des polices OpenType est utile dans de nombreux scénarios :
-1. **Document Verification :** Automatisez les vérifications des fichiers de police signés dans un système de gestion de contenu.  
-2. **Digital Asset Management :** Validez l’authenticité des polices avant de les déployer dans des projets de branding.  
-3. **Security Audits :** Examinez les détails des signatures pour garantir la conformité aux politiques de sécurité internes.
+## Applications pratiques
+L’extraction des signatures de polices OpenType est utile dans de nombreux scénarios réels :
 
-## Performance Considerations
-- **Resource Management :** Utilisez toujours `try‑with‑resources` pour fermer rapidement les objets `Metadata`.  
-- **Batch Processing :** Lors du traitement de nombreuses polices, traitez‑les par lots afin de réduire la surcharge d’E/S.  
-- **Concurrency :** Pour des charges de travail à grande échelle, exécutez des instances `Metadata` séparées dans des threads parallèles ; la bibliothèque n’est pas thread‑safe par instance.
+1. **Vérification de documents :** Automatisez les contrôles des fichiers de police signés dans un système de gestion de contenu.  
+2. **Gestion des actifs numériques :** Validez l’authenticité des polices avant de les déployer dans des projets de branding.  
+3. **Audits de sécurité :** Examinez les détails de la signature pour garantir la conformité aux politiques de sécurité internes.
 
-## Frequently Asked Questions
+## Considérations de performance
+- **Gestion des ressources :** Utilisez try‑with‑resources pour fermer rapidement les objets `Metadata`.  
+- **Traitement par lots :** Traitez les polices par groupes afin de réduire la surcharge d’E/S ; GroupDocs.Metadata peut gérer des milliers de fichiers sans charger chaque police complète en mémoire.  
+- **Concurrence :** Exécutez des instances `Metadata` distinctes dans des threads parallèles pour des charges de travail à grande échelle ; la bibliothèque n’est pas thread‑safe par instance, il faut donc isoler chaque instance par thread.  
+
+## Questions fréquentes
 
 **Q : Puis‑je extraire des signatures d’une police qui n’a pas de signature numérique ?**  
-A : Le `DigitalSignaturePackage` sera `null` ; vous devez vérifier cette condition avant d’accéder aux indicateurs ou aux détails.
+R : `DigitalSignaturePackage` sera `null` ; vérifiez toujours cette condition avant d’accéder aux indicateurs ou aux détails.
 
 **Q : Quelle version de GroupDocs.Metadata est requise ?**  
-A : Les exemples utilisent la version **24.12**, mais les versions plus récentes sont rétro‑compatibles avec les polices OpenType.
+R : Les exemples ciblent la version **24.12**, mais les versions plus récentes restent compatibles avec les polices OpenType.
 
 **Q : Ai‑je besoin d’une licence spéciale pour lire les signatures ?**  
-A : Une licence d’essai fonctionne pour l’évaluation ; une licence complète est requise pour une utilisation en production.
+R : Une licence d’essai fonctionne pour l’évaluation ; une licence complète est requise pour une utilisation en production.
 
 **Q : Comment gérer les polices stockées dans un bucket cloud ?**  
-A : Téléchargez la police dans un fichier local temporaire, puis transmettez son chemin à `Metadata`. La bibliothèque fonctionne avec tout fichier accessible via un chemin local.
+R : Téléchargez la police dans un fichier local temporaire, puis transmettez son chemin à `Metadata`. La bibliothèque fonctionne avec tout fichier accessible via un chemin local.
 
 **Q : Est‑il possible de vérifier la validité cryptographique de la signature ?**  
-A : GroupDocs.Metadata fournit les données brutes ; vous pouvez transmettre la chaîne de certificats et les valeurs de hachage à une bibliothèque cryptographique distincte pour une vérification complète.
+R : GroupDocs.Metadata fournit les données brutes de la signature ; vous pouvez transmettre la chaîne de certificats et les valeurs de hachage à une bibliothèque cryptographique séparée pour effectuer une vérification complète.
 
 ## Conclusion
-En suivant ce guide, vous savez maintenant **how to extract signature** les informations et les données détaillées de signature numérique des polices OpenType en utilisant **GroupDocs.Metadata for Java**. L’intégration de ces techniques dans vos applications renforcera la sécurité des documents, rationalisera la validation des actifs et soutiendra les initiatives de conformité.
+En suivant ce guide, vous savez maintenant **comment extraire les informations de signature de police OpenType** et les données détaillées de signature numérique à l’aide de **GroupDocs.Metadata pour Java**. Intégrer ces étapes dans vos applications renforce la sécurité des documents, rationalise la validation des actifs et soutient les initiatives de conformité.
 
-**Next Steps**
-- Expérimentez le traitementèques de polices.  
-- Combine d’autres capacités de métadonnées de GroupDocs.Metadata, comme l’édition ou la suppression de signatures le cas échéant.
+**Prochaines étapes**  
+- Expérimentez le traitement par lots pour gérer efficacement de grandes bibliothèques de polices.  
+- Combinez les données extraites avec vos outils d’audit de sécurité pour des rapports de conformité automatisés.  
+- Explorez d’autres capacités de métadonnées de GroupDocs.Metadata, comme la modification ou la suppression de signatures lorsque cela est approprié.
 
----
+**Dernière mise à jour :** 2026-06-22  
+**Testé avec :** GroupDocs.Metadata 24.12  
+**Auteur :** GroupDocs
 
-**Last Updated:** 2026-01-24  
-**Tested With:** GroupDocs.Metadata 24.12  
-**Author:** GroupDocs  
+## Tutoriels associés
 
----
+- [Accéder aux métadonnées de documents Word avec GroupDocs en Java : guide complet](/metadata/java/document-formats/access-word-metadata-groupdocs-java/)  
+- [Comment extraire les métadonnées personnalisées des PDF avec GroupDocs.Metadata en Java : guide complet](/metadata/java/document-formats/extract-custom-metadata-groupdocs-metadata-java/)

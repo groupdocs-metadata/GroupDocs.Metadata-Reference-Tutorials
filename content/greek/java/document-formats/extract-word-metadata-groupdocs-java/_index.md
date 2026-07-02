@@ -1,45 +1,68 @@
 ---
-date: '2026-01-29'
-description: Μάθετε πώς να εξάγετε μεταδεδομένα από έγγραφα Word με Java, καλύπτοντας
-  τις ιδιότητες εγγράφων Java, την αυτοματοποίηση της εξαγωγής μεταδεδομένων και την
-  εξαγωγή προσαρμοσμένων ιδιοτήτων Java χρησιμοποιώντας το GroupDocs.Metadata.
+date: '2026-07-02'
+description: Μάθετε πώς να εξάγετε word metadata java χρησιμοποιώντας το GroupDocs.Metadata
+  για Java. Αυτός ο οδηγός καλύπτει java extract document properties, custom properties
+  extraction, και automation για large‑scale projects.
 keywords:
-- extract Word document metadata using Java
-- GroupDocs.Metadata for Java setup
-- Java metadata extraction techniques
-title: Πώς να εξάγετε μεταδεδομένα από έγγραφα Word χρησιμοποιώντας Java
+- extract word metadata java
+- java extract document properties
+- groupdocs metadata java setup
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-02'
+  description: Learn how to extract word metadata java using GroupDocs.Metadata for
+    Java. This guide covers java extract document properties, custom properties extraction,
+    and automation for large‑scale projects.
+  headline: Extract Word Metadata with Java – extract word metadata java
+  type: TechArticle
+- questions:
+  - answer: Known properties are standard fields defined by the Office Open XML spec
+      (e.g., *Title*, *Author*). Custom properties are user‑defined key/value pairs
+      that appear under the *Custom* tab in Word.
+    question: What is the difference between known and custom properties?
+  - answer: Yes. After changing a property via the `PropertyDescriptor` API, call
+      `metadata.save()` to persist the changes.
+    question: Can I modify extracted metadata and save it back?
+  - answer: Absolutely. The same API works with PDFs, images, spreadsheets, and more
+      than 50 additional formats.
+    question: Does GroupDocs.Metadata support other file types?
+  - answer: Pass the password to the `Metadata` constructor overload that accepts
+      a `LoadOptions` object.
+    question: How do I handle password‑protected Word files?
+  - answer: GroupDocs.Metadata reads only the necessary parts of the file, so memory
+      usage stays low even for large documents.
+    question: Is there a way to extract metadata without loading the full document
+      into memory?
+  type: FAQPage
+title: Εξαγωγή μεταδεδομένων Word με Java – extract word metadata java
 type: docs
 url: /el/java/document-formats/extract-word-metadata-groupdocs-java/
 weight: 1
 ---
 
-# Πώς να Εξάγετε Μεταδεδομένα από Έγγραφα Word χρησιμοποιώντας Java
+# Εξαγωγή Μεταδεδομένων Word με Java – extract word metadata java
 
-Η διαχείριση των μεταδεδομένων των εγγράφων αποτελεί θεμέλιο λίθο του σύγχρονου αρχειοθέτησης, της συμμόρφωσης και των αυτοματοποιημένων αγωγών επεξεργασίας δεδομένων. Σε αυτό το σεμινάριο θα ανακαλύψετε **πώς να εξάγετε μεταδεδομένα** από έγγραφα Word με Java, θα μάθετε να εργάζεστε με **java document properties** και θα δείτε πρακτικούς τρόπους **αυτοματοποίησης της εξαγωγής μεταδεδομένων** για μεγάλης κλίμακας έργα.
-
-Θα περάσουμε από τη ρύθμιση του GroupDocs.Metadata, την εξαγωγή γνωστών και προσαρμοσμένων ιδιοτήτων και την εφαρμογή των αποτελεσμάτων σε πραγματικά σενάρια.
+Σε σύγχρονες επιχειρήσεις που εστιάζουν στο περιεχόμενο, το **extract word metadata java** είναι απαραίτητο για τη συμμόρφωση, την ευρετηρίαση αναζήτησης και την αυτοματοποίηση ροών εργασίας. Αυτό το εκπαιδευτικό υλικό σας δείχνει, βήμα προς βήμα, πώς να εξάγετε τόσο τα τυπικά όσο και τα προσαρμοσμένα χαρακτηριστικά εγγράφων Word χρησιμοποιώντας το GroupDocs.Metadata για Java. Θα δείτε γιατί η βιβλιοθήκη είναι η προτιμώμενη επιλογή, πώς να την ρυθμίσετε με Maven και πώς να κλιμακώσετε την εξαγωγή για χιλιάδες αρχεία χωρίς να εξαντλήσετε τη μνήμη.
 
 ## Γρήγορες Απαντήσεις
 - **Ποια βιβλιοθήκη διαχειρίζεται τα μεταδεδομένα Word σε Java;** GroupDocs.Metadata for Java  
-- **Μπορώ να εξάγω προσαρμοσμένες ιδιότητες;** Ναι – χρησιμοποιήστε το ίδιο API για την ανάγνωση προσαρμοσμένων ετικετών  
+- **Μπορώ να εξάγω προσαρμοσμένα χαρακτηριστικά;** Ναι – το ίδιο API διαβάζει ετικέτες που ορίζονται από τον χρήστη  
 - **Χρειάζεται άδεια για ανάπτυξη;** Μια δωρεάν δοκιμή λειτουργεί για αξιολόγηση· απαιτείται μόνιμη άδεια για παραγωγή  
 - **Υποστηρίζεται το Maven;** Απόλυτα – προσθέστε το αποθετήριο και την εξάρτηση στο `pom.xml` σας  
 - **Θα λειτουργήσει με μεγάλα έγγραφα;** Ναι, αλλά επεξεργαστείτε τα σε παρτίδες για να διατηρήσετε τη χρήση μνήμης χαμηλή  
 
 ## Τι είναι τα μεταδεδομένα σε ένα έγγραφο Word;
-Τα μεταδεδομένα είναι το σύνολο των κρυφών πληροφοριών που αποθηκεύονται μέσα σε ένα αρχείο—όνομα συγγραφέα, ημερομηνία δημιουργίας, προσαρμοσμένα ζεύγη κλειδί/τιμή και άλλα. Η εξαγωγή αυτών των δεδομένων σας επιτρέπει να ευρετηριάσετε, να ελέγξετε και να δρομολογήσετε αυτόματα τα έγγραφα.
+Τα μεταδεδομένα είναι το σύνολο των κρυφών πληροφοριών που αποθηκεύονται μέσα σε ένα αρχείο—όνομα συγγραφέα, ημερομηνία δημιουργίας, προσαρμοσμένα ζεύγη κλειδί/τιμή και άλλα. Μπορούν επίσης να περιλαμβάνουν ιστορικό εκδόσεων, πληροφορίες προτύπου εγγράφου και ετικέτες ειδικές για την εφαρμογή που δεν είναι ορατές στο σώμα του εγγράφου αλλά είναι ουσιώδεις για τη διαχείριση και τη συμμόρφωση. Η εξαγωγή αυτών των δεδομένων σας επιτρέπει να ευρετηριάσετε, να ελέγξετε και να δρομολογήσετε αυτόματα τα έγγραφα.
 
-## Γιατί να εξάγετε μεταδεδομένα με Java;
-- **Αυτοματοποίηση της εξαγωγής μεταδεδομένων** σε χιλιάδες αρχεία χωρίς χειροκίνητη παρέμβαση  
-- **Ενσωμάτωση με συστήματα διαχείρισης εγγράφων** για εμπλουτισμό των ευρετηρίων αναζήτησης  
-- **Διασφάλιση συμμόρφωσης** ελέγχοντας τις απαιτούμενες ιδιότητες πριν την αρχειοθέτηση  
+## Γιατί να εξάγετε word metadata java;
+Η εξαγωγή word metadata java σας επιτρέπει να **αυτοματοποιήσετε την εξαγωγή μεταδεδομένων** σε χιλιάδες αρχεία, να εμπλουτίσετε τα ευρετήρια αναζήτησης σε συστήματα διαχείρισης εγγράφων και να επαληθεύσετε κανόνες συμμόρφωσης πριν την αρχειοθέτηση. Το GroupDocs.Metadata επεξεργάζεται μόνο τα σχετικά XML τμήματα ενός DOCX, έτσι ακόμη και αρχεία 500 σελίδων διαχειρίζονται με λιγότερο από 20 MB μνήμης heap.
 
 ## Προαπαιτούμενα
-- **GroupDocs.Metadata for Java** έκδοση 24.12 ή νεότερη  
-- JDK 8+ και ένα IDE συμβατό με Maven (IntelliJ IDEA, Eclipse, NetBeans)  
-- Βασικές γνώσεις Java και εξοικείωση με το Maven  
+- **GroupDocs.Metadata for Java** έκδοση 24.12 ή νεότερη (υποστηρίζει 50+ μορφές εισόδου και εξόδου)  
+- JDK 8+ και IDE συμβατό με Maven (IntelliJ IDEA, Eclipse, NetBeans)  
+- Βασικές γνώσεις Java και εξοικείωση με Maven  
 
-## Ρύθμιση του GroupDocs.Metadata for Java
+## Ρύθμιση GroupDocs.Metadata για Java
 Η ενσωμάτωση της βιβλιοθήκης είναι απλή. Επιλέξτε Maven για αυτοματοποιημένες κατασκευές ή κατεβάστε το JAR απευθείας.
 
 ### Χρήση Maven
@@ -66,7 +89,7 @@ weight: 1
 ### Άμεση Λήψη
 Αν προτιμάτε χειροκίνητη προσέγγιση, κατεβάστε το πιο πρόσφατο JAR από την επίσημη ιστοσελίδα:
 
-[GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)
+[Κυκλοφορίες GroupDocs.Metadata για Java](https://releases.groupdocs.com/metadata/java/)
 
 #### Βήματα Απόκτησης Άδειας
 - **Δωρεάν Δοκιμή** – εξερευνήστε όλες τις δυνατότητες χωρίς κόστος  
@@ -74,7 +97,7 @@ weight: 1
 - **Αγορά** – αποκτήστε πλήρη άδεια για παραγωγικά φορτία εργασίας  
 
 ## Βασική Αρχικοποίηση και Ρύθμιση
-Δημιουργήστε ένα αντικείμενο `Metadata` που δείχνει στο αρχείο Word σας. Το μπλοκ `try‑with‑resources` εγγυάται σωστό καθαρισμό:
+`Metadata` είναι η κύρια κλάση που παρέχει πρόσβαση στα μεταδεδομένα ενός εγγράφου και διαχειρίζεται τον καθαρισμό πόρων. Δημιουργήστε μια παρουσία `Metadata` που δείχνει στο αρχείο Word σας. Το μπλοκ try‑with‑resources εγγυάται σωστό καθαρισμό:
 
 ```java
 try (Metadata metadata = new Metadata("path/to/your/document.docx")) {
@@ -83,7 +106,7 @@ try (Metadata metadata = new Metadata("path/to/your/document.docx")) {
 ```
 
 ## Οδηγός Υλοποίησης: Εξαγωγή Γνωστών Περιγραφέων Ιδιοτήτων
-Ακολουθεί μια βήμα‑βήμα περιήγηση που δείχνει πώς να διαβάζετε **java document properties** και τυχόν προσαρμοσμένες ετικέτες που είναι συνδεδεμένες με αυτές.
+Ακολουθεί ένας βήμα‑βήμα οδηγός που δείχνει πώς να διαβάσετε **java document properties** και τυχόν προσαρμοσμένες ετικέτες που είναι συνδεδεμένες με αυτές.
 
 ### Βήμα 1: Εισαγωγή Απαιτούμενων Κλάσεων
 ```java
@@ -117,32 +140,27 @@ for (PropertyDescriptor descriptor : root.getDocumentProperties().getKnowPropert
 }
 ```
 
-#### Τι κάνει ο κώδικας
-- **`descriptor.getName()`** – επιστρέφει το φιλικό όνομα της ιδιότητας (π.χ. *Author*).  
-- **`descriptor.getType()`** – δείχνει αν η τιμή είναι συμβολοσειρά, ημερομηνία, ακέραιος κ.λπ.  
-- **`descriptor.getAccessLevel()`** – υποδεικνύει αν είναι μόνο‑ανάγνωση ή εγγράψιμη.  
-- **Tags** – πρόσθετα δεδομένα ταξινόμησης που μπορούν να αξιοποιηθούν για σενάρια **extract custom properties java**.  
+`PropertyDescriptor` περιγράφει μια μοναδική ιδιότητα μεταδεδομένων, συμπεριλαμβανομένου του ονόματος, του τύπου και του επιπέδου πρόσβασης.
 
-### Συμβουλές Επίλυσης Προβλημάτων
-- Επαληθεύστε τη διαδρομή του αρχείου· λανθασμένη διαδρομή προκαλεί `FileNotFoundException`.  
-- Αν μια ιδιότητα φαίνεται να λείπει, ανοίξτε το έγγραφο στο Word και ελέγξτε το πλαίσιο *Properties* για να βεβαιωθείτε ότι υπάρχει.  
+## Πώς να εξάγετε word metadata java;
+`metadata.getAllPropertyDescriptors()` επιστρέφει μια συλλογή όλων των περιγραφέων ιδιοτήτων, καλύπτοντας τόσο τις τυπικές όσο και τις προσαρμοσμένες ιδιότητες. Το **extract word metadata java** αναφέρεται στην ανάγνωση των ιδιοτήτων εγγράφου Word χρησιμοποιώντας το GroupDocs.Metadata. Φορτώστε το αρχείο με `new Metadata("sample.docx")`, στη συνέχεια καλέστε `metadata.getAllPropertyDescriptors()` για να λάβετε το όνομα, τον τύπο και την τιμή κάθε περιγραφέα. Μπορείτε να αποθηκεύσετε αυτά τα αποτελέσματα σε βάση δεδομένων ή να τα εξάγετε σε CSV για περαιτέρω επεξεργασία.
 
 ## Πρακτικές Εφαρμογές
 1. **Συστήματα Διαχείρισης Εγγράφων** – αυτόματη συμπλήρωση πεδίων αναζήτησης εξάγοντας συγγραφέα, τμήμα και προσαρμοσμένες ετικέτες.  
-2. **Έλεγχοι Συμμόρφωσης** – δημιουργία αναφορών που καταγράφουν ημερομηνίες δημιουργίας και ιστορικό αναθεωρήσεων.  
+2. **Έλεγχοι Συμμόρφωσης** – δημιουργία αναφορών που καταγράφουν ημερομηνίες δημιουργίας και ιστορικό εκδόσεων.  
 3. **Μεταφορά Περιεχομένου** – διατήρηση των μεταδεδομένων κατά τη μετακίνηση αρχείων μεταξύ αποθετηρίων.  
-4. **Αυτοματοποίηση Ροής Εργασίας** – ενεργοποίηση επόμενων διαδικασιών όταν μια συγκεκριμένη προσαρμοσμένη ιδιότητα (π.χ. *ReviewStatus*) ορίζεται σε *Approved*.  
+4. **Αυτοματοποίηση Ροής Εργασίας** – ενεργοποίηση επόμενων διεργασιών όταν μια συγκεκριμένη προσαρμοσμένη ιδιότητα (π.χ. *ReviewStatus*) είναι ορισμένη σε *Approved*.  
 
 ## Σκέψεις για την Απόδοση
-- **Επεξεργασία σε Παρτίδες** – φορτώστε τα έγγραφα σε μικρές ομάδες για να διατηρήσετε το heap της JVM σταθερό.  
-- **Garbage Collection** – καλέστε `System.gc()` με μέτρο· βασιστείτε στο πρότυπο `try‑with‑resources` για άμεση απελευθέρωση των εγγενών χειριστών.  
-- **Profiling** – χρησιμοποιήστε VisualVM ή JProfiler για να εντοπίσετε bottlenecks όταν επεξεργάζεστε χιλιάδες αρχεία.  
+- **Επεξεργασία σε Παρτίδες** – φορτώστε έγγραφα σε μικρές ομάδες για να διατηρήσετε το heap της JVM σταθερό.  
+- **Συλλογή Σκουπιδιών** – καλέστε `System.gc()` με μέτρο· βασιστείτε στο πρότυπο try‑with‑resources για άμεση απελευθέρωση εγγενών χειριστών.  
+- **Προφίλ Απόδοσης** – χρησιμοποιήστε VisualVM ή JProfiler για να εντοπίσετε σημεία συμφόρησης όταν επεξεργάζεστε χιλιάδες αρχεία.  
 
-## Συνηθισμένα Πιθανά Σφάλματα & Πώς να τα Αποφύγετε
+## Συχνά Προβλήματα και Λύσεις
 | Συμπτωμα | Πιθανή Αιτία | Διόρθωση |
 |---------|--------------|----------|
-| Δεν εμφανίζεται έξοδος για γνωστή ιδιότητα | Χρήση `getKnowPropertyDescriptors()` αντί για `getAllPropertyDescriptors()` | Αλλάξτε στη μέθοδο που περιλαμβάνει και τις προσαρμοσμένες ιδιότητες. |
-| `OutOfMemoryError` σε μεγάλα έγγραφα | Φόρτωση πολλών αρχείων ταυτόχρονα | Επεξεργαστείτε τα αρχεία διαδοχικά ή αυξήστε το heap (`-Xmx2g`). |
+| Καμία έξοδος για γνωστή ιδιότητα | Χρήση `getKnowPropertyDescriptors()` αντί για `getAllPropertyDescriptors()` | Μετάβαση στη μέθοδο που περιλαμβάνει προσαρμοσμένες ιδιότητες. |
+| `OutOfMemoryError` σε μεγάλα έγγραφα | Φόρτωση πολλών αρχείων ταυτόχρονα | Επεξεργασία αρχείων διαδοχικά ή αύξηση του heap (`-Xmx2g`). |
 | `NullPointerException` στο `descriptor.getTags()` | Το έγγραφο δεν έχει ετικέτες | Προσθέστε έλεγχο null πριν την επανάληψη. |
 
 ## Συχνές Ερωτήσεις
@@ -153,27 +171,33 @@ for (PropertyDescriptor descriptor : root.getDocumentProperties().getKnowPropert
 **Ε: Μπορώ να τροποποιήσω τα εξαγόμενα μεταδεδομένα και να τα αποθηκεύσω ξανά;**  
 Α: Ναι. Αφού αλλάξετε μια ιδιότητα μέσω του API `PropertyDescriptor`, καλέστε `metadata.save()` για να αποθηκεύσετε τις αλλαγές.
 
-**Ε: Υποστηρίζει το GroupDocs.Metadata και άλλους τύπους αρχείων;**  
-Α: Απόλυτα. Το ίδιο API λειτουργεί με PDF, εικόνες, λογιστικά φύλλα και άλλα.
+**Ε: Υποστηρίζει το GroupDocs.Metadata άλλους τύπους αρχείων;**  
+Α: Απόλυτα. Το ίδιο API λειτουργεί με PDF, εικόνες, λογιστικά φύλλα και περισσότερα από 50 επιπλέον μορφές.
 
-**Ε: Πώς διαχειρίζομαι αρχεία Word που προστατεύονται με κωδικό;**  
-Α: Περνάτε τον κωδικό στον κατασκευαστή `Metadata` που δέχεται ένα αντικείμενο `LoadOptions`.
+**Ε: Πώς διαχειρίζομαι αρχεία Word με κωδικό πρόσβασης;**  
+Α: Περνάτε τον κωδικό στην υπερφόρτωση του κατασκευαστή `Metadata` που δέχεται αντικείμενο `LoadOptions`.
 
 **Ε: Υπάρχει τρόπος να εξάγω μεταδεδομένα χωρίς να φορτώσω ολόκληρο το έγγραφο στη μνήμη;**  
 Α: Το GroupDocs.Metadata διαβάζει μόνο τα απαραίτητα τμήματα του αρχείου, έτσι η χρήση μνήμης παραμένει χαμηλή ακόμη και για μεγάλα έγγραφα.
 
 ## Πόροι
-- **Τεκμηρίωση**: [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
-- **Αναφορά API**: [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
-- **Λήψη**: [GroupDocs Releases](https://releases.groupdocs.com/metadata/java/)  
-- **GitHub**: [GroupDocs GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- **Δωρεάν Υποστήριξη**: [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
-- **Προσωρινή Άδεια**: [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)  
+- **Τεκμηρίωση**: [Τεκμηρίωση GroupDocs Metadata](https://docs.groupdocs.com/metadata/java/)  
+- **Αναφορά API**: [Αναφορά API GroupDocs](https://reference.groupdocs.com/metadata/java/)  
+- **Λήψη**: [Κυκλοφορίες GroupDocs](https://releases.groupdocs.com/metadata/java/)  
+- **GitHub**: [Αποθετήριο GroupDocs στο GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
+- **Δωρεάν Υποστήριξη**: [Φόρουμ GroupDocs](https://forum.groupdocs.com/c/metadata/)  
+- **Προσωρινή Άδεια**: [Απόκτηση Προσωρινής Άδειας](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 
-**Τελευταία Ενημέρωση:** 2026-01-29  
+**Τελευταία Ενημέρωση:** 2026-07-02  
 **Δοκιμασμένο Με:** GroupDocs.Metadata 24.12 for Java  
 **Συγγραφέας:** GroupDocs  
 
 ---
+
+## Σχετικά Μαθήματα
+
+- [Πώς να Ενημερώσετε τα Μεταδεδομένα Εγγράφου Word Χρησιμοποιώντας το GroupDocs.Metadata Java: Ολοκληρωμένος Οδηγός](/metadata/java/document-formats/update-word-metadata-groupdocs-java/)
+- [Ενημέρωση Στατιστικών Εγγράφου Word Χρησιμοποιώντας το GroupDocs.Metadata for Java: Αναλυτικός Οδηγός](/metadata/java/document-formats/update-word-document-statistics-groupdocs-metadata-java/)
+- [Εξαγωγή Μεταδεδομένων Java: Οδηγός Προσαρμοσμένου Αποδέκτη Τιμής με GroupDocs.Metadata](/metadata/java/working-with-metadata/java-metadata-extraction-custom-value-acceptor-groupdocs/)

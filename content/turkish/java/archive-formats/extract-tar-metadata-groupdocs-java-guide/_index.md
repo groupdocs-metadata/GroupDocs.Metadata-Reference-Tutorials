@@ -1,29 +1,29 @@
 ---
-date: '2025-12-18'
-description: Bu adım adım rehberde, GroupDocs.Metadata for Java kullanarak tar arşivlerini
-  nasıl okuyacağınızı ve meta verilerini nasıl çıkaracağınızı öğrenin.
+date: '2026-03-04'
+description: Bu adım adım rehberde, Java için GroupDocs.Metadata kullanarak tar meta
+  verilerini nasıl çıkaracağınızı öğrenin.
 keywords:
-- extract TAR metadata
+- extract tar metadata java
 - GroupDocs.Metadata for Java
 - TAR archive metadata
-title: GroupDocs.Metadata for Java ile TAR Dosyalarını Okuma ve Meta Verileri Çıkarma
+title: GroupDocs.Metadata ile Java’da TAR Metaverisini Nasıl Çıkarılır
 type: docs
 url: /tr/java/archive-formats/extract-tar-metadata-groupdocs-java-guide/
 weight: 1
 ---
 
-# TAR Dosyalarını Okuma ve GroupDocs.Metadata for Java ile Metaveri Çıkarma
+# GroupDocs.Metadata ile TAR Metadata Java Nasıl Çıkarılır
 
-Arşiv dosyalarından, örneğin **.tar** gibi, metaveri çıkarmak göz korkutucu olabilir, özellikle programatik olarak **how to read tar** dosyalarını ararken. Bu rehberde, GroupDocs.Metadata for Java kullanarak net, uygulamalı bir süreçten sizi geçireceğiz, böylece tar arşivlerini güvenle okuyabilir, dosya‑seviyesi ayrıntıları çıkarabilir ve sonuçları uygulamalarınıza entegre edebilirsiniz.
+**TAR** arşiv bilgilerini çıkarmak göz korkutucu olabilir, özellikle **extract tar metadata java**'yı hızlı ve güvenilir bir şekilde yapmanız gerektiğinde. Bu rehberde, GroupDocs.Metadata for Java kullanarak net, uygulamalı bir süreci adım adım göstereceğiz, böylece TAR dosyalarını güvenle okuyabilir, dosya düzeyindeki ayrıntıları çıkarabilir ve sonuçları uygulamalarınıza entegre edebilirsiniz.
 
 ## Hızlı Yanıtlar
-- **Java'da TAR metaverisini yöneten kütüphane nedir?** GroupDocs.Metadata for Java  
+- **Java'da TAR metadata'sını işleyen kütüphane nedir?** GroupDocs.Metadata for Java  
 - **Temel bir uygulamanın süresi ne kadar?** Yaklaşık 10–15 dakika  
-- **Lisans gerekiyor mu?** Değerlendirme için ücretsiz deneme veya geçici lisans yeterlidir; üretim için ücretli lisans gereklidir  
+- **Lisans gerekir mi?** Değerlendirme için ücretsiz deneme veya geçici lisans yeterlidir; üretim için ücretli lisans gereklidir  
 - **Büyük TAR dosyalarını işleyebilir miyim?** Evet, ancak kaynakları serbest bırakmak için `Metadata` nesnesini dispose edin  
-- **Bu .tar.gz dosyasını okumakla aynı mı?** Önce .gz'yi açmanız gerekir, ardından aynı yöntemi kullanın  
+- **Bu .tar.gz okuma ile aynı mı?** Önce .gz'yi açmanız gerekir, ardından aynı yaklaşımı kullanın  
 
-## GroupDocs.Metadata for Java Kullanarak TAR Dosyalarını Okuma
+## GroupDocs.Metadata for Java ile tar metadata java Nasıl Çıkarılır
 Aşağıda izleyeceğiniz adımların hızlı bir özeti bulunmaktadır:
 
 1. **GroupDocs.Metadata bağımlılığını** Maven projenize ekleyin.  
@@ -32,7 +32,7 @@ Aşağıda izleyeceğiniz adımların hızlı bir özeti bulunmaktadır:
 4. **Her bir girişi yineleyin** dosya adlarını, boyutlarını ve diğer özellikleri okumak için.  
 5. **İşiniz bittiğinde `Metadata` nesnesini dispose edin**.
 
-### Neden GroupDocs.Metadata tercih edilmeli?
+### Neden GroupDocs.Metadata seçilmeli?
 - **Tam özellikli API** düşük seviyeli TAR ayrıştırmasını soyutlar.  
 - **Çapraz platform desteği** Windows, Linux ve macOS Java çalışma zamanları için.  
 - **Sağlam hata yönetimi** ve yerleşik kaynak yönetimi, büyük ölçekli **how to read tar** dosyalarını anlamak için gereklidir.
@@ -40,11 +40,11 @@ Aşağıda izleyeceğiniz adımların hızlı bir özeti bulunmaktadır:
 ## Önkoşullar
 - **Java Development Kit (JDK) 8 veya üzeri**  
 - **Maven** bağımlılık yönetimi için  
-- **GroupDocs.Metadata for Java 24.12** (veya daha yeni) – en son sürüm resmi sürüm sayfasından indirilebilir  
+- **GroupDocs.Metadata for Java 24.12** (veya daha yeni) – en son sürüm resmi releases sayfasından indirilebilir  
 
 ## GroupDocs.Metadata for Java Kurulumu
 
-Add the repository and dependency to your `pom.xml`:
+Depoyu ve bağımlılığı `pom.xml` dosyanıza ekleyin:
 
 ```xml
 <repositories>
@@ -94,7 +94,7 @@ public class TarMetadataExample {
 
 ## Uygulama Kılavuzu
 
-### TAR Arşivinden Metaveri Okuma
+### TAR Arşivinden Metadata Okuma
 
 #### Metadata Nesnesini Başlatma
 `Metadata`'nin bir örneğini `.tar` dosya yolunuzla oluşturun.
@@ -102,17 +102,17 @@ public class TarMetadataExample {
 ```java
 Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.tar");
 ```
-**Neden:** Bu adım, arşivin iç yapısına erişim sağlayacak nesneyi hazırlar; bu, **how to read tar** dosyalarının temelidir.
+**Neden:** Bu adım, arşivin iç yapısına erişim sağlayacak nesneyi hazırlar; bu, **how to read tar** dosyalarının temeli olur.
 
-#### Kök Pakete Erişme
+#### Kök Pakete Erişim
 TAR arşivinin içeriğiyle etkileşim kurmak için kök paketi alın:
 
 ```java
 TarRootPackage root = metadata.getRootPackageGeneric();
 ```
-Bu çağrı, arşivin hiyerarşisinde gezinmek için gereklidir.
+Bu çağrı, arşivin hiyerarşisinde gezinmek için esastır.
 
-#### Toplam Giriş Sayısını Alın
+#### Toplam Giriş Sayısını Al
 Arşivin kaç giriş (dosya/klasör) içerdiğini belirleyin:
 
 ```java
@@ -122,7 +122,7 @@ System.out.println("Total Entries: " + totalEntries);
 **Açıklama:** Giriş sayısını bilmek, döngüleri planlamanıza ve arşivin bütünlüğünü doğrulamanıza yardımcı olur.
 
 #### Her Dosya Girişini Döngüyle İşleme
-Her bir girişi döngüyle işleyerek ad, boyut gibi ayrıntıları çıkarın:
+Her bir girişi döngüyle işleyerek ad ve boyut gibi ayrıntıları çıkarın:
 
 ```java
 for (TarFile file : root.getTarPackage().getFiles()) {
@@ -132,55 +132,54 @@ for (TarFile file : root.getTarPackage().getFiles()) {
     System.out.println("File Size: " + fileSize);
 }
 ```
-**Neden:** Her dosyayı ayrı ayrı işlemek, raporlama, taşıma veya yedek doğrulaması için sıkça gereken ayrıntılı metaveri sağlar.
+**Neden:** Her dosyayı ayrı ayrı işlemek, raporlama, taşıma veya yedek doğrulaması için sıkça gereken ayrıntılı metadata sağlar.
 
 ### Sorun Giderme İpuçları
-- **Yaygın Sorun:** Çıkarma başarısız – dosya yolunu iki kez kontrol edin ve TAR dosyasının Java süreci tarafından okunabilir olduğundan emin olun.  
-- **Performans İpucu:** İşiniz bittiğinde her zaman `metadata.dispose()` çağırarak yerel kaynakları serbest bırakın, özellikle büyük arşivlerle çalışırken.
+- **Common Issue:** Çıkarma başarısız – dosya yolunu iki kez kontrol edin ve TAR dosyasının Java süreci tarafından okunabilir olduğundan emin olun.  
+- **Performance Tip:** İşiniz bittiğinde her zaman `metadata.dispose()` çağırarak yerel kaynakları serbest bırakın, özellikle büyük arşivlerle çalışırken.
 
 ## Pratik Uygulamalar
-1. **Veri Taşıma:** Sistemler arasında veri taşıma öncesinde dosya sayısını ve boyutlarını doğrulayın.  
-2. **Yedekleme Çözümleri:** Yedek arşivindeki her dosyanın yer aldığını teyit etmek için envanter raporları oluşturun.  
-3. **İçerik Yönetim Sistemleri (CMS):** Daha iyi arama ve organizasyon için depolanan varlıkları TAR‑seviyesi metaveri ile zenginleştirin.
+1. **Data Migration:** Sistemler arasında veri taşımadan önce dosya sayısını ve boyutlarını doğrulayın.  
+2. **Backup Solutions:** Yedek arşivindeki her dosyanın kaydedildiğini doğrulamak için envanter raporları oluşturun.  
+3. **Content Management Systems (CMS):** Daha iyi arama ve organizasyon için depolanan varlıkları TAR‑seviyesinde metadata ile zenginleştirin.
 
 ## Performans Düşünceleri
 Büyük arşivlerle çalışırken:
-
-- **Nesneleri hızlıca dispose edin** bellek sızıntılarını önlemek için.  
-- **Java’nın akış API'lerini** tüm listeyi belleğe yüklemeden girişleri işlemek için kullanın.  
+- **Dispose objects promptly** bellek sızıntılarını önlemek için nesneleri zamanında serbest bırakın.  
+- **Leverage Java’s streaming APIs** tüm listeyi belleğe yüklemeden girişleri işlemek istiyorsanız kullanın.  
 
 ## Sonuç
-Artık GroupDocs.Metadata for Java kullanarak **how to read tar** dosyalarını okuma ve metaverilerini çıkarma konusunda sağlam, uçtan uca bir yönteme sahipsiniz. Bu yetenek, taşıma araçları, yedekleme yardımcı programları veya arşiv içeriği hakkında bilgiye ihtiyaç duyan herhangi bir Java‑tabanlı sisteme entegre edilebilir.
+Artık GroupDocs.Metadata for Java kullanarak **extract tar metadata java** için sağlam, uçtan uca bir yönteme sahipsiniz. Bu yetenek, taşıma araçlarına, yedekleme yardımcı programlarına veya arşiv içeriği hakkında bilgi gerektiren herhangi bir Java‑tabanlı sisteme entegre edilebilir.
 
-**Sonraki Adımlar:** Zaman damgaları veya izinler gibi `TarFile` özellikleri gibi GroupDocs.Metadata API'sindeki ek sınıfları keşfederek metaveri çıkarma sürecinizi daha da zenginleştirin.
+**Next Steps:** GroupDocs.Metadata API'sindeki ek sınıfları keşfedin—örneğin zaman damgaları veya izinler için `TarFile` özellikleri—metadata çıkarma iş akışınızı daha da zenginleştirmek için.
 
 ## Sıkça Sorulan Sorular
 
-**S: TAR dosyalarından metaveri çıkarmanın temel kullanım durumu nedir?**  
-C: Metaveri çıkarma, doğrulama, yedekleme ve taşıma gibi dosya yönetimi görevlerine yardımcı olur.
+**Q: TAR dosyalarından metadata çıkarmanın temel kullanım durumu nedir?**  
+A: Metadata çıkarımı, doğrulama, yedekleme ve taşıma gibi dosya yönetimi görevlerine yardımcı olur.
 
-**S: Sıkıştırılmış .tar.gz dosyalarından metaveri çıkarabilir miyim?**  
-C: GroupDocs.Metadata çeşitli arşiv formatlarını destekler; önce .gz katmanını açmanız gerekir.
+**Q: Sıkıştırılmış .tar.gz dosyalarından metadata çıkarabilir miyim?**  
+A: GroupDocs.Metadata çeşitli arşiv formatlarını destekler; önce .gz katmanını açmanız gerekir.
 
-**S: Tek bir TAR arşivinde işlenebilecek dosya sayısı için bir limit var mı?**  
-C: Kütüphane büyük arşivleri verimli bir şekilde işler, ancak genel performans sistem kaynaklarınıza bağlıdır.
+**Q: Tek bir TAR arşivinde işlenebilecek dosya sayısı için bir limit var mı?**  
+A: Kütüphane büyük arşivleri verimli bir şekilde işler, ancak genel performans sisteminizin kaynaklarına bağlıdır.
 
-**S: Metaveri nesnelerini doğru şekilde nasıl dispose ederim?**  
-C: İşlemler tamamlandıktan sonra yerel kaynakları serbest bırakmak için `metadata.dispose()` kullanın.
+**Q: Metadata nesnelerini doğru şekilde nasıl dispose ederim?**  
+A: İşlemler tamamlandıktan sonra yerel kaynakları serbest bırakmak için `metadata.dispose()` kullanın.
 
-**S: GroupDocs.Metadata hakkında daha fazla bilgi veya destek nereden bulunur?**  
-C: [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/) adresini ziyaret edin ve destek için topluluk forumlarına katılın.
+**Q: GroupDocs.Metadata hakkında daha fazla bilgi veya destek nereden bulunur?**  
+A: Destek için [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/) adresini ziyaret edin ve topluluk forumlarına katılın.
 
-**Ek Soru‑Cevap**
+**Ek Soru&Cevap**
 
-**S: GroupDocs.Metadata hem Windows hem de Linux ortamlarında çalışır mı?**  
-C: Evet, Java kütüphanesi platform bağımsızdır ve uyumlu bir JDK kurulu olduğu her yerde çalışır.
+**Q: GroupDocs.Metadata hem Windows hem de Linux ortamlarında çalışıyor mu?**  
+A: Evet, Java kütüphanesi platform bağımsızdır ve uyumlu bir JDK yüklü olduğu her yerde çalışır.
 
-**S: Bir TAR girişinden dosya zaman damgalarını (oluşturma/değiştirme) alabilir miyim?**  
-C: `TarFile` sınıfı, zaman damgaları dahil olmak üzere standart TAR başlık alanlarına erişim sağlar.
+**Q: Bir TAR girişinden dosya zaman damgalarını (oluşturma/değiştirme) alabilir miyim?**  
+A: `TarFile` sınıfı, zaman damgaları dahil standart TAR başlık alanlarına erişim sağlar.
 
-**S: Şifre korumalı arşivlerle nasıl başa çıkılır?**  
-C: Şifreli arşivler için, `Metadata` nesnesini oluştururken şifreyi sağlayın (tam aşırı yükleme için API referansına bakın).
+**Q: Şifre korumalı arşivlerle nasıl başa çıkılır?**  
+A: Şifreli arşivler için, `Metadata` nesnesini oluştururken şifreyi sağlayın (tam aşırı yükleme için API referansına bakın).
 
 **Kaynaklar**  
 - **Dokümantasyon:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
@@ -192,6 +191,6 @@ C: Şifreli arşivler için, `Metadata` nesnesini oluştururken şifreyi sağlay
 
 ---
 
-**Son Güncelleme:** 2025-12-18  
+**Son Güncelleme:** 2026-03-04  
 **Test Edilen Versiyon:** GroupDocs.Metadata for Java 24.12  
-**Yazar:** GroupDocs  
+**Yazar:** GroupDocs

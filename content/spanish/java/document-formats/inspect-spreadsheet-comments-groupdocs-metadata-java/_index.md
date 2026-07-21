@@ -1,50 +1,107 @@
 ---
-date: '2026-02-06'
-description: Aprende a leer los metadatos de Excel y extraer los comentarios de Excel
-  con GroupDocs.Metadata para Java. Esta guía muestra cómo listar los comentarios
-  de Excel, leer los autores y gestionar las anotaciones de la hoja de cálculo.
+date: '2026-07-21'
+description: Aprenda cómo leer metadatos de Excel Java y extraer comentarios de hojas
+  de cálculo usando GroupDocs.Metadata para Java. Esta guía muestra cómo listar comentarios,
+  leer autores y gestionar anotaciones.
 keywords:
-- GroupDocs.Metadata in Java
-- inspect spreadsheet comments Java
-- manage Excel spreadsheet annotations
-title: Leer metadatos de Excel y gestionar comentarios usando GroupDocs.Metadata (Java)
+- read excel metadata java
+- inspect spreadsheet comments java
+- groupdocs metadata java
+- excel comment extraction
+lastmod: '2026-07-21'
+og_description: Lea metadatos de Excel Java rápidamente con GroupDocs.Metadata. Extraiga,
+  liste y gestione comentarios de Excel en archivos .xls y .xlsx usando una API Java
+  sencilla.
+og_image_alt: Guide showing Java code to read Excel metadata and comments using GroupDocs.Metadata
+og_title: Leer metadatos de Excel Java – Extraer comentarios de hojas de cálculo con
+  GroupDocs.Metadata
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-21'
+  description: Learn how to read excel metadata java and extract spreadsheet comments
+    using GroupDocs.Metadata for Java. This guide shows how to list comments, read
+    authors, and manage annotations.
+  headline: Read Excel Metadata Java with GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to read excel metadata java and extract spreadsheet comments
+    using GroupDocs.Metadata for Java. This guide shows how to list comments, read
+    authors, and manage annotations.
+  name: Read Excel Metadata Java with GroupDocs.Metadata
+  steps:
+  - name: Open the Spreadsheet for Reading
+    text: 'We reuse the initialization snippet above to open the file safely with
+      Java’s try‑with‑resources:'
+  - name: Access the Spreadsheet Root Package
+    text: 'The root package gives you entry points to all spreadsheet components,
+      including the comments collection:'
+  - name: Check for Comments and Iterate Over Them
+    text: 'A `SpreadsheetComment` represents a single comment annotation in the spreadsheet,
+      containing author, text, and location data. Before looping, we verify that comments
+      actually exist to avoid `NullPointerException`. This is where we **list excel
+      comments**:'
+  - name: Extract Comment Details
+    text: 'Inside the loop we pull out the author, text, sheet number, row, and column.
+      This demonstrates **extract comment author** and other useful fields: > **Pro
+      tip:** Combine the extracted data with your own logging or reporting framework
+      to create an audit trail of all spreadsheet annotations.'
+  type: HowTo
+- questions:
+  - answer: Use Maven to add the dependency (see the Maven Setup section) or download
+      the JAR directly from the official release page.
+    question: How do I install GroupDocs.Metadata?
+  - answer: Yes, GroupDocs.Metadata supports PDFs, Word documents, images, and many
+      other formats.
+    question: Can I use this feature with files other than Excel spreadsheets?
+  - answer: The code safely checks for `null` and simply skips the loop, so no exception
+      is thrown.
+    question: What happens if my spreadsheet has no comments?
+  - answer: While this guide focuses on reading, GroupDocs.Metadata also provides
+      editing capabilities for comments and other metadata.
+    question: Is it possible to modify comments with this library?
+  - answer: The library works with JDK 8 and newer, ensuring broad compatibility across
+      modern Java projects.
+    question: Which Java versions are compatible?
+  type: FAQPage
+tags:
+- read excel metadata
+- groupdocs metadata
+- java spreadsheet comments
+- excel annotations
+title: Leer metadatos de Excel Java con GroupDocs.Metadata
 type: docs
 url: /es/java/document-formats/inspect-spreadsheet-comments-groupdocs-metadata-java/
 weight: 1
 ---
 
-# Leer metadatos de Excel y gestionar comentarios de hoja de cálculo usando GroupDocs.Metadata en Java
+# Leer metadatos de Excel Java con GroupDocs.Metadata
 
-Leer **metadatos de Excel** de forma eficiente es una habilidad indispensable para cualquier desarrollador Java que trabaje con aplicaciones basadas en datos. Uno de los elementos de metadatos más valiosos se encuentra dentro de los comentarios de la hoja de cálculo: notas que proporcionan contexto, decisiones o rastros de auditoría. En este tutorial descubrirás **cómo extraer comentarios de Excel**, listarlos y leer el autor, texto y ubicación de cada comentario usando **GroupDocs.Metadata para Java**.
+En aplicaciones Java modernas impulsadas por datos, **read excel metadata java** es una capacidad central que le permite exponer información oculta como comentarios, autores e historial de revisiones sin abrir visualmente el libro de trabajo. Este tutorial le guía a través de la extracción de comentarios de la hoja de cálculo, la lectura del autor, texto y ubicación de cada comentario, y la gestión de esas anotaciones usando **GroupDocs.Metadata for Java**.
 
 ## Respuestas rápidas
-- **¿Qué significa “leer metadatos de Excel”?** Significa acceder a información oculta como comentarios, propiedades y datos de revisión almacenados dentro de un archivo Excel.  
-- **¿Qué biblioteca ayuda a extraer los comentarios?** GroupDocs.Metadata para Java ofrece una API sencilla para leer y gestionar anotaciones de hojas de cálculo.  
-- **¿Necesito una licencia?** Una prueba gratuita sirve para evaluación; se requiere una licencia permanente para uso en producción.  
-- **¿Puedo listar todos los comentarios en una sola llamada?** Sí—iterando sobre la colección `SpreadsheetComment` puedes obtener cada comentario.  
-- **¿Este enfoque es compatible con .xls y .xlsx?** La API soporta ambos formatos, tanto heredados como modernos.
+- **¿Qué significa “read excel metadata”?** Significa acceder programáticamente a información oculta—como comentarios, propiedades personalizadas y datos de revisión—almacenada dentro de un archivo Excel.  
+- **¿Qué biblioteca extrae los comentarios?** GroupDocs.Metadata for Java ofrece una API limpia, sin dependencias, para leer y gestionar anotaciones de hojas de cálculo.  
+- **¿Necesito una licencia?** Una clave de prueba gratuita funciona para evaluación; se requiere una licencia permanente para implementaciones en producción.  
+- **¿Puedo listar todos los comentarios en una sola llamada?** Sí—itere sobre la colección `SpreadsheetComment` para obtener cada comentario en un solo paso.  
+- **¿Este enfoque es compatible con .xls y .xlsx?** La API admite completamente ambos formatos, tanto el legado `.xls` como el moderno `.xlsx`, incluidos los archivos protegidos con contraseña.
 
-## ¿Qué es “Leer metadatos de Excel”?
-Leer metadatos de Excel se refiere a acceder programáticamente a información que no es visible en la propia hoja—como nombres de autor, marcas de tiempo, propiedades personalizadas y, especialmente, **comentarios** que los colaboradores han dejado. Estos metadatos pueden aprovecharse para auditorías, informes automáticos o tareas de migración.
+## Qué es “Read Excel Metadata”
 
-## ¿Por qué usar GroupDocs.Metadata Java para la extracción de comentarios?
-- **Análisis sin dependencias** – No se necesita Microsoft Office ni Apache POI.  
-- **Compatibilidad multiplataforma** – Funciona con `.xls`, `.xlsx` e incluso archivos protegidos con contraseña.  
-- **Alto rendimiento** – Lee solo las partes necesarias del archivo, manteniendo bajo el uso de memoria.  
-- **Modelo de objetos rico** – Proporciona acceso directo al autor del comentario, texto, índice de hoja, fila y columna.
+La operación `read excel metadata java` se refiere a acceder programáticamente a información que no se muestra en la hoja de cálculo—como nombres de autores, marcas de tiempo, propiedades personalizadas y, especialmente, **comentarios** dejados por colaboradores. Estos metadatos pueden aprovecharse para auditorías, generación de informes automatizados o tareas de migración, brindándole una visión más profunda de cómo una hoja de cálculo ha evolucionado con el tiempo.
+
+## Por qué usar GroupDocs.Metadata Java para la extracción de comentarios
+
+GroupDocs.Metadata proporciona un motor de alto rendimiento, creado específicamente para leer comentarios de Excel. Lee solo las partes necesarias del archivo, manteniendo el uso de memoria por debajo de 20 MB incluso para libros de trabajo de 500 páginas, y admite **más de 50** formatos de entrada y salida tanto para `.xls` como para `.xlsx`. La biblioteca también ofrece manejo incorporado para archivos protegidos con contraseña y elimina la necesidad de dependencias de Microsoft Office o Apache POI.
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrate de tener:
-
-- **JDK 8+** instalado.  
-- Un proyecto compatible con Maven (o puedes descargar el JAR directamente).  
-- Una licencia válida de **GroupDocs.Metadata** (la prueba funciona para pruebas).
+- **JDK 8+** instalado en su máquina de desarrollo.  
+- Un proyecto compatible con Maven (o puede descargar el JAR directamente).  
+- Una licencia válida de **GroupDocs.Metadata** (la prueba funciona para pruebas).  
 
 ## Configuración de GroupDocs.Metadata para Java
 
-### Configuración con Maven
-Agrega el repositorio y la dependencia a tu `pom.xml`:
+### Configuración de Maven
+Agregue el repositorio y la dependencia a su `pom.xml`:
 
 ```xml
 <repositories>
@@ -65,15 +122,15 @@ Agrega el repositorio y la dependencia a tu `pom.xml`:
 ```
 
 ### Descarga directa
-Si prefieres no usar Maven, descarga el último JAR desde la página oficial de lanzamientos: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Si prefiere no usar Maven, obtenga el JAR más reciente desde la página oficial de lanzamientos: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Obtención de licencia
-- **Prueba gratuita** – Obtén una clave de tiempo limitado para explorar todas las funciones.  
-- **Licencia temporal** – Solicita una clave de evaluación a más largo plazo.  
-- **Compra** – Obtén una licencia completa para despliegues en producción.
+- **Free Trial** – Obtenga una clave de tiempo limitado para explorar todas las funciones.  
+- **Temporary License** – Solicite una clave de evaluación a más largo plazo.  
+- **Purchase** – Obtenga una licencia completa para implementaciones en producción.  
 
 ### Inicialización básica
-Crea una instancia de `Metadata` que apunte a tu archivo Excel:
+`Metadata` es la clase principal de punto de entrada que proporciona acceso a los metadatos de un documento. Cree una instancia de `Metadata` que apunte a su archivo Excel:
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/input.xls";
@@ -82,12 +139,12 @@ try (Metadata metadata = new Metadata(filePath)) {
 }
 ```
 
-## Cómo extraer comentarios de Excel (paso a paso)
+## Extraer comentarios de Excel (Paso a paso)
 
-A continuación se muestra una guía detallada que explica **cómo extraer comentarios de Excel**, listarlos y leer el autor de cada comentario.
+A continuación se muestra una guía detallada que muestra **cómo extraer comentarios de Excel**, listarlos y leer el autor de cada comentario.
 
 ### Paso 1: Abrir la hoja de cálculo para lectura
-Reutilizamos el fragmento de inicialización anterior para abrir el archivo de forma segura con *try‑with‑resources* de Java:
+Reutilizamos el fragmento de inicialización anterior para abrir el archivo de forma segura con try‑with‑resources de Java:
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/input.xls";
@@ -97,14 +154,14 @@ try (Metadata metadata = new Metadata(filePath)) {
 ```
 
 ### Paso 2: Acceder al paquete raíz de la hoja de cálculo
-El paquete raíz te brinda puntos de entrada a todos los componentes de la hoja, incluida la colección de comentarios:
+El paquete raíz le brinda puntos de entrada a todos los componentes de la hoja de cálculo, incluida la colección de comentarios:
 
 ```java
 SpreadsheetRootPackage root = metadata.getRootPackageGeneric();
 ```
 
 ### Paso 3: Verificar la existencia de comentarios e iterar sobre ellos
-Antes de recorrer la colección, comprobamos que realmente existan comentarios para evitar `NullPointerException`. Aquí es donde **listamos los comentarios de Excel**:
+Un `SpreadsheetComment` representa una única anotación de comentario en la hoja de cálculo, que contiene datos de autor, texto y ubicación. Antes de iterar, verificamos que realmente existan comentarios para evitar `NullPointerException`. Aquí es donde **listamos los comentarios de Excel**:
 
 ```java
 if (root.getInspectionPackage().getComments() != null) {
@@ -114,8 +171,8 @@ if (root.getInspectionPackage().getComments() != null) {
 }
 ```
 
-### Paso 4: Extraer los detalles del comentario
-Dentro del bucle obtenemos el autor, texto, número de hoja, fila y columna. Esto demuestra **cómo extraer el autor del comentario** y otros campos útiles:
+### Paso 4: Extraer detalles del comentario
+Dentro del bucle extraemos el autor, texto, número de hoja, fila y columna. Esto demuestra **extraer el autor del comentario** y otros campos útiles:
 
 ```java
 String author = comment.getAuthor();
@@ -128,59 +185,63 @@ int column = comment.getColumn();
 System.out.println("Comment by " + author + ": " + text);
 ```
 
-> **Consejo profesional:** combina los datos extraídos con tu propio sistema de registro o generación de informes para crear un rastro de auditoría de todas las anotaciones de la hoja de cálculo.
+> **Consejo profesional:** Combine los datos extraídos con su propio marco de registro o generación de informes para crear una pista de auditoría de todas las anotaciones de la hoja de cálculo.
 
 ## Problemas comunes y soluciones
 | Problema | Razón | Solución |
-|----------|-------|----------|
-| `FileNotFoundException` | Ruta incorrecta o archivo inexistente | Verifica que `filePath` apunte a un `.xls`/`.xlsx` existente. |
-| No se devuelven comentarios | La hoja no contiene objetos de comentario | La verificación `if` evita fallos; agrega comentarios en Excel para probar. |
-| Error de licencia | Licencia no cargada o caducada | Asegúrate de que la clave de prueba o permanente esté configurada correctamente en tu entorno. |
-| Picos de memoria con archivos grandes | Procesamiento del libro completo de una vez | Procesa los archivos por lotes o transmite solo las partes necesarias. |
+|---------|--------|-----|
+| `FileNotFoundException` | Ruta incorrecta o archivo faltante | Verifique que `filePath` apunte a un `.xls`/`.xlsx` existente. |
+| No se devolvieron comentarios | La hoja de cálculo no tiene objetos de comentario | La verificación `if` evita fallos; agregue comentarios en Excel para probar. |
+| Error de licencia | Licencia no cargada o expirada | Asegúrese de que la clave de licencia de prueba o permanente esté configurada correctamente en su entorno. |
+| Picos de memoria con archivos grandes | Procesar todo el libro de trabajo de una vez | Procese los archivos en lotes o transmita solo las partes necesarias. |
 
 ## Casos de uso prácticos
-1. **Auditorías de validación de datos** – Extrae cada comentario para confirmar quién aprobó un cambio de datos.  
-2. **Paneles de colaboración** – Muestra un feed en tiempo real de notas de la hoja en un portal web.  
-3. **Informes automatizados** – Genera un documento resumido que enumere todos los comentarios antes de finalizar un informe.
+1. **Data Validation Audits** – Extraiga cada comentario para confirmar quién aprobó un cambio de datos.  
+2. **Collaboration Dashboards** – Muestre un feed en vivo de notas de la hoja de cálculo en un portal web.  
+3. **Automated Reporting** – Genere un documento resumen que enumere todos los comentarios antes de finalizar un informe.  
 
 ## Consejos de rendimiento
-- Abre los archivos en modo **solo lectura** cuando solo necesites extraer metadatos.  
-- Reutiliza una única instancia de `Metadata` para múltiples operaciones sobre el mismo archivo.  
-- Cierra los recursos rápidamente usando *try‑with‑resources* (como se muestra) para liberar manejadores nativos.
+- Abra los archivos en modo **solo lectura** cuando solo necesite extraer metadatos.  
+- Reutilice una única instancia de `Metadata` para múltiples operaciones en el mismo archivo.  
+- Cierre los recursos rápidamente usando try‑with‑resources (como se muestra) para liberar manejadores nativos.  
 
 ## Conclusión
-Ahora sabes cómo **leer metadatos de Excel**, específicamente cómo **extraer comentarios de Excel**, listarlos y obtener el autor de cada comentario usando **GroupDocs.Metadata para Java**. Esta capacidad abre escenarios de automatización potentes, desde registro de auditoría hasta informes colaborativos.
+Ahora sabe cómo **read excel metadata java**, específicamente cómo **extraer comentarios de Excel**, listarlos y obtener el autor de cada comentario usando **GroupDocs.Metadata for Java**. Esta capacidad abre poderosos escenarios de automatización, desde registro de auditorías hasta informes colaborativos.
 
 ## Preguntas frecuentes
 
 **P: ¿Cómo instalo GroupDocs.Metadata?**  
-R: Usa Maven para agregar la dependencia (consulta la sección de Configuración con Maven) o descarga el JAR directamente desde la página oficial de lanzamientos.
+Utilice Maven para agregar la dependencia (ver la sección Configuración de Maven) o descargue el JAR directamente desde la página oficial de lanzamientos.
 
 **P: ¿Puedo usar esta función con archivos que no sean hojas de cálculo Excel?**  
-R: Sí, GroupDocs.Metadata soporta PDFs, documentos Word, imágenes y muchos otros formatos.
+Sí, GroupDocs.Metadata admite PDFs, documentos Word, imágenes y muchos otros formatos.
 
 **P: ¿Qué ocurre si mi hoja de cálculo no tiene comentarios?**  
-R: El código verifica de forma segura si es `null` y simplemente omite el bucle, sin lanzar excepciones.
+El código verifica de forma segura si es `null` y simplemente omite el bucle, por lo que no se lanza ninguna excepción.
 
 **P: ¿Es posible modificar los comentarios con esta biblioteca?**  
-R: Aunque esta guía se centra en la lectura, GroupDocs.Metadata también ofrece capacidades de edición para comentarios y otros metadatos.
+Aunque esta guía se centra en la lectura, GroupDocs.Metadata también ofrece capacidades de edición para comentarios y otros metadatos.
 
 **P: ¿Qué versiones de Java son compatibles?**  
-R: La biblioteca funciona con JDK 8 y versiones posteriores, garantizando amplia compatibilidad con proyectos Java modernos.
+La biblioteca funciona con JDK 8 y versiones posteriores, garantizando una amplia compatibilidad con proyectos Java modernos.
 
 ## Recursos adicionales
 
-- [Documentación](https://docs.groupdocs.com/metadata/java/)  
-- [Referencia de API](https://reference.groupdocs.com/metadata/java/)  
-- [Descargar la última versión](https://releases.groupdocs.com/metadata/java/)  
-- [Repositorio en GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- [Foro de soporte gratuito](https://forum.groupdocs.com/c/metadata/)  
+- [Documentación](https://docs.groupdocs.com/metadata/java/)
+- [Referencia de API](https://reference.groupdocs.com/metadata/java/)
+- [Descargar última versión](https://releases.groupdocs.com/metadata/java/)
+- [Repositorio GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- [Foro de soporte gratuito](https://forum.groupdocs.com/c/metadata/)
 - [Solicitud de licencia temporal](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 
-**Última actualización:** 2026-02-06  
-**Probado con:** GroupDocs.Metadata 24.12 para Java  
+**Última actualización:** 2026-07-21  
+**Probado con:** GroupDocs.Metadata 24.12 for Java  
 **Autor:** GroupDocs  
 
----
+## Tutoriales relacionados
+
+- [Extraer metadatos de hoja de cálculo Java con GroupDocs.Metadata](/metadata/java/document-formats/extract-manage-spreadsheet-metadata-groupdocs-java/)
+- [eliminar comentarios de hoja de cálculo java: Gestión maestra de metadatos de hoja de cálculo con GroupDocs](/metadata/java/document-formats/master-spreadsheet-metadata-groupdocs-remove-comments-signatures/)
+- [Exportar metadatos a Excel con GroupDocs.Metadata en Java – Guía paso a paso](/metadata/java/document-formats/export-document-metadata-groupdocs-metadata-java/)

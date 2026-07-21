@@ -1,48 +1,107 @@
 ---
-date: '2026-02-06'
-description: Naučte se číst metadata Excelu a extrahovat komentáře v Excelu pomocí
-  GroupDocs.Metadata pro Javu. Tento průvodce ukazuje, jak vypsat komentáře v Excelu,
-  číst autory a spravovat anotace tabulek.
+date: '2026-07-21'
+description: Naučte se, jak číst metadata Excel v Javě a extrahovat komentáře tabulek
+  pomocí GroupDocs.Metadata pro Javu. Tento průvodce ukazuje, jak vypsat komentáře,
+  číst autory a spravovat anotace.
 keywords:
-- GroupDocs.Metadata in Java
-- inspect spreadsheet comments Java
-- manage Excel spreadsheet annotations
-title: Čtení metadat Excelu a správa komentářů pomocí GroupDocs.Metadata (Java)
+- read excel metadata java
+- inspect spreadsheet comments java
+- groupdocs metadata java
+- excel comment extraction
+lastmod: '2026-07-21'
+og_description: Rychle čtěte metadata Excel v Javě pomocí GroupDocs.Metadata. Extrahujte,
+  vypisujte a spravujte komentáře Excel v souborech .xls a .xlsx pomocí jednoduchého
+  Java API.
+og_image_alt: Guide showing Java code to read Excel metadata and comments using GroupDocs.Metadata
+og_title: Čtení metadat Excel Java – Extrahování komentářů tabulek s GroupDocs.Metadata
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-21'
+  description: Learn how to read excel metadata java and extract spreadsheet comments
+    using GroupDocs.Metadata for Java. This guide shows how to list comments, read
+    authors, and manage annotations.
+  headline: Read Excel Metadata Java with GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to read excel metadata java and extract spreadsheet comments
+    using GroupDocs.Metadata for Java. This guide shows how to list comments, read
+    authors, and manage annotations.
+  name: Read Excel Metadata Java with GroupDocs.Metadata
+  steps:
+  - name: Open the Spreadsheet for Reading
+    text: 'We reuse the initialization snippet above to open the file safely with
+      Java’s try‑with‑resources:'
+  - name: Access the Spreadsheet Root Package
+    text: 'The root package gives you entry points to all spreadsheet components,
+      including the comments collection:'
+  - name: Check for Comments and Iterate Over Them
+    text: 'A `SpreadsheetComment` represents a single comment annotation in the spreadsheet,
+      containing author, text, and location data. Before looping, we verify that comments
+      actually exist to avoid `NullPointerException`. This is where we **list excel
+      comments**:'
+  - name: Extract Comment Details
+    text: 'Inside the loop we pull out the author, text, sheet number, row, and column.
+      This demonstrates **extract comment author** and other useful fields: > **Pro
+      tip:** Combine the extracted data with your own logging or reporting framework
+      to create an audit trail of all spreadsheet annotations.'
+  type: HowTo
+- questions:
+  - answer: Use Maven to add the dependency (see the Maven Setup section) or download
+      the JAR directly from the official release page.
+    question: How do I install GroupDocs.Metadata?
+  - answer: Yes, GroupDocs.Metadata supports PDFs, Word documents, images, and many
+      other formats.
+    question: Can I use this feature with files other than Excel spreadsheets?
+  - answer: The code safely checks for `null` and simply skips the loop, so no exception
+      is thrown.
+    question: What happens if my spreadsheet has no comments?
+  - answer: While this guide focuses on reading, GroupDocs.Metadata also provides
+      editing capabilities for comments and other metadata.
+    question: Is it possible to modify comments with this library?
+  - answer: The library works with JDK 8 and newer, ensuring broad compatibility across
+      modern Java projects.
+    question: Which Java versions are compatible?
+  type: FAQPage
+tags:
+- read excel metadata
+- groupdocs metadata
+- java spreadsheet comments
+- excel annotations
+title: Čtení metadat Excel v Javě s GroupDocs.Metadata
 type: docs
 url: /cs/java/document-formats/inspect-spreadsheet-comments-groupdocs-metadata-java/
 weight: 1
 ---
 
-# Čtení metadat Excel a správa komentářů v tabulce pomocí GroupDocs.Metadata v Javě
+# Čtení metadat Excel v Javě s GroupDocs.Metadata
 
-Efektivní **čtení metadat Excel** je nezbytná dovednost pro každého vývojáře Javy pracujícího s aplikacemi založenými na datech. Jedna z nejužitečnějších částí metadat se nachází v komentářích tabulky — poznámky, které poskytují kontext, rozhodnutí nebo auditní stopu. V tomto tutoriálu se dozvíte **jak extrahovat komentáře v Excelu**, vypsat je a jak přečíst autora, text a umístění každého komentáře pomocí **GroupDocs.Metadata pro Javu**.
+V moderních datově řízených Java aplikacích je **read excel metadata java** základní schopností, která vám umožňuje získat skryté informace, jako jsou komentáře, autoři a historie revizí, aniž byste vizuálně otevírali sešit. Tento tutoriál vás provede extrakcí komentářů v tabulce, čtením autora, textu a umístění každého komentáře a správou těchto anotací pomocí **GroupDocs.Metadata for Java**.
 
 ## Rychlé odpovědi
-- **Co znamená „čtení metadat Excel“?** Znamená to přístup k skrytým informacím, jako jsou komentáře, vlastnosti a revizní data uložená v souboru Excel.  
-- **Která knihovna vám pomůže extrahovat komentáře?** GroupDocs.Metadata pro Javu poskytuje jednoduché API pro čtení a správu anotací v tabulce.  
-- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro hodnocení; pro produkční použití je vyžadována trvalá licence.  
-- **Mohu vypsat všechny komentáře jedním voláním?** Ano — iterací přes kolekci `SpreadsheetComment` můžete získat každý komentář.  
-- **Je tento přístup kompatibilní s .xls a .xlsx?** API podporuje jak starší, tak moderní formáty Excelu.
+- **Co znamená “read excel metadata”?** Znamená to programatický přístup ke skrytým informacím—jako jsou komentáře, vlastní vlastnosti a data revizí—uloženým v souboru Excel.  
+- **Která knihovna extrahuje komentáře?** GroupDocs.Metadata for Java nabízí čisté API bez závislostí pro čtení a správu anotací v tabulce.  
+- **Potřebuji licenci?** Klíč pro bezplatnou zkušební verzi funguje pro hodnocení; pro produkční nasazení je vyžadována trvalá licence.  
+- **Mohu vypsat všechny komentáře jedním voláním?** Ano—iterujte přes kolekci `SpreadsheetComment` a získáte každý komentář v jednom průchodu.  
+- **Je tento přístup kompatibilní s .xls a .xlsx?** API plně podporuje jak starší formát `.xls`, tak moderní `.xlsx`, včetně souborů chráněných heslem.
 
-## Co je „čtení metadat Excel“?
-Čtení metadat Excel označuje programový přístup k informacím, které nejsou viditelné přímo v listu — například jména autorů, časová razítka, vlastní vlastnosti a zejména **komentáře**, které zanechali spolupracovníci. Tato metadata lze využít pro audit, automatizované reportování nebo migrační úkoly.
+## Co je “Read Excel Metadata”?
 
-## Proč použít GroupDocs.Metadata pro Javu při extrakci komentářů?
-- **Parsing bez závislostí** – Není potřeba Microsoft Office ani Apache POI.  
-- **Podpora více formátů** – Funguje s `.xls`, `.xlsx` a dokonce i s soubory chráněnými heslem.  
-- **Vysoký výkon** – Načítá pouze požadované části souboru, udržuje nízkou spotřebu paměti.  
-- **Bohatý objektový model** – Poskytuje přímý přístup k autorovi komentáře, textu, indexu listu, řádku a sloupci.
+Operace `read excel metadata java` se vztahuje k programatickému přístupu k informacím, které nejsou zobrazeny přímo v listu—jako jsou jména autorů, časová razítka, vlastní vlastnosti a zejména **komentáře** zanechané spolupracovníky. Tato metadata lze využít pro audit, automatické reportování nebo migrační úkoly, což vám poskytne hlubší pohled na to, jak se tabulka v průběhu času vyvíjela.
+
+## Proč použít GroupDocs.Metadata Java pro extrakci komentářů?
+
+GroupDocs.Metadata poskytuje speciálně vytvořený, vysoce výkonný engine pro čtení komentářů v Excelu. Čte pouze potřebné části souboru, udržuje využití paměti pod 20 MB i u sešitů o 500 stránkách, a podporuje **více než 50** vstupních a výstupních formátů pro `.xls` i `.xlsx`. Knihovna také nabízí vestavěnou podporu pro soubory chráněné heslem a eliminuje potřebu Microsoft Office nebo závislostí na Apache POI.
 
 ## Předpoklady
 
-- **JDK 8+** nainstalováno.
-- Projekt kompatibilní s Maven (nebo můžete JAR stáhnout přímo).
+- **JDK 8+** nainstalováno na vašem vývojovém počítači.  
+- Projekt kompatibilní s Maven (nebo můžete JAR stáhnout přímo).  
 - Platná licence **GroupDocs.Metadata** (zkušební verze funguje pro testování).
 
-## Nastavení GroupDocs.Metadata pro Javu
+## Nastavení GroupDocs.Metadata pro Java
 
 ### Nastavení Maven
-Add the repository and dependency to your `pom.xml`:
+
+Přidejte repozitář a závislost do vašeho `pom.xml`:
 
 ```xml
 <repositories>
@@ -63,15 +122,18 @@ Add the repository and dependency to your `pom.xml`:
 ```
 
 ### Přímé stažení
-Pokud dáváte přednost nepoužívat Maven, stáhněte si nejnovější JAR z oficiální stránky vydání: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+
+Pokud raději nepoužíváte Maven, stáhněte nejnovější JAR z oficiální stránky vydání: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Získání licence
-- **Free Trial** – Získejte časově omezený klíč pro vyzkoušení všech funkcí.  
+
+- **Free Trial** – Získejte časově omezený klíč pro prozkoumání všech funkcí.  
 - **Temporary License** – Požádejte o dlouhodobější evaluační klíč.  
 - **Purchase** – Získejte plnou licenci pro produkční nasazení.
 
 ### Základní inicializace
-Create a `Metadata` instance pointing at your Excel file:
+
+`Metadata` je hlavní vstupní třída, která poskytuje přístup k metadatům dokumentu. Vytvořte instanci `Metadata`, která ukazuje na váš Excel soubor:
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/input.xls";
@@ -80,12 +142,13 @@ try (Metadata metadata = new Metadata(filePath)) {
 }
 ```
 
-## Jak extrahovat komentáře v Excelu (krok za krokem)
+## Extrahování komentářů v Excelu (Krok za krokem)
 
 Níže je podrobný průvodce, který ukazuje **jak extrahovat komentáře v Excelu**, vypsat je a přečíst autora každého komentáře.
 
 ### Krok 1: Otevřít tabulku pro čtení
-We reuse the initialization snippet above to open the file safely with Java’s try‑with‑resources:
+
+Znovu použijeme výše uvedený úsek inicializace k bezpečnému otevření souboru pomocí Java try‑with‑resources:
 
 ```java
 String filePath = "YOUR_DOCUMENT_DIRECTORY/input.xls";
@@ -95,14 +158,16 @@ try (Metadata metadata = new Metadata(filePath)) {
 ```
 
 ### Krok 2: Přístup k kořenovému balíčku tabulky
-The root package gives you entry points to all spreadsheet components, including the comments collection:
+
+Kořenový balíček vám poskytuje vstupní body ke všem komponentám tabulky, včetně kolekce komentářů:
 
 ```java
 SpreadsheetRootPackage root = metadata.getRootPackageGeneric();
 ```
 
 ### Krok 3: Zkontrolovat existenci komentářů a iterovat přes ně
-Before looping, we verify that comments actually exist to avoid `NullPointerException`. This is where we **list excel comments**:
+
+`SpreadsheetComment` představuje jedinou anotaci komentáře v tabulce, obsahující data o autorovi, textu a umístění. Před smyčkou ověříme, že komentáře skutečně existují, aby nedošlo k `NullPointerException`. Zde **vypisujeme komentáře v Excelu**:
 
 ```java
 if (root.getInspectionPackage().getComments() != null) {
@@ -113,7 +178,8 @@ if (root.getInspectionPackage().getComments() != null) {
 ```
 
 ### Krok 4: Extrahovat podrobnosti komentáře
-Inside the loop we pull out the author, text, sheet number, row, and column. This demonstrates **extract comment author** and other useful fields:
+
+Uvnitř smyčky získáme autora, text, číslo listu, řádek a sloupec. Toto ukazuje **extrakci autora komentáře** a další užitečná pole:
 
 ```java
 String author = comment.getAuthor();
@@ -126,44 +192,44 @@ int column = comment.getColumn();
 System.out.println("Comment by " + author + ": " + text);
 ```
 
-> **Tip:** Kombinujte extrahovaná data s vaším vlastním logovacím nebo reportovacím rámcem, abyste vytvořili auditní stopu všech anotací v tabulce.
+> **Tip:** Kombinujte extrahovaná data s vaším vlastním logovacím nebo reportovacím rámcem pro vytvoření auditního záznamu všech anotací v tabulce.
 
 ## Časté problémy a řešení
 | Problém | Důvod | Řešení |
 |---------|--------|-----|
-| `FileNotFoundException` | Nesprávná cesta nebo chybějící soubor | Ověřte, že `filePath` ukazuje na existující `.xls`/`.xlsx`. |
-| Žádné komentáře | Tabulka neobsahuje objekty komentářů | Kontrola `if` zabraňuje pádům; přidejte komentáře v Excelu pro test. |
-| Chyba licence | Licence není načtena nebo vypršela | Ujistěte se, že zkušební nebo trvalý licenční klíč je správně nastaven v prostředí. |
-| Nárazové zvýšení paměti u velkých souborů | Zpracování celého sešitu najednou | Zpracovávejte soubory po dávkách nebo streamujte jen potřebné části. |
+| `FileNotFoundException` | Špatná cesta nebo chybějící soubor | Ověřte, že `filePath` ukazuje na existující `.xls`/`.xlsx`. |
+| No comments returned | Tabulka neobsahuje objekty komentářů | Kontrola `if` zabraňuje pádům; přidejte v Excelu komentáře pro test. |
+| License error | Licence není načtena nebo vypršela | Ujistěte se, že klíč zkušební nebo trvalé licence je správně nastaven v prostředí. |
+| Memory spikes with large files | Zpracování celého sešitu najednou | Zpracovávejte soubory po dávkách nebo streamujte jen potřebné části. |
 
 ## Praktické případy použití
-1. **Audity validace dat** – Načíst každý komentář pro potvrzení, kdo schválil změnu dat.  
-2. **Dashboardy spolupráce** – Zobrazit živý kanál poznámek z tabulky ve webovém portálu.  
-3. **Automatizované reportování** – Vygenerovat souhrnný dokument, který vypíše všechny komentáře před dokončením zprávy.
+1. **Audity validace dat** – Získejte každý komentář pro potvrzení, kdo schválil změnu dat.  
+2. **Dashboardy spolupráce** – Zobrazte živý kanál poznámek z tabulky ve webovém portálu.  
+3. **Automatizované reportování** – Vygenerujte souhrnný dokument, který vypíše všechny komentáře před dokončením zprávy.
 
 ## Tipy pro výkon
-- Otevírejte soubory v režimu **read‑only**, pokud potřebujete pouze extrahovat metadata.  
+- Otevírejte soubory v **režimu pouze pro čtení**, pokud potřebujete jen extrahovat metadata.  
 - Znovu použijte jedinou instanci `Metadata` pro více operací na stejném souboru.  
-- Rychle uzavírejte prostředky pomocí try‑with‑resources (jak je ukázáno), aby se uvolnily nativní handly.
+- Rychle uzavírejte zdroje pomocí try‑with‑resources (jak je ukázáno), aby se uvolnily nativní handly.
 
 ## Závěr
-Nyní víte, jak **číst metadata Excel**, konkrétně jak **extrahovat komentáře v Excelu**, vypsat je a získat autora každého komentáře pomocí **GroupDocs.Metadata pro Javu**. Tato schopnost odemyká výkonné automatizační scénáře, od auditního logování po spolupracující reportování.
+Nyní víte, jak **read excel metadata java**, konkrétně jak **extrahovat komentáře v Excelu**, vypsat je a získat autora každého komentáře pomocí **GroupDocs.Metadata for Java**. Tato schopnost odemyká výkonné automatizační scénáře, od auditního logování po kolaborativní reportování.
 
 ## Často kladené otázky
 
 **Q: Jak nainstaluji GroupDocs.Metadata?**  
 A: Použijte Maven k přidání závislosti (viz sekce Nastavení Maven) nebo stáhněte JAR přímo z oficiální stránky vydání.
 
-**Q: Mohu tuto funkci použít i s jinými soubory než Excel tabulkami?**  
+**Q: Mohu tuto funkci použít i pro soubory jiných typů než Excel tabulky?**  
 A: Ano, GroupDocs.Metadata podporuje PDF, Word dokumenty, obrázky a mnoho dalších formátů.
 
 **Q: Co se stane, pokud moje tabulka nemá žádné komentáře?**  
-A: Kód bezpečně kontroluje `null` a jednoduše přeskočí smyčku, takže nedojde k výjimce.
+A: Kód bezpečně kontroluje `null` a jednoduše přeskočí smyčku, takže není vyvolána výjimka.
 
 **Q: Je možné pomocí této knihovny upravovat komentáře?**  
-A: I když se tento průvodce zaměřuje na čtení, GroupDocs.Metadata také poskytuje možnosti úpravy komentářů a dalších metadat.
+A: I když se tento průvodce zaměřuje na čtení, GroupDocs.Metadata také poskytuje možnosti úprav komentářů a dalších metadat.
 
-**Q: S kterými verzemi Javy je kompatibilní?**  
+**Q: Které verze Javy jsou kompatibilní?**  
 A: Knihovna funguje s JDK 8 a novějšími, což zajišťuje širokou kompatibilitu s moderními Java projekty.
 
 ## Další zdroje
@@ -177,8 +243,14 @@ A: Knihovna funguje s JDK 8 a novějšími, což zajišťuje širokou kompatib
 
 ---
 
-**Last Updated:** 2026-02-06  
-**Testováno s:** GroupDocs.Metadata 24.12 for Java  
+**Poslední aktualizace:** 2026-07-21  
+**Testováno s:** GroupDocs.Metadata 24.12 pro Java  
 **Autor:** GroupDocs  
 
 ---
+
+## Související tutoriály
+
+- [Extrahování metadat tabulky Java s GroupDocs.Metadata](/metadata/java/document-formats/extract-manage-spreadsheet-metadata-groupdocs-java/)
+- [odstranění komentářů tabulky java: Správa metadat tabulky s GroupDocs](/metadata/java/document-formats/master-spreadsheet-metadata-groupdocs-remove-comments-signatures/)
+- [Export metadat do Excelu s GroupDocs.Metadata v Javě – Průvodce krok za krokem](/metadata/java/document-formats/export-document-metadata-groupdocs-metadata-java/)

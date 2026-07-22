@@ -1,45 +1,45 @@
 ---
-date: '2025-12-24'
-description: Học cách trích xuất phụ đề mkv từ các tệp MKV bằng Java và GroupDocs.Metadata.
-  Hướng dẫn từng bước này bao gồm cài đặt, triển khai và các trường hợp sử dụng thực
-  tế.
+date: '2026-03-09'
+description: Tìm hiểu cách trích xuất hàng loạt phụ đề mkv từ các tệp MKV bằng Java
+  và GroupDocs.Metadata. Hướng dẫn chi tiết này bao gồm cài đặt, triển khai và các
+  trường hợp sử dụng thực tế.
 keywords:
-- extract subtitles MKV
+- batch extract mkv subtitles
 - Java GroupDocs.Metadata
 - subtitle extraction Java
-title: Cách trích xuất phụ đề mkv bằng Java và GroupDocs.Metadata
+title: Cách trích xuất hàng loạt phụ đề mkv bằng Java và GroupDocs.Metadata
 type: docs
 url: /vi/java/audio-video-formats/extract-subtitles-mkv-files-java-groupdocs-metadata/
 weight: 1
 ---
 
-# How to extract mkv subtitles with Java and GroupDocs.Metadata
+# Cách trích xuất hàng loạt phụ đề mkv bằng Java và GroupDocs.Metadata
 
-Việc trích xuất phụ đề từ các container MKV có thể giống như việc tìm kim chỉ trong đống cỏ khô, đặc biệt khi bạn cần văn bản để dịch, truy cập, hoặc quy trình quản lý nội dung. Trong hướng dẫn này, bạn sẽ học **cách trích xuất mkv subtitles** một cách hiệu quả bằng thư viện GroupDocs.Metadata cho Java. Chúng tôi sẽ hướng dẫn cài đặt cần thiết, cho bạn đoạn mã chính xác, và thảo luận các kịch bản thực tế nơi việc trích xuất phụ đề tạo ra sự khác biệt thực sự.
+Việc trích xuất phụ đề từ các container MKV có thể giống như tìm kim trong bãi cỏ khô, đặc biệt khi bạn cần văn bản để dịch, hỗ trợ truy cập, hoặc quy trình quản lý nội dung. Trong hướng dẫn này, bạn sẽ học **cách trích xuất hàng loạt phụ đề mkv** một cách hiệu quả bằng thư viện GroupDocs.Metadata cho Java. Chúng tôi sẽ hướng dẫn cài đặt cần thiết, cho bạn xem mã chính xác, và thảo luận các kịch bản thực tế mà việc trích xuất phụ đề mang lại lợi ích thực sự.
 
-## Quick Answers
-- **What library handles MKV subtitle extraction?** GroupDocs.Metadata for Java  
-- **Which primary keyword does this guide target?** extract mkv subtitles  
-- **Do I need a license?** A free trial works for development; a full license is required for production.  
-- **Can I process large MKV files?** Yes—process subtitles in streams or batches to keep memory usage low.  
-- ** Java 8 sufficient?** Yes, JDK 8 or newer is supported.
+## Câu trả lời nhanh
+- **Thư viện nào xử lý việc trích xuất phụ đề MKV?** GroupDocs.Metadata cho Java  
+- **Từ khóa chính mà hướng dẫn này nhắm tới là gì?** batch extract mkv subtitles  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho phát triển; cần giấy phép đầy đủ cho môi trường sản xuất.  
+- **Tôi có thể xử lý các tệp MKV lớn không?** Có — xử lý phụ đề theo luồng hoặc theo lô để giảm mức sử dụng bộ nhớ.  
+- **Java 8 có đủ không?** Có, JDK 8 hoặc mới hơn được hỗ trợ.
 
-## What is “extract mkv subtitles”?
-Trích xuất mkv subtitles có nghĩa là đọc các track phụ đề được nhúng bên trong một container Matroska (MKV) và lấy ra văn bản, thời gian và thông tin ngôn ngữ của chúng. Hoạt động này rất quan trọng cho các quy trình như pipeline dịch tự động, kiểm tra chất lượng phụ đề, và tuân thủ tiêu chuẩn truy cập.
+## Batch extract mkv subtitles là gì?
+Trích xuất hàng loạt phụ đề mkv có nghĩa là đọc tất cả các track phụ đề được nhúng trong một container Matroska (MKV) và lấy ra văn bản, thời gian và thông tin ngôn ngữ của chúng trong một lần. Thao tác này rất quan trọng cho các quy trình như pipeline dịch tự động, kiểm tra chất lượng phụ đề và tuân thủ tiêu chuẩn truy cập.
 
-## Why use GroupDocs.Metadata for Java?
-GroupDocs.Metadata cung cấp một API cấp cao giúp trừu tượng hoá cấu trúc phức tạp của Matroska, cho phép bạn tập trung vào logic nghiệp vụ thay vì việc phân tích cấp thấp. Nó hỗ trợ nhiều định dạng phụ đề, xử lý các thẻ ngôn ngữ, và tích hợp mượt mà với các dự án Java tiêu chuẩn.
+## Tại sao nên sử dụng GroupDocs.Metadata cho Java?
+GroupDocs.Metadata cung cấp một API cấp cao trừu tượng hoá cấu trúc Matroska phức tạp, cho phép bạn tập trung vào logic nghiệp vụ thay vì việc phân tích cấp thấp. Nó hỗ trợ nhiều định dạng phụ đề, xử lý các thẻ ngôn ngữ, và tích hợp mượt mà với các dự án Java tiêu chuẩn.
 
-## Prerequisites
+## Yêu cầu trước
 - **Java Development Kit (JDK)** 8 hoặc mới hơn  
 - **IDE** (IntelliJ IDEA, Eclipse, hoặc tương tự)  
 - **Maven** để quản lý phụ thuộc  
-- Kiến thức cơ bản về Java và các khái niệm file video  
+- Kiến thức cơ bản về Java và các khái niệm tệp video  
 
-## Setting Up GroupDocs.Metadata for Java
+## Cài đặt GroupDocs.Metadata cho Java
 
-### Maven Setup
-Thêm repository GroupDocs và phụ thuộc metadata vào `pom.xml` của bạn:
+### Cài đặt Maven
+Thêm repository của GroupDocs và phụ thuộc metadata vào file `pom.xml` của bạn:
 
 ```xml
 <repositories>
@@ -59,16 +59,16 @@ Thêm repository GroupDocs và phụ thuộc metadata vào `pom.xml` của bạn
 </dependencies>
 ```
 
-### Direct Download
-Nếu bạn không muốn dùng Maven, có thể tải JAR mới nhất từ [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+### Tải trực tiếp
+Nếu bạn không muốn sử dụng Maven, có thể tải JAR mới nhất từ [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-### License Acquisition
+### Nhận giấy phép
 - Bắt đầu với bản dùng thử miễn phí để khám phá API.  
 - Nhận giấy phép phát triển tạm thời nếu cần.  
-- Mua giấy phép đầy đủ cho các triển khai thương mại.
+- Mua giấy phép đầy đủ cho triển khai thương mại.
 
-### Basic Initialization and Setup
-Tạo một instance `Metadata` trỏ tới file MKV của bạn:
+### Khởi tạo và Cài đặt Cơ bản
+Tạo một instance `Metadata` trỏ tới tệp MKV của bạn:
 
 ```java
 try (Metadata metadata = new Metadata("path/to/your/file.mkv")) {
@@ -76,12 +76,12 @@ try (Metadata metadata = new Metadata("path/to/your/file.mkv")) {
 }
 ```
 
-Dòng này mở file và chuẩn bị cho việc trích xuất metadata.
+Dòng này mở tệp và chuẩn bị cho việc trích xuất metadata.
 
-## How to extract mkv subtitles using GroupDocs.Metadata
+## Cách trích xuất hàng loạt phụ đề mkv bằng GroupDocs.Metadata
 
-### Step 1: Initialize the Metadata object
-Đầu tiên, khởi tạo lớp `Metadata` với đường dẫn tới file MKV của bạn:
+### Bước 1: Khởi tạo đối tượng Metadata
+Đầu tiên, khởi tạo lớp `Metadata` với đường dẫn tới tệp MKV của bạn:
 
 ```java
 try (Metadata metadata = new Metadata(filePath)) {
@@ -89,15 +89,15 @@ try (Metadata metadata = new Metadata(filePath)) {
 }
 ```
 
-### Step 2: Access the Matroska root package
-Lấy root package để có các điểm truy cập tới tất cả các track bên trong container:
+### Bước 2: Truy cập gói gốc Matroska
+Lấy gói gốc cung cấp các điểm truy cập tới tất cả các track bên trong container:
 
 ```java
 MatroskaRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### Step 3: Iterate through subtitle tracks
-Lặp qua mỗi track phụ đề, đọc ngôn ngữ, thời gian, độ dài, và nội dung phụ đề thực tế:
+### Bước 3: Duyệt qua các track phụ đề
+Lặp qua mỗi track phụ đề, đọc ngôn ngữ, thời gian, độ dài và nội dung phụ đề thực tế:
 
 ```java
 for (MatroskaSubtitleTrack subtitleTrack : root.getMatroskaPackage().getSubtitleTracks()) {
@@ -114,46 +114,46 @@ for (MatroskaSubtitleTrack subtitleTrack : root.getMatroskaPackage().getSubtitle
 }
 ```
 
-Vòng lặp sẽ in metadata của mỗi phụ đề và nội dung văn bản của nó, cung cấp cho bạn cái nhìn toàn diện về mọi caption được nhúng trong file MKV.
+Vòng lặp in ra metadata của mỗi phụ đề và nội dung văn bản của nó, cung cấp cho bạn cái nhìn toàn diện về mọi phụ đề được nhúng trong tệp MKV.
 
-## Common Issues and Solutions
-- **File Not Found** – Kiểm tra lại đường dẫn tuyệt đối và quyền truy cập file.  
-- **Unsupported MKV version** – Đảm bảo bạn đang dùng phiên bản GroupDocs.Metadata mới nhất.  
+## Các vấn đề thường gặp và giải pháp
+- **File Not Found** – Kiểm tra lại đường dẫn tuyệt đối và quyền truy cập tệp.  
+- **Unsupported MKV version** – Đảm bảo bạn đang sử dụng phiên bản GroupDocs.Metadata mới nhất.  
 - **Insufficient memory on large files** – Xử lý phụ đề theo từng phần hoặc sử dụng API streaming nếu có.
 
-## Practical Applications
+## Ứng dụng thực tiễn
 1. **Translation Projects** – Xuất phụ đề, dịch chúng, và chèn lại vào video.  
 2. **Content Management Systems** – Lập chỉ mục văn bản phụ đề để tìm kiếm trong thư viện video.  
-3. **Accessibility Enhancements** – Kiểm tra rằng mọi video đều có caption đúng thời gian.
+3. **Accessibility Enhancements** – Xác minh mỗi video đều có phụ đề đồng thời đúng thời gian.
 
-## Performance Tips
-- Sử dụng các collection hiệu quả (ví dụ: `ArrayList`) cho việc lưu tạm.  
-- Đóng đối tượng `Metadata` ngay khi không cần (try‑with‑resources) để giải phóng tài nguyên native.  
-- Giữ thư viện GroupDocs.Metadata luôn cập nhật để hưởng lợi từ các cải tiến hiệu năng.
+## Mẹo tối ưu hiệu năng
+- Sử dụng các collection hiệu quả (ví dụ, `ArrayList`) để lưu tạm thời.  
+- Đóng đối tượng `Metadata` ngay khi không cần (try‑with‑resources) để giải phóng tài nguyên gốc.  
+- Giữ thư viện GroupDocs.Metadata luôn cập nhật để cải thiện hiệu năng.
 
-## Conclusion
-Bạn đã có một phương pháp rõ ràng, sẵn sàng cho môi trường production để **extract mkv subtitles** bằng GroupDocs.Metadata trong Java. Dù bạn đang xây dựng pipeline dịch phụ đề, làm giàu một CMS media, hay đảm bảo tuân thủ tiêu chuẩn truy cập, cách tiếp cận này sẽ tiết kiệm thời gian và loại bỏ nhu cầu phân tích cấp thấp.
+## Kết luận
+Bạn hiện đã có một phương pháp rõ ràng, sẵn sàng cho môi trường sản xuất để **trích xuất hàng loạt phụ đề mkv** bằng GroupDocs.Metadata trong Java. Dù bạn đang xây dựng pipeline dịch phụ đề, làm giàu cho CMS truyền thông, hay đảm bảo tuân thủ tiêu chuẩn truy cập, cách tiếp cận này giúp tiết kiệm thời gian và loại bỏ nhu cầu phân tích cấp thấp.
 
-Tiếp theo, khám phá các tính năng khác như nhúng metadata tùy chỉnh, trích xuất track âm thanh, hoặc xử lý hàng loạt nhiều file video. Chúc bạn lập trình vui vẻ!
+Tiếp theo, hãy khám phá các tính năng khác như nhúng metadata tùy chỉnh, trích xuất track âm thanh, hoặc xử lý hàng loạt nhiều tệp video. Chúc bạn lập trình vui vẻ!
 
-## Frequently Asked Questions
+## Câu hỏi thường gặp
 
-**Q: What is the minimum Java version required for using GroupDocs.Metadata?**  
-A: JDK 8 or newer is required.
+**Q: Phiên bản Java tối thiểu cần thiết để sử dụng GroupDocs.Metadata là gì?**  
+A: JDK 8 hoặc mới hơn là yêu cầu.
 
-**Q: Can I extract subtitles from other video formats with GroupDocs.Metadata?**  
-A: Yes, the library supports several containers, but this guide focuses on MKV.
+**Q: Tôi có thể trích xuất phụ đề từ các định dạng video khác bằng GroupDocs.Metadata không?**  
+A: Có, thư viện hỗ trợ một số container, nhưng hướng dẫn này tập trung vào MKV.
 
-**Q: How do I handle multiple subtitle tracks in an MKV file?**  
-A: Iterate through each `MatroskaSubtitleTrack` as shown in the code example.
+**Q: Làm thế nào để xử lý nhiều track phụ đề trong một tệp MKV?**  
+A: Duyệt qua mỗi `MatroskaSubtitleTrack` như trong ví dụ mã.
 
-**Q: What should I do if my application throws a `FileNotFoundException`?**  
-A: Verify that the file path is correct, the file exists, and the process has read permissions.
+**Q: Tôi nên làm gì nếu ứng dụng của tôi ném ra `FileNotFoundException`?**  
+A: Xác minh rằng đường dẫn tệp đúng, tệp tồn tại và tiến trình có quyền đọc.
 
-**Q: Is there support for subtitle languages other than English?**  
-A: Absolutely—GroupDocs.Metadata reads ISO 639‑2/IETF BCP‑47 language tags, so any supported language is handled.
+**Q: Có hỗ trợ các ngôn ngữ phụ đề khác ngoài tiếng Anh không?**  
+A: Chắc chắn—GroupDocs.Metadata đọc các thẻ ngôn ngữ ISO 639‑2/IETF BCP‑47, vì vậy bất kỳ ngôn ngữ nào được hỗ trợ đều được xử lý.
 
-**Resources**
+## Tài nguyên
 
 - **Documentation:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
 - **API Reference:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
@@ -164,6 +164,6 @@ A: Absolutely—GroupDocs.Metadata reads ISO 639‑2/IETF BCP‑47 language ta
 
 ---
 
-**Last Updated:** 2025-12-24  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
+**Cập nhật lần cuối:** 2026-03-09  
+**Được kiểm tra với:** GroupDocs.Metadata 24.12 for Java  
+**Tác giả:** GroupDocs

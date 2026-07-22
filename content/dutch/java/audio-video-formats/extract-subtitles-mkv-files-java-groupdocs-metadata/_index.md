@@ -1,45 +1,45 @@
 ---
-date: '2025-12-24'
-description: Leer hoe je mkv-ondertitels uit MKV-bestanden kunt extraheren met Java
-  en GroupDocs.Metadata. Deze stapsgewijze handleiding behandelt installatie, implementatie
+date: '2026-03-09'
+description: Leer hoe je mkv-ondertitels in batch kunt extraheren uit MKV‑bestanden
+  met Java en GroupDocs.Metadata. Deze stapsgewijze gids behandelt installatie, implementatie
   en praktijkvoorbeelden.
 keywords:
-- extract subtitles MKV
+- batch extract mkv subtitles
 - Java GroupDocs.Metadata
 - subtitle extraction Java
-title: Hoe mkv-ondertitels te extraheren met Java en GroupDocs.Metadata
+title: Hoe mkv-ondertitels in batch extraheren met Java en GroupDocs.Metadata
 type: docs
 url: /nl/java/audio-video-formats/extract-subtitles-mkv-files-java-groupdocs-metadata/
 weight: 1
 ---
 
-# Hoe mkv-ondertitels te extraheren met Java en GroupDocs.Metadata
+# Hoe batch mkv-ondertitels te extraheren met Java en GroupDocs.Metadata
 
-Het extraheren van ondertitels uit MKV-containers kan aanvoelen als het zoeken naar een speld in een hooiberg, vooral wanneer je de tekst nodig hebt voor vertaling, toegankelijkheid of content‑management workflows. In deze tutorial leer je **hoe mkv-ondertitels** efficiënt te extraheren met de GroupDocs.Metadata bibliotheek voor Java. We lopen de benodigde setup door, laten je de exacte code zien die je nodig hebt, en bespreken praktische scenario's waarin ondertitel‑extractie een echt verschil maakt.
+Het extraheren van ondertitels uit MKV-containers kan aanvoelen als het zoeken naar een speld in een hooiberg, vooral wanneer je de tekst nodig hebt voor vertaling, toegankelijkheid of content‑management workflows. In deze tutorial leer je **hoe je batch mkv-ondertitels** efficiënt kunt extraheren met behulp van de GroupDocs.Metadata bibliotheek voor Java. We lopen de benodigde setup door, laten je de exacte code zien die je nodig hebt, en bespreken praktische scenario's waarin ondertitel‑extractie een echt verschil maakt.
 
-## Snelle Antwoorden
-- **Welke bibliotheek behandelt MKV-ondertitel-extractie?** GroupDocs.Metadata for Java  
-- **Welk primair trefwoord richt deze gids zich op?** extract mkv subtitles  
+## Snelle antwoorden
+- **Welke bibliotheek verwerkt MKV-ondertitel-extractie?** GroupDocs.Metadata for Java  
+- **Welk primair trefwoord richt deze gids zich op?** batch extract mkv subtitles  
 - **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een volledige licentie is vereist voor productie.  
 - **Kan ik grote MKV‑bestanden verwerken?** Ja—verwerk ondertitels in streams of batches om het geheugenverbruik laag te houden.  
 - **Is Java 8 voldoende?** Ja, JDK 8 of nieuwer wordt ondersteund.
 
-## Wat betekent “extract mkv subtitles”?
-Het extraheren van mkv-ondertitels betekent het lezen van de ondertitelsporen die ingebed zijn in een Matroska (MKV) container en het ophalen van hun tekst, timing en taal‑informatie. Deze bewerking is essentieel voor workflows zoals geautomatiseerde vertaal‑pijplijnen, ondertitel‑kwaliteitscontroles en toegankelijkheids‑naleving.
+## Wat is “batch extract mkv subtitles”?
+Batch-extractie van mkv-ondertitels betekent het lezen van alle ondertitelsporen die in een Matroska (MKV) container zijn ingebed en het ophalen van hun tekst, timing en taal‑informatie in één keer. Deze bewerking is essentieel voor workflows zoals geautomatiseerde vertaal‑pipelines, ondertitel‑kwaliteitscontroles en naleving van toegankelijkheidsnormen.
 
 ## Waarom GroupDocs.Metadata voor Java gebruiken?
-GroupDocs.Metadata biedt een high‑level API die de complexe Matroska‑structuur abstraheert, zodat je je kunt concentreren op businesslogica in plaats van low‑level parsing. Het ondersteunt meerdere ondertitelformaten, verwerkt taaltags en integreert soepel met standaard Java‑projecten.
+GroupDocs.Metadata biedt een high‑level API die de complexe Matroska‑structuur abstraheert, zodat je je kunt concentreren op business‑logica in plaats van low‑level parsing. Het ondersteunt meerdere ondertitelformaten, verwerkt taaltags en integreert soepel met standaard Java‑projecten.
 
 ## Vereisten
 - **Java Development Kit (JDK)** 8 of nieuwer  
-- **IDE** (IntelliJ IDEA, Eclipse, of vergelijkbaar)  
+- **IDE** (IntelliJ IDEA, Eclipse of vergelijkbaar)  
 - **Maven** voor afhankelijkheidsbeheer  
 - Basiskennis van Java en video‑bestandconcepten  
 
 ## GroupDocs.Metadata voor Java instellen
 
 ### Maven‑configuratie
-Add the GroupDocs repository and the metadata dependency to your `pom.xml`:
+Voeg de GroupDocs‑repository en de metadata‑dependency toe aan je `pom.xml`:
 
 ```xml
 <repositories>
@@ -60,15 +60,15 @@ Add the GroupDocs repository and the metadata dependency to your `pom.xml`:
 ```
 
 ### Directe download
-If you prefer not to use Maven, you can download the latest JAR from [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Als je liever geen Maven gebruikt, kun je de nieuwste JAR downloaden van [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-### Licentie‑verwerving
+### Licentie‑acquisitie
 - Begin met een gratis proefversie om de API te verkennen.  
 - Verkrijg een tijdelijke ontwikkelingslicentie indien nodig.  
 - Koop een volledige licentie voor commerciële implementaties.
 
 ### Basisinitialisatie en configuratie
-Create a `Metadata` instance pointing at your MKV file:
+Maak een `Metadata`‑instance aan die naar je MKV‑bestand wijst:
 
 ```java
 try (Metadata metadata = new Metadata("path/to/your/file.mkv")) {
@@ -78,10 +78,10 @@ try (Metadata metadata = new Metadata("path/to/your/file.mkv")) {
 
 Deze regel opent het bestand en maakt het klaar voor metadata‑extractie.
 
-## Hoe mkv-ondertitels te extraheren met GroupDocs.Metadata
+## Hoe batch mkv-ondertitels te extraheren met GroupDocs.Metadata
 
 ### Stap 1: Initialiseer het Metadata‑object
-First, instantiate the `Metadata` class with the path to your MKV file:
+Instantieer eerst de `Metadata`‑klasse met het pad naar je MKV‑bestand:
 
 ```java
 try (Metadata metadata = new Metadata(filePath)) {
@@ -90,14 +90,14 @@ try (Metadata metadata = new Metadata(filePath)) {
 ```
 
 ### Stap 2: Toegang tot het Matroska‑root‑pakket
-Retrieve the root package that gives you entry points to all tracks inside the container:
+Haal het root‑pakket op dat je toegangspunten geeft tot alle sporen binnen de container:
 
 ```java
 MatroskaRootPackage root = metadata.getRootPackageGeneric();
 ```
 
 ### Stap 3: Doorloop ondertitelsporen
-Loop over each subtitle track, read language, timecode, duration, and the actual subtitle text:
+Loop over elk ondertitelspoor, lees taal, tijdcode, duur en de daadwerkelijke ondertiteltekst:
 
 ```java
 for (MatroskaSubtitleTrack subtitleTrack : root.getMatroskaPackage().getSubtitleTracks()) {
@@ -114,15 +114,15 @@ for (MatroskaSubtitleTrack subtitleTrack : root.getMatroskaPackage().getSubtitle
 }
 ```
 
-De lus print de metadata van elke ondertitel en de tekstuele inhoud, waardoor je een volledig overzicht krijgt van elke in de MKV‑file ingebedde ondertitel.
+De lus print de metadata van elke ondertitel en de tekstuele inhoud, waardoor je een volledig overzicht krijgt van elke in het MKV‑bestand ingebedde ondertitel.
 
 ## Veelvoorkomende problemen en oplossingen
-- **File Not Found** – Controleer het absolute pad en de bestandsrechten.  
-- **Unsupported MKV version** – Zorg ervoor dat je de nieuwste GroupDocs.Metadata‑release gebruikt.  
-- **Insufficient memory on large files** – Verwerk ondertitels in delen of gebruik streaming‑API’s indien beschikbaar.
+- **Bestand niet gevonden** – Controleer het absolute pad en de bestandsrechten.  
+- **Niet‑ondersteunde MKV‑versie** – Zorg ervoor dat je de nieuwste GroupDocs.Metadata‑release gebruikt.  
+- **Onvoldoende geheugen bij grote bestanden** – Verwerk ondertitels in delen of gebruik streaming‑API’s indien beschikbaar.
 
 ## Praktische toepassingen
-1. **Vertaalprojecten** – Exporteer ondertitels, vertaal ze, en injecteer ze opnieuw in de video.  
+1. **Vertaalprojecten** – Exporteer ondertitels, vertaal ze en injecteer ze opnieuw in de video.  
 2. **Content Management Systemen** – Indexeer ondertiteltekst voor doorzoekbaarheid binnen een videobibliotheek.  
 3. **Toegankelijkheidsverbeteringen** – Verifieer dat elke video correct getimede ondertitels bevat.
 
@@ -132,38 +132,37 @@ De lus print de metadata van elke ondertitel en de tekstuele inhoud, waardoor je
 - Houd de GroupDocs.Metadata‑bibliotheek up‑to‑date voor prestatie‑verbeteringen.
 
 ## Conclusie
-Je hebt nu een duidelijke, productie‑klare methode om **mkv-ondertitels** te extraheren met GroupDocs.Metadata in Java. Of je nu een ondertitel‑vertalings‑pijplijn bouwt, een mediacms verrijkt, of zorgt voor toegankelijkheids‑naleving, deze aanpak bespaart tijd en elimineert de noodzaak voor low‑level parsing.
+Je hebt nu een duidelijke, productie‑klare methode om **batch mkv-ondertitels** te extraheren met GroupDocs.Metadata in Java. Of je nu een ondertitel‑vertalings‑pipeline bouwt, een media‑CMS verrijkt, of zorgt voor toegankelijkheids‑naleving, deze aanpak bespaart tijd en elimineert de noodzaak voor low‑level parsing.
 
-Verken vervolgens andere functies zoals het insluiten van aangepaste metadata, het extraheren van audiotracks, of batch‑verwerking van meerdere videobestanden. Veel programmeerplezier!
+Verken vervolgens andere functies, zoals het insluiten van aangepaste metadata, het extraheren van audiotracks, of batch‑verwerking van meerdere videobestanden. Veel programmeerplezier!
 
 ## Veelgestelde vragen
 
-**V: Wat is de minimale Java‑versie die vereist is voor het gebruik van GroupDocs.Metadata?**  
+**Q: Wat is de minimale Java‑versie die vereist is voor het gebruik van GroupDocs.Metadata?**  
 A: JDK 8 of nieuwer is vereist.
 
-**V: Kan ik ondertitels uit andere videoformaten extraheren met GroupDocs.Metadata?**  
-A:, de bibliotheek ondersteunt verschillende containers, maar deze gids richt zich op MKV.
+**Q: Kan ik ondertitels extraheren uit andere video‑formaten met GroupDocs.Metadata?**  
+A: Ja, de bibliotheek ondersteunt verschillende containers, maar deze gids richt zich op MKV.
 
-**V: Hoe ga ik om met meerdere ondertitelsporen in een MKV‑bestand?**  
-A: Doorloop elk `MatroskaSubtitleTrack` zoals getoond in het code‑voorbeeld.
+**Q: Hoe ga ik om met meerdere ondertitelsporen in een MKV‑bestand?**  
+A: Loop door elk `MatroskaSubtitleTrack` zoals getoond in het code‑voorbeeld.
 
-**V: Wat moet ik doen als mijn applicatie een `FileNotFoundException` gooit?**  
-A: Controleer of het bestandspad correct is, het bestand bestaat, en het proces leesrechten heeft.
+**Q: Wat moet ik doen als mijn applicatie een `FileNotFoundException` gooit?**  
+A: Controleer of het bestandspad correct is, het bestand bestaat en het proces leesrechten heeft.
 
-**V: Is er ondersteuning voor ondertitel­talen anders dan Engels?**  
+**Q: Is er ondersteuning voor ondertitel‑talen anders dan Engels?**  
 A: Absoluut—GroupDocs.Metadata leest ISO 639‑2/IETF BCP‑47 taaltags, dus elke ondersteunde taal wordt verwerkt.
 
-**Bronnen**
-
-- **Documentation:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
-- **API Reference:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
+**Resources**
+- **Documentatie:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
+- **API‑referentie:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
 - **Download:** [Get the latest version](https://releases.groupdocs.com/metadata/java/)  
-- **GitHub Repository:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- **Free Support Forum:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
-- **Temporary License:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
+- **GitHub‑repository:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
+- **Gratis ondersteuningsforum:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
+- **Tijdelijke licentie:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 
-**Last Updated:** 2025-12-24  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
+**Laatst bijgewerkt:** 2026-03-09  
+**Getest met:** GroupDocs.Metadata 24.12 for Java  
+**Auteur:** GroupDocs

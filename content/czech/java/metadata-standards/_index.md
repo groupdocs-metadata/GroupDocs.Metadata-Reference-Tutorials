@@ -1,9 +1,7 @@
 ---
 date: 2026-07-26
-description: Step‑by‑step guide to read IPTC metadata using GroupDocs.Metadata for
-  Java, plus how to add XMP, extract EXIF, and write XMP metadata.
-images:
-- /java/metadata-standards/og-image.png
+description: Podrobný návod krok za krokem pro čtení metadat IPTC pomocí GroupDocs.Metadata
+  pro Java, včetně toho, jak přidat XMP, extrahovat EXIF a zapisovat metadata XMP.
 keywords:
 - read iptc metadata
 - how to add xmp
@@ -11,11 +9,11 @@ keywords:
 - write xmp metadata
 - read xmp properties
 lastmod: 2026-07-26
-og_description: Learn how to read IPTC metadata with GroupDocs.Metadata for Java.
-  This tutorial also covers how to add XMP, extract EXIF, and write XMP metadata in
-  Java.
+og_description: Zjistěte, jak číst metadata IPTC pomocí GroupDocs.Metadata pro Java.
+  Tento tutoriál také popisuje, jak přidat XMP, extrahovat EXIF a zapisovat metadata
+  XMP v Javě.
 og_image_alt: 'Guide: read IPTC metadata using GroupDocs.Metadata Java library'
-og_title: Read IPTC Metadata with GroupDocs.Metadata for Java – Complete Guide
+og_title: Čtení metadat IPTC pomocí GroupDocs.Metadata pro Java – Kompletní průvodce
 schemas:
 - author: GroupDocs
   dateModified: '2026-07-26'
@@ -65,36 +63,36 @@ tags:
 - java document processing
 - exif extraction
 - xmp handling
-title: Read IPTC Metadata with GroupDocs.Metadata for Java
+title: Čtení metadat IPTC pomocí GroupDocs.Metadata pro Java
 type: docs
-url: /java/metadata-standards/
+url: /cs/java/metadata-standards/
 weight: 4
 ---
 
-# Read IPTC Metadata with GroupDocs.Metadata for Java
+# Čtení IPTC metadat pomocí GroupDocs.Metadata pro Java
 
-If you need to **read IPTC metadata** from images, PDFs, or other media in a Java application, you’ve come to the right place. This tutorial walks you through using the GroupDocs.Metadata library to extract IPTC tags, shows where to add custom XMP packets, and even demonstrates how to pull EXIF information when required. By the end, you’ll have a clear, production‑ready approach that works across 50+ file formats and scales to multi‑hundred‑page documents without loading the entire file into memory.
+If you need to **číst IPTC metadata** from images, PDFs, or other media in a Java application, you’ve come to the right place. This tutorial walks you through using the GroupDocs.Metadata library to extract IPTC tags, shows where to add custom XMP packets, and even demonstrates how to pull EXIF information when required. By the end, you’ll have a clear, production‑ready approach that works across 50+ file formats and scales to multi‑hundred‑page documents without loading the entire file into memory.
 
-## Quick Answers
-- **What is IPTC metadata?** It’s a standardized set of tags for describing image content, such as keywords, creator, and copyright.
-- **Which library reads IPTC in Java?** GroupDocs.Metadata for Java provides a simple API for reading and writing IPTC.
-- **Can I also read EXIF and XMP?** Yes – the same library supports EXIF and XMP extraction in a single call.
-- **Do I need a license?** A temporary license works for evaluation; a full license is required for production.
-- **What Java versions are supported?** Java 8 through 17 are fully compatible.
+## Rychlé odpovědi
+- **Co jsou IPTC metadata?** Je to standardizovaná sada značek pro popis obsahu obrázku, jako jsou klíčová slova, tvůrce a autorská práva.
+- **Která knihovna čte IPTC v Java?** GroupDocs.Metadata for Java poskytuje jednoduché API pro čtení a zápis IPTC.
+- **Mohu také číst EXIF a XMP?** Ano – stejná knihovna podporuje extrakci EXIF a XMP v jednom volání.
+- **Potřebuji licenci?** Dočasná licence funguje pro hodnocení; plná licence je vyžadována pro produkci.
+- **Jaké verze Javy jsou podporovány?** Java 8 až 17 jsou plně kompatibilní.
 
-## What is read IPTC metadata?
-*Read IPTC metadata* means retrieving the standardized descriptive tags embedded in an image file. These tags enable searchable asset management, automated categorisation, and compliance with publishing workflows, allowing applications to index, filter, and display media based on creator, keywords, copyright, and other essential properties.
+## Co je čtení IPTC metadat?
+*Čtení IPTC metadat* znamená získání standardizovaných popisných značek vložených do souboru obrázku. Tyto značky umožňují vyhledávat v správě aktiv, automatizovat kategorizaci a dodržovat workflow publikování, což aplikacím umožňuje indexovat, filtrovat a zobrazovat média na základě tvůrce, klíčových slov, autorských práv a dalších důležitých vlastností.
 
-## Why use GroupDocs.Metadata for Java?
-GroupDocs.Metadata supports **50+ input and output formats**—including JPEG, TIFF, PSD, PDF, and EPUB—and can process **documents up to 1 GB** without loading the whole file into RAM. The library also offers **thread‑safe** operations, high‑performance streaming, and built‑in validation of metadata standards, making it ideal for enterprise‑scale digital‑asset pipelines that require reliability and speed.
+## Proč používat GroupDocs.Metadata pro Java?
+GroupDocs.Metadata podporuje **50+ vstupních a výstupních formátů** — včetně JPEG, TIFF, PSD, PDF a EPUB — a může zpracovávat **dokumenty až do 1 GB** bez načítání celého souboru do RAM. Knihovna také nabízí **vláknově‑bezpečné** operace, vysoce výkonný streaming a vestavěnou validaci standardů metadat, což ji činí ideální pro podnikové digitální asset pipelines vyžadující spolehlivost a rychlost.
 
-## Prerequisites
-- Java 8 or newer installed.
-- Maven or Gradle build system.
-- GroupDocs.Metadata for Java library (add the Maven dependency shown in the official docs).
-- A temporary or full license file (place it in your project resources).
+## Požadavky
+- Java 8 nebo novější nainstalovaná.
+- Maven nebo Gradle build systém.
+- GroupDocs.Metadata for Java knihovna (přidejte Maven závislost uvedenou v oficiální dokumentaci).
+- Dočasný nebo plný licenční soubor (umístěte jej do zdrojů projektu).
 
-## How to read IPTC metadata step by step
+## Jak číst IPTC metadata krok po kroku
 Load your file, obtain the IPTC handler, and retrieve the tag map—all in a concise, three‑step workflow that can be wrapped in a utility method for reuse across your codebase.
 
 **Direct answer (45 words):**  
@@ -102,19 +100,19 @@ Create a `Metadata` object for the target file, call `metadata.getIptc().getAllT
 
 The `Metadata` class is the primary entry point that loads a file and provides access to its metadata sections.
 
-### Step 1: Initialise the Metadata object
+### Krok 1: Inicializace objektu Metadata
 The `Metadata` class is the entry point for all metadata operations in GroupDocs.Metadata. Provide the file path and optional load options.
 
-### Step 2: Access IPTC tags
+### Krok 2: Přístup k IPTC značkám
 Call `metadata.getIptc()` to obtain the IPTC handler, then `getAllTags()` returns a `Map<String, String>` containing every available IPTC field.
 
-### Step 3: Process the tags
+### Krok 3: Zpracování značek
 Iterate over the map, log the values, or store them in your database. You can also filter for specific keys such as “Keywords” or “Creator”.
 
-### Step 4: (Optional) Read EXIF or XMP in the same session
+### Krok 4: (Volitelné) Číst EXIF nebo XMP ve stejné relaci
 Use `metadata.getExif()` or `metadata.getXmp()` to pull additional metadata without reopening the file. This is useful when you need to combine IPTC keywords with camera settings.
 
-## How to add XMP metadata to a file?
+## Jak přidat XMP metadata do souboru?
 Embedding custom XMP packets alongside existing IPTC data is straightforward: build an XMP package, attach it to the metadata object, and save the file. This operation preserves existing metadata while extending the file with new, standards‑compliant properties.
 
 **Direct answer (48 words):**  
@@ -122,12 +120,12 @@ Instantiate an `XmpPackage`, populate it with your custom XMP properties, add th
 
 The `XmpPackage` class represents a container for custom XMP properties that can be embedded into a file.
 
-## Common pitfalls and troubleshooting
+## Časté úskalí a řešení problémů
 - **Missing IPTC section:** Some PNG files lack IPTC; always check `metadata.getIptc().isPresent()` before accessing tags.
 - **Large images:** For files over 200 MB, enable streaming mode via `LoadOptions.setUseMemoryCache(true)` to avoid `OutOfMemoryError`. The `LoadOptions` class lets you configure how files are loaded, such as enabling memory‑cache streaming.
 - **License errors:** Ensure the license file path is correct; otherwise, the library runs in trial mode and may limit the number of processed files.
 
-## Frequently Asked Questions
+## Často kladené otázky
 
 **Q: Can I read IPTC metadata from PDF files?**  
 A: Yes, GroupDocs.Metadata extracts IPTC embedded in PDF/X‑4 files, returning the same tag map as with images.
@@ -146,79 +144,77 @@ A: Version 22.11 or newer includes full EXIF support for Java; earlier relea
 
 ---
 
-**Last Updated:** 2026-07-26  
-**Tested With:** GroupDocs.Metadata for Java 23.5  
-**Author:** GroupDocs  
+**Poslední aktualizace:** 2026-07-26  
+**Testováno s:** GroupDocs.Metadata for Java 23.5  
+**Autor:** GroupDocs  
 
----  
+## Dostupné tutoriály
 
-## Available Tutorials
-
-### [Add Custom XMP Metadata to Files with GroupDocs.Metadata Java&#58; A Comprehensive Guide](./add-custom-xmp-metadata-groupdocs-java/)
+### [Přidání vlastních XMP metadat do souborů pomocí GroupDocs.Metadata Java&#58; Kompletní průvodce](./add-custom-xmp-metadata-groupdocs-java/)
 Learn how to add custom XMP metadata packages to files using GroupDocs.Metadata for Java. Enhance file data management with this step-by-step tutorial.
 
-### [EXIF Metadata Management in Java&#58; A Complete Guide Using GroupDocs.Metadata](./exif-metadata-management-java-groupdocs-metadata/)
+### [Správa EXIF metadat v Java&#58; Kompletní průvodce pomocí GroupDocs.Metadata](./exif-metadata-management-java-groupdocs-metadata/)
 Learn how to efficiently manage EXIF metadata in Java applications using GroupDocs.Metadata, covering setup, updates, and saving changes.
 
-### [Extract Dublin Core Metadata from EPUB Files Using GroupDocs.Metadata in Java](./extract-dublin-core-metadata-epub-groupdocs-java/)
+### [Extrahování Dublin Core metadat z EPUB souborů pomocí GroupDocs.Metadata v Java](./extract-dublin-core-metadata-epub-groupdocs-java/)
 Learn how to efficiently extract Dublin Core metadata from EPUB files using the GroupDocs.Metadata library for Java. This guide covers setup, implementation, and practical applications.
 
-### [Extract Dublin Core Metadata from Word Documents Using Java with GroupDocs.Metadata](./extract-dublin-core-metadata-word-docs-java/)
+### [Extrahování Dublin Core metadat z dokumentů Word pomocí Java a GroupDocs.Metadata](./extract-dublin-core-metadata-word-docs-java/)
 Learn how to efficiently extract Dublin Core metadata from Word documents using the GroupDocs.Metadata library in Java. Follow this step-by-step guide to enhance your document management processes.
 
-### [Extract EXIF Metadata from PSD Files Using GroupDocs.Metadata for Java | Comprehensive Guide](./extract-exif-metadata-psd-groupdocs-java/)
+### [Extrahování EXIF metadat z PSD souborů pomocí GroupDocs.Metadata pro Java | Kompletní průvodce](./extract-exif-metadata-psd-groupdocs-java/)
 Learn how to extract EXIF metadata from PSD files using GroupDocs.Metadata for Java. This guide covers basic and advanced metadata extraction techniques.
 
-### [Extract EXIF Software Tag in Java&#58; A Complete Guide Using GroupDocs.Metadata](./master-exif-data-java-groupdocs-metadata/)
+### [Extrahování EXIF Software tagu v Java&#58; Kompletní průvodce pomocí GroupDocs.Metadata](./master-exif-data-java-groupdocs-metadata/)
 Learn to extract the software tag from image EXIF data using GroupDocs.Metadata for Java. Enhance digital asset management and user experience.
 
-### [Extract XMP Metadata Using GroupDocs.Metadata for Java&#58; A Comprehensive Guide](./extract-xmp-metadata-groupdocs-metadata-java/)
+### [Extrahování XMP metadat pomocí GroupDocs.Metadata pro Java&#58; Kompletní průvodce](./extract-xmp-metadata-groupdocs-metadata-java/)
 Learn how to extract and manage XMP metadata in Java with GroupDocs.Metadata. This guide covers basic, Dublin Core, and Photoshop-specific metadata extraction.
 
-### [How to Extract Dublin Core Metadata Using GroupDocs.Metadata for Java&#58; A Complete Guide](./extract-dublin-core-metadata-groupdocs-java/)
+### [Jak extrahovat Dublin Core metadata pomocí GroupDocs.Metadata pro Java&#58; Kompletní průvodce](./extract-dublin-core-metadata-groupdocs-java/)
 Learn how to extract and manage Dublin Core metadata in Java using GroupDocs.Metadata. This guide covers setup, implementation, and practical applications.
 
-### [How to Extract EXIF Metadata from TIFF Images Using GroupDocs.Metadata in Java](./extract-exif-metadata-groupdocs-java-tiff/)
+### [Jak extrahovat EXIF metadata z TIFF obrázků pomocí GroupDocs.Metadata v Java](./extract-exif-metadata-groupdocs-java-tiff/)
 Learn how to extract and manage EXIF metadata from TIFF files using GroupDocs.Metadata for Java. Enhance your digital asset management applications with detailed image information.
 
-### [How to Extract IPTC Metadata from TIFF Images Using GroupDocs.Metadata for Java](./extract-iptc-metadata-tiff-groupdocs-java/)
+### [Jak extrahovat IPTC metadata z TIFF obrázků pomocí GroupDocs.Metadata pro Java](./extract-iptc-metadata-tiff-groupdocs-java/)
 Learn how to efficiently extract IPTC metadata from TIFF images using GroupDocs.Metadata for Java. Streamline your image data management with this step-by-step guide.
 
-### [How to Read and Manage DICOM Metadata in Java Using GroupDocs.Metadata](./master-dicom-metadata-groupdocs-metadata-java/)
+### [Jak číst a spravovat DICOM metadata v Java pomocí GroupDocs.Metadata](./master-dicom-metadata-groupdocs-metadata-java/)
 Learn how to efficiently extract and manage DICOM metadata in your Java applications using the powerful GroupDocs.Metadata library.
 
-### [How to Read and Manage EXIF Metadata in Java Using GroupDocs.Metadata](./read-exif-metadata-groupdocs-java/)
+### [Jak číst a spravovat EXIF metadata v Java pomocí GroupDocs.Metadata](./read-exif-metadata-groupdocs-java/)
 Learn how to efficiently extract and utilize EXIF metadata from images using GroupDocs.Metadata for Java. This guide covers setup, reading tags, and practical applications.
 
-### [How to Remove EXIF Metadata from JPEGs Using GroupDocs.Metadata for Java&#58; A Comprehensive Guide](./remove-exif-metadata-jpeg-groupdocs-java/)
+### [Jak odstranit EXIF metadata z JPEG souborů pomocí GroupDocs.Metadata pro Java&#58; Kompletní průvodce](./remove-exif-metadata-jpeg-groupdocs-java/)
 Learn how to easily remove sensitive EXIF metadata from JPEG files using GroupDocs.Metadata for Java. Enhance privacy and optimize your images with this step-by-step guide.
 
-### [How to Set IPTC Metadata with GroupDocs.Metadata in Java&#58; A Complete Guide](./set-iptc-metadata-groupdocs-java-guide/)
+### [Jak nastavit IPTC metadata pomocí GroupDocs.Metadata v Java&#58; Kompletní průvodce](./set-iptc-metadata-groupdocs-java-guide/)
 Learn how to efficiently manage and set missing IPTC metadata using GroupDocs.Metadata for Java. Enhance your image management applications today.
 
-### [Java Metadata Handling with GroupDocs&#58; Add & Retrieve IPTC Keywords for Digital Asset Management](./java-metadata-groupdocs-add-retrieve-iptc-keywords/)
+### [Zpracování Java metadat s GroupDocs&#58; Přidání a získání IPTC klíčových slov pro správu digitálních aktiv](./java-metadata-groupdocs-add-retrieve-iptc-keywords/)
 Learn how to efficiently add and retrieve IPTC keywords using GroupDocs.Metadata in Java, enhancing digital asset management.
 
-### [Master GroupDocs.Metadata Java&#58; Extract IPTC Metadata from JPEGs Effortlessly](./reading-iptc-metadata-jpeg-groupdocs-metadata-java/)
+### [Mistrovství GroupDocs.Metadata Java&#58; Snadné extrahování IPTC metadat z JPEG](./reading-iptc-metadata-jpeg-groupdocs-metadata-java/)
 Learn how to extract IPTC metadata from JPEG files using GroupDocs.Metadata for Java. A step-by-step guide to managing digital assets efficiently.
 
-### [Master Java IPTC Metadata Management with GroupDocs.Metadata for Java](./java-iptc-metadata-groupdocs-metadata/)
+### [Mistrovství správy Java IPTC metadat s GroupDocs.Metadata pro Java](./java-iptc-metadata-groupdocs-metadata/)
 Learn how to manage and customize IPTC metadata in Java applications using GroupDocs.Metadata. Enhance document organization, searchability, and asset management.
 
-### [Read IPTC Metadata in Java Using GroupDocs.Metadata Library](./groupdocs-metadata-java-read-iptc-datasets/)
+### [Čtení IPTC metadat v Java pomocí knihovny GroupDocs.Metadata](./groupdocs-metadata-java-read-iptc-datasets/)
 Learn how to efficiently read and manage IPTC metadata within images using the GroupDocs.Metadata library in Java. Discover step-by-step instructions, best practices, and practical applications.
 
-## Additional Resources
+## Další zdroje
 
-- [GroupDocs.Metadata for Java Documentation](https://docs.groupdocs.com/metadata/java/)
-- [GroupDocs.Metadata for Java API Reference](https://reference.groupdocs.com/metadata/java/)
-- [Download GroupDocs.Metadata for Java](https://releases.groupdocs.com/metadata/java/)
-- [GroupDocs.Metadata Forum](https://forum.groupdocs.com/c/metadata)
-- [Free Support](https://forum.groupdocs.com/)
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
+- [Dokumentace GroupDocs.Metadata pro Java](https://docs.groupdocs.com/metadata/java/)
+- [Reference API GroupDocs.Metadata pro Java](https://reference.groupdocs.com/metadata/java/)
+- [Stáhnout GroupDocs.Metadata pro Java](https://releases.groupdocs.com/metadata/java/)
+- [Fórum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata)
+- [Bezplatná podpora](https://forum.groupdocs.com/)
+- [Dočasná licence](https://purchase.groupdocs.com/temporary-license/)
 
-## Related Tutorials
+## Související tutoriály
 
-- [Java Metadata Handling with GroupDocs&#58; Add & Retrieve IPTC Keywords for Digital Asset Management](/metadata/java/metadata-standards/java-metadata-groupdocs-add-retrieve-iptc-keywords/)
-- [Extract XMP Metadata Using GroupDocs.Metadata for Java&#58; A Comprehensive Guide](/metadata/java/metadata-standards/extract-xmp-metadata-groupdocs-metadata-java/)
-- [Extract EXIF Metadata from PSD Files Using GroupDocs.Metadata for Java | Comprehensive Guide](/metadata/java/metadata-standards/extract-exif-metadata-psd-groupdocs-java/)
+- [Zpracování Java metadat s GroupDocs&#58; Přidání a získání IPTC klíčových slov pro správu digitálních aktiv](/metadata/java/metadata-standards/java-metadata-groupdocs-add-retrieve-iptc-keywords/)
+- [Extrahování XMP metadat pomocí GroupDocs.Metadata pro Java&#58; Kompletní průvodce](/metadata/java/metadata-standards/extract-xmp-metadata-groupdocs-metadata-java/)
+- [Extrahování EXIF metadat z PSD souborů pomocí GroupDocs.Metadata pro Java | Kompletní průvodce](/metadata/java/metadata-standards/extract-exif-metadata-psd-groupdocs-java/)

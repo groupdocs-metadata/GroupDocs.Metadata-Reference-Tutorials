@@ -1,46 +1,115 @@
 ---
-date: '2026-02-14'
-description: Scopri come aggiornare i metadati PDF e rilevare la versione PDF in Java
-  usando GroupDocs.Metadata. Questa guida mostra anche come leggere le proprietà PDF
-  con Java.
+date: '2026-08-05'
+description: Scopri come rilevare la versione PDF in Java e aggiornare i metadati
+  PDF usando GroupDocs.Metadata per Java. Include version detection, reading properties,
+  and metadata editing.
 keywords:
-- manage PDF metadata
-- GroupDocs.Metadata Java
-- detect PDF version
-title: Aggiorna i metadati PDF in Java con GroupDocs.Metadata
+- detect pdf version java
+- update pdf metadata java
+- groupdocs.metadata java
+lastmod: '2026-08-05'
+og_description: Rileva la versione PDF in Java e aggiorna i metadati PDF con GroupDocs.Metadata.
+  Guida passo‑passo Java mostra version detection, reading properties e editing metadata.
+og_image_alt: Guide showing Java code for detecting PDF version and updating metadata
+  using GroupDocs.Metadata
+og_title: Rileva la versione PDF in Java e aggiorna i metadati PDF
+schemas:
+- author: GroupDocs
+  dateModified: '2026-08-05'
+  description: Learn how to detect PDF version java and update PDF metadata using
+    GroupDocs.Metadata for Java. Includes version detection, reading properties, and
+    metadata editing.
+  headline: Detect PDF version java and update PDF metadata
+  type: TechArticle
+- description: Learn how to detect PDF version java and update PDF metadata using
+    GroupDocs.Metadata for Java. Includes version detection, reading properties, and
+    metadata editing.
+  name: Detect PDF version java and update PDF metadata
+  steps:
+  - name: '**Open the PDF** – instantiate the `Metadata` object (see initialization
+      above).'
+    text: '**Open the PDF** – instantiate the `Metadata` object (see initialization
+      above).'
+  - name: '**Access the PDF‑specific root package** – call `metadata.getRootPackage()`.'
+    text: '**Access the PDF‑specific root package** – call `metadata.getRootPackage()`.'
+  - name: '**Retrieve the version** – invoke `pdfRoot.getVersion()`; the returned
+      string contains the version number.'
+    text: '**Retrieve the version** – invoke `pdfRoot.getVersion()`; the returned
+      string contains the version number.'
+  - name: '**Compliance audits** – Verify that all PDFs meet a minimum version (e.g., 1.7)
+      before legal filing.'
+    text: '**Compliance audits** – Verify that all PDFs meet a minimum version (e.g., 1.7)
+      before legal filing.'
+  - name: '**Automated archiving** – Tag PDFs with author, department, and creation
+      date for easier retrieval.'
+    text: '**Automated archiving** – Tag PDFs with author, department, and creation
+      date for easier retrieval.'
+  - name: '**Document management integration** – Enrich PDFs with custom properties
+      that DMS platforms can index.'
+    text: '**Document management integration** – Enrich PDFs with custom properties
+      that DMS platforms can index.'
+  - name: '**Report generation** – Insert version information into automatically generated
+      reports.'
+    text: '**Report generation** – Insert version information into automatically generated
+      reports.'
+  - name: '**Cross‑platform testing** – Detect version mismatches that could cause
+      rendering issues on older viewers.'
+    text: '**Cross‑platform testing** – Detect version mismatches that could cause
+      rendering issues on older viewers.'
+  type: HowTo
+- questions:
+  - answer: Yes, but you must supply the password when creating the `Metadata` object.
+    question: Can I update metadata on password‑protected PDFs?
+  - answer: Absolutely. You can read and write custom XMP fields through the same
+      API.
+    question: Does GroupDocs.Metadata support custom XMP properties?
+  - answer: The library can report the version; changing it requires saving the document
+      with a different version profile, which is supported via additional save options.
+    question: Is it possible to change the PDF version itself?
+  - answer: The getters will return `null`. You can safely call the setters to create
+      new metadata entries.
+    question: What happens if the PDF has no existing metadata?
+  - answer: A commercial license is required for production deployments; the trial
+      is limited to evaluation purposes.
+    question: Are there any licensing restrictions for commercial use?
+  type: FAQPage
+tags:
+- detect pdf version
+- update pdf metadata
+- groupdocs.metadata
+- java pdf processing
+title: Rileva la versione PDF in Java e aggiorna i metadati PDF
 type: docs
 url: /it/java/document-formats/manage-pdf-metadata-groupdocs-java/
 weight: 1
 ---
 
- final content.
+# Rilevare la versione PDF java e aggiornare i metadati PDF
 
-# Aggiornare i Metadati PDF in Java con GroupDocs.Metadata
+Gestire i file PDF in modo programmatico spesso richiede di **rilevare la versione PDF java** e **aggiornare i metadati PDF** — autore, titolo, data di creazione o persino la versione PDF stessa. Metadati incoerenti possono causare problemi di rendering o rendere più difficile individuare i documenti in un ampio archivio. Questo tutorial ti guida nella rilevazione della versione PDF e nell'aggiornamento dei metadati PDF usando **GroupDocs.Metadata** per Java, offrendoti un modo affidabile per mantenere i tuoi PDF ordinati, ricercabili e compatibili con qualsiasi visualizzatore.
 
-Gestire i file PDF in modo programmatico spesso significa dover **aggiornare i metadati PDF** — autore, titolo, data di creazione o persino la versione del PDF stessa. Metadati incoerenti possono causare problemi di rendering o rendere più difficile individuare i documenti in un ampio archivio. Questo tutorial ti guida nella rilevazione della versione del PDF e nell'aggiornamento dei metadati PDF usando **GroupDocs.Metadata** per Java, offrendoti un modo affidabile per mantenere i PDF ordinati e compatibili.
+## Risposte rapide
+- **Che cosa significa “aggiornare i metadati PDF”?** Aggiungere, modificare o rimuovere le informazioni memorizzate all'interno di un file PDF.  
+- **Quale libreria aiuta a fare questo in Java?** GroupDocs.Metadata.  
+- **Posso anche rilevare la versione PDF?** Sì, la stessa API fornisce la rilevazione della versione.  
+- **Ho bisogno di una licenza?** Una prova gratuita è sufficiente per la valutazione; è necessaria una licenza a pagamento per la produzione.  
+- **Quale versione di Java è richiesta?** JDK 8 o superiore.
 
-## Risposte Rapide
-- **Cosa significa “aggiornare i metadati PDF”?** Aggiungere, modificare o rimuovere le informazioni memorizzate all'interno di un file PDF.  
-- **Quale libreria aiuta a farlo in Java?** GroupDocs.Metadata.  
-- **Posso anche rilevare la versione del PDF?** Sì, la stessa API fornisce il rilevamento della versione.  
-- **È necessaria una licenza?** Una prova gratuita è sufficiente per la valutazione; è richiesta una licenza a pagamento per la produzione.  
-- **Quale versione di Java è necessaria?** JDK 8 o superiore.
+## Cos'è l'aggiornamento dei metadati PDF?
 
-## Che cosa significa aggiornare i metadati PDF?
+Aggiornare i metadati PDF significa leggere e scrivere programmaticamente le informazioni descrittive incorporate in un file PDF — come autore, titolo, soggetto e proprietà personalizzate. Metadati corretti migliorano la ricercabilità, la conformità e il controllo delle versioni nei sistemi di gestione dei documenti. Metadati accurati consentono inoltre l'indicizzazione automatizzata, la generazione di report di conformità e il tracciamento delle versioni nei sistemi di gestione dei documenti.
 
-Aggiornare i metadati PDF indica la lettura e scrittura programmatica delle informazioni descrittive incorporate in un file PDF—come autore, titolo, soggetto e proprietà personalizzate. Metadati corretti migliorano la ricercabilità, la conformità e il controllo delle versioni nei sistemi di gestione documentale.
+## Perché rilevare la versione PDF in Java?
 
-## Perché rilevare la versione del PDF in Java?
-
-Conoscere la versione del PDF (ad es. 1.4, 1.7) ti aiuta a garantire che il file venga visualizzato correttamente nel visualizzatore di destinazione o che soddisfi i requisiti delle pipeline di elaborazione successive. Rilevare la versione è particolarmente utile quando è necessario imporre regole di compatibilità prima di archiviare o pubblicare i documenti.
+Rilevare la versione PDF ti consente di verificare che un file venga visualizzato correttamente nel visualizzatore di destinazione e che soddisfi i requisiti di elaborazione a valle. Sapere se un PDF è versione 1.4, 1.7 o più recente ti aiuta a imporre regole di compatibilità prima di archiviare, pubblicare o convertire il documento.
 
 ## Prerequisiti
 
 - **Java Development Kit (JDK)** 8 o superiore.  
 - **Maven** per la gestione delle dipendenze (oppure puoi scaricare direttamente il JAR).  
-- Familiarità di base con I/O di file Java.  
+- Familiarità di base con Java file I/O.  
 
-## Configurare GroupDocs.Metadata per Java
+## Configurazione di GroupDocs.Metadata per Java
 
 ### Configurazione Maven
 Aggiungi il repository e la dipendenza al tuo `pom.xml`:
@@ -63,15 +132,17 @@ Aggiungi il repository e la dipendenza al tuo `pom.xml`:
 </dependencies>
 ```
 
-### Download Diretto
+### Download diretto
 In alternativa, scarica l'ultimo JAR dalla pagina di rilascio ufficiale: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-#### Passaggi per Ottenere la Licenza
-- **Prova Gratuita** – inizia a sperimentare senza costi.  
-- **Licenza Temporanea** – estendi la prova se necessario.  
-- **Acquisto** – ottieni una licenza completa per l'uso in produzione.
+#### Passaggi per l'acquisizione della licenza
+- **Prova gratuita** – inizia a sperimentare senza costi.  
+- **Licenza temporanea** – estendi la prova se necessario.  
+- **Acquisto** – ottieni una licenza completa per l'uso in produzione.  
 
-## Inizializzazione e Configurazione di Base
+## Inizializzazione e configurazione di base
+
+La classe `Metadata` è il punto di ingresso per lavorare con i file PDF in GroupDocs.Metadata. Rappresenta un contenitore che ti fornisce accesso in lettura/scrittura alle proprietà del documento, alle informazioni sulla versione e ai dati XMP personalizzati.
 
 Crea un'istanza `Metadata` che punti al tuo file PDF:
 
@@ -88,23 +159,29 @@ public class PdfMetadataExample {
 }
 ```
 
-Ora sei pronto a leggere le proprietà, rilevare la versione e aggiornare i metadati.
+Ora sei pronto per leggere le proprietà, rilevare la versione e aggiornare i metadati.
 
-## Rilevare la Versione PDF e Leggere le Proprietà PDF in Java
+## Come rilevare la versione PDF java
 
-### Passo 1: Apri il PDF con un oggetto `Metadata`
+Carica il tuo PDF con `new Metadata("sample.pdf")` e chiama `getRootPackage().getVersion()` — il metodo restituisce la versione PDF esatta (ad es., 1.4, 1.7) in una singola chiamata. Questa risposta diretta ti consente di convalidare rapidamente la compatibilità prima di qualsiasi ulteriore elaborazione. La stringa della versione riflette il livello di specifica PDF a cui il file aderisce, fondamentale per i controlli di compatibilità.  
+`getVersion()` restituisce la versione PDF come stringa, ad es., "1.4" o "1.7".
+
+### Guida passo‑passo
+
+1. **Apri il PDF** – istanzia l'oggetto `Metadata` (vedi l'inizializzazione sopra).  
+2. **Accedi al pacchetto radice specifico del PDF** – chiama `metadata.getRootPackage()`.  
+3. **Recupera la versione** – invoca `pdfRoot.getVersion()`; la stringa restituita contiene il numero di versione.  
+
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.pdf")) {
     // Access PDF‑specific properties here
 }
 ```
 
-### Passo 2: Ottieni il pacchetto radice per i dettagli specifici del PDF
 ```java
 PdfRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### Passo 3: Estrai le informazioni di versione e formato
 ```java
 String fileFormat = root.getPdfType().getFileFormat();
 String version = root.getPdfType().getVersion();
@@ -117,22 +194,34 @@ System.out.println("MIME Type: " + mimeType);
 System.out.println("Extension: " + extension);
 ```
 
-**Suggerimento professionale:** Usa il valore `version` per imporre controlli di compatibilità prima di elaborare un batch di PDF.
+**Suggerimento:** Usa il valore `version` per imporre controlli di compatibilità prima di elaborare un batch di PDF.
 
-#### Risoluzione dei Problemi
+#### Risoluzione dei problemi
 - Verifica il percorso del file; un percorso errato genera `FileNotFoundException`.  
-- Assicurati che la versione di GroupDocs.Metadata corrisponda al tuo JDK (l'esempio utilizza la 24.12).
+- Assicurati che la versione di GroupDocs.Metadata corrisponda al tuo JDK (l'esempio utilizza 24.12).
 
-## Aggiornare i Metadati PDF in Java
+## Come leggere le proprietà PDF in Java
 
-### Passo 1: Apri il PDF (come sopra)
+`DocumentInfo` fornisce l'accesso ai campi standard dei metadati PDF senza caricare l'intero documento. La classe `DocumentInfo` consente l'accesso alle proprietà PDF standard come autore, titolo e data di creazione. È un wrapper leggero che legge i metadati senza caricare l'intero documento in memoria.
+
+Crea un'istanza `DocumentInfo` dall'oggetto `Metadata` aperto:
+
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.pdf")) {
     // Modify or read metadata here
 }
 ```
 
-### Passo 2: Accedi al pacchetto document‑info e modifica i campi
+Puoi quindi chiamare i getter come `getAuthor()`, `getTitle()` e `getCreationDate()` per recuperare i valori.
+
+## Come aggiornare i metadati PDF in Java
+
+Carica il PDF (come sopra), ottieni il pacchetto `DocumentInfo`, modifica i campi desiderati e salva le modifiche. L'operazione sovrascrive il blocco dei metadati esistente preservando il resto del documento. Dopo aver modificato i campi, chiamare `save()` scrive le modifiche nel file mantenendo intatti i flussi di contenuto.
+
+La classe `DocumentInfo` è l'oggetto di GroupDocs.Metadata per modificare le proprietà a livello PDF come autore, titolo, soggetto e campi XMP personalizzati.
+
+Aggiorna i campi dei metadati:
+
 ```java
 PdfRootPackage root = metadata.getRootPackageGeneric();
 
@@ -144,45 +233,52 @@ System.out.println("Author: " + author);
 // e.g., root.getPdfDocumentInfo().setAuthor("New Author");
 ```
 
-**Nota:** Le chiamate ai setter sono semplici; seguono lo stesso schema dei getter mostrati.
+**Nota:** Le chiamate ai setter seguono lo stesso schema dei getter mostrati in precedenza, rendendo l'API intuitiva e coerente.
 
-#### Errori Comuni
-- Tentare di modificare i metadati su un PDF che non contiene la proprietà target restituisce `null`—controlla sempre `null` prima di impostare.  
-- PDF di grandi dimensioni possono richiedere un aumento dell'heap JVM; monitora l'uso della memoria durante gli aggiornamenti batch.
+#### Trappole comuni
+- Tentare di modificare i metadati su un PDF che non contiene la proprietà target restituisce `null` — controlla sempre `null` prima di impostare un nuovo valore.  
+- I PDF di grandi dimensioni possono richiedere un aumento dell'heap JVM; monitora l'uso della memoria durante gli aggiornamenti batch.
 
-## Casi d'Uso Pratici
+## Casi d'uso pratici
 
-1. **Audit di Conformità** – Verifica che tutti i PDF rispettino una versione minima (ad es. 1.7) prima della presentazione legale.  
-2. **Archiviazione Automatizzata** – Etichetta i PDF con autore, dipartimento e data di creazione per una più facile reperibilità.  
-3. **Integrazione con Sistemi di Gestione Documentale** – Arricchisci i PDF con proprietà personalizzate indicizzabili dalle piattaforme DMS.  
-4. **Generazione di Report** – Inserisci le informazioni di versione nei report generati automaticamente.  
-5. **Test Cross‑Platform** – Rileva discrepanze di versione che potrebbero causare problemi di rendering su visualizzatori più vecchi.
+1. **Audit di conformità** – Verifica che tutti i PDF soddisfino una versione minima (ad es., 1.7) prima della presentazione legale.  
+2. **Archiviazione automatica** – Etichetta i PDF con autore, dipartimento e data di creazione per una più facile reperibilità.  
+3. **Integrazione con la gestione documentale** – Arricchisci i PDF con proprietà personalizzate che le piattaforme DMS possono indicizzare.  
+4. **Generazione di report** – Inserisci le informazioni di versione nei report generati automaticamente.  
+5. **Test cross‑platform** – Rileva discrepanze di versione che potrebbero causare problemi di rendering su visualizzatori più vecchi.  
 
-## Consigli sulle Prestazioni
+## Suggerimenti sulle prestazioni
 
 - **Usa try‑with‑resources** (come mostrato) per chiudere automaticamente gli oggetti `Metadata`.  
-- **Elabora in Batch** più file in un ciclo per ridurre l'overhead.  
-- **Monitora l'Heap** per PDF molto grandi; considera di elaborarli a blocchi se raggiungi i limiti di memoria.
+- **Elabora in batch** più file in un ciclo per ridurre l'overhead.  
+- **Monitora l'heap** per PDF molto grandi; considera di elaborarli a blocchi se raggiungi i limiti di memoria.  
+- **GroupDocs.Metadata supporta più di 50 formati di input e output** e può leggere i metadati da PDF di centinaia di pagine senza caricare l'intero file in memoria, offrendo prestazioni rapide su hardware server standard.  
 
-## Domande Frequenti
+## Domande frequenti
 
-**D: Posso aggiornare i metadati su PDF protetti da password?**  
-R: Sì, ma devi fornire la password quando crei l'oggetto `Metadata`.
+**Q: Posso aggiornare i metadati su PDF protetti da password?**  
+A: Sì, ma devi fornire la password quando crei l'oggetto `Metadata`.
 
-**D: GroupDocs.Metadata supporta proprietà XMP personalizzate?**  
-R: Assolutamente. Puoi leggere e scrivere campi XMP personalizzati tramite la stessa API.
+**Q: GroupDocs.Metadata supporta proprietà XMP personalizzate?**  
+A: Assolutamente. Puoi leggere e scrivere campi XMP personalizzati tramite la stessa API.
 
-**D: È possibile cambiare la versione del PDF stessa?**  
-R: La libreria può segnalare la versione; modificarla richiede il salvataggio del documento con un profilo di versione diverso, supportato tramite opzioni di salvataggio aggiuntive.
+**Q: È possibile modificare la versione PDF stessa?**  
+A: La libreria può segnalare la versione; modificarla richiede di salvare il documento con un profilo di versione diverso, supportato tramite opzioni di salvataggio aggiuntive.
 
-**D: Cosa succede se il PDF non ha metadati esistenti?**  
-R: I getter restituiranno `null`. Puoi chiamare tranquillamente i setter per creare nuove voci di metadati.
+**Q: Cosa succede se il PDF non ha metadati esistenti?**  
+A: I getter restituiranno `null`. Puoi chiamare in sicurezza i setter per creare nuove voci di metadati.
 
-**D: Ci sono restrizioni di licenza per l'uso commerciale?**  
-R: È necessaria una licenza commerciale per le distribuzioni in produzione; la prova è limitata a scopi di valutazione.
+**Q: Ci sono restrizioni di licenza per l'uso commerciale?**  
+A: È necessaria una licenza commerciale per le distribuzioni in produzione; la versione di prova è limitata a scopi di valutazione.
 
 ---
 
-**Ultimo Aggiornamento:** 2026-02-14  
-**Testato Con:** GroupDocs.Metadata 24.12 per Java  
+**Ultimo aggiornamento:** 2026-08-05  
+**Testato con:** GroupDocs.Metadata 24.12 for Java  
 **Autore:** GroupDocs
+
+## Tutorial correlati
+
+- [Aggiornare efficientemente i metadati PDF con GroupDocs.Metadata in Java per la gestione dei documenti](/metadata/java/document-formats/update-pdf-metadata-groupdocs-metadata-java/)
+- [Gestione avanzata dei metadati: rilevare le proprietà del documento e lo stato di crittografia con GroupDocs.Metadata per Java](/metadata/java/working-with-metadata/master-metadata-management-groupdocs-java/)
+- [Creare anteprima documento Java – Tutorial GroupDocs.Metadata](/metadata/java/document-formats/)

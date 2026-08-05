@@ -1,37 +1,108 @@
 ---
-date: '2026-02-14'
-description: تعلم كيفية تحديث بيانات تعريف PDF واكتشاف إصدار PDF في Java باستخدام
-  GroupDocs.Metadata. يوضح هذا الدليل أيضًا كيفية قراءة خصائص PDF باستخدام Java.
+date: '2026-08-05'
+description: تعرف على كيفية اكتشاف إصدار PDF باستخدام Java وتحديث بيانات التعريف للملف
+  PDF باستخدام GroupDocs.Metadata for Java. يتضمن اكتشاف الإصدار، قراءة الخصائص، وتحرير
+  بيانات التعريف.
 keywords:
-- manage PDF metadata
-- GroupDocs.Metadata Java
-- detect PDF version
-title: تحديث بيانات تعريف PDF في جافا باستخدام GroupDocs.Metadata
+- detect pdf version java
+- update pdf metadata java
+- groupdocs.metadata java
+lastmod: '2026-08-05'
+og_description: اكتشاف إصدار PDF باستخدام Java وتحديث بيانات التعريف للملف PDF مع
+  GroupDocs.Metadata. دليل Java خطوة بخطوة يوضح اكتشاف الإصدار، قراءة الخصائص، وتحرير
+  بيانات التعريف.
+og_image_alt: Guide showing Java code for detecting PDF version and updating metadata
+  using GroupDocs.Metadata
+og_title: اكتشاف إصدار PDF باستخدام Java وتحديث بيانات التعريف
+schemas:
+- author: GroupDocs
+  dateModified: '2026-08-05'
+  description: Learn how to detect PDF version java and update PDF metadata using
+    GroupDocs.Metadata for Java. Includes version detection, reading properties, and
+    metadata editing.
+  headline: Detect PDF version java and update PDF metadata
+  type: TechArticle
+- description: Learn how to detect PDF version java and update PDF metadata using
+    GroupDocs.Metadata for Java. Includes version detection, reading properties, and
+    metadata editing.
+  name: Detect PDF version java and update PDF metadata
+  steps:
+  - name: '**Open the PDF** – instantiate the `Metadata` object (see initialization
+      above).'
+    text: '**Open the PDF** – instantiate the `Metadata` object (see initialization
+      above).'
+  - name: '**Access the PDF‑specific root package** – call `metadata.getRootPackage()`.'
+    text: '**Access the PDF‑specific root package** – call `metadata.getRootPackage()`.'
+  - name: '**Retrieve the version** – invoke `pdfRoot.getVersion()`; the returned
+      string contains the version number.'
+    text: '**Retrieve the version** – invoke `pdfRoot.getVersion()`; the returned
+      string contains the version number.'
+  - name: '**Compliance audits** – Verify that all PDFs meet a minimum version (e.g., 1.7)
+      before legal filing.'
+    text: '**Compliance audits** – Verify that all PDFs meet a minimum version (e.g., 1.7)
+      before legal filing.'
+  - name: '**Automated archiving** – Tag PDFs with author, department, and creation
+      date for easier retrieval.'
+    text: '**Automated archiving** – Tag PDFs with author, department, and creation
+      date for easier retrieval.'
+  - name: '**Document management integration** – Enrich PDFs with custom properties
+      that DMS platforms can index.'
+    text: '**Document management integration** – Enrich PDFs with custom properties
+      that DMS platforms can index.'
+  - name: '**Report generation** – Insert version information into automatically generated
+      reports.'
+    text: '**Report generation** – Insert version information into automatically generated
+      reports.'
+  - name: '**Cross‑platform testing** – Detect version mismatches that could cause
+      rendering issues on older viewers.'
+    text: '**Cross‑platform testing** – Detect version mismatches that could cause
+      rendering issues on older viewers.'
+  type: HowTo
+- questions:
+  - answer: Yes, but you must supply the password when creating the `Metadata` object.
+    question: Can I update metadata on password‑protected PDFs?
+  - answer: Absolutely. You can read and write custom XMP fields through the same
+      API.
+    question: Does GroupDocs.Metadata support custom XMP properties?
+  - answer: The library can report the version; changing it requires saving the document
+      with a different version profile, which is supported via additional save options.
+    question: Is it possible to change the PDF version itself?
+  - answer: The getters will return `null`. You can safely call the setters to create
+      new metadata entries.
+    question: What happens if the PDF has no existing metadata?
+  - answer: A commercial license is required for production deployments; the trial
+      is limited to evaluation purposes.
+    question: Are there any licensing restrictions for commercial use?
+  type: FAQPage
+tags:
+- detect pdf version
+- update pdf metadata
+- groupdocs.metadata
+- java pdf processing
+title: اكتشاف إصدار PDF باستخدام Java وتحديث بيانات التعريف
 type: docs
 url: /ar/java/document-formats/manage-pdf-metadata-groupdocs-java/
 weight: 1
 ---
 
- didn't miss any markdown links: there is one link to releases page; preserved.
+# اكتشاف إصدار PDF في Java وتحديث بيانات تعريف PDF
 
-Now produce final answer.# تحديث بيانات تعريف PDF في Java باستخدام GroupDocs.Metadata
-
-إدارة ملفات PDF برمجياً غالباً ما تعني أنك تحتاج إلى **تحديث بيانات تعريف PDF** — المؤلف، العنوان، تاريخ الإنشاء، أو حتى نسخة PDF نفسها. يمكن أن تتسبب بيانات التعريف غير المتسقة في حدوث مشكلات في العرض أو تجعل من الصعب العثور على المستندات في مستودع كبير. هذا الدليل يشرح لك كيفية اكتشاف نسخة PDF وتحديث بيانات تعريف PDF باستخدام **GroupDocs.Metadata** للـ Java، مما يمنحك طريقة موثوقة للحفاظ على ملفات PDF منظمة ومتوافقة.
+إدارة ملفات PDF برمجياً غالباً ما تعني أنك بحاجة إلى **detect PDF version java** و **update PDF metadata** — المؤلف، العنوان، تاريخ الإنشاء، أو حتى إصدار PDF نفسه. يمكن أن تتسبب البيانات الوصفية غير المتناسقة في حدوث مشكلات في العرض أو تجعل من الصعب العثور على المستندات في مستودع كبير. يشرح هذا الدليل كيفية اكتشاف إصدار PDF وتحديث بيانات تعريف PDF باستخدام **GroupDocs.Metadata** للـ Java، مما يمنحك طريقة موثوقة للحفاظ على ملفات PDF منظمة، قابلة للبحث، ومتوافقة مع أي عارض.
 
 ## إجابات سريعة
-- **ماذا يعني “تحديث بيانات تعريف PDF”?** إضافة، تعديل، أو إزالة المعلومات المخزنة داخل ملف PDF.  
-- **ما المكتبة التي تساعد في ذلك في Java؟** GroupDocs.Metadata.  
-- **هل يمكنني أيضًا اكتشاف نسخة PDF؟** نعم، نفس الـ API يوفر اكتشاف النسخة.  
-- **هل أحتاج إلى ترخيص؟** الإصدار التجريبي المجاني يعمل للتقييم؛ الترخيص المدفوع مطلوب للإنتاج.  
-- **ما نسخة Java المطلوبة؟** JDK 8 أو أحدث.
+- **ماذا يعني “update PDF metadata”？** إضافة أو تعديل أو إزالة المعلومات المخزنة داخل ملف PDF.  
+- **أي مكتبة تساعد في ذلك في Java？** GroupDocs.Metadata.  
+- **هل يمكنني أيضًا اكتشاف إصدار PDF？** نعم، توفر نفس الـ API اكتشاف الإصدار.  
+- **هل أحتاج إلى ترخيص？** الإصدار التجريبي المجاني يعمل للتقييم؛ الترخيص المدفوع مطلوب للإنتاج.  
+- **ما هو إصدار Java المطلوب？** JDK 8 أو أحدث.
 
 ## ما هو تحديث بيانات تعريف PDF؟
 
-يشير تحديث بيانات تعريف PDF إلى قراءة وكتابة المعلومات الوصفية المدمجة في ملف PDF برمجياً — مثل المؤلف، العنوان، الموضوع، والخصائص المخصصة. تحسين البيانات الوصفية يعزز قابلية البحث، الامتثال، وإدارة الإصدارات في أنظمة إدارة المستندات.
+يعني تحديث بيانات تعريف PDF قراءة وكتابة المعلومات الوصفية المدمجة في ملف PDF برمجياً — مثل المؤلف، العنوان، الموضوع، والخصائص المخصصة. تحسين البيانات الوصفية يعزز قابلية البحث، والامتثال، والتحكم في الإصدارات في أنظمة إدارة المستندات. كما أن البيانات الوصفية الدقيقة تمكّن من الفهرسة الآلية، وإعداد تقارير الامتثال، وتتبع الإصدارات عبر أنظمة إدارة المستندات.
 
-## لماذا نكتشف نسخة PDF في Java؟
+## لماذا اكتشاف إصدار PDF في Java؟
 
-معرفة نسخة PDF (مثلاً 1.4، 1.7) تساعدك على التأكد من أن الملف سيُعرض بشكل صحيح في المشاهد المستهدف أو أنه يلبي متطلبات خطوط المعالجة اللاحقة. اكتشاف النسخة يكون مفيدًا بشكل خاص عندما تحتاج إلى فرض قواعد التوافق قبل أرشفة أو نشر المستندات.
+يسمح اكتشاف إصدار PDF بالتحقق من أن الملف سيُعرض بشكل صحيح على العارض المستهدف وأنه يلبي متطلبات المعالجة اللاحقة. معرفة ما إذا كان PDF إصدار 1.4 أو 1.7 أو أحدث يساعدك على فرض قواعد التوافق قبل أرشفة أو نشر أو تحويل المستند.
 
 ## المتطلبات المسبقة
 
@@ -42,6 +113,7 @@ Now produce final answer.# تحديث بيانات تعريف PDF في Java با
 ## إعداد GroupDocs.Metadata للـ Java
 
 ### إعداد Maven
+
 أضف المستودع والاعتماد إلى ملف `pom.xml` الخاص بك:
 
 ```xml
@@ -63,16 +135,20 @@ Now produce final answer.# تحديث بيانات تعريف PDF في Java با
 ```
 
 ### التحميل المباشر
-بدلاً من ذلك، قم بتنزيل أحدث JAR من صفحة الإصدار الرسمية: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+
+بدلاً من ذلك، قم بتنزيل أحدث ملف JAR من صفحة الإصدار الرسمية: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 #### خطوات الحصول على الترخيص
-- **Free Trial** – ابدأ التجربة دون تكلفة.  
-- **Temporary License** – مدد التجربة إذا لزم الأمر.  
-- **Purchase** – احصل على ترخيص كامل المميزات للاستخدام في الإنتاج.
+
+- **Free trial** – ابدأ التجربة دون تكلفة.  
+- **Temporary license** – مدد الفترة التجريبية إذا لزم الأمر.  
+- **Purchase** – احصل على ترخيص كامل المميزات للاستخدام الإنتاجي.
 
 ## التهيئة الأساسية والإعداد
 
-أنشئ كائن `Metadata` يشير إلى ملف PDF الخاص بك:
+فئة `Metadata` هي نقطة الدخول للعمل مع ملفات PDF في GroupDocs.Metadata. تمثل حاوية تمنحك صلاحية القراءة/الكتابة لخصائص المستند، معلومات الإصدار، وبيانات XMP المخصصة.
+
+أنشئ مثيلاً من `Metadata` يشير إلى ملف PDF الخاص بك:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -87,23 +163,29 @@ public class PdfMetadataExample {
 }
 ```
 
-الآن أنت جاهز لقراءة الخصائص، اكتشاف النسخة، وتحديث البيانات الوصفية.
+الآن أنت جاهز لقراءة الخصائص، اكتشاف الإصدار، وتحديث البيانات الوصفية.
 
-## اكتشاف نسخة PDF وقراءة خصائص PDF في Java
+## كيفية اكتشاف إصدار PDF في Java
 
-### الخطوة 1: فتح ملف PDF باستخدام كائن `Metadata`
+حمّل ملف PDF باستخدام `new Metadata("sample.pdf")` واستدعِ `getRootPackage().getVersion()` — تُعيد الطريقة إصدار PDF الدقيق (مثلاً 1.4، 1.7) في استدعاء واحد. يتيح لك هذا الجواب المباشر التحقق سريعاً من التوافق قبل أي معالجة إضافية. تعكس سلسلة الإصدار مستوى مواصفات PDF التي يلتزم بها الملف، وهو أمر حاسم لفحوصات التوافق.  
+`getVersion()` تُعيد إصدار PDF كسلسلة نصية، مثل "1.4" أو "1.7".
+
+### دليل خطوة بخطوة
+
+1. **Open the PDF** – أنشئ كائن `Metadata` (انظر التهيئة أعلاه).  
+2. **Access the PDF‑specific root package** – استدعِ `metadata.getRootPackage()`.  
+3. **Retrieve the version** – نفّذ `pdfRoot.getVersion()`؛ السلسلة المعادة تحتوي على رقم الإصدار.
+
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.pdf")) {
     // Access PDF‑specific properties here
 }
 ```
 
-### الخطوة 2: الحصول على الحزمة الجذرية لتفاصيل PDF المحددة
 ```java
 PdfRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### الخطوة 3: استخراج معلومات النسخة والتنسيق
 ```java
 String fileFormat = root.getPdfType().getFileFormat();
 String version = root.getPdfType().getVersion();
@@ -120,18 +202,30 @@ System.out.println("Extension: " + extension);
 
 #### استكشاف الأخطاء وإصلاحها
 - تحقق من مسار الملف؛ مسار غير صحيح يسبب استثناء `FileNotFoundException`.  
-- تأكد من أن نسخة GroupDocs.Metadata تتطابق مع JDK الخاص بك (المثال يستخدم 24.12).
+- تأكد من أن إصدار GroupDocs.Metadata يتطابق مع JDK الخاص بك (المثال يستخدم 24.12).
 
-## تحديث بيانات تعريف PDF في Java
+## كيفية قراءة خصائص PDF في Java
 
-### الخطوة 1: فتح ملف PDF (نفس الخطوة السابقة)
+`DocumentInfo` يوفّر الوصول إلى حقول البيانات الوصفية القياسية للـ PDF دون تحميل المستند بالكامل. فئة `DocumentInfo` تتيح الوصول إلى خصائص PDF القياسية مثل المؤلف، العنوان، وتاريخ الإنشاء. إنها غلاف خفيف الوزن يقرأ البيانات الوصفية دون تحميل المستند بأكمله في الذاكرة.
+
+أنشئ مثيلاً من `DocumentInfo` من كائن `Metadata` المفتوح:
+
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.pdf")) {
     // Modify or read metadata here
 }
 ```
 
-### الخطوة 2: الوصول إلى حزمة document‑info وتغيير الحقول
+يمكنك بعد ذلك استدعاء الدوال getter مثل `getAuthor()`, `getTitle()`, و `getCreationDate()` لاسترجاع القيم.
+
+## كيفية تحديث بيانات تعريف PDF في Java
+
+حمّل ملف PDF (نفس الطريقة أعلاه)، احصل على حزمة `DocumentInfo`، عدّل الحقول المطلوبة، واحفظ التغييرات. العملية تستبدل كتلة البيانات الوصفية الموجودة مع الحفاظ على باقي المستند. بعد تعديل الحقول، استدعاء `save()` يكتب التغييرات إلى الملف مع الحفاظ على تدفقات المحتوى.
+
+فئة `DocumentInfo` هي كائن GroupDocs.Metadata لتعديل خصائص مستوى PDF مثل المؤلف، العنوان، الموضوع، والحقول XMP المخصصة.
+
+Update the metadata fields:
+
 ```java
 PdfRootPackage root = metadata.getRootPackageGeneric();
 
@@ -143,45 +237,48 @@ System.out.println("Author: " + author);
 // e.g., root.getPdfDocumentInfo().setAuthor("New Author");
 ```
 
-**ملاحظة:** استدعاءات الـ setter الفعلية بسيطة؛ تتبع نفس نمط الـ getter المعروض.
+**ملاحظة:** استدعاءات الـ setter تتبع نفس نمط الـ getter المعروضة سابقاً، مما يجعل الـ API بديهية ومتسقة.
 
 #### الأخطاء الشائعة
-- محاولة تعديل البيانات الوصفية على PDF لا يحتوي على الخاصية المستهدفة ينتج عنها قيمة `null` — تحقق دائمًا من `null` قبل التعيين.  
-- ملفات PDF الكبيرة قد تحتاج إلى زيادة مساحة الذاكرة heap في JVM؛ راقب استهلاك الذاكرة أثناء التحديثات الدفعية.
+- محاولة تعديل البيانات الوصفية على PDF لا يحتوي على الخاصية المستهدفة تُعيد `null` — تحقق دائماً من `null` قبل تعيين قيمة جديدة.  
+- قد تتطلب ملفات PDF الكبيرة زيادة حجم الـ JVM heap؛ راقب استهلاك الذاكرة أثناء التحديثات الدفعية.
 
 ## حالات الاستخدام العملية
-
-1. **Compliance Audits** – تحقق من أن جميع ملفات PDF تفي بالحد الأدنى للنسخة (مثلاً 1.7) قبل التقديم القانوني.  
-2. **Automated Archiving** – ضع وسومًا على ملفات PDF تشمل المؤلف، القسم، وتاريخ الإنشاء لتسهيل الاسترجاع.  
-3. **Document Management Integration** – أغنِ ملفات PDF بخصائص مخصصة يمكن لمنصات DMS فهرستها.  
-4. **Report Generation** – أدخل معلومات النسخة في التقارير التي تُنشأ تلقائيًا.  
-5. **Cross‑Platform Testing** – اكتشف عدم تطابق النسخ التي قد تسبب مشاكل عرض على المشاهدات القديمة.  
+1. **Compliance audits** – تحقق من أن جميع ملفات PDF تفي بالحد الأدنى للإصدار (مثلاً 1.7) قبل الإيداع القانوني.  
+2. **Automated archiving** – ضع وسماً على ملفات PDF بالمؤلف، القسم، وتاريخ الإنشاء لتسهيل الاسترجاع.  
+3. **Document management integration** – أغنِ ملفات PDF بخصائص مخصصة يمكن لمنصات DMS فهرستها.  
+4. **Report generation** – أدخل معلومات الإصدار في التقارير التي تُنشأ تلقائياً.  
+5. **Cross‑platform testing** – اكتشف عدم تطابق الإصدارات التي قد تسبب مشكلات عرض على العارضات القديمة.
 
 ## نصائح الأداء
-
-- **Use try‑with‑resources** (كما هو موضح) لإغلاق كائنات `Metadata` تلقائيًا.  
-- **Batch Process** عدة ملفات في حلقة لتقليل الحمل.  
-- **Monitor Heap** للملفات الكبيرة جدًا؛ فكر في معالجتها على أجزاء إذا وصلت إلى حدود الذاكرة.  
+- **Use try‑with‑resources** (كما هو موضح) لإغلاق كائنات `Metadata` تلقائياً.  
+- **Batch process** عدة ملفات في حلقة لتقليل الحمل الزائد.  
+- **Monitor heap** للـ PDFs الكبيرة جداً؛ فكر في معالجتها على دفعات إذا وصلت إلى حدود الذاكرة.  
+- **GroupDocs.Metadata supports 50+ input and output formats** ويمكنه قراءة البيانات الوصفية من ملفات PDF ذات مئات الصفحات دون تحميل الملف بالكامل في الذاكرة، مما يوفر أداءً سريعاً على عتاد الخادم القياسي.
 
 ## الأسئلة المتكررة
-
 **س: هل يمكنني تحديث البيانات الوصفية على ملفات PDF محمية بكلمة مرور؟**  
-ج: نعم، ولكن يجب توفير كلمة المرور عند إنشاء كائن `Metadata`.
+ج: نعم، لكن يجب توفير كلمة المرور عند إنشاء كائن `Metadata`.
 
 **س: هل يدعم GroupDocs.Metadata خصائص XMP مخصصة؟**  
 ج: بالتأكيد. يمكنك قراءة وكتابة حقول XMP مخصصة عبر نفس الـ API.
 
-**س: هل يمكن تغيير نسخة PDF نفسها؟**  
-ج: يمكن للمكتبة الإبلاغ عن النسخة؛ تغييرها يتطلب حفظ المستند بملف تعريف نسخة مختلف، وهو مدعوم عبر خيارات حفظ إضافية.
+**س: هل يمكن تغيير إصدار PDF نفسه؟**  
+ج: يمكن للمكتبة الإبلاغ عن الإصدار؛ تغيير الإصدار يتطلب حفظ المستند بملف تعريف إصدار مختلف، وهو مدعوم عبر خيارات حفظ إضافية.
 
-**س: ماذا يحدث إذا كان PDF لا يحتوي على بيانات تعريف موجودة؟**  
-ج: ستُعيد الـ getters قيمة `null`. يمكنك استدعاء الـ setters بأمان لإنشاء إدخالات بيانات تعريف جديدة.
+**س: ماذا يحدث إذا لم يحتوي PDF على بيانات وصفية موجودة؟**  
+ج: ستُعيد الدوال getter قيمة `null`. يمكنك بأمان استدعاء الـ setters لإنشاء إدخالات بيانات وصفية جديدة.
 
 **س: هل هناك أي قيود ترخيص للاستخدام التجاري؟**  
-ج: يلزم الحصول على ترخيص تجاري للنشر في بيئات الإنتاج؛ النسخة التجريبية محدودة لأغراض التقييم.
+ج: يلزم الحصول على ترخيص تجاري للنشر في بيئات الإنتاج؛ الإصدار التجريبي محدود لأغراض التقييم.
 
 ---
 
-**آخر تحديث:** 2026-02-14  
-**تم الاختبار مع:** GroupDocs.Metadata 24.12 للـ Java  
+**آخر تحديث:** 2026-08-05  
+**تم الاختبار باستخدام:** GroupDocs.Metadata 24.12 for Java  
 **المؤلف:** GroupDocs
+
+## دروس ذات صلة
+- [تحديث بيانات تعريف PDF بفعالية باستخدام GroupDocs.Metadata في Java لإدارة المستندات](/metadata/java/document-formats/update-pdf-metadata-groupdocs-metadata-java/)
+- [إتقان إدارة البيانات الوصفية: اكتشاف خصائص المستند وحالة التشفير باستخدام GroupDocs.Metadata للـ Java](/metadata/java/working-with-metadata/master-metadata-management-groupdocs-java/)
+- [إنشاء معاينة المستند في Java – دروس GroupDocs.Metadata](/metadata/java/document-formats/)

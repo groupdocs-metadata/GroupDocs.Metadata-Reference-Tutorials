@@ -1,44 +1,104 @@
 ---
-date: '2026-02-14'
-description: เรียนรู้วิธีลบความคิดเห็นในสเปรดชีตด้วย Java, ลบลายเซ็นดิจิทัลใน Excel,
-  และซ่อนแผ่นงานโดยใช้ GroupDocs.Metadata สำหรับ Java.
+date: '2026-08-05'
+description: เรียนรู้วิธี remove spreadsheet comments java, erase digital signatures
+  excel, และ hide sheets ด้วย GroupDocs.Metadata for Java.
 keywords:
-- spreadsheet metadata management Java
-- remove comments GroupDocs Metadata
-- erase digital signatures spreadsheet
-title: 'ลบคอมเมนต์ในสเปรดชีตด้วย Java: การจัดการเมตาดาต้าสเปรดชีตขั้นสูงด้วย GroupDocs'
+- remove spreadsheet comments java
+- GroupDocs.Metadata Java
+- erase digital signatures excel
+- hide spreadsheet sheets Java
+- spreadsheet metadata management
+lastmod: '2026-08-05'
+og_description: remove spreadsheet comments java ด้วย GroupDocs.Metadata for Java.
+  เรียนรู้วิธี erase digital signatures, hide sheets, และ secure Excel workbooks อย่างมีประสิทธิภาพ.
+og_image_alt: Guide showing Java code removing comments and signatures from Excel
+  using GroupDocs.Metadata
+og_title: remove spreadsheet comments java – คู่มือการจัดการเมตาดาต้า spreadsheet
+schemas:
+- author: GroupDocs
+  dateModified: '2026-08-05'
+  description: Learn how to remove spreadsheet comments java, erase digital signatures
+    excel, and hide sheets using GroupDocs.Metadata for Java.
+  headline: 'remove spreadsheet comments java: master spreadsheet metadata management
+    with GroupDocs'
+  type: TechArticle
+- description: Learn how to remove spreadsheet comments java, erase digital signatures
+    excel, and hide sheets using GroupDocs.Metadata for Java.
+  name: 'remove spreadsheet comments java: master spreadsheet metadata management
+    with GroupDocs'
+  steps:
+  - name: '**Data presentation:** Clean up a workbook before embedding it in a PowerPoint
+      deck – remove comments to avoid accidental disclosures.'
+    text: '**Data presentation:** Clean up a workbook before embedding it in a PowerPoint
+      deck – remove comments to avoid accidental disclosures.'
+  - name: '**Security compliance:** Strip signatures from a draft contract before
+      sending it to a legal review team.'
+    text: '**Security compliance:** Strip signatures from a draft contract before
+      sending it to a legal review team.'
+  - name: '**Confidential data management:** Hide sheets containing PII or financial
+      forecasts when sharing a file with a broader audience.'
+    text: '**Confidential data management:** Hide sheets containing PII or financial
+      forecasts when sharing a file with a broader audience.'
+  type: HowTo
+- questions:
+  - answer: It provides low‑level access to metadata, comments, signatures, and hidden
+      elements across many document formats without opening them in native applications.
+    question: What is the primary purpose of GroupDocs.Metadata?
+  - answer: The current `clearComments()` method removes every comment. For selective
+      removal, enumerate comment objects via the inspection package and delete the
+      ones you target.
+    question: Can I remove only specific comments instead of all?
+  - answer: Yes. Use the corresponding `unhideSheet()` method or simply set the hidden
+      flag back to `false` for the desired worksheets.
+    question: Is it possible to revert the hidden‑sheet operation?
+  - answer: Absolutely. GroupDocs.Metadata works with both `.xls` and `.xlsx` files,
+      as well as OpenDocument spreadsheets.
+    question: Does the library support older Excel formats like `.xls`?
+  - answer: Removing a signature may affect the document’s legal standing. Always
+      ensure you have proper authority and comply with relevant regulations before
+      stripping signatures.
+    question: Are there legal considerations when erasing digital signatures?
+  type: FAQPage
+tags:
+- remove comments
+- GroupDocs.Metadata
+- Java spreadsheet processing
+- Excel metadata
+- document security
+title: 'remove spreadsheet comments java: เชี่ยวชาญการจัดการเมตาดาต้า spreadsheet
+  ด้วย GroupDocs'
 type: docs
 url: /th/java/document-formats/master-spreadsheet-metadata-groupdocs-remove-comments-signatures/
 weight: 1
 ---
 
-# remove spreadsheet comments java: การจัดการเมตาดาต้า Spreadsheet ระดับสูงด้วย GroupDocs
+# ลบความคิดเห็นในสเปรดชีตด้วย Java: การจัดการเมตาดาต้าสเปรดชีตขั้นสูงด้วย GroupDocs
 
-การจัดการเมตาดาต้า spreadsheet เป็นความท้าทายประจำวันสำหรับผู้ที่ทำงานกับไฟล์ Excel ที่มีข้อมูลจำนวนมาก ในบทแนะนำนี้คุณจะได้ค้นพบ **how to remove spreadsheet comments java**, ลบลายเซ็นดิจิทัล, และซ่อนชีทอย่างรวดเร็วด้วย GroupDocs.Metadata for Java. เมื่อจบคู่มือคุณจะมีเวิร์กบุ๊กที่สะอาดและปลอดภัยพร้อมสำหรับการแจกจ่าย
+การจัดการเมตาดาต้าสเปรดชีตเป็นความท้าทายประจำวันสำหรับผู้ที่ทำงานกับไฟล์ Excel ที่มีข้อมูลจำนวนมาก ในบทแนะนำนี้คุณจะได้เรียนรู้ **วิธีลบความคิดเห็นในสเปรดชีตด้วย Java**, ลบลายเซ็นดิจิทัล, และซ่อนแผ่นงานอย่างรวดเร็วด้วย GroupDocs.Metadata สำหรับ Java เมื่อจบคู่มือคุณจะมีเวิร์กบุ๊กที่สะอาดและปลอดภัยพร้อมสำหรับการแจกจ่าย และคุณจะเข้าใจว่าทำไมวิธีนี้จึงสามารถขยายได้ถึงหลายพันไฟล์
 
-## คำตอบเร็ว
-- **“remove spreadsheet comments java” ทำอะไร?** มันลบอ็อบเจ็กต์คอมเมนต์ทั้งหมดจากเวิร์กบุ๊ก Excel, ทำให้โน้ตที่ซ่อนอยู่หายไป.  
-- **Can I also erase digital signatures?** ใช่ – ไลบรารีมีเมธอดสำหรับลบลายเซ็นทั้งหมดในหนึ่งคำสั่ง.  
-- **Is hiding sheets reversible?** แน่นอน; คุณสามารถแสดงชีทที่ซ่อนได้ในภายหลังโดยใช้ API เดียวกัน.  
-- **Do I need a license?** การทดลองใช้ฟรีทำงานสำหรับการทดสอบ; จำเป็นต้องมีลิขสิทธิ์เต็มสำหรับการใช้งานจริง.  
-- **Which Java version is supported?** Java 8 หรือสูงกว่า.
+## คำตอบด่วน
+- **“remove spreadsheet comments java” ทำอะไร?** มันจะลบวัตถุความคิดเห็นทั้งหมดจากเวิร์กบุ๊ก Excel, ทำให้โน้ตที่ซ่อนหายไป  
+- **ฉันสามารถลบลายเซ็นดิจิทัลได้หรือไม่?** ใช่ – ไลบรารีมีเมธอดที่ลบลายเซ็นทั้งหมดในหนึ่งครั้ง  
+- **การซ่อนแผ่นงานสามารถย้อนกลับได้หรือไม่?** แน่นอน; คุณสามารถยกเลิกการซ่อนได้ในภายหลังโดยใช้ API เดียวกัน  
+- **ฉันต้องการไลเซนส์หรือไม่?** การทดลองใช้ฟรีทำงานสำหรับการทดสอบ; จำเป็นต้องมีไลเซนส์เต็มสำหรับการใช้งานจริง  
+- **เวอร์ชัน Java ที่รองรับคืออะไร?** Java 8 หรือสูงกว่า  
 
-### “remove spreadsheet comments java” คืออะไร?
-การลบคอมเมนต์จากสเปรดชีตจะทำให้ข้อมูลเช่นโน้ตของผู้เขียน, กระทู้สนทนา, หรือเมตาดาต้าที่อาจเปิดเผยข้อมูลภายในหายไป. สิ่งนี้มีประโยชน์อย่างยิ่งเมื่อแชร์ร่างกับพันธมิตรภายนอกหรือเมื่อเตรียมข้อมูลสำหรับการเผยแพร่สาธารณะ.
+## “remove spreadsheet comments java” คืออะไร?
+`remove spreadsheet comments java` เป็นการดำเนินการเชิงโปรแกรมที่ลบทุกองค์ประกอบความคิดเห็นที่เก็บอยู่ในเวิร์กบุ๊ก Excel. มันลบโน้ตของผู้เขียน, ความคิดเห็นการตรวจสอบ, และเมตาดาต้าที่ซ่อนอยู่ซึ่งอาจเปิดเผยการสนทนาภายใน. โดยการลบวัตถุความคิดเห็นเหล่านี้คุณจะทำให้ไฟล์ที่แชร์มีเฉพาะข้อมูลที่ตั้งใจไว้โดยไม่มีการเปิดเผยโดยบังเอิญ
 
-### ทำไมต้องใช้ GroupDocs.Metadata for Java?
-GroupDocs.Metadata ให้คุณเข้าถึงส่วนที่ซ่อนของไฟล์ Office ผ่านโปรแกรมโดยไม่ต้องเปิดใน Excel. มันเร็ว, ใช้หน่วยความจำอย่างมีประสิทธิภาพ, และทำงานกับรูปแบบสเปรดชีตหลักทั้งหมด (XLS, XLSX, ODS). ไลบรารียังรวมยูทิลิตี้สำหรับลบลายเซ็นดิจิทัลและจัดการการมองเห็นของชีท, ทำให้เป็นโซลูชันครบวงจรสำหรับการทำความสะอาดเอกสาร.
+## ทำไมต้องใช้ GroupDocs.Metadata สำหรับ Java?
+GroupDocs.Metadata ให้คุณเข้าถึงส่วนที่ซ่อนของไฟล์ Office ระดับต่ำโดยไม่ต้องเปิด Excel. ไลบรารีรองรับ **50+ รูปแบบการนำเข้าและส่งออก**—รวมถึง XLS, XLSX, ODS, CSV, และ PDF—ในขณะประมวลผลเวิร์กบุ๊กหลายร้อยหน้าโดยใช้หน่วยความจำ heap ต่ำกว่า 100 MB. API ของมันรวมฟังก์ชันการลบความคิดเห็น, การลบลายเซ็น, และการควบคุมการมองเห็นแผ่นงาน, ทำให้เป็นโซลูชันครบวงจรสำหรับการดูแลเอกสาร
 
 ## ข้อกำหนดเบื้องต้น
 - **Java Development Kit (JDK):** เวอร์ชัน 8 หรือใหม่กว่า.  
-- **IDE:** IntelliJ IDEA, Eclipse, หรือ editor ที่รองรับ Java ใด ๆ.  
+- **IDE:** IntelliJ IDEA, Eclipse หรือเครื่องมือแก้ไขที่รองรับ Java ใด ๆ  
 - **GroupDocs.Metadata for Java:** เพิ่มเข้าไปใน dependencies ของโปรเจคของคุณ (ดูขั้นตอนการติดตั้งด้านล่าง).  
 
-## การตั้งค่า GroupDocs.Metadata for Java
-เพิ่มไลบรารีลงในโปรเจคของคุณเพื่อเริ่มจัดการเมตาดาต้า spreadsheet.
+## การตั้งค่า GroupDocs.Metadata สำหรับ Java
+เพิ่มไลบรารีลงในโปรเจคของคุณเพื่อเริ่มจัดการเมตาดาต้าสเปรดชีต
 
 ### Maven
-Add the repository and dependency to your `pom.xml` file:
+เพิ่ม repository และ dependency ลงในไฟล์ `pom.xml` ของคุณ:
 
 ```xml
 <repositories>
@@ -59,20 +119,19 @@ Add the repository and dependency to your `pom.xml` file:
 ```
 
 ### ดาวน์โหลดโดยตรง
-Alternatively, download the latest version of GroupDocs.Metadata for Java from their [release page](https://releases.groupdocs.com/metadata/java/).
+หรือคุณสามารถดาวน์โหลดเวอร์ชันล่าสุดของ GroupDocs.Metadata สำหรับ Java จาก [release page](https://releases.groupdocs.com/metadata/java/).
 
-**การรับลิขสิทธิ์**
+**การรับไลเซนส์**
 - รับการทดลองใช้ฟรีเพื่อทดสอบฟีเจอร์.  
-- พิจารณาลิขสิทธิ์ชั่วคราวสำหรับการเข้าถึงต่อเนื่อง.  
-- ซื้อลิขสิทธิ์เต็มสำหรับการใช้งานในสภาพแวดล้อมการผลิต.
+- พิจารณาไลเซนส์ชั่วคราวสำหรับการเข้าถึงระยะยาว.  
+- ซื้อไลเซนส์เต็มสำหรับการใช้งานในสภาพแวดล้อมการผลิต.
 
-เมื่อ JAR อยู่ใน classpath, คุณพร้อมที่จะเขียนโค้ด.
+เมื่อ JAR อยู่ใน classpath, คุณพร้อมที่จะเขียนโค้ดแล้ว
 
 ## คู่มือการใช้งาน
 
-### ขั้นตอนที่ 1: Remove Spreadsheet Comments (remove spreadsheet comments java)
-**ภาพรวม:**  
-โค้ดส่วนนี้ลบ **คอมเมนต์ทั้งหมด** จากเวิร์กบุ๊ก, ทำให้แน่ใจว่าไม่มีโน้ตที่ซ่อนอยู่เดินทางพร้อมไฟล์.
+### วิธีลบความคิดเห็นในสเปรดชีตด้วย GroupDocs.Metadata
+แรกเริ่ม, โหลดเวิร์กบุ๊กเป้าหมายด้วยคลาส `Metadata`, จากนั้นเรียกเมธอด `clearComments()` บนอินสแตนซ์ `SpreadsheetRootPackage` เพื่อทำการลบวัตถุความคิดเห็นทั้งหมด. หลังจากการดำเนินการเสร็จสิ้น, บันทึกไฟล์ที่แก้ไขไปยังตำแหน่งใหม่หรือเขียนทับไฟล์เดิม. รูปแบบสองขั้นตอนที่ง่ายนี้ทำงานกับทุกเวอร์ชันของ Excel ที่ GroupDocs.Metadata รองรับ
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -93,14 +152,8 @@ public class ClearComments {
 }
 ```
 
-**คำอธิบาย:**  
-- `Metadata` โหลดไฟล์และให้ wrapper ที่ปลอดภัย.  
-- `SpreadsheetRootPackage` ให้การเข้าถึงยูทิลิตี้การตรวจสอบ.  
-- `clearComments()` ลบอ็อบเจ็กต์คอมเมนต์ทั้งหมด, เหมาะสำหรับกรณีการใช้ *remove spreadsheet comments java*.
-
-### ขั้นตอนที่ 2: Erase Digital Signatures (erase digital signatures excel)
-**ภาพรวม:**  
-ลายเซ็นดิจิทัลยืนยันความถูกต้อง, แต่คุณอาจต้องลบออกก่อนส่งร่าง. โค้ดต่อไปนี้ลบลายเซ็น **ทั้งหมด**.
+### วิธีลบลายเซ็นดิจิทัลด้วย GroupDocs.Metadata
+ลายเซ็นดิจิทัลให้ความน่าเชื่อถือ, แต่บางกรณีคุณต้องลบมันก่อนแจกจ่ายฉบับร่าง. ใช้เมธอด `clearDigitalSignatures()` บน `SpreadsheetRootPackage` เพื่อวนผ่านส่วนลายเซ็นที่ฝังอยู่ทั้งหมดและลบในหนึ่งครั้ง. หลังการดำเนินการ, เวิร์กบุ๊กจะไม่มีการรับรองทางคริปโตใด ๆ อีกต่อไป, ทำให้ได้เวอร์ชันที่สะอาดสำหรับการตรวจสอบ
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -121,12 +174,8 @@ public class ClearDigitalSignatures {
 }
 ```
 
-**คำอธิบาย:**  
-- `clearDigitalSignatures()` ลบลายเซ็นทุกอัน, ช่วยให้คุณปฏิบัติตามข้อกำหนดเมื่อเอกสารต้องไม่มีลายเซ็น.
-
-### ขั้นตอนที่ 3: Hide Sheets Within a Spreadsheet (remove excel digital signatures)
-**ภาพรวม:**  
-บางครั้งคุณอาจต้องการซ่อนแท็บที่เป็นความลับขณะยังคงไฟล์ไว้ครบถ้วน. API สามารถซ่อน **ชีททั้งหมด**, หรือคุณสามารถปรับตรรกะสำหรับชีทที่เลือก.
+### วิธีซ่อนแผ่นงานภายในสเปรดชีตด้วย GroupDocs.Metadata
+ในบางกรณีคุณต้องซ่อนแผ่นงานที่มีข้อมูลสำคัญโดยไม่ลบข้อมูล. เรียกเมธอด `clearHiddenSheets()` บน `SpreadsheetRootPackage` เพื่อกำหนดค่าสถานะซ่อนสำหรับแต่ละแผ่นงาน, ทำให้ซ่อนจากการมองเห็น. คุณยังสามารถปรับเปลี่ยนตรรกะเพื่อกำหนดเป้าหมายแผ่นงานเฉพาะ, ให้การควบคุมการมองเห็นแบบเลือกได้ในขณะที่ยังคงรักษาเนื้อหาเดิม
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -147,53 +196,58 @@ public class ClearHiddenSheets {
 }
 ```
 
-**คำอธิบาย:**  
-- `clearHiddenSheets()` สลับสถานะ hidden ของแต่ละ worksheet, ทำให้มุมมองของผู้รับสะอาดขึ้น.
-
-## การประยุกต์ใช้งานจริง
+## การประยุกต์ใช้ในทางปฏิบัติ
 ต่อไปนี้เป็นสถานการณ์จริงที่วิธีเหล่านี้โดดเด่น:
 
-1. **Data Presentation:** ทำความสะอาดเวิร์กบุ๊กก่อนฝังลงในสไลด์ PowerPoint – ลบคอมเมนต์เพื่อหลีกเลี่ยงการเปิดเผยโดยบังเอิญ.  
-2. **Security Compliance:** ลบลายเซ็นจากสัญญาร่างก่อนส่งให้ทีมตรวจสอบกฎหมาย.  
-3. **Confidential Data Management:** ซ่อนชีทที่มีข้อมูล PPI หรือการคาดการณ์ทางการเงินเมื่อแชร์ไฟล์กับผู้ชมที่กว้างขึ้น.
+1. **Data presentation:** ทำความสะอาดเวิร์กบุ๊กก่อนฝังลงในสไลด์ PowerPoint – ลบความคิดเห็นเพื่อหลีกเลี่ยงการเปิดเผยโดยบังเอิญ.  
+2. **Security compliance:** ลบลายเซ็นจากสัญญาร่างก่อนส่งให้ทีมตรวจสอบทางกฎหมาย.  
+3. **Confidential data management:** ซ่อนแผ่นงานที่มีข้อมูลส่วนบุคคล (PII) หรือการคาดการณ์ทางการเงินเมื่อแชร์ไฟล์กับผู้ชมที่กว้างขึ้น.  
 
 ## พิจารณาด้านประสิทธิภาพ
-- **Memory Management:** ใช้ try‑with‑resources เสมอ (ตามที่แสดง) เพื่อปิด file handles อย่างรวดเร็ว.  
-- **Batch Processing:** วนลูปผ่านโฟลเดอร์ของไฟล์เพื่อใช้การดำเนินการเดียวกัน, ลดภาระต่อไฟล์.  
-- **Library Updates:** คงให้ GroupDocs.Metadata เป็นเวอร์ชันล่าสุด; ทุกการปล่อยอัปเดตมาพร้อมการปรับปรุงประสิทธิภาพและการสนับสนุนรูปแบบใหม่.
+- **Memory management:** ควรใช้ try‑with‑resources เสมอ (ตามตัวอย่าง) เพื่อปิดไฟล์แฮนด์เดิลอย่างรวดเร็ว.  
+- **Batch processing:** วนลูปผ่านโฟลเดอร์ของไฟล์เพื่อทำการดำเนินการเดียวกัน, ลดภาระต่อไฟล์.  
+- **Library updates:** ควรอัปเดต GroupDocs.Metadata ให้เป็นเวอร์ชันล่าสุด; ทุกการปล่อยเวอร์ชันใหม่มาพร้อมการปรับปรุงประสิทธิภาพและการสนับสนุนรูปแบบใหม่.  
 
 ## ปัญหาทั่วไปและวิธีแก้
 | ปัญหา | สาเหตุ | วิธีแก้ |
 |-------|-------|----------|
-| **ไม่มีการเปลี่ยนแปลงหลังรันโค้ด** | เส้นทางไฟล์ไม่ถูกต้องหรือใช้ไฟล์แบบอ่านอย่างเดียว | ตรวจสอบเส้นทางอินพุตและให้แน่ใจว่าไดเรกทอรีเอาต์พุตสามารถเขียนได้. |
+| **ไม่มีการเปลี่ยนแปลงหลังจากรันโค้ด** | เส้นทางไฟล์ไม่ถูกต้องหรือใช้ไฟล์แบบอ่านอย่างเดียว | ตรวจสอบเส้นทางไฟล์เข้าและให้แน่ใจว่าไดเรกทอรีผลลัพธ์สามารถเขียนได้. |
 | **OutOfMemoryError บนเวิร์กบุ๊กขนาดใหญ่** | โหลดไฟล์ขนาดใหญ่หลายไฟล์พร้อมกัน | ประมวลผลไฟล์ทีละไฟล์หรือเพิ่มขนาด heap ของ JVM (`-Xmx`). |
 | **การลบลายเซ็นล้มเหลว** | เอกสารถูกป้องกันด้วยรหัสผ่าน | เปิดไฟล์ด้วยรหัสผ่านที่เหมาะสมโดยใช้ `Metadata(String path, String password)`. |
 
 ## คำถามที่พบบ่อย
 
-**Q: จุดประสงค์หลักของ GroupDocs.Metadata คืออะไร?**  
-A: มันให้การเข้าถึงระดับล่างของเมตาดาต้า, คอมเมนต์, ลายเซ็น, และองค์ประกอบที่ซ่อนอยู่ในหลายรูปแบบเอกสารโดยไม่ต้องเปิดในแอปพลิเคชันดั้งเดิม.
+**ถาม: จุดประสงค์หลักของ GroupDocs.Metadata คืออะไร?**  
+ตอบ: มันให้การเข้าถึงระดับต่ำต่อเมตาดาต้า, ความคิดเห็น, ลายเซ็น, และส่วนที่ซ่อนอยู่ในหลายรูปแบบเอกสารโดยไม่ต้องเปิดในแอปพลิเคชันต้นแบบ
 
-**Q: ฉันสามารถลบคอมเมนต์เฉพาะบางส่วนแทนที่จะลบทั้งหมดได้หรือไม่?**  
-A: เมธอด `clearComments()` ปัจจุบันลบคอมเมนต์ทั้งหมด. หากต้องการลบแบบเลือก, คุณต้อง enumerate อ็อบเจ็กต์คอมเมนต์ผ่านแพคเกจ inspection และลบอ็อบเจ็กต์ที่ต้องการ.
+**ถาม: ฉันสามารถลบเฉพาะความคิดเห็นบางส่วนแทนที่จะลบทั้งหมดได้หรือไม่?**  
+ตอบ: เมธอด `clearComments()` ปัจจุบันลบความคิดเห็นทั้งหมด. หากต้องการลบแบบเลือก, ให้ enumerate วัตถุความคิดเห็นผ่านแพ็กเกจ inspection และลบที่คุณต้องการ
 
-**Q: สามารถย้อนกลับการซ่อนชีทได้หรือไม่?**  
-A: ได้. ใช้เมธอด `unhideSheet()` ที่สอดคล้องหรือเพียงตั้งค่า hidden flag กลับเป็น `false` สำหรับ worksheet ที่ต้องการ.
+**ถาม: สามารถย้อนกลับการซ่อนแผ่นงานได้หรือไม่?**  
+ตอบ: ได้. ใช้เมธอด `unhideSheet()` ที่สอดคล้องหรือเพียงตั้งค่าสถานะซ่อนเป็น `false` สำหรับแผ่นงานที่ต้องการ
 
-**Q: ไลบรารีสนับสนุนรูปแบบ Excel เก่าเช่น `.xls` หรือไม่?**  
-A: แน่นอน. GroupDocs.Metadata ทำงานกับไฟล์ `.xls` และ `.xlsx` รวมถึงสเปรดชีต OpenDocument.
+**ถาม: ไลบรารีสนับสนุนรูปแบบ Excel เก่าเช่น `.xls` หรือไม่?**  
+ตอบ: แน่นอน. GroupDocs.Metadata ทำงานกับไฟล์ `.xls` และ `.xlsx` รวมถึงสเปรดชีต OpenDocument
 
-**Q: มีข้อพิจารณาทางกฎหมายเมื่อทำการลบลายเซ็นดิจิทัลหรือไม่?**  
-A: การลบลายเซ็นอาจส่งผลต่อสถานะทางกฎหมายของเอกสาร. ควรตรวจสอบว่าคุณมีอำนาจที่เหมาะสมและปฏิบัติตามกฎระเบียบที่เกี่ยวข้องก่อนทำการลบลายเซ็น.
+**ถาม: มีข้อพิจารณาทางกฎหมายเมื่อทำการลบลายเซ็นดิจิทัลหรือไม่?**  
+ตอบ: การลบลายเซ็นอาจส่งผลต่อสถานะทางกฎหมายของเอกสาร. ควรตรวจสอบว่าคุณมีอำนาจที่เหมาะสมและปฏิบัติตามกฎระเบียบที่เกี่ยวข้องก่อนทำการลบลายเซ็น
 
-## แหล่งข้อมูล
+## แหล่งข้อมูลเพิ่มเติม
 - [เอกสาร GroupDocs Metadata](https://docs.groupdocs.com/metadata/java/)
 - [อ้างอิง API](https://reference.groupdocs.com/metadata/java/)
-- [ดาวน์โหลด GroupDocs.Metadata for Java](https://releases.groupdocs.com/metadata/java/)
+- [ดาวน์โหลด GroupDocs.Metadata สำหรับ Java](https://releases.groupdocs.com/metadata/java/)
 - [Repository บน GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - [ฟอรั่มสนับสนุนฟรี](https://forum.groupdocs.com/c/metadata/)
-- [สมัครลิขสิทธิ์ชั่วคราว](http://www.groupdocs.com/pricing)
+- [สมัครไลเซนส์ชั่วคราว](http://www.groupdocs.com/pricing)
 
-**อัปเดตล่าสุด:** 2026-02-14  
-**ทดสอบกับ:** GroupDocs.Metadata 24.12 for Java  
+---
+
+**อัปเดตล่าสุด:** 2026-08-05  
+**ทดสอบด้วย:** GroupDocs.Metadata 24.12 สำหรับ Java  
 **ผู้เขียน:** GroupDocs
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [อ่านเมตาดาต้า Excel & จัดการความคิดเห็นด้วย GroupDocs.Metadata (Java)](/metadata/java/document-formats/inspect-spreadsheet-comments-groupdocs-metadata-java/)
+- [ระบุรูปแบบสเปรดชีต Java ด้วย GroupDocs.Metadata](/metadata/java/document-formats/detect-spreadsheet-types-groupdocs-metadata-java/)
+- [สกัดเมตาดาต้าสเปรดชีต Java ด้วย GroupDocs.Metadata](/metadata/java/document-formats/extract-manage-spreadsheet-metadata-groupdocs-java/)

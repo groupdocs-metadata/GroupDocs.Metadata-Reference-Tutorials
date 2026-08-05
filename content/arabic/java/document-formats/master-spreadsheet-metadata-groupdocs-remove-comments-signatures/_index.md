@@ -1,38 +1,92 @@
 ---
-date: '2026-02-14'
-description: تعلم كيفية إزالة تعليقات جداول البيانات في جافا، ومحو التوقيعات الرقمية
-  في إكسل، وإخفاء الأوراق باستخدام GroupDocs.Metadata للغة جافا.
+date: '2026-08-05'
+description: تعلم كيفية إزالة تعليقات spreadsheet Java، مسح digital signatures Excel،
+  وإخفاء sheets باستخدام GroupDocs.Metadata لـ Java.
 keywords:
-- spreadsheet metadata management Java
-- remove comments GroupDocs Metadata
-- erase digital signatures spreadsheet
-title: 'إزالة تعليقات جداول البيانات في جافا: إتقان إدارة بيانات التعريف لجداول البيانات
-  باستخدام GroupDocs'
+- remove spreadsheet comments java
+- GroupDocs.Metadata Java
+- erase digital signatures excel
+- hide spreadsheet sheets Java
+- spreadsheet metadata management
+lastmod: '2026-08-05'
+og_description: إزالة تعليقات spreadsheet Java باستخدام GroupDocs.Metadata لـ Java.
+  تعلم مسح digital signatures، إخفاء sheets، وتأمين دفاتر عمل Excel بفعالية.
+og_image_alt: Guide showing Java code removing comments and signatures from Excel
+  using GroupDocs.Metadata
+og_title: إزالة تعليقات spreadsheet Java – دليل إتقان بيانات تعريف spreadsheet
+schemas:
+- author: GroupDocs
+  dateModified: '2026-08-05'
+  description: Learn how to remove spreadsheet comments java, erase digital signatures
+    excel, and hide sheets using GroupDocs.Metadata for Java.
+  headline: 'remove spreadsheet comments java: master spreadsheet metadata management
+    with GroupDocs'
+  type: TechArticle
+- description: Learn how to remove spreadsheet comments java, erase digital signatures
+    excel, and hide sheets using GroupDocs.Metadata for Java.
+  name: 'remove spreadsheet comments java: master spreadsheet metadata management
+    with GroupDocs'
+  steps:
+  - name: '**Data presentation:** Clean up a workbook before embedding it in a PowerPoint
+      deck – remove comments to avoid accidental disclosures.'
+    text: '**Data presentation:** Clean up a workbook before embedding it in a PowerPoint
+      deck – remove comments to avoid accidental disclosures.'
+  - name: '**Security compliance:** Strip signatures from a draft contract before
+      sending it to a legal review team.'
+    text: '**Security compliance:** Strip signatures from a draft contract before
+      sending it to a legal review team.'
+  - name: '**Confidential data management:** Hide sheets containing PII or financial
+      forecasts when sharing a file with a broader audience.'
+    text: '**Confidential data management:** Hide sheets containing PII or financial
+      forecasts when sharing a file with a broader audience.'
+  type: HowTo
+- questions:
+  - answer: It provides low‑level access to metadata, comments, signatures, and hidden
+      elements across many document formats without opening them in native applications.
+    question: What is the primary purpose of GroupDocs.Metadata?
+  - answer: The current `clearComments()` method removes every comment. For selective
+      removal, enumerate comment objects via the inspection package and delete the
+      ones you target.
+    question: Can I remove only specific comments instead of all?
+  - answer: Yes. Use the corresponding `unhideSheet()` method or simply set the hidden
+      flag back to `false` for the desired worksheets.
+    question: Is it possible to revert the hidden‑sheet operation?
+  - answer: Absolutely. GroupDocs.Metadata works with both `.xls` and `.xlsx` files,
+      as well as OpenDocument spreadsheets.
+    question: Does the library support older Excel formats like `.xls`?
+  - answer: Removing a signature may affect the document’s legal standing. Always
+      ensure you have proper authority and comply with relevant regulations before
+      stripping signatures.
+    question: Are there legal considerations when erasing digital signatures?
+  type: FAQPage
+tags:
+- remove comments
+- GroupDocs.Metadata
+- Java spreadsheet processing
+- Excel metadata
+- document security
+title: 'إزالة تعليقات spreadsheet Java: إتقان إدارة بيانات تعريف spreadsheet مع GroupDocs'
 type: docs
 url: /ar/java/document-formats/master-spreadsheet-metadata-groupdocs-remove-comments-signatures/
 weight: 1
 ---
 
-.
+# إزالة تعليقات جداول البيانات جافا: إدارة بيانات تعريف جداول البيانات المتقدمة مع GroupDocs
 
-Now produce final output with Arabic translation.
-
-# إزالة تعليقات جداول البيانات java: إتقان إدارة بيانات تعريف الجداول باستخدام GroupDocs
-
-إدارة بيانات تعريف جداول البيانات هي تحدٍ يومي لأي شخص يعمل مع ملفات Excel الغنية بالبيانات. في هذا البرنامج التعليمي ستكتشف **كيفية إزالة تعليقات جداول البيانات java**، ومسح التوقيعات الرقمية، وإخفاء الأوراق بسرعة باستخدام GroupDocs.Metadata for Java. في نهاية الدليل ستحصل على مصنف نظيف وآمن جاهز للتوزيع.
+إدارة بيانات تعريف جداول البيانات هي تحدٍ يومي لأي شخص يعمل مع ملفات Excel الغنية بالبيانات. في هذا الدرس ستكتشف **كيفية إزالة تعليقات جداول البيانات جافا**، مسح التوقيعات الرقمية، وإخفاء الأوراق بسرعة باستخدام GroupDocs.Metadata for Java. في نهاية الدليل ستحصل على مصنف نظيف وآمن جاهز للتوزيع، وستفهم لماذا يمكن لهذا النهج التعامل مع آلاف الملفات.
 
 ## إجابات سريعة
-- **ما الذي يفعله “remove spreadsheet comments java”?** يقوم بمسح جميع كائنات التعليقات من مصنف Excel، مما يزيل الملاحظات المخفية.  
-- **هل يمكنني أيضًا مسح التوقيعات الرقمية؟** نعم – توفر المكتبة طريقة لإزالة جميع التوقيعات في استدعاء واحد.  
+- **ماذا يفعل “remove spreadsheet comments java”?** يزيل جميع كائنات التعليق من مصنف Excel، مما يلغي الملاحظات المخفية.  
+- **هل يمكنني أيضًا مسح التوقيعات الرقمية؟** نعم – المكتبة توفر طريقة لإزالة جميع التوقيعات في استدعاء واحد.  
 - **هل إخفاء الأوراق قابل للعكس؟** بالتأكيد؛ يمكنك إظهارها لاحقًا باستخدام نفس الـ API.  
 - **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تعمل للاختبار؛ الترخيص الكامل مطلوب للإنتاج.  
 - **ما نسخة Java المدعومة؟** Java 8 أو أعلى.
 
-### ما هو “remove spreadsheet comments java”؟
-إزالة التعليقات من جدول البيانات تُزيل أي ملاحظات للكاتب، أو سلاسل مناقشة، أو بيانات تعريف قد تكشف عن معلومات داخلية. هذا مفيد بشكل خاص عند مشاركة المسودات مع شركاء خارجيين أو عند إعداد البيانات للنشر العام.
+## ما هو “remove spreadsheet comments java”؟
+`remove spreadsheet comments java` هو العملية البرمجية التي تحذف كل عنصر تعليق مخزن داخل مصنف Excel. يزيل ملاحظات المؤلف، تعليقات المراجعة، وأي بيانات تعريف مخفية قد تكشف عن مناقشات داخلية. من خلال مسح هذه كائنات التعليق تضمن أن الملفات المشتركة تحتوي فقط على البيانات المقصودة دون إفشاء غير مقصود.
 
-### لماذا تستخدم GroupDocs.Metadata for Java؟
-يوفر لك GroupDocs.Metadata وصولًا برمجيًا إلى الأجزاء المخفية من ملفات Office دون فتحها في Excel. إنه سريع، وكفء في الذاكرة، ويعمل عبر جميع صيغ جداول البيانات الرئيسية (XLS، XLSX، ODS). كما تُضمّن المكتبة أدوات لمسح التوقيعات الرقمية وإدارة رؤية الأوراق، مما يجعلها حلًا شاملاً لنظافة المستندات.
+## لماذا تستخدم GroupDocs.Metadata for Java؟
+GroupDocs.Metadata يمنحك وصولًا منخفض المستوى إلى الأجزاء المخفية من ملفات Office دون تشغيل Excel. تدعم المكتبة **أكثر من 50 تنسيقًا للإدخال والإخراج** — بما في ذلك XLS، XLSX، ODS، CSV، وPDF — أثناء معالجة مصنفات متعددة المئات من الصفحات باستخدام أقل من 100 ميغابايت من ذاكرة الـ heap. تجمع API الخاصة بها بين إزالة التعليقات، مسح التوقيعات، والتحكم في إظهار الأوراق، مما يجعلها حلًا شاملاً لنظافة المستندات.
 
 ## المتطلبات المسبقة
 - **Java Development Kit (JDK):** الإصدار 8 أو أحدث.  
@@ -63,20 +117,20 @@ Now produce final output with Arabic translation.
 </dependencies>
 ```
 
-### التحميل المباشر
-بدلاً من ذلك، قم بتنزيل أحدث نسخة من GroupDocs.Metadata for Java من [صفحة الإصدار](https://releases.groupdocs.com/metadata/java/).
+### تحميل مباشر
+بدلاً من ذلك، قم بتحميل أحدث نسخة من GroupDocs.Metadata for Java من [صفحة الإصدار](https://releases.groupdocs.com/metadata/java/).
 
-**الحصول على الترخيص**
+**اكتساب الترخيص**
 - احصل على نسخة تجريبية مجانية لاختبار الميزات.  
 - فكر في ترخيص مؤقت للوصول الموسع.  
-- اشترِ ترخيصًا كاملاً للنشر في بيئات الإنتاج.
+- اشترِ ترخيصًا كاملًا للنشر في بيئة الإنتاج.
 
-بمجرد وضع ملف JAR على مسار الفئة (classpath)، ستكون جاهزًا لكتابة الكود.
+بمجرد وضع ملف JAR على مسار الـ classpath، ستكون جاهزًا لكتابة الكود.
 
 ## دليل التنفيذ
 
-### الخطوة 1: إزالة تعليقات جداول البيانات (remove spreadsheet comments java)
-**نظرة عامة:** يزيل هذا المقتطف **جميع التعليقات** من المصنف، مما يضمن عدم انتقال أي ملاحظات مخفية مع الملف.
+### كيفية إزالة تعليقات جداول البيانات باستخدام GroupDocs.Metadata
+أولاً، حمّل المصنف المستهدف باستخدام فئة `Metadata`، ثم استدعِ طريقة `clearComments()` على كائن `SpreadsheetRootPackage` لحذف كل كائن تعليق. بعد إكمال العملية، احفظ الملف المعدل في موقع جديد أو استبدل الأصلي. هذا النمط البسيط المكوّن من خطوتين يعمل مع جميع إصدارات Excel المدعومة من قبل GroupDocs.Metadata.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -97,13 +151,8 @@ public class ClearComments {
 }
 ```
 
-**شرح:**  
-- `Metadata` يحمل الملف ويوفر غلافًا آمنًا.  
-- `SpreadsheetRootPackage` يمنح الوصول إلى أدوات الفحص.  
-- `clearComments()` يزيل كل كائن تعليق، وهو مثالي لحالة الاستخدام *remove spreadsheet comments java*.
-
-### الخطوة 2: مسح التوقيعات الرقمية (erase digital signatures excel)
-**نظرة عامة:** التوقيعات الرقمية تتحقق من الأصالة، لكن قد تحتاج إلى إزالتها قبل إرسال مسودة. الكود التالي يزيل **جميع** التوقيعات.
+### كيفية مسح التوقيعات الرقمية باستخدام GroupDocs.Metadata
+توفر التوقيعات الرقمية المصداقية، ولكن هناك سيناريوهات تحتاج فيها إلى إزالتها قبل توزيع مسودة. استخدم طريقة `clearDigitalSignatures()` على `SpreadsheetRootPackage` لتكرار جميع أجزاء التوقيع المدمجة وحذفها في استدعاء واحد. بعد التنفيذ، لا يحتوي المصنف بعد الآن على أي شهادات تشفيرية، مما يضمن نسخة نظيفة للمراجعة.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -124,11 +173,8 @@ public class ClearDigitalSignatures {
 }
 ```
 
-**شرح:**  
-- `clearDigitalSignatures()` يمسح كل توقيع، مما يساعدك على الالتزام عندما يجب أن يكون المستند غير موقع.
-
-### الخطوة 3: إخفاء الأوراق داخل جدول البيانات (remove excel digital signatures)
-**نظرة عامة:** أحيانًا تريد فقط إخفاء علامات تبويب حساسة مع الحفاظ على سلامة الملف. يمكن للـ API إخفاء **جميع** الأوراق، أو يمكنك تعديل المنطق للأوراق المختارة.
+### كيفية إخفاء الأوراق داخل جدول بيانات باستخدام GroupDocs.Metadata
+في بعض الحالات تحتاج إلى إخفاء أوراق العمل الحساسة دون إزالة بياناتها. استدعِ طريقة `clearHiddenSheets()` على `SpreadsheetRootPackage` لتعيين علامة الإخفاء لكل ورقة، مما يخفيها فعليًا عن العرض. يمكنك أيضًا تعديل المنطق لاستهداف أوراق عمل محددة، مما يسمح بالتحكم الانتقائي في الرؤية مع الحفاظ على المحتوى الأساسي.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -149,46 +195,43 @@ public class ClearHiddenSheets {
 }
 ```
 
-**شرح:**  
-- `clearHiddenSheets()` يبدل علامة الإخفاء على كل ورقة عمل، مما يزيل الفوضى عن عرض المستلمين.
-
-## التطبيقات العملية
-إليك سيناريوهات واقعية حيث تتألق هذه الأساليب:
+## تطبيقات عملية
+فيما يلي سيناريوهات واقعية حيث تتألق هذه الأساليب:
 
 1. **عرض البيانات:** نظّف المصنف قبل دمجه في عرض PowerPoint – أزل التعليقات لتجنب الإفصاح غير المقصود.  
-2. **الامتثال الأمني:** أزل التوقيعات من عقد مسودة قبل إرساله إلى فريق المراجعة القانونية.  
-3. **إدارة البيانات السرية:** إخفاء الأوراق التي تحتوي على معلومات شخصية (PII) أو توقعات مالية عند مشاركة الملف مع جمهور أوسع.
+2. **الامتثال الأمني:** أزل التوقيعات من مسودة عقد قبل إرسالها إلى فريق المراجعة القانونية.  
+3. **إدارة البيانات السرية:** إخفاء الأوراق التي تحتوي على معلومات شخصية أو توقعات مالية عند مشاركة الملف مع جمهور أوسع.  
 
 ## اعتبارات الأداء
-- **إدارة الذاكرة:** استخدم دائمًا try‑with‑resources (كما هو موضح) لإغلاق مقبض الملف بسرعة.  
-- **المعالجة الدفعية:** كرّر عبر مجلد من الملفات لتطبيق نفس العمليات، مما يقلل العبء على كل ملف.  
-- **تحديثات المكتبة:** حافظ على تحديث GroupDocs.Metadata؛ كل إصدار يجلب تحسينات في الأداء ودعم صيغ جديدة.
+- **إدارة الذاكرة:** استخدم دائمًا try‑with‑resources (كما هو موضح) لإغلاق مقابض الملفات بسرعة.  
+- **المعالجة الدفعية:** كرر عبر مجلد من الملفات لتطبيق نفس العمليات، مما يقلل العبء على كل ملف.  
+- **تحديثات المكتبة:** حافظ على تحديث GroupDocs.Metadata؛ كل إصدار يجلب تحسينات في الأداء ودعم صيغ جديدة.  
 
 ## المشكلات الشائعة والحلول
 | المشكلة | السبب | الحل |
 |-------|-------|----------|
-| **لا توجد تغييرات بعد تشغيل الكود** | مسار الملف غير صحيح أو استخدام ملف للقراءة فقط | تحقق من مسار الإدخال وتأكد من أن دليل الإخراج قابل للكتابة. |
-| **OutOfMemoryError في المصنفات الكبيرة** | تحميل العديد من الملفات الكبيرة في آن واحد | عالج الملفات واحدةً تلو الأخرى أو زد حجم الذاكرة المخصصة للـ JVM (`-Xmx`). |
+| **لا توجد تغييرات بعد تشغيل الكود** | مسار الملف غير صحيح أو يستخدم ملفًا للقراءة فقط | تحقق من مسار الإدخال وتأكد من أن دليل الإخراج قابل للكتابة. |
+| **OutOfMemoryError على مصنفات كبيرة** | تحميل العديد من الملفات الكبيرة في وقت واحد | معالجة الملفات واحدة تلو الأخرى أو زيادة حجم heap للـ JVM (`-Xmx`). |
 | **فشل إزالة التوقيع** | المستند محمي بكلمة مرور | افتح الملف باستخدام كلمة المرور المناسبة عبر `Metadata(String path, String password)`. |
 
 ## الأسئلة المتكررة
 
-**س: ما هو الهدف الأساسي من GroupDocs.Metadata؟**  
-ج: يوفر وصولًا منخفض المستوى إلى البيانات التعريفية، التعليقات، التوقيعات، والعناصر المخفية عبر العديد من صيغ المستندات دون فتحها في التطبيقات الأصلية.
+**س: ما هو الغرض الأساسي من GroupDocs.Metadata؟**  
+ج: يوفر وصولًا منخفض المستوى إلى البيانات الوصفية، التعليقات، التوقيعات، والعناصر المخفية عبر العديد من صيغ المستندات دون فتحها في التطبيقات الأصلية.
 
 **س: هل يمكنني إزالة تعليقات محددة فقط بدلاً من جميعها؟**  
-ج: الطريقة الحالية `clearComments()` تزيل كل تعليق. لإزالة انتقائية، ستحتاج إلى تعداد كائنات التعليق عبر حزمة الفحص وحذف تلك التي تستهدفها.
+ج: طريقة `clearComments()` الحالية تزيل كل تعليق. للإزالة الانتقائية، قم بإحصاء كائنات التعليق عبر حزمة الفحص واحذف تلك التي تستهدفها.
 
 **س: هل يمكن التراجع عن عملية إخفاء الورقة؟**  
-ج: نعم. استخدم الطريقة المقابلة `unhideSheet()` أو ببساطة عيّن علامة الإخفاء إلى `false` للأوراق المطلوبة.
+ج: نعم. استخدم طريقة `unhideSheet()` المقابلة أو ببساطة عيّن علامة الإخفاء إلى `false` للأوراق المطلوبة.
 
 **س: هل تدعم المكتبة صيغ Excel القديمة مثل `.xls`؟**  
-ج: بالتأكيد. يعمل GroupDocs.Metadata مع ملفات `.xls` و `.xlsx`، وكذلك جداول OpenDocument.
+ج: بالتأكيد. يعمل GroupDocs.Metadata مع ملفات `.xls` و`.xlsx`، وكذلك جداول بيانات OpenDocument.
 
 **س: هل هناك اعتبارات قانونية عند مسح التوقيعات الرقمية؟**  
-ج: قد يؤثر إزالة التوقيع على الوضع القانوني للمستند. تأكد دائمًا من أن لديك الصلاحية المناسبة والامتثال للأنظمة ذات الصلة قبل مسح التوقيعات.
+ج: قد يؤثر إزالة التوقيع على الوضع القانوني للمستند. تأكد دائمًا من أن لديك الصلاحية المناسبة والامتثال للأنظمة ذات الصلة قبل حذف التوقيعات.
 
-## الموارد
+## موارد إضافية
 - [توثيق GroupDocs Metadata](https://docs.groupdocs.com/metadata/java/)
 - [مرجع API](https://reference.groupdocs.com/metadata/java/)
 - [تحميل GroupDocs.Metadata for Java](https://releases.groupdocs.com/metadata/java/)
@@ -198,6 +241,12 @@ public class ClearHiddenSheets {
 
 ---
 
-**آخر تحديث:** 2026-02-14  
+**آخر تحديث:** 2026-08-05  
 **تم الاختبار مع:** GroupDocs.Metadata 24.12 for Java  
 **المؤلف:** GroupDocs
+
+## دروس ذات صلة
+
+- [قراءة بيانات تعريف Excel وإدارة التعليقات باستخدام GroupDocs.Metadata (Java)](/metadata/java/document-formats/inspect-spreadsheet-comments-groupdocs-metadata-java/)
+- [تحديد تنسيق جدول البيانات Java باستخدام GroupDocs.Metadata](/metadata/java/document-formats/detect-spreadsheet-types-groupdocs-metadata-java/)
+- [استخراج بيانات تعريف جدول البيانات Java مع GroupDocs.Metadata](/metadata/java/document-formats/extract-manage-spreadsheet-metadata-groupdocs-java/)

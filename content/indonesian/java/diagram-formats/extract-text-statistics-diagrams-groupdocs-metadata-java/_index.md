@@ -1,5 +1,5 @@
 ---
-date: '2026-01-13'
+date: '2026-03-20'
 description: Pelajari cara mendapatkan jumlah halaman diagram dan mengekstrak statistik
   teks dari diagram menggunakan GroupDocs.Metadata untuk Java. Pengaturan langkah
   demi langkah dan contoh kode disertakan.
@@ -16,21 +16,21 @@ weight: 1
 
 # Dapatkan Jumlah Halaman Diagram Menggunakan GroupDocs.Metadata untuk Java
 
-Dalam proyek perangkat lunak modern, kemampuan untuk **mendapatkan jumlah halaman diagram** dengan cepat dapat menghemat banyak waktu—terutama ketika Anda perlu menghasilkan laporan atau mengotomatiskan pipeline dokumentasi. Dalam tutorial ini, Anda akan belajar cara menggunakan GroupDocs.Metadata untuk Java untuk mengekstrak baik jumlah halaman maupun statistik teks berguna lainnya dari file diagram seperti VDX. Kami akan membahas pengaturan yang diperlukan, menunjukkan kode tepat yang Anda butuhkan, dan mendiskusikan skenario dunia nyata di mana kemampuan ini bersinar.
+Dalam proyek perangkat lunak modern, dapat **mendapatkan jumlah halaman diagram** dengan cepat dapat menghemat banyak waktu—terutama ketika Anda perlu menghasilkan laporan atau mengotomatiskan alur kerja dokumentasi. Tutorial ini menunjukkan secara tepat cara menggunakan GroupDocs.Metadata untuk Java untuk mengambil jumlah halaman dan statistik teks berguna lainnya dari file diagram seperti VDX, VSDX, dan lainnya.
 
 ## Jawaban Cepat
-- **Apa arti “get diagram page count”?** Itu mengembalikan total jumlah halaman (atau lembar) di dalam file diagram.  
+- **Apa arti “get diagram page count”?** Ini mengembalikan total jumlah halaman (atau lembar) di dalam file diagram.  
 - **Perpustakaan mana yang menyediakan fitur ini?** GroupDocs.Metadata untuk Java.  
 - **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi permanen diperlukan untuk produksi.  
 - **Versi Java apa yang diperlukan?** JDK 8 atau lebih tinggi.  
-- **Bisakah saya memproses banyak diagram dalam loop?** Ya—cukup buat instance `Metadata` untuk setiap file di dalam loop Anda.
+- **Bisakah saya memproses banyak diagram dalam sebuah loop?** Ya—cukup buat instance `Metadata` untuk setiap file di dalam loop Anda.
 
 ## Apa itu “get diagram page count”?
-Mendapatkan jumlah halaman diagram berarti menanyakan metadata diagram untuk mengetahui berapa banyak halaman atau kanvas individu yang terdapat dalam file. Informasi ini merupakan bagian dari statistik dokumen yang disediakan oleh GroupDocs.Metadata.
+Mendapatkan jumlah halaman diagram berarti menanyakan metadata diagram untuk mengetahui berapa banyak halaman atau kanvas individual yang dimiliki file tersebut. Informasi ini merupakan bagian dari statistik dokumen yang diekspos oleh GroupDocs.Metadata.
 
 ## Mengapa menggunakan GroupDocs.Metadata untuk Java?
 - **Ekstraksi cepat dan ringan** – Tidak perlu merender seluruh diagram.  
-- **Dukungan format luas** – Bekerja dengan VDX, VSDX, dan banyak tipe diagram lainnya.  
+- **Dukungan format luas** – Berfungsi dengan VDX, VSDX, dan banyak tipe diagram lainnya.  
 - **API sederhana** – Beberapa baris kode memberi Anda jumlah halaman, penulis, tanggal pembuatan, dan lainnya.  
 
 ## Prasyarat
@@ -68,10 +68,11 @@ Jika Anda lebih memilih tidak menggunakan Maven, unduh JAR terbaru dari halaman 
 ### Akuisisi Lisensi
 - **Percobaan Gratis** – Unduh dan jelajahi semua fitur tanpa biaya.  
 - **Lisensi Sementara** – Minta kunci sementara untuk pengujian tanpa batas.  
-- **Lisensi Penuh** – Beli untuk penggunaan produksi tanpa batas.
+- **Lisensi Penuh** – Beli untuk penggunaan produksi tak terbatas.
 
-### Inisialisasi Dasar
-Di bawah ini adalah kode minimal yang diperlukan untuk mulai bekerja dengan file diagram. Potongan kode ini **menginisialisasi objek Metadata**, yang merupakan titik masuk untuk semua operasi selanjutnya, termasuk mendapatkan jumlah halaman diagram.
+## Inisialisasi Dasar
+
+Berikut adalah kode minimal yang diperlukan untuk mulai bekerja dengan file diagram. Potongan kode ini **menginisialisasi objek Metadata**, yang merupakan titik masuk untuk semua operasi selanjutnya, termasuk mendapatkan jumlah halaman diagram.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -86,11 +87,12 @@ public class DiagramInitialization {
 }
 ```
 
-## Panduan Implementasi – Mendapatkan Jumlah Halaman Diagram
+## Cara Membaca Statistik Diagram dengan GroupDocs.Metadata Java
 
-Sekarang perpustakaan siap, mari selami langkah-langkah tepat untuk mengambil jumlah halaman.
+Setelah perpustakaan siap, mari ikuti langkah‑langkah tepat untuk mengambil jumlah halaman dan statistik lainnya.
 
 ### Langkah 1: Dapatkan Paket Root
+
 Setiap tipe diagram memiliki paket root khusus yang memberikan akses ke metadata-nya. Gunakan metode generik `getRootPackageGeneric()` untuk mengambilnya.
 
 ```java
@@ -107,7 +109,8 @@ public class DiagramReadDocumentStatistics {
 ```
 
 ### Langkah 2: Akses Statistik Dokumen (Dapatkan Jumlah Halaman Diagram)
-Dengan paket root di tangan, Anda dapat memanggil `getDocumentStatistics()` dan kemudian `getPageCount()` untuk **mendapatkan jumlah halaman diagram**.
+
+Dengan paket root di tangan, Anda dapat memanggil `getDocumentStatistics()` lalu `getPageCount()` untuk **mendapatkan jumlah halaman diagram**.
 
 ```java
             int pageCount = root.getDocumentStatistics().getPageCount();
@@ -117,10 +120,11 @@ Dengan paket root di tangan, Anda dapat memanggil `getDocumentStatistics()` dan 
 }
 ```
 
-**Penjelasan**: `getDocumentStatistics()` mengembalikan sebuah objek yang menyimpan beberapa metrik berguna, termasuk jumlah halaman. Variabel `pageCount` dengan demikian mewakili total halaman dalam diagram.
+**Penjelasan**: `getDocumentStatistics()` mengembalikan objek yang berisi beberapa metrik berguna, termasuk jumlah halaman. Variabel `pageCount` oleh karena itu mewakili total halaman dalam diagram.
 
 ### Langkah 3: Tangani Pengecualian dengan Baik
-Operasi yang terkait file dapat gagal karena banyak alasan (file tidak ada, format tidak didukung, dll.). Bungkus kode Anda dalam blok try‑catch untuk menampilkan pesan kesalahan yang jelas.
+
+Operasi yang berhubungan dengan file dapat gagal karena banyak alasan (file tidak ada, format tidak didukung, dll.). Bungkus kode Anda dalam blok try‑catch untuk menampilkan pesan kesalahan yang jelas.
 
 ```java
         } catch (Exception e) {
@@ -130,57 +134,58 @@ Operasi yang terkait file dapat gagal karena banyak alasan (file tidak ada, form
 }
 ```
 
-**Tips Pemecahan Masalah**  
-- Verifikasi bahwa jalur file (`inputPath`) mengarah ke file diagram yang ada.  
-- Pastikan format diagram (mis., VDX) didukung oleh versi GroupDocs.Metadata saat ini.  
-- Jika Anda menerima kesalahan lisensi, pastikan kunci lisensi percobaan atau penuh yang valid telah diterapkan.
-
 ## Aplikasi Praktis
 
 | Kasus Penggunaan | Bagaimana jumlah halaman membantu |
 |------------------|-----------------------------------|
-| **Manajemen Proyek** | Dengan cepat memperkirakan upaya dengan menghitung halaman dalam flowchart atau diagram arsitektur. |
-| **Pelaporan Otomatis** | Hasilkan tabel ringkasan yang mencantumkan setiap diagram dan jumlah halamannya untuk tinjauan pemangku kepentingan. |
-| **Analitik Data** | Masukkan metrik jumlah halaman ke dalam dasbor untuk memantau pertumbuhan dokumentasi dari waktu ke waktu. |
+| **Manajemen Proyek** | Memperkirakan upaya dengan cepat dengan menghitung halaman dalam flowchart atau diagram arsitektur. |
+| **Pelaporan Otomatis** | Menghasilkan tabel ringkasan yang mencantumkan setiap diagram dan jumlah halamannya untuk tinjauan pemangku kepentingan. |
+| **Analitik Data** | Menyalurkan metrik jumlah halaman ke dasbor untuk memantau pertumbuhan dokumentasi dari waktu ke waktu. |
 
 ## Pertimbangan Kinerja
+
 - **Manajemen Sumber Daya**: Gunakan try‑with‑resources Java (seperti yang ditunjukkan) untuk secara otomatis menutup objek `Metadata` dan membebaskan memori.  
-- **Pemrosesan Batch**: Saat menangani banyak diagram, gunakan kembali satu instance `Metadata` per file dan hindari memuat data yang tidak diperlukan.  
+- **Pemrosesan Batch**: Saat menangani banyak diagram, gunakan satu instance `Metadata` per file dan hindari memuat data yang tidak diperlukan.  
 
-## Kesimpulan
-Sekarang Anda tahu cara **mendapatkan jumlah halaman diagram** dan mengekstrak statistik teks lainnya menggunakan GroupDocs.Metadata untuk Java. Pendekatan ringan ini dapat diintegrasikan ke dalam pipeline otomasi yang lebih besar, alat pelaporan, atau aplikasi apa pun yang membutuhkan wawasan cepat tentang file diagram.
+## Masalah Umum dan Solusinya
 
-### Langkah Selanjutnya
+- **File tidak ditemukan** – Periksa kembali `inputPath` dan pastikan file tersebut ada di disk.  
+- **Format tidak didukung** – Pastikan tipe diagram Anda (misalnya VDX) tercantum dalam format yang didukung untuk versi yang Anda gunakan.  
+- **Kesalahan lisensi** – Pastikan kunci lisensi percobaan atau penuh yang valid diterapkan sebelum membuat objek `Metadata`.  
+
+## Pertanyaan yang Sering Diajukan
+
+**T:** Format file apa saja yang didukung oleh GroupDocs.Metadata untuk diagram?  
+**J:** Mendukung VDX, VSDX, dan banyak format diagram umum lainnya yang digunakan di lingkungan perusahaan.
+
+**T:** Bisakah saya menggunakan GroupDocs.Metadata dengan dokumen non‑diagram?  
+**J:** Ya, perpustakaan ini bekerja dengan PDF, file Word, spreadsheet, dan lainnya, menyediakan pengalaman ekstraksi metadata yang terpadu.
+
+**T:** Bagaimana cara menangani format file yang tidak didukung?  
+**J:** Periksa ekstensi file terhadap daftar yang didukung dalam dokumentasi. Untuk format yang tidak dikenal, pertimbangkan mengonversinya ke tipe yang didukung terlebih dahulu.
+
+**T:** Apakah ada batasan jumlah diagram yang dapat diproses sekaligus?  
+**J:** Tidak ada batasan keras, tetapi memproses batch yang sangat besar mungkin memerlukan perhatian pada penggunaan memori dan strategi threading.
+
+**T:** Apa yang harus saya lakukan jika mengalami kesalahan inisialisasi?  
+**J:** Periksa kembali jalur file, pastikan JAR ditambahkan dengan benar ke classpath Anda, dan konfirmasi bahwa lisensi yang valid (bahkan percobaan) telah diterapkan.
+
+## Langkah Selanjutnya
+
 - Jelajahi statistik tambahan seperti penulis, tanggal pembuatan, dan properti khusus.  
 - Gabungkan logika jumlah halaman dengan pemindaian sistem file untuk memproses seluruh folder diagram.  
-- Lihat sumber resmi untuk cakupan API yang lebih mendalam.
-
-## Bagian FAQ
-1. **Format file apa yang didukung oleh GroupDocs.Metadata untuk diagram?**  
-   - Ini mendukung VDX, VSDX, dan banyak format diagram umum lainnya yang digunakan di lingkungan perusahaan.
-
-2. **Bisakah saya menggunakan GroupDocs.Metadata dengan dokumen non‑diagram?**  
-   - Ya, perpustakaan ini bekerja dengan PDF, file Word, spreadsheet, dan lainnya, menyediakan pengalaman ekstraksi metadata yang terpadu.
-
-3. **Bagaimana cara menangani format file yang tidak didukung?**  
-   - Verifikasi ekstensi file terhadap daftar yang didukung dalam dokumentasi. Untuk format yang tidak dikenal, pertimbangkan mengonversinya ke tipe yang didukung terlebih dahulu.
-
-4. **Apakah ada batasan jumlah diagram yang dapat diproses sekaligus?**  
-   - Tidak ada batasan keras, tetapi memproses batch yang sangat besar mungkin memerlukan perhatian pada penggunaan memori dan strategi threading.
-
-5. **Apa yang harus saya lakukan jika menemukan kesalahan inisialisasi?**  
-   - Periksa kembali jalur file, pastikan JAR ditambahkan dengan benar ke classpath Anda, dan pastikan lisensi yang valid (bahkan percobaan) telah diterapkan.
+- Tinjau referensi API resmi untuk opsi kustomisasi yang lebih mendalam.
 
 ## Sumber Daya
-- [Dokumentasi](https://docs.groupdocs.com/metadata/java/)
-- [Referensi API](https://reference.groupdocs.com/metadata/java/)
-- [Unduh](https://releases.groupdocs.com/metadata/java/)
-- [Repositori GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
-- [Forum Dukungan Gratis](https://forum.groupdocs.com/c/metadata/)
-- [Aplikasi Lisensi Sementara](https://purchase.groupdocs.com/temporary-license/) 
+- [Documentation](https://docs.groupdocs.com/metadata/java/)
+- [API Reference](https://reference.groupdocs.com/metadata/java/)
+- [Download](https://releases.groupdocs.com/metadata/java/)
+- [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- [Free Support Forum](https://forum.groupdocs.com/c/metadata/)
+- [Temporary License Application](https://purchase.groupdocs.com/temporary-license/) 
 
 ---
 
-**Terakhir Diperbarui:** 2026-01-13  
+**Terakhir Diperbarui:** 2026-03-20  
 **Diuji Dengan:** GroupDocs.Metadata 24.12 untuk Java  
 **Penulis:** GroupDocs

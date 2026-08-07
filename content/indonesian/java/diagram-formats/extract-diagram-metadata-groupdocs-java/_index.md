@@ -1,53 +1,48 @@
 ---
-date: '2026-01-16'
-description: Pelajari cara mengekstrak dan mengelola properti dokumen Java secara
-  efisien dari file diagram menggunakan GroupDocs.Metadata untuk Java, termasuk detail
-  pembuat, informasi perusahaan, dan lainnya.
+date: '2026-03-20'
+description: Pelajari cara mengekstrak metadata diagram Java menggunakan GroupDocs.Metadata,
+  termasuk cara membaca properti dokumen Java seperti pembuat, perusahaan, dan tanggal
+  pembuatan.
 keywords:
 - extract diagram metadata java
 - GroupDocs Metadata for Java
 - manage diagram document metadata
-title: Properti Dokumen Java – Ekstrak Metadata Diagram dengan GroupDocs untuk Java
+title: Ekstrak Metadata Diagram Java dengan GroupDocs
 type: docs
 url: /id/java/diagram-formats/extract-diagram-metadata-groupdocs-java/
 weight: 1
 ---
 
-# properti dokumen java – Ekstrak Metadata Diagram dengan GroupDocs untuk Java
+# Ekstrak Metadata Diagram Java dengan GroupDocs
 
 ## Pendahuluan
-Apakah Anda ingin mengekstrak dan mengelola **java document properties** secara efisien dari file diagram Anda? Memahami metadata yang mendasari—seperti detail pembuat, informasi perusahaan, dan waktu pembuatan—sangat penting untuk manajemen dokumentasi. Panduan komprehensif ini akan memandu Anda melalui proses mengekstrak properti metadata bawaan menggunakan GroupDocs.Metadata untuk Java, dan menunjukkan skenario dunia nyata di mana properti ini menambah nilai.
+Jika Anda perlu **ekstrak metadata diagram Java** dengan cepat dan andal, Anda berada di tempat yang tepat. Di banyak lingkungan perusahaan, file diagram (Visio, VSDX, dll.) menyimpan informasi tersembunyi seperti penulis, perusahaan, kata kunci, bahasa, dan cap waktu pembuatan. Mengambil **java document properties** ini dari file memungkinkan Anda mengotomatisasi klasifikasi aset, menegakkan kepatuhan, dan menggerakkan alur kerja berbasis pencarian tanpa membuka diagram itu sendiri.
 
-**Apa yang Akan Anda Pelajari**
-- Cara mengekstrak metadata seperti pembuat, perusahaan, kata kunci, bahasa, tanggal pembuatan, dan kategori.
-- Menyiapkan lingkungan Anda dengan pustaka dan dependensi yang diperlukan.
-- Aplikasi praktis metadata yang diekstrak dalam proyek dunia nyata.
-
-Mari siapkan lingkungan Anda sebelum menyelami proses mengekstrak informasi berharga dari diagram Anda!
+Dalam tutorial ini Anda akan belajar cara membaca properti tersebut menggunakan **GroupDocs.Metadata for Java**, melihat contoh penggunaan dunia nyata, dan mendapatkan tips untuk menangani batch file yang besar.
 
 ## Jawaban Cepat
-- **Apa tujuan utama dari java document properties?** Untuk menampilkan informasi tersemat seperti penulis, tanggal pembuatan, dan kategori demi manajemen aset yang lebih baik.  
-- **Pustaka mana yang menyediakan akses termudah ke properti ini?** GroupDocs.Metadata untuk Java.  
-- **Apakah saya memerlukan lisensi untuk menjalankan contoh?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi permanen diperlukan untuk produksi.  
-- **Bisakah saya membaca tanggal pembuatan file java menggunakan API ini?** Ya—`getTimeCreated()` mengembalikan cap waktu pembuatan.  
+- **Apa arti “extract diagram metadata Java”?** Ini adalah proses membaca secara programatis properti tersemat (penulis, tanggal pembuatan, dll.) dari file diagram menggunakan Java.  
+- **Library mana yang menyederhanakan tugas ini?** GroupDocs.Metadata for Java menyediakan API yang bersih yang mengabstraksi parsing file tingkat rendah.  
+- **Apakah saya memerlukan lisensi untuk contoh-contoh ini?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi permanen diperlukan untuk penggunaan produksi.  
+- **Bisakah saya membaca tanggal pembuatan file Java dengan API ini?** Ya—`getTimeCreated()` mengembalikan cap waktu pembuatan.  
 - **Apakah memungkinkan membaca kategori diagram?** Tentu—`getCategory()` mengembalikan properti kategori diagram.
 
-## Apa itu java document properties?
-Properti dokumen java adalah bidang metadata bawaan yang disimpan di dalam file (misalnya, penulis, perusahaan, kata kunci). Mereka memungkinkan klasifikasi otomatis, pencarian, dan pemeriksaan kepatuhan tanpa membuka konten file.
+## Apa itu extract diagram metadata Java?
+Extract diagram metadata Java mengacu pada pengambilan bidang metadata bawaan yang disimpan di dalam file diagram (mis., pembuat, perusahaan, kata kunci). Bidang-bidang ini memungkinkan klasifikasi otomatis, pencarian, dan pemeriksaan kepatuhan tanpa membuka konten file.
 
-## Mengapa Menggunakan GroupDocs.Metadata untuk Java?
-GroupDocs.Metadata menawarkan **contoh pustaka metadata** yang menyembunyikan parsing file tingkat rendah. Ia mendukung puluhan format, menyediakan model objek yang bersih, dan menangani manajemen sumber daya secara otomatis, sehingga Anda dapat fokus pada logika bisnis.
+## Mengapa menggunakan GroupDocs.Metadata untuk Java?
+GroupDocs.Metadata menawarkan **metadata library example** yang mengabstraksi parsing file tingkat rendah. Ia mendukung puluhan format, menyediakan model objek yang bersih, dan menangani manajemen sumber daya secara otomatis, sehingga Anda dapat fokus pada logika bisnis alih-alih keanehan format file.
 
 ## Prasyarat
-Sebelum melanjutkan, pastikan Anda memiliki hal berikut:
+Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-### Pustaka dan Dependensi yang Diperlukan
-- **GroupDocs.Metadata untuk Java** (versi 24.12 atau lebih baru).  
+### Perpustakaan dan Dependensi yang Diperlukan
+- **GroupDocs.Metadata for Java** (versi 24.12 atau lebih baru).  
 - **Java Development Kit (JDK)** – Disarankan JDK 8+.
 
 ### Persyaratan Penyiapan Lingkungan
-- IDE seperti IntelliJ IDEA atau Eclipse.  
-- Maven untuk manajemen dependensi (opsional tetapi disarankan).
+- Sebuah IDE seperti IntelliJ IDEA atau Eclipse.  
+- Maven untuk manajemen dependensi (opsional namun disarankan).
 
 ### Prasyarat Pengetahuan
 Keterampilan pemrograman Java dasar dan familiaritas dengan IDE sudah cukup.
@@ -76,11 +71,11 @@ Tambahkan berikut ke file `pom.xml` Anda:
 ```
 
 **Unduhan Langsung**  
-Atau, unduh versi terbaru dari [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Sebagai alternatif, unduh versi terbaru dari [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Akuisisi Lisensi
 - **Free Trial** – Jelajahi semua fitur tanpa biaya.  
-- **Temporary License** – Berguna untuk evaluasi jangka pendek. Ajukan melalui [halaman pembelian GroupDocs](https://purchase.groupdocs.com/temporary-license/).  
+- **Temporary License** – Berguna untuk evaluasi jangka pendek. Ajukan melalui [GroupDocs' purchase page](https://purchase.groupdocs.com/temporary-license/).  
 - **Purchase** – Diperlukan untuk penerapan produksi.
 
 ### Inisialisasi dan Penyiapan Dasar
@@ -98,10 +93,9 @@ Ganti `"YOUR_DOCUMENT_DIRECTORY/your-diagram-file.vsdx"` dengan jalur file Anda 
 ## Panduan Implementasi
 
 ### Mengekstrak properti dokumen java bawaan dari Dokumen Diagram
-Fitur ini memungkinkan Anda mengambil properti penting seperti pembuat, perusahaan, kata kunci, bahasa, **tanggal pembuatan file java**, dan kategori.
+Fitur ini memungkinkan Anda mengambil properti penting seperti pembuat, perusahaan, kata kunci, bahasa, **java read creation date**, dan kategori.
 
 #### Implementasi Langkah‑per‑Langkah
-
 ##### Langkah 1: Inisialisasi Kelas Metadata
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/your-diagram-file.vsdx")) {
@@ -133,29 +127,35 @@ System.out.println("Category: " + category);
 ```
 *Mengapa?* Pencetakan memverifikasi bahwa **java document properties** telah berhasil diambil.
 
+### Cara membaca properti dokumen Java
+Objek `getDocumentProperties()` memberikan Anda akses langsung ke bidang standar. Jika Anda memerlukan bidang khusus tambahan, API yang sama menawarkan metode seperti `getCustomProperties()`—berguna untuk skenario **extract custom properties java**.
+
+### Cara membaca tanggal pembuatan Java
+Metode `getTimeCreated()` mengembalikan `java.util.Date` yang mewakili cap waktu pembuatan diagram. Ini adalah panggilan utama untuk kebutuhan **java read creation date**.
+
 ### Tips Pemecahan Masalah
 - **Masalah Jalur File** – Periksa kembali jalur untuk menghindari `FileNotFoundException`.  
-- **Kompatibilitas Pustaka** – Pastikan Anda menggunakan GroupDocs.Metadata versi 24.12 atau lebih baru.  
+- **Kompatibilitas Perpustakaan** – Pastikan Anda menggunakan GroupDocs.Metadata versi 24.12 atau lebih baru.  
 - **Manajemen Memori** – Blok try‑with‑resources menjamin instance `Metadata` ditutup secara otomatis.
 
 ## Aplikasi Praktis
-Mengekstrak **java document properties** dari file diagram dapat sangat berharga:
+Mengekstrak **extract diagram metadata Java** dari file diagram dapat sangat berharga:
 
 1. **Sistem Manajemen Konten** – Menandai diagram secara otomatis menggunakan kata kunci dan kategori yang diekstrak.  
 2. **Platform Kolaborasi** – Menampilkan pembuat dokumen dan perusahaan untuk meningkatkan keterlacakan.  
-3. **Analitik Data** – Mengagregasi data bahasa dan tanggal pembuatan untuk pelaporan lokalisasi.  
+3. **Analitik Data** – Mengagregasi data bahasa dan tanggal pembuatan untuk pelaporan lokalisasi.
 
 ## Pertimbangan Kinerja
 - **Optimalkan Penggunaan Memori** – Selalu gunakan try‑with‑resources seperti yang ditunjukkan.  
-- **Pemrosesan Batch** – Proses beberapa file dalam loop untuk mengurangi overhead.  
-- **Pemantauan Sumber Daya** – Pantau penggunaan heap saat menangani koleksi diagram besar.
+- **Pemrosesan Batch** – Proses banyak file dalam loop untuk mengurangi overhead.  
+- **Pemantauan Sumber Daya** – Pantau penggunaan heap saat menangani koleksi diagram yang besar.
 
 ## Masalah Umum dan Solusinya
-| Issue | Solution |
+| Masalah | Solusi |
 |-------|----------|
 | `FileNotFoundException` | Verifikasi jalur absolut atau relatif dan pastikan file ada. |
 | `UnsupportedOperationException` | Pastikan format diagram didukung oleh GroupDocs.Metadata. |
-| High memory consumption | Proses file dalam batch yang lebih kecil dan tutup setiap instance `Metadata` dengan cepat. |
+| Konsumsi memori tinggi | Proses file dalam batch yang lebih kecil dan tutup setiap instance `Metadata` segera. |
 
 ## Pertanyaan yang Sering Diajukan
 **T: Versi Java apa yang diperlukan untuk GroupDocs.Metadata?**  
@@ -168,23 +168,21 @@ J: Ya, GroupDocs.Metadata mendukung banyak tipe dokumen, termasuk PDF, Word, dan
 J: Gunakan pemrosesan batch, batasi jumlah instance `Metadata` yang berjalan bersamaan, dan pantau memori JVM.
 
 **T: Apa kesalahan umum saat mengekstrak metadata?**  
-J: Kesalahan umum meliputi jalur file yang salah dan versi pustaka yang tidak cocok.
+J: Kesalahan umum meliputi jalur file yang salah dan versi perpustakaan yang tidak cocok.
 
 **T: Apakah memungkinkan menyesuaikan bidang metadata yang dibaca?**  
-J: Meskipun panduan ini mencakup properti bawaan, API memungkinkan Anda untuk menanyakan properti khusus juga.
+J: Meskipun panduan ini mencakup properti bawaan, API juga memungkinkan Anda mengquery properti khusus untuk kebutuhan **extract custom properties java**.
 
 ## Sumber Daya
 - [Dokumentasi](https://docs.groupdocs.com/metadata/java/)
 - [Referensi API](https://reference.groupdocs.com/metadata/java/)
-- [Unduhan](https://releases.groupdocs.com/metadata/java/)
+- [Unduh](https://releases.groupdocs.com/metadata/java/)
 - [Repositori GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - [Forum Dukungan Gratis](https://forum.groupdocs.com/c/metadata/)
 - [Aplikasi Lisensi Sementara](https://purchase.groupdocs.com/temporary-license/)
 
-Dengan mengikuti panduan ini, Anda kini memiliki keterampilan untuk memanfaatkan **java document properties** dari file diagram menggunakan GroupDocs.Metadata untuk Java. Terapkan teknik ini ke alur kerja Anda untuk meningkatkan organisasi aset, kepatuhan, dan otomatisasi.
+Dengan mengikuti panduan ini, Anda kini memiliki keterampilan untuk memanfaatkan **extract diagram metadata Java** dari file diagram menggunakan GroupDocs.Metadata untuk Java. Gabungkan teknik ini ke dalam alur kerja Anda untuk meningkatkan organisasi aset, kepatuhan, dan otomatisasi.
 
----
-
-**Terakhir Diperbarui:** 2026-01-16  
-**Diuji Dengan:** GroupDocs.Metadata 24.12 untuk Java  
-**Penulis:** GroupDocs
+**Last Updated:** 2026-03-20  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs

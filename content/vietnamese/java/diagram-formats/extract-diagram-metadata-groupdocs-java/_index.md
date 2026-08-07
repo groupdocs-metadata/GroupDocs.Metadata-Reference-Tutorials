@@ -1,57 +1,50 @@
 ---
-date: '2026-01-16'
-description: Tìm hiểu cách trích xuất và quản lý hiệu quả các thuộc tính tài liệu
-  Java từ các tệp sơ đồ bằng GroupDocs.Metadata cho Java, bao gồm thông tin người
-  tạo, công ty và nhiều hơn nữa.
+date: '2026-03-20'
+description: Tìm hiểu cách trích xuất siêu dữ liệu sơ đồ Java bằng GroupDocs.Metadata,
+  bao gồm cách đọc các thuộc tính tài liệu Java như người tạo, công ty và ngày tạo.
 keywords:
 - extract diagram metadata java
 - GroupDocs Metadata for Java
 - manage diagram document metadata
-title: Thuộc tính tài liệu Java – Trích xuất siêu dữ liệu sơ đồ với GroupDocs cho
-  Java
+title: Trích xuất siêu dữ liệu sơ đồ Java với GroupDocs
 type: docs
 url: /vi/java/diagram-formats/extract-diagram-metadata-groupdocs-java/
 weight: 1
 ---
 
-# Thuộc tính tài liệu java – Trích xuất siêu dữ liệu sơ đồ với GroupDocs cho Java
+# Trích xuất siêu dữ liệu sơ đồ Java với GroupDocs
 
 ## Giới thiệu
-Bạn có muốn trích xuất và quản lý **java document properties** một cách hiệu quả từ các tệp sơ đồ của mình không? Hiểu được siêu dữ liệu nền tảng — chẳng hạn như thông tin người tạo, công ty và thời gian tạo — là điều quan trọng đối với việc quản lý tài liệu. Hướng dẫn toàn diện này sẽ chỉ cho bạn cách trích xuất các thuộc tính siêu dữ liệu tích hợp sẵn bằng cách sử dụng GroupDocs.Metadata cho Java, và giới thiệu các kịch bản thực tế nơi các thuộc tính này mang lại giá trị.
+Nếu bạn cần **extract diagram metadata Java** nhanh chóng và đáng tin cậy, bạn đã đến đúng nơi. Trong nhiều môi trường doanh nghiệp, các tệp sơ đồ (Visio, VSDX, v.v.) chứa thông tin ẩn như tác giả, công ty, từ khóa, ngôn ngữ và thời gian tạo. Việc lấy các **java document properties** này ra khỏi tệp cho phép bạn tự động phân loại tài sản, thực thi tuân thủ và hỗ trợ các quy trình làm việc dựa trên tìm kiếm mà không cần mở sơ đồ.
 
-**Bạn sẽ học được**
-- Cách trích xuất siêu dữ liệu như người tạo, công ty, từ khóa, ngôn ngữ, ngày tạo và danh mục.
-- Cài đặt môi trường với các thư viện và phụ thuộc cần thiết.
-- Ứng dụng thực tiễn của siêu dữ liệu đã trích xuất trong các dự án thực tế.
-
-Hãy chuẩn bị môi trường trước khi bắt đầu trích xuất thông tin quý giá từ các sơ đồ của bạn!
+Trong hướng dẫn này, bạn sẽ học cách đọc các thuộc tính đó bằng **GroupDocs.Metadata for Java**, xem các trường hợp sử dụng thực tế, và nhận các mẹo để xử lý các lô tệp lớn.
 
 ## Câu trả lời nhanh
-- **Mục đích chính của java document properties là gì?** Để hiển thị thông tin nhúng như tác giả, ngày tạo và danh mục, hỗ trợ quản lý tài sản tốt hơn.  
-- **Thư viện nào cung cấp cách truy cập các thuộc tính này dễ nhất?** GroupDocs.Metadata cho Java.  
-- **Tôi có cần giấy phép để chạy các ví dụ không?** Bản dùng thử miễn phí đủ cho việc đánh giá; giấy phép vĩnh viễn cần thiết cho môi trường sản xuất.  
-- **Có thể đọc ngày tạo tệp java bằng API này không?** Có — `getTimeCreated()` trả về dấu thời gian tạo.  
-- **Có thể đọc danh mục của sơ đồ không?** Chắc chắn — `getCategory()` trả về thuộc tính danh mục của sơ đồ.
+- **What does “extract diagram metadata Java” mean?** Đó là quá trình đọc các thuộc tính nhúng (tác giả, ngày tạo, v.v.) từ các tệp sơ đồ bằng Java một cách lập trình.  
+- **Which library simplifies this task?** GroupDocs.Metadata for Java cung cấp một API sạch sẽ, trừu tượng hoá việc phân tích tệp ở mức thấp.  
+- **Do I need a license for the examples?** Bản dùng thử miễn phí đủ cho việc đánh giá; cần giấy phép vĩnh viễn cho môi trường sản xuất.  
+- **Can I read the file creation date Java with this API?** Có—`getTimeCreated()` trả về dấu thời gian tạo.  
+- **Is it possible read a diagram’s category?** Chắc chắn—`getCategory()` trả về thuộc tính danh mục của sơ đồ.
 
-## java document properties là gì?
-java document properties là các trường siêu dữ liệu tích hợp được lưu trong tệp (ví dụ: tác giả, công ty, từ khóa). Chúng cho phép phân loại tự động, tìm kiếm và kiểm tra tuân thủ mà không cần mở nội dung tệp.
+## Extract diagram metadata Java là gì?
+Extract diagram metadata Java đề cập đến việc truy xuất các trường siêu dữ liệu tích hợp được lưu trong tệp sơ đồ (ví dụ: người tạo, công ty, từ khóa). Các trường này cho phép tự động phân loại, tìm kiếm và kiểm tra tuân thủ mà không cần mở nội dung tệp.
 
-## Tại sao nên dùng GroupDocs.Metadata cho Java?
-GroupDocs.Metadata cung cấp **metadata library example** trừu tượng hoá việc phân tích tệp ở mức thấp. Nó hỗ trợ hàng chục định dạng, cung cấp mô hình đối tượng sạch sẽ và tự động quản lý tài nguyên, giúp bạn tập trung vào logic nghiệp vụ.
+## Tại sao nên sử dụng GroupDocs.Metadata cho Java?
+GroupDocs.Metadata cung cấp một **metadata library example** giúp trừu tượng hoá việc phân tích tệp ở mức thấp. Nó hỗ trợ hàng chục định dạng, cung cấp mô hình đối tượng sạch sẽ và tự động quản lý tài nguyên, vì vậy bạn có thể tập trung vào logic nghiệp vụ thay vì các chi tiết đặc thù của định dạng tệp.
 
 ## Yêu cầu trước
-Trước khi tiếp tục, hãy chắc chắn bạn đã có các mục sau:
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có những thứ sau:
 
-### Thư viện và phụ thuộc bắt buộc
-- **GroupDocs.Metadata cho Java** (phiên bản 24.12 trở lên).  
-- **Java Development Kit (JDK)** – Khuyến nghị JDK 8+.
+### Thư viện và phụ thuộc cần thiết
+- **GroupDocs.Metadata for Java** (phiên bản 24.12 hoặc mới hơn).  
+- **Java Development Kit (JDK)** – Khuyến nghị JDK 8 trở lên.
 
-### Yêu cầu cài đặt môi trường
+### Yêu cầu thiết lập môi trường
 - Một IDE như IntelliJ IDEA hoặc Eclipse.  
-- Maven để quản lý phụ thuộc (không bắt buộc nhưng khuyến nghị).
+- Maven để quản lý phụ thuộc (tùy chọn nhưng khuyến nghị).
 
-### Kiến thức nền tảng
-Kỹ năng lập trình Java cơ bản và quen thuộc với IDE là đủ.
+### Kiến thức tiên quyết
+Kỹ năng lập trình Java cơ bản và quen thuộc với một IDE là đủ.
 
 ## Cài đặt GroupDocs.Metadata cho Java
 Tích hợp GroupDocs.Metadata vào dự án của bạn bằng Maven hoặc tải trực tiếp.
@@ -77,12 +70,12 @@ Thêm đoạn sau vào tệp `pom.xml` của bạn:
 ```
 
 **Tải trực tiếp**  
-Hoặc tải phiên bản mới nhất từ [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Alternatively, download the latest version from [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Nhận giấy phép
-- **Dùng thử miễn phí** – Khám phá đầy đủ tính năng không tốn phí.  
-- **Giấy phép tạm thời** – Thích hợp cho đánh giá ngắn hạn. Đăng ký qua [trang mua của GroupDocs](https://purchase.groupdocs.com/temporary-license/).  
-- **Mua bản quyền** – Yêu cầu cho triển khai sản xuất.
+- **Free Trial** – Khám phá đầy đủ tính năng mà không tốn phí.  
+- **Temporary License** – Hữu ích cho việc đánh giá ngắn hạn. Đăng ký qua [GroupDocs' purchase page](https://purchase.groupdocs.com/temporary-license/).  
+- **Purchase** – Cần thiết cho triển khai sản xuất.
 
 ### Khởi tạo và cài đặt cơ bản
 Khởi tạo GroupDocs.Metadata trong dự án Java của bạn:
@@ -94,27 +87,27 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/your-diagram-file
     DiagramRootPackage root = metadata.getRootPackageGeneric();
 }
 ```
-Thay `"YOUR_DOCUMENT_DIRECTORY/your-diagram-file.vsdx"` bằng đường dẫn tệp thực tế của bạn.
+Thay thế `"YOUR_DOCUMENT_DIRECTORY/your-diagram-file.vsdx"` bằng đường dẫn tệp thực tế của bạn.
 
 ## Hướng dẫn triển khai
 
-### Trích xuất java document properties tích hợp sẵn từ tài liệu Diagram
-Tính năng này cho phép bạn lấy các thuộc tính quan trọng như người tạo, công ty, từ khóa, ngôn ngữ, **file creation date java**, và danh mục.
+### Trích xuất các thuộc tính tài liệu java tích hợp sẵn từ tài liệu Diagram
+Tính năng này cho phép bạn lấy các thuộc tính quan trọng như người tạo, công ty, từ khóa, ngôn ngữ, **java read creation date**, và danh mục.
 
-#### Thực hiện từng bước
+#### Triển khai từng bước
 ##### Bước 1: Khởi tạo lớp Metadata
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/your-diagram-file.vsdx")) {
 ```
-*Vì sao?* Điều này mở sơ đồ để đọc và chuẩn bị API trích xuất các thuộc tính.
+*Why?* Điều này mở sơ đồ để đọc và chuẩn bị API để trích xuất các thuộc tính.
 
-##### Bước 2: Truy cập gói gốc (Root Package)
+##### Bước 2: Truy cập Root Package
 ```java
 DiagramRootPackage root = metadata.getRootPackageGeneric();
 ```
-*Giải thích*: Gói gốc chứa các thuộc tính tài liệu cốt lõi mà bạn sẽ truy vấn.
+*Explanation*: Gói gốc chứa các thuộc tính tài liệu cốt lõi mà bạn sẽ truy vấn.
 
-##### Bước 3: Trích xuất và in ra các thuộc tính siêu dữ liệu
+##### Bước 3: Trích xuất và in các thuộc tính Metadata
 ```java
 String creator = root.getDocumentProperties().getCreator();
 String company = root.getDocumentProperties().getCompany();
@@ -131,60 +124,66 @@ System.out.println("Language: " + language);
 System.out.println("Time Created: " + timeCreated);
 System.out.println("Category: " + category);
 ```
-*Vì sao?* Việc in ra giúp xác nhận rằng **java document properties** đã được lấy thành công.
+*Why?* In ấn xác nhận rằng **java document properties** đã được lấy thành công.
+
+### Cách đọc thuộc tính tài liệu Java
+Đối tượng `getDocumentProperties()` cung cấp cho bạn quyền truy cập trực tiếp vào các trường tiêu chuẩn. Nếu bạn cần các trường tùy chỉnh bổ sung, cùng API cung cấp các phương thức như `getCustomProperties()`—hữu ích cho các kịch bản **extract custom properties java**.
+
+### Cách đọc ngày tạo Java
+Phương thức `getTimeCreated()` trả về một `java.util.Date` biểu thị dấu thời gian tạo của sơ đồ. Đây là lời gọi chính cho yêu cầu **java read creation date**.
 
 ### Mẹo khắc phục sự cố
-- **Vấn đề đường dẫn tệp** – Kiểm tra lại đường dẫn để tránh `FileNotFoundException`.  
-- **Tương thích thư viện** – Đảm bảo bạn đang dùng GroupDocs.Metadata phiên bản 24.12 hoặc mới hơn.  
-- **Quản lý bộ nhớ** – Khối `try‑with‑resources` đảm bảo đối tượng `Metadata` được đóng tự động.
+- **File Path Issues** – Kiểm tra lại đường dẫn để tránh `FileNotFoundException`.  
+- **Library Compatibility** – Đảm bảo bạn đang sử dụng GroupDocs.Metadata phiên bản 24.12 hoặc mới hơn.  
+- **Memory Management** – Khối try‑with‑resources đảm bảo đối tượng `Metadata` được đóng tự động.
 
 ## Ứng dụng thực tiễn
-Việc trích xuất **java document properties** từ các tệp sơ đồ có thể rất hữu ích:
+Việc trích xuất **extract diagram metadata Java** từ các tệp sơ đồ có thể vô giá:
 
-1. **Hệ thống quản lý nội dung** – Tự động gắn thẻ sơ đồ bằng các từ khóa và danh mục đã trích xuất.  
-2. **Nền tảng cộng tác** – Hiển thị người tạo và công ty của tài liệu để tăng khả năng truy xuất nguồn gốc.  
-3. **Phân tích dữ liệu** – Tổng hợp ngôn ngữ và ngày tạo để báo cáo về bản địa hoá.
+1. **Content Management Systems** – Tự động gắn thẻ cho sơ đồ bằng các từ khóa và danh mục đã trích xuất.  
+2. **Collaboration Platforms** – Hiển thị người tạo tài liệu và công ty để cải thiện khả năng truy xuất.  
+3. **Data Analytics** – Tổng hợp dữ liệu ngôn ngữ và ngày tạo cho báo cáo bản địa hoá.
 
-## Cân nhắc về hiệu năng
-- **Tối ưu sử dụng bộ nhớ** – Luôn dùng `try‑with‑resources` như ví dụ.  
-- **Xử lý hàng loạt** – Xử lý nhiều tệp trong một vòng lặp để giảm chi phí khởi tạo.  
-- **Giám sát tài nguyên** – Theo dõi mức sử dụng heap khi làm việc với bộ sưu tập sơ đồ lớn.
+## Các cân nhắc về hiệu năng
+- **Optimize Memory Usage** – Luôn sử dụng try‑with‑resources như đã minh họa.  
+- **Batch Processing** – Xử lý nhiều tệp trong một vòng lặp để giảm chi phí.  
+- **Resource Monitoring** – Theo dõi việc sử dụng heap khi xử lý bộ sưu tập sơ đồ lớn.
 
 ## Các vấn đề thường gặp và giải pháp
 | Vấn đề | Giải pháp |
 |-------|----------|
-| `FileNotFoundException` | Kiểm tra đường dẫn tuyệt đối hoặc tương đối và chắc chắn tệp tồn tại. |
+| `FileNotFoundException` | Xác minh đường dẫn tuyệt đối hoặc tương đối và đảm bảo tệp tồn tại. |
 | `UnsupportedOperationException` | Xác nhận định dạng sơ đồ được GroupDocs.Metadata hỗ trợ. |
-| Tiêu thụ bộ nhớ cao | Xử lý tệp theo các lô nhỏ hơn và đóng nhanh đối tượng `Metadata`. |
+| High memory consumption | Xử lý tệp theo các lô nhỏ hơn và đóng nhanh mỗi đối tượng `Metadata`. |
 
 ## Câu hỏi thường gặp
-**H: Phiên bản Java nào cần thiết cho GroupDocs.Metadata?**  
-Đ: JDK 8 trở lên được khuyến nghị để tương thích đầy đủ.
+**Q: Phiên bản Java nào được yêu cầu cho GroupDocs.Metadata?**  
+A: JDK 8 trở lên được khuyến nghị để tương thích đầy đủ.
 
-**H: Tôi có thể trích xuất siêu dữ liệu từ các định dạng khác ngoài sơ đồ không?**  
-Đ: Có, GroupDocs.Metadata hỗ trợ nhiều loại tài liệu, bao gồm PDF, Word và Excel.
+**Q: Tôi có thể trích xuất siêu dữ liệu từ các định dạng khác ngoài sơ đồ không?**  
+A: Có, GroupDocs.Metadata hỗ trợ nhiều loại tài liệu, bao gồm PDF, Word và Excel.
 
-**H: Làm sao xử lý các tệp sơ đồ rất lớn một cách hiệu quả?**  
-Đ: Sử dụng xử lý hàng loạt, giới hạn số lượng đối tượng `Metadata` đồng thời, và giám sát bộ nhớ JVM.
+**Q: Làm thế nào để xử lý các tệp sơ đồ rất lớn một cách hiệu quả?**  
+A: Sử dụng xử lý theo lô, giới hạn số lượng đối tượng `Metadata` đồng thời, và giám sát bộ nhớ JVM.
 
-**H: Những lỗi thường gặp khi trích xuất siêu dữ liệu là gì?**  
-Đ: Các lỗi phổ biến bao gồm đường dẫn tệp không đúng và phiên bản thư viện không tương thích.
+**Q: Những lỗi thường gặp khi trích xuất siêu dữ liệu là gì?**  
+A: Các lỗi phổ biến bao gồm đường dẫn tệp không đúng và phiên bản thư viện không khớp.
 
-**H: Có thể tùy chỉnh các trường siêu dữ liệu được đọc không?**  
-Đ: Mặc dù hướng dẫn này tập trung vào các thuộc tính tích hợp sẵn, API cho phép truy vấn các thuộc tính tùy chỉnh nữa.
+**Q: Có thể tùy chỉnh các trường siêu dữ liệu được đọc không?**  
+A: Mặc dù hướng dẫn này chỉ đề cập đến các thuộc tính tích hợp sẵn, API cũng cho phép truy vấn các thuộc tính tùy chỉnh cho nhu cầu **extract custom properties java**.
 
 ## Tài nguyên
-- [Documentation](https://docs.groupdocs.com/metadata/java/)
-- [API Reference](https://reference.groupdocs.com/metadata/java/)
-- [Download](https://releases.groupdocs.com/metadata/java/)
-- [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
-- [Free Support Forum](https://forum.groupdocs.com/c/metadata/)
-- [Temporary License Application](https://purchase.groupdocs.com/temporary-license/)
+- [Tài liệu](https://docs.groupdocs.com/metadata/java/)
+- [Tham chiếu API](https://reference.groupdocs.com/metadata/java/)
+- [Tải xuống](https://releases.groupdocs.com/metadata/java/)
+- [Kho GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- [Diễn đàn hỗ trợ miễn phí](https://forum.groupdocs.com/c/metadata/)
+- [Đăng ký giấy phép tạm thời](https://purchase.groupdocs.com/temporary-license/)
 
-Bằng cách làm theo hướng dẫn này, bạn đã nắm vững cách khai thác **java document properties** từ các tệp sơ đồ bằng GroupDocs.Metadata cho Java. Áp dụng các kỹ thuật này vào quy trình làm việc để cải thiện việc tổ chức tài sản, tuân thủ và tự động hoá.
+Bằng cách theo dõi hướng dẫn này, bạn đã có kỹ năng khai thác **extract diagram metadata Java** từ các tệp sơ đồ bằng GroupDocs.Metadata cho Java. Áp dụng các kỹ thuật này vào quy trình làm việc của bạn để cải thiện việc tổ chức tài sản, tuân thủ và tự động hoá.
 
 ---
 
-**Cập nhật lần cuối:** 2026-01-16  
-**Đã kiểm thử với:** GroupDocs.Metadata 24.12 cho Java  
+**Cập nhật lần cuối:** 2026-03-20  
+**Đã kiểm tra với:** GroupDocs.Metadata 24.12 for Java  
 **Tác giả:** GroupDocs

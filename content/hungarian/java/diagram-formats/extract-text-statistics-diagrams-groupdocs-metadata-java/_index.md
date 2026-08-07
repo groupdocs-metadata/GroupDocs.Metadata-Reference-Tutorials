@@ -1,8 +1,8 @@
 ---
-date: '2026-01-13'
-description: Tanulja meg, hogyan lehet lekérni a diagram oldal számát és szöveges
-  statisztikákat kinyerni a diagramokból a GroupDocs.Metadata for Java használatával.
-  Lépésről‑lépésre beállítás és kódrészletek is szerepelnek.
+date: '2026-03-20'
+description: Tanulja meg, hogyan lehet lekérdezni a diagram oldalainak számát és kinyerni
+  a szöveges statisztikákat a diagramokból a GroupDocs.Metadata for Java használatával.
+  Lépésről lépésre útmutató és kódrészletek is szerepelnek.
 keywords:
 - get diagram page count
 - extract text statistics diagrams
@@ -14,29 +14,29 @@ url: /hu/java/diagram-formats/extract-text-statistics-diagrams-groupdocs-metadat
 weight: 1
 ---
 
-# Diagramoldalak számának lekérése a GroupDocs.Metadata for Java segítségével
+# Diagram Oldalszám Lekérése a GroupDocs.Metadata for Java segítségével
 
-A modern szoftverprojektekben a **diagramoldalak számának** gyors lekérése rengeteg időt takaríthat meg – különösen, ha jelentéseket kell generálni vagy dokumentációs csővezetékeket automatizálni. Ebben az útmutatóban megtanulja, hogyan használja a GroupDocs.Metadata for Java-t a diagramfájlok, például a VDX, oldalainak számának és más hasznos szöveges statisztikák kinyerésére. Végigvezetjük a szükséges beállításon, megmutatjuk a pontos kódot, és megvitatjuk a valós életbeli forgatókönyveket, ahol ez a képesség kiemelkedik.
+A modern szoftverprojektekben a **diagram oldalszám gyors lekérése** rengeteg időt takaríthat meg – különösen, ha jelentéseket kell generálni vagy dokumentációs folyamatokat automatizálni. Ez az útmutató pontosan bemutatja, hogyan használhatja a GroupDocs.Metadata for Java‑t a diagramfájlok (például VDX, VSDX és továbbiak) oldalszámának és egyéb hasznos szöveges statisztikáinak lekérésére.
 
 ## Gyors válaszok
-- **Mit jelent a “diagramoldalak számának lekérése”?** A diagramfájlban lévő összes oldal (vagy lap) számát adja vissza.  
+- **Mit jelent a „diagram oldalszám lekérése”?** Visszaadja a diagramfájlban található oldalak (vagy lapok) teljes számát.  
 - **Melyik könyvtár biztosítja ezt a funkciót?** GroupDocs.Metadata for Java.  
-- **Szükségem van licencre?** Egy ingyenes próba a kiértékeléshez működik; a termeléshez állandó licenc szükséges.  
+- **Szükség van licencre?** Egy ingyenes próbaverzió elegendő az értékeléshez; a termeléshez állandó licenc szükséges.  
 - **Milyen Java verzió szükséges?** JDK 8 vagy újabb.  
-- **Feldolgozhatok több diagramot egy ciklusban?** Igen – egyszerűen példányosítsa a `Metadata`‑t minden fájlhoz a ciklusban.
+- **Feldolgozhatok több diagramot egy ciklusban?** Igen – egyszerűen példányosítsa a `Metadata`‑t minden fájlra a ciklusban.
 
-## Mi a “diagramoldalak számának lekérése”?
-A diagramoldalak számának lekérése azt jelenti, hogy a diagram metaadatait lekérdezzük, hogy megtudjuk, hány egyedi oldal vagy vászon található a fájlban. Ez az információ a GroupDocs.Metadata által közzétett dokumentumstatisztikák része.
+## Mi a „diagram oldalszám lekérése”?
+A diagram oldalszám lekérése azt jelenti, hogy a diagram metaadatait lekérdezzük, hogy megtudjuk, hány egyedi oldal vagy vászon található a fájlban. Ez az információ a GroupDocs.Metadata által kiadott dokumentumstatisztikák része.
 
 ## Miért használjuk a GroupDocs.Metadata for Java‑t?
-- **Gyors, könnyű kivonás** – Nem szükséges a teljes diagram megjelenítése.  
-- **Széles körű formátumtámogatás** – Működik VDX, VSDX és sok más diagramtípussal.  
-- **Egyszerű API** – Néhány kódsorral megkapja az oldal számát, a szerzőt, a létrehozás dátumát és még sok mást.
+- **Gyors, könnyű kinyerés** – Nem szükséges a teljes diagramot renderelni.  
+- **Széles körű formátumtámogatás** – Működik VDX, VSDX és számos más diagramtípussal.  
+- **Egyszerű API** – Néhány kódsorral megkapja az oldalszámot, szerzőt, létrehozási dátumot és egyebeket.  
 
-## Előkövetelmények
+## Előfeltételek
 - **GroupDocs.Metadata for Java** (24.12 vagy újabb verzió).  
-- **JDK 8+** telepítve a gépén.  
-- Egy IDE, például IntelliJ IDEA vagy Eclipse.  
+- **JDK 8+** telepítve a gépen.  
+- IntelliJ IDEA vagy Eclipse IDE.  
 - Maven a függőségkezeléshez.  
 
 ## A GroupDocs.Metadata for Java beállítása
@@ -66,12 +66,13 @@ Adja hozzá a tárolót és a függőséget a `pom.xml`‑hez pontosan az alább
 Ha nem szeretne Maven‑t használni, töltse le a legújabb JAR‑t a hivatalos kiadási oldalról: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Licenc beszerzése
-- **Ingyenes próba** – Töltse le és fedezze fel az összes funkciót költség nélkül.  
-- **Ideiglenes licenc** – Kérjen ideiglenes kulcsot korlátlan teszteléshez.  
-- **Teljes licenc** – Vásárolja meg korlátlan termelési használathoz.  
+- **Ingyenes próbaverzió** – Töltse le és fedezze fel az összes funkciót költség nélkül.  
+- **Ideiglenes licenc** – Kérjen ideiglenes kulcsot a korlátlan teszteléshez.  
+- **Teljes licenc** – Vásárolja meg a korlátlan termelési használathoz.
 
-### Alapvető inicializálás
-Az alábbi a minimális kód, amely a diagramfájllal való munka megkezdéséhez szükséges. Ez a részlet **initializálja a Metadata objektumot**, amely minden további művelet, köztük a diagramoldalak számának lekérésének belépési pontja.
+## Alapvető inicializálás
+
+Az alábbi minimális kód elegendő a diagramfájlokkal való munka megkezdéséhez. Ez a részlet **initializálja a Metadata objektumot**, amely minden további művelet kiindulópontja, beleértve a diagram oldalszám lekérését is.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -86,12 +87,13 @@ public class DiagramInitialization {
 }
 ```
 
-## Implementációs útmutató – Diagramoldalak számának lekérése
+## Hogyan olvassuk ki a diagram statisztikákat a GroupDocs.Metadata Java‑val
 
-Miután a könyvtár készen áll, merüljünk el a pontos lépésekben az oldal számának lekéréséhez.
+Miután a könyvtár készen áll, lépésről lépésre bemutatjuk, hogyan nyerjük ki az oldalszámot és egyéb statisztikákat.
 
 ### 1. lépés: Szerezzük meg a gyökércsomagot
-Minden diagramtípusnak van egy specifikus gyökércsomagja, amely hozzáférést biztosít a metaadataihoz. Használja a generikus `getRootPackageGeneric()` metódust a lekéréshez.
+
+Minden diagramtípusnak van egy saját gyökércsomagja, amely hozzáférést biztosít a metaadatokhoz. Használja a generikus `getRootPackageGeneric()` metódust a lekéréshez.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -106,8 +108,9 @@ public class DiagramReadDocumentStatistics {
             DiagramRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### 2. lépés: Dokumentumstatisztikák elérése (Diagramoldalak számának lekérése)
-A gyökércsomag birtokában meghívhatja a `getDocumentStatistics()`‑t, majd a `getPageCount()`‑t a **diagramoldalak számának lekéréséhez**.
+### 2. lépés: Dokumentumstatisztikák elérése (Diagram oldalszám lekérése)
+
+A gyökércsomag birtokában meghívhatja a `getDocumentStatistics()`‑t, majd a `getPageCount()`‑t a **diagram oldalszám lekéréséhez**.
 
 ```java
             int pageCount = root.getDocumentStatistics().getPageCount();
@@ -117,10 +120,11 @@ A gyökércsomag birtokában meghívhatja a `getDocumentStatistics()`‑t, majd 
 }
 ```
 
-**Magyarázat**: A `getDocumentStatistics()` egy olyan objektumot ad vissza, amely több hasznos metrikát tartalmaz, többek között az oldalak számát. A `pageCount` változó ezért a diagram összes oldalát jelenti.
+**Magyarázat**: A `getDocumentStatistics()` egy olyan objektumot ad vissza, amely több hasznos metrikát tartalmaz, többek között az oldalak számát. A `pageCount` változó tehát a diagram teljes oldalszámát jelenti.
 
-### 3. lépés: Kivételkezelés elegánsan
-A fájlokkal kapcsolatos műveletek sok okból meghiúsulhatnak (hiányzó fájl, nem támogatott formátum stb.). Tegye a kódját try‑catch blokkba, hogy egyértelmű hibaüzeneteket kapjon.
+### 3. lépés: Kivételek kezelése
+
+A fájlokkal kapcsolatos műveletek számos okból meghiúsulhatnak (hiányzó fájl, nem támogatott formátum stb.). Csomagolja a kódot try‑catch blokkba, hogy egyértelmű hibaüzeneteket kapjon.
 
 ```java
         } catch (Exception e) {
@@ -130,58 +134,58 @@ A fájlokkal kapcsolatos műveletek sok okból meghiúsulhatnak (hiányzó fájl
 }
 ```
 
-**Hibaelhárítási tippek**  
-- Ellenőrizze, hogy a fájl útvonala (`inputPath`) egy létező diagramfájlra mutat.  
-- Győződjön meg róla, hogy a diagram formátuma (pl. VDX) támogatott a GroupDocs.Metadata aktuális verziójában.  
-- Ha licenchibát kap, ellenőrizze, hogy egy érvényes próba vagy teljes licenckulcs van alkalmazva.
-
 ## Gyakorlati alkalmazások
 
-| Használati eset | Hogyan segít az oldal szám |
-|-----------------|----------------------------|
-| **Projektmenedzsment** | Gyorsan becsülje a munkamennyiséget a folyamatábrák vagy architektúra diagramok oldalainak számolásával. |
-| **Automatizált jelentéskészítés** | Generáljon összegző táblázatokat, amelyek felsorolják minden diagramot és annak oldal számát a stakeholder‑áttekintésekhez. |
-| **Adat-analitika** | Az oldal‑szám metrikákat táplálja a műszerfalakba a dokumentáció növekedésének időbeli nyomon követéséhez. |
+| Felhasználási eset | Hogyan segít az oldalszám |
+|--------------------|---------------------------|
+| **Projektmenedzsment** | Gyorsan becsülhető a munka mennyisége a folyamatábrák vagy architektúra diagramok oldalszámának számlálásával. |
+| **Automatizált jelentéskészítés** | Összegző táblázatok generálása, amelyek felsorolják minden diagramot és annak oldalszámát a stakeholder‑ek számára. |
+| **Adat-analitika** | Az oldalszám-mutatókat be lehet táplálni irányítópultokba a dokumentáció növekedésének időbeli nyomon követéséhez. |
 
 ## Teljesítménybeli megfontolások
-- **Erőforrás-kezelés**: Használja a Java try‑with‑resources‑t (ahogy a példában látható) a `Metadata` objektum automatikus lezárásához és a memória felszabadításához.  
-- **Kötegelt feldolgozás**: Sok diagram kezelésekor használja újra egyetlen `Metadata` példányt fájlonként, és kerülje a felesleges adatok betöltését.  
 
-## Következtetés
-Most már tudja, hogyan **kérdezheti le a diagramoldalak számát** és nyerhet ki más szöveges statisztikákat a GroupDocs.Metadata for Java segítségével. Ez a könnyű megközelítés integrálható nagyobb automatizálási csővezetékekbe, jelentéskészítő eszközökbe vagy bármely alkalmazásba, amely gyors betekintést igényel a diagramfájlokba.
+- **Erőforrás-kezelés**: Használja a Java try‑with‑resources szerkezetét (ahogy a példában látható) a `Metadata` objektum automatikus lezárásához és a memória felszabadításához.  
+- **Kötegelt feldolgozás**: Több diagram esetén újrahasznosítsa egyetlen `Metadata` példányt fájlonként, és kerüljön el felesleges adatok betöltését.  
 
-### Következő lépések
-- Fedezze fel a további statisztikákat, például a szerzőt, a létrehozás dátumát és az egyedi tulajdonságokat.  
-- Kombinálja az oldal‑szám logikát a fájlrendszer beolvasásával a diagramok teljes mappáinak feldolgozásához.  
-- Tekintse meg a hivatalos forrásokat a mélyebb API lefedettségért.
+## Gyakori problémák és megoldások
 
-## GyIK szakasz
+- **Fájl nem található** – Ellenőrizze az `inputPath`‑t, és győződjön meg róla, hogy a fájl létezik a lemezen.  
+- **Nem támogatott formátum** – Győződjön meg arról, hogy a diagram típusa (pl. VDX) szerepel a használt verzió támogatott formátumai között.  
+- **Licenc hiba** – Bizonyosodjon meg arról, hogy a `Metadata` objektum létrehozása előtt érvényes próbaverzió‑ vagy teljes licenckulcs van alkalmazva.  
 
-1. **Milyen fájlformátumokat támogat a GroupDocs.Metadata diagramokhoz?**  
-   - Támogatja a VDX, VSDX és sok más, vállalati környezetben használt közös diagramformátumot.  
+## Gyakran Ismételt Kérdések
 
-2. **Használhatom a GroupDocs.Metadata‑t nem diagram dokumentumokkal?**  
-   - Igen, a könyvtár működik PDF‑ekkel, Word fájlokkal, táblázatokkal és még sok mással, egységes metaadat-kinyerési élményt nyújtva.  
+**Q:** Milyen fájlformátumokat támogat a GroupDocs.Metadata diagramokhoz?  
+**A:** Támogatja a VDX, VSDX és számos más, vállalati környezetben gyakran használt diagramformátumot.
 
-3. **Hogyan kezeljem a nem támogatott fájlformátumokat?**  
-   - Ellenőrizze a fájl kiterjesztését a dokumentációban szereplő támogatott listával. Ismeretlen formátumok esetén fontolja meg, hogy először átalakítja őket egy támogatott típusra.  
+**Q:** Használhatom a GroupDocs.Metadata‑t nem‑diagram dokumentumokkal is?  
+**A:** Igen, a könyvtár működik PDF‑ekkel, Word‑fájlokkal, táblázatokkal és egyebekkel, egységes metaadat‑kinyerési élményt nyújtva.
 
-4. **Van korlátja annak, hogy hány diagramot dolgozhatok fel egyszerre?**  
-   - Nincs szigorú korlát, de nagyon nagy köteg feldolgozása esetén figyelmet kell fordítani a memóriahasználatra és a szálkezelési stratégiákra.  
+**Q:** Hogyan kezeljem a nem támogatott fájlformátumokat?  
+**A:** Ellenőrizze a fájl kiterjesztését a dokumentációban felsorolt támogatott listával. Ismeretlen formátumok esetén először konvertálja őket egy támogatott típusra.
 
-5. **Mit tegyek, ha inicializációs hibát kapok?**  
-   - Ellenőrizze újra a fájl útvonalát, győződjön meg róla, hogy a JAR‑ok helyesen vannak hozzáadva az osztályúthoz, és erősítse meg, hogy egy érvényes licenc (akár próba) alkalmazva van.  
+**Q:** Van korlátozás a egyszerre feldolgozható diagramok számát illetően?  
+**A:** Nincs szigorú korlát, de nagyon nagy köteg esetén figyelni kell a memóriahasználatra és a szálkezelési stratégiákra.
+
+**Q:** Mit tegyek, ha inicializálási hibát kapok?  
+**A:** Ellenőrizze a fájl útvonalát, győződjön meg róla, hogy a JAR‑ok helyesen vannak a classpath‑ban, és hogy egy érvényes licenc (akár próbaverzió) alkalmazva van.
+
+## Következő lépések
+
+- Fedezzen fel további statisztikákat, például szerzőt, létrehozási dátumot és egyedi tulajdonságokat.  
+- Kombinálja az oldalszám‑logikát fájlrendszer‑szkenneléssel, hogy teljes mappákat dolgozzon fel diagramokkal.  
+- Tekintse át a hivatalos API‑referenciát a mélyebb testreszabási lehetőségekért.
 
 ## Források
-- [Dokumentáció](https://docs.groupdocs.com/metadata/java/)
-- [API referencia](https://reference.groupdocs.com/metadata/java/)
-- [Letöltés](https://releases.groupdocs.com/metadata/java/)
-- [GitHub tároló](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
-- [Ingyenes támogatási fórum](https://forum.groupdocs.com/c/metadata/)
-- [Ideiglenes licenc kérelmezése](https://purchase.groupdocs.com/temporary-license/)
+- [Documentation](https://docs.groupdocs.com/metadata/java/)
+- [API Reference](https://reference.groupdocs.com/metadata/java/)
+- [Download](https://releases.groupdocs.com/metadata/java/)
+- [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- [Free Support Forum](https://forum.groupdocs.com/c/metadata/)
+- [Temporary License Application](https://purchase.groupdocs.com/temporary-license/) 
 
 ---
 
-**Utolsó frissítés:** 2026-01-13  
-**Tesztelve ezzel:** GroupDocs.Metadata 24.12 for Java  
+**Utoljára frissítve:** 2026-03-20  
+**Tesztelve:** GroupDocs.Metadata 24.12 for Java  
 **Szerző:** GroupDocs

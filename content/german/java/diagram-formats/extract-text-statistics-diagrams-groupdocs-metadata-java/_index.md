@@ -1,5 +1,5 @@
 ---
-date: '2026-01-13'
+date: '2026-03-20'
 description: Erfahren Sie, wie Sie die Seitenzahl von Diagrammen ermitteln und Textstatistiken
   aus Diagrammen mit GroupDocs.Metadata für Java extrahieren. Schritt‑für‑Schritt‑Anleitung
   und Codebeispiele inklusive.
@@ -14,19 +14,19 @@ url: /de/java/diagram-formats/extract-text-statistics-diagrams-groupdocs-metadat
 weight: 1
 ---
 
-# Diagramseitenzahl mit GroupDocs.Metadata für Java abrufen
+# Diagramseitenzahl mit GroupDocs.Metadata für Java ermitteln
 
-In modernen Softwareprojekten kann das schnelle **get diagram page count** viel Zeit sparen – besonders wenn Sie Berichte erstellen oder Dokumentations‑Pipelines automatisieren müssen. In diesem Tutorial lernen Sie, wie Sie GroupDocs.Metadata für Java verwenden, um sowohl die Seitenzahl als auch weitere nützliche Textstatistiken aus Diagrammdateien wie VDX zu extrahieren. Wir führen Sie durch die erforderliche Einrichtung, zeigen Ihnen den genauen Code und besprechen praxisnahe Szenarien, in denen diese Fähigkeit glänzt.
+In modernen Softwareprojekten kann das schnelle **Abrufen der Diagramseitenzahl** viel Zeit sparen – besonders wenn Sie Berichte erstellen oder Dokumentations‑Pipelines automatisieren müssen. Dieses Tutorial zeigt Ihnen genau, wie Sie GroupDocs.Metadata für Java verwenden, um die Seitenzahl und weitere nützliche Textstatistiken aus Diagrammdateien wie VDX, VSDX und mehr zu extrahieren.
 
 ## Schnellantworten
-- **Was bedeutet „get diagram page count“?** Sie gibt die Gesamtzahl der Seiten (oder Blätter) in einer Diagrammdatei zurück.  
+- **Was bedeutet „Diagramseitenzahl ermitteln“?** Sie gibt die Gesamtzahl der Seiten (oder Blätter) in einer Diagrammdatei zurück.  
 - **Welche Bibliothek stellt diese Funktion bereit?** GroupDocs.Metadata für Java.  
 - **Benötige ich eine Lizenz?** Eine kostenlose Testversion reicht für die Evaluierung; für den Produktionseinsatz ist eine permanente Lizenz erforderlich.  
 - **Welche Java‑Version wird benötigt?** JDK 8 oder höher.  
-- **Kann ich mehrere Diagramme in einer Schleife verarbeiten?** Ja – einfach für jede Datei im Loop ein `Metadata`‑Objekt instanziieren.
+- **Kann ich mehrere Diagramme in einer Schleife verarbeiten?** Ja – instanziieren Sie einfach `Metadata` für jede Datei innerhalb Ihrer Schleife.
 
-## Was bedeutet „get diagram page count“?
-Das Abrufen der Diagramseitenzahl bedeutet, die Metadaten des Diagramms abzufragen, um herauszufinden, wie viele einzelne Seiten oder Leinwände die Datei enthält. Diese Information ist Teil der Dokumentstatistiken, die GroupDocs.Metadata bereitstellt.
+## Was bedeutet „Diagramseitenzahl ermitteln“?
+Das Ermitteln der Diagramseitenzahl bedeutet, die Metadaten des Diagramms abzufragen, um herauszufinden, wie viele einzelne Seiten oder Leinwände die Datei enthält. Diese Information ist Teil der Dokumentstatistiken, die GroupDocs.Metadata bereitstellt.
 
 ## Warum GroupDocs.Metadata für Java verwenden?
 - **Schnelle, leichte Extraktion** – Keine Notwendigkeit, das gesamte Diagramm zu rendern.  
@@ -41,7 +41,7 @@ Das Abrufen der Diagramseitenzahl bedeutet, die Metadaten des Diagramms abzufrag
 
 ## GroupDocs.Metadata für Java einrichten
 
-### Mit Maven
+### Verwendung von Maven
 Fügen Sie das Repository und die Abhängigkeit zu Ihrer `pom.xml` exakt wie unten gezeigt hinzu:
 
 ```xml
@@ -67,12 +67,12 @@ Falls Sie Maven nicht verwenden möchten, laden Sie das neueste JAR von der offi
 
 ### Lizenzbeschaffung
 - **Kostenlose Testversion** – Laden Sie sie herunter und testen Sie alle Funktionen ohne Kosten.  
-- **Temporäre Lizenz** – Fordern Sie einen temporären Schlüssel für uneingeschränkte Tests an.  
-- **Vollständige Lizenz** – Kaufen Sie sie für unbegrenzte Nutzung in der Produktion.
+- **Temporäre Lizenz** – Fordern Sie einen temporären Schlüssel für uneingeschränktes Testen an.  
+- **Vollständige Lizenz** – Kaufen Sie sie für uneingeschränkten Produktionseinsatz.
 
-### Grundlegende Initialisierung
+## Grundlegende Initialisierung
 
-Unten finden Sie den minimalen Code, der benötigt wird, um mit einer Diagrammdatei zu arbeiten. Dieses Snippet **initialisiert das Metadata‑Objekt**, das Einstiegspunkt für alle weiteren Vorgänge ist, einschließlich des Abrufs der Diagramseitenzahl.
+Im Folgenden finden Sie den minimalen Code, der benötigt wird, um mit einer Diagrammdatei zu arbeiten. Dieses Snippet **initialisiert das Metadata‑Objekt**, das Einstiegspunkt für alle weiteren Operationen ist, einschließlich dem Abrufen der Diagramseitenzahl.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -87,11 +87,11 @@ public class DiagramInitialization {
 }
 ```
 
-## Implementierungs‑Leitfaden – Diagramseitenzahl abrufen
+## Wie man Diagrammstatistiken mit GroupDocs.Metadata Java liest
 
-Jetzt, wo die Bibliothek bereitsteht, gehen wir die genauen Schritte zum Abrufen der Seitenzahl durch.
+Jetzt, wo die Bibliothek bereitsteht, gehen wir die genauen Schritte zum Abrufen der Seitenzahl und weiterer Statistiken durch.
 
-### Schritt 1: Root‑Package ermitteln
+### Schritt 1: Root‑Package erhalten
 
 Jeder Diagrammtyp hat ein spezifisches Root‑Package, das Zugriff auf seine Metadaten gewährt. Verwenden Sie die generische Methode `getRootPackageGeneric()`, um es zu holen.
 
@@ -108,9 +108,9 @@ public class DiagramReadDocumentStatistics {
             DiagramRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### Schritt 2: Dokumentstatistiken zugreifen (Diagramseitenzahl erhalten)
+### Schritt 2: Dokumentstatistiken zugreifen (Diagramseitenzahl ermitteln)
 
-Mit dem Root‑Package in der Hand können Sie `getDocumentStatistics()` aufrufen und anschließend `getPageCount()`, um **get diagram page count** zu erhalten.
+Mit dem erhaltenen Root‑Package können Sie `getDocumentStatistics()` aufrufen und anschließend `getPageCount()`, um die **Diagramseitenzahl** zu erhalten.
 
 ```java
             int pageCount = root.getDocumentStatistics().getPageCount();
@@ -120,11 +120,11 @@ Mit dem Root‑Package in der Hand können Sie `getDocumentStatistics()` aufrufe
 }
 ```
 
-**Erklärung**: `getDocumentStatistics()` liefert ein Objekt, das mehrere nützliche Kennzahlen enthält, darunter die Seitenzahl. Die Variable `pageCount` stellt somit die Gesamtzahl der Seiten im Diagramm dar.
+**Erklärung**: `getDocumentStatistics()` liefert ein Objekt, das mehrere nützliche Kennzahlen enthält, darunter die Anzahl der Seiten. Die Variable `pageCount` stellt somit die Gesamtseitenzahl im Diagramm dar.
 
-### Schritt 3: Ausnahmen sauber behandeln
+### Schritt 3: Ausnahmen elegant behandeln
 
-Datei‑bezogene Vorgänge können aus vielen Gründen fehlschlagen (fehlende Datei, nicht unterstütztes Format usw.). Um klare Fehlermeldungen zu erhalten, wickeln Sie Ihren Code in einen try‑catch‑Block.
+Datei‑bezogene Vorgänge können aus vielen Gründen fehlschlagen (fehlende Datei, nicht unterstütztes Format usw.). Um klare Fehlermeldungen zu erhalten, packen Sie Ihren Code in einen try‑catch‑Block.
 
 ```java
         } catch (Exception e) {
@@ -134,49 +134,47 @@ Datei‑bezogene Vorgänge können aus vielen Gründen fehlschlagen (fehlende Da
 }
 ```
 
-**Fehlerbehebungstipps**  
-- Prüfen Sie, ob der Dateipfad (`inputPath`) auf eine vorhandene Diagrammdatei zeigt.  
-- Stellen Sie sicher, dass das Diagrammformat (z. B. VDX) von der aktuellen Version von GroupDocs.Metadata unterstützt wird.  
-- Wenn Sie einen Lizenzfehler erhalten, vergewissern Sie sich, dass ein gültiger Test‑ oder Voll‑Lizenzschlüssel angewendet wurde.
-
 ## Praktische Anwendungsfälle
 
 | Anwendungsfall | Wie die Seitenzahl hilft |
 |----------------|--------------------------|
-| **Projektmanagement** | Aufwand schnell abschätzen, indem man Seiten in Flussdiagrammen oder Architekturskizzen zählt. |
+| **Projektmanagement** | Schnell den Aufwand abschätzen, indem Sie die Seiten in Flussdiagrammen oder Architekturskizzen zählen. |
 | **Automatisierte Berichterstellung** | Zusammenfassungstabellen erzeugen, die jedes Diagramm und seine Seitenzahl für Stakeholder‑Reviews auflisten. |
-| **Datenanalyse** | Seitenzahl‑Metriken in Dashboards einspeisen, um das Wachstum der Dokumentation über die Zeit zu überwachen. |
+| **Datenanalyse** | Seitenzahl‑Metriken in Dashboards einspeisen, um das Wachstum der Dokumentation im Zeitverlauf zu überwachen. |
 
 ## Leistungsüberlegungen
 
-- **Ressourcenverwaltung**: Nutzen Sie Java’s try‑with‑resources (wie gezeigt), um das `Metadata`‑Objekt automatisch zu schließen und Speicher freizugeben.  
-- **Batch‑Verarbeitung**: Bei vielen Diagrammen ein einzelnes `Metadata`‑Instanz pro Datei wiederverwenden und unnötige Daten nicht laden.  
+- **Ressourcenverwaltung**: Verwenden Sie Java’s try‑with‑resources (wie gezeigt), um das `Metadata`‑Objekt automatisch zu schließen und Speicher freizugeben.  
+- **Batch‑Verarbeitung**: Beim Umgang mit vielen Diagrammen wiederverwenden Sie eine einzelne `Metadata`‑Instanz pro Datei und vermeiden Sie das Laden unnötiger Daten.  
 
-## Fazit
+## Häufige Probleme und Lösungen
 
-Sie wissen jetzt, wie Sie **get diagram page count** und weitere Textstatistiken mit GroupDocs.Metadata für Java abrufen. Dieser leichte Ansatz lässt sich in größere Automatisierungspipelines, Reporting‑Tools oder jede Anwendung integrieren, die schnellen Einblick in Diagrammdateien benötigt.
+- **Datei nicht gefunden** – Prüfen Sie den `inputPath` und stellen Sie sicher, dass die Datei auf dem Datenträger existiert.  
+- **Nicht unterstütztes Format** – Vergewissern Sie sich, dass Ihr Diagrammtyp (z. B. VDX) in der Liste der unterstützten Formate für Ihre Version aufgeführt ist.  
+- **Lizenzfehler** – Stellen Sie sicher, dass ein gültiger Test‑ oder Volllizenzschlüssel angewendet wurde, bevor Sie das `Metadata`‑Objekt erstellen.  
 
-### Nächste Schritte
+## Häufig gestellte Fragen
+
+**F:** Welche Dateiformate werden von GroupDocs.Metadata für Diagramme unterstützt?  
+**A:** Unterstützt werden VDX, VSDX und viele andere gängige Diagrammformate, die in Unternehmensumgebungen verwendet werden.
+
+**F:** Kann ich GroupDocs.Metadata mit Nicht‑Diagramm‑Dokumenten verwenden?  
+**A:** Ja, die Bibliothek funktioniert mit PDFs, Word‑Dateien, Tabellenkalkulationen und mehr und bietet ein einheitliches Metadaten‑Extraktions‑Erlebnis.
+
+**F:** Wie gehe ich mit nicht unterstützten Dateiformaten um?  
+**A:** Prüfen Sie die Dateierweiterung gegen die unterstützte Liste in der Dokumentation. Für unbekannte Formate sollten Sie sie zunächst in ein unterstütztes Format konvertieren.
+
+**F:** Gibt es ein Limit für die Anzahl der Diagramme, die ich gleichzeitig verarbeiten kann?  
+**A:** Es gibt kein festes Limit, jedoch kann die Verarbeitung einer sehr großen Charge Speicher‑ und Thread‑Strategien erfordern.
+
+**F:** Was tun, wenn ein Initialisierungsfehler auftritt?  
+**A:** Prüfen Sie den Dateipfad, stellen Sie sicher, dass die JAR‑Dateien korrekt im Klassenpfad eingebunden sind, und bestätigen Sie, dass eine gültige Lizenz (auch eine Testlizenz) angewendet wurde.
+
+## Nächste Schritte
+
 - Weitere Statistiken wie Autor, Erstellungsdatum und benutzerdefinierte Eigenschaften erkunden.  
-- Die Seitenzahl‑Logik mit Dateisystem‑Scans kombinieren, um ganze Ordner von Diagrammen zu verarbeiten.  
-- Die offiziellen Ressourcen für eine tiefere API‑Abdeckung prüfen.
-
-## FAQ‑Abschnitt
-
-1. **Welche Dateiformate werden von GroupDocs.Metadata für Diagramme unterstützt?**  
-   - Unterstützt werden VDX, VSDX und viele andere gängige Diagrammformate, die in Unternehmensumgebungen verwendet werden.
-
-2. **Kann ich GroupDocs.Metadata mit Nicht‑Diagramm‑Dokumenten verwenden?**  
-   - Ja, die Bibliothek funktioniert mit PDFs, Word‑Dateien, Tabellenkalkulationen und mehr und bietet ein einheitliches Metadaten‑Extraktions‑Erlebnis.
-
-3. **Wie gehe ich mit nicht unterstützten Dateiformaten um?**  
-   - Prüfen Sie die Dateierweiterung anhand der unterstützten Liste in der Dokumentation. Für unbekannte Formate sollten Sie sie zunächst in ein unterstütztes Format konvertieren.
-
-4. **Gibt es ein Limit für die Anzahl der Diagramme, die ich gleichzeitig verarbeiten kann?**  
-   - Es gibt kein festes Limit, jedoch kann die Verarbeitung sehr großer Stapel Aufmerksamkeit hinsichtlich Speicherverbrauch und Thread‑Strategien erfordern.
-
-5. **Was soll ich tun, wenn ein Initialisierungsfehler auftritt?**  
-   - Überprüfen Sie den Dateipfad, stellen Sie sicher, dass die JAR‑Dateien korrekt im Klassenpfad eingebunden sind, und bestätigen Sie, dass eine gültige Lizenz (auch eine Testlizenz) angewendet wurde.
+- Die Seitenzahl‑Logik mit Dateisystem‑Scanning kombinieren, um ganze Ordner von Diagrammen zu verarbeiten.  
+- Die offizielle API‑Referenz für tiefere Anpassungsoptionen prüfen.
 
 ## Ressourcen
 - [Documentation](https://docs.groupdocs.com/metadata/java/)
@@ -188,6 +186,6 @@ Sie wissen jetzt, wie Sie **get diagram page count** und weitere Textstatistiken
 
 ---
 
-**Zuletzt aktualisiert:** 2026-01-13  
-**Getestet mit:** GroupDocs.Metadata 24.12 für Java  
-**Autor:** GroupDocs
+**Last Updated:** 2026-03-20  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs

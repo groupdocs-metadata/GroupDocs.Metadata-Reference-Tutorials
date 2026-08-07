@@ -1,5 +1,5 @@
 ---
-date: '2026-01-13'
+date: '2026-03-20'
 description: Naučte se, jak získat počet stránek diagramu a extrahovat statistiky
   textu z diagramů pomocí GroupDocs.Metadata pro Javu. Krok za krokem nastavení a
   příklady kódu jsou zahrnuty.
@@ -16,33 +16,33 @@ weight: 1
 
 # Získání počtu stránek diagramu pomocí GroupDocs.Metadata pro Java
 
-V moderních softwarových projektech může rychlé **získání počtu stránek diagramu** ušetřit spoustu času – zejména když potřebujete generovat zprávy nebo automatizovat dokumentační pipeline. V tomto tutoriálu se naučíte, jak pomocí GroupDocs.Metadata pro Java extrahovat jak počet stránek, tak další užitečné textové statistiky z diagramových souborů, například VDX. Provedeme vás potřebným nastavením, ukážeme přesný kód, který potřebujete, a probereme reálné scénáře, kde tato schopnost vyniká.
+V moderních softwarových projektech může rychlé **získání počtu stránek diagramu** ušetřit spoustu času – zejména když potřebujete generovat zprávy nebo automatizovat dokumentační pipeline. Tento tutoriál vám ukáže, jak přesně použít GroupDocs.Metadata pro Java k získání počtu stránek a dalších užitečných textových statistik z diagramových souborů, jako jsou VDX, VSDX a další.
 
 ## Rychlé odpovědi
-- **Co znamená „získat počet stránek diagramu“?** Vrací celkový počet stránek (nebo listů) uvnitř souboru diagramu.  
+- **Co znamená „získat počet stránek diagramu“?** Vrací celkový počet stránek (nebo listů) uvnitř diagramového souboru.  
 - **Která knihovna tuto funkci poskytuje?** GroupDocs.Metadata pro Java.  
-- **Potřebuji licenci?** Pro hodnocení stačí bezplatná zkušební verze; pro produkční nasazení je vyžadována trvalá licence.  
-- **Jaká verze Javy je požadována?** JDK 8 nebo vyšší.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro hodnocení; pro produkční nasazení je vyžadována trvalá licence.  
+- **Jaká verze Javy je vyžadována?** JDK 8 nebo novější.  
 - **Mohu zpracovávat více diagramů ve smyčce?** Ano – stačí vytvořit instanci `Metadata` pro každý soubor uvnitř smyčky.
 
 ## Co znamená „získat počet stránek diagramu“?
 Získání počtu stránek diagramu znamená dotázat se na metadata diagramu a zjistit, kolik jednotlivých stránek nebo pláten soubor obsahuje. Tato informace je součástí statistiky dokumentu, kterou GroupDocs.Metadata poskytuje.
 
 ## Proč použít GroupDocs.Metadata pro Java?
-- **Rychlý, lehký výpis** – Není nutné renderovat celý diagram.  
+- **Rychlý, lehký extrakční proces** – Není nutné renderovat celý diagram.  
 - **Široká podpora formátů** – Funguje s VDX, VSDX a mnoha dalšími typy diagramů.  
 - **Jednoduché API** – Několik řádků kódu vám poskytne počet stránek, autora, datum vytvoření a další údaje.  
 
 ## Předpoklady
 - **GroupDocs.Metadata pro Java** (verze 24.12 nebo novější).  
 - **JDK 8+** nainstalované na vašem počítači.  
-- IDE, například IntelliJ IDEA nebo Eclipse.  
+- IDE jako IntelliJ IDEA nebo Eclipse.  
 - Maven pro správu závislostí.  
 
 ## Nastavení GroupDocs.Metadata pro Java
 
 ### Použití Maven
-Přidejte repozitář a závislost do souboru `pom.xml` přesně tak, jak je uvedeno níže:
+Přidejte repozitář a závislost do svého `pom.xml` přesně tak, jak je uvedeno níže:
 
 ```xml
 <repositories>
@@ -63,14 +63,14 @@ Přidejte repozitář a závislost do souboru `pom.xml` přesně tak, jak je uve
 ```
 
 ### Přímé stažení
-Pokud nechcete používat Maven, stáhněte si nejnovější JAR z oficiální stránky vydání: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Pokud nechcete používat Maven, stáhněte si nejnovější JAR ze stránky oficiálního vydání: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Získání licence
-- **Bezplatná zkušební verze** – Stáhněte a vyzkoušejte všechny funkce bez poplatku.  
+- **Bezplatná zkušební verze** – Stáhněte a vyzkoušejte všechny funkce zdarma.  
 - **Dočasná licence** – Požádejte o dočasný klíč pro neomezené testování.  
 - **Plná licence** – Zakupte pro neomezené používání v produkci.
 
-### Základní inicializace
+## Základní inicializace
 
 Níže je minimální kód potřebný k zahájení práce s diagramovým souborem. Tento úryvek **inicializuje objekt Metadata**, který je vstupním bodem pro všechny další operace, včetně získání počtu stránek diagramu.
 
@@ -87,11 +87,11 @@ public class DiagramInitialization {
 }
 ```
 
-## Průvodce implementací – Získání počtu stránek diagramu
+## Jak číst statistiky diagramu pomocí GroupDocs.Metadata Java
 
-Nyní, když je knihovna připravena, pojďme se podívat na přesné kroky pro získání počtu stránek.
+Nyní, když je knihovna připravena, projděme přesně kroky pro získání počtu stránek a dalších statistik.
 
-### Krok 1: Získání kořenového balíčku
+### Krok 1: Získání kořenového balíčku
 
 Každý typ diagramu má specifický kořenový balíček, který poskytuje přístup k jeho metadatům. Použijte obecnou metodu `getRootPackageGeneric()` k jeho načtení.
 
@@ -108,7 +108,7 @@ public class DiagramReadDocumentStatistics {
             DiagramRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### Krok 2: Přístup ke statistikám dokumentu (Získání počtu stránek diagramu)
+### Krok 2: Přístup k statistikám dokumentu (Získání počtu stránek diagramu)
 
 S kořenovým balíčkem v ruce můžete zavolat `getDocumentStatistics()` a následně `getPageCount()`, abyste **získali počet stránek diagramu**.
 
@@ -122,7 +122,7 @@ S kořenovým balíčkem v ruce můžete zavolat `getDocumentStatistics()` a ná
 
 **Vysvětlení**: `getDocumentStatistics()` vrací objekt, který obsahuje několik užitečných metrik, včetně počtu stránek. Proměnná `pageCount` tedy představuje celkový počet stránek v diagramu.
 
-### Krok 3: Ošetření výjimek
+### Krok 3: Ošetření výjimek
 
 Operace související se soubory mohou selhat z mnoha důvodů (chybějící soubor, nepodporovaný formát atd.). Zabalte svůj kód do bloku try‑catch, aby se zobrazily srozumitelné chybové zprávy.
 
@@ -134,17 +134,12 @@ Operace související se soubory mohou selhat z mnoha důvodů (chybějící sou
 }
 ```
 
-**Tipy pro řešení problémů**  
-- Ověřte, že cesta k souboru (`inputPath`) ukazuje na existující diagramový soubor.  
-- Ujistěte se, že formát diagramu (např. VDX) je podporován aktuální verzí GroupDocs.Metadata.  
-- Pokud obdržíte chybu licence, potvrďte, že je použita platná zkušební nebo plná licenční klíč.
-
 ## Praktické aplikace
 
 | Případ použití | Jak pomáhá počet stránek |
 |----------------|--------------------------|
 | **Projektové řízení** | Rychle odhadnout úsilí počítáním stránek v flowcharty nebo architektonických diagramech. |
-| **Automatizované reportování** | Vytvářet souhrnné tabulky, které uvádějí každý diagram a jeho počet stránek pro revize stakeholderů. |
+| **Automatizované reportování** | Generovat souhrnné tabulky, které uvádějí každý diagram a jeho počet stránek pro revize stakeholderů. |
 | **Data analytika** | Vkládat metriky počtu stránek do dashboardů pro sledování růstu dokumentace v čase. |
 
 ## Úvahy o výkonu
@@ -152,31 +147,34 @@ Operace související se soubory mohou selhat z mnoha důvodů (chybějící sou
 - **Správa zdrojů**: Používejte Java try‑with‑resources (jak je ukázáno) k automatickému uzavření objektu `Metadata` a uvolnění paměti.  
 - **Dávkové zpracování**: Při práci s mnoha diagramy znovu použijte jedinou instanci `Metadata` pro každý soubor a vyhněte se načítání zbytečných dat.  
 
-## Závěr
+## Časté problémy a řešení
 
-Nyní víte, jak **získat počet stránek diagramu** a extrahovat další textové statistiky pomocí GroupDocs.Metadata pro Java. Tento lehký přístup lze začlenit do větších automatizačních pipeline, reportovacích nástrojů nebo jakékoli aplikace, která potřebuje rychlý přehled o diagramových souborech.
-
-### Další kroky
-- Prozkoumejte další statistiky, jako jsou autor, datum vytvoření a vlastní vlastnosti.  
-- Kombinujte logiku počtu stránek s prohledáváním souborového systému pro zpracování celých složek diagramů.  
-- Podívejte se na oficiální zdroje pro podrobnější pokrytí API.
+- **Soubor nenalezen** – Zkontrolujte `inputPath` a ujistěte se, že soubor existuje na disku.  
+- **Nepodporovaný formát** – Ověřte, že váš typ diagramu (např. VDX) je uveden v seznamu podporovaných formátů pro verzi, kterou používáte.  
+- **Chyba licence** – Ujistěte se, že je před vytvořením objektu `Metadata` aplikován platný trial nebo plný licenční klíč.  
 
 ## Často kladené otázky
 
-1. **Jaké souborové formáty jsou podporovány GroupDocs.Metadata pro diagramy?**  
-   - Podporuje VDX, VSDX a mnoho dalších běžných formátů diagramů používaných v podnikovém prostředí.
+**Q:** Jaké souborové formáty jsou podporovány GroupDocs.Metadata pro diagramy?  
+**A:** Podporuje VDX, VSDX a mnoho dalších běžných diagramových formátů používaných v podnikovém prostředí.
 
-2. **Mohu použít GroupDocs.Metadata i s nediagramovými dokumenty?**  
-   - Ano, knihovna funguje s PDF, Word soubory, tabulkami a dalšími, poskytujíc jednotný zážitek z extrakce metadat.
+**Q:** Můžu použít GroupDocs.Metadata i s nedigramovými dokumenty?  
+**A:** Ano, knihovna funguje s PDF, Word soubory, tabulkami a dalšími, poskytuje jednotný zážitek z extrakce metadat.
 
-3. **Jak zacházet s nepodporovanými formáty souborů?**  
-   - Ověřte příponu souboru vůči seznamu podporovaných formátů v dokumentaci. U neznámých formátů zvažte jejich konverzi na podporovaný typ.
+**Q:** Jak zacházet s nepodporovanými formáty souborů?  
+**A:** Ověřte příponu souboru vůči seznamu podporovaných formátů v dokumentaci. Pro neznámé formáty zvažte jejich konverzi na podporovaný typ.
 
-4. **Existuje limit na počet diagramů, které mohu zpracovat najednou?**  
-   - Neexistuje pevný limit, ale zpracování velmi velkých dávek může vyžadovat sledování využití paměti a strategií vláknování.
+**Q:** Existuje limit na počet diagramů, které mohu zpracovat najednou?  
+**A:** Neexistuje pevný limit, ale zpracování velmi velké dávky může vyžadovat pozornost na využití paměti a strategii vláken.
 
-5. **Co dělat, když narazím na chybu inicializace?**  
-   - Zkontrolujte cestu k souboru, ujistěte se, že JAR soubory jsou správně přidány do classpath, a potvrďte, že je použita platná licence (i když zkušební).
+**Q:** Co mám dělat, když narazím na chybu inicializace?  
+**A:** Zkontrolujte cestu k souboru, ujistěte se, že JAR soubory jsou správně přidány do classpath, a potvrďte, že je aplikována platná licence (i trial).
+
+## Další kroky
+
+- Prozkoumejte další statistiky, jako jsou autor, datum vytvoření a vlastní vlastnosti.  
+- Kombinujte logiku počtu stránek s prohledáváním souborového systému pro zpracování celých složek diagramů.  
+- Prohlédněte si oficiální referenci API pro hlubší možnosti přizpůsobení.
 
 ## Zdroje
 - [Documentation](https://docs.groupdocs.com/metadata/java/)
@@ -188,6 +186,6 @@ Nyní víte, jak **získat počet stránek diagramu** a extrahovat další texto
 
 ---
 
-**Poslední aktualizace:** 2026-01-13  
+**Poslední aktualizace:** 2026-03-20  
 **Testováno s:** GroupDocs.Metadata 24.12 pro Java  
 **Autor:** GroupDocs

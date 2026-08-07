@@ -1,5 +1,5 @@
 ---
-date: '2026-01-13'
+date: '2026-03-20'
 description: GroupDocs.Metadata for Java kullanarak diyagram sayfa sayısını nasıl
   alacağınızı ve diyagramlardan metin istatistiklerini nasıl çıkaracağınızı öğrenin.
   Adım adım kurulum ve kod örnekleri dahil.
@@ -14,27 +14,27 @@ url: /tr/java/diagram-formats/extract-text-statistics-diagrams-groupdocs-metadat
 weight: 1
 ---
 
-# Java için GroupDocs.Metadata Kullanarak Diyagram Sayfa Sayısını Alın
+# GroupDocs.Metadata for Java kullanarak Diyagram Sayfa Sayısını Alın
 
-Modern yazılım projelerinde, **get diagram page count** işlemini hızlı bir şekilde yapabilmek çok zaman kazandırabilir—özellikle raporlar oluşturmanız veya dokümantasyon boru hatlarını otomatikleştirmeniz gerektiğinde. Bu öğreticide, GroupDocs.Metadata for Java'yı kullanarak VDX gibi diyagram dosyalarından sayfa sayısını ve diğer faydalı metin istatistiklerini nasıl çıkaracağınızı öğreneceksiniz. Gerekli kurulum adımlarını gösterecek, ihtiyacınız olan tam kodu sunacak ve bu özelliğin gerçek dünyadaki senaryolarda nasıl parladığını tartışacağız.
+Modern yazılım projelerinde, **diyagram sayfa sayısını** hızlı bir şekilde alabilmek çok zaman tasarrufu sağlar—özellikle raporlar oluşturmanız veya belgeleme hatlarını otomatikleştirmeniz gerektiğinde. Bu öğreticide, VDX, VSDX ve daha fazlası gibi diyagram dosyalarından sayfa sayısını ve diğer faydalı metin istatistiklerini çekmek için GroupDocs.Metadata for Java'nın nasıl kullanılacağını adım adım gösteriyoruz.
 
 ## Hızlı Yanıtlar
-- **What does “get diagram page count” mean?** Bir diyagram dosyasındaki toplam sayfa (veya sayfa) sayısını döndürür.  
-- **Which library provides this feature?** GroupDocs.Metadata for Java.  
-- **Do I need a license?** Değerlendirme için ücretsiz deneme çalışır; üretim için kalıcı bir lisans gerekir.  
-- **What Java version is required?** JDK 8 veya daha üstü.  
-- **Can I process multiple diagrams in a loop?** Evet—döngünüzdeki her dosya için `Metadata` nesnesini örnekleyin.
+- **“diyagram sayfa sayısını al” ne anlama geliyor?** Bir diyagram dosyasındaki toplam sayfa (veya sayfa) sayısını döndürür.  
+- **Bu özelliği hangi kütüphane sağlıyor?** GroupDocs.Metadata for Java.  
+- **Lisans gerekli mi?** Değerlendirme için ücretsiz deneme çalışır; üretim için kalıcı lisans gereklidir.  
+- **Hangi Java sürümü gerekiyor?** JDK 8 veya üzeri.  
+- **Bir döngü içinde birden fazla diyagramı işleyebilir miyim?** Evet—döngünüzde her dosya için `Metadata` nesnesi oluşturmanız yeterlidir.
 
-## “get diagram page count” nedir?
-Diyagram sayfa sayısını almak, dosyanın kaç ayrı sayfa veya kanvas içerdiğini keşfetmek için diyagramın meta verilerini sorgulamak anlamına gelir. Bu bilgi, GroupDocs.Metadata'in sunduğu belge istatistiklerinin bir parçasıdır.
+## “diyagram sayfa sayısını al” nedir?
+Diyagram sayfa sayısını almak, dosyanın içinde kaç ayrı sayfa veya kanvas bulunduğunu öğrenmek için diyagramın meta verilerini sorgulamak anlamına gelir. Bu bilgi, GroupDocs.Metadata'nin sunduğu belge istatistiklerinin bir parçasıdır.
 
-## Neden GroupDocs.Metadata for Java Kullanılır?
-- **Fast, lightweight extraction** – Tüm diyagramı render etmeye gerek yok.  
-- **Broad format support** – VDX, VSDX ve birçok diğer diyagram türüyle çalışır.  
-- **Simple API** – Birkaç satır kod size sayfa sayısını, yazarını, oluşturulma tarihini ve daha fazlasını verir.  
+## Neden GroupDocs.Metadata for Java kullanmalı?
+- **Hızlı, hafif çıkarım** – Tüm diyagramı render etmenize gerek yok.  
+- **Geniş format desteği** – VDX, VSDX ve birçok diğer diyagram türüyle çalışır.  
+- **Basit API** – Birkaç satır kodla sayfa sayısı, yazar, oluşturma tarihi ve daha fazlasını elde edersiniz.  
 
-## Önkoşullar
-- **GroupDocs.Metadata for Java** (version 24.12 veya daha yeni).  
+## Ön Koşullar
+- **GroupDocs.Metadata for Java** (sürüm 24.12 veya daha yenisi).  
 - **JDK 8+** makinenizde kurulu.  
 - IntelliJ IDEA veya Eclipse gibi bir IDE.  
 - Bağımlılık yönetimi için Maven.  
@@ -42,7 +42,7 @@ Diyagram sayfa sayısını almak, dosyanın kaç ayrı sayfa veya kanvas içerdi
 ## GroupDocs.Metadata for Java Kurulumu
 
 ### Maven Kullanarak
-`pom.xml` dosyanıza aşağıda gösterildiği gibi depo ve bağımlılığı ekleyin:
+Aşağıda gösterildiği gibi `pom.xml` dosyanıza depo ve bağımlılığı tam olarak ekleyin:
 
 ```xml
 <repositories>
@@ -63,15 +63,15 @@ Diyagram sayfa sayısını almak, dosyanın kaç ayrı sayfa veya kanvas içerdi
 ```
 
 ### Doğrudan İndirme
-Maven kullanmak istemiyorsanız, resmi sürüm sayfasından en son JAR'ı alın: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Maven kullanmak istemiyorsanız, resmi sürüm sayfasından en son JAR dosyasını alın: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Lisans Edinme
-- **Free Trial** – Ücretsiz olarak tüm özellikleri indirin ve keşfedin.  
-- **Temporary License** – Sınırsız test için geçici bir anahtar isteyin.  
-- **Full License** – Sınırsız üretim kullanımı için satın alın.
+- **Ücretsiz Deneme** – Tüm özellikleri ücretsiz olarak indirin ve keşfedin.  
+- **Geçici Lisans** – Sınırsız test için geçici bir anahtar isteyin.  
+- **Tam Lisans** – Sınırsız üretim kullanımı için satın alın.
 
-### Temel Başlatma
-Aşağıda bir diyagram dosyasıyla çalışmaya başlamak için gereken minimum kod bulunmaktadır. Bu snippet **Metadata nesnesini başlatır**, bu nesne diyagram sayfa sayısını almayı da içeren tüm sonraki işlemler için giriş noktasıdır.
+## Temel Başlatma
+Aşağıda bir diyagram dosyasıyla çalışmaya başlamak için gereken en az kod örneği verilmiştir. Bu snippet **Metadata nesnesini başlatır**, ki bu nesne sayfa sayısını almayı da içeren tüm sonraki işlemler için giriş noktasıdır.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -86,12 +86,11 @@ public class DiagramInitialization {
 }
 ```
 
-## Uygulama Kılavuzu – Diyagram Sayfa Sayısını Alma
+## GroupDocs.Metadata Java ile Diyagram İstatistiklerini Okuma
+Kütüphane hazır olduğuna göre, sayfa sayısını ve diğer istatistikleri elde etmek için tam adımları inceleyelim.
 
-Kütüphane hazır olduğuna göre, sayfa sayısını elde etmek için tam adımlara göz atalım.
-
-### Adım 1: Root Paketi Alın
-Her diyagram tipinin meta verilerine erişim sağlayan belirli bir root paketi vardır. Bunu almak için genel `getRootPackageGeneric()` metodunu kullanın.
+### Adım 1: Kök Paketi Alın
+Her diyagram tipinin meta verilerine erişim sağlayan belirli bir kök paketi vardır. Genel `getRootPackageGeneric()` metodunu kullanarak bunu alın.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -106,8 +105,8 @@ public class DiagramReadDocumentStatistics {
             DiagramRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### Adım 2: Belge İstatistiklerine Erişin (Diyagram Sayfa Sayısını Alın)
-Root paket elinizde olduğunda, `getDocumentStatistics()` ve ardından `getPageCount()` metodunu çağırarak **get diagram page count** elde edebilirsiniz.
+### Adım 2: Belge İstatistiklerine Erişin (Diyagram Sayfa Sayısını Al)
+Kök paket elinizdeyken, `getDocumentStatistics()` ardından `getPageCount()` metodunu çağırarak **diyagram sayfa sayısını** alabilirsiniz.
 
 ```java
             int pageCount = root.getDocumentStatistics().getPageCount();
@@ -117,10 +116,10 @@ Root paket elinizde olduğunda, `getDocumentStatistics()` ve ardından `getPageC
 }
 ```
 
-**Explanation**: `getDocumentStatistics()` sayfa sayısı dahil olmak üzere çeşitli faydalı metrikleri tutan bir nesne döndürür. Bu nedenle `pageCount` değişkeni diyagramdaki toplam sayfayı temsil eder.
+**Açıklama**: `getDocumentStatistics()` birkaç faydalı metriği tutan bir nesne döndürür; bunlar arasında sayfa sayısı da vardır. `pageCount` değişkeni bu nedenle diyagramdaki toplam sayfayı temsil eder.
 
 ### Adım 3: İstisnaları Zarifçe Ele Alın
-Dosya ile ilgili işlemler birçok nedenden dolayı başarısız olabilir (eksik dosya, desteklenmeyen format vb.). Kodunuzu bir try‑catch bloğuna sararak net hata mesajları alabilirsiniz.
+Dosya ile ilgili işlemler birçok nedenden (dosya eksik, desteklenmeyen format vb.) başarısız olabilir. Açık hata mesajları göstermek için kodunuzu bir try‑catch bloğuna sarın.
 
 ```java
         } catch (Exception e) {
@@ -130,60 +129,55 @@ Dosya ile ilgili işlemler birçok nedenden dolayı başarısız olabilir (eksik
 }
 ```
 
-**Troubleshooting Tips**  
-- Dosya yolunun (`inputPath`) mevcut bir diyagram dosyasına işaret ettiğini doğrulayın.  
-- Diyagram formatının (ör. VDX) mevcut GroupDocs.Metadata sürümü tarafından desteklendiğinden emin olun.  
-- Lisans hatası alıyorsanız, geçerli bir deneme veya tam lisans anahtarının uygulandığını kontrol edin.
-
 ## Pratik Uygulamalar
 
-| Kullanım Durumu | Sayfa Sayısının Yardımcı Olduğu Şekil |
-|-----------------|----------------------------------------|
-| **Proje Yönetimi** | Akış şemaları veya mimari diyagramlardaki sayfaları sayarak çabayı hızlı bir şekilde tahmin edin. |
+| Kullanım Durumu | Sayfa Sayısının Sağladığı Fayda |
+|-----------------|---------------------------------|
+| **Proje Yönetimi** | Akış şemaları veya mimari diyagramlarda sayfa sayısını sayarak çabayı hızlıca tahmin edin. |
 | **Otomatik Raporlama** | Paydaş incelemeleri için her diyagramı ve sayfa sayısını listeleyen özet tablolar oluşturun. |
-| **Veri Analitiği** | Sayfa sayısı metriklerini panellere aktararak zaman içinde dokümantasyon büyümesini izleyin. |
+| **Veri Analitiği** | Zaman içinde belge büyümesini izlemek için sayfa‑sayısı metriklerini panellere besleyin. |
 
 ## Performans Düşünceleri
+- **Kaynak Yönetimi**: `Metadata` nesnesini otomatik olarak kapatmak ve belleği serbest bırakmak için Java’nın try‑with‑resources (gösterildiği gibi) kullanın.  
+- **Toplu İşleme**: Çok sayıda diyagram işlerken, dosya başına tek bir `Metadata` örneği yeniden kullanın ve gereksiz veri yüklemesinden kaçının.  
 
-- **Resource Management**: Java’nın try‑with‑resources (gösterildiği gibi) kullanarak `Metadata` nesnesini otomatik olarak kapatın ve belleği serbest bırakın.  
-- **Batch Processing**: Çok sayıda diyagram işlenirken, dosya başına tek bir `Metadata` örneğini yeniden kullanın ve gereksiz veri yüklemelerinden kaçının.  
+## Yaygın Sorunlar ve Çözümleri
+- **Dosya bulunamadı** – `inputPath` değerini iki kez kontrol edin ve dosyanın diskte mevcut olduğundan emin olun.  
+- **Desteklenmeyen format** – Diyagram tipinizin (ör. VDX) kullandığınız sürümde desteklenen formatlar listesinde olduğundan emin olun.  
+- **Lisans hatası** – `Metadata` nesnesi oluşturulmadan önce geçerli bir deneme veya tam lisans anahtarının uygulandığını doğrulayın.  
 
-## Sonuç
+## Sık Sorulan Sorular
 
-Artık GroupDocs.Metadata for Java kullanarak **get diagram page count** ve diğer metin istatistiklerini nasıl çıkaracağınızı biliyorsunuz. Bu hafif yaklaşım, daha büyük otomasyon boru hatlarına, raporlama araçlarına veya diyagram dosyalarına hızlı bir içgörü sağlayan herhangi bir uygulamaya entegre edilebilir.
+**S:** GroupDocs.Metadata tarafından diagramlar için hangi dosya formatları destekleniyor?  
+**C:** VDX, VSDX ve kurumsal ortamlarda kullanılan birçok diğer yaygın diyagram formatını destekler.
 
-### Sonraki Adımlar
-- Yazar, oluşturulma tarihi ve özel özellikler gibi ek istatistikleri keşfedin.  
-- Sayfa sayısı mantığını dosya sistemi taramasıyla birleştirerek tüm diyagram klasörlerini işleyin.  
-- Daha derin API kapsamı için resmi kaynaklara göz atın.
+**S:** GroupDocs.Metadata'ı diyagram dışı belgelerle kullanabilir miyim?  
+**C:** Evet, kütüphane PDF, Word dosyaları, elektronik tablolar ve daha fazlası ile çalışır ve birleşik bir meta veri çıkarma deneyimi sunar.
 
-## SSS Bölümü
+**S:** Desteklenmeyen dosya formatlarıyla nasıl başa çıkabilirim?  
+**C:** Dosyanın uzantısını belgelerdeki desteklenen listesiyle karşılaştırın. Bilinmeyen formatlar için önce desteklenen bir tipe dönüştürmeyi düşünün.
 
-1. **What file formats are supported by GroupDocs.Metadata for diagrams?**  
-   - VDX, VSDX ve kurumsal ortamlarda kullanılan birçok diğer yaygın diyagram formatını destekler.
+**S:** Aynı anda işleyebileceğim diyagram sayısında bir limit var mı?  
+**C:** Katı bir limit yoktur, ancak çok büyük bir toplu işlem bellek kullanımı ve çoklu iş parçacığı stratejilerine dikkat gerektirebilir.
 
-2. **Can I use GroupDocs.Metadata with non‑diagram documents?**  
-   - Evet, kütüphane PDF'ler, Word dosyaları, elektronik tablolar ve daha fazlası ile çalışır, birleşik bir meta veri çıkarma deneyimi sunar.
+**S:** Başlatma hatası alırsam ne yapmalıyım?  
+**C:** Dosya yolunu iki kez kontrol edin, JAR dosyalarının sınıf yolunuza doğru eklendiğinden emin olun ve geçerli bir lisans (deneme dahil) uygulandığını doğrulayın.
 
-3. **How do I handle unsupported file formats?**  
-   - Dosyanın uzantısını belgelerdeki desteklenen listelerle doğrulayın. Bilinmeyen formatlar için önce desteklenen bir tipe dönüştürmeyi düşünün.
-
-4. **Is there a limit to the number of diagrams I can process at once?**  
-   - Katı bir limit yok, ancak çok büyük bir toplu işlem bellek kullanımı ve çoklu iş parçacığı stratejilerine dikkat gerektirebilir.
-
-5. **What should I do if I encounter an initialization error?**  
-   - Dosya yolunu tekrar kontrol edin, JAR'ların sınıf yolunuza doğru eklendiğinden emin olun ve geçerli bir lisansın (deneme bile olsa) uygulandığını doğrulayın.
+## Sonraki Adımlar
+- Yazar, oluşturma tarihi ve özel özellikler gibi ek istatistikleri keşfedin.  
+- Sayfa‑sayısı mantığını dosya sistemi taramasıyla birleştirerek tüm diyagram klasörlerini işleyin.  
+- Daha derin özelleştirme seçenekleri için resmi API referansına göz atın.
 
 ## Kaynaklar
-- [Dokümantasyon](https://docs.groupdocs.com/metadata/java/)
-- [API Referansı](https://reference.groupdocs.com/metadata/java/)
-- [İndirme](https://releases.groupdocs.com/metadata/java/)
-- [GitHub Deposu](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
-- [Ücretsiz Destek Forumu](https://forum.groupdocs.com/c/metadata/)
-- [Geçici Lisans Başvurusu](https://purchase.groupdocs.com/temporary-license/) 
+- [Documentation](https://docs.groupdocs.com/metadata/java/)
+- [API Reference](https://reference.groupdocs.com/metadata/java/)
+- [Download](https://releases.groupdocs.com/metadata/java/)
+- [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- [Free Support Forum](https://forum.groupdocs.com/c/metadata/)
+- [Temporary License Application](https://purchase.groupdocs.com/temporary-license/) 
 
 ---
 
-**Son Güncelleme:** 2026-01-13  
+**Son Güncelleme:** 2026-03-20  
 **Test Edilen Versiyon:** GroupDocs.Metadata 24.12 for Java  
 **Yazar:** GroupDocs

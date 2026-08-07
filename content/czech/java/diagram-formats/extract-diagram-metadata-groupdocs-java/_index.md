@@ -1,62 +1,56 @@
 ---
-date: '2026-01-16'
-description: Naučte se efektivně extrahovat a spravovat vlastnosti dokumentů Java
-  z diagramových souborů pomocí GroupDocs.Metadata pro Java, včetně údajů o tvůrci,
-  informací o společnosti a dalších.
+date: '2026-03-20'
+description: Naučte se, jak pomocí GroupDocs.Metadata v Javě extrahovat metadata diagramu,
+  včetně toho, jak číst vlastnosti dokumentu v Javě, jako jsou tvůrce, společnost
+  a datum vytvoření.
 keywords:
 - extract diagram metadata java
 - GroupDocs Metadata for Java
 - manage diagram document metadata
-title: Vlastnosti dokumentu Java – Extrahovat metadata diagramu pomocí GroupDocs pro
-  Java
+title: Extrahovat metadata diagramu v Javě pomocí GroupDocs
 type: docs
 url: /cs/java/diagram-formats/extract-diagram-metadata-groupdocs-java/
 weight: 1
 ---
 
-# java document properties – Extrahování metadat diagramu pomocí GroupDocs pro Java
+# Extrahování metadat diagramu Java s GroupDocs
 
 ## Úvod
-Hledáte efektivní způsob, jak extrahovat a spravovat **java document properties** ze svých diagramových souborů? Porozumění podkladovým metadatům – například informacím o autorovi, společnosti a čase vytvoření – je klíčové pro správu dokumentace. Tento komplexní průvodce vás provede extrahováním vestavěných metadatových vlastností pomocí GroupDocs.Metadata pro Java a ukáže vám reálné scénáře, kde tyto vlastnosti přinášejí hodnotu.
+Pokud potřebujete **extract diagram metadata Java** rychle a spolehlivě, jste na správném místě. V mnoha podnikových prostředích obsahují soubory diagramů (Visio, VSDX atd.) skryté informace, jako je autor, společnost, klíčová slova, jazyk a časová razítka vytvoření. Vytažení těchto **java document properties** ze souboru vám umožní automatizovat klasifikaci aktiv, vynucovat soulad a pohánět pracovní postupy založené na vyhledávání, aniž byste museli otevírat samotný diagram.
 
-**Co se naučíte**
-- Jak extrahovat metadata jako autor, společnost, klíčová slova, jazyk, datum vytvoření a kategorie.
-- Nastavení prostředí s potřebnými knihovnami a závislostmi.
-- Praktické využití extrahovaných metadat v reálných projektech.
-
-Než se pustíme do získávání cenných informací z vašich diagramů, nastavme si prostředí!
+V tomto tutoriálu se naučíte, jak číst tyto vlastnosti pomocí **GroupDocs.Metadata for Java**, prohlédnete si reálné příklady použití a získáte tipy pro zpracování velkých dávek souborů.
 
 ## Rychlé odpovědi
-- **Jaký je hlavní účel java document properties?** Poskytnout vložené informace jako autor, datum vytvoření a kategorie pro lepší správu aktiv.  
-- **Která knihovna poskytuje nejjednodušší přístup k těmto vlastnostem?** GroupDocs.Metadata pro Java.  
-- **Potřebuji licenci pro spuštění příkladů?** Bezplatná zkušební verze stačí pro hodnocení; pro produkci je vyžadována trvalá licence.  
-- **Mohu pomocí tohoto API přečíst datum vytvoření souboru java?** Ano – `getTimeCreated()` vrací časové razítko vytvoření.  
-- **Je možné přečíst kategorii diagramu?** Rozhodně – `getCategory()` vrací vlastnost kategorie diagramu.
+- **Co znamená “extract diagram metadata Java”?** Jedná se o proces programového čtení vložených vlastností (autor, datum vytvoření atd.) z diagramových souborů pomocí Javy.  
+- **Která knihovna tento úkol zjednodušuje?** GroupDocs.Metadata for Java poskytuje čisté API, které abstrahuje nízkoúrovňové parsování souborů.  
+- **Potřebuji licenci pro příklady?** Bezplatná zkušební verze funguje pro hodnocení; pro produkční použití je vyžadována trvalá licence.  
+- **Mohu pomocí tohoto API číst datum vytvoření souboru v Javě?** Ano—`getTimeCreated()` vrací časové razítko vytvoření.  
+- **Je možné přečíst kategorii diagramu?** Rozhodně—`getCategory()` vrací vlastnost kategorie diagramu.
 
-## Co jsou java document properties?
-Java document properties jsou vestavěná metadata uložená uvnitř souboru (např. autor, společnost, klíčová slova). Umožňují automatickou klasifikaci, vyhledávání a kontrolu souladu, aniž byste museli otevírat obsah souboru.
+## Co je extract diagram metadata Java?
+Extract diagram metadata Java odkazuje na získávání vestavěných polí metadat uložených uvnitř souboru diagramu (např. tvůrce, společnost, klíčová slova). Tato pole umožňují automatizovanou klasifikaci, vyhledávání a kontroly souladu, aniž by bylo nutné otevírat obsah souboru.
 
 ## Proč používat GroupDocs.Metadata pro Java?
-GroupDocs.Metadata nabízí **metadata library example**, který abstrahuje nízkoúrovňové parsování souborů. Podporuje desítky formátů, poskytuje čistý objektový model a automaticky spravuje prostředky, takže se můžete soustředit na obchodní logiku.
+GroupDocs.Metadata nabízí **metadata library example**, který abstrahuje nízkoúrovňové parsování souborů. Podporuje desítky formátů, poskytuje čistý objektový model a automaticky spravuje prostředky, takže se můžete soustředit na obchodní logiku místo zvláštností formátů souborů.
 
 ## Předpoklady
-Před pokračováním se ujistěte, že máte následující:
+Před tím, než se pustíme dál, ujistěte se, že máte následující:
 
 ### Požadované knihovny a závislosti
-- **GroupDocs.Metadata pro Java** (verze 24.12 nebo novější).  
-- **Java Development Kit (JDK)** – doporučujeme JDK 8+.
+- **GroupDocs.Metadata for Java** (verze 24.12 nebo novější).  
+- **Java Development Kit (JDK)** – doporučuje se JDK 8+.
 
 ### Požadavky na nastavení prostředí
-- IDE jako IntelliJ IDEA nebo Eclipse.  
+- IDE, například IntelliJ IDEA nebo Eclipse.  
 - Maven pro správu závislostí (volitelné, ale doporučené).
 
-### Znalostní předpoklady
-Základní dovednosti v programování v Javě a orientace v IDE jsou dostačující.
+### Předpoklady znalostí
+Základní programovací dovednosti v Javě a znalost IDE jsou dostačující.
 
 ## Nastavení GroupDocs.Metadata pro Java
 Integrujte GroupDocs.Metadata do svého projektu pomocí Maven nebo přímého stažení.
 
-**Maven nastavení**  
+**Maven Setup**  
 Přidejte následující do souboru `pom.xml`:
 ```xml
 <repositories>
@@ -76,13 +70,13 @@ Přidejte následující do souboru `pom.xml`:
 </dependencies>
 ```
 
-**Přímé stažení**  
+**Direct Download**  
 Alternativně si stáhněte nejnovější verzi z [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Získání licence
-- **Free Trial** – Prozkoumejte všechny funkce zdarma.  
-- **Temporary License** – Užitočné pro krátkodobé hodnocení. Požádejte přes [GroupDocs' purchase page](https://purchase.groupdocs.com/temporary-license/).  
-- **Purchase** – Vyžadováno pro produkční nasazení.
+- **Free Trial** – Prozkoumejte všechny funkce bez nákladů.  
+- **Temporary License** – Užitočné pro krátkodobé hodnocení. Požádejte přes [GroupDocs' purchase page](https://purchase.groupdocs.com/temporary-license/).  
+- **Purchase** – Vyžadováno pro nasazení do výroby.
 
 ### Základní inicializace a nastavení
 Inicializujte GroupDocs.Metadata ve svém Java projektu:
@@ -98,23 +92,23 @@ Nahraďte `"YOUR_DOCUMENT_DIRECTORY/your-diagram-file.vsdx"` skutečnou cestou k
 
 ## Průvodce implementací
 
-### Extrahování vestavěných java document properties z Diagram Document
-Tato funkce vám umožní získat klíčové vlastnosti jako autor, společnost, klíčová slova, jazyk, **file creation date java** a kategorii.
+### Extrahování vestavěných java document properties z diagramového dokumentu
+Tato funkce vám umožní získat základní vlastnosti jako tvůrce, společnost, klíčová slova, jazyk, **java read creation date** a kategorii.
 
-#### Krok‑za‑krokem implementace
+#### Postup implementace krok za krokem
 ##### Krok 1: Inicializace třídy Metadata
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/your-diagram-file.vsdx")) {
 ```
-*Proč?* Otevře diagram pro čtení a připraví API k extrakci vlastností.
+*Proč?* Tento krok otevře diagram pro čtení a připraví API k extrakci vlastností.
 
 ##### Krok 2: Přístup k kořenovému balíčku
 ```java
 DiagramRootPackage root = metadata.getRootPackageGeneric();
 ```
-*Vysvětlení*: Kořenový balíček obsahuje hlavní dokumentové vlastnosti, které budete dotazovat.
+*Vysvětlení*: Kořenový balíček obsahuje základní vlastnosti dokumentu, které budete dotazovat.
 
-##### Krok 3: Extrahování a výpis metadatových vlastností
+##### Krok 3: Extrahování a výpis vlastností metadat
 ```java
 String creator = root.getDocumentProperties().getCreator();
 String company = root.getDocumentProperties().getCompany();
@@ -131,47 +125,53 @@ System.out.println("Language: " + language);
 System.out.println("Time Created: " + timeCreated);
 System.out.println("Category: " + category);
 ```
-*Proč?* Výpis ověří, že **java document properties** byly úspěšně načteny.
+*Proč?* Výpis ověřuje, že **java document properties** byly úspěšně získány.
+
+### Jak číst vlastnosti dokumentu v Javě
+Objekt `getDocumentProperties()` vám poskytuje přímý přístup ke standardním polím. Pokud potřebujete další vlastní pole, API nabízí metody jako `getCustomProperties()` — užitečné pro scénáře **extract custom properties java**.
+
+### Jak číst datum vytvoření v Javě
+Metoda `getTimeCreated()` vrací `java.util.Date` představující časové razítko vytvoření diagramu. Toto je hlavní volání pro požadavek **java read creation date**.
 
 ### Tipy pro řešení problémů
-- **Problémy s cestou k souboru** – Zkontrolujte, že cesta je správná, aby nedošlo k `FileNotFoundException`.  
-- **Kompatibilita knihovny** – Ujistěte se, že používáte GroupDocs.Metadata verze 24.12 nebo novější.  
-- **Správa paměti** – Blok `try‑with‑resources` automaticky uzavře instanci `Metadata`.
+- **File Path Issues** – Ověřte cestu, aby nedošlo k `FileNotFoundException`.  
+- **Library Compatibility** – Ujistěte se, že používáte verzi GroupDocs.Metadata 24.12 nebo novější.  
+- **Memory Management** – Blok try‑with‑resources zajišťuje automatické uzavření instance `Metadata`.
 
 ## Praktické aplikace
-Extrahování **java document properties** z diagramových souborů může být neocenitelné:
+Extrahování **extract diagram metadata Java** ze souborů diagramů může být neocenitelné:
 
-1. **Content Management Systems** – Automaticky označujte diagramy pomocí extrahovaných klíčových slov a kategorií.  
-2. **Collaboration Platforms** – Zobrazujte autora a společnost dokumentu pro lepší sledovatelnost.  
-3. **Data Analytics** – Agregujte data o jazyce a datu vytvoření pro reporty o lokalizaci.  
+1. **Content Management Systems** – Automaticky označujte diagramy pomocí extrahovaných klíčových slov a kategorií.  
+2. **Collaboration Platforms** – Zobrazujte tvůrce dokumentu a společnost pro zlepšení sledovatelnosti.  
+3. **Data Analytics** – Agregujte data o jazyce a datu vytvoření pro zprávy o lokalizaci.
 
 ## Úvahy o výkonu
-- **Optimalizace využití paměti** – Vždy používejte `try‑with‑resources`, jak je ukázáno.  
-- **Dávkové zpracování** – Zpracovávejte více souborů ve smyčce, abyste snížili režii.  
-- **Monitorování prostředků** – Sledujte využití haldy při práci s velkými kolekcemi diagramů.
+- **Optimize Memory Usage** – Vždy používejte try‑with‑resources, jak je ukázáno.  
+- **Batch Processing** – Zpracovávejte více souborů ve smyčce, aby se snížila režie.  
+- **Resource Monitoring** – Sledujte využití haldy při práci s velkými kolekcemi diagramů.
 
 ## Časté problémy a řešení
 | Problém | Řešení |
 |-------|----------|
 | `FileNotFoundException` | Ověřte absolutní nebo relativní cestu a ujistěte se, že soubor existuje. |
 | `UnsupportedOperationException` | Potvrďte, že formát diagramu je podporován GroupDocs.Metadata. |
-| Vysoká spotřeba paměti | Zpracovávejte soubory v menších dávkách a každou instanci `Metadata` okamžitě uzavírejte. |
+| High memory consumption | Zpracovávejte soubory v menších dávkách a každou instanci `Metadata` uzavírejte okamžitě. |
 
 ## Často kladené otázky
 **Q: Jaká verze Javy je vyžadována pro GroupDocs.Metadata?**  
 A: Doporučuje se JDK 8 nebo vyšší pro plnou kompatibilitu.
 
-**Q: Můžu extrahovat metadata i z jiných formátů než diagramy?**  
+**Q: Mohu extrahovat metadata i z jiných formátů než diagramy?**  
 A: Ano, GroupDocs.Metadata podporuje mnoho typů dokumentů, včetně PDF, Word a Excel.
 
 **Q: Jak efektivně zpracovat velmi velké soubory diagramů?**  
-A: Používejte dávkové zpracování, omezte počet současných instancí `Metadata` a monitorujte paměť JVM.
+A: Používejte dávkové zpracování, omezte počet současně běžících instancí `Metadata` a monitorujte paměť JVM.
 
 **Q: Jaké jsou typické chyby při extrahování metadat?**  
 A: Časté chyby zahrnují nesprávné cesty k souborům a nekompatibilní verze knihoven.
 
-**Q: Lze přizpůsobit, které metadata pole se čtou?**  
-A: I když tento průvodce pokrývá vestavěné vlastnosti, API umožňuje dotazovat i vlastní vlastnosti.
+**Q: Je možné přizpůsobit, která pole metadat se čtou?**  
+A: I když tento průvodce pokrývá vestavěné vlastnosti, API také umožňuje dotazovat vlastní vlastnosti pro potřeby **extract custom properties java**.
 
 ## Zdroje
 - [Documentation](https://docs.groupdocs.com/metadata/java/)
@@ -181,10 +181,8 @@ A: I když tento průvodce pokrývá vestavěné vlastnosti, API umožňuje dota
 - [Free Support Forum](https://forum.groupdocs.com/c/metadata/)
 - [Temporary License Application](https://purchase.groupdocs.com/temporary-license/)
 
-Podle tohoto průvodce nyní ovládáte **java document properties** z diagramových souborů pomocí GroupDocs.Metadata pro Java. Začleňte tyto techniky do svých pracovních postupů a zlepšete organizaci aktiv, soulad a automatizaci.
+Postupováním podle tohoto průvodce nyní ovládáte **extract diagram metadata Java** ze souborů diagramů pomocí GroupDocs.Metadata pro Java. Začleňte tyto techniky do svých pracovních postupů a zlepšete organizaci aktiv, soulad a automatizaci.
 
----
-
-**Poslední aktualizace:** 2026-01-16  
-**Testováno s:** GroupDocs.Metadata 24.12 pro Java  
+**Poslední aktualizace:** 2026-03-20  
+**Testováno s:** GroupDocs.Metadata 24.12 for Java  
 **Autor:** GroupDocs

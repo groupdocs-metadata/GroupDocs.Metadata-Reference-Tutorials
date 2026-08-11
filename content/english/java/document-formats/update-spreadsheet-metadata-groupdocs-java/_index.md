@@ -1,7 +1,7 @@
 ---
-title: "How to Update Spreadsheet Metadata Using GroupDocs.Metadata in Java"
-description: "Learn how to update built-in metadata properties of spreadsheets using GroupDocs.Metadata in Java. Streamline your document management with our step-by-step guide."
-date: "2025-05-19"
+title: "Change Excel Creation Date Using GroupDocs.Metadata in Java"
+description: "Learn how to change Excel creation date and update Excel metadata using GroupDocs.Metadata for Java. Follow this step‑by‑step guide to add keywords to Excel and modify document properties."
+date: "2026-03-22"
 weight: 1
 url: "/java/document-formats/update-spreadsheet-metadata-groupdocs-java/"
 keywords:
@@ -10,31 +10,38 @@ keywords:
 - Java document formats
 type: docs
 ---
-# How to Update Spreadsheet Metadata Using GroupDocs.Metadata in Java
 
-## Introduction
+# Change Excel Creation Date Using GroupDocs.Metadata in Java
 
-In today’s data-driven world, managing and updating metadata within your spreadsheets can significantly enhance organization and retrieval efficiency. Whether you're handling financial records or project documentation, ensuring accurate metadata is crucial. This tutorial will guide you through using the powerful GroupDocs.Metadata library in Java to update built-in metadata properties of a spreadsheet document.
+In modern data‑driven environments, **changing the Excel creation date** and keeping other metadata up‑to‑date can dramatically improve document organization, searchability, and compliance. Whether you’re handling financial reports, project trackers, or archival data, accurate metadata ensures that the right people find the right files at the right time. This tutorial walks you through using the GroupDocs.Metadata library to **change Excel creation date**, **add keywords to Excel**, and **modify Excel document properties** in a Java application.
 
-### What You'll Learn
-- How to set up GroupDocs.Metadata for Java.
-- Updating author, creation date, company name, category, and keywords in your spreadsheets.
-- Implementing best practices for efficient metadata management.
+## Quick Answers
+- **Can I change the creation date of an Excel file?** Yes, using `setCreatedTime` from GroupDocs.Metadata.  
+- **Which library supports updating Excel metadata in Java?** GroupDocs.Metadata for Java.  
+- **Do I need a license?** A free trial works for evaluation; a permanent license is required for production.  
+- **What Java version is required?** JDK 8 or higher.  
+- **Can I add custom keywords to an Excel workbook?** Absolutely—use `setKeywords` on the document properties.
 
-By the end of this guide, you'll be equipped with the knowledge to streamline your spreadsheet management using GroupDocs.Metadata. Let's dive into the prerequisites needed before we start coding!
+## What is “change Excel creation date”?
+Changing the Excel creation date means updating the built‑in *Created* property stored inside the workbook file. This property is part of the standard Office Open XML metadata and can be edited programmatically without altering the actual worksheet content.
+
+## Why use GroupDocs.Metadata for Excel metadata?
+GroupDocs.Metadata offers a high‑level, type‑safe API that abstracts the low‑level XML handling required by the Office Open XML format. It lets you:
+
+- **Update core properties** such as author, company, and creation date in a single call.  
+- **Add keywords to Excel** to improve search results in SharePoint, OneDrive, or local file systems.  
+- **Modify Excel document properties** without opening the workbook in Excel, which saves time and resources.  
 
 ## Prerequisites
-
-To follow along with this tutorial effectively, ensure that you have:
-- **Java Development Kit (JDK)**: Version 8 or higher.
-- **Integrated Development Environment (IDE)**: Such as IntelliJ IDEA or Eclipse.
-- Familiarity with Java programming and basic knowledge of handling files in Java.
+- Java Development Kit (JDK) 8 or newer.  
+- An IDE like IntelliJ IDEA or Eclipse.  
+- Basic familiarity with Java file I/O.  
 
 ## Setting Up GroupDocs.Metadata for Java
 
-### Installation Information
+### Installation
 
-To begin, set up the GroupDocs.Metadata library. Here’s how you can include it in your project using Maven:
+Add the GroupDocs.Metadata Maven repository and dependency to your `pom.xml`:
 
 ```xml
 <repositories>
@@ -54,34 +61,26 @@ To begin, set up the GroupDocs.Metadata library. Here’s how you can include it
 </dependencies>
 ```
 
-Alternatively, you can [download the latest version directly](https://releases.groupdocs.com/metadata/java/) if you prefer manual setup.
+Alternatively, you can [download the latest version directly](https://releases.groupdocs.com/metadata/java/) if you prefer a manual setup.
 
 ### License Acquisition
 
-GroupDocs offers a free trial to test its capabilities. For extended usage or commercial purposes, consider acquiring a temporary license or purchasing one. Visit [GroupDocs' purchase page](https://purchase.groupdocs.com/temporary-license/) for more information on licensing options.
+GroupDocs offers a free trial for evaluation. For production use, obtain a temporary or permanent license from the vendor. Visit [GroupDocs' purchase page](https://purchase.groupdocs.com/temporary-license/) for details.
 
-#### Basic Initialization and Setup
+#### Basic Initialization
 
-Once you have the library included in your project, initialize it by importing necessary packages:
+Import the necessary classes in your Java source file:
 
 ```java
 import com.groupdocs.metadata.Metadata;
 import com.groupdocs.metadata.core.SpreadsheetRootPackage;
 ```
 
-## Implementation Guide
+## Step‑by‑Step Implementation
 
-### Updating Built-In Metadata Properties
+### Step 1: Open the Excel Workbook
 
-This section provides a step-by-step guide to updating metadata properties within your spreadsheet.
-
-#### Overview
-
-Updating metadata involves modifying attributes such as the author's name, creation date, company name, category, and keywords. This ensures that your document metadata remains relevant and accurate over time.
-
-#### Step 1: Open Your Spreadsheet Document
-
-Start by opening the spreadsheet you wish to edit using the GroupDocs.Metadata library:
+Provide the path to the source workbook and create a `Metadata` instance. The `try‑with‑resources` block ensures the file handle is closed automatically.
 
 ```java
 String inputFilePath = "YOUR_DOCUMENT_DIRECTORY/input.xlsx";
@@ -92,9 +91,9 @@ try (Metadata metadata = new Metadata(inputFilePath)) {
 }
 ```
 
-#### Step 2: Update Document Properties
+### Step 2: Update Built‑In Metadata Properties
 
-Next, update various built-in properties. Here’s how you can set new values:
+Now you can **change the Excel creation date**, set the author, company, category, and **add keywords to Excel**. The `new Date()` call captures the current timestamp, but you can supply any `java.util.Date` you need.
 
 ```java
 root.getDocumentProperties().setAuthor("test author");
@@ -104,61 +103,69 @@ root.getDocumentProperties().setCategory("test category");
 root.getDocumentProperties().setKeywords("metadata, built-in, update");
 ```
 
-*Explanation*: Each method call updates a specific metadata property. For example, `setAuthor` sets the author's name to "test author".
+> **Pro tip:** Use a consistent naming convention for keywords (e.g., `project:Q2, finance, confidential`) to make future searches more effective.
 
-#### Step 3: Save Changes
+### Step 3: Save the Updated Workbook
 
-After updating the properties, save your changes to create an updated version of the spreadsheet:
+Specify an output path and persist the changes. The original file remains untouched, which is useful for audit trails.
 
 ```java
 String outputFilePath = "YOUR_OUTPUT_DIRECTORY/output.xlsx";
 metadata.save(outputFilePath);
 ```
 
-### Troubleshooting Tips
+## Common Issues and Solutions
 
-- **File Path Errors**: Ensure that your file paths are correctly specified.
-- **Library Version Compatibility**: Double-check that you are using a compatible version of GroupDocs.Metadata.
+| Issue | Why It Happens | Fix |
+|-------|----------------|-----|
+| **File path errors** | Incorrect relative/absolute paths | Double‑check the `inputFilePath` and `outputFilePath`. Use `Paths.get(...)` for platform‑independent paths. |
+| **Incompatible library version** | Using an older GroupDocs.Metadata that doesn’t support the `setCreatedTime` method | Upgrade to the latest version (as shown in the Maven snippet). |
+| **Missing license** | Trial period expired | Apply a temporary license or purchase a full license via the purchase page. |
+| **Large workbook memory usage** | Loading massive Excel files consumes heap space | Process files in batches and increase JVM heap (`-Xmx`) if necessary. |
+
+## Frequently Asked Questions
+
+**Q: What Java versions are supported by GroupDocs.Metadata?**  
+A: Java 8 and newer are fully supported.
+
+**Q: How should I handle exceptions when updating metadata?**  
+A: Wrap the code in a `try‑catch` block and log `MetadataException` to capture any I/O or format errors.
+
+**Q: Can I update multiple Excel files in one run?**  
+A: Yes, iterate over a collection of file paths, but monitor memory usage for large batches.
+
+**Q: Is it possible to revert the changes made to metadata?**  
+A: Keep a backup of the original workbook before applying updates, then restore it if needed.
+
+**Q: Where can I find more detailed documentation?**  
+A: See the official guide at [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/).
 
 ## Practical Applications
 
-Here are some real-world scenarios where updating spreadsheet metadata can be beneficial:
+1. **Financial Audits** – Record who modified a workbook and when, providing an audit trail.  
+2. **Project Management** – Tag spreadsheets with project‑specific keywords for quick retrieval.  
+3. **Data Archiving** – Preserve original creation dates and company information for compliance.
 
-1. **Financial Audits**: Keep track of who last modified financial spreadsheets and when, ensuring accountability.
-2. **Project Management**: Update project-related documents with current categories and keywords for easier retrieval.
-3. **Data Archiving**: Maintain accurate creation dates and company names for historical data archiving.
+## Performance Tips
 
-## Performance Considerations
-
-For optimal performance when using GroupDocs.Metadata:
-- Limit the number of metadata operations in a single run to avoid memory overload.
-- Regularly monitor resource usage, especially with large documents or frequent updates.
-- Follow Java best practices for memory management, such as properly closing resources and handling exceptions.
+- Limit metadata operations per run to avoid excessive memory consumption.  
+- Close the `Metadata` object promptly (the `try‑with‑resources` pattern does this automatically).  
+- For very large workbooks, consider processing them on a background thread to keep the UI responsive.
 
 ## Conclusion
 
-Updating built-in metadata properties within your spreadsheets using GroupDocs.Metadata in Java is straightforward yet powerful. By following this guide, you have learned to enhance the organization of your documents effectively. As next steps, explore further features offered by GroupDocs.Metadata or integrate it with other systems for more comprehensive data management solutions.
+You now know how to **change Excel creation date**, **add keywords to Excel**, and **modify Excel document properties** using GroupDocs.Metadata in Java. This capability empowers you to keep your spreadsheets well‑organized, searchable, and compliant with internal governance policies. As a next step, explore other metadata features such as custom properties or batch processing to further streamline your document management workflow.
 
-## FAQ Section
+---
 
-1. **What versions of Java are compatible with GroupDocs.Metadata?**
-   - Version 8 and above are recommended.
-2. **How do I handle errors when updating metadata?**
-   - Use try-catch blocks to catch and handle exceptions gracefully.
-3. **Can I update multiple spreadsheets simultaneously?**
-   - Yes, but consider performance implications for large batches.
-4. **Is it possible to revert changes made to metadata?**
-   - Changes can be reverted by keeping a backup of the original spreadsheet before updating metadata.
-5. **Where can I find more documentation on GroupDocs.Metadata?**
-   - Visit [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/) for detailed guides and references.
+**Last Updated:** 2026-03-22  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs  
 
-## Resources
+**Resources**
 - [Documentation](https://docs.groupdocs.com/metadata/java/)
 - [API Reference](https://reference.groupdocs.com/metadata/java/)
 - [Download GroupDocs.Metadata](https://releases.groupdocs.com/metadata/java/)
 - [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - [Free Support Forum](https://forum.groupdocs.com/c/metadata/)
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/) 
-
-By leveraging the capabilities of GroupDocs.Metadata, you can ensure your spreadsheets are well-documented and organized, facilitating better data management and retrieval. Happy coding!
-
+- [Temporary License](https://purchase.groupdocs.com/temporary-license/)

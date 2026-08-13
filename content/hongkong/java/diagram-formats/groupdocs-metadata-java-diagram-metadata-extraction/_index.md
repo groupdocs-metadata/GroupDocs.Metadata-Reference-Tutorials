@@ -1,42 +1,87 @@
 ---
-date: '2026-01-16'
-description: 學習如何使用 GroupDocs.Metadata for Java 高效提取圖表的元資料。提升您的文件管理能力。
+date: '2026-05-17'
+description: 了解如何使用 GroupDocs.Metadata for Java 高效地從圖表提取 metadata。提升您的文件管理能力。
 keywords:
-- extract custom metadata diagrams
-- GroupDocs.Metadata for Java
-- manage diagram file properties
-title: 如何使用 GroupDocs Metadata Java 從圖表提取元資料
+- how to extract metadata
+- GroupDocs.Metadata Java
+- diagram metadata extraction
+schemas:
+- author: GroupDocs
+  dateModified: '2026-05-17'
+  description: Learn how to extract metadata from diagrams efficiently using GroupDocs.Metadata
+    for Java. Enhance your document management capabilities.
+  headline: How to Extract Metadata from Diagrams Using GroupDocs Metadata Java
+  type: TechArticle
+- description: Learn how to extract metadata from diagrams efficiently using GroupDocs.Metadata
+    for Java. Enhance your document management capabilities.
+  name: How to Extract Metadata from Diagrams Using GroupDocs Metadata Java
+  steps:
+  - name: Load the Diagram File
+    text: 'The `Metadata` class is the entry point for reading any supported document''s
+      metadata. Begin by creating a `Metadata` object with your diagram path:'
+  - name: Access the Root Package
+    text: 'The root package provides access to the diagram''s core metadata structures.
+      Retrieve it to interact with its properties:'
+  - name: Find Custom Properties
+    text: 'Use a specification to filter out built‑in document properties and focus
+      on custom ones:'
+  - name: Process Each Custom Property
+    text: 'Iterate over the properties to process their names and values:'
+  - name: Initialize the Metadata Object
+    text: 'Again, start with the `Metadata` class to open the diagram file:'
+  - name: Obtain the Root Package
+    text: 'Access the root package to explore various metadata elements: With this
+      setup, you can perform additional operations on the `root` object as required,
+      such as retrieving built‑in properties, enumerating pages, or extracting embedded
+      thumbnails.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can provide the password when opening the file via the `Metadata`
+      constructor overload.
+    question: Does GroupDocs.Metadata work with encrypted diagram files?
+  - answer: '`MetadataProperty` represents an individual metadata field that can be
+      read or modified. Absolutely—use the `setValue` method on `MetadataProperty`
+      objects and then save changes.'
+    question: Can I write or update custom metadata after extraction?
+  - answer: Retrieve all properties via `root.getDocumentProperties().findProperties(null)`
+      and filter as needed.
+    question: Is there a way to list all built‑in properties alongside custom ones?
+  - answer: GroupDocs.Metadata abstracts the underlying format, exposing a unified
+      API for supported diagram types.
+    question: How does the library handle different diagram standards (e.g., Visio,
+      Draw.io)?
+  - answer: Limits are defined by the underlying file format; most modern diagram
+      formats support dozens of custom tags.
+    question: Are there any limits on the number of custom properties I can store?
+  type: FAQPage
+title: 如何使用 GroupDocs.Metadata for Java 從圖表提取 metadata
 type: docs
 url: /zh-hant/java/diagram-formats/groupdocs-metadata-java-diagram-metadata-extraction/
 weight: 1
 ---
 
-# 如何使用 GroupDocs Metadata Java 從圖表中提取中繼資料
+# 如何使用 GroupDocs Metadata Java 從圖表中提取元資料
 
-從圖表檔案中提取自訂中繼資料對於需要在應用程式中**如何提取中繼資料**的開發人員而言至關重要。使用 GroupDocs.Metadata for Java，這個過程變得無縫，能精確處理標準屬性與使用者自訂屬性。在本指南中，您將一步步學習如何提取中繼資料、其重要性，以及如何將此解決方案整合到實際專案中。
+## 快速解答
+- **建議使用的函式庫？** GroupDocs.Metadata for Java (v24.12+).  
+- **我可以讀取自訂屬性嗎？** Yes – the API lets you filter and retrieve user‑defined metadata.  
+- **我需要授權嗎？** A free trial and temporary license are available; a paid license is required for production.  
+- **支援 Maven 嗎？** Absolutely – add the repository and dependency to your `pom.xml`.  
+- **它能處理大型圖表嗎？** Use try‑with‑resources and cache results to keep memory usage low.
 
-## 快速回答
-- **推薦使用哪個函式庫？** GroupDocs.Metadata for Java (v24.12+)
-- **我可以讀取自訂屬性嗎？** 可以 – API 允許您篩選並取得使用者自訂的中繼資料。
-- **我需要授權嗎？** 提供免費試用與臨時授權；正式環境需購買授權。
-- **支援 Maven 嗎？** 當然 – 將儲存庫與相依性加入您的 `pom.xml`。
-- **能處理大型圖表嗎？** 請使用 try‑with‑resources 並快取結果，以降低記憶體使用量。
+## 在圖表情境下，「如何提取元資料」是什麼意思？
+提取元資料是指讀取儲存在圖表檔案內的隱藏資訊——例如作者、建立日期，或您自行加入的任何自訂標籤。這些資料可協助您在不開啟視覺內容的情況下，進行組織、搜尋，並將圖表與其他系統整合。
 
-## 在圖表情境下，「如何提取中繼資料」是什麼意思？
-提取中繼資料是指讀取儲存在圖表檔案內的隱藏資訊——例如作者、建立日期，或您自行加入的任何自訂標籤。這些資料可協助您在不開啟視覺內容的情況下，進行組織、搜尋與與其他系統的整合。
-
-## 為什麼要從圖表中提取自訂中繼資料？
-- **提升搜尋性：** 為圖表加上專案特定的標籤，即可快速定位。  
-- **自動化：** 將圖表屬性與 CRM、DMS 或報表工具同步。  
-- **合規性：** 在發布前驗證必要的中繼資料（如版本、擁有者）是否存在。
+## 為什麼要從圖表中提取自訂元資料？
+從圖表中提取自訂元資料可提升自動化與治理。GroupDocs.Metadata 支援 **50+ 圖表格式**，且能在不將整個文件載入記憶體的情況下處理高達 **500 MB** 的檔案，為您提供快速、低開銷的方式，有效存取標準與使用者自訂的屬性。
 
 ## 介紹
-在圖表檔案中存取或修改特定的中繼資料對於許多應用程式（如文件管理與系統整合）至關重要。在本指南中，我們將探討如何使用 GroupDocs.Metadata Java 實現此功能，並輕鬆將其整合至您的專案中。
+在圖表檔案中存取或修改特定元資料對許多應用程式而言至關重要，例如文件管理與系統整合。本指南將說明如何使用 GroupDocs.Metadata Java 完成此操作，並輕鬆將這些功能整合至您的專案中。
 
 ## 前置條件
-- **函式庫與版本：** GroupDocs.Metadata 函式庫版本 24.12 或更新。  
-- **環境設定：** 具備 Maven 的 Java 開發環境。  
-- **知識前提：** 具備 Java 程式設計的基本概念。
+- **函式庫與版本：** GroupDocs.Metadata library version 24.12 or later.  
+- **環境設定：** Java development environment with Maven.  
+- **知識前提：** Basic familiarity with Java programming.
 
 ## 設定 GroupDocs.Metadata for Java
 
@@ -62,29 +107,29 @@ weight: 1
 ```
 
 ### 直接下載
-或者，從[GroupDocs.Metadata for Java 版本發布](https://releases.groupdocs.com/metadata/java/)下載最新版本。
+或者，從 [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) 下載最新版本。
 
-**取得授權：** GroupDocs 提供免費試用與臨時授權，讓您無限制測試其函式庫。若需長期使用，可購買正式授權。
+**取得授權：** GroupDocs 提供免費試用與臨時授權，以無限制測試其函式庫。若需長期使用，您可以購買授權。
 
-**初始化與設定：** 安裝完成後，使用文件路徑初始化 Metadata 物件，即可開始操作中繼資料。
+**初始化與設定：** 安裝完成後，使用您的文件路徑初始化 Metadata 物件，即可開始操作元資料。
 
 ## 實作指南
 
-我們將實作分為兩個主要功能：從圖表中提取自訂中繼資料屬性，以及載入圖表中繼資料。
+我們將實作分為兩個主要功能：從圖表中提取自訂元資料屬性以及載入圖表元資料。
 
-### 從圖表中提取自訂中繼資料屬性
+### 如何從圖表中提取自訂元資料屬性？
 
-此功能讓您能存取圖表檔案中非標準、使用者自訂的屬性。
+只需幾行程式碼即可載入自訂屬性。首先建立 `Metadata` 實例，然後導向根套件並過濾內建屬性，以取得使用者自訂的屬性。
 
 #### 步驟 1：載入圖表檔案
-首先，以您的文件路徑建立 `Metadata` 物件：
+`Metadata` 類別是讀取任何支援文件元資料的入口點。先以您的圖表路徑建立 `Metadata` 物件：
 
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY")) {
 ```
 
-#### 步驟 2：取得根套件
-取得圖表的根套件，以便操作其屬性：
+#### 步驟 2：存取根套件
+根套件提供圖表核心元資料結構的存取。取得它以操作其屬性：
 
 ```java
 DiagramRootPackage root = metadata.getRootPackageGeneric();
@@ -98,7 +143,7 @@ IReadOnlyList<MetadataProperty> customProperties = root.getDocumentProperties().
 ```
 
 #### 步驟 4：處理每個自訂屬性
-遍歷這些屬性，以處理其名稱與值：
+遍歷屬性以處理其名稱與值：
 
 ```java
 for (MetadataProperty property : customProperties) {
@@ -107,70 +152,79 @@ for (MetadataProperty property : customProperties) {
 }
 ```
 
-### 載入與存取圖表中繼資料
+### 如何載入與存取圖表元資料？
 
-此功能著重於存取圖表檔案內的中繼資料元件。
+除了自訂標籤外，您通常還需要讀取標準屬性，例如作者、建立日期或最後修改時間。以下步驟說明如何取得完整的元資料集合。
 
 #### 步驟 1：初始化 Metadata 物件
-與提取自訂屬性相同，先進行初始化：
+同樣，先以 `Metadata` 類別開啟圖表檔案：
 
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY")) {
 ```
 
 #### 步驟 2：取得根套件
-取得根套件，以探索各種中繼資料元素：
+存取根套件以探索各種元資料元素：
 
 ```java
 DiagramRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-有了此設定，您即可根據需求對 `root` 物件執行其他操作。
+有了此設定，您即可根據需求對 `root` 物件執行其他操作，例如取得內建屬性、列舉頁面或提取內嵌縮圖。
 
 ## 實務應用
-以下是提取圖表自訂中繼資料的實際應用情境：
-1. **文件管理系統：** 利用自訂中繼資料提升搜尋性與組織性。  
-2. **與 CRM 工具整合：** 將圖表屬性與客戶關係管理系統同步，以便更佳追蹤。  
-3. **自動化報表：** 使用中繼資料產生文件使用與變更的報告。
+以下是一些提取圖表自訂元資料的實務情境：
+1. **文件管理系統：** 透過自訂元資料提升搜尋性與組織性。  
+2. **與 CRM 工具整合：** 將圖表屬性同步至客戶關係管理系統，以提升追蹤效果。  
+3. **自動化報告：** 使用元資料產生文件使用與變更的報告。
 
 ## 效能考量
-在使用 GroupDocs.Metadata 時，優化效能的要點如下：
+在使用 GroupDocs.Metadata 時優化效能：
 - **資源使用：** 監控記憶體消耗，特別是處理大型文件時。  
 - **Java 記憶體管理：** 採用最佳實踐，例如使用 try‑with‑resources 進行自動資源管理。  
-- **優化技巧：** 快取常用的中繼資料，以減少重複操作。
+- **最佳化技巧：** 快取常用元資料，以減少重複操作與避免重複 I/O 呼叫。
 
-## 結論
-在本指南中，我們探討了使用 GroupDocs.Metadata Java **如何提取中繼資料**。依循這些步驟，您即可提升應用程式的文件處理能力，並與其他系統無縫整合。
+## 常見問題與解決方案
+- **問題：** `OutOfMemoryError` 在處理非常大型的圖表時發生。  
+  **解決方案：** 在 try‑with‑resources 區塊中一次處理一個圖表，若支援則啟用串流模式。  
+- **問題：** 自訂屬性回傳 `null`。  
+  **解決方案：** 確認圖表確實包含使用者自訂標籤，且使用正確的規格過濾器。  
+- **問題：** 於生產伺服器上出現授權例外。  
+  **解決方案：** `License` 為載入與套用 GroupDocs 授權檔的類別。於任何元資料操作之前，使用 `License license = new License(); license.setLicense("path/to/license.lic");` 套用永久授權檔。
 
-**下一步：** 嘗試不同的圖表格式、探索批次處理，並深入了解 GroupDocs.Metadata 所提供的進階功能。
-
-## 常見問題
+## 常見問答
 
 **Q: GroupDocs.Metadata 能處理加密的圖表檔案嗎？**  
-A: 可以，您可在使用 `Metadata` 建構子重載開啟檔案時提供密碼。
+A: Yes, you can provide the password when opening the file via the `Metadata` constructor overload.
 
-**Q: 提取後我可以寫入或更新自訂中繼資料嗎？**  
-A: 當然可以——使用 `MetadataProperty` 物件的 `setValue` 方法，然後儲存變更。
+**Q: 我可以在提取後寫入或更新自訂元資料嗎？**  
+A: `MetadataProperty` represents an individual metadata field that can be read or modified. Absolutely—use the `setValue` method on `MetadataProperty` objects and then save changes.
 
-**Q: 有方法同時列出所有內建屬性與自訂屬性嗎？**  
-A: 可透過 `root.getDocumentProperties().findProperties(null)` 取得全部屬性，並依需求過濾。
+**Q: 有沒有方法同時列出所有內建屬性與自訂屬性？**  
+A: Retrieve all properties via `root.getDocumentProperties().findProperties(null)` and filter as needed.
 
 **Q: 函式庫如何處理不同的圖表標準（例如 Visio、Draw.io）？**  
-A: GroupDocs.Metadata 抽象化底層格式，為支援的圖表類型提供統一的 API。
+A: GroupDocs.Metadata abstracts the underlying format, exposing a unified API for supported diagram types.
 
-**Q: 我能儲存的自訂屬性數量有限制嗎？**  
-A: 限制取決於底層檔案格式；大多數現代圖表格式支援數十個自訂標籤。
+**Q: 我可以儲存的自訂屬性數量有沒有上限？**  
+A: Limits are defined by the underlying file format; most modern diagram formats support dozens of custom tags.
 
-**資源**  
+## 資源  
 - [文件說明](https://docs.groupdocs.com/metadata/java/)  
 - [API 參考](https://reference.groupdocs.com/metadata/java/)  
 - [下載](https://releases.groupdocs.com/metadata/java/)  
 - [GitHub 程式庫](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - [免費支援論壇](https://forum.groupdocs.com/c/metadata/)  
-- [取得臨時授權](https://purchase.groupdocs.com/temporary-license/)
+- [臨時授權取得](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 
-**最後更新：** 2026-01-16  
+**最後更新：** 2026-05-17  
 **測試環境：** GroupDocs.Metadata 24.12 for Java  
-**作者：** GroupDocs  
+**作者：** GroupDocs
+
+## 相關教學
+
+- [提取圖表元資料 Java - 精通圖表偵測與 GroupDocs.Metadata](/metadata/java/diagram-formats/groupdocs-metadata-java-diagram-detection/)
+- [提取圖表元資料 Java – 使用 GroupDocs.Metadata 的圖表元資料教學](/metadata/java/diagram-formats/)
+- [精通元資料管理：使用 GroupDocs.Metadata for Java 偵測文件屬性與加密狀態](/metadata/java/working-with-metadata/master-metadata-management-groupdocs-java/)

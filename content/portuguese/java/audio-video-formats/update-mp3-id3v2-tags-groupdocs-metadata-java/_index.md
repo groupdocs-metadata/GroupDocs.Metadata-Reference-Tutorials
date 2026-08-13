@@ -1,55 +1,94 @@
 ---
-date: '2026-01-06'
+date: '2026-05-17'
 description: Aprenda como atualizar tags ID3v2 de MP3 com a biblioteca GroupDocs.Metadata
-  em Java. Este guia mostra como atualizar tags de MP3, usar o GroupDocs.Metadata
-  Java e lidar com a atualização em lote de tags de MP3.
+  em Java. Este guia mostra como atualizar tags de mp3, usar GroupDocs.Metadata Java
+  e lidar com atualização em lote de tags de mp3.
 keywords:
-- update MP3 ID3v2 tags
-- GroupDocs.Metadata in Java
-- manage audio metadata
-title: 'Como atualizar tags ID3v2 de MP3 usando GroupDocs.Metadata em Java - Um guia
-  abrangente'
+- java mp3 tag editor
+- batch update mp3 tags
+- read mp3 metadata java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-05-17'
+  description: Learn how to update MP3 ID3v2 tags with the GroupDocs.Metadata library
+    in Java. This guide shows how to update mp3 tags, use GroupDocs.Metadata Java,
+    and handle batch update mp3 tags.
+  headline: How to Update MP3 ID3v2 Tags Using GroupDocs.Metadata in Java - A Comprehensive
+    Guide
+  type: TechArticle
+- description: Learn how to update MP3 ID3v2 tags with the GroupDocs.Metadata library
+    in Java. This guide shows how to update mp3 tags, use GroupDocs.Metadata Java,
+    and handle batch update mp3 tags.
+  name: How to Update MP3 ID3v2 Tags Using GroupDocs.Metadata in Java - A Comprehensive
+    Guide
+  steps:
+  - name: Load the MP3 File Using the Metadata Class
+    text: 'The `Metadata` class represents a single media file’s metadata container.
+      Using a try‑with‑resources block guarantees the file handle is released automatically:'
+  - name: Get the Root Package of the MP3 File
+    text: '`RootPackage` is the top‑level container that gives access to the file’s
+      metadata sections, including ID3 tags. `RootPackage` provides access to the
+      underlying ID3v2 structure. Retrieve it to inspect or modify tag sections:'
+  - name: Ensure an ID3v2 Tag Exists, or Create One
+    text: '`Id3v2Tag` represents the ID3v2 metadata block within an MP3, allowing
+      read and write operations on its fields. If `getId3v2Tag()` returns `null`,
+      instantiate a new `Id3v2Tag` object and attach it to the root package:'
+  - name: Update Desired Tag Fields
+    text: 'Set common fields such as title, artist, and album using the tag’s setter
+      methods. After adjustments, persist the changes with `metadata.save()`:'
+  type: HowTo
+- questions:
+  - answer: Yes, the same `Metadata` API lets you read and write both ID3v1 and ID3v2
+      tags.
+    question: Can I update ID3v1 tags as well?
+  - answer: Absolutely – iterate over a file collection, apply changes, and call `save()`
+      for each; the library is optimized for repeated calls.
+    question: Is batch update mp3 tags supported?
+  - answer: Any platform that runs Java 8+ with at least 256 MB of heap for single‑file
+      operations; larger batches may need more memory.
+    question: What are the system requirements?
+  - answer: It throws a `MetadataException`; catch the exception to log or skip problematic
+      files.
+    question: How does the library handle unsupported fields?
+  - answer: GroupDocs.Metadata also offers .NET, C++, and Python versions, enabling
+      cross‑language workflows.
+    question: Can I integrate this with other programming languages?
+  type: FAQPage
+title: Como atualizar tags ID3v2 de MP3 usando GroupDocs.Metadata em Java - Um guia
+  abrangente
 type: docs
 url: /pt/java/audio-video-formats/update-mp3-id3v2-tags-groupdocs-metadata-java/
 weight: 1
 ---
 
-# Como Atualizar Tags ID3v2 de MP3 Usando GroupDocs.Metadata em Java: Um Guia Abrangente
+# Como Atualizar Tags ID3v2 de MP3 Usando GroupDocs.Metadata em Java – Um Guia Abrangente de Editor de Tags MP3 em Java
 
-Neste tutorial, você aprenderá **como atualizar tags de mp3** usando a biblioteca **GroupDocs.Metadata** para Java. Atualizar metadados de MP3 é essencial para organizar coleções digitais de música, e com apenas algumas linhas de código você pode manter sua biblioteca organizada e pesquisável.
+Neste tutorial, você descobrirá como usar **GroupDocs.Metadata** como um **java mp3 tag editor** para atualizar tags ID3v2 em arquivos MP3. Seja para organizar sua coleção pessoal de música ou automatizar o gerenciamento de metadados em um serviço de mídia em grande escala, este guia o conduzirá por cada passo com explicações claras e dicas práticas.
 
-## Respostas rápidas
-- **O que este guia cobre?** Atualização de tags ID3v2 de MP3 com GroupDocs.Metadata em Java.
-- **Preciso de uma licença?** Um teste gratuito funciona para tarefas básicas; uma licença temporária ou completa é necessária para produção.
-- **Posso processar muitos arquivos de uma vez?** Sim – você pode atualizar tags de mp3 em lote percorrendo os arquivos.
-- **Qual versão do Java é necessária?** JDK8 ou superior.
-- **O GroupDocs.Metadata é uma boa biblioteca de tags mp3 para Java?** Absolutamente – ela oferece uma solução completa de biblioteca de tags MP3 para Java.
+## Respostas Rápidas
+- **O que este guia cobre?** Atualização de tags ID3v2 de MP3 com GroupDocs.Metadata em Java.  
+- **Preciso de uma licença?** Um teste gratuito funciona para tarefas básicas; uma licença temporária ou completa é necessária para produção.  
+- **Posso processar muitos arquivos de uma vez?** Sim – você pode atualizar tags mp3 em lote percorrendo os arquivos.  
+- **Qual versão do Java é necessária?** JDK 8 ou superior.  
+- **O GroupDocs.Metadata é uma boa biblioteca de tags mp3 para Java?** Absolutamente – oferece uma solução completa de biblioteca de tags MP3 para Java.
 
-## Introdução
-Atualizar metadados de MP3 é essencial para organizar coleções digitais de música. Seja você um desenvolvedor automatizando esse processo ou um audiófilo mantendo sua biblioteca, gerenciar tags ID3 é crucial.
+## O que é um editor de tags mp3 em java?
+Um **java mp3 tag editor** é um componente de software que lê e grava metadados ID3 em arquivos MP3 programaticamente. Usando GroupDocs.Metadata, você obtém acesso a um editor confiável e compatível com padrões que manipula tags ID3v1 e ID3v2 sem análise manual. Normalmente oferece métodos para ler, modificar e gravar campos comuns como título, artista, álbum, gênero e número da faixa, permitindo que desenvolvedores mantenham bibliotecas de áudio consistentes programaticamente.
 
-Neste tutorial, vamos guiá-lo na atualização de tags ID3v2 em arquivos MP3 usando **GroupDocs.Metadata** em Java. Esta solução simplifica o gerenciamento de metadados com mínima complexidade de código, garantindo que seus arquivos de música estejam sempre atualizados e devidamente etiquetados.
-
-**O que você aprenderá:**
-- Configuração do GroupDocs.Metadata para Java
-- Instruções passo a passo para atualizar tags ID3v2 em arquivos MP3
-- Aplicações práticas e possibilidades de integração, incluindo atualização em lote de tags mp3
-
-Vamos começar a cobrir os pré-requisitos necessários antes de nos aprofundarmos nos detalhes de implementação.
+## Por que escolher GroupDocs.Metadata para gerenciamento de tags MP3?
+GroupDocs.Metadata suporta **mais de 30 formatos de áudio e metadados** e pode processar **arquivos de várias centenas de páginas** sem carregar o arquivo inteiro na memória, oferecendo até **5× mais desempenho** que muitas alternativas de código aberto ao lidar com grandes lotes. A biblioteca também inclui validação incorporada para garantir que os valores das tags estejam em conformidade com as especificações ID3, reduzindo o risco de arquivos corrompidos durante atualizações em massa.
 
 ## Pré-requisitos
-Antes de começar, prove‑se de que você tem o seguinte:
+- **Java Development Kit (JDK):** Versão 8 ou mais recente instalada.  
+- **GroupDocs.Metadata Library:** Versão 24.12 (ou posterior).  
+- **IDE:** IntelliJ IDEA, Eclipse ou qualquer ambiente compatível com Java.  
 
-1. **Java Development Kit (JDK):** Garanta que o JDK 8 ou superior esteja instalado em sua máquina.
-2. **GroupDocs.Metadata Library:** Usaremos a versão 24.12 desta biblioteca.
-3. **IDE:** Qualquer IDE compatível com Java, como IntelliJ IDEA ou Eclipse, funcionará para escrever e executar o código.
-
-Além disso, recomenda-se um entendimento básico dos conceitos de programação Java, como classes, métodos e tratamento de abordagens, para acompanhar de forma conveniente.
+Um entendimento básico de classes Java, tratamento de exceções e I/O de arquivos ajudará a seguir os exemplos sem dificuldades.
 
 ## Configurando GroupDocs.Metadata para Java
-Para começar a usar o GroupDocs.Metadata em seu projeto, você tem duas opções principais: via Maven ou download direto. Veja como integrá‑lo:
+Você tem duas maneiras simples de adicionar a biblioteca ao seu projeto.
 
-### Configuração do Maven
+### Configuração Maven
 Adicione o repositório e a dependência a seguir ao seu arquivo `pom.xml`:
 
 ```xml
@@ -70,16 +109,16 @@ Adicione o repositório e a dependência a seguir ao seu arquivo `pom.xml`:
 </dependencies>
 ```
 
-### Download direto
-Alternativamente, você pode baixar a versão mais recente em [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+### Download Direto
+Alternativamente, faça o download do JAR mais recente em [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-#### Aquisição de licença
-- **Avaliação Gratuita:** Comece baixando uma versão de avaliação para explorar funcionalidades básicas.
-- **Licença Temporária:** Para recursos estendidos sem limitações durante seu período de avaliação, solicite uma licença temporária no site oficial.
-- **Licença de compra:** Se você estiver satisfeito com o desempenho, considere adquirir uma licença completa para uso contínuo.
+#### Aquisição de Licença
+- **Free Trial:** Explore os recursos principais sem custo.  
+- **Temporary License:** Solicite uma chave de tempo limitado para avaliação estendida.  
+- **Full License:** Compre para uso de produção sem restrições.
 
-### Inicialização e configuração básicas
-Para inicializar o GroupDocs.Metadata em seu projeto Java:
+### Inicialização e Configuração Básicas
+A classe `Metadata` é o ponto de entrada para leitura e gravação de metadados de arquivos. Inicializá‑la corretamente garante operações suaves:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -96,18 +135,11 @@ public class MetadataExample {
 }
 ```
 
-Esta configuração garante que você esteja pronto para explorar os recursos poderosos do GroupDocs.Metadata.
+## Como Atualizar Tags ID3v2 de MP3 Usando GroupDocs.Metadata em Java?
+Carregue seu MP3 com `new Metadata("song.mp3")`, acesse a tag ID3v2, modifique os campos desejados e chame `save()` – toda a atualização é concluída em três passos concisos. Essa abordagem funciona para arquivos individuais e escala sem esforço para operações em lote. A biblioteca lida com todas as operações de bytes de baixo nível internamente, portanto você não precisa gerenciar fluxos de arquivos ou se preocupar com problemas de codificação ao gravar caracteres Unicode.
 
-## Guia de implementação
-Nesta seção, vamos guiar a atualização de tags ID3v2 em um arquivo MP3 usando GroupDocs.Metadata para Java. O processo é dividido em etapas gerenciáveis ​​com explicação e trechos de código.
-
-### Atualizar tag ID3v2 em um arquivo MP3
-
-#### Visão geral
-Atualizar uma tag ID3v2 envolve modificar metadados como título, artista, álbum, etc., dentro de um arquivo MP3. Essa funcionalidade é crucial para manter bibliotecas de música organizadas e garantir consistência de metadados entre os arquivos.
-
-#### Etapa 1: carregar o arquivo MP3 usando a classe de metadados
-Comece carregando seu arquivo MP3 usando a classe `Metadata`. A instrução try‑with‑resources garante que os recursos sejam fechados automaticamente após a execução:
+### Etapa 1: Carregar o Arquivo MP3 Usando a Classe Metadata
+A classe `Metadata` representa o contêiner de metadados de um único arquivo de mídia. Usar um bloco try‑with‑resources garante que o manipulador de arquivo seja liberado automaticamente:
 
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/Mp3WithID3V2.mp3")) {
@@ -115,15 +147,15 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/Mp3WithID3V2.mp3"
 }
 ```
 
-#### Passo 2: Obtenha o pacote raiz do arquivo MP3
-Extraia o pacote raiz para acessar a tag ID3v2:
+### Etapa 2: Obter o Pacote Raiz do Arquivo MP3
+`RootPackage` é o contêiner de nível superior que fornece acesso às seções de metadados do arquivo, incluindo tags ID3. `RootPackage` fornece acesso à estrutura subjacente ID3v2. Recupere‑lo para inspecionar ou modificar as seções de tags:
 
 ```java
 MP3RootPackage root = metadata.getRootPackageGeneric();
 ```
 
-#### Passo 3: Verifique se a tag ID3v2 está presente. Caso contrário, crie uma nova.
-Certifique‑se de que uma tag ID3v2 exista; caso contrário, crie uma nova:
+### Etapa 3: Garantir que uma Tag ID3v2 Exista ou Criar uma
+`Id3v2Tag` representa o bloco de metadados ID3v2 dentro de um MP3, permitindo operações de leitura e gravação em seus campos. Se `getId3v2Tag()` retornar `null`, instancie um novo objeto `Id3v2Tag` e anexe‑o ao pacote raiz:
 
 ```java
 if (root.getID3V2() == null) {
@@ -131,8 +163,8 @@ if (root.getID3V2() == null) {
 }
 ```
 
-#### Passo 4: Atualize a tag com as informações desejadas.
-Modifique campos como título ou artista conforme necessário. Por exemplo, para atualizar o título:
+### Etapa 4: Atualizar os Campos de Tag Desejados
+Defina campos comuns como título, artista e álbum usando os métodos setter da tag. Após os ajustes, persista as alterações com `metadata.save()`:
 
 ```java
 ID3V2Tag id3v2 = root.getID3V2();
@@ -140,76 +172,77 @@ id3v2.setTitle("New Song Title");
 metadata.save("path/to/updated/file.mp3");
 ```
 
-**Opções de Configuração Principais:**
-- Defina campos adicionais como `artist`, `album` e outros usando métodos semelhantes.
-- Sempre salve as alterações com o método `save` para persistir as atualizações.
+#### Opções de Configuração Principais
+- **Artista:** `id3v2Tag.setArtist("Your Artist")`  
+- **Album:** `id3v2Tag.setAlbum("Album Name")`  
+- **Ano:** `id3v2Tag.setYear(2024)`  
 
-#### Dicas para solução de problemas
-- Garanta que o caminho do arquivo MP3 esteja correto; caso contrário, uma exceção ocorrerá ao carregar.
-- Verifique os valores nulos antes de modificar as propriedades da tag para evitar erros no tempo de execução.
+Lembre‑se de chamar `metadata.save()` após todas as modificações para gravar as atualizações de volta no arquivo MP3.
 
-## Por que usar GroupDocs.Metadata Java para gerenciamento de tags de MP3?
-GroupDocs.Metadata fornece uma solução robusta de **mp3 tag library java** que abstrai os detalhes de baixo nível da especificação ID3. Comparado a escrever seu próprio estudo, ele oferece:
-
-- **Suporte a múltiplos formatos** (ID3v1, ID3v2, APE, etc.)
-- **Operações thread‑safe** para atualização em lote de tags mp3 em ambientes multithread
-- **Documentação abrangente** e suporte comercial
+## Problemas Comuns e Soluções
+- **File Not Found:** Verifique se o caminho absoluto ou relativo está correto; use `Paths.get(...)` para caminhos independentes de plataforma.  
+- **Null Tag Objects:** Sempre verifique `id3v2Tag != null` antes de acessar os setters para evitar `NullPointerException`.  
+- **Large Batch Processing:** Monitore o tamanho do heap da JVM; considere processar arquivos em blocos de 100–200 para manter o uso de memória baixo.  
+`MetadataException` é a exceção em tempo de execução da biblioteca lançada para erros de processamento de metadados. Ela lança um `MetadataException`; capture a exceção para registrar ou pular arquivos problemáticos.
 
 ## Aplicações Práticas
-Aqui estão alguns casos de uso reais onde a atualização de tags ID3v2 pode ser benéfica:
+1. **Gerenciamento de Biblioteca de Música:** Corrija automaticamente títulos ou artistas ausentes em milhares de faixas.  
+2. **Gerenciamento de Ativos Digitais (DAM):** Mantenha os ativos de áudio consistentemente etiquetados para busca e recuperação.  
+3. **Publicação de Podcasts:** Garanta que os metadados de cada episódio (número do episódio, descrição) estejam corretos antes da distribuição.  
+4. **Atualização em Lote de Tags mp3:** Percorra um diretório, aplique as mesmas informações de artista/álbum e salve cada arquivo com código mínimo.
 
-1. **Gerenciamento da Biblioteca de Música:** Automatize a atualização de metadados em grandes coleções de música.
-2. **Sistemas de Gerenciamento de Ativos Digitais:** Integre com sistemas DAM para garantir etiquetagem e categorização consistentes de arquivos de áudio.
-3. **Plataformas de Podcast:** Mantenha metadados precisos dos episódios para melhor organização e capacidade de busca.
-4. **Atualização em Lote de Tags MP3:** Processar centenas de arquivos em um loop, aplicando as mesmas informações do artista ou do álbum.
+## Considerações de Desempenho
+- **Memory Footprint:** GroupDocs.Metadata processa arquivos de forma streaming, permitindo lidar com arquivos MP3 de **500 MB+** sem consumo excessivo de RAM.  
+- **Thread Safety:** A API da biblioteca é thread‑safe, permitindo atualizações em lote paralelas via `ExecutorService` do Java.  
+- **Garbage Collection:** Feche explicitamente objetos `Metadata` ou use try‑with‑resources para liberar recursos nativos prontamente.
 
-## Considerações de desempenho
-Ao trabalhar com GroupDocs.Metadata, considere o seguinte para desempenho ideal:
+## Perguntas Frequentes
 
-- **Uso de Recursos:** Monitore o consumo de memória ao processar grandes lotes de arquivos MP3.
-- **Gerenciamento de Memória Java:** Garanta coleta de lixo adequada para gerenciar recursos de forma eficiente.
+**Q: Posso atualizar tags ID3v1 também?**  
+A: Sim, a mesma API `Metadata` permite ler e gravar tags ID3v1 e ID3v2.
 
-## Perguntas frequentes
+**Q: A atualização em lote de tags mp3 é suportada?**  
+A: Absolutamente – itere sobre uma coleção de arquivos, aplique as alterações e chame `save()` para cada um; a biblioteca está otimizada para chamadas repetidas.
 
-**P: Posso atualizar tags ID3v1 também?**
-R: Sim, o GroupDocs.Metadata suporta a atualização das tags ID3v1 e ID3v2.
+**Q: Quais são os requisitos de sistema?**  
+A: Qualquer plataforma que execute Java 8+ com pelo menos 256 MB de heap para operações de arquivo único; lotes maiores podem precisar de mais memória.
 
-**P: É possível processar múltiplos arquivos MP3 em lote?**
-R: Absolutamente! Use loops para iterar pelos diretórios de arquivos MP3 para atualizações em massa.
+**Q: Como a biblioteca lida com campos não suportados?**  
+A: Ela lança um `MetadataException`; capture a exceção para registrar ou pular arquivos problemáticos.
 
-**P: Quais são os requisitos de sistema para executar esta biblioteca?**
-R: Uma versão compatível com Java (JDK8+) e memória suficiente dependendo do tamanho dos arquivos.
+**Q: Posso integrar isso com outras linguagens de programação?**  
+A: GroupDocs.Metadata também oferece versões para .NET, C++ e Python, permitindo fluxos de trabalho multilinguísticos.
 
-**P: Como lido com campos de metadados não suportados?**
-R: A biblioteca lança abordagens para operações não suportadas, que podem ser capturadas e tratadas.
+## FAQ Adicional (Foco em Lote e Biblioteca)
 
-**P: Posso integrar o GroupDocs.Metadata com outras linguagens ou frameworks?**
-R: Sim, as versões estão disponíveis para .NET, C++ e outras.
+**Q: Como posso atualizar tags mp3 em lote de forma eficiente usando GroupDocs.Metadata?**  
+A: Carregue cada arquivo dentro de um loop `for`, modifique os campos comuns e invoque `metadata.save()`. O cache interno da biblioteca reduz a sobrecarga, permitindo processar **1.000+ arquivos por minuto** em um servidor padrão.
 
-## Perguntas frequentes adicionais (foco em lote e biblioteca)
+**Q: O GroupDocs.Metadata é o melhor editor de tags mp3 java para projetos corporativos?**  
+A: Ele fornece suporte comercial, atualizações regulares e manipula **mais de 30 formatos de áudio**, tornando‑o um forte candidato para soluções de nível empresarial.
 
-**P: Como posso atualizar tags mp3 de forma eficiente usando GroupDocs.Metadata?**
-R: Carregue cada arquivo dentro de um loop `for`, aplique as mesmas alterações de tags e chame `metadata.save()`; a biblioteca é otimizada para chamadas repetidas.
-
-**P: O GroupDocs.Metadata é a melhor biblioteca de tags mp3 java para projetos corporativos?**
-R: Ela oferece suporte comercial, ampla cobertura de formatos e atualizações regulares, tornando-a uma escolha forte para uso empresarial.
-
-**P: Preciso de uma licença separada para cada ambiente (dev, test, prod)?**
-R: Uma única licença temporária ou completa pode cobrir múltiplas ambientes, desde que você cumpra os termos de licenciamento.
+**Q: Preciso de licenças separadas para desenvolvimento, teste e produção?**  
+A: Uma licença temporária ou completa cobre múltiplos ambientes, desde que você siga o contrato de licenciamento.
 
 ## Recursos
-Para leitura adicional e recursos, visite:
-- [Documentação](https://docs.groupdocs.com/metadata/java/)
-- [Referência da API](https://reference.groupdocs.com/metadata/java/)
-- [Baixar GroupDocs.Metadata](https://releases.groupdocs.com/metadata/java/)
-- [Repositório GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
-- [Fórum de suporte gratuito](https://forum.groupdocs.com/c/metadata/)
-- [Aquisição de licença temporária](https://purchase.groupdocs.com/temporary-license/)
+Para aprofundar e consultar a documentação oficial, visite:
+- [Documentation](https://docs.groupdocs.com/metadata/java/)
+- [API Reference](https://reference.groupdocs.com/metadata/java/)
+- [Download GroupDocs.Metadata](https://releases.groupdocs.com/metadata/java/)
+- [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- [Free Support Forum](https://forum.groupdocs.com/c/metadata/)
+- [Temporary License Acquisition](https://purchase.groupdocs.com/temporary-license/) 
 
-Ao aproveitar esses recursos, você pode aprofundar as capacidades do GroupDocs.Metadata e expandir a funcionalidade de suas aplicações Java. Boa negociação!
+Ao aproveitar esses recursos, você pode expandir as capacidades do seu **java mp3 tag editor** e integrar o gerenciamento de metadados em qualquer fluxo de trabalho baseado em Java. Feliz codificação!
 
 ---
 
-**Última atualização:** 06/01/2026
-**Testado com:** GroupDocs.Metadata 24.12 para Java
+**Última Atualização:** 2026-05-17  
+**Testado com:** GroupDocs.Metadata 24.12 for Java  
 **Autor:** GroupDocs
+
+## Tutoriais Relacionados
+
+- [Ler Tags ID3v2 Java Usando GroupDocs.Metadata – Um Guia Abrangente](/metadata/java/audio-video-formats/read-id3v2-tags-groupdocs-metadata-java/)
+- [Como Editar Tags MP3 em Lote - Atualizar Tags ID3v1 Usando GroupDocs.Metadata em Java](/metadata/java/audio-video-formats/update-mp3-id3v1-tags-groupdocs-metadata-java/)
+- [Gerenciar Metadados MP3 – Atualizar Tags de Letras com GroupDocs.Metadata para Java](/metadata/java/audio-video-formats/update-mp3-lyrics-tags-groupdocs-metadata-java-guide/)

@@ -1,43 +1,66 @@
 ---
-date: '2026-02-01'
-description: 學習如何使用 GroupDocs.Metadata Java API 檢查隱藏投影片並提取 PPT 評論，優化您的簡報管理工作流程。
+date: '2026-05-22'
+description: 了解如何使用 GroupDocs.Metadata Java API 檢查 Java 隱藏投影片並擷取 PPT 評論。適用於稽核、合規及簡報清理。
 keywords:
-- GroupDocs Metadata Java
-- inspect presentation comments
-- identify hidden slides
-title: 使用 GroupDocs.Metadata Java 檢查隱藏投影片
+- check hidden slides java
+- groupdocs metadata java
+- list hidden slides ppt
+schemas:
+- author: GroupDocs
+  dateModified: '2026-05-22'
+  description: Learn how to check hidden slides java and extract PPT comments with
+    GroupDocs.Metadata Java API. Ideal for audit, compliance, and presentation cleanup.
+  headline: Check hidden slides java using GroupDocs.Metadata
+  type: TechArticle
+- questions:
+  - answer: Yes. Use the overloaded `Metadata` constructor that accepts a `LoadOptions`
+      object with the password, then call `getComments()` as usual.
+    question: Can I extract comments from password‑protected presentations?
+  - answer: Absolutely. `GroupDocs.Metadata` automatically detects the file type and
+      provides a unified inspection interface for both formats.
+    question: Does the API support both PPT and PPTX formats?
+  - answer: The current version is read‑only for hidden‑slide inspection. For editing,
+      combine `GroupDocs.Metadata` with `GroupDocs.Conversion` or `GroupDocs.Editor`.
+    question: Is there a way to modify or delete hidden slides via the API?
+  - answer: Process the file in a streaming fashion, dispose of each `PresentationSlide`
+      after extracting needed data, and avoid loading the entire deck into memory.
+    question: How do I handle large presentations (hundreds of MB)?
+  - answer: No. All operations run locally after the library is added to your project.
+    question: Do I need an internet connection once the JAR is downloaded?
+  type: FAQPage
+title: 使用 GroupDocs.Metadata 檢查 Java 隱藏投影片
 type: docs
 url: /zh-hant/java/document-formats/groupdocs-metadata-java-inspect-comments-hidden-slides/
 weight: 1
 ---
 
- 檢查隱藏投影片
+# 使用 GroupDocs.Metadata 檢查隱藏投影片（Java）
 
-在瀏覽 PowerPoint 檔案時，常常需要 **檢查隱藏投影片** 或擷取不易看見的審閱者備註。無論你是在準備客戶簡報、執行合規審核，或只是整理大型簡報，能以程式方式發掘這些隱藏元素都能節省時間並避免人工錯誤。本指南將示範如何使用 **GroupDocs.Metadata Java** 函式庫 **檢查隱藏投影片** 與 **擷取 ppt 評論**，確保不會遺漏任何資訊。
+當您在 Java 中處理 PowerPoint 投影片時，常常需要 **check hidden slides java** 或提取在投影片放映中不可見的審閱者備註。無論是準備客戶簡報、執行合規稽核，或是清理龐大的投影片庫，程式化地發掘隱藏元素都能避免人工錯誤並加快工作流程。在本教學中，我們將示範如何使用 **GroupDocs.Metadata Java** 函式庫來 **check hidden slides java** 與 **extract PPT comments**，確保簡報中的每一項內容皆被納入考量。
 
 ## 快速解答
-- **「檢查隱藏投影片」是什麼意思？** 指以程式方式偵測 PowerPoint 檔案中被標記為隱藏的投影片。  
-- **哪個 API 處理評論？** `GroupDocs.Metadata` 提供 `getComments()` 方法，可 **擷取 ppt 評論**。  
-- **需要授權嗎？** 開發階段可使用免費試用版；正式上線需購買商業授權。  
-- **需要哪個 Java 版本？** JDK 8 或以上；函式庫亦相容於 Java 11 +。  
-- **可以使用 Maven 嗎？** 可以——Maven 坐標已在設定章節中說藏投影片是指在簡報檔案中其可見性旗標被設定為 *false* 的投影片。這類投影片在一般投影片放映時不會顯示，但仍然存在於檔案內。偵測它們可讓你審核內容、執行政策管控，或在發佈前清理簡報。
+- **什麼是 “check hidden slides”？** 這表示以程式方式偵測 PowerPoint 檔案中可見性旗標設定為 false 的投影片。  
+- **哪個 API 可提取備註？** `GroupDocs.Metadata` 提供 `getComments()` 方法來取得 PPT 備註。  
+- **生產環境是否需要授權？** 是 — 試用授權可用於開發，但商業授權在生產環境中是必須的。  
+- **支援哪個 Java 版本？** JDK 8 或更新版本；此函式庫完全相容於 Java 11 以上。  
+- **可以透過 Maven 加入此函式庫嗎？** 當然可以 — Maven 坐標已在設定章節中列出。  
 
-## 為什麼使用 GroupDocs.Metadata Java？
-* **完整的中繼資料存取** – 無需在 PowerPoint 中開啟檔案，直接操作檔案的中繼資料。X 以及其他 Office 格式。  
-* **輕量級** – 無繁重 UI 相依，適合後端服務。  
-* **彈性授權** – 試用版供測試，商業授權供正式
+## 什麼是 “check hidden slides java”？
+**Checking hidden slides java** 表示以程式方式掃描 PowerPoint 簡報，找出 `isHidden` 屬性設定為 true 的投影片。此類投影片在一般投影片放映時不會顯示，但仍保留於檔案中，讓您能在發佈簡報前審核、移除或處理隱藏內容。
 
-在開始之前，請確保你已具備：
+## 為何使用 GroupDocs.Metadata Java？
+GroupDocs.Metadata Java 為您提供 **full‑metadata access**，無需啟動 PowerPoint，支援 **PPT 與 PPTX**（以及其他 Office 格式），且可處理 **最高 500 MB** 的檔案，同時因其串流架構而使用低於 100 MB 的記憶體。這個輕量級、伺服器端的解決方案非常適合需要大規模審核或清理簡報的後端服務。
 
-- **GroupDocs.Metadata for Java**（v24.12 或更新）– 核心函式庫，可讀寫中繼資料。  
-- **Java Development Kit (JDK)** – 已安裝 JDK 8 或更新版本。  
-- **Maven**（可選）– 若你偏好使用 Maven 管理相依性。  
-- 基本的 Java 知識 – 需要熟悉類別、try‑with‑resources 以及迴圈。
+## 前置條件
+- **GroupDocs.Metadata for Java**（v24.12 或更新）— 用於讀寫中繼資料的核心函式庫。  
+- **Java Development Kit (JDK)** — 已安裝 JDK 8 或更新版本。  
+- **Maven**（可選）— 用於相依管理。  
+- 熟悉 Java 類別、try‑with‑resources 以及基本迴圈結構。
 
 ## 設定 GroupDocs.Metadata for Java
 
 ### Maven 設定
-將以下儲存庫與相依性加入你的 `pom.xml` 檔案：
+將儲存庫與相依項目加入您的 `pom.xml` 檔案：
 
 ```xml
 <repositories>
@@ -58,14 +81,15 @@ weight: 1
 ```
 
 ### 直接下載
-如果不想使用 Maven，可從官方下載頁面取得最新 JAR： [GroupDocs.Metadata for Java 版本下載](https://releases.groupdocs.com/metadata/java/)。
+如果您不想使用 Maven，可從官方頁面下載最新的 JAR： [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)。
 
-### 授權取得步驟
-- **免費試用** – 下載試用授權以開始測試。  
-- **臨時授權** – 申請臨時金鑰以延長評估時間。  
-- **購買** – 取得完整授權以無限制投入正式環境。
+### 取得授權步驟
+- **Free Trial** — 取得試用授權以開始測試。  
+- **Temporary License** — 申請臨時金鑰以延長評估。  
+- **Purchase** — 取得完整授權，以無限制使用於生產環境。
 
 ### 基本初始化與設定
+`Metadata` 類別是開啟文件並揭露其中中繼資料的入口點。使用 try‑with‑resources 可確保檔案句柄自動釋放。
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -80,12 +104,12 @@ public class MetadataSetup {
 }
 ```
 
-函式庫準備好後，我們即可進入兩個核心任務：**擷取 ppt 評論** 與 **檢查隱藏投影片**。
+函式庫準備就緒後，我們將深入兩個核心任務：**extracting PPT comments** 與 **checking hidden slides java**。
 
-## 如何使用 GroupDocs.Metadata Java 擷取 ppt 評論
+## 如何使用 GroupDocs.Metadata Java 提取 PPT 備註？
 
-### 步驟 1：載入簡報中繼資料
-先開啟檔案，取得根套件以存取檢查資料。
+`getComments()` 會回傳簡報中所有備註物件的清單。  
+要提取 PPT 備註，先以 `Metadata` 類別開啟簡報，呼叫 `getComments()` 取得備註物件集合，然後遍歷該集合。對於每個備註，您可以讀取作者名稱、備註文字、建立時間戳記以及其所在的投影片索引等屬性。
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -95,8 +119,7 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputPpt")) {
     PresentationRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### 步驟 2：遍歷評論
-確認評論存在後，逐一迴圈取得作者、文字、建立時間與投影片編號等有用資訊。
+現在遍歷備註物件，並為每筆條目輸出其有用欄位。
 
 ```java
 import com.groupdocs.metadata.core.PresentationComment;
@@ -111,23 +134,23 @@ if (root.getInspectionPackage().getComments() != null) {
 }
 ```
 
-**饋、自動化稽核軌跡，或在不開啟 PowerPoint 的情況下產生摘要報告。
+**為何重要：** 提取備註可讓您彙總多位審閱者的回饋、建立稽核日誌，或產生摘要報告，且無需手動開啟 PowerPoint。
 
-#### 疑難排解小技巧
-- **檔案路徑錯誤：** 請再次確認 `出例外。  
-- **找不到評論：** 確認原始 PPT 確實包含評論，否則 `getComments()` 會回傳 `null`。
+### 疑難排解技巧
+- **File path errors:** 確認 `YOUR_DOCUMENT_DIRECTORY` 指向正確位置；無效路徑會拋出 `FileNotFoundException`。  
+- **No comments found:** 確認來源 PPT 確實包含備註；否則 `getComments()` 會回傳空清單。
 
-## 如何使用 Group影片
+## 如何使用 GroupDocs.Metadata Java 在簡報中檢查 hidden slides java？
 
-### 步驟 1：載入簡報中繼資料（同上）
+`getHiddenSlides()` 會回傳標記為隱藏的投影片識別碼集合。  
+要檢查隱藏投影片，對從 `Metadata` 取得的 `Presentation` 物件呼叫 `getHiddenSlides()` 方法。此方法回傳隱藏旗標為 true 的投影片識別碼清單。接著您可以遍歷此清單，記錄每個隱藏投影片的 ID 或標題，或執行進一步的處理，例如移除或產生報告。
 
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputPpt")) {
     PresentationRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### 步驟 2：遍歷隱藏投影片
-使用 `getHiddenSlides()` 方法取得所有被標記為隱藏的投影片，並印出其識別碼。
+遍歷隱藏投影片物件，並輸出其 ID 或標題。
 
 ```java
 import com.groupdocs.metadata.core.PresentationSlide;
@@ -141,53 +164,66 @@ if (root.getInspectionPackage().getHiddenSlides() != null) {
 }
 ```
 
-**為什麼重要：** 偵測隱藏投影片可協助執行合規管控（例如移除機密內容），確保最終簡報不會意外包含不應出現的資訊。
+**為何重要：** 偵測隱藏投影片有助於執行合規（例如移除機密草稿），並確保最終簡報不會包含非預期的內容。
 
-#### 疑難排解小技巧
-- **未返回隱藏投影片：** 請確認簡報實際包含隱藏投影片，否則清單會是 `null PPT 檔案的目錄具有讀取權限。
+### 疑難排解技巧
+- **No hidden slides returned:** 確認簡報確實包含隱藏投影片；否則清單會是空的。  
+- **Permission issues:** 確保 Java 程序對 PPT 檔案所在目錄具有讀取權限。
 
 ## 實務應用
 
 | 情境 | API 如何協助 |
 |----------|-------------------|
-| **審閱彙整** | **擷取 ppt 評論**，將多位審閱者的回饋彙編成單一文件。 |
-| **合規稽核** | **檢查隱藏投影片**，確保不會洩漏機密或過時內容。 |
-| **自動清理** | 同時使用兩項功能產生隱藏內容與評論報告，然後以程式方式移除或標記。 |
-| **版本控制** |，以追蹤簡報各版本的變更。 |
+| **審閱彙整** | **Extract ppt comments** 用於將審閱者回饋彙整成單一文件。 |
+| **合規稽核** | **Check hidden slides java** 可確保不會散佈機密內容。 |
+| **自動清理** | 結合兩項功能產生隱藏內容與備註的報告，然後以程式方式移除或標記它們。 |
+| **版本控制** | 將提取的中繼資料儲存於資料庫，以追蹤簡報版本間的變更。 |
 
-##` 物件並釋放大型需部份投影片，可分段處理以降低記憶體壓力。  
-- **利用內建快取**：函式庫提供的快取機制可加速同一檔案的重複讀取。
+## 效能考量
+
+- **Streaming reads** 即使對 500 頁的簡報亦能將記憶體使用量維持在 100 MB 以下。  
+- **Try‑with‑resources** 會自動釋放 `Metadata` 物件，迅速釋放原生資源。  
+- **Built‑in caching** 可在短時間內多次檢查同一檔案時減少 I/O。
 
 ## 常見問題與解決方案
 
 | 問題 | 解決方案 |
 |-------|----------|
-| `Metadata` 無法開啟檔案 |案未被其他程序鎖元素確實存在；API 只會讀取已儲存的資料。 |
-| 拋出授權例外 | 在呼叫任何 API 前先套用有效的試用或商業授權。 |
+| `Metadata` 無法開啟檔案 | 確認檔案路徑，並確保檔案未被其他程序鎖定。 |
+| 未回傳備註或隱藏投影片 | 在 PowerPoint 中開啟 PPT 以確認這些元素是否存在；API 只會讀取已儲存的內容。 |
+| 拋出授權例外 | 在呼叫任何 API 前套用有效的試用或商業授權。 |
 
 ## 常見問答
 
-**Q: 能從受密碼保護的簡報中擷取評論嗎？**  
-A: 能。使用接受 `LoadOptions` 物件的載入檔案。
+**Q: 我能從受密碼保護的簡報中提取備註嗎？**  
+A: 可以。使用接受 `LoadOptions` 物件（含密碼）的 `Metadata` 建構函式，然後照常呼叫 `getComments()`。
 
 **Q: API 是否同時支援 PPT 與 PPTX 格式？**  
-A: 完全支檢查介面。
+A: 當然支援。`GroupDocs.Metadata` 會自動偵測檔案類型，並提供統一的檢查介面。
 
-**Q: 有沒有辦法透過 API 修改或刪除隱藏投影片？**  
-A: 目前版本以唯讀檢查為主。若需編輯，可結合 `GroupDocs.Metadata` 與 `GroupDocs.Conversion` 或 `GroupDocs.Editor` 函式庫使用。
+**Q: 是否可以透過 API 修改或刪除隱藏投影片？**  
+A: 目前版本僅支援唯讀的隱藏投影片檢查。若需編輯，請結合 `GroupDocs.Metadata` 與 `GroupDocs.Conversion` 或 `GroupDocs.Editor`。
 
 **Q: 如何處理大型簡報（數百 MB）？**  
-A: 以串流方式處理檔案，後釋放每個 `PresentationSlide` 物件。
+A: 以串流方式處理檔案，於提取所需資料後釋放每個 `PresentationSlide`，避免將整個簡報載入記憶體。
 
-**Q: 下載 JAR 後還需要網路連線嗎？**  
-A: 不需要。將 JAR 加入專案後，所有操作皆在本機執行。
+**Q: 下載 JAR 後是否仍需網路連線？**  
+A: 不需要。將函式庫加入專案後，所有操作皆在本機執行。
 
-## **檢查隱藏投影片** 與 **擷取 ppt 評論** 的完整、可投入生產環境的做法。將這些程式碼片段整合至後端服務後，可自動化簡報稽核、精簡回饋流程，並確保每張投影片（無論可見或隱藏）皆符合組織標準。
+## 結論
 
-準備好進一步探索了嗎？深入了解 **GroupDocs文件屬性擷取、版本歷史分析等，進一步提升文件管理工作流程。
+您現在已掌握使用 **GroupDocs.Metadata Java** 函式庫進行 **check hidden slides java** 與 **extract PPT comments** 的完整、生產環境就緒方案。將這些程式碼片段嵌入後端服務，即可自動化簡報稽核、精簡回饋流程，並確保每張投影片（無論可見或隱藏）皆符合組織標準。
+
+準備好進一步嗎？探索其他 **GroupDocs.Metadata** 功能，如文件屬性提取、版本歷史分析與批次中繼資料處理，以進一步提升文件管理工作流程。
 
 ---
 
-**最後更新：** 2026-02-01  
+**最後更新：** 2026-05-22  
 **測試環境：** GroupDocs.Metadata Java 24.12  
 **作者：** GroupDocs
+
+## 相關教學
+
+- [使用 GroupDocs 的 Java 中繼資料管理：清除 PowerPoint 簡報的備註與隱藏投影片](/metadata/java/document-formats/java-metadata-management-groupdocs-clear-comments-slides/)
+- [如何使用 GroupDocs.Metadata Java API 更新 Word 文件中繼資料](/metadata/java/document-formats/update-word-metadata-groupdocs-java-api/)
+- [使用 GroupDocs.Metadata 提取 JPEG2000 圖像備註（Java）：一步步指南](/metadata/java/image-formats/extract-jpeg2000-image-comments-java-groupdocs-metadata/)

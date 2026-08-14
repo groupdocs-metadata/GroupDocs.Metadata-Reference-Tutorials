@@ -1,45 +1,92 @@
 ---
-date: '2026-02-03'
-description: Java を使用して、GroupDocs の Maven 依存関係を利用し、PowerPoint のメタデータを更新する方法、特に PPTX
-  の作成日を変更する方法を学びましょう。
+date: '2026-05-27'
+description: GroupDocs Maven Dependency を使用して Java で pptx の CreatedTime を設定し、PowerPoint
+  のメタデータを更新する方法を学びます。PPTX の作成日を変更する方法も含まれます。
 keywords:
-- update PowerPoint metadata Java
-- GroupDocs.Metadata Java library
-- presentation metadata management
-title: GroupDocs Maven 依存関係で PowerPoint のメタデータを更新する
+- set pptx createdtime java
+- change pptx creation date
+- groupdocs metadata java
+- powerpoint metadata update
+schemas:
+- author: GroupDocs
+  dateModified: '2026-05-27'
+  description: Learn how to set pptx CreatedTime in Java using the GroupDocs Maven
+    dependency to update PowerPoint metadata, including how to change PPTX creation
+    date.
+  headline: Set PPTX CreatedTime in Java with GroupDocs Maven Dependency
+  type: TechArticle
+- description: Learn how to set pptx CreatedTime in Java using the GroupDocs Maven
+    dependency to update PowerPoint metadata, including how to change PPTX creation
+    date.
+  name: Set PPTX CreatedTime in Java with GroupDocs Maven Dependency
+  steps:
+  - name: Load the Presentation Document
+    text: Loading the file establishes a connection that lets you read or write metadata.
+  - name: Access the Root Package of the Presentation
+    text: The `root` object gives access to the presentation's core package and its
+      built‑in properties. The `root` object exposes all the built‑in document properties.
+  - name: Update Built‑In Document Properties (including creation date)
+    text: '`setCreatedTime` assigns a new creation timestamp to the document. Here
+      we demonstrate how to **set PPTX CreatedTime** by assigning a new `Date` object
+      to `CreatedTime`. Replace `new Date()` with any specific timestamp you need.'
+  - name: Save the Updated Presentation
+    text: '`save` writes the modified metadata back to a file. The `save` call writes
+      the modified metadata back to a new PowerPoint file, leaving the original untouched.'
+  type: HowTo
+- questions:
+  - answer: It provides a convenient way to include the latest GroupDocs.Metadata
+      library in Maven‑based Java projects.
+    question: What is the primary purpose of the GroupDocs Maven dependency?
+  - answer: Use `root.getDocumentProperties().setCreatedTime(yourDesiredDate)` before
+      calling `metadata.save()`.
+    question: How can I set the PPTX creation date without affecting other properties?
+  - answer: A temporary trial license is sufficient for development and testing; a
+      full license is required for production.
+    question: Do I need a license to run this code in development?
+  - answer: Yes—GroupDocs.Metadata supports both built‑in and custom properties through
+      its API.
+    question: Can I update custom metadata fields as well?
+  - answer: Keep a copy of the original file or read the existing property values
+      before overwriting them, then restore if needed.
+    question: Is there a way to revert changes if I make a mistake?
+  type: FAQPage
+title: GroupDocs Maven Dependency を使用して Java で PPTX の CreatedTime を設定する
 type: docs
 url: /ja/java/document-formats/groupdocs-metadata-java-powerpoint-update-metadata/
 weight: 1
 ---
 
-# GroupDocs.Metadata Java を使用したプレゼンテーション メタデータの更新方法
+# JavaでGroupDocs.Metadataを使用してPPTXのCreatedTimeを設定する
 
-現代のドキュメントワークフローでは、メタデータの正確さを保つことが必須です。**groupdocs Maven dependency** を活用することで、Java から直接 PowerPoint ファイルの組み込みプロパティ（作者、会社、さらには **PPTX 作成日を変更** すること）をプログラムで更新できます。このチュートリアルでは、Maven の設定から更新されたプレゼンテーションの保存まで、全工程を解説します。
+Accurate metadata is essential for compliance and discoverability in modern document workflows. With **GroupDocs.Metadata** you can programmatically **set PPTX CreatedTime in Java**, allowing you to **change PPTX creation date** alongside other built‑in properties such as author or company. This tutorial walks you through Maven setup, initializing the API, updating metadata, and saving the modified presentation—all with clear, production‑ready code.
 
 ## クイック回答
-- **PowerPoint のメタデータを Java で編集できるライブラリは何ですか？** GroupDocs.Metadata Java via the groupdocs Maven dependency.  
-- **PPTX の作成日を変更できますか？** Yes—simply set the `CreatedTime` property.  
-- **ライセンスは必要ですか？** A free trial works for evaluation; a commercial license is required for production.  
-- **サポートされているビルドツールはどれですか？** Maven (shown below) or manual JAR download.  
-- **コードは Java 8+ と互換性がありますか？** Absolutely—GroupDocs.Metadata targets Java 8 and newer.
+- **JavaでPowerPointメタデータを更新するライブラリはどれですか？** GroupDocs.Metadata via the GroupDocs Maven dependency.  
+- **PPTXのCreatedTimeプロパティを設定できますか？** Yes—use `root.getDocumentProperties().setCreatedTime(yourDate)`.  
+- **本番環境でライセンスが必要ですか？** A trial works for evaluation; a commercial license is mandatory for production deployments.  
+- **この例で使用されているビルドツールは何ですか？** Maven (you can also download the JAR manually).  
+- **APIはJava 8以降をサポートしていますか？** Absolutely—GroupDocs.Metadata targets Java 8+.
 
-## GroupDocs Maven Dependency とは？
+## GroupDocs Maven依存関係とは何ですか？
+**GroupDocs Maven依存関係** は、Maven互換のリポジトリエントリで、最新のGroupDocs.MetadataライブラリをJavaプロジェクトに取り込みます。トランジティブなライブラリを自動的に解決し、常に最新かつ安全なバージョンを使用できることを保証し、手動でのJARダウンロードやバージョン管理の必要性を排除します。
 
-ントリで、最新の GroupDocs.Metadata ライブラリを Java プロジェクトに取り込みます。依存関係の管理を簡素化し、常に最新で安全なバージョンを使用できるように成日を変更するために GroupDocs.Metadata を使用する理由
-
--テーションを更新します。ュ。  
-- **UI 不要:** CI/CD パ。
+## PPTX作成日を変更するためにGroupDocs.Metadataを使用する理由
+GroupDocs.Metadata は、PPTXの作成タイムスタンプを自動化かつバッチ処理に対応した形で更新でき、すべてのプレゼンテーションが企業ポリシーや法的要件に準拠することを保証します。CreatedTimeプロパティをプログラムで設定することで、手動編集を回避し、ヒューマンエラーを減らし、CI/CDパイプラインやマイグレーションスクリプトに統合してシームレスな文書管理が可能になります。
 
 ## 前提条件
-- Java 8 以上がインストールされていること。  
-- IntelliJ IDEA や Eclipse などの IDE。  
-- 依存関係管理のための Maven。  
-- GroupDocs のトライアルまたは購入ライセンスへのアクセス。
+- Java 8以上がインストールされていること。  
+- IntelliJ IDEAやEclipseなどのIDE。  
+- 依存関係管理のためのMaven。  
+- GroupDocsのトライアルまたは購入ライセンスへのアクセス。
 
-## Java プロジェクトで GroupDocs Maven Dependency を使用する
+## JavaでPPTX CreatedTimeを設定する方法？
 
-### Maven 設定
-`pom.xml` に GroupDocs リポジトリと metadata 依存関係を追加します:
+`Metadata` クラスはドキュメントを表し、そのメタデータプロパティへのアクセスを提供します。
+
+`new Metadata("presentation.pptx")` でPowerPointファイルをロードし、ルートパッケージを取得し、目的の `java.util.Date` を使用して `setCreatedTime` を呼び出し、最後に `save` を実行して変更を書き込みます。このエンドツーエンドのフローは、スライドの内容や他のプロパティを保持しながら作成日を変更します。
+
+### Maven設定
+GroupDocsリポジトリとメタデータ依存関係を `pom.xml` に追加します:
 
 ```xml
 <repositories>
@@ -59,16 +106,17 @@ weight: 1
 </dependencies>
 ```
 
-> **プロのコツ:** バージョン番号を最新に保つことで、最新のバグ修正やパフォーマンス向上の恩恵を受けられます。
+> **プロのヒント:** バージョン番号を最新に保つことで、最新のバグ修正やパフォーマンス向上の恩恵を受けられます。
 
-### 直接ダウンロード (Maven を使用しない場合)
-代わりに、最新の JAR を [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) からダウンロードしてください。
+### 直接ダウンロード（Mavenを使用したくない場合）
+あるいは、最新のJARを [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) からダウンロードしてください。
 
 #### ライセンス取得
-まずは無料トライアルで始めるか、一時ライセンスをリクエストして GroupDocs.Metadata を評価してください。製品環境で使用する場合は、[GroupDocs の公式サイト](https://purchase.groupdocs.com/temporary-license/) からライセンスを購入してください。
+まずは無料トライアルで開始するか、一時ライセンスをリクエストしてGroupDocs.Metadataを評価してください。本番環境で使用する場合は、[GroupDocsの公式ウェブサイト](https://purchase.groupdocs.com/temporary-license/) からライセンスを購入してください。
 
 ## 基本的な初期化と設定
-ライブラリがクラスパスに追加されたら、PowerPoint ファイルを指す `Metadata` インスタンスを作成できます:
+
+ライブラリがクラスパスに配置されたら、PowerPointファイルを指す `Metadata` インスタンスを作成できます:
 
 ```java
 import com.groupdocs.metadata.*;
@@ -86,7 +134,8 @@ public class MetadataInitializer {
 
 ## 組み込みメタデータを更新するステップバイステップガイド
 
-### 手順 1: プレゼンテーション ドキュメントのロード
+### 手順 1: プレゼンテーションドキュメントをロードする
+
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.pptx")) {
     // Proceed to access and modify the document properties.
@@ -95,14 +144,20 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.pptx")) {
 
 ファイルをロードすると、メタデータの読み書きが可能な接続が確立されます。
 
-### 手順 2: プレゼンテーションのルート パッケージにアクセス
+### 手順 2: プレゼンテーションのルートパッケージにアクセスする
+
+The `root` object gives access to the presentation's core package and its built‑in properties.
+
 ```java
 PresentationRootPackage root = metadata.getRootPackageGeneric();
 ```
 
 `root` オブジェクトはすべての組み込みドキュメントプロパティを公開します。
 
-### 手順 3: 組み込みドキュメントプロパティの更新（作成日を含む）
+### 手順 3: 組み込みドキュメントプロパティを更新する（作成日を含む）
+
+`setCreatedTime` assigns a new creation timestamp to the document.
+
 ```java
 root.getDocumentProperties().setAuthor("test author");
 root.getDocumentProperties().setCreatedTime(new Date());   // This changes the PPTX creation date
@@ -111,48 +166,67 @@ root.getDocumentProperties().setCategory("test category");
 root.getDocumentProperties().setKeywords("metadata, built-in, update");
 ```
 
-ここでは、`CreatedTime` に新しい `Date` オブジェクトを割り当てることで **PPTX の作成日を変更** する方法を示します。`new Date()` は必要に応じて任意のタイムスタンプに置き換えることができます。
+ここでは、新しい `Date` オブジェクトを `CreatedTime` に割り当てて **PPTX CreatedTime を設定** する方法を示します。`new Date()` を必要な特定のタイムスタンプに置き換えてください。
 
-### 手順 4: 更新されたプレゼンテーションの保存
+### 手順 4: 更新されたプレゼンテーションを保存する
+
+`save` writes the modified metadata back to a file.
+
 ```java
 metadata.save("YOUR_OUTPUT_DIRECTORY/output.pptx");
 ```
 
-`save` 呼び出しにより、変更されたメタデータが新しい PowerPoint ファイルに書き込まれ、元のファイルはそのまま残ります。
+`save` 呼び出しは、変更されたメタデータを新しいPowerPointファイルに書き込み、元のファイルはそのまま残します。
 
 ## トラブルシューティングのヒント
 - **File Not Found:** 入力パスとファイル権限を再確認してください。  
-- **Version Mismatch:** `groupdocs-metadata` のバージョンが Java ランタイムと一致していることを確認してください。  
-- **Property Not Updating:** `save` を呼び出す前に `setCreatedTime`（または該当するセッター）を呼び出しているか確認してください。
+- **Version Mismatch:** `groupdocs-metadata` のバージョンがJavaランタイムと一致していることを確認してください。  
+- **Property Not Updating:** `save` を呼び出す前に `setCreatedTime`（または該当するセッター）を呼び出していることを確認してください。
 
 ## 実用的な活用例
-1. **Corporate Branding:** 配布前にすべてのスライドデックに正しい会社名とカテゴリを自動的に挿入します。  
-2. **Document Management Systems:** PPTX ファイルに検索可能なメタデータを付加し、より迅速に検索できるようにします。  
-3. **Educational Resources:** 講義スライド全体で作者とカリキュラム情報を最新の状態に保ちます。  
-4. **Collaboration Tracking:** 貢献者の名前を記録し、責任を明確にします。  
+
+1. **Corporate Branding:** 配布前にすべてのスライドデッキに正しい会社名とカテゴリを自動的に挿入します。  
+2. **Document Management Systems:** PPTXファイルに検索可能なメタデータを付加し、より高速な検索を実現します。  
+3. **Educational Resources:** 講義スライド全体で著者情報やカリキュラム情報を最新の状態に保ちます。  
+4. **Collaboration Tracking:** 貢献者の名前を記録し、責任追跡を可能にします。  
 5. **CMS Integration:** メタデータの変更をコンテンツ管理プラットフォームとリアルタイムで同期します。
 
 ## パフォーマンス上の考慮点
 - **Batch Processing:** ファイルリストをループし、可能な限り単一の `Metadata` インスタンスを再利用します。  
-- **Memory Management:** 常に try‑with‑resources（上記参照）を使用して、ネイ  
-- **Efficient Data Structuresしを減らします。
+- **Memory Management:** 常に try‑with‑resources を使用（上記参照）して、ネイティブリソースを速やかに解放します。  
+- **Efficient Data Structures:** メタデータの更新をマップに格納してから適用し、繰り返し呼び出しを減らします。
 
 ## よくある質問
 
-**Q: groupdocs Maven dependency の主な目的は何ですか？**  
-A: Maven ベースの Java プロジェクトに最新の GroupDocs.Metadata ライブラリを簡単に組み込与を変更するにはどうすればよいですか？**  
-A: `metadata.save()` を呼び出す前に `root.getDocumentProperties実行 開発・テストには一時的なトライアルライセンスで十分です。製品環境ではフルライセンスが必要です。
+**Q: GroupDocs Maven依存関係の主な目的は何ですか？**  
+最新のGroupDocs.MetadataライブラリをMavenベースのJavaプロジェクトに簡単に組み込む方法を提供します。
 
-**Q:じてムプロパティの両方をサポートしています。
+**Q: 他のプロパティに影響を与えずにPPTXの作成日を設定するにはどうすればよいですか？**  
+`metadata.save()` を呼び出す前に `root.getDocumentProperties().setCreatedTime(yourDesiredDate)` を使用してください。
 
-**Q: 変更を誤った場合に元に戻す方法はありますきする前に既存のプロパティ値を読み取り、必要に応じて復元してください。
+**Q: 開発環境でこのコードを実行するのにライセンスは必要ですか？**  
+開発・テストには一時的なトライアルライセンスで十分ですが、本番環境ではフルライセンスが必要です。
+
+**Q: カスタムメタデータフィールドも更新できますか？**  
+はい。GroupDocs.MetadataはAPIを通じて組み込みプロパティとカスタムプロパティの両方をサポートしています。
+
+**Q: 誤って変更した場合に元に戻す方法はありますか？**  
+元のファイルのコピーを保持するか、上書きする前に既存のプロパティ値を読み取り、必要に応じて復元してください。
 
 ## リソース
 - [ドキュメント](https://docs.groupdocs.com/metadata/java/)
-- [API リファレンス](https://apireference.groupdocs.com/metadata/java/)
+- [APIリファレンス](https://apireference.groupdocs.com/metadata/java/)
 
 ---
 
-**最終更新日:** 2026-02-03  
+**最終更新日:** 2026-05-27  
 **テスト環境:** GroupDocs.Metadata 24.12 for Java  
-**作者:** GroupDocs
+**作者:** GroupDocs  
+
+---
+
+## 関連チュートリアル
+
+- [GroupDocs.Metadata Java APIを使用してPowerPointのカスタムメタデータを更新する](/metadata/java/document-formats/update-custom-metadata-ppt-groupdocs-java/)
+- [GroupDocs.Metadata Javaを使用してWord文書のメタデータを更新する方法：完全ガイド](/metadata/java/document-formats/update-word-metadata-groupdocs-java/)
+- [文書管理のためにJavaでGroupDocs.Metadataを使用してPDFメタデータを効率的に更新する](/metadata/java/document-formats/update-pdf-metadata-groupdocs-metadata-java/)

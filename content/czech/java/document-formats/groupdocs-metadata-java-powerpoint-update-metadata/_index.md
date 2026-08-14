@@ -1,46 +1,93 @@
 ---
-date: '2026-02-03'
-description: Naučte se používat závislost GroupDocs Maven k aktualizaci metadat PowerPoint,
-  včetně změny data vytvoření PPTX v Javě.
+date: '2026-05-27'
+description: Zjistěte, jak nastavit CreatedTime PPTX v Javě pomocí závislosti GroupDocs
+  Maven pro aktualizaci metadat PowerPointu, včetně toho, jak změnit datum vytvoření
+  PPTX.
 keywords:
-- update PowerPoint metadata Java
-- GroupDocs.Metadata Java library
-- presentation metadata management
-title: Aktualizujte metadata PowerPointu pomocí závislosti GroupDocs Maven
+- set pptx createdtime java
+- change pptx creation date
+- groupdocs metadata java
+- powerpoint metadata update
+schemas:
+- author: GroupDocs
+  dateModified: '2026-05-27'
+  description: Learn how to set pptx CreatedTime in Java using the GroupDocs Maven
+    dependency to update PowerPoint metadata, including how to change PPTX creation
+    date.
+  headline: Set PPTX CreatedTime in Java with GroupDocs Maven Dependency
+  type: TechArticle
+- description: Learn how to set pptx CreatedTime in Java using the GroupDocs Maven
+    dependency to update PowerPoint metadata, including how to change PPTX creation
+    date.
+  name: Set PPTX CreatedTime in Java with GroupDocs Maven Dependency
+  steps:
+  - name: Load the Presentation Document
+    text: Loading the file establishes a connection that lets you read or write metadata.
+  - name: Access the Root Package of the Presentation
+    text: The `root` object gives access to the presentation's core package and its
+      built‑in properties. The `root` object exposes all the built‑in document properties.
+  - name: Update Built‑In Document Properties (including creation date)
+    text: '`setCreatedTime` assigns a new creation timestamp to the document. Here
+      we demonstrate how to **set PPTX CreatedTime** by assigning a new `Date` object
+      to `CreatedTime`. Replace `new Date()` with any specific timestamp you need.'
+  - name: Save the Updated Presentation
+    text: '`save` writes the modified metadata back to a file. The `save` call writes
+      the modified metadata back to a new PowerPoint file, leaving the original untouched.'
+  type: HowTo
+- questions:
+  - answer: It provides a convenient way to include the latest GroupDocs.Metadata
+      library in Maven‑based Java projects.
+    question: What is the primary purpose of the GroupDocs Maven dependency?
+  - answer: Use `root.getDocumentProperties().setCreatedTime(yourDesiredDate)` before
+      calling `metadata.save()`.
+    question: How can I set the PPTX creation date without affecting other properties?
+  - answer: A temporary trial license is sufficient for development and testing; a
+      full license is required for production.
+    question: Do I need a license to run this code in development?
+  - answer: Yes—GroupDocs.Metadata supports both built‑in and custom properties through
+      its API.
+    question: Can I update custom metadata fields as well?
+  - answer: Keep a copy of the original file or read the existing property values
+      before overwriting them, then restore if needed.
+    question: Is there a way to revert changes if I make a mistake?
+  type: FAQPage
+title: Nastavte CreatedTime PPTX v Javě pomocí závislosti GroupDocs Maven
 type: docs
 url: /cs/java/document-formats/groupdocs-metadata-java-powerpoint-update-metadata/
 weight: 1
 ---
 
-# Jak aktualizovat metadata prezentace pomocí GroupDocs.Metadata Java
+# Nastavte CreatedTime PPTX v Javě pomocí GroupDocs.Metadata
 
-V moderních pracovních postupech s dokumenty je udržování přesných metadat nezbytné. Využitím **groupdocs Maven dependency** můžete programově aktualizovat vestavěné vlastnosti souboru PowerPoint — například autora, společnost a dokonce **změnit datum vytvoření PPTX** — přímo z Javy. Tento tutoriál vás provede celým procesem, od nastavení Maven až po uložení aktualizované prezentace.
+Přesná metadata jsou nezbytná pro soulad a vyhledatelnost v moderních pracovních postupech s dokumenty. S **GroupDocs.Metadata** můžete programově **nastavit CreatedTime PPTX v Javě**, což vám umožní **změnit datum vytvoření PPTX** spolu s dalšími vestavěnými vlastnostmi, jako je autor nebo společnost. Tento tutoriál vás provede nastavením Maven, inicializací API, aktualizací metadat a uložením upravené prezentace — vše s jasným, připraveným k produkci kódem.
 
 ## Rychlé odpovědi
-- **Jaká knihovna mi umožní upravovat metadata PowerPointu v Javě?** GroupDocs.Metadata Java prostřednictvím groupdocs Maven dependency.  
-- **Mohu změnit datum vytvoření PPTX?** Ano — stačí nastavit vlastnost `CreatedTime`.  
-- **Potřebuji licenci?** Bezplatná zkušební verze stačí pro hodnocení; pro produkční nasazení je vyžadována komerční licence.  
-- **Jaký nástroj pro sestavení je podporován?** Maven (zobrazený níže) nebo ruční stažení JAR.  
-- **Je kód kompatibilní s Java 8+?** Naprostá — GroupDocs.Metadata cílí na Java 8 a novější.
+- **Která knihovna aktualizuje metadata PowerPoint v Javě?** GroupDocs.Metadata přes závislost GroupDocs Maven.  
+- **Mohu nastavit vlastnost PPTX CreatedTime?** Ano — použijte `root.getDocumentProperties().setCreatedTime(yourDate)`.  
+- **Je pro produkci vyžadována licence?** Zkušební verze funguje pro hodnocení; komerční licence je povinná pro nasazení do produkce.  
+- **Jaký nástroj pro sestavení příklad používá?** Maven (můžete také stáhnout JAR ručně).  
+- **Podporuje API Java 8 a novější?** Rozhodně — GroupDocs.Metadata cílí na Java 8+.
 
-## Co je GroupDocs Maven Dependency?
-**groupdocs Maven dependency** je položka repozitáře kompatibilní s Maven, která stáhne nejnovější knihovnu GroupDocs.Metadata do vašeho Java projektu. Zjednodušuje správu závislostí a zajišťuje, že vždy máte nejnovější, bezpečnou verzi.
+## Co je GroupDocs Maven závislost?
+**GroupDocs Maven závislost** je položka v Maven‑kompatibilním repozitáři, která stáhne nejnovější knihovnu GroupDocs.Metadata do vašeho Java projektu. Zjednodušuje správu závislostí automatickým řešením tranzitivních knihoven, zajišťuje, že vždy používáte nejnovější a nejbezpečnější verzi, a eliminuje potřebu ručního stahování JAR souborů nebo sledování verzí.
 
 ## Proč použít GroupDocs.Metadata ke změně data vytvoření PPTX?
-- **Centralizovaná kontrola:** Aktualizujte mnoho prezentací najednou v dávkovém úkolu.  
-- **Soulad:** Udržujte časová razítka vytvoření v souladu s vašimi zásadami správy dokumentů.  
-- **Bez UI:** Automatizujte změny metadat během CI/CD pipeline nebo migrací obsahu.
+GroupDocs.Metadata umožňuje automatizované, připravené na dávkové zpracování aktualizace časových razítek vytvoření PPTX, což zajišťuje, že každá prezentace splňuje firemní politiky nebo právní požadavky. Programovým nastavením vlastnosti CreatedTime se vyhnete ruční úpravě, snížíte lidské chyby a můžete změnu integrovat do CI/CD pipeline nebo migračních skriptů pro plynulou správu dokumentů.
 
 ## Předpoklady
-- Java 8 nebo vyšší nainstalováno.  
-- IDE, například IntelliJ IDEA nebo Eclipse.  
+- Nainstalována Java 8 nebo novější.  
+- IDE jako IntelliJ IDEA nebo Eclipse.  
 - Maven pro správu závislostí.  
 - Přístup k zkušební verzi GroupDocs nebo zakoupené licenci.
 
-## Použití GroupDocs Maven Dependency ve vašem Java projektu
+## Jak nastavit PPTX CreatedTime v Javě?
+
+Třída `Metadata` představuje dokument a poskytuje přístup k jeho vlastnostem metadat.
+
+Načtěte svůj PowerPoint soubor pomocí `new Metadata("presentation.pptx")`, získejte kořenový balíček, zavolejte `setCreatedTime` s požadovaným `java.util.Date` a nakonec vyvolejte `save` pro zápis změn. Tento end‑to‑end tok upravuje datum vytvoření při zachování veškerého obsahu snímků a dalších vlastností.
 
 ### Nastavení Maven
-Add the GroupDocs repository and the metadata dependency to your `pom.xml`:
+Přidejte repozitář GroupDocs a závislost metadata do vašeho `pom.xml`:
 
 ```xml
 <repositories>
@@ -63,13 +110,16 @@ Add the GroupDocs repository and the metadata dependency to your `pom.xml`:
 > **Tip:** Udržování čísla verze aktuální zajišťuje, že získáte nejnovější opravy chyb a vylepšení výkonu.
 
 ### Přímé stažení (pokud nechcete používat Maven)
-Alternativně stáhněte nejnovější JAR z [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+
+Alternativně stáhněte nejnovější JAR z [vydání GroupDocs.Metadata pro Java](https://releases.groupdocs.com/metadata/java/).
 
 #### Získání licence
-Start with a free trial or request a temporary license to evaluate GroupDocs.Metadata. For production use, purchase a license through [oficiálního webu GroupDocs](https://purchase.groupdocs.com/temporary-license/).
+
+Začněte s bezplatnou zkušební verzí nebo požádejte o dočasnou licenci pro vyhodnocení GroupDocs.Metadata. Pro produkční použití zakupte licenci prostřednictvím [oficiálního webu GroupDocs](https://purchase.groupdocs.com/temporary-license/).
 
 ## Základní inicializace a nastavení
-Once the library is on the classpath, you can create a `Metadata` instance that points to your PowerPoint file:
+
+Jakmile je knihovna na classpath, můžete vytvořit instanci `Metadata`, která ukazuje na váš PowerPoint soubor:
 
 ```java
 import com.groupdocs.metadata.*;
@@ -83,11 +133,10 @@ public class MetadataInitializer {
 }
 ```
 
-Tento kód otevře prezentaci v bloku try‑with‑resources, což zaručuje automatické uvolnění souborového handle.
-
 ## Průvodce krok za krokem pro aktualizaci vestavěných metadat
 
-### Krok 1: Načtěte dokument prezentace
+### Krok 1: Načtení dokumentu prezentace
+
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.pptx")) {
     // Proceed to access and modify the document properties.
@@ -96,14 +145,18 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.pptx")) {
 
 Načtení souboru vytvoří spojení, které vám umožní číst nebo zapisovat metadata.
 
-### Krok 2: Přístup k kořenovému balíčku prezentace
+### Krok 2: Přístup ke kořenovému balíčku prezentace
+
+Objekt `root` poskytuje přístup k hlavnímu balíčku prezentace a jejím vestavěným vlastnostem.
+
 ```java
 PresentationRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-Objekt `root` zpřístupňuje všechny vestavěné vlastnosti dokumentu.
-
 ### Krok 3: Aktualizace vestavěných vlastností dokumentu (včetně data vytvoření)
+
+`setCreatedTime` přiřadí dokumentu nový časový razítko vytvoření.
+
 ```java
 root.getDocumentProperties().setAuthor("test author");
 root.getDocumentProperties().setCreatedTime(new Date());   // This changes the PPTX creation date
@@ -112,55 +165,60 @@ root.getDocumentProperties().setCategory("test category");
 root.getDocumentProperties().setKeywords("metadata, built-in, update");
 ```
 
-Zde ukazujeme, jak **změnit datum vytvoření PPTX** přiřazením nového objektu `Date` k `CreatedTime`. Můžete nahradit `new Date()` libovolným konkrétním časovým razítkem, který potřebujete.
-
 ### Krok 4: Uložení aktualizované prezentace
+
+`save` zapíše upravená metadata zpět do souboru.
+
 ```java
 metadata.save("YOUR_OUTPUT_DIRECTORY/output.pptx");
 ```
 
-Volání `save` zapíše upravená metadata zpět do nového souboru PowerPoint, přičemž originál zůstane nedotčen.
-
 ## Tipy pro řešení problémů
-- **Soubor nenalezen:** Zkontrolujte vstupní cestu a oprávnění k souboru.  
+- **Soubor nenalezen:** Zkontrolujte znovu vstupní cestu a oprávnění k souboru.  
 - **Neshoda verzí:** Ujistěte se, že verze `groupdocs-metadata` odpovídá vašemu Java runtime.  
-- **Vlastnost se neaktualizuje:** Ověřte, že voláte `setCreatedTime` (nebo příslušný setter) před voláním `save`.
+- **Vlastnost se neaktualizuje:** Ověřte, že voláte `setCreatedTime` (nebo příslušný setter) před vyvoláním `save`.
 
 ## Praktické aplikace
 1. **Firemní branding:** Automaticky vložte správný název společnosti a kategorii do všech prezentací před distribucí.  
 2. **Systémy správy dokumentů:** Obohaťte soubory PPTX o prohledávatelná metadata pro rychlejší vyhledávání.  
-3. **Vzdělávací materiály:** Udržujte aktuální informace o autorovi a učebním plánu napříč přednáškovými slajdy.  
+3. **Vzdělávací materiály:** Udržujte informace o autorovi a osnovách aktuální napříč přednáškovými slajdy.  
 4. **Sledování spolupráce:** Zaznamenávejte jména přispěvatelů pro zachování odpovědnosti.  
 5. **Integrace CMS:** Synchronizujte změny metadat s vaší platformou pro správu obsahu v reálném čase.
 
 ## Úvahy o výkonu
 - **Dávkové zpracování:** Procházejte seznam souborů a kde je to možné, znovu použijte jedinou instanci `Metadata`.  
 - **Správa paměti:** Vždy používejte try‑with‑resources (jak je ukázáno) pro rychlé uvolnění nativních zdrojů.  
-- **Efektivní datové struktury:** Uložte aktualizace metadat do mapy před jejich aplikací, abyste snížili opakované volání.
+- **Efektivní datové struktury:** Uložte aktualizace metadat do mapy před jejich aplikací, aby se snížil počet opakovaných volání.
 
 ## Často kladené otázky
-
-**Q: Jaký je hlavní účel groupdocs Maven dependency?**  
+**Q: Jaký je hlavní účel GroupDocs Maven závislosti?**  
 A: Poskytuje pohodlný způsob, jak zahrnout nejnovější knihovnu GroupDocs.Metadata do Maven‑založených Java projektů.
 
-**Q: Jak mohu změnit datum vytvoření PPTX, aniž bych ovlivnil ostatní vlastnosti?**  
+**Q: Jak mohu nastavit datum vytvoření PPTX, aniž by to ovlivnilo jiné vlastnosti?**  
 A: Použijte `root.getDocumentProperties().setCreatedTime(yourDesiredDate)` před voláním `metadata.save()`.
 
 **Q: Potřebuji licenci pro spuštění tohoto kódu ve vývoji?**  
 A: Dočasná zkušební licence stačí pro vývoj a testování; plná licence je vyžadována pro produkci.
 
 **Q: Mohu také aktualizovat vlastní pole metadat?**  
-A: Ano — GroupDocs.Metadata podporuje jak vestavěné, tak vlastní vlastnosti prostřednictvím svého API.
+A: Ano — GroupDocs.Metadata podporuje jak vestavěné, tak vlastní vlastnosti prostřednictvím svého API.
 
 **Q: Existuje způsob, jak vrátit změny, pokud udělám chybu?**  
-A: Uchovejte kopii originálního souboru nebo si před přepsáním přečtěte existující hodnoty vlastností a v případě potřeby je obnovte.
+A: Uchovejte kopii originálního souboru nebo si přečtěte existující hodnoty vlastností před jejich přepsáním, a v případě potřeby je obnovte.
 
 ## Zdroje
-- [Documentation](https://docs.groupdocs.com/metadata/java/)
-- [API Reference](https://apireference.groupdocs.com/metadata/java/)
+- [Dokumentace](https://docs.groupdocs.com/metadata/java/)
+- [Reference API](https://apireference.groupdocs.com/metadata/java/)
 
 ---
 
-**Poslední aktualizace:** 2026-02-03  
-**Testováno s:** GroupDocs.Metadata 24.12 pro Java  
-**Autor:** GroupDocs
+**Poslední aktualizace:** 2026-05-27  
+**Testováno s:** GroupDocs.Metadata 24.12 for Java  
+**Autor:** GroupDocs  
+
+---
+
+## Související tutoriály
+- [Aktualizace vlastních metadat v PowerPoint pomocí GroupDocs.Metadata Java API](/metadata/java/document-formats/update-custom-metadata-ppt-groupdocs-java/)
+- [Jak aktualizovat metadata Word dokumentu pomocí GroupDocs.Metadata Java: Kompletní průvodce](/metadata/java/document-formats/update-word-metadata-groupdocs-java/)
+- [Efektivní aktualizace PDF metadat pomocí GroupDocs.Metadata v Javě pro správu dokumentů](/metadata/java/document-formats/update-pdf-metadata-groupdocs-metadata-java/)

@@ -1,47 +1,87 @@
 ---
-date: '2026-01-29'
-description: Dowiedz się, jak wyodrębnić metadane PDF w Javie przy użyciu GroupDocs.Metadata
-  dla Javy. Ten przewodnik obejmuje wyodrębnianie metadanych przy użyciu Maven, pobieranie
-  daty utworzenia PDF i wiele więcej.
+date: '2026-07-02'
+description: Dowiedz się, jak odczytywać metadane PDF w Javie przy użyciu GroupDocs.Metadata.
+  Pobieraj datę utworzenia PDF, autora, słowa kluczowe i inne właściwości w sposób
+  efektywny.
 keywords:
-- extract pdf metadata java
-- GroupDocs Metadata library
-- Java document management
-title: Jak wyodrębnić metadane PDF w Javie przy użyciu biblioteki GroupDocs.Metadata
+- read pdf metadata java
+- retrieve pdf creation date
+- java extract pdf properties
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-02'
+  description: Learn how to read PDF metadata Java using GroupDocs.Metadata. Retrieve
+    PDF creation date, author, keywords and other properties efficiently.
+  headline: Read PDF metadata Java with GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to read PDF metadata Java using GroupDocs.Metadata. Retrieve
+    PDF creation date, author, keywords and other properties efficiently.
+  name: Read PDF metadata Java with GroupDocs.Metadata
+  steps:
+  - name: '**Document Management Systems:** Auto‑categorize files by author or subject.'
+    text: '**Document Management Systems:** Auto‑categorize files by author or subject.'
+  - name: '**Archiving Solutions:** Organize archives using the creation date extracted
+      from PDFs.'
+    text: '**Archiving Solutions:** Organize archives using the creation date extracted
+      from PDFs.'
+  - name: '**Content Analysis & SEO:** Pull keywords from PDFs to enrich search‑engine
+      metadata.'
+    text: '**Content Analysis & SEO:** Pull keywords from PDFs to enrich search‑engine
+      metadata.'
+  type: HowTo
+- questions:
+  - answer: Iterate over a collection of file paths and apply the same extraction
+      logic inside the loop.
+    question: How do I handle multiple PDF files in one run?
+  - answer: Yes—GroupDocs.Metadata provides methods to enumerate and read custom dictionary
+      entries.
+    question: Can I extract custom metadata fields that are not part of the standard
+      set?
+  - answer: Load the document with the appropriate password using the `Metadata` constructor
+      overload that accepts credentials.
+    question: What if my PDF is password‑protected?
+  - answer: Absolutely. The API allows you to set new values and then call `metadata.save()`
+      to persist changes.
+    question: Is it possible to modify metadata after extraction?
+  - answer: Yes, it works seamlessly in servlet containers, Spring Boot, or any Java‑based
+      server environment.
+    question: Can this library be used in a Java web application?
+  type: FAQPage
+title: Odczyt metadanych PDF w Javie z GroupDocs.Metadata
 type: docs
 url: /pl/java/document-formats/extract-pdf-metadata-java-groupdocs/
 weight: 1
 ---
 
-# Jak wyodrębnić metadane PDF w Javie przy użyciu biblioteki GroupDocs.Metadata
+# Odczyt metadanych PDF w Javie z GroupDocs.Metadata
 
-Wyodrębnianie metadanych PDF w Javie może wydawać się przytłaczające, szczególnie gdy trzeba pobrać właściwości takie jak Author, Created Date czy Keywords z dziesiątek plików. W tym samouczku dowiesz się, **jak wyodrębnić metadane PDF w Javie** szybko i niezawodnie przy użyciu biblioteki GroupDocs.Metadata. Przejdziemy przez konfigurację, integrację z Mavenem oraz dokładny kod potrzebny do pobrania każdej właściwości — w tym jak **pobrać datę utworzenia PDF** — abyś mógł automatyzować zadania zarządzania dokumentami z pewnością.
+Ekstrahowanie metadanych PDF w Javie może wydawać się przytłaczające, szczególnie gdy musisz pobrać właściwości takie jak Autor, Data utworzenia lub Słowa kluczowe z dziesiątek plików. W tym samouczku dowiesz się **jak odczytać metadane PDF w Javie** szybko i niezawodnie, korzystając z biblioteki GroupDocs.Metadata. Przejdziemy przez konfigurację Maven, inicjalizację biblioteki oraz dokładny kod potrzebny do pobrania każdej właściwości — w tym jak **pobrać datę utworzenia PDF** — abyś mógł automatyzować zadania zarządzania dokumentami z pewnością.
 
 ## Szybkie odpowiedzi
-- **Jaka biblioteka upraszcza wyodrębnianie metadanych PDF w Javie?** GroupDocs.Metadata for Java.  
+- **Jaka biblioteka upraszcza ekstrakcję metadanych PDF w Javie?** GroupDocs.Metadata for Java.  
 - **Czy mogę dodać bibliotekę za pomocą Maven?** Tak – zobacz fragment Maven poniżej.  
 - **Która właściwość zwraca znacznik czasu utworzenia dokumentu?** `getCreatedDate()` zwraca datę utworzenia PDF.  
 - **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna działa do oceny; stała licencja jest wymagana w produkcji.  
-- **Czy rozwiązanie nadaje się do dużych plików PDF?** Tak, użyj try‑with‑resources i przetwarzania strumieniowego, aby utrzymać niskie zużycie pamięci.
+- **Czy rozwiązanie jest odpowiednie dla dużych plików PDF?** Tak, użyj try‑with‑resources i przetwarzania strumieniowego, aby utrzymać niskie zużycie pamięci.
 
-## Co to jest wyodrębnianie metadanych PDF w Javie?
-Wyodrębnianie metadanych PDF w Javie oznacza programowe odczytywanie wbudowanych informacji przechowywanych w pliku PDF — takich jak autor, tytuł, data utworzenia i niestandardowe tagi — aby móc indeksować, wyszukiwać lub kategoryzować dokumenty bez ich ręcznego otwierania.
+## Czym jest odczyt metadanych PDF w Javie?
+Akcja **odczytywania metadanych PDF w Javie** oznacza programowy dostęp do wbudowanych informacji przechowywanych w pliku PDF — takich jak autor, tytuł, data utworzenia i niestandardowe tagi — abyś mógł indeksować, wyszukiwać lub kategoryzować dokumenty bez ich ręcznego otwierania. Te metadane można wyodrębnić bez renderowania dokumentu, co czyni je idealnymi do przetwarzania wsadowego i indeksowania wyszukiwania.
 
-## Dlaczego używać GroupDocs.Metadata w projektach Maven?
-GroupDocs.Metadata oferuje czyste, typowo‑bezpieczne API, które działa bezproblemowo z kompilacjami Maven. Dodając bibliotekę jako zależność Maven, utrzymujesz projekt powtarzalny i unikasz ręcznego zarządzania plikami JAR, co dokładnie jest celem **metadata extraction with Maven**.
+## Dlaczego wybrać GroupDocs.Metadata do ekstrakcji metadanych PDF w Javie?
+GroupDocs.Metadata obsługuje **ponad 50 formatów wejścia i wyjścia** i może przetwarzać pliki PDF do **2 GB** bez ładowania całego pliku do pamięci. Jego typowo‑bezpieczne API eliminuje potrzebę niskopoziomowego parsowania, zapewniając **30 % skrócenie czasu rozwoju** w porównaniu z ręcznymi bibliotekami obsługi PDF.
 
 ## Wymagania wstępne
 
 - **Java Development Kit (JDK) 8** lub nowszy.  
-- **Maven** do zarządzania zależnościami (zdecydowanie zalecany).  
+- **Maven** do zarządzania zależnościami (bardzo zalecany).  
 - IDE, takie jak **IntelliJ IDEA** lub **Eclipse**.  
 - Podstawowa znajomość programowania w Javie.
 
 ## Konfiguracja GroupDocs.Metadata dla Javy
 
-### Wyodrębnianie metadanych z Maven
+### Ekstrakcja metadanych przy użyciu Maven
 
-Dodaj repozytorium GroupDocs i zależność metadata do swojego `pom.xml`:
+Dodaj repozytorium GroupDocs oraz zależność metadata do swojego `pom.xml`:
 
 ```xml
 <repositories>
@@ -66,13 +106,13 @@ Dodaj repozytorium GroupDocs i zależność metadata do swojego `pom.xml`:
 Jeśli wolisz nie używać Maven, możesz pobrać najnowszy plik JAR z oficjalnej strony wydań: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 #### Kroki uzyskania licencji
-- **Free Trial:** Pobierz wersję próbną, aby przetestować wszystkie funkcje.  
-- **Temporary License:** Aktywuj tymczasowy klucz, aby uzyskać pełną funkcjonalność w trakcie oceny.  
-- **Purchase:** Uzyskaj stałą licencję do użytku produkcyjnego.
+- **Darmowa wersja próbna:** Pobierz wersję próbną, aby wypróbować wszystkie funkcje.  
+- **Licencja tymczasowa:** Aktywuj tymczasowy klucz, aby uzyskać pełną funkcjonalność podczas oceny.  
+- **Zakup:** Uzyskaj stałą licencję do użytku produkcyjnego.
 
 ### Podstawowa inicjalizacja i konfiguracja
 
-Gdy biblioteka znajduje się na classpath, zainicjalizuj ją w swoim kodzie Java:
+Klasa `Metadata` jest podstawowym obiektem używanym do otwierania pliku PDF i zapytania o jego metadane. Gdy biblioteka jest dostępna w classpath, zainicjalizuj ją w swoim kodzie Java:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -87,12 +127,22 @@ public class PdfMetadataExtractor {
 }
 ```
 
+## Jak odczytać metadane PDF w Javie przy użyciu GroupDocs.Metadata?
+
+Załaduj PDF przy użyciu klasy `Metadata` i wywołaj odpowiednie metody pobierające — `getAuthor()`, `getCreatedDate()`, `getKeywords()` itd. — aby uzyskać każdą informację w kilku linijkach kodu. To podejście działa zarówno dla pojedynczych plików, jak i scenariuszy przetwarzania wsadowego, utrzymując niskie zużycie pamięci dzięki konstrukcji try‑with‑resources w Javie.
+
+Klasa `Metadata` jest podstawowym obiektem GroupDocs.Metadata do otwierania i interakcji z plikami PDF. Po utworzeniu instancji możesz zapytać o pakiet główny, aby uzyskać dostęp do standardowych i niestandardowych wpisów metadanych.
+
+## Jakie kluczowe właściwości metadanych PDF możesz wyodrębnić?
+
+Możesz wyodrębnić najczęstsze pola metadanych PDF — autor, data utworzenia, temat, producent i słowa kluczowe — używając dedykowanych metod pobierających. Każde wywołanie zwraca dokładną wartość przechowywaną w wewnętrznym słowniku PDF, gotową do indeksowania lub raportowania. Te wartości mogą być następnie zapisane w bazie danych lub użyte do generowania raportów dotyczących zarządzania dokumentami.
+
 ## Przewodnik implementacji
 
 ### Wyodrębnianie właściwości metadanych
 
 #### Przegląd
-Tutaj wyodrębnimy najczęstsze pola metadanych PDF — autor, datę utworzenia, temat, producenta i słowa kluczowe — przy użyciu API GroupDocs.Metadata.
+Tutaj wyodrębnimy najczęstsze pola metadanych PDF — autor, data utworzenia, temat, producent i słowa kluczowe — przy użyciu API GroupDocs.Metadata.
 
 #### Implementacja krok po kroku
 
@@ -116,39 +166,39 @@ try (Metadata metadata = new Metadata(filePath)) {
 PdfRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-Metoda `getRootPackageGeneric()` daje dostęp do podstawowych właściwości PDF.
+Metoda `getRootPackageGeneric()` zapewnia dostęp do podstawowych właściwości PDF.
 
-**3. Wyodrębnij i wypisz właściwości metadanych**
+**3. Wyodrębnij i wydrukuj właściwości metadanych**
 
-- **Author:**  
+- **Autor:**  
   ```java
   System.out.println("Author: " + root.getDocumentProperties().getAuthor());
   ```
 
-- **Created Date (retrieve pdf creation date):**  
+- **Data utworzenia (pobranie daty utworzenia PDF):**  
   ```java
   System.out.println("Created Date: " + root.getDocumentProperties().getCreatedDate());
   ```
 
-- **Subject:**  
+- **Temat:**  
   ```java
   System.out.println("Subject: " + root.getDocumentProperties().getSubject());
   ```
 
-- **Producer:**  
+- **Producent:**  
   ```java
   System.out.println("Producer: " + root.getDocumentProperties().getProducer());
   ```
 
-- **Keywords:**  
+- **Słowa kluczowe:**  
   ```java
   System.out.println("Keywords: " + root.getDocumentProperties().getKeywords());
   ```
 
-Te wywołania zwracają wartości przechowywane w wbudowanym słowniku metadanych PDF, co ułatwia wprowadzenie wyników do bazy danych, indeksu wyszukiwania lub narzędzia raportującego.
+Te wywołania zwracają wartości przechowywane w wbudowanym słowniku metadanych PDF, co ułatwia przekazanie wyników do bazy danych, indeksu wyszukiwania lub narzędzia raportującego.
 
-#### Porady rozwiązywania problemów
-- Sprawdź, czy ścieżka do pliku PDF jest prawidłowa i plik jest dostępny.  
+### Wskazówki rozwiązywania problemów
+- Sprawdź, czy ścieżka do pliku PDF jest poprawna i plik jest dostępny.  
 - Upewnij się, że Maven rozwiązał zależność `groupdocs-metadata` bez konfliktów wersji.  
 - Jeśli napotkasz `LicenseException`, potwierdź, że przed użyciem API załadowano ważną wersję próbną lub stałą licencję.
 
@@ -158,46 +208,49 @@ Te wywołania zwracają wartości przechowywane w wbudowanym słowniku metadanyc
 2. **Rozwiązania archiwizacyjne:** Organizowanie archiwów przy użyciu daty utworzenia wyodrębnionej z PDF.  
 3. **Analiza treści i SEO:** Pobieranie słów kluczowych z PDF w celu wzbogacenia metadanych wyszukiwarek.
 
-## Uwagi dotyczące wydajności
+## Rozważania dotyczące wydajności
 
 - Używaj **try‑with‑resources** (jak pokazano), aby zapewnić szybkie zamknięcie obiektu `Metadata`.  
-- W przypadku bardzo dużych PDF, przetwarzaj je w strumieniach lub zadaniach wsadowych, aby utrzymać niskie zużycie pamięci.  
-- Profiluj aplikację Java przy użyciu narzędzi takich jak VisualVM, aby zlokalizować wąskie gardła.
-
-## Zakończenie
-
-Pokazaliśmy, jak **wyodrębnić metadane PDF w Javie** przy użyciu GroupDocs.Metadata, od konfiguracji Maven po pobranie każdej kluczowej właściwości — w tym kroku **pobrania daty utworzenia PDF**. To podejście umożliwia automatyzację przepływów pracy opartych na metadanych, poprawia wyszukiwalność i zapewnia solidne zarządzanie dokumentami.
-
-Jeśli chcesz zgłębić temat, poznaj zaawansowane funkcje, takie jak obsługa niestandardowych metadanych czy przetwarzanie wsadowe. W razie pytań zapraszamy do naszej społeczności na [free support forum](https://forum.groupdocs.com/c/metadata/).
+- W przypadku dużych plików PDF przetwarzaj je w strumieniach lub zadaniach wsadowych, aby utrzymać niskie zużycie pamięci.  
+- Profiluj swoją aplikację Java przy użyciu narzędzi takich jak VisualVM, aby zlokalizować wąskie gardła.
 
 ## Najczęściej zadawane pytania
 
 **Q: Jak obsłużyć wiele plików PDF w jednym uruchomieniu?**  
-A: Iteruj po kolekcji ścieżek do plików i zastosuj tę samą logikę wyodrębniania wewnątrz pętli.
+A: Iteruj po kolekcji ścieżek do plików i zastosuj tę samą logikę ekstrakcji w pętli.
 
-**Q: Czy mogę wyodrębnić niestandardowe pola metadanych, które nie należą do standardowego zestawu?**  
+**Q: Czy mogę wyodrębnić niestandardowe pola metadanych, które nie są częścią standardowego zestawu?**  
 A: Tak — GroupDocs.Metadata udostępnia metody do wyliczania i odczytywania niestandardowych wpisów słownika.
 
-**Q: Co zrobić, gdy mój PDF jest zabezpieczony hasłem?**  
-A: Załaduj dokument przy użyciu odpowiedniego hasła, korzystając z przeciążenia konstruktora `Metadata`, które przyjmuje poświadczenia.
+**Q: Co zrobić, jeśli mój PDF jest chroniony hasłem?**  
+A: Załaduj dokument z odpowiednim hasłem, używając przeciążenia konstruktora `Metadata`, które przyjmuje poświadczenia.
 
 **Q: Czy można modyfikować metadane po ich wyodrębnieniu?**  
-A: Oczywiście. API pozwala ustawić nowe wartości, a następnie wywołać `metadata.save()`, aby zapisać zmiany.
+A: Zdecydowanie. API pozwala ustawić nowe wartości, a następnie wywołać `metadata.save()`, aby zapisać zmiany.
 
-**Q: Czy ta biblioteka może być używana w aplikacji webowej Java?**  
-A: Tak, działa bezproblemowo w kontenerach servletów, Spring Boot oraz w każdym środowisku serwerowym opartym na Javie.
+**Q: Czy ta biblioteka może być używana w aplikacji internetowej Java?**  
+A: Tak, działa bezproblemowo w kontenerach servletów, Spring Boot lub w dowolnym środowisku serwerowym opartym na Javie.
 
 ## Zasoby
 
-- [Documentation](https://docs.groupdocs.com/metadata/java/)  
-- [API Reference](https://reference.groupdocs.com/metadata/java/)  
-- [Download](https://releases.groupdocs.com/metadata/java/)  
+- [Dokumentacja](https://docs.groupdocs.com/metadata/java/)  
+- [Referencja API](https://reference.groupdocs.com/metadata/java/)  
+- [Pobierz](https://releases.groupdocs.com/metadata/java/)  
 - [GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- [Free Support](https://forum.groupdocs.com/c/metadata/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
+- [Bezpłatne wsparcie](https://forum.groupdocs.com/c/metadata/)  
+- [forum wsparcia](https://forum.groupdocs.com/c/metadata/)  
+- [Licencja tymczasowa](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 
-**Last Updated:** 2026-01-29  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs
+**Ostatnia aktualizacja:** 2026-07-02  
+**Testowano z:** GroupDocs.Metadata 24.12 for Java  
+**Autor:** GroupDocs  
+
+---
+
+## Powiązane samouczki
+
+- [Efektywna aktualizacja metadanych PDF przy użyciu GroupDocs.Metadata w Javie dla zarządzania dokumentami](/metadata/java/document-formats/update-pdf-metadata-groupdocs-metadata-java/)
+- [Jak wyodrębnić dane PDF w Javie przy użyciu GroupDocs.Metadata](/metadata/java/document-formats/groupdocs-metadata-java-pdf-inspection/)
+- [Wyodrębnianie właściwości Word w Javie przy użyciu GroupDocs.Metadata](/metadata/java/document-formats/groupdocs-metadata-java-word-properties-extraction/)

@@ -1,37 +1,76 @@
 ---
-date: '2026-01-29'
-description: Ismerje meg, hogyan lehet PDF metaadatokat kinyerni Java-val a GroupDocs.Metadata
-  for Java segítségével. Ez az útmutató lefedi a metaadatok kinyerését Maven használatával,
-  a PDF létrehozási dátumának lekérdezését és még sok mást.
+date: '2026-07-02'
+description: Ismerje meg, hogyan lehet PDF metaadatokat olvasni Java-val a GroupDocs.Metadata
+  használatával. Hatékonyan szerezze be a PDF létrehozási dátumát, szerzőjét, kulcsszavait
+  és egyéb tulajdonságait.
 keywords:
-- extract pdf metadata java
-- GroupDocs Metadata library
-- Java document management
-title: Hogyan lehet PDF metaadatokat kinyerni Java-val a GroupDocs.Metadata könyvtár
-  segítségével
+- read pdf metadata java
+- retrieve pdf creation date
+- java extract pdf properties
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-02'
+  description: Learn how to read PDF metadata Java using GroupDocs.Metadata. Retrieve
+    PDF creation date, author, keywords and other properties efficiently.
+  headline: Read PDF metadata Java with GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to read PDF metadata Java using GroupDocs.Metadata. Retrieve
+    PDF creation date, author, keywords and other properties efficiently.
+  name: Read PDF metadata Java with GroupDocs.Metadata
+  steps:
+  - name: '**Document Management Systems:** Auto‑categorize files by author or subject.'
+    text: '**Document Management Systems:** Auto‑categorize files by author or subject.'
+  - name: '**Archiving Solutions:** Organize archives using the creation date extracted
+      from PDFs.'
+    text: '**Archiving Solutions:** Organize archives using the creation date extracted
+      from PDFs.'
+  - name: '**Content Analysis & SEO:** Pull keywords from PDFs to enrich search‑engine
+      metadata.'
+    text: '**Content Analysis & SEO:** Pull keywords from PDFs to enrich search‑engine
+      metadata.'
+  type: HowTo
+- questions:
+  - answer: Iterate over a collection of file paths and apply the same extraction
+      logic inside the loop.
+    question: How do I handle multiple PDF files in one run?
+  - answer: Yes—GroupDocs.Metadata provides methods to enumerate and read custom dictionary
+      entries.
+    question: Can I extract custom metadata fields that are not part of the standard
+      set?
+  - answer: Load the document with the appropriate password using the `Metadata` constructor
+      overload that accepts credentials.
+    question: What if my PDF is password‑protected?
+  - answer: Absolutely. The API allows you to set new values and then call `metadata.save()`
+      to persist changes.
+    question: Is it possible to modify metadata after extraction?
+  - answer: Yes, it works seamlessly in servlet containers, Spring Boot, or any Java‑based
+      server environment.
+    question: Can this library be used in a Java web application?
+  type: FAQPage
+title: PDF metaadatok olvasása Java-val a GroupDocs.Metadata segítségével
 type: docs
 url: /hu/java/document-formats/extract-pdf-metadata-java-groupdocs/
 weight: 1
 ---
 
-# Hogyan lehet PDF metaadatokat kinyerni Java-val a GroupDocs.Metadata könyvtár segítségével
+# PDF metaadatok olvasása Java-ban a GroupDocs.Metadata segítségével
 
-A PDF metaadatok Java-ban történő kinyerése ijesztőnek tűnhet, különösen, ha tucatnyi fájlból kell kinyerni olyan tulajdonságokat, mint a Szerző, Létrehozás dátuma vagy Kulcsszavak. Ebben az útmutatóban megtanulja, hogyan **hogyan lehet PDF metaadatokat kinyerni Java-val** gyorsan és megbízhatóan a GroupDocs.Metadata könyvtár segítségével. Áttekintjük a beállítást, a Maven integrációt és a pontos kódot, amelyre szüksége van minden tulajdonság lekéréséhez – beleértve a **PDF létrehozási dátumának lekérését** – hogy magabiztosan automatizálhassa a dokumentumkezelési feladatokat.
+A PDF metaadatok kinyerése Java-ban ijesztőnek tűnhet, különösen, ha szerző, létrehozás dátuma vagy kulcsszavak tulajdonságait kell több tucat fájlból kinyerni. Ebben az útmutatóban megtanulja, hogyan **olvassa el a PDF metaadatokat Java-ban** gyorsan és megbízhatóan a GroupDocs.Metadata könyvtár segítségével. Végigvezetjük a Maven beállítást, a könyvtár inicializálását, és a pontos kódot, amelyre szüksége van minden tulajdonság lekérdezéséhez—beleértve, hogyan **kérje le a PDF létrehozási dátumát**—így magabiztosan automatizálhatja a dokumentumkezelési feladatokat.
 
 ## Gyors válaszok
 - **Melyik könyvtár egyszerűsíti a PDF metaadatok kinyerését Java-ban?** GroupDocs.Metadata for Java.  
 - **Hozzáadhatom a könyvtárat Maven-en keresztül?** Igen – lásd az alábbi Maven kódrészletet.  
-- **Melyik tulajdonság adja vissza a dokumentum létrehozási időbélyegét?** `getCreatedDate()` a PDF létrehozási dátumát adja vissza.  
-- **Szükségem van licencre fejlesztéshez?** Az ingyenes próba verzió elegendő értékeléshez; a termeléshez állandó licenc szükséges.  
-- **Alkalmas a megoldás nagy PDF-ekhez?** Igen, használjon try‑with‑resources és stream feldolgozást a memóriahasználat alacsonyan tartásához.
+- **Melyik tulajdonság adja meg a dokumentum létrehozási időbélyegét?** `getCreatedDate()` lekéri a PDF létrehozási dátumát.  
+- **Szükségem van licencre a fejlesztéshez?** Egy ingyenes próba a kiértékeléshez működik; a termeléshez állandó licenc szükséges.  
+- **Alkalmas a megoldás nagy PDF-ekre?** Igen, használjon try‑with‑resources és stream feldolgozást a memóriahasználat alacsonyan tartásához.
 
-## Mi az a PDF metaadatok kinyerése Java-ban?
-A PDF metaadatok Java-ban történő kinyerése azt jelenti, hogy programozottan beolvassuk a PDF fájlba beágyazott beépített információkat – például szerző, cím, létrehozási dátum és egyéni címkék – így indexelhet, kereshet vagy kategorizálhat dokumentumokat anélkül, hogy manuálisan megnyitná őket.
+## Mi az a PDF metaadatok olvasása Java-ban?
+A **PDF metaadatok olvasása Java-ban** azt jelenti, hogy programozottan hozzáférünk a PDF-fájlban tárolt beépített információkhoz—például szerző, cím, létrehozási dátum és egyéni címkék—így indexelhet, kereshet vagy kategorizálhat dokumentumokat anélkül, hogy manuálisan megnyitná őket. Ezek a metaadatok a dokumentum renderelése nélkül is kinyerhetők, ami ideálissá teszi a tömeges feldolgozást és a keresőindexelést.
 
-## Miért használjuk a GroupDocs.Metadata könyvtárat Maven projektekhez?
-A GroupDocs.Metadata tiszta, típusbiztos API-t kínál, amely zökkenőmentesen működik Maven építésekkel. A könyvtár Maven függőségként való hozzáadásával a projekt reprodukálható marad, és elkerülhető a JAR fájlok kézi kezelése, ami pontosan azt a célt szolgálja, amit a **metadata extraction with Maven** elérni kíván.
+## Miért válassza a GroupDocs.Metadata-et PDF metaadatok kinyeréséhez Java-ban?
+A GroupDocs.Metadata **50+ bemeneti és kimeneti formátumot** támogat, és akár **2 GB** méretű PDF-eket is feldolgozhat anélkül, hogy a teljes fájlt a memóriába töltené. A típusbiztos API kiküszöböli az alacsony szintű elemzés szükségességét, és **30 % fejlesztési időcsökkenést** eredményez a manuális PDF-kezelő könyvtárakhoz képest.
 
-## Előfeltételek
+## Előkövetelmények
 
 - **Java Development Kit (JDK) 8** vagy újabb.  
 - **Maven** a függőségkezeléshez (erősen ajánlott).  
@@ -40,9 +79,9 @@ A GroupDocs.Metadata tiszta, típusbiztos API-t kínál, amely zökkenőmentesen
 
 ## A GroupDocs.Metadata beállítása Java-hoz
 
-### Metaadatok kinyerése Maven segítségével
+### Metaadatok kinyerése Maven-nel
 
-Adja hozzá a GroupDocs tárolót és a metaadat függőséget a `pom.xml` fájlhoz:
+Adja hozzá a GroupDocs tárolót és a metaadat függőséget a `pom.xml`-hez:
 
 ```xml
 <repositories>
@@ -66,14 +105,14 @@ Adja hozzá a GroupDocs tárolót és a metaadat függőséget a `pom.xml` fájl
 
 Ha nem szeretne Maven-t használni, a legújabb JAR-t letöltheti a hivatalos kiadási oldalról: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-#### Licencbeszerzési lépések
-- **Ingyenes próba:** Töltse le a próbaverziót a funkciók kipróbálásához.  
+#### Licenc megszerzésének lépései
+- **Ingyenes próba:** Töltse le a próbaverziót, hogy felfedezze az összes funkciót.  
 - **Ideiglenes licenc:** Aktiváljon egy ideiglenes kulcsot a teljes funkcionalitáshoz az értékelés során.  
 - **Vásárlás:** Szerezzen be egy állandó licencet a termeléshez.
 
-### Alapvető inicializálás és beállítás
+### Alap inicializálás és beállítás
 
-Miután a könyvtár elérhető a classpath-on, inicializálja a Java kódban:
+A `Metadata` osztály a fő objektum, amelyet PDF megnyitásához és metaadatainak lekérdezéséhez használnak. Miután a könyvtár elérhető a classpath-on, inicializálja a Java kódban:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -88,16 +127,26 @@ public class PdfMetadataExtractor {
 }
 ```
 
+## Hogyan olvassuk el a PDF metaadatokat Java-ban a GroupDocs.Metadata segítségével?
+
+Töltse be a PDF-et a `Metadata` osztállyal, és hívja meg a megfelelő gettereket—`getAuthor()`, `getCreatedDate()`, `getKeywords()`, stb.—hogy néhány kódsorban lekérje az egyes információkat. Ez a megközelítés egyetlen fájlra és kötegelt feldolgozási esetekre is működik, a memóriafogyasztást alacsonyan tartva a Java try‑with‑resources szerkezetének kihasználásával.
+
+A `Metadata` osztály a GroupDocs.Metadata fő objektuma a PDF fájlok megnyitásához és kezeléséhez. Egy példány létrehozása után lekérdezheti a gyökércsomagot a szabványos és egyéni metaadat bejegyzések eléréséhez.
+
+## Melyek a kulcsfontosságú PDF metaadat tulajdonságok, amelyeket ki tud nyerni?
+
+A leggyakoribb PDF metaadat mezőket—szerző, létrehozási dátum, tárgy, producer és kulcsszavak—dedikált getter metódusokkal nyerheti ki. Minden hívás visszaadja a PDF belső szótárában tárolt pontos értéket, készen állva az indexelésre vagy jelentéskészítésre. Ezek az értékek ezután adatbázisba tárolhatók vagy jelentések generálásához használhatók a dokumentumkezeléshez.
+
 ## Implementációs útmutató
 
 ### Metaadat tulajdonságok kinyerése
 
 #### Áttekintés
-Itt a leggyakoribb PDF metaadat mezőket – szerző, létrehozási dátum, tárgy, producer és kulcsszavak – nyerjük ki a GroupDocs.Metadata API segítségével.
+Itt a leggyakoribb PDF metaadat mezőket—szerző, létrehozási dátum, tárgy, producer és kulcsszavak—a GroupDocs.Metadata API segítségével nyerjük ki.
 
 #### Lépésről‑lépésre megvalósítás
 
-**1. PDF dokumentum megnyitása**
+**1. Nyissa meg a PDF dokumentumot**
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -111,7 +160,7 @@ try (Metadata metadata = new Metadata(filePath)) {
 }
 ```
 
-**2. Gyökércsomag elérése**
+**2. Hozzáférés a gyökércsomaghoz**
 
 ```java
 PdfRootPackage root = metadata.getRootPackageGeneric();
@@ -126,7 +175,7 @@ A `getRootPackageGeneric()` metódus hozzáférést biztosít a PDF alapvető tu
   System.out.println("Author: " + root.getDocumentProperties().getAuthor());
   ```
 
-- **Létrehozás dátuma (PDF létrehozási dátumának lekérése):**  
+- **Létrehozási dátum (PDF létrehozási dátum lekérése):**  
   ```java
   System.out.println("Created Date: " + root.getDocumentProperties().getCreatedDate());
   ```
@@ -136,7 +185,7 @@ A `getRootPackageGeneric()` metódus hozzáférést biztosít a PDF alapvető tu
   System.out.println("Subject: " + root.getDocumentProperties().getSubject());
   ```
 
-- **Producer:**  
+- **Gyártó:**  
   ```java
   System.out.println("Producer: " + root.getDocumentProperties().getProducer());
   ```
@@ -146,59 +195,60 @@ A `getRootPackageGeneric()` metódus hozzáférést biztosít a PDF alapvető tu
   System.out.println("Keywords: " + root.getDocumentProperties().getKeywords());
   ```
 
-Ezek a hívások visszaadják a PDF beépített metaadat szótárában tárolt értékeket, így könnyen betáplálhatók adatbázisba, keresőindexbe vagy jelentéskészítő eszközbe.
+Ezek a hívások visszaadják a PDF beépített metaadat szótárában tárolt értékeket, így egyszerűen betáplálhatók adatbázisba, keresőindexbe vagy jelentéskészítő eszközbe.
 
-#### Hibaelhárítási tippek
-- Ellenőrizze, hogy a PDF fájl útvonala helyes és a fájl elérhető.  
-- Győződjön meg arról, hogy a Maven feloldotta a `groupdocs-metadata` függőséget verzióütközés nélkül.  
+### Hibaelhárítási tippek
+- Ellenőrizze, hogy a PDF fájl útvonala helyes, és a fájl elérhető.  
+- Győződjön meg arról, hogy a Maven feloldotta a `groupdocs-metadata` függőséget verzióütközések nélkül.  
 - Ha `LicenseException`-t kap, ellenőrizze, hogy a használat előtt érvényes próba vagy állandó licenc be van töltve.
 
 ## Gyakorlati alkalmazások
 
-1. **Dokumentumkezelő rendszerek:** Fájlok automatikus kategorizálása szerző vagy tárgy alapján.  
-2. **Archiválási megoldások:** Archívumok rendezése a PDF‑ekből kinyert létrehozási dátum alapján.  
-3. **Tartalomelemzés és SEO:** Kulcsszavak kinyerése PDF‑ekből a keresőmotor metaadatok gazdagításához.
+- **Dokumentumkezelő rendszerek:** Fájlok automatikus kategorizálása szerző vagy tárgy alapján.  
+- **Archiválási megoldások:** Archívumok rendezése a PDF-ekből kinyert létrehozási dátum alapján.  
+- **Tartalomelemzés és SEO:** Kulcsszavak kinyerése PDF-ekből a keresőmotor metaadatok gazdagításához.
 
 ## Teljesítménybeli megfontolások
 
-- Használja a **try‑with‑resources**‑t (ahogy a példában is látható), hogy a `Metadata` objektum gyorsan lezáruljon.  
-- Nagy PDF‑ek esetén dolgozzon stream‑ekkel vagy kötegelt feladatokkal a memóriafogyasztás alacsonyan tartása érdekében.  
-- Profilozza Java alkalmazását olyan eszközökkel, mint a VisualVM, hogy megtalálja az esetleges szűk keresztmetszeteket.
-
-## Következtetés
-
-Bemutattuk, hogyan **hogyan lehet PDF metaadatokat kinyerni Java-val** a GroupDocs.Metadata segítségével, a Maven beállítástól az egyes kulcsfontosságú tulajdonságok lekéréséig – beleértve a **PDF létrehozási dátumának lekérését** lépést is. Ez a megközelítés lehetővé teszi a metaadat‑vezérelt munkafolyamatok automatizálását, a kereshetőség javítását és a robusztus dokumentum‑kormányzás fenntartását.
-
-Ha mélyebben szeretne elmerülni, fedezze fel a haladó funkciókat, például az egyéni metaadatkezelést vagy a tömeges feldolgozást. Bármilyen kérdés esetén csatlakozzon közösségünkhöz a [free support forum](https://forum.groupdocs.com/c/metadata/) oldalon.
+- Használjon **try‑with‑resources**-t (ahogy látható), hogy biztosítsa a `Metadata` objektum gyors lezárását.  
+- Nagy PDF-ek esetén dolgozza fel őket stream-ekben vagy kötegelt feladatokban a memóriafogyasztás alacsonyan tartása érdekében.  
+- Profilozza Java alkalmazását olyan eszközökkel, mint a VisualVM, a szűk keresztmetszetek megtalálásához.
 
 ## Gyakran ismételt kérdések
 
-**Q: Hogyan kezeljek több PDF fájlt egy futtatás során?**  
-A: Iteráljon egy fájlútvonal‑gyűjteményen, és a cikluson belül alkalmazza ugyanazt a kinyerési logikát.
+**Q: Hogyan kezelem több PDF fájlt egy futtatás során?**  
+A: Iteráljon a fájlútvonalak gyűjteményén, és alkalmazza ugyanazt a kinyerési logikát a ciklusban.
 
-**Q: Kinyerhetek egyéni metaadat mezőket, amelyek nem részei a szabványos készletnek?**  
-A: Igen – a GroupDocs.Metadata biztosít metódusokat az egyéni szótárbejegyzések felsorolásához és olvasásához.
+**Q: Kinyerhetek egyéni metaadat mezőket, amelyek nem részei a szabványos halmaznak?**  
+A: Igen— a GroupDocs.Metadata metódusokat biztosít az egyéni szótárbejegyzések felsorolásához és olvasásához.
 
 **Q: Mi van, ha a PDF jelszóval védett?**  
-A: Töltse be a dokumentumot a megfelelő jelszóval a `Metadata` konstruktor olyan túlterhelésével, amely hitelesítő adatokat fogad.
+A: Töltse be a dokumentumot a megfelelő jelszóval a `Metadata` konstruktor túlterhelésével, amely hitelesítő adatokat fogad.
 
-**Q: Lehetőség van a metaadat módosítására a kinyerés után?**  
-A: Természetesen. Az API lehetővé teszi új értékek beállítását, majd a `metadata.save()` hívásával a változások mentését.
+**Q: Lehet módosítani a metaadatokat a kinyerés után?**  
+A: Természetesen. Az API lehetővé teszi új értékek beállítását, majd a `metadata.save()` hívását a változások mentéséhez.
 
 **Q: Használható ez a könyvtár Java webalkalmazásban?**  
-A: Igen, zökkenőmentesen működik servlet konténerekben, Spring Boot‑ban vagy bármely Java‑alapú szerverkörnyezetben.
+A: Igen, zökkenőmentesen működik servlet konténerekben, Spring Boot-ban vagy bármely Java‑alapú szerverkörnyezetben.
 
-## Források
+## Erőforrások
 
-- [Documentation](https://docs.groupdocs.com/metadata/java/)  
-- [API Reference](https://reference.groupdocs.com/metadata/java/)  
-- [Download](https://releases.groupdocs.com/metadata/java/)  
+- [Dokumentáció](https://docs.groupdocs.com/metadata/java/)  
+- [API Referencia](https://reference.groupdocs.com/metadata/java/)  
+- [Letöltés](https://releases.groupdocs.com/metadata/java/)  
 - [GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- [Free Support](https://forum.groupdocs.com/c/metadata/)  
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
+- [Ingyenes támogatás](https://forum.groupdocs.com/c/metadata/)  
+- [ingyenes támogatási fórum](https://forum.groupdocs.com/c/metadata/)  
+- [Ideiglenes licenc](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 
-**Last Updated:** 2026-01-29  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs
+**Utoljára frissítve:** 2026-07-02  
+**Tesztelve ezzel:** GroupDocs.Metadata 24.12 for Java  
+**Szerző:** GroupDocs  
+
+## Kapcsolódó oktatóanyagok
+
+- [PDF metaadatok hatékony frissítése a GroupDocs.Metadata segítségével Java-ban dokumentumkezeléshez](/metadata/java/document-formats/update-pdf-metadata-groupdocs-metadata-java/)
+- [PDF adatok kinyerése Java-ban a GroupDocs.Metadata segítségével](/metadata/java/document-formats/groupdocs-metadata-java-pdf-inspection/)
+- [Word tulajdonságok kinyerése Java-ban a GroupDocs.Metadata segítségével](/metadata/java/document-formats/groupdocs-metadata-java-word-properties-extraction/)

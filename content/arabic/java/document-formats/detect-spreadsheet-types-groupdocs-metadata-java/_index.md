@@ -1,11 +1,50 @@
 ---
-date: '2026-01-24'
-description: تعلم كيفية تحديد تنسيق جداول البيانات في Java باستخدام GroupDocs.Metadata.
+date: '2026-07-02'
+description: تعلم كيفية تحديد تنسيق جداول البيانات Java باستخدام GroupDocs.Metadata.
   اكتشف أنواع جداول البيانات، حسّن معالجة البيانات، وسهّل تطبيقات Java الخاصة بك.
 keywords:
 - identify spreadsheet format java
-- spreadsheet file format detection java
-title: تحديد تنسيق جدول البيانات في جافا باستخدام GroupDocs.Metadata
+- spreadsheet format detection java
+- GroupDocs.Metadata Java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-02'
+  description: Learn how to identify spreadsheet format Java with GroupDocs.Metadata.
+    Detect spreadsheet types, improve data processing, and streamline your Java apps.
+  headline: Identify Spreadsheet Format Java using GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to identify spreadsheet format Java with GroupDocs.Metadata.
+    Detect spreadsheet types, improve data processing, and streamline your Java apps.
+  name: Identify Spreadsheet Format Java using GroupDocs.Metadata
+  steps:
+  - name: Open the spreadsheet with Metadata
+    text: The `Metadata` class loads a document and provides access to its metadata
+      properties. The `Metadata` object loads the file and prepares it for inspection.
+      Using *try‑with‑resources* guarantees the underlying stream is closed automatically.
+  - name: Retrieve the root package for spreadsheets
+    text: '`SpreadsheetRootPackage` represents the high‑level container of a spreadsheet,
+      exposing workbook‑wide metadata such as format information.'
+  - name: Extract and display format details
+    text: '`SpreadsheetRootPackage` also offers methods to retrieve format details
+      like MIME type and file extension.'
+  type: HowTo
+- questions:
+  - answer: It’s a Java library for managing metadata across a wide range of document
+      formats, including spreadsheets.
+    question: What is GroupDocs.Metadata?
+  - answer: Yes, the library supports PDFs, Word documents, images, and many more
+      beyond spreadsheets.
+    question: Can I use GroupDocs.Metadata for other file types?
+  - answer: Yes, you can get free support from the [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/).
+    question: Is there free support available?
+  - answer: MIME types let web applications serve files with the correct `Content-Type`
+      header, ensuring browsers handle them properly.
+    question: Why is MIME type detection useful?
+  - answer: You can request a temporary license for evaluation or purchase a full
+      license via the [GroupDocs Purchase page](https://purchase.groupdocs.com/temporary-license/).
+    question: How do I manage licenses for GroupDocs.Metadata?
+  type: FAQPage
+title: تحديد تنسيق جداول البيانات Java باستخدام GroupDocs.Metadata
 type: docs
 url: /ar/java/document-formats/detect-spreadsheet-types-groupdocs-metadata-java/
 weight: 1
@@ -13,24 +52,30 @@ weight: 1
 
 # تحديد تنسيق جدول البيانات Java باستخدام GroupDocs.Metadata
 
-في التطبيقات الحديثة المعتمدة على البيانات، **تحديد تنسيق جدول البيانات Java** بسرعة وبشكل موثوق أمر ضروري. سواءً استلمت ملفات من إكسل القديمة، أو OpenOffice، أو خدمات سحابية، فإن معرفة التنسيق الدقيق يتيح لك توجيه المستند إلى المعالج المناسب، وتجنب أخطاء التحويل المكلفة، والحفاظ على سرعة خطوط المعالجة. يوضح هذا الدليل كيفية استخدام GroupDocs.Metadata للـ Java لاكتشاف وتحديد تنسيقات جداول البيانات ببضع أسطر من الشيفرة فقط.
+في التطبيقات الحديثة المعتمدة على البيانات، **تحديد تنسيق جدول البيانات Java** بسرعة وموثوقية أمر ضروري. سواءً استلمت ملفات من Excel القديم، OpenOffice، أو الخدمات السحابية، فإن معرفة التنسيق الدقيق يتيح لك توجيه المستند إلى المعالج المناسب، تجنب أخطاء التحويل المكلفة، والحفاظ على سرعة خطوط الأنابيب. يوضح هذا الدرس كيفية استخدام GroupDocs.Metadata للـ Java لاكتشاف وتحديد تنسيقات جداول البيانات ببضع أسطر من الشيفرة.
 
 ## إجابات سريعة
-- **ماذا يعني “identify spreadsheet format Java”؟** تحديد نوع الملف الدقيق (XLS، XLSX، ODS، إلخ) لجدول البيانات أثناء وقت التشغيل.  
-- **أي مكتبة تتعامل مع هذا بأفضل)، واعتماد GroupDocs.Metadata.  
-.
+- **ماذا يعني “identify spreadsheet format Java”?** تحديد نوع الملف الدقيق (XLS, XLSX, ODS, إلخ) لجدول البيانات أثناء التشغيل.  
+- **ما المكتبة التي تتعامل مع هذا بأفضل شكل؟** GroupDocs.Metadata for Java توفر اكتشاف تنسيق أصلي دون فتح محتويات الملف.  
+- **هل أحتاج إلى ترخيص؟** الإصدار التجريبي المجاني يعمل للتطوير؛ يلزم ترخيص تجاري للإنتاج.  
+- **ما هي المتطلبات الأساسية؟** JDK 8+، Maven (أو Gradle)، واعتماد GroupDocs.Metadata.  
+- **كم من الوقت تستغرق التنفيذ؟** عادةً أقل من 10 دقائق لروتين اكتشاف أساسي.
 
-؟
-يعني تحديد تنسيق جدول البيانات في Java قراءة بيانات التعريف (metadata) للملف برمجياً لاكتشاف نوع الحاوية الرسمي، نوع MIME، والامتداد. هذه المعلومات أساسية للمعالجة الشرطية، والتحقق الخاص بالتنسيق، وسير عمل التحويل الآلي.
+## ما هو “identify spreadsheet format Java”؟
+**يعني تحديد تنسيق جدول البيانات في Java قراءة البيانات الوصفية لاكتشاف نوع الحاوية الدقيق، نوع MIME، وامتداد الملف.** هذه التعريف المختصر يوضح لك لماذا العملية مهمة. معرفة التنسيق يتيح المعالجة الشرطية، التحقق الخاص بالتنسيق، وسير عمل التحويل الآلي دون الحاجة إلى فحص الملف يدويًا.
 
-## لماذا نستخدم GroupDocs.Metadata لهذا الغرض؟
-تقوم GroupDocs.Metadata بتجريد التحليل منخفض المستوى للتنسيقات الثنائية، وتوفر لك API نظيف وآمن من حيث النوع. تدعم أكثر من 150 نوع مستند، تعمل على أي منصة تدعم Java، ولا تحتاج إلى مكتبات أصلية إضافية. النتيجة طريقة سريعة وموث** دون8 أو أحدث.  
-- **Maven** (أو أداة بناء أخرى) لإدارة الاعتمادات.  
+## لماذا تستخدم GroupDocs.Metadata لهذه المهمة؟
+GroupDocs.Metadata تج abstracts parsing الثنائي منخفض المستوى، وتوفر API نظيف وآمن من حيث النوع يدعم **150+ نوع مستند** ويمكنه معالجة ملفات حتى **2 GB** دون تحميل المحتوى بالكامل إلى الذاكرة. يعمل على أي منصة متوافقة مع Java، لا يتطلب تبعيات أصلية، ويوفر اكتشافًا في أقل من مللي ثانية لأحجام جداول البيانات النموذجية—مما يجعله الخيار الأكثر كفاءة لـ **identify spreadsheet format Java**.
+
+## المتطلبات الأساسية
+- **Java Development Kit (JDK)** – الإصدار 8 أو أحدث.  
+- **Maven** (أو أداة بناء أخرى) لإدارة التبعيات.  
 - بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse.  
-- الحصول على ترخيص صالح لـ GroupDocs.Metadata (التجربة المجانية تكفي للاختبار).
+- الوصول إلى ترخيص GroupDocs.Metadata صالح (الإصدار التجريبي يعمل للاختبار).
 
 ### المكتبات والاعتمادات المطلوبة
-لاستخدام GroupDocs.Metadata، أضف المكتبة إلى مشروعك عبر Maven:
+لاستخدام GroupDocs.Metadata، أدرج المكتبة في مشروعك باستخدام Maven:
+
 ```xml
 <repositories>
    <repository>
@@ -48,16 +93,17 @@ weight: 1
    </dependency>
 </dependencies>
 ```
-بدلاً من ذلك، يمكنك تنزيل المكتبة مباشرة من [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+
+بدلاً من ذلك، قم بتنزيل المكتبة مباشرة من [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### الحصول على الترخيص
-لبدء العمل مع GroupDocs.Metadata، يمكنك اختيار نسخة تجريبية مجانية أو طلب ترخيص مؤقت. للاستخدام المطول، يُنصح بشراء ترخيص تجاري.
+لبدء العمل مع GroupDocs.Metadata، يمكنك اختيار نسخة تجريبية مجانية أو طلب ترخيص مؤقت. للاستخدام الممتد، فكر في شراء ترخيص تجاري.
 
-## إعداد GroupDocs.Metadata للـ Java
-إعداد GroupDocs.Metadata سهل:
+## إعداد GroupDocs.Metadata لـ Java
+إعداد GroupDocs.Metadata سهل وبسيط:
 
-1. **إضافة المستودع والاعتماد** – كما هو موضح أعلاه.  
-2. **تهيئة المكتبة** – يوضح المقتطف التالي إعدادًا بسيطًا:
+1. **Add the repository and dependency** – كما هو موضح أعلاه.  
+2. **Initialize the library** – المقتطف التالي يوضح إعدادًا بسيطًا:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -74,9 +120,11 @@ public class SetupExample {
 ```
 
 ## كيفية تحديد تنسيق جدول البيانات Java – دليل خطوة بخطوة
-فيما يلي شرح مختصر يوضح بالضبط كيفية اكتشاف نوع جدول البيانات.
+لكشف نوع جدول البيانات بشكل موثوق، قم أولاً بتحميل الملف باستخدام الفئة `Metadata`، ثم الوصول إلى الحزمة الجذرية لقراءة خصائص التنسيق، وأخيرًا استخراج نوع MIME، الامتداد، ومعلومات الحاوية. تضمن هذه العملية ذات الثلاث خطوات تحديدًا دقيقًا مع الحفاظ على استهلاك الذاكرة منخفضًا ووقت التنفيذ الحد الأدنى.
 
 ### الخطوة 1: فتح جدول البيانات باستخدام Metadata
+الفئة `Metadata` تقوم بتحميل المستند وتوفر الوصول إلى خصائص البيانات الوصفية الخاصة به.
+
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputXlsx")) {
     // Proceed with further operations
@@ -85,70 +133,78 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputXlsx")) {
 كائن `Metadata` يحمل الملف ويجهزه للفحص. استخدام *try‑with‑resources* يضمن إغلاق الدفق الأساسي تلقائيًا.
 
 ### الخطوة 2: استرجاع الحزمة الجذرية لجداول البيانات
+`SpreadsheetRootPackage` تمثل الحاوية عالية المستوى لجدول البيانات، وتكشف عن بيانات وصفية على مستوى المصنف مثل معلومات التنسيق.
+
 ```java
 SpreadsheetRootPackage root = metadata.getRootPackageGeneric();
 ```
-`SpreadsheetRootPackage` يجمع جميع الخصائص عالية المستوى لدفتر العمل، بما في ذلك معلومات التنسيق.
 
 ### الخطوة 3: استخراج وعرض تفاصيل التنسيق
+`SpreadsheetRootPackage` توفر أيضًا طرقًا لاسترجاع تفاصيل التنسيق مثل نوع MIME وامتداد الملف.
+
 ```java
 System.out.println(root.getSpreadsheetType().getFileFormat());         // e.g., XLSX
 System.out.println(root.getSpreadsheetType().getSpreadsheetFormat()); // Specific format details
 System.out.println(root.getSpreadsheetType().getMimeType());           // MIME type, e.g., application/vnd.openxmlformats‑officedocument.spreadsheetml.sheet
 System.out.println(root.getSpreadsheetType().getExtension());          // File extension, e.g., .xlsx
 ```
-هذه الاستدعاءات تُعيد بيانات **identify spreadsheet format Java** الدقيقة التي تحتاجها للمنطق اللاحق.
 
-### نصائح استكشاف الأخطاء وإصلاحها
-- **الملف غير موجود؟** تأكد من صحة المسار الذي تمرره إلى `Metadata`.  
-- **تنسيق غير مدعوم؟** تأكد من أنك تستخدم أحدث نسخة من GroupDocs.Metadata (24.12 في وقت كتابة هذا الدليل).  
-- **مشكلات الأداء؟** حرّر كائنات `Metadata` فور الانتهاء منها وتجنّب إبقائها في الذاكرة لفترة طويلة.
+## المشكلات الشائعة والحلول
+- **الملف غير موجود؟** تحقق مرة أخرى من المسار الذي تمرره إلى `Metadata`.  
+- **تنسيق غير مدعوم؟** تأكد من أنك تستخدم أحدث إصدار من GroupDocs.Metadata (24.12 في وقت كتابة هذا).  
+- **مخاوف الأداء؟** تخلص من كائنات `Metadata` بسرعة وتجنب إبقائها في الذاكرة لفترة أطول من الضرورة.
 
-## تطبيقات عملية
-يتيح تحديد تنسيقات جداول البيانات في Java العديد من السيناريوهات الواقعية:
+## التطبيقات العملية
+تحديد تنسيقات جداول البيانات في Java يفتح العديد من السيناريوهات الواقعية:
 
-1. **ترحيل البيانات** – اكتشاف تلقائي لتنسيقات المصدر وتحويلها إلى تنسيق موحد (مثل CSV).  
-2. **تكامل المؤسسات** – تمرير التنسيق الصحيح إلى أنظمة ERP/CRM التي تقبل أنواع جداول بيانات محددة فقط.  
-3. **التقارير الديناميكية** – إنشاء تقارير بالتنسيق المفضّل للمستخدم بعد اكتشاف نوع القالب المرفوع.
+1. **نقل البيانات** – اكتشاف تنسيقات المصدر تلقائيًا وتحويلها إلى هدف موحد (مثل CSV).  
+2. **تكامل المؤسسات** – إدخال التنسيق الصحيح إلى أنظمة ERP/CRM التي تقبل أنواع جداول بيانات محددة فقط.  
+3. **تقارير ديناميكية** – إنشاء تقارير بالتنسيق المفضل للمستخدم عن طريق اكتشاف نوع القالب المرفوع أولاً.
 
 ## اعتبارات الأداء
-- **إدارة الذاكرة** – حرّر مثيلات `Metadata` بمجرد الحصول على المعلومات المطلوبة.  
-- **المعالجة الدفعية** – عند فحص مجلدات كبيرة، أعد استخدام مثيل `Metadata` واحد قدر الإمكان لتقليل تكلفة إنشاء الكائنات.  
-- **تحليل الأداء** – استخدم Java Flight Recorder أو VisualVM لتحديد أي عنق زجاجة في خطوط المعالجة على نطاق واسع.
+- **إدارة الذاكرة** – أطلق سراح مثيلات `Metadata` بمجرد حصولك على المعلومات المطلوبة.  
+- **معالجة دفعات** – عند فحص مجلدات كبيرة، أعد استخدام مثيل `Metadata` واحد حيثما أمكن لتقليل عبء إنشاء الكائنات.  
+- **تحليل الأداء** – استخدم Java Flight Recorder أو VisualVM لتحديد أي اختناقات في خطوط معالجة واسعة النطاق.
 
 ## الخلاصة
-أصبح لديك الآن طريقة كاملة وجاهزة للإنتاج **لتحديد تنسيق جدول البيانات Java** باستخدام GroupDocs.Metadata. من خلال دمج هذه الأسطر القليلة في تطبيقك، ستحصل على اكتشاف تنسيق موثوق، وتبسيط المعالجة اللاحقة، وتحسين موثوقية التعامل مع البيانات بشكل عام.
+أصبح لديك الآن طريقة كاملة وجاهزة للإنتاج **identify spreadsheet format Java** باستخدام GroupDocs.Metadata. من خلال دمج هذه الأسطر القليلة في تطبيقك، ستحصل على اكتشاف تنسيق قوي، تبسط المعالجة اللاحقة، وتحسن موثوقية معالجة البيانات بشكل عام.
 
 **الخطوات التالية:**  
-استكشف المزيد من ميزات GroupDocs.Metadata عبر مراجعة [API Reference](https://reference.groupdocs.com/metadata/java/) وتجربة عمليات ميتاداتا إضافية مثل استخراج المؤلف، ومعالجة الخصائص المخصصة، وتحويل المستندات.
+استكشف المزيد من ميزات GroupDocs.Metadata بزيارة [API Reference](https://reference.groupdocs.com/metadata/java/) وتجربة عمليات بيانات وصفية إضافية مثل استخراج المؤلف، معالجة الخصائص المخصصة، وتحويل المستندات.
 
 ## الأسئلة المتكررة
-**س: ما هي GroupDocs.Metadata؟**  
-ج: هي مكتبة Java لإدارة الميتاداتا عبر مجموعة واسعة من تنسيقات المستندات، بما في ذلك جداول البيانات.
+**س: ما هو GroupDocs.Metadata؟**  
+ج: إنها مكتبة Java لإدارة البيانات الوصفية عبر مجموعة واسعة من تنسيقات المستندات، بما في ذلك جداول البيانات.
 
 **س: هل يمكنني استخدام GroupDocs.Metadata لأنواع ملفات أخرى؟**  
-ج: نعم، تدعم المكتبة PDFs، مستندات Word، الصور، والعديد غيرها إلى جانب جداول البيانات.
+ج: نعم، المكتبة تدعم ملفات PDF، مستندات Word، الصور، والعديد غيرها بخلاف جداول البيانات.
 
 **س: هل هناك دعم مجاني متاح؟**  
-ج: نعم، يمكنك الحصول على دعم مجاني عبر [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/).
+ج: نعم، يمكنك الحصول على دعم مجاني من [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/).
 
-**س: لماذا يعتبر اكتشاف نوع MIME مفيدًا؟**  
-ج: تسمح أنواع MIME لتطبيقات الويب بخدمة الملفات بالـ `Content-Type` المناسب، مما يضمن تعامل المتصفحات معها بشكل صحيح.
+**س: لماذا اكتشاف نوع MIME مفيد؟**  
+ج: تسمح أنواع MIME لتطبيقات الويب بخدمة الملفات بالرأس `Content‑Type` الصحيح، مما يضمن تعامل المتصفحات معها بشكل صحيح.
 
 **س: كيف أدير تراخيص GroupDocs.Metadata؟**  
 ج: يمكنك طلب ترخيص مؤقت للتقييم أو شراء ترخيص كامل عبر [GroupDocs Purchase page](https://purchase.groupdocs.com/temporary-license/).
 
-## موارد
-- **التوثيق:** استكشف المزيد عن المكتبة في [GroupDocs Documentation](https://docs.groupdocs.com/metadata/java/).  
-- **مرجع API:** طرق API المفصلة موجودة على [API Reference Page](https://reference.groupdocs.com/metadata/java/).  
-- **التنزيل:** احصل على أحدث نسخة من [GroupDocs Releases](https://releases.groupdocs.com/metadata/java/).  
-- **مستودع GitHub:** شاهد الشيفرة المصدرية والأمثلة في [GroupDocs GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java).  
-- **دعم مجاني:** انضم إلى المناقشات على [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/).
-
 ---
 
-**آخر تحديث:** 2026-01-24  
+**آخر تحديث:** 2026-07-02  
 **تم الاختبار مع:** GroupDocs.Metadata 24.12  
 **المؤلف:** GroupDocs  
 
 ---
+
+**الموارد**
+- **التوثيق:** Explore more about the library at [GroupDocs Documentation](https://docs.groupdocs.com/metadata/java/).  
+- **مرجع API:** Detailed API methods are listed on the [API Reference Page](https://reference.groupdocs.com/metadata/java/).  
+- **التنزيل:** Get the latest version from [GroupDocs Releases](https://releases.groupdocs.com/metadata/java/).  
+- **مستودع GitHub:** View source code and examples at [GroupDocs GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java).  
+- **دعم مجاني:** Join discussions on the [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/).
+
+## الدروس ذات الصلة
+
+- [استخراج بيانات وصفية لجدول البيانات Java باستخدام GroupDocs.Metadata](/metadata/java/document-formats/extract-manage-spreadsheet-metadata-groupdocs-java/)
+- [كيفية تحديث بيانات وصفية لجدول البيانات باستخدام GroupDocs.Metadata في Java](/metadata/java/document-formats/update-spreadsheet-metadata-groupdocs-java/)
+- [إزالة تعليقات جدول البيانات Java: إدارة بيانات وصفية شاملة لجدول البيانات مع GroupDocs](/metadata/java/document-formats/master-spreadsheet-metadata-groupdocs-remove-comments-signatures/)

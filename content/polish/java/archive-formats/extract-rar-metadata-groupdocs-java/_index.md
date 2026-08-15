@@ -1,49 +1,153 @@
 ---
-date: '2026-02-19'
-description: Dowiedz się, jak uzyskać rozmiar skompresowanego pliku w Javie podczas
-  wyodrębniania metadanych RAR przy użyciu GroupDocs.Metadata dla Javy. Przewodnik
-  krok po kroku, przykłady kodu i najlepsze praktyki.
+date: '2026-06-22'
+description: Dowiedz się, jak uzyskać skompresowany rozmiar w Javie podczas wyodrębniania
+  metadanych RAR przy użyciu GroupDocs.Metadata dla Javy. Przewodnik krok po kroku,
+  przykłady kodu i najlepsze praktyki.
 keywords:
-- extract RAR metadata Java
-- manage archive metadata
-- RAR file details extraction
-title: Uzyskaj skompresowany rozmiar w Javie przy użyciu GroupDocs.Metadata
+- get compressed size java
+- groupdocs metadata java
+- extract rar metadata java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-06-22'
+  description: Learn how to get compressed size java while extracting RAR metadata
+    using GroupDocs.Metadata for Java. Step‑by‑step guide, code samples, and best
+    practices.
+  headline: Get Compressed Size Java with GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to get compressed size java while extracting RAR metadata
+    using GroupDocs.Metadata for Java. Step‑by‑step guide, code samples, and best
+    practices.
+  name: Get Compressed Size Java with GroupDocs.Metadata
+  steps:
+  - name: Initialize the Metadata object
+    text: Create a `Metadata` instance by providing the path to the RAR file. This
+      object represents the archive in memory and gives you access to its internal
+      structure.
+  - name: Obtain the root package of the RAR archive
+    text: Call `metadata.getRootPackage()` to retrieve the top‑level package that
+      contains all entries. The returned `ArchivePackage` lets you enumerate files
+      and folders inside the archive.
+  - name: Retrieve total entry count
+    text: Use `archivePackage.getEntries().size()` to know how many items are stored.
+      Knowing the count helps you allocate progress‑tracking structures for batch
+      jobs.
+  - name: Iterate over each file and read its properties
+    text: Loop through `archivePackage.getEntries()`. For every entry that represents
+      a file (not a folder), call `entry.getCompressedSize()` to obtain its compressed
+      size in bytes. You can also read `entry.getOriginalSize()` if you need the uncompressed
+      size for ratio calculations. **Troubleshooting Tips** -
+  type: HowTo
+- questions:
+  - answer: GroupDocs.Metadata for Java is a library that enables reading, updating,
+      and managing metadata across more than 50 file formats, including RAR, ZIP,
+      and 7z, without requiring file extraction.
+    question: What is GroupDocs.Metadata for Java?
+  - answer: Visit the [GroupDocs purchase page](https://purchase.groupdocs.com/temporary-license/)
+      to acquire a temporary or permanent license; a free trial is available for development.
+    question: How do I obtain a license for full access?
+  - answer: Yes, the same API supports ZIP, 7z, and several other archive formats,
+      allowing a unified codebase for all archive metadata tasks.
+    question: Can I use GroupDocs.Metadata with other archive types besides RAR?
+  - answer: The main issues are memory consumption and file‑handle limits; mitigate
+      them by processing entries one‑by‑one and closing the `Metadata` object promptly.
+    question: What are common pitfalls when handling large RAR files?
+  - answer: The [GroupDocs free support forum](https://forum.groupdocs.com/c/metadata/)
+      provides assistance from both the vendor’s engineers and the community.
+    question: Where can I get support if I encounter problems?
+  type: FAQPage
+title: Uzyskaj skompresowany rozmiar w Javie z GroupDocs.Metadata
 type: docs
 url: /pl/java/archive-formats/extract-rar-metadata-groupdocs-java/
 weight: 1
 ---
 
-# Pobierz skompresowany rozmiar Java z GroupDocs.Metadata
+# Pobieranie skompresowanego rozmiaru w Javie przy użyciu GroupDocs.Metadata
 
-W nowoczesnych aplikacjach opartych na danych, **getting compressed size java** dla plików wewnątrz archiwów RAR jest powszechnym wymaganiem. Niezależnie od tego, czy tworzysz narzędzie do weryfikacji kopii zapasowych, system zarządzania zasobami cyfrowymi, czy po prostu potrzebujesz wyświetlać podsumowania archiwów, odczytanie tych metadanych bez rozpakowywania archiwum oszczędza czas i zasoby. Ten samouczek pokazuje, jak używać GroupDocs.Metadata dla Javy, aby szybko i niezawodnie pobrać bogate metadane RAR — w tym skompresowany rozmiar każdego wpisu.
+W nowoczesnych aplikacjach skoncentrowanych na danych, **get compressed size java** jest częstym wymaganiem, gdy trzeba sprawdzić rozmiar plików przechowywanych w archiwach RAR bez ich rozpakowywania. Niezależnie od tego, czy tworzysz narzędzie weryfikacji kopii zapasowych, system zarządzania zasobami cyfrowymi, czy portal udostępniania plików, odczytanie tych metadanych oszczędza zarówno czas, jak i zasoby systemowe. Ten przewodnik krok po kroku pokazuje, jak używać GroupDocs.Metadata dla Javy, aby szybko, bezpiecznie i przy minimalnym kodzie pobrać skompresowany rozmiar każdego wpisu.
 
 ## Szybkie odpowiedzi
 - **Jakiej biblioteki potrzebujesz?** GroupDocs.Metadata for Java  
-- **Czy mogę pobrać skompresowane rozmiary?** Yes – use `rarFile.getCompressedSize()`  
-- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w środowisku deweloperskim; pełna licencja jest wymagana w produkcji  
-- **Jaką wersję Javy obsługuje?** Java 8+ (any Maven‑compatible environment)  
-- **Czy przetwarzanie wsadowe jest możliwe?** Oczywiście – iteruj po folderze z plikami RAR i ponownie użyj tego samego kodu  
-- **Jak obsłużyć duże archiwa?** Przetwarzaj wpisy pojedynczo i zamknij obiekt metadata po zakończeniu  
+- **Czy mogę pobrać skompresowane rozmiary?** Tak – wywołaj `rarFile.getCompressedSize()` dla każdego wpisu  
+- **Czy potrzebuję licencji?** Darmowa wersja próbna działa w środowisku deweloperskim; pełna licencja jest wymagana w produkcji  
+- **Jaką wersję Javy obsługuje?** Java 8+ (dowolne środowisko kompatybilne z Maven)  
+- **Czy przetwarzanie wsadowe jest możliwe?** Zdecydowanie – przeiteruj folder z plikami RAR i użyj tego samego kodu  
+- **Jak obsługiwać duże archiwa?** Przetwarzaj wpisy pojedynczo i zamknij obiekt metadata po zakończeniu  
 
-## Czym jest „get compressed size java” i dlaczego ma to znaczenie?
-Operacja **get compressed size java** odczytuje rozmiar pliku tak, jak jest przechowywany w kontenerze RAR. Znajomość tej wartości pozwala Ci:
+## Co to jest „get compressed size java” i dlaczego ma to znaczenie?
+**Get compressed size java** odczytuje rozmiar pliku tak, jak jest przechowywany w kontenerze RAR. Wartość ta informuje, ile miejsca plik zajmuje po kompresji, co umożliwia weryfikację współczynników kompresji, szacowanie czasu transferu oraz prezentację zarówno oryginalnych, jak i skompresowanych rozmiarów w raportach inwentaryzacyjnych.
 
-* Zweryfikować, że archiwum spełnia oczekiwane współczynniki kompresji.  
-* Oszacować czas pobierania lub transferu bez pełnego rozpakowywania danych.  
-* Zbudować przeszukiwalne inwentarze, które pokazują zarówno oryginalne, jak i skompresowane rozmiary.  
+## Jak pobrać skompresowany rozmiar java z archiwów RAR?
+Załaduj archiwum RAR przy użyciu GroupDocs.Metadata, przeiteruj jego wpisy i wywołaj metodę `getCompressedSize()` dla każdego wpisu pliku. To podejście odczytuje jedynie nagłówek archiwum, więc nie dochodzi do rozpakowywania ani pełnego wczytywania pliku, utrzymując zużycie pamięci poniżej 5 MB nawet przy archiwach wielokrotnie setek megabajtów.
 
-## Wymagania wstępne
-Przed rozpoczęciem upewnij się, że masz:
+### Krok 1: Zainicjalizuj obiekt Metadata
+Utwórz instancję `Metadata`, podając ścieżkę do pliku RAR. Ten obiekt reprezentuje archiwum w pamięci i zapewnia dostęp do jego wewnętrznej struktury.
 
-- **GroupDocs.Metadata for Java** (najnowsza wersja).  
-- Środowisko deweloperskie kompatybilne z Maven (IDE, JDK 8+).  
-- Podstawową znajomość Javy (operacje na plikach, pętle i koncepcje obiektowe).  
+### Krok 2: Uzyskaj główny pakiet archiwum RAR
+Wywołaj `metadata.getRootPackage()`, aby pobrać pakiet najwyższego poziomu zawierający wszystkie wpisy. Zwrócony `ArchivePackage` umożliwia wyliczanie plików i folderów wewnątrz archiwum.
 
-## Konfiguracja GroupDocs.Metadata dla Javy
-Możesz dodać bibliotekę przez Maven lub pobrać ją bezpośrednio.
+### Krok 3: Pobierz łączną liczbę wpisów
+Użyj `archivePackage.getEntries().size()`, aby dowiedzieć się, ile elementów jest przechowywanych. Znajomość liczby pomaga przydzielić struktury śledzenia postępu dla zadań wsadowych.
 
-### Konfiguracja Maven
-Dodaj repozytorium i zależność do swojego `pom.xml`:
+### Krok 4: Przejdź przez każdy plik i odczytaj jego właściwości
+Iteruj przez `archivePackage.getEntries()`. Dla każdego wpisu, który reprezentuje plik (nie folder), wywołaj `entry.getCompressedSize()`, aby uzyskać skompresowany rozmiar w bajtach. Możesz także odczytać `entry.getOriginalSize()`, jeśli potrzebujesz rozmiaru nieskompresowanego do obliczeń współczynnika.
+
+**Wskazówki rozwiązywania problemów**  
+- Sprawdź, czy `rarFilePath` wskazuje istniejący plik RAR.  
+- Upewnij się, że aplikacja ma uprawnienia odczytu do archiwum.  
+- Jeśli napotkasz błędy „nieobsługiwany format”, potwierdź, że wersja RAR jest kompatybilna z GroupDocs.Metadata (obsługuje RAR 4 i RAR 5).  
+
+## Dlaczego używać GroupDocs.Metadata dla plików RAR?
+GroupDocs.Metadata oferuje wysokopoziomowe API, które odczytuje nagłówki archiwów bez ich rozpakowywania, zapewniając szybki dostęp do właściwości takich jak skompresowany rozmiar, rozmiar oryginalny i znaczniki czasu. Działa z formatami RAR 4 i RAR 5, efektywnie obsługuje duże archiwa i abstrahuje szczegóły specyficzne dla formatu, dzięki czemu programiści mogą pisać jednolity kod dla różnych typów archiwów.
+
+## Typowe przypadki użycia
+1. **Systemy zarządzania danymi** – automatyczne katalogowanie zawartości archiwów w celu tworzenia przeszukiwalnych inwentarzy.  
+2. **Zarządzanie zasobami cyfrowymi** – wzbogacanie bibliotek mediów o szczegóły na poziomie archiwum, takie jak skompresowany rozmiar.  
+3. **Weryfikacja kopii zapasowych** – porównywanie przechowywanych skompresowanych rozmiarów z oczekiwanymi wartościami w celu wykrycia uszkodzeń.  
+4. **Platformy udostępniania plików** – wyświetlanie podsumowań archiwów bez pełnego ich rozpakowywania, co poprawia doświadczenie użytkownika.  
+
+## Rozważania dotyczące wydajności
+- **Uzyskaj dostęp tylko do potrzebnych właściwości** – unikaj wywoływania ciężkich metod, jeśli potrzebujesz jedynie nazw plików i rozmiarów.  
+- **Zwolnij obiekty metadata** – wywołaj `metadata.close()` po przetworzeniu, aby zwolnić zasoby natywne.  
+- **Przetwarzanie wsadowe** – przetwarzaj wiele plików RAR w pętli, ponownie używając tej samej JVM, aby zmniejszyć narzut uruchamiania.  
+
+## Najczęściej zadawane pytania
+
+**Q: Co to jest GroupDocs.Metadata dla Javy?**  
+A: GroupDocs.Metadata for Java to biblioteka umożliwiająca odczyt, aktualizację i zarządzanie metadanymi w ponad 50 formatach plików, w tym RAR, ZIP i 7z, bez konieczności ich rozpakowywania.
+
+**Q: Jak uzyskać licencję na pełny dostęp?**  
+A: Odwiedź [stronę zakupu GroupDocs](https://purchase.groupdocs.com/temporary-license/), aby uzyskać tymczasową lub stałą licencję; dostępna jest darmowa wersja próbna dla deweloperów.
+
+**Q: Czy mogę używać GroupDocs.Metadata z innymi typami archiwów oprócz RAR?**  
+A: Tak, to samo API obsługuje ZIP, 7z i kilka innych formatów archiwów, umożliwiając jednolitą bazę kodu dla wszystkich zadań związanych z metadanymi archiwów.
+
+**Q: Jakie są typowe pułapki przy obsłudze dużych plików RAR?**  
+A: Główne problemy to zużycie pamięci i limity uchwytów plików; łagodź je, przetwarzając wpisy pojedynczo i niezwłocznie zamykając obiekt `Metadata`.
+
+**Q: Gdzie mogę uzyskać wsparcie w razie problemów?**  
+A: Forum [GroupDocs free support](https://forum.groupdocs.com/c/metadata/) zapewnia pomoc zarówno od inżynierów dostawcy, jak i społeczności.
+
+## Zasoby
+- **Dokumentacja**: [Dokumentacja GroupDocs Metadata Java](https://docs.groupdocs.com/metadata/java/)  
+- **Referencja API**: [Referencja API GroupDocs](https://reference.groupdocs.com/metadata/java/)  
+- **Pobieranie najnowszej wersji**: [Pobieranie najnowszej wersji](https://releases.groupdocs.com/metadata/java/)  
+- **Kod źródłowy na GitHub**: [Kod źródłowy na GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
+- **Forum GroupDocs**: [Forum GroupDocs](https://forum.groupdocs.com/c/metadata/)  
+- **Wydania GroupDocs.Metadata dla Javy**: [Wydania GroupDocs.Metadata dla Javy](https://releases.groupdocs.com/metadata/java/)  
+- **Kompleksowa dokumentacja**: [Kompleksowa dokumentacja](https://docs.groupdocs.com/metadata/java/)  
+
+## Podsumowanie
+Teraz wiesz, **jak używać GroupDocs.Metadata**, aby wyodrębnić kompleksowe metadane z archiwów RAR, w tym jak **get compressed size java** dla każdego wpisu. Zintegruj ten wzorzec w swoich projektach, aby zwiększyć możliwości zarządzania danymi, usprawnić weryfikację kopii zapasowych i wzbogacić doświadczenia wyszukiwania plików bez obciążenia pełnym rozpakowywaniem.
+
+### Kolejne kroki
+Zbadaj dodatkowe funkcje, takie jak aktualizacja komentarzy wpisów lub wyodrębnianie informacji o sumach kontrolnych w oficjalnej dokumentacji, i rozważ połączenie tego wyodrębniania metadanych z istniejącym potokiem indeksowania, aby uzyskać w pełni przeszukiwane repozytorium archiwów.
+
+---
+
+**Ostatnia aktualizacja:** 2026-06-22  
+**Testowano z:** GroupDocs.Metadata 24.12 for Java  
+**Autor:** GroupDocs  
 
 ```xml
 <repositories>
@@ -63,13 +167,6 @@ Dodaj repozytorium i zależność do swojego `pom.xml`:
 </dependencies>
 ```
 
-### Bezpośrednie pobranie
-Alternatywnie, pobierz z [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
-
-**Uzyskanie licencji**: Rozpocznij od darmowej wersji próbnej lub uzyskaj tymczasową licencję. Pełny dostęp w produkcji wymaga zakupu licencji od dostawcy.
-
-Zainicjalizuj GroupDocs.Metadata w swoim projekcie:
-
 ```java
 import com.groupdocs.metadata.Metadata;
 
@@ -82,12 +179,6 @@ public class MetadataSetup {
 }
 ```
 
-## Przewodnik implementacji – wyodrębnianie metadanych RAR i pobieranie skompresowanego rozmiaru
-
-### Jak pobrać skompresowany rozmiar java z archiwów RAR?
-Poniżej znajduje się krok po kroku przewodnik, który dokładnie pokazuje, jak odczytać skompresowany rozmiar każdego wpisu.
-
-#### Krok 1: Zainicjalizuj obiekt Metadata
 ```java
 // Specify the path to your input RAR file
 String rarFilePath = "YOUR_DOCUMENT_DIRECTORY/input.rar";
@@ -95,20 +186,17 @@ String rarFilePath = "YOUR_DOCUMENT_DIRECTORY/input.rar";
 // Initialize Metadata object with the specified RAR file path\ nMetadata metadata = new Metadata(rarFilePath);
 ```
 
-#### Krok 2: Uzyskaj główny pakiet archiwum RAR
 ```java
 // Obtain the root package of the RAR archive
 RarRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-#### Krok 3: Pobierz łączną liczbę wpisów
 ```java
 // Retrieve and print the total number of entries in the RAR package
 int totalEntries = root.getRarPackage().getTotalEntries();
 system.out.println("Total Entries: " + totalEntries);
 ```
 
-#### Krok 4: Iteruj po każdym pliku i odczytaj jego właściwości
 ```java
 // Iterate over each file within the RAR archive
 for (RarFile rarFile : root.getRarPackage().getFiles()) {
@@ -120,59 +208,8 @@ for (RarFile rarFile : root.getRarPackage().getFiles()) {
 }
 ```
 
-**Porady rozwiązywania problemów**  
-- Sprawdź, czy `rarFilePath` wskazuje na istniejący plik RAR.  
-- Upewnij się, że aplikacja ma uprawnienia do odczytu archiwum.  
-- Jeśli napotkasz błąd „unsupported format”, potwierdź, że wersja RAR jest kompatybilna z GroupDocs.Metadata (obsługuje RAR 4 i RAR 5).  
+## Powiązane samouczki
 
-## Dlaczego używać GroupDocs.Metadata dla plików RAR?
-- **Brak potrzeby rozpakowywania** – metadane są odczytywane bezpośrednio z nagłówka archiwum.  
-- **Spójność między formatami** – to samo API działa dla ZIP, 7z i innych archiwów.  
-- **Skoncentrowanie na wydajności** – dostęp do tylko niezbędnych pól, co utrzymuje niskie zużycie pamięci.  
-
-## Typowe przypadki użycia
-1. **Systemy zarządzania danymi** – automatycznie katalogują zawartość archiwów dla przeszukiwalnych inwentarzy.  
-2. **Zarządzanie zasobami cyfrowymi** – wzbogacają biblioteki mediów o szczegóły na poziomie archiwum.  
-3. **Weryfikacja kopii zapasowych** – porównują zapisane skompresowane rozmiary z oczekiwanymi wartościami.  
-4. **Platformy udostępniania plików** – wyświetlają podsumowania archiwów bez pełnego rozpakowywania.  
-
-## Rozważania dotyczące wydajności
-- **Dostęp tylko do potrzebnych właściwości** – unikaj wywoływania ciężkich metod, jeśli potrzebujesz jedynie nazw plików i rozmiarów.  
-- **Zwolnij obiekty metadata** – wywołaj `metadata.close()` po zakończeniu, aby zwolnić zasoby natywne.  
-- **Przetwarzanie wsadowe** – przetwarzaj wiele plików RAR w pętli, ponownie używając tej samej JVM, aby zmniejszyć narzut uruchamiania.  
-
-## Najczęściej zadawane pytania
-
-**Q: Czym jest GroupDocs.Metadata for Java?**  
-A: Potężna biblioteka umożliwiająca odczyt, aktualizację i zarządzanie metadanymi w różnych formatach plików, w tym archiwach RAR.
-
-**Q: Jak uzyskać licencję na pełny dostęp?**  
-A: Odwiedź [stronę zakupu GroupDocs](https://purchase.groupdocs.com/temporary-license/), aby uzyskać tymczasową lub stałą licencję.
-
-**Q: Czy mogę używać GroupDocs.Metadata z innymi typami archiwów poza RAR?**  
-A: Tak, obsługuje wiele formatów archiwów, w tym ZIP i 7z.
-
-**Q: Jakie są typowe problemy przy pracy z metadanymi w Javie?**  
-A: Obsługa dużych plików i efektywne zarządzanie pamięcią może być wyzwaniem.
-
-**Q: Gdzie mogę uzyskać wsparcie w razie problemów?**  
-A: Skontaktuj się z [bezpłatnym forum wsparcia GroupDocs](https://forum.groupdocs.com/c/metadata/), aby uzyskać pomoc od ekspertów i społeczności.
-
-## Zasoby
-- **Dokumentacja**: [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)  
-- **Referencja API**: [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
-- **Pobieranie**: [Latest Version Downloads](https://releases.groupdocs.com/metadata/java/)  
-- **GitHub**: [Source Code on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- **Bezpłatne wsparcie**: [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
-
-## Zakończenie
-Teraz wiesz, **jak używać GroupDocs.Metadata**, aby wyodrębnić kompleksowe metadane z archiwów RAR, w tym jak **get compressed size java** dla każdego wpisu. Zintegruj ten fragment kodu w swoich projektach, aby zwiększyć możliwości zarządzania danymi, usprawnić weryfikację kopii zapasowych i wzbogacić doświadczenia w wyszukiwaniu plików.
-
-### Kolejne kroki
-Odkryj więcej funkcji GroupDocs.Metadata w ich [kompleksowej dokumentacji](https://docs.groupdocs.com/metadata/java/) lub zagłęb się w programowanie w Javie, aby zaawansowanie obsługiwać metadane.
-
----
-
-**Ostatnia aktualizacja:** 2026-02-19  
-**Testowano z:** GroupDocs.Metadata 24.12 for Java  
-**Autor:** GroupDocs
+- [Wyodrębnianie komentarzy zip w Javie przy użyciu GroupDocs.Metadata – Przewodnik](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)
+- [Aktualizacja komentarza ZIP w Javie – Jak aktualizować komentarze archiwum ZIP przy użyciu GroupDocs.Metadata](/metadata/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-java/)
+- [Jak odczytać pliki TAR i wyodrębnić metadane przy użyciu GroupDocs.Metadata dla Javy](/metadata/java/archive-formats/extract-tar-metadata-groupdocs-java-guide/)

@@ -1,52 +1,99 @@
 ---
-date: '2026-01-24'
-description: Pelajari cara mengekstrak detail tanda tangan dan tanda tangan digital
-  dari font OpenType menggunakan GroupDocs.Metadata untuk Java. Panduan langkah demi
-  langkah ini meningkatkan keamanan dokumen.
+date: '2026-06-22'
+description: Pelajari cara mengekstrak tanda tangan font OpenType dan detail tanda
+  tangan digital dari font OpenType menggunakan GroupDocs.Metadata untuk Java. Panduan
+  ini membantu mengamankan dokumen Anda.
 keywords:
-- extract digital signatures OpenType fonts Java
-- digital signature flags OpenType fonts
-- GroupDocs Metadata Java
-title: Cara Mengekstrak Tanda Tangan dari Font OpenType di Java Menggunakan GroupDocs.Metadata
+- extract opentype font signature
+- groupdocs metadata java
+- digital signature flags opentype
+schemas:
+- author: GroupDocs
+  dateModified: '2026-06-22'
+  description: Learn how to extract OpenType font signature and digital signature
+    details from OpenType fonts using GroupDocs.Metadata for Java. This guide helps
+    secure your documents.
+  headline: How to Extract OpenType Font Signature in Java Using GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to extract OpenType font signature and digital signature
+    details from OpenType fonts using GroupDocs.Metadata for Java. This guide helps
+    secure your documents.
+  name: How to Extract OpenType Font Signature in Java Using GroupDocs.Metadata
+  steps:
+  - name: Initialize the `Metadata` instance pointing to your font file.
+    text: Initialize the `Metadata` instance pointing to your font file.
+  - name: Retrieve the `DigitalSignaturePackage`.
+    text: Retrieve the `DigitalSignaturePackage`.
+  - name: Print or log the flag values.
+    text: Print or log the flag values.
+  - name: Re‑use the same `Metadata` initialization as above.
+    text: Re‑use the same `Metadata` initialization as above.
+  - name: Loop through each `CmsSignature` in the package.
+    text: Loop through each `CmsSignature` in the package.
+  - name: Extract properties such as `getSignTime()`, `getDigestAlgorithms()`, `getCertificates()`,
+      and `getSignerInfo()`.
+    text: Extract properties such as `getSignTime()`, `getDigestAlgorithms()`, `getCertificates()`,
+      and `getSignerInfo()`.
+  - name: '**Document Verification:** Automate checks for signed font files in a content‑management
+      system.'
+    text: '**Document Verification:** Automate checks for signed font files in a content‑management
+      system.'
+  - name: '**Digital Asset Management:** Validate font authenticity before deploying
+      them in branding projects.'
+    text: '**Digital Asset Management:** Validate font authenticity before deploying
+      them in branding projects.'
+  - name: '**Security Audits:** Review signature details to ensure compliance with
+      internal security policies.'
+    text: '**Security Audits:** Review signature details to ensure compliance with
+      internal security policies.'
+  type: HowTo
+- questions:
+  - answer: '`DigitalSignaturePackage` will be `null`; always check for this condition
+      before accessing flags or details.'
+    question: Can I extract signatures from a font that has no digital signature?
+  - answer: The examples target version **24.12**, but newer releases remain backward
+      compatible for OpenType fonts.
+    question: Which version of GroupDocs.Metadata is required?
+  - answer: A trial license works for evaluation; a full license is required for production
+      use.
+    question: Do I need a special license to read signatures?
+  - answer: Download the font to a temporary local file, then pass its path to `Metadata`.
+      The library works with any file accessible via a local path.
+    question: How do I handle fonts stored in a cloud bucket?
+  - answer: GroupDocs.Metadata supplies raw signature data; you can feed the certificate
+      chain and hash values into a separate crypto library to perform full verification.
+    question: Is it possible to verify the signature’s cryptographic validity?
+  type: FAQPage
+title: Cara Mengekstrak Tanda Tangan Font OpenType di Java Menggunakan GroupDocs.Metadata
 type: docs
 url: /id/java/document-formats/extract-digital-signatures-opentype-fonts-java/
 weight: 1
 ---
 
-# Cara Mengekstrak Tanda Tangan dari Font OpenType di Java dengan GroupDocs.Metadata
+# Cara Mengekstrak Tanda Tangan Font OpenType di Java dengan GroupDocs.Metadata
 
-## Pendahuluan
-Di era digital saat ini, **cara mengekstrak tanda tangan** informasi dari file font merupakan kebutuhan umum bagi pengembang yang perlu memverifikasi keaslian dan menjaga integritas. Tutorial ini memandu Anda melalui proses mengekstrak flag tanda tangan digital dan data tanda tangan detail dari font OpenType menggunakan **GroupDocs.Metadata untuk Java**. Baik Anda sedang membangun sistem manajemen dokumen, aplikasi yang berfokus pada keamanan, atau sekadar perlu mengaudit aset font, menguasai proses ini akan membuat alur kerja Anda lebih dapat diandalkan dan aman.
-
-**Apa yang Akan Anda Pelajari**
-- Cara mengekstrak flag tanda tangan digital dari font OpenType  
-- Cara mengambil informasi detail tentang setiap tanda tangan digital  
-- Cara menyiapkan dan menggunakan GroupDocs.Metadata dalam proyek Java  
-
-Mari kita selami prasyaratnya dan menyiapkan lingkungan Anda.
+Dalam aplikasi modern, **mengekstrak tanda tangan font OpenType** penting untuk memastikan keaslian font dan melindungi aset digital Anda. Tutorial ini menunjukkan, langkah demi langkah, cara mengambil baik flag tanda tangan maupun detail kriptografi lengkap dari font OpenType menggunakan **GroupDocs.Metadata untuk Java**. Baik Anda membangun pipeline konten yang berfokus pada keamanan atau hanya perlu mengaudit perpustakaan font, teknik di bawah ini akan membuat alur kerja Anda dapat diandalkan dan cepat.
 
 ## Jawaban Cepat
-- **Perpustakaan apa yang saya perlukan?** GroupDocs.Metadata untuk Java (v24.12)  
-- **Versi Java mana yang dibutuhkan?** JDK 8 atau lebih baru  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi penuh diperlukan untuk produksi  
-- **Bisakah saya memproses banyak font batch atau bersamaan untuk kumpulan besar thread  
+- **Apa pustaka yang saya perlukan?** GroupDocs.Metadata untuk Java (v24.12)  
+- **Versi Java mana yang diperlukan?** JDK 8 atau lebih baru  
+- **Apakah saya memerlukan lisensi?** Trial gratis dapat digunakan untuk evaluasi; lisensi penuh diperlukan untuk produksi  
+- **Bisakah saya memproses beberapa font?** Ya – pemrosesan batch atau bersamaan didukung  
+- **Apakah kode ini thread‑safe?** Buat instance `Metadata` baru per thread; objeknya sendiri tidak thread‑safe  
+
+## Apa itu Tanda Tangan Font OpenType?
+**Tanda tangan font OpenType** adalah blok kriptografi yang disematkan di dalam font yang membuktikan file tidak diubah sejak ditandatangani. Ia berisi waktu penandatanganan, rantai sertifikat, pengidentifikasi algoritma hash, dan informasi pencabutan opsional. Ia juga mencakup pengidentifikasi algoritma tanda tangan, rantai sertifikat penandatangan, serta daftar pencabutan opsional, memungkinkan verifikasi menyeluruh atas integritas dan asal font.
+
+## Mengapa Menggunakan GroupDocs.Metadata untuk Java?
+GroupDocs.Metadata mendukung **lebih dari 50 format input dan output** (termasuk DOCX, PDF, PPTX, HTML, dan berbagai tipe gambar) dan dapat membaca tanda tangan OpenType tanpa memuat seluruh file ke memori, memungkinkan Anda memproses koleksi font ratusan halaman secara efisien.
 
 ## Prasyarat
-Sebelum mengekstrak data tanda tangan digital, pastikan pengaturan Anda memenuhi persyaratan berikut:
+- **Java Development Kit (JDK):** Versi 8 atau lebih baru.  
+- **IDE:** IDE yang kompatibel dengan Java apa pun (IntelliJ IDEA, Eclipse, VS Code, dll.).  
+- **Maven:** Untuk manajemen dependensi.  
 
-### Perpustakaan dan Dependensi yang Diperlukan
-Untuk bekerja dengan GroupDocs.Metadata untuk Java, sertakan repositori Maven dan dependensi seperti yang ditunjukkan di bawah ini.
-
-### Persyaratan Penyiapan Lingkungan
-- **Java Development Kit (JDK):** Instal JDK 8 atau lebih baru.  
-- **IDE:** IDE yang kompatibel dengan Java apa pun (IntelliJ IDEA, Eclipse, VS Code, dll.).
-
-### Prasyarat Pengetahuan
-Familiaritas dasar dengan Java dan pemahaman tentang tanda tangan digital akan membantu, namun panduan ini menyertakan penjelasan yang jelas untuk pemula.
-
-## Menyiapkan GroupDocs.Metadata untuk Java
-### Instalasi Maven
-Tambahkan konfigurasi berikut ke file `pom.xml` Anda. Ini akan mengunduh paket **groupdocs metadata java** yang diperlukan untuk contoh.
+### Pustaka dan Dependensi yang Diperlukan
+Tambahkan koordinat Maven GroupDocs.Metadata ke `pom.xml` Anda. Ini akan menarik paket yang tepat untuk contoh-contoh.
 
 ```xml
 <repositories>
@@ -67,24 +114,26 @@ Tambahkan konfigurasi berikut ke file `pom.xml` Anda. Ini akan mengunduh paket *
 ```
 
 ### Unduhan Langsung
-Atau, unduh versi terbaru dari [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Sebagai alternatif, unduh versi terbaru dari [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Akuisisi Lisensi
-- **Percobaan Gratis:** Mulai dengan percobaan gratis untuk menjelajahi fitur.  
-- **Lisensi Sementara:** Dapatkan lisensi sementara bila diperlukan dengan mengunjungi [halaman lisensi GroupDocs](https://purchase.groupdocs.com/temporary-license).  
-- **Pembelian:** Untuk akses penuh, pertimbangkan membeli lisensi.
+- **Trial Gratis:** Mulai dengan trial gratis untuk menjelajahi fitur.  
+- **Lisensi Sementara:** Dapatkan lisensi sementara melalui [halaman lisensi GroupDocs](https://purchase.groupdocs.com/temporary-license).  
+- **Pembelian:** Untuk penggunaan produksi, beli lisensi penuh.
 
-Setelah menginstal perpustakaan dan memperoleh lisensi, Anda dapat mulai mengekstrak tanda tangan.
+## Cara Mengekstrak Tanda Tangan Font OpenType Menggunakan GroupDocs.Metadata
+Kelas `Metadata` adalah API inti GroupDocs.Metadata untuk mengakses metadata dokumen tanpa memuat seluruh file.  
+Untuk membaca tanda tangan font, buat objek `Metadata` dengan path ke file .otf lalu akses `DigitalSignaturePackage`‑nya. Pendekatan ini memuat hanya struktur metadata yang diperlukan, menghindari parsing penuh font dan menjaga penggunaan memori tetap rendah. Instance `Metadata` sebaiknya digunakan dalam blok try‑with‑resources untuk memastikan pembuangan yang tepat.
 
-## Apa Itu Tanda Tangan Digital dalam kriptograf dan algoritma hash, yang dapat Anda baca secara programatis dengan GroupDocs.Metadata.
+Muat file font Anda dengan `new Metadata("font.otf")` di dalam blok try‑with‑resources. Kelas `Metadata` adalah titik masuk GroupDocs.Metadata untuk membaca tipe dokumen yang didukung, termasuk font OpenType. Objek ini otomatis menutup, mencegah kebocoran sumber daya.
 
-## Cara Mengekstrak Flag Tanda Tangan Digital
-### Ikhtisar
-Mengekstrak flag tanda tangan digital memungkinkan Anda dengan cepat mengidentifikasi status dan properti sebuah tanda tangan (misalnya, apakah valid, dicabut, atau memiliki kondisi khusus).
+### Cara Mengekstrak Flag Tanda Tangan Digital
+Objek `DigitalSignaturePackage` mengumpulkan semua informasi terkait tanda tangan untuk font, termasuk flag dan tanda tangan individu.  
+**Jawaban langsung:** Panggil `metadata.getDigitalSignaturePackage().getFlags()` setelah membuka font; set flag yang dikembalikan memberi tahu Anda apakah tanda tangan valid, dicabut, atau memiliki kondisi khusus. Panggilan tunggal ini memberi pemeriksaan cepat sebelum Anda menyelami detail lebih dalam. Flag direpresentasikan sebagai enumerasi yang dapat diperiksa untuk menentukan status penandatanganan, keberadaan timestamp, dan kebijakan apa pun yang diterapkan saat penandatanganan.
 
-### Langkah Implementasi
-1. **Inisialisasi Metadata:** Buat instance `Metadata` yang menunjuk ke file font Anda.  
-2. **Baca-nya.
+1. Inisialisasi instance `Metadata` yang menunjuk ke file font Anda.  
+2. Dapatkan `DigitalSignaturePackage`.  
+3. Cetak atau log nilai flag.
 
 ```java
 String documentPath = "YOUR_DOCUMENT_DIRECTORY"; // Replace with your input file path
@@ -97,10 +146,17 @@ try (Metadata metadata = new Metadata(documentPath)) {
 }
 ```
 
-**Penjel, Anda sering perlu memeriksa metadata masingenkapsulasi.
+**Penjelasan**  
+- `documentPath` – path absolut atau relatif ke font OpenType.  
+- Blok try‑with‑resources menjamin objek `Metadata` ditutup secara otomatis, menghindari kebocoran memori.
 
-### Langkah Implementasi
-1. **Inisialisasi Metadata** (s **Iterasi Tanda Tangan:** Untuk setiap `CmsSignature`, cetak properti yang relevan.
+### Cara Mengekstrak Informasi Tanda Tangan Digital Detail
+`CmsSignature` mewakili tanda tangan CMS/PKCS#7 individual yang disematkan dalam font, menyediakan akses ke properti kriptografinya.  
+**Jawaban langsung:** Iterasi melalui `metadata.getDigitalSignaturePackage().getSignatures()`; setiap objek `CmsSignature` menampilkan waktu penandatanganan, algoritma digest, konten terenkapsulasi, dan detail sertifikat, memungkinkan Anda membangun laporan audit lengkap. Untuk setiap tanda tangan Anda dapat mengambil rantai sertifikat penandatangan, memverifikasi algoritma hash, dan mengekstrak token timestamp untuk mengonfirmasi kapan tanda tangan diterapkan.
+
+1. Gunakan kembali inisialisasi `Metadata` yang sama seperti di atas.  
+2. Loop melalui setiap `CmsSignature` dalam paket.  
+3. Ekstrak properti seperti `getSignTime()`, `getDigestAlgorithms()`, `getCertificates()`, dan `getSignerInfo()`.
 
 ```java
 String documentPath = "YOUR_DOCUMENT_DIRECTORY"; // Replace with your input file path
@@ -143,40 +199,61 @@ try (Metadata metadata = new Metadata(documentPath)) {
 }
 ```
 
-**Penjelasan Bagian Kunci**
-- **Sign Time:** Waktu saat tanda tangan diterapkan.  
-- **Digest Algorithms & OIDs:** Algoritma hashing yang digunakan (misalnya, SHA‑256).  
-- **Encapsulated Content:** Data tambahan yang dibungkus di dalam tanda tangan.  
-- **Certificates:** Tanggal berlaku dan ukuran data mentah membantu memverifikasi identitas penandatangan.  
-- bahwa Anda menggunakan versi **Group## Aplikasi Praktis
-Mengekstrak data tanda tangan digital dari font OpenType berguna dalam banyak skumen:** Otomatiskan pemeriksaan file font yang ditandatangani dalam sistem manajemen konten.  
-2. **Manajemen Aset Digital:** Validasi keaslian font sebelum menggunakannya dalam proyek branding.  
-3. **Audit Keamanan:** Tinjau detail tanda tangan untuk memastikan kepatuhan terhadap kebijakan keamanan internal.
+**Penjelasan Bagian Kunci**  
+- **Waktu Tanda Tangan:** Stempel waktu saat tanda tangan diterapkan.  
+- **Algoritma Digest & OID:** Algoritma hashing yang digunakan (mis., SHA‑256).  
+- **Konten Terkapsul:** Data tambahan apa pun yang dibungkus di dalam tanda tangan.  
+- **Sertifikat:** Tanggal berlaku dan ukuran data mentah membantu memverifikasi identitas penandatangan.  
+- **Penandatangan:** Menyediakan pilihan algoritma masing‑masing penandatangan dan stempel waktu penandatanganan.
+
+#### Tips Pemecahan Masalah
+- Jika font tidak memiliki tanda tangan digital, `getDigitalSignaturePackage()` mengembalikan `null`. Selalu periksa `null` sebelum mengakses flag atau tanda tangan.  
+- Pastikan Anda menggunakan versi **GroupDocs.Metadata** yang sama seperti yang didefinisikan dalam dependensi Maven untuk menghindari masalah kompatibilitas.  
+
+## Aplikasi Praktis
+Mengekstrak tanda tangan font OpenType berguna dalam banyak skenario dunia nyata:
+
+1. **Verifikasi Dokumen:** Otomatiskan pemeriksaan file font yang ditandatangani dalam sistem manajemen konten.  
+2. **Manajemen Aset Digital:** Validasi keaslian font sebelum menyebarkannya dalam proyek branding.  
+3. **Audit Keamanan:** Tinjau detail tanda tangan untuk memastikan kepatuhan terhadap kebijakan keamanan internal.  
 
 ## Pertimbangan Kinerja
-- **Manajemen Sumber DayaPem, proses dalam batch untuk mengurangi overhead I/O.  
-- **Konkruensi:** Untuk beban kerja skala besar, jalankan instance `Metadata` terpisah pada thread paral detail.
+- **Manajemen Sumber Daya:** Gunakan try‑with‑resources untuk menutup objek `Metadata` dengan cepat.  
+- **Pemrosesan Batch:** Proses font dalam grup untuk meminimalkan overhead I/O; GroupDocs.Metadata dapat menangani ribuan file tanpa memuat setiap font secara keseluruhan ke memori.  
+- **Konkruensi:** Jalankan instance `Metadata` terpisah pada thread paralel untuk beban kerja skala besar; pustaka tidak thread‑safe per instance, jadi isolasi setiap instance per thread.  
 
-.Metadata mana yang diperlukan?**  
-J: Contoh menggunakan versi **24.12**, namun versi yang lebih baru tetap kompatibel mundur untuk font OpenType.
+## Pertanyaan yang Sering Diajukan
+
+**T: Bisakah saya mengekstrak tanda tangan dari font yang tidak memiliki tanda tangan digital?**  
+J: `DigitalSignaturePackage` akan `null`; selalu periksa kondisi ini sebelum mengakses flag atau detail.
+
+**T: Versi GroupDocs.Metadata mana yang diperlukan?**  
+J: Contoh menargetkan versi **24.12**, tetapi rilis yang lebih baru tetap kompatibel mundur untuk font OpenType.
 
 **T: Apakah saya memerlukan lisensi khusus untuk membaca tanda tangan?**  
-J: Lisensi percobaan cukup untuk evaluasi; lisensi penuh diperlukan untuk penggunaan produksi.
+J: Lisensi trial dapat digunakan untuk evaluasi; lisensi penuh diperlukan untuk penggunaan produksi.
 
 **T: Bagaimana cara menangani font yang disimpan di bucket cloud?**  
-J: Unduh font ke file lokal sementara, jalur lokal.
+J: Unduh font ke file lokal sementara, lalu berikan path-nya ke `Metadata`. Pustaka bekerja dengan file apa pun yang dapat diakses melalui path lokal.
 
-**T: Apakah mungkin memverifikasi validitas kriptografis tanda tangan?**  
-J: GroupDocs.Metadata menyediakan data mentah; Anda dapat mengirimkan rantai sertifikat dan nilai hash ke perpustakaan kripto terpisah untuk verifikasi penuh.
+**T: Apakah memungkinkan untuk memverifikasi validitas kriptografis tanda tangan?**  
+J: GroupDocs.Metadata menyediakan data tanda tangan mentah; Anda dapat memasukkan rantai sertifikat dan nilai hash ke pustaka kripto terpisah untuk melakukan verifikasi penuh.
 
 ## Kesimpulan
-Dengan mengikuti panduan ini, Anda kini mengetahui **cara mengekstr tangan digital detail dari font OpenType menggunakan **GroupDocs.Metadata untuk Java**. Meng mendukung inisiatif kepatuhan.
+Dengan mengikuti panduan ini, Anda kini tahu **cara mengekstrak informasi tanda tangan font OpenType** dan data tanda tangan digital detail menggunakan **GroupDocs.Metadata untuk Java**. Mengintegrasikan langkah‑langkah ini ke dalam aplikasi Anda memperkuat keamanan dokumen, menyederhanakan validasi aset, dan mendukung inisiatif kepatuhan.
 
-**Langkah Selanjutnya**
-- Bereksperimen dengan pemrosesan batch untuk menangani perpustakaan font yang besar.  
+**Langkah Selanjutnya**  
+- Bereksperimen dengan pemrosesan batch untuk menangani perpustakaan font besar secara efisien.  
 - Gabungkan data yang diekstrak dengan alat audit keamanan Anda untuk pelaporan kepatuhan otomatis.  
 - Jelajahi kemampuan metadata lain dari GroupDocs.Metadata, seperti mengedit atau menghapus tanda tangan bila diperlukan.
 
 ---
 
-**Terakhir Diperbarui:** iuji Dengan:** GroupDocs.Metadata 24
+**Last Updated:** 2026-06-22  
+**Tested With:** GroupDocs.Metadata 24.12  
+**Author:** GroupDocs
+
+## Tutorial Terkait
+
+- [Akses Metadata Dokumen Word dengan GroupDocs di Java: Panduan Komprehensif](/metadata/java/document-formats/access-word-metadata-groupdocs-java/)
+- [Cara Mengekstrak Metadata Kustom dari PDF Menggunakan GroupDocs.Metadata di Java: Panduan Komprehensif](/metadata/java/document-formats/extract-custom-metadata-groupdocs-metadata-java/)

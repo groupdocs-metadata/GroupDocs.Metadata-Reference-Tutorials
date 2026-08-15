@@ -1,42 +1,99 @@
 ---
-date: '2026-01-24'
-description: Naučte se, jak pomocí GroupDocs.Metadata pro Javu extrahovat údaje o
-  podpisu a digitálním podpisu z OpenType fontů. Tento krok‑za‑krokem průvodce zvyšuje
-  bezpečnost dokumentů.
+date: '2026-06-22'
+description: Naučte se, jak pomocí GroupDocs.Metadata pro Javu extrahovat podpis OpenType
+  fontu a podrobnosti o digitálním podpisu z OpenType fontů. Tento průvodce pomáhá
+  zabezpečit vaše dokumenty.
 keywords:
-- extract digital signatures OpenType fonts Java
-- digital signature flags OpenType fonts
-- GroupDocs Metadata Java
-title: Jak extrahovat podpis z OpenType fontů v Javě pomocí GroupDocs.Metadata
+- extract opentype font signature
+- groupdocs metadata java
+- digital signature flags opentype
+schemas:
+- author: GroupDocs
+  dateModified: '2026-06-22'
+  description: Learn how to extract OpenType font signature and digital signature
+    details from OpenType fonts using GroupDocs.Metadata for Java. This guide helps
+    secure your documents.
+  headline: How to Extract OpenType Font Signature in Java Using GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to extract OpenType font signature and digital signature
+    details from OpenType fonts using GroupDocs.Metadata for Java. This guide helps
+    secure your documents.
+  name: How to Extract OpenType Font Signature in Java Using GroupDocs.Metadata
+  steps:
+  - name: Initialize the `Metadata` instance pointing to your font file.
+    text: Initialize the `Metadata` instance pointing to your font file.
+  - name: Retrieve the `DigitalSignaturePackage`.
+    text: Retrieve the `DigitalSignaturePackage`.
+  - name: Print or log the flag values.
+    text: Print or log the flag values.
+  - name: Re‑use the same `Metadata` initialization as above.
+    text: Re‑use the same `Metadata` initialization as above.
+  - name: Loop through each `CmsSignature` in the package.
+    text: Loop through each `CmsSignature` in the package.
+  - name: Extract properties such as `getSignTime()`, `getDigestAlgorithms()`, `getCertificates()`,
+      and `getSignerInfo()`.
+    text: Extract properties such as `getSignTime()`, `getDigestAlgorithms()`, `getCertificates()`,
+      and `getSignerInfo()`.
+  - name: '**Document Verification:** Automate checks for signed font files in a content‑management
+      system.'
+    text: '**Document Verification:** Automate checks for signed font files in a content‑management
+      system.'
+  - name: '**Digital Asset Management:** Validate font authenticity before deploying
+      them in branding projects.'
+    text: '**Digital Asset Management:** Validate font authenticity before deploying
+      them in branding projects.'
+  - name: '**Security Audits:** Review signature details to ensure compliance with
+      internal security policies.'
+    text: '**Security Audits:** Review signature details to ensure compliance with
+      internal security policies.'
+  type: HowTo
+- questions:
+  - answer: '`DigitalSignaturePackage` will be `null`; always check for this condition
+      before accessing flags or details.'
+    question: Can I extract signatures from a font that has no digital signature?
+  - answer: The examples target version **24.12**, but newer releases remain backward
+      compatible for OpenType fonts.
+    question: Which version of GroupDocs.Metadata is required?
+  - answer: A trial license works for evaluation; a full license is required for production
+      use.
+    question: Do I need a special license to read signatures?
+  - answer: Download the font to a temporary local file, then pass its path to `Metadata`.
+      The library works with any file accessible via a local path.
+    question: How do I handle fonts stored in a cloud bucket?
+  - answer: GroupDocs.Metadata supplies raw signature data; you can feed the certificate
+      chain and hash values into a separate crypto library to perform full verification.
+    question: Is it possible to verify the signature’s cryptographic validity?
+  type: FAQPage
+title: Jak extrahovat podpis OpenType fontu v Javě pomocí GroupDocs.Metadata
 type: docs
 url: /cs/java/document-formats/extract-digital-signatures-opentype-fonts-java/
 weight: 1
 ---
 
-# Jak extrahovat podpis z OpenType fontů v Javě pomocí GroupDocs.Metadata
+# Jak extrahovat podpis OpenType fontu v Javě pomocí GroupDocs.Metadata
 
-## Úvod
-V dnešní digitální éře je **jak extrahovat podpis** z fontových souborů běžnou potřebou vývojářů, kteří potřebují ověřovat pravost a zachovat integritu. Tento tutoriál vás provede extrakcí příznaků digitálního podpisu a podrobných dat o podpisu z OpenType fontů pomocí **GroupDocs.Metadata for Java**. Ať už budujete systém pro správu dokumentů, aplikaci zaměřenou na bezpečnost, nebo jen potřebujete auditovat fontové zdroje, zvládnutí tohoto procesu učiní váš pracovní tok spolehlivějším a bezpečnějším.
-
-**Co se naučíte**
-- Jak extrahovat příznaky digitálního podpisu z OpenType fontů  
-- Jak získat podrobné informace o každém digitálním podpisu  
-- Jak nastavit a používat GroupDocs.Metadata v Java projektu  
-
-Ponořme se do předpokladů a připravme vaše prostředí.
+V moderních aplikacích je **extrahování podpisu OpenType fontu** nezbytné pro potvrzení pravosti fontu a ochranu vašich digitálních aktiv. Tento tutoriál vám krok za krokem ukáže, jak získat jak příznaky podpisu, tak kompletní kryptografické podrobnosti z OpenType fontu pomocí **GroupDocs.Metadata pro Javu**. Ať už budujete bezpečnostně orientovaný obsahový řetězec nebo jen potřebujete auditovat knihovnu fontů, níže uvedené techniky učiní váš pracovní postup spolehlivým a rychlým.
 
 ## Rychlé odpovědi
-- **Jaká knihovna je potřeba?** GroupDocs.Metadata for Java (v24.12)  
-- **Jaká verze Javy je vy nebo novější  
-- **Potřebuji licenci?** Bezplatná zkušební verze stačí pro hodnoceníkové nebo souběžné zpracování pro velké sady  
-- **itář### Požadavky na nastavení prostředí
-- **Java Development Kit (JDK):** Nainstalujte JDK 8 nebo novější.  
-- **IDE:** Jakékoli Java‑kompatibilní IDE (IntelliJ IDEA, Eclipse, VS Code, atd.).
+- **Jaká knihovna je potřeba?** GroupDocs.Metadata pro Javu (v24.12)  
+- **Jaká verze Javy je vyžadována?** JDK 8 nebo novější  
+- **Je potřeba licence?** Pro hodnocení stačí bezplatná zkušební verze; pro produkci je vyžadována plná licence  
+- **Mohu zpracovávat více fontů?** Ano – podporováno dávkové i souběžné zpracování  
+- **Je kód thread‑safe?** Vytvořte novou instanci `Metadata` pro každý vlákno; samotný objekt není thread‑safe  
 
-### Znalostní předpoklady
-Základní znal GroupDocs.Metadata pro Java
-### Maven instalace
-Přidejte následující konfiguraci do souboru `pom.xml`. Tím se stáhne balíček **groupdocs metadata java** potřebný pro ukázky.
+## Co je to podpis OpenType fontu?
+**Podpis OpenType fontu** je kryptografický blok vložený do fontu, který dokazuje, že soubor nebyl po podpisu změněn. Obsahuje čas podpisu, řetězec certifikátů, identifikátory hashovacích algoritmů a volitelné informace o revokaci. Dále zahrnuje identifikátor podpisového algoritmu, řetězec certifikátů podepisujícího a volitelné seznamy revokací, což umožňuje komplexní ověření integrity a původu fontu.
+
+## Proč použít GroupDocs.Metadata pro Javu?
+GroupDocs.Metadata podporuje **více než 50 vstupních a výstupních formátů** (včetně DOCX, PDF, PPTX, HTML a řady typů obrázků) a dokáže číst OpenType podpisy bez načítání celého souboru do paměti, což umožňuje efektivní zpracování stovek‑stránkových kolekcí fontů.
+
+## Předpoklady
+- **Java Development Kit (JDK):** Verze 8 nebo novější.  
+- **IDE:** Jakékoli IDE kompatibilní s Javou (IntelliJ IDEA, Eclipse, VS Code, atd.).  
+- **Maven:** Pro správu závislostí.  
+
+### Požadované knihovny a závislosti
+Přidejte Maven koordináty GroupDocs.Metadata do svého `pom.xml`. Tím se stáhne přesný balíček potřebný pro ukázky.
 
 ```xml
 <repositories>
@@ -57,25 +114,26 @@ Přidejte následující konfiguraci do souboru `pom.xml`. Tím se stáhne balí
 ```
 
 ### Přímé stažení
-Alternativně stáhněte nejnovější verzi z [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Alternativně si stáhněte nejnovější verzi z [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Získání licence
 - **Bezplatná zkušební verze:** Začněte s bezplatnou zkušební verzí a prozkoumejte funkce.  
-- **Dočasná licence:** Získejte dočasnou licenci podle potřeby na stránce [GroupDocs licensing page](https://purchase.groupdocs.com/temporary-license).  
-- **Koupě:** Pro plný přístup zvažte zakoupení licence.
+- **Dočasná licence:** Získejte dočasnou licenci prostřednictvím [GroupDocs licensing page](https://purchase.groupdocs.com/temporary-license).  
+- **Nákup:** Pro produkční použití zakupte plnou licenci.
 
-Po instalaci knihovny a získání licence můžete začít extrahovat podpisy.
+## Jak extrahovat podpis OpenType fontu pomocí GroupDocs.Metadata
+Třída `Metadata` je jádrem API GroupDocs.Metadata pro přístup k metadatům dokumentu bez načítání celého souboru.  
+Pro čtení podpisu fontu vytvořte objekt `Metadata` s cestou k souboru .otf a poté přistupte k jeho `DigitalSignaturePackage`. Tento přístup načte jen nezbytné struktury metadat, vyhne se kompletnímu parsování fontu a udržuje nízkou spotřebu paměti. Instance `Metadata` by měla být použita uvnitř bloku try‑with‑resources, aby byla zajištěna správná likvidace.
 
-## Co je digitální podpis v OpenType fontu?
-Digitální podpis vložený do OpenType fontu zaručuje, že soubor fontu nebyl od doby podpisu změněn. Podpis obsahuje kryptografické informace, jako je čas podpisu, certifikáty a hash algoritmy, které můžete programově číst pomocí GroupDocs.Metadata.
+Načtěte svůj font pomocí `new Metadata("font.otf")` uvnitř bloku try‑with‑resources. Třída `Metadata` je vstupním bodem GroupDocs.Metadata pro čtení libovolného podporovaného typu dokumentu, včetně OpenType fontů. Objekt se automaticky uzavře, čímž se zabrání únikům prostředků.
 
-## Jak extrahovat příznaky digitálního podpisu
-### Přehled
-Extrahování příznaků digitálního podpisu vám umožní rychle identifikovat stav a vlastnosti podpisu (např. zda je platný, odvolaný nebo má speciální podmínky).
+### Jak extrahovat příznaky digitálního podpisu
+Objekt `DigitalSignaturePackage` shromažďuje veškeré informace související s podpisem fontu, včetně příznaků a jednotlivých podpisů.  
+**Přímá odpověď:** Zavolejte `metadata.getDigitalSignaturePackage().getFlags()` po otevření fontu; vrácená sada příznaků vám řekne, zda je podpis platný, revokovaný nebo má speciální podmínky. Tento jediný volání poskytuje rychlou kontrolu stavu před podrobnějším zkoumáním. Příznaky jsou reprezentovány jako výčet, který lze inspektovat pro určení stavu podpisu, přítomnosti časové značky a případných politických omezení aplikovaných během podpisu.
 
-### Kroky implementace
-1. **Inicializace Metadata:** Vytvořte instanci `Metadata`, která ukazuje na váš fontový soubor.  
-2. **Čtení příznaků:** Přistupte k `DigitalSignaturePackage` a vytiskněte jeho příznaky.
+1. Inicializujte instanci `Metadata` ukazující na váš soubor fontu.  
+2. Získejte `DigitalSignaturePackage`.  
+3. Vytiskněte nebo zalogujte hodnoty příznaků.
 
 ```java
 String documentPath = "YOUR_DOCUMENT_DIRECTORY"; // Replace with your input file path
@@ -88,17 +146,17 @@ try (Metadata metadata = new Metadata(documentPath)) {
 }
 ```
 
-**Vysvětlení**
+**Vysvětlení**  
 - `documentPath` – absolutní nebo relativní cesta k OpenType fontu.  
-- Blok `try‑with‑resources` zajišťuje automatické uzavření objektu `Metadata`, čímž zabraňuje únikům prostředků.
+- Blok try‑with‑resources zaručuje, že objekt `Metadata` je automaticky uzavřen, čímž se předchází únikům paměti.
 
-## Jak extrahovat podrobné informace o digitálním podpisu
-### Přehled
-Kromě příznaků často potřebujete prozkoumat metadata každého podpisu – čas podpisu, algoritmy, certifikáty a zapouzdřený obsah.
+### Jak extrahovat podrobné informace o digitálním podpisu
+`CmsSignature` představuje jednotlivý CMS/PKCS#7 podpis vložený do fontu a poskytuje přístup k jeho kryptografickým vlastnostem.  
+**Přímá odpověď:** Procházejte `metadata.getDigitalSignaturePackage().getSignatures()`; každý objekt `CmsSignature` odhaluje čas podpisu, digest algoritmy, zapouzdřený obsah a detaily certifikátů, což vám umožní vytvořit kompletní auditní zprávu. Pro každý podpis můžete získat řetězec certifikátů podepisujícího, ověřit hash algoritmus a extrahovat jakékoli tokeny časových značek pro potvrzení, kdy byl podpis aplikován.
 
-### Kroky implementace
-1. **Inicializace Metadata** (stejně jako výše).  
-2. **Iterace přes podpisy:** Pro každý `CmsSignature` vytiskněte příslušné vlastnosti.
+1. Znovu použijte stejnou inicializaci `Metadata` jako výše.  
+2. Projděte každou `CmsSignature` v balíčku.  
+3. Extrahujte vlastnosti jako `getSignTime()`, `getDigestAlgorithms()`, `getCertificates()` a `getSignerInfo()`.
 
 ```java
 String documentPath = "YOUR_DOCUMENT_DIRECTORY"; // Replace with your input file path
@@ -141,34 +199,61 @@ try (Metadata metadata = new Metadata(documentPath)) {
 }
 ```
 
-**Vysvětlení klíčových částí**
-- **Sign Time:** Kdy byl podpis aplikován.  
+**Vysvětlení klíčových částí**  
+- **Sign Time:** Časová značka, kdy byl podpis aplikován.  
 - **Digest Algorithms & OIDs:** Použité hashovací algoritmy (např. SHA‑256).  
 - **Encapsulated Content:** Jakákoli další data zabalená uvnitř podpisu.  
 - **Certificates:** Data o platnosti a velikosti surových dat pomáhají ověřit identitu podepisujícího.  
-- **Signers:** Poskytuje volby algoritmů a časové značky každého podepisujícího.
+- **Signers:** Poskytuje volby algoritmů každého podepisujícího a časové značky podpisu.
 
-### Tipy pro řešení problémů- Ověřte, že používáte stejnou verzi **GroupDocs.Metadata**, jaká je uvedena v Maven závislosti, aby nedošlo k problémům s **kompatibilitou**.
+#### Tipy pro řešení problémů
+- Pokud font nemá digitální podpis, `getDigitalSignaturePackage()` vrátí `null`. Vždy před přístupem k příznakům nebo podpisům kontrolujte `null`.  
+- Ujistěte se, že používáte stejnou **GroupDocs.Metadata** verzi, jaká je definována v Maven závislosti, aby nedošlo k problémům s kompatibilitou.  
 
 ## Praktické aplikace
-Extrahování dat digitálního podpisu z OpenType fontů je užitečné v mnoha scénářích:
-1. **Ověřování dokumentů:** Automatizujte kontrolu podepsaných fontových souborů v systému pro správu obsahu.  
-2. **Správa digit před jejich nasazením v brandingových projektech.  
-3. **Bezpečnostní audity:** Prohlédněte si detaily podpisu,ždy používejte `tryovna není thread Často kladené otázky
+Extrahování podpisů OpenType fontů je užitečné v mnoha reálných scénářích:
 
-**Q: Mohu extrahovat podpisy z fontu, který nemá digitální podpis?**  
-A: `DigitalSignaturePackage` bude `null`; před přístupem k příznakům nebo detailům byste měli tuto podmínku zkontrolovat.
+1. **Ověřování dokumentů:** Automatizujte kontrolu podepsaných souborů fontů v systému pro správu obsahu.  
+2. **Správa digitálních aktiv:** Ověřte pravost fontů před jejich nasazením v brandingových projektech.  
+3. **Bezpečnostní audity:** Prohlédněte si podrobnosti podpisu, aby byly splněny interní bezpečnostní politiky.  
+
+## Úvahy o výkonu
+- **Správa prostředků:** Používejte try‑with‑resources k rychlému uzavření objektů `Metadata`.  
+- **Dávkové zpracování:** Zpracovávejte fonty ve skupinách, aby se minimalizovalo I/O; GroupDocs.Metadata zvládne tisíce souborů bez načítání celého fontu do paměti.  
+- **Současnost:** Spouštějte samostatné instance `Metadata` v paralelních vláknech pro velké objemy; knihovna není thread‑safe na úrovni instance, takže každé vlákno potřebuje vlastní instanci.  
+
+## Často kladené otázky
+
+**Q: Mohu extrahovat podpisy z fontu, který digitální podpis nemá?**  
+A: `DigitalSignaturePackage` bude `null`; vždy před přístupem k příznakům nebo detailům tuto podmínku kontrolujte.
 
 **Q: Jaká verze GroupDocs.Metadata je vyžadována?**  
-A: Příklady používají verzi **24.12**, ale novější verze jsou zpětně kompatibilní s OpenType fonty.
+A: Příklady cílí na verzi **24.12**, ale novější vydání zůstávají zpětně kompatibilní s OpenType fonty.
 
-**Q: Potřebuji speciální licenci pro čtení podpisů?pl zacházet s fonty uloženými v cloudovém bucketu?**  
-A: Stáhněte font do dočasného lokálního souboru a poté předávejte jeho cestu `Metadata`. Knihovna funguje s libovolným sou průvod **GroupDocs.Metadata for Java**. Začlenění těchto technik do vašich aplikací posílí bezpečnost dokumentů, zjednoduší validaci aktiv a podpoří iniciativy v oblasti shody.
+**Q: Potřebuji speciální licenci pro čtení podpisů?**  
+A: Zkušební licence stačí pro hodnocení; pro produkční použití je nutná plná licence.
 
-**Další kroky**
-- Vyování pro správu velkých knihoven fontů.  
-- Propojte extrahovaná data s vašimi nástroji pro bezpečnostní audity a automatizujte reportování shody.  
-- Prozkoumejte další možnosti metadat GroupDocs.Metadata, jako je úprava nebo odstraňování:** GroupDocs.Metadata 24.12  
-**Autor:** GroupDocs  
+**Q: Jak zacházet s fonty uloženými v cloudovém bucketu?**  
+A: Stáhněte font do dočasného lokálního souboru a poté předávejte jeho cestu `Metadata`. Knihovna pracuje s libovolným souborem přístupným lokální cestou.
+
+**Q: Je možné ověřit kryptografickou platnost podpisu?**  
+A: GroupDocs.Metadata poskytuje surová data podpisu; můžete řetězec certifikátů a hash hodnoty předat samostatné kryptografické knihovně pro úplné ověření.
+
+## Závěr
+Podle tohoto průvodce nyní víte, **jak extrahovat podpis OpenType fontu** a podrobné informace o digitálním podpisu pomocí **GroupDocs.Metadata pro Javu**. Začleněním těchto kroků do vašich aplikací posílíte bezpečnost dokumentů, zefektivníte validaci aktiv a podpoříte iniciativy související s dodržováním předpisů.
+
+**Další kroky**  
+- Vyzkoušejte dávkové zpracování pro efektivní práci s velkými knihovnami fontů.  
+- Propojte extrahovaná data s vašimi nástroji pro bezpečnostní audity a automatizujte reportování souladu.  
+- Prozkoumejte další možnosti metadat GroupDocs.Metadata, jako je úprava nebo odstraňování podpisů, pokud je to vhodné.
 
 ---
+
+**Poslední aktualizace:** 2026-06-22  
+**Testováno s:** GroupDocs.Metadata 24.12  
+**Autor:** GroupDocs
+
+## Související tutoriály
+
+- [Access Word Document Metadata with GroupDocs in Java&#58; A Comprehensive Guide](/metadata/java/document-formats/access-word-metadata-groupdocs-java/)
+- [How to Extract Custom Metadata from PDFs Using GroupDocs.Metadata in Java&#58; A Comprehensive Guide](/metadata/java/document-formats/extract-custom-metadata-groupdocs-metadata-java/)

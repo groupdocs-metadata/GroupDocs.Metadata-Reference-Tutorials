@@ -1,53 +1,99 @@
 ---
-date: '2026-01-24'
-description: Aprenda a extrair detalhes de assinatura e assinatura digital de fontes
-  OpenType usando o GroupDocs.Metadata para Java. Este guia passo a passo aumenta
-  a segurança dos documentos.
+date: '2026-06-22'
+description: Aprenda a extrair a assinatura de fonte OpenType e os detalhes da assinatura
+  digital de fontes OpenType usando o GroupDocs.Metadata para Java. Este guia ajuda
+  a proteger seus documentos.
 keywords:
-- extract digital signatures OpenType fonts Java
-- digital signature flags OpenType fonts
-- GroupDocs Metadata Java
-title: Como extrair assinatura de fontes OpenType em Java usando GroupDocs.Metadata
+- extract opentype font signature
+- groupdocs metadata java
+- digital signature flags opentype
+schemas:
+- author: GroupDocs
+  dateModified: '2026-06-22'
+  description: Learn how to extract OpenType font signature and digital signature
+    details from OpenType fonts using GroupDocs.Metadata for Java. This guide helps
+    secure your documents.
+  headline: How to Extract OpenType Font Signature in Java Using GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to extract OpenType font signature and digital signature
+    details from OpenType fonts using GroupDocs.Metadata for Java. This guide helps
+    secure your documents.
+  name: How to Extract OpenType Font Signature in Java Using GroupDocs.Metadata
+  steps:
+  - name: Initialize the `Metadata` instance pointing to your font file.
+    text: Initialize the `Metadata` instance pointing to your font file.
+  - name: Retrieve the `DigitalSignaturePackage`.
+    text: Retrieve the `DigitalSignaturePackage`.
+  - name: Print or log the flag values.
+    text: Print or log the flag values.
+  - name: Re‑use the same `Metadata` initialization as above.
+    text: Re‑use the same `Metadata` initialization as above.
+  - name: Loop through each `CmsSignature` in the package.
+    text: Loop through each `CmsSignature` in the package.
+  - name: Extract properties such as `getSignTime()`, `getDigestAlgorithms()`, `getCertificates()`,
+      and `getSignerInfo()`.
+    text: Extract properties such as `getSignTime()`, `getDigestAlgorithms()`, `getCertificates()`,
+      and `getSignerInfo()`.
+  - name: '**Document Verification:** Automate checks for signed font files in a content‑management
+      system.'
+    text: '**Document Verification:** Automate checks for signed font files in a content‑management
+      system.'
+  - name: '**Digital Asset Management:** Validate font authenticity before deploying
+      them in branding projects.'
+    text: '**Digital Asset Management:** Validate font authenticity before deploying
+      them in branding projects.'
+  - name: '**Security Audits:** Review signature details to ensure compliance with
+      internal security policies.'
+    text: '**Security Audits:** Review signature details to ensure compliance with
+      internal security policies.'
+  type: HowTo
+- questions:
+  - answer: '`DigitalSignaturePackage` will be `null`; always check for this condition
+      before accessing flags or details.'
+    question: Can I extract signatures from a font that has no digital signature?
+  - answer: The examples target version **24.12**, but newer releases remain backward
+      compatible for OpenType fonts.
+    question: Which version of GroupDocs.Metadata is required?
+  - answer: A trial license works for evaluation; a full license is required for production
+      use.
+    question: Do I need a special license to read signatures?
+  - answer: Download the font to a temporary local file, then pass its path to `Metadata`.
+      The library works with any file accessible via a local path.
+    question: How do I handle fonts stored in a cloud bucket?
+  - answer: GroupDocs.Metadata supplies raw signature data; you can feed the certificate
+      chain and hash values into a separate crypto library to perform full verification.
+    question: Is it possible to verify the signature’s cryptographic validity?
+  type: FAQPage
+title: Como extrair a assinatura de fonte OpenType em Java usando o GroupDocs.Metadata
 type: docs
 url: /pt/java/document-formats/extract-digital-signatures-opentype-fonts-java/
 weight: 1
 ---
 
-# Como Extrair Assinatura de Fontes OpenType em Java com GroupDocs.Metadata
+# Como Extrair a Assinatura de Fonte OpenType em Java com GroupDocs.Metadata
 
-## Introdução
-Na era digital atual, **como extrair assinatura** de arquivos de fonte é uma necessidade comum para desenvolvedores que precisam verificar a autenticidade e manter a integridade. Este tutorial orienta você na extração de flags de assinatura digital e dados detalhados de assinatura de fontes OpenType usando **GroupDocs.Metadata for Java**. Seja você quem está construindo um sistema de gerenciamento de documentos, um aplicativo focado em segurança ou simplesmente precisa auditar ativos de fontes, dominar esse processo tornará seu fluxo de trabalho mais confiável e seguro.
-
-**O que você aprenderá**
-- Como extrair flags de assinatura digital de fontes OpenType  
-- Como recuperar informações detalhadas sobre cada assinatura digital  
-- Como configurar e usar o GroupDocs.Metadata em um projeto Java  
-
-Vamos mergulhar nos pré‑requisitos e preparar seu ambiente.
+Em aplicações modernas, **extrair a assinatura de fonte OpenType** é essencial para confirmar a autenticidade da fonte e proteger seus ativos digitais. Este tutorial mostra, passo a passo, como obter tanto os sinalizadores de assinatura quanto os detalhes criptográficos completos de uma fonte OpenType usando **GroupDocs.Metadata for Java**. Seja você quem está construindo um pipeline de conteúdo focado em segurança ou simplesmente precisa auditar uma biblioteca de fontes, as técnicas abaixo tornarão seu fluxo de trabalho confiável e rápido.
 
 ## Respostas Rápidas
 - **Qual biblioteca eu preciso?** GroupDocs.Metadata for Java (v24.12)  
-- **Qual versão do Java é necessária?** JDK 8 ou superior  
-- **Preciso de licença?** Um trial gratuito funciona para avaliação; uma licença completa é necessária para produção  
-- **Posso processar várias fontes?** Sim – use processamento em lote ou concorrente para grandes volumes  
-- **O código é thread‑safe?** O objeto `Metadata` é descartável; crie uma nova instância por thread  
+- **Qual versão do Java é necessária?** JDK 8 or later  
+- **Preciso de uma licença?** A free trial works for evaluation; a full license is required for production  
+- **Posso processar várias fontes?** Yes – batch or concurrent processing is supported  
+- **O código é thread‑safe?** Create a new `Metadata` instance per thread; the object itself isn’t thread‑safe  
 
-## Pré‑requisitos
-Antes de extrair dados de assinatura digital, certifique‑se de que sua configuração atende a estes requisitos:
+## O que é uma Assinatura de Fonte OpenType?
+A **assinatura de fonte OpenType** é um bloco criptográfico incorporado na fonte que comprova que o arquivo não foi alterado desde que foi assinado. Ela contém o horário da assinatura, a cadeia de certificados, identificadores de algoritmos de hash e informações opcionais de revogação. Também inclui um identificador de algoritmo de assinatura, a cadeia de certificados do assinante e listas de revogação opcionais, permitindo a verificação completa da integridade e origem da fonte.
+
+## Por que Usar GroupDocs.Metadata para Java?
+GroupDocs.Metadata suporta **mais de 50 formatos de entrada e saída** (incluindo DOCX, PDF, PPTX, HTML e diversos tipos de imagem) e pode ler assinaturas OpenType sem carregar o arquivo inteiro na memória, permitindo processar coleções de fontes com centenas de páginas de forma eficiente.
+
+## Pré-requisitos
+- **Java Development Kit (JDK):** Versão 8 ou mais recente.  
+- **IDE:** Qualquer IDE compatível com Java (IntelliJ IDEA, Eclipse, VS Code, etc.).  
+- **Maven:** Para gerenciamento de dependências.  
 
 ### Bibliotecas e Dependências Necessárias
-Para trabalhar com GroupDocs.Metadata for Java, inclua o repositório Maven e a dependência mostrados abaixo.
-
-### Requisitos de Configuração do Ambiente
-- **Java Development Kit (JDK):** Instale o JDK 8 ou superior.  
-- **IDE:** Qualquer IDE compatível com Java (IntelliJ IDEA, Eclipse, VS Code, etc.).
-
-### Pré‑requisitos de Conhecimento
-Familiaridade básica com Java e compreensão de assinaturas digitais ajudarão, mas o guia inclui explicações claras para iniciantes.
-
-## Configurando o GroupDocs.Metadata para Java
-### Instalação via Maven
-Adicione a seguinte configuração ao seu arquivo `pom.xml`. Isso traz o pacote **groupdocs metadata java** necessário para os exemplos.
+Adicione as coordenadas Maven do GroupDocs.Metadata ao seu `pom.xml`. Isso traz o pacote exato necessário para os exemplos.
 
 ```xml
 <repositories>
@@ -71,22 +117,23 @@ Adicione a seguinte configuração ao seu arquivo `pom.xml`. Isso traz o pacote 
 Alternativamente, faça o download da versão mais recente em [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Aquisição de Licença
-- **Trial Gratuito:** Comece com um trial gratuito para explorar os recursos.  
-- **Licença Temporária:** Obtenha uma licença temporária, se necessário, visitando a [página de licenciamento da GroupDocs](https://purchase.groupdocs.com/temporary-license).  
-- **Compra:** Para acesso total, considere adquirir uma licença.
+- **Free Trial:** Comece com um teste gratuito para explorar os recursos.  
+- **Temporary License:** Obtenha uma licença temporária através da [página de licenciamento da GroupDocs](https://purchase.groupdocs.com/temporary-license).  
+- **Purchase:** Para uso em produção, compre uma licença completa.
 
-Após instalar a biblioteca e obter a licença, você pode começar a extrair assinaturas.
+## Como Extrair a Assinatura de Fonte OpenType Usando GroupDocs.Metadata
+A classe `Metadata` é a API central do GroupDocs.Metadata para acessar metadados de documentos sem carregar o arquivo completo.  
+Para ler a assinatura de uma fonte, instancie um objeto `Metadata` com o caminho para o arquivo .otf e então acesse seu `DigitalSignaturePackage`. Essa abordagem carrega apenas as estruturas de metadados necessárias, evitando o parsing completo da fonte e mantendo o uso de memória baixo. A instância `Metadata` deve ser usada dentro de um bloco try‑with‑resources para garantir a liberação adequada.
 
-## O que é uma Assinatura Digital em uma Fonte OpenType?
-Uma assinatura digital incorporada em uma fonte OpenType garante que o arquivo da fonte não foi alterado desde que foi assinado. A assinatura inclui informações criptográficas como horário de assinatura, certificados e algoritmos de hash, que podem ser lidas programaticamente com o GroupDocs.Metadata.
+Carregue seu arquivo de fonte com `new Metadata("font.otf")` dentro de um bloco try‑with‑resources. A classe `Metadata` é o ponto de entrada do GroupDocs.Metadata para ler qualquer tipo de documento suportado, incluindo fontes OpenType. O objeto fecha automaticamente, evitando vazamentos de recursos.
 
-## Como Extrair Flags de Assinatura Digital
-### Visão Geral
-Extr o status e as propriedades de uma assinatura (por exemplo, se é válida, revogada ou possui condições especiais).
+### Como Extrair os Sinalizadores de Assinatura Digital
+O objeto `DigitalSignaturePackage` agrega todas as informações relacionadas à assinatura da fonte, incluindo sinalizadores e assinaturas individuais.  
+**Resposta direta:** Chame `metadata.getDigitalSignaturePackage().getFlags()` após abrir a fonte; o conjunto de sinalizadores retornado indica se a assinatura é válida, revogada ou possui condições especiais. Essa única chamada fornece uma verificação rápida de integridade antes de mergulhar em detalhes mais profundos. Os sinalizadores são representados como uma enumeração que pode ser inspecionada para determinar o status da assinatura, presença de timestamp e quaisquer restrições de política aplicadas durante a assinatura.
 
-### Etapas de Implementação
-1. **Inicializar Metadata:** Crie uma instância `Metadata` apontando para o seu arquivo de fonte.  
-2. **Ler Flags:** Acesse o `DigitalSignaturePackage` e imprima suas flags.
+1. Inicialize a instância `Metadata` apontando para seu arquivo de fonte.  
+2. Recupere o `DigitalSignaturePackage`.  
+3. Imprima ou registre os valores dos sinalizadores.
 
 ```java
 String documentPath = "YOUR_DOCUMENT_DIRECTORY"; // Replace with your input file path
@@ -99,17 +146,17 @@ try (Metadata metadata = new Metadata(documentPath)) {
 }
 ```
 
-**Explicação**
+**Explicação**  
 - `documentPath` – caminho absoluto ou relativo para a fonte OpenType.  
-- O bloco `try‑with‑resources` garante que o objeto `Metadata` seja fechado automaticamente, evitando vazamentos de recursos.
+- O bloco try‑with‑resources garante que o objeto `Metadata` seja fechado automaticamente, evitando vazamentos de memória.
 
-## Como Extrair Informações Detalhadas de Assinatura Digital
-### Visão Geral
-Além das flags, muitas vezes é necessário inspecionar os metadados de cada assinatura — horário de assinatura, algoritmos, certificados e conteúdo encapsulado.
+### Como Extrair Informações Detalhadas da Assinatura Digital
+`CmsSignature` representa uma assinatura CMS/PKCS#7 individual incorporada na fonte, fornecendo acesso às suas propriedades criptográficas.  
+**Resposta direta:** Itere sobre `metadata.getDigitalSignaturePackage().getSignatures()`; cada objeto `CmsSignature` expõe o horário da assinatura, algoritmos de digest, conteúdo encapsulado e detalhes do certificado, permitindo construir um relatório de auditoria completo. Para cada assinatura você pode recuperar a cadeia de certificados do assinante, verificar o algoritmo de hash e extrair quaisquer tokens de timestamp para confirmar quando a assinatura foi aplicada.
 
-### Etapas de Implementação
-1. **Inicializar Metadata** (mesmo passo acima).  
-2. **Iterar Sobre Assinaturas:** Para cada `CmsSignature`, imprima as propriedades relevantes.
+1. Reutilize a mesma inicialização `Metadata` descrita acima.  
+2. Percorra cada `CmsSignature` no pacote.  
+3. Extraia propriedades como `getSignTime()`, `getDigestAlgorithms()`, `getCertificates()` e `getSignerInfo()`.
 
 ```java
 String documentPath = "YOUR_DOCUMENT_DIRECTORY"; // Replace with your input file path
@@ -152,41 +199,61 @@ try (Metadata metadata = new Metadata(documentPath)) {
 }
 ```
 
-**Explicação das Seções Principais**
-- **Sign Time:** Quando a assinatura foi aplicada.  
-- **Digest Algorithms & OIDs:** Algoritmos de hash usados (por exemplo, SHA‑256).  
-- **Encapsulated Content:** Qualquer dado adicional incluído dentro da assinatura.  
-- **Certificates:** Datas de validade e tamanho dos dados de cada assinante e os horários de assinatura.
+**Explicação das Seções Principais**  
+- **Sign Time:** Timestamp quando a assinatura foi aplicada.  
+- **Digest Algorithms & OIDs:** Algoritmos de hash usados (ex.: SHA‑256).  
+- **Encapsulated Content:** Qualquer dado adicional encapsulado dentro da assinatura.  
+- **Certificates:** Datas de validade e tamanho dos dados brutos ajudam a verificar a identidade do assinante.  
+- **Signers:** Fornece as escolhas de algoritmo de cada assinante e os timestamps de assinatura.
 
-### Dicas- Certifique‑se de que a fonte realmente contém uma assinatura digital; casoificação de Documentos:** Automatize a checagem de fontes assinadas em um sistema de gerenciamento de conteúdo.  
-2. **Gerenciamento de Ativos Digitais:** Valide a autenticidade das fontes antes de implantá‑las em projetos de branding.  
-3. **Auditorias de Segurança:** Revise os detalhes da assinatura para garantir conformidade com políticas internas de segurança.
+#### Dicas de Solução de Problemas
+- Se a fonte não possuir assinatura digital, `getDigitalSignaturePackage()` retornará `null`. Sempre verifique se é `null` antes de acessar sinalizadores ou assinaturas.  
+- Certifique‑se de estar usando a mesma versão do **GroupDocs.Metadata** definida na dependência Maven para evitar problemas de compatibilidade.  
+
+## Aplicações Práticas
+Extrair assinaturas de fontes OpenType é valioso em muitos cenários reais:
+
+1. **Document Verification:** Automatize verificações de arquivos de fonte assinados em um sistema de gerenciamento de conteúdo.  
+2. **Digital Asset Management:** Valide a autenticidade da fonte antes de implantá‑la em projetos de branding.  
+3. **Security Audits:** Revise os detalhes da assinatura para garantir conformidade com políticas internas de segurança.
 
 ## Considerações de Desempenho
-- **Gerenciamento de Recursos:** Sempre use `try‑with‑resources` para fechar objetos `Metadata` prontamente.  
-- **Processamento em Lote:** Ao lidar com muitas fontes, processe‑as em lotes para reduzir a sobrecarga de I/O.  
-- **Concorrência:** Para cargas de trabalho em grande escala, execute instâncias separadas de `Metadata` em threads paralelas; a biblioteca não é thread‑safe por instância.
+- **Resource Management:** Use try‑with‑resources para fechar objetos `Metadata` prontamente.  
+- **Batch Processing:** Processe fontes em grupos para minimizar a sobrecarga de I/O; o GroupDocs.Metadata pode lidar com milhares de arquivos sem carregar cada fonte inteira na memória.  
+- **Concurrency:** Execute instâncias separadas de `Metadata` em threads paralelas para cargas de trabalho em grande escala; a biblioteca não é thread‑safe por instância, portanto isole cada instância por thread.  
 
- versão **24.12**,ativamente funciona para avaliação; uma licença completa é exigida para uso em produção.
+## Perguntas Frequentes
 
-**P: Como lidar com fontes armazenadas em um bucket na nuvem?**  
-R: Baixe a fonte para um arquivo temporário local e, em seguida, passe seu caminho para `Metadata`. A biblioteca funciona com qualquer arquivo acessível via caminho local.
+**Q: Posso extrair assinaturas de uma fonte que não tem assinatura digital?**  
+A: `DigitalSignaturePackage` será `null`; sempre verifique essa condição antes de acessar sinalizadores ou detalhes.
 
-**P: É possível verificar a validade criptográfica da assinatura?**  
-R: O GroupDocs.Metadata fornece os dados brutos; você pode encaminhar a cadeia de certificados e valores de hash para uma biblioteca criptográfica separada para verificação completa.
+**Q: Qual versão do GroupDocs.Metadata é necessária?**  
+A: Os exemplos visam a versão **24.12**, mas versões mais recentes permanecem compatíveis retroativamente com fontes OpenType.
+
+**Q: Preciso de uma licença especial para ler assinaturas?**  
+A: Uma licença de avaliação funciona para avaliação; uma licença completa é necessária para uso em produção.
+
+**Q: Como lidar com fontes armazenadas em um bucket na nuvem?**  
+A: Baixe a fonte para um arquivo local temporário e então passe seu caminho para `Metadata`. A biblioteca funciona com qualquer arquivo acessível via caminho local.
+
+**Q: É possível verificar a validade criptográfica da assinatura?**  
+A: O GroupDocs.Metadata fornece os dados brutos da assinatura; você pode alimentar a cadeia de certificados e os valores de hash em uma biblioteca criptográfica separada para realizar a verificação completa.
 
 ## Conclusão
-Seguindo extrair assinatura** e dados detalhados de assinatura digital de fontes OpenType usando **GroupDocs.Metadata for Java**. Incorporar essas técnicas em suas aplicações reforçará a segurança de documentos, simplificará a validação de ativos e apoiará iniciativas de conformidade.
+Seguindo este guia, você agora sabe **como extrair a assinatura de fonte OpenType** e dados detalhados de assinatura digital usando **GroupDocs.Metadata for Java**. Integrar essas etapas em suas aplicações reforça a segurança de documentos, simplifica a validação de ativos e apoia iniciativas de conformidade.
 
-**Próximos Passos**
-- Experimente o processamento em lote para lidar com grandes bibliotecas de fontes.  
-- Combine os dados extraídos com suas ferramentas de auditoria de segurança para relatórios automatizados de conformidade.  
-- Explore outras capacidades de metadados remoção de assinaturas quando apropriado.
+**Próximos Passos**  
+- Experimente o processamento em lote para lidar com grandes bibliotecas de fontes de forma eficiente.  
+- Combine os dados extraídos com suas ferramentas de auditoria de segurança para relatórios de conformidade automatizados.  
+- Explore outras capacidades de metadados do GroupDocs.Metadata, como edição ou remoção de assinaturas quando apropriado.
 
 ---
 
-**Última atualização:** 2026-01-24  
+**Última Atualização:** 2026-06-22  
 **Testado com:** GroupDocs.Metadata 24.12  
-**Autor:** GroupDocs  
+**Autor:** GroupDocs
 
----
+## Tutoriais Relacionados
+
+- [Acessar Metadados de Documentos Word com GroupDocs em Java: Um Guia Abrangente](/metadata/java/document-formats/access-word-metadata-groupdocs-java/)
+- [Como Extrair Metadados Personalizados de PDFs Usando GroupDocs.Metadata em Java: Um Guia Abrangente](/metadata/java/document-formats/extract-custom-metadata-groupdocs-metadata-java/)

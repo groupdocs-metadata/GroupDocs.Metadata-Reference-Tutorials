@@ -1,48 +1,90 @@
 ---
-date: '2026-02-19'
-description: Impara a leggere i metadati di sevenzip in Java usando GroupDocs.Metadata
-  per Java, incluso come ottenere la dimensione compressa in Java e altre proprietà
-  dell'archivio.
+date: '2026-06-22'
+description: Scopri come leggere i metadati sevenzip java usando GroupDocs.Metadata
+  per Java, inclusi come ottenere la dimensione compressa java e altre proprietà dell'archivio.
 keywords:
-- SevenZip metadata Java
-- extract SevenZip archive information
-- read SevenZip file properties
-title: Come leggere i metadati SevenZip con GroupDocs.Metadata in Java
+- read sevenzip metadata java
+- get compressed size java
+- GroupDocs.Metadata Java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-06-22'
+  description: Learn how to read sevenzip metadata java using GroupDocs.Metadata for
+    Java, including how to get compressed size java and other archive properties.
+  headline: How to Read SevenZip Metadata Java with GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to read sevenzip metadata java using GroupDocs.Metadata for
+    Java, including how to get compressed size java and other archive properties.
+  name: How to Read SevenZip Metadata Java with GroupDocs.Metadata
+  steps:
+  - name: Initialize Metadata Object
+    text: The `Metadata` class represents the entry point for loading and interacting
+      with archive files.
+  - name: Obtain the Root Package
+    text: The `getRootPackageGeneric()` method returns a generic view of the archive's
+      root package, allowing you to work with entries without needing format‑specific
+      code. - **Why Use `getRootPackageGeneric()`?** It provides a generalized view
+      of the archive's contents, making it easier to iterate over its e
+  - name: Iterate Over Archive Entries
+    text: The `SevenZipPackage` class represents the SevenZip container, and each
+      entry is exposed as a `SevenZipFileInfo` object. The `SevenZipFileInfo` class
+      provides direct access to properties like name, compressed size, and modification
+      date. - **Why Extract These Properties?** Knowing file sizes helps m
+  - name: Clean Up Resources
+    text: Calling `close()` on the `Metadata` instance releases native resources and
+      avoids memory leaks in long‑running services. - **Why Dispose?** Properly disposing
+      of objects helps prevent memory leaks in long‑running applications.
+  type: HowTo
+- questions:
+  - answer: GroupDocs.Metadata for Java – a single‑API solution for over 70 archive
+      and document formats.
+    question: What library should I use?
+  - answer: Yes – call `getSevenZipPackage().getFiles()` after initializing the `Metadata`
+      object.
+    question: Can I list files inside a SevenZip archive?
+  - answer: A free trial works for evaluation; a full license is required for production.
+    question: Do I need a license?
+  - answer: JDK 8 or higher (compatible with Java 17 LTS).
+    question: Which Java version is supported?
+  - answer: Not mandatory, but Maven handles transitive dependencies automatically.
+    question: Is Maven required?
+  type: FAQPage
+title: Come leggere i metadati SevenZip Java con GroupDocs.Metadata
 type: docs
 url: /it/java/archive-formats/read-sevenzip-metadata-groupdocs-java/
 weight: 1
 ---
 
-. Ensure no extra explanations.# Come leggere i metadati SevenZip con GroupDocs.Metadata in Java
+# Come leggere i metadati SevenZip in Java con GroupDocs.Metadata
 
-Se hai bisogno di **leggere i metadati sevenzip java** da un'applicazione Java, sei nel posto giusto. In questo tutorial vedremo come utilizzare **GroupDocs.Metadata** per estrarre i nomi dei file, le dimensioni compresse, le dimensioni non compresse, le date di modifica e altro ancora—esattamente i dati di cui hai bisogno per la convalida dei backup, la sincronizzazione o le attività di ottimizzazione dello storage.
+Se hai bisogno di **read sevenzip metadata java** da un'applicazione Java, sei nel posto giusto. In questo tutorial vedremo come utilizzare **GroupDocs.Metadata** per estrarre i nomi dei file, le dimensioni compresse, le dimensioni non compresse, le date di modifica e altro ancora—esattamente i dati necessari per la convalida dei backup, la sincronizzazione o le attività di ottimizzazione dello storage.
 
 ## Introduzione
 
 Hai difficoltà ad accedere e leggere le proprietà dei metadati dai file di archivio SevenZip usando Java? Questo tutorial ti guiderà attraverso il processo di utilizzo di **GroupDocs.Metadata**. Una libreria potente, semplifica l'estrazione di informazioni vitali come nomi dei file, dimensioni e date di modifica direttamente dai tuoi archivi.
 
-## Risposte rapide
-- **Quale libreria dovrei usare?** GroupDocs.Metadata per Java  
-- **Posso elencare i file all'interno di un archivio SevenZip?** Sì – usa `getSevenZipPackage().getFiles()`  
-- **Ho bisogno di una licenza?** Una prova gratuita è sufficiente per la valutazione; è necessaria una licenza completa per la produzione  
-- **Quale versione di Java è supportata?** JDK 8 o superiore  
-- **Maven è obbligatorio?** Non è obbligatorio, ma Maven semplifica la gestione delle dipendenze  
+## Risposte Rapide
+- **What library should I use?** GroupDocs.Metadata for Java – a single‑API solution for over 70 archive and document formats.  
+- **Can I list files inside a SevenZip archive?** Yes – call `getSevenZipPackage().getFiles()` after initializing the `Metadata` object.  
+- **Do I need a license?** A free trial works for evaluation; a full license is required for production.  
+- **Which Java version is supported?** JDK 8 or higher (compatible with Java 17 LTS).  
+- **Is Maven required?** Not mandatory, but Maven handles transitive dependencies automatically.  
 
-## Cos'è “come leggere sevenzip” in Java?
-Leggere i metadati SevenZip significa aprire il contenitore `.7z`, enumerare ogni voce e prelevare proprietà come **dimensione compressa**, **dimensione non compressa**, **nome del file** e **data di modifica** senza estrarre i file reali.
+## Cos'è “how to read sevenzip” in Java?
 
-## leggi i metadati sevenzip java
-Utilizzare la parola chiave principale in un'intestazione dedicata aiuta sia i lettori che i motori di ricerca a comprendere il focus di questa guida. Di seguito approfondiremo i passaggi esatti necessari per **leggere i metadati sevenzip java** in modo efficiente.
+Leggere i metadati SevenZip significa aprire il contenitore `.7z`, enumerare ogni voce e prelevare proprietà come **compressed size**, **uncompressed size**, **file name** e **modification date** senza estrarre i file reali. Questo processo ti fornisce una visione della composizione dell'archivio, consente la verifica dell'integrità del backup e ti permette di prendere decisioni sulla capacità di storage senza l'overhead di un'estrazione completa.
+
+## leggi sevenzip metadata java
+
+Utilizzare la parola chiave principale in un'intestazione dedicata aiuta sia i lettori sia i motori di ricerca a comprendere il focus di questa guida. Di seguito approfondiremo i passaggi esatti necessari per **read sevenzip metadata java** in modo efficiente.
 
 ## Perché usare GroupDocs.Metadata Java per l'estrazione dei metadati?
-- **API unificata** – funziona su decine di formati di archivi e documenti  
-- **Nessuno strumento esterno** – tutto avviene all'interno del tuo processo Java  
-- **Focalizzata sulle prestazioni** – legge solo le informazioni di intestazione necessarie per le attività di estrazione dei metadati java  
-- **Licenza robusta** – prova disponibile, licenza completa per uso commerciale  
+
+GroupDocs.Metadata legge solo le informazioni di intestazione necessarie per l'estrazione dei metadati, quindi l'operazione termina in millisecondi anche per archivi multi‑gigabyte. Supporta **70+** formati di archivio e documento, elabora archivi fino a **2 GB** senza caricare l'intero file in memoria e fornisce un'API coerente per tutti i tipi supportati.
 
 ## Prerequisiti
 
-Prima di immergerti in **GroupDocs.Metadata per Java**, assicurati che l'ambiente di sviluppo sia configurato correttamente. Ecco cosa ti serve:
+Prima di immergerti in **GroupDocs.Metadata for Java**, assicurati che l'ambiente di sviluppo sia configurato correttamente. Ecco cosa ti serve:
 
 - **Java Development Kit (JDK):** Versione 8 o superiore.  
 - **Maven:** Consigliato per la gestione delle dipendenze, anche se puoi aggiungere il JAR manualmente.  
@@ -50,7 +92,7 @@ Prima di immergerti in **GroupDocs.Metadata per Java**, assicurati che l'ambient
 
 ## Configurazione di GroupDocs.Metadata per Java
 
-Per utilizzare GroupDocs.Metadata, includila nel tuo progetto tramite Maven o scaricando direttamente la libreria.
+Per utilizzare GroupDocs.Metadata, includilo nel tuo progetto tramite Maven o scaricando direttamente la libreria.
 
 ### Utilizzo di Maven
 
@@ -80,21 +122,21 @@ In alternativa, scarica l'ultima versione da [GroupDocs.Metadata for Java releas
 
 #### Acquisizione della licenza
 
-1. **Prova gratuita:** Inizia con una prova gratuita per testare le capacità di GroupDocs.Metadata.  
-2. **Licenza temporanea:** Richiedi una licenza temporanea se hai bisogno di accesso esteso per scopi di valutazione.  
-3. **Acquisto:** Per un uso a lungo termine, considera l'acquisto di una licenza completa.  
+1. **Free Trial:** Start with a free trial to test GroupDocs.Metadata's capabilities.  
+2. **Temporary License:** Apply for a temporary license if you need extended access for evaluation purposes.  
+3. **Purchase:** For long‑term use, consider purchasing a full license.  
 
 Con la configurazione completata, passiamo all'implementazione della funzionalità di lettura dei metadati.
 
 ## Guida all'implementazione
 
-### Accesso ai metadati dagli archivi SevenZip
+### Accesso ai metadati da archivi SevenZip
 
 In questa sezione, estrarremo e stamperemo le proprietà dei metadati come nomi dei file e dimensioni da un archivio SevenZip.
 
 #### Passo 1: Inizializzare l'oggetto Metadata
 
-Inizia inizializzando l'oggetto `Metadata` con il percorso del tuo file SevenZip. Questo indica a GroupDocs quale file elaborare.
+La classe `Metadata` rappresenta il punto di ingresso per caricare e interagire con i file di archivio.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -108,18 +150,18 @@ public class ReadSevenZipMetadata {
 
 #### Passo 2: Ottenere il pacchetto radice
 
-Successivamente, accedi al pacchetto radice del tuo archivio per avere un punto di ingresso a tutti i file e le loro proprietà.
+Il metodo `getRootPackageGeneric()` restituisce una vista generica del pacchetto radice dell'archivio, consentendoti di lavorare con le voci senza dover scrivere codice specifico per formato.
 
 ```java
 try (
     SevenZipRootPackage root = metadata.getRootPackageGeneric()) {
 ```
 
-- **Perché usare `getRootPackageGeneric()`?** Fornisce una vista generalizzata del contenuto dell'archivio, facilitando l'iterazione sulle voci senza preoccuparsi di formati di file specifici.
+- **Why Use `getRootPackageGeneric()`?** It provides a generalized view of the archive's contents, making it easier to iterate over its entries without worrying about specific file formats.
 
 #### Passo 3: Iterare sulle voci dell'archivio
 
-Con l'accesso al pacchetto radice dell'archivio, itera su ogni voce per estrarre le proprietà dei metadati. Questo comporta il recupero di dettagli come nome, dimensione compressa e data di modifica.
+La classe `SevenZipPackage` rappresenta il contenitore SevenZip, e ogni voce è esposta come oggetto `SevenZipFileInfo`. La classe `SevenZipFileInfo` fornisce accesso diretto a proprietà come nome, dimensione compressa e data di modifica.
 
 ```java
 int totalEntries = root.getSevenZipPackage().getTotalEntries();
@@ -138,11 +180,11 @@ for (SevenZipFile file : root.getSevenZipPackage().getFiles()) {
 }
 ```
 
-- **Perché estrarre queste proprietà?** Conoscere le dimensioni dei file aiuta a gestire lo storage, mentre la data di modifica può essere cruciale per le attività di sincronizzazione. La chiamata `getCompressedSize()` è il modo Java per **ottenere la dimensione compressa java** per ogni voce.
+- **Why Extract These Properties?** Knowing file sizes helps manage storage, while the modification date can be crucial for synchronization tasks. The `getCompressedSize()` call is the Java way to **get compressed size java** for each entry.
 
 #### Passo 4: Pulire le risorse
 
-Infine, assicurati di eliminare l'oggetto metadata per rilasciare eventuali risorse occupate da GroupDocs.Metadata.
+Chiamare `close()` sull'istanza `Metadata` rilascia le risorse native ed evita perdite di memoria in servizi a lungo termine.
 
 ```java
 } finally {
@@ -150,23 +192,27 @@ Infine, assicurati di eliminare l'oggetto metadata per rilasciare eventuali riso
 }
 ```
 
-- **Perché eliminare?** Eliminare correttamente gli oggetti aiuta a prevenire perdite di memoria nelle applicazioni a lungo termine.
+- **Why Dispose?** Properly disposing of objects helps prevent memory leaks in long‑running applications.
+
+## Come estrarre i metadati in modo efficiente?
+
+Carica l'archivio SevenZip con una singola istanza `Metadata`, chiama `getRootPackageGeneric()` una volta, e poi scorre le voci usando un ciclo `for‑each`. Questo modello evita I/O ripetuto, riduce la pressione sul GC e completa in tempo O(n) dove *n* è il numero di voci.
 
 ## Applicazioni pratiche
 
-Comprendere come **leggere i metadati sevenzip java** offre numerosi vantaggi nel mondo reale:
+Comprendere come **read sevenzip metadata java** offre numerosi vantaggi reali:
 
 1. **Gestione dei backup dei dati:** Verifica rapidamente l'integrità e la completezza degli archivi di backup.  
-2. **Strumenti di sincronizzazione dei file:** Usa le date di modifica per decidere quali file necessitano di aggiornamento.  
+2. **Strumenti di sincronizzazione file:** Usa le date di modifica per decidere quali file necessitano di aggiornamento.  
 3. **Ottimizzazione dello storage:** Confronta le dimensioni compresse e non compresse per pianificare la capacità.  
 
 L'integrazione con altri sistemi è possibile, consentendo l'estrazione automatizzata dei metadati come parte di flussi di lavoro più ampi di gestione dei dati.
 
 ## Considerazioni sulle prestazioni
 
-Quando lavori con GroupDocs.Metadata e archivi di grandi dimensioni, tieni presente questi consigli:
+Quando lavori con GroupDocs.Metadata e archivi di grandi dimensioni, tieni presenti questi consigli:
 
-- **Elaborazione batch:** Elabora i file in batch per gestire efficacemente l'uso della memoria.  
+- **Elaborazione batch:** Processa i file in batch per gestire efficacemente l'uso della memoria.  
 - **Gestione efficiente delle eccezioni:** Usa try‑with‑resources per la gestione automatica delle risorse.  
 - **Elaborazione asincrona:** Implementa tecniche asincrone per carichi di lavoro intensi.  
 
@@ -174,37 +220,44 @@ Quando lavori con GroupDocs.Metadata e archivi di grandi dimensioni, tieni prese
 
 | Problema | Soluzione |
 |----------|-----------|
-| **`NullPointerException` durante l'accesso a un file** | Verifica che il percorso dell'archivio sia corretto e che il file non sia corrotto. |
-| **Picchi di memoria su archivi enormi** | Abilita l'elaborazione batch o aumenta la dimensione dell'heap JVM (`-Xmx`). |
-| **Licenza non riconosciuta** | Assicurati che il file di licenza sia posizionato nella directory di lavoro dell'applicazione o impostato tramite `License.setLicense(path)`. |
+| **`NullPointerException` when accessing a file** | Verify the archive path is correct and the file is not corrupted. |
+| **Memory spikes on huge archives** | Enable batch processing or increase the JVM heap size (`-Xmx`). |
+| **License not recognized** | Ensure the license file is placed in the application’s working directory or set via `License.setLicense(path)`. |
 
 ## Domande frequenti
 
-**Q:** Che cos'è GroupDocs.Metadata?  
-**A:** È una libreria Java per la gestione dei metadati su diversi formati di file, inclusi gli archivi SevenZip.
+**Q:** What is GroupDocs.Metadata?  
+**A:** It's a Java library for handling metadata across different file formats, including SevenZip archives.
 
-**Q:** Posso usare GroupDocs.Metadata senza Maven?  
-**A:** Sì, puoi scaricare il JAR dal sito ufficiale e aggiungerlo al classpath del tuo progetto.
+**Q:** Can I use GroupDocs.Metadata without Maven?  
+**A:** Yes, you can download the JAR from the official site and add it to your project’s classpath.
 
-**Q:** Come gestisco gli archivi di grandi dimensioni in modo efficiente?  
-**A:** Implementa l'elaborazione batch o utilizza stream asincroni per limitare il consumo di memoria.
+**Q:** How do I handle large archives efficiently?  
+**A:** Implement batch processing or use asynchronous streams to limit memory consumption.
 
-**Q:** Dove posso trovare guide più dettagliate?  
-**A:** Vedi la [documentazione ufficiale](https://docs.groupdocs.com/metadata/java/) per riferimenti API completi.
+**Q:** Where can I find more detailed guidance?  
+**A:** See the [official documentation](https://docs.groupdocs.com/metadata/java/) for comprehensive API references.
 
-**Q:** Cosa fare se incontro problemi con la libreria?  
-**A:** Chiedi alla community sul [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/).
+**Q:** What if I encounter issues with the library?  
+**A:** Ask the community on the [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/).
 
 ## Risorse
 
-- **Documentazione:** Scopri di più su [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
-- **Riferimento API:** Consulta le informazioni dettagliate dell'API su [GroupDocs.API Reference](https://reference.groupdocs.com/metadata/java/)  
-- **Download:** Ottieni l'ultima versione da [GroupDocs Downloads](https://releases.groupdocs.com/metadata/java/)  
-- **Repository GitHub:** Accedi ai campioni di codice su [GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- **Forum di supporto gratuito:** Partecipa alle discussioni o poni domande su [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)
+- **Documentazione:** Explore more at [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
+- **Documentazione ufficiale:** [official documentation](https://docs.groupdocs.com/metadata/java/)  
+- **Riferimento API:** Check detailed API information at [GroupDocs.API Reference](https://reference.groupdocs.com/metadata/java/)  
+- **Download:** Get the latest version from [GroupDocs Downloads](https://releases.groupdocs.com/metadata/java/)  
+- **Repository GitHub:** Access code samples on [GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
+- **Forum di supporto gratuito:** Join discussions or ask questions at [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)
 
 ---
 
-**Ultimo aggiornamento:** 2026-02-19  
-**Testato con:** GroupDocs.Metadata 24.12 per Java  
-**Autore:** GroupDocs
+**Last Updated:** 2026-06-22  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs
+
+## Tutorial correlati
+
+- [Come leggere i file TAR ed estrarre i metadati con GroupDocs.Metadata per Java](/metadata/java/archive-formats/extract-tar-metadata-groupdocs-java-guide/)  
+- [Aggiorna commento ZIP Java – Come aggiornare i commenti degli archivi ZIP usando GroupDocs.Metadata](/metadata/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-java/)  
+- [Estrai metadati video Java: Come leggere i file AVI con GroupDocs.Metadata](/metadata/java/audio-video-formats/extract-avi-metadata-groupdocs-metadata-java/)

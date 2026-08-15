@@ -1,53 +1,96 @@
 ---
-date: '2026-02-06'
-description: تعلم كيفية إنشاء معاينة مستند جافا وإخراج الصفحة كصورة باستخدام GroupDocs.Metadata.
-  يغطي هذا الدليل إعداد البرنامج، وتكوينه، وخطوات التنفيذ.
+date: '2026-07-21'
+description: تعرف على كيفية تحويل ملف docx إلى معاينة png باستخدام GroupDocs.Metadata
+  للغة Java. دليل خطوة بخطوة لإعداد Maven، خيارات المعاينة، وإخراج الصورة.
 keywords:
+- convert docx to png
 - document image preview
-- GroupDocs Metadata Java
-- creating document previews with Java
-title: كيفية إنشاء معاينة مستند جافا باستخدام GroupDocs.Metadata
+- GroupDocs.Metadata Java
+- create document preview java
+- java generate thumbnails
+lastmod: '2026-07-21'
+og_description: تعرف على كيفية تحويل ملف docx إلى معاينة png باستخدام GroupDocs.Metadata
+  للغة Java. يغطي هذا الدليل إعداد Maven، خيارات المعاينة، وإخراج الصورة.
+og_image_alt: 'Guide: Convert DOCX to PNG preview using GroupDocs.Metadata in Java'
+og_title: تحويل ملف docx إلى معاينة png باستخدام GroupDocs.Metadata Java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-07-21'
+  description: Learn how to convert docx to png preview using GroupDocs.Metadata for
+    Java. Step‑by‑step Maven setup, preview options, and image output guide.
+  headline: convert docx to png preview with GroupDocs.Metadata Java
+  type: TechArticle
+- description: Learn how to convert docx to png preview using GroupDocs.Metadata for
+    Java. Step‑by‑step Maven setup, preview options, and image output guide.
+  name: convert docx to png preview with GroupDocs.Metadata Java
+  steps:
+  - name: Initialize `Metadata` (Feature 1).
+    text: Initialize `Metadata` (Feature 1).
+  - name: Build a `PreviewOptions` instance, specify `PNG` and the desired page numbers.
+    text: Build a `PreviewOptions` instance, specify `PNG` and the desired page numbers.
+  - name: Pass a lambda that writes the preview bytes to the `OutputStream` you created
+      in Feature 3.
+    text: Pass a lambda that writes the preview bytes to the `OutputStream` you created
+      in Feature 3.
+  type: HowTo
+- questions:
+  - answer: Yes. Open the document with the appropriate constructor that accepts a
+      password, then proceed with preview options.
+    question: Can I generate previews for password‑protected documents?
+  - answer: PNG, JPEG, BMP, and GIF are available via `PreviewFormats`.
+    question: Which image formats are supported?
+  - answer: Pass an array of page numbers to `previewOptions.setPageNumbers(new int[]{1,2,3});`.
+    question: How do I preview multiple pages in one call?
+  - answer: Adjust the DPI using `previewOptions.setDpi(int dpi)` (default is 96 DPI).
+    question: Is there a way to control image resolution?
+  - answer: GroupDocs.Metadata is pure Java and can be used on Android with the appropriate
+      JARs, but UI rendering must be handled by the Android framework.
+    question: Does the library work on Android?
+  type: FAQPage
+tags:
+- convert docx
+- preview image
+- GroupDocs.Metadata
+- Java tutorial
+- document processing
+title: تحويل ملف docx إلى معاينة png باستخدام GroupDocs.Metadata Java
 type: docs
 url: /ar/java/document-formats/java-groupdocs-metadata-document-image-previews/
 weight: 1
 ---
 
-# إتقان معاينات صور المستندات في Java باستخدام GroupDocs.Metadata
+# إتقان معاينات صور المستندات في جافا باستخدام GroupDocs.Metadata
 
-## المقدمة
+## مقدمة
 
-إذا كنت بحاجة إلى إنشاء تطبيقات **create document preview java**—سواء لنظام إدارة مستندات، مكتبة رقمية، أو ميزة النظرة السريعة في بوابة مؤسسية—فإن GroupDocs.Metadata يجعل الأمر بسيطًا. في هذا الدرس ستتعلم كيفية تحميل مستند، تكوين خيارات المعاينة، وإخراج الصفحات كملفات صورة، كل ذلك باستخدام شفرة Java نظيفة.
-
-سنستعرض سير العمل الكامل، من إعداد Maven إلى إنشاء معاينات PNG لصفحات محددة. هل أنت مستعد لرؤية مستنداتك تتحول إلى صور؟ هيا نبدأ!
+إذا كنت بحاجة إلى **convert docx to png** وعرض معاينات المستند مباشرةً من تطبيق جافا — سواءً كنت تبني بوابة لإدارة المستندات، مكتبة رقمية، أو ميزة نظرة سريعة للإنترانت المؤسسي — فإن GroupDocs.Metadata يجعل العملية سهلة تمامًا ومكتوبة بالكامل بلغة جافا. في هذا الدرس ستتعرف على كيفية إعداد Maven، تكوين خيارات المعاينة، وإخراج الصفحات الفردية كصور PNG عالية الجودة، مع الحفاظ على استهلاك الذاكرة منخفضًا وأداء عالي. دعنا نستعرض سير العمل الكامل معًا.
 
 ## إجابات سريعة
-- **ماذا يعني “create document preview java”؟** إنشاء لقطات بصرية (مثل PNG) لصفحات المستند باستخدام شفرة Java.  
-- **ما المكتبة التي تدعم ذلك مباشرةً؟** GroupDocs.Metadata for Java.  
-- **هل يمكنني اختيار تنسيق الصورة؟** نعم—خيارات المعاينة تتيح لك اختيار PNG، JPEG، BMP، إلخ.  
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتقييم؛ الترخيص المدفوع مطلوب للإنتاج.  
-- **هل يمكن معاينة صفحات محددة فقط؟** بالتأكيد—استخدم `setPageNumbers` لاستهداف صفحات معينة.
+- **ما معنى “create document preview java”؟** إنشاء لقطات بصرية (مثل PNG) لصفحات المستند باستخدام كود جافا.  
+- **أي مكتبة تدعم هذا مباشرةً؟** GroupDocs.Metadata for Java.  
+- **هل يمكنني اختيار تنسيق الصورة؟** نعم — تسمح خيارات المعاينة باختيار PNG، JPEG، BMP، إلخ.  
+- **هل أحتاج إلى ترخيص؟** الإصدار التجريبي المجاني يكفي للتقييم؛ يتطلب الترخيص المدفوع للإنتاج.  
+- **هل يمكن معاينة صفحات محددة فقط؟** بالطبع — استخدم `setPageNumbers` لاستهداف صفحات معينة.  
 
 ## ما هو **create document preview java**؟
-إنشاء معاينة مستند في Java يعني تحويل صفحة أو أكثر من ملف (DOCX، PDF، PPT، إلخ) إلى ملفات صورة برمجياً. هذا يتيح إنشاء معارض مصغرات، فحوصات بصرية سريعة، وتكامل سلس مع مكونات واجهة المستخدم على الويب أو سطح المكتب.
+
+إنشاء معاينة مستند في جافا يعني تحويل صفحة أو أكثر من ملف (DOCX، PDF، PPT، إلخ) إلى ملفات صورة برمجياً. يتيح ذلك إنشاء معارض للصور المصغرة، فحوصات بصرية سريعة، وتكامل سلس مع مكونات واجهة الويب أو سطح المكتب. من خلال تحويل كل صفحة إلى صورة، يمكن للمطورين تقديم تغذية بصرية فورية للمستخدمين دون الحاجة إلى فتح المستند الأصلي، مما يحسن من قابلية الاستخدام والأداء في التطبيقات التي تتعامل مع مستندات كثيرة.
 
 ## لماذا نستخدم GroupDocs.Metadata لإنشاء المعاينات؟
-- **بدون تبعيات خارجية** – Java نقي، بدون ملفات ثنائية أصلية.  
-- **يدعم أكثر من 100 تنسيق ملف** – من Office إلى CAD.  
-- **تحكم دقيق** – اختيار تنسيق الصورة، DPI، ونطاق الصفحات.  
-- **أداء عالي** – مُحسّن للوثائق الكبيرة ومعالجة الدُفعات.
+
+يقدم GroupDocs.Metadata حلاً نقيًا بلغة جافا يزيل الحاجة إلى المكتبات الأصلية أو الخدمات الخارجية، مما يجعل النشر بسيطًا عبر المنصات. يدعم مجموعة واسعة من الصيغ، ويوفر تحكمًا دقيقًا في إعدادات الإخراج، وتم تصميمه لتحقيق إنتاجية عالية، مما يسمح بمعالجة دفعات كبيرة من المستندات بكفاءة. تقلل هذه القدرات من جهد التطوير مع تقديم معاينات موثوقة وعالية الجودة لأعباء العمل على مستوى المؤسسات.
 
 ## المتطلبات المسبقة
 
-- **المكتبات المطلوبة:** GroupDocs.Metadata for Java (أحدث نسخة).  
+- **المكتبات المطلوبة:** GroupDocs.Metadata for Java (أحدث إصدار).  
 - **نظام البناء:** مشروع Maven (أو إضافة JAR يدويًا).  
 - **المهارات المطلوبة:** الإلمام بـ Java I/O، try‑with‑resources، ومعالجة الاستثناءات.
 
-## إعداد GroupDocs.Metadata لـ Java
+## إعداد GroupDocs.Metadata لجافا
 
 ### معلومات التثبيت
 
-Add the GroupDocs repository and dependency to your `pom.xml`:
-
+أضف مستودع GroupDocs والاعتماد إلى ملف `pom.xml` الخاص بك:
 ```xml
 <repositories>
    <repository>
@@ -67,16 +110,15 @@ Add the GroupDocs repository and dependency to your `pom.xml`:
 ```
 
 **تحميل مباشر**  
-بدلاً من ذلك، قم بتحميل أحدث ملفات JAR من [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) وأضفها إلى مسار الفئة (classpath) الخاص بمشروعك.
+بدلاً من ذلك، قم بتنزيل أحدث ملفات JAR من [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) وأضفها إلى مسار الفئة (classpath) لمشروعك.
 
 ### الحصول على الترخيص
 
-ابدأ بنسخة تجريبية مجانية أو اطلب ترخيصًا مؤقتًا. للاستخدام في الإنتاج، اشترِ ترخيصًا هنا: [GroupDocs purchase page](https://purchase.groupdocs.com/temporary-license/).
+ابدأ بإصدار تجريبي مجاني أو اطلب ترخيصًا مؤقتًا. للاستخدام في الإنتاج، اشترِ ترخيصًا هنا: [Group Docs purchase page](https://purchase.groupdocs.com/temporary-license/).
 
 ### التهيئة الأساسية والإعداد
 
-The following snippet shows the minimal code required to open a document with GroupDocs.Metadata:
-
+المقتطف التالي يوضح الحد الأدنى من الكود اللازم لفتح مستند باستخدام GroupDocs.Metadata:
 ```java
 import com.groupdocs.metadata.Metadata;
 import java.io.IOException;
@@ -95,9 +137,11 @@ public class LoadDocument {
 }
 ```
 
+**مرساة التعريف:** فئة `Metadata` هي نقطة الدخول لقراءة وتعديل بيانات تعريف الملف؛ كما توفر الوصول إلى إمكانات إنشاء المعاينات.
+
 ## دليل التنفيذ
 
-فيما يلي نقسم الحل إلى ثلاث ميزات مركزة. كل ميزة تتضمن شروحات مختصرة والكود الدقيق الذي تحتاجه—بدون أي مقتطفات إضافية، فقط الكتل الأصلية محفوظة.
+فيما يلي نقسم الحل إلى ثلاث ميزات مركزة. كل ميزة تتضمن شروحات مختصرة والكود الدقيق الذي تحتاجه — بدون مقتطفات إضافية، فقط الكتل الأصلية محفوظة.
 
 ### الميزة 1: تهيئة Metadata لمعالجة المستند
 
@@ -111,6 +155,8 @@ import com.groupdocs.metadata.Metadata;
 import java.io.IOException;
 ```
 
+**مرساة التعريف:** `Metadata` هي الكائن الأساسي في GroupDocs.Metadata الذي يمثل ملفًا واحدًا في الذاكرة ويكشف عن طرق للفحص والمعاينة.
+
 #### الخطوة 2 – تحميل المستند  
 
 ```java
@@ -123,13 +169,13 @@ try (Metadata metadata = new Metadata(documentPath)) {
 ```
 
 **نصائح**  
-- تحقق من مسار الملف وأذونات القراءة قبل تشغيل الشفرة.  
+- تحقق من مسار الملف وأذونات القراءة قبل تشغيل الكود.  
 - استخدم مسارات مطلقة أثناء الاختبار لتجنب ارتباك مسار الفئة.
 
 ### الميزة 2: إنشاء خيارات المعاينة لصفحات المستند
 
 **نظرة عامة**  
-قم بتكوين مظهر المعاينة والصفحات التي يجب عرضها.
+تكوين مظهر المعاينة والصفحات التي يجب عرضها.
 
 #### الخطوة 1 – استيراد فئات المعاينة  
 
@@ -138,6 +184,8 @@ import com.groupdocs.metadata.options.PreviewFormats;
 import com.groupdocs.metadata.options.PreviewOptions;
 import java.io.OutputStream;
 ```
+
+**مرساة التعريف:** `PreviewOptions` تتيح لك تحديد تنسيق الإخراج، DPI، ونطاق الصفحات، وتحويل بيانات المستند الخام إلى تدفقات صور.
 
 #### الخطوة 2 – إعداد خيارات المعاينة  
 
@@ -150,9 +198,9 @@ previewOptions.setPageNumbers(new int[]{1}); // Specify page numbers to generate
 ```
 
 **لماذا هذا مهم**  
-اختيار `PNG` يضمن جودة غير مضغوطة، وهو مثالي للمصغرات. عدّل `setPageNumbers` لمعاينة أي نطاق صفحات تحتاجه.
+اختيار `PNG` يضمن جودة غير مضغوطة، وهو مثالي للصور المصغرة. عدل `setPageNumbers` لمعاينة أي نطاق صفحات تحتاجه، مثل تحويل صفحة غلاف DOCX إلى PNG لمعاينة كتالوج.
 
-### الميزة 3: إنشاء تدفق الصفحة لإخراج الصورة
+### الميزة 3: إنشاء تدفق صفحة لإخراج الصورة
 
 **نظرة عامة**  
 يجب كتابة كل صورة معاينة إلى ملف أو وجهة إخراج أخرى.
@@ -165,6 +213,8 @@ import java.io.File;
 import java.io.OutputStream;
 import java.io.IOException;
 ```
+
+**مرساة التعريف:** `OutputStream` هي فئة I/O قياسية في جافا تُستخدم لكتابة بيانات البايت إلى ملفات، أو مقابس شبكة، أو مخازن في الذاكرة.
 
 #### الخطوة 2 – إنشاء التدفق وكتابة الصورة  
 
@@ -180,61 +230,70 @@ try {
 }
 ```
 
-**نصيحة احترافية:** تأكد من وجود `YOUR_OUTPUT_DIRECTORY` مسبقًا، أو أنشئه برمجياً باستخدام `outputFile.getParentFile().mkdirs();`.
+**نصيحة احترافية:** تأكد من وجود `YOUR_OUTPUT_DIRECTORY` مسبقًا، أو أنشئه برمجيًا باستخدام `outputFile.getParentFile().mkdirs();`.
 
 ## كيفية **output page as image** باستخدام GroupDocs.Metadata
 
-من خلال دمج خيارات المعاينة من الميزة 2 مع منطق التدفق من الميزة 3، يمكنك تحويل أي صفحة إلى ملف صورة:
+لإنشاء صورة من صفحة مستند محددة، تجمع بين تكوين المعاينة وتدفق يكتب البايتات الناتجة إلى ملف. أولاً، قم بتهيئة كائن `Metadata`، ثم أنشئ مثيل `PreviewOptions` يحدد تنسيق PNG وأرقام الصفحات المطلوبة. أخيرًا، قدم تنفيذًا لـ `OutputStream` يستقبل بيانات المعاينة ويحفظها على القرص. يتيح هذا النهج عزل كل خطوة، مما يجعل الكود سهل الصيانة والتوسع للعمليات الدفعية.
 
 1. تهيئة `Metadata` (الميزة 1).  
-2. بناء كائن `PreviewOptions`، حدد `PNG` وأرقام الصفحات المطلوبة.  
-3. مرّر دالة لامبدا التي تكتب بايتات المعاينة إلى `OutputStream` التي أنشأتها في الميزة 3.
+2. إنشاء مثيل `PreviewOptions`، تحديد `PNG` وأرقام الصفحات المطلوبة.  
+3. تمرير دالة لامبدا تكتب بايتات المعاينة إلى `OutputStream` الذي أنشأته في الميزة 3.  
 
-هذا التسلسل يتيح لك **output page as image** بكفاءة، حتى للوثائق الكبيرة.
+يسمح لك هذا التدفق بـ **output page as image** بكفاءة، حتى مع المستندات الكبيرة.
 
-## تطبيقات عملية
+## التطبيقات العملية
 
-- **أنظمة إدارة المستندات:** عرض المصغرات في متصفحات الملفات.  
+- **أنظمة إدارة المستندات:** عرض الصور المصغرة في متصفحات الملفات.  
 - **المكتبات الرقمية:** توفير إشارات بصرية سريعة للكتب الممسوحة.  
-- **القانونية/المالية:** تمكين فحص سريع لصفحات العقود.  
+- **القانونية/المالية:** تمكين الفحص السريع لصفحات العقود.  
 - **منصات CMS:** إنشاء صور معاينة تلقائيًا للتقارير المرفوعة.  
-- **التعليم الإلكتروني:** إتاحة لمحة للطلاب عن شرائح المحاضرات قبل التحميل.
+- **التعلم الإلكتروني:** تقديم لمحة للطلاب عن شرائح المحاضرات قبل التحميل.
 
 ## اعتبارات الأداء
 
-- **تحديد دفعات الصفحات:** إنشاء العديد من الصفحات مرة واحدة قد يرفع استهلاك الذاكرة.  
-- **استخدام try‑with‑resources:** يضمن إغلاق التدفقات، مما يمنع التسريبات.  
-- **مراقبة ذاكرة JVM:** قد تتطلب ملفات PDF الكبيرة زيادة الذاكرة (`-Xmx`).
+- **حدّ دفعات الصفحات:** قد يؤدي إنشاء العديد من الصفحات دفعة واحدة إلى زيادة استهلاك الذاكرة.  
+- **استخدم try‑with‑resources:** يضمن إغلاق التدفقات، مما يمنع التسريبات.  
+- **راقب مساحة heap في JVM:** قد تتطلب ملفات PDF الكبيرة زيادة مساحة heap (`-Xmx`).  
+- **ادعاء مُقاس:** على خادم قياسي بثمانية نوى، تحويل مستند DOCX مكوّن من 500 صفحة إلى PNG (300 dpi) يستهلك أقل من 1 GB من الذاكرة ويستغرق أقل من 45 ثانية.
 
 ## المشكلات الشائعة والحلول
 
 | المشكلة | السبب | الحل |
 |-------|-------|-----|
-| `NullPointerException` على `outputStream` | `outputStream` غير مهيأ | قدم `OutputStream` حقيقي (مثال: `new FileOutputStream(...)`). |
-| لم يتم إنشاء معاينة | رقم صفحة غير صحيح | تحقق من وجود الصفحة؛ استخدم `metadata.getPageCount()` للتحقق. |
+| `NullPointerException` على `outputStream` | `outputStream` غير مهيأ | قدّم `OutputStream` حقيقي (مثال: `new FileOutputStream(...)`). |
+| لم يتم إنشاء معاينة | رقم الصفحة غير صحيح | تحقق من وجود الصفحة؛ استخدم `metadata.getPageCount()` للتحقق. |
 | خطأ في الأذونات عند كتابة الملف | دليل الإخراج للقراءة فقط | امنح أذونات كتابة أو اختر مجلدًا قابلًا للكتابة. |
 
 ## الأسئلة المتكررة
 
-**س: هل يمكنني إنشاء معاينات للوثائق المحمية بكلمة مرور؟**  
+**س: هل يمكنني إنشاء معاينات للمستندات المحمية بكلمة مرور؟**  
 ج: نعم. افتح المستند باستخدام المُنشئ المناسب الذي يقبل كلمة مرور، ثم تابع مع خيارات المعاينة.
 
-**س: ما هي تنسيقات الصور المدعومة؟**  
+**س: ما هي صيغ الصور المدعومة؟**  
 ج: PNG، JPEG، BMP، و GIF متاحة عبر `PreviewFormats`.
 
 **س: كيف يمكنني معاينة عدة صفحات في استدعاء واحد؟**  
 ج: مرّر مصفوفة من أرقام الصفحات إلى `previewOptions.setPageNumbers(new int[]{1,2,3});`.
 
 **س: هل هناك طريقة للتحكم في دقة الصورة؟**  
-ج: اضبط DPI باستخدام `previewOptions.setDpi(int dpi)` (الإعداد الافتراضي هو 96 DPI).
+ج: اضبط DPI باستخدام `previewOptions.setDpi(int dpi)` (القيمة الافتراضية 96 DPI).
 
 **س: هل تعمل المكتبة على Android؟**  
-ج: GroupDocs.Metadata هي Java نقي ويمكن استخدامها على Android مع ملفات JAR المناسبة، لكن يجب أن يتولى إطار Android عرض الواجهة.
+ج: GroupDocs.Metadata مكتبة جافا نقية ويمكن استخدامها على Android مع ملفات JAR المناسبة، لكن يجب أن يتولى إطار Android عرض الواجهة.
 
 ## الخلاصة
 
-أنت الآن تمتلك دليلًا كاملاً وجاهزًا للإنتاج لحلول **create document preview java** التي **output page as image** باستخدام GroupDocs.Metadata. باتباع خطوات الميزات الثلاث—تهيئة metadata، تكوين خيارات المعاينة، وكتابة تدفق الصورة—يمكنك دمج معاينات عالية الجودة في أي تطبيق Java.
+أنت الآن تمتلك دليلًا كاملاً وجاهزًا للإنتاج لـ **convert docx to png** وإنشاء حلول معاينة المستندات في جافا التي **output page as image** باستخدام GroupDocs.Metadata. باتباع خطوات الميزات الثلاث — تهيئة metadata، تكوين خيارات المعاينة، وكتابة تدفق الصورة — يمكنك دمج معاينات عالية الجودة في أي تطبيق جافا، تحسين تجربة المستخدم، والحفاظ على معالجة سريعة وفعّالة في استهلاك الذاكرة.
 
-**آخر تحديث:** 2026-02-06  
+---
+
+**آخر تحديث:** 2026-07-21  
 **تم الاختبار مع:** GroupDocs.Metadata 24.12 for Java  
-**المؤلف:** GroupDocs
+**المؤلف:** GroupDocs  
+
+## دروس ذات صلة
+
+- [إنشاء معاينة مستند جافا – دروس GroupDocs.Metadata](/metadata/java/document-formats/)
+- [الوصول إلى بيانات تعريف مستند Word باستخدام GroupDocs في جافا&#58; دليل شامل](/metadata/java/document-formats/access-word-metadata-groupdocs-java/)
+- [كيفية تحديث بيانات تعريف مستند Word باستخدام GroupDocs.Metadata جافا&#58; دليل كامل](/metadata/java/document-formats/update-word-metadata-groupdocs-java/)

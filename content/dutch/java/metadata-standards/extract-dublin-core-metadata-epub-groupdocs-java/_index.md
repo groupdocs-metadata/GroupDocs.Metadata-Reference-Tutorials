@@ -1,20 +1,18 @@
 ---
 date: '2026-07-16'
-description: Learn how to extract metadata from EPUB files using GroupDocs.Metadata
-  for Java. This guide covers setup, implementation, and practical applications.
-images:
-- /java/metadata-standards/extract-dublin-core-metadata-epub-groupdocs-java/og-image.png
+description: Leer hoe u metadata uit EPUB‑bestanden kunt extraheren met GroupDocs.Metadata
+  voor Java. Deze gids behandelt installatie, implementatie en praktische toepassingen.
 keywords:
 - how to extract metadata
 - how to read metadata
 - metadata extraction java
 - groupdocs metadata java
 lastmod: '2026-07-16'
-og_description: How to extract metadata from EPUB files using GroupDocs.Metadata for
-  Java. Follow step‑by‑step setup, code snippets, and real‑world use cases.
+og_description: Hoe metadata uit EPUB‑bestanden te extraheren met GroupDocs.Metadata
+  voor Java. Volg een stapsgewijze installatie, code‑fragmenten en praktijkvoorbeelden.
 og_image_alt: Guide showing how to extract metadata from EPUB files with GroupDocs.Metadata
   Java
-og_title: How to Extract Metadata from EPUB Files – GroupDocs.Metadata Java Guide
+og_title: Hoe metadata uit EPUB‑bestanden te extraheren – GroupDocs.Metadata Java‑gids
 schemas:
 - author: GroupDocs
   dateModified: '2026-07-16'
@@ -44,39 +42,39 @@ tags:
 - epub metadata
 - groupdocs metadata
 - java ebook processing
-title: How to Extract Metadata from EPUB Files Using GroupDocs.Metadata in Java
+title: Hoe metadata uit EPUB‑bestanden te extraheren met GroupDocs.Metadata in Java
 type: docs
-url: /java/metadata-standards/extract-dublin-core-metadata-epub-groupdocs-java/
+url: /nl/java/metadata-standards/extract-dublin-core-metadata-epub-groupdocs-java/
 weight: 1
 ---
 
-# How to Extract Metadata from EPUB Files Using GroupDocs.Metadata in Java
+# Hoe metadata uit EPUB‑bestanden extraheren met GroupDocs.Metadata in Java
 
-Extracting **how to extract metadata** from EPUB files is a common requirement for anyone building digital‑library solutions, e‑book stores, or research tools. In this tutorial you’ll learn a clear, step‑by‑step way to use the GroupDocs.Metadata Java library to pull Dublin Core fields such as title, creator, and publisher directly from an EPUB file. By the end you’ll be able to integrate metadata extraction into any Java backend with just a few lines of code.
+Extracting **hoe metadata te extraheren** from EPUB files is a common requirement for anyone building digital‑library solutions, e‑book stores, or research tools. In this tutorial you’ll learn a clear, step‑by‑step way to use the GroupDocs.Metadata Java library to pull Dublin Core fields such as title, creator, and publisher directly from an EPUB file. By the end you’ll be able to integrate metadata extraction into any Java backend with just a few lines of code.
 
-## Quick Answers
-- **What library handles EPUB metadata?** GroupDocs.Metadata for Java.
-- **Which metadata standard is used?** Dublin Core, the de‑facto standard for e‑book description.
-- **Do I need Maven?** Maven is recommended, but you can also download the JAR manually.
-- **Is a license required?** A free temporary license works for evaluation; a paid license is needed for production.
-- **Can I process many files at once?** Yes—batch processing is supported and works efficiently with low memory overhead.
+## Snelle antwoorden
+- **Welke bibliotheek verwerkt EPUB-metadata?** GroupDocs.Metadata for Java.
+- **Welke metadata‑standaard wordt gebruikt?** Dublin Core, de de‑facto standaard voor e‑book‑beschrijvingen.
+- **Heb ik Maven nodig?** Maven wordt aanbevolen, maar je kunt de JAR ook handmatig downloaden.
+- **Is een licentie vereist?** Een gratis tijdelijke licentie werkt voor evaluatie; een betaalde licentie is nodig voor productie.
+- **Kan ik veel bestanden tegelijk verwerken?** Ja—batchverwerking wordt ondersteund en werkt efficiënt met een lage geheugengebruik.
 
-## What is metadata extraction?
+## Wat is metadata‑extractie?
 Metadata extraction is the process of reading descriptive information (such as title, author, and language) that is embedded inside a file. In the context of EPUB, this usually follows the Dublin Core standard, which defines a set of 15 core elements for describing digital resources.
 
-## Why use GroupDocs.Metadata for Java?
+## Waarom GroupDocs.Metadata voor Java gebruiken?
 GroupDocs.Metadata supports **50+ input and output formats**, including EPUB, PDF, DOCX, and HTML, and can handle files up to **2 GB** without loading the entire document into memory. Its API is fully typed, thread‑safe, and requires no external dependencies, making it ideal for high‑throughput server environments.
 
-## Prerequisites
-- **Java Development Kit (JDK) 8 or newer** installed.
-- An IDE such as IntelliJ IDEA, Eclipse, or NetBeans.
-- Maven (recommended) or the ability to add external JARs to your classpath.
-- A valid GroupDocs.Metadata license (trial or paid).
+## Vereisten
+- **Java Development Kit (JDK) 8 of nieuwer** geïnstalleerd.
+- Een IDE zoals IntelliJ IDEA, Eclipse of NetBeans.
+- Maven (aanbevolen) of de mogelijkheid om externe JAR‑bestanden aan je classpath toe te voegen.
+- Een geldige GroupDocs.Metadata‑licentie (trial of betaald).
 
-## Setting Up GroupDocs.Metadata for Java
+## GroupDocs.Metadata voor Java instellen
 To start extracting metadata, first add the library to your project.
 
-### Maven Setup
+### Maven‑configuratie
 Add the following configuration to your `pom.xml` file to include GroupDocs.Metadata in your project:
 
 ```xml
@@ -97,19 +95,19 @@ Add the following configuration to your `pom.xml` file to include GroupDocs.Meta
 </dependencies>
 ```
 
-### Direct Download
+### Directe download
 Alternatively, download the latest version from [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-### License Acquisition
+### Licentie‑acquisitie
 To get started with a trial or purchase a license:
-- Visit the GroupDocs website to request a free temporary license.
-- Follow their guidance on applying the license in your application.
+- Bezoek de GroupDocs‑website om een gratis tijdelijke licentie aan te vragen.
+- Volg hun richtlijnen voor het toepassen van de licentie in je applicatie.
 
-## How to extract metadata from an EPUB file using GroupDocs.Metadata?
+## Hoe metadata uit een EPUB‑bestand extraheren met GroupDocs.Metadata?
 `Metadata` is the primary class that opens an EPUB file and provides access to its metadata.  
 Load the EPUB with a `Metadata` instance, navigate to the Dublin Core package, and read the desired fields. This entire workflow can be performed in **under 10 lines of Java** and completes in milliseconds for typical e‑book sizes.
 
-### Step 1: Initialize the Metadata Object
+### Stap 1: Initialiseer het Metadata‑object
 The `Metadata` class is the entry point that represents the EPUB file and gives you access to its internal packages.
 
 ```java
@@ -124,7 +122,7 @@ public class EpubDublinCoreExtractor {
             EpubRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### Step 2: Access the Dublin Core Package
+### Stap 2: Toegang tot het Dublin Core‑pakket
 The `DublinCorePackage` class exposes Dublin Core elements such as title, creator, and publisher, allowing you to read them directly.
 
 ```java
@@ -142,69 +140,69 @@ String date = root.getDublinCorePackage().getDate();
 }
 ```
 
-#### Explanation of Code Snippets
-- **`Metadata`** – Represents your EPUB file in memory and provides methods to open specific metadata packages.
-- **`EpubRootPackage`** – Gives you the root structure of the EPUB, from which you can retrieve the Dublin Core package.
-- **`DublinCorePackage`** – Contains getters for standard Dublin Core properties like `title()`, `creator()`, `publisher()`, `rights()`, `language()`, and `date()`.
+#### Uitleg van code‑fragmenten
+- **`Metadata`** – Vertegenwoordigt je EPUB‑bestand in het geheugen en biedt methoden om specifieke metadata‑pakketten te openen.
+- **`EpubRootPackage`** – Geeft je de root‑structuur van de EPUB, waaruit je het Dublin Core‑pakket kunt ophalen.
+- **`DublinCorePackage`** – Bevat getters voor standaard Dublin Core‑eigenschappen zoals `title()`, `creator()`, `publisher()`, `rights()`, `language()`, en `date()`.
 
-#### Troubleshooting Tips
+#### Probleemoplossingstips
 - Verify the file path is correct and the application has read permissions.
 - If any property returns `null`, the EPUB may not contain that specific Dublin Core element; you can safely skip or provide a default value.
 
-## How to read metadata from other formats?
+## Hoe metadata lezen uit andere formaten?
 GroupDocs.Metadata follows the same pattern for PDF, DOCX, and other supported formats. Simply replace the `EpubRootPackage` with the appropriate root package (e.g., `PdfRootPackage`) and access the corresponding metadata class. This uniform API means you can build a single service that handles **metadata extraction java** for dozens of file types.
 
-## Practical Applications
+## Praktische toepassingen
 Extracting Dublin Core metadata from EPUB files unlocks many real‑world scenarios:
-1. **Digital Libraries** – Enrich catalog entries with searchable titles, authors, and subjects.
-2. **E‑book Retailers** – Auto‑populate product pages, improving discoverability on storefronts.
-3. **Content Management Systems** – Tag and organize large collections without manual entry.
-4. **Academic Research** – Harvest consistent citation data across thousands of e‑books for analysis.
+1. **Digitale bibliotheken** – Verrijk catalogusvermeldingen met doorzoekbare titels, auteurs en onderwerpen.
+2. **E‑book‑winkeliers** – Vul productpagina's automatisch in, waardoor de vindbaarheid in winkels verbetert.
+3. **Content‑managementsystemen** – Tag en organiseer grote collecties zonder handmatige invoer.
+4. **Academisch onderzoek** – Verzamel consistente citatiegegevens uit duizenden e‑books voor analyse.
 
-### Integration Possibilities
-- **Database Storage** – Persist extracted fields in a relational database for fast queries.
-- **RESTful API** – Expose a `/metadata` endpoint that returns JSON‑formatted Dublin Core data on demand.
-- **Batch Jobs** – Use Java’s `ExecutorService` to process hundreds of EPUBs concurrently while keeping memory usage low.
+### Integratiemogelijkheden
+- **Database‑opslag** – Sla geëxtraheerde velden op in een relationele database voor snelle queries.
+- **RESTful API** – Maak een `/metadata`‑endpoint beschikbaar dat on‑request JSON‑geformatteerde Dublin Core‑gegevens retourneert.
+- **Batch‑taken** – Gebruik Java’s `ExecutorService` om honderden EPUB‑bestanden gelijktijdig te verwerken terwijl het geheugengebruik laag blijft.
 
-## Performance Considerations
+## Prestatie‑overwegingen
 When using GroupDocs.Metadata in Java:
 - **Memory Management** – Use try‑with‑resources to automatically close the `Metadata` object, preventing leaks.
 - **Batch Processing** – Process files in streams rather than loading them all at once; the library streams data efficiently.
 - **JVM Tuning** – Adjust the heap size (`-Xmx`) based on the average EPUB size; for files under 100 MB, the default heap is sufficient.
 
-## Frequently Asked Questions
+## Veelgestelde vragen
 
-**Q: Can I extract metadata from formats other than EPUB?**  
+**Q: Kan ik metadata extraheren uit formaten anders dan EPUB?**  
 A: Yes, GroupDocs.Metadata supports over 50 formats, including PDF, DOCX, PPTX, and HTML, using the same extraction pattern.
 
-**Q: How should I handle missing Dublin Core properties?**  
+**Q: Hoe moet ik omgaan met ontbrekende Dublin Core‑eigenschappen?**  
 A: Check each getter for `null` before use; you can substitute a default string or skip the field in your output.
 
-**Q: What if my project doesn’t use Maven?**  
+**Q: Wat als mijn project geen Maven gebruikt?**  
 A: Download the JAR from the release page and add it to your classpath manually; the API remains identical.
 
-**Q: Is there a limit on how many files I can process?**  
+**Q: Is er een limiet op hoeveel bestanden ik kan verwerken?**  
 A: No hard limit, but performance depends on system resources; batch processing and proper memory tuning are recommended for large volumes.
 
-**Q: How do I troubleshoot extraction failures?**  
+**Q: Hoe los ik extractiefouten op?**  
 A: Review stack traces for `MetadataException`, ensure the EPUB complies with the Open Packaging Format, and verify that Dublin Core elements are present.
 
-## Resources
-- **Documentation**: [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)
-- **API Reference**: [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)
+## Bronnen
+- **Documentatie**: [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)
+- **API‑referentie**: [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)
 - **Download**: [Latest Release Downloads](https://releases.groupdocs.com/metadata/java/)
-- **GitHub Repository**: [GroupDocs.Metadata for Java on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
-- **Free Support Forum**: [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)
-- **Temporary License**: [Apply for a Temporary License](https://purchase.groupdocs.com/temporary-license/)
+- **GitHub‑repository**: [GroupDocs.Metadata for Java on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- **Gratis ondersteuningsforum**: [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)
+- **Tijdelijke licentie**: [Apply for a Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 
-**Last Updated:** 2026-07-16  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs
+**Laatst bijgewerkt:** 2026-07-16  
+**Getest met:** GroupDocs.Metadata 24.12 for Java  
+**Auteur:** GroupDocs
 
-## Related Tutorials
+## Gerelateerde tutorials
 
-- [How to Update EPUB Dublin Core Metadata Using Java and GroupDocs.Metadata](/metadata/java/e-book-formats/update-epub-dublin-core-metadata-java-groupdocs/)
-- [Master EPUB Metadata Extraction Using GroupDocs.Metadata in Java](/metadata/java/e-book-formats/master-epub-metadata-extraction-groupdocs-metadata-java/)
-- [How to Extract Dublin Core Metadata Using GroupDocs.Metadata for Java: A Complete Guide](/metadata/java/metadata-standards/extract-dublin-core-metadata-groupdocs-java/)
+- [Hoe EPUB Dublin Core‑metadata bijwerken met Java en GroupDocs.Metadata](/metadata/java/e-book-formats/update-epub-dublin-core-metadata-java-groupdocs/)
+- [Beheers EPUB‑metadata‑extractie met GroupDocs.Metadata in Java](/metadata/java/e-book-formats/master-epub-metadata-extraction-groupdocs-metadata-java/)
+- [Hoe Dublin Core‑metadata extraheren met GroupDocs.Metadata voor Java: Een volledige gids](/metadata/java/metadata-standards/extract-dublin-core-metadata-groupdocs-java/)

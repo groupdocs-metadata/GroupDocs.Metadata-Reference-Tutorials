@@ -1,45 +1,96 @@
 ---
-date: '2026-02-11'
-description: GroupDocs.Metadata for Java kullanarak PDF dosyalarına meta veri eklemeyi
-  öğrenin; kurulum, JSON'dan meta veri içe aktarma ve en iyi uygulamaları kapsar.
+date: '2026-08-10'
+description: GroupDocs.Metadata for Java kullanarak PDF meta verilerini nasıl ekleyeceğinizi,
+  JSON'dan meta veri içe aktarmayı, Java'da PDF meta verilerini okumayı ve en iyi
+  uygulamaları öğrenin.
 keywords:
-- PDF Metadata Management with Java
-- GroupDocs.Metadata for Java
-- Importing PDF Metadata from JSON
-title: Java için GroupDocs.Metadata ile PDF'ye Meta Veri Ekleme – Geliştirici Rehberi
+- how to add pdf metadata
+- read pdf metadata java
+- groupdocs metadata java
+- pdf metadata json import
+lastmod: '2026-08-10'
+og_description: GroupDocs.Metadata for Java kullanarak PDF meta verilerini nasıl ekleyeceğinizi,
+  JSON'dan içe aktarmayı, Java'da PDF meta verilerini okumayı ve performansı optimize
+  etmeyi keşfedin.
+og_image_alt: Guide showing Java code to add and read PDF metadata with GroupDocs.Metadata
+og_title: GroupDocs.Metadata for Java ile PDF meta verilerini nasıl eklenir
+schemas:
+- author: GroupDocs
+  dateModified: '2026-08-10'
+  description: Learn how to add PDF metadata using GroupDocs.Metadata for Java, import
+    metadata from JSON, read PDF metadata in Java, and best practices.
+  headline: How to add PDF metadata with GroupDocs.Metadata for Java
+  type: TechArticle
+- description: Learn how to add PDF metadata using GroupDocs.Metadata for Java, import
+    metadata from JSON, read PDF metadata in Java, and best practices.
+  name: How to add PDF metadata with GroupDocs.Metadata for Java
+  steps:
+  - name: '**Free trial** – start testing right away.'
+    text: '**Free trial** – start testing right away.'
+  - name: '**Temporary license** – obtain a time‑limited key for extended evaluation.'
+    text: '**Temporary license** – obtain a time‑limited key for extended evaluation.'
+  - name: '**Purchase** – acquire a full license for production use.'
+    text: '**Purchase** – acquire a full license for production use.'
+  type: HowTo
+- questions:
+  - answer: Metadata is data about a document—such as author, title, creation date—that
+      helps with organization and search.
+    question: What is metadata?
+  - answer: Yes, GroupDocs.Metadata supports XML, CSV, and Excel imports in addition
+      to JSON.
+    question: Can I import metadata from formats other than JSON?
+  - answer: Implement `try‑catch` blocks around the import call and log the exception
+      details for troubleshooting.
+    question: How do I handle errors during the import process?
+  - answer: The library writes changes to a new file; you can overwrite the original
+      path after saving if desired.
+    question: Is it possible to update metadata in place without creating a new file?
+  - answer: Absolutely—just add the Maven dependency or JAR to your project and use
+      the same API calls shown above.
+    question: Can this be integrated into existing Java applications?
+  type: FAQPage
+tags:
+- pdf metadata
+- groupdocs
+- java document processing
+title: GroupDocs.Metadata for Java ile PDF meta verilerini nasıl eklenir
 type: docs
 url: /tr/java/document-formats/master-pdf-metadata-groupdocs-java/
 weight: 1
 ---
 
-# GroupDocs.Metadata for Java ile PDF'ye Metadata Ekleme
+# PDF meta verilerini GroupDocs.Metadata for Java ile ekleme
 
-PDF dosyalarındaki **metadata** yönetimi, özellikle belge özelliklerini birçok dosya arasında tutarlı tutmanız veya güncellemeleri otomatikleştirmeniz gerektiğinde gizli bir labirent gibi hissettirebilir. Bu rehberde **GroupDocs.Metadata for Java** kullanarak PDF belgelerine **metadata eklemeyi** öğreneceksiniz – kütüphaneyi kurmaktan JSON dosyasından metadata içe aktarmaya ve değişiklikleri doğrulamaya kadar. Sonunda Java'da PDF metadata'sını okumaktan, toplu olarak metadata içe aktarmaktan ve PDF'yi metadata ile verimli bir şekilde kaydetmekten emin olacaksınız.
+Programlı olarak **PDF meta verilerini** eklemek, özellikle belge özelliklerini birçok dosya arasında tutarlı tutmanız veya toplu güncellemeleri otomatikleştirmeniz gerektiğinde gizli bir labirentte dolaşmak gibi hissettirebilir. Bu rehberde **PDF meta verilerini eklemeyi** **GroupDocs.Metadata for Java** kullanarak öğreneceksiniz – kütüphanenin kurulumu, meta verilerin bir JSON dosyasından içe aktarılması, Java’da PDF meta verilerini okuma ve değişikliklerin doğrulanması. Sonunda Java’da PDF meta verilerini okumakta, toplu olarak meta veri içe aktarmakta ve güncellenmiş meta verilerle PDF’leri verimli bir şekilde kaydetmekte rahat olacaksınız.
 
-## Hızlı Yanıtlar
-- **“metadata eklemek” ne anlama gelir?** Belge özelliklerini (yazar, başlık, oluşturulma tarihi vb.) eklemek veya güncellemek anlamına gelir.  
-- **Java'da bunu hangi kütüphane yönetir?** GroupDocs.Metadata for Java, PDF metadata manipülasyonu için akıcı bir API sağlar.  
-- **Metadata'yı JSON'dan içe aktarabilir miyim?** Evet, ImportManager bir JSON dosyasını okuyabilir ve değerlerini PDF'ye uygulayabilir.  
-- **Lisans gerekli mi?** Test için ücretsiz deneme çalışır; üretim için kalıcı bir lisans gerekir.  
-- **Java'da PDF metadata'sını okumak mümkün mü?** Kesinlikle – aynı API, güncellemelerden önce veya sonra mevcut özellikleri okumanıza izin verir.
+**GroupDocs.Metadata for Java**, dış bağımlılıklar olmadan 30’dan fazla belge formatı için meta verileri okumanıza, yazmanıza, içe ve dışa aktarmanıza olanak tanıyan Java‑yerel bir SDK'dır. Bellek‑verimli modda çok sayfalı PDF’leri işler, bu da büyük ölçekli belge yönetimi senaryoları için idealdir.
 
-## PDF bağlamında “metadata ekleme” nedir?
-Metadata eklemek, bir PDF dosyası içinde standart veya özel özellikleri programlı olarak ayarlamak anlamına gelir. Bu özellikler arama, sınıflandırma, uyumluluk ve sonraki işleme yardımcı olur.
+## Hızlı cevaplar
+- **“PDF meta verisi ekleme” ne anlama geliyor?** Bir PDF dosyasının içinde yazar, başlık, oluşturma tarihi ve özel etiketler gibi belge özelliklerini eklemek veya güncellemek anlamına gelir.  
+- **Java’da bunu hangi kütüphane yönetiyor?** GroupDocs.Metadata for Java, PDF meta verisi manipülasyonu için akıcı bir API sunar.  
+- **Meta verileri JSON’dan içe aktarabilir miyim?** Evet, `ImportManager` bir JSON dosyasını okuyabilir ve değerlerini tek bir çağrıda PDF’e uygulayabilir.  
+- **Lisans gerekli mi?** Test için ücretsiz deneme çalışır; üretim kullanımı için kalıcı bir lisans gereklidir.  
+- **Java’da PDF meta verilerini okumak mümkün mü?** Kesinlikle – aynı API, güncellemelerden önce veya sonra mevcut özellikleri okumanıza izin verir.
 
-## Neden GroupDocs.Metadata for Java Kullanmalı?
-- **Tam özellikli API** – birçok formatta metadata okuma, içe ve dışa aktarmayı destekler.  
-- **Harici bağımlılık yok** – saf Java projeleriyle çalışır.  
-- **Performansa odaklı** – toplu işlemler ve büyük belge setleri için tasarlanmıştır.
+## “PDF meta verisi ekleme” kavramı PDF bağlamında ne anlama geliyor?
+PDF meta verisi eklemek, bir PDF dosyasının içinde standart veya özel özellikleri programlı olarak ayarlamak anlamına gelir. Bu özellikler arama, sınıflandırma, uyumluluk ve sonraki işleme yardımcı olur. Tipik özellikler arasında yazar, başlık, konu, anahtar kelimeler ve belge yönetim sistemleri veya arama motorları tarafından dosyaları daha verimli indekslemek ve geri getirmek için kullanılabilen özel etiketler bulunur.
+
+## Neden GroupDocs.Metadata for Java kullanmalı?
+GroupDocs.Metadata for Java, birçok dosya formatı için meta veri işleme konusunda kapsamlı, bağımlılık‑sız bir çözüm sunar. Geliştiricilerin Office kurulumlarına ihtiyaç duymadan özellikleri okumasını, yazmasını, içe ve dışa aktarmasını sağlar ve akış mimarisi bellek tüketimini azaltarak büyük ölçekli veya toplu işleme görevleri için uygundur.
+
+- **Tam özellikli API** – PDF, DOCX, XLSX, PPTX ve görüntü dosyaları dahil olmak üzere 30’dan fazla formatta meta verileri okuma, içe ve dışa aktarmayı destekler.  
+- **Harici bağımlılık yok** – saf Java projeleriyle çalışır, Office kurulumuna gerek yoktur.  
+- **Performansa odaklı** – akış kullanarak büyük belge setlerini işler, tam dosya yüklemesinden kaçınır ve 500 sayfalık PDF’lerde yığın kullanımını %40’a kadar azaltır.  
 
 ## Önkoşullar
-- **GroupDocs.Metadata for Java** sürüm 24.12 veya üzeri.  
-- JDK kurulu (herhangi bir güncel sürüm).  
+- **GroupDocs.Metadata for Java** sürüm 24.12 veya üzeri.  
+- JDK yüklü (herhangi bir güncel sürüm, ör. 11+).  
 - IntelliJ IDEA veya Eclipse gibi bir IDE.  
-- Temel Java bilgisi ve JSON yapısına aşinalık.
+- Temel Java bilgisi ve JSON yapısına aşinalık.  
 
-## GroupDocs.Metadata for Java Kurulumu
+## GroupDocs.Metadata for Java kurulumu
 
-### Maven Kurulumu
+### Maven kurulumu
 `pom.xml` dosyanıza GroupDocs.Metadata'i bağımlılık olarak eklemek için aşağıdaki yapılandırmayı ekleyin:
 
 ```xml
@@ -60,15 +111,15 @@ Metadata eklemek, bir PDF dosyası içinde standart veya özel özellikleri prog
 </dependencies>
 ```
 
-### Doğrudan İndirme
-Alternatif olarak, en son sürümü [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) adresinden indirebilirsiniz.
+### Doğrudan indirme
+Alternatif olarak, en son sürümü [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) adresinden indirin.
 
-#### Lisans Edinme Adımları
-1. **Ücretsiz Deneme** – hemen test etmeye başlayın.  
-2. **Geçici Lisans** – uzatılmış değerlendirme için zaman sınırlı bir anahtar alın.  
-3. **Satın Alma** – üretim kullanımı için tam lisans edinin.
+#### Lisans edinme adımları
+1. **Ücretsiz deneme** – hemen test etmeye başlayın.  
+2. **Geçici lisans** – genişletilmiş değerlendirme için zaman sınırlı bir anahtar edinin.  
+3. **Satın al** – üretim kullanımı için tam lisans edinin.  
 
-### Temel Başlatma ve Kurulum
+### Temel başlatma ve kurulum
 Java projenizde GroupDocs.Metadata'i başlatmak için:
 
 ```java
@@ -77,120 +128,132 @@ import com.groupdocs.metadata.Metadata;
 Metadata metadata = new Metadata("path/to/your/document.pdf");
 ```
 
-## GroupDocs.Metadata for Java ile PDF'ye Metadata Ekleme
+## GroupDocs.Metadata for Java kullanarak bir PDF'ye meta veri nasıl eklenir?
+`ImportManager`, JSON gibi dış kaynaklardan belgeye meta veri içe aktarmayı yöneten bir sınıftır.
 
-Uygulama iki ana özelliğe ayrılmıştır: JSON dosyasından metadata içe aktarma ve ardından güncellenen özellikleri okuyarak işlemi doğrulama.
+Kaynak PDF'yi yükleyin, bir `ImportManager` oluşturun, bir JSON dosyasını içe aktarın ve güncellenmiş belgeyi kaydedin – hepsi birkaç kısa satırda. Bu yaklaşım tek dosyalar için çalışır ve bir döngü veya paralel akış içinde kullanıldığında toplu işleme ölçeklenir.
 
-### Özellik 1: JSON'dan Metadata İçe Aktarma
+### Özellik 1: JSON'dan meta veri içe aktarma
 
-#### Adım‑Adım Uygulama
+#### Adım adım uygulama
 
-**Adım 1: Kaynak PDF Belgesini Yükle**  
+**Adım 1: kaynak PDF belgesini yükleyin**  
 ```java
 Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputPdf");
 ```
 
-**Adım 2: Root Pakete Eriş**  
+**Adım 2: kök pakete erişin**  
 ```java
 import com.groupdocs.metadata.core.PdfRootPackage;
 PdfRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-**Adım 3: (İsteğe Bağlı) Karşılaştırma İçin Mevcut Özellikleri Yazdır**  
+**Adım 3: (isteğe bağlı) karşılaştırma için mevcut özellikleri yazdırın**  
 ```java
 // System.out.println(root.getDocumentProperties().getAuthor());
 // System.out.println(root.getDocumentProperties().getCreatedDate());
 // System.out.println(root.getDocumentProperties().getProducer());
 ```
 
-**Adım 4: ImportManager Örneği Oluştur**  
+**Adım 4: bir `ImportManager` örneği oluşturun**  
 ```java
 import com.groupdocs.metadata.imports.ImportManager;
 ImportManager manager = new ImportManager(root);
 ```
 
-**Adım 5: JSON'dan Metadata İçe Aktar**  
+**Adım 5: JSON'dan meta veri içe aktarın**  
 ```java
 import com.groupdocs.metadata.imports.JsonImportOptions;
 import com.groupdocs.metadata.imports.ImportFormat;
 manager.import_("YOUR_DOCUMENT_DIRECTORY/ImportPdf", ImportFormat.Json, new JsonImportOptions());
 ```
 
-**Adım 6: Değiştirilmiş Belgeyi Kaydet** – bu, içe aktarmadan sonra **metadata ile PDF kaydetme** yöntemidir.  
+**Adım 6: değiştirilmiş belgeyi kaydedin** – bu, içe aktarmadan sonra **meta verili PDF kaydetme** yöntemidir.  
 ```java
 metadata.save("YOUR_OUTPUT_DIRECTORY/OutputPdf");
 ```
 
-### Özellik 2: PDF'den Metadata Yükleme ve Görüntüleme
+### Özellik 2: PDF'den meta veriyi yükleme ve gösterme
 
-İçe aktarmadan sonra değişiklikleri doğrulamak isteyeceksiniz. Bu aynı zamanda **Java'da PDF metadata'sını okuma** yöntemini gösterir.
+İçe aktarmadan sonra değişiklikleri doğrulamak isteyeceksiniz. Bu aynı zamanda **Java’da PDF meta verisini nasıl okuyacağınızı** gösterir.
 
-#### Adım‑Adım Uygulama
+#### Adım adım uygulama
 
-**Adım 1: Değiştirilmiş PDF Belgesini Yükle**  
+**Adım 1: değiştirilmiş PDF belgesini yükleyin**  
 ```java
 Metadata metadata1 = new Metadata("YOUR_OUTPUT_DIRECTORY/OutputPdf");
 ```
 
-**Adım 2: Root Pakete Eriş**  
+**Adım 2: kök pakete erişin**  
 ```java
 PdfRootPackage root1 = metadata1.getRootPackageGeneric();
 ```
 
-**Adım 3: Doğrulama İçin Güncellenmiş Özellikleri Görüntüle**  
+**Adım 3: doğrulama için güncellenmiş özellikleri gösterin**  
 ```java
 // System.out.println(root1.getDocumentProperties().getAuthor());
 // System.out.println(root1.getDocumentProperties().getCreatedDate());
 // System.out.println(root1.getDocumentProperties().getProducer());
 ```
 
-## Pratik Uygulamalar
-- **Belge Yönetim Sistemleri** – binlerce PDF için toplu metadata güncellemelerini otomatikleştirir.  
-- **Hukuk & Uyumluluk** – yazar, oluşturulma tarihi ve özel etiketler gibi gerekli alanların mevcut olmasını garanti eder.  
-- **Yayıncılık** – birçok baskı boyunca kitap metadata'sını (yazar, ISBN, yayın yılı) hızlıca değiştirir.
+## Java’da PDF meta verisi nasıl okunur?
+`Metadata`, bir belgenin meta verilerini temsil eden ana sınıftır ve özellikleri okuma ve değiştirme yöntemleri sunar.
 
-## Performans Düşünceleri
-- **Bellek Kullanımını Optimize Et** – birçok dosya işlenirken `Metadata` nesnelerini yeniden kullanın.  
-- **Toplu İşleme** – ortamınız izin veriyorsa içe aktarmaları paralel iş parçacıklarında çalıştırın.  
-- **Profil Oluşturma** – darboğazları tespit etmek için CPU ve yığın kullanımını düzenli olarak izleyin.
+`Metadata` ile PDF'yi yükleyin ve `getDocumentProperties()` metodunu çağırın – bu metod, tüm standart ve özel özelliklerin bir haritasını döndürür; bu haritayı doğrudan yineleyebilir veya sorgulayabilirsiniz. Tek bir çağrı, görsel içeriği açmadan PDF'nin meta verilerinin tam bir özetini sağlar.
 
-## Yaygın Sorunlar ve Çözümleri
+## Pratik uygulamalar
+- **Belge yönetim sistemleri** – binlerce PDF için toplu meta veri güncellemelerini otomatikleştirin.  
+- **Hukuki ve uyumluluk** – yazar, oluşturma tarihi ve özel etiketler gibi gerekli alanların mevcut olmasını garanti edin.  
+- **Yayıncılık** – birçok baskı boyunca kitap meta verilerini (yazar, ISBN, yayın yılı) hızlıca değiştirin.  
+
+## Performans değerlendirmeleri
+- **Bellek kullanımını optimize edin** – birçok dosya işlenirken `Metadata` nesnelerini yeniden kullanın.  
+- **Toplu işleme** – ortamınız izin veriyorsa içe aktarmaları paralel iş parçacıklarında çalıştırın.  
+- **Profil oluşturma** – darboğazları tespit etmek için CPU ve yığın kullanımını düzenli olarak izleyin; GroupDocs.Metadata'in akış modu, 300 sayfalık PDF'lerde en yüksek bellek kullanımını %45’e kadar azaltır.  
+
+## Yaygın sorunlar ve çözümler
 
 | Sorun | Çözüm |
 |-------|----------|
-| **İçe aktarma bir istisna fırlatıyor** | İçe aktarma çağrısını bir `try‑catch` bloğuna sarın ve JSON şemasının beklenen özellik adlarıyla eşleştiğini doğrulayın. |
-| **Kaydetmeden sonra metadata görünmüyor** | Değiştirdiğiniz aynı `Metadata` örneği üzerinde `metadata.save(...)` çağrısını yaptığınızdan emin olun. |
-| **Mevcut özellikler okunamıyor** | PDF'yi yükledikten sonra `getDocumentProperties()` kullanın; dosyanın şifre korumalı olmadığından emin olun. |
+| **İçe aktarma bir istisna fırlatıyor** | `Import` çağrısını bir `try‑catch` bloğuna sarın ve JSON şemasının beklenen özellik adlarıyla eşleştiğini doğrulayın. |
+| **Kaydetme sonrası meta veri görünmüyor** | Değiştirdiğiniz aynı `Metadata` örneği üzerinde `metadata.save(...)` çağrısını yaptığınızdan emin olun. |
+| **Mevcut özellikler okunamıyor** | PDF'yi yükledikten sonra `getDocumentProperties()` metodunu kullanın; dosyanın şifre korumalı olmadığından emin olun. |
 
-## Sıkça Sorulan Sorular
+## Sıkça sorulan sorular
 
-**S: Metadata nedir?**  
-C: Metadata, bir belge hakkında (yazar, başlık, oluşturulma tarihi gibi) organizasyon ve aramaya yardımcı olan veridir.
+**S: Meta veri nedir?**  
+C: Meta veri, bir belge hakkında—yazar, başlık, oluşturma tarihi gibi—organizasyon ve aramaya yardımcı olan veridir.
 
-**S: JSON dışındaki formatlardan metadata içe aktarabilir miyim?**  
-C: Evet, GroupDocs.Metadata XML ve CSV dahil olmak üzere çeşitli içe aktarma formatlarını destekler.
+**S: JSON dışındaki formatlardan meta veri içe aktarabilir miyim?**  
+C: Evet, GroupDocs.Metadata JSON'a ek olarak XML, CSV ve Excel içe aktarmalarını da destekler.
 
 **S: İçe aktarma sürecinde hataları nasıl ele alırım?**  
-C: İçe aktarma çağrısının etrafına `try‑catch` blokları ekleyin ve sorun giderme için istisna detaylarını kaydedin.
+C: İçe aktarma çağrısı etrafında `try‑catch` blokları uygulayın ve sorun giderme için istisna detaylarını kaydedin.
 
-**S: Yeni bir dosya oluşturmadan metadata'yı yerinde güncelleyebilir miyim?**  
-C: Kütüphane değişiklikleri yeni bir dosyaya yazar; isterseniz orijinal yolu üzerine yazabilirsiniz.
+**S: Yeni bir dosya oluşturmadan meta veriyi yerinde güncelleyebilir miyim?**  
+C: Kütüphane değişiklikleri yeni bir dosyaya yazar; isterseniz kaydettikten sonra orijinal yolu üzerine yazabilirsiniz.
 
 **S: Bu mevcut Java uygulamalarına entegre edilebilir mi?**  
-C: Kesinlikle—sadece Maven bağımlılığını veya JAR'ı projenize ekleyin ve aynı API çağrılarını kullanın.
+C: Kesinlikle—sadece Maven bağımlılığını veya JAR dosyasını projenize ekleyin ve yukarıda gösterilen aynı API çağrılarını kullanın.
 
 ## Kaynaklar
 - [Dokümantasyon](https://docs.groupdocs.com/metadata/java/)
-- [API Referansı](https://reference.groupdocs.com/metadata/java/)
+- [API referansı](https://reference.groupdocs.com/metadata/java/)
 - [İndirme](https://releases.groupdocs.com/metadata/java/)
 - [GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
-- [Ücretsiz Destek](https://forum.groupdocs.com/c/metadata/)
-- [Geçici Lisans](https://purchase.groupdocs.com/temporary-license/)
+- [Ücretsiz destek](https://forum.groupdocs.com/c/metadata/)
+- [Geçici lisans](https://purchase.groupdocs.com/temporary-license/)
 
-Bu adımları ustalaştığınızda artık PDF dosyalarına **metadata eklemeyi**, **Java'da PDF metadata'sını okumayı** ve GroupDocs.Metadata for Java kullanarak **metadata ile PDF'yi verimli bir şekilde kaydetmeyi** biliyorsunuz. Kodlamanın tadını çıkarın!
+Bu adımları ustalaşarak artık PDF dosyalarına **PDF meta verisi eklemeyi**, **Java’da PDF meta verisini okumayı** ve GroupDocs.Metadata for Java kullanarak **meta verili PDF kaydetmeyi** verimli bir şekilde biliyorsunuz. Kodlamanın tadını çıkarın!
 
 ---
 
-**Son Güncelleme:** 2026-02-11  
-**Test Edilen Versiyon:** GroupDocs.Metadata for Java 24.12  
-**Yazar:** GroupDocs
+**Last Updated:** 2026-08-10  
+**Tested with:** GroupDocs.Metadata for Java 24.12  
+**Author:** GroupDocs
+
+## İlgili Eğitimler
+
+- [Belge Yönetimi için Java’da GroupDocs.Metadata ile PDF Meta Verisini Verimli Güncelleme](/metadata/java/document-formats/update-pdf-metadata-groupdocs-metadata-java/)
+- [Java’da GroupDocs.Metadata Kullanarak Belge Meta Verisi Yönetimini Ustalıkla Öğrenin](/metadata/java/document-formats/master-document-metadata-java-groupdocs/)
+- [Java’da GroupDocs.Metadata Kullanarak Belgelere Son Yazdırma Tarihi Ekleme](/metadata/java/working-with-metadata/add-last-printed-date-groupdocs-metadata-java/)

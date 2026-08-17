@@ -301,32 +301,6 @@ A: Sử dụng diễn đàn cộng đồng: [Free Support Forum](https://forum.g
 **Kiểm tra với:** GroupDocs.Metadata 24.12 cho Java  
 **Tác giả:** GroupDocs
 
-Kiểm tra TẤT CẢ các vấn đề sau:
-
-STRUCTURAL ISSUES (phải sửa):
-1. Thiếu hoặc đã xóa các shortcode Hugo ({{< ... >}})
-2. Frontmatter YAML bị hỏng (dấu ngoặc không khớp, thiếu các trường bắt buộc)
-3. Các shortcode đóng của Hugo không ở cuối tệp
-4. Các phần trùng lặp (ví dụ: hai khối ## Quick Answers)
-5. Thiếu liên kết markdown — BẢN GỐC có 9 liên kết được liệt kê dưới đây. Mỗi liên kết phải xuất hiện trong đầu ra TỐI ƯU. Nếu thiếu, chèn lại vào ngữ cảnh gốc.
-
-REQUIRED LINKS:
-[GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)
-[Temporary License Page](https://purchase.groupdocs.com/temporary-license)
-[GroupDocs](https://purchase.groupdocs.com/)
-[Documentation](https://docs.groupdocs.com/metadata/java/)
-[API Reference](https://reference.groupdocs.com/metadata/java/)
-[Download](https://releases.groupdocs.com/metadata/java/)
-[GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
-[Free Support Forum](https://forum.groupdocs.com/c/metadata/)
-[Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
-GEO ISSUES (sửa cho các trang hướng dẫn chỉ, bỏ qua _index.md):
-6. Question-format H2 (bắt đầu bằng How/What/Why/When hoặc kết thúc bằng ?) mà không được theo sau bởi một đoạn trả lời trực tiếp dài 40‑70 từ (một khối code, danh sách, hoặc tiêu đề khác ngay sau câu hỏi H2 là vi phạm GEO)
-7. Lần đầu tiên đề cập đến một lớp hoặc phương thức quan trọng trong một phần mà không có câu định nghĩa (câu đơn ≤25 từ giải thích nó là gì)
-
-QUAN TRỌNG: Giữ nguyên tất cả các token CODE_BLOCK_PLACEHOLDER_N_END.
-
 ## Hướng dẫn liên quan
 - [Truy cập siêu dữ liệu tài liệu Word với GroupDocs trong Java: Hướng dẫn toàn diện](/metadata/java/document-formats/access-word-metadata-groupdocs-java/)
 - [Cách trích xuất siêu dữ liệu từ tài liệu Word bằng Java](/metadata/java/document-formats/extract-word-metadata-groupdocs-java/)

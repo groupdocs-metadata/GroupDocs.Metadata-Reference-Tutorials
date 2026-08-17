@@ -305,33 +305,6 @@ A: Használd a közösségi fórumot: [Free Support Forum](https://forum.groupdo
 
 Ellenőrizze az alábbi összes problémát:
 
-STRUKTURÁLIS PROBLÉMÁK (javítani kell):
-1. Hiányzó vagy eltávolított Hugo shortcodes ({{< ... >}})
-2. Hibás YAML frontmatter (páratlan idézőjelek, hiányzó kötelező mezők)
-3. Hugo záró shortcodes nem a fájl végén vannak
-4. Duplikált szakaszok (pl. két ## Gyors válaszok blokk)
-5. Hiányzó markdown linkek — az EREDETI 9 linket alább sorolja fel. Mindegyiknek meg kell jelennie az OPTIMALIZÁLT kimenetben. Ha valamelyik hiányzik, illessze vissza az eredeti kontextusban.
-
-SZÜKSÉGES LINKEK:
-- [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)
-- [Temporary License Page](https://purchase.groupdocs.com/temporary-license)
-- [GroupDocs](https://purchase.groupdocs.com/)
-- [Documentation](https://docs.groupdocs.com/metadata/java/)
-- [API Reference](https://reference.groupdocs.com/metadata/java/)
-- [Download](https://releases.groupdocs.com/metadata/java/)
-- [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
-- [Free Support Forum](https://forum.groupdocs.com/c/metadata/)
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
-GEO PROBLÉMÁK (csak oktatóoldalak esetén, _index.md esetén kihagyandó):
-6. Kérdés‑formátumú H2 (kezdődik How/What/Why/When vagy ?‑vel) amelyet nem követ 40‑70 szavas közvetlen válasz bekezdés (kódblokk, lista vagy más heading közvetlenül a kérdés H2 után GEO megsértés).
-7. Egy kulcsfontosságú osztály vagy metódus első említése egy szakaszban, amelynek nincs definíciós mondat (egyetlen, ≤25 szavas mondat, amely elmagyarázza, mi az).
-
-FONTOS: Tartsa meg pontosan az összes CODE_BLOCK_PLACEHOLDER_N_END tokeneket.
-
-Ha az optimalizált tartalom NINCS hibája, válaszoljon pontosan: OK  
-Ha vannak hibák, válaszoljon a teljes javított tartalommal csak — magyarázat, bevezető vagy utólagos szöveg nélkül.
-
 ## Kapcsolódó oktatóanyagok
 
 - [Word dokumentum metaadatok elérése GroupDocs-szal Java-ban: Átfogó útmutató](/metadata/java/document-formats/access-word-metadata-groupdocs-java/)

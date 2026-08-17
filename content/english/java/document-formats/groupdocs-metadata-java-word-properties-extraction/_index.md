@@ -303,34 +303,6 @@ A: Use the community forum: [Free Support Forum](https://forum.groupdocs.com/c/m
 **Tested With:** GroupDocs.Metadata 24.12 for Java  
 **Author:** GroupDocs
 
-Check for ALL of these issues:
-
-STRUCTURAL ISSUES (must fix):
-1. Missing or removed Hugo shortcodes ({{< ... >}})
-2. Broken YAML frontmatter (unmatched quotes, missing required fields)
-3. Hugo closing shortcodes not at the very end of the file
-4. Duplicate sections (e.g. two ## Quick Answers blocks)
-5. Missing markdown links — the ORIGINAL has 9 links listed below. Every one of them MUST appear in the OPTIMIZED output. If any are missing, insert them back in their original context.
-REQUIRED LINKS:
-[GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)
-[Temporary License Page](https://purchase.groupdocs.com/temporary-license)
-[GroupDocs](https://purchase.groupdocs.com/)
-[Documentation](https://docs.groupdocs.com/metadata/java/)
-[API Reference](https://reference.groupdocs.com/metadata/java/)
-[Download](https://releases.groupdocs.com/metadata/java/)
-[GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
-[Free Support Forum](https://forum.groupdocs.com/c/metadata/)
-[Temporary License](https://purchase.groupdocs.com/temporary-license/)
-
-GEO ISSUES (fix for tutorial pages only, skip for _index.md):
-6. Question-format H2 (starting with How/What/Why/When or ending in ?) that is NOT immediately followed by a 40-70 word direct answer paragraph (a code block, list, or another heading immediately after a question H2 is a GEO violation)
-7. First mention of a key class or method in a section that has no definition sentence (a single sentence of <=25 words explaining what it is)
-
-IMPORTANT: Preserve all CODE_BLOCK_PLACEHOLDER_N_END tokens exactly as-is.
-
-If the optimized content has NO issues, reply with exactly: OK
-If there are issues, reply with the fully corrected optimized content only — no explanations, no preamble.
-
 ## Related Tutorials
 
 - [Access Word Document Metadata with GroupDocs in Java&#58; A Comprehensive Guide](/metadata/java/document-formats/access-word-metadata-groupdocs-java/)

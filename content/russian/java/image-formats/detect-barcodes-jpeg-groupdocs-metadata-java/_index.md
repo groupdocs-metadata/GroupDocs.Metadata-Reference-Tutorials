@@ -186,8 +186,3 @@ A: Конечно. Библиотека работает со стандартн
 **Последнее обновление:** 2026-04-11  
 **Тестировано с:** GroupDocs.Metadata 24.12  
 **Автор:** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

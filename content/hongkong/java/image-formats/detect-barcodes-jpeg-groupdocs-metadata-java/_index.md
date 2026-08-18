@@ -186,8 +186,3 @@ A: 當然可以。此函式庫相容於標準 Java EE、Spring Boot 以及其他
 **最後更新：** 2026-04-11  
 **測試版本：** GroupDocs.Metadata 24.12  
 **作者：** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

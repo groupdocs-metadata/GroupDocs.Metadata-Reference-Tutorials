@@ -186,8 +186,3 @@ A: Tentu saja. Pustaka ini bekerja dengan Java EE standar, Spring Boot, dan kera
 **Terakhir Diperbarui:** 2026-04-11  
 **Diuji Dengan:** GroupDocs.Metadata 24.12  
 **Penulis:** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

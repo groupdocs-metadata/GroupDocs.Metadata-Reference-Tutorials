@@ -187,8 +187,3 @@ A: बिल्कुल। लाइब्रेरी मानक Java EE, Sp
 **अंतिम अपडेट:** 2026-04-11  
 **परीक्षण किया गया:** GroupDocs.Metadata 24.12  
 **लेखक:** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

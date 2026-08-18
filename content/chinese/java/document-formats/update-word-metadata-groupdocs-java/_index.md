@@ -176,8 +176,3 @@ A: 能。先将文件下载到本地（或流式读取），再将路径传递�
 - **GitHub 仓库：** [GroupDocs.Metadata-for-Java](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **免费支持论坛：** [GroupDocs Support](https://forum.groupdocs.com/c/metadata/)  
 - **临时许可证：** [Acquire a Temporary License](https://purchase.groupdocs.com/temporary-license)
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

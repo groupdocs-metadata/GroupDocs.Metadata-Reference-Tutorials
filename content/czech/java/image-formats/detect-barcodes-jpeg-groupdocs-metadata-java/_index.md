@@ -186,8 +186,3 @@ A: Rozhodně. Knihovna funguje se standardním Java EE, Spring Boot a dalšími 
 **Poslední aktualizace:** 2026-04-11  
 **Testováno s:** GroupDocs.Metadata 24.12  
 **Autor:** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

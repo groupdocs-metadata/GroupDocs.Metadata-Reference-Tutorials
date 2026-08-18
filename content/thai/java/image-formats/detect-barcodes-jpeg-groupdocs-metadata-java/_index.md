@@ -186,8 +186,3 @@ A: แน่นอน ไลบรารีทำงานร่วมกับ 
 **อัปเดตล่าสุด:** 2026-04-11  
 **ทดสอบกับ:** GroupDocs.Metadata 24.12  
 **ผู้เขียน:** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

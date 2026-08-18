@@ -186,8 +186,3 @@ A: 当然可以。该库兼容标准 Java EE、Spring Boot 以及其他框架。
 **最后更新：** 2026-04-11  
 **测试环境：** GroupDocs.Metadata 24.12  
 **作者：** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

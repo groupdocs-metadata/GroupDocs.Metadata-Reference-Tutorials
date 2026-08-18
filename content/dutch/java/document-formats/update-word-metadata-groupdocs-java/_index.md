@@ -178,8 +178,3 @@ A: Yes. Download the file locally (or stream it) before passing the path to `Met
 - **GitHub‑repository:** [GroupDocs.Metadata-for-Java](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Gratis ondersteuningsforum:** [GroupDocs Support](https://forum.groupdocs.com/c/metadata/)  
 - **Tijdelijke licentie:** [Acquire a Temporary License](https://purchase.groupdocs.com/temporary-license)
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

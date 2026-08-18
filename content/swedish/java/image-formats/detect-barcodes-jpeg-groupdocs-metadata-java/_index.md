@@ -186,8 +186,3 @@ A: Absolut. Biblioteket fungerar med standard‑Java EE, Spring Boot och andra r
 **Senast uppdaterad:** 2026-04-11  
 **Testat med:** GroupDocs.Metadata 24.12  
 **Författare:** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

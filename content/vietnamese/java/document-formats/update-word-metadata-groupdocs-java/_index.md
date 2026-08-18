@@ -178,8 +178,3 @@ A: Có. Tải tệp về máy cục bộ (hoặc stream) trước khi truyền �
 - **GitHub Repository:** [GroupDocs.Metadata-for-Java](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Free Support Forum:** [GroupDocs Support](https://forum.groupdocs.com/c/metadata/)  
 - **Temporary License:** [Acquire a Temporary License](https://purchase.groupdocs.com/temporary-license)
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

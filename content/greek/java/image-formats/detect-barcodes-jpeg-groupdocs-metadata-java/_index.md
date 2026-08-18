@@ -186,8 +186,3 @@ A: Απόλυτα. Η βιβλιοθήκη λειτουργεί με τυπικ�
 **Τελευταία Ενημέρωση:** 2026-04-11  
 **Δοκιμάστηκε Με:** GroupDocs.Metadata 24.12  
 **Συγγραφέας:** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

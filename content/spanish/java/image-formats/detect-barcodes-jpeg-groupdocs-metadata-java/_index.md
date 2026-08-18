@@ -186,8 +186,3 @@ A: Absolutamente. La biblioteca funciona con Java EE estándar, Spring Boot y ot
 **Última actualización:** 2026-04-11  
 **Probado con:** GroupDocs.Metadata 24.12  
 **Autor:** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

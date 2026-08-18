@@ -175,8 +175,3 @@ A: 能。先將檔案下載至本機（或串流），再傳遞路徑給 `Metada
 - **GitHub 倉庫：** [GroupDocs.Metadata-for-Java](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **免費支援論壇：** [GroupDocs Support](https://forum.groupdocs.com/c/metadata/)  
 - **臨時授權：** [Acquire a Temporary License](https://purchase.groupdocs.com/temporary-license)
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

@@ -175,8 +175,3 @@ A: Sì. Scarica il file localmente (o trasmettilo in streaming) prima di passare
 - **Repository GitHub:** [GroupDocs.Metadata-for-Java](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Forum di supporto gratuito:** [GroupDocs Support](https://forum.groupdocs.com/c/metadata/)  
 - **Licenza temporanea:** [Acquire a Temporary License](https://purchase.groupdocs.com/temporary-license)
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

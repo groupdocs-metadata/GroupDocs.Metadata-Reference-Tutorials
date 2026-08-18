@@ -187,8 +187,3 @@ A: Chắc chắn. Thư viện hoạt động với Java EE tiêu chuẩn, Spring
 **Cập nhật lần cuối:** 2026-04-11  
 **Kiểm tra với:** GroupDocs.Metadata 24.12  
 **Tác giả:** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

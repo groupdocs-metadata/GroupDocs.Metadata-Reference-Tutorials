@@ -177,8 +177,3 @@ metadata.save("YOUR_OUTPUT_DIRECTORY");
 - **مستودع GitHub:** [GroupDocs.Metadata-for-Java](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **منتدى الدعم المجاني:** [GroupDocs Support](https://forum.groupdocs.com/c/metadata/)  
 - **ترخيص مؤقت:** [الحصول على ترخيص مؤقت](https://purchase.groupdocs.com/temporary-license)
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

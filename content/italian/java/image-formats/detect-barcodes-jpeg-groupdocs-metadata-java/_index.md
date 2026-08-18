@@ -186,8 +186,3 @@ A: Assolutamente. La libreria funziona con Java EE standard, Spring Boot e altri
 **Ultimo aggiornamento:** 2026-04-11  
 **Testato con:** GroupDocs.Metadata 24.12  
 **Autore:** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

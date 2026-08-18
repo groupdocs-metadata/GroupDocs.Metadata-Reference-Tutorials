@@ -175,8 +175,3 @@ A: 예. `Metadata`에 경로를 전달하기 전에 파일을 로컬에 다운�
 - **GitHub 저장소:** [GroupDocs.Metadata-for-Java](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **무료 지원 포럼:** [GroupDocs Support](https://forum.groupdocs.com/c/metadata/)  
 - **임시 라이선스:** [Acquire a Temporary License](https://purchase.groupdocs.com/temporary-license)
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

@@ -178,8 +178,3 @@ A: Ja. Ladda ner filen lokalt (eller streama den) innan du skickar sökvägen ti
 - **GitHub‑arkiv:** [GroupDocs.Metadata-for-Java](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Gratis supportforum:** [GroupDocs Support](https://forum.groupdocs.com/c/metadata/)  
 - **Tillfällig licens:** [Acquire a Temporary License](https://purchase.groupdocs.com/temporary-license)
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

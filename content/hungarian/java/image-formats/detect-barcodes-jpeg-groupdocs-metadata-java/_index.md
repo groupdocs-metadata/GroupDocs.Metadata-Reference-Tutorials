@@ -186,8 +186,3 @@ A: Természetesen. A könyvtár működik a standard Java EE, Spring Boot és m�
 **Utolsó frissítés:** 2026-04-11  
 **Tesztelt verzió:** GroupDocs.Metadata 24.12  
 **Szerző:** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

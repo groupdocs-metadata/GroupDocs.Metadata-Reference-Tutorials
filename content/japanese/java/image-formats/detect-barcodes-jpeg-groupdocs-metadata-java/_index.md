@@ -185,8 +185,3 @@ A: もちろんです。ライブラリは標準的な Java EE、Spring Boot、�
 **最終更新日:** 2026-04-11  
 **テスト環境:** GroupDocs.Metadata 24.12  
 **作者:** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

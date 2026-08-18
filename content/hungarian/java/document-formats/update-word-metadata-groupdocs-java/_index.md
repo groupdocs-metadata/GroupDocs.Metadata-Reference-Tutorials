@@ -175,8 +175,3 @@ A: Igen. Töltse le a fájlt helyileg (vagy streamelje), mielőtt átadná a `Me
 - **GitHub tároló:** [GroupDocs.Metadata-for-Java](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **Ingyenes támogatási fórum:** [GroupDocs Support](https://forum.groupdocs.com/c/metadata/)  
 - **Ideiglenes licenc:** [Ideiglenes licenc beszerzése](https://purchase.groupdocs.com/temporary-license)
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

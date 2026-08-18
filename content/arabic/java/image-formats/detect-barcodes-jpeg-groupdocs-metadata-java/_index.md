@@ -185,8 +185,3 @@ for (String barcodeType : barcodeTypes) {
 **آخر تحديث:** 2026-04-11  
 **تم الاختبار مع:** GroupDocs.Metadata 24.12  
 **المؤلف:** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

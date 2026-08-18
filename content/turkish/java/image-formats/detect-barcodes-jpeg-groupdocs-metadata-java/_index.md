@@ -186,8 +186,3 @@ C: Kesinlikle. Kütüphane standart Java EE, Spring Boot ve diğer çerçevelerl
 **Son Güncelleme:** 2026-04-11  
 **Test Edilen Versiyon:** GroupDocs.Metadata 24.12  
 **Yazar:** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

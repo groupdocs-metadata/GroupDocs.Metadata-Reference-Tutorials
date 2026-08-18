@@ -183,8 +183,3 @@ A: Absolutely. The library works with standard Java EE, Spring Boot, and other f
 **Last Updated:** 2026-04-11  
 **Tested With:** GroupDocs.Metadata 24.12  
 **Author:** GroupDocs  
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

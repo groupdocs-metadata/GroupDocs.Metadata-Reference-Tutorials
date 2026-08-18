@@ -174,8 +174,3 @@ A: हाँ। `Metadata` को पाथ पास करने से पह
 - **GitHub रिपॉज़िटरी:** [GroupDocs.Metadata-for-Java](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
 - **मुफ़्त सपोर्ट फ़ोरम:** [GroupDocs Support](https://forum.groupdocs.com/c/metadata/)  
 - **टेम्पररी लाइसेंस:** [Acquire a Temporary License](https://purchase.groupdocs.com/temporary-license)
-
-{< /blocks/products/pf/tutorial-page-section >}
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-{< blocks/products/products-backtop-button >}

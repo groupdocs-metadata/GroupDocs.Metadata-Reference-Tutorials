@@ -1,21 +1,81 @@
 ---
-date: '2026-02-14'
-description: Leer hoe u spreadsheetcommentaren in Java kunt verwijderen, digitale
-  handtekeningen in Excel kunt wissen en bladen kunt verbergen met GroupDocs.Metadata
-  voor Java.
+date: '2026-08-05'
+description: Leer hoe u spreadsheet comments java kunt verwijderen, digitale handtekeningen
+  in Excel kunt wissen, en bladen kunt verbergen met GroupDocs.Metadata for Java.
 keywords:
-- spreadsheet metadata management Java
-- remove comments GroupDocs Metadata
-- erase digital signatures spreadsheet
-title: 'Verwijder Spreadsheetcommentaren Java: Beheer Spreadsheetmetadata met GroupDocs'
+- remove spreadsheet comments java
+- GroupDocs.Metadata Java
+- erase digital signatures excel
+- hide spreadsheet sheets Java
+- spreadsheet metadata management
+lastmod: '2026-08-05'
+og_description: remove spreadsheet comments java met GroupDocs.Metadata for Java.
+  Leer hoe u digitale handtekeningen kunt wissen, bladen kunt verbergen, en Excel-werkboeken
+  efficiënt kunt beveiligen.
+og_image_alt: Guide showing Java code removing comments and signatures from Excel
+  using GroupDocs.Metadata
+og_title: remove spreadsheet comments java – master spreadsheet metadata gids
+schemas:
+- author: GroupDocs
+  dateModified: '2026-08-05'
+  description: Learn how to remove spreadsheet comments java, erase digital signatures
+    excel, and hide sheets using GroupDocs.Metadata for Java.
+  headline: 'remove spreadsheet comments java: master spreadsheet metadata management
+    with GroupDocs'
+  type: TechArticle
+- description: Learn how to remove spreadsheet comments java, erase digital signatures
+    excel, and hide sheets using GroupDocs.Metadata for Java.
+  name: 'remove spreadsheet comments java: master spreadsheet metadata management
+    with GroupDocs'
+  steps:
+  - name: '**Data presentation:** Clean up a workbook before embedding it in a PowerPoint
+      deck – remove comments to avoid accidental disclosures.'
+    text: '**Data presentation:** Clean up a workbook before embedding it in a PowerPoint
+      deck – remove comments to avoid accidental disclosures.'
+  - name: '**Security compliance:** Strip signatures from a draft contract before
+      sending it to a legal review team.'
+    text: '**Security compliance:** Strip signatures from a draft contract before
+      sending it to a legal review team.'
+  - name: '**Confidential data management:** Hide sheets containing PII or financial
+      forecasts when sharing a file with a broader audience.'
+    text: '**Confidential data management:** Hide sheets containing PII or financial
+      forecasts when sharing a file with a broader audience.'
+  type: HowTo
+- questions:
+  - answer: It provides low‑level access to metadata, comments, signatures, and hidden
+      elements across many document formats without opening them in native applications.
+    question: What is the primary purpose of GroupDocs.Metadata?
+  - answer: The current `clearComments()` method removes every comment. For selective
+      removal, enumerate comment objects via the inspection package and delete the
+      ones you target.
+    question: Can I remove only specific comments instead of all?
+  - answer: Yes. Use the corresponding `unhideSheet()` method or simply set the hidden
+      flag back to `false` for the desired worksheets.
+    question: Is it possible to revert the hidden‑sheet operation?
+  - answer: Absolutely. GroupDocs.Metadata works with both `.xls` and `.xlsx` files,
+      as well as OpenDocument spreadsheets.
+    question: Does the library support older Excel formats like `.xls`?
+  - answer: Removing a signature may affect the document’s legal standing. Always
+      ensure you have proper authority and comply with relevant regulations before
+      stripping signatures.
+    question: Are there legal considerations when erasing digital signatures?
+  type: FAQPage
+tags:
+- remove comments
+- GroupDocs.Metadata
+- Java spreadsheet processing
+- Excel metadata
+- document security
+title: 'remove spreadsheet comments java: master spreadsheet metadata management met
+  GroupDocs'
 type: docs
 url: /nl/java/document-formats/master-spreadsheet-metadata-groupdocs-remove-comments-signatures/
 weight: 1
 ---
 
-# remove spreadsheet comments java: Beheer van Spreadsheet-metadata met GroupDocs
+# verwijder spreadsheet opmerkingen java: beheer van spreadsheet metadata met GroupDocs
 
-Het beheren van spreadsheet‑metadata is een dagelijkse uitdaging voor iedereen die met data‑rijke Excel‑bestanden werkt. In deze tutorial ontdek je **how to remove spreadsheet comments java**, digitale handtekeningen wissen en bladen snel verbergen met GroupDocs.Metadata voor Java. Aan het einde van de gids heb je een schoon, veilig werkboek klaar voor distributie.
+Het beheren van spreadsheet‑metadata is een dagelijkse uitdaging voor iedereen die werkt met data‑rijke Excel‑bestanden. In deze tutorial ontdek je **hoe je spreadsheet opmerkingen java verwijdert**, digitale handtekeningen wist en snel bladen verbergt met GroupDocs.Metadata voor Java. Aan het einde van de gids heb je een schoon, veilig werkboek klaar voor distributie, en begrijp je waarom deze aanpak schaalt tot duizenden bestanden.
 
 ## Snelle antwoorden
 - **Wat doet “remove spreadsheet comments java”?** Het verwijdert alle commentaarobjecten uit een Excel‑werkboek, waardoor verborgen notities verdwijnen.  
@@ -24,22 +84,22 @@ Het beheren van spreadsheet‑metadata is een dagelijkse uitdaging voor iedereen
 - **Heb ik een licentie nodig?** Een gratis proefversie werkt voor testen; een volledige licentie is vereist voor productie.  
 - **Welke Java‑versie wordt ondersteund?** Java 8 of hoger.
 
-### Wat is “remove spreadsheet comments java”?
-Het verwijderen van commentaren uit een spreadsheet verwijdert alle aantekeningen van de auteur, discussiedraden of metadata die interne informatie kunnen onthullen. Dit is vooral nuttig bij het delen van concepten met externe partners of bij het voorbereiden van gegevens voor openbare release.
+## Wat is “remove spreadsheet comments java”?
+`remove spreadsheet comments java` is de programmatische bewerking die elk commentaar‑element verwijdert dat in een Excel‑werkboek is opgeslagen. Het verwijdert aantekeningen van auteurs, beoordelingsopmerkingen en alle verborgen metadata die interne discussies kunnen onthullen. Door deze commentaarobjecten te wissen, zorg je ervoor dat gedeelde bestanden alleen de beoogde gegevens bevatten zonder accidentele onthullingen.
 
-### Waarom GroupDocs.Metadata voor Java gebruiken?
-GroupDocs.Metadata geeft je programmatische toegang tot de verborgen delen van Office‑bestanden zonder ze in Excel te openen. Het is snel, geheugen‑efficiënt en werkt met alle belangrijke spreadsheet‑formaten (XLS, XLSX, ODS). De bibliotheek bevat ook hulpprogramma’s voor het wissen van digitale handtekeningen en het beheren van blad‑zichtbaarheid, waardoor het een alles‑in‑één oplossing is voor documenthygiëne.
+## Waarom GroupDocs.Metadata voor Java gebruiken?
+GroupDocs.Metadata geeft je low‑level toegang tot verborgen delen van Office‑bestanden zonder Excel te starten. De bibliotheek ondersteunt **meer dan 50 invoer‑ en uitvoerformaten**—inclusief XLS, XLSX, ODS, CSV en PDF—terwijl ze multi‑honderd‑pagina werkboeken verwerkt met minder dan 100 MB heap‑geheugen. De API combineert het verwijderen van commentaren, het wissen van handtekeningen en de controle over blad‑zichtbaarheid, waardoor het een alles‑in‑één oplossing is voor documenthygiëne.
 
 ## Vereisten
 - **Java Development Kit (JDK):** Versie 8 of nieuwer.  
 - **IDE:** IntelliJ IDEA, Eclipse, of een andere Java‑compatibele editor.  
-- **GroupDocs.Metadata for Java:** Toegevoegd aan de project‑afhankelijkheden (zie installatie‑stappen hieronder).  
+- **GroupDocs.Metadata voor Java:** Toegevoegd aan je project‑afhankelijkheden (zie installatiestappen hieronder).  
 
 ## GroupDocs.Metadata voor Java instellen
-Voeg de bibliotheek toe aan je project zodat je spreadsheet‑metadata kunt manipuleren.
+Voeg de bibliotheek toe aan je project zodat je spreadsheet‑metadata kunt gaan manipuleren.
 
 ### Maven
-Add the repository and dependency to your `pom.xml` file:
+Voeg de repository en afhankelijkheid toe aan je `pom.xml`‑bestand:
 
 ```xml
 <repositories>
@@ -60,7 +120,7 @@ Add the repository and dependency to your `pom.xml` file:
 ```
 
 ### Directe download
-Of download de nieuwste versie van GroupDocs.Metadata voor Java vanaf hun [release page](https://releases.groupdocs.com/metadata/java/).
+Download anders de nieuwste versie van GroupDocs.Metadata voor Java vanaf hun [release page](https://releases.groupdocs.com/metadata/java/).
 
 **Licentie‑acquisitie**
 - Verkrijg een gratis proefversie om de functies te testen.  
@@ -71,9 +131,8 @@ Zodra de JAR op het classpath staat, ben je klaar om code te schrijven.
 
 ## Implementatie‑gids
 
-### Stap 1: Spreadsheet‑commentaren verwijderen (remove spreadsheet comments java)
-**Overzicht:**  
-Deze codefragment verwijdert **alle commentaren** uit het werkboek, zodat er geen verborgen notities mee worden verzonden.
+### Hoe spreadsheet‑commentaren te verwijderen met GroupDocs.Metadata
+Laad eerst het doel‑werkboek met de `Metadata`‑klasse, roep vervolgens de `clearComments()`‑methode aan op de `SpreadsheetRootPackage`‑instantie om elk commentaarobject te verwijderen. Nadat de bewerking is voltooid, sla je het gewijzigde bestand op op een nieuwe locatie of overschrijf je het origineel. Dit eenvoudige twee‑stappenpatroon werkt met alle Excel‑versies die door GroupDocs.Metadata worden ondersteund.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -94,14 +153,8 @@ public class ClearComments {
 }
 ```
 
-**Uitleg:**  
-- `Metadata` laadt het bestand en biedt een veilige wrapper.  
-- `SpreadsheetRootPackage` geeft toegang tot inspectie‑hulpmiddelen.  
-- `clearComments()` verwijdert elk commentaarobject, perfect voor het *remove spreadsheet comments java* gebruiksscenario.
-
-### Stap 2: Digitale handtekeningen wissen (erase digital signatures excel)
-**Overzicht:**  
-Digitale handtekeningen verifiëren authenticiteit, maar je moet ze mogelijk verwijderen voordat je een concept verzendt. De volgende code verwijdert **alle** handtekeningen.
+### Hoe digitale handtekeningen te wissen met GroupDocs.Metadata
+Digitale handtekeningen bieden authenticiteit, maar er zijn scenario’s waarin je ze moet verwijderen voordat je een concept verspreidt. Gebruik de `clearDigitalSignatures()`‑methode op de `SpreadsheetRootPackage` om door alle ingebedde handtekeningonderdelen te itereren en ze in één oproep te verwijderen. Na uitvoering bevat het werkboek geen cryptografische attestaties meer, waardoor een schone versie voor beoordeling wordt gegarandeerd.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -122,12 +175,8 @@ public class ClearDigitalSignatures {
 }
 ```
 
-**Uitleg:**  
-- `clearDigitalSignatures()` wist elke handtekening, waardoor je voldoet aan de compliance wanneer een document niet ondertekend mag zijn.
-
-### Stap 3: Bladen verbergen in een spreadsheet (remove excel digital signatures)
-**Overzicht:**  
-Soms wil je alleen gevoelige tabbladen verbergen terwijl je het bestand intact houdt. De API kan **alle** bladen verbergen, of je kunt de logica aanpassen voor geselecteerde bladen.
+### Hoe bladen te verbergen in een spreadsheet met GroupDocs.Metadata
+In sommige gevallen moet je gevoelige werkbladen verbergen zonder hun gegevens te verwijderen. Roep de `clearHiddenSheets()`‑methode aan op de `SpreadsheetRootPackage` om de verborgen‑vlag voor elk blad in te stellen, waardoor ze effectief uit het zicht verdwijnen. Je kunt de logica ook aanpassen om specifieke werkbladen te targeten, waardoor selectieve zichtbaarheid wordt gecontroleerd terwijl de onderliggende inhoud behouden blijft.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -148,35 +197,32 @@ public class ClearHiddenSheets {
 }
 ```
 
-**Uitleg:**  
-- `clearHiddenSheets()` schakelt de verborgen‑vlag op elk werkblad, waardoor de weergave voor ontvangers wordt opgeruimd.
-
 ## Praktische toepassingen
 Hier zijn praktijkvoorbeelden waarin deze methoden uitblinken:
 
-1. **Data‑presentatie:** Maak een werkboek schoon voordat je het in een PowerPoint‑presentatie opneemt – verwijder commentaren om accidentele openbaarmaking te voorkomen.  
-2. **Beveiligings‑compliance:** Verwijder handtekeningen uit een conceptcontract voordat je het naar een juridisch reviewteam stuurt.  
-3. **Beheer van vertrouwelijke gegevens:** Verberg bladen met PII of financiële prognoses bij het delen van een bestand met een breder publiek.
+1. **Gegevenspresentatie:** Maak een werkboek schoon voordat je het in een PowerPoint‑presentatie opneemt – verwijder commentaren om accidentele onthullingen te voorkomen.  
+2. **Beveiligingsnaleving:** Verwijder handtekeningen van een conceptcontract voordat je het naar een juridisch reviewteam stuurt.  
+3. **Beheer van vertrouwelijke gegevens:** Verberg bladen met PII of financiële prognoses bij het delen van een bestand met een breder publiek.  
 
 ## Prestatie‑overwegingen
-- **Geheugenbeheer:** Gebruik altijd try‑with‑resources (zoals getoond) om bestands‑handles direct te sluiten.  
-- **Batchverwerking:** Loop over een map met bestanden om dezelfde bewerkingen toe te passen, waardoor de overhead per bestand wordt verminderd.  
-- **Bibliotheek‑updates:** Houd GroupDocs.Metadata up‑to‑date; elke release brengt prestatie‑verbeteringen en nieuwe format‑ondersteuning.
+- **Geheugenbeheer:** Gebruik altijd try‑with‑resources (zoals getoond) om bestands‑handles snel te sluiten.  
+- **Batchverwerking:** Loop door een map met bestanden om dezelfde bewerkingen toe te passen, waardoor de overhead per bestand wordt verminderd.  
+- **Bibliotheek‑updates:** Houd GroupDocs.Metadata up‑to‑date; elke release brengt prestatie‑verbeteringen en nieuwe formatondersteuning.  
 
 ## Veelvoorkomende problemen en oplossingen
 | Probleem | Oorzaak | Oplossing |
 |----------|---------|-----------|
-| **Geen wijzigingen na het uitvoeren van de code** | Bestandspad onjuist of een alleen‑lezen bestand gebruikt | Controleer het invoerpad en zorg ervoor dat de uitvoermap schrijfbaar is. |
+| **Geen wijzigingen na het uitvoeren van de code** | Bestandspad onjuist of een alleen‑lezen bestand wordt gebruikt | Controleer het invoerpad en zorg ervoor dat de uitvoermap schrijfbaar is. |
 | **OutOfMemoryError bij grote werkboeken** | Veel grote bestanden tegelijk laden | Verwerk bestanden één voor één of vergroot de JVM‑heap‑grootte (`-Xmx`). |
-| **Verwijderen van handtekening mislukt** | Document is met een wachtwoord beveiligd | Open het bestand met het juiste wachtwoord via `Metadata(String path, String password)`. |
+| **Verwijderen van handtekening mislukt** | Document is met wachtwoord beveiligd | Open het bestand met het juiste wachtwoord via `Metadata(String path, String password)`. |
 
 ## Veelgestelde vragen
 
 **Q: Wat is het primaire doel van GroupDocs.Metadata?**  
-A: Het biedt low‑level toegang tot metadata, commentaren, handtekeningen en verborgen elementen in vele documentformaten zonder ze in native applicaties te openen.
+A: Het biedt low‑level toegang tot metadata, commentaren, handtekeningen en verborgen elementen in vele documentformaten zonder ze te openen in de native applicaties.
 
 **Q: Kan ik alleen specifieke commentaren verwijderen in plaats van alle?**  
-A: De huidige `clearComments()`‑methode verwijdert elk commentaar. Voor selectieve verwijdering moet je commentaarobjecten enumereren via het inspectiepakket en de gewenste verwijderen.
+A: De huidige `clearComments()`‑methode verwijdert elk commentaar. Voor selectieve verwijdering kun je commentaarobjecten enumereren via het inspectiepakket en de gewenste verwijderen.
 
 **Q: Is het mogelijk om de verberg‑blad operatie ongedaan te maken?**  
 A: Ja. Gebruik de bijbehorende `unhideSheet()`‑methode of stel de verborgen‑vlag simpelweg terug in op `false` voor de gewenste werkbladen.
@@ -185,18 +231,24 @@ A: Ja. Gebruik de bijbehorende `unhideSheet()`‑methode of stel de verborgen‑
 A: Absoluut. GroupDocs.Metadata werkt met zowel `.xls` als `.xlsx` bestanden, evenals OpenDocument‑spreadsheets.
 
 **Q: Zijn er juridische overwegingen bij het wissen van digitale handtekeningen?**  
-A: Het verwijderen van een handtekening kan de juridische status van het document beïnvloeden. Zorg er altijd voor dat je de juiste autoriteit hebt en voldoe aan relevante regelgeving voordat je handtekeningen verwijdert.
+A: Het verwijderen van een handtekening kan de juridische status van het document beïnvloeden. Zorg er altijd voor dat je de juiste autoriteit hebt en voldoe aan de relevante regelgeving voordat je handtekeningen verwijdert.
 
-## Bronnen
+## Aanvullende bronnen
 - [GroupDocs Metadata Documentatie](https://docs.groupdocs.com/metadata/java/)
-- [API-referentie](https://reference.groupdocs.com/metadata/java/)
+- [API‑referentie](https://reference.groupdocs.com/metadata/java/)
 - [Download GroupDocs.Metadata voor Java](https://releases.groupdocs.com/metadata/java/)
-- [GitHub-repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- [GitHub‑repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - [Gratis ondersteuningsforum](https://forum.groupdocs.com/c/metadata/)
 - [Aanvraag tijdelijke licentie](http://www.groupdocs.com/pricing)
 
 ---
 
-**Laatst bijgewerkt:** 2026-02-14  
-**Getest met:** GroupDocs.Metadata 24.12 voor Java  
+**Laatst bijgewerkt:** 2026-08-05  
+**Getest met:** GroupDocs.Metadata 24.12 for Java  
 **Auteur:** GroupDocs
+
+## Gerelateerde tutorials
+
+- [Excel‑metadata lezen & commentaren beheren met GroupDocs.Metadata (Java)](/metadata/java/document-formats/inspect-spreadsheet-comments-groupdocs-metadata-java/)
+- [Spreadsheet‑formaat identificeren Java met GroupDocs.Metadata](/metadata/java/document-formats/detect-spreadsheet-types-groupdocs-metadata-java/)
+- [Spreadsheet‑metadata extraheren Java met GroupDocs.Metadata](/metadata/java/document-formats/extract-manage-spreadsheet-metadata-groupdocs-java/)

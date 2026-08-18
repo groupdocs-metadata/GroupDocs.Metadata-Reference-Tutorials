@@ -1,36 +1,108 @@
 ---
-date: '2026-02-14'
-description: GroupDocs.Metadata kullanarak Java’da PDF meta verilerini güncellemeyi
-  ve PDF sürümünü tespit etmeyi öğrenin. Bu kılavuz ayrıca Java ile PDF özelliklerini
-  okuma yöntemini gösterir.
+date: '2026-08-05'
+description: GroupDocs.Metadata for Java kullanarak PDF sürümünü java ile tespit etmeyi
+  ve PDF metadata güncellemeyi öğrenin. version detection, reading properties ve metadata
+  editing içerir.
 keywords:
-- manage PDF metadata
-- GroupDocs.Metadata Java
-- detect PDF version
-title: Java'da GroupDocs.Metadata ile PDF Meta Verilerini Güncelle
+- detect pdf version java
+- update pdf metadata java
+- groupdocs.metadata java
+lastmod: '2026-08-05'
+og_description: GroupDocs.Metadata ile PDF sürümünü java ve PDF metadata güncelleyin.
+  Adım adım Java rehberi, version detection, reading properties ve editing metadata
+  gösterir.
+og_image_alt: Guide showing Java code for detecting PDF version and updating metadata
+  using GroupDocs.Metadata
+og_title: PDF sürümünü java ile tespit edin ve PDF metadata güncelleyin
+schemas:
+- author: GroupDocs
+  dateModified: '2026-08-05'
+  description: Learn how to detect PDF version java and update PDF metadata using
+    GroupDocs.Metadata for Java. Includes version detection, reading properties, and
+    metadata editing.
+  headline: Detect PDF version java and update PDF metadata
+  type: TechArticle
+- description: Learn how to detect PDF version java and update PDF metadata using
+    GroupDocs.Metadata for Java. Includes version detection, reading properties, and
+    metadata editing.
+  name: Detect PDF version java and update PDF metadata
+  steps:
+  - name: '**Open the PDF** – instantiate the `Metadata` object (see initialization
+      above).'
+    text: '**Open the PDF** – instantiate the `Metadata` object (see initialization
+      above).'
+  - name: '**Access the PDF‑specific root package** – call `metadata.getRootPackage()`.'
+    text: '**Access the PDF‑specific root package** – call `metadata.getRootPackage()`.'
+  - name: '**Retrieve the version** – invoke `pdfRoot.getVersion()`; the returned
+      string contains the version number.'
+    text: '**Retrieve the version** – invoke `pdfRoot.getVersion()`; the returned
+      string contains the version number.'
+  - name: '**Compliance audits** – Verify that all PDFs meet a minimum version (e.g., 1.7)
+      before legal filing.'
+    text: '**Compliance audits** – Verify that all PDFs meet a minimum version (e.g., 1.7)
+      before legal filing.'
+  - name: '**Automated archiving** – Tag PDFs with author, department, and creation
+      date for easier retrieval.'
+    text: '**Automated archiving** – Tag PDFs with author, department, and creation
+      date for easier retrieval.'
+  - name: '**Document management integration** – Enrich PDFs with custom properties
+      that DMS platforms can index.'
+    text: '**Document management integration** – Enrich PDFs with custom properties
+      that DMS platforms can index.'
+  - name: '**Report generation** – Insert version information into automatically generated
+      reports.'
+    text: '**Report generation** – Insert version information into automatically generated
+      reports.'
+  - name: '**Cross‑platform testing** – Detect version mismatches that could cause
+      rendering issues on older viewers.'
+    text: '**Cross‑platform testing** – Detect version mismatches that could cause
+      rendering issues on older viewers.'
+  type: HowTo
+- questions:
+  - answer: Yes, but you must supply the password when creating the `Metadata` object.
+    question: Can I update metadata on password‑protected PDFs?
+  - answer: Absolutely. You can read and write custom XMP fields through the same
+      API.
+    question: Does GroupDocs.Metadata support custom XMP properties?
+  - answer: The library can report the version; changing it requires saving the document
+      with a different version profile, which is supported via additional save options.
+    question: Is it possible to change the PDF version itself?
+  - answer: The getters will return `null`. You can safely call the setters to create
+      new metadata entries.
+    question: What happens if the PDF has no existing metadata?
+  - answer: A commercial license is required for production deployments; the trial
+      is limited to evaluation purposes.
+    question: Are there any licensing restrictions for commercial use?
+  type: FAQPage
+tags:
+- detect pdf version
+- update pdf metadata
+- groupdocs.metadata
+- java pdf processing
+title: PDF sürümünü java ile tespit edin ve PDF metadata güncelleyin
 type: docs
 url: /tr/java/document-formats/manage-pdf-metadata-groupdocs-java/
 weight: 1
 ---
 
-.# Java ile GroupDocs.Metadata Kullanarak PDF Metadata Güncelleme
+# PDF sürümünü java ile tespit et ve PDF meta verilerini güncelle
 
-PDF dosyalarını programlı olarak yönetmek, genellikle **update PDF metadata**'yı—yazar, başlık, oluşturma tarihi veya hatta PDF sürümünü—güncellemeniz gerektiği anlamına gelir. Tutarsız metadata, render hatalarına neden olabilir veya büyük bir depoda belgeleri bulmayı zorlaştırabilir. Bu öğretici, PDF sürümünü tespit etmeyi ve **GroupDocs.Metadata** for Java kullanarak PDF metadata güncellemeyi adım adım gösterir; böylece PDF'lerinizi düzenli ve uyumlu tutmanın güvenilir bir yolunu sunar.
+Programlı olarak PDF dosyalarını yönetmek, genellikle **detect PDF version java** ve **update PDF metadata** — yazar, başlık, oluşturma tarihi veya hatta PDF sürümü gibi bilgileri tespit etmeyi ve güncellemeyi gerektirir. Tutarsız meta veriler, render hatalarına yol açabilir veya büyük bir depoda belgeleri bulmayı zorlaştırabilir. Bu öğretici, **GroupDocs.Metadata** for Java kullanarak PDF sürümünü tespit etmeyi ve PDF meta verilerini güncellemeyi adım adım gösterir; böylece PDF'lerinizi düzenli, aranabilir ve herhangi bir görüntüleyiciyle uyumlu tutabilirsiniz.
 
-## Hızlı Yanıtlar
-- **“update PDF metadata” ne anlama geliyor?** PDF dosyası içinde depolanan bilgileri ekleme, değiştirme veya kaldırma.  
-- **Java'da bu konuda hangi kütüphane yardımcı olur?** GroupDocs.Metadata.  
+## Hızlı cevaplar
+- **update PDF metadata** ne anlama geliyor? PDF dosyası içinde depolanan bilgileri ekleme, değiştirme veya kaldırma.  
+- **Java'da buna yardımcı olan kütüphane hangisidir?** GroupDocs.Metadata.  
 - **PDF sürümünü de tespit edebilir miyim?** Evet, aynı API sürüm tespiti sağlar.  
-- **Bir lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için ücretli lisans gereklidir.  
-- **Hangi Java sürümü gereklidir?** JDK 8 veya daha yenisi.
+- **Bir lisansa ihtiyacım var mı?** Ücretsiz deneme değerlendirme için çalışır; üretim için ücretli lisans gereklidir.  
+- **Hangi Java sürümü gereklidir?** JDK 8 or newer.
 
-## PDF metadata güncelleme nedir?
+## PDF meta verilerini güncellemek ne demektir?
 
-PDF metadata güncelleme, bir PDF dosyasına gömülü tanımlayıcı bilgileri—yazar, başlık, konu ve özel özellikler gibi—programlı olarak okuma ve yazma işlemine denir. Doğru metadata, belge yönetim sistemlerinde aranabilirliği, uyumluluğu ve sürüm kontrolünü artırır.
+PDF meta verilerini güncellemek, bir PDF dosyasına gömülü açıklayıcı bilgileri programlı olarak okuma ve yazma anlamına gelir—yazar, başlık, konu ve özel özellikler gibi. Doğru meta veriler, belge yönetim sistemlerinde arama yapılabilirliği, uyumluluğu ve sürüm kontrolünü artırır. Hassas meta veriler, otomatik indeksleme, uyumluluk raporlaması ve belge yönetim sistemleri arasında sürüm takibi gibi işlemleri de mümkün kılar.
 
 ## Java'da PDF sürümünü neden tespit etmeliyiz?
 
-PDF sürümünü (ör. 1.4, 1.7) bilmek, dosyanın hedef görüntüleyicide doğru şekilde render edilmesini veya sonraki işleme hatları gereksinimlerini karşılamasını sağlar. Sürüm tespiti, özellikle belgeleri arşivlemeden veya yayınlamadan önce uyumluluk kurallarını uygulamanız gerektiğinde faydalıdır.
+PDF sürümünü tespit etmek, bir dosyanın hedef görüntüleyicide doğru şekilde render edileceğini ve aşağı akış işlemleri gereksinimlerini karşıladığını doğrulamanızı sağlar. PDF'nin 1.4, 1.7 veya daha yeni bir sürüm olup olmadığını bilmek, arşivleme, yayınlama veya dönüştürme öncesinde uyumluluk kurallarını uygulamanıza yardımcı olur.
 
 ## Önkoşullar
 
@@ -38,10 +110,10 @@ PDF sürümünü (ör. 1.4, 1.7) bilmek, dosyanın hedef görüntüleyicide doğ
 - **Maven** bağımlılık yönetimi için (veya JAR'ı doğrudan indirebilirsiniz).  
 - Java dosya I/O konusunda temel bilgi.  
 
-## Java için GroupDocs.Metadata Kurulumu
+## GroupDocs.Metadata for Java kurulumu
 
-### Maven Kurulumu
-Depoyu ve bağımlılığı `pom.xml` dosyanıza ekleyin:
+### Maven kurulumu
+Add the repository and dependency to your `pom.xml`:
 
 ```xml
 <repositories>
@@ -61,17 +133,19 @@ Depoyu ve bağımlılığı `pom.xml` dosyanıza ekleyin:
 </dependencies>
 ```
 
-### Doğrudan İndirme
-Alternatif olarak, resmi sürüm sayfasından en son JAR'ı indirin: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+### Doğrudan indirme
+Alternatively, download the latest JAR from the official release page: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-#### Lisans Edinme Adımları
-- **Free Trial** – maliyetsiz olarak denemeye başlayın.  
-- **Temporary License** – gerekirse deneme süresini uzatın.  
-- **Purchase** – üretim kullanımı için tam özellikli lisans edinin.
+#### Lisans edinme adımları
+- **Free trial** – maliyetsiz deneyim başlatın.  
+- **Temporary license** – gerekirse deneme süresini uzatın.  
+- **Purchase** – üretim kullanımı için tam‑feature lisans edinin.
 
-## Temel Başlatma ve Kurulum
+## Temel başlatma ve kurulum
 
-PDF dosyanıza işaret eden bir `Metadata` örneği oluşturun:
+`Metadata` sınıfı, GroupDocs.Metadata içinde PDF dosyalarıyla çalışmak için giriş noktasıdır. Belge özelliklerine, sürüm bilgisine ve özel XMP verilerine okuma/yazma erişimi sağlayan bir kapsayıcıdır.
+
+Create a `Metadata` instance that points to your PDF file:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -86,23 +160,29 @@ public class PdfMetadataExample {
 }
 ```
 
-Artık özellikleri okuyabilir, sürümü tespit edebilir ve metadata'yı güncelleyebilirsiniz.
+Now you’re ready to read properties, detect the version, and update metadata.
 
-## Java'da PDF Sürümünü Tespit Etme ve PDF Özelliklerini Okuma
+## Java'da PDF sürümünü nasıl tespit ederiz
 
-### Adım 1: PDF'yi bir `Metadata` nesnesiyle açın
+Load your PDF with `new Metadata("sample.pdf")` and call `getRootPackage().getVersion()` — the method returns the exact PDF version (e.g., 1.4, 1.7) in a single call. This direct answer lets you quickly validate compatibility before any further processing. The version string reflects the PDF specification level the file adheres to, which is crucial for compatibility checks.  
+`getVersion()` returns the PDF version as a string, e.g., "1.4" or "1.7".
+
+### Adım adım kılavuz
+
+1. **PDF'yi aç** – `Metadata` nesnesini örnekleyin (yukarıdaki başlatmaya bakın).  
+2. **PDF'ye özgü kök pakete eriş** – `metadata.getRootPackage()` çağırın.  
+3. **Sürümü al** – `pdfRoot.getVersion()` çağırın; dönen string sürüm numarasını içerir.
+
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.pdf")) {
     // Access PDF‑specific properties here
 }
 ```
 
-### Adım 2: PDF‑özel detaylar için kök paketi alın
 ```java
 PdfRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### Adım 3: Sürüm ve format bilgilerini çıkarın
 ```java
 String fileFormat = root.getPdfType().getFileFormat();
 String version = root.getPdfType().getVersion();
@@ -115,22 +195,34 @@ System.out.println("MIME Type: " + mimeType);
 System.out.println("Extension: " + extension);
 ```
 
-**Pro ipucu:** Bir PDF topluluğunu işlemeye başlamadan önce uyumluluk kontrollerini zorlamak için `version` değerini kullanın.
+**Pro ipucu:** `version` değerini, bir PDF topluluğunu işlemeye başlamadan önce uyumluluk kontrollerini zorlamak için kullanın.
 
-#### Sorun Giderme
+#### Sorun giderme
 - Dosya yolunu doğrulayın; yanlış bir yol `FileNotFoundException` hatası verir.  
 - GroupDocs.Metadata sürümünün JDK'nızla eşleştiğinden emin olun (örnek 24.12 kullanıyor).
 
-## Java'da PDF Metadata Güncelleme
+## Java'da PDF özelliklerini nasıl okuruz
 
-### Adım 1: PDF'yi açın (yukarıdaki gibi)
+`DocumentInfo` provides access to standard PDF metadata fields without loading the full document. The `DocumentInfo` class provides access to standard PDF properties such as author, title, and creation date. It is a lightweight wrapper that reads metadata without loading the entire document into memory.
+
+Create a `DocumentInfo` instance from the opened `Metadata` object:
+
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.pdf")) {
     // Modify or read metadata here
 }
 ```
 
-### Adım 2: document‑info paketine erişin ve alanları değiştirin
+You can then call getters like `getAuthor()`, `getTitle()`, and `getCreationDate()` to retrieve values.
+
+## Java'da PDF meta verilerini nasıl güncelleriz
+
+Load the PDF (same as above), obtain the `DocumentInfo` package, modify the desired fields, and save the changes. The operation overwrites the existing metadata block while preserving the rest of the document. After modifying the fields, calling `save()` writes the changes back to the file while preserving content streams.
+
+The `DocumentInfo` class is GroupDocs.Metadata’s object for editing PDF‑level properties such as author, title, subject, and custom XMP fields.
+
+Update the metadata fields:
+
 ```java
 PdfRootPackage root = metadata.getRootPackageGeneric();
 
@@ -142,45 +234,52 @@ System.out.println("Author: " + author);
 // e.g., root.getPdfDocumentInfo().setAuthor("New Author");
 ```
 
-**Not:** Gerçek setter çağrıları basittir; gösterilen getter'larla aynı desen izlenir.
+**Note:** The setter calls follow the same pattern as the getters shown earlier, making the API intuitive and consistent.
 
-#### Yaygın Tuzaklar
-- Hedef özelliği bulunmayan bir PDF'de metadata değiştirmeye çalışmak `null` değere yol açar—ayar yapmadan önce her zaman `null` kontrolü yapın.  
-- Büyük PDF'ler artırılmış JVM heap'i gerektirebilir; toplu güncellemeler sırasında bellek kullanımını izleyin.
+#### Yaygın tuzaklar
+- Hedef özelliği olmayan bir PDF'de meta veriyi değiştirmeye çalışmak `null` döner—yeni bir değer ayarlamadan önce her zaman `null` kontrolü yapın.  
+- Büyük PDF'ler daha fazla JVM yığını gerektirebilir; toplu güncellemeler sırasında bellek kullanımını izleyin.
 
-## Pratik Kullanım Senaryoları
+## Pratik kullanım senaryoları
 
-1. **Compliance Audits** – Tüm PDF'lerin yasal dosyalamadan önce minimum sürümü (ör. 1.7) karşıladığını doğrulayın.  
-2. **Automated Archiving** – PDF'leri yazar, departman ve oluşturma tarihiyle etiketleyerek daha kolay geri getirme sağlayın.  
-3. **Document Management Integration** – DMS platformlarının indeksleyebileceği özel özelliklerle PDF'leri zenginleştirin.  
-4. **Report Generation** – Otomatik oluşturulan raporlara sürüm bilgisini ekleyin.  
-5. **Cross‑Platform Testing** – Eski görüntüleyicilerde render sorunlarına yol açabilecek sürüm uyumsuzluklarını tespit edin.
+1. **Compliance audits** – Tüm PDF'lerin yasal dosyalamadan önce minimum sürümü (ör. 1.7) karşıladığını doğrulayın.  
+2. **Automated archiving** – PDF'leri yazar, departman ve oluşturma tarihiyle etiketleyerek daha kolay geri getirme sağlayın.  
+3. **Document management integration** – DMS platformlarının indeksleyebileceği özel özelliklerle PDF'leri zenginleştirin.  
+4. **Report generation** – Otomatik oluşturulan raporlara sürüm bilgisi ekleyin.  
+5. **Cross‑platform testing** – Eski görüntüleyicilerde render sorunlarına yol açabilecek sürüm uyumsuzluklarını tespit edin.
 
-## Performans İpuçları
+## Performans ipuçları
 
-- **try‑with‑resources** kullanın (gösterildiği gibi) `Metadata` nesnelerini otomatik kapatmak için.  
-- **Batch Process** bir döngüde birden fazla dosyayı işleyerek ek yükü azaltın.  
-- **Heap'i izleyin** çok büyük PDF'ler için; bellek sınırına ulaşırsanız dosyaları parçalara bölerek işlemeyi düşünün.
+- **Use try‑with‑resources** (as shown) `Metadata` nesnelerini otomatik olarak kapatmak için kullanın.  
+- **Batch process** bir döngüde birden fazla dosyayı işleyerek yükü azaltın.  
+- **Monitor heap** çok büyük PDF'ler için; bellek sınırına ulaşırsanız parçalar halinde işlemeyi düşünün.  
+- **GroupDocs.Metadata supports 50+ input and output formats** and can read metadata from multi‑hundred‑page PDFs without loading the entire file into memory, delivering fast performance on standard server hardware.
 
-## Sıkça Sorulan Sorular
+## Sıkça sorulan sorular
 
-**S: Parola korumalı PDF'lerde metadata güncelleyebilir miyim?**  
-C: Evet, ancak `Metadata` nesnesi oluştururken parolayı sağlamalısınız.
+**Q: Parola‑korumalı PDF'lerde meta veri güncelleyebilir miyim?**  
+A: Evet, ancak `Metadata` nesnesini oluştururken parolayı sağlamalısınız.
 
-**S: GroupDocs.Metadata özel XMP özelliklerini destekliyor mu?**  
-C: Kesinlikle. Aynı API üzerinden özel XMP alanlarını okuyabilir ve yazabilirsiniz.
+**Q: GroupDocs.Metadata özel XMP özelliklerini destekliyor mu?**  
+A: Kesinlikle. Aynı API üzerinden özel XMP alanlarını okuyabilir ve yazabilirsiniz.
 
-**S: PDF sürümünü kendisi değiştirmek mümkün mü?**  
-C: Kütüphane sürümü raporlayabilir; değiştirmek ise belgeyi farklı bir sürüm profiliyle kaydetmeyi gerektirir ve bu ek kaydetme seçenekleriyle desteklenir.
+**Q: PDF sürümünü kendisi değiştirmek mümkün mü?**  
+A: Kütüphane sürümü raporlayabilir; değiştirmek için belgeyi farklı bir sürüm profiliyle kaydetmek gerekir, bu ek kaydetme seçenekleriyle desteklenir.
 
-**S: PDF'de mevcut metadata yoksa ne olur?**  
-C: Getter'lar `null` dönecektir. Yeni metadata girişleri oluşturmak için setter'ları güvenle çağırabilirsiniz.
+**Q: PDF'de mevcut meta veri yoksa ne olur?**  
+A: Getter'lar `null` döner. Yeni meta veri girişleri oluşturmak için setter'ları güvenle çağırabilirsiniz.
 
-**S: Ticari kullanım için lisans kısıtlamaları var mı?**  
-C: Üretim dağıtımları için ticari lisans gereklidir; deneme sürümü sadece değerlendirme amaçlı sınırlıdır.
+**Q: Ticari kullanım için lisans kısıtlamaları var mı?**  
+A: Üretim dağıtımları için ticari lisans gereklidir; deneme sürümü sadece değerlendirme amaçlı sınırlıdır.
 
 ---
 
-**Son Güncelleme:** 2026-02-14  
-**Test Edilen Sürüm:** GroupDocs.Metadata 24.12 for Java  
-**Yazar:** GroupDocs
+**Last Updated:** 2026-08-05  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs
+
+## İlgili Eğitimler
+
+- [Efficiently Update PDF Metadata with GroupDocs.Metadata in Java for Document Management](/metadata/java/document-formats/update-pdf-metadata-groupdocs-metadata-java/)
+- [Master Metadata Management: Detect Document Properties & Encryption Status with GroupDocs.Metadata for Java](/metadata/java/working-with-metadata/master-metadata-management-groupdocs-java/)
+- [Create Document Preview Java – GroupDocs.Metadata Tutorials](/metadata/java/document-formats/)

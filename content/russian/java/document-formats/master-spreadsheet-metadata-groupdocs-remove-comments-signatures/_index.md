@@ -1,48 +1,103 @@
 ---
-date: '2026-02-14'
-description: Узнайте, как удалять комментарии в электронных таблицах на Java, стирать
-  цифровые подписи в Excel и скрывать листы с помощью GroupDocs.Metadata для Java.
+date: '2026-08-05'
+description: Узнайте, как удалить комментарии в электронных таблицах java, стереть
+  цифровые подписи в Excel и скрыть листы с помощью GroupDocs.Metadata for Java.
 keywords:
-- spreadsheet metadata management Java
-- remove comments GroupDocs Metadata
-- erase digital signatures spreadsheet
-title: 'Удалить комментарии в электронных таблицах Java: мастер‑управление метаданными
-  таблиц с GroupDocs'
+- remove spreadsheet comments java
+- GroupDocs.Metadata Java
+- erase digital signatures excel
+- hide spreadsheet sheets Java
+- spreadsheet metadata management
+lastmod: '2026-08-05'
+og_description: удалить комментарии в электронных таблицах java с GroupDocs.Metadata
+  for Java. Узнайте, как стереть цифровые подписи, скрыть листы и эффективно защитить
+  рабочие книги Excel.
+og_image_alt: Guide showing Java code removing comments and signatures from Excel
+  using GroupDocs.Metadata
+og_title: удалить комментарии в электронных таблицах java – руководство по управлению
+  метаданными электронных таблиц
+schemas:
+- author: GroupDocs
+  dateModified: '2026-08-05'
+  description: Learn how to remove spreadsheet comments java, erase digital signatures
+    excel, and hide sheets using GroupDocs.Metadata for Java.
+  headline: 'remove spreadsheet comments java: master spreadsheet metadata management
+    with GroupDocs'
+  type: TechArticle
+- description: Learn how to remove spreadsheet comments java, erase digital signatures
+    excel, and hide sheets using GroupDocs.Metadata for Java.
+  name: 'remove spreadsheet comments java: master spreadsheet metadata management
+    with GroupDocs'
+  steps:
+  - name: '**Data presentation:** Clean up a workbook before embedding it in a PowerPoint
+      deck – remove comments to avoid accidental disclosures.'
+    text: '**Data presentation:** Clean up a workbook before embedding it in a PowerPoint
+      deck – remove comments to avoid accidental disclosures.'
+  - name: '**Security compliance:** Strip signatures from a draft contract before
+      sending it to a legal review team.'
+    text: '**Security compliance:** Strip signatures from a draft contract before
+      sending it to a legal review team.'
+  - name: '**Confidential data management:** Hide sheets containing PII or financial
+      forecasts when sharing a file with a broader audience.'
+    text: '**Confidential data management:** Hide sheets containing PII or financial
+      forecasts when sharing a file with a broader audience.'
+  type: HowTo
+- questions:
+  - answer: It provides low‑level access to metadata, comments, signatures, and hidden
+      elements across many document formats without opening them in native applications.
+    question: What is the primary purpose of GroupDocs.Metadata?
+  - answer: The current `clearComments()` method removes every comment. For selective
+      removal, enumerate comment objects via the inspection package and delete the
+      ones you target.
+    question: Can I remove only specific comments instead of all?
+  - answer: Yes. Use the corresponding `unhideSheet()` method or simply set the hidden
+      flag back to `false` for the desired worksheets.
+    question: Is it possible to revert the hidden‑sheet operation?
+  - answer: Absolutely. GroupDocs.Metadata works with both `.xls` and `.xlsx` files,
+      as well as OpenDocument spreadsheets.
+    question: Does the library support older Excel formats like `.xls`?
+  - answer: Removing a signature may affect the document’s legal standing. Always
+      ensure you have proper authority and comply with relevant regulations before
+      stripping signatures.
+    question: Are there legal considerations when erasing digital signatures?
+  type: FAQPage
+tags:
+- remove comments
+- GroupDocs.Metadata
+- Java spreadsheet processing
+- Excel metadata
+- document security
+title: 'удалить комментарии в электронных таблицах java: мастер-управление метаданными
+  электронных таблиц с GroupDocs'
 type: docs
 url: /ru/java/document-formats/master-spreadsheet-metadata-groupdocs-remove-comments-signatures/
 weight: 1
 ---
 
- ensure we keep the horizontal rule (---) unchanged.
+# удалить комментарии в таблицах java: управление метаданными таблиц с GroupDocs
 
-Now produce final content with all translations.
-
-Check for any missed items: code blocks placeholders, shortcodes none else. Ensure we kept all markdown formatting.
-
-Now produce final answer.# remove spreadsheet comments java: Управление метаданными электронных таблиц с GroupDocs
-
-Управление метаданными электронных таблиц — ежедневная задача для всех, кто работает с данными‑насыщенными файлами Excel. В этом руководстве вы узнаете **how to remove spreadsheet comments java**, как удалить цифровые подписи и быстро скрыть листы с помощью GroupDocs.Metadata для Java. К концу руководства у вас будет чистая, защищённая рабочая книга, готовая к распространению.
+Управление метаданными таблиц — ежедневный вызов для всех, кто работает с данными‑насыщенными файлами Excel. В этом руководстве вы узнаете **как удалить комментарии в таблицах java**, стереть цифровые подписи и быстро скрыть листы с помощью GroupDocs.Metadata для Java. К концу руководства у вас будет чистая, защищённая рабочая книга, готовая к распространению, и вы поймёте, почему такой подход масштабируется до тысяч файлов.
 
 ## Быстрые ответы
-- **Что делает “remove spreadsheet comments java”?** Он удаляет все объекты комментариев из рабочей книги Excel, устраняя скрытые заметки.  
-- **Могу ли я также удалить цифровые подписи?** Да — библиотека предоставляет метод для удаления всех подписей одним вызовом.  
-- **Можно ли отменить скрытие листов?** Конечно; вы можете позже раскрыть их, используя тот же API.  
-- **Нужна ли лицензия?** Бесплатная пробная версия подходит для тестирования; полная лицензия требуется для продакшн.  
-- **Какая версия Java поддерживается?** Java 8 или выше.
+- **Что делает “remove spreadsheet comments java”?** Очищает все объекты комментариев в рабочей книге Excel, устраняя скрытые заметки.  
+- **Могу ли я также стереть цифровые подписи?** Да — библиотека предоставляет метод для удаления всех подписей одним вызовом.  
+- **Можно ли отменить скрытие листов?** Абсолютно; их можно снова отобразить позже, используя тот же API.  
+- **Нужна ли лицензия?** Бесплатная пробная версия подходит для тестирования; полная лицензия требуется для продакшна.  
+- **Какая версия Java поддерживается?** Java 8 или новее.
 
-### Что такое “remove spreadsheet comments java”?
-Удаление комментариев из электронной таблицы убирает любые заметки автора, ветки обсуждений или метаданные, которые могут раскрыть внутреннюю информацию. Это особенно полезно при обмене черновиками с внешними партнёрами или при подготовке данных к публичному выпуску.
+## Что такое “remove spreadsheet comments java”?
+`remove spreadsheet comments java` — это программная операция, удаляющая каждый элемент комментария, хранящийся внутри рабочей книги Excel. Она удаляет заметки авторов, замечания рецензентов и любые скрытые метаданные, которые могут раскрыть внутренние обсуждения. Очищая эти объекты комментариев, вы гарантируете, что общие файлы содержат только предназначенные данные без случайных утечек.
 
-### Почему использовать GroupDocs.Metadata для Java?
-GroupDocs.Metadata предоставляет программный доступ к скрытым частям файлов Office без их открытия в Excel. Это быстро, экономично по памяти и работает со всеми основными форматами электронных таблиц (XLS, XLSX, ODS). Библиотека также включает утилиты для удаления цифровых подписей и управления видимостью листов, делая её универсальным решением для «чистоты» документов.
+## Почему использовать GroupDocs.Metadata для Java?
+GroupDocs.Metadata предоставляет низкоуровневый доступ к скрытым частям файлов Office без запуска Excel. Библиотека поддерживает **более 50 форматов ввода и вывода** — включая XLS, XLSX, ODS, CSV и PDF — при обработке многосотстраничных книг, используя менее 100 МБ памяти кучи. Ее API объединяет удаление комментариев, стирание подписей и управление видимостью листов, делая её универсальным решением для чистоты документов.
 
 ## Требования
 - **Java Development Kit (JDK):** Версия 8 или новее.  
 - **IDE:** IntelliJ IDEA, Eclipse или любой совместимый с Java редактор.  
-- **GroupDocs.Metadata for Java:** Добавлен в зависимости вашего проекта (см. шаги установки ниже).  
+- **GroupDocs.Metadata for Java:** Добавлена в зависимости проекта (см. шаги установки ниже).  
 
 ## Настройка GroupDocs.Metadata для Java
-Добавьте библиотеку в ваш проект, чтобы начать работать с метаданными электронных таблиц.
+Добавьте библиотеку в проект, чтобы начать манипулировать метаданными таблиц.
 
 ### Maven
 Добавьте репозиторий и зависимость в ваш файл `pom.xml`:
@@ -66,20 +121,19 @@ GroupDocs.Metadata предоставляет программный досту�
 ```
 
 ### Прямое скачивание
-Или скачайте последнюю версию GroupDocs.Metadata для Java со своей [страницы релизов](https://releases.groupdocs.com/metadata/java/).
+В качестве альтернативы загрузите последнюю версию GroupDocs.Metadata for Java со своей [release page](https://releases.groupdocs.com/metadata/java/).
 
 **Получение лицензии**
-- Получите бесплатную пробную версию, чтобы протестировать функции.  
+- Получите бесплатную пробную версию для тестирования функций.  
 - Рассмотрите временную лицензию для расширенного доступа.  
 - Приобретите полную лицензию для продакшн‑развёртываний.
 
-После того как JAR будет добавлен в classpath, вы готовы писать код.
+После того как JAR окажется в classpath, вы готовы писать код.
 
 ## Руководство по реализации
 
-### Шаг 1: Удаление комментариев из таблицы (remove spreadsheet comments java)
-**Обзор:**  
-Этот фрагмент кода удаляет **все комментарии** из рабочей книги, гарантируя, что скрытые заметки не перейдут вместе с файлом.
+### Как удалить комментарии в таблице с помощью GroupDocs.Metadata
+Сначала загрузите целевую рабочую книгу с помощью класса `Metadata`, затем вызовите метод `clearComments()` у экземпляра `SpreadsheetRootPackage`, чтобы удалить каждый объект комментария. После завершения операции сохраните изменённый файл в новое место или перезапишите оригинал. Этот простой двухшаговый шаблон работает со всеми версиями Excel, поддерживаемыми GroupDocs.Metadata.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -100,14 +154,8 @@ public class ClearComments {
 }
 ```
 
-**Объяснение:**  
-- `Metadata` загружает файл и предоставляет безопасный обёртку.  
-- `SpreadsheetRootPackage` даёт доступ к утилитам инспекции.  
-- `clearComments()` удаляет каждый объект комментария, идеально подходит для сценария *remove spreadsheet comments java*.
-
-### Шаг 2: Удаление цифровых подписей (erase digital signatures excel)
-**Обзор:**  
-Цифровые подписи подтверждают подлинность, но иногда их нужно удалить перед отправкой черновика. Следующий код удаляет **все** подписи.
+### Как удалить цифровые подписи с помощью GroupDocs.Metadata
+Цифровые подписи обеспечивают подлинность, но бывают случаи, когда их необходимо удалить перед распространением черновика. Используйте метод `clearDigitalSignatures()` у `SpreadsheetRootPackage`, который проходит по всем встроенным частям подписи и удаляет их одним вызовом. После выполнения рабочая книга больше не содержит криптографических аттестаций, обеспечивая чистую версию для обзора.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -128,12 +176,8 @@ public class ClearDigitalSignatures {
 }
 ```
 
-**Объяснение:**  
-- `clearDigitalSignatures()` стирает каждую подпись, помогая соответствовать требованиям, когда документ должен быть без подписи.
-
-### Шаг 3: Скрытие листов в таблице (remove excel digital signatures)
-**Обзор:**  
-Иногда нужно скрыть только чувствительные вкладки, оставив файл целым. API может скрыть **все** листы, либо вы можете адаптировать логику для выбранных.
+### Как скрыть листы в таблице с помощью GroupDocs.Metadata
+В некоторых случаях нужно скрыть чувствительные листы, не удаляя их данные. Вызовите метод `clearHiddenSheets()` у `SpreadsheetRootPackage`, чтобы установить флаг скрытия для каждого листа, эффективно скрывая их из вида. Вы также можете изменить логику, чтобы нацеливаться на конкретные листы, позволяя управлять выборочной видимостью при сохранении содержимого.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -154,55 +198,58 @@ public class ClearHiddenSheets {
 }
 ```
 
-**Объяснение:**  
-- `clearHiddenSheets()` переключает флаг скрытия на каждом листе, упрощая вид получателям.
-
 ## Практические применения
-Ниже приведены реальные сценарии, где эти методы проявляют себя:
+Вот реальные сценарии, где эти методы проявляют себя:
 
-1. **Представление данных:** Очистите рабочую книгу перед вставкой её в презентацию PowerPoint — удалите комментарии, чтобы избежать случайных раскрытий.  
-2. **Соответствие требованиям безопасности:** Удалите подписи из черновика контракта перед отправкой юридической команде.  
-3. **Управление конфиденциальными данными:** Скрывайте листы, содержащие персональные данные (PII) или финансовые прогнозы, при распространении файла среди широкой аудитории.
+1. **Представление данных:** Очистите книгу перед вставкой в презентацию PowerPoint — удалите комментарии, чтобы избежать случайных утечек.  
+2. **Соответствие требованиям безопасности:** Удалите подписи из черновика контракта перед отправкой в юридический отдел.  
+3. **Управление конфиденциальными данными:** Скрывайте листы, содержащие ПИИ или финансовые прогнозы, при обмене файлом с более широкой аудиторией.  
 
 ## Соображения по производительности
-- **Управление памятью:** Всегда используйте try‑with‑resources (как показано), чтобы своевременно закрывать дескрипторы файлов.  
-- **Пакетная обработка:** Проходите по папке файлов, применяя одинаковые операции, уменьшая накладные расходы на каждый файл.  
-- **Обновления библиотеки:** Держите GroupDocs.Metadata в актуальном состоянии; каждый релиз приносит улучшения производительности и поддержку новых форматов.
+- **Управление памятью:** Всегда используйте try‑with‑resources (как показано), чтобы своевременно закрывать файловые дескрипторы.  
+- **Пакетная обработка:** Пройдите по папке с файлами, применяя одинаковые операции, уменьшая накладные расходы на каждый файл.  
+- **Обновления библиотеки:** Держите GroupDocs.Metadata в актуальном состоянии; каждый релиз приносит улучшения производительности и поддержку новых форматов.  
 
 ## Распространённые проблемы и решения
 | Проблема | Причина | Решение |
-|-------|-------|----------|
+|----------|----------|----------|
 | **Нет изменений после выполнения кода** | Неправильный путь к файлу или файл открыт только для чтения | Проверьте путь к входному файлу и убедитесь, что каталог вывода доступен для записи. |
-| **OutOfMemoryError при работе с большими книгами** | Одновременная загрузка большого количества крупных файлов | Обрабатывайте файлы по одному или увеличьте размер кучи JVM (`-Xmx`). |
+| **OutOfMemoryError при больших рабочих книгах** | Одновременная загрузка большого количества крупных файлов | Обрабатывайте файлы по одному или увеличьте размер кучи JVM (`-Xmx`). |
 | **Не удалось удалить подпись** | Документ защищён паролем | Откройте файл с соответствующим паролем, используя `Metadata(String path, String password)`. |
 
 ## Часто задаваемые вопросы
 
-**В: Какова основная цель GroupDocs.Metadata?**  
-**О:** Она предоставляет низкоуровневый доступ к метаданным, комментариям, подписям и скрытым элементам во многих форматах документов без их открытия в родных приложениях.
+**Q: Какова основная цель GroupDocs.Metadata?**  
+A: Она предоставляет низкоуровневый доступ к метаданным, комментариям, подписям и скрытым элементам во множестве форматов документов без их открытия в родных приложениях.
 
-**В: Можно ли удалить только определённые комментарии, а не все?**  
-**О:** Текущий метод `clearComments()` удаляет каждый комментарий. Для выборочного удаления необходимо перечислить объекты комментариев через пакет инспекции и удалить нужные.
+**Q: Можно ли удалить только определённые комментарии, а не все?**  
+A: Текущий метод `clearComments()` удаляет каждый комментарий. Для выборочного удаления перечислите объекты комментариев через пакет инспекции и удалите нужные.
 
-**В: Можно ли отменить операцию скрытия листов?**  
-**О:** Да. Используйте соответствующий метод `unhideSheet()` или просто установите флаг hidden в `false` для нужных листов.
+**Q: Можно ли отменить операцию скрытия листа?**  
+A: Да. Используйте соответствующий метод `unhideSheet()` или просто установите флаг hidden в `false` для нужных листов.
 
-**В: Поддерживает ли библиотека старые форматы Excel, такие как `.xls`?**  
-**О:** Конечно. GroupDocs.Metadata работает как с файлами `.xls`, так и `.xlsx`, а также со спредшитами OpenDocument.
+**Q: Поддерживает ли библиотека старые форматы Excel, такие как `.xls`?**  
+A: Абсолютно. GroupDocs.Metadata работает как с файлами `.xls`, так и с `.xlsx`, а также с электронными таблицами OpenDocument.
 
-**В: Есть ли юридические аспекты при удалении цифровых подписей?**  
-**О:** Удаление подписи может повлиять на юридический статус документа. Всегда убеждайтесь, что у вас есть соответствующие полномочия и соблюдайте применимые нормативы перед удалением подписей.
+**Q: Есть ли юридические аспекты при удалении цифровых подписей?**  
+A: Удаление подписи может повлиять на юридический статус документа. Всегда убеждайтесь, что у вас есть соответствующие полномочия и соблюдайте применимые нормы перед удалением подписей.
 
-## Ресурсы
+## Дополнительные ресурсы
 - [Документация GroupDocs Metadata](https://docs.groupdocs.com/metadata/java/)
-- [Справочник API](https://reference.groupdocs.com/metadata/java/)
+- [Ссылка на API](https://reference.groupdocs.com/metadata/java/)
 - [Скачать GroupDocs.Metadata для Java](https://releases.groupdocs.com/metadata/java/)
-- [Репозиторий на GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- [Репозиторий GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - [Бесплатный форум поддержки](https://forum.groupdocs.com/c/metadata/)
 - [Заявка на временную лицензию](http://www.groupdocs.com/pricing)
 
 ---
 
-**Последнее обновление:** 2026-02-14  
-**Тестировано с:** GroupDocs.Metadata 24.12 для Java  
+**Последнее обновление:** 2026-08-05  
+**Тестировано с:** GroupDocs.Metadata 24.12 for Java  
 **Автор:** GroupDocs
+
+## Связанные руководства
+
+- [Чтение метаданных Excel и управление комментариями с помощью GroupDocs.Metadata (Java)](/metadata/java/document-formats/inspect-spreadsheet-comments-groupdocs-metadata-java/)
+- [Определение формата таблицы Java с помощью GroupDocs.Metadata](/metadata/java/document-formats/detect-spreadsheet-types-groupdocs-metadata-java/)
+- [Извлечение метаданных таблицы Java с GroupDocs.Metadata](/metadata/java/document-formats/extract-manage-spreadsheet-metadata-groupdocs-java/)

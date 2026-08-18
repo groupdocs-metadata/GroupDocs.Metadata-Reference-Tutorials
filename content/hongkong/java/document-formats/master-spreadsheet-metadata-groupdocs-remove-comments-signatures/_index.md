@@ -1,40 +1,100 @@
 ---
-date: '2026-02-14'
-description: 學習如何使用 GroupDocs.Metadata for Java 移除試算表註解（Java）、抹除 Excel 數位簽章，並隱藏工作表。
+date: '2026-08-05'
+description: 了解如何使用 GroupDocs.Metadata for Java 移除 spreadsheet comments java、擦除 digital
+  signatures excel，並隱藏工作表。
 keywords:
-- spreadsheet metadata management Java
-- remove comments GroupDocs Metadata
-- erase digital signatures spreadsheet
-title: 在 Java 中移除試算表註解：使用 GroupDocs 精通試算表元資料管理
+- remove spreadsheet comments java
+- GroupDocs.Metadata Java
+- erase digital signatures excel
+- hide spreadsheet sheets Java
+- spreadsheet metadata management
+lastmod: '2026-08-05'
+og_description: 使用 GroupDocs.Metadata for Java 進行 remove spreadsheet comments java。了解如何擦除
+  digital signatures、隱藏工作表，並有效保護 Excel workbooks。
+og_image_alt: Guide showing Java code removing comments and signatures from Excel
+  using GroupDocs.Metadata
+og_title: remove spreadsheet comments java – 完整 spreadsheet metadata 指南
+schemas:
+- author: GroupDocs
+  dateModified: '2026-08-05'
+  description: Learn how to remove spreadsheet comments java, erase digital signatures
+    excel, and hide sheets using GroupDocs.Metadata for Java.
+  headline: 'remove spreadsheet comments java: master spreadsheet metadata management
+    with GroupDocs'
+  type: TechArticle
+- description: Learn how to remove spreadsheet comments java, erase digital signatures
+    excel, and hide sheets using GroupDocs.Metadata for Java.
+  name: 'remove spreadsheet comments java: master spreadsheet metadata management
+    with GroupDocs'
+  steps:
+  - name: '**Data presentation:** Clean up a workbook before embedding it in a PowerPoint
+      deck – remove comments to avoid accidental disclosures.'
+    text: '**Data presentation:** Clean up a workbook before embedding it in a PowerPoint
+      deck – remove comments to avoid accidental disclosures.'
+  - name: '**Security compliance:** Strip signatures from a draft contract before
+      sending it to a legal review team.'
+    text: '**Security compliance:** Strip signatures from a draft contract before
+      sending it to a legal review team.'
+  - name: '**Confidential data management:** Hide sheets containing PII or financial
+      forecasts when sharing a file with a broader audience.'
+    text: '**Confidential data management:** Hide sheets containing PII or financial
+      forecasts when sharing a file with a broader audience.'
+  type: HowTo
+- questions:
+  - answer: It provides low‑level access to metadata, comments, signatures, and hidden
+      elements across many document formats without opening them in native applications.
+    question: What is the primary purpose of GroupDocs.Metadata?
+  - answer: The current `clearComments()` method removes every comment. For selective
+      removal, enumerate comment objects via the inspection package and delete the
+      ones you target.
+    question: Can I remove only specific comments instead of all?
+  - answer: Yes. Use the corresponding `unhideSheet()` method or simply set the hidden
+      flag back to `false` for the desired worksheets.
+    question: Is it possible to revert the hidden‑sheet operation?
+  - answer: Absolutely. GroupDocs.Metadata works with both `.xls` and `.xlsx` files,
+      as well as OpenDocument spreadsheets.
+    question: Does the library support older Excel formats like `.xls`?
+  - answer: Removing a signature may affect the document’s legal standing. Always
+      ensure you have proper authority and comply with relevant regulations before
+      stripping signatures.
+    question: Are there legal considerations when erasing digital signatures?
+  type: FAQPage
+tags:
+- remove comments
+- GroupDocs.Metadata
+- Java spreadsheet processing
+- Excel metadata
+- document security
+title: remove spreadsheet comments java：使用 GroupDocs 完成試算表 metadata 管理的完整指南
 type: docs
 url: /zh-hant/java/document-formats/master-spreadsheet-metadata-groupdocs-remove-comments-signatures/
 weight: 1
 ---
 
-# remove spreadsheet comments java：使用 GroupDocs 的試算表元資料管理大師
+# 移除 spreadsheet comments java：使用 GroupDocs 的主試算表元資料管理
 
-管理試算表的元資料對於任何處理資料豐富的 Excel 檔案的人來說都是每日的挑戰。在本教學中，您將了解 **how to remove spreadsheet comments java**、快速刪除數位簽章以及隱藏工作表，使用 GroupDocs.Metadata for Java。完成本指南後，您將擁有一個乾淨且安全的活頁簿，可供發佈。
+管理試算表元資料對於任何處理資料豐富 Excel 檔案的人而言都是每日挑戰。在本教學中，您將了解 **how to remove spreadsheet comments java**、快速刪除數位簽章以及隱藏工作表，全部使用 GroupDocs.Metadata for Java。完成本指南後，您將擁有一個乾淨且安全的活頁簿，可供分發，並了解為何此方法能夠擴展至成千上萬的檔案。
 
 ## 快速解答
 - **What does “remove spreadsheet comments java” do?** 它會清除 Excel 活頁簿中的所有註解物件，消除隱藏的備註。  
-- **Can I also erase digital signatures?** 是的 – 函式庫提供一次呼叫即可移除所有簽章的方法。  
+- **Can I also erase digital signatures?** 是的——此函式庫提供一次性移除所有簽章的方法。  
 - **Is hiding sheets reversible?** 絕對可以；您可以稍後使用相同的 API 取消隱藏。  
 - **Do I need a license?** 免費試用可用於測試；正式環境需購買完整授權。  
 - **Which Java version is supported?** Java 8 或更高版本。
 
-### 什麼是 “remove spreadsheet comments java”？
-從試算表中移除註解會剝除任何作者備註、討論串或可能洩漏內部資訊的元資料。這在與外部合作夥伴共享草稿或準備公開發佈資料時特別有用。
+## 什麼是 “remove spreadsheet comments java”？
+`remove spreadsheet comments java` 是一個程式化操作，用於刪除 Excel 活頁簿內儲存的所有註解元素。它會移除作者備註、審閱意見，以及任何可能透露內部討論的隱藏元資料。透過清除這些註解物件，您可確保共享的檔案僅包含預期的資料，避免意外洩漏。
 
-### 為什麼使用 GroupDocs.Metadata for Java？
-GroupDocs.Metadata 讓您能以程式方式存取 Office 檔案的隱藏部分，無需在 Excel 中開啟。它快速、記憶體效能佳，且支援所有主要的試算表格式 (XLS、XLSX、ODS)。此函式庫亦捆綁了刪除數位簽章與管理工作表可見性的工具，成為文件清潔的一站式解決方案。
+## 為何使用 GroupDocs.Metadata for Java？
+GroupDocs.Metadata 讓您在不啟動 Excel 的情況下，低階存取 Office 檔案的隱藏部分。此函式庫支援 **50+ 輸入與輸出格式**——包括 XLS、XLSX、ODS、CSV 以及 PDF——同時在少於 100 MB 堆積記憶體的情況下處理數百頁的活頁簿。其 API 結合了註解移除、簽章刪除與工作表可見性控制，成為文件清潔的一站式解決方案。
 
 ## 前置條件
-- **Java Development Kit (JDK):** 版本 8 或更新。  
-- **IDE:** IntelliJ IDEA、Eclipse，或任何相容 Java 的編輯器。  
-- **GroupDocs.Metadata for Java:** 已加入至專案相依性（請參考以下安裝步驟）。  
+- **Java Development Kit (JDK)：** 版本 8 或更新。  
+- **IDE：** IntelliJ IDEA、Eclipse，或任何相容 Java 的編輯器。  
+- **GroupDocs.Metadata for Java：** 已加入至您的專案相依性（請參考以下安裝步驟）。
 
 ## 設定 GroupDocs.Metadata for Java
-將函式庫加入您的專案，以便開始操作試算表的元資料。
+將函式庫加入您的專案，以便開始操作試算表元資料。
 
 ### Maven
 將儲存庫與相依性加入您的 `pom.xml` 檔案：
@@ -62,16 +122,15 @@ GroupDocs.Metadata 讓您能以程式方式存取 Office 檔案的隱藏部分�
 
 **授權取得**
 - 取得免費試用以測試功能。  
-- 考慮臨時授權以延長存取。  
-- 購買正式授權以供正式環境部署。
+- 考慮使用臨時授權以延長存取時間。  
+- 購買完整授權以供正式部署使用。
 
 將 JAR 放入 classpath 後，即可開始撰寫程式碼。
 
 ## 實作指南
 
-### 步驟 1：移除試算表註解 (remove spreadsheet comments java)
-**概述：**  
-此程式碼片段會清除活頁簿中的 **所有註解**，確保沒有隱藏的備註隨檔案一起傳遞。
+### 使用 GroupDocs.Metadata 移除試算表註解的方法
+首先，使用 `Metadata` 類別載入目標活頁簿，然後在 `SpreadsheetRootPackage` 實例上呼叫 `clearComments()` 方法，以刪除所有註解物件。操作完成後，將修改後的檔案儲存至新位置或覆寫原檔。此簡單的兩步流程適用於 GroupDocs.Metadata 支援的所有 Excel 版本。
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -92,14 +151,8 @@ public class ClearComments {
 }
 ```
 
-**說明：**  
-- `Metadata` 會載入檔案並提供安全的封裝。  
-- `SpreadsheetRootPackage` 提供檢查工具的存取。  
-- `clearComments()` 會移除所有註解物件，非常適合 *remove spreadsheet comments java* 的使用情境。
-
-### 步驟 2：刪除數位簽章 (erase digital signatures excel)
-**概述：**  
-數位簽章用於驗證真偽，但在發送草稿前可能需要將其剝除。以下程式碼會刪除 **所有** 簽章。
+### 使用 GroupDocs.Metadata 刪除數位簽章的方法
+數位簽章提供文件真實性，但在某些情況下必須在發佈草稿前移除它們。使用 `SpreadsheetRootPackage` 上的 `clearDigitalSignatures()` 方法，遍歷所有嵌入的簽章部件，並一次性刪除。執行後，活頁簿將不再包含任何加密驗證，確保審閱時的乾淨版本。
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -120,12 +173,8 @@ public class ClearDigitalSignatures {
 }
 ```
 
-**說明：**  
-- `clearDigitalSignatures()` 會清除每一個簽章，協助您在文件必須未簽署時符合合規要求。
-
-### 步驟 3：在試算表中隱藏工作表 (remove excel digital signatures)
-**概述：**  
-有時您只想隱藏敏感的工作表，同時保留檔案完整。API 可以隱藏 **所有** 工作表，或您可自行調整邏輯以針對特定工作表。
+### 使用 GroupDocs.Metadata 隱藏試算表工作表的方法
+在某些情況下，您需要隱藏敏感工作表但不刪除其資料。呼叫 `SpreadsheetRootPackage` 上的 `clearHiddenSheets()` 方法，為每個工作表設定隱藏旗標，從而將其隱藏。您亦可調整邏輯以針對特定工作表，實現選擇性可見性控制，同時保留底層內容。
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -146,55 +195,58 @@ public class ClearHiddenSheets {
 }
 ```
 
-**說明：**  
-- `clearHiddenSheets()` 會切換每個工作表的隱藏旗標，為接收者整理視圖。
-
 ## 實務應用
-以下是這些方法在實務中發揮效用的情境：
+以下是這些方法在實務上發揮效用的情境：
 
-1. **資料展示：** 在將活頁簿嵌入 PowerPoint 投影片前先清理 – 移除註解以避免意外洩漏。  
-2. **安全合規：** 在將草稿合約送交法律審查團隊前剝除簽章。  
-3. **機密資料管理：** 在與更廣泛的受眾共享檔案時，隱藏包含 PII 或財務預測的工作表。
+1. **Data presentation：** 在將活頁簿嵌入 PowerPoint 投影片前先清理——移除註解以避免意外洩漏。  
+2. **Security compliance：** 在將草稿合約送交法律審查團隊前，剝除簽章。  
+3. **Confidential data management：** 在與更廣泛的受眾共享檔案時，隱藏包含個人身份資訊或財務預測的工作表。  
 
 ## 效能考量
-- **記憶體管理：** 永遠使用 try‑with‑resources（如範例所示）即時關閉檔案句柄。  
-- **批次處理：** 迭代資料夾中的檔案以套用相同操作，降低每個檔案的開銷。  
-- **函式庫更新：** 保持 GroupDocs.Metadata 為最新版本；每次發行都會帶來效能調整與新格式支援。
+- **Memory management：** 始終使用 try‑with‑resources（如示範）即時關閉檔案句柄。  
+- **Batch processing：** 迴圈處理資料夾內的檔案以套用相同操作，降低每檔案的開銷。  
+- **Library updates：** 保持 GroupDocs.Metadata 為最新版本；每次發行都會帶來效能調整與新格式支援。  
 
 ## 常見問題與解決方案
 | 問題 | 原因 | 解決方案 |
 |-------|-------|----------|
-| **執行程式碼後無變化** | 檔案路徑不正確或使用唯讀檔案 | 確認輸入路徑並確保輸出目錄可寫入。 |
-| **大型活頁簿發生 OutOfMemoryError** | 同時載入多個大型檔案 | 一次處理單一檔案，或增加 JVM 堆積大小 (`-Xmx`)。 |
+| **執行程式碼後未有變更** | 檔案路徑不正確或使用唯讀檔案 | 確認輸入路徑正確，且確保輸出目錄可寫入。 |
+| **大型活頁簿發生 OutOfMemoryError** | 同時載入多個大型檔案 | 一次處理一個檔案，或增加 JVM 堆積大小 (`-Xmx`)。 |
 | **簽章移除失敗** | 文件受密碼保護 | 使用 `Metadata(String path, String password)` 並提供正確密碼開啟檔案。 |
 
 ## 常見問答
 
 **Q: GroupDocs.Metadata 的主要目的為何？**  
-A: 它提供對多種文件格式的元資料、註解、簽章與隱藏元素的低階存取，無需在原生應用程式中開啟。
+**A:** 它提供低階存取元資料、註解、簽章與隱藏元素的能力，支援多種文件格式，且無需在原生應用程式中開啟文件。
 
 **Q: 我可以只移除特定的註解而非全部嗎？**  
-A: 目前的 `clearComments()` 方法會移除所有註解。若要選擇性移除，需透過檢查套件列舉註解物件並刪除目標註解。
+**A:** 目前的 `clearComments()` 方法會移除所有註解。若需選擇性移除，可透過檢查套件列舉註解物件，然後刪除目標註解。
 
 **Q: 是否可以復原隱藏工作表的操作？**  
-A: 可以。使用相對應的 `unhideSheet()` 方法，或直接將目標工作表的 hidden 旗標設為 `false`。
+**A:** 可以。使用相應的 `unhideSheet()` 方法，或直接將目標工作表的 hidden 旗標設回 `false`。
 
-**Q: 此函式庫是否支援舊版 Excel 格式，如 `.xls`？**  
-A: 當然支援。GroupDocs.Metadata 可處理 `.xls` 與 `.xlsx` 檔案，亦支援 OpenDocument 試算表。
+**Q: 此函式庫是否支援舊版 Excel 格式，例如 `.xls`？**  
+**A:** 絕對支援。GroupDocs.Metadata 可處理 `.xls` 與 `.xlsx` 檔案，同時支援 OpenDocument 試算表。
 
 **Q: 刪除數位簽章時是否有法律考量？**  
-A: 移除簽章可能影響文件的法律效力。請務必確保您具備適當授權，並遵守相關法規後再進行簽章剝除。
+**A:** 移除簽章可能影響文件的法律效力。務必確保您具備適當授權，並遵守相關法規後再執行簽章剝除。
 
-## 資源
-- [GroupDocs Metadata 文件說明](https://docs.groupdocs.com/metadata/java/)
-- [API 參考文件](https://reference.groupdocs.com/metadata/java/)
+## 其他資源
+- [GroupDocs Metadata 文件](https://docs.groupdocs.com/metadata/java/)
+- [API 參考](https://reference.groupdocs.com/metadata/java/)
 - [下載 GroupDocs.Metadata for Java](https://releases.groupdocs.com/metadata/java/)
-- [GitHub 程式庫](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- [GitHub 儲存庫](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 - [免費支援論壇](https://forum.groupdocs.com/c/metadata/)
 - [臨時授權申請](http://www.groupdocs.com/pricing)
 
 ---
 
-**最後更新：** 2026-02-14  
+**最後更新：** 2026-08-05  
 **測試環境：** GroupDocs.Metadata 24.12 for Java  
 **作者：** GroupDocs
+
+## 相關教學
+
+- [使用 GroupDocs.Metadata (Java) 讀取 Excel 元資料與管理註解](/metadata/java/document-formats/inspect-spreadsheet-comments-groupdocs-metadata-java/)
+- [使用 GroupDocs.Metadata 識別試算表格式 (Java)](/metadata/java/document-formats/detect-spreadsheet-types-groupdocs-metadata-java/)
+- [使用 GroupDocs.Metadata 提取試算表元資料 (Java)](/metadata/java/document-formats/extract-manage-spreadsheet-metadata-groupdocs-java/)

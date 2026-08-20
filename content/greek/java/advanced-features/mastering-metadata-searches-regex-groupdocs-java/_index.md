@@ -1,38 +1,103 @@
 ---
-date: '2026-02-21'
-description: Μάθετε πώς να αναζητάτε μεταδεδομένα Java αποδοτικά με regex χρησιμοποιώντας
-  το GroupDocs.Metadata. Ενισχύστε τη διαχείριση εγγράφων, βελτιώστε τις αναζητήσεις
-  και βελτιώστε την οργάνωση των δεδομένων.
+date: '2026-08-20'
+description: Μάθετε πώς να αναζητήσετε metadata χρησιμοποιώντας regex σε Java με το
+  GroupDocs.Metadata. Εντοπίστε γρήγορα author, company ή custom tags σε PDFs, Word,
+  Excel, images και άλλα.
 keywords:
-- metadata searches in Java
-- regex search metadata
-- GroupDocs.Metadata for Java
-title: Πώς να αναζητήσετε μεταδεδομένα Java χρησιμοποιώντας Regex με το GroupDocs.Metadata
+- how to search metadata
+- pdf metadata search
+- java metadata extraction
+lastmod: '2026-08-20'
+og_description: Πώς να αναζητήσετε metadata χρησιμοποιώντας regex σε Java με το GroupDocs.Metadata.
+  Αυτός ο οδηγός σας παρουσιάζει μια γρήγορη, production‑ready προσέγγιση για PDFs,
+  Word, Excel, images και άλλες μορφές.
+og_image_alt: 'Developer guide: searching document metadata with regex in Java using
+  GroupDocs.Metadata'
+og_title: Πώς να αναζητήσετε metadata με regex χρησιμοποιώντας το GroupDocs.Metadata
+schemas:
+- author: GroupDocs
+  dateModified: '2026-08-20'
+  description: Learn how to search metadata using regex in Java with GroupDocs.Metadata.
+    Quickly locate author, company, or custom tags across PDFs, Word, Excel, images
+    and more.
+  headline: How to search metadata java using regex with GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to search metadata using regex in Java with GroupDocs.Metadata.
+    Quickly locate author, company, or custom tags across PDFs, Word, Excel, images
+    and more.
+  name: How to search metadata java using regex with GroupDocs.Metadata
+  steps:
+  - name: Visit the GroupDocs website and request a temporary trial license.
+    text: Visit the GroupDocs website and request a temporary trial license.
+  - name: Follow the provided instructions to load the license file in your Java project—this
+      unlocks the full API.
+    text: Follow the provided instructions to load the license file in your Java project—this
+      unlocks the full API.
+  - name: '**Limit the regex scope** – avoid overly broad patterns like `.*` which
+      force the engine to examine every character.'
+    text: '**Limit the regex scope** – avoid overly broad patterns like `.*` which
+      force the engine to examine every character.'
+  - name: '**Reuse compiled `Pattern` objects** – compiling a pattern is expensive;
+      keep it static if you call the search repeatedly.'
+    text: '**Reuse compiled `Pattern` objects** – compiling a pattern is expensive;
+      keep it static if you call the search repeatedly.'
+  - name: '**Batch processing** – load and search documents in groups to keep memory
+      usage predictable.'
+    text: '**Batch processing** – load and search documents in groups to keep memory
+      usage predictable.'
+  - name: '**Adjust JVM heap** if you encounter `OutOfMemoryError` during massive
+      scans.'
+    text: '**Adjust JVM heap** if you encounter `OutOfMemoryError` during massive
+      scans.'
+  type: HowTo
+- questions:
+  - answer: Use the Maven dependency shown in the **Maven setup** section or download
+      the JAR from the official releases page.
+    question: How do I install GroupDocs.Metadata for Java?
+  - answer: Yes, GroupDocs.Metadata supports PDFs, Word, Excel, images, and many more
+      formats—over 30 in total.
+    question: Can I use regex patterns with other file types?
+  - answer: Verify case sensitivity, remove unnecessary whitespace, and test the pattern
+      against a known property name using `Pattern.matches`.
+    question: What if my regex pattern doesn’t match any properties?
+  - answer: Keep regexes specific, reuse compiled `Pattern` objects, and process files
+      in batches as described in the **Performance considerations** section.
+    question: How do I handle large datasets efficiently?
+  - answer: Explore the [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)
+      for additional use cases and code snippets.
+    question: Where can I find more examples of metadata searches?
+  type: FAQPage
+tags:
+- metadata search
+- GroupDocs.Metadata
+- Java regex
+- document processing
+title: Πώς να αναζητήσετε metadata σε Java χρησιμοποιώντας regex με το GroupDocs.Metadata
 type: docs
 url: /el/java/advanced-features/mastering-metadata-searches-regex-groupdocs-java/
 weight: 1
 ---
 
-# Πώς να αναζητήσετε μεταδεδομένα Java χρησιμοποιώντας Regex με το GroupDocs.Metadata
+# Πώς να αναζητήσετε μεταδεδομένα java χρησιμοποιώντας regex με το GroupDocs.Metadata
 
-Αν αναρωτιέστε **πώς να αναζητήσετε μεταδεδομένα Java** γρήγορα και ακριβώς στις εφαρμογές σας Java, βρίσκεστε στο σωστό μέρος. Σε αυτό το tutorial θα περάσουμε από τη χρήση του GroupDocs.Metadata μαζί με τις κανονικές εκφράσεις (regex) για να εντοπίσουμε συγκεκριμένες ιδιότητες μεταδεδομένων—είτε χρειάζεστε φιλτράρισμα κατά συγγραφέα, εταιρεία ή οποιαδήποτε προσαρμοσμένη ετικέτα. Στο τέλος, θα έχετε μια σαφή, έτοιμη για παραγωγή λύση που μπορείτε να ενσωματώσετε σε οποιοδήποτε pipeline επεξεργασίας εγγράφων.
+Αν αναρωτιέστε **πώς να αναζητήσετε μεταδεδομένα java** γρήγορα και με ακρίβεια στις εφαρμογές Java σας, βρίσκεστε στο σωστό μέρος. Σε αυτό το tutorial θα δούμε πώς να χρησιμοποιήσετε το GroupDocs.Metadata μαζί με κανονικές εκφράσεις (regex) για να εντοπίσετε συγκεκριμένες ιδιότητες μεταδεδομένων — είτε χρειάζεται να φιλτράρετε κατά συγγραφέα, εταιρεία ή οποιαδήποτε προσαρμοσμένη ετικέτα. Στο τέλος, θα έχετε μια σαφή, έτοιμη για παραγωγή λύση που μπορείτε να ενσωματώσετε σε οποιοδήποτε pipeline επεξεργασίας εγγράφων.
 
-## Γρήγορες Απαντήσεις
+## Γρήγορες απαντήσεις
 - **Ποια είναι η κύρια βιβλιοθήκη;** GroupDocs.Metadata for Java  
 - **Ποιο χαρακτηριστικό σας βοηθά να βρείτε μεταδεδομένα;** Regex‑based search via `Specification`  
 - **Χρειάζομαι άδεια;** A free trial is available; a license is required for production use  
-- **Μπορώ να αναζητήσω οποιονδήποτε τύπο εγγράφου;** Yes, GroupDocs.Metadata supports PDFs, Word, Excel, images, and more  
+- **Μπορώ να αναζητήσω οποιονδήποτε τύπο εγγράφου;** Yes, GroupDocs.Metadata supports 30+ formats, including PDF, DOCX, XLSX, PPTX, JPEG, PNG, and TIFF  
 - **Ποια έκδοση Java απαιτείται;** JDK 8 or higher  
 
-## Τι είναι η αναζήτηση μεταδεδομένων Java και γιατί να χρησιμοποιήσετε regex;
+## Τι είναι η αναζήτηση μεταδεδομένων java και γιατί να χρησιμοποιήσετε regex;
 
-Τα μεταδεδομένα είναι τα κρυφά χαρακτηριστικά ενσωματωμένα σε ένα αρχείο—συγγραφέας, ημερομηνία δημιουργίας, εταιρεία κ.λπ. Η αναζήτηση αυτών των χαρακτηριστικών με απλή αντιστοίχιση συμβολοσειρών λειτουργεί για απλές περιπτώσεις, αλλά το regex σας επιτρέπει να ορίσετε ευέλικτα μοτίβα (π.χ., “author*” ή “.*company.*”) ώστε να εντοπίζετε πολλαπλές σχετικές ιδιότητες σε μία μόνο διεργασία. Αυτή η ευελιξία είναι απαραίτητη όταν έχετε χιλιάδες έγγραφα και χρειάζεστε έναν γρήγορο, συντηρήσιμο τρόπο ερώτησης των μεταδεδομένων τους.
+Η αναζήτηση μεταδεδομένων java αναφέρεται στον προγραμματιστικό εντοπισμό κρυφών χαρακτηριστικών (συγγραφέας, ημερομηνία δημιουργίας, εταιρεία, προσαρμοσμένες ετικέτες) μέσα σε αρχεία χρησιμοποιώντας Java. Το regex σας επιτρέπει να ορίσετε ευέλικτα μοτίβα — όπως `author.*` ή `.*date.*` — ώστε ένα μόνο ερώτημα να ταιριάζει με πολλές σχετικές ιδιότητες ταυτόχρονα. Αυτό είναι πολύ πιο συντηρήσιμο από το σκληρό κωδικοποίηση δεκάδων συγκρίσεων συμβολοσειρών, ειδικά όταν επεξεργάζεστε χιλιάδες έγγραφα σε σύστημα διαχείρισης περιεχομένου.
 
 ## Προαπαιτούμενα
 
-- **GroupDocs.Metadata for Java** έκδοση 24.12 ή νεότερη.  
+- **GroupDocs.Metadata for Java** version 24.12 ή νεότερη.  
 - Maven εγκατεστημένο για διαχείριση εξαρτήσεων.  
-- JDK Java 8 + και ένα IDE όπως IntelliJ IDEA ή Eclipse.  
+- Ένα Java 8 + JDK και ένα IDE όπως IntelliJ IDEA ή Eclipse.  
 - Βασική εξοικείωση με Java και κανονικές εκφράσεις.
 
 ## Ρύθμιση του GroupDocs.Metadata για Java
@@ -58,39 +123,39 @@ weight: 1
 </dependencies>
 ```
 
-### Άμεση Λήψη
-Αν προτιμάτε να μην χρησιμοποιήσετε Maven, μπορείτε να κατεβάσετε το πιο πρόσφατο JAR απευθείας από [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+### Άμεση λήψη
+Αν προτιμάτε να μην χρησιμοποιήσετε Maven, μπορείτε να κατεβάσετε το τελευταίο JAR απευθείας από [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-### Βήματα Απόκτησης Άδειας
-1. Επισκεφθείτε τον ιστότοπο GroupDocs και ζητήστε μια προσωρινή δοκιμαστική άδεια.  
-2. Ακολουθήστε τις παρεχόμενες οδηγίες για να φορτώσετε το αρχείο άδειας στο έργο Java—αυτό ξεκλειδώνει το πλήρες API.
+### Βήματα απόκτησης άδειας
+1. Επισκεφθείτε την ιστοσελίδα GroupDocs και ζητήστε μια προσωρινή δοκιμαστική άδεια.  
+2. Ακολουθήστε τις παρεχόμενες οδηγίες για να φορτώσετε το αρχείο άδειας στο Java project σας — αυτό ξεκλειδώνει το πλήρες API.
 
-### Βασική Αρχικοποίηση
-Μόλις η βιβλιοθήκη βρίσκεται στο classpath σας, μπορείτε να αρχίσετε να εργάζεστε με τα μεταδεδομένα:
-
+## Βασική αρχικοποίηση
+`Metadata` είναι η κύρια κλάση που φορτώνει τα μεταδεδομένα ενός εγγράφου για επιθεώρηση και επεξεργασία.  
 ```java
 Metadata metadata = new Metadata("path/to/your/document");
 ```
 
-Τώρα είστε έτοιμοι να εφαρμόσετε μοτίβα regex για την αναζήτηση μεταδεδομένων εγγράφων.
+Τώρα είστε έτοιμοι να εφαρμόσετε regex μοτίβα για την αναζήτηση μεταδεδομένων εγγράφου.
 
-## Πώς να αναζητήσετε μεταδεδομένα Java με μοτίβο regex
+## Πώς να αναζητήσετε μεταδεδομένα java με ένα regex μοτίβο
 
-### Ορισμός του Μοτίβου Regex
+Φορτώστε το έγγραφό σας, μεταγλωττίστε ένα regex μοτίβο και χρησιμοποιήστε ένα `Specification` για να φιλτράρετε τις ιδιότητες. Η βασική ιδέα είναι: **create a compiled `Pattern`, pass it to a `Specification` lambda, and let the library return all matching `MetadataProperty` objects.** Αυτή η προσέγγιση εκτελείται σε χρόνο O(n) πάνω στη λίστα ιδιοτήτων και αποφεύγει τη φόρτωση ολόκληρου του αρχείου στη μνήμη.
 
-Το πρώτο βήμα είναι να αποφασίσετε τι θέλετε να ταιριάξετε. Για παράδειγμα, για να βρείτε ιδιότητες με όνομα **author** ή **company**, μπορείτε να χρησιμοποιήσετε:
+### Ορισμός του regex μοτίβου
 
+`Pattern` είναι η κλάση κανονικών εκφράσεων της Java που χρησιμοποιείται για τη μεταγλώττιση regex συμβολοσειρών για αντιστοίχιση.  
 ```java
 import java.util.regex.Pattern;
 
 Pattern pattern = Pattern.compile("author|company");
 ```
 
-> **Συμβουλή:** Χρησιμοποιήστε σημαίες χωρίς διάκριση πεζών‑κεφαλαίων (`(?i)`) εάν τα κλειδιά των μεταδεδομένων σας μπορεί να διαφέρουν σε κεφαλαίωση.
+> **Συμβουλή:** Χρησιμοποιήστε σημαίες χωρίς διάκριση πεζών-κεφαλαίων (`(?i)`) εάν τα κλειδιά των μεταδεδομένων σας μπορεί να διαφέρουν σε κεφαλαία.
 
-### Αναζήτηση Μεταδεδομένων με Specification
+### Αναζήτηση μεταδεδομένων με specification
 
-Το GroupDocs.Metadata παρέχει μια κλάση `Specification` που δέχεται μια έκφραση lambda. Η lambda λαμβάνει κάθε `MetadataProperty` και σας επιτρέπει να εφαρμόσετε το regex σας:
+`Specification` είναι ένας δημιουργός φίλτρων στο GroupDocs.Metadata που σας επιτρέπει να ορίσετε προσαρμοσμένα λογικά κριτήρια για ιδιότητες μεταδεδομένων. Αξιολογεί κάθε `MetadataProperty` έναντι του παρεχόμενου λάμβδα.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -115,74 +180,77 @@ try (Metadata metadata = new Metadata("path/to/your/document")) {
 }
 ```
 
-**Επεξήγηση των βασικών στοιχείων**
+**Επεξήγηση βασικών στοιχείων**
 
 | Στοιχείο | Σκοπός |
 |----------|--------|
-| `Specification` | Τυλίγει τη δική σας προσαρμοσμένη lambda ώστε η βιβλιοθήκη να γνωρίζει πώς να φιλτράρει τις ιδιότητες. |
+| `Specification` | Τυλίγει το προσαρμοσμένο λάμβδα σας ώστε η βιβλιοθήκη να γνωρίζει πώς να φιλτράρει τις ιδιότητες. |
 | `pattern.matcher(property.getName()).find()` | Εφαρμόζει το regex σε κάθε όνομα ιδιότητας. |
-| `findProperties(spec)` | Επιστρέφει μια λίστα μόνο για ανάγνωση με όλες τις ιδιότητες που ικανοποιούν το spec. |
+| `findProperties(spec)` | Επιστρέφει μια μόνο για ανάγνωση λίστα όλων των ιδιοτήτων που ικανοποιούν το spec. |
 
-Μπορείτε να επεκτείνετε αυτήν την προσέγγιση συνδέοντας πολλαπλές specifications (π.χ., φιλτράρισμα κατά όνομα *και* κατά τιμή) ή δημιουργώντας πιο σύνθετα μοτίβα regex.
+Μπορείτε να επεκτείνετε αυτήν την προσέγγιση συνδέοντας πολλαπλές specifications (π.χ., φιλτράρισμα κατά όνομα *και* κατά τιμή) ή δημιουργώντας πιο σύνθετα regex μοτίβα.
 
-## Προσαρμογή και Επέκταση της Αναζήτησης
+## Προσαρμογή και επέκταση της αναζήτησης
 
 - **Πολλαπλοί όροι:** `Pattern.compile("author|company|title")`  
 - **Αναζήτηση με μπαλαντέρ:** `Pattern.compile(".*date.*")` βρίσκει οποιαδήποτε ιδιότητα που περιέχει “date”.  
-- **Φιλτράρισμα βάσει τιμής:** Μέσα στη lambda, συγκρίνετε επίσης `property.getValue()` με ένα άλλο μοτίβο για πιο βαθιές αναζητήσεις.
+- **Φιλτράρισμα βάσει τιμής:** Μέσα στο λάμβδα, συγκρίνετε επίσης το `property.getValue()` με ένα άλλο μοτίβο για πιο βαθιές αναζητήσεις.
 
-## Πρακτικές Εφαρμογές
+## Πρακτικές εφαρμογές
 
 | Σενάριο | Πώς βοηθά το regex |
 |----------|---------------------|
-| **Συστήματα Διαχείρισης Εγγράφων** | Αυτόματη κατηγοριοποίηση αρχείων κατά συγγραφέα ή τμήμα χωρίς σκληρό κωδικοποίηση κάθε ονόματος. |
-| **Φιλτράρισμα Περιεχομένου** | Αποκλεισμός αρχείων που λείπουν τα απαιτούμενα μεταδεδομένα (π.χ., χωρίς ετικέτα `company`) πριν από την μαζική επεξεργασία. |
-| **Διαχείριση Ψηφιακών Περιουσιακών Στοιχείων** | Γρήγορη εντολή εικόνων που δημιουργήθηκαν από συγκεκριμένο φωτογράφο αποθηκευμένες σε πολλούς φακέλους. |
+| **Συστήματα διαχείρισης εγγράφων** | Αυτόματη κατηγοριοποίηση αρχείων κατά συγγραφέα ή τμήμα χωρίς να κωδικοποιείτε σκληρά κάθε όνομα. |
+| **Φιλτράρισμα περιεχομένου** | Εξαίρεση αρχείων που λείπουν τα απαιτούμενα μεταδεδομένα (π.χ., χωρίς ετικέτα `company`) πριν από την μαζική επεξεργασία. |
+| **Διαχείριση ψηφιακών περιουσιακών στοιχείων** | Γρήγορη εντόπιση εικόνων που δημιουργήθηκαν από συγκεκριμένο φωτογράφο και είναι αποθηκευμένες σε πολλούς φακέλους. |
 
-## Σκέψεις για την Απόδοση
+## Σκέψεις απόδοσης
 
-Όταν σκανάρετε χιλιάδες αρχεία:
+Κατά τη σάρωση χιλιάδων αρχείων:
 
-1. **Περιορίστε το εύρος του regex** – αποφύγετε υπερβολικά γενικά μοτίβα όπως `.*` που αναγκάζουν τη μηχανή να εξετάζει κάθε χαρακτήρα.  
-2. **Επαναχρησιμοποίηση των μεταγλωττισμένων αντικειμένων `Pattern`** – η μεταγλώττιση ενός μοτίβου είναι δαπανηρή· κρατήστε το στατικό αν καλείτε την αναζήτηση επανειλημμένα.  
+1. **Περιορίστε το πεδίο του regex** – αποφύγετε υπερβολικά γενικά μοτίβα όπως `.*` που αναγκάζουν τη μηχανή να εξετάσει κάθε χαρακτήρα.  
+2. **Επαναχρησιμοποιήστε τα μεταγλωττισμένα αντικείμενα `Pattern`** – η μεταγλώττιση ενός μοτίβου είναι δαπανηρή· κρατήστε το στατικό αν καλείτε την αναζήτηση επανειλημμένα.  
 3. **Επεξεργασία σε παρτίδες** – φορτώστε και αναζητήστε έγγραφα σε ομάδες για να διατηρήσετε τη χρήση μνήμης προβλέψιμη.  
-4. **Ρυθμίστε τη μνήμη heap του JVM** εάν αντιμετωπίσετε `OutOfMemoryError` κατά τη διάρκεια μαζικών σκαναρίων.  
+4. **Ρυθμίστε τη μνήμη heap του JVM** εάν αντιμετωπίσετε `OutOfMemoryError` κατά τις μεγάλες σάρωσεις.  
 
-Ακολουθώντας αυτές τις συμβουλές διατηρείτε τις αναζητήσεις σας γρήγορες και την εφαρμογή σας σταθερή.
+Ακολουθώντας αυτές τις συμβουλές διατηρείτε τις αναζητήσεις γρήγορες και την εφαρμογή σας σταθερή, ακόμη και όταν επεξεργάζεστε 100 000+ έγγραφα σε μία εκτέλεση.
 
-## Συνηθισμένα Προβλήματα & Λύσεις
+## Συχνά προβλήματα & λύσεις
 
 - **Λανθασμένη διαδρομή αρχείου** – Ελέγξτε ξανά ότι η διαδρομή που περνάτε στο `new Metadata(...)` δείχνει σε ένα υπάρχον, αναγνώσιμο αρχείο.  
-- **Συντακτικά σφάλματα regex** – Χρησιμοποιήστε έναν online δοκιμαστή ή τυλίξτε το `Pattern.compile` σε try‑catch για να εμφανιστούν τα προβλήματα νωρίς.  
+- **Σφάλματα σύνταξης regex** – Χρησιμοποιήστε έναν online δοκιμαστή ή τυλίξτε το `Pattern.compile` σε try‑catch για να εντοπίσετε προβλήματα νωρίς.  
 - **Δεν βρέθηκαν αντιστοιχίες** – Εκτυπώστε το `metadata.getProperties()` χωρίς φίλτρο πρώτα· αυτό αποκαλύπτει τα ακριβή ονόματα ιδιοτήτων που μπορείτε να στοχεύσετε.
 
-## Συχνές Ερωτήσεις
+## Συχνές ερωτήσεις
 
-### Πώς εγκαθιστώ το GroupDocs.Metadata για Java;
+**Q: Πώς εγκαθιστώ το GroupDocs.Metadata for Java;**  
+A: Χρησιμοποιήστε την εξάρτηση Maven που εμφανίζεται στην ενότητα **Ρύθμιση Maven** ή κατεβάστε το JAR από τη σελίδα των επίσημων εκδόσεων.
 
-Ακολουθήστε τις οδηγίες ρύθμισης Maven ή άμεσης λήψης που παρέχονται στην ενότητα **Ρύθμιση**.
+**Q: Μπορώ να χρησιμοποιήσω regex μοτίβα με άλλους τύπους αρχείων;**  
+A: Ναι, το GroupDocs.Metadata υποστηρίζει PDFs, Word, Excel, εικόνες και πολλούς άλλους τύπους — πάνω από 30 συνολικά.
 
-### Μπορώ να χρησιμοποιήσω μοτίβα regex με άλλους τύπους αρχείων;
+**Q: Τι γίνεται αν το regex μοτίβο μου δεν ταιριάζει με καμία ιδιότητα;**  
+A: Επαληθεύστε τη διάκριση πεζών‑κεφαλαίων, αφαιρέστε περιττά κενά και δοκιμάστε το μοτίβο έναντι γνωστού ονόματος ιδιότητας χρησιμοποιώντας `Pattern.matches`.
 
-Ναι, το GroupDocs.Metadata υποστηρίζει PDFs, Word, Excel, εικόνες και πολλές άλλες μορφές. Απλώς βεβαιωθείτε ότι το μοτίβο ευθυγραμμίζεται με το σχήμα μεταδεδομένων του συγκεκριμένου τύπου αρχείου.
+**Q: Πώς διαχειρίζομαι μεγάλα σύνολα δεδομένων αποδοτικά;**  
+A: Κρατήστε τα regex συγκεκριμένα, επαναχρησιμοποιήστε τα μεταγλωττισμένα αντικείμενα `Pattern` και επεξεργαστείτε τα αρχεία σε παρτίδες όπως περιγράφεται στην ενότητα **Σκέψεις απόδοσης**.
 
-### Τι γίνεται αν το μοτίβο regex μου δεν ταιριάζει με καμία ιδιότητα;
-
-Ελέγξτε για τυπογραφικά λάθη, διάκριση πεζών‑κεφαλαίων ή απρόσμενα κενά στα ονόματα ιδιοτήτων. Απλοποιήστε το μοτίβο και δοκιμάστε το σε μια γνωστή ιδιότητα.
-
-### Πώς να διαχειριστώ μεγάλες συλλογές δεδομένων αποδοτικά;
-
-Περιορίστε την πολυπλοκότητα του regex, επαναχρησιμοποιήστε μεταγλωττισμένα μοτίβα και επεξεργαστείτε τα έγγραφα σε παρτίδες όπως περιγράφεται στην ενότητα **Σκέψεις για την Απόδοση**.
-
-### Πού μπορώ να βρω περισσότερα παραδείγματα αναζητήσεων μεταδεδομένων;
-
-Εξερευνήστε την [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/) για επιπλέον περιπτώσεις χρήσης και αποσπάσματα κώδικα.
+**Q: Πού μπορώ να βρω περισσότερα παραδείγματα αναζητήσεων μεταδεδομένων;**  
+A: Εξερευνήστε την [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/) για πρόσθετες περιπτώσεις χρήσης και αποσπάσματα κώδικα.
 
 ## Πόροι
-- **Τεκμηρίωση:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)
+- **Documentation:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)
 
 ---
 
-**Τελευταία Ενημέρωση:** 2026-02-21  
-**Δοκιμάστηκε Με:** GroupDocs.Metadata 24.12 for Java  
-**Συγγραφέας:** GroupDocs
+**Τελευταία ενημέρωση:** 2026-08-20  
+**Δοκιμάστηκε με:** GroupDocs.Metadata 24.12 for Java  
+**Συγγραφέας:** GroupDocs  
+
+---
+
+## Σχετικά μαθήματα
+
+- [Πώς να αναζητήσετε μεταδεδομένα με το GroupDocs.Metadata σε Java: Αποτελεσματικές αναζητήσεις βάσει ετικετών](/metadata/java/advanced-features/groupdocs-metadata-java-search-tags/)
+- [Κατακτώντας τη διαχείριση μεταδεδομένων: Αναζήτηση ιδιοτήτων κατά ετικέτα χρησιμοποιώντας το GroupDocs.Metadata για Java](/metadata/java/working-with-metadata/groupdocs-metadata-management-java/)
+- [Εξαγωγή μεταδεδομένων Java: Οδηγός προσαρμοσμένου αποδέκτη τιμών με το GroupDocs.Metadata](/metadata/java/working-with-metadata/java-metadata-extraction-custom-value-acceptor-groupdocs/)

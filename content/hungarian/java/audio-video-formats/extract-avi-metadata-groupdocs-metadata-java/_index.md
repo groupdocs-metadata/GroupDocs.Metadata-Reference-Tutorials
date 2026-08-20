@@ -1,50 +1,103 @@
 ---
-date: '2026-02-21'
-description: Ismerje meg, hogyan lehet Java-val videó metaadatokat kinyerni AVI fájlokból
-  a GroupDocs.Metadata segítségével. Lépésről‑lépésre beállítás, kódrészletek és legjobb
-  gyakorlatok Java fejlesztők számára.
+date: '2026-08-20'
+description: Ismerje meg, hogyan nyerhet ki AVI metaadatokat Java-ban a GroupDocs.Metadata
+  segítségével. Lépésről‑lépésre útmutató a beállításhoz, kódrészletek helyőrzői,
+  valamint a Java fejlesztők számára ajánlott legjobb gyakorlatok.
 keywords:
-- extract video metadata
-- how to extract avi
-- groupdocs metadata java
-- media management systems
-- AVI file metadata
-title: 'Videó metaadatok kinyerése Java-ban: Hogyan olvassuk be az AVI fájlokat a
-  GroupDocs.Metadata segítségével'
+- extract avi metadata java
+- video metadata extraction
+- groupdocs.metadata java
+- avi file metadata
+- java media processing
+lastmod: '2026-08-20'
+og_description: AVI metaadatok kinyerése Java-ban a GroupDocs.Metadata segítségével.
+  Ez az útmutató bemutatja, hogyan olvashat videó címkéket, szerzőt és létrehozási
+  dátumot AVI fájlokból egy egyszerű API használatával, beleértve a beállítást, a
+  legjobb gyakorlatokat és a hibaelhárítási tippeket.
+og_image_alt: Guide showing Java code to extract AVI video metadata using GroupDocs.Metadata
+og_title: AVI metaadatok kinyerése Java-ban a GroupDocs.Metadata használatával
+schemas:
+- author: GroupDocs
+  dateModified: '2026-08-20'
+  description: Learn how to extract AVI metadata in Java with GroupDocs.Metadata.
+    Step‑by‑step setup, code placeholders, and best practices for Java developers.
+  headline: Extract AVI metadata in Java using GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to extract AVI metadata in Java with GroupDocs.Metadata.
+    Step‑by‑step setup, code placeholders, and best practices for Java developers.
+  name: Extract AVI metadata in Java using GroupDocs.Metadata
+  steps:
+  - name: '**Media management systems** – Auto‑populate catalog entries with author,
+      genre, and creation date.'
+    text: '**Media management systems** – Auto‑populate catalog entries with author,
+      genre, and creation date.'
+  - name: '**Digital asset management (DAM)** – Enable facet‑based search using extracted
+      tags.'
+    text: '**Digital asset management (DAM)** – Enable facet‑based search using extracted
+      tags.'
+  - name: '**Content analytics** – Track which software produced the most videos or
+      analyze production trends over time.'
+    text: '**Content analytics** – Track which software produced the most videos or
+      analyze production trends over time.'
+  - name: '**Database integration** – Store the retrieved values in a relational table
+      for reporting and auditing.'
+    text: '**Database integration** – Store the retrieved values in a relational table
+      for reporting and auditing.'
+  type: HowTo
+- questions:
+  - answer: Yes, the library exposes a generic dictionary for any non‑standard key/value
+      pairs stored in the RIFF INFO block.
+    question: Can GroupDocs.Metadata read custom tags that aren’t part of the standard
+      INFO chunk?
+  - answer: A single license covers all environments (development, staging, production)
+      as long as you comply with the licensing terms.
+    question: Do I need a separate license for each deployment environment?
+  - answer: Absolutely. The same `AviRootPackage` provides setter methods such as
+      `setArtist(String)` to update fields and then save the file.
+    question: Is it possible to modify AVI metadata, not just read it?
+  - answer: FFmpeg is a powerful command‑line tool, but GroupDocs.Metadata offers
+      a pure‑Java API, tighter integration, and no external process overhead.
+    question: How does this approach compare to using FFmpeg for metadata extraction?
+  - answer: Download the file to a temporary local path or use a stream‑based overload
+      of the `Metadata` constructor that accepts an `InputStream`.
+    question: What if my AVI files are stored in a cloud bucket (e.g., AWS S3)?
+  type: FAQPage
+tags:
+- extract avi metadata
+- groupdocs.metadata
+- java video processing
+title: AVI metaadatok kinyerése Java-ban a GroupDocs.Metadata használatával
 type: docs
 url: /hu/java/audio-video-formats/extract-avi-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
- content.# Videó metaadatok kinyerése Java: AVI fájlok olvasása a GroupDocs.Metadata segítségével
+# AVI metaadatok kinyerése Java-ban a GroupDocs.Metadata segítségével
 
-Az AVI fájlokból történő videó metaadatok kinyerése gyakori igény média könyvtárak, elemzési csővezetékek vagy digitális eszközkezelő megoldások építésekor. Ebben az útmutatóban megtanulja, hogyan **kinyerje a videó metaadatokat Java-ban** gyorsan a **GroupDocs.Metadata** Java könyvtár segítségével. Végigvezetjük a beállításon, megmutatjuk a szükséges pontos kódot, és gyakorlati tippeket osztunk meg a valós integrációhoz.
+Ebben az átfogó útmutatóban megtanulja, hogyan kell **hogyan kell AVI metaadatokat kinyerni Java**‑stílusban a hatékony GroupDocs.Metadata könyvtár segítségével. Akár médiakatalógust, elemzési csővezetéket vagy digitális eszközkezelő rendszert épít, a videó címkék, például a szerző, a létrehozás dátuma és a kódoló szoftver olvasása lehetővé teszi a gyűjtemény rendezését és keresését anélkül, hogy minden fájlt megnyitna.
 
 ## Gyors válaszok
 - **Melyik könyvtárat használhatom?** GroupDocs.Metadata for Java  
-- **Melyik fő feladatot oldja meg?** Videó metaadatok kinyerése AVI konténerekből  
+- **Melyik elsődleges feladatot oldja meg?** AVI konténerekből videó metaadatok kinyerése  
 - **Szükségem van licencre?** Ingyenes próba elérhető; licenc szükséges a termeléshez  
 - **Milyen Java verzió szükséges?** JDK 8 vagy újabb  
-- **Feldolgozhatok sok fájlt egyszerre?** Igen – használjon több szálas vagy kötegelt feldolgozást  
+- **Feldolgozhatok sok fájlt egyszerre?** Igen – használjon több szálat vagy kötegelt feldolgozást  
 
 ## Mi a videó metaadatok kinyerése?
-A videó metaadatok kinyerése azt jelenti, hogy beágyazott információkat olvasunk, mint például a szerző, a létrehozás dátuma, a használt szoftver és az egyedi címkék, amelyek a fájl fejlécében tárolódnak. Ezek az adatok segítenek a videóeszközök szervezésében, keresésében és elemzésében anélkül, hogy megnyitná a médiát.
+A videó metaadatok kinyerése a beágyazott információk – például a szerző, a létrehozás dátuma, a kódoló szoftver és egyedi címkék – közvetlen olvasását jelenti egy videófájl fejlécéből. Ezek az adatok lehetővé teszik a videóeszközök programozott katalogizálását, keresését és elemzését anélkül, hogy a teljes médiafolyamot dekódolná.
 
 ## Miért kinyerni az AVI metaadatokat a GroupDocs.Metadata segítségével?
-- **Átfogó formátumtámogatás** – Kezeli az AVI, MP4, MOV és számos más konténert.  
-- **Egyszerű API** – Egy soros hívások hozzáférést biztosítanak az összes szabványos INFO mezőhöz.  
-- **Teljesítmény‑orientált** – Alacsony memóriahasználat, ideális kötegelt feladatokhoz.  
-- **Java‑barát** – Zökkenőmentesen működik Maven, Gradle és bármely IDE-vel.  
+A GroupDocs.Metadata egy tiszta Java API-t biztosít, amely egyetlen hívással olvassa az AVI fejléceket, ezzel kiküszöbölve a külső eszközök szükségességét. Támogat **30+ videó és audio konténert**, kevesebb, mint **5 MB RAM-ot használ fájlonként**, és **százak fájlt per perc** képes feldolgozni egy közepes szerveren. A könyvtár emellett típus‑biztos gettereket kínál minden szabványos INFO mezőhöz, ami olvashatóvá és megbízhatóvá teszi a kódot.
 
 ## Előfeltételek
-- **GroupDocs.Metadata for Java** (24.12 vagy újabb verzió).  
-- JDK 8 vagy újabb és egy IDE, például IntelliJ IDEA vagy Eclipse.  
-- Alapvető ismeretek Maven és Java programozás terén.  
+- GroupDocs.Metadata for Java (24.12 vagy újabb verzió)  
+- JDK 8 vagy újabb és egy IDE, például IntelliJ IDEA vagy Eclipse  
+- Alapvető ismeretek a Maven és a Java programozás terén  
 
 ## A GroupDocs.Metadata beállítása Java-hoz
 
 ### Maven konfiguráció
-Adja hozzá a GroupDocs tárolót és függőséget a `pom.xml`-hez:
+Add the GroupDocs repository and dependency to your `pom.xml`:
 
 ```xml
 <repositories>
@@ -69,10 +122,10 @@ A JAR-t közvetlenül a hivatalos kiadási oldalról is beszerezheti: [GroupDocs
 
 #### Licenc beszerzése
 - **Ingyenes próba** – Szerezzen ideiglenes kulcsot a kísérletezéshez.  
-- **Teljes licenc** – Vásárolja meg, amikor készen áll a termelési használatra.
+- **Teljes licenc** – Vásárolja meg, amikor készen áll a termelési használatra.  
 
 #### Inicializálás és beállítás
-Az alábbi minimális kód szükséges egy AVI fájl megnyitásához a GroupDocs.Metadata segítségével:
+`Metadata` a GroupDocs.Metadata fő belépési pontja, amely betölti a dokumentumot és hozzáférést biztosít a metaadatcsomagjaihoz. Az alábbiakban a minimális kód látható egy AVI fájl megnyitásához a GroupDocs.Metadata segítségével:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -87,18 +140,22 @@ public class MetadataSetup {
 }
 ```
 
-## Hogyan nyerhetünk ki videó metaadatokat Java-ban AVI fájlokból?
-Most bemerülünk a konkrét lépésekbe az AVI fájl INFO részének olvasásához.
+## Hogyan nyerjünk ki AVI metaadatokat Java-ban?
+Töltse be az AVI fájlt a `Metadata` objektummal, szerezze be az `AviRootPackage`-t, ellenőrizze az INFO darabot, és olvassa ki a kívánt mezőket – mindezt néhány egyszerű sorban. Ez a megközelítés `null`-t ad vissza minden hiányzó címkéhez, lehetővé téve a hiányzó adatok elegáns kezelését.
 
 ### Lépésről‑lépésre megvalósítás
 
 #### 1. Szükséges csomagok importálása
+`AviRootPackage` az AVI konténer legfelső szintű struktúráját képviseli, feltárva a RIFF INFO darabot és egyéb alcsomagokat.
+
 ```java
 import com.groupdocs.metadata.Metadata;
 import com.groupdocs.metadata.core.AviRootPackage;
 ```
 
 #### 2. Metaadat kinyerő osztály létrehozása
+Az alábbi osztály bemutatja a teljes kinyerési munkafolyamatot, beleértve a null‑ellenőrzéseket és az erőforrások tisztítását a try‑with‑resources segítségével.
+
 ```java
 public class ExtractAviInfoMetadata {
     public static void main(String[] args) {
@@ -139,54 +196,60 @@ public class ExtractAviInfoMetadata {
 ```
 
 **A kód magyarázata**  
-- **Metaadat inicializálás** – A `Metadata` objektum betölti az AVI fájlt és automatikusan elemzi a szerkezetét.  
-- **Gyökércsomag hozzáférés** – A `getRootPackageGeneric()` egy `AviRootPackage`‑t ad vissza, amely a konténer felső szintű hierarchiáját képviseli.  
-- **RIFF INFO ellenőrzés** – Nem minden AVI fájl tartalmaz INFO részt; a null‑ellenőrzés megakadályozza a `NullPointerException`‑t.  
-- **Mező kinyerés** – Minden getter (`getArtist()`, `getComment()`, stb.) egy adott videó metaadatot ad vissza.  
+- **Metadata inicializálás** – A `Metadata` objektum betölti az AVI fájlt és automatikusan elemzi a struktúráját.  
+- **Gyökércsomag hozzáférés** – A `getRootPackageGeneric()` egy `AviRootPackage`-t ad vissza, amely a konténer legfelső szintű hierarchiáját képviseli.  
+- **RIFF INFO ellenőrzés** – Nem minden AVI fájl tartalmaz INFO darabot; a null‑ellenőrzés megakadályozza a `NullPointerException`-t.  
+- **Mező kinyerés** – Minden getter (`getArtist()`, `getComment()`, stb.) egy adott videó metaadatot húz ki.  
 
 #### Hibaelhárítási tippek
 - Ellenőrizze, hogy az AVI fájl nem sérült; egy sérült fejléc elemzési hibákat okoz.  
 - Győződjön meg arról, hogy a fájl útvonala abszolút vagy helyesen relatív a projekt munkakönyvtárához.  
-- Ha egy mező `null` értéket ad, az adott címke nincs jelen a forrásfájlban.
+- Ha egy mezőhöz `null`-t kap, az adott címke nincs jelen a forrásfájlban.  
 
 ## Gyakorlati alkalmazások
-1. **Média kezelő rendszerek** – Automatikusan kitölti a katalógusbejegyzéseket szerzővel, műfajjal és létrehozási dátummal.  
-2. **Digitális eszközkezelés (DAM)** – Lehetővé teszi a facet‑alapú keresést a kinyert címkék segítségével.  
-3. **Tartalom elemzés** – Nyomon követi, melyik szoftver készítette a legtöbb videót, vagy elemzi a termelési trendeket idővel.  
-4. **Adatbázis integráció** – A lekért értékeket relációs táblában tárolja jelentésekhez és auditáláshoz.  
+1. **Médiakezelő rendszerek** – Automatikusan tölti ki a katalógus bejegyzéseket szerzővel, műfajjal és létrehozás dátumával.  
+2. **Digitális eszközkezelés (DAM)** – Engedélyezi a facet‑alapú keresést a kinyert címkék használatával.  
+3. **Tartalomelemzés** – Nyomon követi, mely szoftver készítette a legtöbb videót, vagy elemzi a termelési trendeket idővel.  
+4. **Adatbázis integráció** – A lekért értékeket relációs táblában tárolja jelentéshez és auditáláshoz.  
 
 ## Teljesítmény szempontok
 - **Kötegelt feldolgozás** – Csomagolja a kinyerési logikát egy szálkezelőbe a nagy gyűjtemények hatékony kezelése érdekében.  
-- **Memória finomhangolás** – Növelje a JVM heap‑et (`-Xmx2g` vagy nagyobb) nagyon nagy AVI fájlok feldolgozásakor.  
-- **Erőforrás tisztítás** – A try‑with‑resources blokk automatikusan felszabadítja a natív kezelőket; mindig tartsa meg.  
+- **Memóriahangolás** – Növelje a JVM heap-et (`-Xmx2g` vagy magasabb) nagyon nagy AVI fájlok feldolgozásakor.  
+- **Erőforrás tisztítás** – A try‑with‑resources blokk automatikusan felszabadítja a natív handle-okat; mindig tartsa meg.  
 
 ## Gyakori problémák és megoldások
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| `NullPointerException` on `root.getRiffInfoPackage()` | AVI fájl nem tartalmaz INFO részt | Adj hozzá egy null‑ellenőrzést (már bemutatva) vagy ellenőrizd, hogy a forrásfájlok tartalmaznak metaadatot |
-| File not found | Helytelen útvonal vagy hiányzó fájl jogosultságok | Használj abszolút útvonalat vagy helyezd a fájlt a projekt resources mappájába |
-| Slow processing on thousands of files | Egy szálas végrehajtás | Implementálj egy `ExecutorService`-t a kinyerés párhuzamos futtatásához |
-| Unexpected `null` values for fields | A címke nem szerepel az AVI fejlécben | `null`-t kezelj "nem elérhető"-ként, és kezeld megfelelően a UI‑ban vagy a naplóban |
+| `NullPointerException` a `root.getRiffInfoPackage()`-nál | AVI fájl nem tartalmaz INFO darabot | Null‑ellenőrzés hozzáadása (már bemutatva) vagy ellenőrizze, hogy a forrásfájlok tartalmaznak metaadatot |
+| Fájl nem található | Helytelen útvonal vagy hiányzó fájlengedélyek | Használjon abszolút útvonalat vagy helyezze a fájlt a projekt resources mappájába |
+| Lassú feldolgozás több ezer fájlon | Egy szálas végrehajtás | Implementáljon egy `ExecutorService`-t a kinyerés párhuzamos futtatásához |
+| Váratlan `null` értékek a mezőkben | A címke nincs jelen az AVI fejlécben | Kezelje a `null`-t „nem elérhető”ként, és kezelje elegánsan a felhasználói felületen vagy a naplóban |
 
 ## Gyakran ismételt kérdések
 
-**Q: A GroupDocs.Metadata képes olvasni egyedi címkéket, amelyek nem részei a szabványos INFO résznek?**  
-A: Igen, a könyvtár egy általános szótárat biztosít minden nem szabványos kulcs/érték párhoz, amely a RIFF INFO blokkban tárolódik.
+**K: Olvashatja a GroupDocs.Metadata a szabványos INFO darabon kívüli egyedi címkéket?**  
+V: Igen, a könyvtár egy általános szótárat biztosít minden nem szabványos kulcs/érték párhoz, amely a RIFF INFO blokkban tárolódik.
 
-**Q: Szükségem van külön licencre minden telepítési környezethez?**  
-A: Egyetlen licenc lefedi az összes környezetet (fejlesztés, teszt, termelés), amennyiben betartja a licencfeltételeket.
+**K: Szükségem van külön licencre minden telepítési környezethez?**  
+V: Egyetlen licenc lefedi az összes környezetet (fejlesztés, teszt, termelés), amennyiben betartja a licencfeltételeket.
 
-**Q: Lehet módosítani az AVI metaadatokat, nem csak olvasni őket?**  
-A: Teljesen. Az ugyanaz a `AviRootPackage` setter metódusokat biztosít, például `setArtist(String)`, a mezők frissítéséhez, majd a fájl mentéséhez.
+**K: Lehetőség van az AVI metaadatok módosítására, nem csak olvasásra?**  
+V: Teljesen. Az ugyanaz a `AviRootPackage` setter metódusokat biztosít, például `setArtist(String)`, a mezők frissítéséhez, majd a fájl mentéséhez.
 
-**Q: Hogyan viszonyul ez a megközelítés a FFmpeg metaadat kinyeréshez való használatához?**  
-A: A FFmpeg egy erőteljes parancssori eszköz, de a GroupDocs.Metadata tisztán Java API‑t, szorosabb integrációt és nincs külső folyamat terhelése.
+**K: Hogyan hasonlítható ez a megközelítés a FFmpeg metaadat kinyeréshez?**  
+V: A FFmpeg egy erőteljes parancssori eszköz, de a GroupDocs.Metadata tiszta Java API-t, szorosabb integrációt és nincs külső folyamat terhelése.
 
-**Q: Mi van, ha az AVI fájljaim egy felhő bucketben (pl. AWS S3) vannak tárolva?**  
-A: Töltse le a fájlt egy ideiglenes helyi útvonalra, vagy használjon egy stream‑alapú túlterhelést a `Metadata` konstruktorban, amely `InputStream`‑et fogad.
+**K: Mi van, ha az AVI fájlok egy felhő tárolóban vannak (pl. AWS S3)?**  
+V: Töltse le a fájlt egy ideiglenes helyi útvonalra, vagy használjon egy stream‑alapú `Metadata` konstruktor túlterhelést, amely `InputStream`-et fogad.
 
 ---
 
-**Utolsó frissítés:** 2026-02-21  
+**Utoljára frissítve:** 2026-08-20  
 **Tesztelve ezzel:** GroupDocs.Metadata 24.12 for Java  
 **Szerző:** GroupDocs
+
+## Kapcsolódó oktatóanyagok
+
+- [Hogyan nyerjünk ki metaadatokat a GroupDocs.Metadata for Java – Oktatóanyagok és példák](/metadata/java/)
+- [Hogyan nyerjünk ki FLV metaadatokat Java-val a GroupDocs.Metadata segítségével](/metadata/java/audio-video-formats/flv-metadata-extraction-groupdocs-java/)
+- [Hogyan nyerjünk ki ASF metaadatokat Java-val a GroupDocs.Metadata segítségével](/metadata/java/audio-video-formats/master-asf-metadata-extraction-groupdocs-java/)

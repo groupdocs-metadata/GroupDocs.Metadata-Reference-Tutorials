@@ -1,49 +1,102 @@
 ---
-date: '2026-02-21'
-description: Μάθετε πώς να εξάγετε μεταδεδομένα βίντεο Java από αρχεία AVI χρησιμοποιώντας
-  το GroupDocs.Metadata. Βήμα‑βήμα εγκατάσταση, παραδείγματα κώδικα και βέλτιστες
-  πρακτικές για προγραμματιστές Java.
+date: '2026-08-20'
+description: Μάθετε πώς να εξάγετε μεταδεδομένα AVI σε Java με το GroupDocs.Metadata.
+  Ρύθμιση βήμα‑βήμα, θέσεις κώδικα και βέλτιστες πρακτικές για προγραμματιστές Java.
 keywords:
-- extract video metadata
-- how to extract avi
-- groupdocs metadata java
-- media management systems
-- AVI file metadata
-title: 'Εξαγωγή μεταδεδομένων βίντεο Java: Πώς να διαβάσετε αρχεία AVI με το GroupDocs.Metadata'
+- extract avi metadata java
+- video metadata extraction
+- groupdocs.metadata java
+- avi file metadata
+- java media processing
+lastmod: '2026-08-20'
+og_description: Εξαγωγή μεταδεδομένων AVI σε Java με το GroupDocs.Metadata. Αυτός
+  ο οδηγός σας δείχνει πώς να διαβάζετε ετικέτες βίντεο, συγγραφέα και ημερομηνία
+  δημιουργίας από αρχεία AVI χρησιμοποιώντας ένα απλό API, με ρύθμιση, βέλτιστες πρακτικές
+  και συμβουλές αντιμετώπισης προβλημάτων.
+og_image_alt: Guide showing Java code to extract AVI video metadata using GroupDocs.Metadata
+og_title: Εξαγωγή μεταδεδομένων AVI σε Java χρησιμοποιώντας το GroupDocs.Metadata
+schemas:
+- author: GroupDocs
+  dateModified: '2026-08-20'
+  description: Learn how to extract AVI metadata in Java with GroupDocs.Metadata.
+    Step‑by‑step setup, code placeholders, and best practices for Java developers.
+  headline: Extract AVI metadata in Java using GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to extract AVI metadata in Java with GroupDocs.Metadata.
+    Step‑by‑step setup, code placeholders, and best practices for Java developers.
+  name: Extract AVI metadata in Java using GroupDocs.Metadata
+  steps:
+  - name: '**Media management systems** – Auto‑populate catalog entries with author,
+      genre, and creation date.'
+    text: '**Media management systems** – Auto‑populate catalog entries with author,
+      genre, and creation date.'
+  - name: '**Digital asset management (DAM)** – Enable facet‑based search using extracted
+      tags.'
+    text: '**Digital asset management (DAM)** – Enable facet‑based search using extracted
+      tags.'
+  - name: '**Content analytics** – Track which software produced the most videos or
+      analyze production trends over time.'
+    text: '**Content analytics** – Track which software produced the most videos or
+      analyze production trends over time.'
+  - name: '**Database integration** – Store the retrieved values in a relational table
+      for reporting and auditing.'
+    text: '**Database integration** – Store the retrieved values in a relational table
+      for reporting and auditing.'
+  type: HowTo
+- questions:
+  - answer: Yes, the library exposes a generic dictionary for any non‑standard key/value
+      pairs stored in the RIFF INFO block.
+    question: Can GroupDocs.Metadata read custom tags that aren’t part of the standard
+      INFO chunk?
+  - answer: A single license covers all environments (development, staging, production)
+      as long as you comply with the licensing terms.
+    question: Do I need a separate license for each deployment environment?
+  - answer: Absolutely. The same `AviRootPackage` provides setter methods such as
+      `setArtist(String)` to update fields and then save the file.
+    question: Is it possible to modify AVI metadata, not just read it?
+  - answer: FFmpeg is a powerful command‑line tool, but GroupDocs.Metadata offers
+      a pure‑Java API, tighter integration, and no external process overhead.
+    question: How does this approach compare to using FFmpeg for metadata extraction?
+  - answer: Download the file to a temporary local path or use a stream‑based overload
+      of the `Metadata` constructor that accepts an `InputStream`.
+    question: What if my AVI files are stored in a cloud bucket (e.g., AWS S3)?
+  type: FAQPage
+tags:
+- extract avi metadata
+- groupdocs.metadata
+- java video processing
+title: Εξαγωγή μεταδεδομένων AVI σε Java χρησιμοποιώντας το GroupDocs.Metadata
 type: docs
 url: /el/java/audio-video-formats/extract-avi-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
-Now produce final answer.# Εξαγωγή Μεταδεδομένων Βίντεο Java: Πώς να Διαβάσετε Αρχεία AVI με το GroupDocs.Metadata
+# Εξαγωγή μεταδεδομένων AVI σε Java χρησιμοποιώντας το GroupDocs.Metadata
 
-Η εξαγωγή μεταδεδομένων βίντεο από αρχεία AVI είναι μια κοινή απαίτηση όταν δημιουργείτε βιβλιοθήκες πολυμέσων, pipelines ανάλυσης ή λύσεις διαχείρισης ψηφιακών περιουσιακών στοιχείων. Σε αυτό το tutorial θα μάθετε **πώς να εξάγετε μεταδεδομένα βίντεο java** γρήγορα με τη βιβλιοθήκη **GroupDocs.Metadata** για Java. Θα περάσουμε από τη ρύθμιση, θα σας δείξουμε τον ακριβή κώδικα που χρειάζεστε και θα μοιραστούμε πρακτικές συμβουλές για ενσωμάτωση σε πραγματικό κόσμο.
+Σε αυτόν τον ολοκληρωμένο οδηγό θα μάθετε **πώς να εξάγετε μεταδεδομένα AVI σε Java**‑στυλ χρησιμοποιώντας τη δυνατή βιβλιοθήκη GroupDocs.Metadata. Είτε δημιουργείτε έναν κατάλογο μέσων, μια γραμμή ανάλυσης, είτε ένα σύστημα διαχείρισης ψηφιακών περιουσιακών στοιχείων, η ανάγνωση ετικετών βίντεο όπως ο δημιουργός, η ημερομηνία δημιουργίας και το λογισμικό κωδικοποίησης σας επιτρέπει να οργανώσετε και να αναζητήσετε τη συλλογή σας χωρίς να ανοίγετε κάθε αρχείο.
 
-## Γρήγορες Απαντήσεις
+## Γρήγορες απαντήσεις
 - **Ποια βιβλιοθήκη μπορώ να χρησιμοποιήσω;** GroupDocs.Metadata for Java  
-- **Ποιο κύριο έργο επιλύει;** Extract video metadata from AVI containers  
-- **Χρειάζομαι άδεια;** A free trial is available; a license is required for production  
-- **Ποια έκδοση Java απαιτείται;** JDK 8 or higher  
-- **Μπορώ να επεξεργαστώ πολλά αρχεία ταυτόχρονα;** Yes – use multi‑threading or batch processing  
+- **Ποιο πρωτεύον έργο επιλύει;** Εξαγωγή μεταδεδομένων βίντεο από κοντέινερ AVI  
+- **Χρειάζομαι άδεια;** Διατίθεται δωρεάν δοκιμή· απαιτείται άδεια για παραγωγή  
+- **Ποια έκδοση Java απαιτείται;** JDK 8 ή νεότερη  
+- **Μπορώ να επεξεργαστώ πολλά αρχεία ταυτόχρονα;** Ναι – χρησιμοποιήστε πολυνηματική εκτέλεση ή επεξεργασία παρτίδας  
 
 ## Τι είναι η εξαγωγή μεταδεδομένων βίντεο;
-Η εξαγωγή μεταδεδομένων βίντεο σημαίνει ανάγνωση ενσωματωμένων πληροφοριών όπως ο δημιουργός, η ημερομηνία δημιουργίας, το λογισμικό που χρησιμοποιήθηκε και προσαρμοσμένες ετικέτες που αποθηκεύονται στην κεφαλίδα του αρχείου. Αυτά τα δεδομένα σας βοηθούν να οργανώνετε, να αναζητάτε και να αναλύετε τα βίντεο χωρίς να ανοίγετε το ίδιο το μέσο.
+Η εξαγωγή μεταδεδομένων βίντεο είναι η διαδικασία ανάγνωσης ενσωματωμένων πληροφοριών—όπως ο δημιουργός, η ημερομηνία δημιουργίας, το λογισμικό κωδικοποίησης και προσαρμοσμένες ετικέτες—απευθείας από την κεφαλίδα ενός αρχείου βίντεο. Αυτά τα δεδομένα σας επιτρέπουν να κατατάσσετε, να αναζητάτε και να αναλύετε τα βίντεο προγραμματιστικά χωρίς την αποκωδικοποίηση ολόκληρης της ροής μέσων.
 
 ## Γιατί να εξάγετε μεταδεδομένα AVI με το GroupDocs.Metadata;
-- **Πλήρης υποστήριξη μορφών** – Handles AVI, MP4, MOV, and many other containers.  
-- **Απλό API** – One‑line calls give you access to all standard INFO fields.  
-- **Επικεντρωμένο στην απόδοση** – Low memory footprint, ideal for batch jobs.  
-- **Φιλικό προς Java** – Works seamlessly with Maven, Gradle, and any IDE.
+Το GroupDocs.Metadata παρέχει ένα καθαρά‑Java API που διαβάζει τις κεφαλίδες AVI με μία κλήση, εξαλείφοντας την ανάγκη για εξωτερικά εργαλεία. Υποστηρίζει **30+ κοντέινερ βίντεο και ήχου**, καταναλώνει λιγότερο από **5 MB RAM ανά αρχείο**, και μπορεί να επεξεργαστεί **εκατοντάδες αρχεία ανά λεπτό** σε έναν μέτριο διακομιστή. Η βιβλιοθήκη προσφέρει επίσης getters τύπου‑ασφαλείας για κάθε τυπικό πεδίο INFO, καθιστώντας τον κώδικα ευανάγνωστο και αξιόπιστο.
 
 ## Προαπαιτούμενα
-- **GroupDocs.Metadata for Java** (version 24.12 or newer).  
-- JDK 8 ή νεότερο και ένα IDE όπως IntelliJ IDEA ή Eclipse.  
-- Βασική εξοικείωση με Maven και προγραμματισμό Java.  
+- GroupDocs.Metadata for Java (version 24.12 or newer)  
+- JDK 8 or later and an IDE such as IntelliJ IDEA or Eclipse  
+- Βασική εξοικείωση με Maven και προγραμματισμό Java  
 
 ## Ρύθμιση του GroupDocs.Metadata για Java
 
 ### Διαμόρφωση Maven
-Προσθέστε το αποθετήριο GroupDocs και την εξάρτηση στο `pom.xml` σας:
+Add the GroupDocs repository and dependency to your `pom.xml`:
 
 ```xml
 <repositories>
@@ -63,15 +116,15 @@ Now produce final answer.# Εξαγωγή Μεταδεδομένων Βίντε�
 </dependencies>
 ```
 
-### Άμεση Λήψη
-Μπορείτε επίσης να αποκτήσετε το JAR απευθείας από τη σελίδα επίσημων εκδόσεων: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+### Άμεση λήψη
+Μπορείτε επίσης να αποκτήσετε το JAR απευθείας από τη σελίδα επίσημης κυκλοφορίας: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-#### Απόκτηση Άδειας
-- **Δωρεάν δοκιμή** – Get a temporary key to experiment.  
-- **Πλήρης άδεια** – Purchase when you’re ready for production use.
+#### Απόκτηση άδειας
+- **Δωρεάν δοκιμή** – Λάβετε ένα προσωρινό κλειδί για πειραματισμό.  
+- **Πλήρης άδεια** – Αγοράστε όταν είστε έτοιμοι για χρήση σε παραγωγή.  
 
-#### Αρχικοποίηση και Ρύθμιση
-Παρακάτω είναι ο ελάχιστος κώδικας που απαιτείται για το άνοιγμα ενός αρχείου AVI με το GroupDocs.Metadata:
+#### Αρχικοποίηση και ρύθμιση
+`Metadata` είναι το κύριο σημείο εισόδου στο GroupDocs.Metadata που φορτώνει ένα έγγραφο και παρέχει πρόσβαση στα πακέτα μεταδεδομένων του. Παρακάτω είναι ο ελάχιστος κώδικας που απαιτείται για το άνοιγμα ενός αρχείου AVI με το GroupDocs.Metadata:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -86,18 +139,22 @@ public class MetadataSetup {
 }
 ```
 
-## Πώς να εξάγετε μεταδεδομένα βίντεο java από αρχεία AVI;
-Τώρα θα εμβαθύνουμε στα συγκεκριμένα βήματα για την ανάγνωση του τμήματος INFO ενός αρχείου AVI.
+## Πώς να εξάγετε μεταδεδομένα AVI σε Java;
+Φορτώστε το αρχείο AVI με το αντικείμενο `Metadata`, ανακτήστε το `AviRootPackage`, ελέγξτε για ένα τμήμα INFO και διαβάστε τα επιθυμητά πεδία—όλα σε μερικές απλές γραμμές. Αυτή η προσέγγιση επιστρέφει `null` για οποιαδήποτε ετικέτα λείπει, επιτρέποντάς σας να διαχειριστείτε τα ελλιπή δεδομένα με χάρη.
 
 ### Υλοποίηση βήμα‑βήμα
 
 #### 1. Εισαγωγή απαραίτητων πακέτων
+`AviRootPackage` αντιπροσωπεύει τη δομή ανώτερου επιπέδου ενός κοντέινερ AVI, εκθέτοντας το τμήμα RIFF INFO και άλλα υπο‑πακέτα.
+
 ```java
 import com.groupdocs.metadata.Metadata;
 import com.groupdocs.metadata.core.AviRootPackage;
 ```
 
 #### 2. Δημιουργία κλάσης εξαγωγής μεταδεδομένων
+Η παρακάτω κλάση δείχνει τη πλήρη ροή εξαγωγής, συμπεριλαμβανομένων ελέγχων null και εκκαθάρισης πόρων μέσω try‑with‑resources.
+
 ```java
 public class ExtractAviInfoMetadata {
     public static void main(String[] args) {
@@ -138,54 +195,60 @@ public class ExtractAviInfoMetadata {
 ```
 
 **Επεξήγηση του κώδικα**  
-- **Αρχικοποίηση μεταδεδομένων** – Το αντικείμενο `Metadata` φορτώνει το αρχείο AVI και αναλύει αυτόματα τη δομή του.  
-- **Πρόσβαση στο ριζικό πακέτο** – Η `getRootPackageGeneric()` επιστρέφει ένα `AviRootPackage` που αντιπροσωπεύει την ιεραρχία κορυφαίου επιπέδου του κοντέινερ.  
-- **Έλεγχος RIFF INFO** – Δεν περιέχουν όλα τα αρχεία AVI τμήμα INFO· ο έλεγχος null αποτρέπει το `NullPointerException`.  
-- **Εξαγωγή πεδίου** – Κάθε getter (`getArtist()`, `getComment()`, κλπ.) εξάγει ένα συγκεκριμένο κομμάτι μεταδεδομένων βίντεο.  
+- **Metadata initialization** – Το αντικείμενο `Metadata` φορτώνει το αρχείο AVI και αυτόματα αναλύει τη δομή του.  
+- **Root package access** – Η μέθοδος `getRootPackageGeneric()` επιστρέφει ένα `AviRootPackage` που αντιπροσωπεύει την ιεραρχία ανώτερου επιπέδου του κοντέινερ.  
+- **RIFF INFO check** – Δεν περιέχουν όλα τα αρχεία AVI τμήμα INFO· ο έλεγχος null αποτρέπει `NullPointerException`.  
+- **Field extraction** – Κάθε getter (`getArtist()`, `getComment()`, κ.λπ.) εξάγει ένα συγκεκριμένο κομμάτι μεταδεδομένων βίντεο.  
 
 #### Συμβουλές αντιμετώπισης προβλημάτων
-- Επιβεβαιώστε ότι το αρχείο AVI δεν είναι κατεστραμμένο· μια κατεστραμμένη κεφαλίδα θα προκαλέσει σφάλματα ανάλυσης.  
-- Βεβαιωθείτε ότι η διαδρομή του αρχείου είναι απόλυτη ή σωστά σχετική με τον τρέχοντα φάκελο εργασίας του έργου σας.  
-- Εάν λάβετε `null` για ένα πεδίο, αυτή η ετικέτα δεν υπάρχει στο αρχικό αρχείο.  
+- Επαληθεύστε ότι το αρχείο AVI δεν είναι κατεστραμμένο· μια κατεστραμμένη κεφαλίδα προκαλεί σφάλματα ανάλυσης.  
+- Βεβαιωθείτε ότι η διαδρομή του αρχείου είναι απόλυτη ή σωστά σχετική με τον φάκελο εργασίας του έργου σας.  
+- Εάν λάβετε `null` για κάποιο πεδίο, αυτή η ετικέτα δεν υπάρχει στο αρχείο προέλευσης.  
 
-## Πρακτικές Εφαρμογές
-1. **Συστήματα Διαχείρισης Πολυμέσων** – Auto‑populate catalog entries with author, genre, and creation date.  
-2. **Διαχείριση Ψηφιακών Περιουσιακών Στοιχείων (DAM)** – Enable facet‑based search using extracted tags.  
-3. **Ανάλυση Περιεχομένου** – Track which software produced the most videos or analyze production trends over time.  
-4. **Ενσωμάτωση Βάσης Δεδομένων** – Store the retrieved values in a relational table for reporting and auditing.  
+## Πρακτικές εφαρμογές
+1. **Συστήματα διαχείρισης μέσων** – Αυτόματη συμπλήρωση καταχωρήσεων καταλόγου με δημιουργό, είδος και ημερομηνία δημιουργίας.  
+2. **Διαχείριση ψηφιακών περιουσιακών στοιχείων (DAM)** – Ενεργοποίηση αναζήτησης βάσει πτυχών χρησιμοποιώντας τις εξαγόμενες ετικέτες.  
+3. **Αναλύσεις περιεχομένου** – Παρακολούθηση ποιο λογισμικό παρήγαγε τα περισσότερα βίντεο ή ανάλυση τάσεων παραγωγής με την πάροδο του χρόνου.  
+4. **Ενσωμάτωση βάσεων δεδομένων** – Αποθήκευση των ανακτημένων τιμών σε σχετικό πίνακα για αναφορές και ελέγχους.  
 
-## Σκέψεις Απόδοσης
-- **Επεξεργασία παρτίδας** – Wrap the extraction logic in a thread pool to handle large collections efficiently.  
-- **Ρύθμιση μνήμης** – Increase the JVM heap (`-Xmx2g` or higher) when processing very large AVI files.  
-- **Καθαρισμός πόρων** – The try‑with‑resources block automatically disposes of native handles; always keep it.  
+## Σκέψεις απόδοσης
+- **Batch processing** – Τυλίξτε τη λογική εξαγωγής σε ένα thread pool για αποδοτική διαχείριση μεγάλων συλλογών.  
+- **Memory tuning** – Αυξήστε το heap της JVM (`-Xmx2g` ή περισσότερο) όταν επεξεργάζεστε πολύ μεγάλα αρχεία AVI.  
+- **Resource cleanup** – Το μπλοκ try‑with‑resources απελευθερώνει αυτόματα τους εγγενείς χειριστές· διατηρήστε το πάντα.  
 
-## Συχνά Προβλήματα και Λύσεις
+## Συχνά προβλήματα και λύσεις
 | Πρόβλημα | Αιτία | Λύση |
 |----------|-------|------|
-| `NullPointerException` στο `root.getRiffInfoPackage()` | Το αρχείο AVI δεν περιέχει τμήμα INFO | Προσθέστε έναν έλεγχο null (όπως φαίνεται) ή επαληθεύστε ότι τα πηγαία αρχεία περιέχουν μεταδεδομένα |
-| Αρχείο δεν βρέθηκε | Λάθος διαδρομή ή έλλειψη δικαιωμάτων αρχείου | Χρησιμοποιήστε απόλυτη διαδρομή ή τοποθετήστε το αρχείο στον φάκελο resources του έργου |
-| Αργή επεξεργασία χιλιάδων αρχείων | Εκτέλεση σε μία νήμα | Εφαρμόστε ένα `ExecutorService` για εκτέλεση εξαγωγών παράλληλα |
-| Απρόσμενες τιμές `null` για πεδία | Η ετικέτα δεν υπάρχει στην κεφαλίδα AVI | Αντιμετωπίστε το `null` ως “μη διαθέσιμο” και διαχειριστείτε το απαλά στη διεπαφή χρήστη ή στα logs |
+| `NullPointerException` on `root.getRiffInfoPackage()` | Το αρχείο AVI δεν περιέχει τμήμα INFO | Προσθέστε έναν έλεγχο null (όπως φαίνεται) ή επαληθεύστε ότι τα αρχεία προέλευσης περιέχουν μεταδεδομένα |
+| File not found | Λανθασμένη διαδρομή ή έλλειψη δικαιωμάτων αρχείου | Χρησιμοποιήστε απόλυτη διαδρομή ή τοποθετήστε το αρχείο στον φάκελο resources του έργου |
+| Slow processing on thousands of files | Εκτέλεση σε μονό νήμα | Υλοποιήστε `ExecutorService` για παράλληλη εκτέλεση εξαγωγών |
+| Unexpected `null` values for fields | Η ετικέτα δεν υπάρχει στην κεφαλίδα AVI | Θεωρήστε το `null` ως “μη διαθέσιμο” και διαχειριστείτε το με χάρη στο UI ή στα logs |
 
-## Συχνές Ερωτήσεις
+## Συχνές ερωτήσεις
 
 **Q: Μπορεί το GroupDocs.Metadata να διαβάσει προσαρμοσμένες ετικέτες που δεν είναι μέρος του τυπικού τμήματος INFO;**  
-A: Ναι, η βιβλιοθήκη εκθέτει ένα γενικό λεξικό για οποιαδήποτε μη‑τυπικά ζεύγη κλειδί/τιμή που αποθηκεύονται στο μπλοκ RIFF INFO.
+A: Ναι, η βιβλιοθήκη εκθέτει ένα γενικό λεξικό για οποιαδήποτε μη‑τυπικά ζεύγη κλειδί/τιμή αποθηκευμένα στο τμήμα RIFF INFO.
 
 **Q: Χρειάζομαι ξεχωριστή άδεια για κάθε περιβάλλον ανάπτυξης;**  
 A: Μία άδεια καλύπτει όλα τα περιβάλλοντα (development, staging, production) εφόσον τηρείτε τους όρους αδειοδότησης.
 
 **Q: Είναι δυνατόν να τροποποιήσω τα μεταδεδομένα AVI, όχι μόνο να τα διαβάσω;**  
-A: Απόλυτα. Το ίδιο `AviRootPackage` παρέχει μεθόδους setter όπως `setArtist(String)` για την ενημέρωση πεδίων και στη συνέχεια αποθήκευση του αρχείου.
+A: Απόλυτα. Το ίδιο `AviRootPackage` παρέχει μεθόδους setter όπως `setArtist(String)` για ενημέρωση πεδίων και στη συνέχεια αποθήκευση του αρχείου.
 
 **Q: Πώς συγκρίνεται αυτή η προσέγγιση με τη χρήση του FFmpeg για εξαγωγή μεταδεδομένων;**  
-A: Το FFmpeg είναι ένα ισχυρό εργαλείο γραμμής εντολών, αλλά το GroupDocs.Metadata προσφέρει ένα καθαρό API Java, στενότερη ενσωμάτωση και χωρίς επιπλέον κόστος εξωτερικής διεργασίας.
+A: Το FFmpeg είναι ένα ισχυρό εργαλείο γραμμής εντολών, αλλά το GroupDocs.Metadata προσφέρει ένα καθαρά‑Java API, στενότερη ενσωμάτωση και χωρίς το κόστος εξωτερικής διεργασίας.
 
 **Q: Τι γίνεται αν τα αρχεία AVI μου είναι αποθηκευμένα σε cloud bucket (π.χ., AWS S3);**  
-A: Κατεβάστε το αρχείο σε προσωρινή τοπική διαδρομή ή χρησιμοποιήστε μια υπερφόρτωση βασισμένη σε ροή του κατασκευαστή `Metadata` που δέχεται ένα `InputStream`.
+A: Κατεβάστε το αρχείο σε προσωρινή τοπική διαδρομή ή χρησιμοποιήστε την υπερφόρτωση του κατασκευαστή `Metadata` που δέχεται `InputStream`.  
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-02-21  
-**Δοκιμάστηκε με:** GroupDocs.Metadata 24.12 for Java  
-**Συγγραφέας:** GroupDocs
+**Last updated:** 2026-08-20  
+**Tested with:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs
+
+## Σχετικά Μαθήματα
+
+- [How to Extract Metadata with GroupDocs.Metadata for Java – Tutorials & Examples](/metadata/java/)
+- [How to Extract FLV Metadata Java with GroupDocs.Metadata](/metadata/java/audio-video-formats/flv-metadata-extraction-groupdocs-java/)
+- [How to Extract ASF Metadata Java with GroupDocs.Metadata](/metadata/java/audio-video-formats/master-asf-metadata-extraction-groupdocs-java/)

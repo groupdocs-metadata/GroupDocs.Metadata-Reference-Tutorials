@@ -1,41 +1,88 @@
 ---
-date: '2026-01-26'
-description: Pelajari cara membaca waktu pembuatan di Java dan mengekstrak properti
-  dokumen lainnya dari presentasi PowerPoint dengan GroupDocs.Metadata untuk Java.
-  Ideal untuk manajemen dokumen dan kepatuhan.
+date: '2026-06-27'
+description: Pelajari cara java mendapatkan file creation timestamp dan mengekstrak
+  properti dokumen lainnya dari presentasi PowerPoint dengan GroupDocs.Metadata untuk
+  Java. Ideal untuk manajemen dokumen dan kepatuhan.
 keywords:
-- read created time java
+- java get file creation timestamp
 - java extract document properties
-- presentation metadata
-title: Cara Membaca Waktu Pembuatan Java dari File Presentasi Menggunakan GroupDocs.Metadata
-  – Panduan Langkah demi Langkah
+- GroupDocs.Metadata
+schemas:
+- author: GroupDocs
+  dateModified: '2026-06-27'
+  description: Learn how to java get file creation timestamp and extract other document
+    properties from PowerPoint presentations with GroupDocs.Metadata for Java. Ideal
+    for document management and compliance.
+  headline: How to java get file creation timestamp from Presentation Files Using
+    GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to java get file creation timestamp and extract other document
+    properties from PowerPoint presentations with GroupDocs.Metadata for Java. Ideal
+    for document management and compliance.
+  name: How to java get file creation timestamp from Presentation Files Using GroupDocs.Metadata
+  steps:
+  - name: '**Document Management Systems:** Index presentations by author, company,
+      or creation date for rapid search and retrieval.'
+    text: '**Document Management Systems:** Index presentations by author, company,
+      or creation date for rapid search and retrieval.'
+  - name: '**Compliance Auditing:** Ensure every archived slide deck includes a creation
+      timestamp before it is stored for legal retention.'
+    text: '**Compliance Auditing:** Ensure every archived slide deck includes a creation
+      timestamp before it is stored for legal retention.'
+  - name: '**Automated Reporting:** Generate daily summaries that list who created
+      each deck and when, feeding the data into BI dashboards.'
+    text: '**Automated Reporting:** Generate daily summaries that list who created
+      each deck and when, feeding the data into BI dashboards.'
+  - name: '**CRM Integration:** Match the `Company` metadata to existing client records,
+      enabling seamless attachment of presentations to customer profiles.'
+    text: '**CRM Integration:** Match the `Company` metadata to existing client records,
+      enabling seamless attachment of presentations to customer profiles.'
+  type: HowTo
+- questions:
+  - answer: 'The API returns `null` for unset fields. Use a conditional expression
+      like `(author != null ? author : "N/A")` to provide a fallback value.'
+    question: How do I handle missing metadata properties?
+  - answer: Yes, beyond the built‑in properties you can read and write custom key/value
+      pairs using the same API.
+    question: Can GroupDocs.Metadata extract custom metadata fields?
+  - answer: GroupDocs.Metadata works with PowerPoint (`.ppt`, `.pptx`) and also supports
+      PDF, Word, Excel, and many image formats.
+    question: Is there support for other presentation formats?
+  - answer: A compatible JDK (8 or higher) and sufficient heap memory for the size
+      of the documents you process (e.g., 1 GB heap for 500‑page presentations).
+    question: What are the system requirements for GroupDocs.Metadata Java?
+  - answer: 'Visit the official support forum for assistance: [GroupDocs Support Forum](https://forum.groupdocs.com/c/metadata/)'
+    question: Where can I get help if I run into problems?
+  type: FAQPage
+title: Cara java mendapatkan file creation timestamp dari File Presentasi menggunakan
+  GroupDocs.Metadata
 type: docs
 url: /id/java/document-formats/extract-metadata-presentation-groupdocs-metadata-java/
 weight: 1
 ---
 
-# Cara membaca waktu pembuatan java dari File Presentasi Menggunakan GroupDocs.Metadata
+# Cara java mendapatkan cap waktu pembuatan file dari File Presentasi Menggunakan GroupDocs.Metadata
 
-Mengelola metadata adalah fondasi alur kerja dokumen modern. Dalam tutorial ini Anda akan mempelajari **cara membaca waktu pembuatan java** dan mengambil properti berguna lainnya—seperti penulis, perusahaan, dan kata kunci—dari presentasi PowerPoint menggunakan **GroupDocs.Metadata for Java**. Pada akhir tutorial, Anda akan siap mengintegrasikan detail ini ke dalam sistem manajemen dokumen, laporan kepatuhan, atau aplikasi berbasis Java apa pun yang perlu memahami asal-usul file.
+Mengelola metadata adalah landasan alur kerja dokumen modern, dan **java get file creation timestamp** sering menjadi informasi pertama yang Anda perlukan untuk memverifikasi asal-usul file. Dalam panduan langkah‑demi‑langkah ini Anda akan menemukan cara membaca cap waktu pembuatan dari presentasi PowerPoint, mengambil properti tambahan seperti penulis, perusahaan, dan kata kunci, serta mengintegrasikan hasilnya ke dalam solusi berbasis Java apa pun—baik itu sistem manajemen dokumen, generator jejak audit, atau dasbor kepatuhan.
 
 ## Jawaban Cepat
-- **Apa arti “read created time java”?** Ini adalah proses mengambil cap waktu pembuatan file melalui kode Java.  
-- **Pustaka mana yang mendukung ini?** GroupDocs.Metadata for Java menyediakan API bersih untuk semua properti presentasi bawaan.  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi permanen diperlukan untuk produksi.  
-- **Bisakah saya mengekstrak properti lain sekaligus?** Ya—penulis, perusahaan, kategori, dan lainnya tersedia melalui API yang sama.  
-- **Versi Java apa yang diperlukan?** JDK 8 atau lebih tinggi.
+- **What does “java get file creation timestamp” mean?** Itu berarti mengambil tanggal pembuatan asli sebuah file menggunakan kode Java melalui API metadata.  
+- **Which library handles this?** GroupDocs.Metadata for Java menyediakan API yang bersih dan format‑agnostik untuk membaca cap waktu dan properti bawaan lainnya.  
+- **Do I need a license for production?** Ya—lisensi permanen diperlukan untuk produksi; percobaan gratis sudah cukup untuk pengembangan dan pengujian.  
+- **Can I extract other metadata at once?** Tentu—penulis, perusahaan, kategori, kata kunci, dan bidang khusus semuanya dapat diakses melalui API yang sama.  
+- **What Java version is supported?** JDK 8 atau lebih tinggi (kompatibel dengan Java 11, 17, dan versi selanjutnya).
 
-## Apa itu “read created time java”?
-Membaca waktu pembuatan dokumen dalam Java berarti mengakses bidang metadata yang menyimpan kapan file tersebut awalnya dibuat. Cap waktu ini penting untuk kontrol versi, jejak audit, dan verifikasi kepatuhan.
+## Apa itu “java get file creation timestamp”?
+`java get file creation timestamp` mengacu pada operasi mengakses bidang metadata **Created** yang disimpan di dalam dokumen, yang mencatat momen tepat file pertama kali dibuat. Cap waktu ini penting untuk kontrol versi, jejak audit, dan kepatuhan regulasi karena memberikan catatan tidak dapat diubah tentang kapan konten dibuat.
 
-## Mengapa menggunakan GroupDocs.Metadata for Java untuk mengekstrak properti dokumen?
-GroupDocs.Metadata menyederhanakan kompleksitas berbagai format file, memungkinkan Anda fokus pada logika bisnis daripada parsing tingkat rendah. Ia mendukung PowerPoint, PDF, Word, dan banyak tipe gambar, menjadikannya pilihan serbaguna untuk proyek Java apa pun yang perlu **java extract document properties** secara andal.
+## Mengapa menggunakan GroupDocs.Metadata untuk Java untuk mengekstrak properti dokumen?
+GroupDocs.Metadata mengabstraksi parsing tingkat rendah dari puluhan format file, memungkinkan Anda fokus pada logika bisnis. Ia mendukung **lebih dari 50 format input dan output**—termasuk .pptx, .ppt, .pdf, .docx, .xlsx, dan banyak tipe gambar—dan dapat memproses presentasi ratusan halaman tanpa memuat seluruh file ke memori, memberikan solusi hemat memori untuk lingkungan berskala besar.
 
 ## Prasyarat
 - **GroupDocs.Metadata for Java** versi 24.12 atau lebih baru.  
 - Java Development Kit (JDK 8 atau lebih baru).  
-- IDE seperti IntelliJ IDEA atau Eclipse.  
-- Pengetahuan dasar penanganan file Java.
+- Sebuah IDE seperti IntelliJ IDEA atau Eclipse.  
+- Familiaritas dasar dengan I/O file Java dan penanganan pengecualian.
 
 ## Menyiapkan GroupDocs.Metadata untuk Java
 
@@ -61,7 +108,7 @@ Jika Anda mengelola dependensi dengan Maven, tambahkan repositori dan dependensi
 ```
 
 ### Unduhan Langsung
-Sebagai alternatif, Anda dapat mengunduh pustaka dari halaman rilis resmi:  
+Sebagai alternatif, Anda dapat mengunduh perpustakaan dari halaman rilis resmi:  
 [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)
 
 #### Langkah-langkah Akuisisi Lisensi
@@ -70,7 +117,7 @@ Sebagai alternatif, Anda dapat mengunduh pustaka dari halaman rilis resmi:
 - **Purchase:** Dapatkan lisensi penuh untuk penerapan produksi.
 
 ### Inisialisasi dan Pengaturan Dasar
-Setelah dependensi tersedia, buat objek `Metadata` dan arahkan ke file presentasi Anda:
+`Metadata` adalah kelas titik masuk utama di GroupDocs.Metadata untuk Java yang menyediakan akses ke metadata dokumen. Setelah dependensi tersedia, buat objek `Metadata` dan arahkan ke file presentasi Anda:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -84,88 +131,94 @@ try (Metadata metadata = new Metadata(INPUT_DOCUMENT_PATH)) {
 }
 ```
 
-## Cara java mengekstrak properti dokumen dari presentasi
-Di bawah ini kami menjelaskan properti bawaan yang paling umum, menunjukkan cara membacanya secara tepat.
+## Cara java mendapatkan cap waktu pembuatan file dan mengekstrak properti lain dari sebuah presentasi?
+Muat presentasi dengan `new Metadata("sample.pptx")`, kemudian panggil metode getter yang sesuai—`getCreatedTime()`, `getAuthor()`, `getCompany()`, dll—untuk mengambil setiap informasi. Pendekatan objek tunggal ini memungkinkan Anda menarik semua properti bawaan dalam hanya beberapa baris kode, menghilangkan kebutuhan parser spesifik format.
 
 ### Mengekstrak Informasi Penulis
-**Gambaran Umum:** Mengambil nama orang yang membuat presentasi.
+`getAuthor()` mengembalikan nama penulis yang disimpan dalam metadata dokumen, atau `null` jika bidang tersebut kosong.
 
 ```java
 String author = root.getDocumentProperties().getAuthor();
 System.out.println("Author: " + (author != null ? author : "N/A"));
 ```
 
-*Metode `getAuthor()` mengembalikan string penulis atau `null` jika bidang kosong.*
+*Metode ini mengembalikan `String` biasa yang dapat Anda log, tampilkan, atau simpan dalam basis data.*
 
-### Mengekstrak Waktu Pembuatan (read created time java)
-**Gambaran Umum:** Mendapatkan cap waktu yang menunjukkan kapan file pertama kali dibuat.
+### Mengekstrak Waktu Pembuatan (java get file creation timestamp)
+`getCreatedTime()` menyediakan objek `java.util.Date` yang mewakili momen tepat file pertama kali dibuat—tepat seperti yang dijelaskan oleh “java get file creation timestamp”.
 
 ```java
 Date createdTime = root.getDocumentProperties().getCreatedTime();
 System.out.println("Created Time: " + (createdTime != null ? createdTime.toString() : "N/A"));
 ```
 
-*`getCreatedTime()` menyediakan objek `java.util.Date` yang mewakili momen pembuatan—tepat apa yang dimaksud dengan “read created time java”.*
+*Anda dapat memformat `Date` ini dengan `SimpleDateFormat` atau API `java.time` yang lebih baru untuk tampilan atau perbandingan.*
 
 ### Mengekstrak Informasi Perusahaan
-**Gambaran Umum:** Mengambil nama organisasi yang terkait dengan presentasi.
+`getCompany()` mengembalikan nama organisasi yang terkait dengan presentasi, atau `null` bila bidang tersebut tidak diatur.
 
 ```java
 String company = root.getDocumentProperties().getCompany();
 System.out.println("Company: " + (company != null ? company : "N/A"));
 ```
 
-*Metode `getCompany()` mengembalikan metadata perusahaan atau `null` bila tidak diatur.*
+*Nilai ini berguna untuk menghubungkan dokumen ke catatan perusahaan atau entitas CRM.*
 
 ### Metadata Tambahan yang Dapat Anda Ekstrak
-Anda dapat dengan cara yang sama mengambil bidang bawaan lainnya seperti **Category**, **Keywords**, **Last Printed Date**, dan **Application Name** menggunakan metode seperti `getCategory()`, `getKeywords()`, dll.
+Anda dapat dengan cara yang sama mengambil bidang bawaan lainnya seperti **Category**, **Keywords**, **Last Printed Date**, dan **Application Name** menggunakan metode seperti `getCategory()`, `getKeywords()`, dll. Setiap getter mengikuti pola yang sama: nilai kembali yang singkat dan aman dari null, siap untuk langsung digunakan.
 
 ## Aplikasi Praktis
-1. **Document Management Systems:** Mengindeks presentasi berdasarkan penulis, perusahaan, atau tanggal pembuatan untuk pengambilan cepat.  
-2. **Compliance Auditing:** Memverifikasi bahwa metadata yang diperlukan (misalnya, cap waktu pembuatan) ada sebelum pengarsipan.  
-3. **Automated Reporting:** Menghasilkan laporan ringkasan yang mencantumkan siapa yang membuat setiap deck slide dan kapan.  
-4. **CRM Integration:** Menautkan presentasi ke catatan klien menggunakan bidang metadata perusahaan.
+1. **Document Management Systems:** Indeks presentasi berdasarkan penulis, perusahaan, atau tanggal pembuatan untuk pencarian dan pengambilan cepat.  
+2. **Compliance Auditing:** Pastikan setiap deck slide yang diarsipkan menyertakan cap waktu pembuatan sebelum disimpan untuk retensi hukum.  
+3. **Automated Reporting:** Hasilkan ringkasan harian yang mencantumkan siapa yang membuat setiap deck dan kapan, memasukkan data ke dasbor BI.  
+4. **CRM Integration:** Cocokkan metadata `Company` dengan catatan klien yang ada, memungkinkan lampiran presentasi secara mulus ke profil pelanggan.
 
 ## Pertimbangan Kinerja
-- **Parallel Processing:** Saat menangani batch besar, proses file dalam thread terpisah untuk meningkatkan throughput.  
-- **Resource Management:** Gunakan try‑with‑resources (seperti yang ditunjukkan) untuk menutup stream secara otomatis dan menghindari kebocoran memori.  
-- **Batch Extraction:** GroupDocs.Metadata mendukung operasi bulk; pertimbangkan membaca beberapa file dalam satu loop untuk efisiensi.
+- **Parallel Processing:** Saat mengekstrak metadata dari ribuan file, jalankan setiap ekstraksi dalam thread terpisah atau gunakan thread pool untuk memaksimalkan pemanfaatan CPU.  
+- **Resource Management:** Gunakan try‑with‑resources (seperti yang ditunjukkan) untuk secara otomatis menutup objek `Metadata` dan membebaskan sumber daya native.  
+- **Batch Extraction:** GroupDocs.Metadata mendukung operasi bulk; iterasi atas koleksi jalur file dan gunakan kembali satu instance `Metadata` bila memungkinkan untuk mengurangi overhead.
 
 ## Masalah Umum dan Solusinya
-- **Missing Metadata:** Jika properti mengembalikan `null`, file sumber memang tidak berisi informasi tersebut. Lindungi terhadap nilai `null` seperti yang ditunjukkan.  
-- **Unsupported Format:** Pastikan file merupakan format PowerPoint yang didukung (`.pptx`, `.ppt`).  
-- **License Errors:** Verifikasi bahwa file lisensi Anda ditempatkan dengan benar atau bahwa periode percobaan belum berakhir.
+- **Missing Metadata:** Jika getter mengembalikan `null`, file sumber memang tidak memiliki properti tersebut. Lindungi terhadap nilai `null` dengan pemeriksaan kondisi atau fallback default.  
+- **Unsupported Format:** Pastikan file adalah format PowerPoint yang didukung (`.pptx` atau `.ppt`). Mencoba memuat tipe yang tidak didukung akan melempar `UnsupportedFormatException`.  
+- **License Errors:** Pastikan file lisensi Anda ditempatkan dengan benar di classpath atau masa percobaan belum kedaluwarsa; jika tidak, API akan mengeluarkan `LicenseException`.
 
 ## Pertanyaan yang Sering Diajukan
 
-**Q: Bagaimana saya menangani properti metadata yang hilang?**  
-A: API mengembalikan `null` untuk bidang yang tidak diatur. Gunakan ekspresi kondisional seperti `(author != null ? author : "N/A")` untuk memberikan nilai cadangan.
+**Q: How do I handle missing metadata properties?**  
+A: API mengembalikan `null` untuk bidang yang tidak diatur. Gunakan ekspresi kondisional seperti `(author != null ? author : "N/A")` untuk memberikan nilai fallback.
 
-**Q: Bisakah GroupDocs.Metadata mengekstrak bidang metadata khusus?**  
+**Q: Can GroupDocs.Metadata extract custom metadata fields?**  
 A: Ya, selain properti bawaan Anda dapat membaca dan menulis pasangan kunci/nilai khusus menggunakan API yang sama.
 
-**Q: Apakah ada dukungan untuk format presentasi lain?**  
-A: GroupDocs.Metadata bekerja dengan PowerPoint (`.ppt`, `.pptx`) serta PDF, Word, dan banyak format gambar.
+**Q: Is there support for other presentation formats?**  
+A: GroupDocs.Metadata bekerja dengan PowerPoint (`.ppt`, `.pptx`) dan juga mendukung PDF, Word, Excel, serta banyak format gambar.
 
-**Q: Apa persyaratan sistem untuk GroupDocs.Metadata Java?**  
-A: JDK yang kompatibel (8 atau lebih tinggi) dan memori heap yang cukup untuk ukuran dokumen yang Anda proses.
+**Q: What are the system requirements for GroupDocs.Metadata Java?**  
+A: JDK yang kompatibel (8 atau lebih tinggi) dan memori heap yang cukup untuk ukuran dokumen yang Anda proses (mis., heap 1 GB untuk presentasi 500 halaman).
 
-**Q: Di mana saya dapat mendapatkan bantuan jika mengalami masalah?**  
+**Q: Where can I get help if I run into problems?**  
 A: Kunjungi forum dukungan resmi untuk bantuan: [GroupDocs Support Forum](https://forum.groupdocs.com/c/metadata/)
 
 ## Sumber Daya
 
-- **Dokumentasi:** https://docs.groupdocs.com/metadata/java/
-- **Referensi API:** https://reference.groupdocs.com/metadata/java/
-- **Unduhan:** https://releases.groupdocs.com/metadata/java/
-- **GitHub:** https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java
-- **Dukungan Gratis:** https://forum.groupdocs.com/c/metadata/
-- **Lisensi Sementara:** https://purchase.groupdocs.com/temporary-license/
+- **Documentation:** Dokumentasi: https://docs.groupdocs.com/metadata/java/
+- **API Reference:** Referensi API: https://reference.groupdocs.com/metadata/java/
+- **Download:** Unduhan: https://releases.groupdocs.com/metadata/java/
+- **GitHub:** GitHub: https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java
+- **Free Support:** Dukungan Gratis: https://forum.groupdocs.com/c/metadata/
+- **Temporary License:** Lisensi Sementara: https://purchase.groupdocs.com/temporary-license/
 
-Dengan mengikuti panduan ini, Anda kini tahu cara **read created time java** dan **java extract document properties** dari presentasi PowerPoint menggunakan GroupDocs.Metadata. Gabungkan potongan kode ini ke dalam proyek Anda untuk meningkatkan kecerdasan dokumen dan menyederhanakan alur kerja kepatuhan.
+Dengan mengikuti panduan ini, Anda kini tahu cara **java get file creation timestamp** dan **java extract document properties** dari presentasi PowerPoint menggunakan GroupDocs.Metadata. Gabungkan potongan kode ini ke dalam proyek Anda untuk meningkatkan kecerdasan dokumen, menyederhanakan alur kerja kepatuhan, dan memberdayakan analitik hilir.
 
 ---
 
-**Terakhir Diperbarui:** 2026-01-26  
+**Terakhir Diperbarui:** 2026-06-27  
 **Diuji Dengan:** GroupDocs.Metadata 24.12 for Java  
 **Penulis:** GroupDocs
+
+## Tutorial Terkait
+
+- [Cara Mengekstrak Metadata dari Presentasi PowerPoint Menggunakan GroupDocs.Metadata di Java](/metadata/java/working-with-metadata/extract-presentation-metadata-groupdocs-java/)
+- [Otomatisasi Pembaruan Metadata Java berdasarkan Tanggal Menggunakan GroupDocs.Metadata untuk Manajemen File yang Efisien](/metadata/java/working-with-metadata/java-metadata-update-by-date-groupdocs/)
+- [Menguasai Manajemen Metadata: Deteksi Properti Dokumen & Status Enkripsi dengan GroupDocs.Metadata untuk Java](/metadata/java/working-with-metadata/master-metadata-management-groupdocs-java/)

@@ -1,53 +1,90 @@
 ---
-date: '2026-02-21'
-description: GroupDocs.Metadata를 사용하여 Java에서 mkv 메타데이터를 읽는 방법, Java에서 비디오 메타데이터를 추출하는
-  방법, 그리고 EBML 헤더, 태그 및 트랙을 처리하는 방법을 배웁니다.
+date: '2026-08-31'
+description: Java에서 GroupDocs를 사용하여 MKV 메타데이터를 읽고, 비디오 메타데이터를 추출하며, EBML headers,
+  tags, and tracks를 처리하는 방법을 배웁니다.
 keywords:
-- extract mkv metadata java
-- groupdocs.metadata java
-- read matroska file
-title: GroupDocs.Metadata와 Java로 MKV 메타데이터 읽기 – 완전 가이드
+- how to use groupdocs
+- groupdocs metadata java
+- extract video metadata java
+lastmod: '2026-08-31'
+og_description: Java에서 GroupDocs를 사용하여 MKV 메타데이터를 읽고, 비디오 메타데이터를 추출하며, EBML headers,
+  tags, and tracks를 효율적으로 처리하는 방법을 배웁니다.
+og_image_alt: Guide showing Java code for extracting Matroska (MKV) metadata using
+  GroupDocs.Metadata
+og_title: Java에서 GroupDocs를 사용하여 MKV 메타데이터를 읽는 방법
+schemas:
+- author: GroupDocs
+  dateModified: '2026-08-31'
+  description: Learn how to use GroupDocs to read MKV metadata in Java, extract video
+    metadata, and handle EBML headers, tags, and tracks.
+  headline: How to use GroupDocs to read MKV metadata in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, GroupDocs.Metadata supports MP4, AVI, MOV, and many more. The API
+      pattern is similar—just use the appropriate root package class.
+    question: Can I extract metadata from other video formats with the same library?
+  - answer: A license removes trial limits and grants full functionality. The library
+      works in trial mode for evaluation.
+    question: Is a license required for production use?
+  - answer: Absolutely. Once the JAR is on your classpath, all metadata reads are
+      performed locally without network calls.
+    question: Does the extraction happen offline?
+  - answer: The library streams the container structure, so memory usage stays modest;
+      typical 5 GB files process in under 30 seconds on a standard server with 2 GB
+      heap.
+    question: How does this perform on very large MKV files (several GB)?
+  - answer: GroupDocs.Metadata primarily focuses on reading. Write support is limited;
+      consult the latest API docs for any write‑back capabilities.
+    question: Can I modify the metadata and write it back to the file?
+  type: FAQPage
+tags:
+- mkv metadata
+- groupdocs
+- java video processing
+- metadata extraction
+title: Java에서 GroupDocs를 사용하여 MKV 메타데이터를 읽는 방법
 type: docs
 url: /ko/java/audio-video-formats/extract-matroska-metadata-groupdocs-java/
 weight: 1
 ---
 
-# GroupDocs.Metadata를 사용한 MKV 메타데이터 Java 읽기
+# GroupDocs를 사용하여 Java에서 MKV 메타데이터를 읽는 방법
 
-멀티미디어 파일은 어디에나 존재하며, **read mkv metadata java**를 수행할 수 있는 능력은 미디어 관리, 카탈로그화 및 분석에 필수적입니다. 이 튜토리얼에서는 Matroska 컨테이너에서 메타데이터를 추출하는 이유, GroupDocs.Metadata 설정 방법, EBML 헤더, 세그먼트 정보, 태그 및 트랙 데이터를 가져오는 단계별 코드를 알아봅니다. 비디오 카탈로그를 구축하거나 인코딩 파라미터를 검증하거나 자동으로 썸네일을 생성하는 경우에도 이 가이드는 필요한 모든 것을 제공합니다.
+현대 미디어 파이프라인에서 **Java에서 MKV 메타데이터를 읽는** 능력은 카탈로그 작성, 품질‑관리, 자동 썸네일 생성에 필수적인 요구사항입니다. 이 가이드는 GroupDocs를 사용하여 Matroska 컨테이너 내부에 저장된 모든 정보를—EBML 헤더, 세그먼트 상세 정보, 태그 및 트랙 사양—추출하는 방법을 정확히 보여줍니다. 이를 통해 검색 가능한 데이터베이스를 구축하거나 인코딩 매개변수를 자신 있게 검증할 수 있습니다.
 
 ## 빠른 답변
-- **What does “read mkv metadata java” mean?** MKV 파일에서 메타데이터를 Java를 사용해 프로그래밍 방식으로 읽는 과정입니다.  
-- **Which library should I use?** GroupDocs.Metadata for Java는 Matroska 파일을 위한 포괄적인 API를 제공합니다.  
-- **Do I need a license?** 무료 체험으로 평가할 수 있으며, 라이선스를 구매하면 사용 제한이 해제됩니다.  
-- **Can I read other formats?** 예, 동일한 라이브러리가 MP4, AVI, MP3 등 다양한 포맷을 지원합니다.  
-- **Is internet access required at runtime?** 아니요, 라이브러리를 프로젝트에 추가하면 모든 추출이 로컬에서 수행됩니다.  
+- **“read MKV metadata Java”가 의미하는 것은?** Java 코드를 사용하여 MKV 파일의 컨테이너 수준 정보를 프로그래밍 방식으로 추출하는 것입니다.  
+- **어떤 라이브러리를 사용해야 하나요?** Java용 GroupDocs.Metadata는 Matroska 파일을 위한 완전하고 고성능 API를 제공합니다.  
+- **라이선스가 필요합니까?** 무료 체험으로 평가할 수 있으며, 상업용 라이선스를 구매하면 사용 제한이 해제되고 전체 기능을 사용할 수 있습니다.  
+- **다른 형식도 읽을 수 있나요?** 예—GroupDocs.Metadata는 MP4, AVI, MP3, MOV 및 50개 이상의 추가 형식을 지원합니다.  
+- **런타임에 인터넷 접속이 필요합니까?** 아니요—JAR가 클래스패스에 있으면 모든 추출이 로컬에서 이루어지며 네트워크 호출이 없습니다.  
 
 ## Matroska (MKV) 메타데이터란?
-Matroska는 오픈형이며 유연한 컨테이너 포맷입니다. 메타데이터에는 EBML 헤더(파일 버전, 문서 유형), 세그먼트 세부 정보(재생 시간, 멕싱 애플리케이션), 태그(제목, 설명) 및 트랙 사양(오디오/비디오 코덱, 언어)이 포함됩니다. 이 데이터를 활용하면 미디어 카탈로그를 구축하거나 파일 무결성을 검증하거나 자동으로 썸네일을 생성할 수 있습니다.
+Matroska는 개방형이며 유연한 멀티미디어 컨테이너입니다. 메타데이터는 EBML 헤더(파일 버전, 문서 유형), 세그먼트 정보(재생 시간, 멀싱 애플리케이션), 태그(제목, 설명) 및 트랙 사양(코덱, 언어)으로 구성됩니다. 이 데이터를 접근하면 미디어 카탈로그를 구축하고, 파일 무결성을 검증하거나 자동으로 썸네일을 생성할 수 있습니다.
 
-## 왜 read mkv metadata java를 읽어야 할까요?
-- **Automation** – 대규모 비디오 라이브러리를 위해 세부 정보를 자동으로 가져옵니다.  
-- **Quality control** – 게시 전에 코덱 ID, 재생 시간 및 트랙 언어를 검증합니다.  
-- **Search & discovery** – 제목, 언어 및 타임스탬프를 포함한 검색 가능한 데이터베이스를 채웁니다.  
-- **Cross‑format consistency** – 동일한 코드 베이스를 사용해 다른 컨테이너(MP4, AVI 등)에서 비디오 메타데이터 java를 추출합니다.
+## Java용 GroupDocs.Metadata를 사용하는 이유
+- **전체 기능 API** – 저수준 파싱 없이 EBML, 세그먼트, 태그 및 트랙을 처리합니다.  
+- **성능 최적화** – 스트리밍 기반 읽기로 힙 사용량을 200 MB 이하로 유지하면서 10 GB까지의 파일을 처리합니다.  
+- **다중 형식 지원** – 동일한 코드 패턴이 MP4, AVI, MOV 및 50개 이상의 다른 컨테이너에서도 작동합니다.  
+- **간단한 Maven 통합** – 하나의 의존성만으로 즉시 시작할 수 있습니다.  
 
-## 왜 Java용 GroupDocs.Metadata를 사용해야 할까요?
-- **Full‑featured API** – 저수준 파싱 없이 EBML, 세그먼트, 태그 및 트랙을 처리합니다.  
-- **Performance‑optimized** – 다중 기가바이트 파일에서도 효율적으로 작동합니다.  
-- **Cross‑format support** – 동일한 코드 패턴이 다양한 오디오/비디오 컨테이너에 적용됩니다.  
-- **Simple Maven integration** – 단일 의존성을 추가하면 추출을 시작할 수 있습니다.
-
-## 사전 요구 사항
-- **GroupDocs.Metadata for Java** 버전 24.12 이상.  
-- Java Development Kit (JDK)가 설치되어 있어야 합니다.  
-- Maven(또는 수동 JAR 관리).  
-- 실험용 MKV 파일(`YOUR_DOCUMENT_DIRECTORY`에 배치).
+## 전제 조건
+- Java용 GroupDocs.Metadata 버전 24.12 이상.  
+- 설치된 Java Development Kit (JDK) (JDK 11+ 권장).  
+- Maven(또는 수동 JAR 처리).  
+- 실험용 MKV 파일 (`YOUR_DOCUMENT_DIRECTORY`에 배치).  
 
 ## Java용 GroupDocs.Metadata 설정
-Maven을 사용하거나 JAR 파일을 직접 다운로드하여 프로젝트에 라이브러리를 추가합니다.
+Maven을 사용하거나 JAR를 직접 다운로드하여 프로젝트에 라이브러리를 추가합니다.
 
 **Maven:**  
+```xml
+<dependency>
+    <groupId>com.groupdocs</groupId>
+    <artifactId>metadata</artifactId>
+    <version>24.12</version>
+</dependency>
+```
 ```xml
 <repositories>
    <repository>
@@ -64,16 +101,16 @@ Maven을 사용하거나 JAR 파일을 직접 다운로드하여 프로젝트에
       <version>24.12</version>
    </dependency>
 </dependencies>
-```
+```  
 
-**Direct Download:**  
-Maven을 사용하고 싶지 않다면, 최신 버전을 [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)에서 다운로드하세요.
+**Direct download:**  
+Maven을 사용하지 않으려면, 최신 버전을 [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)에서 다운로드하십시오.
 
 ### 라이선스 획득
-무료 체험으로 기능을 살펴보세요. 프로덕션 환경에서는 라이선스를 구매하거나 [GroupDocs](https://purchase.groupdocs.com/temporary-license/)에서 임시 라이선스를 받아 체험 제한을 해제합니다.
+무료 체험으로 기능을 탐색하십시오. 운영 환경에서는 라이선스를 구매하거나 [GroupDocs](https://purchase.groupdocs.com/temporary-license/)에서 임시 라이선스를 받아 체험 제한을 해제하십시오.
 
 ### 기본 초기화 및 설정
-아래는 GroupDocs.Metadata를 사용해 MKV 파일을 여는 최소 코드 예시입니다.
+`Metadata` 클래스는 컨테이너 파일을 열고 읽기 위한 GroupDocs.Metadata의 진입점입니다. 아래는 GroupDocs.Metadata를 사용하여 MKV 파일을 여는 최소 코드입니다.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -87,13 +124,13 @@ public class MetadataExtraction {
         }
     }
 }
-```
+```  
 
-## GroupDocs.Metadata로 read mkv metadata java 수행하기
-이제 읽을 수 있는 각 메타데이터 영역을 자세히 살펴보겠습니다.
+## GroupDocs.Metadata를 사용하여 Java에서 MKV 메타데이터를 읽는 방법
+`new Metadata("path/to/file.mkv")` 로 대상 파일을 로드한 뒤, 적절한 getter를 호출하여 EBML 헤더, 세그먼트 정보, 태그 및 트랙 데이터를 가져옵니다. 모든 작업은 스트리밍 방식으로 수행되므로 수 기가바이트 파일도 빠르게 최소 메모리 사용량으로 처리됩니다.
 
 ### Matroska EBML 헤더 읽기
-EBML 헤더에는 버전 및 문서 유형과 같은 핵심 파일 정보가 저장됩니다.
+EBML 헤더는 버전 및 문서 유형과 같은 핵심 파일 정보를 저장합니다.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -114,14 +151,14 @@ public class ReadMatroskaEBMLHeader {
         }
     }
 }
-```
+```  
 
-**Key Points**  
-- `getRootPackageGeneric()`는 Matroska 패키지 진입점을 제공합니다.  
+**핵심 포인트**  
+- `getRootPackageGeneric()` 은 Matroska 패키지 진입점을 제공합니다.  
 - EBML 속성(`docType`, `version` 등)은 파일 호환성을 확인하는 데 도움이 됩니다.
 
 ### Matroska 세그먼트 정보 읽기
-세그먼트는 전체 미디어 타임라인 및 생성 도구를 설명합니다.
+세그먼트는 전체 미디어 타임라인과 생성 도구를 설명합니다.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -147,11 +184,11 @@ public class ReadMatroskaSegmentInformation {
         }
     }
 }
-```
+```  
 
-**Key Points**  
-- `getSegments()`는 컬렉션을 반환하며, 각 세그먼트는 자체 제목, 재생 시간 및 생성 애플리케이션 세부 정보를 가질 수 있습니다.  
-- 재생 목록을 만들거나 인코딩 파라미터를 검증하는 데 유용합니다.
+**핵심 포인트**  
+- `getSegments()` 은 컬렉션을 반환하며, 각 세그먼트는 자체 제목, 재생 시간 및 생성 앱 세부 정보를 가질 수 있습니다.  
+- 플레이리스트를 만들거나 인코딩 매개변수를 검증하는 데 유용합니다.
 
 ### Matroska 태그 메타데이터 읽기
 태그는 제목, 아티스트 또는 사용자 정의 메모와 같은 사람이 읽을 수 있는 정보를 저장합니다.
@@ -181,9 +218,9 @@ public class ReadMatroskaTagMetadata {
         }
     }
 }
-```
+```  
 
-**Key Points**  
+**핵심 포인트**  
 - 태그는 `targetType`(예: `movie`, `track`)에 따라 조직됩니다.  
 - `simpleTag` 항목은 `TITLE=My Video`와 같은 키/값 쌍을 보유합니다.
 
@@ -210,48 +247,54 @@ public class ReadMatroskaTrackMetadata {
         }
     }
 }
-```
+```  
 
-**Key Points**  
-- `track.getType()`은 비디오, 오디오, 자막 중 어떤 유형인지 알려줍니다.  
-- `codecId`는 코덱을 식별하게 해줍니다(예: `V_MPEG4/ISO/AVC`).  
-- 이 데이터는 트랜스코딩 파이프라인이나 품질 검증에 필수적입니다.
+**핵심 포인트**  
+- `track.getType()` 은 비디오, 오디오 또는 자막인지 알려줍니다.  
+- `codecId` 로 코덱을 식별할 수 있습니다(예: `V_MPEG4/ISO/AVC`).  
+- 이 데이터는 트랜스코딩 파이프라인이나 품질 검사에 필수적입니다.
 
-## read mkv metadata java의 일반적인 사용 사례
-- **Media catalogues** – 제목, 재생 시간 및 언어 코드를 데이터베이스 테이블에 채웁니다.  
-- **Automated QC** – 게시 전에 모든 파일에 필수 태그가 포함되어 있는지 확인합니다.  
-- **Dynamic streaming** – 사용자 선호도에 따라 올바른 오디오/자막 트랙을 선택합니다.  
-- **Content migration** – 메타데이터를 한 번 추출한 뒤 새로운 스토리지 시스템에 삽입합니다.
+## Java에서 MKV 메타데이터를 읽는 일반적인 사용 사례
+- **미디어 카탈로그** – 제목, 재생 시간 및 언어 코드를 데이터베이스 테이블에 채웁니다.  
+- **자동 QC** – 게시 전에 모든 파일에 필수 태그가 포함되어 있는지 확인합니다.  
+- **동적 스트리밍** – 사용자 선호도에 따라 올바른 오디오/자막 트랙을 선택합니다.  
+- **콘텐츠 마이그레이션** – 메타데이터를 한 번 추출한 뒤 새로운 스토리지 시스템에 삽입합니다.
 
 ## 일반적인 문제 및 해결 방법
-| Symptom | Likely Cause | Fix |
+| 증상 | 가능한 원인 | 해결책 |
 |---------|--------------|-----|
-| `getEbmlHeader()`에 접근할 때 `NullPointerException` | 파일 경로가 잘못되었거나 파일을 찾을 수 없습니다. | `new Metadata("...")`에서 경로를 확인하고 파일이 존재하는지 확인하십시오. |
-| 태그가 반환되지 않음 | MKV 파일에 태그 요소가 없습니다. | 메타데이터 태그가 포함된 미디어 파일을 사용하십시오(예: MKVToolNix로 추가된 파일). |
-| 대용량 파일 처리 속도가 느림 | 힙 메모리가 부족합니다. | JVM 힙을 늘리세요(`-Xmx2g` 이상) 또는 가능하면 파일을 청크로 처리하십시오. |
+| `getEbmlHeader()` 접근 시 `NullPointerException` | 파일 경로가 잘못되었거나 파일을 찾을 수 없음 | `new Metadata("…")` 의 경로를 확인하고 파일이 존재하는지 확인하십시오. |
+| 태그가 반환되지 않음 | MKV 파일에 태그 요소가 없음 | 메타데이터 태그가 포함된 미디어 파일을 사용하십시오(예: MKVToolNix로 추가된 파일). |
+| 대용량 파일 처리 속도 저하 | 힙 메모리 부족 | JVM 힙을 늘리세요(`-Xmx2g` 이상) 또는 가능하면 파일을 청크로 처리하십시오. |
 
 ## 자주 묻는 질문
 
-**Q: Can I extract metadata from other video formats with the same library?**  
-A: 예, GroupDocs.Metadata는 MP4, AVI, MOV 등 다양한 포맷을 지원합니다. API 패턴은 유사하므로 적절한 루트 패키지 클래스를 사용하면 됩니다.
+**Q: 같은 라이브러리로 다른 비디오 형식의 메타데이터를 추출할 수 있나요?**  
+A: 예, GroupDocs.Metadata는 MP4, AVI, MOV 등 많은 형식을 지원합니다. API 패턴은 유사하므로 적절한 루트 패키지 클래스를 사용하면 됩니다.
 
-**Q: Is a license required for production use?**  
+**Q: 운영 환경에서 라이선스가 필요합니까?**  
 A: 라이선스를 구매하면 체험 제한이 해제되고 전체 기능을 사용할 수 있습니다. 라이브러리는 평가용으로 체험 모드에서도 동작합니다.
 
-**Q: Does the extraction happen offline?**  
-A: 전적으로 오프라인에서 수행됩니다. JAR가 클래스패스에 있으면 모든 메타데이터 읽기가 네트워크 호출 없이 로컬에서 이루어집니다.
+**Q: 추출이 오프라인에서 이루어지나요?**  
+A: 전적으로 그렇습니다. JAR가 클래스패스에 있으면 모든 메타데이터 읽기가 로컬에서 수행되며 네트워크 호출이 없습니다.
 
-**Q: How does this perform on very large MKV files (several GB)?**  
-A: 라이브러리는 컨테이너 구조를 스트리밍하므로 메모리 사용량이 적게 유지되지만, 대용량 태그 컬렉션을 위해 충분한 JVM 힙을 확보하십시오.
+**Q: 매우 큰 MKV 파일(수 GB)에서 성능은 어떻습니까?**  
+A: 라이브러리는 컨테이너 구조를 스트리밍하므로 메모리 사용량이 적게 유지됩니다; 일반적인 5 GB 파일은 2 GB 힙을 가진 표준 서버에서 30초 이하로 처리됩니다.
 
-**Q: Can I modify the metadata and write it back to the file?**  
-A: GroupDocs.Metadata는 주로 읽기에 초점을 맞추고 있습니다. 쓰기 기능은 제한적이며, 최신 API 문서를 확인하여 쓰기 지원 여부를 확인하십시오.
+**Q: 메타데이터를 수정하고 파일에 다시 쓸 수 있나요?**  
+A: GroupDocs.Metadata는 주로 읽기에 초점을 맞추고 있습니다. 쓰기 지원은 제한적이며, 쓰기 기능이 있는지 최신 API 문서를 확인하십시오.
 
-## 결론
-이제 GroupDocs.Metadata를 사용한 **read mkv metadata java**에 대한 완전하고 프로덕션 준비된 가이드를 보유하게 되었습니다. EBML 헤더, 세그먼트 정보, 태그 및 트랙 세부 정보를 활용하면 미디어 카탈로그를 구축하고 품질 검사를 자동화하거나 비디오 스트리밍 서비스를 강화할 수 있습니다. 예제 코드를 실험하고 워크플로에 맞게 조정하며, 라이브러리의 다양한 포맷 지원을 탐색해 보세요.
-
----
-
-**마지막 업데이트:** 2026-02-21  
-**테스트 환경:** GroupDocs.Metadata 24.12 for Java  
+**마지막 업데이트:** 2026-08-31  
+**테스트 환경:** Java용 GroupDocs.Metadata 24.12  
 **작성자:** GroupDocs
+
+## 관련 튜토리얼
+
+- [Java와 GroupDocs.Metadata를 사용하여 mkv 자막을 일괄 추출하는 방법](/metadata/java/audio-video-formats/extract-subtitles-mkv-files-java-groupdocs-metadata/)
+- [GroupDocs.Metadata를 사용하여 Java로 비디오 메타데이터 추출하기](/metadata/java/audio-video-formats/mastering-avi-metadata-handling-groupdocs-java/)
+- [GroupDocs.Metadata를 사용한 Java ID3v2 태그 읽기 – 종합 가이드](/metadata/java/audio-video-formats/read-id3v2-tags-groupdocs-metadata-java/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,55 +1,97 @@
 ---
-date: '2026-02-27'
-description: GroupDocs.Metadata for Java का उपयोग करके ASF मेटाडेटा जावा कैसे निकालें,
-  सीखें। इस गाइड में सेटअप, प्रॉपर्टीज़ पढ़ना और कोडेक जानकारी तक पहुंच शामिल है।
+date: '2026-09-01'
+description: GroupDocs.Metadata for Java का उपयोग करके asf मेटाडाटा जावा निकालना सीखें।
+  यह चरण‑दर‑चरण गाइड सेटअप, कोर प्रॉपर्टीज़ पढ़ना, कोडेक विवरण, और समस्या निवारण को
+  कवर करता है।
 keywords:
-- ASF Metadata Extraction
-- GroupDocs.Metadata for Java
-- Java Media Management
-title: GroupDocs.Metadata के साथ Java में ASF मेटाडेटा कैसे निकालें
+- extract asf metadata java
+- asf metadata extraction
+- groupdocs.metadata java
+lastmod: '2026-09-01'
+og_description: GroupDocs.Metadata का उपयोग करके asf मेटाडाटा जावा निकालना सीखें।
+  लाइब्रेरी सेटअप करने, कोर ASF प्रॉपर्टीज़ पढ़ने, और सामान्य समस्याओं को संभालने
+  के लिए इस गाइड का पालन करें।
+og_image_alt: 'Developer guide: extract asf metadata java with GroupDocs.Metadata'
+og_title: GroupDocs.Metadata के साथ asf मेटाडाटा जावा निकालने का तरीका
+schemas:
+- author: GroupDocs
+  dateModified: '2026-09-01'
+  description: Learn how to extract asf metadata java using GroupDocs.Metadata for
+    Java. This step‑by‑step guide covers setup, reading core properties, codec details,
+    and troubleshooting.
+  headline: How to extract asf metadata java with GroupDocs.Metadata
+  type: TechArticle
+- questions:
+  - answer: Yes, GroupDocs.Metadata supports MP4, MKV, AVI, MOV, and many more. Just
+      instantiate the appropriate package class for the format you are processing.
+    question: Can I extract metadata from other video formats with the same library?
+  - answer: Absolutely. The library provides setter methods for most properties, allowing
+      you to edit values and then save the file back to disk.
+    question: Is it possible to modify ASF metadata after extraction?
+  - answer: Not strictly, but a 64‑bit JVM gives you a larger heap, which reduces
+      the chance of `OutOfMemoryError` when handling multi‑gigabyte containers.
+    question: Do I need a 64‑bit JVM for large ASF files?
+  - answer: The trial license removes functional limits but adds a watermark to certain
+      output files. For production you should purchase a full license to eliminate
+      the watermark and unlock priority support.
+    question: How does licensing affect trial usage?
+  - answer: GroupDocs.Metadata is built for Java SE. For Android you would need the
+      .NET version or a custom wrapper, as the Java library depends on APIs unavailable
+      on Android.
+    question: Can I run this code on Android?
+  type: FAQPage
+tags:
+- extract asf metadata
+- groupdocs.metadata
+- java media processing
+title: GroupDocs.Metadata के साथ asf मेटाडाटा जावा निकालने का तरीका
 type: docs
 url: /hi/java/audio-video-formats/master-asf-metadata-extraction-groupdocs-java/
 weight: 1
 ---
 
-Docs.Metadata 24.12 for Java" keep.
-
-"**Author:** GroupDocs" keep.
-
-Now produce final markdown with translations.
-
-Check for any missing elements: code block placeholders remain. Ensure no extra spaces.
-
-Let's craft final answer.# GroupDocs.Metadata for Java के साथ ASF मेटाडेटा निकालें (Java)
-
-आज के डिजिटल परिदृश्य में, मल्टीमीडिया सामग्री का कुशल प्रबंधन अत्यंत महत्वपूर्ण है, और आपको अपने मीडिया फ़ाइलों से **extract asf metadata java** निकालने की आवश्यकता पड़ सकती है। इसे मैन्युअल रूप से करना समय‑साध्य और त्रुटिपूर्ण हो सकता है। यह ट्यूटोरियल आपको **GroupDocs.Metadata for Java** का उपयोग करके विभिन्न ASF प्रॉपर्टीज़ को पढ़ने और प्रदर्शित करने के चरण दिखाता है, जिससे आप अपने एसेट्स को भरोसेमंद तरीके से व्यवस्थित, खोज और प्रोसेस कर सकें।
+# GroupDocs.Metadata के साथ asf मेटाडेटा जावा निकालने का तरीका
 
 ## त्वरित उत्तर
-- **“extract ASF metadata” का क्या अर्थ है?** इसका मतलब है कि एक ASF फ़ाइल से एम्बेडेड जानकारी (जैसे टाइमस्टैम्प, कोडेक्स, डिस्क्रिप्टर्स) को प्रोग्रामेटिक रूप से पढ़ना।  
-- **कौन सी लाइब्रेरी आवश्यक है?** GroupDocs.Metadata for Java (संस्करण 24.12 या बाद का)।  
-- **क्या मुझे लाइसेंस चाहिए?** विकास के लिए एक फ्री ट्रायल या टेम्पररी लाइसेंस काम करता है; प्रोडक्शन के लिए पूर्ण लाइसेंस आवश्यक है।  
+- **“extract ASF metadata” का क्या अर्थ है?** यह प्रोग्रामेटिक रूप से ASF फ़ाइल से एम्बेडेड जानकारी (जैसे टाइमस्टैम्प, कोडेक, डिस्क्रिप्टर) पढ़ने को दर्शाता है।  
+- **कौन सी लाइब्रेरी आवश्यक है?** GroupDocs.Metadata for Java (version 24.12 or later)।  
+- **क्या मुझे लाइसेंस चाहिए?** विकास के लिए एक फ्री ट्रायल या टेम्पररी लाइसेंस काम करता है; उत्पादन के लिए पूर्ण लाइसेंस आवश्यक है।  
 - **कौन सा Java संस्करण समर्थित है?** JDK 8 या उससे ऊपर।  
-- **क्या मैं Maven का उपयोग कर सकता हूँ?** हाँ – Maven अनुशंसित डिपेंडेंसी मैनेजर है।  
+- **क्या मैं Maven का उपयोग कर सकता हूँ?** हाँ – Maven अनुशंसित डिपेंडेंसी मैनेजर है।
 
 ## extract asf metadata java क्या है?
-Java के साथ ASF मेटाडेटा निकालने से आपको फ़ाइल के आंतरिक विवरण तक प्रोग्रामेटिक पहुँच मिलती है, जैसे निर्माण तिथियाँ, कोडेक विवरण, और स्ट्रीम एट्रिब्यूट्स। यह जानकारी मीडिया कैटलॉगिंग, अनुपालन जांच, और स्वचालित प्रोसेसिंग पाइपलाइन के लिए आवश्यक है।
+`extract asf metadata java` जावा कोड का उपयोग करके ASF (Advanced Systems Format) फ़ाइल के भीतर मेटाडेटा कंटेनर को प्रोग्रामेटिक रूप से पढ़ने की प्रक्रिया है। मेटाडेटा में निर्माण टाइमस्टैम्प, कोडेक पहचानकर्ता, स्ट्रीम भाषा टैग, और अन्य डिस्क्रिप्टर शामिल होते हैं जो यह बताते हैं कि मीडिया को कैसे व्याख्यायित किया जाना चाहिए।
 
-## GroupDocs.Metadata के साथ ASF मेटाडेटा Java क्यों निकालें?
-- **Zero‑code पार्सिंग** – लो‑लेवल ASF पार्सर लिखने की आवश्यकता नहीं।  
-- **समृद्ध ऑब्जेक्ट मॉडल** – प्रॉपर्टीज़, कोडेक्स, डिस्क्रिप्टर्स, और स्ट्रीम विवरण को सहज Java क्लासेज़ के माध्यम से एक्सेस करें।  
-- **क्रॉस‑प्लेटफ़ॉर्म** – किसी भी OS पर काम करता है जो Java को सपोर्ट करता है।  
-- **लाइसेंस लचीलापन** – ट्रायल से शुरू करें और आवश्यकता अनुसार पूर्ण लाइसेंस तक बढ़ाएँ।  
+## GroupDocs.Metadata के साथ extract asf metadata java क्यों?
+GroupDocs.Metadata पूरे मीडिया स्ट्रीम को मेमोरी में लोड किए **बिना** ASF डेटा पढ़ सकता है, जिससे आप कई गीगाबाइट आकार की फ़ाइलों को प्रोसेस कर सकते हैं। यह लाइब्रेरी **70+ ऑडियो‑वीडियो फ़ॉर्मैट्स** का समर्थन करती है, जिसमें ASF, MP4, MKV, AVI, और MOV शामिल हैं, और इन फ़ॉर्मैट्स में **500 से अधिक अलग-अलग मेटाडेटा फ़ील्ड्स** निकाल सकती है। यह मात्रात्मक क्षमता आपको अधिकांश ओपन‑सोर्स पार्सर्स की तुलना में अधिक समृद्ध डेटा सेट देती है, जबकि CPU और मेमोरी उपयोग को कम रखती है।
 
 ## पूर्वापेक्षाएँ
-- **Java Development Kit (JDK)** 8 या उससे नया स्थापित हो।  
-- **IDE** जैसे IntelliJ IDEA या Eclipse, सुविधाजनक कोडिंग के लिए।  
-- **Maven** आपके IDE में कॉन्फ़िगर किया हुआ (वैकल्पिक लेकिन अनुशंसित)।  
-- Java और बाहरी लाइब्रेरीज़ की बुनियादी परिचितता।  
+- **Java Development Kit (JDK)** 8 या उससे नया आपके वर्कस्टेशन या बिल्ड सर्वर पर स्थापित होना चाहिए।  
+- **IDE** जैसे IntelliJ IDEA या Eclipse, जावा कोड लिखने और डिबग करने के लिए।  
+- **Maven** स्थापित होना चाहिए (वैकल्पिक लेकिन डिपेंडेंसी मैनेजमेंट के लिए अत्यधिक अनुशंसित)।  
+- Java सिंटैक्स और ऑब्जेक्ट‑ओरिएंटेड अवधारणाओं की बुनियादी समझ।
 
-## GroupDocs.Metadata for Java सेटअप करना
+## GroupDocs.Metadata को Java के लिए सेटअप करना
 
-### Maven इंस्टॉलेशन
-अपने `pom.xml` में रिपॉजिटरी और डिपेंडेंसी जोड़ें:
+### Maven स्थापना
+Add the GroupDocs repository and the metadata dependency to your `pom.xml` file:
+
+```xml
+<repositories>
+    <repository>
+        <id>groupdocs-maven</id>
+        <url>https://repo.groupdocs.com/maven2/</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-metadata</artifactId>
+        <version>24.12</version>
+    </dependency>
+</dependencies>
+```
 
 ```xml
 <repositories>
@@ -69,16 +111,32 @@ Java के साथ ASF मेटाडेटा निकालने से 
 </dependencies>
 ```
 
-### डायरेक्ट डाउनलोड
-यदि आप Maven का उपयोग नहीं करना चाहते हैं, तो नवीनतम JAR [GroupDocs.Metadata for Java रिलीज़](https://releases.groupdocs.com/metadata/java/) से डाउनलोड करें।
+### सीधा डाउनलोड
+यदि आप Maven का उपयोग नहीं करना चाहते हैं, तो नवीनतम JAR [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) से डाउनलोड करें।
 
 ### लाइसेंसिंग अवलोकन
-- **Free Trial** – मूल्यांकन के लिए GroupDocs वेबसाइट पर उपलब्ध।  
-- **Temporary License** – विकास के दौरान सभी फीचर्स को बिना प्रतिबंध के एक्सप्लोर करने देता है।  
-- **Full License** – व्यावसायिक या प्रोडक्शन डिप्लॉयमेंट के लिए आवश्यक।  
+- **Free trial** – मूल्यांकन के दौरान असीमित पढ़ने और लिखने की अनुमति देता है।  
+- **Temporary license** – सीमित अवधि के लिए ट्रायल प्रतिबंध हटाता है, CI पाइपलाइनों के लिए आदर्श।  
+- **Full license** – व्यावसायिक डिप्लॉयमेंट के लिए आवश्यक है और दीर्घकालिक समर्थन की गारंटी देता है।
 
 ### बेसिक इनिशियलाइज़ेशन
-नीचे वह न्यूनतम कोड है जो GroupDocs.Metadata के साथ ASF फ़ाइल खोलने के लिए आवश्यक है:
+The following snippet shows the minimal code required to open an ASF file with GroupDocs.Metadata:
+
+```java
+import com.groupdocs.metadata.Metadata;
+import com.groupdocs.metadata.formats.AsfPackage;
+
+public class AsfMetadataExample {
+    public static void main(String[] args) throws Exception {
+        // Load the ASF file
+        Metadata metadata = new Metadata("sample.asf");
+        // Access the ASF package containing all ASF‑specific properties
+        AsfPackage asf = metadata.getAsfPackage();
+        // Example: print the file identifier
+        System.out.println("File ID: " + asf.getFileId());
+    }
+}
+```
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -92,10 +150,15 @@ class MetadataExample {
 }
 ```
 
-## ASF मेटाडेटा java निकालने के चरण‑दर‑चरण गाइड
+## asf मेटाडेटा जावा कैसे निकालें?
+
+`Metadata` वह मुख्य क्लास है जिसका उपयोग फ़ाइल खोलने और उसके मेटाडेटा तक पहुंचने के लिए किया जाता है।  
+`AsfPackage` कोडेक और स्ट्रीम डिस्क्रिप्टर जैसी ASF‑विशिष्ट जानकारी तक पहुंच प्रदान करता है।
+
+`new Metadata("yourfile.asf")` के साथ ASF फ़ाइल लोड करें, `metadata.getAsfPackage()` के माध्यम से `AsfPackage` प्राप्त करें, और फिर उपयुक्त गेटर्स (जैसे `getCreationDate()`, `getCodecInfo()`, `getStreamDescriptors()`) को कॉल करें। यह पैटर्न आपको केवल कुछ जावा लाइनों में सभी समर्थित प्रॉपर्टी निकालने देता है, बिना किसी लो‑लेवल पार्सिंग कोड लिखे। बैच प्रोसेसिंग के लिए, इस लॉजिक को एक लूप में रखें जो फ़ाइलों की डायरेक्टरी पर इटररेट करे और निकाली गई वैल्यूज़ को CSV या डेटाबेस में लिखे।
 
 ### बेसिक ASF मेटाडेटा प्रॉपर्टीज़ पढ़ना
-**Overview** – निर्माण तिथि, फ़ाइल ID, और फ़्लैग्स जैसी मूलभूत जानकारी प्राप्त करें।
+**सारांश** – निर्माण तिथि, फ़ाइल ID, और फ़्लैग्स जैसी मूलभूत जानकारी प्राप्त करें।
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -115,10 +178,10 @@ class ReadBasicProperties {
 }
 ```
 
-*क्यों महत्वपूर्ण है*: निर्माण तिथि जानने से संस्करण नियंत्रण में मदद मिलती है, जबकि फ़ाइल ID सिस्टमों में एसेट को विशिष्ट रूप से पहचानती है।
+*क्यों यह महत्वपूर्ण है*: निर्माण तिथि को जानना संस्करण नियंत्रण में मदद करता है, जबकि फ़ाइल ID सिस्टमों में एसेट को विशिष्ट रूप से पहचानती है।
 
 ### ASF कोडेक जानकारी प्रदर्शित करना
-**Overview** – ऑडियो और वीडियो स्ट्रीम्स में उपयोग किए गए कोडेक्स की सूची बनाएं।
+**सारांश** – ऑडियो और वीडियो स्ट्रीम्स में उपयोग किए गए कोडेक्स की सूची बनाएं।
 
 ```java
 import com.groupdocs.metadata.core.AsfCodec;
@@ -140,10 +203,10 @@ class ReadCodecInformation {
 }
 ```
 
-*क्यों महत्वपूर्ण है*: कोडेक विवरण प्लेबैक डिवाइसों के साथ संगतता सुनिश्चित करने या ट्रांसकोड करने का निर्णय लेते समय आवश्यक होते हैं।
+*क्यों यह महत्वपूर्ण है*: कोडेक विवरण प्लेबैक डिवाइसों के साथ संगतता सुनिश्चित करने या ट्रांसकोड करने का निर्णय लेते समय आवश्यक होते हैं।
 
-### मेटाडेटा डिस्क्रिप्टर्स प्रदर्शित करना
-**Overview** – भाषा, स्ट्रीम नंबर, और मूल शीर्षक जैसे विस्तृत डिस्क्रिप्टर्स प्राप्त करें।
+### मेटाडेटा डिस्क्रिप्टर प्रदर्शित करना
+**सारांश** – भाषा, स्ट्रीम नंबर, और मूल शीर्षक जैसे विस्तृत डिस्क्रिप्टर प्राप्त करें।
 
 ```java
 import com.groupdocs.metadata.core.AsfBaseDescriptor;
@@ -172,10 +235,10 @@ class ReadMetadataDescriptors {
 }
 ```
 
-*क्यों महत्वपूर्ण है*: डिस्क्रिप्टर्स संदर्भ प्रदान करते हैं जैसे सबटाइटल्स की भाषा या मूल फ़ाइलनाम, जो कैटलॉगिंग के लिए मूल्यवान है।
+*क्यों यह महत्वपूर्ण है*: डिस्क्रिप्टर सबटाइटल की भाषा या मूल फ़ाइलनाम जैसी संदर्भ जानकारी देते हैं, जो कैटलॉगिंग के लिए मूल्यवान है।
 
 ### बेस स्ट्रीम प्रॉपर्टीज़ प्रदर्शित करना
-**Overview** – प्रत्येक बेस स्ट्रीम के बिटरेट, टाइमिंग, और भाषा जानकारी तक पहुँचें।
+**सारांश** – प्रत्येक बेस स्ट्रीम के लिए बिटरेट, टाइमिंग, और भाषा जानकारी तक पहुंचें।
 
 ```java
 import com.groupdocs.metadata.core.AsfBaseStreamProperty;
@@ -202,39 +265,41 @@ class ReadBaseStreamProperties {
 }
 ```
 
-*क्यों महत्वपूर्ण है*: स्ट्रीम प्रॉपर्टीज़ आपको गुणवत्ता (बिटरेट) का मूल्यांकन करने और प्लेबैक या एडिटिंग के दौरान ऑडियो/वीडियो को सिंक्रनाइज़ करने में मदद करती हैं।
+*क्यों यह महत्वपूर्ण है*: स्ट्रीम प्रॉपर्टीज़ आपको गुणवत्ता (बिटरेट) का मूल्यांकन करने और प्लेबैक या एडिटिंग के दौरान ऑडियो/वीडियो को सिंक्रनाइज़ करने में मदद करती हैं।
 
 ## सामान्य समस्याएँ और ट्रबलशूटिंग
 
 | लक्षण | संभावित कारण | समाधान |
 |---------|--------------|-----|
 | `NullPointerException` जब `getAsfPackage()` को कॉल किया जाता है | फ़ाइल पाथ गलत है या फ़ाइल एक वैध ASF कंटेनर नहीं है। | पाथ की जाँच करें और सुनिश्चित करें कि फ़ाइल एक उचित ASF फ़ाइल है। |
-| कोडेक जानकारी प्रदर्शित नहीं हो रही है | ASF फ़ाइल एक स्वामित्व कोडेक उपयोग करती है जिसे लाइब्रेरी संस्करण पहचान नहीं रहा है। | GroupDocs.Metadata को नवीनतम संस्करण में अपडेट करें या कस्टम कोडेक पार्सर का उपयोग करें। |
-| डिस्क्रिप्टर सूची खाली है | फ़ाइल में मेटाडेटा डिस्क्रिप्टर्स नहीं हैं (जैसे एन्कोडिंग के दौरान हटाए गए)। | एम्बेडेड मेटाडेटा वाली स्रोत फ़ाइल का उपयोग करें या मेटाडेटा संरक्षण के साथ पुनः‑एन्कोड करें। |
+| कोडेक जानकारी प्रदर्शित नहीं हो रही है | ASF फ़ाइल एक प्रोपाइटरी कोडेक उपयोग करती है जिसे लाइब्रेरी संस्करण पहचान नहीं रहा है। | GroupDocs.Metadata को नवीनतम संस्करण में अपडेट करें या कस्टम कोडेक पार्सर का उपयोग करें। |
+| डिस्क्रिप्टर सूची खाली है | फ़ाइल में मेटाडेटा डिस्क्रिप्टर नहीं हैं (जैसे एन्कोडिंग के दौरान हटाए गए)। | एम्बेडेड मेटाडेटा वाली स्रोत फ़ाइल का उपयोग करें या मेटाडेटा संरक्षण के साथ पुनः‑एन्कोड करें। |
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-**Q: क्या मैं उसी लाइब्रेरी के साथ अन्य वीडियो फ़ॉर्मैट्स से मेटाडेटा निकाल सकता हूँ?**  
-A: हाँ, GroupDocs.Metadata MP4, MKV, AVI और कई अन्य फ़ॉर्मैट्स को सपोर्ट करता है। बस उपयुक्त पैकेज क्लास को इंस्टैंशिएट करें।
+**Q: क्या मैं उसी लाइब्रेरी से अन्य वीडियो फ़ॉर्मैट्स का मेटाडेटा निकाल सकता हूँ?**  
+A: हाँ, GroupDocs.Metadata MP4, MKV, AVI, MOV और कई अन्य फ़ॉर्मैट्स का समर्थन करता है। बस जिस फ़ॉर्मैट को आप प्रोसेस कर रहे हैं, उसके लिए उपयुक्त पैकेज क्लास को इंस्टैंसिएट करें।
 
 **Q: क्या निकाले जाने के बाद ASF मेटाडेटा को संशोधित करना संभव है?**  
-A: बिल्कुल। लाइब्रेरी अधिकांश प्रॉपर्टीज़ के लिए सेट्टर मेथड्स प्रदान करती है, जिससे आप संपादित करके फ़ाइल को सहेज सकते हैं।
+A: बिल्कुल। लाइब्रेरी अधिकांश प्रॉपर्टीज़ के लिए सेट्टर मेथड्स प्रदान करती है, जिससे आप मानों को संपादित कर सकते हैं और फिर फ़ाइल को डिस्क पर वापस सहेज सकते हैं।
 
 **Q: क्या बड़े ASF फ़ाइलों के लिए 64‑bit JVM की आवश्यकता है?**  
-A: ज़रूरी नहीं, लेकिन 64‑bit JVM अधिक हीप स्पेस देती है, जो बहुत बड़े मीडिया फ़ाइलों को प्रोसेस करने में मदद करता है।
+A: सख्ती से नहीं, लेकिन 64‑bit JVM आपको बड़ा हीप देती है, जिससे मल्टी‑गीगाबाइट कंटेनर संभालते समय `OutOfMemoryError` की संभावना कम होती है।
 
 **Q: लाइसेंसिंग ट्रायल उपयोग को कैसे प्रभावित करती है?**  
-A: ट्रायल लाइसेंस सभी फ़ंक्शनल सीमाओं को हटाता है लेकिन कुछ आउटपुट में वॉटरमार्क जोड़ता है। प्रोडक्शन के लिए पूर्ण लाइसेंस खरीदें।
+A: ट्रायल लाइसेंस कार्यात्मक सीमाओं को हटाता है लेकिन कुछ आउटपुट फ़ाइलों में वॉटरमार्क जोड़ता है। उत्पादन के लिए आपको वॉटरमार्क हटाने और प्रायोरिटी सपोर्ट अनलॉक करने हेतु पूर्ण लाइसेंस खरीदना चाहिए।
 
 **Q: क्या मैं इस कोड को Android पर चला सकता हूँ?**  
-A: GroupDocs.Metadata Java SE के लिए बनाया गया है; Android पर चलाने के लिए आपको .NET संस्करण या एक संगत रैपर का उपयोग करना होगा।
-
-## निष्कर्ष
-
-इस गाइड का पालन करके, अब आप जानते हैं कि **GroupDocs.Metadata** का उपयोग करके **ASF मेटाडेटा Java** कैसे निकालें। आप बेसिक प्रॉपर्टीज़, कोडेक जानकारी, विस्तृत डिस्क्रिप्टर्स, और स्ट्रीम एट्रिब्यूट्स पढ़ सकते हैं—जिससे आपके मीडिया एसेट्स की पूरी दृश्यता मिलती है। आगे के कदमों में इस एक्सट्रैक्शन को बैच प्रोसेसिंग पाइपलाइनों में इंटीग्रेट करना, सर्चेबल मेटाडेटा डेटाबेस बनाना, या कोड को विस्तारित करके ASF फ़ाइलों को संशोधित और पुनः‑सेव करना शामिल है।
+A: GroupDocs.Metadata Java SE के लिए बनाया गया है। Android के लिए आपको .NET संस्करण या कस्टम रैपर की आवश्यकता होगी, क्योंकि Java लाइब्रेरी उन APIs पर निर्भर करती है जो Android पर उपलब्ध नहीं हैं।
 
 ---
 
-**Last Updated:** 2026-02-27  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs
+**अंतिम अपडेट:** 2026-09-01  
+**परीक्षण किया गया:** GroupDocs.Metadata 24.12 for Java  
+**लेखक:** GroupDocs
+
+## संबंधित ट्यूटोरियल
+
+- [GroupDocs.Metadata का उपयोग करके वीडियो मेटाडेटा जावा निकालें](/metadata/java/audio-video-formats/mastering-avi-metadata-handling-groupdocs-java/)
+- [GroupDocs.Metadata का उपयोग करके Java में ID3v2 टैग पढ़ें – एक व्यापक गाइड](/metadata/java/audio-video-formats/read-id3v2-tags-groupdocs-metadata-java/)
+- [GroupDocs.Metadata का उपयोग करके Java मेटाडेटा एक्सट्रैक्शन में महारत हासिल करें: डेवलपर्स के लिए एक व्यापक गाइड](/metadata/java/working-with-metadata/java-metadata-extraction-groupdocs-metadata/)

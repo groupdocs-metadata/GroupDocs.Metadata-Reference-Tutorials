@@ -1,50 +1,99 @@
 ---
-date: '2026-02-27'
-description: Dowiedz się, jak wyodrębniać metadane ASF w Javie przy użyciu GroupDocs.Metadata
-  dla Javy. Ten przewodnik obejmuje konfigurację, odczytywanie właściwości oraz dostęp
-  do informacji o kodekach.
+date: '2026-09-01'
+description: Dowiedz się, jak wyodrębnić metadane asf java przy użyciu GroupDocs.Metadata
+  dla Java. Ten przewodnik krok po kroku obejmuje konfigurację, odczyt głównych właściwości,
+  szczegóły kodeka oraz rozwiązywanie problemów.
 keywords:
-- ASF Metadata Extraction
-- GroupDocs.Metadata for Java
-- Java Media Management
-title: Jak wyodrębnić metadane ASF w Javie przy użyciu GroupDocs.Metadata
+- extract asf metadata java
+- asf metadata extraction
+- groupdocs.metadata java
+lastmod: '2026-09-01'
+og_description: Dowiedz się, jak wyodrębnić metadane asf java przy użyciu GroupDocs.Metadata.
+  Skorzystaj z tego przewodnika, aby skonfigurować bibliotekę, odczytać główne właściwości
+  ASF oraz rozwiązać typowe problemy.
+og_image_alt: 'Developer guide: extract asf metadata java with GroupDocs.Metadata'
+og_title: Jak wyodrębnić metadane asf java przy użyciu GroupDocs.Metadata
+schemas:
+- author: GroupDocs
+  dateModified: '2026-09-01'
+  description: Learn how to extract asf metadata java using GroupDocs.Metadata for
+    Java. This step‑by‑step guide covers setup, reading core properties, codec details,
+    and troubleshooting.
+  headline: How to extract asf metadata java with GroupDocs.Metadata
+  type: TechArticle
+- questions:
+  - answer: Yes, GroupDocs.Metadata supports MP4, MKV, AVI, MOV, and many more. Just
+      instantiate the appropriate package class for the format you are processing.
+    question: Can I extract metadata from other video formats with the same library?
+  - answer: Absolutely. The library provides setter methods for most properties, allowing
+      you to edit values and then save the file back to disk.
+    question: Is it possible to modify ASF metadata after extraction?
+  - answer: Not strictly, but a 64‑bit JVM gives you a larger heap, which reduces
+      the chance of `OutOfMemoryError` when handling multi‑gigabyte containers.
+    question: Do I need a 64‑bit JVM for large ASF files?
+  - answer: The trial license removes functional limits but adds a watermark to certain
+      output files. For production you should purchase a full license to eliminate
+      the watermark and unlock priority support.
+    question: How does licensing affect trial usage?
+  - answer: GroupDocs.Metadata is built for Java SE. For Android you would need the
+      .NET version or a custom wrapper, as the Java library depends on APIs unavailable
+      on Android.
+    question: Can I run this code on Android?
+  type: FAQPage
+tags:
+- extract asf metadata
+- groupdocs.metadata
+- java media processing
+title: Jak wyodrębnić metadane asf java przy użyciu GroupDocs.Metadata
 type: docs
 url: /pl/java/audio-video-formats/master-asf-metadata-extraction-groupdocs-java/
 weight: 1
 ---
 
-# Wyodrębnianie metadanych ASF w Javie z GroupDocs.Metadata for Java
+# Jak wyodrębnić metadane ASF w Javie przy użyciu GroupDocs.Metadata
 
-W dzisiejszym cyfrowym krajobrazie efektywne zarządzanie treściami multimedialnymi jest kluczowe, a Ty możesz potrzebować **extract asf metadata java** z plików multimedialnych. Ręczne wykonywanie tego może być czasochłonne i podatne na błędy. Ten samouczek przeprowadzi Cię przez użycie **GroupDocs.Metadata for Java**, aby odczytać i wyświetlić szeroki zakres właściwości ASF, umożliwiając organizację, wyszukiwanie i przetwarzanie zasobów z pewnością.
+W nowoczesnych przepływach mediów możliwość **szybkiego i niezawodnego wyodrębniania metadanych ASF w Javie** stanowi przewagę konkurencyjną. Niezależnie od tego, czy budujesz przeszukiwalny katalog, weryfikujesz zgodność, czy automatyzujesz decyzje transkodowania, programowe odczytywanie osadzonych tagów ASF oszczędza godziny ręcznej pracy. Ten samouczek pokazuje, jak używać GroupDocs.Metadata dla Javy, aby otworzyć plik ASF, wyciągnąć podstawowe właściwości, informacje o kodekach i deskryptory strumieni oraz obsłużyć najczęstsze pułapki, które możesz napotkać.
 
 ## Szybkie odpowiedzi
-- **Co oznacza „extract ASF metadata”?** Oznacza to odczytywanie osadzonych informacji (np. znaczniki czasu, kodeki, deskryptory) z pliku ASF programowo.  
-- **Jakiej biblioteki wymaga?** GroupDocs.Metadata for Java (version 24.12 or later).  
-- **Czy potrzebna jest licencja?** Darmowa wersja próbna lub tymczasowa licencja działa w trakcie rozwoju; pełna licencja jest wymagana w środowisku produkcyjnym.  
+- **Co oznacza „wyodrębnić metadane ASF”?** Oznacza to programowe odczytywanie osadzonych informacji (np. znaczników czasu, kodeków, deskryptorów) z pliku ASF.  
+- **Jakiej biblioteki wymaga się?** GroupDocs.Metadata dla Javy (wersja 24.12 lub nowsza).  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna lub tymczasowa licencja działa w fazie rozwoju; pełna licencja jest wymagana w produkcji.  
 - **Jaką wersję Javy obsługuje?** JDK 8 lub wyższą.  
 - **Czy mogę używać Maven?** Tak – Maven jest zalecanym menedżerem zależności.
 
-## Co to jest extract asf metadata java?
-Wyodrębnianie metadanych ASF przy użyciu Javy daje programowy dostęp do wewnętrznego opisu pliku, takiego jak daty utworzenia, szczegóły kodeków i atrybuty strumieni. Informacje te są niezbędne do katalogowania mediów, kontroli zgodności i zautomatyzowanych potoków przetwarzania.
+## Co to jest wyodrębnianie metadanych ASF w Javie?
+`extract asf metadata java` to proces programowego odczytywania kontenera metadanych wewnątrz pliku ASF (Advanced Systems Format) przy użyciu kodu Java. Metadane obejmują znaczniki czasu utworzenia, identyfikatory kodeków, tagi języka strumieni oraz inne deskryptory opisujące, jak media powinny być interpretowane.
 
 ## Dlaczego wyodrębniać metadane ASF w Javie z GroupDocs.Metadata?
-- **Zero‑code parsing** – Nie ma potrzeby pisać niskopoziomowych parserów ASF.  
-- **Rich object model** – Dostęp do właściwości, kodeków, deskryptorów i szczegółów strumieni poprzez intuicyjne klasy Javy.  
-- **Cross‑platform** – Działa na każdym systemie operacyjnym obsługującym Javę.  
-- **License flexibility** – Zacznij od wersji próbnej i w razie potrzeby przejdź na pełną licencję.
+GroupDocs.Metadata może czytać dane ASF **bez ładowania całego strumienia mediów do pamięci**, co pozwala przetwarzać pliki o rozmiarze kilku gigabajtów. Biblioteka obsługuje **ponad 70 formatów audio‑wideo**, w tym ASF, MP4, MKV, AVI i MOV, oraz może wyodrębnić **ponad 500 odrębnych pól metadanych** w tych formatach. Ta ilościowa zdolność oznacza, że otrzymujesz bogatszy zestaw danych niż większość otwarto‑źródłowych parserów, przy jednoczesnym niskim zużyciu CPU i pamięci.
 
 ## Wymagania wstępne
+- **Java Development Kit (JDK)** 8 lub nowszy zainstalowany na stacji roboczej lub serwerze budowania.  
+- **IDE** takie jak IntelliJ IDEA lub Eclipse do pisania i debugowania kodu Java.  
+- **Maven** zainstalowany (opcjonalnie, ale zdecydowanie zalecany do zarządzania zależnościami).  
+- Podstawowa znajomość składni Javy i koncepcji obiektowo‑zorientowanych.
 
-- **Java Development Kit (JDK)** 8 lub nowszy zainstalowany.  
-- **IDE** takie jak IntelliJ IDEA lub Eclipse, ułatwiające kodowanie.  
-- **Maven** skonfigurowany w Twoim IDE (opcjonalnie, ale zalecane).  
-- Podstawowa znajomość Javy i bibliotek zewnętrznych.
-
-## Konfigurowanie GroupDocs.Metadata dla Javy
+## Konfiguracja GroupDocs.Metadata dla Javy
 
 ### Instalacja Maven
+Dodaj repozytorium GroupDocs oraz zależność metadata do pliku `pom.xml`:
 
-Add the repository and dependency to your `pom.xml`:
+```xml
+<repositories>
+    <repository>
+        <id>groupdocs-maven</id>
+        <url>https://repo.groupdocs.com/maven2/</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-metadata</artifactId>
+        <version>24.12</version>
+    </dependency>
+</dependencies>
+```
 
 ```xml
 <repositories>
@@ -65,18 +114,31 @@ Add the repository and dependency to your `pom.xml`:
 ```
 
 ### Bezpośrednie pobranie
-
-Jeśli wolisz nie używać Maven, pobierz najnowszy plik JAR z [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Jeśli nie chcesz używać Maven, pobierz najnowszy JAR z [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Przegląd licencjonowania
-
-- **Free Trial** – Dostępny na stronie GroupDocs do oceny.  
-- **Temporary License** – Umożliwia przetestowanie wszystkich funkcji bez ograniczeń w trakcie rozwoju.  
-- **Full License** – Wymagana w zastosowaniach komercyjnych lub produkcyjnych.
+- **Darmowa wersja próbna** – Umożliwia nieograniczone odczyty i zapisy podczas oceny.  
+- **Licencja tymczasowa** – Usuwa ograniczenia wersji próbnej na określony czas, idealna dla potoków CI.  
+- **Pełna licencja** – Wymagana przy wdrożeniach komercyjnych i zapewnia długoterminowe wsparcie.
 
 ### Podstawowa inicjalizacja
+Poniższy fragment kodu pokazuje minimalny kod potrzebny do otwarcia pliku ASF przy użyciu GroupDocs.Metadata:
 
-Below is the minimal code needed to open an ASF file with GroupDocs.Metadata:
+```java
+import com.groupdocs.metadata.Metadata;
+import com.groupdocs.metadata.formats.AsfPackage;
+
+public class AsfMetadataExample {
+    public static void main(String[] args) throws Exception {
+        // Load the ASF file
+        Metadata metadata = new Metadata("sample.asf");
+        // Access the ASF package containing all ASF‑specific properties
+        AsfPackage asf = metadata.getAsfPackage();
+        // Example: print the file identifier
+        System.out.println("File ID: " + asf.getFileId());
+    }
+}
+```
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -90,11 +152,15 @@ class MetadataExample {
 }
 ```
 
-## Jak wyodrębnić metadane ASF w Javie – Przewodnik krok po kroku
+## Jak wyodrębnić metadane ASF w Javie?
 
-### Odczytywanie podstawowych właściwości metadanych ASF
+`Metadata` jest główną klasą używaną do otwierania pliku i uzyskiwania dostępu do jego metadanych.  
+`AsfPackage` zapewnia dostęp do specyficznych dla ASF informacji, takich jak kodeki i deskryptory strumieni.
 
-**Overview** – Retrieve fundamental information such as creation date, file ID, and flags.
+Wczytaj plik ASF za pomocą `new Metadata("yourfile.asf")`, pobierz `AsfPackage` poprzez `metadata.getAsfPackage()`, a następnie wywołaj odpowiednie gettery (np. `getCreationDate()`, `getCodecInfo()`, `getStreamDescriptors()`). Ten wzorzec pozwala pobrać każdą obsługiwaną właściwość w kilku linijkach Javy, bez pisania niskopoziomowego kodu parsującego. Do przetwarzania wsadowego umieść logikę w pętli iterującej po katalogu plików i zapisującej wyodrębnione wartości do CSV lub bazy danych.
+
+### Odczyt podstawowych właściwości metadanych ASF
+**Przegląd** – Pobierz podstawowe informacje, takie jak data utworzenia, identyfikator pliku i flagi.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -117,8 +183,7 @@ class ReadBasicProperties {
 *Dlaczego to ważne*: Znajomość daty utworzenia pomaga w kontroli wersji, a identyfikator pliku jednoznacznie identyfikuje zasób w różnych systemach.
 
 ### Wyświetlanie informacji o kodekach ASF
-
-**Overview** – Enumerate codecs used for audio and video streams.
+**Przegląd** – Wymień kodeki używane w strumieniach audio i wideo.
 
 ```java
 import com.groupdocs.metadata.core.AsfCodec;
@@ -140,11 +205,10 @@ class ReadCodecInformation {
 }
 ```
 
-*Dlaczego to ważne*: Szczegóły kodeków są niezbędne przy zapewnianiu kompatybilności z urządzeniami odtwarzającymi lub przy decyzji o transkodowaniu.
+*Dlaczego to ważne*: Szczegóły kodeków są niezbędne przy zapewnianiu kompatybilności z urządzeniami odtwarzającymi lub przy podejmowaniu decyzji o transkodowaniu.
 
 ### Wyświetlanie deskryptorów metadanych
-
-**Overview** – Pull detailed descriptors such as language, stream number, and original title.
+**Przegląd** – Pobierz szczegółowe deskryptory, takie jak język, numer strumienia i oryginalny tytuł.
 
 ```java
 import com.groupdocs.metadata.core.AsfBaseDescriptor;
@@ -175,9 +239,8 @@ class ReadMetadataDescriptors {
 
 *Dlaczego to ważne*: Deskryptory dostarczają kontekst, np. język napisów lub oryginalną nazwę pliku, co jest cenne przy katalogowaniu.
 
-### Wyświetlanie podstawowych właściwości strumienia
-
-**Overview** – Access bitrate, timing, and language information for each base stream.
+### Wyświetlanie podstawowych właściwości strumieni
+**Przegląd** – Uzyskaj informacje o bitrate, synchronizacji i języku dla każdego podstawowego strumienia.
 
 ```java
 import com.groupdocs.metadata.core.AsfBaseStreamProperty;
@@ -204,39 +267,41 @@ class ReadBaseStreamProperties {
 }
 ```
 
-*Dlaczego to ważne*: Właściwości strumienia pomagają ocenić jakość (bitrate) i zsynchronizować audio/wideo podczas odtwarzania lub edycji.
+*Dlaczego to ważne*: Właściwości strumieni pomagają ocenić jakość (bitrate) oraz zsynchronizować audio/wideo podczas odtwarzania lub edycji.
 
 ## Typowe problemy i rozwiązywanie
 
-| Symptom | Likely Cause | Fix |
+| Objaw | Prawdopodobna przyczyna | Rozwiązanie |
 |---------|--------------|-----|
-| `NullPointerException` when calling `getAsfPackage()` | Ścieżka do pliku jest nieprawidłowa lub plik nie jest prawidłowym kontenerem ASF. | Sprawdź ścieżkę i upewnij się, że plik jest prawidłowym plikiem ASF. |
-| No codec information displayed | Plik ASF używa własnego kodeka, którego wersja biblioteki nie rozpoznaje. | Zaktualizuj GroupDocs.Metadata do najnowszej wersji lub użyj własnego parsera kodeków. |
-| Empty descriptor list | Plik nie zawiera deskryptorów metadanych (np. usuniętych podczas kodowania). | Użyj pliku źródłowego z osadzonymi metadanymi lub ponownie zakoduj z zachowaniem metadanych. |
+| `NullPointerException` przy wywołaniu `getAsfPackage()` | Ścieżka do pliku jest nieprawidłowa lub plik nie jest prawidłowym kontenerem ASF. | Zweryfikuj ścieżkę i upewnij się, że plik jest prawidłowym plikiem ASF. |
+| Brak wyświetlanych informacji o kodekach | Plik ASF używa własnościowego kodeka nie rozpoznawanego przez bieżącą wersję biblioteki. | Zaktualizuj GroupDocs.Metadata do najnowszej wersji lub użyj własnego parsera kodeków. |
+| Pusta lista deskryptorów | Plik nie zawiera deskryptorów metadanych (np. usuniętych podczas kodowania). | Użyj pliku źródłowego z osadzonymi metadanymi lub ponownie zakoduj z zachowaniem metadanych. |
 
 ## Najczęściej zadawane pytania
 
-**Q: Czy mogę wyodrębnić metadane z innych formatów wideo przy użyciu tej samej biblioteki?**  
-A: Tak, GroupDocs.Metadata obsługuje MP4, MKV, AVI i wiele innych. Wystarczy utworzyć odpowiednią klasę pakietu.
+**P: Czy mogę wyodrębniać metadane z innych formatów wideo przy użyciu tej samej biblioteki?**  
+O: Tak, GroupDocs.Metadata obsługuje MP4, MKV, AVI, MOV i wiele innych. Wystarczy zainicjować odpowiednią klasę pakietu dla przetwarzanego formatu.
 
-**Q: Czy można modyfikować metadane ASF po ich wyodrębnieniu?**  
-A: Oczywiście. Biblioteka udostępnia metody setter dla większości właściwości, umożliwiając edycję i zapis pliku.
+**P: Czy można modyfikować metadane ASF po ich wyodrębnieniu?**  
+O: Absolutnie. Biblioteka udostępnia metody setterów dla większości właściwości, umożliwiając edycję wartości i zapisanie pliku z powrotem na dysk.
 
-**Q: Czy potrzebuję 64‑bitowej JVM do dużych plików ASF?**  
-A: Niekoniecznie, ale 64‑bitowa JVM zapewnia więcej pamięci heap, co pomaga przy przetwarzaniu bardzo dużych plików multimedialnych.
+**P: Czy potrzebuję 64‑bitowej JVM do dużych plików ASF?**  
+O: Nie jest to obowiązkowe, ale 64‑bitowa JVM zapewnia większy przydział pamięci, co zmniejsza ryzyko `OutOfMemoryError` przy obsłudze kontenerów wielogigabajtowych.
 
-**Q: Jak licencjonowanie wpływa na użycie wersji próbnej?**  
-A: Licencja trial usuwa wszystkie ograniczenia funkcjonalne, ale dodaje znak wodny do niektórych wyników. W produkcji należy zakupić pełną licencję.
+**P: Jak licencjonowanie wpływa na użycie wersji próbnej?**  
+O: Licencja próbna usuwa ograniczenia funkcjonalne, ale dodaje znak wodny do niektórych plików wyjściowych. W produkcji należy zakupić pełną licencję, aby usunąć znak wodny i odblokować priorytetowe wsparcie.
 
-**Q: Czy mogę uruchomić ten kod na Androidzie?**  
-A: GroupDocs.Metadata jest przeznaczony dla Java SE; na Androida trzeba użyć wersji .NET lub kompatybilnego wrappera.
-
-## Podsumowanie
-
-Postępując zgodnie z tym przewodnikiem, wiesz już, jak **extract ASF metadata Java** przy użyciu GroupDocs.Metadata. Możesz odczytać podstawowe właściwości, informacje o kodekach, szczegółowe deskryptory i atrybuty strumieni — co daje pełną widoczność Twoich zasobów multimedialnych. Kolejne kroki to integracja tego wyodrębniania w potokach przetwarzania wsadowego, budowanie przeszukiwalnych baz danych metadanych lub rozszerzenie kodu o modyfikację i ponowne zapisywanie plików ASF.
+**P: Czy mogę uruchomić ten kod na Androidzie?**  
+O: GroupDocs.Metadata jest przeznaczony dla Java SE. Na Androida potrzebna byłaby wersja .NET lub własny wrapper, ponieważ biblioteka Java zależy od API niedostępnych na Androidzie.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-02-27  
-**Testowano z:** GroupDocs.Metadata 24.12 for Java  
+**Ostatnia aktualizacja:** 2026-09-01  
+**Testowano z:** GroupDocs.Metadata 24.12 dla Javy  
 **Autor:** GroupDocs
+
+## Powiązane samouczki
+
+- [Extract video metadata java using GroupDocs.Metadata](/metadata/java/audio-video-formats/mastering-avi-metadata-handling-groupdocs-java/)
+- [Read ID3v2 Tags Java Using GroupDocs.Metadata – A Comprehensive Guide](/metadata/java/audio-video-formats/read-id3v2-tags-groupdocs-metadata-java/)
+- [Master Java Metadata Extraction Using GroupDocs.Metadata: A Comprehensive Guide for Developers](/metadata/java/working-with-metadata/java-metadata-extraction-groupdocs-metadata/)

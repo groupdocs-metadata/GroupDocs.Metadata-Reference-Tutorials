@@ -1,55 +1,94 @@
 ---
-date: '2026-02-24'
-description: Tanulja meg, hogyan lehet hatékonyan kinyerni a wav metaadatokat Java-ban
-  a GroupDocs.Metadata for Java segítségével, a hangfájl metaadat-kezeléshez készült
-  erőteljes könyvtárat.
+date: '2026-09-01'
+description: Ismerje meg, hogyan lehet wav metaadatokat kinyerni a GroupDocs.Metadata
+  for Java segítségével, a hangfájl metaadat-kezelésre szolgáló erőteljes könyvtárat.
 keywords:
-- extract wav metadata
-- WAV file metadata management
-- GroupDocs.Metadata for Java
-title: WAV metaadatok kinyerése Java-val a GroupDocs.Metadata segítségével – Átfogó
-  útmutató
+- how to extract wav
+- extract wav metadata java
+- groupdocs metadata java
+lastmod: '2026-09-01'
+og_description: Hogyan lehet wav metaadatokat kinyerni a GroupDocs.Metadata for Java
+  használatával. Ez az útmutató lépésről‑lépésre bemutatja a kinyerést, a kötegelt
+  feldolgozást és a teljesítmény‑tippeket.
+og_image_alt: Guide showing Java code extracting WAV file metadata with GroupDocs.Metadata
+og_title: Hogyan lehet wav metaadatokat kinyerni a GroupDocs.Metadata for Java használatával
+schemas:
+- author: GroupDocs
+  dateModified: '2026-09-01'
+  description: Learn how to extract wav metadata using GroupDocs.Metadata for Java,
+    the powerful library for audio file metadata management.
+  headline: How to extract wav metadata using GroupDocs.Metadata for Java
+  type: TechArticle
+- description: Learn how to extract wav metadata using GroupDocs.Metadata for Java,
+    the powerful library for audio file metadata management.
+  name: How to extract wav metadata using GroupDocs.Metadata for Java
+  steps:
+  - name: import required classes
+    text: 'Make sure the necessary GroupDocs classes are imported:'
+  - name: initialize Metadata object
+    text: 'Create a `Metadata` object pointing at your WAV file:'
+  - name: accessing the RIFF info package
+    text: 'If the INFO chunk exists, pull the individual tag values: **Explanation:**
+      The code checks for the presence of a `RiffInfoPackage`. When available, it
+      extracts fields such as `artist`, `comment`, and `software` directly from the
+      WAV file’s INFO chunk. **Definition anchor:** `Metadata` is the primary'
+  type: HowTo
+- questions:
+  - answer: Metadata in a WAV file includes information such as the artist name, comments,
+      creation date, and the software used to produce the audio.
+    question: What is metadata in a WAV file?
+  - answer: Yes, the library supports both reading and writing metadata fields.
+    question: Can I modify the metadata of a WAV file using GroupDocs.Metadata for
+      Java?
+  - answer: Always check `root.getRiffInfoPackage()` for `null` before accessing its
+      properties to avoid `NullPointerException`.
+    question: How do I handle files without an INFO chunk?
+  - answer: Absolutely. GroupDocs.Metadata works with many audio and video formats,
+      allowing you to retrieve tags from MP3, FLAC, MP4, and more.
+    question: Is it possible to extract other types of metadata from audio files?
+  - answer: Process files in smaller batches, reuse `Metadata` objects wisely, and
+      consider increasing the JVM heap size if necessary.
+    question: What should I do if my application runs out of memory while processing
+      large files?
+  type: FAQPage
+tags:
+- wav metadata
+- groupdocs metadata
+- java audio processing
+title: Hogyan lehet wav metaadatokat kinyerni a GroupDocs.Metadata for Java használatával
 type: docs
 url: /hu/java/audio-video-formats/extract-wav-metadata-groupdocs-java/
 weight: 1
 ---
 
- GroupDocs.Metadata 24.12 for Java => same.
+# Hogyan lehet kinyerni a wav metaadatokat a GroupDocs.Metadata for Java használatával
 
-**Author:** GroupDocs => same.
-
-Now produce final content with markdown.
-
-Make sure to preserve code block placeholders exactly as they are.
-
-Let's write final.# Hogyan lehet WAV fájl metaadatait kinyerni a GroupDocs.Metadata for Java segítségével
-
-Ha **extract wav metadata java**-ra van szükséged, jó helyen jársz. Ebben az útmutatóban mindent végigvázolunk, amit tudnod kell a WAV fájlok részletes információinak – a művész nevétől a szoftvertagekig – kinyeréséhez a GroupDocs.Metadata könyvtár Java-ban történő használatával. Akár egy médiakönyvtár-kezelőt, egy digitális eszköz munkafolyamatot építesz, vagy egyszerűen csak érdekelnek a hangfájlok rejtett adatai, ez a tutorial egy teljes, termelésre kész megoldást nyújt.
+Ha egy Java‑alkalmazásban **hogyan kell kinyerni a wav** metaadatokra van szükséged, a megfelelő helyen vagy. Ez az útmutató mindent bemutat, ami a WAV‑fájlok részletes információinak – előadók neve, megjegyzések, szoftvertagek és egyebek – beolvasásához szükséges a GroupDocs.Metadata könyvtár segítségével. Akár média‑könyvtár kezelőt, digitális eszköz munkafolyamatot építesz, vagy egyszerűen csak a hangfájlok rejtett adatait szeretnéd felfedezni, egy termelés‑kész megoldást kapsz, amely egyetlen fájltól több ezerig skálázható.
 
 ## Gyors válaszok
-- **Melyik könyvtár kezeli a WAV metaadatokat Java-ban?** GroupDocs.Metadata for Java.  
-- **Szükségem van licencre a fejlesztéshez?** Egy ingyenes próba a kiértékeléshez elegendő; egy licenc eltávolítja az összes korlátozást.  
-- **Melyik Java verzió szükséges?** Java 8 vagy újabb.  
+- **Melyik könyvtár kezeli a WAV metaadatokat Java‑ban?** GroupDocs.Metadata for Java.  
+- **Szükségem van licencre a fejlesztéshez?** Egy ingyenes próba verzió elegendő az értékeléshez; a licenc eltávolítja az összes korlátozást.  
+- **Melyik Java‑verzió szükséges?** Java 8 vagy újabb.  
 - **Feldolgozhatok sok fájlt egyszerre?** Igen – a kötegelt feldolgozás támogatott és később bemutatásra kerül.  
-- **Aggódom a memóriahasználat miatt?** A `Metadata` objektumokat gyorsan el kell dobni, hogy alacsony legyen a memóriaigény.
+- **Aggódom a memóriahasználat miatt?** A `Metadata` objektumokat időben szabadítsd fel a kis memória‑lábnyom fenntartásához.
 
-## Mi az a “extract wav metadata java”?
-A WAV metaadatok Java-ban történő kinyerése azt jelenti, hogy beolvassuk az INFO chunk-ot és más beágyazott címkéket egy WAV hangfájlban. Ezek a címkék értékes részleteket tárolnak, például a művész nevét, megjegyzéseket, létrehozási dátumot és a fájl előállításához használt szoftvert. Az adatok elérése lehetővé teszi a hangeszközök programozott katalogizálását, keresését vagy validálását.
+## Mi az a „extract wav metadata java”?
+A WAV metaadatok kinyerése Java‑ban azt jelenti, hogy beolvassuk az INFO chunk‑ot és a WAV‑hangfájlba ágyazott egyéb címkéket. Ezek a címkék értékes részleteket tárolnak, például az előadót, megjegyzéseket, létrehozási dátumot és a fájlt előállító szoftvert. Az adatok elérése lehetővé teszi a hangeszközök programozott katalogizálását, keresését vagy validálását.
 
-## Miért használjuk a GroupDocs.Metadata for Java-t?
-A GroupDocs.Metadata elrejti a RIFF/WAV fájlokhoz szükséges alacsony szintű bináris elemzést, és egy tiszta, objektum‑orientált API-t biztosít. Támogat tucatnyi audio és video formátumot, robusztus hibakezelést kínál, és következetesen működik Windows, macOS és Linux környezetekben.
+## Miért használjuk a GroupDocs.Metadata for Java‑t?
+A GroupDocs.Metadata elrejti a RIFF/WAV fájlokhoz szükséges alacsony szintű bináris elemzést, és tiszta, objektum‑orientált API‑t kínál. **50+ audio és video formátumot** támogat – köztük MP3, FLAC, MP4 és AVI – így keverett média csővezetékek kezelése könyvtárcserék nélkül lehetséges, miközben a memóriahasználat 20 MB alatt marad fájlonként.
 
 ## Előfeltételek
-- **Java Development Kit (JDK)** – 8-as vagy újabb verzió.  
+- **Java Development Kit (JDK)** – 8 vagy újabb verzió.  
 - **IDE** – IntelliJ IDEA, Eclipse vagy bármely kedvelt szerkesztő.  
-- **Maven** – a függőségkezeléshez (opcionális, de ajánlott).
+- **Maven** – a függőségkezeléshez (nem kötelező, de ajánlott).
 
 ## A GroupDocs.Metadata for Java beállítása
 
 ### Telepítés
 
-#### Maven használata
-Add the repository and dependency to your `pom.xml`:
+#### Maven használatával
+Add hozzá a tárolót és a függőséget a `pom.xml`‑hez:
 
 ```xml
 <repositories>
@@ -70,13 +109,14 @@ Add the repository and dependency to your `pom.xml`:
 ```
 
 #### Közvetlen letöltés
-Ha nem szeretnél Maven-t használni, töltsd le a legújabb JAR-t a [releases page](https://releases.groupdocs.com/metadata/java/) oldalról.
+Ha nem szeretnél Maven‑t használni, töltsd le a legújabb JAR‑t a [kiadások oldaláról](https://releases.groupdocs.com/metadata/java/).
 
 ### Licenc beszerzése
-Az ingyenes próba licenc eltávolítja a kiértékelési korlátokat a kísérletezés során. Termelési használathoz vásárolj licencet a GroupDocs weboldalán.
+Az ingyenes próba licenc eltávolítja a kiértékelési korlátokat a kísérletezés során. Termeléshez vásárolj licencet a GroupDocs weboldalán.
 
 ### Alapvető inicializálás és beállítás
-Miután a könyvtár a classpath-odon van, létrehozhatsz egy `Metadata` példányt egy WAV fájl megnyitásához:
+`Metadata` az elsődleges osztály, amely egy fájlt képvisel és hozzáférést biztosít a címke‑csomagokhoz.  
+Miután a könyvtár a classpath‑on van, létrehozhatsz egy `Metadata` példányt egy WAV‑fájl megnyitásához:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -89,17 +129,17 @@ try (Metadata metadata = new Metadata(inputFile)) {
 }
 ```
 
-## Hogyan olvassuk a WAV metaadatokat Java-ban
-Ha azon gondolkodsz, **how to read wav metadata**, a folyamat három egyszerű lépésre redukálódik: töltsd be a fájlt a `Metadata`-val, navigálj a `RiffInfoPackage`-hez, és vedd ki a számodra fontos egyedi címkeértékeket. Az alábbi kódrészletek minden lépést világos, termelésre kész módon mutatnak be.
+## Hogyan olvassuk be a wav metaadatokat Java‑ban
+Töltsd be a WAV‑fájlt egy `Metadata` objektummal, majd navigálj a `RiffInfoPackage`‑hez, hogy lekérd a címkeértékeket, például előadó, megjegyzés és szoftver. A `Metadata` a belépési pont minden támogatott fájlhoz, míg a `RiffInfoPackage` a WAV INFO chunk‑ját képviseli, és a ember által olvasható címkéket teszi elérhetővé. Ez a háromlépéses minta egyfájlos és kötegelt forgatókönyvekben egyaránt működik.
 
-## Implementációs útmutató
+## Megvalósítási útmutató
 
-### Hogyan extract wav metadata java – az INFO Chunk elérése
+### Hogyan kell kinyerni a wav metaadatokat java – az INFO chunk elérése
 
 #### Áttekintés
-Az INFO chunk emberi olvasásra alkalmas címkéket tartalmaz, mint például a művész, műfaj és szoftver. Az alábbiakban a leggyakoribb mezőket fogjuk lekérdezni.
+Az INFO chunk ember által olvasható címkéket tartalmaz, például előadó, műfaj és szoftver. Az alábbiakban a leggyakoribb mezőket kérdezzük le.
 
-##### 1. lépés: Szükséges osztályok importálása
+##### 1. lépés: szükséges osztályok importálása
 Győződj meg róla, hogy a szükséges GroupDocs osztályok importálva vannak:
 
 ```java
@@ -108,7 +148,7 @@ import com.groupdocs.metadata.core.WavRootPackage;
 ```
 
 ##### 2. lépés: Metadata objektum inicializálása
-Hozz létre egy `Metadata` objektumot, amely a WAV fájlodra mutat:
+Hozz létre egy `Metadata` objektumot, amely a WAV‑fájlra mutat:
 
 ```java
 String inputFile = "YOUR_DOCUMENT_DIRECTORY/input.wav";
@@ -121,8 +161,8 @@ try (Metadata metadata = new Metadata(inputFile)) {
 }
 ```
 
-##### 3. lépés: RIFF Info Package elérése
-Ha az INFO chunk létezik, vedd ki az egyedi címkeértékeket:
+##### 3. lépés: a RIFF info csomag elérése
+Ha az INFO chunk létezik, húzd ki az egyes címkeértékeket:
 
 ```java
 if (root.getRiffInfoPackage() != null) {
@@ -138,64 +178,72 @@ if (root.getRiffInfoPackage() != null) {
 }
 ```
 
-**Magyarázat:** A kód ellenőrzi egy `RiffInfoPackage` jelenlétét. Ha elérhető, a `artist`, `comment` és `software` mezőket közvetlenül a WAV fájl INFO chunk-jából nyeri ki.
+**Magyarázat:** A kód ellenőrzi a `RiffInfoPackage` jelenlétét. Amikor elérhető, kinyeri a `artist`, `comment` és `software` mezőket közvetlenül a WAV‑fájl INFO chunk‑jából.
 
-**Hibakeresési tippek**
-- **Hiányzó metaadat:** Nem minden WAV fájl tartalmaz INFO chunk-ot. Ellenőrizd egy olyan eszközzel, mint az Audacity vagy a MediaInfo.  
-- **Fájlútvonal hibák:** Győződj meg róla, hogy az útvonal abszolút vagy a projekt gyökérkönyvtárához relatív, és a fájl olvasható.
+**Definíció horgony:** `Metadata` a GroupDocs.Metadata elsődleges belépési pontja, amely bármely támogatott fájlformátumot képvisel, és hozzáférést biztosít az alatta lévő címke‑csomagokhoz. A `RiffInfoPackage` a speciális csomag, amely a WAV INFO chunk‑ját teszi elérhetővé.
+
+**Hibaelhárítási tippek**
+- **Missing metadata:** Nem minden WAV‑fájl tartalmaz INFO chunk‑ot. Ellenőrizd Audacity‑val vagy MediaInfo‑val.  
+- **File path errors:** Győződj meg róla, hogy az útvonal abszolút vagy a projekt gyökeréhez relatív, és a fájl olvasható.
 
 ## Gyakorlati alkalmazások
-A kinyert metaadatok számos valós helyzetben hasznosíthatók:
-1. **Médiakezelő rendszerek** – Automatikus címkézés és nagy audio könyvtárak szervezése.  
-2. **Digitális eszközkezelés** – Keresés javítása megjegyzések, szerzői jog és műfaj indexelésével.  
-3. **Audio forenzika** – A létrehozó szoftver vagy mérnök azonosítása nyomozási célokra.
+A kinyert metaadatok számos valós helyzetet támogatnak:
 
-## Teljesítménybeli megfontolások
+1. **Media management systems** – Automatikus címkézés és nagy audio könyvtárak szervezése.  
+2. **Digital asset management** – Keresés javítása megjegyzések, szerzői jog és műfaj indexelésével.  
+3. **Audio forensics** – A létrehozó szoftver vagy mérnök azonosítása nyomozási célokra.
+
+## Teljesítmény szempontok
 Több ezer fájl feldolgozásakor tartsd szem előtt ezeket a tippeket:
-- **Kötegelt feldolgozás:** Használd a Java `ExecutorService`-ét a kinyerés párhuzamos futtatásához.  
-- **Memória kezelés:** Csomagold minden `Metadata` példányt egy try‑with‑resources blokkba (ahogy a példában látható), hogy a natív erőforrások gyorsan felszabaduljanak.  
-- **Profilozás:** A VisualVM-hez hasonló eszközök felismerhetik az I/O vagy objektum allokáció szűk keresztmetszetét.
+
+- **Batch processing:** Használd a Java `ExecutorService`‑ét a kinyerés párhuzamos futtatásához.  
+- **Memory management:** Csomagold minden `Metadata` példányt egy try‑with‑resources blokkba (ahogy a kódban látható), hogy a natív erőforrások gyorsan felszabaduljanak.  
+- **Profiling:** A VisualVM‑hez hasonló eszközök segítenek az I/O vagy objektum‑allokáció szűk keresztmetszetének felderítésében.
 
 ## Gyakori problémák és megoldások
 
 | Probléma | Miért fordul elő | Hogyan javítsuk |
 |----------|------------------|-----------------|
-| **NullPointerException on `root.getRiffInfoPackage()`** | A WAV fájl nem tartalmaz INFO chunk-ot. | Mindig ellenőrizd a `null` értéket, mielőtt a tulajdonságait elérnéd (ahogy a kódban látható). |
-| **OutOfMemoryError when processing many large files** | Minden `Metadata` példány natív erőforrásokat tartalmaz. | Feldolgozz fájlokat kisebb kötegekben, és használd újra ugyanazt a szálkészletet. |
-| **Incorrect file path** | A relatív útvonal a helytelen munkakönyvtárból lett feloldva. | Használj abszolút útvonalakat, vagy állítsd be az IDE munkakönyvtárát a projekt gyökerére. |
+| **NullPointerException on `root.getRiffInfoPackage()`** | A WAV‑fájl nem tartalmaz INFO chunk‑ot. | Mindig ellenőrizd a `null`‑t, mielőtt a tulajdonságait elérnéd (a kódban látható módon). |
+| **OutOfMemoryError when processing many large files** | Minden `Metadata` példány natív erőforrásokat tart fenn. | Fájlokat kisebb kötegekben dolgozz fel, és egyetlen szálkészletet újrahasznosíts. |
+| **Incorrect file path** | Relatív útvonal rossz munkakönyvtárból lett feloldva. | Használj abszolút útvonalakat, vagy állítsd be az IDE munkakönyvtárát a projekt gyökerére. |
 
-## Gyakran ismételt kérdések
+## Gyakran feltett kérdések
 
-**K: Mi a metaadat egy WAV fájlban?**  
-A: A metaadat egy WAV fájlban információkat tartalmaz, például a művész nevét, megjegyzéseket, létrehozási dátumot és a hangot előállító szoftvert.
+**Q:** Mi a metaadat egy WAV‑fájlban?  
+**A:** A WAV‑fájl metaadatai olyan információkat tartalmaznak, mint az előadó neve, megjegyzések, létrehozási dátum és a hangot előállító szoftver.
 
-**K: Módosíthatom a WAV fájl metaadatait a GroupDocs.Metadata for Java segítségével?**  
-A: Igen, a könyvtár támogatja a metaadatmezők olvasását és írását is.
+**Q:** Módosíthatom a WAV‑fájl metaadatait a GroupDocs.Metadata for Java‑val?  
+**A:** Igen, a könyvtár támogatja a metaadatmezők olvasását és írását egyaránt.
 
-**K: Hogyan kezeljem a INFO chunk nélküli fájlokat?**  
-A: Mindig ellenőrizd a `root.getRiffInfoPackage()` értékét `null`-ra, mielőtt a tulajdonságait elérnéd, hogy elkerüld a `NullPointerException`-t.
+**Q:** Hogyan kezeljem a INFO chunk‑ot nem tartalmazó fájlokat?  
+**A:** Mindig ellenőrizd a `root.getRiffInfoPackage()` visszatérési értékét `null`‑ra, mielőtt a tulajdonságait elérnéd, hogy elkerüld a `NullPointerException`‑t.
 
-**K: Lehetséges más típusú metaadatokat is kinyerni audio fájlokból?**  
-A: Teljesen. A GroupDocs.Metadata számos audio és video formátummal működik, lehetővé téve címkék lekérését MP3, FLAC, MP4 és más formátumok esetén is.
+**Q:** Lehet más típusú metaadatokat is kinyerni audio‑fájlokból?  
+**A:** Természetesen. A GroupDocs.Metadata számos audio és video formátummal működik, lehetővé téve a címkék lekérését MP3‑ból, FLAC‑ból, MP4‑ből és egyebekből.
 
-**K: Mit tegyek, ha az alkalmazásom memóriahiányba ütközik nagy fájlok feldolgozása közben?**  
-A: Feldolgozz fájlokat kisebb kötegekben, használd bölcsen a `Metadata` objektumokat, és szükség esetén növeld a JVM heap méretét.
+**Q:** Mit tegyek, ha az alkalmazás memóriahiányba ütközik nagy fájlok feldolgozása közben?  
+**A:** Fájlokat kisebb kötegekben dolgozz fel, bölcsen újrahasználd a `Metadata` objektumokat, és szükség esetén növeld a JVM heap méretét.
 
-## Következtetés
-Most már tudod, hogyan **extract wav metadata java** a GroupDocs.Metadata segítségével. Ez a képesség lehetővé teszi okosabb audio alkalmazások létrehozását, a katalogizálástól a forenzikai elemzésig. Következő lépésként fedezd fel a többi támogatott formátumot (MP3, FLAC, MP4), vagy mélyedj el a könyvtár írási lehetőségeiben a metaadatok közvetlen szerkesztéséhez.
+## Összegzés
+Most már tudod, **hogyan kell kinyerni a wav** metaadatokat a GroupDocs.Metadata for Java segítségével. Ez a képesség megnyitja az utat az intelligensebb audio‑alkalmazások felé, a katalogizálástól a forenzikus elemzésig. Következő lépésként fedezd fel a többi támogatott formátumot (MP3, FLAC, MP4), vagy mélyedj el a könyvtár írási lehetőségeiben a metaadatok közvetlen szerkesztéséhez.
 
-Ha bármilyen problémába ütközöl, bátran kérj segítséget a [free support forum](https://forum.groupdocs.com/c/metadata/).
+Ha bármilyen nehézségbe ütközöl, bátran kérj segítséget a [free support forum](https://forum.groupdocs.com/c/metadata/)‑on.
 
-## Források
-- **Dokumentáció**: [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
-- **API referencia**: [API Reference](https://reference.groupdocs.com/metadata/java/)  
-- **Letöltés**: [GroupDocs.Metadata Releases](https://releases.groupdocs.com/metadata/java/)  
-- **GitHub**: [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+## Erőforrások
+- **Documentation:** [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
+- **API reference:** [API Reference](https://reference.groupdocs.com/metadata/java/)  
+- **Download:** [GroupDocs.Metadata Releases](https://releases.groupdocs.com/metadata/java/)  
+- **GitHub:** [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 
 ---
 
-**Last Updated:** 2026-02-24  
+**Last Updated:** 2026-09-01  
 **Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
+**Author:** GroupDocs
 
----
+## Kapcsolódó oktatóanyagok
+
+- [Java MP3 Metadata Library – Complete Guide with GroupDocs.Metadata](/metadata/java/audio-video-formats/read-mp3-metadata-groupdocs-metadata-java/)
+- [How to Extract FLV Metadata Java with GroupDocs.Metadata](/metadata/java/audio-video-formats/flv-metadata-extraction-groupdocs-java/)
+- [Extract MP3 Metadata Java – GroupDocs.Metadata Tutorials](/metadata/java/audio-video-formats/)

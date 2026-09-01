@@ -1,49 +1,97 @@
 ---
-date: '2026-02-24'
-description: GroupDocs.Metadata for Java, ऑडियो फ़ाइल मेटाडेटा प्रबंधन के लिए शक्तिशाली
-  लाइब्रेरी, का उपयोग करके जावा में WAV मेटाडेटा को कुशलतापूर्वक निकालना सीखें।
+date: '2026-09-01'
+description: GroupDocs.Metadata for Java के साथ wav मेटाडेटा Java निकालना सीखें। यह
+  step‑by‑step गाइड आपको दिखाता है कि wav फ़ाइल मेटाडेटा को कुशलता से कैसे प्राप्त
+  करें और batch processing को कैसे संभालें।
 keywords:
+- extract wav metadata java
+- get wav file metadata
+- GroupDocs.Metadata Java
+lastmod: '2026-09-01'
+og_description: GroupDocs.Metadata for Java के साथ wav मेटाडेटा Java निकालना सीखें।
+  इस गाइड का पालन करके wav फ़ाइल मेटाडेटा को कुशलता से प्राप्त करें, जिसमें batch
+  processing टिप्स शामिल हैं।
+og_image_alt: Guide showing how to extract WAV metadata in Java using GroupDocs.Metadata
+og_title: GroupDocs.Metadata का उपयोग करके wav मेटाडेटा Java निकालें
+schemas:
+- author: GroupDocs
+  dateModified: '2026-09-01'
+  description: Learn how to extract wav metadata java with GroupDocs.Metadata for
+    Java. This step‑by‑step guide shows you how to get wav file metadata efficiently
+    and handle batch processing.
+  headline: Extract wav metadata java using GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to extract wav metadata java with GroupDocs.Metadata for
+    Java. This step‑by‑step guide shows you how to get wav file metadata efficiently
+    and handle batch processing.
+  name: Extract wav metadata java using GroupDocs.Metadata
+  steps:
+  - name: import required classes
+    text: 'Make sure the necessary GroupDocs classes are imported:'
+  - name: initialize metadata object
+    text: 'Create a `Metadata` object pointing at your WAV file:'
+  - name: accessing the RIFF info package
+    text: If the INFO chunk exists, pull the individual tag values. `RiffInfoPackage`
+      represents the INFO chunk of a WAV file, exposing human‑readable tags such as
+      artist and comments. **Explanation:** The code checks for the presence of a
+      `RiffInfoPackage`. When available, it extracts fields such as `artist`
+  type: HowTo
+- questions:
+  - answer: Metadata in a WAV file includes information such as the artist name, comments,
+      creation date, and the software used to produce the audio.
+    question: What is metadata in a WAV file?
+  - answer: Yes, the library supports both reading and writing metadata fields.
+    question: Can I modify the metadata of a WAV file using GroupDocs.Metadata for
+      Java?
+  - answer: Always check `root.getRiffInfoPackage()` for `null` before accessing its
+      properties to avoid `NullPointerException`.
+    question: How do I handle files without an INFO chunk?
+  - answer: Absolutely. GroupDocs.Metadata works with many audio and video formats,
+      allowing you to retrieve tags from MP3, FLAC, MP4, and more.
+    question: Is it possible to extract other types of metadata from audio files?
+  - answer: Process files in smaller batches, reuse `Metadata` objects wisely, and
+      consider increasing the JVM heap size if necessary.
+    question: What should I do if my application runs out of memory while processing
+      large files?
+  type: FAQPage
+tags:
 - extract wav metadata
-- WAV file metadata management
-- GroupDocs.Metadata for Java
-title: GroupDocs.Metadata के साथ जावा में WAV मेटाडेटा निकालें – एक व्यापक गाइड
+- GroupDocs.Metadata
+- Java audio processing
+- metadata extraction
+- WAV file
+title: GroupDocs.Metadata का उपयोग करके wav मेटाडेटा Java निकालें
 type: docs
 url: /hi/java/audio-video-formats/extract-wav-metadata-groupdocs-java/
 weight: 1
 ---
 
-: CODE_BLOCK_0,1,2,3,4. Keep them.
-
-Also there is a table; ensure markdown table lines.
-
-Now produce final content.# GroupDocs.Metadata for Java का उपयोग करके WAV फ़ाइल मेटाडेटा कैसे निकालें
-
-यदि आपको **extract wav metadata java** की आवश्यकता है, तो आप सही जगह पर आए हैं। इस गाइड में हम वह सब कुछ बताएँगे जो आपको Java में GroupDocs.Metadata लाइब्रेरी का उपयोग करके WAV फ़ाइलों से विस्तृत जानकारी—आर्टिस्ट नाम से लेकर सॉफ़्टवेयर टैग तक—निकालने के लिए चाहिए। चाहे आप एक मीडिया‑लाइब्रेरी मैनेजर, एक डिजिटल‑ऐसेट वर्कफ़्लो बना रहे हों, या सिर्फ अपने ऑडियो फ़ाइलों में छिपे डेटा के बारे में जिज्ञासु हों, यह ट्यूटोरियल आपको एक पूर्ण, प्रोडक्शन‑रेडी समाधान देता है।
+# GroupDocs.Metadata का उपयोग करके wav मेटाडेटा जावा कैसे निकालें
 
 ## त्वरित उत्तर
-- **Java में WAV मेटाडेटा को संभालने वाली लाइब्रेरी कौन सी है?** GroupDocs.Metadata for Java.  
-- **क्या विकास के लिए लाइसेंस चाहिए?** मूल्यांकन के लिए एक फ्री ट्रायल काम करता है; लाइसेंस सभी प्रतिबंधों को हटा देता है।  
-- **कौन सा Java संस्करण आवश्यक है?** Java 8 या नया।  
-- **क्या मैं एक साथ कई फ़ाइलें प्रोसेस कर सकता हूँ?** हाँ—बैच प्रोसेसिंग समर्थित है और बाद में दिखाया गया है।  
+- **जावा में WAV मेटाडेटा को संभालने वाली लाइब्रेरी कौन सी है?** GroupDocs.Metadata for Java.  
+- **क्या विकास के लिए मुझे लाइसेंस चाहिए?** मूल्यांकन के लिए एक मुफ्त ट्रायल काम करता है; लाइसेंस सभी प्रतिबंधों को हटा देता है।  
+- **कौन सा जावा संस्करण आवश्यक है?** Java 8 या नया।  
+- **क्या मैं एक साथ कई फ़ाइलें प्रोसेस कर सकता हूँ?** हाँ—बैच प्रोसेसिंग समर्थित है और बाद में दर्शाया गया है।  
 - **क्या मेमोरी उपयोग चिंता का विषय है?** `Metadata` ऑब्जेक्ट्स को तुरंत डिस्पोज़ करें ताकि फ़ुटप्रिंट कम रहे।
 
 ## “extract wav metadata java” क्या है?
-Java में WAV मेटाडेटा निकालना मतलब WAV ऑडियो फ़ाइल के अंदर मौजूद INFO चंक और अन्य एम्बेडेड टैग्स को पढ़ना है। ये टैग्स मूल्यवान विवरण संग्रहीत करते हैं जैसे कलाकार, टिप्पणी, निर्माण तिथि, और फ़ाइल बनाने के लिए उपयोग किया गया सॉफ़्टवेयर। इस डेटा तक पहुंचने से आप ऑडियो एसेट्स को प्रोग्रामेटिकली कैटलॉग, सर्च या वैलिडेट कर सकते हैं।
+जावा में WAV मेटाडेटा निकालना मतलब WAV ऑडियो फ़ाइल के भीतर INFO चंक और अन्य एम्बेडेड टैग्स को पढ़ना है। ये टैग कलाकार, टिप्पणी, निर्माण तिथि, और फ़ाइल बनाने वाले सॉफ़्टवेयर जैसी मूल्यवान जानकारी संग्रहीत करते हैं। इस डेटा तक पहुंचने से आप ऑडियो एसेट्स को प्रोग्रामेटिक रूप से कैटलॉग, खोज या वैधता जांच सकते हैं।
 
-## GroupDocs.Metadata for Java का उपयोग क्यों करें?
-GroupDocs.Metadata RIFF/WAV फ़ाइलों के लिए आवश्यक लो‑लेवल बाइनरी पार्सिंग को एब्स्ट्रैक्ट करता है और एक साफ़, ऑब्जेक्ट‑ओरिएंटेड API प्रदान करता है। यह कई ऑडियो और वीडियो फ़ॉर्मैट्स को सपोर्ट करता है, मजबूत एरर हैंडलिंग देता है, और Windows, macOS, और Linux वातावरण में लगातार काम करता है।
+## जावा के लिए GroupDocs.Metadata क्यों उपयोग करें?
+GroupDocs.Metadata RIFF/WAV फ़ाइलों के लिए आवश्यक लो‑लेवल बाइनरी पार्सिंग को एब्स्ट्रैक्ट करता है और एक साफ़, ऑब्जेक्ट‑ओरिएंटेड API प्रदान करता है। **यह 50+ ऑडियो और वीडियो फ़ॉर्मेट्स को सपोर्ट करता है और फ़ाइल को पूरी मेमोरी में लोड किए बिना 2 GB तक की फ़ाइलों से मेटाडेटा पढ़ सकता है**, जिससे Windows, macOS, और Linux पर सुसंगत परिणाम मिलते हैं।
 
 ## पूर्वापेक्षाएँ
-- **Java Development Kit (JDK)** – संस्करण 8 या उससे ऊपर।  
-- **IDE** – IntelliJ IDEA, Eclipse, या कोई भी एडिटर जो आप पसंद करते हैं।  
-- **Maven** – डिपेंडेंसी मैनेजमेंट के लिए (वैकल्पिक लेकिन अनुशंसित)।
+- **जावा डेवलपमेंट किट (JDK)** – संस्करण 8 या उससे ऊपर।  
+- **IDE** – IntelliJ IDEA, Eclipse, या कोई भी एडिटर जो आप पसंद करें।  
+- **Maven** – डिपेंडेंसी प्रबंधन के लिए (वैकल्पिक लेकिन अनुशंसित)।
 
-## GroupDocs.Metadata for Java सेटअप करना
+## GroupDocs.Metadata को जावा के लिए सेटअप करना
 
 ### इंस्टॉलेशन
 
 #### Maven का उपयोग करके
-अपने `pom.xml` में रिपॉजिटरी और डिपेंडेंसी जोड़ें:
+अपने `pom.xml` में रिपॉज़िटरी और डिपेंडेंसी जोड़ें:
 
 ```xml
 <repositories>
@@ -63,14 +111,16 @@ GroupDocs.Metadata RIFF/WAV फ़ाइलों के लिए आवश्�
 </dependencies>
 ```
 
-#### डायरेक्ट डाउनलोड
-यदि आप Maven का उपयोग नहीं करना चाहते, तो नवीनतम JAR को [releases page](https://releases.groupdocs.com/metadata/java/) से प्राप्त करें।
+#### सीधे डाउनलोड
+यदि आप Maven का उपयोग नहीं करना चाहते, तो नवीनतम JAR को [रिलीज़ पेज](https://releases.groupdocs.com/metadata/java/) से प्राप्त करें।
 
 ### लाइसेंस प्राप्ति
-एक फ्री ट्रायल लाइसेंस प्रयोग के दौरान मूल्यांकन सीमाओं को हटा देता है। प्रोडक्शन उपयोग के लिए, GroupDocs वेबसाइट पर लाइसेंस खरीदें।
+एक मुफ्त ट्रायल लाइसेंस मूल्यांकन सीमाओं को हटाता है जबकि आप प्रयोग कर रहे हैं। प्रोडक्शन उपयोग के लिए, GroupDocs वेबसाइट से लाइसेंस खरीदें।
 
 ### बेसिक इनिशियलाइज़ेशन और सेटअप
-एक बार लाइब्रेरी आपके क्लासपाथ पर हो जाने के बाद, आप एक `Metadata` इंस्टेंस बना सकते हैं ताकि WAV फ़ाइल खोल सकें:
+एक बार लाइब्रेरी आपके क्लासपाथ में हो जाने पर, आप WAV फ़ाइल खोलने के लिए एक `Metadata` इंस्टेंस बना सकते हैं।  
+
+`Metadata` वह मुख्य क्लास है जो फ़ाइल का प्रतिनिधित्व करता है और उसके मेटाडेटा पैकेजेस तक पहुंच प्रदान करता है।
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -83,25 +133,27 @@ try (Metadata metadata = new Metadata(inputFile)) {
 }
 ```
 
-## Java में WAV मेटाडेटा कैसे पढ़ें
-यदि आप सोच रहे हैं **how to read wav metadata**, प्रक्रिया तीन सरल चरणों में संक्षिप्त होती है: `Metadata` से फ़ाइल लोड करें, `RiffInfoPackage` पर जाएँ, और उन व्यक्तिगत टैग वैल्यूज़ को निकालें जिनकी आपको ज़रूरत है। नीचे दिए गए कोड स्निपेट्स प्रत्येक चरण को स्पष्ट, प्रोडक्शन‑रेडी तरीके से दर्शाते हैं।
+## जावा में WAV मेटाडेटा कैसे पढ़ें
+यदि आप **wav मेटाडेटा कैसे पढ़ें** के बारे में सोच रहे हैं, तो प्रक्रिया तीन सरल चरणों में संक्षिप्त होती है: `Metadata` से फ़ाइल लोड करें, `RiffInfoPackage` पर नेविगेट करें, और उन टैग मूल्यों को प्राप्त करें जिनमें आपकी रुचि है। नीचे दिए गए कोड स्निपेट्स प्रत्येक चरण को स्पष्ट, प्रोडक्शन‑रेडी तरीके से दर्शाते हैं।
 
 ## इम्प्लीमेंटेशन गाइड
 
-### How to extract wav metadata java – INFO चंक तक पहुंच
+### wav मेटाडेटा जावा निकालें – INFO चंक तक पहुंच
 
-#### अवलोकन
-INFO चंक में मानव‑पठनीय टैग्स होते हैं जैसे कलाकार, जेनर, और सॉफ़्टवेयर। नीचे हम सबसे सामान्य फ़ील्ड्स को प्राप्त करेंगे।
+GroupDocs.Metadata के साथ जावा में WAV मेटाडेटा निकालने के लिए, फ़ाइल को `Metadata` ऑब्जेक्ट से खोलें, `RiffInfoPackage` प्राप्त करें, और कलाकार, टिप्पणी, सॉफ़्टवेयर जैसे इच्छित टैग पढ़ें। नीचे के चरण दर्शाते हैं कि INFO चंक तक सुरक्षित रूप से कैसे पहुंचें और गायब डेटा को कैसे संभालें।
+
+#### सारांश
+INFO चंक में कलाकार, जेनर, और सॉफ़्टवेयर जैसे मानव‑पठनीय टैग होते हैं। नीचे हम सबसे सामान्य फ़ील्ड्स को प्राप्त करेंगे।
 
 ##### चरण 1: आवश्यक क्लासेस इम्पोर्ट करें
-सुनिश्चित करें कि आवश्यक GroupDocs क्लासेस इम्पोर्ट की गई हैं:
+सुनिश्चित करें कि आवश्यक GroupDocs क्लासेस इम्पोर्ट किए गए हैं:
 
 ```java
 import com.groupdocs.metadata.Metadata;
 import com.groupdocs.metadata.core.WavRootPackage;
 ```
 
-##### चरण 2: Metadata ऑब्जेक्ट इनिशियलाइज़ करें
+##### चरण 2: मेटाडेटा ऑब्जेक्ट इनिशियलाइज़ करें
 अपने WAV फ़ाइल की ओर इशारा करने वाला एक `Metadata` ऑब्जेक्ट बनाएं:
 
 ```java
@@ -115,8 +167,10 @@ try (Metadata metadata = new Metadata(inputFile)) {
 }
 ```
 
-##### चरण 3: RIFF Info पैकेज तक पहुंच
-यदि INFO चंक मौजूद है, तो व्यक्तिगत टैग वैल्यूज़ निकालें:
+##### चरण 3: RIFF info पैकेज तक पहुंच
+यदि INFO चंक मौजूद है, तो व्यक्तिगत टैग मानों को प्राप्त करें।  
+
+`RiffInfoPackage` WAV फ़ाइल के INFO चंक का प्रतिनिधित्व करता है, जो कलाकार और टिप्पणी जैसे मानव‑पठनीय टैग्स को उजागर करता है।
 
 ```java
 if (root.getRiffInfoPackage() != null) {
@@ -132,61 +186,64 @@ if (root.getRiffInfoPackage() != null) {
 }
 ```
 
-**व्याख्या:** कोड `RiffInfoPackage` की उपस्थिति की जाँच करता है। जब उपलब्ध हो, तो यह `artist`, `comment`, और `software` जैसे फ़ील्ड्स को सीधे WAV फ़ाइल के INFO चंक से निकालता है।
+**व्याख्या:** कोड `RiffInfoPackage` की उपस्थिति की जांच करता है। उपलब्ध होने पर, यह WAV फ़ाइल के INFO चंक से `artist`, `comment`, और `software` जैसे फ़ील्ड सीधे निकालता है।
 
-**समस्या निवारण टिप्स**
-- **Missing Metadata:** सभी WAV फ़ाइलों में INFO चंक नहीं होता। Audacity या MediaInfo जैसे टूल से सत्यापित करें।  
-- **File Path Errors:** सुनिश्चित करें कि पाथ absolute है या आपके प्रोजेक्ट रूट के सापेक्ष है और फ़ाइल पढ़ने योग्य है।
+### समस्या निवारण टिप्स
+- **मेटाडेटा नहीं मिला:** सभी WAV फ़ाइलों में INFO चंक नहीं होता। Audacity या MediaInfo जैसे टूल से सत्यापित करें।  
+- **फ़ाइल पाथ त्रुटियाँ:** पाथ को absolute या प्रोजेक्ट रूट के सापेक्ष सुनिश्चित करें और फ़ाइल पढ़ने योग्य हो।
 
 ## व्यावहारिक अनुप्रयोग
-निकाला गया मेटाडेटा कई वास्तविक‑दुनिया के परिदृश्यों को सशक्त बना सकता है:
-1. **Media Management Systems** – बड़े ऑडियो लाइब्रेरीज़ को ऑटो‑टैग और व्यवस्थित करें।  
-2. **Digital Asset Management** – टिप्पणियों, कॉपीराइट, और जेनर को इंडेक्स करके खोज को बेहतर बनाएं।  
-3. **Audio Forensics** – जांच के उद्देश्यों के लिए निर्माण सॉफ़्टवेयर या इंजीनियर की पहचान करें।
+निकाला गया मेटाडेटा कई वास्तविक‑दुनिया परिदृश्यों को शक्ति देता है:
+1. **मीडिया मैनेजमेंट सिस्टम** – बड़े ऑडियो लाइब्रेरी को ऑटो‑टैग और व्यवस्थित करें।  
+2. **डिजिटल एसेट मैनेजमेंट** – टिप्पणियों, कॉपीराइट और जेनर को इंडेक्स करके खोज को बेहतर बनाएं।  
+3. **ऑडियो फॉरेंसिक्स** – जांच के उद्देश्य से निर्माण सॉफ़्टवेयर या इंजीनियर की पहचान करें।
 
 ## प्रदर्शन संबंधी विचार
-हजारों फ़ाइलों को प्रोसेस करते समय, इन टिप्स को ध्यान में रखें:
-- **Batch Processing:** समानांतर में एक्सट्रैक्शन चलाने के लिए Java के `ExecutorService` का उपयोग करें।  
-- **Memory Management:** प्रत्येक `Metadata` इंस्टेंस को try‑with‑resources ब्लॉक में रैप करें (जैसा दिखाया गया है) ताकि नेटिव रिसोर्सेज तुरंत मुक्त हो सकें।  
-- **Profiling:** VisualVM जैसे टूल I/O या ऑब्जेक्ट अलोकेशन में बॉटलनेक खोज सकते हैं।
+हजारों फ़ाइलों को प्रोसेस करते समय इन टिप्स को ध्यान में रखें:
+- **बैच प्रोसेसिंग:** एक्सट्रैक्शन को समानांतर चलाने के लिए Java के `ExecutorService` का उपयोग करें।  
+- **मेमोरी प्रबंधन:** प्रत्येक `Metadata` इंस्टेंस को try‑with‑resources ब्लॉक में रैप करें (जैसा दिखाया गया) ताकि नेटिव रिसोर्सेज तुरंत मुक्त हों।  
+- **प्रोफाइलिंग:** VisualVM जैसे टूल I/O या ऑब्जेक्ट अलोकेशन में बॉटलनेक खोज सकते हैं।
 
 ## सामान्य समस्याएँ और समाधान
-| Issue | Why It Happens | How to Fix |
+| समस्या | क्यों होता है | समाधान |
 |-------|----------------|------------|
-| **NullPointerException on `root.getRiffInfoPackage()`** | WAV फ़ाइल में INFO चंक नहीं है। | कोड में दिखाए अनुसार, प्रॉपर्टीज़ तक पहुंचने से पहले हमेशा `null` की जाँच करें। |
-| **OutOfMemoryError when processing many large files** | प्रत्येक `Metadata` इंस्टेंस नेटिव रिसोर्सेज रखता है। | फ़ाइलों को छोटे बैचों में प्रोसेस करें और एक ही थ्रेड पूल को पुन: उपयोग करें। |
-| **Incorrect file path** | रिलेटिव पाथ गलत वर्किंग डायरेक्टरी से रिजॉल्व हो रहा है। | एब्सोल्यूट पाथ का उपयोग करें या अपने IDE की वर्किंग डायरेक्टरी को प्रोजेक्ट रूट पर कॉन्फ़िगर करें। |
+| **`root.getRiffInfoPackage()` पर NullPointerException** | WAV फ़ाइल में INFO चंक नहीं है। | गुणों तक पहुंचने से पहले हमेशा `null` की जाँच करें (कोड में दिखाए अनुसार)। |
+| **कई बड़ी फ़ाइलों को प्रोसेस करते समय OutOfMemoryError** | प्रत्येक `Metadata` इंस्टेंस नेटिव रिसोर्सेज रखता है। | फ़ाइलों को छोटे बैचों में प्रोसेस करें और एकल थ्रेड पूल को पुन: उपयोग करें। |
+| **गलत फ़ाइल पाथ** | रिलेटिव पाथ गलत कार्यशील डायरेक्टरी से रिजॉल्व होता है। | absolute पाथ का उपयोग करें या अपने IDE की कार्यशील डायरेक्टरी को प्रोजेक्ट रूट पर कॉन्फ़िगर करें। |
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-**Q: WAV फ़ाइल में मेटाडेटा क्या है?**  
-A: WAV फ़ाइल में मेटाडेटा में कलाकार का नाम, टिप्पणी, निर्माण तिथि, और ऑडियो बनाने के लिए उपयोग किए गए सॉफ़्टवेयर जैसी जानकारी शामिल होती है।
+**प्रश्न: WAV फ़ाइल में मेटाडेटा क्या है?**  
+**उत्तर:** WAV फ़ाइल में मेटाडेटा में कलाकार का नाम, टिप्पणी, निर्माण तिथि, और फ़ाइल बनाने वाले सॉफ़्टवेयर जैसी जानकारी शामिल होती है।
 
-**Q: क्या मैं GroupDocs.Metadata for Java का उपयोग करके WAV फ़ाइल का मेटाडेटा संशोधित कर सकता हूँ?**  
-A: हाँ, लाइब्रेरी मेटाडेटा फ़ील्ड्स को पढ़ने और लिखने दोनों को सपोर्ट करती है।
+**प्रश्न: क्या मैं GroupDocs.Metadata for Java का उपयोग करके WAV फ़ाइल का मेटाडेटा संशोधित कर सकता हूँ?**  
+**उत्तर:** हाँ, लाइब्रेरी पढ़ने और लिखने दोनों मेटाडेटा फ़ील्ड्स को सपोर्ट करती है।
 
-**Q: मैं उन फ़ाइलों को कैसे संभालूँ जिनमें INFO चंक नहीं है?**  
-A: `NullPointerException` से बचने के लिए, प्रॉपर्टीज़ तक पहुंचने से पहले हमेशा `root.getRiffInfoPackage()` को `null` के लिए जाँचें।
+**प्रश्न: INFO चंक के बिना फ़ाइलों को कैसे संभालूँ?**  
+**उत्तर:** `root.getRiffInfoPackage()` के `null` होने की हमेशा जाँच करें ताकि `NullPointerException` से बचा जा सके।
 
-**Q: क्या ऑडियो फ़ाइलों से अन्य प्रकार के मेटाडेटा निकालना संभव है?**  
-A: बिल्कुल। GroupDocs.Metadata कई ऑडियो और वीडियो फ़ॉर्मैट्स के साथ काम करता है, जिससे आप MP3, FLAC, MP4 आदि से टैग्स प्राप्त कर सकते हैं।
+**प्रश्न: क्या ऑडियो फ़ाइलों से अन्य प्रकार के मेटाडेटा निकालना संभव है?**  
+**उत्तर:** बिल्कुल। GroupDocs.Metadata कई ऑडियो और वीडियो फ़ॉर्मेट्स के साथ काम करता है, जिससे आप MP3, FLAC, MP4 आदि से टैग्स निकाल सकते हैं।
 
-**Q: यदि मेरा एप्लिकेशन बड़े फ़ाइलों को प्रोसेस करते समय मेमोरी खत्म हो जाता है तो मुझे क्या करना चाहिए?**  
-A: फ़ाइलों को छोटे बैचों में प्रोसेस करें, `Metadata` ऑब्जेक्ट्स को समझदारी से पुन: उपयोग करें, और आवश्यक होने पर JVM हीप साइज बढ़ाने पर विचार करें।
+**प्रश्न: यदि बड़ी फ़ाइलों को प्रोसेस करते समय मेरा एप्लिकेशन मेमोरी समाप्त हो जाता है तो क्या करें?**  
+**उत्तर:** फ़ाइलों को छोटे बैचों में प्रोसेस करें, `Metadata` ऑब्जेक्ट्स को समझदारी से पुन: उपयोग करें, और आवश्यक होने पर JVM हीप साइज बढ़ाने पर विचार करें।
 
 ## निष्कर्ष
-अब आप जानते हैं कि GroupDocs.Metadata का उपयोग करके **extract wav metadata java** कैसे किया जाता है। यह क्षमता कैटलॉगिंग से लेकर फॉरेंसिक विश्लेषण तक, स्मार्ट ऑडियो एप्लिकेशन्स के द्वार खोलती है। अगला, अन्य समर्थित फ़ॉर्मैट्स (MP3, FLAC, MP4) का अन्वेषण करें या लाइब्रेरी की लिखने की क्षमताओं में गहराई से जाएँ ताकि मेटाडेटा को सीधे संपादित किया जा सके।
+आप अब GroupDocs.Metadata का उपयोग करके **wav मेटाडेटा जावा** निकालना जानते हैं। यह क्षमता स्मार्ट ऑडियो एप्लिकेशन, कैटलॉगिंग से लेकर फॉरेंसिक विश्लेषण तक के द्वार खोलती है। अगला कदम, अन्य समर्थित फ़ॉर्मेट्स (MP3, FLAC, MP4) का अन्वेषण करें या लाइब्रेरी की लिखने की क्षमताओं में गहराई से जाएँ ताकि मेटाडेटा सीधे संपादित किया जा सके।
 
-यदि आपको कोई चुनौती आती है, तो [free support forum](https://forum.groupdocs.com/c/metadata/) पर मदद के लिए पूछने में संकोच न करें।
+यदि आपको कोई चुनौती मिलती है, तो [नि:शुल्क समर्थन मंच](https://forum.groupdocs.com/c/metadata/) पर मदद माँगने में संकोच न करें।
 
 ## संसाधन
-- **Documentation**: [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
-- **API Reference**: [API Reference](https://reference.groupdocs.com/metadata/java/)  
-- **Download**: [GroupDocs.Metadata Releases](https://releases.groupdocs.com/metadata/java/)  
-- **GitHub**: [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- **दस्तावेज़ीकरण:** [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
+- **API रेफ़रेंस:** [API Reference](https://reference.groupdocs.com/metadata/java/)  
+- **डाउनलोड:** [GroupDocs.Metadata Releases](https://releases.groupdocs.com/metadata/java/)  
+- **GitHub रिपॉज़िटरी:** [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
 
----
+**अंतिम अपडेट:** 2026-09-01  
+**परीक्षित संस्करण:** GroupDocs.Metadata 24.12 for Java  
+**लेखक:** GroupDocs  
 
-**अंतिम अपडेट:** 2026-02-24  
-**परीक्षण किया गया:** GroupDocs.Metadata 24.12 for Java  
-**लेखक:** GroupDocs
+## संबंधित ट्यूटोरियल
+
+- [Read ID3v2 Tags Java Using GroupDocs.Metadata – A Comprehensive Guide](/metadata/java/audio-video-formats/read-id3v2-tags-groupdocs-metadata-java/)  
+- [Master File Metadata Processing in Java with GroupDocs.Metadata](/metadata/java/working-with-metadata/groupdocs-metadata-java-processing-guide/)

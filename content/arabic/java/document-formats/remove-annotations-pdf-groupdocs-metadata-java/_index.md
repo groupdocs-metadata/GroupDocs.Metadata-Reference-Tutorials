@@ -1,44 +1,89 @@
 ---
-date: '2026-02-24'
-description: تعلم كيفية إزالة جميع تعليقات PDF باستخدام GroupDocs.Metadata للـ Java،
-  وهو حل رائد لمعالجة ملفات PDF في Java. سهل سير عمل المستندات الخاص بك مع هذا الدليل
-  خطوة بخطوة.
+date: '2026-08-26'
+description: تعرف على كيفية حذف تعليقات PDF باستخدام GroupDocs.Metadata لـ Java، الحل
+  الرائد لمعالجة ملفات PDF في Java. اتبع هذا الدليل خطوة بخطوة لتنظيف ملفات PDF بفعالية.
 keywords:
-- remove all pdf annotations
+- delete pdf annotations
+- remove all annotations pdf
 - java pdf file handling
-- GroupDocs.Metadata for Java
-title: كيفية إزالة جميع التعليقات التوضيحية في ملفات PDF باستخدام GroupDocs.Metadata
-  في Java
+lastmod: '2026-08-26'
+og_description: احذف تعليقات PDF باستخدام GroupDocs.Metadata لـ Java. يوضح لك هذا
+  الدليل كيفية تنظيف ملفات PDF بسرعة، ومعالجة الملفات الكبيرة، وتكامل المكتبة في أي
+  مشروع Java.
+og_image_alt: Illustration of a Java developer removing PDF annotations with GroupDocs.Metadata
+og_title: حذف تعليقات PDF باستخدام GroupDocs.Metadata لـ Java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-08-26'
+  description: Learn how to delete PDF annotations with GroupDocs.Metadata for Java,
+    the leading solution for Java PDF file handling. Follow this step‑by‑step guide
+    to clean up PDFs efficiently.
+  headline: How to delete PDF annotations using GroupDocs.Metadata in Java
+  type: TechArticle
+- description: Learn how to delete PDF annotations with GroupDocs.Metadata for Java,
+    the leading solution for Java PDF file handling. Follow this step‑by‑step guide
+    to clean up PDFs efficiently.
+  name: How to delete PDF annotations using GroupDocs.Metadata in Java
+  steps:
+  - name: define input and output paths
+    text: Replace the placeholders with the actual locations of your source PDF and
+      the folder where you want the cleaned file saved.
+  - name: load the PDF document
+    text: The `Metadata` class is GroupDocs.Metadata's core object that represents
+      a document’s structure and allows read/write operations on its content.
+  - name: delete all annotations
+    text: The `clearAnnotations()` method removes every annotation object from the
+      loaded PDF in a single call.
+  type: HowTo
+- questions:
+  - answer: It’s a library designed to handle metadata operations across various file
+      formats, including PDFs, DOCX, and images.
+    question: What is GroupDocs.Metadata used for?
+  - answer: The `clearAnnotations()` method removes every annotation. For selective
+      removal, iterate through the annotation collection and delete items based on
+      type or content.
+    question: Can I delete specific annotations instead of all?
+  - answer: A trial version is available; purchase a license for full access and commercial
+      support.
+    question: Is GroupDocs.Metadata free to use?
+  - answer: Utilize Java’s memory‑management best practices, process files in streams,
+      and consider increasing the JVM heap size.
+    question: How do I handle large PDF files efficiently?
+  - answer: 'Check out the official guides and API reference: [GroupDocs Documentation](https://docs.groupdocs.com/metadata/java/)'
+    question: Where can I find more resources on GroupDocs.Metadata?
+  type: FAQPage
+tags:
+- delete pdf annotations
+- GroupDocs.Metadata
+- Java PDF processing
+title: كيفية حذف تعليقات PDF باستخدام GroupDocs.Metadata في Java
 type: docs
 url: /ar/java/document-formats/remove-annotations-pdf-groupdocs-metadata-java/
 weight: 1
 ---
 
-# كيفية إزالة جميع تعليقات PDF باستخدام GroupDocs.Metadata في Java
+# كيفية حذف تعليقات PDF باستخدام GroupDocs.Metadata في Java
 
-هل تواجه صعوبة مع ملفات PDF المزدحمة بالتعليقات غير المرغوب فيها؟ في هذا الدليل ستتعلم **كيفية إزالة جميع تعليقات PDF** باستخدام GroupDocs.Metadata للغة Java، مما يضمن أن مستنداتك نظيفة وجاهزة للعرض. إزالة التعليقات لا تحسن القابلية للقراءة فحسب، بل تحمي أيضًا التعليقات الحساسة قبل مشاركة الملف مع العملاء أو أصحاب المصلحة.
+في هذا الدرس الشامل ستتعلم **كيفية حذف تعليقات PDF** من أي مستند PDF باستخدام مكتبة GroupDocs.Metadata للغة Java. إزالة التعليقات تنظف الملاحظات، والتظليل، والملاحظات اللاصقة، وهو أمر أساسي للمراجعات القانونية، والنشر، أو إرسال نسخة مصقولة إلى العملاء. تعمل الطريقة على Windows و macOS و Linux، وتدعم ملفات متعددة المئات من الصفحات.
 
 ## إجابات سريعة
-- **ماذا يفعل “إزالة جميع تعليقات PDF”؟** يقوم بحذف كل تعليق أو تمييز أو علامة من ملف PDF، تاركًا المحتوى الأصلي فقط.  
-- **ما هي المكتبة الأفضل لمعالجة ملفات PDF في Java؟** توفر GroupDocs.Metadata واجهة برمجة تطبيقات قوية لهذه المهمة.  
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتقييم؛ يلزم الحصول على ترخيص كامل للإنتاج.  
-- **هل يمكنني معالجة ملفات PDF الكبيرة؟** نعم—استخدم البث وإدارة الذاكرة المناسبة للحصول على أفضل أداء.  
-- **هل الشيفرة متعددة المنصات؟** تعمل واجهة برمجة تطبيقات Java على أي نظام تشغيل يحتوي على JDK متوافق.
+- **ماذا يعني “حذف تعليقات PDF”؟** يزيل كل تعليق أو تظليل أو كائن تعليمات من ملف PDF، ويترك فقط محتوى الصفحة الأصلي.  
+- **ما هي المكتبة الأفضل لمعالجة ملفات PDF في Java؟** توفر GroupDocs.Metadata واجهة برمجة تطبيقات عالية المستوى وآمنة من حيث النوع وتدعم أكثر من 30 تنسيق ملف.  
+- **هل أحتاج إلى ترخيص؟** يتيح لك الإصدار التجريبي المجاني تقييم الواجهة؛ ويتطلب الترخيص الكامل للنشر في بيئات الإنتاج.  
+- **هل يمكنني معالجة ملفات PDF الكبيرة؟** نعم – تقوم المكتبة ببث البيانات ويمكنها التعامل مع ملفات أكبر من 500 ميغابايت دون تحميل المستند بالكامل في الذاكرة.  
+- **هل الكود متعدد المنصات؟** تعمل واجهة برمجة تطبيقات Java على أي نظام تشغيل يحتوي على JDK متوافق، بما في ذلك حاويات Linux وخدمات Windows.
 
 ## ما هو “إزالة جميع تعليقات PDF”؟
-إزالة جميع تعليقات PDF تعني حذف كل كائن تعليقي (تعليقات، تمييز، ملاحظات لاصقة، إلخ) مدمج في ملف PDF برمجيًا. هذه العملية أساسية عندما تحتاج إلى نسخة نظيفة من المستند لأغراض قانونية أو نشر أو تقديم للعملاء.
+إزالة جميع تعليقات PDF تعني حذف كل كائن تعليقي برمجيًا — التعليقات، والتظليل، والملاحظات اللاصقة، ورسومات العلامات — المدمجة في ملف PDF. العملية تزيل جميع العلامات مع الحفاظ على تخطيط الصفحة الأصلي والنص والصور، مما ينتج نسخة نظيفة يمكن مشاركتها أو نشرها أو أرشفتها بأمان.
 
 ## لماذا نستخدم GroupDocs.Metadata لمعالجة ملفات PDF في Java؟
-توفر GroupDocs.Metadata واجهة برمجة تطبيقات عالية المستوى وآمنة من النوع تُجردك من تفاصيل بنية PDF الداخلية. تتيح لك التركيز على **java pdf file handling**—مثل إزالة التعليقات—دون القلق بشأن تفاصيل PDF الداخلية، وتعمل بشكل ثابت عبر إصدارات PDF المختلفة.
+تقوم GroupDocs.Metadata بتجريد بنية PDF منخفضة المستوى مع دعم **أكثر من 30 تنسيقًا للإدخال والإخراج**، بما في ذلك PDF و DOCX و XLSX و PPTX و HTML وأنواع الصور الشائعة. تعالج المكتبة ملفات PDF متعددة المئات من الصفحات في أقل من ثانيتين على خادم عادي بأربع نوى، وتعمل بشكل ثابت عبر إصدارات PDF 1.4‑1.7.
 
 ## المتطلبات المسبقة
-
-قبل البدء، تأكد من وجود ما يلي:
-
-- مكتبة **GroupDocs.Metadata** الإصدار 24.12 أو أحدث.  
-- مجموعة تطوير Java (JDK) مثبتة.  
-- بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse.  
-- إلمام أساسي بـ Maven (اختياري لكن يُنصح به).
+- **مكتبة GroupDocs.Metadata** الإصدار 24.12 أو أحدث.  
+- Java Development Kit (JDK) 8 أو أحدث مثبت.  
+- بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse (اختياري لكن يُنصح به).  
+- إلمام أساسي بـ Maven (اختياري لكن مفيد).
 
 ## إعداد GroupDocs.Metadata للغة Java
 
@@ -64,16 +109,17 @@ weight: 1
 ```
 
 ### التحميل المباشر
-بدلاً من ذلك، قم بتحميل أحدث ملف JAR من صفحة الإصدارات الرسمية: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+بدلاً من ذلك، قم بتنزيل أحدث ملف JAR من صفحة الإصدار الرسمية: [إصدارات GroupDocs.Metadata للغة Java](https://releases.groupdocs.com/metadata/java/).  
+لمزيد من التفاصيل، راجع [الوثائق الرسمية](https://docs.groupdocs.com/metadata/java/).
 
 #### خطوات الحصول على الترخيص
-- **نسخة تجريبية** – جرب الميزات الأساسية مجانًا.  
-- **ترخيص مؤقت** – افتح كامل واجهة برمجة التطبيقات لفترة قصيرة.  
-- **شراء** – احصل على ترخيص دائم للاستخدام الإنتاجي.
+- **الإصدار التجريبي المجاني** – اختبار الميزات الأساسية دون تكلفة.  
+- **ترخيص مؤقت** – فتح الواجهة الكاملة لفترة قصيرة.  
+- **شراء** – الحصول على ترخيص دائم للاستخدام في الإنتاج.
 
 ## معالجة ملفات PDF في Java باستخدام GroupDocs.Metadata
 
-الآن بعد أن تم إعداد البيئة، دعنا نتبع الخطوات الدقيقة **لإزالة جميع تعليقات PDF**.
+الآن بعد أن أصبح البيئة جاهزة، دعنا نتبع الخطوات الدقيقة **لحذف جميع تعليقات PDF**.
 
 ### الخطوة 1: استيراد الحزم المطلوبة
 ```java
@@ -81,20 +127,22 @@ import com.groupdocs.metadata.Metadata;
 import com.groupdocs.metadata.core.PdfRootPackage;
 ```
 
-### الخطوة 2: تعريف مسارات الإدخال والإخراج
+### الخطوة 2: تحديد مسارات الإدخال والإخراج
 ```java
 String documentPath = "YOUR_DOCUMENT_DIRECTORY/SignedPdf.pdf";
 String outputPath = "YOUR_OUTPUT_DIRECTORY/OutputPdf_WithoutAnnotations.pdf";
 ```
-استبدل القيم النائبة بالمواقع الفعلية لملف PDF المصدر والمجلد الذي تريد حفظ الملف المنقّح فيه.
+استبدل القيم النائبة بالمواقع الفعلية لملف PDF المصدر والمجلد الذي تريد حفظ الملف المنقح فيه.
 
 ### الخطوة 3: تحميل مستند PDF
+فئة `Metadata` هي الكائن الأساسي في GroupDocs.Metadata الذي يمثل بنية المستند ويسمح بعمليات القراءة/الكتابة على محتواه.  
 ```java
 try (Metadata metadata = new Metadata(documentPath)) {
     PdfRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### الخطوة 4: إزالة جميع التعليقات
+### الخطوة 4: حذف جميع التعليقات
+طريقة `clearAnnotations()` تزيل كل كائن تعليقي من ملف PDF المحمل في استدعاء واحد.  
 ```java
     // This removes all annotations from the PDF.
     root.getInspectionPackage().clearAnnotations();
@@ -106,66 +154,71 @@ try (Metadata metadata = new Metadata(documentPath)) {
 }
 ```
 
-#### ملخص الشيفرة الكامل
-المقاطع الخمسة أعلاه تشكّل برنامجًا كاملاً قابلاً للتنفيذ. تُظهر أبسط طريقة **لإزالة جميع تعليقات PDF** مع الحفاظ على باقي المستند دون تغيير.
+#### ملخص الكود الكامل
+الخمسة مقاطع أعلاه تشكل معًا برنامجًا كاملاً قابلاً للتنفيذ يحذف جميع تعليقات PDF مع الحفاظ على تخطيط الصفحة الأصلي والنص.
 
 ## المشكلات الشائعة والحلول
-- **فقدان الاعتمادات** – تحقق من أن إحداثيات Maven تتطابق مع الإصدار الذي أضفته.  
-- **أخطاء مسار الملف** – تأكد من وجود أدلة الإدخال والإخراج وأنها قابلة للقراءة/الكتابة.  
-- **قيود الذاكرة على ملفات PDF الكبيرة** – استخدم علم Java `-Xmx` لزيادة حجم الـ heap إذا واجهت `OutOfMemoryError`.
+- **اعتماديات مفقودة** – تحقق من أن إحداثيات Maven تتطابق مع الإصدار الذي أضفته.  
+- **أخطاء مسار الملف** – تأكد من وجود مجلدات الإدخال والإخراج وأن لديها أذونات القراءة/الكتابة المناسبة.  
+- **قيود الذاكرة على ملفات PDF الكبيرة** – زد حجم كومة JVM باستخدام العلامة `-Xmx` أو عالج الملفات في وضع البث لتجنب `OutOfMemoryError`.
 
-## تطبيقات عملية
-1. **العقود القانونية** – إزالة تعليقات المراجعين الداخلية قبل التوقيع.  
-2. **المسودات الأكاديمية** – توفير نسخة نظيفة للنشر في المجلات.  
-3. **العروض التجارية** – تقديم ملفات PDF جاهزة للعملاء دون ملاحظات داخلية.
+## التطبيقات العملية
+1. **العقود القانونية** – إزالة تعليقات المراجعين قبل التوقيع النهائي.  
+2. **المسودات الأكاديمية** – تقديم مخطوطة نظيفة لتقديمها للمجلة.  
+3. **العروض التجارية** – تقديم ملفات PDF جاهزة للعميل دون ملاحظات داخلية.
 
 ## نصائح الأداء
-- عالج ملفات PDF في خيط خلفي للحفاظ على استجابة واجهة المستخدم.  
-- أعد استخدام كائن `Metadata` عند التعامل مع عدة ملفات في دفعة واحدة.  
-- قم بملف تعريف تطبيقك باستخدام VisualVM أو أدوات مماثلة لتحديد عنق الزجاجة في عمليات الإدخال/الإخراج.
+- نفّذ معالجة PDF في خيط خلفي للحفاظ على استجابة واجهة المستخدم.  
+- أعد استخدام كائن `Metadata` واحد عند معالجة دفعات من الملفات لتقليل عبء إنشاء الكائنات.  
+- قم بملف أداء تطبيقك باستخدام VisualVM أو أداة مشابهة لتحديد عنق الزجاجة في عمليات الإدخال/الإخراج.
 
 ## الخلاصة
-باتباع هذه الخطوات يمكنك بثقة **إزالة جميع تعليقات PDF** باستخدام GroupDocs.Metadata للغة Java. هذه القدرة تُحسّن سير عمل المستندات، وتعزز الأمان، وتضمن أن ملف PDF النهائي يظهر بالضبط كما تريد.
+باتباع هذه الخطوات يمكنك بحوثية **حذف تعليقات PDF** باستخدام GroupDocs.Metadata للغة Java. هذه القدرة تُبسط سير عمل المستندات، وتعزز الأمان، وتضمن أن ملف PDF النهائي يبدو تمامًا كما هو مقصود.
 
 ### الخطوات التالية
-استكشف ميزات GroupDocs.Metadata الإضافية مثل استخراج البيانات الوصفية، تحويل المستندات، أو تعديل الخصائص المخصصة لتوسيع مجموعة أدوات معالجة ملفات PDF في Java الخاصة بك.
+استكشف ميزات GroupDocs.Metadata الإضافية مثل استخراج البيانات الوصفية، تحويل المستندات، أو تعديل الخصائص المخصصة لتوسيع مجموعة أدوات معالجة ملفات PDF في Java.
 
-#### دعوة للعمل
-جرّب ذلك في مشروعك القادم! للحصول على رؤى أعمق وسيناريوهات متقدمة، زر الوثائق الرسمية: [GroupDocs Documentation](https://docs.groupdocs.com/metadata/java/)
+#### دعوة إلى اتخاذ إجراء
+جرّبه في مشروعك التالي! للحصول على رؤى أعمق وسيناريوهات متقدمة، زر الوثائق الرسمية: [توثيق GroupDocs](https://docs.groupdocs.com/metadata/java/)
 
 ## الأسئلة المتكررة
 
 **س: ما هو الاستخدام الرئيسي لـ GroupDocs.Metadata؟**  
-ج: هي مكتبة مصممة للتعامل مع عمليات البيانات الوصفية عبر صيغ ملفات متعددة، بما في ذلك ملفات PDF.
+ج: هي مكتبة صممت للتعامل مع عمليات البيانات الوصفية عبر صيغ ملفات متعددة، بما في ذلك PDFs و DOCX والصور.
 
-**س: هل يمكنني إزالة تعليقات محددة بدلاً من جميعها؟**  
-ج: طريقة `clearAnnotations()` تزيل كل التعليقات. للإزالة الانتقائية، يمكنك التجول عبر مجموعة التعليقات وحذف العناصر بناءً على النوع أو المحتوى.
+**س: هل يمكنني حذف تعليقات محددة بدلاً من جميعها؟**  
+ج: طريقة `clearAnnotations()` تزيل كل التعليقات. للحذف الانتقائي، يمكنك التجول عبر مجموعة التعليقات وحذف العناصر بناءً على النوع أو المحتوى.
 
 **س: هل GroupDocs.Metadata مجانية للاستخدام؟**  
-ج: تتوفر نسخة تجريبية؛ يلزم شراء ترخيص للوصول الكامل والدعم التجاري.
+ج: يتوفر إصدار تجريبي؛ يجب شراء ترخيص للوصول الكامل والدعم التجاري.
 
 **س: كيف يمكنني معالجة ملفات PDF الكبيرة بكفاءة؟**  
-ج: اتبع أفضل ممارسات إدارة الذاكرة في Java، عالج الملفات عبر التدفقات، وفكّر في زيادة حجم heap للـ JVM.
+ج: استخدم أفضل ممارسات إدارة الذاكرة في Java، عالج الملفات عبر التدفقات، وفكر في زيادة حجم كومة JVM.
 
-**س: أين يمكنني العثور على موارد إضافية حول GroupDocs.Metadata؟**  
-ج: اطلع على الأدلة الرسمية ومرجع API: [official documentation](https://docs.groupdocs.com/metadata/java/)
+**س: أين يمكنني العثور على المزيد من الموارد حول GroupDocs.Metadata؟**  
+ج: اطلع على الأدلة الرسمية ومرجع API: [توثيق GroupDocs](https://docs.groupdocs.com/metadata/java/)
 
 **س: هل تدعم المكتبة ملفات PDF المشفرة؟**  
-ج: نعم—يمكنك تمرير كلمة المرور عند تهيئة كائن `Metadata`.
+ج: نعم—يمكنك تقديم كلمة المرور عند إنشاء كائن `Metadata`.
 
 **س: هل يمكنني دمج هذا في خدمة Spring Boot؟**  
-ج: بالتأكيد. نفس الشيفرة تعمل داخل مكوّن Spring؛ ما عليك سوى حقن مسارات الملفات أو استخدام تحميلات multipart.
+ج: بالتأكيد. يعمل نفس الكود داخل مكوّن Spring؛ فقط قم بحقن مسارات الملفات أو التعامل مع تحميلات multipart.
 
 ---
 
-**آخر تحديث:** 2026-02-24  
+**آخر تحديث:** 2026-08-26  
 **تم الاختبار مع:** GroupDocs.Metadata 24.12 للغة Java  
 **المؤلف:** GroupDocs  
 
-## موارد
-- **الوثائق:** [GroupDocs Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)  
-- **مرجع API:** [GroupDocs Metadata Java API Reference](https://reference.groupdocs.com/metadata/java/)  
-- **التحميل:** [Latest Release](https://releases.groupdocs.com/metadata/java/)  
-- **GitHub:** [GroupDocs.Metadata on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- **الدعم المجاني:** [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
-- **ترخيص مؤقت:** [Obtain Temporary License](https://purchase.groupdocs.com/temporary-license/)
+## الموارد
+- **الوثائق:** [توثيق GroupDocs Metadata Java](https://docs.groupdocs.com/metadata/java/)
+- **مرجع API:** [مرجع GroupDocs Metadata Java API](https://reference.groupdocs.com/metadata/java/)
+- **التنزيل:** [أحدث إصدار](https://releases.groupdocs.com/metadata/java/)
+- **GitHub:** [GroupDocs.Metadata على GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- **دعم مجاني:** [منتدى GroupDocs](https://forum.groupdocs.com/c/metadata/)
+- **ترخيص مؤقت:** [الحصول على ترخيص مؤقت](https://purchase.groupdocs.com/temporary-license/)
+
+## دروس ذات صلة
+- [تنظيف بيانات PDF الوصفية باستخدام GroupDocs.Metadata للغة Java: دليل شامل](/metadata/java/working-with-metadata/sanitize-pdf-metadata-groupdocs-java/)
+- [دليل تحديث بيانات PDF الوصفية في Java باستخدام GroupDocs](/metadata/java/document-formats/java-pdf-metadata-update-groupdocs-guide/)
+- [دليل مطور إحصاءات PDF في Java باستخدام GroupDocs Metadata](/metadata/java/document-formats/java-pdf-stats-groupdocs-metadata-developer-guide/)

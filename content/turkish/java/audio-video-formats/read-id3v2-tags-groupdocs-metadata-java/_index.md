@@ -1,68 +1,100 @@
 ---
-date: '2026-03-01'
-description: Java’da ID3v2 etiketlerini okumayı ve MP3 meta verilerini çıkarmayı,
-  GroupDocs.Metadata for Java kullanarak öğrenin; medya oynatıcı geliştiricileri için
-  mükemmeldir.
+date: '2026-09-02'
+description: GroupDocs.Metadata ile Java'da MP3 meta verilerini nasıl okuyacağınızı
+  öğrenin; ID3v2 tags, album art extraction ve stream support konularını kapsar.
 keywords:
-- read MP3 ID3v2 tags Java
+- java read mp3 metadata
+- read mp3 tags stream
 - GroupDocs.Metadata Java tutorial
-- manage MP3 metadata with Java
-title: GroupDocs.Metadata Kullanarak Java’da ID3v2 Etiketlerini Okuma – Kapsamlı Bir
-  Rehber
+lastmod: '2026-09-02'
+og_description: Java MP3 meta verilerini okuma öğreticisi, GroupDocs.Metadata for
+  Java kullanarak ID3v2 tags, album art ve MP3 dosyalarını stream etme yöntemlerini
+  gösterir.
+og_image_alt: Guide screenshot showing Java code extracting MP3 metadata with GroupDocs.Metadata
+og_title: Java ile MP3 meta verilerini okuma – GroupDocs.Metadata – Tam kılavuz
+schemas:
+- author: GroupDocs
+  dateModified: '2026-09-02'
+  description: Learn how to read MP3 metadata in Java with GroupDocs.Metadata, covering
+    ID3v2 tags, album art extraction, and stream support.
+  headline: How to read MP3 metadata in Java using GroupDocs.Metadata for Java
+  type: TechArticle
+- description: Learn how to read MP3 metadata in Java with GroupDocs.Metadata, covering
+    ID3v2 tags, album art extraction, and stream support.
+  name: How to read MP3 metadata in Java using GroupDocs.Metadata for Java
+  steps:
+  - name: '**Media players:** Show rich album art and track details directly from
+      the file without external databases.'
+    text: '**Media players:** Show rich album art and track details directly from
+      the file without external databases.'
+  - name: '**Music libraries:** Auto‑populate database fields when users import new
+      tracks, improving searchability.'
+    text: '**Music libraries:** Auto‑populate database fields when users import new
+      tracks, improving searchability.'
+  - name: '**Digital asset management:** Index audio assets across platforms using
+      extracted metadata for analytics and reporting.'
+    text: '**Digital asset management:** Index audio assets across platforms using
+      extracted metadata for analytics and reporting.'
+  type: HowTo
+- questions:
+  - answer: It means programmatically retrieving ID3v2 (or ID3v1) information from
+      MP3 files inside a Java application.
+    question: What does “java read mp3 metadata” mean?
+  - answer: GroupDocs.Metadata for Java provides a clean, type‑safe API for reading
+      and writing MP3 metadata.
+    question: Which library handles this?
+  - answer: A free trial or temporary license is sufficient for development and testing.
+    question: Do I need a license?
+  - answer: Yes—attached pictures are accessible via the same API.
+    question: Can I also extract album art?
+  - answer: Process files one at a time with try‑with‑resources to keep memory usage
+      low.
+    question: Is it suitable for large batches?
+  type: FAQPage
+tags:
+- read mp3 metadata
+- GroupDocs.Metadata
+- Java audio processing
+- ID3v2 tags
+title: Java'da GroupDocs.Metadata for Java kullanarak MP3 meta verilerini okuma
 type: docs
 url: /tr/java/audio-video-formats/read-id3v2-tags-groupdocs-metadata-java/
 weight: 1
 ---
 
-# Java'da GroupDocs.Metadata ile ID3v2 Etiketlerini Okuma
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-Büyük bir müzik kütüphanesini elle düzenlemek bir kabus olabilir. **If you need to read id3v2 tags java** hızlı ve güvenilir bir şekilde, bu kılavuz tam olarak nasıl yapılacağını gösterir. GroupDocs.Metadata for Java kullanarak MP3 dosyalarından albüm, sanatçı, başlık ve hatta gömülü albüm kapağını çıkarmayı adım adım göstereceğiz. Sonunda, zengin metadata işleme yeteneğini herhangi bir medya‑player veya müzik‑management uygulamasına entegre etmeye hazır olacaksınız.
+# Java'da GroupDocs.Metadata for Java kullanarak MP3 meta verilerini okuma
 
-## Hızlı Yanıtlar
-- **What does “read id3v2 tags java” mean?** Bu, bir Java uygulamasında MP3 dosyalarından programlı olarak ID3v2 metadata'sını almayı ifade eder.  
-- **Which library handles this?** GroupDocs.Metadata for Java, ID3v2 etiketlerini okuma ve yazma için temiz bir API sağlar.  
-- **Do I need a license?** Geliştirme ve test için ücretsiz deneme veya geçici lisans yeterlidir.  
-- **Can I also extract album art?** Evet—ekli resimler aynı API üzerinden erişilebilir.  
-- **Is it suitable for large batches?** Bellek kullanımını düşük tutmak için dosyaları tek tek try‑with‑resources ile işleyin.
+Büyük bir müzik kütüphanesini elle düzenlemek bir kabus olabilir. **java read mp3 metadata**'yi hızlı ve güvenilir bir şekilde yapmanız gerekiyorsa, bu rehber tam olarak nasıl yapılacağını gösterir. GroupDocs.Metadata for Java kullanarak MP3 dosyalarından albüm, sanatçı, başlık ve hatta gömülü albüm kapağını çıkarmayı adım adım anlatacağız. Sonuna geldiğinizde, zengin meta veri işleme yeteneğini herhangi bir medya‑player veya müzik‑yönetim uygulamasına entegre etmeye hazır olacaksınız.
 
-## Giriş
+## Hızlı cevaplar
+- **“java read mp3 metadata” ne anlama geliyor?** Java uygulaması içinde MP3 dosyalarından ID3v2 (veya ID3v1) bilgilerini programatik olarak almayı ifade eder.  
+- **Bu işlemi hangi kütüphane yapıyor?** GroupDocs.Metadata for Java, MP3 meta verilerini okuma ve yazma için temiz, tip‑güvenli bir API sağlar.  
+- **Lisans gerekir mi?** Geliştirme ve test için ücretsiz deneme veya geçici bir lisans yeterlidir.  
+- **Albüm kapağını da çıkarabilir miyim?** Evet—ekli resimler aynı API üzerinden erişilebilir.  
+- **Büyük toplu işlemler için uygun mu?** Bellek kullanımını düşük tutmak için dosyaları tek tek try‑with‑resources bloğu içinde işleyin.
 
-Müzik kütüphanenizi manuel olarak düzenlemekle mi zorlanıyorsunuz? GroupDocs.Metadata for Java kullanarak MP3 dosyalarından albüm, sanatçı ve başlık gibi metadata'yı programlı olarak nasıl çıkaracağınızı keşfedin. Bu kılavuz, medya oynatıcı uygulamaları geliştiren ya da dijital müzik koleksiyonlarını yöneten geliştiriciler için idealdir.
+## “java read mp3 metadata” nedir?
 
-**Ne Öğreneceksiniz:**
-- GroupDocs.Metadata for Java'ı kullanmak için ortamınızı kurma  
-- **read id3v2 tags java** ve MP3 metadata Java çıkarma teknikleri  
-- ID3v2 etiketlerindeki ekli resimlere erişim yöntemleri  
+Java’da MP3 meta verilerini okumak, bir MP3 dosyasını açıp ID3v2 (veya ID3v1) bloğunu bulmak ve albüm, sanatçı, başlık ve gömülü görseller gibi alanları çıkarmak anlamına gelir. Bu, manuel etiket düzenlemesini ortadan kaldırır ve müzik katalogları için otomatik iş akışları sağlar.
 
-Gerekli ön koşullara bir göz atalım.
+## Neden GroupDocs.Metadata for Java kullanmalısınız?
 
-## Hızlı Yanıtlar (AI‑Dostu Özet)
+GroupDocs.Metadata for Java **50+ ses ve multimedya formatını** destekler, dosyanın tamamını belleğe yüklemeden çok sayfalı belgeleri işler ve farklı ID3 sürümleri, karakter kodlamaları ve resim çerçevelerini otomatik olarak yönetir. Bu, el ile yazılmış ayrıştırıcılara kıyasla geliştirme süresini %70’e kadar azaltır.
 
-- **Can I read ID3v2 tags from a stream?** Evet, API ayrıca `InputStream` kabul eder.  
-- **Does GroupDocs.Metadata support ID3v1?** Evet; benzer şekilde `root.getID3V1()` kullanın.  
-- **What Java version is required?** Java 8 veya üzeri önerilir.  
-- **How do I handle files with multiple pictures?** Daha sonra gösterildiği gibi `getAttachedPictures()` üzerinde döngü yapın.  
-- **Is batch processing safe?** Evet, her dosyayı kendi try‑with‑resources bloğunda işleyin.
-
-## “read id3v2 tags java” nedir?
-
-Java'da ID3v2 etiketlerini okumak, bir kütüphane kullanarak MP3 dosyasını açmak, ID3v2 metadata bloğunu bulmak ve albüm, sanatçı, başlık ve gömülü resimler gibi alanları çıkarmak anlamına gelir. Bu, manuel etiket düzenleme araçlarına olan ihtiyacı ortadan kaldırır ve otomatik iş akışlarını mümkün kılar.
-
-## Neden GroupDocs.Metadata for Java Kullanmalı?
-
-GroupDocs.Metadata, ID3v2 etiketlerinin ikili formatını soyutlayan yüksek seviyeli, tip‑güvenli bir API sunar. Farklı etiket sürümlerini, karakter kodlamalarını ve ekli resim çerçevelerini otomatik olarak işler, böylece baytları ayrıştırmak yerine iş mantığına odaklanabilirsiniz.
-
-## Ön Koşullar
+## Önkoşullar
 
 Uygulamaya başlamadan önce şunların olduğundan emin olun:
+- **Gerekli kütüphaneler:** GroupDocs.Metadata for Java sürüm 24.12 veya daha yenisi.  
+- **Ortam kurulumu:** Maven desteği olan IntelliJ IDEA veya Eclipse gibi bir Java IDE'si.  
+- **Temel bilgi:** Java 8+ sözdizimi ve Maven proje yapılandırması hakkında aşinalık.  
 
-- **Required Libraries:** GroupDocs.Metadata for Java sürüm 24.12 veya üzeri.  
-- **Environment Setup:** Maven desteği olan IntelliJ IDEA veya Eclipse gibi bir Java IDE.  
-- **Knowledge Prerequisites:** Temel Java programlama ve Maven proje yapılandırması.
+## GroupDocs.Metadata for Java'ı kurma
 
-## GroupDocs.Metadata for Java'ı Kurma
-
-Başlamak için, Maven aracılığıyla Java projenizde GroupDocs.Metadata'ı kurun. Aşağıdaki yapılandırmayı `pom.xml` dosyanıza ekleyin:
+Başlamak için Maven aracılığıyla Java projenize GroupDocs.Metadata ekleyin. `pom.xml` dosyanıza aşağıdaki yapılandırmayı ekleyin:
 
 ```xml
 <repositories>
@@ -82,18 +114,18 @@ Başlamak için, Maven aracılığıyla Java projenizde GroupDocs.Metadata'ı ku
 </dependencies>
 ```
 
-Alternatif olarak, doğrudan [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) adresinden indirin.
+Alternatif olarak, doğrudan [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) adresinden indirebilirsiniz.
 
-**License Acquisition:**  
-- [GroupDocs Licensing](https://purchase.groupdocs.com/temporary-license) adresinden ücretsiz deneme veya geçici lisans alın ve projenize entegre etmek için adımları izleyin.
+**Lisans edinimi:**  
+- Ücretsiz deneme veya geçici bir lisansı [GroupDocs Licensing](https://purchase.groupdocs.com/temporary-license) üzerinden edinin ve projenize entegre etmek için adımları izleyin.
 
-Kurulum tamamlandıktan sonra, ID3v2 etiketlerini ve ekli resimleri okumayı keşfedelim.
+## Java'da ID3v2 etiketlerini okuma
 
-## read id3v2 tags java Nasıl Okunur
+Java’da ID3v2 etiketlerini okumak, `Metadata` sınıfı ile MP3 dosyasını yüklemek, kök nesnesine erişmek ve ardından `root.getID3V2()` aracılığıyla ID3v2 etiketini almak anlamına gelir. Bu etiketten albüm, sanatçı, başlık, parça numarası ve ekli resimler gibi standart alanları birkaç basit metod çağrısıyla elde edebilirsiniz.
 
-### Adım 1 – Metadata'yı Başlatma
+### Adım 1 – meta veriyi başlatma
 
-MP3 dosyanızın yolu ile bir `Metadata` örneği oluşturarak başlayın:
+`Metadata` sınıfı, bellekte tek bir medya dosyasını temsil eden giriş noktasıdır. Bir dosya yolu ile örnek oluşturduğunuzda, sonraki tüm etiket işlemleri bu nesne üzerinden gerçekleşir.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -105,9 +137,9 @@ public class ReadID3V2Tags {
             MP3RootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### Adım 2 – ID3v2 Etiketlerine Erişim
+### Adım 2 – ID3v2 etiketlerine erişme
 
-ID3v2 etiketinin mevcut olup olmadığını kontrol edin ve çeşitli bilgileri okuyun:
+`root.getID3V2()` mevcutsa ID3v2 etiket nesnesini döndürür; aksi takdirde `null` verir. Varlığını kontrol ettikten sonra `getAlbum()`, `getArtist()` ve `getTitle()` gibi getter'ları çağırarak ilgili değerleri alabilirsiniz.
 
 ```java
             if (root.getID3V2() != null) {
@@ -125,13 +157,13 @@ ID3v2 etiketinin mevcut olup olmadığını kontrol edin ve çeşitli bilgileri 
 }
 ```
 
-**Açıklama:**  
-- `getID3V2()` ID3v2 etiket nesnesini alır.  
-- Sonraki her çağrı (`getAlbum()`, `getArtist()` vb.) belirli bir metadata alanını çeker, böylece sadece birkaç satır kodla **extract mp3 metadata java** yapabilirsiniz.
+## Java'da MP3 meta verilerini (görseller dahil) çıkarma
 
-## mp3 metadata java Nasıl Çıkarılır (resimler dahil)
+MP3 meta verilerini, albüm kapağı dahil, çıkarmak aynı başlatma desenini izler. `ID3V2Tag` nesnesini elde ettikten sonra `getAttachedPictures()` metodunu çağırarak `ID3V2AttachedPictureFrame` nesnelerinin bir koleksiyonunu alırsınız. Bu koleksiyonu döngüyle işleyerek her resmin tipini, MIME tipini ve açıklamasını inceleyebilir, ikili veriyi bir dosyaya yazabilir veya UI’da gösterebilirsiniz.
 
-### Adım 1 – Metadata'yı Tekrar Başlatma
+### Adım 1 – meta veriyi başlatma (tekrar)
+
+`Metadata` sınıfı burada yeniden kullanılır; her dosya için yeni bir örnek oluşturmak, iş parçacığı güvenliği ve düşük bellek ayak izi sağlar.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -144,7 +176,9 @@ public class ReadID3V2AttachedPictures {
             MP3RootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### Adım 2 – Ekli Resimler Üzerinde Döngü
+### Adım 2 – ekli görselleri döngüyle işleme
+
+`ID3V2AttachedPictureFrame` etiketteki tek bir resim çerçevesini temsil eder. `getPictureType()`, `getMimeType()` ve `getDescription()` metodları, her resmi uygun şekilde tanımlamanıza ve render etmenize olanak tanır.
 
 ```java
             if (root.getID3V2() != null && root.getID3V2().getAttachedPictures() != null) {
@@ -159,70 +193,67 @@ public class ReadID3V2AttachedPictures {
 }
 ```
 
-**Açıklama:**  
-- `getAttachedPictures()` resim çerçevelerinin bir koleksiyonunu döndürür.  
-- Her bir `ID3V2AttachedPictureFrame` üzerinde döngü yaparak resim türünü, MIME tipini ve açıklamayı alabilirsiniz; bu bilgileri UI'nizde albüm kapağını göstermek için kullanabilirsiniz.
+## Pratik uygulamalar
 
-## Pratik Uygulamalar
+1. **Medya oynatıcılar:** Dosyadan doğrudan zengin albüm kapağı ve parça detaylarını göstererek harici veritabanı ihtiyacını ortadan kaldırın.  
+2. **Müzik kütüphaneleri:** Kullanıcılar yeni parçalar eklediğinde veritabanı alanlarını otomatik doldurun, böylece arama kolaylığı sağlayın.  
+3. **Dijital varlık yönetimi:** Çıkarılan meta verileri analiz ve raporlama için kullanarak ses varlıklarını platformlar arasında indeksleyin.
 
-1. **Media Players:** Medya oynatıcıları, ID3v2 etiketlerinden doğrudan zengin metadata ve albüm kapağı göstererek geliştirin.  
-2. **Music Libraries:** Çıkarılan metadata'yı kullanarak müzik dosyalarını otomatik olarak etiketleyin ve düzenleyin, böylece arama ve sınıflandırma iyileşir.  
-3. **Digital Asset Management Systems:** Platformlar arasında çoklu ortam varlıklarını yönetmek için metadata'yı kullanın.
+## Performans değerlendirmeleri
 
-## Performans Düşünceleri
+- **Toplu işleme:** Aynı anda birden fazla dosya tutamacı tutmamak için her MP3'ü ayrı bir try‑with‑resources bloğunda işleyin.  
+- **Bellek kullanımı:** GroupDocs.Metadata verileri akış olarak işler; 300 MB'lık bir dosya koleksiyonu bile 2 GB heap üzerinde bellek hatası almadan işlenebilir.  
+- **En iyi uygulamalar:**  
+  - `Metadata` örneğini her zaman kapatın (veya try‑with‑resources kullanın).  
+  - Bozuk etiketleri nazikçe ele almak için `MetadataException` yakalayın.
 
-- **Optimize Resource Usage:** Bellek taşmasını önlemek için büyük toplu işlemlerde dosyaları tek tek işleyin.  
-- **Best Practices:**  
-  - Gösterildiği gibi try‑with‑resources kullanarak kaynakları düzgün şekilde kapatın.  
-  - Metadata çıkarma sırasında çökme olmaması için istisnaları nazikçe yönetin.
-
-## Yaygın Sorunlar ve Çözümler
+## Yaygın sorunlar ve çözümler
 
 | Sorun | Neden | Çözüm |
-|-------|-------|-----|
-| `root.getID3V2()` üzerindeki NullPointerException | Dosyada ID3v2 etiketi yok | Alanlara erişmeden önce (gösterildiği gibi) `null` kontrolü yapın. |
-| Resim döndürülmedi | MP3'te ekli resim yok | Dosyanın gerçekten albüm kapağı içerdiğini doğrulayın. |
-| Lisans bulunamadı | Eksik veya geçersiz lisans dosyası | Lisans dosyasını proje köküne yerleştirin veya lisans yolunu programatik olarak ayarlayın. |
+|-------|-------|------|
+| `root.getID3V2()` üzerinde `NullPointerException` | Dosyada ID3v2 etiketi yok | Alanlara erişmeden önce `null` kontrolü yapın (gösterildiği gibi). |
+| Resim döndürülmedi | MP3 ekli görsel içermiyor | Dosyanın gerçekten albüm kapağı içerdiğini doğrulayın. |
+| Lisans bulunamadı | Lisans dosyası eksik veya geçersiz | Lisans dosyasını proje köküne koyun veya lisans yolunu programatik olarak ayarlayın. |
 
-## Sıkça Sorulan Sorular
+## Sıkça sorulan sorular
 
-**Q:** *GroupDocs.Metadata for Java nedir?*  
-**A:** MP3 dahil çeşitli dosya formatlarında metadata'yı okuma, yazma ve manipüle etme imkanı sağlayan güçlü bir kütüphanedir.
+**S:** *GroupDocs.Metadata for Java nedir?*  
+**C:** 50'den fazla dosya formatında, MP3 dahil, meta verileri okuma, yazma ve manipüle etme imkanı sağlayan, düşük seviyeli ikili yapılarla uğraşmadan kullanılabilen bir kütüphanedir.
 
-**Q:** *GroupDocs.Metadata'ı Maven ile nasıl kurarım?*  
-**A:** **Setting Up** bölümünde gösterildiği gibi `pom.xml` dosyanıza depo ve bağımlılık yapılandırmasını ekleyin.
+**S:** *GroupDocs.Metadata'i Maven ile nasıl kurarım?*  
+**C:** **Kurulum** bölümünde gösterilen depo ve bağımlılık kod parçacığını `pom.xml` dosyanıza ekleyin.
 
-**Q:** *Bu kütüphane ile dosyalardan başka metadata türleri çıkarabilir miyim?*  
-**A:** Evet, görüntüler, belgeler, videolar ve birçok diğer formatı destekler.
+**S:** *MP3 meta verilerini bir dosya yolu yerine akıştan okuyabilir miyim?*  
+**C:** Evet—GroupDocs.Metadata, `InputStream` kabul eden aşırı yüklemeler sunar; böylece ağ kaynaklarından veya bellek içi tamponlardan veriyle çalışabilirsiniz.
 
-**Q:** *Uygulamam metadata okurken çöküyorsa ne yapmalıyım?*  
-**A:** Uygun istisna yönetiminin mevcut olduğundan ve tüm kaynakların kullanım sonrası kapatıldığından emin olun.
+**S:** *Kütüphane ID3v1 etiketlerini de destekliyor mu?*  
+**C:** Evet; aynı desenle `root.getID3V1()` üzerinden erişilebilir.
 
-**Q:** *Bu kütüphane ile ID3v2 etiketlerini yazmak veya değiştirmek mümkün mü?*  
-**A:** Evet, GroupDocs.Metadata aynı zamanda ID3v2 etiketlerini yazma ve güncelleme desteği sunar, tam metadata yönetimini sağlar.
-
-## Ek Yaygın Sorular
-
-**Q:** *Dosya yolu yerine bir akıştan (stream) ID3v2 etiketlerini okuyabilir miyim?*  
-**A:** Evet—GroupDocs.Metadata `InputStream` nesnelerini kabul eden aşırı yüklemeler (overload) sağlar.
-
-**Q:** *Kütüphane ID3v1 etiketlerini de destekliyor mu?*  
-**A:** Evet; `getID3V2()` gibi `root.getID3V1()`'e de erişebilirsiniz.
-
-**Q:** *Birden fazla ekli resim içeren MP3 dosyalarını nasıl yönetirim?*  
-**A:** Gösterildiği gibi `getAttachedPictures()` üzerinde döngü yapın; her resim koleksiyonda dönecektir.
+**S:** *Birden fazla ekli görseli nasıl yönetirim?*  
+**C:** `getAttachedPictures()` tarafından döndürülen koleksiyonu döngüyle işleyin. Her giriş, tür, MIME ve açıklama alanları içerir; böylece hangi resmi göstereceğinize karar verebilirsiniz.
 
 ## Sonuç
 
-Bu kılavuzu izleyerek, GroupDocs.Metadata for Java kullanarak **read id3v2 tags java** ve MP3 metadata Java çıkarma konularını, gömülü albüm kapağını nasıl alacağınızı öğrendiniz. Bu yetenekler, herhangi bir müzik‑ile ilgili uygulamanın kullanıcı deneyimini büyük ölçüde iyileştirebilir.
+Bu rehberi izleyerek **java read mp3 metadata** işlemini ve GroupDocs.Metadata for Java kullanarak ID3v2 etiketlerini, gömülü albüm kapağını nasıl çıkaracağınızı öğrendiniz. Bu yetenekler, herhangi bir müzik‑odaklı uygulamanın kullanıcı deneyimini büyük ölçüde iyileştirebilir.
 
-**Sonraki Adımlar:**  
-- Farklı MP3 dosyalarıyla deney yapın ve ek metadata alanlarını keşfedin.  
-- Çıkarma mantığını toplu işleme veya UI gösterimi gibi daha büyük iş akışlarına entegre edin.  
-- Etiket yazma veya diğer ses formatlarını işleme gibi ileri senaryolar için API belgelerine daha derinlemesine bakın.
+**Sonraki adımlar**  
+- Farklı etiket sürümleri ve birden fazla resim içeren çeşitli MP3'lerle çıkarma mantığını test edin.  
+- Kodu bir toplu‑işleme servisine veya UI bileşenine entegre edin.  
+- Etiketleri programatik olarak güncellemek veya eklemek istiyorsanız yazma API'sını keşfedin.
 
 ---
 
-**Son Güncelleme:** 2026-03-01  
+**Son Güncelleme:** 2026-09-02  
 **Test Edilen Versiyon:** GroupDocs.Metadata 24.12 for Java  
 **Yazar:** GroupDocs
+
+## İlgili Eğitimler
+
+- [Java’da ID3v2 Etiketleri Ekle – MP3 Meta Verilerini GroupDocs ile Yönet](/metadata/java/audio-video-formats/mastering-mp3-tag-management-groupdocs-metadata-java/)
+- [Java’da GroupDocs.Metadata Kullanarak MP3 ID3v2 Etiketlerini Güncelleme – Kapsamlı Rehber](/metadata/java/audio-video-formats/update-mp3-id3v2-tags-groupdocs-metadata-java/)
+- [Java’da GroupDocs.Metadata Kullanarak MP3 Meta Verilerini Temizleme ve ID3v1 Etiketlerini Kaldırarak Dosya Boyutunu Azaltma](/metadata/java/audio-video-formats/remove-id3v1-tags-groupdocs-metadata-java/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

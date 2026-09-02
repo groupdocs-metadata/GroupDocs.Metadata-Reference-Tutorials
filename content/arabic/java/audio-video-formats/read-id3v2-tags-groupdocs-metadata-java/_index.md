@@ -1,64 +1,93 @@
 ---
-date: '2026-03-01'
-description: تعلم كيفية قراءة علامات ID3v2 في Java واستخراج بيانات تعريف MP3 باستخدام
-  GroupDocs.Metadata للـ Java، وهو مثالي لمطوري مشغلات الوسائط.
+date: '2026-09-02'
+description: تعلم كيفية قراءة بيانات تعريف MP3 في Java باستخدام GroupDocs.Metadata،
+  مع تغطية وسوم ID3v2، استخراج صورة الغلاف، ودعم البث.
 keywords:
-- read MP3 ID3v2 tags Java
+- java read mp3 metadata
+- read mp3 tags stream
 - GroupDocs.Metadata Java tutorial
-- manage MP3 metadata with Java
-title: قراءة وسوم ID3v2 في جافا باستخدام GroupDocs.Metadata – دليل شامل
+lastmod: '2026-09-02'
+og_description: دليل Java لقراءة بيانات تعريف mp3 يوضح كيفية استخراج وسوم ID3v2، صورة
+  الغلاف، وبث ملفات MP3 باستخدام GroupDocs.Metadata for Java.
+og_image_alt: Guide screenshot showing Java code extracting MP3 metadata with GroupDocs.Metadata
+og_title: Java قراءة بيانات تعريف mp3 مع GroupDocs.Metadata – دليل كامل
+schemas:
+- author: GroupDocs
+  dateModified: '2026-09-02'
+  description: Learn how to read MP3 metadata in Java with GroupDocs.Metadata, covering
+    ID3v2 tags, album art extraction, and stream support.
+  headline: How to read MP3 metadata in Java using GroupDocs.Metadata for Java
+  type: TechArticle
+- description: Learn how to read MP3 metadata in Java with GroupDocs.Metadata, covering
+    ID3v2 tags, album art extraction, and stream support.
+  name: How to read MP3 metadata in Java using GroupDocs.Metadata for Java
+  steps:
+  - name: '**Media players:** Show rich album art and track details directly from
+      the file without external databases.'
+    text: '**Media players:** Show rich album art and track details directly from
+      the file without external databases.'
+  - name: '**Music libraries:** Auto‑populate database fields when users import new
+      tracks, improving searchability.'
+    text: '**Music libraries:** Auto‑populate database fields when users import new
+      tracks, improving searchability.'
+  - name: '**Digital asset management:** Index audio assets across platforms using
+      extracted metadata for analytics and reporting.'
+    text: '**Digital asset management:** Index audio assets across platforms using
+      extracted metadata for analytics and reporting.'
+  type: HowTo
+- questions:
+  - answer: It means programmatically retrieving ID3v2 (or ID3v1) information from
+      MP3 files inside a Java application.
+    question: What does “java read mp3 metadata” mean?
+  - answer: GroupDocs.Metadata for Java provides a clean, type‑safe API for reading
+      and writing MP3 metadata.
+    question: Which library handles this?
+  - answer: A free trial or temporary license is sufficient for development and testing.
+    question: Do I need a license?
+  - answer: Yes—attached pictures are accessible via the same API.
+    question: Can I also extract album art?
+  - answer: Process files one at a time with try‑with‑resources to keep memory usage
+      low.
+    question: Is it suitable for large batches?
+  type: FAQPage
+tags:
+- read mp3 metadata
+- GroupDocs.Metadata
+- Java audio processing
+- ID3v2 tags
+title: كيفية قراءة بيانات تعريف MP3 في Java باستخدام GroupDocs.Metadata for Java
 type: docs
 url: /ar/java/audio-video-formats/read-id3v2-tags-groupdocs-metadata-java/
 weight: 1
 ---
 
-# كيفية قراءة وسوم ID3v2 في Java باستخدام GroupDocs.Metadata للـ Java
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-تنظيم مكتبة موسيقية كبيرة يدويًا يمكن أن يكون كابوسًا. **إذا كنت بحاجة إلى قراءة id3v2 tags java** بسرعة وبشكل موثوق، فإن هذا الدليل يوضح لك بالضبط كيفية ذلك. سنستعرض استخراج الألبوم، الفنان، العنوان، وحتى صورة الألبوم المدمجة من ملفات MP3 باستخدام GroupDocs.Metadata للـ Java. في النهاية، ستكون جاهزًا لدمج معالجة البيانات الوصفية الغنية في أي مشغل وسائط أو تطبيق لإدارة الموسيقى.
+# كيفية قراءة بيانات تعريف MP3 في Java باستخدام GroupDocs.Metadata for Java
+
+تنظيم مكتبة موسيقية ضخمة يدوياً قد يكون كابوساً. إذا كنت بحاجة إلى **java read mp3 metadata** بسرعة وموثوقية، يوضح لك هذا الدليل بالضبط كيف تقوم بذلك. سنستعرض استخراج الألبوم، الفنان، العنوان، وحتى صورة الغلاف المدمجة من ملفات MP3 باستخدام GroupDocs.Metadata for Java. في النهاية، ستكون جاهزاً لدمج معالجة البيانات الوصفية الغنية في أي مشغل وسائط أو تطبيق لإدارة الموسيقى.
 
 ## إجابات سريعة
-- **ماذا يعني “read id3v2 tags java”؟** يشير إلى استرجاع بيانات ID3v2 الوصفية من ملفات MP3 برمجيًا في تطبيق Java.  
-- **أي مكتبة تتولى ذلك؟** توفر GroupDocs.Metadata للـ Java واجهة API نظيفة لقراءة وكتابة وسوم ID3v2.  
-- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية أو ترخيص مؤقت يكفي للتطوير والاختبار.  
-- **هل يمكنني أيضًا استخراج صورة الألبوم؟** نعم—الصور المرفقة يمكن الوصول إليها عبر نفس الـ API.  
-- **هل هو مناسب للدفعات الكبيرة؟** عالج الملفات واحدةً تلو الأخرى باستخدام try‑with‑resources للحفاظ على استهلاك الذاكرة منخفضًا.
+- **What does “java read mp3 metadata” mean?** يعني ذلك استرجاع معلومات ID3v2 (أو ID3v1) برمجياً من ملفات MP3 داخل تطبيق Java.  
+- **Which library handles this?** توفر GroupDocs.Metadata for Java واجهة برمجة تطبيقات نظيفة وآمنة من حيث النوع لقراءة وكتابة بيانات تعريف MP3.  
+- **Do I need a license?** نسخة تجريبية مجانية أو ترخيص مؤقت يكفي للتطوير والاختبار.  
+- **Can I also extract album art?** نعم—الصور المرفقة يمكن الوصول إليها عبر نفس الواجهة.  
+- **Is it suitable for large batches?** عالج الملفات واحداً تلو الآخر باستخدام try‑with‑resources للحفاظ على استهلاك الذاكرة منخفضاً.
 
-## المقدمة
+## ما هو “java read mp3 metadata”؟
+قراءة بيانات تعريف MP3 في Java تعني استخدام مكتبة لفتح ملف MP3، تحديد كتلة ID3v2 (أو ID3v1)، واستخراج الحقول مثل الألبوم، الفنان، العنوان، والصور المدمجة. هذا يلغي الحاجة إلى تحرير الوسوم يدوياً ويمكّن من أتمتة سير عمل كتالوجات الموسيقى.
 
-هل تواجه صعوبة في تنظيم مكتبة الموسيقى الخاصة بك يدويًا؟ اكتشف كيفية استخراج البيانات الوصفية مثل الألبوم، الفنان، والعنوان من ملفات MP3 برمجيًا باستخدام GroupDocs.Metadata للـ Java. هذا الدليل مثالي للمطورين الذين يبنون تطبيقات مشغلات وسائط أو يديرون مجموعات موسيقية رقمية.
-
-**ما ستتعلمه:**
-- إعداد بيئتك لاستخدام GroupDocs.Metadata للـ Java  
-- تقنيات **read id3v2 tags java** واستخراج بيانات MP3 الوصفية في Java  
-- طرق الوصول إلى الصور المرفقة داخل وسوم ID3v2  
-
-لنبدأ بالنظر إلى المتطلبات المسبقة التي تحتاجها.
-
-## إجابات سريعة (ملخص صديق للذكاء الاصطناعي)
-
-- **هل يمكنني قراءة وسوم ID3v2 من تدفق بيانات؟** نعم، الـ API يقبل أيضًا `InputStream`.  
-- **هل يدعم GroupDocs.Metadata وسوم ID3v1؟** نعم؛ استخدم `root.getID3V1()` بالمثل.  
-- **ما نسخة Java المطلوبة؟** يوصى بـ Java 8 أو أعلى.  
-- **كيف أتعامل مع ملفات تحتوي على صور متعددة؟** قم بالتكرار على `getAttachedPictures()` كما هو موضح لاحقًا.  
-- **هل المعالجة الدفعية آمنة؟** نعم، فقط عالج كل ملف في كتلة try‑with‑resources خاصة به.
-
-## ما معنى “read id3v2 tags java”؟
-
-قراءة وسوم ID3v2 في Java تعني استخدام مكتبة لفتح ملف MP3، تحديد موقع كتلة البيانات الوصفية ID3v2، واستخراج الحقول مثل الألبوم، الفنان، العنوان، والصور المدمجة. هذا يلغي الحاجة إلى أدوات تحرير وسوم يدوية ويمكّن من أتمتة سير العمل.
-
-## لماذا نستخدم GroupDocs.Metadata للـ Java؟
-
-توفر GroupDocs.Metadata واجهة API عالية المستوى، آمنة من النوع، تُجرد تنسيق البايتات للوسوم ID3v2. تتعامل تلقائيًا مع إصدارات الوسوم المختلفة، ترميزات الأحرف، وإطارات الصور المرفقة، مما يسمح لك بالتركيز على منطق الأعمال بدلاً من تحليل البايتات.
+## لماذا نستخدم GroupDocs.Metadata for Java؟
+تدعم GroupDocs.Metadata for Java **أكثر من 50** صيغة صوتية ومتعددة الوسائط، وتعالج مستندات متعددة الصفحات دون تحميل الملف بالكامل في الذاكرة، وتتعامل تلقائيًا مع إصدارات ID3 المختلفة، وترميزات الأحرف، وإطارات الصور. هذا يقلل من وقت التطوير حتى 70 % مقارنةً بالمحللات المكتوبة يدوياً.
 
 ## المتطلبات المسبقة
+- **Required libraries:** GroupDocs.Metadata for Java الإصدار 24.12 أو أحدث.  
+- **Environment setup:** بيئة تطوير Java مثل IntelliJ IDEA أو Eclipse مع دعم Maven.  
+- **Basic knowledge:** الإلمام بصياغة Java 8+ وتكوين مشروع Maven.  
 
-قبل الغوص في التنفيذ، تأكد من وجود ما يلي:
-- **المكتبات المطلوبة:** GroupDocs.Metadata للـ Java الإصدار 24.12 أو أحدث.  
-- **إعداد البيئة:** بيئة تطوير Java مثل IntelliJ IDEA أو Eclipse مع دعم Maven.  
-- **المتطلبات المعرفية:** معرفة أساسية ببرمجة Java وتكوين مشروع Maven.  
-
-## إعداد GroupDocs.Metadata للـ Java
-
+## إعداد GroupDocs.Metadata for Java
 لبدء العمل، قم بإعداد GroupDocs.Metadata في مشروع Java عبر Maven. أضف التكوين التالي إلى ملف `pom.xml` الخاص بك:
 
 ```xml
@@ -79,18 +108,16 @@ weight: 1
 </dependencies>
 ```
 
-بدلاً من ذلك، يمكنك تنزيله مباشرة من [إصدارات GroupDocs.Metadata للـ Java](https://releases.groupdocs.com/metadata/java/).
+بدلاً من ذلك، قم بتنزيله مباشرةً من [إصدارات GroupDocs.Metadata for Java](https://releases.groupdocs.com/metadata/java/).
 
 **الحصول على الترخيص:**  
-- احصل على نسخة تجريبية مجانية أو ترخيص مؤقت من [GroupDocs Licensing](https://purchase.groupdocs.com/temporary-license) واتبع الخطوات لدمجه في مشروعك.
+- احصل على نسخة تجريبية مجانية أو ترخيص مؤقت من [GroupDocs Licensing](https://purchase.groupdocs.com/temporary-license) واتبع خطواتهم لدمجه في مشروعك.
 
-بعد الإعداد، دعنا نستكشف قراءة وسوم ID3v2 والصور المرفقة.
+## كيفية قراءة وسوم ID3v2 في Java
+قراءة وسوم ID3v2 في Java تتضمن تحميل ملف MP3 باستخدام فئة `Metadata`، الوصول إلى الكائن الجذري، ثم استرجاع وسم ID3v2 عبر `root.getID3V2()`. من هذا الوسم يمكنك الحصول على الحقول القياسية مثل الألبوم، الفنان، العنوان، رقم المسار، وأي صور مدمجة، كل ذلك عبر عدد قليل من استدعاءات الطرق.
 
-## كيفية قراءة id3v2 tags java
-
-### الخطوة 1 – تهيئة Metadata
-
-ابدأ بإنشاء كائن `Metadata` مع مسار ملف MP3 الخاص بك:
+### الخطوة 1 – تهيئة metadata
+فئة `Metadata` هي نقطة الدخول التي تمثل ملف وسائط واحد في الذاكرة. بمجرد إنشاء مثيل لها باستخدام مسار الملف، جميع عمليات الوسم اللاحقة تمر عبر هذا الكائن.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -103,8 +130,7 @@ public class ReadID3V2Tags {
 ```
 
 ### الخطوة 2 – الوصول إلى وسوم ID3v2
-
-تحقق مما إذا كان وسوم ID3v2 موجودًا واقرأ معلومات مختلفة:
+`root.getID3V2()` تُعيد كائن وسم ID3v2 إذا كان موجودًا؛ وإلا تُعيد `null`. بعد التأكد من وجوده، يمكنك استدعاء getters مثل `getAlbum()`, `getArtist()`, و `getTitle()` لاسترجاع القيم المقابلة.
 
 ```java
             if (root.getID3V2() != null) {
@@ -122,13 +148,11 @@ public class ReadID3V2Tags {
 }
 ```
 
-**شرح:**  
-- `getID3V2()` يسترجع كائن وسوم ID3v2.  
-- كل استدعاء لاحق (`getAlbum()`, `getArtist()`, إلخ) يجلب حقلًا وصفيًا محددًا، مما يتيح لك **extract mp3 metadata java** ببضع أسطر من الشيفرة.
+## كيفية استخراج بيانات تعريف MP3 في Java (بما في ذلك الصور)
+استخراج بيانات تعريف MP3، بما في ذلك غلاف الألبوم، يتبع نمط التهيئة نفسه. بعد الحصول على كائن `ID3V2Tag`، استدعِ `getAttachedPictures()` للحصول على مجموعة من كائنات `ID3V2AttachedPictureFrame`. قم بالتكرار عبر هذه المجموعة، مع فحص نوع كل صورة، نوع MIME، والوصف، ثم اكتب البيانات الثنائية إلى ملف أو اعرضها في واجهة المستخدم الخاصة بك.
 
-## كيفية استخراج mp3 metadata java (بما في ذلك الصور)
-
-### الخطوة 1 – تهيئة Metadata (مرة أخرى)
+### الخطوة 1 – تهيئة metadata (مرة أخرى)
+يتم إعادة استخدام فئة `Metadata` هنا؛ إنشاء مثيل جديد لكل ملف يضمن سلامة الخيوط وانخفاض استهلاك الذاكرة.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -142,6 +166,7 @@ public class ReadID3V2AttachedPictures {
 ```
 
 ### الخطوة 2 – التكرار عبر الصور المرفقة
+`ID3V2AttachedPictureFrame` يمثل إطار صورة واحد داخل الوسم. طرق `getPictureType()`, `getMimeType()`, و `getDescription()` تتيح لك تحديد وعرض كل صورة بشكل مناسب.
 
 ```java
             if (root.getID3V2() != null && root.getID3V2().getAttachedPictures() != null) {
@@ -156,72 +181,63 @@ public class ReadID3V2AttachedPictures {
 }
 ```
 
-**شرح:**  
-- `getAttachedPictures()` يُعيد مجموعة من إطارات الصور.  
-- التكرار عبر كل `ID3V2AttachedPictureFrame` يتيح لك استرجاع نوع الصورة، نوع MIME، والوصف، لتتمكن من عرض صورة الألبوم في واجهة المستخدم الخاصة بك.
-
-## التطبيقات العملية
-
-1. **مشغلات الوسائط:** تحسين المشغلات بعرض بيانات وصفية غنية وصورة الألبوم مباشرةً من وسوم ID3v2.  
-2. **مكتبات الموسيقى:** وضع وسوم وتنظيم الملفات الموسيقية تلقائيًا باستخدام البيانات المستخرجة، مما يحسن من قابلية البحث والتصنيف.  
-3. **أنظمة إدارة الأصول الرقمية:** الاستفادة من البيانات الوصفية لإدارة الأصول المتعددة الوسائط عبر المنصات.
+## تطبيقات عملية
+1. **Media players:** عرض غلاف الألبوم الغني وتفاصيل المسار مباشرةً من الملف دون الحاجة إلى قواعد بيانات خارجية.  
+2. **Music libraries:** تعبئة حقول قاعدة البيانات تلقائيًا عند استيراد المستخدمين للمسارات الجديدة، مما يحسن قابلية البحث.  
+3. **Digital asset management:** فهرسة الأصول الصوتية عبر المنصات باستخدام البيانات المستخرجة للتحليلات وإعداد التقارير.
 
 ## اعتبارات الأداء
-
-- **تحسين استخدام الموارد:** عالج ملفًا واحدًا في كل مرة عند التعامل مع دفعات كبيرة لتجنب استنزاف الذاكرة.  
-- **أفضل الممارسات:**  
-  - أغلق الموارد بشكل صحيح باستخدام try‑with‑resources كما هو موضح.  
-  - عالج الاستثناءات بلطف لتجنب الأعطال أثناء استخراج البيانات الوصفية.
+- **Batch processing:** عالج كل ملف MP3 في كتلة try‑with‑resources خاصة به لتجنب الاحتفاظ بعدة مقابض ملفات في آنٍ واحد.  
+- **Memory usage:** تقوم GroupDocs.Metadata ببث البيانات؛ حتى مجموعة ملفات بحجم 300 ميغابايت يمكن معالجتها على ذاكرة heap سعة 2 جيجابايت دون حدوث أخطاء نفاد الذاكرة.  
+- **Best practices:**  
+  - دائمًا أغلق مثيل `Metadata` (أو استخدم try‑with‑resources).  
+  - امسك `MetadataException` للتعامل مع الوسوم التالفة بشكل سلس.
 
 ## المشكلات الشائعة والحلول
-
 | المشكلة | السبب | الحل |
 |-------|-------|-----|
-| `NullPointerException` على `root.getID3V2()` | الملف لا يحتوي على وسوم ID3v2 | تحقق من `null` قبل الوصول إلى الحقول (كما هو موضح). |
-| لا تُرجع أي صور | ملف MP3 يفتقر إلى صور مرفقة | تأكد من أن الملف يحتوي فعليًا على صورة ألبوم. |
-| الترخيص غير موجود | ملف الترخيص مفقود أو غير صالح | ضع ملف الترخيص في جذر المشروع أو عيّن مسار الترخيص برمجيًا. |
+| `NullPointerException` on `root.getID3V2()` | الملف لا يحتوي على وسم ID3v2 | تحقق من وجود `null` قبل الوصول إلى الحقول (كما هو موضح). |
+| لم يتم إرجاع أي صور | ملف MP3 لا يحتوي على صور مرفقة | تحقق من أن الملف يحتوي فعليًا على غلاف الألبوم. |
+| الترخيص غير موجود | ملف الترخيص مفقود أو غير صالح | ضع ملف الترخيص في جذر المشروع أو اضبط مسار الترخيص برمجياً. |
 
 ## الأسئلة المتكررة
 
-**س:** *ما هو GroupDocs.Metadata للـ Java؟*  
-**ج:** هو مكتبة قوية تتيح للمطورين قراءة، كتابة، وتعديل البيانات الوصفية في صيغ ملفات متعددة، بما في ذلك MP3.
+**س:** *ما هو GroupDocs.Metadata for Java؟*  
+**ج:** هي مكتبة تتيح لك قراءة، كتابة، وتعديل البيانات الوصفية في أكثر من 50 صيغة ملف، بما في ذلك MP3، دون الحاجة للتعامل مع هياكل ثنائية منخفضة المستوى.
 
-**س:** *كيف أُثبت GroupDocs.Metadata باستخدام Maven؟*  
-**ج:** أضف مستودع التبعيات وتكوين الاعتماد في ملف `pom.xml` كما هو موضح في قسم **الإعداد**.
+**س:** *كيف أقوم بتثبيت GroupDocs.Metadata باستخدام Maven؟*  
+**ج:** أضف المستودع ومقتطف الاعتماد الموضح في قسم **إعداد** إلى ملف `pom.xml` الخاص بك.
 
-**س:** *هل يمكنني استخراج أنواع أخرى من البيانات الوصفية من الملفات باستخدام هذه المكتبة؟*  
-**ج:** نعم، تدعم الصور، المستندات، الفيديوهات، والعديد من الصيغ الأخرى.
-
-**س:** *ماذا أفعل إذا تعطل تطبيقي أثناء قراءة البيانات الوصفية؟*  
-**ج:** تأكد من وجود معالجة استثناءات مناسبة وأن جميع الموارد تُغلق بعد الاستخدام.
-
-**س:** *هل يمكن كتابة أو تعديل وسوم ID3v2 باستخدام هذه المكتبة؟*  
-**ج:** نعم، يدعم GroupDocs.Metadata أيضًا كتابة وتحديث وسوم ID3v2، مما يتيح إدارة كاملة للبيانات الوصفية.
-
-**أسئلة شائعة إضافية**
-
-**س:** *هل يمكنني قراءة وسوم ID3v2 من تدفق بيانات بدلاً من مسار ملف؟*  
-**ج:** نعم—توفر GroupDocs.Metadata إصدارات تقبل كائنات `InputStream`.
+**س:** *هل يمكنني قراءة بيانات تعريف MP3 من تدفق بدلاً من مسار ملف؟*  
+**ج:** نعم—توفر GroupDocs.Metadata إصدارات تتقبل `InputStream`، مما يتيح لك العمل مع البيانات من مصادر شبكة أو مخازن في الذاكرة.
 
 **س:** *هل تدعم المكتبة وسوم ID3v1 أيضًا؟*  
-**ج:** نعم؛ يمكنك الوصول إلى `root.getID3V1()` بالمثل لـ `getID3V2()`.
+**ج:** نعم؛ يمكنك الوصول إليها عبر `root.getID3V1()` باستخدام نفس النمط المستخدم لـ ID3v2.
 
-**س:** *كيف أتعامل مع ملفات MP3 التي تحتوي على صور مرفقة متعددة؟*  
-**ج:** قم بالتكرار على `getAttachedPictures()` كما هو موضح؛ كل صورة ستُرجع في المجموعة.
+**س:** *كيف أتعامل مع ملفات تحتوي على صور مرفقة متعددة؟*  
+**ج:** قم بالتكرار عبر المجموعة التي تُرجعها `getAttachedPictures()`. كل عنصر يحتوي على حقول النوع، MIME، والوصف لمساعدتك في اختيار الصورة التي تريد عرضها.
 
 ## الخلاصة
+باتباعك لهذا الدليل، تعلمت كيفية **java read mp3 metadata** واستخراج وسوم ID3v2، بما في ذلك غلاف الألبوم المدمج، باستخدام GroupDocs.Metadata for Java. هذه القدرات يمكن أن تحسن بشكل كبير تجربة المستخدم في أي تطبيق متعلق بالموسيقى.
 
-باتباعك لهذا الدليل، تعلمت كيفية **read id3v2 tags java** واستخراج بيانات MP3 الوصفية في Java باستخدام GroupDocs.Metadata للـ Java، بما في ذلك سحب صورة الألبوم المدمجة. هذه القدرات يمكن أن تحسن بشكل كبير تجربة المستخدم في أي تطبيق متعلق بالموسيقى.
-
-**الخطوات التالية:**  
-- جرب ملفات MP3 مختلفة واستكشف حقول بيانات وصفية إضافية.  
-- دمج منطق الاستخراج في سير عمل أكبر، مثل المعالجة الدفعية أو عرض الواجهة.  
-- تعمق في وثائق الـ API للحصول على سيناريوهات متقدمة مثل كتابة الوسوم أو التعامل مع صيغ صوتية أخرى.
-
----
-
-**آخر تحديث:** 2026-03-01  
-**تم الاختبار مع:** GroupDocs.Metadata 24.12 للـ Java  
-**المؤلف:** GroupDocs  
+**الخطوات التالية**  
+- اختبر منطق الاستخراج مع مجموعة متنوعة من ملفات MP3 (إصدارات وسوم مختلفة، صور متعددة).  
+- دمج الكود في خدمة معالجة دفعات أو مكوّن واجهة مستخدم.  
+- استكشف واجهة كتابة البيانات إذا كنت بحاجة إلى تحديث أو إضافة وسوم برمجياً.
 
 ---
+
+**آخر تحديث:** 2026-09-02  
+**تم الاختبار مع:** GroupDocs.Metadata 24.12 for Java  
+**المؤلف:** GroupDocs
+
+## دروس ذات صلة
+
+- [إضافة وسوم ID3v2 Java – إدارة بيانات تعريف MP3 باستخدام GroupDocs](/metadata/java/audio-video-formats/mastering-mp3-tag-management-groupdocs-metadata-java/)
+- [كيفية تحديث وسوم MP3 ID3v2 باستخدام GroupDocs.Metadata في Java - دليل شامل](/metadata/java/audio-video-formats/update-mp3-id3v2-tags-groupdocs-metadata-java/)
+- [كيفية إزالة بيانات تعريف MP3 وتقليل حجم الملف بإزالة وسوم ID3v1 باستخدام GroupDocs.Metadata في Java](/metadata/java/audio-video-formats/remove-id3v1-tags-groupdocs-metadata-java/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

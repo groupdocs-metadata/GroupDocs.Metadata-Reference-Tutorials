@@ -1,52 +1,86 @@
 ---
-date: '2026-02-21'
-description: GroupDocs.Metadata kullanarak Java’da mkv meta verilerini nasıl okuyacağınızı,
-  video meta verilerini Java’da nasıl çıkaracağınızı ve EBML başlıklarını, etiketlerini
-  ve izlerini nasıl yöneteceğinizi öğrenin.
+date: '2026-09-02'
+description: GroupDocs.Metadata kullanarak Java'da mkv meta verilerini nasıl çıkaracağınızı
+  öğrenin; EBML başlıkları, etiketler, izler ve pratik kullanım örneklerini kapsar.
 keywords:
-- extract mkv metadata java
-- groupdocs.metadata java
-- read matroska file
-title: Java ile GroupDocs.Metadata kullanarak MKV Metaverisini Okuma – Tam Kılavuz
+- how to extract mkv
+- groupdocs metadata java
+- extract video metadata java
+lastmod: '2026-09-02'
+og_description: Java'da GroupDocs.Metadata kullanarak mkv meta verilerini nasıl çıkaracağınız.
+  Adım adım rehberlik, hızlı cevaplar ve video kataloglaması için gerçek dünya örnekleri
+  alın.
+og_image_alt: Guide showing Java code extracting Matroska (MKV) metadata with GroupDocs.Metadata
+og_title: Java'da GroupDocs.Metadata ile mkv meta verilerini nasıl çıkarılır
+schemas:
+- author: GroupDocs
+  dateModified: '2026-09-02'
+  description: Learn how to extract mkv metadata in Java using GroupDocs.Metadata,
+    covering EBML headers, tags, tracks, and practical use cases.
+  headline: How to extract mkv metadata in Java with GroupDocs.Metadata
+  type: TechArticle
+- questions:
+  - answer: Yes, GroupDocs.Metadata supports MP4, AVI, MOV, and many more. The API
+      pattern is identical – just use the appropriate root package class for the format.
+    question: Can I extract metadata from other video formats with the same library?
+  - answer: A commercial license removes trial limits and unlocks full functionality.
+      The library works in trial mode for evaluation purposes.
+    question: Is a license required for production use?
+  - answer: Absolutely. Once the JAR is on your classpath, all metadata reads are
+      performed locally without any network calls.
+    question: Does the extraction happen offline?
+  - answer: The library streams the container structure, keeping memory usage modest.
+      Ensure your JVM has enough heap for any large tag collections, and consider
+      increasing `-Xmx` if you process extremely large files.
+    question: How does the library perform on very large MKV files (several GB)?
+  - answer: GroupDocs.Metadata primarily focuses on reading. Write support is limited;
+      refer to the latest API documentation for any write‑back capabilities.
+    question: Can I modify the metadata and write it back to the file?
+  type: FAQPage
+tags:
+- extract mkv
+- groupdocs metadata
+- java video processing
+- matroska metadata
+- metadata extraction
+title: Java'da GroupDocs.Metadata ile mkv meta verilerini nasıl çıkarılır
 type: docs
 url: /tr/java/audio-video-formats/extract-matroska-metadata-groupdocs-java/
 weight: 1
 ---
 
-# GroupDocs.Metadata ile Java’da MKV Metadata Okuma
+# Java ile GroupDocs.Metadata kullanarak mkv meta verilerini çıkarma
 
-Multimedya dosyaları her yerde bulunur ve **read mkv metadata java** yapabilmek medya yönetimi, kataloglama ve analiz için esastır. Bu öğreticide Matroska kapsayıcılarından metadata çıkarmanın neden önemli olduğunu, GroupDocs.Metadata'ı nasıl kuracağınızı ve EBML başlıkları, segment bilgileri, etiketler ve iz verilerini çekmek için adım adım kodu keşfedeceksiniz. İster bir video kataloğu oluşturuyor, kodlama parametrelerini doğruluyor ya da otomatik olarak küçük resimler üretiyor olun, bu kılavuz ihtiyacınız olan her şeyi sunar.
+Bu kapsamlı rehberde **Java'da mkv meta verilerini nasıl çıkarılır** konusunu GroupDocs.Metadata kütüphanesini kullanarak öğreneceksiniz. Medya kataloğu oluşturuyor, kodlama parametrelerini doğruluyor ya da küçük resim oluşturmayı otomatikleştiriyor olun, Matroska (MKV) meta verilerini programatik olarak okumak sayısız manuel saati tasarruf ettirir. Nedenlerini, önkoşulları, tam kurulum adımlarını ve EBML başlıklarını, segment bilgilerini, etiketleri ve iz (track) verilerini ortaya çıkaran ayrıntılı kod parçacıklarını adım adım inceleyeceğiz.
 
-## Hızlı Yanıtlar
-- **“read mkv metadata java” ne anlama geliyor?** Java kullanarak MKV dosyalarından programlı olarak metadata okuma sürecidir.  
-- **Hangi kütüphaneyi kullanmalıyım?** Java için GroupDocs.Metadata, Matroska dosyaları için kapsamlı bir API sağlar.  
-- **Bir lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; bir lisans kullanım sınırlamalarını kaldırır.  
-- **Diğer formatları okuyabilir miyim?** Evet, aynı kütüphane MP4, AVI, MP3 ve daha birçok formatı destekler.  
-- **Çalışma zamanında internet erişimi gerekli mi?** Hayır, kütüphane projenize eklendikten sonra tüm çıkarma işlemleri yerel olarak gerçekleşir.  
+## Hızlı cevaplar
+- **“read mkv metadata java” ne anlama geliyor?** Java kullanarak MKV dosyalarından Matroska konteyner meta verilerini (başlıklar, codec'ler, süreler vb.) programatik olarak çıkarmaktır.  
+- **Hangi kütüphaneyi kullanmalıyım?** GroupDocs.Metadata for Java, Matroska ve 50+ diğer format için tam özellikli, yüksek performanslı bir API sunar.  
+- **Lisans gerekir mi?** Değerlendirme için ücretsiz deneme çalışır; ticari bir lisans tüm deneme sınırlamalarını kaldırır.  
+- **Diğer formatları da okuyabilir miyim?** Evet – aynı API MP4, AVI, MOV, MP3 ve daha birçok konteyneri okur.  
+- **Çalışma zamanında internet erişimi gerekli mi?** Hayır – JAR sınıf yolunuzda olduğunda tüm çıkarma işlemleri yerel olarak gerçekleşir.  
 
-## Matroska (MKV) Metadata Nedir?
-Matroska, açık ve esnek bir kapsayıcı formatıdır. Metadata'sı EBML başlığı (dosya sürümü, belge türü), segment detayları (süre, çoklama uygulaması), etiketler (başlıklar, açıklamalar) ve iz özelliklerini (ses/video codec'leri, dil) içerir. Bu verilere erişmek, medya katalogları oluşturmanıza, dosya bütünlüğünü doğrulamanıza veya otomatik olarak küçük resimler üretmenize olanak tanır.
+## Matroska (MKV) meta verileri nedir?
 
-## Neden mkv metadata java okunmalı?
-- **Otomasyon** – Büyük video kütüphaneleri için detayları otomatik olarak çek.  
-- **Kalite kontrolü** – Yayınlamadan önce codec ID'lerini, süreleri ve iz dillerini doğrula.  
-- **Arama ve keşif** – Başlıklar, diller ve zaman damgalarıyla aranabilir veritabanları doldur.  
-- **Çapraz format tutarlılığı** – Diğer kapsayıcılardan (MP4, AVI vb.) video metadata java çıkarmak için aynı kod tabanını kullan.  
+Matroska (MKV) meta verileri, bir Matroska konteyneri içinde depolanan yapısal ve açıklayıcı bilgilerin koleksiyonudur; EBML başlığı (dosya sürümü ve belge türü), segment detayları (süre, muxing uygulaması), kullanıcı tanımlı etiketler (başlıklar, açıklamalar) ve iz (track) özellikleri (audio/video codec ID'leri, dil, bit hızı) gibi. Bu verilere erişmek, aranabilir kataloglar oluşturmanıza, dosya bütünlüğünü doğrulamanıza veya küçük resim oluşturma gibi otomatik iş akışlarını yönlendirmenize olanak tanır.
 
-## Neden Java için GroupDocs.Metadata Kullanılmalı?
-- **Tam özellikli API** – Düşük seviyeli ayrıştırma yapmadan EBML, segmentler, etiketler ve izleri yönetir.  
-- **Performans odaklı** – Çok gigabaytlık dosyalarda bile verimli çalışır.  
-- **Çapraz format desteği** – Aynı kod deseni birçok ses/video kapsayıcısına uygulanabilir.  
-- **Basit Maven entegrasyonu** – Tek bir bağımlılık ekleyin ve çıkarma işlemine başlayın.  
+## Neden Java ile mkv meta verilerini okuyalım?
+
+Java'dan MKV meta verilerini okumak, binlerce video dosyasının **otomatik** olarak kataloglanmasını, yayınlamadan önce codec ve dil gereksinimlerinin **doğrulanmasını** ve başlıklar, süreler ve iz dilleriyle **aranabilir** veri tabanlarının doldurulmasını sağlar. Ayrıca, birden çok konteynerden video meta verilerini çıkarmak için **tek bir kod tabanı** sunarak bakım yükünü azaltır ve medya hattınızda tutarlı kalite kontrolleri yapılmasını garantiler.
+
+## Neden GroupDocs.Metadata for Java kullanmalıyım?
+
+GroupDocs.Metadata for Java, Matroska, MP4, AVI ve MOV dahil **50+ giriş ve çıkış formatını** destekleyen olgun bir kütüphanedir. Kapsayıcı yapılarını akış (stream) olarak işler, bu sayede çok‑gigabayt dosyalarda bile bellek tüketimi düşük kalır. API, düşük seviyeli EBML ayrıştırmasını soyutlayarak iş mantığınıza odaklanmanızı sağlar. Entegrasyon, tek bir Maven bağımlılığı eklemek kadar basittir ve kütüphane en yeni codec spesifikasyonlarını karşılayacak şekilde sürekli güncellenir.
 
 ## Önkoşullar
-- **GroupDocs.Metadata for Java** sürüm 24.12 veya üzeri.  
-- Java Development Kit (JDK) yüklü.  
-- Maven (veya manuel JAR yönetimi).  
-- Deneme amaçlı bir MKV dosyası (`YOUR_DOCUMENT_DIRECTORY` içine yerleştirin).  
+- **GroupDocs.Metadata for Java** sürüm 24.12 veya üzeri.  
+- Java Development Kit (JDK) 8 veya daha yeni bir sürüm yüklü.  
+- Bağımlılıkları yönetmek için Maven (veya manuel JAR yönetimi).  
+- Test amaçlı bir MKV dosyası, kodunuzdan referans verebileceğiniz bir klasörde bulunmalı (ör. `YOUR_DOCUMENT_DIRECTORY`).  
 
-## GroupDocs.Metadata for Java Kurulumu
-Kütüphaneyi Maven kullanarak projenize ekleyin veya JAR dosyasını doğrudan indirin.
+## GroupDocs.Metadata for Java kurulumu
+
+GroupDocs.Metadata for Java, Matroska (MKV) dahil 50'den fazla dosya formatından meta veri okumasını sağlayan bir kütüphanedir. Projenize Maven ile ekleyin veya JAR dosyasını manuel olarak indirin.
 
 **Maven:**  
 ```xml
@@ -67,13 +101,15 @@ Kütüphaneyi Maven kullanarak projenize ekleyin veya JAR dosyasını doğrudan 
 </dependencies>
 ```
 
-**Doğrudan İndirme:**  
+**Doğrudan indirme:**  
 Maven kullanmak istemiyorsanız, en son sürümü [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) adresinden indirin.
 
-### Lisans Edinme
-Özellikleri keşfetmek için ücretsiz deneme ile başlayın. Üretim kullanımında bir lisans satın alın veya deneme sınırlamalarını kaldırmak için [GroupDocs](https://purchase.groupdocs.com/temporary-license/) üzerinden geçici bir lisans edinin.
+### Lisans edinme
 
-### Temel Başlatma ve Kurulum
+Özellikleri keşfetmek için ücretsiz deneme ile başlayın. Üretim ortamı için bir lisans satın alın veya deneme sınırlamalarını kaldırmak amacıyla [GroupDocs](https://purchase.groupdocs.com/temporary-license/) üzerinden geçici bir lisans alın.
+
+### Temel başlatma ve kurulum
+
 Aşağıda GroupDocs.Metadata ile bir MKV dosyasını açmak için gereken minimum kod yer almaktadır.
 
 ```java
@@ -90,11 +126,14 @@ public class MetadataExtraction {
 }
 ```
 
-## GroupDocs.Metadata ile mkv metadata java Nasıl Okunur
-Şimdi okuyabileceğiniz her bir metadata alanına derinlemesine bakacağız.
+## GroupDocs.Metadata ile Java’da mkv meta verilerini nasıl okuyabilirim
 
-### Matroska EBML Başlığını Okuma
-EBML başlığı, sürüm ve belge türü gibi temel dosya bilgilerini depolar.
+`Metadata` bir MKV dosyasını temsil eden ana sınıftır ve meta verilerine erişim sağlar. `new Metadata("path/to/file.mkv")` ile MKV dosyanızı yükleyin ve uygun getter'ları – `getRootPackageGeneric()`, `getSegments()`, `getTags()`, ve `getTracks()` – çağırarak her meta veri bölümünü alın. Bu tek zincir, düşük seviyeli ayrıştırma kodu yazmadan EBML başlığı, segment bilgileri, kullanıcı etiketleri ve bireysel iz detaylarına tam görünürlük kazandırır.
+
+### Matroska EBML başlığını okuma
+
+EBML başlığı, sürüm, belge türü ve dosya boyutu gibi temel dosya bilgilerini saklar.  
+`getRootPackageGeneric()` açılan dosyanın EBML başlık paketini döndürür.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -117,12 +156,14 @@ public class ReadMatroskaEBMLHeader {
 }
 ```
 
-**Anahtar Noktalar**  
-- `getRootPackageGeneric()` size Matroska paketinin giriş noktasını verir.  
-- EBML özellikleri (`docType`, `version`, vb.) dosya uyumluluğunu doğrulamanıza yardımcı olur.
+**Anahtar noktalar**  
+- `getRootPackageGeneric()` Matroska paketinin giriş noktasını döndürür.  
+- EBML özellikleri (`docType`, `version` vb.) daha derin işleme geçmeden dosya uyumluluğunu doğrulamanıza olanak tanır.
 
-### Matroska Segment Bilgilerini Okuma
-Segmentler, genel medya zaman çizelgesini ve oluşturma araçlarını tanımlar.
+### Matroska segment bilgilerini okuma
+
+Segmentler, genel medya zaman çizelgesini, oluşturma araçlarını ve isteğe bağlı başlık bilgisini tanımlar.  
+`getSegments()` süre ve oluşturma detaylarını içeren segment nesneleri koleksiyonunu getirir.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -150,12 +191,14 @@ public class ReadMatroskaSegmentInformation {
 }
 ```
 
-**Anahtar Noktalar**  
+**Anahtar noktalar**  
 - `getSegments()` bir koleksiyon döndürür; her segment kendi başlığını, süresini ve oluşturma uygulaması detaylarını tutabilir.  
-- Çalma listeleri oluşturmak veya kodlama parametrelerini doğrulamak için faydalıdır.
+- Bu veri, oynatma listeleri oluşturmak veya bir dosya topluluğu üzerindeki kodlama parametrelerini doğrulamak için faydalıdır.
 
-### Matroska Etiket Metadata'sını Okuma
-Etiketler, başlıklar, sanatçılar veya özel notlar gibi insan tarafından okunabilir bilgileri depolar.
+### Matroska etiket meta verilerini okuma
+
+Etiketler, başlıklar, sanatçılar veya özel notlar gibi insan tarafından okunabilir bilgileri saklar.  
+`getTags()` dosyayla ilişkili etiket girişlerinin listesini döndürür.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -184,12 +227,14 @@ public class ReadMatroskaTagMetadata {
 }
 ```
 
-**Anahtar Noktalar**  
+**Anahtar noktalar**  
 - Etiketler `targetType` (ör. `movie`, `track`) ile düzenlenir.  
 - `simpleTag` girişleri `TITLE=My Video` gibi anahtar/değer çiftlerini tutar.
 
-### Matroska İz Metadata'sını Okuma
-İzler, bireysel ses, video veya altyazı akışlarını temsil eder.
+### Matroska iz (track) meta verilerini okuma
+
+İzler, konteyner içindeki ayrı audio, video veya altyazı akışlarını temsil eder.  
+`getTracks()` her bir izin teknik özelliklerine erişim sağlar.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -213,46 +258,51 @@ public class ReadMatroskaTrackMetadata {
 }
 ```
 
-**Anahtar Noktalar**  
-- `track.getType()` izin video, ses veya altyazı olduğunu gösterir.  
-- `codecId` codec'i tanımlamanızı sağlar (ör. `V_MPEG4/ISO/AVC`).  
-- Bu veri, kod dönüştürme hatları veya kalite kontrolleri için esastır.
+**Anahtar noktalar**  
+- `track.getType()` akışın video, audio veya altyazı olduğunu belirtir.  
+- `codecId` codec'i tanımlar (ör. `V_MPEG4/ISO/AVC`).  
+- Bu bilgi, kod dönüştürme hatları, kalite kontrolleri ve dinamik akış kararları için kritiktir.
 
-## mkv metadata java Okumak İçin Yaygın Kullanım Durumları
-- **Medya katalogları** – Başlıklar, süreler ve dil kodlarıyla veritabanı tablolarını doldur.  
-- **Otomatik QC** – Yayınlamadan önce her dosyanın gerekli etiketleri içerdiğini doğrula.  
-- **Dinamik akış** – Kullanıcı tercihine göre doğru ses/altyazı izini seç.  
-- **İçerik taşıma** – Metadata'yı bir kez çıkar, ardından yeni bir depolama sistemine enjekte et.  
+## Java’da mkv meta verilerini okuma için yaygın kullanım senaryoları
 
-## Yaygın Sorunlar ve Sorun Giderme
-| Belirti | Muhtemel Neden | Çözüm |
-|---------|----------------|------|
-| `NullPointerException` when accessing `getEbmlHeader()` | Dosya yolu hatalı veya dosya bulunamadı | `new Metadata("...")` içindeki yolu doğrulayın ve dosyanın mevcut olduğundan emin olun. |
-| No tags returned | MKV dosyasında etiket öğeleri yok | Metadata etiketleri içeren bir medya dosyası kullanın (ör. MKVToolNix ile eklenmiş). |
-| Slow processing on large files | Yetersiz yığın (heap) belleği | JVM yığınını artırın (`-Xmx2g` veya daha yüksek) veya mümkünse dosyayı parçalar halinde işleyin. |
+- **Medya katalogları** – Hızlı arama için başlıklar, süreler ve dil kodlarıyla veritabanı tablolarını doldurun.  
+- **Otomatik kalite kontrol** – Her dosyanın gerekli etiketleri içerdiğini ve codec standartlarına uygun olduğunu yayın öncesi doğrulayın.  
+- **Dinamik akış** – Çalışma zamanında kullanıcı tercihine göre uygun audio veya altyazı izini seçin.  
+- **İçerik taşıma** – Meta verileri bir kez çıkarın, ardından yeni bir depolama sistemi veya içerik‑teslim ağına enjekte edin.
 
-## Sıkça Sorulan Sorular
+## Yaygın sorunlar ve çözüm yolları
 
-**S: Aynı kütüphane ile diğer video formatlarından metadata çıkarabilir miyim?**  
-C: Evet, GroupDocs.Metadata MP4, AVI, MOV ve daha birçok formatı destekler. API deseni benzer—sadece uygun kök paket sınıfını kullanın.
+| Semptom | Muhtemel neden | Çözüm |
+|---------|----------------|-------|
+| `NullPointerException` when accessing `getEbmlHeader()` | Dosya yolu hatalı veya dosya bulunamadı | `new Metadata("...")` içindeki yolu doğrulayın ve dosyanın diskte mevcut olduğundan emin olun. |
+| No tags returned | MKV dosyasında etiket öğeleri yok | Meta veri etiketleri içeren bir medya dosyası kullanın (ör. MKVToolNix ile eklenmiş). |
+| Slow processing on large files | Yetersiz heap belleği | JVM heap'ini artırın (`-Xmx2g` veya daha yüksek) veya mümkünse dosyayı parçalara bölerek işleyin. |
 
-**S: Üretim kullanımında lisans gerekli mi?**  
-C: Lisans deneme sınırlamalarını kaldırır ve tam işlevsellik sağlar. Kütüphane değerlendirme için deneme modunda çalışır.
+## Sıkça sorulan sorular
 
-**S: Çıkarma işlemi çevrimdışı mı gerçekleşir?**  
-C: Kesinlikle. JAR sınıf yolunuza eklendikten sonra tüm metadata okumaları ağ çağrısı olmadan yerel olarak yapılır.
+**S: Aynı kütüphane ile diğer video formatlarından meta veri çıkarabilir miyim?**  
+C: Evet, GroupDocs.Metadata MP4, AVI, MOV ve daha birçok formatı destekler. API deseni aynıdır – sadece format için uygun kök paket sınıfını kullanın.
 
-**S: Çok büyük MKV dosyalarında (birkaç GB) nasıl performans gösterir?**  
-C: Kütüphane kapsayıcı yapısını akış olarak okur, bu yüzden bellek kullanımı düşük kalır, ancak büyük etiket koleksiyonları için JVM'inizin yeterli yığını olduğundan emin olun.
+**S: Üretim ortamında lisans gerekli mi?**  
+C: Ticari bir lisans deneme sınırlamalarını kaldırır ve tam işlevselliği açar. Kütüphane değerlendirme amaçlı deneme modunda çalışır.
 
-**S: Metadata'yı değiştirebilir ve dosyaya geri yazabilir miyim?**  
-C: GroupDocs.Metadata öncelikle okuma üzerine odaklanır. Yazma yetenekleri sınırlıdır; yazma desteği için en yeni API belgelerine bakın.
+**S: Çıkarma işlemi çevrim dışı mı gerçekleşir?**  
+C: Kesinlikle. JAR sınıf yolunda olduğunda tüm meta veri okumaları yerel olarak, ağ çağrısı olmadan yapılır.
 
-## Sonuç
-Artık GroupDocs.Metadata kullanarak **read mkv metadata java** için eksiksiz, üretim‑hazır bir kılavuza sahipsiniz. EBML başlıkları, segment bilgileri, etiketler ve iz detaylarına erişerek medya kataloglarını güçlendirebilir, kalite kontrollerini otomatikleştirebilir veya video akış hizmetlerini zenginleştirebilirsiniz. Kod parçacıklarıyla deney yapın, iş akışlarınıza uyarlayın ve kütüphanenin daha geniş format desteğini keşfederek daha fazla olasılık elde edin.
+**S: Kütüphane çok büyük MKV dosyalarında (birkaç GB) nasıl performans gösterir?**  
+C: Kütüphane konteyner yapısını akış olarak işler, bellek kullanımını düşük tutar. Büyük etiket koleksiyonları için JVM heap'inin yeterli olduğundan emin olun ve çok büyük dosyalar işliyorsanız `-Xmx` değerini artırmayı düşünün.
+
+**S: Meta veriyi değiştirip dosyaya geri yazabilir miyim?**  
+C: GroupDocs.Metadata öncelikle okuma üzerine odaklanır. Yazma desteği sınırlıdır; yazma‑geri yetenekleri için en son API belgelerine bakın.
 
 ---
 
-**Son Güncelleme:** 2026-02-21  
-**Test Edilen Versiyon:** GroupDocs.Metadata 24.12 for Java  
+**Son Güncelleme:** 2026-09-02  
+**Test Edilen:** GroupDocs.Metadata 24.12 for Java  
 **Yazar:** GroupDocs
+
+## İlgili Eğitimler
+
+- [Java ve GroupDocs.Metadata ile toplu olarak mkv altyazılarını çıkarma](/metadata/java/audio-video-formats/extract-subtitles-mkv-files-java-groupdocs-metadata/)
+- [GroupDocs.Metadata kullanarak video meta verilerini java ile çıkarma](/metadata/java/audio-video-formats/mastering-avi-metadata-handling-groupdocs-java/)
+- [GroupDocs.Metadata ile FLV Meta Verilerini Java’da çıkarma](/metadata/java/audio-video-formats/flv-metadata-extraction-groupdocs-java/)

@@ -47,10 +47,6 @@ url: /zh-hant/java/metadata-standards/extract-xmp-metadata-groupdocs-metadata-ja
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # 如何使用 GroupDocs.Metadata for Java 提取 XMP 元資料
 
 在現代數位工作流程中，快速且可靠地 **提取 XMP** 元資料，可能決定資產庫是否可搜尋，或是變成混亂的檔案堆。本教學將逐步說明設定函式庫、載入檔案，以及提取基本、Dublin Core 與 Photoshop 專屬的 XMP 包，讓您今天即可在 Java 應用程式中整合豐富的元資料。
@@ -254,9 +250,3 @@ A: 在 `Metadata` 建構子中提供解密密碼，例如 `new Metadata(filePath
 - [在 Java 中提取 EXIF 軟體標籤：使用 GroupDocs.Metadata 的完整指南](/metadata/java/metadata-standards/master-exif-data-java-groupdocs-metadata/)
 - [如何使用 GroupDocs.Metadata for Java 提取元資料 – 教學與範例](/metadata/java/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

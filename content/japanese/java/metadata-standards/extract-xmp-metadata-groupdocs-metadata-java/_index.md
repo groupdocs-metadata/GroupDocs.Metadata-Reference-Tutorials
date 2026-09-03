@@ -47,10 +47,6 @@ url: /ja/java/metadata-standards/extract-xmp-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # GroupDocs.Metadata for Java を使用した XMP メタデータの抽出方法
 
 現代のデジタルワークフローでは、**XMP メタデータの抽出方法** を迅速かつ確実に行えるかが、検索可能な資産ライブラリと混沌としたファイルダンプの違いを生みます。このチュートリアルでは、ライブラリの設定、ファイルの読み込み、基本的な XMP、Dublin Core、Photoshop 固有の XMP パケットの取得まで、すべての手順を順を追って説明します。これにより、今日から Java アプリケーションにリッチなメタデータを統合できます。
@@ -257,9 +253,3 @@ A: 復号パスワードを `Metadata` コンストラクタに渡します: `ne
 - [Java で EXIF ソフトウェアタグを抽出する完全ガイド - GroupDocs.Metadata 使用](/metadata/java/metadata-standards/master-exif-data-java-groupdocs-metadata/)
 - [GroupDocs.Metadata for Java でメタデータを抽出する方法 – チュートリアルと例](/metadata/java/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

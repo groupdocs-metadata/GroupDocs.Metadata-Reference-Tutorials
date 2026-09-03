@@ -60,10 +60,6 @@ url: /zh-hant/java/audio-video-formats/read-id3v2-tags-groupdocs-metadata-java/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # 如何在 Java 中使用 GroupDocs.Metadata for Java 讀取 MP3 元資料
 
 手動整理大型音樂庫可能是一場噩夢。如果你需要 **java read mp3 metadata** 快速且可靠地完成，本指南將逐步說明。我们將示範如何使用 GroupDocs.Metadata for Java 從 MP3 檔案中提取專輯、藝術家、曲名，甚至嵌入的專輯封面。完成後，你將能將豐富的元資料處理整合到任何媒體播放器或音樂管理應用程式中。
@@ -236,8 +232,3 @@ public class ReadID3V2AttachedPictures {
 - [如何在 Java 中使用 GroupDocs.Metadata 更新 MP3 ID3v2 標籤 - 完整指南](/metadata/java/audio-video-formats/update-mp3-id3v2-tags-groupdocs-metadata-java/)
 - [如何在 Java 中使用 GroupDocs.Metadata 移除 MP3 ID3v1 標籤以剝除元資料並減少檔案大小](/metadata/java/audio-video-formats/remove-id3v1-tags-groupdocs-metadata-java/)
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

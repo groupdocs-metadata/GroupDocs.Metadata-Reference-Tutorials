@@ -48,10 +48,6 @@ url: /el/java/metadata-standards/extract-xmp-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Πώς να εξάγετε μεταδεδομένα XMP με GroupDocs.Metadata for Java
 
 Στις σύγχρονες ψηφιακές ροές εργασίας, **πώς να εξάγετε XMP** μεταδεδομένα γρήγορα και αξιόπιστα μπορεί να κάνει τη διαφορά μεταξύ μιας αναζητήσιμης βιβλιοθήκης περιουσιακών στοιχείων και μιας χαοτικής αποθήκευσης αρχείων. Αυτό το tutorial σας καθοδηγεί βήμα προς βήμα — τη ρύθμιση της βιβλιοθήκης, τη φόρτωση αρχείων και την εξαγωγή βασικών, Dublin Core, και Photoshop‑συγκεκριμένων πακέτων XMP — ώστε να ενσωματώσετε πλούσια μεταδεδομένα στις Java εφαρμογές σας σήμερα.
@@ -255,9 +251,3 @@ A: Παρέχετε τον κωδικό αποκρυπτογράφησης στ�
 - [Εξαγωγή ετικέτας λογισμικού EXIF σε Java: Πλήρης Οδηγός Χρήσης GroupDocs.Metadata](/metadata/java/metadata-standards/master-exif-data-java-groupdocs-metadata/)
 - [Πώς να εξάγετε μεταδεδομένα με GroupDocs.Metadata for Java – Μαθήματα & Παραδείγματα](/metadata/java/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

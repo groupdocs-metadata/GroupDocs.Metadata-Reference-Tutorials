@@ -48,10 +48,6 @@ url: /it/java/metadata-standards/extract-xmp-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Come estrarre i metadati XMP con GroupDocs.Metadata per Java
 
 Nei moderni flussi di lavoro digitali, **come estrarre i metadati XMP** rapidamente e in modo affidabile può fare la differenza tra una libreria di risorse ricercabile e un deposito di file caotico. Questo tutorial ti guida passo passo—dall'installazione della libreria, al caricamento dei file, all'estrazione dei pacchetti XMP di base, Dublin Core e specifici di Photoshop—così potrai integrare metadati ricchi nelle tue applicazioni Java oggi.
@@ -255,9 +251,3 @@ Approfondisci l'intero set di funzionalità consultando la documentazione uffici
 - [Estrai il tag Software EXIF in Java: Guida completa usando GroupDocs.Metadata](/metadata/java/metadata-standards/master-exif-data-java-groupdocs-metadata/)
 - [Come estrarre i metadati con GroupDocs.Metadata per Java – Tutorial ed esempi](/metadata/java/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

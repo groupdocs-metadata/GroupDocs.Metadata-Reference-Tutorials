@@ -47,10 +47,6 @@ url: /zh/java/metadata-standards/extract-xmp-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # 如何使用 GroupDocs.Metadata for Java 提取 XMP 元数据
 
 在现代数字工作流中，快速可靠地 **提取 XMP** 元数据可以决定是拥有可搜索的资产库还是混乱的文件堆。本教程将逐步演示——设置库、加载文件以及提取基本、Dublin Core 和 Photoshop 特定的 XMP 包——帮助您今天就在 Java 应用中集成丰富的元数据。
@@ -254,9 +250,3 @@ Photoshop 会嵌入额外信息，如颜色模式、分辨率和图层计数。�
 - [Extract EXIF Software Tag in Java: A Complete Guide Using GroupDocs.Metadata](/metadata/java/metadata-standards/master-exif-data-java-groupdocs-metadata/)
 - [How to Extract Metadata with GroupDocs.Metadata for Java – Tutorials & Examples](/metadata/java/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -61,10 +61,6 @@ url: /vi/java/audio-video-formats/read-id3v2-tags-groupdocs-metadata-java/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Cách đọc siêu dữ liệu MP3 trong Java bằng GroupDocs.Metadata cho Java
 
 Việc tổ chức một thư viện nhạc lớn bằng tay có thể là một cơn ác mộng. Nếu bạn cần **java read mp3 metadata** nhanh chóng và đáng tin cậy, hướng dẫn này sẽ chỉ cho bạn cách thực hiện. Chúng tôi sẽ hướng dẫn cách trích xuất album, nghệ sĩ, tiêu đề và thậm chí cả ảnh bìa album được nhúng từ các tệp MP3 bằng GroupDocs.Metadata cho Java. Khi kết thúc, bạn sẽ sẵn sàng tích hợp việc xử lý siêu dữ liệu phong phú vào bất kỳ trình phát media hoặc ứng dụng quản lý nhạc nào.
@@ -238,8 +234,3 @@ Bằng cách làm theo hướng dẫn này, bạn đã học cách **java read m
 - [Thêm thẻ ID3v2 Java – Quản lý siêu dữ liệu MP3 với GroupDocs](/metadata/java/audio-video-formats/mastering-mp3-tag-management-groupdocs-metadata-java/)
 - [Cách cập nhật thẻ MP3 ID3v2 bằng GroupDocs.Metadata trong Java - Hướng dẫn toàn diện](/metadata/java/audio-video-formats/update-mp3-id3v2-tags-groupdocs-metadata-java/)
 - [Cách loại bỏ siêu dữ liệu MP3 và giảm kích thước tệp bằng cách xóa thẻ ID3v1 sử dụng GroupDocs.Metadata trong Java](/metadata/java/audio-video-formats/remove-id3v1-tags-groupdocs-metadata-java/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -48,10 +48,6 @@ url: /ar/java/metadata-standards/extract-xmp-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # كيفية استخراج بيانات XMP الوصفية باستخدام GroupDocs.Metadata للغة Java
 
 في سير العمل الرقمي الحديث، يمكن أن يجعل **كيفية استخراج XMP** الوصفية بسرعة وموثوقية الفرق بين مكتبة أصول قابلة للبحث ومخزن ملفات فوضوي. يشرح هذا البرنامج التعليمي كل خطوة — إعداد المكتبة، تحميل الملفات، واستخراج حزم XMP الأساسية، Dublin Core، والخاصة بـ Photoshop — حتى تتمكن من دمج البيانات الوصفية الغنية في تطبيقات Java الخاصة بك اليوم.
@@ -255,9 +251,3 @@ metadata.dispose();
 - [استخراج وسم EXIF للبرمجيات في Java: دليل كامل باستخدام GroupDocs.Metadata](/metadata/java/metadata-standards/master-exif-data-java-groupdocs-metadata/)
 - [كيفية استخراج البيانات الوصفية باستخدام GroupDocs.Metadata للغة Java – دروس وأمثلة](/metadata/java/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

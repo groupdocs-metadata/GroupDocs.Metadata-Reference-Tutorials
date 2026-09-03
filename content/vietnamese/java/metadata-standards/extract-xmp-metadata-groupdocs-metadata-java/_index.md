@@ -48,10 +48,6 @@ url: /vi/java/metadata-standards/extract-xmp-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Cách trích xuất siêu dữ liệu XMP với GroupDocs.Metadata cho Java
 
 Trong các quy trình kỹ thuật số hiện đại, **cách trích xuất XMP** nhanh chóng và đáng tin cậy có thể tạo ra sự khác biệt giữa một thư viện tài sản có thể tìm kiếm và một đống tệp hỗn loạn. Hướng dẫn này sẽ đưa bạn qua từng bước—cài đặt thư viện, tải tệp, và lấy các gói XMP cơ bản, Dublin Core và đặc thù của Photoshop—để bạn có thể tích hợp siêu dữ liệu phong phú vào các ứng dụng Java của mình ngay hôm nay.
@@ -254,9 +250,3 @@ Bạn đã có một hướng dẫn hoàn chỉnh, sẵn sàng cho môi trườn
 - [Trích xuất thẻ phần mềm EXIF trong Java: Hướng dẫn đầy đủ sử dụng GroupDocs.Metadata](/metadata/java/metadata-standards/master-exif-data-java-groupdocs-metadata/)
 - [Cách trích xuất siêu dữ liệu với GroupDocs.Metadata cho Java – Hướng dẫn & Ví dụ](/metadata/java/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

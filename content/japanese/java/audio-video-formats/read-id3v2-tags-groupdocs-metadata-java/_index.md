@@ -59,10 +59,6 @@ url: /ja/java/audio-video-formats/read-id3v2-tags-groupdocs-metadata-java/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # JavaでGroupDocs.Metadata for Javaを使用してMP3メタデータを読む方法
 
 大規模な音楽ライブラリを手作業で整理するのは悪夢です。**java read mp3 metadata** を迅速かつ確実に取得したい場合、本ガイドが具体的な手順を示します。GroupDocs.Metadata for Java を使って MP3 ファイルからアルバム、アーティスト、タイトル、さらには埋め込みのアルバムアートを抽出する方法を解説します。最後まで読めば、任意のメディアプレーヤーや音楽管理アプリケーションにリッチなメタデータ処理を組み込む準備が整います。
@@ -250,8 +246,3 @@ public class ReadID3V2AttachedPictures {
 - [How to Update MP3 ID3v2 Tags Using GroupDocs.Metadata in Java - A Comprehensive Guide](/metadata/java/audio-video-formats/update-mp3-id3v2-tags-groupdocs-metadata-java/)
 - [How to Strip MP3 Metadata and Reduce File Size by Removing ID3v1 Tags Using GroupDocs.Metadata in Java](/metadata/java/audio-video-formats/remove-id3v1-tags-groupdocs-metadata-java/)
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

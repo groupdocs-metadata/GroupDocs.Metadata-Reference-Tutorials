@@ -49,10 +49,6 @@ url: /hu/java/metadata-standards/extract-xmp-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Hogyan lehet XMP metaadatokat kinyerni a GroupDocs.Metadata for Java segítségével
 
 A modern digitális munkafolyamatokban az **XMP metaadatok** gyors és megbízható kinyerése döntő lehet egy kereshető eszközkönyvtár és egy kaotikus fájlhalom között. Ez az útmutató végigvezet minden lépésen – a könyvtár beállításán, a fájlok betöltésén és az alap, Dublin Core és Photoshop‑specifikus XMP csomagok kinyerésén – hogy ma már be tudja integrálni a gazdag metaadatokat Java alkalmazásaiba.
@@ -253,9 +249,3 @@ Mélyedjen el a teljes funkciókészletben a hivatalos dokumentáció áttekint�
 - [EXIF szoftvercímke kinyerése Java-ban: Teljes útmutató a GroupDocs.Metadata használatával](/metadata/java/metadata-standards/master-exif-data-java-groupdocs-metadata/)
 - [Hogyan nyerjünk ki metaadatokat a GroupDocs.Metadata for Java segítségével – Oktatóanyagok és példák](/metadata/java/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -47,10 +47,6 @@ url: /ko/java/metadata-standards/extract-xmp-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # GroupDocs.Metadata for Java으로 XMP 메타데이터 추출 방법
 
 현대 디지털 워크플로에서 **XMP 메타데이터를 빠르고 신뢰성 있게 추출하는 방법**은 검색 가능한 자산 라이브러리와 혼란스러운 파일 덤프 사이의 차이를 만들 수 있습니다. 이 튜토리얼은 라이브러리 설정, 파일 로드, 기본, Dublin Core 및 Photoshop 전용 XMP 패킷 추출 등 모든 단계를 안내하여 Java 애플리케이션에 풍부한 메타데이터를 바로 통합할 수 있도록 합니다.
@@ -254,9 +250,3 @@ A: `Metadata` 생성자에 복호화 비밀번호를 제공하십시오: `new Me
 - [Java에서 EXIF 소프트웨어 태그 추출: GroupDocs.Metadata 사용 완전 가이드](/metadata/java/metadata-standards/master-exif-data-java-groupdocs-metadata/)
 - [GroupDocs.Metadata for Java로 메타데이터 추출 방법 – 튜토리얼 및 예제](/metadata/java/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

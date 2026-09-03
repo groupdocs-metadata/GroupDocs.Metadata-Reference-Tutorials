@@ -62,10 +62,6 @@ url: /tr/java/audio-video-formats/read-id3v2-tags-groupdocs-metadata-java/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Java'da GroupDocs.Metadata for Java kullanarak MP3 meta verilerini okuma
 
 Büyük bir müzik kütüphanesini elle düzenlemek bir kabus olabilir. **java read mp3 metadata**'yi hızlı ve güvenilir bir şekilde yapmanız gerekiyorsa, bu rehber tam olarak nasıl yapılacağını gösterir. GroupDocs.Metadata for Java kullanarak MP3 dosyalarından albüm, sanatçı, başlık ve hatta gömülü albüm kapağını çıkarmayı adım adım anlatacağız. Sonuna geldiğinizde, zengin meta veri işleme yeteneğini herhangi bir medya‑player veya müzik‑yönetim uygulamasına entegre etmeye hazır olacaksınız.
@@ -252,8 +248,3 @@ Bu rehberi izleyerek **java read mp3 metadata** işlemini ve GroupDocs.Metadata 
 - [Java’da ID3v2 Etiketleri Ekle – MP3 Meta Verilerini GroupDocs ile Yönet](/metadata/java/audio-video-formats/mastering-mp3-tag-management-groupdocs-metadata-java/)
 - [Java’da GroupDocs.Metadata Kullanarak MP3 ID3v2 Etiketlerini Güncelleme – Kapsamlı Rehber](/metadata/java/audio-video-formats/update-mp3-id3v2-tags-groupdocs-metadata-java/)
 - [Java’da GroupDocs.Metadata Kullanarak MP3 Meta Verilerini Temizleme ve ID3v1 Etiketlerini Kaldırarak Dosya Boyutunu Azaltma](/metadata/java/audio-video-formats/remove-id3v1-tags-groupdocs-metadata-java/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

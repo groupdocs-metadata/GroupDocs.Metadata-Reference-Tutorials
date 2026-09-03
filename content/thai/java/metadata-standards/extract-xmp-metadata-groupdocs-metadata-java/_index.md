@@ -47,10 +47,6 @@ url: /th/java/metadata-standards/extract-xmp-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # วิธีการดึงข้อมูลเมตาดาต้า XMP ด้วย GroupDocs.Metadata สำหรับ Java
 
 ในกระบวนการทำงานดิจิทัลสมัยใหม่, **วิธีการดึง XMP** เมตาดาต้าอย่างรวดเร็วและเชื่อถือได้สามารถสร้างความแตกต่างระหว่างห้องสมุดสินทรัพย์ที่ค้นหาได้และการทิ้งไฟล์ที่วุ่นวายได้ คู่มือฉบับนี้จะพาคุณผ่านทุกขั้นตอน—ตั้งค่าห้องสมุด, โหลดไฟล์, และดึงข้อมูลแพ็กเกจ XMP พื้นฐาน, Dublin Core, และ Photoshop‑specific—เพื่อให้คุณสามารถรวมเมตาดาต้าที่มีคุณค่าเข้าไปในแอปพลิเคชัน Java ของคุณได้ทันที
@@ -254,9 +250,3 @@ A: Provide the decryption password to the `Metadata` constructor: `new Metadata(
 - [Extract EXIF Software Tag in Java: A Complete Guide Using GroupDocs.Metadata](/metadata/java/metadata-standards/master-exif-data-java-groupdocs-metadata/)
 - [How to Extract Metadata with GroupDocs.Metadata for Java – Tutorials & Examples](/metadata/java/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

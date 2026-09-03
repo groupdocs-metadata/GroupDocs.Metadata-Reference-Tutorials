@@ -48,10 +48,6 @@ url: /ru/java/metadata-standards/extract-xmp-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Как извлечь XMP‑метаданные с помощью GroupDocs.Metadata для Java
 
 ## Быстрые ответы
@@ -253,9 +249,3 @@ A: Передайте пароль расшифровки в конструкт�
 - [Извлечь EXIF Software Tag в Java: Полное руководство с использованием GroupDocs.Metadata](/metadata/java/metadata-standards/master-exif-data-java-groupdocs-metadata/)
 - [Как извлечь метаданные с помощью GroupDocs.Metadata для Java – Руководства и примеры](/metadata/java/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

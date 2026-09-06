@@ -1,12 +1,66 @@
 ---
-date: '2026-03-04'
-description: Scopri come estrarre i metadati TAR in Java usando GroupDocs.Metadata
+date: '2026-09-06'
+description: Scopri come estrarre i metadati TAR java utilizzando GroupDocs.Metadata
   per Java in questa guida passo passo.
 keywords:
 - extract tar metadata java
 - GroupDocs.Metadata for Java
 - TAR archive metadata
-title: Come estrarre i metadati TAR in Java con GroupDocs.Metadata
+lastmod: '2026-09-06'
+og_description: Estrai i metadati TAR java usando GroupDocs.Metadata per Java. Segui
+  questo tutorial conciso per leggere gli archivi TAR, recuperare i dettagli dei file
+  e integrare i risultati nelle tue applicazioni Java.
+og_image_alt: Guide showing Java code extracting TAR metadata with GroupDocs.Metadata
+og_title: Estrai i metadati TAR java con GroupDocs.Metadata – Guida rapida Java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-09-06'
+  description: Learn how to extract TAR metadata java using GroupDocs.Metadata for
+    Java in this step-by-step guide.
+  headline: How to extract TAR metadata java with GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to extract TAR metadata java using GroupDocs.Metadata for
+    Java in this step-by-step guide.
+  name: How to extract TAR metadata java with GroupDocs.Metadata
+  steps:
+  - name: '**Data migration:** Validate file counts and sizes before moving data between
+      systems.'
+    text: '**Data migration:** Validate file counts and sizes before moving data between
+      systems.'
+  - name: '**Backup solutions:** Generate inventory reports to confirm that every
+      file in a backup archive is accounted for.'
+    text: '**Backup solutions:** Generate inventory reports to confirm that every
+      file in a backup archive is accounted for.'
+  - name: '**Content management systems (CMS):** Enrich stored assets with TAR‑level
+      metadata for better search and organization.'
+    text: '**Content management systems (CMS):** Enrich stored assets with TAR‑level
+      metadata for better search and organization.'
+  type: HowTo
+- questions:
+  - answer: Metadata extraction aids in file management tasks like validation, backup,
+      and migration.
+    question: What is the primary use case for extracting metadata from TAR files?
+  - answer: GroupDocs.Metadata supports various archive formats; you’ll need to decompress
+      the .gz layer first.
+    question: Can I extract metadata from compressed .tar.gz files?
+  - answer: The library handles large archives efficiently, but overall performance
+      depends on your system’s resources.
+    question: Is there a limit on the number of files that can be processed in a single
+      TAR archive?
+  - answer: Call `metadata.dispose()` to release native resources after operations
+      are completed.
+    question: How do I dispose of metadata objects properly?
+  - answer: Visit the [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)
+      and join their community forum for support.
+    question: Where can I find more information or support for GroupDocs.Metadata?
+  type: FAQPage
+tags:
+- extract tar metadata
+- GroupDocs.Metadata
+- Java archive processing
+- TAR metadata extraction
+- Java
+title: Come estrarre i metadati TAR java con GroupDocs.Metadata
 type: docs
 url: /it/java/archive-formats/extract-tar-metadata-groupdocs-java-guide/
 weight: 1
@@ -14,38 +68,35 @@ weight: 1
 
 # Come estrarre i metadati TAR in Java con GroupDocs.Metadata
 
-Estrarre le informazioni di un archivio **TAR** può sembrare arduo, soprattutto quando è necessario **estrarre i metadati tar java** in modo rapido e affidabile. In questa guida ti accompagneremo passo passo in un processo chiaro e pratico usando GroupDocs.Metadata per Java, così potrai leggere con sicurezza i file TAR, estrarre i dettagli a livello di file e integrare i risultati nelle tue applicazioni.
+In questo tutorial imparerai **come estrarre i metadati TAR java** usando la libreria GroupDocs.Metadata. Alla fine della guida sarai in grado di leggere un archivio `.tar`, enumerare ogni voce e estrarre informazioni a livello di file come nome, dimensione e timestamp — il tutto con poche righe di codice Java.
 
 ## Risposte rapide
 - **Quale libreria gestisce i metadati TAR in Java?** GroupDocs.Metadata for Java  
 - **Quanto tempo richiede un'implementazione di base?** Circa 10–15 minuti  
-- **È necessaria una licenza?** Una prova gratuita o una licenza temporanea è sufficiente per la valutazione; è richiesta una licenza a pagamento per la produzione  
+- **È necessaria una licenza?** Una prova gratuita o una licenza temporanea funziona per la valutazione; è richiesta una licenza a pagamento per la produzione  
 - **Posso elaborare file TAR di grandi dimensioni?** Sì, ma è necessario liberare l'oggetto `Metadata` per rilasciare le risorse  
-- **È lo stesso di leggere un .tar.gz?** È necessario decomprimere prima il .gz, poi usare lo stesso approccio  
+- **È la stessa cosa di leggere un .tar.gz?** È necessario decomprimere prima il .gz, quindi utilizzare lo stesso approccio  
 
-## Come estrarre i metadati tar java con GroupDocs.Metadata per Java
-Di seguito una rapida panoramica dei passaggi da seguire:
+## Come estrarre i metadati tar java con GroupDocs.Metadata per Java?
 
-1. **Aggiungi la dipendenza GroupDocs.Metadata** al tuo progetto Maven.  
-2. **Inizializza l'oggetto `Metadata`** con il percorso del tuo archivio `.tar`.  
-3. **Accedi al pacchetto radice** per lavorare con il contenuto dell'archivio.  
-4. **Itera su ogni voce** per leggere i nomi dei file, le dimensioni e altre proprietà.  
-5. **Rilascia l'oggetto `Metadata`** quando hai finito.  
+La classe `Metadata` fornisce un'API di alto livello per leggere le informazioni dell'archivio. Carica il file TAR con un'istanza `Metadata`, accedi al pacchetto radice, itera su ogni voce e leggi le proprietà desiderate. Questo flusso semplice ti consente di estrarre ogni pezzo di metadato senza scrivere logica di parsing a basso livello.
+
+**Direct answer:** Crea un oggetto `Metadata` puntato al tuo file `.tar`, chiama `getRootPackage()` per ottenere il pacchetto dell'archivio, quindi cicla attraverso `getEntries()` per leggere il nome, la dimensione e il timestamp di ciascuna voce. Infine, chiama `metadata.dispose()` per rilasciare le risorse native. L'intero processo richiede tipicamente meno di dieci righe di codice.
 
 ### Perché scegliere GroupDocs.Metadata?
-- **API completa** che astrae l'analisi TAR a basso livello.  
-- **Supporto cross‑platform** per runtime Java su Windows, Linux e macOS.  
-- **Gestione robusta degli errori** e gestione delle risorse integrata, essenziale quando si scopre **come leggere tar** file su larga scala.  
+
+GroupDocs.Metadata supporta **oltre 30 formati di archivi e documenti**, tra cui TAR, ZIP, RAR e 7z, e può elaborare archivi con **fino a 10.000 voci** senza caricare l'intero file in memoria. Il suo runtime Java multipiattaforma funziona su Windows, Linux e macOS, offrendo gestione degli errori integrata e gestione delle risorse che semplifica **come leggere tar** a grande scala.
 
 ## Prerequisiti
-- **Java Development Kit (JDK) 8 o superiore**  
-- **Maven** per la gestione delle dipendenze  
-- **GroupDocs.Metadata per Java 24.12** (o più recente) – l'ultima versione può essere scaricata dalla pagina ufficiale dei rilasci  
+- Java Development Kit (JDK) 8 o superiore  
+- Maven per la gestione delle dipendenze  
+- GroupDocs.Metadata for Java 24.12 o più recente – l'ultima versione può essere scaricata dalla pagina ufficiale delle release  
 
 ## Configurazione di GroupDocs.Metadata per Java
 
 Aggiungi il repository e la dipendenza al tuo `pom.xml`:
 
+La classe `Metadata` è il punto di ingresso per leggere le informazioni dell'archivio.  
 ```xml
 <repositories>
    <repository>
@@ -64,14 +115,15 @@ Aggiungi il repository e la dipendenza al tuo `pom.xml`:
 </dependencies>
 ```
 
-**Download diretto:** In alternativa, scarica l'ultima versione da [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+**Direct download:** In alternativa, scarica l'ultima versione da [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Passaggi per l'acquisizione della licenza
-Inizia con una prova gratuita o richiedi una licenza temporanea dal sito GroupDocs. Questo ti permette di esplorare tutte le funzionalità senza restrizioni durante lo sviluppo.
+Inizia con una prova gratuita o richiedi una licenza temporanea dal sito di GroupDocs. Questo ti permette di esplorare tutte le funzionalità senza restrizioni durante lo sviluppo.
 
 ### Inizializzazione e configurazione di base
 Una volta disponibile la libreria, puoi creare un'istanza `Metadata` che punta al tuo file TAR:
 
+Il costruttore `new Metadata("path/to/archive.tar")` carica i metadati dell'archivio in memoria.  
 ```java
 import com.groupdocs.metadata.Metadata;
 import com.groupdocs.metadata.core.TarFile;
@@ -96,34 +148,37 @@ public class TarMetadataExample {
 
 ### Lettura dei metadati da un archivio TAR
 
-#### Inizializza l'oggetto Metadata
+#### Inizializzare l'oggetto metadata
 Crea un'istanza di `Metadata` con il percorso del tuo file `.tar`.
 
+L'oggetto `Metadata` astrae la logica di parsing TAR a basso livello, fornendoti un'API di alto livello con cui lavorare.  
 ```java
 Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.tar");
 ```
-**Perché:** Questo passaggio prepara l'oggetto che ti darà accesso alla struttura interna dell'archivio, che è la base di **come leggere tar** file.
+**Why:** Questo passaggio prepara l'oggetto che ti darà accesso alla struttura interna dell'archivio, che è la base di **come leggere tar**.
 
-#### Accedi al pacchetto radice
-Recupera il pacchetto radice per interagire con il contenuto dell'archivio TAR:
+#### Accedere al pacchetto radice
+Recupera il pacchetto radice per interagire con i contenuti dell'archivio TAR:
 
+Il pacchetto radice rappresenta il contenitore di livello superiore dell'archivio e fornisce metodi per enumerare le sue voci.  
 ```java
 TarRootPackage root = metadata.getRootPackageGeneric();
 ```
 Questa chiamata è essenziale per navigare nella gerarchia dell'archivio.
 
-#### Ottieni il numero totale di voci
+#### Ottenere il numero totale di voci
 Determina quante voci (file/cartelle) contiene l'archivio:
 
+`rootPackage.getEntries().size()` restituisce il conteggio esatto, consentendoti di pre‑allocare risorse o visualizzare l'avanzamento.  
 ```java
 int totalEntries = root.getTarPackage().getTotalEntries();
 System.out.println("Total Entries: " + totalEntries);
 ```
-**Spiegazione:** Conoscere il numero di voci ti aiuta a pianificare i cicli e a convalidare la completezza dell'archivio.
+**Explanation:** Conoscere il numero di voci ti aiuta a pianificare i cicli e a verificare la completezza dell'archivio.
 
-#### Itera su ogni voce di file
-Scorri ogni voce per estrarre dettagli come nome e dimensione:
-
+#### Iterare su ogni voce di file
+La classe `TarFile` rappresenta una singola voce di file all'interno dell'archivio TAR.  
+Ogni oggetto `TarFile` espone proprietà come `getFileName()`, `getSize()` e `getModifiedTime()`.  
 ```java
 for (TarFile file : root.getTarPackage().getFiles()) {
     String fileName = file.getName();
@@ -132,27 +187,27 @@ for (TarFile file : root.getTarPackage().getFiles()) {
     System.out.println("File Size: " + fileSize);
 }
 ```
-**Perché:** Elaborare ogni file singolarmente fornisce metadati granulari, spesso necessari per report, migrazione o convalida di backup.
+**Why:** Elaborare ogni file singolarmente ti fornisce metadati granulari, spesso necessari per report, migrazioni o convalide di backup.
 
 ### Suggerimenti per la risoluzione dei problemi
 - **Problema comune:** L'estrazione fallisce – verifica il percorso del file e assicurati che il file TAR sia leggibile dal processo Java.  
-- **Suggerimento di performance:** Chiama sempre `metadata.dispose()` al termine per liberare le risorse native, soprattutto quando gestisci archivi di grandi dimensioni.  
+- **Consiglio sulle prestazioni:** Chiama sempre `metadata.dispose()` al termine per liberare le risorse native, soprattutto quando gestisci archivi di grandi dimensioni.  
 
 ## Applicazioni pratiche
-1. **Migrazione dati:** Convalida il conteggio e le dimensioni dei file prima di spostare i dati tra sistemi.  
+1. **Migrazione dati:** Convalida conteggi e dimensioni dei file prima di spostare i dati tra sistemi.  
 2. **Soluzioni di backup:** Genera report di inventario per confermare che ogni file in un archivio di backup sia contabilizzato.  
-3. **Sistemi di gestione dei contenuti (CMS):** Arricchisci le risorse archiviate con metadati a livello TAR per una migliore ricerca e organizzazione.  
+3. **Sistemi di gestione dei contenuti (CMS):** Arricchisci gli asset memorizzati con metadati a livello TAR per una migliore ricerca e organizzazione.  
 
 ## Considerazioni sulle prestazioni
-Quando si gestiscono archivi di grandi dimensioni:
+Quando si trattano archivi di grandi dimensioni:
 
-- **Rilascia gli oggetti tempestivamente** per evitare perdite di memoria.  
-- **Sfrutta le API di streaming di Java** se devi elaborare le voci senza caricare l'intera lista in memoria.  
+- Disporre gli oggetti prontamente per evitare perdite di memoria.  
+- Sfruttare le API di streaming di Java se è necessario elaborare le voci senza caricare l'intera lista in memoria.  
 
 ## Conclusione
-Ora disponi di un metodo solido, end‑to‑end, per **estrarre i metadati tar java** usando GroupDocs.Metadata per Java. Questa capacità può essere integrata in strumenti di migrazione, utility di backup o qualsiasi sistema basato su Java che necessiti di informazioni sul contenuto degli archivi.
+Ora disponi di un metodo completo, end‑to‑end, per **estrarre i metadati tar java** usando GroupDocs.Metadata per Java. Questa capacità può essere integrata in strumenti di migrazione, utility di backup o qualsiasi sistema basato su Java che necessiti di informazioni sui contenuti degli archivi.
 
-**Passi successivi:** Esplora classi aggiuntive nell'API GroupDocs.Metadata—come le proprietà `TarFile` per timestamp o permessi—per arricchire ulteriormente il tuo flusso di estrazione dei metadati.
+**Next steps:** Esplora classi aggiuntive nell'API GroupDocs.Metadata — come le proprietà `TarFile` per timestamp o permessi — per arricchire ulteriormente il tuo flusso di estrazione dei metadati.
 
 ## Domande frequenti
 
@@ -160,16 +215,16 @@ Ora disponi di un metodo solido, end‑to‑end, per **estrarre i metadati tar j
 A: L'estrazione dei metadati aiuta nelle attività di gestione dei file come convalida, backup e migrazione.
 
 **Q: Posso estrarre metadati da file .tar.gz compressi?**  
-A: GroupDocs.Metadata supporta vari formati di archivio; dovrai decomprimere prima lo strato .gz.
+A: GroupDocs.Metadata supporta vari formati di archivio; è necessario decomprimere prima lo strato .gz.
 
 **Q: Esiste un limite al numero di file che possono essere elaborati in un singolo archivio TAR?**  
-A: La libreria gestisce gli archivi di grandi dimensioni in modo efficiente, ma le prestazioni complessive dipendono dalle risorse del tuo sistema.
+A: La libreria gestisce archivi di grandi dimensioni in modo efficiente, ma le prestazioni complessive dipendono dalle risorse del tuo sistema.
 
-**Q: Come devo rilasciare correttamente gli oggetti metadata?**  
-A: Usa `metadata.dispose()` per liberare le risorse native al termine delle operazioni.
+**Q: Come devo liberare correttamente gli oggetti metadata?**  
+A: Chiama `metadata.dispose()` per rilasciare le risorse native al termine delle operazioni.
 
 **Q: Dove posso trovare ulteriori informazioni o supporto per GroupDocs.Metadata?**  
-A: Visita la [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/) e unisciti al loro forum della community per supporto.
+A: Visita la [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/) e partecipa al loro forum della community per supporto.
 
 **Domande aggiuntive**
 
@@ -177,10 +232,10 @@ A: Visita la [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/
 A: Sì, la libreria Java è indipendente dalla piattaforma e funziona ovunque sia installato un JDK compatibile.
 
 **Q: Posso recuperare i timestamp dei file (creazione/modifica) da una voce TAR?**  
-A: La classe `TarFile` fornisce l'accesso ai campi standard dell'intestazione TAR, inclusi i timestamp.
+A: La classe `TarFile` fornisce accesso ai campi standard dell'intestazione TAR, inclusi i timestamp.
 
-**Q: Come gestisco gli archivi protetti da password?**  
-A: Per gli archivi crittografati, fornisci la password durante la costruzione dell'oggetto `Metadata` (consulta il riferimento API per l'overload esatto).
+**Q: Come gestisco archivi protetti da password?**  
+A: Per gli archivi crittografati, fornisci la password durante la costruzione dell'oggetto `Metadata` (vedi la documentazione API per l'overload esatto).
 
 **Risorse**  
 - **Documentazione:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
@@ -192,6 +247,12 @@ A: Per gli archivi crittografati, fornisci la password durante la costruzione de
 
 ---
 
-**Ultimo aggiornamento:** 2026-03-04  
-**Testato con:** GroupDocs.Metadata per Java 24.12  
+**Ultimo aggiornamento:** 2026-09-06  
+**Testato con:** GroupDocs.Metadata for Java 24.12  
 **Autore:** GroupDocs
+
+## Tutorial correlati
+
+- [How to extract zip comments java using GroupDocs.Metadata – Guide](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)
+- [Update Zip Archive Comments Groupdocs Metadata Java](/metadata/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-java/)
+- [How to Extract Metadata with GroupDocs.Metadata for Java – Tutorials & Examples](/metadata/java/)

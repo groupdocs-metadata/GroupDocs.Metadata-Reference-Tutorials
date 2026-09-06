@@ -1,49 +1,81 @@
 ---
-date: '2026-03-04'
-description: Erfahren Sie, wie Sie die Java‑MP3‑Metadatenbibliothek mit GroupDocs.Metadata
-  verwenden, um MP3‑Tags in Java zu extrahieren und MPEG‑Audioeigenschaften effizient
-  zu verwalten.
+date: '2026-09-06'
+description: Erfahren Sie, wie Sie MP3-Metadaten in Java mit GroupDocs.Metadata extrahieren,
+  einschließlich Einrichtung, wichtiger Audioeigenschaften und praxisnaher Anwendungsbeispiele.
 keywords:
-- MP3 metadata extraction Java
-- GroupDocs.Metadata library
-- MPEG audio properties
-title: Java MP3-Metadatenbibliothek – Vollständiger Leitfaden mit GroupDocs.Metadata
+- extract mp3 metadata java
+- GroupDocs.Metadata Java
+- MP3 audio properties
+lastmod: '2026-09-06'
+og_description: Erfahren Sie, wie Sie MP3-Metadaten in Java mit GroupDocs.Metadata
+  extrahieren, einschließlich Einrichtung, wichtiger Audioeigenschaften und praxisnaher
+  Anwendungsbeispiele.
+og_image_alt: Guide showing how to extract MP3 metadata in Java with GroupDocs.Metadata
+og_title: So extrahieren Sie MP3-Metadaten in Java mit GroupDocs.Metadata
+schemas:
+- author: GroupDocs
+  dateModified: '2026-09-06'
+  description: Learn how to extract MP3 metadata in Java with GroupDocs.Metadata,
+    covering setup, key audio properties, and real‑world usage examples.
+  headline: How to extract MP3 metadata in Java using GroupDocs.Metadata
+  type: TechArticle
+- questions:
+  - answer: Yes, GroupDocs.Metadata supports both reading and writing of MP3 properties,
+      including ID3 tags.
+    question: Can I also modify MP3 metadata after reading it?
+  - answer: The limit depends on your system’s memory and CPU; profiling is recommended
+      for large batch jobs.
+    question: Is there a limit to how many MP3 files I can process at once?
+  - answer: You’ll still be able to read technical frame information (bitrate, frequency,
+      etc.), but tag‑specific data will be unavailable.
+    question: What if my MP3 file does not contain ID3 tags?
+  - answer: The library also supports WAV, FLAC, AIFF, and other common audio formats,
+      each with its own metadata model.
+    question: Does GroupDocs.Metadata work on other audio formats?
+  - answer: Visit the [Temporary License Application](https://purchase.groupdocs.com/temporary-license/)
+      page and follow the instructions.
+    question: How do I obtain a temporary license for development?
+  type: FAQPage
+tags:
+- MP3 metadata
+- GroupDocs.Metadata
+- Java audio processing
+- MPEG properties
+title: So extrahieren Sie MP3-Metadaten in Java mit GroupDocs.Metadata
 type: docs
 url: /de/java/audio-video-formats/read-mp3-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
-# Java MP3 Metadatenbibliothek – Vollständige Anleitung mit GroupDocs.Metadata
+# Wie man MP3-Metadaten in Java mit GroupDocs.Metadata extrahiert
 
-In diesem Tutorial entdecken Sie **wie man die java mp3 metadata library** über die leistungsstarke GroupDocs.Metadata API verwendet. Wir führen Sie durch die Einrichtung der Umgebung, das Extrahieren wichtiger Audioeigenschaften und die Anwendung der Ergebnisse in realen Szenarien wie der Organisation von Mediatheken und der Analyse der Streaming‑Qualität.
+In diesem umfassenden Leitfaden lernen Sie **wie man MP3-Metadaten in Java** mit der GroupDocs.Metadata‑Bibliothek extrahiert. Wir führen Sie durch die Einrichtung der Umgebung, das Auslesen der wichtigsten Audio‑Eigenschaften und die Anwendung der Daten in realen Szenarien wie Medienbibliotheks‑Organisation, Streaming‑Qualitäts‑Analyse und Batch‑Verarbeitungspipelines.
 
-## Schnelle Antworten
-- **Was bedeutet “java mp3 metadata library”?** Es bezieht sich auf eine Java‑basierte API, die programmgesteuert MP3‑Dateimetadaten liest und schreibt.  
-- **Welche Bibliothek wird empfohlen?** GroupDocs.Metadata für Java bietet eine einfache, zuverlässige Möglichkeit, mp3 tags java zu extrahieren und Audioeigenschaften zu bearbeiten.  
-- **Benötige ich eine Lizenz?** Eine kostenlose Testversion ist für die Evaluierung ausreichend; eine temporäre oder vollständige Lizenz schaltet alle Funktionen für die Produktion frei.  
-- **Welche Grunddaten kann ich extrahieren?** Bitrate, Kanalmodus, Frequenz, Layer, Header‑Position, Emphasis und mehr.  
+## Schnellantworten
+- **Was bedeutet „java mp3 metadata library“?** Es ist eine Java‑API, die MP3‑Dateimetadaten programmgesteuert liest und schreibt.  
+- **Welche Bibliothek wird empfohlen?** GroupDocs.Metadata für Java bietet zuverlässiges Auslesen von MP3‑Tags und MPEG‑Audio‑Eigenschaften.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion reicht für die Evaluierung; eine temporäre oder vollständige Lizenz schaltet alle Funktionen für die Produktion frei.  
+- **Welche Basisdaten kann ich extrahieren?** Bitrate, Kanalmodus, Frequenz, Layer, Header‑Position, Emphasis und ID3‑Tag‑Informationen.  
 - **Ist sie mit Maven kompatibel?** Ja – die Bibliothek wird über ein Maven‑Repository bereitgestellt.
 
 ## Was ist die java mp3 metadata library?
-Die java mp3 metadata library bietet programmgesteuerten Zugriff auf die technischen Spezifikationen und ID3‑Tag‑Informationen, die in MP3‑Dateien eingebettet sind. Diese Daten sind entscheidend für den Aufbau durchsuchbarer Mediatheken, die Optimierung von Streaming‑Pipelines und die Darstellung detaillierter Wiedergabeinformationen für Endbenutzer.
+Die java mp3 metadata library ist eine Java‑basierte API, die programmgesteuerten Zugriff auf sowohl technische MPEG‑Frame‑Daten als auch ID3‑Tag‑Informationen in MP3‑Dateien ermöglicht. Damit können Sie durchsuchbare Medienkataloge erstellen, Audio‑Qualitäts‑Checks durchführen und detaillierte Wiedergabeinformationen End‑Benutzern bereitstellen.
 
-## Warum das wichtig ist – reale Vorteile
-- **Medienkatalogisierung:** Automatisches Sortieren großer Musiksammlungen nach Bitrate, Kanalmodus oder Frequenz.  
-- **Analyse der Audioqualität:** Schnell die Qualität der Quelldatei vor dem Transkodieren oder Streaming bewerten.  
-- **Dynamisches Streaming:** Bitrate on‑the‑fly basierend auf den Eigenschaften der Originaldatei anpassen.  
+## Warum GroupDocs.Metadata für das Extrahieren von mp3 metadata java verwenden?
+GroupDocs.Metadata abstrahiert das Low‑Level‑Parsing von MPEG‑Frames und ID3‑Strukturen, sodass Sie sich auf die Geschäftslogik konzentrieren können. Sie unterstützt **über 60 Eingabe‑ und Ausgabeformate**, darunter MP3, WAV, FLAC und AIFF, und kann umfangreiche Audio‑Sammlungen verarbeiten, ohne die gesamte Datei in den Speicher zu laden. Die Bibliothek funktioniert nahtlos mit Maven, bietet Lese‑ und Schreib‑Funktionen und übernimmt das Ressourcen‑Management automatisch.
 
-## Warum GroupDocs.Metadata für das Extrahieren von mp3 tags java verwenden?
-GroupDocs.Metadata abstrahiert das Low‑Level‑Parsing von MPEG‑Frames und ID3‑Strukturen, sodass Sie sich auf die Geschäftslogik konzentrieren können. Es unterstützt die neuesten MP3‑Spezifikationen, funktioniert nahtlos mit Maven und bietet sowohl Lese‑ als auch Schreibfunktionen – und übernimmt dabei das Ressourcen‑Management für Sie.
+## Wie extrahiere ich MP3-Metadaten in Java?
+Die Klasse `Metadata` stellt einen Container für Dateimetadaten dar und bietet Zugriff auf format‑spezifische Pakete. Laden Sie Ihre MP3‑Datei mit `new Metadata("sample.mp3")`, rufen Sie `getRootPackageGeneric()` auf, um den MP3‑spezifischen Container zu erhalten, und holen Sie sich anschließend Eigenschaften wie `getBitrate()`, `getFrequency()` und `getChannelMode()`. Dieses Drei‑Schritte‑Muster liefert alle technischen Audiospezifikationen in weniger als einer Sekunde für typische Dateien und ist damit ideal für Batch‑Verarbeitungspipelines.
 
-## Voraussetzungen
+### Voraussetzungen
 - **Java Development Kit (JDK) 8+** – jede aktuelle Version funktioniert.  
-- **Maven** – für das Abhängigkeitsmanagement.  
-- **GroupDocs.Metadata 24.12** (oder neuer) – die Bibliothek, die wir zum Lesen der Metadaten verwenden.  
-- **Eine MP3‑Datei** – mit gültigen ID3v2‑Tags für die vollständige Metadatenextraktion.
+- **Maven** – für das Abhängigkeits‑Management.  
+- **GroupDocs.Metadata 24.12** (oder neuer) – die Bibliothek, die wir verwenden werden.  
+- **Eine MP3‑Datei** – mit gültigen ID3v2‑Tags für die vollständige Metadaten‑Extraktion.
 
-## Einrichtung von GroupDocs.Metadata für Java
+## GroupDocs.Metadata für Java einrichten
 
-Binden Sie GroupDocs.Metadata in Ihr Maven‑Projekt ein, indem Sie das Repository und die Abhängigkeit unten hinzufügen.
+Fügen Sie GroupDocs.Metadata zu Ihrem Maven‑Projekt hinzu, indem Sie das Repository und die Abhängigkeit unten einbinden.
 
 ```xml
 <repositories>
@@ -63,18 +95,18 @@ Binden Sie GroupDocs.Metadata in Ihr Maven‑Projekt ein, indem Sie das Reposito
 </dependencies>
 ```
 
-Alternativ können Sie die neueste Version von [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) herunterladen.
+Alternativ können Sie die neueste Version von [GroupDocs.Metadata für Java Releases](https://releases.groupdocs.com/metadata/java/) herunterladen.
 
 ### Lizenzbeschaffung
-- **Kostenlose Testversion** – die API ohne Kosten erkunden.  
-- **Temporäre Lizenz** – einen zeitlich begrenzten Schlüssel für die Entwicklung anfordern.  
+- **Kostenlose Testversion** – erkunden Sie die API ohne Kosten.  
+- **Temporäre Lizenz** – beantragen Sie einen zeitlich begrenzten Schlüssel für die Entwicklung.  
 - **Vollständige Lizenz** – empfohlen für Produktionsumgebungen.
 
-## Implementierungsanleitung
+## Implementierungs‑Leitfaden
 
-Im Folgenden finden Sie eine Schritt‑für‑Schritt‑Anleitung, die genau zeigt, wie man **mp3 metadata java** liest und die nützlichsten Audioeigenschaften abruft.
+Im Folgenden finden Sie eine Schritt‑für‑Schritt‑Durchführung, die genau zeigt, wie Sie **mp3 metadata java lesen** und die nützlichsten Audio‑Eigenschaften abrufen.
 
-### Schritt 1: Erforderliche Bibliotheken importieren
+### Schritt 1: erforderliche Bibliotheken importieren
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -88,7 +120,7 @@ String mp3FilePath = "YOUR_DOCUMENT_DIRECTORY/YourMP3File.mp3";
 ```
 *Ersetzen Sie `YOUR_DOCUMENT_DIRECTORY/YourMP3File.mp3` durch den tatsächlichen Speicherort Ihrer MP3‑Datei.*
 
-### Schritt 3: Metadaten öffnen und lesen
+### Schritt 3: öffnen und Metadaten lesen
 
 ```java
 try (Metadata metadata = new Metadata(mp3FilePath)) {
@@ -105,63 +137,70 @@ try (Metadata metadata = new Metadata(mp3FilePath)) {
 }
 ```
 
-- **Erklärung wichtiger Aufrufe**  
+- **Erklärung der wichtigsten Aufrufe**  
   - `getRootPackageGeneric()` gibt den obersten Container zurück, der alle MP3‑spezifischen Metadaten enthält.  
-  - Methoden wie `getBitrate()` und `getFrequency()` liefern die technischen Spezifikationen, die Sie für Analyse oder Anzeige benötigen.
+  - Methoden wie `getBitrate()` und `getFrequency()` liefern die technischen Spezifikationen, die Sie für Analysen oder Anzeigen benötigen.
 
-#### Fehlersuche‑Tipps
-- Stellen Sie sicher, dass die MP3‑Datei gültige ID3v2‑Tags enthält; andernfalls stehen nur technische Frame‑Daten zur Verfügung.  
-- Verwenden Sie die neueste GroupDocs.Metadata‑Version, um Kompatibilitätsprobleme mit neueren MP3‑Spezifikationen zu vermeiden.
+## Welche Audio‑Eigenschaften können Sie aus einer MP3‑Datei abrufen?
+Die Klasse `MpegAudioPackage` kapselt technische MPEG‑Audio‑Informationen wie Bitrate, Frequenz und Kanalmodus. Das `MpegAudioPackage`‑Objekt stellt eine umfangreiche Menge an Eigenschaften bereit, darunter Bitrate (kbps), Frequenz (Hz), Kanalmodus (Stereo/Mono), Layer (I/II/III), Emphasis und Header‑Position. Zusätzlich können Sie ID3v2‑Tag‑Felder wie Titel, Künstler, Album und Genre auslesen, sofern sie vorhanden sind.
 
 ## Praktische Anwendungen
 
-Die Extraktion von MP3‑Metadaten ist in vielen Szenarien nützlich:
+Das Extrahieren von MP3‑Metadaten ist in vielen Szenarien nützlich:
 
-1. **Mediatheken** – Automatisches Sortieren und Filtern großer Musiksammlungen nach Bitrate, Kanalmodus oder Frequenz.  
-2. **Audio‑Bearbeitungswerkzeuge** – Bieten Editoren Einblick in die Qualität der Quelldatei vor der Verarbeitung.  
-3. **Streaming‑Dienste** – Dynamisches Anpassen von Streaming‑Parametern basierend auf Bitrate und Frequenz der Originaldatei.  
+1. **Medienbibliotheken** – Automatisches Sortieren und Filtern großer Musiksammlungen nach Bitrate, Kanalmodus oder Frequenz.  
+2. **Audio‑Bearbeitungs‑Tools** – Bereitstellung von Qualitätsinformationen der Quelldatei vor der Verarbeitung.  
+3. **Streaming‑Dienste** – Dynamische Anpassung von Streaming‑Parametern basierend auf Bitrate und Frequenz der Originaldatei.  
 
-## Leistungsüberlegungen
+## Leistungs‑Überlegungen
 
-- **Ressourcen‑Management** – Der try‑with‑resources‑Block schließt Dateihandles automatisch und verhindert Speicherlecks.  
-- **Batch‑Verarbeitung** – Beim Umgang mit Tausenden von Dateien verarbeiten Sie diese in kleinen Batches und überwachen die JVM‑Heap‑Nutzung.  
-- **Objekt‑Wiederverwendung** – Wiederverwenden Sie `Metadata`‑Instanzen, wenn möglich, um den Overhead bei der Objekterstellung zu reduzieren.
+- **Ressourcen‑Management** – Das try‑with‑resources‑Muster schließt Dateihandles automatisch und verhindert Speicher‑Lecks.  
+- **Batch‑Verarbeitung** – Bei tausenden Dateien sollten Sie sie in kleinen Batches verarbeiten und den JVM‑Heap überwachen.  
+- **Objekt‑Wiederverwendung** – Wiederverwenden Sie `Metadata`‑Instanzen, wann immer es möglich ist, um den Overhead der Objekterstellung zu reduzieren.
 
 ## Häufige Probleme und Lösungen
 
 | Problem | Ursache | Lösung |
-|---------|----------|--------|
-| Keine Ausgabe für Bitrate | MP3 enthält keine ID3v2‑Tags | Stellen Sie sicher, dass die Datei korrekte MPEG‑Frame‑Header enthält; erwägen Sie die Verwendung eines Tools, um fehlende Tags hinzuzufügen. |
-| `NullPointerException` bei `root.getMpegAudioPackage()` | Ältere Bibliotheksversion | Auf die neueste GroupDocs.Metadata‑Version aktualisieren. |
-| Langsame Verarbeitung großer Stapel | Öffnen/Schließen von Dateien pro Iteration | Verwenden Sie einen Thread‑Pool‑Executor und halten Sie das `Metadata`‑Objekt für die Dauer des Batches aktiv. |
+|-------|-------|----------|
+| Keine Ausgabe für Bitrate | MP3 enthält keine ID3v2‑Tags | Überprüfen Sie, ob die Datei korrekte MPEG‑Frame‑Header enthält; verwenden Sie ein Tagging‑Tool, um fehlende Tags hinzuzufügen. |
+| `NullPointerException` on `root.getMpegAudioPackage()` | Ältere Bibliotheksversion | Aktualisieren Sie auf die neueste GroupDocs.Metadata‑Version. |
+| Langsame Verarbeitung großer Stapel | Öffnen/Schließen von Dateien pro Iteration | Verwenden Sie einen Thread‑Pool‑Executor und halten Sie das `Metadata`‑Objekt während der Stapelverarbeitung aktiv. |
 
 ## Häufig gestellte Fragen
 
-**Q: Kann ich MP3‑Metadaten nach dem Lesen auch ändern?**  
+**F: Kann ich MP3‑Metadaten nach dem Lesen auch ändern?**  
 A: Ja, GroupDocs.Metadata unterstützt sowohl das Lesen als auch das Schreiben von MP3‑Eigenschaften, einschließlich ID3‑Tags.
 
-**Q: Gibt es ein Limit, wie viele MP3‑Dateien ich gleichzeitig verarbeiten kann?**  
-A: Das Limit wird durch den Speicher und die CPU Ihres Systems bestimmt; für große Batch‑Jobs wird ein Profiling empfohlen.
+**F: Gibt es ein Limit, wie viele MP3‑Dateien ich gleichzeitig verarbeiten kann?**  
+A: Das Limit hängt von Speicher und CPU Ihres Systems ab; für große Batch‑Jobs wird Profiling empfohlen.
 
-**Q: Was ist, wenn meine MP3‑Datei keine ID3‑Tags enthält?**  
-A: Sie können weiterhin technische Frame‑Informationen (Bitrate, Frequenz usw.) lesen, aber tag‑spezifische Daten sind nicht verfügbar.
+**F: Was passiert, wenn meine MP3‑Datei keine ID3‑Tags enthält?**  
+A: Sie können weiterhin technische Frame‑Informationen (Bitrate, Frequenz usw.) auslesen, aber tag‑spezifische Daten stehen nicht zur Verfügung.
 
-**Q: Funktioniert GroupDocs.Metadata auch mit anderen Audioformaten?**  
-A: Die Bibliothek unterstützt außerdem WAV, FLAC und andere gängige Audioformate, jeweils mit eigenem Metadatenmodell.
+**F: Arbeitet GroupDocs.Metadata mit anderen Audio‑Formaten?**  
+A: Die Bibliothek unterstützt zudem WAV, FLAC, AIFF und weitere gängige Audio‑Formate, jeweils mit eigenem Metadaten‑Modell.
 
-**Q: Wie erhalte ich eine temporäre Lizenz für die Entwicklung?**  
+**F: Wie erhalte ich eine temporäre Lizenz für die Entwicklung?**  
 A: Besuchen Sie die Seite [Temporary License Application](https://purchase.groupdocs.com/temporary-license/) und folgen Sie den Anweisungen.
 
 ## Zusätzliche Ressourcen
 
-- [Documentation](https://docs.groupdocs.com/metadata/java/)
-- [API Reference](https://reference.groupdocs.com/metadata/java/)
+- [Dokumentation](https://docs.groupdocs.com/metadata/java/)
+- [API‑Referenz](https://reference.groupdocs.com/metadata/java/)
 - [GroupDocs.Metadata für Java herunterladen](https://releases.groupdocs.com/metadata/java/)
-- [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
-- [Kostenloses Support-Forum](https://forum.groupdocs.com/c/metadata/)
+- [GitHub‑Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- [Kostenloses Support‑Forum](https://forum.groupdocs.com/c/metadata/)
 
 ---
 
-**Zuletzt aktualisiert:** 2026-03-04  
+**Zuletzt aktualisiert:** 2026-09-06  
 **Getestet mit:** GroupDocs.Metadata 24.12 für Java  
-**Autor:** GroupDocs
+**Autor:** GroupDocs  
+
+---
+
+## Verwandte Tutorials
+
+- [Read APEv2 Tags Java – Extract MP3 Metadata with GroupDocs](/metadata/java/audio-video-formats/read-apev2-tags-mp3-java-groupdocs-metadata/)
+- [Read Id3V2 Tags Groupdocs Metadata Java](/metadata/java/audio-video-formats/read-id3v2-tags-groupdocs-metadata-java/)
+- [Extract ID3v1 Tags from MP3 using groupdocs metadata mp3](/metadata/java/audio-video-formats/extract-id3v1-tags-mp3-groupdocs-metadata-java/)

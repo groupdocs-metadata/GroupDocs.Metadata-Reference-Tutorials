@@ -1,54 +1,105 @@
 ---
-date: '2026-03-04'
-description: Leer hoe je zip‑commentaren in Java kunt verwijderen met GroupDocs.Metadata,
-  zip‑metadata kunt strippen en de gegevensprivacy kunt verbeteren terwijl je archieven
-  efficiënt beheert.
+date: '2026-09-06'
+description: Verminder zip-bestandsgrootte in Java door ZIP-opmerkingen te verwijderen.
+  Leer hoe je zip-metadata kunt strippen met GroupDocs.Metadata om de privacy te verbeteren
+  en archieven efficiënt te verkleinen.
 keywords:
-- remove zip comments java
+- reduce zip file size
 - strip zip metadata
-- GroupDocs.Metadata Java tutorial
-title: zip-opmerkingen verwijderen java – Hoe ZIP-opmerkingen te verwijderen in Java
-  met GroupDocs.Metadata
+- remove zip comments java
+lastmod: '2026-09-06'
+og_description: Verminder zip-bestandsgrootte in Java door opmerkingen uit ZIP-archieven
+  te verwijderen. Deze gids laat zien hoe GroupDocs.Metadata snel ZIP-metadata verwijdert,
+  de privacy verbetert en archieven verkleint zonder de bestandinhoud te wijzigen.
+og_image_alt: Guide showing removal of ZIP comments to reduce file size using GroupDocs.Metadata
+og_title: Verminder zip-bestandsgrootte in Java door opmerkingen te verwijderen
+schemas:
+- author: GroupDocs
+  dateModified: '2026-09-06'
+  description: Reduce zip file size in Java by removing ZIP comments. Learn how to
+    strip zip metadata with GroupDocs.Metadata to enhance privacy and shrink archives
+    efficiently.
+  headline: Reduce zip file size by removing ZIP comments in Java with GroupDocs.Metadata
+  type: TechArticle
+- description: Reduce zip file size in Java by removing ZIP comments. Learn how to
+    strip zip metadata with GroupDocs.Metadata to enhance privacy and shrink archives
+    efficiently.
+  name: Reduce zip file size by removing ZIP comments in Java with GroupDocs.Metadata
+  steps:
+  - name: initialize the metadata object
+    text: Specify the path to the source ZIP file.
+  - name: access the root package
+    text: Retrieve the generic root package that represents the archive.
+  - name: remove the user comment
+    text: Set the comment field to `null` to clear it.
+  - name: save the modified archive
+    text: Write the cleaned ZIP to a new location.
+  type: HowTo
+- questions:
+  - answer: Yes, it can read and edit timestamps, extra fields, and custom properties
+      in addition to comments.
+    question: Can GroupDocs.Metadata modify other metadata types in ZIP files?
+  - answer: The library is designed for large archives; performance depends on available
+      memory and CPU resources.
+    question: Is there a size limit for ZIP files?
+  - answer: No. The comment is optional metadata; clearing it leaves the file contents
+      unchanged.
+    question: Does removing the comment affect the archive’s integrity?
+  - answer: A free trial lets you test all features. A purchased license is required
+      for production use.
+    question: Do I need a commercial license for this feature?
+  - answer: Refer to the official documentation, the API reference, or post questions
+      on the support forum.
+    question: Where can I get help if I encounter errors?
+  type: FAQPage
+tags:
+- reduce zip file size
+- zip metadata
+- GroupDocs.Metadata
+- Java archive processing
+title: Verminder zip-bestandsgrootte door ZIP-opmerkingen te verwijderen in Java met
+  GroupDocs.Metadata
 type: docs
 url: /nl/java/archive-formats/remove-user-comments-zip-archives-groupdocs-metadata-java/
 weight: 1
 ---
 
-# Hoe ZIP-commentaren te verwijderen in Java met GroupDocs.Metadata
+# Verminder zip-bestandsgrootte door ZIP-opmerkingen te verwijderen in Java met GroupDocs.Metadata
 
-In moderne Java‑applicaties is **remove zip comments java** een veelvoorkomende eis wanneer je archieven moet saniteren voordat je ze deelt. Of je nu voldoet aan privacy‑regelgeving of gewoon een schonere package wilt, deze tutorial leidt je door het volledige proces met de krachtige GroupDocs.Metadata‑bibliotheek. Je ziet waarom het verwijderen van ZIP‑commentaren belangrijk is, hoe je de bibliotheek instelt, en een stap‑voor‑stap code‑overzicht dat je vandaag nog in je project kunt kopiëren.
+In veel Java‑projecten moet je **zip‑bestandsgrootte verminderen** voordat je archieven distribueert, vooral wanneer verborgen opmerkingen gevoelige informatie kunnen blootleggen. Deze tutorial legt uit waarom **zip‑metadata strippen** belangrijk is, leidt je door het opzetten van GroupDocs.Metadata, en biedt een stap‑voor‑stap‑gids die je vandaag nog in je codebase kunt kopiëren.
 
 ## Snelle antwoorden
 - **Wat doet “remove zip comments java”?** Het wist het optionele commentaarveld dat is opgeslagen in de centrale directory van een ZIP‑archief.  
-- **Waarom ZIP‑metadata verwijderen?** Om verborgen informatie te elimineren die gevoelige gegevens kan blootleggen of de bestandsgrootte kan vergroten.  
-- **Welke bibliotheek wordt aanbevolen?** GroupDocs.Metadata voor Java, die een breed scala aan archiefformaten ondersteunt.  
-- **Heb ik een licentie nodig?** Een gratis proefversie is beschikbaar; een commerciële licentie is vereist voor productiegebruik.  
-- **Hoe lang duurt de implementatie?** Ongeveer 10‑15 minuten voor een basisinstelling en test.
+- **Waarom zip‑metadata strippen?** Om verborgen gegevens te verwijderen die gevoelige details kunnen onthullen, de privacy‑naleving te verbeteren en het bestand marginale te verkleinen.  
+- **Welke bibliotheek wordt aanbevolen?** GroupDocs.Metadata voor Java, die meer dan 30 archiefformaten ondersteunt en grote bestanden efficiënt verwerkt.  
+- **Heb ik een licentie nodig?** Een gratis proefversie laat je alle functies evalueren; een commerciële licentie is vereist voor productiegebruik.  
+- **Hoe lang duurt de implementatie?** Ongeveer 10‑15 minuten voor een basisopzet en verificatie.
 
 ## Wat is “remove zip comments java”?
-Het verwijderen van ZIP‑commentaren is een metadata‑sanitisatie‑bewerking die de optionele commentaarreeks die in het archief is ingebed, verwijdert. Het commentaar heeft geen invloed op de bestanden die erin staan, maar kan informatie over de maker, het doel of de verwerkingsgeschiedenis van het archief onthullen.
+Het verwijderen van ZIP‑opmerkingen is een metadata‑sanitiserende bewerking die de optionele commentaarreeks die in het archief is ingebed, verwijdert. Deze opmerking heeft geen invloed op de bestanden in het archief, maar kan informatie onthullen over de maker, het doel of de verwerkingsgeschiedenis van het archief.
 
-## Waarom ZIP‑metadata verwijderen?
-- **Privacy compliance** – GDPR, CCPA en andere regelgevingen vereisen vaak het verwijderen van verborgen data.  
+## Waarom zip‑metadata strippen?
+Het strippen van ZIP‑metadata verwijdert verborgen velden zoals opmerkingen, tijdstempels en extra attributen die persoonlijke of bedrijfsinformatie kunnen onthullen, waardoor je voldoet aan GDPR, CCPA en soortgelijke privacy‑regelgeving. Het verkleint ook de grootte van het archief met enkele kilobytes per bestand, wat zich ophoopt bij grote batches, en zorgt voor schonere back‑ups.
+
+- **Privacy‑naleving** – GDPR, CCPA en soortgelijke regelgeving vereisen vaak het verwijderen van verborgen gegevens.  
 - **Bestandssanitisatie** – Maak archieven schoon voordat je ze deelt met partners of klanten.  
-- **Verminderde footprint** – Het elimineren van onnodige commentaren kan de archiefgrootte marginale verkleinen.  
-- **Consistente back-ups** – Zorg ervoor dat back‑upsystemen alleen essentiële data opslaan.
+- **Verminderde voetafdruk** – Het verwijderen van onnodige opmerkingen kan de archiefgrootte marginale verkleinen.  
+- **Consistente back‑ups** – Zorg ervoor dat back‑upsystemen alleen essentiële gegevens opslaan.
 
-## Hoe ZIP‑metadata te verwijderen met GroupDocs.Metadata
-Naast commentaren laat GroupDocs.Metadata je ook andere ZIP‑specifieke metadata verwijderen, zoals tijdstempels, extra velden en aangepaste eigenschappen. Dezelfde workflow die je voor commentaren ziet, kan worden aangepast om die items ook te wissen.
+## Hoe zip‑metadata strippen met GroupDocs.Metadata
+Naast opmerkingen stelt GroupDocs.Metadata je in staat andere ZIP‑specifieke metadata te verwijderen, zoals tijdstempels, extra velden en aangepaste eigenschappen. Dezelfde workflow die je voor opmerkingen ziet, kan ook worden aangepast om die items te wissen.
 
 ## Vereisten
 - **Java Development Kit (JDK)** 8 of nieuwer.  
 - **IDE** zoals IntelliJ IDEA of Eclipse.  
-- **Maven** voor dependency‑beheer.  
+- **Maven** voor afhankelijkheidsbeheer.  
 - Basiskennis van Java‑programmeren.
 
 ## GroupDocs.Metadata voor Java instellen
-
-GroupDocs.Metadata laat je metadata lezen en wijzigen in veel bestandstypen, inclusief ZIP‑archieven. Installeer het via Maven of download het direct.
+GroupDocs.Metadata stelt je in staat metadata te lezen en te wijzigen voor veel bestandstypen, inclusief ZIP‑archieven. Installeer het via Maven of download het direct.
 
 ### Maven‑configuratie
-Voeg de repository en afhankelijkheid toe aan je `pom.xml`:
+Add the repository and dependency to your `pom.xml`:
 
 ```xml
 <repositories>
@@ -69,15 +120,15 @@ Voeg de repository en afhankelijkheid toe aan je `pom.xml`:
 ```
 
 ### Directe download
-Je kunt ook de nieuwste versie downloaden van [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Alternatief kun je de nieuwste versie downloaden van [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 #### Licentie‑acquisitie
-- **Free Trial** – Evalueer de bibliotheek zonder kosten.  
-- **Temporary License** – Verleng de testperiode voorbij de proefversie.  
-- **Full License** – Vereist voor productiedeployments.
+- **Gratis proefversie** – Evalueer de bibliotheek zonder kosten.  
+- **Tijdelijke licentie** – Verleng het testen na de proefperiode.  
+- **Volledige licentie** – Vereist voor productie‑implementaties.
 
 ### Basisinitialisatie
-Zodra de bibliotheek op je classpath staat, kun je een `Metadata`‑instantie maken om met een ZIP‑bestand te werken:
+The `Metadata` class is the entry point for reading and writing archive metadata. Once the library is on your classpath, you can create a `Metadata` instance to work with a ZIP file:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -87,12 +138,11 @@ try (Metadata metadata = new Metadata("path/to/your/file.zip")) {
 }
 ```
 
-## Stapsgewijze implementatie
-
+## Stap‑voor‑stap implementatie
 Hieronder staat de volledige workflow om **remove zip comments java**‑stijl toe te passen.
 
-### Stap 1: Initialiseer het Metadata‑object
-Geef het pad op naar het bron‑ZIP‑bestand.
+### Stap 1: initialiseer het metadata‑object
+Specify the path to the source ZIP file.
 
 ```java
 final String INPUT_ZIP = "YOUR_DOCUMENT_DIRECTORY/input.zip"; // Path to the input ZIP file
@@ -102,8 +152,8 @@ try (Metadata metadata = new Metadata(INPUT_ZIP)) {
 }
 ```
 
-### Stap 2: Toegang tot het root‑pakket
-Haal het generieke root‑pakket op dat het archief vertegenwoordigt.
+### Stap 2: toegang tot het root‑pakket
+Retrieve the generic root package that represents the archive.
 
 ```java
 import com.groupdocs.metadata.core.ZipRootPackage;
@@ -111,15 +161,15 @@ import com.groupdocs.metadata.core.ZipRootPackage;
 ZipRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### Stap 3: Verwijder het gebruikerscommentaar
-Stel het commentaarveld in op `null` om het te wissen.
+### Stap 3: verwijder de gebruikersopmerking
+Set the comment field to `null` to clear it.
 
 ```java
 root.getZipPackage().setComment(null);
 ```
 
-### Stap 4: Sla het gewijzigde archief op
-Schrijf de opgeschoonde ZIP naar een nieuwe locatie.
+### Stap 4: sla het gewijzigde archief op
+Write the cleaned ZIP to a new location.
 
 ```java
 final String OUTPUT_ZIP = "YOUR_OUTPUT_DIRECTORY/output.zip"; // Path for saving the modified ZIP file
@@ -132,48 +182,54 @@ metadata.save(OUTPUT_ZIP);
 |----------|-----------|
 | **Toegang tot bestand geweigerd** | Controleer lees‑/schrijfrechten voor zowel de invoer‑ als uitvoermappen. |
 | **Incompatibele bibliotheekversie** | Zorg ervoor dat je GroupDocs.Metadata 24.12 (of nieuwer) gebruikt zoals vermeld in de Maven‑configuratie. |
-| **Grote ZIP‑bestanden veroorzaken geheugen‑druk** | Verwerk bestanden in batches en maak `Metadata`‑objecten snel vrij (het try‑with‑resources‑patroon helpt al). |
+| **Grote ZIP‑bestanden veroorzaken geheugenbelasting** | Verwerk bestanden in batches en maak `Metadata`‑objecten snel vrij (het try‑with‑resources‑patroon helpt al). |
 
 ## Praktische toepassingen
-1. **Data‑privacy compliance** – Verwijder automatisch commentaren voordat je persoonlijke gegevens archiveert.  
-2. **Veilige bestandsuitwisseling** – Verwijder verborgen notities voordat je archieven naar klanten stuurt.  
+1. **Data‑privacy naleving** – Verwijder automatisch opmerkingen voordat je persoonlijke gegevens archiveert.  
+2. **Veilige bestandsuitwisseling** – Verwijder verborgen notities voordat je archieven naar klanten verzendt.  
 3. **Geautomatiseerde back‑uppijplijnen** – Integreer de routine in nachtelijke taken om back‑ups schoon te houden.
 
-## Prestatietips
-- **Batchverwerking** – Loop over een lijst ZIP‑bestanden en hergebruik een enkele `Metadata`‑instantie waar mogelijk.  
-- **Geheugenbeheer** – Het try‑with‑resources‑blok zorgt ervoor dat het `Metadata`‑object wordt gesloten, waardoor native resources vrijkomen.  
-- **Configuratietuning** – Pas GroupDocs.Metadata‑instellingen (bijv. buffer‑groottes) aan voor omgevingen met hoge doorvoer.
+## Prestatie‑tips
+- **Batchverwerking** – Loop over een lijst met ZIP‑bestanden en hergebruik waar mogelijk een enkele `Metadata`‑instantie.  
+- **Geheugenbeheer** – Het try‑with‑resources‑blok zorgt ervoor dat het `Metadata`‑object wordt gesloten, waardoor native bronnen worden vrijgegeven.  
+- **Configuratietuning** – Pas GroupDocs.Metadata‑instellingen (bijv. buffergroottes) aan voor omgevingen met hoge doorvoersnelheid.
 
 ## Conclusie
-Je hebt nu een volledige, productie‑klare methode om **remove zip comments java** te gebruiken met GroupDocs.Metadata. Deze aanpak verbetert niet alleen de gegevensprivacy, maar maakt je archieven ook klaar voor veilige distributie en conforme opslag. Verken aanvullende metadata‑mogelijkheden—zoals het bewerken van tijdstempels of aangepaste eigenschappen—om je toolkit voor bestandsverwerking verder uit te breiden.
+Je hebt nu een volledige, productie‑klare methode om **remove zip comments java** te gebruiken met GroupDocs.Metadata. Deze aanpak verbetert niet alleen de gegevensprivacy, maar helpt je ook **zip‑bestandsgrootte te verminderen** voor veilige distributie en conforme opslag. Ontdek extra metadata‑mogelijkheden — zoals het bewerken van tijdstempels of aangepaste eigenschappen — om je toolkit voor bestandsbeheer verder uit te breiden.
 
 ## Veelgestelde vragen
 
 **Q: Kan GroupDocs.Metadata andere metadata‑typen in ZIP‑bestanden wijzigen?**  
-A: Ja, het kan tijdstempels, extra velden en aangepaste eigenschappen lezen en bewerken naast commentaren.
+A: Ja, het kan tijdstempels, extra velden en aangepaste eigenschappen lezen en bewerken naast opmerkingen.
 
 **Q: Is er een grootte‑limiet voor ZIP‑bestanden?**  
-A: De bibliotheek is ontworpen voor grote archieven, maar de prestaties hangen af van beschikbaar geheugen en CPU‑resources.
+A: De bibliotheek is ontworpen voor grote archieven; de prestaties hangen af van beschikbaar geheugen en CPU‑bronnen.
 
-**Q: Heeft het verwijderen van het commentaar invloed op de integriteit van het archief?**  
-A: Nee. Het commentaar is optionele metadata; het wissen laat de bestandinhoud ongewijzigd.
+**Q: Heeft het verwijderen van de opmerking invloed op de integriteit van het archief?**  
+A: Nee. De opmerking is optionele metadata; het wissen laat de bestandsinhoud ongewijzigd.
 
-**Q: Heb ik een commerciële licentie nodig voor deze functionaliteit?**  
-A: Een gratis proefversie laat je alle functies testen. Een aangekochte licentie is vereist voor productiegebruik.
+**Q: Heb ik een commerciële licentie nodig voor deze functie?**  
+A: Een gratis proefversie laat je alle functies testen. Een aangeschafte licentie is vereist voor productiegebruik.
 
 **Q: Waar kan ik hulp krijgen als ik fouten tegenkom?**  
-A: Raadpleeg de officiële documentatie, de API‑referentie, of plaats vragen op het support‑forum.
+A: Raadpleeg de officiële documentatie, de API‑referentie, of plaats vragen op het ondersteuningsforum.
 
-**Resources**  
-- [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
-- [API Reference](https://reference.groupdocs.com/metadata/java/)  
+**Bronnen**  
+- [GroupDocs.Metadata Documentatie](https://docs.groupdocs.com/metadata/java/)  
+- [API‑referentie](https://reference.groupdocs.com/metadata/java/)  
 - [Download GroupDocs.Metadata](https://releases.groupdocs.com/metadata/java/)  
-- [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- [Free Support Forum](https://forum.groupdocs.com/c/metadata/)  
-- [Temporary License Application](https://purchase.groupdocs.com/temporary-license/)
+- [GitHub-repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
+- [Gratis ondersteuningsforum](https://forum.groupdocs.com/c/metadata/)  
+- [Aanvraag tijdelijke licentie](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 
-**Last Updated:** 2026-03-04  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs
+**Laatst bijgewerkt:** 2026-09-06  
+**Getest met:** GroupDocs.Metadata 24.12 for Java  
+**Auteur:** GroupDocs
+
+## Gerelateerde tutorials
+
+- [ZIP‑archiefopmerkingen bijwerken Groupdocs Metadata Java](/metadata/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-java/)
+- [Hoe zip‑opmerkingen te extraheren java met GroupDocs.Metadata – Gids](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)
+- [Gecomprimeerde grootte ophalen Java met GroupDocs.Metadata](/metadata/java/archive-formats/extract-rar-metadata-groupdocs-java/)

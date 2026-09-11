@@ -1,22 +1,29 @@
 ---
-date: '2026-06-27'
-description: Ismerje meg, hogyan lehet metaadatokat exportálni Excel-be a GroupDocs.Metadata
-  Java használatával, metaadatokat kinyerni fájlokból, valamint XML vagy CSV fájlokat
-  generálni a megfelelőségi jelentéshez.
+date: '2026-09-11'
+description: Ismerje meg, hogyan exportálhatja a metaadatokat Excelbe Java-ban a GroupDocs.Metadata
+  használatával, hogyan nyerheti ki a dokumentum metaadatait, és hogyan generálhat
+  XML vagy CSV fájlokat a megfelelőségi jelentéshez.
 keywords:
-- export metadata excel java
-- extract metadata files java
-- groupdocs maven dependency
+- how to export metadata
+- groupdocs metadata java
+- java metadata extraction
+lastmod: '2026-09-11'
+og_description: Hogyan exportálhatja a metaadatokat Excelbe Java-ban a GroupDocs.Metadata
+  használatával. Kövesse ezt az útmutatót a dokumentum metaadatainak kinyeréséhez,
+  XML vagy CSV jelentések létrehozásához, és a megfelelőségi követelmények teljesítéséhez.
+og_image_alt: Developer guide showing Java code that exports document metadata to
+  Excel with GroupDocs.Metadata
+og_title: Hogyan exportáljuk a metaadatokat Excelbe Java-ban – Lépésről‑lépésre útmutató
 schemas:
 - author: GroupDocs
-  dateModified: '2026-06-27'
-  description: Learn how to export metadata to Excel using GroupDocs.Metadata in Java,
+  dateModified: '2026-09-11'
+  description: Learn how to export metadata to Excel in Java using GroupDocs.Metadata,
     extract metadata from files, and also generate XML or CSV for compliance reporting.
-  headline: Export Metadata Excel Java with GroupDocs.Metadata – A Step‑By‑Step Guide
+  headline: How to export metadata to Excel in Java
   type: TechArticle
-- description: Learn how to export metadata to Excel using GroupDocs.Metadata in Java,
+- description: Learn how to export metadata to Excel in Java using GroupDocs.Metadata,
     extract metadata from files, and also generate XML or CSV for compliance reporting.
-  name: Export Metadata Excel Java with GroupDocs.Metadata – A Step‑By‑Step Guide
+  name: How to export metadata to Excel in Java
   steps:
   - name: '**Initialize Metadata Object:** Create a new `Metadata` instance using
       the path of your document.'
@@ -72,45 +79,49 @@ schemas:
       to handle high‑volume scenarios efficiently.
     question: Can I process many documents at once?
   type: FAQPage
-title: Metaadatok exportálása Excel-be Java-val a GroupDocs.Metadata segítségével
-  – Lépésről‑lépésre útmutató
+tags:
+- export metadata
+- groupdocs metadata
+- java document processing
+- metadata extraction
+- excel export
+title: Hogyan exportáljuk a metaadatokat Excelbe Java-ban
 type: docs
 url: /hu/java/document-formats/export-document-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
-# Exportálja a metaadatokat Excel Java-val a GroupDocs.Metadata segítségével – Lépésről‑lépésre útmutató
+# Hogyan exportáljunk metaadatokat Excel-be Java-ban
 
-A modern vállalati alkalmazásokban a **export metadata excel java** alapvető képesség, amely lehetővé teszi a rejtett dokumentumtulajdonságok kereshető táblázattá alakítását. Akár több ezer szerződés auditálására, adatbázis feltöltésére, vagy egyszerűen csak a felhasználók számára átlátható fájlattribútumok megjelenítésére van szükség, ez az útmutató pontosan megmutatja, hogyan olvashatja a dokumentum metaadatait a GroupDocs.Metadata segítségével, és exportálhatja őket Excel, XML vagy CSV formátumba Java használatával.
+A modern vállalati alkalmazásokban a **metaadatok exportálása** alapvető képesség, amely lehetővé teszi a rejtett dokumentumtulajdonságok kereshető táblázattá alakítását. Akár több ezer szerződés auditálására, adat‑raktárba való betáplálásra, vagy egyszerűen csak az üzleti felhasználók számára rendezett fájlattribútum‑nézetre van szükség, ez az útmutató pontosan bemutatja, hogyan olvassuk ki a dokumentum metaadatait a GroupDocs.Metadata segítségével, és exportáljuk őket Excel, XML vagy CSV formátumba Java‑ban.
 
 ## Gyors válaszok
-- **Mi a „export metadata to excel” célja?**  
+- **Mit ér el a „metaadatok exportálása Excel-be”?**  
   Egy strukturált táblázatot hoz létre, amely szűrhető, rendezhető, és megosztható az üzleti felhasználókkal jelentések vagy megfelelőségi ellenőrzések céljából.  
-- **Milyen formátumokba exportálhatok az Excelen kívül?**  
-  A GroupDocs.Metadata támogatja az XML és CSV exportot is, rugalmas lehetőségeket biztosítva az adatcseréhez.  
+- **Milyen formátumokba exportálhatok az Excel-en kívül?**  
+  A GroupDocs.Metadata támogatja az XML és CSV exportot is, így rugalmas adatcserét biztosít.  
 - **Szükségem van licencre a kipróbáláshoz?**  
-  Igen – egy ingyenes 30 napos próba vagy egy ideiglenes licenc teljes funkcióhozzáférést biztosít korlátozások nélkül.  
+  Igen – egy ingyenes 30‑napos próba vagy egy ideiglenes licenc teljes funkcióhozzáférést biztosít korlátozások nélkül.  
 - **Milyen Java verzió szükséges?**  
-  JDK 8 vagy újabb; a könyvtár teljesen kompatibilis a Java 11, 17 és a későbbi LTS kiadásokkal.  
-- **Feldolgozhatok sok dokumentumot egyszerre?**  
-  Természetesen – kombinálja a try‑with‑resources használatát kötegelt vagy párhuzamos feldolgozással a nagy mennyiségű forgatókönyvek hatékony kezeléséhez.  
+  JDK 8 vagy újabb; a könyvtár teljesen kompatibilis a Java 11, 17 és újabb LTS kiadásokkal.  
+- **Képes vagyok egyszerre sok dokumentumot feldolgozni?**  
+  Természetesen – kombinálja a try‑with‑resources‑t kötegelt vagy párhuzamos feldolgozással a nagy mennyiségű szcenáriók hatékony kezeléséhez.
 
-## Amit megtanul
-- A dokumentum metaadatainak betöltése és inicializálása a GroupDocs.Metadata segítségével  
+## Mit fogsz megtanulni
+- Dokumentum metaadatok betöltése és inicializálása a GroupDocs.Metadata segítségével  
 - Metaadatok exportálása Excel, XML és CSV fájlokba  
-- Gyakorlati példák a **extract metadata from files** használatára a megfelelőségi jelentésekhez  
-- Teljesítmény‑központú tippek Java fejlesztőknek, akik nagy dokumentumkészletekkel dolgoznak  
-- Valós példák, például digitális eszközkezelés, audit nyomvonalak és adatátvitel  
+- Gyakorlati példák **metaadatok kinyerésére fájlokból** megfelelőségi jelentésekhez  
+- Teljesítmény‑központú tippek Java‑fejlesztőknek nagy dokumentumkészletek kezelésekor  
+- Valós példák, például digitális eszközkezelés, audit‑naplók és adat‑migráció  
 
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik a következőkkel:
+Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
 
-- **Java Development Kit (JDK):** 8-as vagy újabb verzió.  
-- **GroupDocs.Metadata Library:** Adja hozzá Maven‑en keresztül vagy töltse le közvetlenül a JAR‑t.  
-- **IDE:** IntelliJ IDEA, Eclipse, NetBeans vagy bármely kedvelt szerkesztő.  
+- **Java Development Kit (JDK):** 8 vagy újabb verzió.  
+- **GroupDocs.Metadata könyvtár:** Adja hozzá Maven‑en keresztül, vagy töltse le közvetlenül a JAR‑t.  
+- **IDE:** IntelliJ IDEA, Eclipse, NetBeans vagy bármely kedvenc szerkesztő.
 
 ### Szükséges könyvtárak és függőségek
-A GroupDocs.Metadata zökkenőmentes integrációjához:
 
 #### Maven beállítás
 Adja hozzá a következő konfigurációt a `pom.xml` fájlhoz:
@@ -136,15 +147,21 @@ Adja hozzá a következő konfigurációt a `pom.xml` fájlhoz:
 #### Közvetlen letöltés
 Alternatívaként töltse le a legújabb verziót közvetlenül a [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) oldalról.
 
+### További források
+- [GroupDocs.Metadata Java Docs](https://docs.groupdocs.com/metadata/java/) – részletes Java API dokumentáció.  
+- [Java API Reference](https://reference.groupdocs.com/metadata/java/) – referencia útmutató az összes osztályhoz és metódushoz.  
+- [Latest Release](https://releases.groupdocs.com/metadata/java/) – a legfrissebb GroupDocs.Metadata for Java verzió letöltése.  
+- [GroupDocs.Metadata for Java on GitHub](https://github.com/groupdocs-metadata) – forráskód‑tár és hibakövető.
+
 ### Licenc beszerzése
 A GroupDocs.Metadata teljes kihasználásához:
 
-- **Free Trial:** Az összes funkció elérhető egy 30 napos próbaidőszak alatt.  
-- **Temporary License:** Ideiglenes licenc beszerzése a termék korlátok nélküli teszteléséhez.  
-- **Purchase License:** Hosszú távú használathoz és vállalati támogatáshoz.  
+- **Ingyenes próba:** Az összes funkció elérhető egy 30‑napos próbaidőszak alatt.  
+- **Ideiglenes licenc:** Ideiglenes licenc beszerzése a termék korlátozások nélküli teszteléséhez.  
+- **Licenc vásárlása:** Hosszú távú használathoz és vállalati támogatáshoz.  
 
 ## A GroupDocs.Metadata beállítása Java-hoz
-Kezdje a szükséges függőségek hozzáadásával. Miután beállította, inicializálja a projektet:
+Kezdje a szükséges függőségek hozzáadásával. A beállítás után inicializálja a projektet:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -159,18 +176,19 @@ public class MetadataSetup {
 }
 ```
 
-## Implementációs útmutató
-Az átláthatóság érdekében bontjuk a megvalósítást konkrét funkciókra.
+## Megvalósítási útmutató
+A megvalósítást áttekinthető funkciókra bontjuk.
 
 ### Metaadatok betöltése és inicializálása
 **Áttekintés:**  
-Az első lépés a dokumentum metaadatainak betöltése, hogy **read document metadata java** stílusban olvashassa és manipulálhassa őket.
+Az első lépés a dokumentum metaadatainak betöltése, hogy **document metadata java** stílusban olvashassa és manipulálhassa őket.
 
 **Definíció horgony:**  
 A `Metadata` osztály a GroupDocs.Metadata belépési pontja, amely egyetlen fájl metaadatcsomagját reprezentálja a memóriában.
 
-Lépések:
-1. **Initialize Metadata Object:** Hozzon létre egy új `Metadata` példányt a dokumentum útvonalával.
+**Lépések:**
+
+1. **Metadata objektum inicializálása:** Hozzon létre egy új `Metadata` példányt a dokumentum útvonalával.
 
     ```java
     import com.groupdocs.metadata.Metadata;
@@ -185,22 +203,21 @@ Lépések:
     }
     ```
 
-2. **Check for Null:** Ellenőrizze, hogy a `RootMetadataPackage` nem null, hogy elkerülje a kivételeket.
+2. **Null ellenőrzés:** Győződjön meg arról, hogy a `RootMetadataPackage` nem null, hogy elkerülje a kivételeket.
 
 ### Metaadatok exportálása Excel-be
 **Áttekintés:**  
-Exportálja a dokumentum metaadatait egy Excel fájlba, amely lehetővé teszi a rendezést, szűrést és pivot‑táblás elemzést – tökéletes a **metadata export for compliance** jelentéshez.
+Exportálja a dokumentum metaadatait egy Excel‑fájlba, amely lehetővé teszi a rendezést, szűrést és pivot‑táblás elemzést – tökéletes **metadata export for compliance** jelentésekhez.
 
 **Definíció horgony:**  
-`ExportManager` az a segédosztály, amely a `RootMetadataPackage` különböző kimeneti formátumokba (XLSX, XML vagy CSV) történő konvertálását irányítja.  
-A `RootMetadataPackage` a dokumentumból kinyert metaadat‑tulajdonságok hierarchikus gyűjteményét képviseli.  
-Az `ExportFormat` egy felsorolás, amely meghatározza a támogatott kimeneti típusokat, például XLSX, XML és CSV.
+Az `ExportManager` az a segédosztály, amely a `RootMetadataPackage` konvertálását irányítja különböző kimeneti formátumokba, például XLSX, XML vagy CSV.
 
-**Hogyan exportáljuk a metaadatokat Excel-be Java-ban?**  
-Töltsön be egy dokumentumot a `new Metadata("file.docx")` segítségével, szerezze meg a gyökércsomagot, hozza létre az `ExportManager` példányt ezzel a csomaggal, és hívja meg az `export` metódust a `ExportFormat.XLSX` megadásával. Ez a háromlépéses folyamat egy teljesen formázott táblázatot ír ki, amely megőrzi a tulajdonságneveket, értékeket és adattípusokat, azonnali elemzésre kész.
+**Hogyan exportáljunk metaadatokat Excel-be Java‑ban?**  
+Töltse be a dokumentumot a `new Metadata("file.docx")` paranccsal, szerezze meg a gyökércsomagot, hozza létre az `ExportManager`‑t ezzel a csomaggal, majd hívja meg az `export` metódust az `ExportFormat.XLSX` megadásával. Ez a háromlépéses folyamat egy teljesen formázott táblázatot ír, amely megőrzi a tulajdonságneveket, értékeket és adattípusokat, azonnali elemzésre kész.
 
 **Lépések:**
-1. **Initialize ExportManager:** Állítsa be a menedzsert a gyökér metaadatcsomag használatával.
+
+1. **ExportManager inicializálása:** Állítsa be a menedzsert a gyökér‑metaadatcsomag használatával.
 
     ```java
     import com.groupdocs.metadata.export.ExportManager;
@@ -213,17 +230,18 @@ Töltsön be egy dokumentumot a `new Metadata("file.docx")` segítségével, sze
     }
     ```
 
-2. **Export Metadata:** Használja az `export` metódust a metaadatok Excel fájlba mentéséhez.
+2. **Metaadatok exportálása:** Használja az `export` metódust a metaadatok Excel‑fájlba mentéséhez.
 
 ### Metaadatok exportálása XML-be
 **Áttekintés:**  
-Az XML ideális adatcseréhez; ez a lépés bemutatja, hogyan **export metadata to xml** a struktúrált jelölést fogyasztó downstream rendszerek számára.
+Az XML ideális adatcseréhez; ez a lépés bemutatja, hogyan **exportáljunk metaadatokat XML-be** olyan downstream rendszerek számára, amelyek strukturált jelölést fogyasztanak.
 
-**Hogyan exportáljuk a metaadatokat XML-be Java-ban?**  
-Hozzon létre egy `ExportManager` példányt a gyökércsomaggal, majd hívja meg az `export` metódust a `ExportFormat.XML` paraméterrel. A keletkezett XML fájl hierarchikus ábrázolást tartalmaz az összes szabványos és egyedi tulajdonságról, megkönnyítve az integrációt webszolgáltatásokkal vagy régi rendszerekkel.
+**Hogyan exportáljunk metaadatokat XML-be Java‑ban?**  
+Hozzon létre egy `ExportManager`‑t a gyökércsomaggal, majd hívja meg az `export` metódust `ExportFormat.XML` paraméterrel. A kapott XML‑fájl hierarchikus ábrázolást nyújt az összes szabványos és egyedi tulajdonságról, megkönnyítve a web‑szolgáltatásokkal vagy régi rendszerekkel való integrációt.
 
 **Lépések:**
-1. **Initialize ExportManager:** Az Excel exporthoz hasonlóan inicializálja a menedzsert.
+
+1. **ExportManager inicializálása:** Az Excel‑exportáláshoz hasonlóan inicializálja a menedzsert.
 
     ```java
     String outputPathXml = "YOUR_OUTPUT_DIRECTORY/output.xml";
@@ -233,17 +251,18 @@ Hozzon létre egy `ExportManager` példányt a gyökércsomaggal, majd hívja me
     }
     ```
 
-2. **Export Metadata:** Hívja meg az `export` metódust a metaadatok XML fájlba mentéséhez.
+2. **Metaadatok exportálása:** Hívja meg az `export` metódust a metaadatok XML‑fájlba mentéséhez.
 
 ### Metaadatok exportálása CSV-be
 **Áttekintés:**  
-A CSV fájlok tökéletesek a gyors elemzéshez, és importálhatók BI eszközökbe – ez bemutatja, hogyan **export metadata to csv** a könnyű jelentéskészítéshez.
+A CSV‑fájlok gyors elemzésre alkalmasak, és importálhatók BI‑eszközökbe – ez bemutatja, hogyan **exportáljunk metaadatokat CSV‑be** könnyű jelentéskészítéshez.
 
-**Hogyan exportáljuk a metaadatokat CSV-be Java-ban?**  
-Hozzon létre egy `ExportManager` példányt a gyökércsomaggal, majd hívja meg az `export` metódust a `ExportFormat.CSV` paraméterrel. A CSV kimenet lapos sorokká alakítja a metaadatokat „Property, Value” párok formájában, lehetővé téve a gyors betöltést táblázatokba vagy adatcsővezeték‑eszközökbe.
+**Hogyan exportáljunk metaadatokat CSV‑be Java‑ban?**  
+Példányosítsa az `ExportManager`‑t a gyökércsomaggal, majd hívja meg az `export` metódust `ExportFormat.CSV` paraméterrel. A CSV kimenet a metaadatokat “Property, Value” sorokba lapítja, lehetővé téve a gyors betöltést táblázatokba vagy adat‑csővezeték‑eszközökbe.
 
 **Lépések:**
-1. **Initialize ExportManager:** Állítsa be a menedzsert a gyökércsomaggal.
+
+1. **ExportManager inicializálása:** Állítsa be a menedzsert a gyökércsomaggal.
 
     ```java
     String outputPathCsv = "YOUR_OUTPUT_DIRECTORY/output.csv";
@@ -253,72 +272,70 @@ Hozzon létre egy `ExportManager` példányt a gyökércsomaggal, majd hívja me
     }
     ```
 
-2. **Export Metadata:** Használja az `export` metódust CSV fájl generálásához.
+2. **Metaadatok exportálása:** Használja az `export` metódust CSV‑fájl generálásához.
 
-## Miért használja a GroupDocs.Metadata-ot metaadatok exportálásához?
-A GroupDocs.Metadata **70+ bemeneti és kimeneti formátumot** támogat, beleértve a DOCX, XLSX, PPTX, PDF és több mint 30 képformátumot. Fájlokat akár **2 GB** méretig képes feldolgozni anélkül, hogy a teljes dokumentumot a memóriába töltené, **30 % CPU‑használat csökkenést** biztosítva az általános elemzőkhöz képest. Ezek a számszerű képességek megbízható választássá teszik nagy léptékű megfelelőségi projektekhez.
+## Miért használjuk a GroupDocs.Metadata-et metaadatok exportálásához?
+A GroupDocs.Metadata egyetlen, konzisztens API‑t biztosít, amely **70+ bemeneti és kimeneti formátum** között működik, beleértve a DOCX, XLSX, PPTX, PDF és több mint 30 képformátumot. Képes akár **2 GB**‑os fájlok feldolgozására a teljes dokumentum memóriába töltése nélkül, **30 %**‑os CPU‑használat csökkenést ér el az általános parserekhez képest. Ezek a kvantifikált képességek megbízható választássá teszik nagy‑léptékű megfelelőségi projektekhez.
 
 ## Gyakorlati alkalmazások
-Íme néhány valós példája annak, amikor a **metadata export for compliance** és a **extract metadata from files** hasznos:
+Íme néhány valós helyzet, ahol a **metadata export for compliance** és a **extract metadata from files** hasznos:
 
-1. **Digital Asset Management:** Metaadatok exportálása Excel-be a médiakönyvtárak gyors kategorizálásához, címkézéséhez és tömeges frissítéséhez.  
-2. **Regulatory Audits:** XML jelentések generálása, amelyek megfelelnek az iparági szabványos sémáknak, biztosítva a GDPR, HIPAA vagy SOX követelmények teljesítését.  
-3. **Data Migration Projects:** A forrásfájl tulajdonságainak megőrzése a tartalomkezelő rendszerek közötti áthelyezés során, csökkentve az adatvesztés kockázatát.  
+1. **Digitális eszközkezelés:** Exportálja a metaadatokat Excel‑be a médiakönyvtárak gyors kategorizálásához, címkézéséhez és tömeges frissítéséhez.  
+2. **Szabályozási auditok:** Készítsen XML‑jelentéseket, amelyek megfelelnek az iparági szabványos sémáknak, biztosítva a GDPR, HIPAA vagy SOX követelmények teljesítését.  
+3. **Adatmigrációs projektek:** Őrizze a forrásfájl tulajdonságait a tartalom‑kezelő rendszerek közötti áthelyezéskor, csökkentve az adatveszteség kockázatát.  
 
 ## Teljesítmény szempontok
-A teljesítmény optimalizálásához a GroupDocs.Metadata Java használatakor:
-- **Efficient Memory Management:** Használja a try‑with‑resources (ahogy a példában látható) automatikus erőforrászárásra és memória felszabadításra.  
-- **Batch Processing:** Nagy dokumentumgyűjtemények feldolgozása darabokban ahelyett, hogy egyszerre betöltené az összeset.  
-- **Parallel Processing:** Használja a Java `ExecutorService`‑t több fájl egyidejű kezelésére, akár 2× gyorsulást elérve többmagos szervereken.  
+A GroupDocs.Metadata Java‑ban történő használatának optimalizálásához:
+
+- **Hatékony memória‑kezelés:** Használjon try‑with‑resources‑t (ahogy a példák mutatják) az erőforrások automatikus lezárásához és a memória felszabadításához.  
+- **Kötegelt feldolgozás:** Nagy dokumentumgyűjteményeket dolgozzon fel darabokban, ahelyett, hogy egyszerre töltené be mindet.  
+- **Párhuzamos feldolgozás:** Használja a Java `ExecutorService`‑ét több fájl egyidejű kezelésére, így akár 2×‑es gyorsulást érhet el többmagos szervereken.  
 
 ## Következtetés
-Ez az útmutató bemutatta, hogyan használja a GroupDocs.Metadata Java könyvtárat a **export metadata to excel**, valamint az XML és CSV exportálásához, és hogyan **read document metadata java** stílusban olvassa a metaadatokat a megfelelőség és elemzés érdekében. A lépések követésével hatékonyan kezelheti és felhasználhatja a dokumentum metaadatait valós alkalmazásokban, az audit nyomvonalaktól a data‑warehouse betöltéséig.
+Ez a bemutató azt mutatta be, hogyan használhatja a GroupDocs.Metadata Java könyvtárat **metaadatok exportálásához Excel‑be**, valamint XML‑be és CSV‑be, és hogyan **read document metadata java** stílusban olvashatja ki a metaadatokat megfelelőség és elemzés céljából. A lépések követésével hatékonyan kezelheti és felhasználhatja a dokumentum metaadatait valós alkalmazásokban, az audit‑naplóktól az adat‑raktár betáplálásáig.
 
-**Next Steps:**
-- Kísérletezzen különböző fájltípusokkal, és fedezze fel a további funkciókat, például az egyedi tulajdonságkezelést és a titkosítási támogatást.  
-- Csatlakozzon a [GroupDocs fórumhoz](https://forum.groupdocs.com/c/metadata/), hogy más felhasználókkal kapcsolódjon és megossza a tapasztalatait.  
+**Következő lépések**
 
-## Gyakran Ismételt Kérdések
+- Kísérletezzen különböző fájltípusokkal, és fedezze fel a további funkciókat, például egyedi tulajdonságkezelést és titkosítási támogatást.  
+- Csatlakozzon a [GroupDocs fórumhoz](https://forum.groupdocs.com/c/metadata/), hogy más felhasználókkal kapcsolatba léphessen és tapasztalatokat osszon meg.  
+
+## GYIK szakasz
 1. **Mi a GroupDocs.Metadata?**  
-   A GroupDocs.Metadata egy Java könyvtár, amely programozott hozzáférést biztosít a metaadatokhoz több mint 70 dokumentumformátumon keresztül, lehetővé téve az olvasást, írást és exportálást.  
+   A GroupDocs.Metadata egy Java könyvtár, amely programozott hozzáférést biztosít metaadatokhoz több mint 70 dokumentumformátumban, lehetővé téve a olvasási, írási és exportálási műveleteket.  
 2. **Exportálhatok metaadatokat bármely dokumentumformátumból?**  
    Igen, a könyvtár számos formátumot támogat, beleértve a Word, Excel, PowerPoint, PDF, képek és számos archívum típusát.  
-3. **Hogyan kezeljek nagy mennyiségű dokumentumot?**  
-   Alkalmazzon kötegelt feldolgozást vagy párhuzamos végrehajtást a Java párhuzamossági eszközeivel; ez csökkenti a teljes feldolgozási időt és alacsonyan tartja a memóriahasználatot.  
-4. **Elérhető dokumentáció a fejlett funkciókhoz?**  
-   Igen, részletes API dokumentáció a [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/) oldalon érhető el.  
-5. **Hol kaphatok támogatást, ha problémáim vannak?**  
-   Látogassa meg a [free support forum](https://forum.groupdocs.com/c/metadata/) oldalt a GroupDocs szakértőktől és a közösségtől származó segítségért.  
+3. **Hogyan kezeljem a nagy mennyiségű dokumentumot?**  
+   Implementáljon kötegelt feldolgozást vagy párhuzamos végrehajtást a Java konkurencia‑eszközeivel; ez csökkenti a teljes feldolgozási időt és alacsonyan tartja a memóriahasználatot.  
+4. **Elérhető dokumentáció a haladó funkciókról?**  
+   Igen, részletes API dokumentáció megtalálható a [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/) oldalon.  
+5. **Hol kaphatok támogatást, ha problémám adódik?**  
+   Látogassa meg a [free support forum](https://forum.groupdocs.com/c/metadata/) oldalt, ahol a GroupDocs szakértői és a közösség segíthet.  
 
-## Gyakran Ismételt Kérdések
+## Gyakran feltett kérdések
+
 **Q:** *Használhatom ezt a megközelítést Spring Boot alkalmazásban?*  
-**A:** Természetesen. Adja hozzá a Maven függőséget a `pom.xml`‑hez, injektálja a `Metadata` szolgáltatást Spring bean‑ként, és hívja meg az export metódusokat bármely vezérlőből vagy szolgáltatási rétegből.  
+**A:** Természetesen. Adja hozzá a Maven függőséget a `pom.xml`‑hez, injektálja a `Metadata` szolgáltatást Spring bean‑ként, és hívja meg az export metódusokat bármely vezérlő vagy szolgáltatási rétegből.  
 
 **Q:** *Mi van, ha a dokumentumaim jelszóval védettek?*  
-**A:** Adja meg a jelszót a `Metadata` konstruktorban; a könyvtár a metaadatok kinyerése előtt feloldja a fájlt, megőrizve a biztonsági megfelelőséget.  
+**A:** Adja át a jelszót a `Metadata` konstruktorának; a könyvtár a metaadatok kinyerése előtt feloldja a fájlt, megőrizve a biztonsági megfelelőséget.  
 
-**Q:** *Van korláta a feldolgozható dokumentum méretének?*  
-**A:** A könyvtár nagy fájlokat is kezel, akár 2 GB‑ig, de figyelnie kell a JVM heap használatát, és érdemes nagy binárisok streamingjét alkalmazni az OutOfMemory hibák elkerülése érdekében.  
+**Q:** *Van korlátozás a feldolgozható dokumentum méretére?*  
+**A:** A könyvtár akár 2 GB‑os fájlok kezelésére is képes, de figyelnie kell a JVM heap használatát, és érdemes nagy binárisokat streamelni a OutOfMemory hibák elkerülése érdekében.  
 
-**Q:** *Hogyan tudom az egyedi metaadatmezőket is belefoglalni az exportba?*  
-**A:** Használja a `RootMetadataPackage` API‑t az egyedi tulajdonságok felsorolásához; ezek automatikusan hozzáadódnak az Excel, XML vagy CSV kimenethez további konfiguráció nélkül.  
+**Q:** *Hogyan vonhatok be egyedi metaadatmezőket az exportba?*  
+**A:** Használja a `RootMetadataPackage` API‑t az egyedi tulajdonságok felsorolásához; ezek automatikusan hozzáadódnak az Excel, XML vagy CSV kimenethez extra konfiguráció nélkül.  
 
 **Q:** *Működik a GroupDocs.Metadata Linux konténerekben?*  
-**A:** Igen, a könyvtár platformfüggetlen, és zökkenőmentesen fut Docker konténerekben Linux, Windows vagy macOS környezetben.  
-
-## Erőforrások
-- **Dokumentáció:** [GroupDocs.Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
-- **API referencia:** [Java API Reference](https://reference.groupdocs.com/metadata/java/)  
-- **Letöltés:** [Latest Release](https://releases.groupdocs.com/metadata/java/)  
-- **GitHub tároló:** [GroupDocs.Metadata for Java on GitHub](https://github.com/groupdocs-metadata)  
+**A:** Igen, a könyvtár platform‑független, és zökkenőmentesen fut Docker konténerekben Linux, Windows vagy macOS környezetben.  
 
 ---
 
-**Utolsó frissítés:** 2026-06-27  
-**Tesztelve ezzel:** GroupDocs.Metadata 24.12  
+**Utoljára frissítve:** 2026-09-11  
+**Tesztelve a következővel:** GroupDocs.Metadata 24.12  
 **Szerző:** GroupDocs  
 
 ## Kapcsolódó oktatóanyagok
-- [Metaadatok exportálása CSV-be Java-ban a GroupDocs.Metadata használatával: Teljes útmutató](/metadata/java/working-with-metadata/export-metadata-csv-groupdocs-metadata-java/)  
-- [Word dokumentum metaadatainak elérése a GroupDocs segítségével Java-ban: Átfogó útmutató](/metadata/java/document-formats/access-word-metadata-groupdocs-java/)  
-- [Egyedi metaadatok kinyerése PDF-ekből a GroupDocs.Metadata használatával Java-ban: Átfogó útmutató](/metadata/java/document-formats/extract-custom-metadata-groupdocs-metadata-java/)
+
+- [Export Metadata to CSV in Java using GroupDocs.Metadata: A Complete Guide](/metadata/java/working-with-metadata/export-metadata-csv-groupdocs-metadata-java/)
+- [Access Word Document Metadata with GroupDocs in Java: A Comprehensive Guide](/metadata/java/document-formats/access-word-metadata-groupdocs-java/)
+- [How to Extract Custom Metadata from PDFs Using GroupDocs.Metadata in Java: A Comprehensive Guide](/metadata/java/document-formats/extract-custom-metadata-groupdocs-metadata-java/)

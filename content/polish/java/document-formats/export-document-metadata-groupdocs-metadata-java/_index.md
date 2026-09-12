@@ -1,22 +1,28 @@
 ---
-date: '2026-06-27'
-description: Dowiedz się, jak eksportować metadane do Excela przy użyciu GroupDocs.Metadata
-  w Javie, wyodrębniać metadane z plików oraz generować XML lub CSV do raportowania
-  zgodności.
+date: '2026-09-11'
+description: Dowiedz się, jak wyeksportować metadane do Excel w Java przy użyciu GroupDocs.Metadata,
+  wyodrębnić metadane dokumentu i wygenerować XML lub CSV do raportowania zgodności.
 keywords:
-- export metadata excel java
-- extract metadata files java
-- groupdocs maven dependency
+- how to export metadata
+- groupdocs metadata java
+- java metadata extraction
+lastmod: '2026-09-11'
+og_description: Jak wyeksportować metadane do Excel w Java przy użyciu GroupDocs.Metadata.
+  Postępuj zgodnie z tym przewodnikiem, aby wyodrębnić metadane dokumentu, utworzyć
+  raporty XML lub CSV i spełnić wymagania zgodności.
+og_image_alt: Developer guide showing Java code that exports document metadata to
+  Excel with GroupDocs.Metadata
+og_title: Jak wyeksportować metadane do Excel w Java – przewodnik krok po kroku
 schemas:
 - author: GroupDocs
-  dateModified: '2026-06-27'
-  description: Learn how to export metadata to Excel using GroupDocs.Metadata in Java,
+  dateModified: '2026-09-11'
+  description: Learn how to export metadata to Excel in Java using GroupDocs.Metadata,
     extract metadata from files, and also generate XML or CSV for compliance reporting.
-  headline: Export Metadata Excel Java with GroupDocs.Metadata – A Step‑By‑Step Guide
+  headline: How to export metadata to Excel in Java
   type: TechArticle
-- description: Learn how to export metadata to Excel using GroupDocs.Metadata in Java,
+- description: Learn how to export metadata to Excel in Java using GroupDocs.Metadata,
     extract metadata from files, and also generate XML or CSV for compliance reporting.
-  name: Export Metadata Excel Java with GroupDocs.Metadata – A Step‑By‑Step Guide
+  name: How to export metadata to Excel in Java
   steps:
   - name: '**Initialize Metadata Object:** Create a new `Metadata` instance using
       the path of your document.'
@@ -72,52 +78,52 @@ schemas:
       to handle high‑volume scenarios efficiently.
     question: Can I process many documents at once?
   type: FAQPage
-title: Eksport metadanych do Excela w Javie z GroupDocs.Metadata – Przewodnik krok
-  po kroku
+tags:
+- export metadata
+- groupdocs metadata
+- java document processing
+- metadata extraction
+- excel export
+title: Jak wyeksportować metadane do Excel w Java
 type: docs
 url: /pl/java/document-formats/export-document-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
-# Eksport metadanych Excel Java z GroupDocs.Metadata – Przewodnik krok po kroku
+# Jak wyeksportować metadane do Excela w Javie
 
-W nowoczesnych aplikacjach korporacyjnych **export metadata excel java** jest kluczową funkcją, która pozwala przekształcić ukryte właściwości dokumentu w przeszukiwalny arkusz kalkulacyjny. Niezależnie od tego, czy musisz audytować tysiące umów, zasilać hurtownię danych, czy po prostu udostępnić użytkownikom biznesowym przejrzysty widok atrybutów plików, ten przewodnik pokaże Ci dokładnie, jak odczytać metadane dokumentu za pomocą GroupDocs.Metadata i wyeksportować je do Excela, XML lub CSV przy użyciu Javy.
+W nowoczesnych aplikacjach korporacyjnych **jak wyeksportować metadane** jest kluczową funkcją, która pozwala przekształcić ukryte właściwości dokumentu w przeszukiwalny arkusz kalkulacyjny. Niezależnie od tego, czy musisz audytować tysiące umów, zasilać hurtownię danych, czy po prostu zapewnić użytkownikom biznesowym przejrzysty widok atrybutów plików, ten przewodnik pokazuje dokładnie, jak odczytać metadane dokumentu przy użyciu GroupDocs.Metadata i wyeksportować je do Excela, XML lub CSV przy użyciu Javy.
 
 ## Szybkie odpowiedzi
-- **Co osiąga „eksport metadanych do Excela”?**  
+- **Co osiąga „export metadata to Excel”?**  
   Tworzy uporządkowany arkusz kalkulacyjny, który można filtrować, sortować i udostępniać użytkownikom biznesowym w celu raportowania lub kontroli zgodności.  
 - **Jakie formaty mogę wyeksportować oprócz Excela?**  
-  GroupDocs.Metadata obsługuje także eksporty XML i CSV, dając elastyczne opcje wymiany danych.  
+  GroupDocs.Metadata obsługuje również eksport do XML i CSV, dając elastyczne opcje wymiany danych.  
 - **Czy potrzebna jest licencja, aby to wypróbować?**  
   Tak – darmowa 30‑dniowa wersja próbna lub tymczasowa licencja zapewnia pełny dostęp do funkcji bez ograniczeń.  
 - **Jaka wersja Javy jest wymagana?**  
-  JDK 8 lub wyższy; biblioteka jest w pełni kompatybilna z Java 11, 17 i nowszymi wersjami LTS.  
+  JDK 8 lub wyższa; biblioteka jest w pełni kompatybilna z Java 11, 17 i nowszymi wersjami LTS.  
 - **Czy mogę przetwarzać wiele dokumentów jednocześnie?**  
-  Absolutnie – połącz try‑with‑resources z przetwarzaniem wsadowym lub równoległym, aby efektywnie obsługiwać scenariusze o dużej objętości.
+  Oczywiście – połącz try‑with‑resources z przetwarzaniem wsadowym lub równoległym, aby efektywnie obsługiwać scenariusze o dużej objętości.
 
 ## Czego się nauczysz
-
 - Ładowanie i inicjalizacja metadanych dokumentu przy użyciu GroupDocs.Metadata  
 - Eksport metadanych do plików Excel, XML i CSV  
 - Praktyczne przykłady **extract metadata from files** dla raportowania zgodności  
-- Porady ukierunkowane na wydajność dla programistów Javy pracujących z dużymi zestawami dokumentów  
+- Wskazówki nastawione na wydajność dla programistów Javy pracujących z dużymi zestawami dokumentów  
 - Przykłady zastosowań w rzeczywistych projektach, takich jak zarządzanie zasobami cyfrowymi, ścieżki audytu i migracja danych  
 
 ## Wymagania wstępne
-
 Zanim rozpoczniesz, upewnij się, że masz:
 
 - **Java Development Kit (JDK):** wersja 8 lub wyższa.  
-- **GroupDocs.Metadata Library:** dodaj ją przez Maven lub pobierz plik JAR bezpośrednio.  
+- **GroupDocs.Metadata library:** dodaj ją za pomocą Maven lub pobierz plik JAR bezpośrednio.  
 - **IDE:** IntelliJ IDEA, Eclipse, NetBeans lub dowolny edytor, którego używasz.  
 
 ### Wymagane biblioteki i zależności
 
-Aby uzyskać płynną integrację z GroupDocs.Metadata:
-
 #### Konfiguracja Maven
-
-Dodaj następującą konfigurację do pliku `pom.xml`:
+Dodaj następującą konfigurację do swojego pliku `pom.xml`:
 
 ```xml
 <repositories>
@@ -138,19 +144,22 @@ Dodaj następującą konfigurację do pliku `pom.xml`:
 ```
 
 #### Bezpośrednie pobranie
+Alternatywnie pobierz najnowszą wersję bezpośrednio z [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-Alternatywnie, pobierz najnowszą wersję bezpośrednio z [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+### Dodatkowe zasoby
+- [GroupDocs.Metadata Java Docs](https://docs.groupdocs.com/metadata/java/) – szczegółowa dokumentacja API Java.  
+- [Java API Reference](https://reference.groupdocs.com/metadata/java/) – przewodnik odniesienia dla wszystkich klas i metod.  
+- [Latest Release](https://releases.groupdocs.com/metadata/java/) – pobierz najnowszą wersję GroupDocs.Metadata dla Javy.  
+- [GroupDocs.Metadata for Java on GitHub](https://github.com/groupdocs-metadata) – repozytorium kodu źródłowego i tracker zgłoszeń.  
 
 ### Uzyskanie licencji
-
 Aby w pełni wykorzystać GroupDocs.Metadata:
 
-- **Free Trial:** dostęp do wszystkich funkcji w trakcie 30‑dniowego okresu próbnego.  
-- **Temporary License:** uzyskaj tymczasową licencję, aby przetestować produkt bez ograniczeń.  
-- **Purchase License:** dla długoterminowego użycia i wsparcia przedsiębiorstwa.  
+- **Free trial:** Dostęp do wszystkich funkcji w trakcie 30‑dniowego okresu próbnego.  
+- **Temporary license:** Uzyskaj tymczasową licencję, aby testować produkt bez ograniczeń.  
+- **Purchase license:** Dla długoterminowego użytkowania i wsparcia przedsiębiorstw.  
 
-## Konfiguracja GroupDocs.Metadata dla Java
-
+## Konfigurowanie GroupDocs.Metadata dla Javy
 Rozpocznij od dodania niezbędnych zależności. Po skonfigurowaniu zainicjalizuj projekt:
 
 ```java
@@ -166,19 +175,17 @@ public class MetadataSetup {
 }
 ```
 
-## Przewodnik implementacji
-
-Podzielimy implementację na konkretne funkcje dla przejrzystości.
+## Przewodnik po implementacji
+Podzielimy implementację na konkretne funkcje dla większej przejrzystości.
 
 ### Ładowanie i inicjalizacja metadanych
+**Overview:**  
+Pierwszym krokiem jest załadowanie metadanych dokumentu, abyś mógł **read document metadata java** style i manipulować nimi.
 
-**Przegląd:**  
-Pierwszym krokiem jest załadowanie metadanych dokumentu, abyś mógł **read document metadata java** w stylu Javy i manipulować nimi.
-
-**Definicja kotwicy:**  
+**Definition anchor:**  
 Klasa `Metadata` jest punktem wejścia GroupDocs.Metadata, który reprezentuje pakiet metadanych pojedynczego pliku w pamięci.
 
-**Kroki:**
+**Steps:**
 
 1. **Initialize Metadata Object:** Utwórz nową instancję `Metadata` używając ścieżki do swojego dokumentu.
 
@@ -195,24 +202,21 @@ Klasa `Metadata` jest punktem wejścia GroupDocs.Metadata, który reprezentuje p
     }
     ```
 
-2. **Check for Null:** Zweryfikuj, że `RootMetadataPackage` nie jest nullem, aby uniknąć wyjątków.
+2. **Check for null:** Zweryfikuj, że `RootMetadataPackage` nie jest nullem, aby uniknąć wyjątków.
 
 ### Eksportowanie metadanych do Excela
+**Overview:**  
+Wyeksportuj metadane dokumentu do pliku Excel, aby umożliwić sortowanie, filtrowanie i analizę tabel przestawnych — idealne dla **metadata export for compliance** reporting.
 
-**Przegląd:**  
-Wyeksportuj metadane dokumentu do pliku Excel, aby uzyskać funkcje takie jak sortowanie, filtrowanie i analiza tabel przestawnych — idealne dla raportowania **metadata export for compliance**.
+**Definition anchor:**  
+`ExportManager` to klasa narzędziowa, która koordynuje konwersję `RootMetadataPackage` do różnych formatów wyjściowych, takich jak XLSX, XML czy CSV.
 
-**Definicja kotwicy:**  
-`ExportManager` to klasa narzędziowa, która koordynuje konwersję `RootMetadataPackage` do różnych formatów wyjściowych, takich jak XLSX, XML lub CSV.  
-`RootMetadataPackage` reprezentuje hierarchiczną kolekcję właściwości metadanych wyodrębnionych z dokumentu.  
-`ExportFormat` to wyliczenie definiujące obsługiwane typy wyjściowe, takie jak XLSX, XML i CSV.
+**How to export metadata to Excel in Java?**  
+Załaduj dokument przy pomocy `new Metadata("file.docx")`, pobierz jego pakiet główny, utwórz `ExportManager` z tym pakietem i wywołaj `export`, podając `ExportFormat.XLSX`. Ten trzyetapowy przepływ zapisuje w pełni sformatowany arkusz, zachowując nazwy właściwości, wartości i typy danych, gotowy do natychmiastowej analizy.
 
-**Jak wyeksportować metadane do Excela w Javie?**  
-Załaduj dokument za pomocą `new Metadata("file.docx")`, pobierz jego pakiet główny, utwórz `ExportManager` z tym pakietem i wywołaj `export`, podając `ExportFormat.XLSX`. Ten trzyetapowy przepływ zapisuje w pełni sformatowany arkusz, zachowując nazwy właściwości, wartości i typy danych, gotowy do natychmiastowej analizy.
+**Steps:**
 
-**Kroki:**
-
-1. **Initialize ExportManager:** Skonfiguruj menedżera, używając pakietu głównego metadanych.
+1. **Initialize ExportManager:** Skonfiguruj menedżera, używając pakietu metadanych głównych.
 
     ```java
     import com.groupdocs.metadata.export.ExportManager;
@@ -225,17 +229,16 @@ Załaduj dokument za pomocą `new Metadata("file.docx")`, pobierz jego pakiet g�
     }
     ```
 
-2. **Export Metadata:** Użyj metody `export`, aby zapisać metadane w pliku Excel.
+2. **Export metadata:** Użyj metody `export`, aby zapisać metadane do pliku Excel.
 
 ### Eksportowanie metadanych do XML
+**Overview:**  
+XML jest idealny do wymiany danych; ten krok pokazuje, jak **export metadata to XML** dla systemów downstream, które konsumują strukturalny markup.
 
-**Przegląd:**  
-XML jest idealny do wymiany danych; ten krok pokazuje, jak **export metadata to xml** dla systemów downstream, które konsumują strukturalny markup.
-
-**Jak wyeksportować metadane do XML w Javie?**  
+**How to export metadata to XML in Java?**  
 Utwórz `ExportManager` z pakietem głównym, a następnie wywołaj `export` z `ExportFormat.XML`. Powstały plik XML zawiera hierarchiczną reprezentację wszystkich standardowych i niestandardowych właściwości, co ułatwia integrację z usługami webowymi lub starszymi systemami.
 
-**Kroki:**
+**Steps:**
 
 1. **Initialize ExportManager:** Podobnie jak przy eksporcie do Excela, zainicjalizuj menedżera.
 
@@ -247,17 +250,16 @@ Utwórz `ExportManager` z pakietem głównym, a następnie wywołaj `export` z `
     }
     ```
 
-2. **Export Metadata:** Wywołaj metodę `export`, aby zapisać metadane jako plik XML.
+2. **Export metadata:** Wywołaj metodę `export`, aby zapisać metadane jako plik XML.
 
 ### Eksportowanie metadanych do CSV
+**Overview:**  
+Pliki CSV są doskonałe do szybkiej analizy i mogą być importowane do narzędzi BI — to pokazuje, jak **export metadata to CSV** dla lekkiego raportowania.
 
-**Przegląd:**  
-Pliki CSV są doskonałe do szybkiej analizy i mogą być importowane do narzędzi BI — to pokazuje, jak **export metadata to csv** dla lekkiego raportowania.
+**How to export metadata to CSV in Java?**  
+Zainicjalizuj `ExportManager` z pakietem głównym, a następnie wywołaj `export` z `ExportFormat.CSV`. Wyjście CSV spłaszcza metadane do wierszy w formacie „Property, Value”, umożliwiając szybkie ładowanie do arkuszy kalkulacyjnych lub narzędzi przetwarzania danych.
 
-**Jak wyeksportować metadane do CSV w Javie?**  
-Utwórz `ExportManager` z pakietem głównym, a następnie wywołaj `export` z `ExportFormat.CSV`. Wyjście CSV spłaszcza metadane do wierszy w formacie „Property, Value”, umożliwiając szybkie ładowanie do arkuszy kalkulacyjnych lub narzędzi przetwarzania danych.
-
-**Kroki:**
+**Steps:**
 
 1. **Initialize ExportManager:** Skonfiguruj menedżera z pakietem głównym.
 
@@ -269,81 +271,69 @@ Utwórz `ExportManager` z pakietem głównym, a następnie wywołaj `export` z `
     }
     ```
 
-2. **Export Metadata:** Użyj metody `export`, aby wygenerować plik CSV.
+2. **Export metadata:** Użyj metody `export`, aby wygenerować plik CSV.
 
-## Dlaczego używać GroupDocs.Metadata do eksportowania metadanych?
-
-GroupDocs.Metadata obsługuje **70+ formatów wejścia i wyjścia**, w tym DOCX, XLSX, PPTX, PDF oraz ponad 30 typów obrazów. Może przetwarzać pliki do **2 GB** bez ładowania całego dokumentu do pamięci, zapewniając **30 % redukcję zużycia CPU** w porównaniu z ogólnymi parserami. Te wymierne możliwości czynią go niezawodnym wyborem dla dużych projektów zgodności.
+## Dlaczego używać GroupDocs.Metadata do eksportu metadanych?
+GroupDocs.Metadata zapewnia jednorodne API działające w ponad **70+ formatach wejścia i wyjścia**, w tym DOCX, XLSX, PPTX, PDF oraz ponad 30 typów obrazów. Może przetwarzać pliki do **2 GB** bez ładowania całego dokumentu do pamięci, zapewniając **30 % redukcję zużycia CPU** w porównaniu z ogólnymi parserami. Te wymierne możliwości czynią go niezawodnym wyborem dla dużych projektów zgodności.
 
 ## Praktyczne zastosowania
+Oto kilka scenariuszy z życia wziętych, w których **metadata export for compliance** oraz **extract metadata from files** są przydatne:
 
-Oto kilka scenariuszy z życia, w których **metadata export for compliance** i **extract metadata from files** są przydatne:
-
-1. **Digital Asset Management:** Eksportuj metadane do Excela, aby szybko kategoryzować, tagować i masowo aktualizować biblioteki mediów.  
-2. **Regulatory Audits:** Generuj raporty XML zgodne ze standardowymi schematami branżowymi, zapewniając spełnienie wymogów GDPR, HIPAA lub SOX.  
-3. **Data Migration Projects:** Zachowaj właściwości plików źródłowych przy przenoszeniu treści między systemami zarządzania treścią, zmniejszając ryzyko utraty danych.  
+1. **Digital asset management:** Eksportuj metadane do Excela w celu szybkiej kategoryzacji, tagowania i masowych aktualizacji bibliotek mediów.  
+2. **Regulatory audits:** Generuj raporty XML zgodne ze standardowymi schematami branżowymi, zapewniając spełnienie wymagań GDPR, HIPAA lub SOX.  
+3. **Data migration projects:** Zachowaj właściwości plików źródłowych przy przenoszeniu treści między systemami zarządzania treścią, zmniejszając ryzyko utraty danych.  
 
 ## Rozważania dotyczące wydajności
-
 Aby zoptymalizować wydajność przy pracy z GroupDocs.Metadata w Javie:
 
-- **Efficient Memory Management:** Używaj try‑with‑resources (jak pokazano), aby automatycznie zamykać zasoby i zwalniać pamięć.  
-- **Batch Processing:** Przetwarzaj duże kolekcje dokumentów w partiach, zamiast ładować wszystko naraz.  
-- **Parallel Processing:** Wykorzystaj `ExecutorService` Javy do równoczesnego obsługiwania wielu plików, osiągając do 2× przyspieszenie na serwerach wielordzeniowych.  
+- **Efficient memory management:** Używaj try‑with‑resources (jak pokazano), aby automatycznie zamykać zasoby i zwalniać pamięć.  
+- **Batch processing:** Przetwarzaj duże kolekcje dokumentów w partiach, zamiast ładować wszystko jednocześnie.  
+- **Parallel processing:** Wykorzystaj `ExecutorService` Javy do równoczesnego obsługiwania wielu plików, osiągając do 2× przyspieszenie na serwerach wielordzeniowych.  
 
-## Podsumowanie
+## Zakończenie
+Ten samouczek pokazał, jak używać biblioteki GroupDocs.Metadata Java do **export metadata to Excel**, a także do XML i CSV, oraz jak **read document metadata java** style dla raportowania zgodności i analiz. Postępując zgodnie z tymi krokami, możesz efektywnie zarządzać i wykorzystywać metadane dokumentów w rzeczywistych aplikacjach, od ścieżek audytu po zasilanie hurtowni danych.
 
-Ten samouczek pokazał, jak używać biblioteki GroupDocs.Metadata Java do **export metadata to excel**, a także do XML i CSV, oraz jak **read document metadata java** w stylu Javy dla zgodności i analiz. Postępując zgodnie z tymi krokami, możesz efektywnie zarządzać i wykorzystywać metadane dokumentów w rzeczywistych aplikacjach, od ścieżek audytu po zasilanie hurtowni danych.
-
-**Kolejne kroki:**
+**Kolejne kroki**
 
 - Eksperymentuj z różnymi typami plików i odkrywaj dodatkowe funkcje, takie jak obsługa własnych właściwości i wsparcie szyfrowania.  
 - Dołącz do [GroupDocs forum](https://forum.groupdocs.com/c/metadata/), aby połączyć się z innymi użytkownikami i dzielić się spostrzeżeniami.  
 
 ## Sekcja FAQ
-
 1. **What is GroupDocs.Metadata?**  
    GroupDocs.Metadata jest biblioteką Java, która zapewnia programowy dostęp do metadanych w ponad 70 formatach dokumentów, umożliwiając operacje odczytu, zapisu i eksportu.  
 2. **Can I export metadata from any document format?**  
-   Tak, biblioteka obsługuje szeroką gamę formatów, w tym Word, Excel, PowerPoint, PDF, obrazy i wiele typów archiwów.  
+   Tak, biblioteka obsługuje szeroką gamę formatów, w tym Word, Excel, PowerPoint, PDF, obrazy oraz wiele typów archiwów.  
 3. **How do I handle large volumes of documents?**  
    Zaimplementuj przetwarzanie wsadowe lub równoległe przy użyciu narzędzi współbieżności Javy; zmniejszy to całkowity czas przetwarzania i utrzyma niskie zużycie pamięci.  
 4. **Is there documentation available for advanced features?**  
    Tak, szczegółowa dokumentacja API jest dostępna pod adresem [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/).  
 5. **Where can I get support if I encounter issues?**  
-   Odwiedź [free support forum](https://forum.groupdocs.com/c/metadata/) w celu uzyskania pomocy od ekspertów GroupDocs i społeczności.  
+   Odwiedź [free support forum](https://forum.groupdocs.com/c/metadata/), aby uzyskać pomoc od ekspertów GroupDocs i społeczności.  
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 **Q:** *Can I use this approach in a Spring Boot application?*  
-**A:** Absolutnie. Dodaj zależność Maven do swojego `pom.xml`, wstrzyknij usługę `Metadata` jako bean Springa i wywołuj metody eksportu z dowolnego kontrolera lub warstwy serwisowej.  
+**A:** Oczywiście. Dodaj zależność Maven do swojego `pom.xml`, wstrzyknij usługę `Metadata` jako bean Springa i wywołuj metody eksportu z dowolnego kontrolera lub warstwy serwisowej.  
 
 **Q:** *What if my documents are password‑protected?*  
 **A:** Przekaż hasło do konstruktora `Metadata`; biblioteka odszyfruje plik przed wyodrębnieniem metadanych, zachowując zgodność z wymogami bezpieczeństwa.  
 
 **Q:** *Is there a limit to the size of a document I can process?*  
-**A:** Biblioteka obsługuje duże pliki do 2 GB, ale należy monitorować zużycie pamięci JVM i rozważyć strumieniowanie dużych binariów, aby uniknąć błędów OutOfMemory.  
+**A:** Biblioteka obsługuje duże pliki do 2 GB, ale warto monitorować zużycie pamięci JVM i rozważyć strumieniowe przetwarzanie dużych binariów, aby uniknąć błędów OutOfMemory.  
 
 **Q:** *How do I include custom metadata fields in the export?*  
-**A:** Skorzystaj z API `RootMetadataPackage`, aby wyliczyć własne właściwości; są one automatycznie dodawane do wyjścia Excel, XML lub CSV bez dodatkowej konfiguracji.  
+**A:** Skorzystaj z API `RootMetadataPackage`, aby wyliczyć własne właściwości; zostaną one automatycznie dodane do wyjścia Excel, XML lub CSV bez dodatkowej konfiguracji.  
 
 **Q:** *Does GroupDocs.Metadata work on Linux containers?*  
-**A:** Tak, biblioteka jest platformowo‑agnostyczna i działa płynnie w kontenerach Docker na Linuxie, Windowsie lub macOS.  
-
-## Zasoby
-
-- **Documentation:** [GroupDocs.Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)
-- **API Reference:** [Java API Reference](https://reference.groupdocs.com/metadata/java/)
-- **Download:** [Latest Release](https://releases.groupdocs.com/metadata/java/)
-- **GitHub Repository:** [GroupDocs.Metadata for Java on GitHub](https://github.com/groupdocs-metadata)
+**A:** Tak, biblioteka jest platformowo‑agnostyczna i działa płynnie w kontenerach Docker na Linuxie, Windowsie oraz macOS.  
 
 ---
 
-**Last Updated:** 2026-06-27  
+**Last Updated:** 2026-09-11  
 **Tested With:** GroupDocs.Metadata 24.12  
 **Author:** GroupDocs  
 
-## Powiązane samouczki
+## Powiązane tutoriale
 
 - [Export Metadata to CSV in Java using GroupDocs.Metadata: A Complete Guide](/metadata/java/working-with-metadata/export-metadata-csv-groupdocs-metadata-java/)
 - [Access Word Document Metadata with GroupDocs in Java: A Comprehensive Guide](/metadata/java/document-formats/access-word-metadata-groupdocs-java/)

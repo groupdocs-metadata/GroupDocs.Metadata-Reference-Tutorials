@@ -1,22 +1,29 @@
 ---
-date: '2026-06-27'
-description: GroupDocs.Metadata'i Java'da kullanarak metaveriyi Excel'e nasıl dışa
-  aktaracağınızı, dosyalardan metaveri nasıl çıkaracağınızı ve uyumluluk raporlaması
-  için XML veya CSV nasıl oluşturacağınızı öğrenin.
+date: '2026-09-11'
+description: GroupDocs.Metadata kullanarak Java'da metadata'yı Excel'e nasıl dışa
+  aktaracağınızı öğrenin, belge metadata'sını çıkarın ve compliance reporting için
+  XML veya CSV oluşturun.
 keywords:
-- export metadata excel java
-- extract metadata files java
-- groupdocs maven dependency
+- how to export metadata
+- groupdocs metadata java
+- java metadata extraction
+lastmod: '2026-09-11'
+og_description: GroupDocs.Metadata kullanarak Java'da metadata'yı Excel'e nasıl dışa
+  aktaracağınızı öğrenin. Bu kılavuzu izleyerek belge metadata'sını çıkarın, XML veya
+  CSV raporları oluşturun ve compliance gereksinimlerini karşılayın.
+og_image_alt: Developer guide showing Java code that exports document metadata to
+  Excel with GroupDocs.Metadata
+og_title: Java'da metadata'yı Excel'e dışa aktarma – Adım adım kılavuz
 schemas:
 - author: GroupDocs
-  dateModified: '2026-06-27'
-  description: Learn how to export metadata to Excel using GroupDocs.Metadata in Java,
+  dateModified: '2026-09-11'
+  description: Learn how to export metadata to Excel in Java using GroupDocs.Metadata,
     extract metadata from files, and also generate XML or CSV for compliance reporting.
-  headline: Export Metadata Excel Java with GroupDocs.Metadata – A Step‑By‑Step Guide
+  headline: How to export metadata to Excel in Java
   type: TechArticle
-- description: Learn how to export metadata to Excel using GroupDocs.Metadata in Java,
+- description: Learn how to export metadata to Excel in Java using GroupDocs.Metadata,
     extract metadata from files, and also generate XML or CSV for compliance reporting.
-  name: Export Metadata Excel Java with GroupDocs.Metadata – A Step‑By‑Step Guide
+  name: How to export metadata to Excel in Java
   steps:
   - name: '**Initialize Metadata Object:** Create a new `Metadata` instance using
       the path of your document.'
@@ -72,51 +79,52 @@ schemas:
       to handle high‑volume scenarios efficiently.
     question: Can I process many documents at once?
   type: FAQPage
-title: GroupDocs.Metadata ile Java'da Excel'e Metaveri Dışa Aktarma – Adım Adım Kılavuz
+tags:
+- export metadata
+- groupdocs metadata
+- java document processing
+- metadata extraction
+- excel export
+title: Java'da metadata'yı Excel'e nasıl dışa aktarılır
 type: docs
 url: /tr/java/document-formats/export-document-metadata-groupdocs-metadata-java/
 weight: 1
 ---
 
-# GroupDocs.Metadata ile Excel Java Metaveri Dışa Aktarma – Adım Adım Kılavuz
+# Java'da Metaveriyi Excel'e Aktarma
 
-Modern kurumsal uygulamalarda, **export metadata excel java** gizli belge özelliklerini aranabilir bir elektronik tabloya dönüştüren temel bir yetenektir. Binlerce sözleşmeyi denetlemeniz, bir veri ambarını beslemeniz ya da sadece iş kullanıcılarına dosya özniteliklerinin düzenli bir görünümünü sunmanız gerekse, bu kılavuz GroupDocs.Metadata ile belge metaverisini nasıl okuyacağınızı ve Java kullanarak Excel, XML veya CSV'ye nasıl dışa aktaracağınızı tam olarak gösterir.
+Modern kurumsal uygulamalarda, **metadata dışa aktarma** temel bir yetenektir ve gizli belge özelliklerini aranabilir bir elektronik tabloya dönüştürmenizi sağlar. Binlerce sözleşmeyi denetlemeniz, bir veri ambarına beslemeniz veya sadece iş kullanıcılarına dosya özniteliklerinin düzenli bir görünümünü sunmanız gerektiğinde, bu kılavuz GroupDocs.Metadata ile belge metadata'sını nasıl okuyacağınızı ve Java kullanarak Excel, XML veya CSV'ye nasıl dışa aktaracağınızı tam olarak gösterir.
 
 ## Hızlı Yanıtlar
-- **“export metadata to excel” ne sağlar?**  
+- **“metadata'yı Excel'e dışa aktarma” ne sağlar?**  
   Filtrelenebilir, sıralanabilir ve raporlama ya da uyumluluk kontrolleri için iş kullanıcılarıyla paylaşılabilir yapılandırılmış bir elektronik tablo oluşturur.  
 - **Excel dışındaki hangi formatları dışa aktarabilirim?**  
   GroupDocs.Metadata ayrıca XML ve CSV dışa aktarmalarını destekler, veri değişimi için esnek seçenekler sunar.  
 - **Bunu denemek için lisansa ihtiyacım var mı?**  
-  Evet – ücretsiz 30‑günlük deneme veya geçici bir lisans, kısıtlama olmadan tam özellik erişimi sağlar.  
+  Evet – ücretsiz 30‑günlük deneme sürümü veya geçici bir lisans, kısıtlama olmadan tam özellik erişimi sağlar.  
 - **Hangi Java sürümü gereklidir?**  
-  JDK 8 veya üzeri; kütüphane Java 11, 17 ve daha yeni LTS sürümleriyle tam uyumludur.  
+  JDK 8 veya üzeri; kütüphane Java 11, 17 ve daha yeni LTS sürümleriyle tamamen uyumludur.  
 - **Birçok belgeyi aynı anda işleyebilir miyim?**  
-  Kesinlikle – yüksek hacimli senaryoları verimli bir şekilde yönetmek için try‑with‑resources ile toplu veya paralel işleme kombinasyonu kullanın.
+  Kesinlikle – yüksek hacimli senaryoları verimli bir şekilde ele almak için try‑with‑resources ile toplu veya paralel işleme birleştirin.
 
 ## Öğrenecekleriniz
-
-- GroupDocs.Metadata kullanarak belge metaverisini yükleme ve başlatma  
-- Metaveriyi Excel, XML ve CSV dosyalarına dışa aktarma  
-- Uyumluluk raporlaması için **extract metadata from files** pratik örnekleri  
-- Büyük belge setleriyle çalışan Java geliştiricileri için performansa odaklı ipuçları  
+- GroupDocs.Metadata kullanarak belge metadata'sını yükleme ve başlatma  
+- Metadata'yı Excel, XML ve CSV dosyalarına dışa aktarma  
+- **extract metadata from files** örnekleriyle uyumluluk raporlaması  
+- Büyük belge setleriyle çalışan Java geliştiricileri için performans odaklı ipuçları  
 - Dijital varlık yönetimi, denetim izleri ve veri göçü gibi gerçek dünya kullanım senaryoları  
 
 ## Önkoşullar
-
 Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
-- **Java Development Kit (JDK):** Versiyon 8 veya üzeri.  
-- **GroupDocs.Metadata Library:** Maven üzerinden ekleyin veya JAR'ı doğrudan indirin.  
+- **Java Development Kit (JDK):** Version 8 veya üzeri.  
+- **GroupDocs.Metadata library:** Maven ile ekleyin veya JAR dosyasını doğrudan indirin.  
 - **IDE:** IntelliJ IDEA, Eclipse, NetBeans veya tercih ettiğiniz herhangi bir editör.  
 
-### Gerekli Kütüphaneler ve Bağımlılıklar
+### Gerekli kütüphaneler ve bağımlılıklar
 
-GroupDocs.Metadata ile sorunsuz entegrasyon için:
-
-#### Maven Kurulumu
-
-`pom.xml` dosyanıza aşağıdaki yapılandırmayı ekleyin:
+#### Maven kurulumu
+Aşağıdaki yapılandırmayı `pom.xml` dosyanıza ekleyin:
 
 ```xml
 <repositories>
@@ -136,21 +144,24 @@ GroupDocs.Metadata ile sorunsuz entegrasyon için:
 </dependencies>
 ```
 
-#### Doğrudan İndirme
-
+#### Doğrudan indirme
 Alternatif olarak, en son sürümü doğrudan [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) adresinden indirin.
 
-### Lisans Edinme
+### Ek kaynaklar
+- [GroupDocs.Metadata Java Docs](https://docs.groupdocs.com/metadata/java/) – detaylı Java API dokümantasyonu.  
+- [Java API Reference](https://reference.groupdocs.com/metadata/java/) – tüm sınıflar ve yöntemler için referans kılavuzu.  
+- [Latest Release](https://releases.groupdocs.com/metadata/java/) – GroupDocs.Metadata for Java'in en yeni sürümünü indirin.  
+- [GroupDocs.Metadata for Java on GitHub](https://github.com/groupdocs-metadata) – kaynak kod deposu ve sorun izleyici.  
 
+### Lisans edinme
 GroupDocs.Metadata'i tam olarak kullanmak için:
 
-- **Free Trial:** 30 günlük deneme süresi boyunca tüm özelliklere erişim.  
-- **Temporary License:** Ürünü sınırlama olmadan test etmek için geçici bir lisans edinin.  
-- **Purchase License:** Uzun vadeli kullanım ve kurumsal destek için.  
+- **Free trial:** 30‑günlük deneme süresi boyunca tüm özelliklere erişim.  
+- **Temporary license:** Ürünü sınırlama olmadan test etmek için geçici lisans alın.  
+- **Purchase license:** Uzun vadeli kullanım ve kurumsal destek için lisans satın alın.  
 
 ## GroupDocs.Metadata'i Java için Kurma
-
-Gerekli bağımlılıkları ekleyerek başlayın. Kurulum tamamlandıktan sonra projenizi başlatın:
+Gerekli bağımlılıkları ekleyerek başlayın. Kurulum tamamlandığında projenizi başlatın:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -165,17 +176,15 @@ public class MetadataSetup {
 }
 ```
 
-## Uygulama Kılavuzu
+## Uygulama rehberi
+Uygulamayı netlik sağlamak amacıyla belirli özelliklere ayıracağız.
 
-Uygulamayı netlik sağlamak için belirli özelliklere ayıracağız.
-
-### Metaveriyi Yükleme ve Başlatma
-
+### Metaveriyi yükleme ve başlatma
 **Genel Bakış:**  
-İlk adım, belgenizin metaverisini yüklemek, böylece **read document metadata java** stilinde okuyabilir ve manipüle edebilirsiniz.
+İlk adım, belge metadata'sını yükleyerek **read document metadata java** tarzında okuyabilmek ve üzerinde işlem yapabilmektir.
 
 **Tanım:**  
-`Metadata` sınıfı, GroupDocs.Metadata'in tek bir dosyanın metaveri paketini bellekte temsil eden giriş noktasıdır.
+`Metadata` sınıfı, GroupDocs.Metadata'in bellek içinde tek bir dosyanın metadata paketini temsil eden giriş noktasıdır.
 
 **Adımlar:**
 
@@ -194,24 +203,21 @@ Uygulamayı netlik sağlamak için belirli özelliklere ayıracağız.
     }
     ```
 
-2. **Null Kontrolü:** `RootMetadataPackage`'ın null olmadığını doğrulayarak istisnalardan kaçının.
+2. **Null Kontrolü:** `RootMetadataPackage`'in null olmadığını doğrulayarak istisna oluşmasını önleyin.
 
 ### Metaveriyi Excel'e Dışa Aktarma
-
 **Genel Bakış:**  
-Belgenizin metaverisini sıralama, filtreleme ve pivot‑tablo analizi gibi işlevler için bir Excel dosyasına dışa aktarın—**metadata export for compliance** raporlaması için mükemmeldir.
+Belge metadata'sını sıralama, filtreleme ve pivot‑tablo analizleri gibi işlevler için bir Excel dosyasına dışa aktarın—**metadata export for compliance** raporlaması için mükemmeldir.
 
 **Tanım:**  
-`ExportManager`, bir `RootMetadataPackage`'ı XLSX, XML veya CSV gibi çeşitli çıktı formatlarına dönüştürmeyi yöneten yardımcı sınıftır.  
-RootMetadataPackage, bir belgeden çıkarılan metaveri özelliklerinin hiyerarşik koleksiyonunu temsil eder.  
-ExportFormat, XLSX, XML ve CSV gibi desteklenen çıktı türlerini tanımlayan bir enum'dur.
+`ExportManager`, bir `RootMetadataPackage`'i XLSX, XML veya CSV gibi çeşitli çıktı formatlarına dönüştüren yardımcı sınıftır.
 
-**Java'da Metaveriyi Excel'e Nasıl Dışa Aktarılır?**  
-`new Metadata("file.docx")` ile belgeyi yükleyin, kök paketini alın, bu paketle `ExportManager` örneğini oluşturun ve `ExportFormat.XLSX` belirterek `export` metodunu çağırın. Bu üç adımlı akış, özellik adlarını, değerlerini ve veri tiplerini koruyan tam biçimlendirilmiş bir elektronik tablo yazar, hemen analiz için hazırdır.
+**Java'da metadata'yı Excel'e nasıl dışa aktarırım?**  
+`new Metadata("file.docx")` ile belgeyi yükleyin, kök paketini alın, bu paketle `ExportManager` örneği oluşturun ve `ExportFormat.XLSX` belirterek `export` metodunu çağırın. Bu üç adımlı akış, özellik adlarını, değerlerini ve veri tiplerini koruyan tam biçimlendirilmiş bir elektronik tablo oluşturur, hemen analiz için hazırdır.
 
 **Adımlar:**
 
-1. **ExportManager'ı Başlat:** Kök metaveri paketini kullanarak yöneticiyi kurun.
+1. **ExportManager'ı Başlat:** Kök metadata paketini kullanarak yöneticiyi yapılandırın.
 
     ```java
     import com.groupdocs.metadata.export.ExportManager;
@@ -224,14 +230,13 @@ ExportFormat, XLSX, XML ve CSV gibi desteklenen çıktı türlerini tanımlayan 
     }
     ```
 
-2. **Metaveriyi Dışa Aktar:** `export` metodunu kullanarak metaveriyi bir Excel dosyasına kaydedin.
+2. **Metadata'yı Dışa Aktar:** `export` metodunu kullanarak metadata'yı bir Excel dosyasına kaydedin.
 
 ### Metaveriyi XML'e Dışa Aktarma
-
 **Genel Bakış:**  
-XML, veri değişimi için idealdir; bu adım, yapılandırılmış işaretleme tüketen alt sistemler için **export metadata to xml** nasıl yapılacağını gösterir.
+XML, veri değişimi için idealdir; bu adım **export metadata to XML** işlemini, yapılandırılmış işaretleme tüketen alt sistemler için gösterir.
 
-**Java'da Metaveriyi XML'e Nasıl Dışa Aktarılır?**  
+**Java'da metadata'yı XML'e nasıl dışa aktarırım?**  
 Kök paketle bir `ExportManager` oluşturun, ardından `ExportFormat.XML` ile `export` metodunu çağırın. Oluşan XML dosyası, tüm standart ve özel özelliklerin hiyerarşik bir temsilini içerir, web servisleri veya eski sistemlerle entegrasyonu kolaylaştırır.
 
 **Adımlar:**
@@ -246,19 +251,18 @@ Kök paketle bir `ExportManager` oluşturun, ardından `ExportFormat.XML` ile `e
     }
     ```
 
-2. **Metaveriyi Dışa Aktar:** `export` metodunu çağırarak metaveriyi bir XML dosyası olarak kaydedin.
+2. **Metadata'yı Dışa Aktar:** `export` metodunu çağırarak metadata'yı bir XML dosyası olarak kaydedin.
 
 ### Metaveriyi CSV'ye Dışa Aktarma
-
 **Genel Bakış:**  
-CSV dosyaları hızlı analiz için mükemmeldir ve BI araçlarına aktarılabilir—bu, **export metadata to csv** nasıl yapılacağını gösterir.
+CSV dosyaları hızlı analiz için idealdir ve BI araçlarına kolayca aktarılabilir—bu, **export metadata to CSV** ile hafif raporlama yapmayı gösterir.
 
-**Java'da Metaveriyi CSV'ye Nasıl Dışa Aktarılır?**  
-Kök paketle `ExportManager` örneği oluşturun, ardından `ExportFormat.CSV` ile `export` metodunu çağırın. CSV çıktısı, “Property, Value” çiftlerini satırlara dökerek elektronik tablolara veya veri‑akışı araçlarına hızlı yükleme sağlar.
+**Java'da metadata'yı CSV'ye nasıl dışa aktarırım?**  
+Kök paketle bir `ExportManager` örneği oluşturun, ardından `ExportFormat.CSV` ile `export` metodunu çağırın. CSV çıktısı, metadata'yı “Property, Value” çiftleri şeklinde satırlara döker, elektronik tabloya veya veri hattı araçlarına hızlı yükleme sağlar.
 
 **Adımlar:**
 
-1. **ExportManager'ı Başlat:** Kök paketinizle yöneticiyi kurun.
+1. **ExportManager'ı Başlat:** Kök paketinizle yöneticiyi yapılandırın.
 
     ```java
     String outputPathCsv = "YOUR_OUTPUT_DIRECTORY/output.csv";
@@ -268,82 +272,68 @@ Kök paketle `ExportManager` örneği oluşturun, ardından `ExportFormat.CSV` i
     }
     ```
 
-2. **Metaveriyi Dışa Aktar:** CSV dosyası oluşturmak için `export` metodunu kullanın.
+2. **Metadata'yı Dışa Aktar:** `export` metodunu kullanarak bir CSV dosyası oluşturun.
 
-## Metaveri Dışa Aktarmak İçin Neden GroupDocs.Metadata Kullanılmalı?
+## Metaveriyi dışa aktarmak için GroupDocs.Metadata neden kullanılmalı?
+GroupDocs.Metadata, DOCX, XLSX, PPTX, PDF ve 30'dan fazla görüntü türü dahil **70+ giriş ve çıkış formatı** üzerinde çalışan tek ve tutarlı bir API sunar. Tüm belgeyi belleğe yüklemeden **2 GB**'a kadar dosyaları işleyebilir, genel ayrıştırıcılara kıyasla **CPU kullanımında %30 azalma** sağlar. Bu ölçülen yetenekler, büyük ölçekli uyumluluk projeleri için güvenilir bir seçim olmasını sağlar.
 
-GroupDocs.Metadata, DOCX, XLSX, PPTX, PDF ve 30'dan fazla görüntü türü dahil **70+ giriş ve çıkış formatını** destekler. Tüm belgeyi belleğe yüklemeden **2 GB**'a kadar dosyaları işleyebilir ve genel ayrıştırıcılara göre **CPU kullanımında %30 azalma** sağlar. Bu ölçülen yetenekler, büyük ölçekli uyumluluk projeleri için güvenilir bir seçim olmasını sağlar.
+## Pratik uygulamalar
+**metadata export for compliance** ve **extract metadata from files**'in faydalı olduğu bazı gerçek dünya senaryoları:
 
-## Pratik Uygulamalar
+1. **Dijital varlık yönetimi:** Medya kütüphanelerinin hızlı sınıflandırılması, etiketlenmesi ve toplu güncellenmesi için metadata'yı Excel'e dışa aktarın.  
+2. **Regülasyon denetimleri:** GDPR, HIPAA veya SOX gereksinimlerini karşılayan, sektör standartı şemalarına uygun XML raporları oluşturun.  
+3. **Veri göçü projeleri:** İçerik yönetim sistemleri arasında içerik taşırken kaynak dosya özelliklerini koruyun, veri kaybı riskini azaltın.  
 
-**metadata export for compliance** ve **extract metadata from files**'ın faydalı olduğu bazı gerçek dünya senaryoları:
+## Performans değerlendirmeleri
+GroupDocs.Metadata'i Java'da kullanırken performansı optimize etmek için:
 
-1. **Digital Asset Management:** Hızlı sınıflandırma, etiketleme ve toplu güncellemeler için metaveriyi Excel'e dışa aktarın, medya kütüphanelerini etkili bir şekilde yönetin.  
-2. **Regulatory Audits:** Endüstri standartı şemalarına uygun XML raporları oluşturun, GDPR, HIPAA veya SOX gereksinimlerini karşılayın.  
-3. **Data Migration Projects:** İçerik yönetim sistemleri arasında içerik taşırken kaynak dosya özelliklerini koruyun, veri kaybı riskini azaltın.  
-
-## Performans Düşünceleri
-
-Java'da GroupDocs.Metadata ile çalışırken performansı optimize etmek için:
-
-- **Verimli Bellek Yönetimi:** Kaynakları otomatik olarak kapatıp belleği serbest bırakmak için gösterildiği gibi try‑with‑resources kullanın.  
-- **Toplu İşleme:** Tüm dosyaları bir kerede yüklemek yerine büyük belge koleksiyonlarını parçalar halinde işleyin.  
-- **Paralel İşleme:** Java’nın `ExecutorService`'ini kullanarak birden çok dosyayı eşzamanlı işleyin, çok çekirdekli sunucularda 2×'ye kadar hız artışı elde edin.  
+- **Verimli bellek yönetimi:** Kaynakları otomatik olarak kapatıp belleği serbest bırakmak için try‑with‑resources (gösterildiği gibi) kullanın.  
+- **Toplu işleme:** Her şeyi bir anda yüklemek yerine büyük belge koleksiyonlarını parçalar halinde işleyin.  
+- **Paralel işleme:** Java’nın `ExecutorService`'ini kullanarak birden çok dosyayı aynı anda işleyin; çok çekirdekli sunucularda **2×** hız artışı elde edin.  
 
 ## Sonuç
+Bu öğretici, GroupDocs.Metadata Java kütüphanesini **metadata'yı Excel'e dışa aktarma**, ayrıca XML ve CSV formatlarına dışa aktarma ve **read document metadata java** tarzında okuma konularında nasıl kullanacağınızı inceledi. Bu adımları izleyerek, denetim izlerinden veri ambarı beslemelerine kadar gerçek dünya uygulamalarında belge metadata'sını verimli bir şekilde yönetebilir ve kullanabilirsiniz.
 
-Bu öğretici, GroupDocs.Metadata Java kütüphanesini **export metadata to excel** yanı sıra XML ve CSV dışa aktarmaları için nasıl kullanacağınızı ve **read document metadata java** stilinde uyumluluk ve analiz için nasıl okuyacağınızı inceledi. Bu adımları izleyerek, denetim izlerinden veri ambarı entegrasyonuna kadar gerçek dünya uygulamalarında belge metaverisini verimli bir şekilde yönetebilir ve kullanabilirsiniz.
-
-**Sonraki Adımlar:**
+**Sonraki adımlar**
 
 - Farklı dosya türleriyle deney yapın ve özel özellik işleme ve şifreleme desteği gibi ek özellikleri keşfedin.  
-- Diğer kullanıcılarla bağlantı kurmak ve bilgiler paylaşmak için [GroupDocs forum](https://forum.groupdocs.com/c/metadata/) sitesine katılın.  
+- Diğer kullanıcılarla bağlantı kurmak ve bilgiler paylaşmak için [GroupDocs forum](https://forum.groupdocs.com/c/metadata/)’a katılın.  
 
-## SSS Bölümü
-
+## Sıkça Sorulan Sorular
 1. **GroupDocs.Metadata nedir?**  
-   GroupDocs.Metadata, 70'ten fazla belge formatı için programatik erişim sağlayan bir Java kütüphanesidir; okuma, yazma ve dışa aktarma işlemlerine olanak tanır.  
-2. **Herhangi bir belge formatından metaveri dışa aktarabilir miyim?**  
+   GroupDocs.Metadata, 70'ten fazla belge formatında metadata'ya programatik erişim sağlayan, okuma, yazma ve dışa aktarma işlemlerine imkan veren bir Java kütüphanesidir.  
+2. **Herhangi bir belge formatından metadata dışa aktarabilir miyim?**  
    Evet, kütüphane Word, Excel, PowerPoint, PDF, görüntüler ve birçok arşiv türü dahil geniş bir format yelpazesini destekler.  
 3. **Büyük miktarda belgeyi nasıl yönetirim?**  
-   Java’nın eşzamanlılık araçlarını kullanarak toplu işleme veya paralel yürütme uygulayın; bu, toplam işlem süresini azaltır ve bellek kullanımını düşük tutar.  
+   Java’nın eşzamanlılık araçlarını kullanarak toplu işleme veya paralel yürütme uygulayın; bu, toplam işleme süresini azaltır ve bellek kullanımını düşük tutar.  
 4. **Gelişmiş özellikler için dokümantasyon var mı?**  
    Evet, ayrıntılı API dokümantasyonu [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/) adresinde bulunabilir.  
-5. **Sorunlarla karşılaştığımda nereden destek alabilirim?**  
-   Yardım için [free support forum](https://forum.groupdocs.com/c/metadata/) adresindeki topluluk ve GroupDocs uzmanlarından destek alabilirsiniz.  
+5. **Sorun yaşarsam nereden destek alabilirim?**  
+   Yardım için [free support forum](https://forum.groupdocs.com/c/metadata/) adresini ziyaret ederek GroupDocs uzmanlarından ve topluluktan destek alabilirsiniz.  
 
-## Sık Sorulan Sorular
+## Yaygın Sorular
 
 **S:** *Bu yaklaşımı bir Spring Boot uygulamasında kullanabilir miyim?*  
-**C:** Kesinlikle. `pom.xml` dosyanıza Maven bağımlılığını ekleyin, `Metadata` servisini bir Spring bean'i olarak enjekte edin ve dışa aktarma metodlarını herhangi bir denetleyici ya da servis katmanından çağırın.  
+**C:** Kesinlikle. Maven bağımlılığını `pom.xml` dosyanıza ekleyin, `Metadata` servisini bir Spring bean'i olarak enjekte edin ve dışa aktarma metodlarını herhangi bir kontrolcü veya servis katmanından çağırın.  
 
-**S:** *Belgelerim şifre korumalıysa ne olur?*  
-**C:** Şifreyi `Metadata` yapıcısına parametre olarak geçirin; kütüphane, metaveriyi çıkarmadan önce dosyayı çözer ve güvenlik uyumluluğunu korur.  
+**S:** *Belgelerim şifre korumalıysa ne yapmalıyım?*  
+**C:** Şifreyi `Metadata` yapıcısına geçirin; kütüphane, metadata'yı çıkarmadan önce dosyayı çözer ve güvenlik uyumluluğunu korur.  
 
-**S:** *İşleyebileceğim bir belgenin boyutu için bir limit var mı?*  
-**C:** Kütüphane 2 GB'a kadar büyük dosyaları işleyebilir, ancak JVM heap kullanımını izlemeli ve büyük ikili verileri akış (stream) yöntemiyle işlemeyi düşünmelisiniz; aksi takdirde OutOfMemory hataları alabilirsiniz.  
+**S:** *İşleyebileceğim belge boyutu konusunda bir limit var mı?*  
+**C:** Kütüphane 2 GB'a kadar büyük dosyaları işleyebilir, ancak JVM yığın kullanımını izlemeli ve OutOfMemory hatalarını önlemek için büyük ikili verileri akış olarak işlemeyi düşünmelisiniz.  
 
-**S:** *Özel metaveri alanlarını dışa aktarmaya nasıl dahil ederim?*  
-**C:** `RootMetadataPackage` API'sini kullanarak özel özellikleri enumerate edin; ek bir yapılandırma gerektirmeden bu alanlar Excel, XML veya CSV çıktısına otomatik olarak eklenir.  
+**S:** *Özel metadata alanlarını dışa aktarmaya nasıl ekleyebilirim?*  
+**C:** `RootMetadataPackage` API'sini kullanarak özel özellikleri enumerate edin; ek bir yapılandırma gerektirmeden Excel, XML veya CSV çıktısına otomatik olarak eklenirler.  
 
 **S:** *GroupDocs.Metadata Linux konteynerlerinde çalışır mı?*  
-**C:** Evet, kütüphane platform bağımsızdır ve Docker konteynerleri içinde Linux, Windows veya macOS host'larda sorunsuz çalışır.  
+**C:** Evet, kütüphane platform bağımsızdır ve Linux, Windows veya macOS ana makinelerde Docker konteynerleri içinde sorunsuz çalışır.  
 
-## Kaynaklar
-
-- **Dokümantasyon:** [GroupDocs.Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)
-- **API Referansı:** [Java API Reference](https://reference.groupdocs.com/metadata/java/)
-- **İndirme:** [Latest Release](https://releases.groupdocs.com/metadata/java/)
-- **GitHub Deposu:** [GroupDocs.Metadata for Java on GitHub](https://github.com/groupdocs-metadata)
-
----
-
-**Son Güncelleme:** 2026-06-27  
-**Test Edilen Versiyon:** GroupDocs.Metadata 24.12  
+**Son Güncelleme:** 2026-09-11  
+**Test Edilen Sürüm:** GroupDocs.Metadata 24.12  
 **Yazar:** GroupDocs  
 
-## İlgili Eğitimler
+## İlgili öğreticiler
 
-- [GroupDocs.Metadata Kullanarak Java'da Metaveriyi CSV'ye Dışa Aktarma: Tam Kılavuz](/metadata/java/working-with-metadata/export-metadata-csv-groupdocs-metadata-java/)
-- [GroupDocs ile Java'da Word Belgesi Metaverisine Erişim: Kapsamlı Kılavuz](/metadata/java/document-formats/access-word-metadata-groupdocs-java/)
-- [GroupDocs.Metadata ile Java'da PDF'lerden Özel Metaveri Çıkarma: Kapsamlı Kılavuz](/metadata/java/document-formats/extract-custom-metadata-groupdocs-metadata-java/)
+- [Export Metadata to CSV in Java using GroupDocs.Metadata: A Complete Guide](/metadata/java/working-with-metadata/export-metadata-csv-groupdocs-metadata-java/)
+- [Access Word Document Metadata with GroupDocs in Java: A Comprehensive Guide](/metadata/java/document-formats/access-word-metadata-groupdocs-java/)
+- [How to Extract Custom Metadata from PDFs Using GroupDocs.Metadata in Java: A Comprehensive Guide](/metadata/java/document-formats/extract-custom-metadata-groupdocs-metadata-java/)

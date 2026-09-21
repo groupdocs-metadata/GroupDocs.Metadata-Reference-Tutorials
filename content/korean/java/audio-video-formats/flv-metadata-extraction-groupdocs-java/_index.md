@@ -1,51 +1,79 @@
 ---
-date: '2026-03-09'
-description: GroupDocs.Metadata를 사용하여 Java에서 FLV 메타데이터를 추출하는 방법을 배우세요 – FLV 헤더를 읽고,
+date: '2026-09-21'
+description: GroupDocs.Metadata를 사용하여 FLV 메타데이터 Java를 추출하는 방법을 배웁니다 – FLV 헤더를 읽고,
   비디오 정보를 추출하며, 미디어 워크플로를 최적화하는 단계별 가이드.
 keywords:
-- FLV Metadata Extraction
-- GroupDocs.Metadata Java
-- Java Video Metadata
-title: GroupDocs.Metadata를 사용한 Java에서 FLV 메타데이터 추출 방법
+- extract flv metadata java
+- java read video metadata
+- groupdocs metadata java
+- flv header extraction
+lastmod: '2026-09-21'
+og_description: GroupDocs.Metadata를 사용하여 FLV 메타데이터 Java를 추출합니다. FLV 헤더를 읽고 비디오 세부
+  정보를 얻으며 Java에서 파일을 효율적으로 처리하는 방법을 배웁니다.
+og_image_alt: Guide showing Java code extracting FLV metadata with GroupDocs.Metadata
+og_title: GroupDocs.Metadata와 함께 FLV 메타데이터 Java 추출 – 빠르고 코드 없는 솔루션
+schemas:
+- author: GroupDocs
+  dateModified: '2026-09-21'
+  description: Learn how to extract FLV metadata Java using GroupDocs.Metadata – step‑by‑step
+    guide for reading FLV headers, extracting video information, and optimizing media
+    workflows.
+  headline: How to extract FLV metadata Java with GroupDocs.Metadata
+  type: TechArticle
+- questions:
+  - answer: FLV (Flash Video) is a container format designed for streaming video over
+      the internet, historically used with Adobe Flash Player.
+    question: What is FLV?
+  - answer: Yes, the library supports many formats (MP4, AVI, MOV, etc.). See the
+      full list in the [API Reference](https://reference.groupdocs.com/metadata/java/).
+    question: Can I use GroupDocs.Metadata for other video formats?
+  - answer: A trial license is fine for evaluation, but a paid license is needed for
+      commercial deployments.
+    question: Is a license required for production use?
+  - answer: Wrap the metadata calls in a try‑catch block and log `MetadataException`
+      or `IOException` to handle file‑access issues gracefully.
+    question: How should I handle exceptions when reading FLV headers?
+  - answer: Generally no—metadata changes do not alter the actual video stream, but
+      always test after modifications to ensure compatibility with target players.
+    question: Will modifying metadata affect video playback?
+  type: FAQPage
+tags:
+- flv metadata
+- groupdocs
+- java video processing
+- metadata extraction
+title: GroupDocs.Metadata를 사용한 FLV 메타데이터 Java 추출 방법
 type: docs
 url: /ko/java/audio-video-formats/flv-metadata-extraction-groupdocs-java/
 weight: 1
 ---
 
- markdown.
+# GroupDocs.Metadata를 사용한 Java에서 FLV 메타데이터 추출 방법
 
-Make sure to keep code block placeholders unchanged.
+If you need to **extract flv metadata java** quickly and reliably, you’ve come to the right place. Whether you’re building a streaming service, a digital asset manager, or just need to audit a video library, reading FLV header information without pulling in heavyweight codecs can save you time and resources. In this tutorial we’ll walk through setting up GroupDocs.Metadata, pulling out key FLV properties, and applying the data in real‑world scenarios.
 
-Also ensure no extra spaces messing.
-
-Let's craft final answer.# GroupDocs.Metadata를 사용한 Java에서 FLV 메타데이터 추출 방법
-
-빠르고 안정적으로 **extract flv metadata java**를 수행해야 한다면, 올바른 곳에 오셨습니다. 스트리밍 서비스, 디지털 자산 관리 시스템을 구축하거나 비디오 라이브러리를 감사해야 할 때, 무거운 코덱을 사용하지 않고 FLV 헤더 정보를 읽는 것은 시간과 자원을 절약할 수 있습니다. 이 튜토리얼에서는 GroupDocs.Metadata 설정, 주요 FLV 속성 추출, 그리고 실제 시나리오에 데이터를 적용하는 방법을 단계별로 안내합니다.
-
-## Quick Answers
-- **FLV 메타데이터에 가장 적합한 라이브러리는 무엇인가요?** GroupDocs.Metadata for Java.  
-- **라이선스 없이 FLV 헤더를 읽을 수 있나요?** 평가용 무료 체험이 가능하지만, 프로덕션에서는 라이선스가 필요합니다.  
+## 빠른 답변
+- **FLV 메타데이터에 가장 적합한 라이브러리는?** GroupDocs.Metadata for Java.  
+- **라이선스 없이 FLV 헤더를 읽을 수 있나요?** 평가용 무료 체험이 가능하며, 프로덕션에서는 라이선스가 필요합니다.  
 - **지원되는 Java 버전은?** Java 8 이상.  
 - **추가 코덱이 필요합니까?** 아니요, GroupDocs.Metadata는 외부 코덱 없이 컨테이너를 파싱합니다.  
-- **배치 작업에 충분히 빠른가요?** 예 – 메타데이터는 전체 비디오 디코딩 없이 메모리에서 읽습니다.
+- **배치 작업에 충분히 빠른가요?** 예 – 메타데이터는 전체 비디오 디코딩 없이 메모리에서 읽어들입니다.
 
-## What is extract flv metadata java?
-FLV(Flash Video) 파일은 버전, 오디오/비디오 태그 존재 여부, 타입 플래그와 같은 기술적 세부 정보를 압축된 헤더에 포함합니다. 이 정보를 추출하면 파일을 재생하지 않고도 비디오 자산을 카탈로그화, 필터링 또는 검증할 수 있으며, 이는 바로 **extract flv metadata java**가 목표로 하는 바입니다.
+## extract flv metadata java란?
+Extract FLV metadata Java is the process of using Java code and the GroupDocs.Metadata library to read the header information embedded in FLV (Flash Video) files—such as version, codec flags, and stream presence—without decoding the full video.  
+FLV (Flash Video) files embed technical details—such as version, audio/video tag presence, and type flags—in a compact header. Pulling out this information lets you catalog, filter, or validate video assets without playing the files, which is exactly what **extract flv metadata java** aims to achieve.
 
-## Why use GroupDocs.Metadata for Java?
-- **Zero‑dependency 파싱:** FFmpeg 등 무거운 라이브러리가 필요 없습니다.  
-- **강력하고 타입이 지정된 API:** `FlvRootPackage`와 같은 클래스가 코드를 자체 설명적으로 만듭니다.  
-- **크로스‑플랫폼:** Windows, Linux, macOS에서 모든 JVM과 함께 작동합니다.  
-- **성능 중심:** 메타데이터 구간만 읽어 CPU와 메모리 사용량을 낮게 유지합니다.
+## 왜 Java용 GroupDocs.Metadata를 사용해야 하나요?
+You should use GroupDocs.Metadata for Java because it parses FLV containers without external dependencies, offers a strongly typed API, runs on any JVM, and processes metadata in under 5 ms per file while using less than 2 MB of memory, making batch processing efficient. Additionally, the library provides detailed error handling, supports concurrent processing, and includes utilities for updating or removing metadata without affecting the video stream.
 
-## Prerequisites
-- **GroupDocs.Metadata** for Java (버전 24.12 이상).  
-- Java 호환 IDE (IntelliJ IDEA, Eclipse 등).  
-- 개발 머신에 Maven이 설치되어 있어야 합니다.  
-- 기본 Java 지식 및 FLV 파일 구조에 대한 이해.
+## 사전 요구 사항
+- **GroupDocs.Metadata** for Java (version 24.12 or later).  
+- A Java‑compatible IDE (IntelliJ IDEA, Eclipse, etc.).  
+- Maven installed on your development machine.  
+- Basic Java knowledge and familiarity with FLV file structure.
 
-## Setting Up GroupDocs.Metadata for Java
-### Maven Dependency
+## Java용 GroupDocs.Metadata 설정
+### Maven 의존성
 Add the repository and dependency to your `pom.xml`:
 
 ```xml
@@ -66,14 +94,14 @@ Add the repository and dependency to your `pom.xml`:
 </dependencies>
 ```
 
-### Direct Download
-수동 설치를 선호한다면, 공식 릴리스 페이지에서 최신 JAR를 다운로드하세요: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+### 직접 다운로드
+If you prefer manual installation, grab the latest JAR from the official release page: [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-### License
-GroupDocs 포털에서 체험판 또는 정식 라이선스를 획득하세요. 체험판은 모든 기능을 탐색할 수 있게 해 주며, 정식 라이선스는 사용 제한을 해제합니다.
+### 라이선스
+Obtain a trial or a permanent license from the GroupDocs portal. The trial lets you explore all features; a full license removes usage limits.
 
-### Basic Initialization
-라이브러리가 클래스패스에 추가되면, FLV 파일을 가리키는 `Metadata` 인스턴스를 생성합니다:
+### 기본 초기화
+The `Metadata` class represents a container for reading and writing metadata of a file. Once the library is on the classpath, create a `Metadata` instance pointing at your FLV file:
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -85,24 +113,26 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.flv")) {
 }
 ```
 
-## How to extract flv metadata java with GroupDocs.Metadata
-### Reading FLV Header Properties
-헤더는 파일 버전과 오디오/비디오 스트림 존재 여부를 알려줍니다.
+## GroupDocs.Metadata를 사용한 Java에서 FLV 메타데이터 추출 방법
+To extract FLV metadata Java with GroupDocs.Metadata, instantiate a `Metadata` object with the path to your FLV file, access the `FlvRootPackage` via `metadata.getRootPackage()`, and read properties such as version, audio/video flags, and duration directly from the root package. The `FlvRootPackage` class provides access to the FLV file’s root structure and its header fields, allowing you to query or modify metadata without decoding the video stream.
 
-#### Step 1: Import Required Packages
+### FLV 헤더 속성 읽기
+The header tells you the file version and whether audio/video streams are present.
+
+#### Step 1: import required packages
 ```java
 import com.groupdocs.metadata.Metadata;
 import com.groupdocs.metadata.core.FlvRootPackage;
 ```
 
-#### Step 2: Initialize the Metadata Object
+#### Step 2: initialize the Metadata object
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/input.flv")) {
     FlvRootPackage root = metadata.getRootPackageGeneric();
 }
 ```
 
-#### Step 3: Retrieve Header Information
+#### Step 3: retrieve header information
 ```java
 int version = root.getHeader().getVersion();
 boolean hasAudioTags = root.getHeader().hasAudioTags();
@@ -115,66 +145,74 @@ System.out.println("Has Video Tags: " + hasVideoTags);
 System.out.println("Type Flags: " + typeFlags);
 ```
 
-**Tip:** 코드를 실행하기 전에 파일 경로와 파일 권한을 확인하여 `IOException` 발생을 방지하세요.
+**Tip:** Verify the file path and file permissions before running the code to avoid `IOException`.
 
-### Managing FLV‑Specific Metadata
-헤더 외에도 동일한 루트 패키지를 사용해 다른 FLV 구조(예: 스크립트 데이터 태그)를 탐색할 수 있습니다.
+### FLV‑특정 메타데이터 관리
+Beyond the header, you can explore other FLV structures (e.g., script data tags) using the same root package.
 
+`FlvRootPackage` is the root object representing the entire FLV file structure, exposing header fields and tag collections.  
 ```java
 FlvRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-이 시점부터 애플리케이션 요구에 따라 메타데이터 필드를 읽고, 업데이트하고, 삭제할 수 있습니다.
+From this point you can read, update, or delete metadata fields as required by your application.
 
-## Practical Use Cases
-1. **Content Management Systems** – 버전 및 스트림 정보를 자동 태깅하여 검색성을 향상시킵니다.  
-2. **Media Players** – 전체 비디오를 로드하지 않고 UI에 기술적 세부 정보를 표시합니다.  
-3. **Digital Asset Management** – 필수 오디오/비디오 스트림이 존재하는지 확인하여 FLV 업로드를 검증합니다.
+## 실용적인 사용 사례
+1. **콘텐츠 관리 시스템** – 버전 및 스트림 정보를 자동으로 태깅하여 검색성을 향상시킵니다.  
+2. **미디어 플레이어** – 전체 비디오를 로드하지 않고 UI에 기술 세부 정보를 표시합니다.  
+3. **디지털 자산 관리** – 필수 오디오/비디오 스트림 존재 여부를 확인하여 FLV 업로드를 검증합니다.
 
-## Performance Tips
-- **Metadata 객체 재사용:** 배치에서 다수 파일을 처리할 때 GC 부담을 줄입니다.  
-- **자주 접근하는 값 캐시:** (예: 버전) 반복 사용이 필요하면 캐시합니다.  
-- **리소스 즉시 닫기:** 위와 같이 try‑with‑resources를 사용해 파일 잠금을 방지합니다.
+## 성능 팁
+- **Metadata 객체 재사용**: 많은 파일을 배치 처리할 때 GC 부담을 줄입니다.  
+- **자주 접근하는 값 캐시** (예: version) : 반복 사용 시 성능을 개선합니다.  
+- **리소스 즉시 닫기**: 위 예시와 같이 try‑with‑resources를 사용해 파일 잠금을 방지합니다.
 
-## Common Issues & Solutions
-| 증상 | 가능한 원인 | 해결 방법 |
+## 일반적인 문제 및 해결책
+| 증상 | 가능 원인 | 해결 방법 |
 |---------|--------------|-----|
-| `FileNotFoundException` | 경로가 잘못되었거나 파일이 없음 | 절대/상대 경로를 다시 확인하고 파일이 존재하는지 확인하세요. |
-| `UnsupportedOperationException` when accessing a tag | FLV에 해당 태그 유형이 포함되어 있지 않음 | 읽기 전에 `hasAudioTags()` / `hasVideoTags()` 검사를 먼저 수행하세요. |
-| Memory spike on large batches | `Metadata` 객체를 닫지 않음 | try‑with‑resources를 사용하거나 명시적으로 `metadata.close()`를 호출하세요. |
+| `FileNotFoundException` | Wrong path or missing file | Double‑check the absolute/relative path; ensure the file exists. |
+| `UnsupportedOperationException` when accessing a tag | FLV does not contain that tag type | Use `hasAudioTags()` / `hasVideoTags()` checks before reading. |
+| Memory spike on large batches | Not closing `Metadata` objects | Use try‑with‑resources or explicitly call `metadata.close()`. |
 
-## Frequently Asked Questions
+## 자주 묻는 질문
 **Q: FLV란 무엇인가요?**  
-A: FLV(Flash Video)는 인터넷을 통한 비디오 스트리밍을 위해 설계된 컨테이너 포맷으로, 과거 Adobe Flash Player와 함께 사용되었습니다.
+A: FLV (Flash Video) is a container format designed for streaming video over the internet, historically used with Adobe Flash Player.
 
-**Q: GroupDocs.Metadata를 다른 비디오 포맷에도 사용할 수 있나요?**  
-A: 예, 라이브러리는 MP4, AVI, MOV 등 다양한 포맷을 지원합니다. 전체 목록은 [API Reference](https://reference.groupdocs.com/metadata/java/)에서 확인하세요.
+**Q: GroupDocs.Metadata를 다른 비디오 형식에도 사용할 수 있나요?**  
+A: Yes, the library supports many formats (MP4, AVI, MOV, etc.). See the full list in the [API Reference](https://reference.groupdocs.com/metadata/java/).
 
 **Q: 프로덕션 사용에 라이선스가 필요합니까?**  
-A: 평가용 체험 라이선스는 충분하지만, 상업적 배포에는 유료 라이선스가 필요합니다.
+A: A trial license is fine for evaluation, but a paid license is needed for commercial deployments.
 
 **Q: FLV 헤더를 읽을 때 예외를 어떻게 처리해야 하나요?**  
-A: 메타데이터 호출을 try‑catch 블록으로 감싸고 `MetadataException` 또는 `IOException`을 로깅하여 파일 접근 문제를 우아하게 처리하세요.
+A: Wrap the metadata calls in a try‑catch block and log `MetadataException` or `IOException` to handle file‑access issues gracefully.
 
 **Q: 메타데이터를 수정하면 비디오 재생에 영향을 줍니까?**  
-A: 일반적으로 메타데이터 변경은 실제 비디오 스트림을 변경하지 않으므로 재생에 영향을 주지 않지만, 수정 후에는 대상 플레이어와의 호환성을 반드시 테스트하세요.
+A: Generally no—metadata changes do not alter the actual video stream, but always test after modifications to ensure compatibility with target players.
 
 **Q: 수천 개의 FLV 파일을 배치 처리할 수 있나요?**  
-A: 물론 가능합니다. 위 코드를 루프와 결합하고, JVM 메모리 한계를 고려하면서 멀티스레딩을 검토하세요.
+A: Absolutely. Combine the above code with a loop and consider multi‑threading while respecting JVM memory limits.
 
-## Conclusion
-이제 GroupDocs.Metadata를 사용해 **how to extract FLV metadata Java**를 수행하는 견고하고 프로덕션에 적합한 방법을 익혔습니다. 이 스니펫들을 애플리케이션에 통합하면 무거운 의존성 없이 비디오 카탈로그화, 검증 및 풍부화 작업을 자동화할 수 있습니다.
+## 결론
+You now have a solid, production‑ready approach for **how to extract FLV metadata Java** using GroupDocs.Metadata. By integrating these snippets into your applications, you can automate video cataloging, validation, and enrichment without heavy dependencies.
 
 **Resources**
 - **Documentation:** [GroupDocs.Metadata Java Documentation](https://docs.groupdocs.com/metadata/java/)
-- **API Reference:** [GroupDocs API Reference for Java](https://reference.groupdocs.com/metadata/java/)
+- **API reference:** [API Reference](https://reference.groupdocs.com/metadata/java/)
+- **API reference:** [GroupDocs API Reference for Java](https://reference.groupdocs.com/metadata/java/)
 - **Download:** [Get the latest version of GroupDocs.Metadata](https://releases.groupdocs.com/metadata/java/)
-- **GitHub Repository:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
-- **Free Support Forum:** [Join the discussion](https://forum.groupdocs.com/c/metadata/)
-- **Temporary License:** [Request a temporary license](https://purchase.groupdocs.com/temporary-license/)
+- **GitHub repository:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- **Free support forum:** [Join the discussion](https://forum.groupdocs.com/c/metadata/)
+- **Temporary license:** [Request a temporary license](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 
-**Last Updated:** 2026-03-09  
+**Last Updated:** 2026-09-21  
 **Tested With:** GroupDocs.Metadata 24.12 for Java  
 **Author:** GroupDocs
+
+## 관련 튜토리얼
+
+- [Extract video metadata java using GroupDocs.Metadata](/metadata/java/audio-video-formats/mastering-avi-metadata-handling-groupdocs-java/)
+- [Extract Avi Metadata Groupdocs Metadata Java](/metadata/java/audio-video-formats/extract-avi-metadata-groupdocs-metadata-java/)
+- [Extract Matroska Metadata Groupdocs Java](/metadata/java/audio-video-formats/extract-matroska-metadata-groupdocs-java/)

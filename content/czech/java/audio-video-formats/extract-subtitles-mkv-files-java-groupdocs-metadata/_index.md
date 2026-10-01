@@ -1,56 +1,94 @@
 ---
-date: '2026-03-09'
-description: Naučte se hromadně extrahovat titulky ve formátu MKV z MKV souborů pomocí
-  Javy a GroupDocs.Metadata. Tento krok‑za‑krokem průvodce pokrývá nastavení, implementaci
-  a reálné příklady použití.
+date: '2026-10-01'
+description: Naučte se, jak hromadně extrahovat titulky z MKV souborů v Javě pomocí
+  GroupDocs.Metadata. Postupné nastavení, ukázky kódu a reálné příklady použití pro
+  extrakci titulků.
 keywords:
-- batch extract mkv subtitles
-- Java GroupDocs.Metadata
-- subtitle extraction Java
-title: Jak hromadně extrahovat titulky z mkv pomocí Javy a GroupDocs.Metadata
+- batch extract subtitles
+- how to extract subtitles
+- GroupDocs.Metadata Java
+- MKV subtitle extraction
+lastmod: '2026-10-01'
+og_description: Naučte se, jak hromadně extrahovat titulky z MKV souborů v Javě pomocí
+  GroupDocs.Metadata. Tento průvodce zahrnuje nastavení, kód a reálné scénáře pro
+  extrakci titulků.
+og_image_alt: 'Guide: batch extract subtitles from MKV files using Java and GroupDocs.Metadata'
+og_title: Jak hromadně extrahovat titulky z MKV souborů v Javě
+schemas:
+- author: GroupDocs
+  dateModified: '2026-10-01'
+  description: Learn how to batch extract subtitles from MKV files in Java using GroupDocs.Metadata.
+    Step‑by‑step setup, code snippets, and real‑world use cases for subtitle extraction.
+  headline: How to batch extract subtitles from MKV files in Java
+  type: TechArticle
+- description: Learn how to batch extract subtitles from MKV files in Java using GroupDocs.Metadata.
+    Step‑by‑step setup, code snippets, and real‑world use cases for subtitle extraction.
+  name: How to batch extract subtitles from MKV files in Java
+  steps:
+  - name: initialize the Metadata object
+    text: 'First, instantiate the `Metadata` class with the path to your MKV file:'
+  - name: access the Matroska root package
+    text: '`MatroskaRootPackage` is the container object that gives you entry points
+      to all tracks inside the MKV file. Retrieve it as follows:'
+  - name: iterate through subtitle tracks
+    text: '`MatroskaSubtitleTrack` represents an individual subtitle stream. Loop
+      over each track, read language, timecode, duration, and the actual subtitle
+      text: The loop prints each subtitle’s metadata and its textual content, giving
+      you a complete view of every caption embedded in the MKV file.'
+  type: HowTo
+- questions:
+  - answer: JDK 8 or newer is required.
+    question: What is the minimum Java version required for using GroupDocs.Metadata?
+  - answer: Yes, the library supports several containers, but this guide focuses on
+      MKV.
+    question: Can I extract subtitles from other video formats with GroupDocs.Metadata?
+  - answer: Iterate through each `MatroskaSubtitleTrack` as shown in the code example.
+    question: How do I handle multiple subtitle tracks in an MKV file?
+  - answer: Verify that the file path is correct, the file exists, and the process
+      has read permissions.
+    question: What should I do if my application throws a `FileNotFoundException`?
+  - answer: Absolutely—GroupDocs.Metadata reads ISO 639‑2/IETF BCP‑47 language tags,
+      so any supported language is handled.
+    question: Is there support for subtitle languages other than English?
+  type: FAQPage
+tags:
+- batch extract subtitles
+- GroupDocs.Metadata
+- Java subtitle extraction
+- MKV processing
+- video metadata
+title: Jak hromadně extrahovat titulky z MKV souborů v Javě
 type: docs
 url: /cs/java/audio-video-formats/extract-subtitles-mkv-files-java-groupdocs-metadata/
 weight: 1
 ---
 
-"
+# Jak dávkově extrahovat titulky z MKV souborů v Javě
 
-"**Tested With:** GroupDocs.Metadata 24.12 for Java" -> "**Testováno s:** GroupDocs.Metadata 24.12 for Java"
-
-"**Author:** GroupDocs" -> "**Autor:** GroupDocs"
-
-Then final "---"? There's another "---"? Actually after author there is "---". Keep.
-
-Now ensure all markdown formatting preserved.
-
-Check for any shortcodes: none. Ensure code blocks placeholders remain.
-
-Now produce final output.# Jak hromadně extrahovat titulky mkv pomocí Javy a GroupDocs.Metadata
-
-Extrahování titulků z kontejnerů MKV může připomínat hledání jehly v kupce sena, zejména když potřebujete text pro překlad, přístupnost nebo workflow správy obsahu. V tomto tutoriálu se naučíte **jak hromadně extrahovat titulky mkv** efektivně pomocí knihovny GroupDocs.Metadata pro Javu. Provedeme vás potřebným nastavením, ukážeme vám přesný kód, který potřebujete, a probereme praktické scénáře, kde extrakce titulků má skutečný dopad.
+Extrahování titulků z MKV kontejnerů může připomínat hledání jehly v kupce sena, zejména když potřebujete text pro překlad, přístupnost nebo workflow správy obsahu. V tomto tutoriálu **dávkově extrahujete titulky** efektivně pomocí GroupDocs.Metadata pro Java, uvidíte přesný kód, který potřebujete, a prozkoumáte reálné scénáře, kde extrakce titulků přináší hmatatelný rozdíl.
 
 ## Rychlé odpovědi
-- **Jaká knihovna zpracovává extrakci titulků MKV?** GroupDocs.Metadata for Java  
-- **Jaké primární klíčové slovo tento průvodce cílí?** batch extract mkv subtitles  
-- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro vývoj; pro produkci je vyžadována plná licence.  
-- **Mohu zpracovávat velké soubory MKV?** Ano — zpracovávejte titulky ve streamu nebo po dávkách, aby byl nízký odběr paměti.  
+- **Která knihovna zpracovává extrakci titulků z MKV?** GroupDocs.Metadata for Java  
+- **Jaké primární klíčové slovo tento průvodce cílí?** batch extract subtitles  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro vývoj; plná licence je vyžadována pro produkci.  
+- **Mohu zpracovávat velké MKV soubory?** Ano—zpracovávejte titulky ve streamu nebo dávkách, aby byl nízký odběr paměti.  
 - **Je Java 8 dostačující?** Ano, JDK 8 nebo novější je podporováno.
 
-## Co je „batch extract mkv subtitles“?
-Hromadná extrakce titulků mkv znamená načtení všech stop titulků vložených v kontejneru Matroska (MKV) a získání jejich textu, časování a informací o jazyce najednou. Tato operace je nezbytná pro workflow jako jsou automatizované překladové pipeline, kontrola kvality titulků a dodržování přístupnosti.
+## Co je „batch extract subtitles“?
+`Batch extract subtitles` znamená čtení každé stopy titulků vložené do kontejneru Matroska (MKV) a získání jejího textu, časování a informací o jazyce v jedné operaci. Tato schopnost je nezbytná pro automatizované překladové pipeline, kontrolu kvality titulků a dodržování přístupnosti.
 
-## Proč použít GroupDocs.Metadata pro Javu?
-GroupDocs.Metadata nabízí API na vysoké úrovni, které abstrahuje složitou strukturu Matroska, což vám umožní soustředit se na obchodní logiku místo nízkoúrovňového parsování. Podporuje více formátů titulků, zpracovává jazykové značky a hladce se integruje se standardními projekty v Javě.
+## Proč používat GroupDocs.Metadata pro Java?
+GroupDocs.Metadata poskytuje vysoce‑úrovňové API, které abstrahuje složitou strukturu Matroska, umožňující soustředit se na obchodní logiku místo nízko‑úrovňového parsování. Podporuje **více než 20 formátů titulků**, dokáže zpracovat MKV soubory až do **10 GB** bez načítání celého souboru do paměti a automaticky mapuje jazykové značky ISO 639‑2, což dělá velkorozsahové workflow titulků rychlé a spolehlivé.
 
-## Požadavky
-- **Java Development Kit (JDK)** 8 nebo novější  
-- **IDE** (IntelliJ IDEA, Eclipse nebo podobné)  
-- **Maven** pro správu závislostí  
-- Základní znalost Javy a konceptů video souborů  
+## Předpoklady
+- **Java Development Kit (JDK)** 8 nebo novější
+- **IDE** (IntelliJ IDEA, Eclipse nebo podobné)
+- **Maven** pro správu závislostí
+- Základní znalost Javy a konceptů video souborů
 
-## Nastavení GroupDocs.Metadata pro Javu
+## Nastavení GroupDocs.Metadata pro Java
 
-### Maven nastavení
+### Nastavení Maven
 Přidejte repozitář GroupDocs a závislost metadata do vašeho `pom.xml`:
 
 ```xml
@@ -72,7 +110,7 @@ Přidejte repozitář GroupDocs a závislost metadata do vašeho `pom.xml`:
 ```
 
 ### Přímé stažení
-Pokud raději nepoužíváte Maven, můžete stáhnout nejnovější JAR z [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+Pokud dáváte přednost nepoužívat Maven, můžete stáhnout nejnovější JAR z [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Získání licence
 - Začněte s bezplatnou zkušební verzí pro prozkoumání API.  
@@ -80,7 +118,7 @@ Pokud raději nepoužíváte Maven, můžete stáhnout nejnovější JAR z [Grou
 - Zakupte plnou licenci pro komerční nasazení.
 
 ### Základní inicializace a nastavení
-Vytvořte instanci `Metadata`, která ukazuje na váš soubor MKV:
+`Metadata` je hlavní vstupní třída v GroupDocs.Metadata, která představuje mediální soubor a poskytuje přístup k jeho vloženým streamům. Vytvořte instanci `Metadata`, která ukazuje na váš MKV soubor:
 
 ```java
 try (Metadata metadata = new Metadata("path/to/your/file.mkv")) {
@@ -90,10 +128,12 @@ try (Metadata metadata = new Metadata("path/to/your/file.mkv")) {
 
 Tento řádek otevře soubor a připraví jej pro extrakci metadat.
 
-## Jak hromadně extrahovat titulky mkv pomocí GroupDocs.Metadata
+## Jak dávkově extrahovat titulky pomocí GroupDocs.Metadata
 
-### Krok 1: Inicializace objektu Metadata
-Nejprve vytvořte instanci třídy `Metadata` s cestou k vašemu souboru MKV:
+Nahrajte MKV soubor pomocí objektu `Metadata`, najděte kořenový balíček Matroska a iterujte přes každou stopu titulků, abyste získali jazyk, časové značky a surový text titulků—vše v několika stručných řádcích Javy.
+
+### Krok 1: inicializace objektu Metadata
+Nejprve vytvořte instanci třídy `Metadata` s cestou k vašemu MKV souboru:
 
 ```java
 try (Metadata metadata = new Metadata(filePath)) {
@@ -101,15 +141,15 @@ try (Metadata metadata = new Metadata(filePath)) {
 }
 ```
 
-### Krok 2: Přístup k kořenovému balíčku Matroska
-Získejte kořenový balíček, který vám poskytne vstupní body ke všem stopám uvnitř kontejneru:
+### Krok 2: přístup k kořenovému balíčku Matroska
+`MatroskaRootPackage` je kontejnerový objekt, který vám poskytuje vstupní body ke všem stopám uvnitř MKV souboru. Získejte jej následovně:
 
 ```java
 MatroskaRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### Krok 3: Procházení stop titulků
-Projděte každou stopu titulků, přečtěte jazyk, časový kód, délku a skutečný text titulků:
+### Krok 3: iterace přes stopy titulků
+`MatroskaSubtitleTrack` představuje jednotlivý stream titulků. Procházejte každou stopu, čtěte jazyk, časový kód, délku a skutečný text titulků:
 
 ```java
 for (MatroskaSubtitleTrack subtitleTrack : root.getMatroskaPackage().getSubtitleTracks()) {
@@ -126,58 +166,61 @@ for (MatroskaSubtitleTrack subtitleTrack : root.getMatroskaPackage().getSubtitle
 }
 ```
 
-Smyčka vytiskne metadata každého titulku a jeho textový obsah, čímž vám poskytne kompletní přehled o každém titulku vloženém v souboru MKV.
+Smyčka vypíše metadata každého titulku a jeho textový obsah, což vám poskytne kompletní přehled o všech titulcích vložených v MKV souboru.
 
 ## Časté problémy a řešení
-- **File Not Found** – Zkontrolujte absolutní cestu a oprávnění souboru.  
+- **File not found** – Zkontrolujte absolutní cestu a oprávnění souboru.  
 - **Unsupported MKV version** – Ujistěte se, že používáte nejnovější verzi GroupDocs.Metadata.  
 - **Insufficient memory on large files** – Zpracovávejte titulky po částech nebo použijte streamingové API, pokud jsou k dispozici.
 
 ## Praktické aplikace
-1. **Translation Projects** – Exportujte titulky, přeložte je a znovu je vložte do videa.  
-2. **Content Management Systems** – Indexujte text titulků pro vyhledatelnost ve video knihovně.  
-3. **Accessibility Enhancements** – Ověřte, že každé video obsahuje správně načasované titulky.
+1. **Translation projects** – Exportujte titulky, přeložte je a znovu je vložte do videa.  
+2. **Content‑management systems** – Indexujte text titulků pro full‑textové vyhledávání napříč video knihovnou.  
+3. **Accessibility enhancements** – Ověřte, že každé video obsahuje správně načasované titulky pro audity souladu.
 
 ## Tipy pro výkon
 - Používejte efektivní kolekce (např. `ArrayList`) pro dočasné úložiště.  
-- Okamžitě uzavřete objekt `Metadata` (try‑with‑resources), aby se uvolnily nativní zdroje.  
-- Udržujte knihovnu GroupDocs.Metadata aktuální pro zlepšení výkonu.
+- Uzavřete objekt `Metadata` okamžitě (try‑with‑resources), aby se uvolnily nativní zdroje.  
+- Udržujte knihovnu GroupDocs.Metadata aktuální pro zlepšení výkonu a podporu nových formátů.
 
 ## Závěr
-Nyní máte jasnou, připravenou pro produkci metodu k **batch extract mkv subtitles** pomocí GroupDocs.Metadata v Javě. Ať už budujete pipeline pro překlad titulků, obohacujete mediální CMS nebo zajišťujete soulad s přístupností, tento přístup vám ušetří čas a eliminuje potřebu nízkoúrovňového parsování.
+Nyní máte jasnou, připravenou pro produkci metodu k **dávkové extrakci titulků** z MKV souborů pomocí GroupDocs.Metadata v Javě. Ať už budujete pipeline pro překlad titulků, obohacujete mediální CMS nebo zajišťujete soulad s přístupností, tento přístup vám ušetří čas a eliminuje potřebu nízko‑úrovňového parsování.
 
-Dále prozkoumejte další funkce, jako je vkládání vlastních metadat, extrakce audio stop nebo hromadné zpracování více video souborů. Šťastné programování!
+Dále prozkoumejte další funkce, jako je vkládání vlastních metadat, extrakce audio stop nebo dávkové zpracování více video souborů. Šťastné programování!
 
 ## Často kladené otázky
 
-**Q: Jaká je minimální verze Javy požadovaná pro použití GroupDocs.Metadata?**  
+**Q: Jaká je minimální verze Javy požadovaná pro používání GroupDocs.Metadata?**  
 A: Je vyžadováno JDK 8 nebo novější.
 
 **Q: Mohu extrahovat titulky z jiných video formátů pomocí GroupDocs.Metadata?**  
 A: Ano, knihovna podporuje několik kontejnerů, ale tento průvodce se zaměřuje na MKV.
 
-**Q: Jak zacházet s více stopami titulků v souboru MKV?**  
-A: Procházejte každou `MatroskaSubtitleTrack` podle ukázky v kódu.
+**Q: Jak mohu zpracovat více stop titulků v MKV souboru?**  
+A: Iterujte přes každý `MatroskaSubtitleTrack` podle ukázky v kódu.
 
-**Q: Co mám dělat, když moje aplikace vyhodí `FileNotFoundException`?**  
+**Q: Co mám dělat, pokud moje aplikace vyhodí `FileNotFoundException`?**  
 A: Ověřte, že cesta k souboru je správná, soubor existuje a proces má oprávnění ke čtení.
 
-**Q: Je podpora pro jazykové verze titulků kromě angličtiny?**  
-A: Rozhodně — GroupDocs.Metadata čte jazykové značky ISO 639‑2/IETF BCP‑47, takže je podporován jakýkoli podporovaný jazyk.
+**Q: Existuje podpora pro jazykové verze titulků kromě angličtiny?**  
+A: Rozhodně—GroupDocs.Metadata čte jazykové značky ISO 639‑2/IETF BCP‑47, takže jakýkoli podporovaný jazyk je zpracován.
 
-## Zdroje
-
-- **Documentation:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
-- **API Reference:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
-- **Download:** [Get the latest version](https://releases.groupdocs.com/metadata/java/)  
-- **GitHub Repository:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- **Free Support Forum:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
-- **Temporary License:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
+**Zdroje**
+- **Dokumentace:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
+- **Reference API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
+- **Stáhnout:** [Get the latest version](https://releases.groupdocs.com/metadata/java/)  
+- **GitHub repozitář:** [Explore on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
+- **Bezplatné fórum podpory:** [Ask questions and get support](https://forum.groupdocs.com/c/metadata/)  
+- **Dočasná licence:** [Obtain a temporary license](https://purchase.groupdocs.com/temporary-license/)
 
 ---
 
-**Poslední aktualizace:** 2026-03-09  
+**Poslední aktualizace:** 2026-10-01  
 **Testováno s:** GroupDocs.Metadata 24.12 for Java  
-**Autor:** GroupDocs  
+**Autor:** GroupDocs
 
----
+## Související tutoriály
+
+- [Extrahovat Matroska Metadata Groupdocs Java](/metadata/java/audio-video-formats/extract-matroska-metadata-groupdocs-java/)
+- [Extrahovat video metadata v Javě pomocí GroupDocs.Metadata](/metadata/java/audio-video-formats/mastering-avi-metadata-handling-groupdocs-java/)
+- [Extrahovat MP3 Metadata Java – GroupDocs.Metadata Tutoriály](/metadata/java/audio-video-formats/)

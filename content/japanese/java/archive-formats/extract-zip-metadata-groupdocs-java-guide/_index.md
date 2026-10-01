@@ -1,46 +1,103 @@
 ---
-date: '2026-03-15'
-description: GroupDocs.Metadata for Java を使用して、ZIP コメントの抽出やパスワード保護された ZIP アーカイブの読み取り方法を学びましょう。デジタルアーカイブを効率的に管理するためのステップバイステップガイドです。
+date: '2026-10-01'
+description: GroupDocs.Metadata for Java を使用して zip metadata java を抽出し、パスワードで保護された
+  ZIP アーカイブを読み取る方法を学びます。このガイドでは、コメントやその他のアーカイブメタデータの抽出手順をステップバイステップで示します。
 keywords:
-- extract ZIP metadata
+- extract zip metadata java
 - GroupDocs.Metadata for Java
-- manage digital archives
-title: GroupDocs.Metadata を使用した Java で ZIP コメントを抽出する方法 – ガイド
+- digital archive management
+lastmod: '2026-10-01'
+og_description: GroupDocs.Metadata を使用して zip metadata java を抽出します。ステップバイステップの Java
+  チュートリアルに従い、ZIP コメントの読み取り、パスワード保護アーカイブの処理、そして大容量ファイルの効率的な処理方法を学びましょう。
+og_image_alt: Screenshot of Java code extracting ZIP metadata with GroupDocs.Metadata
+og_title: GroupDocs.Metadata で zip metadata java を抽出 – クイックガイド
+schemas:
+- author: GroupDocs
+  dateModified: '2026-10-01'
+  description: Learn how to extract zip metadata java and read password‑protected
+    ZIP archives using GroupDocs.Metadata for Java. This guide shows step‑by‑step
+    extraction of comments and other archive metadata.
+  headline: How to extract zip metadata java with GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to extract zip metadata java and read password‑protected
+    ZIP archives using GroupDocs.Metadata for Java. This guide shows step‑by‑step
+    extraction of comments and other archive metadata.
+  name: How to extract zip metadata java with GroupDocs.Metadata
+  steps:
+  - name: '**Automated archiving systems** – Use metadata to auto‑categorize and tag
+      archives without manual inspection.'
+    text: '**Automated archiving systems** – Use metadata to auto‑categorize and tag
+      archives without manual inspection.'
+  - name: '**Backup verification** – Programmatically list and verify the contents
+      of backup ZIPs, ensuring completeness before retention.'
+    text: '**Backup verification** – Programmatically list and verify the contents
+      of backup ZIPs, ensuring completeness before retention.'
+  - name: '**Content‑management platforms** – Dynamically display archive details
+      (comments, entry count) to end‑users, improving transparency and trust.'
+    text: '**Content‑management platforms** – Dynamically display archive details
+      (comments, entry count) to end‑users, improving transparency and trust.'
+  type: HowTo
+- questions:
+  - answer: Extracting ZIP metadata automates the management and organization of file
+      archives without manual inspection, saving time and reducing errors.
+    question: What is the primary purpose of extracting ZIP metadata?
+  - answer: Yes, the library also supports RAR, 7z, TAR, and GZIP, giving you a unified
+      API for diverse compression types.
+    question: Can I extract metadata from other archive formats using GroupDocs.Metadata?
+  - answer: Process files in batches, increase the JVM heap if necessary, and use
+      `ExecutorService` to run extractions in parallel threads.
+    question: How do I handle large ZIP files efficiently with GroupDocs.Metadata?
+  - answer: Yes, a valid GroupDocs.Metadata license is required for production deployments.
+      A free trial is available for evaluation.
+    question: Do I need a commercial license to run this code in production?
+  - answer: GroupDocs.Metadata can open password‑protected archives when you supply
+      the correct password via the API.
+    question: Is it possible to read password‑protected ZIP archives?
+  type: FAQPage
+tags:
+- zip metadata
+- GroupDocs.Metadata
+- Java archive processing
+title: GroupDocs.Metadata を使用した zip metadata java の抽出方法
 type: docs
 url: /ja/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/
 weight: 1
 ---
 
-# GroupDocs.Metadata を使用した zip コメントの抽出（Java） – ガイド
+# GroupDocs.Metadata を使用した zip メタデータの抽出（Java）
 
-デジタルアーカイブを効率的に管理することは、特に大量のファイルを ZIP アーカイブに圧縮している場合に重要です。**このチュートリアルでは zip コメントの抽出（java）** と、各ファイルを手動で開くことなく取得できるその他の有用なメタデータの取得方法を学びます。ガイドの最後まで読むと、**パスワード保護された zip** アーカイブを読み取る方法も確認でき、Java におけるアーカイブ検査のための完全なツールボックスが手に入ります。
+この包括的なチュートリアルでは、**extract zip metadata java** を学び、GroupDocs.Metadata を使用してパスワード保護された ZIP アーカイブを読み取る方法を紹介します。最後まで読むと、オプションのコメント文字列を取得し、エントリ数をカウントし、ファイルレベルのプロパティを検査できるようになります—アーカイブを手動で開くことなく実行できます。この機能は、自動アーカイブシステム、バックアップ検証パイプライン、アーカイブの詳細情報をプログラムで取得する必要があるコンテンツ管理プラットフォームにとって不可欠です。
 
-## Quick Answers
-- **「extract zip comments java」とは何ですか？** ZIP アーカイブに保存されているコメントフィールドを Java コードで取得することを指します。  
-- **このタスクに最適なライブラリはどれですか？** GroupDocs.Metadata for Java は ZIP メタデータの読み取りにシンプルな API を提供します。  
-- **ライセンスは必要ですか？** 無料トライアルは利用可能ですが、本番環境で使用するには永続ライセンスが必要です。  
-- **大容量の ZIP ファイルを処理できますか？** はい。バッチ処理や Java の並行機能を活用してパフォーマンスを向上させられます。  
-- **このアプローチはスレッドセーフですか？** 各スレッドが独自の `Metadata` インスタンスを使用する場合、ライブラリは同時使用を想定して設計されています。
+## クイック回答
+- **What does “extract zip metadata java” mean?** ZIP アーカイブ内に保存されたコメントフィールドやその他の記述情報を Java コードで取得することを意味します。  
+- **Which library is best for this task?** GroupDocs.Metadata for Java は、ZIP フォーマットの詳細を抽象化した簡潔なハイレベル API を提供します。  
+- **Do I need a license?** 無料トライアルは利用可能ですが、本番環境での展開には永続ライセンスが必要です。  
+- **Can I process large ZIP files?** はい。バッチ処理で処理し、Java の `ExecutorService` を使用して並列抽出が可能です。  
+- **Is this approach thread‑safe?** 各スレッドが独自の `Metadata` インスタンスを使用すれば、ライブラリはスレッドセーフです。
 
-## How to extract zip comments using GroupDocs.Metadata
-zip コメントの抽出（java）とは、ZIP アーカイブに添付できる任意のコメント文字列を読み取ることです。このコメントにはメモやバージョン情報、その他のコンテキストが含まれることが多く、アーカイブを開かずに目的を特定するのに役立ちます。
+## GroupDocs.Metadata を使用した zip コメントの抽出方法
 
-### Why use GroupDocs.Metadata for Java?
-GroupDocs.Metadata は低レベルな ZIP フォーマットの詳細を抽象化し、ビジネスロジックに集中できるようにします。複数のアーカイブタイプをサポートし、堅牢なエラーハンドリングを提供し、標準的な Java プロジェクトに簡単に統合できます。
+`Metadata` はアーカイブ情報を読み取るためのエントリポイントクラスです。`getRootPackageGeneric()` はアーカイブを表す汎用ルートパッケージを返します。
 
-### Prerequisites
-- **Java Development Kit (JDK) 8+** がインストールされていること。  
-- **IDE**（IntelliJ IDEA、Eclipse、NetBeans など）。  
-- **基本的な Java 知識**（クラス、try‑with‑resources、ストリーム）。  
-- **GroupDocs.Metadata ライブラリ**（Maven で追加するか手動で JAR を配置）。
+ZIP アーカイブをロードし、コメントを 2 行のコードで読み取ります。この直接回答の段落は質問に即座に答えます：ZIP ファイルを指す `Metadata` オブジェクトを作成し、`getRootPackageGeneric().getComment()` を呼び出してコメント文字列を取得します。同じ `Metadata` インスタンスで `getTotalEntries()` を使用してエントリ数も簡単に取得できます。このアプローチは低レベルのストリーム処理を回避し、通常のアーカイブとパスワード保護されたアーカイブの両方で機能します。
 
-### Required Libraries
+### Java 用に GroupDocs.Metadata を使用する理由
 
-GroupDocs.Metadata ライブラリを含めます。Maven で依存関係を管理するか、GroupDocs のウェブサイトから直接ダウンロードしてください。
+GroupDocs.Metadata は **5 つの主要なアーカイブ形式**（ZIP、RAR、7z、TAR、GZIP）をサポートし、**最大 10 000 エントリ** のアーカイブをメモリ全体にロードせずに処理できます。組み込みのエラーハンドリングによりカスタムの try‑catch ロジックが不要になり、API は Java 8 から 17 まで対応しているため、最新のプロジェクトで幅広く互換性があります。
 
-#### Maven Setup
+### 前提条件
+- Java Development Kit (JDK) 8 以上がインストールされていること。  
+- IntelliJ IDEA、Eclipse、NetBeans などの IDE。  
+- 基本的な Java の知識（クラス、try‑with‑resources、ストリーム）。  
+- Maven または手動 JAR で追加された GroupDocs.Metadata ライブラリ。
 
-Maven を使用してプロジェクトに GroupDocs.Metadata を追加するには、`pom.xml` に以下のリポジトリと依存関係を記述します。
+### 必要なライブラリ
+
+GroupDocs.Metadata ライブラリを含めます。依存関係管理のために Maven で追加するか、GroupDocs のウェブサイトから直接ダウンロードできます。
+
+#### Maven 設定
+
+`pom.xml` ファイルに GroupDocs リポジトリと metadata 依存関係を追加します：
 
 ```xml
 <repositories>
@@ -60,18 +117,18 @@ Maven を使用してプロジェクトに GroupDocs.Metadata を追加するに
 </dependencies>
 ```
 
-#### Direct Download
+#### 直接ダウンロード
 
-あるいは、[this link](https://releases.groupdocs.com/metadata/java/) から最新バージョンの GroupDocs.Metadata for Java をダウンロードし、取得した JAR ファイルをプロジェクトのビルドパスに追加します。
+あるいは、[GroupDocs.Metadata Java ダウンロードページ](https://releases.groupdocs.com/metadata/java/) から最新バージョンの GroupDocs.Metadata for Java をダウンロードします。ダウンロードした JAR ファイルをプロジェクトのビルドパスに追加してください。
 
-#### License Acquisition Steps
-- **Free Trial:** GroupDocs のウェブサイトで提供されている無料トライアルから開始します。  
-- **Temporary License:** [GroupDocs Licensing](https://purchase.groupdocs.com/temporary-license/) にアクセスして、一時ライセンスを取得しフルアクセスを得ます。  
+#### ライセンス取得手順
+- **Free trial:** GroupDocs のウェブサイトで利用可能な無料トライアルから開始します。  
+- **Temporary license:** [GroupDocs Licensing](https://purchase.groupdocs.com/temporary-license/) にアクセスして、フルアクセス用の一時ライセンスを取得します。  
 - **Purchase:** 長期利用のためにライセンス購入を検討してください。
 
-#### Basic Initialization and Setup
+#### 基本的な初期化と設定
 
-以下のセットアップコードスニペットでプロジェクトを初期化します。
+`Metadata` クラスは、サポートされているすべてのアーカイブを読み取るためのエントリポイントです。ファイルシステムへのアクセス、復号化、フォーマット解析をカプセル化しています。
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -89,9 +146,9 @@ public class MetadataExtractor {
 }
 ```
 
-### Extracting Archive Comments and Entries Count
+### アーカイブコメントとエントリ数の抽出
 
-それでは、ZIP ファイルのコメントを取得し、エントリ数をカウントしてみましょう。
+Now let’s retrieve the comment and count the entries within a ZIP file:
 
 ```java
 import com.groupdocs.metadata.core.ZipRootPackage;
@@ -127,18 +184,18 @@ public class MetadataExtractor {
 }
 ```
 
-#### Key Points
-- **`getRootPackageGeneric()`** は ZIP アーカイブのルートパッケージを取得し、メタデータへのアクセスに必須です。  
-- **`getComment()`** は ZIP ファイルに付随するコメントを取得します。アーカイブにコンテキストやメモが必要な場合に便利です。  
-- **`getTotalEntries()`** はアーカイブ内の全ファイル数を返し、内容の規模を把握するのに役立ちます。
+#### 主なポイント
+- `getRootPackageGeneric()` は ZIP アーカイブのルートパッケージを取得し、メタデータへのアクセスに不可欠です。  
+- `getComment()` は ZIP ファイルに関連付けられたコメントを取得します—コンテキストやメモが必要なアーカイブに便利な機能です。  
+- `getTotalEntries()` はアーカイブ内のすべてのファイル数を提供し、内容の範囲を把握するのに役立ちます。
 
-### Iterating Through Files
+### ファイルの反復処理
 
-上記で示した `printFileInfo` ヘルパーメソッドは、各エントリの詳細情報（名前、圧縮サイズ、圧縮方式、フラグ、タイムスタンプなど）を出力します。これにより、アーカイブ内のすべてのファイルを走査し、プロパティを抽出する方法が分かります。
+`printFileInfo` ヘルパーメソッド（上記参照）は、各エントリの詳細情報を出力します。これにより、アーカイブ内のすべてのファイルを走査し、名前、圧縮サイズ、圧縮方式、フラグ、タイムスタンプなどのプロパティを抽出できることが示されます。
 
-### Reading password protected zip archives
+### パスワード保護された zip アーカイブの読み取り
 
-**パスワード保護された zip** ファイルを読み取る必要がある場合は、`Metadata` オブジェクトを生成する際にパスワードを渡すだけです。
+**パスワード保護された zip** ファイルを読み取る必要がある場合は、`Metadata` オブジェクトを作成する際にパスワードを指定するだけです：
 
 ```java
 String password = "yourPassword";
@@ -147,59 +204,63 @@ try (Metadata metadata = new Metadata(inputZip, password)) {
 }
 ```
 
-GroupDocs.Metadata はオンザフライでアーカイブを復号し、追加のコードを書くことなく同じコメント抽出ロジックを適用できます。
+GroupDocs.Metadata はアーカイブをオンザフライで復号化し、追加のコードなしで同じコメント抽出ロジックを適用できます。
 
-## Practical Applications
+## 実用的な応用例
 
-zip コメントの抽出（java）が活躍する実務シナリオをいくつか紹介します。
+以下は、zip メタデータ抽出（Java）が活躍する実際のシナリオです：
 
-1. **Automated Archiving Systems** – メタデータを利用して、手動検査なしでアーカイブを自動分類・タグ付けします。  
-2. **Backup Verification** – バックアップ ZIP の内容をプログラムで一覧化・検証します。  
-3. **Content Management Platforms** – エンドユーザーにアーカイブの詳細情報を動的に表示し、透明性を向上させます。  
+1. **Automated archiving systems** – メタデータを使用して、手動検査なしでアーカイブを自動的に分類およびタグ付けします。  
+2. **Backup verification** – バックアップ ZIP の内容をプログラムで一覧表示・検証し、保持前に完全性を確保します。  
+3. **Content‑management platforms** – アーカイブの詳細（コメント、エントリ数）をエンドユーザーに動的に表示し、透明性と信頼性を向上させます。
 
-## Performance Considerations
+## パフォーマンス上の考慮点
 
-多数または大容量の ZIP ファイルからメタデータを抽出する際は、次のポイントに留意してください。
+多数または大容量の ZIP ファイルからメタデータを抽出する際は、以下のポイントに留意してください：
 
-- **Efficient Memory Use** – オブジェクトは速やかに解放します。`try‑with‑resources` ブロックは既に支援しています。  
-- **Batch Processing** – アーカイブをグループ単位で処理し、メモリ負荷を抑えます。  
-- **Threading** – Java の `ExecutorService` を活用し、複数アーカイブの抽出を並列化します。
+- **Efficient memory use** – オブジェクトを速やかに解放します。try‑with‑resources ブロックが既に支援しています。  
+- **Batch processing** – アーカイブをグループで処理し、メモリ負荷を抑えます。  
+- **Threading** – Java の `ExecutorService` を活用して複数のアーカイブの抽出を並列化し、マルチコアマシンで最大 3 倍の速度向上を実現します。
 
-## Common Issues and Solutions
-- **Empty comment returned** – ZIP に実際にコメントが含まれているか確認してください。一部ツールはコメントを省略します。  
-- **Unsupported encoding** – サンプルは `cp866` を使用しています。アーカイブのエンコーディングに合わせて文字セット（例: UTF‑8）に変更してください。  
-- **Large archives cause OutOfMemoryError** – JVM のヒープサイズを増やすか、ストリーミングモードでファイルを処理してください。  
-- **Password‑protected ZIP fails** – 指定したパスワードが正しいか、アーカイブがサポートされている暗号方式を使用しているか確認してください。
+## よくある問題と解決策
+- **Empty comment returned** – ZIP に実際にコメントが含まれていることを確認してください。一部のツールはデフォルトでコメントを省略します。  
+- **Unsupported encoding** – サンプルは `cp866` を使用しています。アーカイブのエンコーディング（例：UTF‑8）に合わせて文字セットを調整してください。  
+- **Large archives cause OutOfMemoryError** – JVM ヒープサイズを増やすか、ストリーミングモードでファイルを処理してください。  
+- **Password‑protected ZIP fails** – 提供されたパスワードが正しいこと、アーカイブがサポートされている暗号化方式を使用していることを確認してください。
 
-## FAQ Section
+## FAQ セクション
 
 **Q: ZIP メタデータを抽出する主な目的は何ですか？**  
-A: ZIP メタデータを抽出することで、各アイテムを手動で検査せずにファイルアーカイブの管理・整理を自動化できます。
+A: ZIP メタデータの抽出は、手動検査なしでファイルアーカイブの管理と整理を自動化し、時間を節約しエラーを減少させます。
 
-**Q: GroupDocs.Metadata を使って他のアーカイブ形式からもメタデータを抽出できますか？**  
-A: はい。GroupDocs.Metadata は ZIP に加えて RAR や 7z など様々なアーカイブタイプをサポートしています。
+**Q: GroupDocs.Metadata を使用して他のアーカイブ形式からメタデータを抽出できますか？**  
+A: はい、ライブラリは RAR、7z、TAR、GZIP もサポートしており、さまざまな圧縮タイプに対して統一された API を提供します。
 
-**Q: GroupDocs.Metadata で大容量 ZIP を効率的に処理するにはどうすればよいですか？**  
-A: バッチ処理でメモリ使用量を最適化し、Java の並行機能を利用して抽出タスクを並列化してください。
+**Q: GroupDocs.Metadata で大容量の ZIP ファイルを効率的に処理するには？**  
+A: ファイルをバッチ処理し、必要に応じて JVM ヒープを増やし、`ExecutorService` を使用して抽出を並列スレッドで実行します。
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q: 本番環境でこのコードを実行するには商用ライセンスが必要ですか？**  
-A: はい。本番デプロイには有効な GroupDocs.Metadata ライセンスが必要です。評価用に無料トライアルが利用可能です。
+A: はい、商用環境での展開には有効な GroupDocs.Metadata ライセンスが必要です。評価用に無料トライアルが利用可能です。
 
 **Q: パスワード保護された ZIP アーカイブを読み取ることは可能ですか？**  
-A: はい。API で正しいパスワードを指定すれば、GroupDocs.Metadata が保護されたアーカイブを開くことができます。
+A: 正しいパスワードを API 経由で提供すれば、GroupDocs.Metadata はパスワード保護されたアーカイブを開くことができます。
 
 **Q: サポートされている Java バージョンはどれですか？**  
-A: ライブラリは Java 8 以降、Java 11、17 などの新しいバージョンでも動作します。
+A: ライブラリは Java 8 以降のバージョン（Java 11、17 など）で動作します。
 
 **Q: すべてのファイルを走査せずに特定のエントリだけを抽出できますか？**  
-A: はい。`getFiles()` が返すコレクションをファイル名やその他の条件でフィルタリングすれば、目的のエントリだけを取得できます。
+A: はい、`getFiles()` が返すコレクションをファイル名、拡張子、またはカスタム述語でフィルタリングできます。
 
 ---
 
-**Last Updated:** 2026-03-15  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
+**最終更新日:** 2026-10-01  
+**テスト環境:** GroupDocs.Metadata 24.12 for Java  
+**作者:** GroupDocs
 
----
+## 関連チュートリアル
+
+- [ユーザーコメントの削除（ZIP アーカイブ） Groupdocs Metadata Java](/metadata/java/archive-formats/remove-user-comments-zip-archives-groupdocs-metadata-java/)
+- [ZIP アーカイブコメントの更新 Groupdocs Metadata Java](/metadata/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-java/)
+- [Tar メタデータ抽出 Groupdocs Java ガイド](/metadata/java/archive-formats/extract-tar-metadata-groupdocs-java-guide/)

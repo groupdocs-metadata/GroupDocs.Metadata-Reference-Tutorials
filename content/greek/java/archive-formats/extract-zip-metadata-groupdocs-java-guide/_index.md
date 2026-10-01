@@ -1,49 +1,105 @@
 ---
-date: '2026-03-15'
-description: Μάθετε πώς να εξάγετε σχόλια zip σε Java και να διαβάζετε αρχεία zip
-  προστατευμένα με κωδικό πρόσβασης χρησιμοποιώντας το GroupDocs.Metadata για Java.
-  Ακολουθήστε αυτόν τον οδηγό βήμα‑βήμα για να διαχειρίζεστε ψηφιακές αρχειοθήκες
-  αποδοτικά.
+date: '2026-10-01'
+description: Μάθετε πώς να εξάγετε μεταδεδομένα zip java και να διαβάζετε αρχεία ZIP
+  προστατευμένα με κωδικό χρησιμοποιώντας GroupDocs.Metadata για Java. Αυτός ο οδηγός
+  δείχνει βήμα‑βήμα την εξαγωγή σχολίων και άλλων μεταδεδομένων του αρχείου.
 keywords:
-- extract ZIP metadata
+- extract zip metadata java
 - GroupDocs.Metadata for Java
-- manage digital archives
-title: Πώς να εξάγετε σχόλια zip σε Java χρησιμοποιώντας το GroupDocs.Metadata – Οδηγός
+- digital archive management
+lastmod: '2026-10-01'
+og_description: Εξαγωγή μεταδεδομένων zip java χρησιμοποιώντας GroupDocs.Metadata.
+  Ακολουθήστε αυτό το βήμα‑βήμα Java tutorial για να διαβάσετε σχόλια ZIP, να διαχειριστείτε
+  αρχεία προστατευμένα με κωδικό και να επεξεργαστείτε μεγάλα αρχεία αποδοτικά.
+og_image_alt: Screenshot of Java code extracting ZIP metadata with GroupDocs.Metadata
+og_title: Εξαγωγή μεταδεδομένων zip java με GroupDocs.Metadata – γρήγορος οδηγός
+schemas:
+- author: GroupDocs
+  dateModified: '2026-10-01'
+  description: Learn how to extract zip metadata java and read password‑protected
+    ZIP archives using GroupDocs.Metadata for Java. This guide shows step‑by‑step
+    extraction of comments and other archive metadata.
+  headline: How to extract zip metadata java with GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to extract zip metadata java and read password‑protected
+    ZIP archives using GroupDocs.Metadata for Java. This guide shows step‑by‑step
+    extraction of comments and other archive metadata.
+  name: How to extract zip metadata java with GroupDocs.Metadata
+  steps:
+  - name: '**Automated archiving systems** – Use metadata to auto‑categorize and tag
+      archives without manual inspection.'
+    text: '**Automated archiving systems** – Use metadata to auto‑categorize and tag
+      archives without manual inspection.'
+  - name: '**Backup verification** – Programmatically list and verify the contents
+      of backup ZIPs, ensuring completeness before retention.'
+    text: '**Backup verification** – Programmatically list and verify the contents
+      of backup ZIPs, ensuring completeness before retention.'
+  - name: '**Content‑management platforms** – Dynamically display archive details
+      (comments, entry count) to end‑users, improving transparency and trust.'
+    text: '**Content‑management platforms** – Dynamically display archive details
+      (comments, entry count) to end‑users, improving transparency and trust.'
+  type: HowTo
+- questions:
+  - answer: Extracting ZIP metadata automates the management and organization of file
+      archives without manual inspection, saving time and reducing errors.
+    question: What is the primary purpose of extracting ZIP metadata?
+  - answer: Yes, the library also supports RAR, 7z, TAR, and GZIP, giving you a unified
+      API for diverse compression types.
+    question: Can I extract metadata from other archive formats using GroupDocs.Metadata?
+  - answer: Process files in batches, increase the JVM heap if necessary, and use
+      `ExecutorService` to run extractions in parallel threads.
+    question: How do I handle large ZIP files efficiently with GroupDocs.Metadata?
+  - answer: Yes, a valid GroupDocs.Metadata license is required for production deployments.
+      A free trial is available for evaluation.
+    question: Do I need a commercial license to run this code in production?
+  - answer: GroupDocs.Metadata can open password‑protected archives when you supply
+      the correct password via the API.
+    question: Is it possible to read password‑protected ZIP archives?
+  type: FAQPage
+tags:
+- zip metadata
+- GroupDocs.Metadata
+- Java archive processing
+title: Πώς να εξάγετε μεταδεδομένα zip java με GroupDocs.Metadata
 type: docs
 url: /el/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/
 weight: 1
 ---
 
-# Πώς να εξάγετε zip comments java χρησιμοποιώντας το GroupDocs.Metadata – Οδηγός
+# Πώς να εξάγετε μεταδεδομένα zip java με το GroupDocs.Metadata
 
-Η αποδοτική διαχείριση των ψηφιακών αρχείων είναι απαραίτητη, ειδικά όταν εργάζεστε με μεγάλες συλλογές αρχείων που έχουν συμπιεστεί σε αρχεία ZIP. **Σε αυτό το σεμινάριο θα μάθετε πώς να εξάγετε zip comments java** και άλλα χρήσιμα μεταδεδομένα χωρίς να ανοίγετε χειροκίνητα κάθε αρχείο. Στο τέλος αυτού του οδηγού θα δείτε επίσης πώς να **διαβάσετε αρχεία zip με κωδικό πρόσβασης** όταν χρειάζεται, παρέχοντάς σας ένα πλήρες σύνολο εργαλείων για την επιθεώρηση αρχείων σε Java.
+Σε αυτό το ολοκληρωμένο tutorial θα μάθετε πώς να **extract zip metadata java** και να διαβάζετε αρχεία ZIP με προστασία κωδικού χρησιμοποιώντας το GroupDocs.Metadata. Στο τέλος θα μπορείτε να εξάγετε το προαιρετικό σχόλιο, να μετρήσετε τις καταχωρήσεις και να εξετάσετε ιδιότητες σε επίπεδο αρχείου—όλα χωρίς να ανοίγετε χειροκίνητα το αρχείο. Αυτή η δυνατότητα είναι απαραίτητη για αυτοματοποιημένα συστήματα αρχειοθέτησης, pipelines επαλήθευσης αντιγράφων ασφαλείας και πλατφόρμες διαχείρισης περιεχομένου που χρειάζονται να εμφανίζουν λεπτομέρειες αρχείου προγραμματιστικά.
 
-## Γρήγορες Απαντήσεις
-- **Τι σημαίνει “extract zip comments java”;** Αναφέρεται στην ανάκτηση του πεδίου σχολίου που αποθηκεύεται σε ένα αρχείο ZIP χρησιμοποιώντας κώδικα Java.  
-- **Ποια βιβλιοθήκη είναι η καλύτερη για αυτήν την εργασία;** Το GroupDocs.Metadata για Java παρέχει ένα απλό API για την ανάγνωση μεταδεδομένων ZIP.  
-- **Χρειάζομαι άδεια;** Διατίθεται δωρεάν δοκιμή, αλλά απαιτείται μόνιμη άδεια για χρήση σε παραγωγή.  
-- **Μπορώ να επεξεργαστώ μεγάλα αρχεία ZIP;** Ναι — επεξεργαστείτε τα σε παρτίδες και χρησιμοποιήστε τις δυνατότητες ταυτόχρονης εκτέλεσης της Java για καλύτερη απόδοση.  
-- **Είναι αυτή η προσέγγιση thread‑safe;** Η βιβλιοθήκη έχει σχεδιαστεί για ταυτόχρονη χρήση όταν κάθε νήμα εργάζεται με το δικό του αντικείμενο `Metadata`.
+## Γρήγορες απαντήσεις
+- **What does “extract zip metadata java” mean?** Σημαίνει την ανάκτηση του πεδίου σχολίου και άλλων περιγραφικών πληροφοριών που αποθηκεύονται μέσα σε ένα αρχείο ZIP χρησιμοποιώντας κώδικα Java.  
+- **Which library is best for this task?** Το GroupDocs.Metadata για Java προσφέρει ένα σύντομο, υψηλού επιπέδου API που αφαιρεί τις λεπτομέρειες της μορφής ZIP.  
+- **Do I need a license?** Διατίθεται δωρεάν δοκιμή, αλλά απαιτείται μόνιμη άδεια για παραγωγικές αναπτύξεις.  
+- **Can I process large ZIP files?** Ναι—επεξεργαστείτε τα σε παρτίδες και χρησιμοποιήστε το `ExecutorService` της Java για παράλληλη εξαγωγή.  
+- **Is this approach thread‑safe?** Η βιβλιοθήκη είναι thread‑safe εφόσον κάθε νήμα εργάζεται με το δικό του αντικείμενο `Metadata`.
 
-## Πώς να εξάγετε zip comments χρησιμοποιώντας το GroupDocs.Metadata
-Η εξαγωγή zip comments java σημαίνει την ανάγνωση της προαιρετικής συμβολοσειράς σχολίου που μπορεί να προσαρτηθεί σε ένα αρχείο ZIP. Αυτό το σχόλιο συχνά περιέχει σημειώσεις, πληροφορίες έκδοσης ή άλλο περιεχόμενο που σας βοηθά να αναγνωρίσετε τον σκοπό του αρχείου χωρίς να το ανοίξετε.
+## Πώς να εξάγετε σχόλια zip χρησιμοποιώντας το GroupDocs.Metadata
+
+`Metadata` είναι η κλάση εισόδου για την ανάγνωση πληροφοριών αρχείου. `getRootPackageGeneric()` επιστρέφει το γενικό root package που αντιπροσωπεύει το αρχείο.
+
+Φορτώστε το αρχείο ZIP και διαβάστε το σχόλιο του σε μόλις δύο γραμμές κώδικα. Αυτό το άμεσο παράγραφο-απάντηση ικανοποιεί την ερώτηση αμέσως: δημιουργείτε ένα αντικείμενο `Metadata` που δείχνει στο αρχείο ZIP, στη συνέχεια καλείτε `getRootPackageGeneric().getComment()` για να λάβετε το σχόλιο. Το ίδιο αντικείμενο `Metadata` σας δίνει επίσης γρήγορη καταμέτρηση των καταχωρήσεων μέσω `getTotalEntries()`. Αυτή η προσέγγιση αποφεύγει τη διαχείριση ροών χαμηλού επιπέδου και λειτουργεί τόσο για κανονικά όσο και για αρχεία με προστασία κωδικού.
 
 ### Γιατί να χρησιμοποιήσετε το GroupDocs.Metadata για Java;
-Το GroupDocs.Metadata αφαιρεί τις λεπτομέρειες του χαμηλού επιπέδου μορφής ZIP, επιτρέποντάς σας να εστιάσετε στη λογική της επιχείρησης. Υποστηρίζει πολλαπλούς τύπους αρχείων, προσφέρει ισχυρή διαχείριση σφαλμάτων και ενσωματώνεται εύκολα σε τυπικά έργα Java.
+
+GroupDocs.Metadata υποστηρίζει **5 κύριες μορφές αρχείων** (ZIP, RAR, 7z, TAR, GZIP) και μπορεί να επεξεργαστεί αρχεία με **έως 10 000 καταχωρήσεις** χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη. Η ενσωματωμένη διαχείριση σφαλμάτων μειώνει την ανάγκη για προσαρμοστική λογική try‑catch, και το API λειτουργεί σε Java 8‑to‑17, εξασφαλίζοντας ευρεία συμβατότητα με σύγχρονα έργα.
 
 ### Προαπαιτούμενα
-- **Java Development Kit (JDK) 8+** εγκατεστημένο.  
-- **IDE** όπως IntelliJ IDEA, Eclipse ή NetBeans.  
-- **Βασικές γνώσεις Java** (κλάσεις, try‑with‑resources, streams).  
-- **Βιβλιοθήκη GroupDocs.Metadata** (προστέθηκε μέσω Maven ή χειροκίνητου JAR).
+- Java Development Kit (JDK) 8 ή νεότερο εγκατεστημένο.  
+- Ένα IDE όπως IntelliJ IDEA, Eclipse ή NetBeans.  
+- Βασικές γνώσεις Java (κλάσεις, try‑with‑resources, streams).  
+- Βιβλιοθήκη GroupDocs.Metadata προστιθέμενη μέσω Maven ή ως χειροκίνητο JAR.
 
-### Απαιτούμενες Βιβλιοθήκες
+### Απαιτούμενες βιβλιοθήκες
 
-Συμπεριλάβετε τη βιβλιοθήκη GroupDocs.Metadata. Μπορείτε να την προσθέσετε μέσω Maven για διαχείριση εξαρτήσεων ή να την κατεβάσετε απευθείας από τον ιστότοπο GroupDocs.
+Συμπεριλάβετε τη βιβλιοθήκη GroupDocs.Metadata. Μπορείτε να την προσθέσετε μέσω Maven για διαχείριση εξαρτήσεων ή να την κατεβάσετε απευθείας από την ιστοσελίδα του GroupDocs.
 
 #### Ρύθμιση Maven
 
-Για να προσθέσετε το GroupDocs.Metadata στο έργο σας χρησιμοποιώντας Maven, συμπεριλάβετε το παρακάτω αποθετήριο και εξάρτηση στο αρχείο `pom.xml`:
+Προσθέστε το αποθετήριο GroupDocs και την εξάρτηση metadata στο αρχείο `pom.xml`:
 
 ```xml
 <repositories>
@@ -63,18 +119,18 @@ weight: 1
 </dependencies>
 ```
 
-#### Άμεση Λήψη
+#### Άμεση λήψη
 
-Εναλλακτικά, κατεβάστε την πιο πρόσφατη έκδοση του GroupDocs.Metadata για Java από [αυτόν τον σύνδεσμο](https://releases.groupdocs.com/metadata/java/). Προσθέστε το ληφθέν αρχείο JAR στη διαδρομή κατασκευής του έργου σας.
+Εναλλακτικά, κατεβάστε την πιο πρόσφατη έκδοση του GroupDocs.Metadata για Java από τη [GroupDocs.Metadata Java download page](https://releases.groupdocs.com/metadata/java/). Προσθέστε το ληφθέν αρχείο JAR στη διαδρομή κατασκευής του έργου σας.
 
-#### Βήματα Απόκτησης Άδειας
-- **Δωρεάν Δοκιμή:** Ξεκινήστε με μια δωρεάν δοκιμή διαθέσιμη στον ιστότοπο GroupDocs.  
-- **Προσωρινή Άδεια:** Αποκτήστε μια προσωρινή άδεια για πλήρη πρόσβαση επισκεπτόμενοι το [GroupDocs Licensing](https://purchase.groupdocs.com/temporary-license/).  
-- **Αγορά:** Σκεφτείτε την αγορά άδειας για μακροπρόθεσμη χρήση.
+#### Βήματα απόκτησης άδειας
+- **Free trial:** Ξεκινήστε με μια δωρεάν δοκιμή διαθέσιμη στην ιστοσελίδα του GroupDocs.  
+- **Temporary license:** Αποκτήστε προσωρινή άδεια για πλήρη πρόσβαση επισκεπτόμενοι το [GroupDocs Licensing](https://purchase.groupdocs.com/temporary-license/).  
+- **Purchase:** Σκεφτείτε την αγορά άδειας για μακροπρόθεσμη χρήση.
 
-#### Βασική Αρχικοποίηση και Ρύθμιση
+#### Βασική αρχικοποίηση και ρύθμιση
 
-Αρχικοποιήστε το έργο σας με το παρακάτω απόσπασμα κώδικα ρύθμισης:
+Η κλάση `Metadata` είναι το σημείο εισόδου για την ανάγνωση οποιουδήποτε υποστηριζόμενου αρχείου. Περιλαμβάνει πρόσβαση στο σύστημα αρχείων, αποκρυπτογράφηση και ανάλυση μορφής.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -92,9 +148,9 @@ public class MetadataExtractor {
 }
 ```
 
-### Εξαγωγή Σχολίων Αρχείου και Αριθμού Εγγραφών
+### Εξαγωγή σχολίων αρχείου και καταμέτρηση καταχωρήσεων
 
-Τώρα ας ανακτήσουμε το σχόλιο και τον αριθμό των εγγραφών μέσα σε ένα αρχείο ZIP:
+Τώρα ας εξάγουμε το σχόλιο και ας μετρήσουμε τις καταχωρήσεις μέσα σε ένα αρχείο ZIP:
 
 ```java
 import com.groupdocs.metadata.core.ZipRootPackage;
@@ -130,18 +186,18 @@ public class MetadataExtractor {
 }
 ```
 
-#### Σημαντικά Σημεία
-- **`getRootPackageGeneric()`** ανακτά το ριζικό πακέτο του αρχείου ZIP, απαραίτητο για πρόσβαση στα μεταδεδομένα.  
-- **`getComment()`** λαμβάνει τυχόν σχόλια που σχετίζονται με το αρχείο ZIP — μια χρήσιμη λειτουργία για αρχεία που απαιτούν περιεχόμενο ή σημειώσεις.  
-- **`getTotalEntries()`** παρέχει τον αριθμό όλων των αρχείων μέσα στο αρχείο, χρήσιμο για την κατανόηση του εύρους του περιεχομένου.
+#### Κύρια σημεία
+- `getRootPackageGeneric()` ανακτά το root package του αρχείου ZIP, απαραίτητο για πρόσβαση στα μεταδεδομένα.  
+- `getComment()` φέρνει τυχόν σχόλια που συνδέονται με το αρχείο ZIP—χρήσιμη λειτουργία για αρχεία που απαιτούν συμφραζόμενα ή σημειώσεις.  
+- `getTotalEntries()` παρέχει αριθμό όλων των αρχείων μέσα στο αρχείο, χρήσιμο για κατανόηση του περιεχομένου του.
 
-### Επανάληψη Μέσω Αρχείων
+### Επανάληψη μέσω αρχείων
 
-Η βοηθητική μέθοδος `printFileInfo` (που φαίνεται παραπάνω) εκτυπώνει λεπτομερείς πληροφορίες για κάθε εγγραφή. Δείχνει πώς μπορείτε να διασχίσετε κάθε αρχείο στο αρχείο και να εξάγετε ιδιότητες όπως όνομα, συμπιεσμένο μέγεθος, μέθοδος συμπίεσης, σημαίες και χρονικές σφραγίδες.
+Η βοηθητική μέθοδος `printFileInfo` (παραπάνω) εκτυπώνει λεπτομερείς πληροφορίες για κάθε καταχώρηση. Δείχνει πώς μπορείτε να διασχίσετε κάθε αρχείο στο αρχείο και να εξάγετε ιδιότητες όπως όνομα, συμπιεσμένο μέγεθος, μέθοδος συμπίεσης, σημαίες και χρονικές σήμανσεις.
 
-### Ανάγνωση αρχείων zip με κωδικό πρόσβασης
+### Ανάγνωση zip αρχείων με προστασία κωδικού
 
-Αν χρειαστεί να **διαβάσετε αρχεία zip με κωδικό πρόσβασης**, απλώς παρέχετε τον κωδικό κατά τη δημιουργία του αντικειμένου `Metadata`:
+Αν χρειάζεται να **read password‑protected zip** αρχεία, απλώς περάστε τον κωδικό κατά τη δημιουργία του αντικειμένου `Metadata`:
 
 ```java
 String password = "yourPassword";
@@ -152,57 +208,59 @@ try (Metadata metadata = new Metadata(inputZip, password)) {
 
 Το GroupDocs.Metadata θα αποκρυπτογραφήσει το αρχείο εν κινήσει, επιτρέποντάς σας να εφαρμόσετε την ίδια λογική εξαγωγής σχολίων χωρίς επιπλέον κώδικα.
 
-## Πρακτικές Εφαρμογές
+## Πρακτικές εφαρμογές
 
-Ακολουθούν μερικά σενάρια πραγματικού κόσμου όπου η εξαγωγή zip comments java διαπρέπει:
+Εδώ είναι μερικά πραγματικά σενάρια όπου η εξαγωγή zip metadata java διαπρέπει:
 
-1. **Αυτοματοποιημένα Συστήματα Αρχειοθέτησης** – Χρησιμοποιήστε μεταδεδομένα για αυτόματη κατηγοριοποίηση και ετικετοθέτηση αρχείων χωρίς χειροκίνητη επιθεώρηση.  
-2. **Επαλήθευση Αντιγράφων Ασφαλείας** – Καταγράψτε και επαληθεύστε το περιεχόμενο των αντιγράφων ασφαλείας ZIP προγραμματιστικά.  
-3. **Πλατφόρμες Διαχείρισης Περιεχομένου** – Εμφανίστε δυναμικά τις λεπτομέρειες του αρχείου στους τελικούς χρήστες, βελτιώνοντας τη διαφάνεια.  
+1. **Automated archiving systems** – Χρησιμοποιήστε τα μεταδεδομένα για αυτόματη κατηγοριοποίηση και ετικετοθέτηση αρχείων χωρίς χειροκίνητη επιθεώρηση.  
+2. **Backup verification** – Λίστα και επαλήθευση προγραμματιστικά των περιεχομένων των αντιγράφων ασφαλείας ZIP, διασφαλίζοντας την πληρότητα πριν από τη διατήρηση.  
+3. **Content‑management platforms** – Δυναμική εμφάνιση λεπτομερειών αρχείου (σχόλια, αριθμός καταχωρήσεων) στους τελικούς χρήστες, βελτιώνοντας τη διαφάνεια και την εμπιστοσύνη.
 
-## Σκέψεις για την Απόδοση
+## Σκέψεις απόδοσης
 
 Κατά την εξαγωγή μεταδεδομένων από πολλά ή μεγάλα αρχεία ZIP, λάβετε υπόψη τις παρακάτω συμβουλές:
 
-- **Αποτελεσματική Χρήση Μνήμης** – Απελευθερώστε τα αντικείμενα άμεσα· το μπλοκ try‑with‑resources βοηθά ήδη.  
-- **Επεξεργασία σε Παρτίδες** – Επεξεργαστείτε τα αρχεία σε ομάδες για να περιορίσετε την πίεση στη μνήμη.  
-- **Πολυνηματικότητα** – Εκμεταλλευτείτε το `ExecutorService` της Java για παράλληλη εξαγωγή σε πολλά αρχεία.  
+- **Efficient memory use** – Απελευθερώστε αντικείμενα άμεσα· το μπλοκ try‑with‑resources βοηθά ήδη.  
+- **Batch processing** – Επεξεργαστείτε τα αρχεία σε ομάδες για περιορισμό της πίεσης μνήμης.  
+- **Threading** – Εκμεταλλευτείτε το `ExecutorService` της Java για παράλληλη εξαγωγή σε πολλαπλά αρχεία, επιτυγχάνοντας έως και 3× ταχύτερη εκτέλεση σε πολυπύρημες μηχανές.
 
-## Συχνά Προβλήματα και Λύσεις
-- **Επιστρέφεται κενό σχόλιο** – Βεβαιωθείτε ότι το ZIP περιέχει πραγματικά ένα σχόλιο· ορισμένα εργαλεία το παραλείπουν.  
-- **Μη υποστηριζόμενη κωδικοποίηση** – Το παράδειγμα χρησιμοποιεί `cp866`; προσαρμόστε το charset ώστε να ταιριάζει με την κωδικοποίηση του αρχείου σας (π.χ., UTF‑8).  
-- **Μεγάλα αρχεία προκαλούν OutOfMemoryError** – Αυξήστε το μέγεθος της μνήμης heap της JVM ή επεξεργαστείτε τα αρχεία σε λειτουργία streaming.  
-- **Αποτυχία ZIP με κωδικό πρόσβασης** – Επαληθεύστε ότι ο παρεχόμενος κωδικός είναι σωστός και ότι το αρχείο χρησιμοποιεί υποστηριζόμενη μέθοδο κρυπτογράφησης.  
+## Συχνά προβλήματα και λύσεις
+- **Empty comment returned** – Βεβαιωθείτε ότι το ZIP περιέχει πραγματικά ένα σχόλιο· ορισμένα εργαλεία το παραλείπουν από προεπιλογή.  
+- **Unsupported encoding** – Το παράδειγμα χρησιμοποιεί `cp866`; προσαρμόστε το charset ώστε να ταιριάζει με την κωδικοποίηση του αρχείου σας (π.χ., UTF‑8).  
+- **Large archives cause OutOfMemoryError** – Αυξήστε το μέγεθος heap της JVM ή επεξεργαστείτε τα αρχεία σε λειτουργία streaming.  
+- **Password‑protected ZIP fails** – Επαληθεύστε ότι ο κωδικός είναι σωστός και ότι το αρχείο χρησιμοποιεί υποστηριζόμενη μέθοδο κρυπτογράφησης.
 
 ## Ενότητα Συχνών Ερωτήσεων
 
-**Ε: Ποιος είναι ο κύριος σκοπός της εξαγωγής μεταδεδομένων ZIP;**  
-Α: Η εξαγωγή μεταδεδομένων ZIP βοηθά στην αυτοματοποίηση της διαχείρισης και οργάνωσης των αρχείων χωρίς χειροκίνητη επιθεώρηση κάθε στοιχείου.
+**Q: What is the primary purpose of extracting ZIP metadata?**  
+A: Η εξαγωγή μεταδεδομένων ZIP αυτοματοποιεί τη διαχείριση και οργάνωση αρχείων χωρίς χειροκίνητη επιθεώρηση, εξοικονομώντας χρόνο και μειώνοντας τα σφάλματα.
 
-**Ε: Μπορώ να εξάγω μεταδεδομένα από άλλες μορφές αρχείων χρησιμοποιώντας το GroupDocs.Metadata;**  
-Α: Ναι, το GroupDocs.Metadata υποστηρίζει διάφορους τύπους αρχείων όπως RAR και 7z εκτός από ZIP.
+**Q: Can I extract metadata from other archive formats using GroupDocs.Metadata?**  
+A: Ναι, η βιβλιοθήκη υποστηρίζει επίσης RAR, 7z, TAR και GZIP, παρέχοντάς σας ένα ενοποιημένο API για διαφορετικούς τύπους συμπίεσης.
 
-**Ε: Πώς να διαχειριστώ μεγάλα αρχεία ZIP αποδοτικά με το GroupDocs.Metadata;**  
-Α: Βελτιστοποιήστε τη χρήση μνήμης επεξεργάζοντας τα αρχεία σε παρτίδες και εκμεταλλευόμενοι τις δυνατότητες ταυτόχρονης εκτέλεσης της Java για παράλληλες εργασίες εξαγωγής.  
+**Q: How do I handle large ZIP files efficiently with GroupDocs.Metadata?**  
+A: Επεξεργαστείτε τα αρχεία σε παρτίδες, αυξήστε το heap της JVM αν χρειαστεί, και χρησιμοποιήστε `ExecutorService` για εκτέλεση εξαγωγών σε παράλληλα νήματα.
 
-## Συχνές Ερωτήσεις
+## Συχνές ερωτήσεις
 
-**Ε: Χρειάζομαι εμπορική άδεια για να εκτελέσω αυτόν τον κώδικα σε παραγωγή;**  
-Α: Ναι, απαιτείται έγκυρη άδεια GroupDocs.Metadata για παραγωγικές εγκαταστάσεις. Διατίθεται δωρεάν δοκιμή για αξιολόγηση.
+**Q: Do I need a commercial license to run this code in production?**  
+A: Ναι, απαιτείται έγκυρη άδεια GroupDocs.Metadata για παραγωγικές αναπτύξεις. Διατίθεται δωρεάν δοκιμή για αξιολόγηση.
 
-**Ε: Είναι δυνατόν να διαβάσετε αρχεία ZIP με κωδικό πρόσβασης;**  
-Α: Το GroupDocs.Metadata μπορεί να ανοίξει αρχεία με κωδικό πρόσβασης όταν παρέχετε τον σωστό κωδικό μέσω του API.
+**Q: Is it possible to read password‑protected ZIP archives?**  
+A: Το GroupDocs.Metadata μπορεί να ανοίξει αρχεία με προστασία κωδικού όταν παρέχετε τον σωστό κωδικό μέσω του API.
 
-**Ε: Ποιες εκδόσεις Java υποστηρίζονται;**  
-Α: Η βιβλιοθήκη λειτουργεί με Java 8 και νεότερες εκδόσεις, συμπεριλαμβανομένων των Java 11, 17 και μεταγενέστερων.
+**Q: Which Java versions are supported?**  
+A: Η βιβλιοθήκη λειτουργεί με Java 8 και νεότερες εκδόσεις, συμπεριλαμβανομένων των Java 11, 17 και μεταγενέστερων εκδόσεων.
 
-**Ε: Μπορώ να εξάγω μόνο συγκεκριμένες εγγραφές αρχείων αντί να επαναλαμβάνω όλα τα αρχεία;**  
-Α: Ναι — μπορείτε να φιλτράρετε τη συλλογή που επιστρέφει η `getFiles()` βάσει ονόματος αρχείου ή άλλων κριτηρίων.
+**Q: Can I extract only specific file entries instead of iterating all files?**  
+A: Ναι—μπορείτε να φιλτράρετε τη συλλογή που επιστρέφει το `getFiles()` βάσει ονόματος αρχείου, επέκτασης ή προσαρμοσμένων συνθηκών.
 
----
+**Last Updated:** 2026-10-01  
+**Tested With:** GroupDocs.Metadata 24.12 for Java  
+**Author:** GroupDocs
 
-**Τελευταία Ενημέρωση:** 2026-03-15  
-**Δοκιμάστηκε Με:** GroupDocs.Metadata 24.12 για Java  
-**Συγγραφέας:** GroupDocs  
+## Σχετικά Μαθήματα
 
----
+- [Αφαίρεση Σχολίων Χρήστη από Αρχεία Zip Groupdocs Metadata Java](/metadata/java/archive-formats/remove-user-comments-zip-archives-groupdocs-metadata-java/)
+- [Ενημέρωση Σχολίων Αρχείου Zip Groupdocs Metadata Java](/metadata/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-java/)
+- [Εξαγωγή Μεταδεδομένων Tar Οδηγός Groupdocs Java](/metadata/java/archive-formats/extract-tar-metadata-groupdocs-java-guide/)

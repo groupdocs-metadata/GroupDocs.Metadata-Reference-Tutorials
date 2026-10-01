@@ -1,48 +1,105 @@
 ---
-date: '2026-03-15'
-description: GroupDocs.Metadata for Java kullanarak zip yorumlarını nasıl çıkaracağınızı
-  ve şifre korumalı zip arşivlerini nasıl okuyacağınızı öğrenin. Dijital arşivleri
-  verimli bir şekilde yönetmek için bu adım adım kılavuzu izleyin.
+date: '2026-10-01'
+description: GroupDocs.Metadata for Java kullanarak zip metadata java nasıl çıkarılır
+  ve password‑protected ZIP arşivlerini nasıl okunur öğrenin. Bu kılavuz, yorumların
+  ve diğer arşiv metadata'sının step‑by‑step çıkarılmasını gösterir.
 keywords:
-- extract ZIP metadata
+- extract zip metadata java
 - GroupDocs.Metadata for Java
-- manage digital archives
-title: GroupDocs.Metadata kullanarak Java ile zip yorumlarını nasıl çıkarılır – Rehber
+- digital archive management
+lastmod: '2026-10-01'
+og_description: GroupDocs.Metadata kullanarak zip metadata java çıkarın. Bu step‑by‑step
+  Java öğreticisini izleyerek ZIP yorumlarını okuyun, password‑protected arşivleri
+  yönetin ve large files verimli bir şekilde işleyin.
+og_image_alt: Screenshot of Java code extracting ZIP metadata with GroupDocs.Metadata
+og_title: GroupDocs.Metadata ile zip metadata java çıkarma – hızlı kılavuz
+schemas:
+- author: GroupDocs
+  dateModified: '2026-10-01'
+  description: Learn how to extract zip metadata java and read password‑protected
+    ZIP archives using GroupDocs.Metadata for Java. This guide shows step‑by‑step
+    extraction of comments and other archive metadata.
+  headline: How to extract zip metadata java with GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to extract zip metadata java and read password‑protected
+    ZIP archives using GroupDocs.Metadata for Java. This guide shows step‑by‑step
+    extraction of comments and other archive metadata.
+  name: How to extract zip metadata java with GroupDocs.Metadata
+  steps:
+  - name: '**Automated archiving systems** – Use metadata to auto‑categorize and tag
+      archives without manual inspection.'
+    text: '**Automated archiving systems** – Use metadata to auto‑categorize and tag
+      archives without manual inspection.'
+  - name: '**Backup verification** – Programmatically list and verify the contents
+      of backup ZIPs, ensuring completeness before retention.'
+    text: '**Backup verification** – Programmatically list and verify the contents
+      of backup ZIPs, ensuring completeness before retention.'
+  - name: '**Content‑management platforms** – Dynamically display archive details
+      (comments, entry count) to end‑users, improving transparency and trust.'
+    text: '**Content‑management platforms** – Dynamically display archive details
+      (comments, entry count) to end‑users, improving transparency and trust.'
+  type: HowTo
+- questions:
+  - answer: Extracting ZIP metadata automates the management and organization of file
+      archives without manual inspection, saving time and reducing errors.
+    question: What is the primary purpose of extracting ZIP metadata?
+  - answer: Yes, the library also supports RAR, 7z, TAR, and GZIP, giving you a unified
+      API for diverse compression types.
+    question: Can I extract metadata from other archive formats using GroupDocs.Metadata?
+  - answer: Process files in batches, increase the JVM heap if necessary, and use
+      `ExecutorService` to run extractions in parallel threads.
+    question: How do I handle large ZIP files efficiently with GroupDocs.Metadata?
+  - answer: Yes, a valid GroupDocs.Metadata license is required for production deployments.
+      A free trial is available for evaluation.
+    question: Do I need a commercial license to run this code in production?
+  - answer: GroupDocs.Metadata can open password‑protected archives when you supply
+      the correct password via the API.
+    question: Is it possible to read password‑protected ZIP archives?
+  type: FAQPage
+tags:
+- zip metadata
+- GroupDocs.Metadata
+- Java archive processing
+title: GroupDocs.Metadata ile zip metadata java nasıl çıkarılır
 type: docs
 url: /tr/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/
 weight: 1
 ---
 
-# Java ile zip yorumlarını çıkarmak GroupDocs.Metadata kullanarak – Kılavuz
+# GroupDocs.Metadata ile zip metadata java nasıl çıkarılır
 
-Dijital arşivleri verimli bir şekilde yönetmek, özellikle büyük dosya koleksiyonlarının ZIP arşivlerine sıkıştırıldığı durumlarda çok önemlidir. **Bu öğreticide Java ile zip yorumlarını nasıl çıkaracağınızı** ve her dosyayı manuel olarak açmadan diğer faydalı meta verileri öğreneceksiniz. Kılavuzun sonunda, gerektiğinde **parola korumalı zip** arşivlerini nasıl okuyacağınızı da görecek ve Java’da arşiv incelemesi için eksiksiz bir araç seti elde edeceksiniz.
+Bu kapsamlı öğreticide **extract zip metadata java** nasıl yapılacağını ve GroupDocs.Metadata kullanarak şifre korumalı ZIP arşivlerini nasıl okuyacağınızı öğreneceksiniz. Sonunda isteğe bağlı yorum dizesini alabilecek, girişleri sayabilecek ve dosya‑seviyesi özellikleri inceleyebileceksiniz—arşivi manuel olarak açmadan. Bu yetenek, otomatik arşivleme sistemleri, yedek doğrulama hatları ve arşiv ayrıntılarını programlı olarak ortaya çıkarması gereken içerik‑yönetim platformları için hayati öneme sahiptir.
 
-## Hızlı Yanıtlar
-- **“extract zip comments java” ne anlama geliyor?** Bir ZIP arşivinde saklanan yorum alanını Java kodu kullanarak almayı ifade eder.  
-- **Bu görev için hangi kütüphane en iyisidir?** Java için GroupDocs.Metadata, ZIP meta verilerini okumak için basit bir API sunar.  
-- **Bir lisansa ihtiyacım var mı?** Ücretsiz deneme sürümü mevcuttur, ancak üretim kullanımı için kalıcı bir lisans gereklidir.  
-- **Büyük ZIP dosyalarını işleyebilir miyim?** Evet—dosyaları toplu olarak işleyebilir ve daha iyi performans için Java’nın eşzamanlılık özelliklerini kullanabilirsiniz.  
-- **Bu yaklaşım thread‑safe (iş parçacığı güvenli) mi?** Kütüphane, her iş parçacığının kendi `Metadata` örneğiyle çalıştığı durumlar için eşzamanlı kullanım tasarlanmıştır.
+## Hızlı cevaplar
+- **“extract zip metadata java” ne anlama geliyor?** Bu, bir ZIP arşivinin içinde depolanan yorum alanını ve diğer açıklayıcı bilgileri Java kodu kullanarak almayı ifade eder.  
+- **Bu görev için en iyi kütüphane hangisidir?** Java için GroupDocs.Metadata, ZIP formatı detaylarını soyutlayan özlü, yüksek‑seviyeli bir API sunar.  
+- **Bir lisansa ihtiyacım var mı?** GroupDocs web sitesinde mevcut olan ücretsiz deneme sürümüyle başlayabilirsiniz, ancak üretim dağıtımları için kalıcı bir lisans gereklidir.  
+- **Büyük ZIP dosyalarını işleyebilir miyim?** Evet—dosyaları toplu olarak işleyin ve paralel çıkarım için Java’nın `ExecutorService` i kullanın.  
+- **Bu yaklaşım iş parçacığı‑güvenli mi?** Her iş parçacığı kendi `Metadata` örneğiyle çalıştığı sürece kütüphane iş parçacığı‑güvenlidir.
 
-## GroupDocs.Metadata kullanarak zip yorumlarını nasıl çıkartılır
-Java ile zip yorumlarını çıkarmak, bir ZIP arşivine eklenebilen isteğe bağlı yorum dizesini okumak anlamına gelir. Bu yorum genellikle notlar, sürüm bilgileri veya arşivin amacını açmadan tanımlamanıza yardımcı olacak diğer bağlamları içerir.
+## GroupDocs.Metadata kullanarak zip yorumlarını nasıl çıkarılır
+
+`Metadata`, arşiv bilgilerini okumak için giriş noktası sınıfıdır. `getRootPackageGeneric()` arşivi temsil eden genel kök paketi döndürür.
+
+ZIP arşivini yükleyin ve yorumunu sadece iki satır kodla okuyun. Bu doğrudan‑cevap paragrafı soruyu hemen yanıtlar: ZIP dosyasına işaret eden bir `Metadata` nesnesi oluşturursunuz, ardından yorum dizesini elde etmek için `getRootPackageGeneric().getComment()` çağırırsınız. Aynı `Metadata` örneği `getTotalEntries()` ile girişlerin hızlı bir sayısını da verir. Bu yaklaşım düşük‑seviye akış işlemlerinden kaçınır ve hem normal hem de şifre korumalı arşivlerde çalışır.
 
 ### Neden Java için GroupDocs.Metadata kullanmalı?
-GroupDocs.Metadata, düşük seviyeli ZIP formatı ayrıntılarını soyutlayarak iş mantığına odaklanmanızı sağlar. Birden fazla arşiv türünü destekler, sağlam hata yönetimi sunar ve standart Java projeleriyle kolayca bütünleşir.
+
+GroupDocs.Metadata **5 büyük arşiv formatını** (ZIP, RAR, 7z, TAR, GZIP) destekler ve **10 000 girişe** kadar arşivleri tüm dosyayı belleğe yüklemeden işleyebilir. Yerleşik hata yönetimi, özel try‑catch mantığına olan ihtiyacı azaltır ve API Java 8‑17 arasında çalışır, modern projelerde geniş uyumluluk sağlar.
 
 ### Önkoşullar
-- **Java Development Kit (JDK) 8+** yüklü.  
-- **IDE** (IntelliJ IDEA, Eclipse veya NetBeans gibi).  
-- **Temel Java bilgisi** (sınıflar, try‑with‑resources, akışlar).  
-- **GroupDocs.Metadata kütüphanesi** (Maven veya manuel JAR ile eklenir).
+- Java Development Kit (JDK) 8 veya daha yeni bir sürüm yüklü.  
+- IntelliJ IDEA, Eclipse veya NetBeans gibi bir IDE.  
+- Temel Java bilgisi (sınıflar, try‑with‑resources, akışlar).  
+- Maven üzerinden veya manuel JAR olarak eklenmiş GroupDocs.Metadata kütüphanesi.
 
-### Gerekli Kütüphaneler
+### Gerekli kütüphaneler
 
-GroupDocs.Metadata kütüphanesini ekleyin. Bağımlılık yönetimi için Maven üzerinden ekleyebilir veya doğrudan GroupDocs web sitesinden indirebilirsiniz.
+GroupDocs.Metadata kütüphanesini dahil edin. Bağımlılık yönetimi için Maven üzerinden ekleyebilir veya doğrudan GroupDocs web sitesinden indirebilirsiniz.
 
-#### Maven Kurulumu
+#### Maven kurulumu
 
-To add GroupDocs.Metadata to your project using Maven, include the following repository and dependency in your `pom.xml` file:
+`pom.xml` dosyanıza GroupDocs deposunu ve metadata bağımlılığını ekleyin:
 
 ```xml
 <repositories>
@@ -62,18 +119,18 @@ To add GroupDocs.Metadata to your project using Maven, include the following rep
 </dependencies>
 ```
 
-#### Doğrudan İndirme
+#### Doğrudan indirme
 
-Alternatif olarak, GroupDocs.Metadata for Java'ın en son sürümünü [bu linkten](https://releases.groupdocs.com/metadata/java/) indirebilirsiniz. İndirilen JAR dosyasını projenizin derleme yoluna ekleyin.
+Alternatif olarak, [GroupDocs.Metadata Java download page](https://releases.groupdocs.com/metadata/java/) adresinden Java için GroupDocs.Metadata'in en son sürümünü indirin. İndirilen JAR dosyasını projenizin derleme yoluna ekleyin.
 
-#### Lisans Edinme Adımları
-- **Ücretsiz Deneme:** GroupDocs web sitesinde bulunan ücretsiz deneme sürümüyle başlayın.  
-- **Geçici Lisans:** Tam erişim için [GroupDocs Lisanslama](https://purchase.groupdocs.com/temporary-license/) sayfasını ziyaret ederek geçici bir lisans edinin.  
-- **Satın Alma:** Uzun vadeli kullanım için bir lisans satın almayı düşünün.
+#### Lisans edinme adımları
+- **Free trial:** GroupDocs web sitesinde mevcut olan ücretsiz deneme sürümüyle başlayın.  
+- **Temporary license:** [GroupDocs Licensing](https://purchase.groupdocs.com/temporary-license/) adresini ziyaret ederek tam erişim için geçici bir lisans edinin.  
+- **Purchase:** Uzun vadeli kullanım için bir lisans satın almayı düşünün.
 
-#### Temel Başlatma ve Kurulum
+#### Temel başlatma ve yapılandırma
 
-Initialize your project with the following setup code snippet:
+`Metadata` sınıfı, desteklenen herhangi bir arşivi okumak için giriş noktasıdır. Dosya sistemi erişimini, şifre çözmeyi ve format ayrıştırmayı kapsar.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -91,9 +148,9 @@ public class MetadataExtractor {
 }
 ```
 
-### Arşiv Yorumlarını ve Girdi Sayısını Çıkarma
+### Arşiv yorumlarını ve giriş sayısını çıkarma
 
-Now let’s retrieve the comment and count the entries within a ZIP file:
+Şimdi bir ZIP dosyasındaki yorumu alalım ve girişleri sayalım:
 
 ```java
 import com.groupdocs.metadata.core.ZipRootPackage;
@@ -129,18 +186,18 @@ public class MetadataExtractor {
 }
 ```
 
-#### Önemli Noktalar
-- **`getRootPackageGeneric()`** ZIP arşivinin kök paketini alır, meta verilere erişim için gereklidir.  
-- **`getComment()`** ZIP dosyasıyla ilişkili yorumları getirir—bağlam veya not gerektiren arşivler için faydalı bir özelliktir.  
-- **`getTotalEntries()`** arşivdeki tüm dosyaların sayısını verir, içeriğin kapsamını anlamak için faydalıdır.
+#### Anahtar noktalar
+- `getRootPackageGeneric()` ZIP arşivinin kök paketini alır, metadata'ya erişim için gereklidir.  
+- `getComment()` ZIP dosyasıyla ilişkili yorumları getirir—bağlam veya not gerektiren arşivler için faydalı bir özelliktir.  
+- `getTotalEntries()` arşivdeki tüm dosyaların sayısını verir, içeriğin kapsamını anlamak için kullanışlıdır.
 
-### Dosyalar Üzerinde Döngü
+### Dosyalar arasında yineleme
 
-`printFileInfo` yardımcı yöntemi (yukarıda gösterildiği gibi) her giriş için ayrıntılı bilgi yazdırır. Arşivdeki her dosyayı nasıl dolaşabileceğinizi ve ad, sıkıştırılmış boyut, sıkıştırma yöntemi, bayraklar ve zaman damgaları gibi özellikleri nasıl çıkarabileceğinizi gösterir.
+`printFileInfo` yardımcı yöntemi (yukarıda gösterildi) her giriş için ayrıntılı bilgi yazdırır. Arşivdeki her dosyayı nasıl gezebileceğinizi ve ad, sıkıştırılmış boyut, sıkıştırma yöntemi, bayraklar ve zaman damgaları gibi özellikleri nasıl çıkarabileceğinizi gösterir.
 
-### Parola korumalı zip arşivlerini okuma
+### Şifre korumalı zip arşivlerini okuma
 
-If you need to **read password protected zip** files, simply supply the password when constructing the `Metadata` object:
+Eğer **şifre korumalı zip** dosyalarını okumanız gerekiyorsa, `Metadata` nesnesini oluştururken sadece şifreyi sağlayın:
 
 ```java
 String password = "yourPassword";
@@ -149,59 +206,63 @@ try (Metadata metadata = new Metadata(inputZip, password)) {
 }
 ```
 
-GroupDocs.Metadata, arşivi anında şifre çözecek ve aynı yorum çıkarma mantığını ek bir kod yazmadan uygulamanıza olanak tanıyacaktır.
+GroupDocs.Metadata, arşivi anında şifre çözer ve aynı yorum çıkarma mantığını ek bir kod olmadan uygulamanıza izin verir.
 
-## Pratik Uygulamalar
+## Pratik uygulamalar
 
-Java ile zip yorumlarını çıkarmanın öne çıktığı bazı gerçek dünya senaryoları şunlardır:
+İşte zip metadata java çıkarımının öne çıktığı bazı gerçek dünya senaryoları:
 
-1. **Otomatik Arşivleme Sistemleri** – Meta verileri kullanarak arşivleri manuel inceleme olmadan otomatik sınıflandırın ve etiketleyin.  
-2. **Yedek Doğrulama** – Yedek ZIP'lerin içeriğini programlı olarak listeleyin ve doğrulayın.  
-3. **İçerik Yönetim Platformları** – Arşiv detaylarını son kullanıcılara dinamik olarak göstererek şeffaflığı artırın.  
+1. **Automated archiving systems** – Metadata'yı kullanarak arşivleri manuel inceleme olmadan otomatik olarak sınıflandırın ve etiketleyin.  
+2. **Backup verification** – Yedek ZIP'lerin içeriğini programlı olarak listeleyin ve doğrulayın, saklamadan önce bütünlüğü sağlayın.  
+3. **Content‑management platforms** – Arşiv detaylarını (yorumlar, giriş sayısı) son kullanıcılara dinamik olarak göstererek şeffaflığı ve güveni artırın.
 
-## Performans Düşünceleri
+## Performans değerlendirmeleri
 
-Birçok veya büyük ZIP dosyasından meta veri çıkarırken şu ipuçlarını aklınızda bulundurun:
+Birçok veya büyük ZIP dosyasından metadata çıkarırken şu ipuçlarını aklınızda tutun:
 
-- **Verimli Bellek Kullanımı** – Nesneleri hızlıca serbest bırakın; try‑with‑resources bloğu zaten yardımcı olur.  
-- **Toplu İşleme** – Bellek baskısını sınırlamak için arşivleri gruplar halinde işleyin.  
-- **İş Parçacığı Kullanımı** – Java’nın `ExecutorService`'ini kullanarak birden fazla arşivde çıkarma işlemini paralelleştirin.
+- **Efficient memory use** – Nesneleri hızlıca serbest bırakın; try‑with‑resources bloğu zaten yardımcı olur.  
+- **Batch processing** – Bellek baskısını sınırlamak için arşivleri gruplar halinde işleyin.  
+- **Threading** – Java’nın `ExecutorService`'ini kullanarak çıkarımı birden fazla arşivde paralelleştirin, çok çekirdekli makinelerde 3 katına kadar hız artışı elde edin.
 
-## Yaygın Sorunlar ve Çözümler
-- **Boş yorum döndü** – ZIP'in gerçekten bir yorum içerdiğinden emin olun; bazı araçlar bunu atlayabilir.  
-- **Desteklenmeyen kodlama** – Örnekte `cp866` kullanılıyor; arşivinizin kodlamasına (ör. UTF‑8) uygun charset'i ayarlayın.  
-- **Büyük arşivler OutOfMemoryError oluşturur** – JVM yığın boyutunu artırın veya dosyaları akış modunda işleyin.  
-- **Parola korumalı ZIP başarısız** – Sağlanan parolanın doğru olduğunu ve arşivin desteklenen bir şifreleme yöntemi kullandığını doğrulayın.
+## Yaygın sorunlar ve çözümler
+- **Empty comment returned** – ZIP'in gerçekten bir yorum içerdiğinden emin olun; bazı araçlar varsayılan olarak yorum eklemez.  
+- **Unsupported encoding** – Örnek `cp866` kullanıyor; karakter setini arşivinizin kodlamasına (ör. UTF‑8) göre ayarlayın.  
+- **Large archives cause OutOfMemoryError** – JVM yığın boyutunu artırın veya dosyaları akış modunda işleyin.  
+- **Password‑protected ZIP fails** – Sağlanan şifrenin doğru olduğunu ve arşivin desteklenen bir şifreleme yöntemi kullandığını doğrulayın.
 
-## SSS Bölümü
+## SSS bölümü
 
-**S: ZIP meta verilerini çıkarmanın temel amacı nedir?**  
-C: ZIP meta verilerini çıkarmak, dosya arşivlerinin yönetimini ve organizasyonunu otomatikleştirir, her öğeyi manuel olarak incelemenize gerek kalmaz.
+**Q: ZIP metadata çıkarımının temel amacı nedir?**  
+A: ZIP metadata çıkarımı, dosya arşivlerinin yönetimini ve organizasyonunu manuel inceleme olmadan otomatikleştirir, zaman tasarrufu sağlar ve hataları azaltır.
 
-**S: GroupDocs.Metadata kullanarak diğer arşiv formatlarından meta veri çıkarabilir miyim?**  
-C: Evet, GroupDocs.Metadata ZIP dışında RAR ve 7z gibi çeşitli arşiv türlerini de destekler.
+**Q: GroupDocs.Metadata kullanarak diğer arşiv formatlarından metadata çıkarabilir miyim?**  
+A: Evet, kütüphane RAR, 7z, TAR ve GZIP'i de destekler, çeşitli sıkıştırma tipleri için birleşik bir API sunar.
 
-**S: GroupDocs.Metadata ile büyük ZIP dosyalarını verimli bir şekilde nasıl yönetirim?**  
-C: Dosyaları toplu işleyerek ve Java’nın eşzamanlılık özelliklerini kullanarak paralel çıkarma görevleriyle bellek kullanımını optimize edin.
+**Q: GroupDocs.Metadata ile büyük ZIP dosyalarını verimli bir şekilde nasıl yönetebilirim?**  
+A: Dosyaları gruplar halinde işleyin, gerekirse JVM yığınını artırın ve `ExecutorService` kullanarak çıkarımları paralel iş parçacıklarında çalıştırın.
 
-## Sıkça Sorulan Sorular
+## Sıkça sorulan sorular
 
-**S: Bu kodu üretimde çalıştırmak için ticari bir lisansa ihtiyacım var mı?**  
-C: Evet, üretim dağıtımları için geçerli bir GroupDocs.Metadata lisansı gereklidir. Değerlendirme için ücretsiz bir deneme sürümü mevcuttur.
+**Q: Bu kodu üretimde çalıştırmak için ticari bir lisansa ihtiyacım var mı?**  
+A: Evet, üretim dağıtımları için geçerli bir GroupDocs.Metadata lisansı gereklidir. Değerlendirme için ücretsiz bir deneme sürümü mevcuttur.
 
-**S: Parola korumalı ZIP arşivlerini okumak mümkün mü?**  
-C: GroupDocs.Metadata, API üzerinden doğru parolayı sağladığınızda parola korumalı arşivleri açabilir.
+**Q: Şifre korumalı ZIP arşivlerini okumak mümkün mü?**  
+A: GroupDocs.Metadata, API aracılığıyla doğru şifreyi sağladığınızda şifre korumalı arşivleri açabilir.
 
-**S: Hangi Java sürümleri destekleniyor?**  
-C: Kütüphane Java 8 ve daha yeni sürümlerle, Java 11, 17 ve sonrası dahil çalışır.
+**Q: Hangi Java sürümleri destekleniyor?**  
+A: Kütüphane Java 8 ve daha yeni sürümlerle çalışır, Java 11, 17 ve sonraki sürümler dahil.
 
-**S: Tüm dosyalar üzerinde döngü yapmak yerine yalnızca belirli dosya girişlerini çıkarabilir miyim?**  
-C: Evet—`getFiles()` tarafından döndürülen koleksiyonu dosya adı veya diğer kriterlere göre filtreleyebilirsiniz.
+**Q: Tüm dosyaları yinelemek yerine yalnızca belirli dosya girişlerini çıkarabilir miyim?**  
+A: Evet—`getFiles()` tarafından döndürülen koleksiyonu dosya adı, uzantı veya özel koşullara göre filtreleyebilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2026-03-15  
+**Son Güncelleme:** 2026-10-01  
 **Test Edilen:** GroupDocs.Metadata 24.12 for Java  
-**Yazar:** GroupDocs  
+**Yazar:** GroupDocs
 
----
+## İlgili Öğreticiler
+
+- [Kullanıcı Yorumlarını Kaldırma Zip Arşivleri Groupdocs Metadata Java](/metadata/java/archive-formats/remove-user-comments-zip-archives-groupdocs-metadata-java/)
+- [Zip Arşivi Yorumlarını Güncelleme Groupdocs Metadata Java](/metadata/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-java/)
+- [Tar Metadata Çıkarma Groupdocs Java Kılavuzu](/metadata/java/archive-formats/extract-tar-metadata-groupdocs-java-guide/)

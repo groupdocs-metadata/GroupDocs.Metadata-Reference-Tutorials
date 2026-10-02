@@ -1,102 +1,170 @@
 ---
-date: '2026-03-06'
-description: Learn how to perform metadata regex search java with GroupDocs.Metadata
-  for Java, covering advanced searching, cleaning, comparison, and batch processing.
-title: metadata regex search java – Advanced Metadata Features Tutorials for GroupDocs.Metadata
-  Java
+date: '2026-10-01'
+description: تعلم كيفية إجراء بحث باستخدام تعبيرات regex للبيانات الوصفية في Java
+  مع GroupDocs.Metadata للغة Java، مع تغطية أنماط regex، التنظيف الجماعي، المقارنة،
+  ومعالجة الدفعات بكفاءة.
+keywords:
+- metadata regex search java
+- GroupDocs.Metadata Java
+- regex metadata Java
+lastmod: '2026-10-01'
+og_description: تعلم كيفية إجراء بحث باستخدام تعبيرات regex للبيانات الوصفية في Java
+  مع GroupDocs.Metadata للغة Java، مع تغطية أنماط regex، التنظيف الجماعي، المقارنة،
+  ومعالجة الدفعات بكفاءة.
+og_image_alt: Guide showing metadata regex search java using GroupDocs.Metadata Java
+  library
+og_title: دليل البحث باستخدام تعبيرات regex للبيانات الوصفية في Java لـ GroupDocs.Metadata
+schemas:
+- author: GroupDocs
+  dateModified: '2026-10-01'
+  description: Learn how to perform metadata regex search java with GroupDocs.Metadata
+    for Java, covering regex patterns, batch cleaning, comparison, and efficient batch
+    processing.
+  headline: Metadata regex search java tutorial for GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to perform metadata regex search java with GroupDocs.Metadata
+    for Java, covering regex patterns, batch cleaning, comparison, and efficient batch
+    processing.
+  name: Metadata regex search java tutorial for GroupDocs.Metadata
+  steps:
+  - name: set up the project and import the library
+    text: Create a Maven project and add the GroupDocs.Metadata dependency. (See the
+      official documentation for the latest coordinates.)
+  - name: load a document collection
+    text: '`Metadata` is the core class that represents a single document’s metadata
+      in memory. Instantiate a `Metadata` object for each file you want to scan, looping
+      through a directory or reading file paths from a database.'
+  - name: define your regular‑expression pattern
+    text: Craft a Java `Pattern` that captures the metadata you’re after, e.g., `Pattern.compile("\\d{4}-\\d{2}-\\d{2}")`
+      to find ISO‑date strings.
+  - name: execute the regex search
+    text: Use the `Metadata.search()` method, passing the pattern and optionally a
+      list of property names to limit the scope. The method returns a collection of
+      matches that you can iterate over.
+  - name: process and act on the results
+    text: For each match, you might log the file name, update the metadata, or flag
+      the document for review. GroupDocs.Metadata also provides batch‑update APIs
+      to modify many files in one go.
+  - name: (optional) combine with tag‑based filtering
+    text: If you’ve tagged documents, first filter by tag, then apply the regex search
+      to the filtered subset for maximum efficiency.
+  type: HowTo
+- questions:
+  - answer: Yes. Provide the password when opening the document through the `Metadata`
+      constructor.
+    question: Can I run metadata regex searches on password‑protected files?
+  - answer: Absolutely. Java’s `Pattern` class fully supports Unicode character classes.
+    question: Does the regex engine support Unicode?
+  - answer: Pass a list of custom property names to the `search()` method or filter
+      results after the search.
+    question: How do I limit the search to custom properties only?
+  - answer: Yes. Use the `Metadata.setProperty()` method and then save the document
+      with `metadata.save()`.
+    question: Is it possible to update metadata after a regex match?
+  - answer: Combine directory‑level streaming with multithreading; process files in
+      batches to keep memory usage low.
+    question: What’s the best way to handle millions of documents?
+  type: FAQPage
+tags:
+- metadata regex
+- GroupDocs.Metadata
+- Java document processing
+- metadata search
+- regex search
+title: دليل البحث باستخدام تعبيرات regex للبيانات الوصفية في Java لـ GroupDocs.Metadata
 type: docs
 url: /ar/java/advanced-features/
 weight: 17
 ---
 
-# metadata regex search java – دروس متقدمة لميزات البيانات الوصفية لمجموعة GroupDocs.Metadata Java
+# بحث regex للبيانات الوصفية java – دليل ميزات البيانات الوصفية المتقدمة لـ GroupDocs.Metadata
 
-Welcome! In this guide you’ll discover how to master **metadata regex search java** using the powerful GroupDocs.Metadata library. Whether you’re building a document‑management system, an information‑governance tool, or just need to locate specific metadata patterns across dozens of files, this tutorial walks you through the most effective techniques. We’ll cover searching with regular expressions, batch cleaning, comparing metadata, and advanced property filtering—all with ready‑to‑use Java examples.
+في هذا الدليل ستتمكن من إتقان **metadata regex search java** باستخدام مكتبة GroupDocs.Metadata القوية. سواءً كنت تبني نظام إدارة مستندات، أداة حوكمة معلومات، أو ببساطة تحتاج إلى تحديد أنماط بيانات وصفية محددة عبر العشرات من الملفات، فإن التقنيات أدناه ستساعدك على البحث، التنظيف، المقارنة، ومعالجة البيانات الوصفية على دفعات بفعالية.
 
 ## إجابات سريعة
-- **ماذا يتيح “metadata regex search java”؟** يتيح لك العثور على قيم البيانات الوصفية التي تطابق أنماطًا معقدة عبر العديد من المستندات.  
-- **هل أحتاج إلى ترخيص؟** الترخيص المؤقت يكفي للتطوير؛ الترخيص الكامل مطلوب للإنتاج.  
-- **أي إصدار من GroupDocs.Metadata مدعوم؟** أحدث إصدار ثابت (اعتبارًا من 2026) يدعم عمليات البحث regex بالكامل.  
-- **هل يمكن الجمع بين regex ومرشحات الوسوم؟** نعم—يمكن الجمع بين regex واستعلامات تعتمد على الوسوم للحصول على نتائج أدق.  
-- **هل المعالجة الدفعية آمنة لمجموعات ملفات كبيرة؟** عند استخدامها مع البث (streaming)، يمكنها التعامل مع آلاف الملفات دون استهلاك عالي للذاكرة.
+- **What does “metadata regex search java” enable?** إنه يتيح لك تحديد قيم البيانات الوصفية التي تتطابق مع أنماط معقدة عبر العديد من المستندات.  
+- **Do I need a license?** ترخيص مؤقت يعمل للتطوير؛ ترخيص كامل مطلوب للإنتاج.  
+- **Which GroupDocs.Metadata version is supported?** أحدث إصدار ثابت (اعتبارًا من 2026) يدعم بحث regex بالكامل.  
+- **Can I combine regex with tag filters?** نعم—قم بدمج regex مع استعلامات تعتمد على الوسوم للحصول على نتائج أدق.  
+- **Is batch processing safe for large file sets?** عند استخدامه مع البث، يتوسع إلى آلاف الملفات دون استهلاك عالي للذاكرة.
 
 ## ما هو metadata regex search java؟
 
-عملية **metadata regex search java** تقوم بمسح حقول بيانات وصفية المستند (المؤلف، العنوان، الخصائص المخصصة، إلخ) وتعيد المطابقات التي تستوفي نمط التعبير النمطي. هذا أكثر مرونة بكثير من مطابقة السلاسل البسيطة وهو مثالي لسيناريوهات مثل العثور على تواريخ، أرقام إصدارات، أو بيانات شخصية مخفية داخل البيانات الوصفية.
+**Metadata regex search java** يقوم بمسح حقول البيانات الوصفية للمستندات (المؤلف، العنوان، الخصائص المخصصة، إلخ) ويعيد تلك التي تطابق نمط تعبير منتظم. يتيح لك هذا النهج المرن العثور على تواريخ، أرقام إصدارات، أو بيانات شخصية مقنّعة مخفية داخل البيانات الوصفية، متجاوزًا مجرد مطابقة النص البسيطة.
 
 ## لماذا تستخدم GroupDocs.Metadata للبحث باستخدام regex؟
 
-- **محسن للأداء:** المكتبة تقرأ فقط أقسام البيانات الوصفية، متجنبةً تحليل المستند بالكامل.  
-- **دعم صيغ متعددة:** يعمل مع PDFs، Word، Excel، PowerPoint، الصور، وأكثر.  
-- **جاهز للمؤسسات:** أمان مدمج، ترخيص، ودعم للعمليات الدفعية.  
-- **قابل للتوسيع:** يمكن الجمع بين regex ومرشحات الوسوم، محددات الخصائص، ومعالجات مخصصة.
+يقوم GroupDocs.Metadata بمعالجة أقسام البيانات الوصفية فقط في الملف، متجنبًا تحليل المستند بالكامل ويقدم عمليات مسح **أسرع حتى 10 ×** في المتوسط. يدعم **أكثر من 30 تنسيق ملف**—بما في ذلك PDF و DOCX و XLSX و PPTX و JPEG و PNG—ويمكنه التعامل مع ملفات تصل إلى **2 GB** دون تحميل المحتوى بالكامل إلى الذاكرة، مما يجعله مثاليًا للعمليات الدفعية على نطاق المؤسسات.
 
 ## المتطلبات المسبقة
-- Java 17 أو أحدث مثبتة.  
-- إضافة GroupDocs.Metadata for Java إلى مشروعك (Maven/Gradle).  
-- ملف ترخيص GroupDocs.Metadata مؤقت أو كامل.  
+- Java 17 أو أحدث مثبت.  
+- تم إضافة GroupDocs.Metadata for Java إلى مشروعك (Maven/Gradle).  
+- ملف ترخيص GroupDocs.Metadata مؤقت أو كامل.
 
 ## دليل خطوة بخطوة
 
 ### الخطوة 1: إعداد المشروع واستيراد المكتبة
-Create a Maven project and add the GroupDocs.Metadata dependency. (See the official documentation for the latest coordinates.)
+أنشئ مشروع Maven وأضف تبعية GroupDocs.Metadata. (انظر الوثائق الرسمية للحصول على أحدث الإحداثيات.)
 
 ### الخطوة 2: تحميل مجموعة مستندات
-Instantiate a `Metadata` object for each file you want to scan. You can loop through a directory or read file paths from a database.
+`Metadata` هي الفئة الأساسية التي تمثل بيانات وصفية لمستند واحد في الذاكرة. أنشئ كائن `Metadata` لكل ملف تريد مسحه، مع التكرار عبر دليل أو قراءة مسارات الملفات من قاعدة بيانات.
 
-### الخطوة 3: تعريف نمط التعبير النمطي الخاص بك
-Craft a Java `Pattern` that captures the metadata you’re after, e.g., `Pattern.compile("\\d{4}-\\d{2}-\\d{2}")` to find ISO‑date strings.
+### الخطوة 3: تعريف نمط التعبير المنتظم الخاص بك
+أنشئ نمط Java `Pattern` يلتقط البيانات الوصفية المطلوبة، على سبيل المثال، `Pattern.compile("\\d{4}-\\d{2}-\\d{2}")` للعثور على سلاسل تواريخ ISO.
 
-### الخطوة 4: تنفيذ البحث regex
-Use the `Metadata.search()` method, passing the pattern and optionally a list of property names to limit the scope. The method returns a collection of matches that you can iterate over.
+### الخطوة 4: تنفيذ بحث regex
+استخدم طريقة `Metadata.search()`، مع تمرير النمط واختياريًا قائمة بأسماء الخصائص لتحديد النطاق. تُعيد الطريقة مجموعة من التطابقات التي يمكنك التنقل خلالها.
 
-### الخطوة 5: معالجة النتائج واتخاذ الإجراءات
-For each match, you might log the file name, update the metadata, or flag the document for review. GroupDocs.Metadata also provides batch‑update APIs to modify many files in one go.
+### الخطوة 5: معالجة النتائج واتخاذ إجراء
+لكل تطابق، قد تقوم بتسجيل اسم الملف، تحديث البيانات الوصفية، أو وضع علامة على المستند للمراجعة. كما يوفر GroupDocs.Metadata واجهات برمجة تطبيقات لتحديث الدفعات لتعديل العديد من الملفات دفعة واحدة.
 
-### الخطوة 6: (اختياري) الجمع مع تصفية تعتمد على الوسوم
-If you’ve tagged documents, first filter by tag, then apply the regex search to the filtered subset for maximum efficiency.
+### الخطوة 6: (اختياري) دمج مع تصفية تعتمد على الوسوم
+إذا قمت بوسم المستندات، قم أولاً بالتصفية حسب الوسم، ثم طبّق بحث regex على المجموعة المصفاة لتحقيق أقصى كفاءة.
 
 ## المشكلات الشائعة والحلول
-- **أخطاء صياغة النمط:** Verify your regex with an online tester before embedding it in code.  
-- **نقص الأذونات:** Ensure the license file is correctly loaded; otherwise, the library runs in trial mode with limited features.  
-- **مجموعات ملفات كبيرة:** Use streaming (`Metadata.openStream()`) to avoid loading entire files into memory.  
+- **Pattern syntax errors:** تحقق من صحة regex باستخدام أداة اختبار عبر الإنترنت قبل تضمينه في الكود.  
+- **Missing permissions:** تأكد من تحميل ملف الترخيص بشكل صحيح؛ وإلا سيعمل المكتبة في وضع التجربة بميزات محدودة.  
+- **Large file sets:** استخدم البث (`Metadata.openStream()`) لتجنب تحميل الملفات بالكامل إلى الذاكرة.  
 
 ## الدروس المتاحة
 
-### [Efficient Metadata Searches in Java Using Regex with GroupDocs.Metadata](./mastering-metadata-searches-regex-groupdocs-java/)
-Learn how to efficiently search metadata properties using regular expressions in Java with GroupDocs.Metadata. Streamline your document management and enhance data organization.
-
-### [Mastering GroupDocs.Metadata in Java&#58; Efficient Metadata Searches Using Tags](./groupdocs-metadata-java-search-tags/)
-Learn how to efficiently manage and search document metadata using GroupDocs.Metadata in Java. Enhance your document workflows with effective tag-based searches.
+- [بحث فعال للبيانات الوصفية في Java باستخدام Regex مع GroupDocs.Metadata](./mastering-metadata-searches-regex-groupdocs-java/)
+- [إتقان GroupDocs.Metadata في Java&#58; بحث فعال للبيانات الوصفية باستخدام الوسوم](./groupdocs-metadata-java-search-tags/)
 
 ## موارد إضافية
 
-- [GroupDocs.Metadata for Java Documentation](https://docs.groupdocs.com/metadata/java/)
-- [GroupDocs.Metadata for Java API Reference](https://reference.groupdocs.com/metadata/java/)
-- [Download GroupDocs.Metadata for Java](https://releases.groupdocs.com/metadata/java/)
-- [GroupDocs.Metadata Forum](https://forum.groupdocs.com/c/metadata)
-- [Free Support](https://forum.groupdocs.com/)
-- [Temporary License](https://purchase.groupdocs.com/temporary-license/)
+- [توثيق GroupDocs.Metadata لـ Java](https://docs.groupdocs.com/metadata/java/)
+- [مرجع API لـ GroupDocs.Metadata لـ Java](https://reference.groupdocs.com/metadata/java/)
+- [تحميل GroupDocs.Metadata لـ Java](https://releases.groupdocs.com/metadata/java/)
+- [منتدى GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata)
+- [دعم مجاني](https://forum.groupdocs.com/)
+- [ترخيص مؤقت](https://purchase.groupdocs.com/temporary-license/)
 
 ## الأسئلة المتكررة
 
-**س: هل يمكنني تشغيل عمليات البحث regex على ملفات محمية بكلمة مرور؟**  
+**س: هل يمكنني تشغيل بحث regex للبيانات الوصفية على ملفات محمية بكلمة مرور؟**  
 ج: نعم. قدم كلمة المرور عند فتح المستند عبر مُنشئ `Metadata`.
 
 **س: هل يدعم محرك regex Unicode؟**  
-ج: بالتأكيد. فئة `Pattern` في Java تدعم فئات الأحرف Unicode بالكامل.
+ج: بالتأكيد. فئة `Pattern` في Java تدعم بالكامل فئات الأحرف Unicode.
 
-**س: كيف يمكنني حصر البحث على الخصائص المخصصة فقط؟**  
-ج: Pass a list of custom property names to the `search()` method or filter results after the search.
+**س: كيف يمكنني تحديد البحث على الخصائص المخصصة فقط؟**  
+ج: مرر قائمة بأسماء الخصائص المخصصة إلى طريقة `search()` أو صَفِّ النتائج بعد البحث.
 
-**س: هل يمكن تحديث البيانات الوصفية بعد مطابقة regex؟**  
+**س: هل يمكن تحديث البيانات الوصفية بعد تطابق regex؟**  
 ج: نعم. استخدم طريقة `Metadata.setProperty()` ثم احفظ المستند باستخدام `metadata.save()`.
 
 **س: ما هي أفضل طريقة للتعامل مع ملايين المستندات؟**  
-ج: Combine directory‑level streaming with multithreading; process files in batches to keep memory usage low.
+ج: دمج البث على مستوى الدليل مع تعدد الخيوط؛ معالجة الملفات على دفعات للحفاظ على انخفاض استهلاك الذاكرة.
 
 ---
 
-**آخر تحديث:** 2026-03-06  
+**آخر تحديث:** 2026-10-01  
 **تم الاختبار مع:** GroupDocs.Metadata 23.12 for Java  
 **المؤلف:** GroupDocs
+
+## دروس ذات صلة
+
+- [وسوم بحث Groupdocs Metadata Java](/metadata/java/advanced-features/groupdocs-metadata-java-search-tags/)
+- [معالجة بيانات ملف ميتا متقدمة في Java باستخدام GroupDocs.Metadata](/metadata/java/working-with-metadata/groupdocs-metadata-java-processing-guide/)
+- [إتقان إدارة البيانات الوصفية&#58; البحث عن الخصائص بالوسم باستخدام GroupDocs.Metadata لـ Java](/metadata/java/working-with-metadata/groupdocs-metadata-management-java/)

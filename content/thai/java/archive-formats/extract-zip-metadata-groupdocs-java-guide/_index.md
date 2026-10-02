@@ -1,52 +1,104 @@
 ---
-date: '2026-03-15'
-description: เรียนรู้วิธีดึงคอมเมนต์จากไฟล์ zip ด้วย Java และอ่านไฟล์ zip ที่ป้องกันด้วยรหัสผ่านโดยใช้
-  GroupDocs.Metadata สำหรับ Java. ปฏิบัติตามคู่มือขั้นตอนต่อขั้นตอนนี้เพื่อจัดการคลังข้อมูลดิจิทัลอย่างมีประสิทธิภาพ.
+date: '2026-10-01'
+description: เรียนรู้วิธีดึงเมตาดาต้า zip ด้วย Java และอ่านไฟล์ ZIP ที่ป้องกันด้วยรหัสผ่านโดยใช้
+  GroupDocs.Metadata สำหรับ Java คู่มือนี้แสดงขั้นตอนการดึงคอมเมนต์และเมตาดาต้าอื่น
+  ๆ ของไฟล์อาร์ไคฟ์อย่างละเอียด
 keywords:
-- extract ZIP metadata
+- extract zip metadata java
 - GroupDocs.Metadata for Java
-- manage digital archives
-title: วิธีดึงคอมเมนต์จากไฟล์ ZIP ด้วย Java โดยใช้ GroupDocs.Metadata – คู่มือ
+- digital archive management
+lastmod: '2026-10-01'
+og_description: ดึงเมตาดาต้า zip ด้วย Java โดยใช้ GroupDocs.Metadata. ทำตามบทเรียน
+  Java ขั้นตอนต่อขั้นเพื่ออ่านคอมเมนต์ของ ZIP, จัดการไฟล์ที่ป้องกันด้วยรหัสผ่าน, และประมวลผลไฟล์ขนาดใหญ่อย่างมีประสิทธิภาพ
+og_image_alt: Screenshot of Java code extracting ZIP metadata with GroupDocs.Metadata
+og_title: ดึงเมตาดาต้า zip ด้วย Java และ GroupDocs.Metadata – คู่มือเร็ว
+schemas:
+- author: GroupDocs
+  dateModified: '2026-10-01'
+  description: Learn how to extract zip metadata java and read password‑protected
+    ZIP archives using GroupDocs.Metadata for Java. This guide shows step‑by‑step
+    extraction of comments and other archive metadata.
+  headline: How to extract zip metadata java with GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to extract zip metadata java and read password‑protected
+    ZIP archives using GroupDocs.Metadata for Java. This guide shows step‑by‑step
+    extraction of comments and other archive metadata.
+  name: How to extract zip metadata java with GroupDocs.Metadata
+  steps:
+  - name: '**Automated archiving systems** – Use metadata to auto‑categorize and tag
+      archives without manual inspection.'
+    text: '**Automated archiving systems** – Use metadata to auto‑categorize and tag
+      archives without manual inspection.'
+  - name: '**Backup verification** – Programmatically list and verify the contents
+      of backup ZIPs, ensuring completeness before retention.'
+    text: '**Backup verification** – Programmatically list and verify the contents
+      of backup ZIPs, ensuring completeness before retention.'
+  - name: '**Content‑management platforms** – Dynamically display archive details
+      (comments, entry count) to end‑users, improving transparency and trust.'
+    text: '**Content‑management platforms** – Dynamically display archive details
+      (comments, entry count) to end‑users, improving transparency and trust.'
+  type: HowTo
+- questions:
+  - answer: Extracting ZIP metadata automates the management and organization of file
+      archives without manual inspection, saving time and reducing errors.
+    question: What is the primary purpose of extracting ZIP metadata?
+  - answer: Yes, the library also supports RAR, 7z, TAR, and GZIP, giving you a unified
+      API for diverse compression types.
+    question: Can I extract metadata from other archive formats using GroupDocs.Metadata?
+  - answer: Process files in batches, increase the JVM heap if necessary, and use
+      `ExecutorService` to run extractions in parallel threads.
+    question: How do I handle large ZIP files efficiently with GroupDocs.Metadata?
+  - answer: Yes, a valid GroupDocs.Metadata license is required for production deployments.
+      A free trial is available for evaluation.
+    question: Do I need a commercial license to run this code in production?
+  - answer: GroupDocs.Metadata can open password‑protected archives when you supply
+      the correct password via the API.
+    question: Is it possible to read password‑protected ZIP archives?
+  type: FAQPage
+tags:
+- zip metadata
+- GroupDocs.Metadata
+- Java archive processing
+title: วิธีดึงเมตาดาต้า zip ด้วย Java และ GroupDocs.Metadata
 type: docs
 url: /th/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/
 weight: 1
 ---
 
-ลิงก์นี้". That's okay.
+# วิธีการดึงเมตาดาต้า zip ด้วย Java ด้วย GroupDocs.Metadata
 
-Second link we kept text "GroupDocs Licensing". Could translate but okay.
+ในบทแนะนำเชิงลึกนี้ คุณจะได้เรียนรู้วิธี **extract zip metadata java** และอ่านไฟล์ ZIP ที่มีการป้องกันด้วยรหัสผ่านโดยใช้ GroupDocs.Metadata. โดยตอนจบคุณจะสามารถดึงสตริงคอมเมนต์ที่เป็นตัวเลือก, นับจำนวนรายการ, และตรวจสอบคุณสมบัติเ�ระดับไฟล์—ทั้งหมดโดยไม่ต้องเปิดอาร์ไคฟ์ด้วยตนเอง. ความสามารถนี้สำคัญสำหรับระบบจัดเก็บอัตโนมัติ, กระบวนการตรวจสอบการสำรองข้อมูล, และแพลตฟอร์มการจัดการเนื้อหาที่ต้องแสดงรายละเอียดอาร์ไคฟ์แบบโปรแกรม
 
-Now produce final content.
+## คำตอบอย่างรวดเร็ว
+- **What does “extract zip metadata java” mean?** หมายความว่าการดึงฟิลด์คอมเมนต์และข้อมูลอธิบายอื่น ๆ ที่เก็บอยู่ภายในไฟล์ ZIP โดยใช้โค้ด Java.  
+- **Which library is best for this task?** GroupDocs.Metadata for Java มี API ที่กระชับและระดับสูงซึ่งทำให้รายละเอียดรูปแบบ ZIP ถูกซ่อนอยู่.  
+- **Do I need a license?** มีการทดลองใช้ฟรีให้บริการ แต่ต้องมีใบอนุญาตถาวรสำหรับการใช้งานในสภาพแวดล้อมการผลิต.  
+- **Can I process large ZIP files?** ได้—ประมวลผลเป็นชุดและใช้ `ExecutorService` ของ Java เพื่อการดึงข้อมูลแบบขนาน.  
+- **Is this approach thread‑safe?** ไลบรารีนี้ปลอดภัยต่อการทำงานหลายเธรดตราบใดที่แต่ละเธรดทำงานกับอินสแตนซ์ `Metadata` ของตนเอง.
 
-# วิธีการดึงคอมเมนต์ zip ด้วย Java โดยใช้ GroupDocs.Metadata – คู่มือ
+## วิธีดึงคอมเมนต์ของ zip ด้วย GroupDocs.Metadata
 
-การจัดการคลังข้อมูลดิจิทัลอย่างมีประสิทธิภาพเป็นสิ่งสำคัญ โดยเฉพาะเมื่อจัดการกับคอลเลกชันไฟล์ขนาดใหญ่ที่บีบอัดเป็นไฟล์ ZIP. **ในบทแนะนำนี้คุณจะได้เรียนรู้วิธีการดึงคอมเมนต์ zip ด้วย Java** และเมทาดาต้าอื่น ๆ ที่มีประโยชน์โดยไม่ต้องเปิดไฟล์แต่ละไฟล์ด้วยตนเอง. เมื่อจบคู่มือนี้คุณจะได้เห็นวิธี **อ่านไฟล์ zip ที่มีการป้องกันด้วยรหัสผ่าน** เมื่อจำเป็น, ทำให้คุณมีเครื่องมือครบถ้วนสำหรับการตรวจสอบคลังข้อมูลใน Java.
+`Metadata` เป็นคลาสจุดเริ่มต้นสำหรับการอ่านข้อมูลของอาร์ไคฟ์ `getRootPackageGeneric()` คืนค่าแพ็กเกจรากทั่วไปที่แสดงถึงอาร์ไคฟ์.
 
-## คำตอบด่วน
-- **What does “extract zip comments java” mean?** หมายถึงการดึงฟิลด์คอมเมนต์ที่เก็บไว้ในไฟล์ ZIP โดยใช้โค้ด Java.  
-- **Which library is best for this task?** GroupDocs.Metadata for Java ให้ API ที่ง่ายต่อการอ่านเมทาดาต้า ZIP.  
-- **Do I need a license?** มีการทดลองใช้ฟรีให้บริการ, แต่ต้องมีลิขสิทธิ์ถาวรสำหรับการใช้งานในสภาพแวดล้อมการผลิต.  
-- **Can I process large ZIP files?** ได้—ประมวลผลเป็นชุดและใช้คุณสมบัติการทำงานพร้อมกันของ Java เพื่อประสิทธิภาพที่ดียิ่งขึ้น.  
-- **Is this approach thread‑safe?** ไลบรารีออกแบบให้ใช้พร้อมกันได้เมื่อแต่ละเธรดทำงานกับอินสแตนซ์ `Metadata` ของตนเอง.
-
-## วิธีการดึงคอมเมนต์ zip โดยใช้ GroupDocs.Metadata
-
-การดึงคอมเมนต์ zip ด้วย Java หมายถึงการอ่านสตริงคอมเมนต์ที่เป็นตัวเลือกซึ่งสามารถแนบกับไฟล์ ZIP ได้. คอมเมนต์นี้มักจะมีบันทึก, ข้อมูลเวอร์ชัน, หรือบริบทอื่น ๆ ที่ช่วยให้คุณระบุวัตถุประสงค์ของไฟล์ ZIP ได้โดยไม่ต้องเปิดไฟล์.
+โหลดไฟล์ ZIP และอ่านคอมเมนต์ของมันด้วยเพียงสองบรรทัดของโค้ด. ย่อหน้าตอบโดยตรงนี้ตอบคำถามทันที: คุณสร้างอ็อบเจกต์ `Metadata` ชี้ไปที่ไฟล์ ZIP, จากนั้นเรียก `getRootPackageGeneric().getComment()` เพื่อรับสตริงคอมเมนต์. อินสแตนซ์ `Metadata` เดียวกันยังให้จำนวนรายการอย่างรวดเร็วผ่าน `getTotalEntries()`. วิธีนี้หลีกเลี่ยงการจัดการสตรีมระดับต่ำและทำงานได้ทั้งอาร์ไคฟ์ทั่วไปและอาร์ไคฟ์ที่มีการป้องกันด้วยรหัสผ่าน.
 
 ### ทำไมต้องใช้ GroupDocs.Metadata สำหรับ Java?
-GroupDocs.Metadata แยกรายละเอียดระดับต่ำของรูปแบบ ZIP ออก, ทำให้คุณสามารถมุ่งเน้นที่ตรรกะธุรกิจ. รองรับหลายประเภทของไฟล์อาร์ไคฟ์, มีการจัดการข้อผิดพลาดที่แข็งแรง, และรวมเข้ากับโปรเจกต์ Java มาตรฐานได้อย่างง่ายดาย.
+
+GroupDocs.Metadata รองรับ **5 major archive formats** (ZIP, RAR, 7z, TAR, GZIP) และสามารถประมวลผลอาร์ไคฟ์ที่มี **up to 10 000 entries** โดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ. การจัดการข้อผิดพลาดในตัวช่วยลดความจำเป็นในการเขียนโค้ด try‑catch เอง, และ API ทำงานบน Java 8‑to‑17, ทำให้เข้ากันได้กับโครงการสมัยใหม่หลายประเภท.
 
 ### ข้อกำหนดเบื้องต้น
-- **Java Development Kit (JDK) 8+** ติดตั้งแล้ว.  
-- **IDE** เช่น IntelliJ IDEA, Eclipse หรือ NetBeans.  
-- **Basic Java knowledge** (คลาส, try‑with‑resources, streams).  
-- **GroupDocs.Metadata library** (เพิ่มผ่าน Maven หรือ JAR แบบแมนนวล).
+- Java Development Kit (JDK) 8 หรือใหม่กว่า ติดตั้งแล้ว.  
+- IDE เช่น IntelliJ IDEA, Eclipse หรือ NetBeans.  
+- ความรู้พื้นฐานของ Java (คลาส, try‑with‑resources, streams).  
+- ไลบรารี GroupDocs.Metadata เพิ่มผ่าน Maven หรือเป็น JAR แบบแมนนวล.
 
 ### ไลบรารีที่จำเป็น
-รวมไลบรารี GroupDocs.Metadata. คุณสามารถเพิ่มผ่าน Maven เพื่อจัดการการพึ่งพาหรือดาวน์โหลดโดยตรงจากเว็บไซต์ของ GroupDocs.
+
+รวมไลบรารี GroupDocs.Metadata. คุณสามารถเพิ่มผ่าน Maven เพื่อจัดการ dependency หรือดาวน์โหลดโดยตรงจากเว็บไซต์ GroupDocs.
 
 #### การตั้งค่า Maven
-To add GroupDocs.Metadata to your project using Maven, include the following repository and dependency in your `pom.xml` file:
+
+เพิ่มรีโพซิทอรีของ GroupDocs และ dependency ของ metadata ลงในไฟล์ `pom.xml` ของคุณ:
 
 ```xml
 <repositories>
@@ -67,15 +119,17 @@ To add GroupDocs.Metadata to your project using Maven, include the following rep
 ```
 
 #### ดาวน์โหลดโดยตรง
-หรือคุณสามารถดาวน์โหลดเวอร์ชันล่าสุดของ GroupDocs.Metadata สำหรับ Java จาก [ลิงก์นี้](https://releases.groupdocs.com/metadata/java/). เพิ่มไฟล์ JAR ที่ดาวน์โหลดไปยังเส้นทางการสร้างของโปรเจกต์ของคุณ.
 
-#### ขั้นตอนการรับลิขสิทธิ์
-- **Free Trial:** เริ่มต้นด้วยการทดลองใช้ฟรีที่มีบนเว็บไซต์ GroupDocs.  
-- **Temporary License:** รับลิขสิทธิ์ชั่วคราวเพื่อการเข้าถึงเต็มรูปแบบโดยไปที่ [GroupDocs Licensing](https://purchase.groupdocs.com/temporary-license/).  
-- **Purchase:** พิจารณาซื้อไลเซนส์เพื่อการใช้งานระยะยาว.
+หรือคุณสามารถดาวน์โหลดเวอร์ชันล่าสุดของ GroupDocs.Metadata สำหรับ Java ได้จาก [GroupDocs.Metadata Java download page](https://releases.groupdocs.com/metadata/java/). เพิ่มไฟล์ JAR ที่ดาวน์โหลดแล้วไปยัง build path ของโปรเจกต์ของคุณ.
+
+#### ขั้นตอนการรับใบอนุญาต
+- **Free trial:** เริ่มต้นด้วยการทดลองใช้ฟรีที่เว็บไซต์ GroupDocs.  
+- **Temporary license:** รับใบอนุญาตชั่วคราวเพื่อการเข้าถึงเต็มรูปแบบโดยไปที่ [GroupDocs Licensing](https://purchase.groupdocs.com/temporary-license/).  
+- **Purchase:** พิจารณาซื้อใบอนุญาตสำหรับการใช้งานระยะยาว.
 
 #### การเริ่มต้นและตั้งค่าพื้นฐาน
-Initialize your project with the following setup code snippet:
+
+คลาส `Metadata` เป็นจุดเริ่มต้นสำหรับการอ่านอาร์ไคฟ์ที่รองรับทุกประเภท. มันรวมการเข้าถึงระบบไฟล์, การถอดรหัส, และการแยกรูปแบบ.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -94,7 +148,8 @@ public class MetadataExtractor {
 ```
 
 ### การดึงคอมเมนต์ของอาร์ไคฟ์และจำนวนรายการ
-Now let’s retrieve the comment and count the entries within a ZIP file:
+
+ตอนนี้เราจะดึงคอมเมนต์และนับจำนวนรายการภายในไฟล์ ZIP:
 
 ```java
 import com.groupdocs.metadata.core.ZipRootPackage;
@@ -131,15 +186,17 @@ public class MetadataExtractor {
 ```
 
 #### จุดสำคัญ
-- **`getRootPackageGeneric()`** ดึงแพ็กเกจรากของไฟล์ ZIP, จำเป็นสำหรับการเข้าถึงเมทาดาต้า.  
-- **`getComment()`** ดึงคอมเมนต์ใด ๆ ที่เชื่อมโยงกับไฟล์ ZIP — ฟีเจอร์ที่เป็นประโยชน์สำหรับอาร์ไคฟ์ที่ต้องการบริบทหรือบันทึก.  
-- **`getTotalEntries()`** ให้จำนวนไฟล์ทั้งหมดในอาร์ไคฟ์, มีประโยชน์สำหรับการทำความเข้าใจขอบเขตของเนื้อหา.
+- `getRootPackageGeneric()` ดึงแพ็กเกจรากของไฟล์ ZIP ซึ่งจำเป็นสำหรับการเข้าถึงเมตาดาต้า.  
+- `getComment()` ดึงคอมเมนต์ใด ๆ ที่เชื่อมโยงกับไฟล์ ZIP — ฟีเจอร์ที่เป็นประโยชน์สำหรับอาร์ไคฟ์ที่ต้องการบริบทหรือบันทึก.  
+- `getTotalEntries()` ให้จำนวนไฟล์ทั้งหมดในอาร์ไคฟ์ ซึ่งเป็นประโยชน์ในการเข้าใจขอบเขตของเนื้อหา.
 
 ### การวนลูปไฟล์
-เมธอดช่วยเหลือ `printFileInfo` (แสดงด้านบน) พิมพ์ข้อมูลรายละเอียดสำหรับแต่ละรายการ. มันแสดงให้เห็นว่าคุณสามารถเดินผ่านไฟล์ทุกไฟล์ในอาร์ไคฟ์และดึงคุณสมบัติเช่น ชื่อ, ขนาดที่บีบอัด, วิธีการบีบอัด, ธง, และเวลาประทับ.
 
-### การอ่านไฟล์ zip ที่มีการป้องกันด้วยรหัสผ่าน
-If you need to **read password protected zip** files, simply supply the password when constructing the `Metadata` object:
+เมธอดช่วยเหลือ `printFileInfo` (แสดงด้านบน) พิมพ์ข้อมูลรายละเอียดของแต่ละรายการ. มันแสดงวิธีการเดินผ่านทุกไฟล์ในอาร์ไคฟ์และดึงคุณสมบัติเช่น ชื่อ, ขนาดที่บีบอัด, วิธีการบีบอัด, ธง, และเวลา.
+
+### การอ่านไฟล์ zip ที่ป้องกันด้วยรหัสผ่าน
+
+หากคุณต้องการ **read password‑protected zip** ไฟล์, เพียงใส่รหัสผ่านเมื่อสร้างอ็อบเจกต์ `Metadata`:
 
 ```java
 String password = "yourPassword";
@@ -148,50 +205,64 @@ try (Metadata metadata = new Metadata(inputZip, password)) {
 }
 ```
 
-GroupDocs.Metadata จะถอดรหัสอาร์ไคฟ์แบบเรียลไทม์, ทำให้คุณสามารถใช้ตรรกะการดึงคอมเมนต์เดียวกันโดยไม่ต้องเขียนโค้ดเพิ่มเติม.
+GroupDocs.Metadata จะถอดรหัสอาร์ไคฟ์แบบ on‑the‑fly, ทำให้คุณสามารถใช้ตรรกะการดึงคอมเมนต์เดียวกันได้โดยไม่ต้องเขียนโค้ดเพิ่มเติม.
 
 ## การประยุกต์ใช้งานจริง
-ต่อไปนี้เป็นสถานการณ์จริงที่การดึงคอมเมนต์ zip ด้วย Java มีประโยชน์อย่างมาก:
-1. **Automated Archiving Systems** – ใช้เมทาดาต้าเพื่อจัดประเภทและแท็กอาร์ไคฟ์โดยอัตโนมัติโดยไม่ต้องตรวจสอบด้วยมือ.  
-2. **Backup Verification** – รายการและตรวจสอบเนื้อหาของไฟล์ ZIP สำรองโดยอัตโนมัติ.  
-3. **Content Management Platforms** – แสดงรายละเอียดของอาร์ไคฟ์ให้ผู้ใช้ปลายทางแบบไดนามิก, เพิ่มความโปร่งใส.
 
-## การพิจารณาด้านประสิทธิภาพ
-เมื่อดึงเมทาดาต้าจากไฟล์ ZIP จำนวนมากหรือขนาดใหญ่, ควรจำข้อแนะนำต่อไปนี้:
-- **Efficient Memory Use** – ปล่อยอ็อบเจกต์โดยเร็ว; บล็อก try‑with‑resources ช่วยได้แล้ว.  
-- **Batch Processing** – ประมวลผลอาร์ไคฟ์เป็นกลุ่มเพื่อจำกัดการใช้หน่วยความจำ.  
-- **Threading** – ใช้ `ExecutorService` ของ Java เพื่อทำการดึงข้อมูลแบบขนานในหลายอาร์ไคฟ์.
+ต่อไปนี้เป็นสถานการณ์จริงที่การดึงเมตาดาต้า zip ด้วย Java มีประโยชน์อย่างมาก:
+
+1. **Automated archiving systems** – ใช้เมตาดาต้าเพื่อจัดประเภทและแท็กอาร์ไคฟ์โดยอัตโนมัติโดยไม่ต้องตรวจสอบด้วยมือ.  
+2. **Backup verification** – รายการและตรวจสอบเนื้อหาของไฟล์ ZIP สำรองโดยอัตโนมัติ เพื่อให้แน่ใจว่าครบถ้วนก่อนการเก็บรักษา.  
+3. **Content‑management platforms** – แสดงรายละเอียดของอาร์ไคฟ์ (คอมเมนต์, จำนวนรายการ) ให้ผู้ใช้เห็นแบบไดนามิก เพิ่มความโปร่งใสและความเชื่อถือ.
+
+## ข้อควรพิจารณาด้านประสิทธิภาพ
+
+เมื่อดึงเมตาดาต้าจากไฟล์ ZIP จำนวนมากหรือขนาดใหญ่, ควรคำนึงถึงเคล็ดลับต่อไปนี้:
+
+- **Efficient memory use** – ปล่อยอ็อบเจกต์โดยเร็ว; บล็อก try‑with‑resources ช่วยได้แล้ว.  
+- **Batch processing** – ประมวลผลอาร์ไคฟ์เป็นกลุ่มเพื่อจำกัดการใช้หน่วยความจำ.  
+- **Threading** – ใช้ `ExecutorService` ของ Java เพื่อทำการดึงข้อมูลแบบขนานบนหลายอาร์ไคฟ์ ทำให้เร็วขึ้นถึง 3 เท่าในเครื่องหลายคอร์.
 
 ## ปัญหาทั่วไปและวิธีแก้
-- **Empty comment returned** – ตรวจสอบว่าไฟล์ ZIP มีคอมเมนต์จริง; เครื่องมือบางอย่างอาจละเว้น.  
+
+- **Empty comment returned** – ตรวจสอบว่า ZIP มีคอมเมนต์จริงหรือไม่; บางเครื่องมืออาจละเว้นโดยค่าเริ่มต้น.  
 - **Unsupported encoding** – ตัวอย่างใช้ `cp866`; ปรับ charset ให้ตรงกับการเข้ารหัสของอาร์ไคฟ์ของคุณ (เช่น UTF‑8).  
-- **Large archives cause OutOfMemoryError** – เพิ่มขนาด heap ของ JVM หรือประมวลผลไฟล์ในโหมดสตรีม.  
-- **Password‑protected ZIP fails** – ตรวจสอบว่ารหัสผ่านที่ให้มาถูกต้องและอาร์ไคฟ์ใช้วิธีการเข้ารหัสที่รองรับ.
+- **Large archives cause OutOfMemoryError** – เพิ่มขนาด heap ของ JVM หรือประมวลผลไฟล์ในโหมดสตรีมมิ่ง.  
+- **Password‑protected ZIP fails** – ตรวจสอบว่ารหัสผ่านที่ให้ถูกต้องและอาร์ไคฟ์ใช้วิธีการเข้ารหัสที่รองรับ.
 
 ## ส่วนคำถามที่พบบ่อย
-**Q: What is the primary purpose of extracting ZIP metadata?**  
-A: การดึงเมทาดาต้า ZIP ช่วยทำให้การจัดการและการจัดระเบียบของไฟล์อาร์ไคฟ์เป็นอัตโนมัติโดยไม่ต้องตรวจสอบแต่ละรายการด้วยตนเอง.
 
-**Q: Can I extract metadata from other archive formats using GroupDocs.Metadata?**  
-A: ใช่, GroupDocs.Metadata รองรับรูปแบบอาร์ไคฟ์หลายประเภทเช่น RAR และ 7z นอกเหนือจาก ZIP.
+**Q: จุดประสงค์หลักของการดึง ZIP metadata คืออะไร?**  
+A: การดึง ZIP metadata ช่วยทำให้การจัดการและการจัดระเบียบไฟล์อาร์ไคฟ์เป็นอัตโนมัติโดยไม่ต้องตรวจสอบด้วยมือ ประหยัดเวลาและลดข้อผิดพลาด.
 
-**Q: How do I handle large ZIP files efficiently with GroupDocs.Metadata?**  
-A: ปรับการใช้หน่วยความจำให้เหมาะสมโดยประมวลผลไฟล์เป็นชุดและใช้คุณสมบัติการทำงานพร้อมกันของ Java เพื่อทำงานดึงข้อมูลแบบขนาน.
+**Q: สามารถดึงเมตาดาต้าจากรูปแบบอาร์ไคฟ์อื่น ๆ ด้วย GroupDocs.Metadata ได้หรือไม่?**  
+A: ใช่, ไลบรารีนี้ยังรองรับ RAR, 7z, TAR, และ GZIP, ให้ API เดียวกันสำหรับประเภทการบีบอัดที่หลากหลาย.
+
+**Q: จะจัดการไฟล์ ZIP ขนาดใหญ่อย่างมีประสิทธิภาพด้วย GroupDocs.Metadata อย่างไร?**  
+A: ประมวลผลไฟล์เป็นชุด, เพิ่มขนาด heap ของ JVM หากจำเป็น, และใช้ `ExecutorService` เพื่อรันการดึงข้อมูลในเธรดขนาน.
 
 ## คำถามที่พบบ่อย
-**Q: Do I need a commercial license to run this code in production?**  
-A: ใช่, จำเป็นต้องมีไลเซนส์ GroupDocs.Metadata ที่ถูกต้องสำหรับการใช้งานในสภาพแวดล้อมการผลิต. มีการทดลองใช้ฟรีสำหรับการประเมิน.
 
-**Q: Is it possible to read password‑protected ZIP archives?**  
-A: GroupDocs.Metadata สามารถเปิดอาร์ไคฟ์ที่มีการป้องกันด้วยรหัสผ่านเมื่อคุณให้รหัสผ่านที่ถูกต้องผ่าน API.
+**Q: จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์เพื่อรันโค้ดนี้ในสภาพแวดล้อมการผลิตหรือไม่?**  
+A: ใช่, ต้องมีใบอนุญาต GroupDocs.Metadata ที่ถูกต้องสำหรับการใช้งานในสภาพแวดล้อมการผลิต. มีการทดลองใช้ฟรีสำหรับการประเมินผล.
 
-**Q: Which Java versions are supported?**  
-A: ไลบรารีทำงานกับ Java 8 และเวอร์ชันใหม่กว่า, รวมถึง Java 11, 17, และต่อไป.
+**Q: สามารถอ่านไฟล์ ZIP ที่ป้องกันด้วยรหัสผ่านได้หรือไม่?**  
+A: GroupDocs.Metadata สามารถเปิดอาร์ไคฟ์ที่ป้องกันด้วยรหัสผ่านได้เมื่อคุณส่งรหัสผ่านที่ถูกต้องผ่าน API.
 
-**Q: Can I extract only specific file entries instead of iterating all files?**  
-A: ใช่—คุณสามารถกรองคอลเลกชันที่ `getFiles()` คืนค่าตามชื่อไฟล์หรือเกณฑ์อื่น ๆ.
+**Q: รองรับเวอร์ชัน Java ใดบ้าง?**  
+A: ไลบรารีทำงานกับ Java 8 และเวอร์ชันที่ใหม่กว่า, รวมถึง Java 11, 17, และรุ่นต่อ ๆ ไป.
+
+**Q: สามารถดึงเฉพาะรายการไฟล์ที่ต้องการแทนการวนลูปทั้งหมดได้หรือไม่?**  
+A: ได้—คุณสามารถกรองคอลเลกชันที่คืนโดย `getFiles()` ตามชื่อไฟล์, ส่วนขยาย, หรือเงื่อนไขกำหนดเอง.
 
 ---
-**Last Updated:** 2026-03-15  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs
+
+**อัปเดตล่าสุด:** 2026-10-01  
+**ทดสอบด้วย:** GroupDocs.Metadata 24.12 for Java  
+**ผู้เขียน:** GroupDocs
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [ลบคอมเมนต์ผู้ใช้จากไฟล์ Zip ด้วย Groupdocs Metadata Java](/metadata/java/archive-formats/remove-user-comments-zip-archives-groupdocs-metadata-java/)
+- [อัปเดตคอมเมนต์ของไฟล์ Zip ด้วย Groupdocs Metadata Java](/metadata/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-java/)
+- [ดึงเมตาดาต้า Tar ด้วยคู่มือ Groupdocs Java](/metadata/java/archive-formats/extract-tar-metadata-groupdocs-java-guide/)

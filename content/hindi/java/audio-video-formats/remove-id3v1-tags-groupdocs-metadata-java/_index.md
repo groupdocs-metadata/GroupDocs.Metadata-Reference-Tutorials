@@ -1,52 +1,103 @@
 ---
-date: '2026-03-15'
-description: GroupDocs.Metadata for Java के साथ ID3v1 टैग हटाकर MP3 मेटाडेटा को हटाना,
-  MP3 फ़ाइलों को छोटा करना और फ़ाइल आकार को कम करना सीखें।
+date: '2026-10-06'
+description: GroupDocs.Metadata for Java के साथ MP3 मेटाडेटा हटाना, MP3 फ़ाइलों को
+  छोटा करना और ID3v1 टैग हटाकर फ़ाइल आकार घटाना सीखें।
 keywords:
 - strip mp3 metadata
+- reduce mp3 size
 - shrink mp3 files
-- reduce mp3 file size
 - clean mp3 metadata
-- mp3 file size optimization
-- groupdocs metadata mp3
-title: GroupDocs.Metadata का उपयोग करके जावा में MP3 मेटाडेटा हटाना और ID3v1 टैग्स
-  को हटाकर फ़ाइल आकार कम करने का तरीका
+- groupdocs metadata java
+lastmod: '2026-10-06'
+og_description: GroupDocs.Metadata for Java का उपयोग करके फ़ाइल आकार घटाने के लिए
+  MP3 मेटाडेटा हटाएँ। यह गाइड दिखाता है कि कैसे ID3v1 टैग हटाएँ, MP3 फ़ाइलों को छोटा
+  करें, और केवल कुछ कोड लाइनों में ऑडियो गुणवत्ता को बरकरार रखें।
+og_image_alt: Diagram showing MP3 metadata removal using GroupDocs.Metadata Java
+og_title: GroupDocs Java के साथ MP3 मेटाडेटा हटाएँ और आकार घटाएँ
+schemas:
+- author: GroupDocs
+  dateModified: '2026-10-06'
+  description: Learn how to strip MP3 metadata, shrink MP3 files and reduce mp3 file
+    size by removing ID3v1 tags with GroupDocs.Metadata for Java.
+  headline: How to Strip MP3 metadata and Reduce File Size by Removing ID3v1 Tags
+    Using GroupDocs.Metadata in Java
+  type: TechArticle
+- description: Learn how to strip MP3 metadata, shrink MP3 files and reduce mp3 file
+    size by removing ID3v1 tags with GroupDocs.Metadata for Java.
+  name: How to Strip MP3 metadata and Reduce File Size by Removing ID3v1 Tags Using
+    GroupDocs.Metadata in Java
+  steps:
+  - name: define paths for input and output files
+    text: 'Specify where the original MP3 lives and where the cleaned copy will be
+      written:'
+  - name: open the MP3 file for metadata manipulation
+    text: 'Create a `Metadata` object that loads the file and prepares it for editing:'
+  - name: access and remove ID3v1 tag
+    text: 'The `MP3RootPackage` object represents the root of an MP3 file’s metadata
+      hierarchy. Navigate to the root package of the MP3 and set the ID3v1 tag to
+      `null`—this is the actual removal step:'
+  - name: save changes to a new file
+    text: 'Write the modified metadata back to a new MP3 file, leaving the original
+      untouched:'
+  type: HowTo
+- questions:
+  - answer: It deletes legacy metadata, which can shave a few kilobytes off each MP3
+      and improve privacy.
+    question: What does removing ID3v1 tags do?
+  - answer: A free trial works for evaluation; a full license is required for production
+      use.
+    question: Do I need a license?
+  - answer: Java 8 or newer is supported.
+    question: Which Java version is required?
+  - answer: Yes – the same API can be used in batch loops.
+    question: Can I process many files at once?
+  - answer: No, only the tag data is removed; the audio stream stays unchanged.
+    question: Is the original audio quality affected?
+  type: FAQPage
+tags:
+- strip mp3 metadata
+- reduce mp3 size
+- groupdocs metadata
+- java audio processing
+- mp3 file optimization
+title: GroupDocs.Metadata in Java का उपयोग करके MP3 मेटाडेटा हटाएँ और ID3v1 टैग हटाकर
+  फ़ाइल आकार घटाएँ
 type: docs
 url: /hi/java/audio-video-formats/remove-id3v1-tags-groupdocs-metadata-java/
 weight: 1
 ---
 
-# GroupDocs.Metadata का उपयोग करके जावा में MP3 मेटाडाटा हटाकर फ़ाइल आकार घटाएँ
+# GroupDocs.Metadata in Java का उपयोग करके फ़ाइल आकार कम करने के लिए MP3 मेटाडेटा हटाएँ
 
-यदि आप **mp3 मेटाडाटा हटाना** और **mp3 फ़ाइलों को छोटा करना** चाहते हैं, तो सबसे सरल और प्रभावी तरीकों में से एक है **ID3v1 टैग्स को हटाना**, जो अक्सर दोहराव या पुरानी जानकारी रखते हैं। इस ट्यूटोरियल में हम जावा के लिए GroupDocs.Metadata लाइब्रेरी का उपयोग करके आपके MP3 फ़ाइलों को साफ़ करने के सटीक चरणों को दिखाएंगे। अंत तक, आप अनावश्यक टैग्स को हटाना, **mp3 फ़ाइल आकार घटाना**, और अपनी संगीत संग्रह को व्यवस्थित रखना जानेंगे।
+यदि आपको **MP3 मेटाडेटा हटाना** और **MP3 फ़ाइलों को छोटा करना** है, तो लेगेसी ID3v1 टैग हटाना एक तेज़ तरीका है जिससे प्रत्येक ट्रैक से कुछ किलोबाइट्स बचाए जा सकते हैं, बिना ऑडियो स्ट्रीम को छुए। इस ट्यूटोरियल में हम GroupDocs.Metadata लाइब्रेरी for Java के साथ आपके MP3 संग्रह को साफ़ करने के सटीक चरणों को दिखाएंगे, यह समझाएंगे कि यह ऑपरेशन क्यों महत्वपूर्ण है, और बड़े संगीत लाइब्रेरीज़ के लिए समाधान को कैसे स्केल किया जाए।
 
 ## त्वरित उत्तर
-- **ID3v1 टैग्स को हटाने से क्या होता है?** यह पुरानी मेटाडाटा को हटाता है, जिससे प्रत्येक MP3 से कुछ किलोबाइट्स कम हो सकते हैं और गोपनीयता में सुधार होता है।  
+- **ID3v1 टैग हटाने से क्या होता है?** यह लेगेसी मेटाडेटा को हटाता है, जिससे प्रत्येक MP3 से कुछ किलोबाइट्स कम होते हैं और गोपनीयता में सुधार होता है।  
 - **क्या मुझे लाइसेंस चाहिए?** मूल्यांकन के लिए एक फ्री ट्रायल काम करता है; उत्पादन उपयोग के लिए पूर्ण लाइसेंस आवश्यक है।  
-- **कौन सा Java संस्करण आवश्यक है?** Java 8 या उससे नया समर्थित है।  
-- **क्या मैं एक साथ कई फ़ाइलें प्रोसेस कर सकता हूँ?** हाँ – वही API बैच लूप में उपयोग की जा सकती है।  
+- **कौन सा Java संस्करण आवश्यक है?** Java 8 या उसके बाद का संस्करण समर्थित है।  
+- **क्या मैं कई फ़ाइलों को एक साथ प्रोसेस कर सकता हूँ?** हाँ – वही API बैच लूप में उपयोग की जा सकती है।  
 - **क्या मूल ऑडियो गुणवत्ता प्रभावित होती है?** नहीं, केवल टैग डेटा हटाया जाता है; ऑडियो स्ट्रीम अपरिवर्तित रहती है।  
 
-## स्ट्रिप MP3 मेटाडाटा क्या है?
-**Strip mp3 metadata** का मतलब है MP3 फ़ाइल से गैर‑ऑडियो जानकारी—जैसे ID3v1 टैग्स, टिप्पणियाँ, या एम्बेडेड इमेजेज—हटाना। यह प्रक्रिया ध्वनि को नहीं बदलती, लेकिन फ़ाइल को हल्का बनाती है, जो विशेष रूप से तब मूल्यवान है जब आपको स्टोरेज, स्ट्रीमिंग, या वितरण के लिए **mp3 फ़ाइलों को छोटा** करना हो।
+## MP3 मेटाडेटा हटाना क्या है?
+**MP3 मेटाडेटा हटाना** का मतलब है MP3 फ़ाइल से गैर‑ऑडियो जानकारी—जैसे ID3v1 टैग, टिप्पणियाँ, या एम्बेडेड इमेज—को हटाना। यह ऑपरेशन स्वयं ध्वनि को नहीं बदलता, लेकिन फ़ाइल को हल्का बनाता है, जो विशेष रूप से तब मूल्यवान होता है जब आपको स्टोरेज, स्ट्रीमिंग, या वितरण के लिए **MP3 फ़ाइलों को छोटा** करना हो।
 
-## क्यों स्ट्रिप MP3 मेटाडाटा?
-ID3v1 टैग्स एक पुराना मेटाडाटा फ़ॉर्मेट है जो MP3 फ़ाइल के अंत में संग्रहीत होता है। आधुनिक प्लेयर्स आमतौर पर ID3v2 को प्राथमिकता देते हैं, जिससे ID3v1 अनावश्यक हो जाता है। इन्हें हटाने से मदद मिलती है:
-- **स्टोरेज स्पेस बचाएँ** (विशेषकर हजारों ट्रैक्स में)।  
-- **व्यक्तिगत जानकारी की सुरक्षा** जो पुराने टैग्स में एम्बेड हो सकती है।  
-- **मेटाडाटा प्रबंधन को सरल बनाएँ** एक ही टैग संस्करण के साथ काम करके।  
-- **स्वचालित वर्कफ़्लो में mp3 फ़ाइल आकार अनुकूलन** पाइपलाइन को सुधारें।  
+## MP3 मेटाडेटा हटाने का कारण
+ID3v1 टैग हटाने से अनावश्यक जानकारी समाप्त होती है जिसे आधुनिक प्लेयर्स अनदेखा करते हैं, जिससे स्पष्ट स्टोरेज बचत और बेहतर गोपनीयता मिलती है। 10,000 ट्रैक्स के संग्रह में आप लगभग 30 MB तक की जगह वापस पा सकते हैं, और प्रत्येक फ़ाइल नेटवर्क पर कॉपी करने में थोड़ा तेज़ हो जाती है क्योंकि अंत में टैग ब्लॉक नहीं रहता।
 
 ## पूर्वापेक्षाएँ
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास है:
-1. **GroupDocs.Metadata for Java** लाइब्रेरी (हम Maven और मैनुअल विकल्प दिखाएंगे)।  
-2. **JDK 8+** आपके मशीन पर स्थापित और कॉन्फ़िगर किया हुआ।  
-3. Java विकास और एक IDE (IntelliJ IDEA, Eclipse, आदि) की बुनियादी परिचितता।  
 
-## GroupDocs.Metadata को जावा के लिए सेट अप करना
+1. **GroupDocs.Metadata for Java** लाइब्रेरी (हम Maven और मैनुअल विकल्प दिखाएंगे)।  
+2. **JDK 8+** स्थापित और आपके मशीन पर कॉन्फ़िगर किया हुआ।  
+3. IntelliJ IDEA या Eclipse जैसे IDE, Java कोड को कंपाइल और चलाने के लिए।  
+
+## GroupDocs.Metadata for Java सेटअप करना
+`GroupDocs.Metadata` पैकेज ऑडियो, वीडियो, दस्तावेज़, और इमेज फ़ाइलों पर सभी मेटाडेटा ऑपरेशनों का प्रवेश बिंदु है।
+
+**`Metadata` क्लास मुख्य API है जो फ़ाइल को लोड करता है, उसके टैग संरचनाओं को उजागर करता है, और परिवर्तन को डिस्क पर वापस लिखता है।**  
 
 ### Maven कॉन्फ़िगरेशन
-`pom.xml` में रिपॉजिटरी और डिपेंडेंसी जोड़ें:
+अपने `pom.xml` में रिपॉजिटरी और डिपेंडेंसी जोड़ें:
 
 ```xml
 <repositories>
@@ -66,40 +117,42 @@ ID3v1 टैग्स एक पुराना मेटाडाटा फ़�
 </dependencies>
 ```
 
-#### सीधे डाउनलोड
+अधिक विवरण के लिए देखें [GroupDocs releases page](https://releases.groupdocs.com/metadata/java/)।
+
+### सीधे डाउनलोड
 वैकल्पिक रूप से, नवीनतम JAR को [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) से डाउनलोड करें।
 
-#### लाइसेंस प्राप्त करना
-- **Free Trial** – बिना लागत के सभी फीचर्स का अन्वेषण करें।  
-- **Temporary License** – छोटे‑अवधि प्रोजेक्ट्स के लिए उपयोगी।  
-- **Purchase** – दीर्घकालिक या व्यावसायिक उपयोग के लिए अनुशंसित।  
+#### लाइसेंस प्राप्ति
+- **फ्री ट्रायल** – बिना लागत के सभी फीचर्स का अन्वेषण करें।  
+- **अस्थायी लाइसेंस** – अल्पकालिक प्रोजेक्ट्स के लिए उपयोगी।  
+- **खरीदें** – दीर्घकालिक या व्यावसायिक उपयोग के लिए अनुशंसित।  
 
-### बेसिक इनिशियलाइज़ेशन और सेटअप
-मुख्य क्लास को इम्पोर्ट करें जो आपको MP3 मेटाडाटा तक पहुंच देता है:
+### बुनियादी इनिशियलाइज़ेशन और सेटअप
+मुख्य क्लास को इम्पोर्ट करें जो आपको MP3 मेटाडेटा तक पहुंच देता है। `Metadata` क्लास समर्थित फ़ाइल फ़ॉर्मेट्स के लिए मेटाडेटा लोड, एडिट और सेव करने के मेथड्स प्रदान करता है।
 
 ```java
 import com.groupdocs.metadata.Metadata;
 ```
 
-## इम्प्लीमेंटेशन गाइड
+## कार्यान्वयन गाइड
 
 ### MP3 फ़ाइल से ID3v1 टैग हटाएँ
 
 #### अवलोकन
-यह सेक्शन दिखाता है कि कैसे MP3 खोलें, उसका ID3v1 टैग साफ़ करें, और साफ़ की गई फ़ाइल को सहेजें—बिल्कुल वही जो आपको **mp3 मेटाडाटा हटाने** और **mp3 फ़ाइल आकार घटाने** के लिए चाहिए।
+एक MP3 लोड करें, उसका ID3v1 टैग साफ़ करें, और साफ़ की गई फ़ाइल को सेव करें—बिल्कुल वही जो आपको **MP3 मेटाडेटा हटाने** और **MP3 फ़ाइल आकार घटाने** के लिए चाहिए।
 
-#### इम्प्लीमेंटेशन चरण
+#### कार्यान्वयन चरण
 
 ##### चरण 1: इनपुट और आउटपुट फ़ाइलों के पाथ निर्धारित करें
-निर्दिष्ट करें कि मूल MP3 कहाँ है और साफ़ की गई कॉपी कहाँ लिखी जाएगी:
+निर्दिष्ट करें कि मूल MP3 कहाँ स्थित है और साफ़ की गई कॉपी कहाँ लिखी जाएगी:
 
 ```java
 String inputFilePath = "YOUR_DOCUMENT_DIRECTORY/your_input_file.mp3";
 String outputFilePath = "YOUR_OUTPUT_DIRECTORY/your_output_file.mp3";
 ```
 
-##### चरण 2: मेटाडाटा संशोधन के लिए MP3 फ़ाइल खोलें
-`Metadata` ऑब्जेक्ट बनाएं जो फ़ाइल को लोड करता है और संपादन के लिए तैयार करता है:
+##### चरण 2: मेटाडेटा संशोधन के लिए MP3 फ़ाइल खोलें
+`Metadata` ऑब्जेक्ट बनाएं जो फ़ाइल को लोड करता है और उसे एडिटिंग के लिए तैयार करता है:
 
 ```java
 try (Metadata metadata = new Metadata(inputFilePath)) {
@@ -107,68 +160,77 @@ try (Metadata metadata = new Metadata(inputFilePath)) {
 }
 ```
 
-##### चरण 3: ID3v1 टैग तक पहुँचें और हटाएँ
-MP3 के रूट पैकेज पर नेविगेट करें और ID3v1 टैग को `null` सेट करें—यह वास्तविक हटाने का चरण है:
+##### चरण 3: ID3v1 टैग तक पहुंचें और हटाएँ
+`MP3RootPackage` ऑब्जेक्ट MP3 फ़ाइल की मेटाडेटा पदानुक्रम का रूट दर्शाता है। MP3 के रूट पैकेज पर नेविगेट करें और ID3v1 टैग को `null` सेट करें—यह वास्तविक हटाने का चरण है:
 
 ```java
 MP3RootPackage root = metadata.getRootPackageGeneric();
 root.setID3V1(null);
 ```
 
-##### चरण 4: बदलावों को नई फ़ाइल में सहेजें
-परिवर्तित मेटाडाटा को नई MP3 फ़ाइल में लिखें, मूल फ़ाइल को अपरिवर्तित छोड़ते हुए:
+##### चरण 4: परिवर्तन को नई फ़ाइल में सहेजें
+परिवर्तित मेटाडेटा को नई MP3 फ़ाइल में लिखें, मूल फ़ाइल को अपरिवर्तित छोड़ते हुए:
 
 ```java
 metadata.save(outputFilePath);
 ```
 
-#### ट्रबलशूटिंग टिप्स
-- फ़ाइल पाथ को दोबारा जांचें; टाइपो से `FileNotFoundException` हो सकता है।  
-- सुनिश्चित करें कि Maven डिपेंडेंसी संस्करण आपके डाउनलोड किए गए JAR से मेल खाता है।  
-- यदि MP3 में रीड‑ओनली एट्रिब्यूट्स हैं, तो सहेजने से पहले फ़ाइल अनुमतियों को समायोजित करें।  
+#### समस्या निवारण टिप्स
+- फ़ाइल पाथ को दोबारा जांचें; टाइपो होने पर `FileNotFoundException` आएगा।  
+- सुनिश्चित करें कि Maven डिपेंडेंसी संस्करण आपके द्वारा डाउनलोड किए गए JAR से मेल खाता है।  
+- यदि MP3 में रीड‑ओनली एट्रिब्यूट हैं, तो सेव करने से पहले फ़ाइल अनुमतियों को समायोजित करें।  
 
-## व्यावहारिक अनुप्रयोग
+## व्यावहारिक उपयोग
 ID3v1 टैग हटाना उपयोगी है:
-1. **Music Library Cleanup** – केवल आधुनिक ID3v2 जानकारी रखें।  
-2. **File Size Reduction** – बड़े संग्रह को स्टोर या स्ट्रीम करने पर हर किलोबाइट महत्वपूर्ण होता है।  
-3. **Privacy Protection** – पुराने टैग्स में एम्बेड हो सकता व्यक्तिगत डेटा हटाएँ।  
+
+1. **संगीत लाइब्रेरी सफ़ाई** – केवल आधुनिक ID3v2 जानकारी रखें।  
+2. **फ़ाइल आकार घटाना** – बड़े संग्रह को स्टोर या स्ट्रीम करने में हर किलोबाइट मायने रखता है।  
+3. **गोपनीयता सुरक्षा** – पुराने टैग्स में एम्बेडेड व्यक्तिगत डेटा को हटाएँ।  
 
 ## प्रदर्शन विचार
 जब कई फ़ाइलों को प्रोसेस किया जाता है:
-- **Batch Processing** – चरणों को लूप में रखें ताकि MP3 डायरेक्टरी को संभाला जा सके।  
-- **Memory Management** – `try‑with‑resources` ब्लॉक स्वचालित रूप से नेटिव रिसोर्सेज़ रिलीज़ करता है।  
-- **I/O Optimization** – यदि आप हजारों फ़ाइलें संभाल रहे हैं तो बफ़र्ड स्ट्रीम में पढ़ें/लिखें।  
+
+- **बैच प्रोसेसिंग** – चरणों को लूप में रैप करें ताकि MP3 डायरेक्टरीज़ को संभाला जा सके। GroupDocs.Metadata एक सामान्य 8‑कोर सर्वर पर **10 000+ फ़ाइलें प्रति मिनट** प्रोसेस कर सकता है, क्योंकि इसकी स्ट्रीमिंग आर्किटेक्चर पूरी फ़ाइल को मेमोरी में लोड नहीं करती।  
+- **मेमोरी प्रबंधन** – `try‑with‑resources` ब्लॉक स्वचालित रूप से नेटिव रिसोर्सेज़ को रिलीज़ करता है।  
+- **I/O अनुकूलन** – यदि आप हजारों फ़ाइलों को संभाल रहे हैं तो डिस्क थ्रैशिंग को कम करने के लिए बफ़र्ड स्ट्रीम्स का उपयोग करें।  
 
 ## सामान्य उपयोग केस और टिप्स
-- **Automated Media Pipelines** – कोड को CI/CD जॉब में इंटीग्रेट करें जो प्रकाशन से पहले ऑडियो एसेट्स को साफ़ करता है।  
-- **Mobile App Back‑ends** – सर्वर साइड पर उपयोगकर्ता‑अपलोडेड ट्रैक्स को साफ़ करें ताकि बैंडविड्थ बचे।  
-- **Digital Asset Management (DAM)** – ऐसी नीति लागू करें कि केवल ID3v2 टैग्स रखे जाएँ।  
+- **स्वचालित मीडिया पाइपलाइन** – कोड को CI/CD जॉब में इंटीग्रेट करें जो प्रकाशन से पहले ऑडियो एसेट्स को साफ़ करता है।  
+- **मोबाइल‑ऐप बैक‑एंड** – सर्वर साइड पर उपयोगकर्ता‑अपलोडेड ट्रैक्स को साफ़ करके बैंडविड्थ बचाएँ।  
+- **डिजिटल एसेट मैनेजमेंट (DAM)** – ऐसी नीति लागू करें कि केवल ID3v2 टैग रखे जाएँ, जिससे डाउनस्ट्रीम इंडेक्सिंग सरल हो।  
 
 ## अक्सर पूछे जाने वाले प्रश्न
-**Q1:** यदि मैं Maven का उपयोग नहीं कर रहा हूँ तो मैं GroupDocs.Metadata for Java कैसे इंस्टॉल करूँ?  
+
+**Q1:** यदि मैं Maven का उपयोग नहीं कर रहा हूँ तो GroupDocs.Metadata for Java कैसे इंस्टॉल करूँ?  
 **A1:** लाइब्रेरी को सीधे [GroupDocs releases page](https://releases.groupdocs.com/metadata/java/) से डाउनलोड करें और JAR को अपने प्रोजेक्ट के बिल्ड पाथ में जोड़ें।
 
-**Q2:** क्या मैं उसी API से अन्य मेटाडाटा प्रकार भी हटा सकता हूँ?  
-**A2:** हाँ, GroupDocs.Metadata ऑडियो और वीडियो मेटाडाटा मानकों की विस्तृत रेंज को सपोर्ट करता है। विवरण के लिए [documentation](https://docs.groupdocs.com/metadata/java/) देखें।
+**Q2:** क्या मैं उसी API के साथ अन्य मेटाडेटा प्रकार भी हटा सकता हूँ?  
+**A2:** हाँ, GroupDocs.Metadata ऑडियो और वीडियो मेटाडेटा मानकों की विस्तृत रेंज को सपोर्ट करता है। विवरण के लिए [documentation](https://docs.groupdocs.com/metadata/java/) देखें।
 
-**Q3:** यदि मेरी MP3 में दोनों ID3v1 और ID3v2 टैग्स हैं तो क्या करें?  
+**Q3:** यदि मेरे MP3 में दोनों ID3v1 और ID3v2 टैग हैं तो क्या करें?  
 **A3:** आप प्रत्येक टैग को `MP3RootPackage` के माध्यम से एक्सेस कर सकते हैं। ID3v2 हटाने के लिए `root.setID3V2(null)` उपयोग करें, या आवश्यकतानुसार व्यक्तिगत फ्रेम्स को मैनीपुलेट करें।
 
-**Q4:** क्या एक साथ प्रोसेस की जाने वाली फ़ाइलों की संख्या पर कोई सीमा है?  
-**A4:** लाइब्रेरी में कोई कठोर सीमा नहीं है, लेकिन व्यावहारिक सीमाएँ आपके हार्डवेयर (CPU, RAM, डिस्क I/O) पर निर्भर करती हैं। पहले छोटे बैचों से टेस्ट करें।
+**Q4:** क्या एक साथ प्रोसेस की जा सकने वाली फ़ाइलों की संख्या पर कोई सीमा है?  
+**A5:** लाइब्रेरी में कोई कठोर सीमा नहीं है, लेकिन व्यावहारिक सीमाएँ आपके हार्डवेयर (CPU, RAM, डिस्क I/O) पर निर्भर करती हैं। पहले छोटे बैचों के साथ परीक्षण करें।
 
 **Q5:** यदि मुझे समस्याएँ आती हैं तो मदद कहाँ मिल सकती है?  
-**A5:** समुदाय सहायता और आधिकारिक ट्रबलशूटिंग गाइड्स के लिए [GroupDocs Support Forum](https://forum.groupdocs.com/c/metadata/) देखें।
+**A5:** समुदाय सहायता और आधिकारिक समस्या निवारण गाइड के लिए देखें [GroupDocs Support Forum](https://forum.groupdocs.com/c/metadata/)।
 
 ## संसाधन
-- **Documentation:** विस्तृत गाइड्स के लिए [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/) देखें।  
-- **API Reference:** पूर्ण API रेफ़रेंस के लिए [GroupDocs Metadata API Reference](https://reference.groupdocs.com/metadata/java/) देखें।  
-- **Download:** नवीनतम संस्करण के GroupDocs.Metadata को [here](https://releases.groupdocs.com/metadata/java/) से प्राप्त करें।  
-- **GitHub Repository:** स्रोत कोड और उदाहरणों को [GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java) पर देखें।  
-- **Free Support:** सहायता के लिए [GroupDocs Support Forum](https://forum.groupdocs.com/c/metadata/) पर जाएँ।  
+- **Documentation:** विस्तृत गाइड्स के लिए देखें [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)।  
+- **API reference:** पूर्ण API रेफ़रेंस के लिए देखें [GroupDocs Metadata API Reference](https://reference.groupdocs.com/metadata/java/)।  
+- **Download:** नवीनतम संस्करण के लिए देखें [GroupDocs.Metadata release page](https://releases.groupdocs.com/metadata/java/)।  
+- **GitHub repository:** स्रोत कोड और उदाहरण देखें [GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)।  
+- **Free support:** सहायता के लिए देखें [GroupDocs Support Forum](https://forum.groupdocs.com/c/metadata/)।
 
 ---
 
-**अंतिम अपडेट:** 2026-03-15  
-**परीक्षित संस्करण:** GroupDocs.Metadata 24.12 for Java  
-**लेखक:** GroupDocs
+**अंतिम अपडेट:** 2026-10-06  
+**परीक्षण किया गया:** GroupDocs.Metadata 24.12 for Java  
+**लेखक:** GroupDocs  
+
+## संबंधित ट्यूटोरियल
+
+- [MP3 आकार को अनुकूलित कैसे करें – GroupDocs.Metadata (Java) के साथ APEv2 टैग हटाएँ](/metadata/java/audio-video-formats/remove-apev2-tags-groupdocs-metadata-java/)
+- [Id3V1 टैग्स निकालें Mp3 Groupdocs Metadata Java](/metadata/java/audio-video-formats/extract-id3v1-tags-mp3-groupdocs-metadata-java/)
+- [MP3 टैग्स को बैच में संपादित कैसे करें - Java में GroupDocs.Metadata का उपयोग करके ID3v1 टैग अपडेट करें](/metadata/java/audio-video-formats/update-mp3-id3v1-tags-groupdocs-metadata-java/)

@@ -1,47 +1,90 @@
 ---
-date: '2026-03-15'
-description: Pelajari cara mengatur properti dokumen dalam file DOCX dan mengekstrak
-  metadata video Java seperti atom QuickTime dari file MOV menggunakan GroupDocs.Metadata
-  untuk Java.
+date: '2026-10-06'
+description: Pelajari cara menambahkan metadata docx java menggunakan GroupDocs.Metadata
+  dan mengekstrak atom QuickTime dari file MOV dengan contoh Java yang jelas.
 keywords:
-- GroupDocs Metadata Java
-- QuickTime atoms MOV files
-- video file metadata manipulation
-title: Atur Properti Dokumen di DOCX dan Baca Atom QuickTime dengan GroupDocs Java
+- add metadata docx java
+- GroupDocs.Metadata Java
+- QuickTime atoms
+- video file metadata
+- DOCX properties
+lastmod: '2026-10-06'
+og_description: Pelajari cara menambahkan metadata docx java menggunakan GroupDocs.Metadata
+  dan mengekstrak atom QuickTime dari file MOV. Panduan Java langkah demi langkah
+  untuk pengembang.
+og_image_alt: Guide showing Java code to add DOCX metadata and read QuickTime atoms
+  with GroupDocs.Metadata
+og_title: Cara menambahkan metadata docx java dan membaca atom QuickTime
+schemas:
+- author: GroupDocs
+  dateModified: '2026-10-06'
+  description: Learn how to add metadata docx java using GroupDocs.Metadata and extract
+    QuickTime atoms from MOV files with clear Java examples.
+  headline: How to add metadata docx java and read QuickTime atoms
+  type: TechArticle
+- description: Learn how to add metadata docx java using GroupDocs.Metadata and extract
+    QuickTime atoms from MOV files with clear Java examples.
+  name: How to add metadata docx java and read QuickTime atoms
+  steps:
+  - name: '**Free trial** – start exploring without commitment.'
+    text: '**Free trial** – start exploring without commitment.'
+  - name: '**Temporary license** – obtain a trial‑extended key for development.'
+    text: '**Temporary license** – obtain a trial‑extended key for development.'
+  - name: '**Purchase** – secure a full license for production deployments.'
+    text: '**Purchase** – secure a full license for production deployments.'
+  type: HowTo
+- questions:
+  - answer: It means writing properties such as author, title, or custom tags into
+      a DOCX file’s core metadata section.
+    question: What does “add metadata to docx” mean?
+  - answer: Yes—GroupDocs.Metadata parses QuickTime atoms inside MOV containers.
+    question: Can the same library read video atoms?
+  - answer: A free trial works for evaluation; a temporary or full license is required
+      for production.
+    question: Do I need a license for development?
+  - answer: JDK 8 or later.
+    question: Which Java version is required?
+  - answer: Absolutely—process files in loops or streams for large collections.
+    question: Is batch processing supported?
+  type: FAQPage
+tags:
+- add metadata docx java
+- GroupDocs.Metadata
+- Java video metadata
+- MOV QuickTime atoms
+- document properties
+title: Cara menambahkan metadata docx java dan membaca atom QuickTime
 type: docs
 url: /id/java/audio-video-formats/groupdocs-metadata-java-quicktime-atoms-mov/
 weight: 1
 ---
 
- "``` fenced code blocks" in requirements but not in content. So fine.
+# Cara menambahkan metadata docx java dan membaca atom QuickTime
 
-Now produce final markdown.# Atur Properti Dokumen di DOCX dan Baca Atom QuickTime dengan GroupDocs Java
+Dalam tutorial ini Anda akan menemukan **how to add metadata docx java** dengan GroupDocs.Metadata sambil juga mengekstrak atom QuickTime dari kontainer MOV. Apakah Anda sedang membangun layanan katalog media atau sistem manajemen dokumen, menggabungkan dua kemampuan ini memungkinkan Anda memperkaya file dengan properti yang dapat dicari dan mengambil detail video tingkat rendah dalam satu alur kerja Java.
 
-Dalam pipeline media modern, kemampuan untuk **mengatur properti dokumen** dalam file DOCX sekaligus mengekstrak metadata video Java dari kontainer MOV memberi Anda peningkatan produktivitas yang besar. Dalam tutorial ini Anda akan melihat bagaimana pustaka GroupDocs.Metadata untuk Java memungkinkan Anda **menambahkan metadata ke docx** serta membaca atom QuickTime dari file MOV—semua dengan cara yang bersih dan berfokus pada Java. Kami akan membahas pengaturan, potongan kode, dan contoh penggunaan dunia nyata, sehingga Anda dapat langsung menerapkan teknik ini.
-
-## Quick Answers
+## Jawaban Cepat
 - **Apa arti “add metadata to docx”?** Artinya menulis properti seperti penulis, judul, atau tag khusus ke dalam bagian metadata inti file DOCX.  
-- **Apakah pustaka yang sama dapat membaca atom video?** Ya—GroupDocs.Metadata dapat mengurai atom QuickTime di dalam kontainer MOV.  
+- **Bisakah perpustakaan yang sama membaca atom video?** Ya—GroupDocs.Metadata mem-parsing atom QuickTime di dalam kontainer MOV.  
 - **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi sementara atau penuh diperlukan untuk produksi.  
-- **Versi Java apa yang diperlukan?** JDK 8 atau yang lebih baru.  
+- **Versi Java apa yang diperlukan?** JDK 8 atau lebih baru.  
 - **Apakah pemrosesan batch didukung?** Tentu—proses file dalam loop atau stream untuk koleksi besar.
 
-## Apa itu “add metadata to docx”?
-Menambahkan metadata ke file DOCX berarti menyematkan informasi deskriptif (penulis, judul, kata kunci, dll.) langsung ke dalam paket dokumen. Metadata ini dapat dicari oleh aplikasi perkantoran dan sistem manajemen konten, sehingga memudahkan pengorganisasian dan penemuan kembali file.
+## Apa itu “add metadata docx java”?
+Menambahkan metadata ke file DOCX berarti menyematkan informasi deskriptif (penulis, judul, kata kunci, tag khusus) langsung ke dalam paket dokumen sehingga aplikasi perkantoran dan sistem manajemen konten dapat mengindeks dan mengambil file lebih efisien. Data yang disematkan ini meningkatkan kemampuan pencarian, mendukung penandaan kepatuhan, dan memungkinkan alur kerja otomatis yang bergantung pada properti dokumen.
 
 ## Mengapa menggunakan GroupDocs.Metadata untuk tugas ini?
-GroupDocs.Metadata menyediakan API terpadu untuk banyak tipe file, termasuk DOCX dan MOV. Ia menyembunyikan detail parsing ZIP dan atom tingkat rendah, sehingga Anda dapat fokus pada logika bisnis daripada keanehan format file. Selain itu, pustaka ini sepenuhnya kompatibel dengan Java dan mendukung operasi baca dan tulis, menjadikannya ideal untuk skenario **java video metadata**.
+GroupDocs.Metadata mendukung **70+ format file**—termasuk DOCX, PDF, XLSX, MOV, MP4, dan tipe gambar—dan dapat memproses file hingga **2 GB** tanpa memuat seluruh file ke memori. API terpadu ini menghilangkan kebutuhan untuk bekerja dengan struktur ZIP tingkat rendah untuk DOCX atau parsing atom untuk MOV, memungkinkan Anda fokus pada logika bisnis alih-alih keanehan format.
 
-## Prerequisites
-
-- **Java Development Kit (JDK) 8+** – memastikan kompatibilitas dengan pustaka.  
+## Prasyarat
+- **Java Development Kit (JDK) 8+** – memastikan kompatibilitas dengan perpustakaan.  
 - **Maven** – untuk manajemen dependensi (atau Anda dapat mengunduh JAR secara manual).  
-- **Pengetahuan dasar Java** – terutama tentang try‑with‑resources dan pola berorientasi objek.  
+- **Pengetahuan dasar Java** – terutama seputar try‑with‑resources dan pola berorientasi objek.  
 
-## Setting Up GroupDocs.Metadata for Java
+## Menyiapkan GroupDocs.Metadata untuk Java
 
-### Instalasi Menggunakan Maven
-Tambahkan repositori dan dependensi ke `pom.xml` Anda:
+### Instalasi menggunakan Maven
+Add the repository and dependency to your `pom.xml`:
 
 ```xml
 <repositories>
@@ -61,24 +104,22 @@ Tambahkan repositori dan dependensi ke `pom.xml` Anda:
 </dependencies>
 ```
 
-### Direct Download
-Atau, unduh versi terbaru secara langsung dari [rilisan GroupDocs.Metadata untuk Java](https://releases.groupdocs.com/metadata/java/).
+### Unduh langsung
+Alternatively, download the latest version directly from [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
-### Langkah-Langkah Akuisisi Lisensi
-1. **Free Trial** – mulai menjelajah tanpa komitmen.  
-2. **Temporary License** – dapatkan kunci perpanjangan percobaan untuk pengembangan.  
-3. **Purchase** – amankan lisensi penuh untuk penerapan produksi.
+### Langkah-langkah memperoleh lisensi
+1. **Free trial** – mulai menjelajah tanpa komitmen.  
+2. **Temporary license** – dapatkan kunci perpanjangan percobaan untuk pengembangan.  
+3. **Purchase** – amankan lisensi penuh untuk penerapan produksi.  
 
-Setelah lingkungan siap, mari kita selami dua skenario inti.
+Sekarang lingkungan sudah siap, mari kita selami dua skenario inti.
 
-## Cara Membaca Atom QuickTime dalam Video MOV
+## Cara membaca atom QuickTime dalam video MOV?
+Atom QuickTime adalah blok bangunan tingkat rendah di dalam file MOV yang menyimpan codec, durasi, tata letak trek, dan metadata video penting lainnya. Dengan membacanya Anda dapat secara otomatis mengkatalogkan media, memverifikasi kepatuhan format, atau mengekstrak detail teknis untuk pemrosesan selanjutnya. Informasi ini berharga untuk membangun perpustakaan media yang dapat dicari, menghasilkan laporan kontrol kualitas, dan memberi bahan pada pipeline transcoding.
 
-### Gambaran Umum
-Atom QuickTime menyimpan informasi video tingkat rendah seperti durasi, codec, dan tata letak trek. Mengekstraknya memungkinkan Anda membuat katalog video, memvalidasi file, atau melakukan pemeriksaan kualitas otomatis.
+`Metadata` adalah kelas inti dalam GroupDocs.Metadata yang mewakili kontainer file dan menyediakan akses ke struktur metadata-nya.
 
-### Implementasi Langkah demi Langkah
-
-**Langkah 1: Buka file MOV**  
+**Langkah 1: buka file MOV**  
 Buat instance `Metadata` dan muat file MOV Anda:
 
 ```java
@@ -89,14 +130,16 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputMov.mov")) {
 
 *Penjelasan*: Blok try‑with‑resources menjamin bahwa handle file dilepaskan secara otomatis.
 
-**Langkah 2: Akses paket root**  
-Dapatkan paket root yang berisi semua atom:
+`RootPackage` mewakili kontainer tingkat atas yang menyimpan semua atom QuickTime.
+
+**Langkah 2: akses paket root**  
+Ambil paket root yang berisi semua atom:
 
 ```java
 MovRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-**Langkah 3: Iterasi setiap atom**  
+**Langkah 3: iterasi setiap atom**  
 Lakukan loop melalui koleksi atom dan cetak properti utama:
 
 ```java
@@ -107,20 +150,18 @@ for (MovAtom atom : root.getMovPackage().getAtoms()) {
 }
 ```
 
-*Penjelasan*: Loop sederhana ini menampilkan tipe, offset, dan ukuran setiap atom QuickTime, memberikan Anda gambaran cepat tentang struktur internal file.
+*Penjelasan*: Loop ini menampilkan tipe, offset, dan ukuran setiap atom QuickTime, memberi Anda gambaran cepat tentang struktur internal file.
 
-#### Tips Pemecahan Masalah
-- **File Not Found** – periksa kembali jalur dan nama file.  
-- **Invalid Format** – pastikan input adalah kontainer MOV yang sah; format lain akan memicu kesalahan parsing.
+#### Tips pemecahan masalah
+- **File not found** – periksa kembali jalur dan nama file.  
+- **Invalid format** – pastikan input adalah kontainer MOV yang sah; format lain akan memicu kesalahan parsing.
 
-## Cara Menambahkan Metadata ke DOCX (mengatur properti dokumen java)
+## Cara menambahkan metadata ke DOCX (mengatur properti dokumen di Java)?
+Menambahkan metadata ke file DOCX memungkinkan Anda menyematkan penulis, judul, dan bidang khusus yang dapat diindeks oleh sistem hilir. Kemampuan ini penting untuk pembuatan laporan otomatis, penandaan kepatuhan, dan pengayaan dokumen massal, memungkinkan metadata yang konsisten di seluruh koleksi dokumen besar. Dengan mengatur properti ini secara programatik Anda mengurangi upaya manual dan meningkatkan kemampuan penemuan di platform manajemen konten.
 
-### Gambaran Umum
-Selain analisis video, Anda sering perlu **mengatur properti dokumen**—menulis penulis, judul, atau bidang khusus ke dalam file DOCX. GroupDocs.Metadata mempermudah hal ini.
+`Metadata` juga merupakan titik masuk untuk penanganan DOCX; ia mengabstraksi paket ZIP yang menjadi dasar format.
 
-### Implementasi Langkah demi Langkah
-
-**Langkah 1: Buka file DOCX**  
+**Langkah 1: buka file DOCX**  
 Instansiasi `Metadata` untuk dokumen DOCX:
 
 ```java
@@ -129,8 +170,10 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputDocx.docx"))
 }
 ```
 
-**Langkah 2: Akses dan atur properti**  
-Dapatkan objek `DocumentProperties` dan tetapkan nilai:
+`DocumentProperties` mengenkapsulasi properti standar dan khusus dari file DOCX, seperti penulis, judul, dan tag khusus.
+
+**Langkah 2: akses dan atur properti**  
+Ambil objek `DocumentProperties` dan tetapkan nilai:
 
 ```java
 DocumentProperties properties = metadata.getDocumentProperties();
@@ -141,46 +184,50 @@ System.out.println(properties.getAuthor()); // Print author
 System.out.println(properties.getTitle());   // Print title
 ```
 
-*Penjelasan*: Di sini kami **menambahkan metadata ke docx** dengan memperbarui bidang penulis dan judul, lalu mencetaknya untuk memverifikasi perubahan. Ini adalah cara utama untuk **mengatur properti dokumen** dalam file DOCX.
+*Penjelasan*: Di sini kami **add metadata docx java** dengan memperbarui bidang penulis dan judul, kemudian mencetaknya untuk memverifikasi perubahan. Ini adalah cara utama untuk **set document properties** dalam file DOCX.
 
-#### Tips Pemecahan Masalah
-- **Unsupported File Type** – pastikan ekstensi file adalah `.docx`.  
-- **Permission Issues** – pastikan aplikasi memiliki akses menulis ke direktori target.
+#### Tips pemecahan masalah
+- **Unsupported file type** – pastikan ekstensi file adalah `.docx`.  
+- **Permission issues** – pastikan aplikasi memiliki akses menulis ke direktori target.
 
-## Practical Applications
+## Aplikasi praktis
 
 | Skenario | Mengapa penting |
 |----------|-----------------|
-| **Perangkat Lunak Pengeditan Video** | Isi otomatis timeline dengan data codec dan durasi yang diekstrak dari atom QuickTime. |
-| **Perpustakaan Media** | Indeks koleksi besar dengan membaca metadata atom, kemudian beri tag setiap entri dengan bidang yang dapat dicari. |
-| **Sistem Manajemen Dokumen** | Gunakan **set document properties** untuk menyematkan penulis, proyek, atau tag kepatuhan langsung ke dalam file. |
-| **Manajemen Aset Digital** | Gabungkan ekstraksi atom video dan metadata DOCX untuk membuat catatan aset yang terpadu. |
+| **Perangkat lunak pengeditan video** | Mengisi otomatis timeline dengan data codec dan durasi yang diekstrak dari atom QuickTime. |
+| **Perpustakaan media** | Mengindeks koleksi besar dengan membaca metadata atom, lalu menandai setiap entri dengan bidang yang dapat dicari. |
+| **Sistem manajemen dokumen** | Gunakan **add metadata docx java** untuk menyematkan penulis, proyek, atau tag kepatuhan langsung ke dalam file. |
+| **Manajemen aset digital** | Gabungkan ekstraksi atom video dan metadata DOCX untuk membuat catatan aset yang terpadu. |
 
-## Pertimbangan Kinerja
+## Pertimbangan kinerja
 
-- **Memory Management** – selalu gunakan try‑with‑resources untuk menutup aliran file.  
-- **Batch Processing** – proses file dalam grup (mis., 100 sekaligus) untuk menjaga penggunaan heap tetap stabil.  
-- **Profiling** – alat seperti VisualVM atau YourKit dapat menyoroti titik panas saat menangani ribuan file.
+- **Memory management** – selalu gunakan try‑with‑resources untuk menutup aliran file.  
+- **Batch processing** – proses file dalam grup (mis., 100 sekaligus) untuk menjaga penggunaan heap tetap stabil.  
+- **Profiling** – alat seperti VisualVM atau YourKit dapat menyoroti hotspot saat menangani ribuan file.
 
-## Bagian FAQ
+## Pertanyaan yang sering diajukan
 
-**Q1: Apa itu atom QuickTime?**  
-Atom QuickTime adalah blok bangunan di dalam file MOV yang menyimpan informasi seperti detail codec, timestamp, dan tata letak trek.
+**Q: Apa itu atom QuickTime?**  
+Atom QuickTime adalah blok data tingkat rendah di dalam file MOV yang menyimpan informasi seperti detail codec, timestamp, dan tata letak trek.
 
-**Q2: Bisakah saya membaca metadata dari file non‑MOV menggunakan GroupDocs.Metadata?**  
-Ya, pustaka ini mendukung banyak format, termasuk MP4, AVI, PDF, DOCX, dan lainnya.
+**Q: Bisakah saya membaca metadata dari file non‑MOV menggunakan GroupDocs.Metadata?**  
+Ya, perpustakaan ini mendukung banyak format, termasuk MP4, AVI, PDF, DOCX, dan lainnya.
 
-**Q3: Bagaimana cara memulai dengan percobaan gratis GroupDocs.Metadata?**  
-Kunjungi [situs GroupDocs](https://purchase.groupdocs.com/temporary-license/) untuk meminta lisensi sementara untuk tujuan evaluasi.
+**Q: Bagaimana cara memulai dengan trial gratis GroupDocs.Metadata?**  
+Visit the [GroupDocs website](https://purchase.groupdocs.com/temporary-license/) to request a temporary license for evaluation purposes.
 
-**Q4: Apa saja kasus penggunaan umum untuk mengatur metadata dokumen?**  
-Skenario tipikal meliputi pengorganisasian perpustakaan perusahaan, otomatisasi pembuatan laporan, dan meningkatkan kemampuan pencarian dalam sistem manajemen konten.
+**Q: Apa saja kasus penggunaan umum untuk mengatur metadata dokumen?**  
+Skenario tipikal meliputi mengorganisir perpustakaan perusahaan, mengotomatisasi pembuatan laporan, dan meningkatkan kemampuan pencarian dalam sistem manajemen konten.
 
-**Q5: Apakah GroupDocs.Metadata cocok untuk proyek berskala perusahaan?**  
-Tentu saja. Ini dirancang untuk lingkungan dengan throughput tinggi dan menawarkan opsi lisensi yang kuat untuk penerapan berskala besar.
+**Q: Apakah GroupDocs.Metadata cocok untuk proyek berskala perusahaan?**  
+Tentu. Ini dirancang untuk lingkungan dengan throughput tinggi dan menawarkan opsi lisensi yang kuat untuk penerapan besar.
 
----
-
-**Terakhir Diperbarui:** 2026-03-15  
-**Diuji Dengan:** GroupDocs.Metadata 24.12 untuk Java  
+**Terakhir Diperbarui:** 2026-10-06  
+**Diuji Dengan:** GroupDocs.Metadata 24.12 for Java  
 **Penulis:** GroupDocs
+
+## Tutorial Terkait
+
+- [Menambahkan Tanggal Cetak Terakhir ke Dokumen Menggunakan GroupDocs.Metadata di Java](/metadata/java/working-with-metadata/add-last-printed-date-groupdocs-metadata-java/)
+- [Ekstrak metadata video java menggunakan GroupDocs.Metadata](/metadata/java/audio-video-formats/mastering-avi-metadata-handling-groupdocs-java/)
+- [Ekstrak Metadata di Java: Menguasai GroupDocs.Metadata untuk Properti String dan DateTime](/metadata/java/working-with-metadata/groupdocs-metadata-java-extract-properties/)

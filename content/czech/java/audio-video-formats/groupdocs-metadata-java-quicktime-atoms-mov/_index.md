@@ -1,39 +1,84 @@
 ---
-date: '2026-03-15'
-description: Naučte se, jak nastavit vlastnosti dokumentu v souborech DOCX a extrahovat
-  metadata videa v Javě, jako jsou atomy QuickTime, z souborů MOV pomocí GroupDocs.Metadata
-  pro Javu.
+date: '2026-10-06'
+description: Naučte se, jak přidat metadata docx java pomocí GroupDocs.Metadata a
+  extrahovat QuickTime atoms z MOV souborů s přehlednými Java příklady.
 keywords:
-- GroupDocs Metadata Java
-- QuickTime atoms MOV files
-- video file metadata manipulation
-title: Set Document Properties in DOCX and Read QuickTime Atoms with GroupDocs Java
+- add metadata docx java
+- GroupDocs.Metadata Java
+- QuickTime atoms
+- video file metadata
+- DOCX properties
+lastmod: '2026-10-06'
+og_description: Naučte se, jak přidat metadata docx java pomocí GroupDocs.Metadata
+  a extrahovat QuickTime atoms z MOV souborů. Step-by-step Java průvodce pro vývojáře.
+og_image_alt: Guide showing Java code to add DOCX metadata and read QuickTime atoms
+  with GroupDocs.Metadata
+og_title: Jak přidat metadata docx java a číst QuickTime atoms
+schemas:
+- author: GroupDocs
+  dateModified: '2026-10-06'
+  description: Learn how to add metadata docx java using GroupDocs.Metadata and extract
+    QuickTime atoms from MOV files with clear Java examples.
+  headline: How to add metadata docx java and read QuickTime atoms
+  type: TechArticle
+- description: Learn how to add metadata docx java using GroupDocs.Metadata and extract
+    QuickTime atoms from MOV files with clear Java examples.
+  name: How to add metadata docx java and read QuickTime atoms
+  steps:
+  - name: '**Free trial** – start exploring without commitment.'
+    text: '**Free trial** – start exploring without commitment.'
+  - name: '**Temporary license** – obtain a trial‑extended key for development.'
+    text: '**Temporary license** – obtain a trial‑extended key for development.'
+  - name: '**Purchase** – secure a full license for production deployments.'
+    text: '**Purchase** – secure a full license for production deployments.'
+  type: HowTo
+- questions:
+  - answer: It means writing properties such as author, title, or custom tags into
+      a DOCX file’s core metadata section.
+    question: What does “add metadata to docx” mean?
+  - answer: Yes—GroupDocs.Metadata parses QuickTime atoms inside MOV containers.
+    question: Can the same library read video atoms?
+  - answer: A free trial works for evaluation; a temporary or full license is required
+      for production.
+    question: Do I need a license for development?
+  - answer: JDK 8 or later.
+    question: Which Java version is required?
+  - answer: Absolutely—process files in loops or streams for large collections.
+    question: Is batch processing supported?
+  type: FAQPage
+tags:
+- add metadata docx java
+- GroupDocs.Metadata
+- Java video metadata
+- MOV QuickTime atoms
+- document properties
+title: Jak přidat metadata docx java a číst QuickTime atoms
 type: docs
 url: /cs/java/audio-video-formats/groupdocs-metadata-java-quicktime-atoms-mov/
 weight: 1
 ---
 
-# Nastavte vlastnosti dokumentu v DOCX a čtěte atomy QuickTime pomocí GroupDocs Java
+# Jak přidat metadata do docx v Javě a číst atomy QuickTime
 
-V moderních mediálních pipelinech je schopnost **nastavit vlastnosti dokumentu** v souborech DOCX a zároveň extrahovat metadata videa v Javě z kontejnerů MOV obrovským zvýšením produktivity. V tomto tutoriálu uvidíte, jak knihovna GroupDocs.Metadata pro Javu umožňuje jak **přidávat metadata do docx** dokumentů, tak číst atomy QuickTime z MOV souborů – vše v čistém, Java‑centrickém stylu. Provedeme vás nastavením, ukázkami kódu a reálnými příklady použití, abyste mohli tyto techniky okamžitě aplikovat.
+V tomto tutoriálu objevíte **jak přidat metadata docx java** pomocí GroupDocs.Metadata a zároveň extrahovat atomy QuickTime z kontejnerů MOV. Ať už budujete službu pro katalogizaci médií nebo systém pro správu dokumentů, kombinace těchto dvou schopností vám umožní obohatit soubory o prohledávatelné vlastnosti a získat podrobnosti o videu v jediném Java workflow.
 
 ## Rychlé odpovědi
-- **What does “add metadata to docx” mean?** To znamená zapisování vlastností jako autor, název nebo vlastní značky do jádrové sekce metadat souboru DOCX.  
-- **Can the same library read video atoms?** Ano—GroupDocs.Metadata dokáže parsovat atomy QuickTime uvnitř MOV kontejnerů.  
-- **Do I need a license for development?** Bezplatná zkušební verze funguje pro hodnocení; pro produkci je vyžadována dočasná nebo plná licence.  
-- **Which Java version is required?** JDK 8 nebo novější.  
-- **Is batch processing supported?** Rozhodně—zpracovávejte soubory ve smyčkách nebo streamách pro velké kolekce.
+- **Co znamená „přidat metadata do docx“?** Znamená to zapisování vlastností, jako je autor, název nebo vlastní značky, do hlavní sekce metadat souboru DOCX.  
+- **Může stejná knihovna číst video atomy?** Ano — GroupDocs.Metadata parsuje atomy QuickTime uvnitř kontejnerů MOV.  
+- **Potřebuji licenci pro vývoj?** Bezplatná zkušební verze funguje pro hodnocení; pro produkci je vyžadována dočasná nebo plná licence.  
+- **Jaká verze Javy je požadována?** JDK 8 nebo novější.  
+- **Je podporováno dávkové zpracování?** Rozhodně — zpracovávejte soubory ve smyčkách nebo streamech pro velké kolekce.
 
-## Co je “add metadata to docx”?
-Přidání metadat do souboru DOCX znamená vložení popisných informací (autor, název, klíčová slova atd.) přímo do balíčku dokumentu. Tato metadata jsou prohledávatelná kancelářskými aplikacemi a systémy pro správu obsahu, což usnadňuje organizaci a vyhledávání souborů.
+## Co je „add metadata docx java“?
+Přidání metadat do souboru DOCX znamená vložení popisných informací (autor, název, klíčová slova, vlastní značky) přímo do balíčku dokumentu, aby kancelářské aplikace a systémy pro správu obsahu mohly soubor efektivně indexovat a načítat. Tato vložená data zlepšují vyhledatelnost, podporují označování pro soulad a umožňují automatizované workflow, které se opírají o vlastnosti dokumentu.
 
 ## Proč použít GroupDocs.Metadata pro tento úkol?
-GroupDocs.Metadata poskytuje jednotné API pro mnoho typů souborů, včetně DOCX a MOV. Abstrahuje nízkoúrovňové detaily ZIP a parsování atomů, takže se můžete soustředit na obchodní logiku místo zvláštností formátů souborů. Navíc je knihovna plně kompatibilní s Javou a podporuje jak čtení, tak zápis, což ji činí ideální pro scénáře **java video metadata**.
+GroupDocs.Metadata podporuje **více než 70 formátů souborů** — včetně DOCX, PDF, XLSX, MOV, MP4 a typů obrázků — a může zpracovávat soubory až do **2 GB** bez načítání celého souboru do paměti. Toto sjednocené API odstraňuje potřebu pracovat s nízkoúrovňovými ZIP strukturami pro DOCX nebo parsováním atomů pro MOV, takže se můžete soustředit na obchodní logiku místo na zvláštnosti formátů.
 
-## Požadavky
+## Předpoklady
 - **Java Development Kit (JDK) 8+** – zajišťuje kompatibilitu s knihovnou.  
 - **Maven** – pro správu závislostí (nebo můžete JAR stáhnout ručně).  
-- **Basic Java knowledge** – zejména ohledně try‑with‑resources a objektově orientovaných vzorů.  
+- **Základní znalost Javy** – zejména ohledně try‑with‑resources a objektově orientovaných vzorů.  
 
 ## Nastavení GroupDocs.Metadata pro Javu
 
@@ -62,20 +107,18 @@ Add the repository and dependency to your `pom.xml`:
 Alternativně stáhněte nejnovější verzi přímo z [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Kroky získání licence
-1. **Free Trial** – začněte zkoumat bez závazku.  
-2. **Temporary License** – získejte prodloužený zkušební klíč pro vývoj.  
-3. **Purchase** – zajistěte plnou licenci pro nasazení do produkce.
+1. **Bezplatná zkušební verze** – začněte zkoumat bez závazku.  
+2. **Dočasná licence** – získejte prodloužený zkušební klíč pro vývoj.  
+3. **Nákup** – zajistěte plnou licenci pro nasazení do produkce.
 
 Nyní, když je prostředí připravené, pojďme se ponořit do dvou hlavních scénářů.
 
-## Jak číst atomy QuickTime ve videu MOV
+## Jak číst atomy QuickTime v MOV videu?
+Atomy QuickTime jsou nízkoúrovňové stavební bloky uvnitř souborů MOV, které ukládají informace o kodeku, délce, uspořádání stop a dalších nezbytných metadatech videa. Čtením těchto atomů můžete automaticky katalogizovat média, ověřovat soulad formátu nebo extrahovat technické detaily pro následné zpracování. Tyto informace jsou cenné při tvorbě prohledávatelných mediálních knihoven, generování zpráv o kontrole kvality a napájení transkódovacích pipeline.
 
-### Přehled
-Atomy QuickTime ukládají nízkoúrovňové informace o videu, jako je délka, kodeky a rozložení stop. Jejich extrakce vám umožní vytvářet video katalogy, validovat soubory nebo provádět automatické kontroly kvality.
+`Metadata` je hlavní třída v GroupDocs.Metadata, která představuje kontejner souboru a poskytuje přístup k jeho strukturám metadat.
 
-### Implementace krok za krokem
-
-**Krok 1: Otevřete soubor MOV**  
+**Krok 1: otevřít soubor MOV**  
 Create a `Metadata` instance and load your MOV file:
 
 ```java
@@ -84,17 +127,19 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputMov.mov")) {
 }
 ```
 
-*Vysvětlení*: Blok try‑with‑resources zajišťuje automatické uvolnění souborového handle.
+*Vysvětlení*: Blok try‑with‑resources zaručuje, že souborový handle je uvolněn automaticky.
 
-**Krok 2: Přístup ke kořenovému balíčku**  
-Získejte kořenový balíček, který obsahuje všechny atomy:
+`RootPackage` představuje nejvyšší úroveň kontejneru, který obsahuje všechny atomy QuickTime.
+
+**Krok 2: přístup k kořenovému balíčku**  
+Retrieve the root package that contains all atoms:
 
 ```java
 MovRootPackage root = metadata.getRootPackageGeneric();
 ```
 
-**Krok 3: Procházejte každý atom**  
-Projděte kolekci atomů a vytiskněte klíčové vlastnosti:
+**Krok 3: iterovat přes každý atom**  
+Loop through the atom collection and print key properties:
 
 ```java
 for (MovAtom atom : root.getMovPackage().getAtoms()) {
@@ -104,20 +149,18 @@ for (MovAtom atom : root.getMovPackage().getAtoms()) {
 }
 ```
 
-*Vysvětlení*: Tento jednoduchý cyklus zobrazuje typ, offset a velikost každého atomu QuickTime, což vám poskytne rychlý přehled o vnitřní struktuře souboru.
+*Vysvětlení*: Tento cyklus zobrazuje typ, offset a velikost každého atomu QuickTime a poskytuje rychlý přehled o interní struktuře souboru.
 
 #### Tipy pro řešení problémů
-- **File Not Found** – zkontrolujte cestu a název souboru.  
-- **Invalid Format** – ujistěte se, že vstup je skutečný MOV kontejner; jiné formáty vyvolají chyby při parsování.
+- **Soubor nenalezen** – zkontrolujte cestu a název souboru.  
+- **Neplatný formát** – ujistěte se, že vstup je skutečný MOV kontejner; jiné formáty vyvolají chyby při parsování.
 
-## Jak přidat metadata do docx (nastavit vlastnosti dokumentu java)
+## Jak přidat metadata do DOCX (nastavit vlastnosti dokumentu v Javě)?
+Přidání metadat do souborů DOCX vám umožní vložit autora, název a vlastní pole, která mohou následné systémy indexovat. Tato schopnost je nezbytná pro automatizovanou tvorbu zpráv, označování pro soulad a hromadné obohacování dokumentů, což zajišťuje konzistentní metadata napříč velkými kolekcemi dokumentů. Programatickým nastavením těchto vlastností snižujete manuální úsilí a zvyšujete objevitelnost na platformách pro správu obsahu.
 
-### Přehled
-Kromě analýzy videa často potřebujete **nastavit vlastnosti dokumentu**—zapsat autora, název nebo vlastní pole do souboru DOCX. GroupDocs.Metadata to usnadňuje.
+`Metadata` je také vstupním bodem pro práci s DOCX; abstrahuje ZIP balíček, který formát podkládá.
 
-### Implementace krok za krokem
-
-**Krok 1: Otevřete soubor DOCX**  
+**Krok 1: otevřít soubor DOCX**  
 Instantiate `Metadata` for a DOCX document:
 
 ```java
@@ -126,7 +169,9 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputDocx.docx"))
 }
 ```
 
-**Krok 2: Přístup a nastavení vlastností**  
+`DocumentProperties` zapouzdřuje standardní i vlastní vlastnosti souboru DOCX, jako jsou autor, název a vlastní značky.
+
+**Krok 2: přístup a nastavení vlastností**  
 Retrieve the `DocumentProperties` object and assign values:
 
 ```java
@@ -138,46 +183,50 @@ System.out.println(properties.getAuthor()); // Print author
 System.out.println(properties.getTitle());   // Print title
 ```
 
-*Vysvětlení*: Zde **add metadata to docx** aktualizujeme pole autora a názvu, poté je vytiskneme pro ověření změny. Toto je hlavní způsob, jak **set document properties** v souboru DOCX.
+*Vysvětlení*: Zde **přidáváme metadata docx java** aktualizací polí autora a názvu, poté je vytiskneme pro ověření změny. Toto je hlavní způsob, jak **nastavit vlastnosti dokumentu** v souboru DOCX.
 
 #### Tipy pro řešení problémů
-- **Unsupported File Type** – ověřte, že přípona souboru je `.docx`.  
-- **Permission Issues** – ujistěte se, že aplikace má právo zápisu do cílového adresáře.
+- **Nepodporovaný typ souboru** – ověřte, že přípona souboru je `.docx`.  
+- **Problémy s oprávněním** – ujistěte se, že aplikace má právo zápisu do cílového adresáře.
 
 ## Praktické aplikace
 
 | Scénář | Proč je to důležité |
 |----------|----------------|
-| **Video Editing Software** | Automaticky vyplnit časové osy kodeky a údaji o délce extrahovanými z atomů QuickTime. |
-| **Media Libraries** | Indexovat velké kolekce čtením metadat atomů a poté označit každou položku prohledávatelnými poli. |
-| **Document Management Systems** | Použijte **set document properties** k vložení autora, projektu nebo souladových značek přímo do souborů. |
-| **Digital Asset Management** | Kombinovat extrakci video atomů a metadata DOCX pro vytvoření jednotných záznamů o aktivech. |
+| **Software pro úpravu videa** | Automaticky vyplnit časové osy pomocí kodeku a dat o délce extrahovaných z atomů QuickTime. |
+| **Mediální knihovny** | Indexovat velké kolekce čtením metadat atomů a poté označit každý záznam vyhledávatelnými poli. |
+| **Systémy pro správu dokumentů** | Použijte **add metadata docx java** k vložení autora, projektu nebo značek pro soulad přímo do souborů. |
+| **Správa digitálních aktiv** | Kombinujte extrakci video atomů a metadata DOCX k vytvoření jednotných záznamů aktiv. |
 
 ## Úvahy o výkonu
 
-- **Memory Management** – vždy používejte try‑with‑resources k uzavření souborových streamů.  
-- **Batch Processing** – zpracovávejte soubory ve skupinách (např. 100 najednou), aby byl využití haldy stabilní.  
-- **Profiling** – nástroje jako VisualVM nebo YourKit mohou zvýraznit úzká místa při zpracování tisíců souborů.
+- **Správa paměti** – vždy používejte try‑with‑resources k uzavření souborových streamů.  
+- **Dávkové zpracování** – zpracovávejte soubory ve skupinách (např. 100 najednou), aby byl využití haldy stabilní.  
+- **Profilování** – nástroje jako VisualVM nebo YourKit mohou zvýraznit úzká místa při zpracování tisíců souborů.
 
 ## Často kladené otázky
 
-**Q1: Co je QuickTime atom?**  
-QuickTime atom je stavební blok uvnitř souborů MOV, který ukládá informace jako podrobnosti o kodeku, časové razítka a rozložení stop.
+**Q: Co je atom QuickTime?**  
+Atom QuickTime je nízkoúrovňový datový blok uvnitř souborů MOV, který ukládá informace jako podrobnosti o kodeku, časová razítka a uspořádání stop.
 
-**Q2: Mohu číst metadata z ne‑MOV souborů pomocí GroupDocs.Metadata?**  
+**Q: Mohu číst metadata z ne‑MOV souborů pomocí GroupDocs.Metadata?**  
 Ano, knihovna podporuje mnoho formátů, včetně MP4, AVI, PDF, DOCX a dalších.
 
-**Q3: Jak začít s bezplatnou zkušební verzí GroupDocs.Metadata?**  
+**Q: Jak začít s bezplatnou zkušební verzí GroupDocs.Metadata?**  
 Navštivte [GroupDocs website](https://purchase.groupdocs.com/temporary-license/) a požádejte o dočasnou licenci pro evaluační účely.
 
-**Q4: Jaké jsou běžné případy použití nastavení metadat dokumentu?**  
-Typické scénáře zahrnují organizaci firemních knihoven, automatizaci generování reportů a zlepšení vyhledatelnosti v systémech pro správu obsahu.
+**Q: Jaké jsou běžné případy použití pro nastavení metadat dokumentu?**  
+Typické scénáře zahrnují organizaci firemních knihoven, automatizaci tvorby zpráv a zlepšení vyhledatelnosti v systémech pro správu obsahu.
 
-**Q4: Je GroupDocs.Metadata vhodný pro projekty v podnikovém měřítku?**  
+**Q: Je GroupDocs.Metadata vhodný pro projekty v podnikovém měřítku?**  
 Rozhodně. Je navržen pro prostředí s vysokou propustností a nabízí robustní licenční možnosti pro rozsáhlá nasazení.
 
----
-
-**Poslední aktualizace:** 2026-03-15  
+**Poslední aktualizace:** 2026-10-06  
 **Testováno s:** GroupDocs.Metadata 24.12 for Java  
 **Autor:** GroupDocs
+
+## Související tutoriály
+
+- [Přidat datum posledního tisku do dokumentů pomocí GroupDocs.Metadata v Javě](/metadata/java/working-with-metadata/add-last-printed-date-groupdocs-metadata-java/)
+- [Extrahovat video metadata v Javě pomocí GroupDocs.Metadata](/metadata/java/audio-video-formats/mastering-avi-metadata-handling-groupdocs-java/)
+- [Extrahovat metadata v Javě: Ovládání GroupDocs.Metadata pro řetězcové a DateTime vlastnosti](/metadata/java/working-with-metadata/groupdocs-metadata-java-extract-properties/)

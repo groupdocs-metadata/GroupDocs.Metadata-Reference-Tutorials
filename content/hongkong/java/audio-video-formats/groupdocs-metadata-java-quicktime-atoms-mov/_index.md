@@ -1,44 +1,89 @@
 ---
-date: '2026-03-15'
-description: 了解如何在 DOCX 檔案中設定文件屬性，並使用 GroupDocs.Metadata for Java 從 MOV 檔案中提取 Java
-  視頻元資料（如 QuickTime atoms）。
+date: '2026-10-06'
+description: 了解如何使用 GroupDocs.Metadata 在 Java 中加入 metadata docx，並透過清晰的 Java 範例從 MOV
+  檔案中提取 QuickTime atoms。
 keywords:
-- GroupDocs Metadata Java
-- QuickTime atoms MOV files
-- video file metadata manipulation
-title: 使用 GroupDocs Java 設定 DOCX 文件屬性並讀取 QuickTime Atom
+- add metadata docx java
+- GroupDocs.Metadata Java
+- QuickTime atoms
+- video file metadata
+- DOCX properties
+lastmod: '2026-10-06'
+og_description: 了解如何使用 GroupDocs.Metadata 在 Java 中加入 metadata docx，並從 MOV 檔案中提取 QuickTime
+  atoms。為開發人員提供的逐步 Java 指南。
+og_image_alt: Guide showing Java code to add DOCX metadata and read QuickTime atoms
+  with GroupDocs.Metadata
+og_title: 如何在 Java 中加入 metadata docx 並讀取 QuickTime atoms
+schemas:
+- author: GroupDocs
+  dateModified: '2026-10-06'
+  description: Learn how to add metadata docx java using GroupDocs.Metadata and extract
+    QuickTime atoms from MOV files with clear Java examples.
+  headline: How to add metadata docx java and read QuickTime atoms
+  type: TechArticle
+- description: Learn how to add metadata docx java using GroupDocs.Metadata and extract
+    QuickTime atoms from MOV files with clear Java examples.
+  name: How to add metadata docx java and read QuickTime atoms
+  steps:
+  - name: '**Free trial** – start exploring without commitment.'
+    text: '**Free trial** – start exploring without commitment.'
+  - name: '**Temporary license** – obtain a trial‑extended key for development.'
+    text: '**Temporary license** – obtain a trial‑extended key for development.'
+  - name: '**Purchase** – secure a full license for production deployments.'
+    text: '**Purchase** – secure a full license for production deployments.'
+  type: HowTo
+- questions:
+  - answer: It means writing properties such as author, title, or custom tags into
+      a DOCX file’s core metadata section.
+    question: What does “add metadata to docx” mean?
+  - answer: Yes—GroupDocs.Metadata parses QuickTime atoms inside MOV containers.
+    question: Can the same library read video atoms?
+  - answer: A free trial works for evaluation; a temporary or full license is required
+      for production.
+    question: Do I need a license for development?
+  - answer: JDK 8 or later.
+    question: Which Java version is required?
+  - answer: Absolutely—process files in loops or streams for large collections.
+    question: Is batch processing supported?
+  type: FAQPage
+tags:
+- add metadata docx java
+- GroupDocs.Metadata
+- Java video metadata
+- MOV QuickTime atoms
+- document properties
+title: 如何在 Java 中加入 metadata docx 並讀取 QuickTime atoms
 type: docs
 url: /zh-hant/java/audio-video-formats/groupdocs-metadata-java-quicktime-atoms-mov/
 weight: 1
 ---
 
-# 在 DOCX 中設定文件屬性並使用 GroupDocs Java 讀取 QuickTime Atoms
+# 如何在 Java 中為 DOCX 新增元資料並讀取 QuickTime atom
 
-在現代的媒體流程中，能夠在 DOCX 檔案中 **設定文件屬性** 同時從 MOV 容器中提取 Java 影片中繼資料，能為您帶來巨大的生產力提升。在本教學中，您將看到 GroupDocs.Metadata Java 函式庫如何同時 **add metadata to docx** 文件並從 MOV 檔案讀取 QuickTime atoms——以乾淨、以 Java 為中心的方式。我們將逐步說明設定、程式碼片段與實務案例，讓您立即開始應用這些技巧。
+在本教學中，您將了解**在 Java 中為 DOCX 新增元資料**，同時從 MOV 容器中提取 QuickTime atom。無論您是構建媒體目錄服務或文件管理系統，結合這兩項功能都能讓您在單一 Java 工作流程中為檔案加入可搜尋的屬性，並取得低層次的影片細節。
 
-## 快速解答
-- **“add metadata to docx” 是什麼意思？** 它指的是將作者、標題或自訂標籤等屬性寫入 DOCX 檔案的核心中繼資料區段。  
-- **同一個函式庫能讀取影片 atoms 嗎？** 可以——GroupDocs.Metadata 能解析 MOV 容器內的 QuickTime atoms。  
-- **開發時需要授權嗎？** 免費試用可用於評估；在正式環境則需臨時或正式授權。  
+## 快速答案
+- **“add metadata to docx” 是什麼意思？** 它表示將作者、標題或自訂標籤等屬性寫入 DOCX 檔案的核心元資料區段。  
+- **相同的函式庫能讀取影片 atom 嗎？** 是的——GroupDocs.Metadata 會解析 MOV 容器內的 QuickTime atom。  
+- **開發時需要授權嗎？** 免費試用可用於評估；在正式環境中需要臨時或完整授權。  
 - **需要哪個 Java 版本？** JDK 8 或更新版本。  
 - **支援批次處理嗎？** 當然可以——可在迴圈或串流中處理大量檔案。
 
-## 「add metadata to docx」是什麼？
-將中繼資料加入 DOCX 檔案即是將描述性資訊（作者、標題、關鍵字等）直接嵌入文件套件中。此中繼資料可被 Office 應用程式與內容管理系統搜尋，讓檔案的組織與檢索更加便利。
+## 什麼是 “add metadata docx java”？
+將元資料新增至 DOCX 檔案表示將描述性資訊（作者、標題、關鍵字、自訂標籤）直接嵌入文件封裝中，使 Office 應用程式與內容管理系統能更有效率地索引與擷取檔案。此嵌入資料提升可搜尋性、支援合規標記，並啟用依賴文件屬性的自動化工作流程。
 
-## 為什麼在此任務使用 GroupDocs.Metadata？
-GroupDocs.Metadata 為多種檔案類型（包括 DOCX 與 MOV）提供統一的 API。它抽象化了低階的 ZIP 與 atom 解析細節，讓您能專注於業務邏輯，而非檔案格式的怪癖。此外，此函式庫完全相容 Java，支援讀寫操作，是 **java video metadata** 情境的理想選擇。
+## 為何在此任務中使用 GroupDocs.Metadata？
+GroupDocs.Metadata 支援 **70+ 檔案格式**——包括 DOCX、PDF、XLSX、MOV、MP4 以及各類影像，且可處理最高 **2 GB** 的檔案而無需將整個檔案載入記憶體。此統一 API 免除您必須處理 DOCX 的低階 ZIP 結構或 MOV 的 atom 解析，讓您專注於業務邏輯而非格式細節。
 
 ## 前置條件
-
 - **Java Development Kit (JDK) 8+** – 確保與函式庫相容。  
-- **Maven** – 用於相依管理（或自行手動下載 JAR）。  
-- **基本的 Java 知識** – 特別是 try‑with‑resources 與物件導向模式。  
+- **Maven** – 用於相依性管理（或您也可以手動下載 JAR）。  
+- **基本的 Java 知識** – 特別是 try‑with‑resources 以及物件導向模式。  
 
-## 設定 GroupDocs.Metadata（Java 版）
+## 設定 GroupDocs.Metadata（Java）
 
 ### 使用 Maven 安裝
-將儲存庫與相依加入您的 `pom.xml`：
+Add the repository and dependency to your `pom.xml`:
 
 ```xml
 <repositories>
@@ -62,21 +107,19 @@ GroupDocs.Metadata 為多種檔案類型（包括 DOCX 與 MOV）提供統一的
 或者，直接從 [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) 下載最新版本。
 
 ### 取得授權步驟
-1. **Free Trial** – 開始探索，無需承諾。  
-2. **Temporary License** – 取得開發用的延伸試用金鑰。  
-3. **Purchase** – 為正式部署取得完整授權。  
+1. **免費試用** – 開始探索，無需承諾。  
+2. **臨時授權** – 取得延長試用的金鑰以供開發使用。  
+3. **購買** – 為正式部署取得完整授權。  
 
-環境就緒後，我們來深入探討兩個核心情境。
+環境就緒後，讓我們深入探討兩個核心情境。
 
-## 如何在 MOV 影片中讀取 QuickTime atoms
+## 如何在 MOV 影片中讀取 QuickTime atom？
+QuickTime atom 是位於 MOV 檔案內的低階建構塊，用於儲存編解碼器、時長、軌道配置以及其他關鍵影片元資料。透過讀取它們，您可以自動為媒體建立目錄、驗證格式合規性，或提取技術細節供後續處理使用。此資訊對於構建可搜尋的媒體庫、產生品質控制報告以及供給轉碼流程皆相當有價值。
 
-### 概觀
-QuickTime atoms 儲存低階影片資訊，如時長、編解碼器與軌道配置。提取這些資訊可用於建立影片目錄、驗證檔案或執行自動化品質檢查。
-
-### 步驟實作
+`Metadata` 是 GroupDocs.Metadata 中的核心類別，代表檔案容器並提供存取其元資料結構的功能。
 
 **步驟 1：開啟 MOV 檔案**  
-建立 `Metadata` 實例並載入您的 MOV 檔案：
+Create a `Metadata` instance and load your MOV file:
 
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputMov.mov")) {
@@ -84,17 +127,19 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputMov.mov")) {
 }
 ```
 
-*說明*：try‑with‑resources 區塊可自動確保檔案句柄被釋放。
+*說明*：try‑with‑resources 區塊可確保檔案句柄自動釋放。
 
-**步驟 2：取得根套件**  
-取得包含所有 atoms 的根套件：
+`RootPackage` 代表包含所有 QuickTime atom 的頂層容器。
+
+**步驟 2：存取根容器**  
+Retrieve the root package that contains all atoms:
 
 ```java
 MovRootPackage root = metadata.getRootPackageGeneric();
 ```
 
 **步驟 3：遍歷每個 atom**  
-迭代 atom 集合並列印關鍵屬性：
+Loop through the atom collection and print key properties:
 
 ```java
 for (MovAtom atom : root.getMovPackage().getAtoms()) {
@@ -104,21 +149,19 @@ for (MovAtom atom : root.getMovPackage().getAtoms()) {
 }
 ```
 
-*說明*：此簡單迴圈會顯示每個 QuickTime atom 的類型、偏移與大小，讓您快速掌握檔案的內部結構。
+*說明*：此迴圈會顯示每個 QuickTime atom 的類型、偏移量與大小，讓您快速了解檔案的內部結構。
 
 #### 疑難排解提示
-- **File Not Found** – 再次確認路徑與檔名。  
-- **Invalid Format** – 確保輸入為真實的 MOV 容器；其他格式會拋出解析錯誤。
+- **找不到檔案** – 請再次確認路徑與檔名。  
+- **格式無效** – 請確保輸入為真實的 MOV 容器；其他格式會導致解析錯誤。
 
-## 如何向 docx 添加中繼資料（設定文件屬性 java）
+## 如何為 DOCX 新增元資料（在 Java 中設定文件屬性）？
+為 DOCX 檔案新增元資料可將作者、標題及自訂欄位嵌入檔案，使下游系統能進行索引。此功能對於自動化報告產生、合規標記與大量文件增益至關重要，能在大型文件集合中保持一致的元資料。透過程式方式設定這些屬性，可減少手動工作並提升內容管理平台的可發現性。
 
-### 概觀
-除了影片分析之外，您常常需要 **set document properties**——將作者、標題或自訂欄位寫入 DOCX 檔案。GroupDocs.Metadata 讓此操作變得簡單。
-
-### 步驟實作
+`Metadata` 也是處理 DOCX 的入口點；它抽象化了底層的 ZIP 包裝。
 
 **步驟 1：開啟 DOCX 檔案**  
-為 DOCX 文件實例化 `Metadata`：
+Instantiate `Metadata` for a DOCX document:
 
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputDocx.docx")) {
@@ -126,8 +169,10 @@ try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputDocx.docx"))
 }
 ```
 
+`DocumentProperties` 包含 DOCX 檔案的標準與自訂屬性，例如作者、標題與自訂標籤。
+
 **步驟 2：存取並設定屬性**  
-取得 `DocumentProperties` 物件並賦值：
+Retrieve the `DocumentProperties` object and assign values:
 
 ```java
 DocumentProperties properties = metadata.getDocumentProperties();
@@ -138,46 +183,52 @@ System.out.println(properties.getAuthor()); // Print author
 System.out.println(properties.getTitle());   // Print title
 ```
 
-*說明*：此處我們透過更新作者與標題欄位 **add metadata to docx**，然後列印以驗證變更。這就是在 DOCX 檔案中 **set document properties** 的核心方式。
+*說明*：此處我們透過更新作者與標題欄位 **add metadata docx java**，然後列印以驗證變更。這是 **set document properties** 在 DOCX 檔案中的核心做法。
 
 #### 疑難排解提示
-- **Unsupported File Type** – 確認檔案副檔名為 `.docx`。  
-- **Permission Issues** – 確保應用程式對目標目錄具有寫入權限。
+- **不支援的檔案類型** – 請確認檔案副檔名為 `.docx`。  
+- **權限問題** – 確保應用程式對目標目錄具有寫入權限。
 
 ## 實務應用
 
-| Scenario | Why it matters |
+| 情境 | 為何重要 |
 |----------|----------------|
-| **影片編輯軟體** | 自動以從 QuickTime atoms 提取的編解碼器與時長資料填充時間軸。 |
-| **媒體圖書館** | 透過讀取 atom 中繼資料為大型收藏建立索引，並以可搜尋欄位為每筆條目加上標籤。 |
-| **文件管理系統** | 使用 **set document properties** 將作者、專案或合規標籤直接嵌入檔案中。 |
-| **數位資產管理** | 結合影片 atom 提取與 DOCX 中繼資料，建立統一的資產記錄。 |
+| **影片編輯軟體** | 自動以從 QuickTime atom 提取的編解碼器與時長資料填充時間軸。 |
+| **媒體庫** | 透過讀取 atom 元資料為大型收藏建立索引，並以可搜尋欄位標記每筆條目。 |
+| **文件管理系統** | 使用 **add metadata docx java** 直接將作者、專案或合規標籤嵌入檔案。 |
+| **數位資產管理** | 結合影片 atom 提取與 DOCX 元資料，建立統一的資產記錄。 |
 
 ## 效能考量
 
-- **Memory Management** – 總是使用 try‑with‑resources 關閉檔案串流。  
-- **Batch Processing** – 以批次方式處理檔案（例如一次 100 個），以維持堆積記憶體使用穩定。  
-- **Profiling** – 如 VisualVM 或 YourKit 等工具可在處理數千檔案時找出效能熱點。  
+- **記憶體管理** – 始終使用 try‑with‑resources 關閉檔案串流。  
+- **批次處理** – 以批次方式處理檔案（例如一次 100 個），以維持堆積使用穩定。  
+- **效能分析** – 如 VisualVM 或 YourKit 等工具可在處理數千檔案時找出效能熱點。  
 
-## 常見問答
+## 常見問題
 
-**Q1: 什麼是 QuickTime atom？**  
-QuickTime atom 是 MOV 檔案內的組成單位，儲存編解碼器細節、時間戳記與軌道配置等資訊。
+**Q: 什麼是 QuickTime atom？**  
+QuickTime atom 是位於 MOV 檔案內的低階資料區塊，用於儲存編解碼器細節、時間戳記與軌道配置等資訊。
 
-**Q2: 我可以使用 GroupDocs.Metadata 讀取非 MOV 檔案的中繼資料嗎？**  
-可以，函式庫支援多種格式，包括 MP4、AVI、PDF、DOCX 等。
+**Q: 我可以使用 GroupDocs.Metadata 讀取非 MOV 檔案的元資料嗎？**  
+是的，函式庫支援多種格式，包括 MP4、AVI、PDF、DOCX 等。
 
-**Q3: 如何開始使用 GroupDocs.Metadata 的免費試用？**  
-前往 [GroupDocs website](https://purchase.groupdocs.com/temporary-license/) 申請臨時授權以供評估使用。
+**Q: 如何開始使用 GroupDocs.Metadata 的免費試用？**  
+前往 [GroupDocs website](https://purchase.groupdocs.com/temporary-license/) 申請臨時授權以供評估。
 
-**Q4: 設定文件中繼資料的常見使用情境是什麼？**  
+**Q: 設定文件元資料的常見使用情境是什麼？**  
 典型情境包括整理企業圖書館、自動化報告產生，以及提升內容管理系統的可搜尋性。
 
-**Q5: GroupDocs.Metadata 適合企業規模的專案嗎？**  
-絕對適合。它針對高吞吐量環境設計，並提供適用於大規模部署的彈性授權方案。
+**Q: GroupDocs.Metadata 適合企業規模的專案嗎？**  
+絕對適合。它針對高吞吐量環境設計，並提供適用於大型部署的彈性授權方案。
 
 ---
 
-**最後更新：** 2026-03-15  
+**最後更新：** 2026-10-06  
 **測試環境：** GroupDocs.Metadata 24.12 for Java  
 **作者：** GroupDocs
+
+## 相關教學
+
+- [在 Java 中使用 GroupDocs.Metadata 為文件新增最後列印日期](/metadata/java/working-with-metadata/add-last-printed-date-groupdocs-metadata-java/)
+- [使用 GroupDocs.Metadata 提取 Java 影片元資料](/metadata/java/audio-video-formats/mastering-avi-metadata-handling-groupdocs-java/)
+- [在 Java 中提取元資料：精通 GroupDocs.Metadata 的字串與日期時間屬性](/metadata/java/working-with-metadata/groupdocs-metadata-java-extract-properties/)

@@ -1,51 +1,112 @@
 ---
-date: '2026-03-15'
-description: GroupDocs.Metadata for Java का उपयोग करके जावा में वीडियो मेटाडेटा निकालना
-  सीखें, जिसमें वीडियो के आयाम निकालना और AVI हेडर को संपादित करना शामिल है, ताकि
-  सहज मीडिया प्रबंधन हो सके।
+date: '2026-10-06'
+description: GroupDocs.Metadata for Java का उपयोग करके Java में वीडियो मेटाडेटा निकालना
+  सीखें, जिसमें वीडियो डाइमेंशन्स निकालना और AVI हेडर्स को एडिट करना शामिल है, जिससे
+  सहज मीडिया मैनेजमेंट हो सके।
 keywords:
+- extract video metadata java
+- get video dimensions java
+- GroupDocs.Metadata Java
 - AVI metadata handling
-- GroupDocs.Metadata for Java
-- Java multimedia applications
-title: GroupDocs.Metadata का उपयोग करके जावा में वीडियो मेटाडेटा निकालें
+- video header extraction
+lastmod: '2026-10-06'
+og_description: GroupDocs.Metadata का उपयोग करके Java में वीडियो मेटाडेटा निकालें।
+  AVI डाइमेंशन्स पढ़ना, हेडर्स को एडिट करना, और Java में वीडियो फ़ाइलों को प्रभावी
+  ढंग से संभालना सीखें।
+og_image_alt: Guide showing Java code extracting video metadata from AVI files with
+  GroupDocs.Metadata
+og_title: GroupDocs.Metadata के साथ Java में वीडियो मेटाडेटा निकालें – Java गाइड
+schemas:
+- author: GroupDocs
+  dateModified: '2026-10-06'
+  description: Learn how to extract video metadata java using GroupDocs.Metadata for
+    Java, including extracting video dimensions and editing AVI headers for seamless
+    media management.
+  headline: Extract video metadata java with GroupDocs.Metadata
+  type: TechArticle
+- description: Learn how to extract video metadata java using GroupDocs.Metadata for
+    Java, including extracting video dimensions and editing AVI headers for seamless
+    media management.
+  name: Extract video metadata java with GroupDocs.Metadata
+  steps:
+  - name: import necessary classes
+    text: '`Metadata` and `AviHeader` are the core classes you’ll interact with. Import
+      them before any file operations.'
+  - name: open the AVI file
+    text: Instantiate `Metadata` with the path to your AVI file. The constructor validates
+      the file and prepares the header object for reading.
+  - name: access AVI header properties
+    text: '`getHeader()` returns an `AviHeader` instance. From there you can call
+      `getWidth()`, `getHeight()`, `getFrameRate()`, and other getters to retrieve
+      numeric metadata.'
+  - name: display properties
+    text: Print or log the retrieved values. This example uses `System.out.println`,
+      but you can integrate the data into any downstream workflow.
+  - name: prepare the metadata management class
+    text: Create a `Metadata` instance for the target file, then call the appropriate
+      format‑specific methods (e.g., `getAviHeader()`, `getMp4Header()`) based on
+      the file type.
+  type: HowTo
+- questions:
+  - answer: It is a pure‑Java library that enables reading, editing, and removing
+      metadata across more than 50 file formats, including video containers like AVI
+      and MP4.
+    question: What is GroupDocs.Metadata for Java?
+  - answer: Yes – a free trial or temporary license provides full API access for development
+      and testing. Production deployments require a permanent license.
+    question: Can I use GroupDocs.Metadata without purchasing a license?
+  - answer: No. You can also download the JAR from the release page and add it to
+      your classpath manually.
+    question: Is Maven the only way to add the library?
+  - answer: AVI, MP4, MOV, WMV, FLV, MKV, and many others. See the official documentation
+      for the complete list.
+    question: Which video formats are supported for metadata extraction?
+  - answer: Use the streaming API, which reads only header information, and always
+      close resources with try‑with‑resources to keep memory usage low.
+    question: How do I handle very large video files efficiently?
+  type: FAQPage
+tags:
+- video metadata
+- GroupDocs.Metadata
+- Java multimedia
+- AVI handling
+- metadata extraction
+title: GroupDocs.Metadata के साथ Java में वीडियो मेटाडेटा निकालें
 type: docs
 url: /hi/java/audio-video-formats/mastering-avi-metadata-handling-groupdocs-java/
 weight: 1
 ---
 
-# GroupDocs.Metadata के साथ वीडियो मेटाडाटा जावा निकालें
+# GroupDocs.Metadata के साथ जावा में वीडियो मेटाडेटा निकालें
 
-आज की डिजिटल दुनिया में, **extracting video metadata java** डेवलपर्स के लिए आवश्यक है जो ऑडियोविज़ुअल एप्लिकेशन बनाते हैं। चाहे आपको बड़े मीडिया लाइब्रेरी को कैटलॉग करना हो या वीडियो‑एडिटिंग टूल बनाना हो, AVI फ़ाइल हेडर को जल्दी पढ़ना और संशोधित करना समय बचाता है और त्रुटियों को कम करता है। इस ट्यूटोरियल में आप सीखेंगे कि वीडियो डाइमेंशन कैसे निकालें, अन्य हेडर प्रॉपर्टीज़ पढ़ें, और **GroupDocs.Metadata for Java** का उपयोग करके AVI मेटाडाटा प्रबंधित करें।
+आधुनिक मीडिया‑समृद्ध अनुप्रयोगों में, **extract video metadata java** वीडियो एसेट्स के इंडेक्सिंग, वैधता और डायनेमिक प्रोसेसिंग के लिए एक मुख्य आवश्यकता है। चाहे आप एक कैटलॉगिंग सेवा, वीडियो‑एडिटिंग सूट, या डिजिटल‑एसेट‑मैनेजमेंट (DAM) सिस्टम बना रहे हों, AVI हेडर जानकारी को जल्दी पढ़ना मैन्युअल कार्य के घंटों को बचाता है और महंगे रन‑टाइम त्रुटियों को रोकता है। यह ट्यूटोरियल आपको AVI फ़ाइल लोड करने, उसकी चौड़ाई और ऊँचाई निकालने, और **GroupDocs.Metadata for Java** का उपयोग करके अतिरिक्त हेडर फ़ील्ड्स तक पहुँचने के चरण दिखाता है।
 
 ## त्वरित उत्तर
-- **वीडियो मेटाडाटा एक्सट्रैक्शन क्या सक्षम करता है?** यह आपको वीडियो फ़ाइलों से डाइमेंशन, फ्रेम काउंट, और कोडेक जानकारी जैसी प्रॉपर्टीज़ पढ़ने की अनुमति देता है।  
-- **कौन सा लाइब्रेरी AVI हैंडलिंग को सरल बनाता है?** GroupDocs.Metadata for Java कई वीडियो फ़ॉर्मैट्स के लिए एकीकृत API प्रदान करता है।  
-- **क्या इसे आज़माने के लिए लाइसेंस चाहिए?** हाँ—एक फ्री ट्रायल या टेम्पररी लाइसेंस विकास और परीक्षण के लिए काम करता है।  
+- **वीडियो मेटाडेटा निष्कर्षण क्या सक्षम करता है?** यह आपको आयाम, फ्रेम काउंट, कोडेक, और अवधि जैसी प्रॉपर्टीज़ को पूरी वीडियो स्ट्रीम को डिकोड किए बिना पढ़ने की अनुमति देता है।  
+- **AVI हैंडलिंग को सरल बनाने वाली लाइब्रेरी कौन सी है?** GroupDocs.Metadata for Java एकीकृत, pure‑Java API प्रदान करता है जो 50 से अधिक वीडियो और दस्तावेज़ फ़ॉर्मेट्स का समर्थन करता है।  
+- **क्या इसे आज़माने के लिए लाइसेंस चाहिए?** हाँ – एक मुफ्त ट्रायल या टेम्पररी लाइसेंस विकास और परीक्षण के लिए काम करता है।  
 - **क्या मैं लाइब्रेरी जोड़ने के लिए Maven का उपयोग कर सकता हूँ?** बिल्कुल; Maven कोऑर्डिनेट्स नीचे दिए गए हैं।  
-- **क्या वीडियो डाइमेंशन निकालना संभव है?** हाँ—`getHeader().getWidth()` और `getHeader().getHeight()` मेथड्स का उपयोग करें।
+- **क्या वीडियो आयाम निकालना संभव है?** हाँ – फ़ाइल खोलने के बाद `getHeader().getWidth()` और `getHeader().getHeight()` कॉल करें।  
 
-## AVI फ़ाइलों से वीडियो मेटाडाटा जावा निकालने का तरीका
-निम्नलिखित चरण **how to extract video metadata java** को GroupDocs.Metadata का उपयोग करके दर्शाते हैं। हम एक AVI फ़ाइल खोलने, उसके हेडर को पढ़ने, और चौड़ाई व ऊँचाई मान निकालने की प्रक्रिया दिखाएंगे, जो कई डेवलपर्स को डाउनस्ट्रीम प्रोसेसिंग के लिए चाहिए।
+## AVI फ़ाइलों से जावा में वीडियो मेटाडेटा निकालने का तरीका
+AVI फ़ाइल को लोड करें, उसका हेडर पढ़ें, और केवल कुछ पंक्तियों के कोड में चौड़ाई और ऊँचाई मान प्राप्त करें। यह सीधा‑उत्तर पैराग्राफ आपको ठीक‑ठीक बताता है कि क्या करना है: फ़ाइल पाथ के साथ `Metadata` क्लास का इंस्टैंसिएट करें, `getHeader()` कॉल करके `AviHeader` ऑब्जेक्ट प्राप्त करें, फिर `getWidth()` और `getHeight()` प्रॉपर्टीज़ पढ़ें। API केवल हेडर सेक्शन को छूता है, इसलिए ऑपरेशन तेज़ और मेमोरी‑कुशल रहता है, यहाँ तक कि मल्टी‑गिगाबाइट वीडियो के लिए भी।
 
-## वीडियो मेटाडाटा एक्सट्रैक्शन क्या है?
-वीडियो मेटाडाटा एक्सट्रैक्शन वह प्रक्रिया है जिसमें प्रोग्रामेटिक रूप से वीडियो फ़ाइलों में एम्बेडेड वर्णनात्मक जानकारी—जैसे कोडेक, रिज़ॉल्यूशन, अवधि, और फ्रेम काउंट—को पूरी वीडियो स्ट्रीम को डिकोड किए बिना प्राप्त किया जाता है। यह डेटा कंटेनर हेडर (जैसे AVI, MP4) में संग्रहीत होता है और इंडेक्सिंग, वैलिडेशन, या ट्रांसफ़ॉर्मेशन कार्यों के लिए जल्दी एक्सेस किया जा सकता है।
+## वीडियो मेटाडेटा निष्कर्षण क्या है?
+वीडियो मेटाडेटा निष्कर्षण वह प्रोग्रामेटिक पुनर्प्राप्ति है जो वीडियो कंटेनर के हेडर में संग्रहीत वर्णनात्मक जानकारी, जैसे कोडेक, रिज़ॉल्यूशन, फ्रेम रेट, और अवधि, को प्राप्त करती है। यह डेटा पूरी मीडिया को स्ट्रीम किए बिना तुरंत उपलब्ध होता है, जिससे आपके जावा अनुप्रयोगों में तेज़ इंडेक्सिंग, वैधता, और शर्तीय प्रोसेसिंग संभव होती है।
 
-## Java के लिए GroupDocs.Metadata क्यों उपयोग करें?
-- **Unified API:** AVI, MP4, MOV आदि सहित दर्जनों फ़ॉर्मैट्स पर काम करता है।  
-- **No native dependencies:** शुद्ध Java इम्प्लीमेंटेशन, किसी भी JVM प्रोजेक्ट में आसानी से इंटीग्रेट किया जा सकता है।  
-- **Robust licensing:** फ्री ट्रायल, टेम्पररी, और परपेचुअल लाइसेंस विकास के दौरान लचीलापन प्रदान करते हैं।  
-- **Performance‑focused:** केवल आवश्यक हेडर सेक्शन पढ़ता है, जिससे बड़े फ़ाइलों के लिए भी मेमोरी उपयोग कम रहता है।
+## जावा के लिए GroupDocs.Metadata क्यों उपयोग करें?
+GroupDocs.Metadata एक **pure‑Java, dependency‑free** समाधान प्रदान करता है जो किसी भी JVM पर काम करता है, डेस्कटॉप यूटिलिटीज़ से लेकर क्लाउड माइक्रो‑सर्विसेज़ तक। यह **50+ इनपुट और आउटपुट फ़ॉर्मेट्स** (जैसे AVI, MP4, MOV, WMV, FLV, और इमेज सीक्वेंसेज़) का समर्थन करता है और 10 GB से बड़े फ़ाइलों के हेडर सेक्शन को पूरी सामग्री को मेमोरी में लोड किए बिना पढ़ सकता है। लाइब्रेरी बिल्ट‑इन लाइसेंसिंग लचीलापन भी देती है: ट्रायल, टेम्पररी, और पर्मेनेन्ट लाइसेंस।
 
 ## पूर्वापेक्षाएँ
-- **GroupDocs.Metadata for Java** (संस्करण 24.12 या बाद का)  
-- Java Development Kit (JDK 8+ अनुशंसित)  
-- IntelliJ IDEA या Eclipse जैसे IDE (वैकल्पिक लेकिन उपयोगी)  
-- Maven की बेसिक जानकारी (या मैन्युअली JAR जोड़ने की इच्छा)
+- GroupDocs.Metadata for Java (संस्करण 24.12 या बाद का)  
+- JDK 8 या नया (JDK 11 सिफारिश किया गया)  
+- Maven 3.6+ **या** मैनुअल JAR डाउनलोड  
+- Java I/O और अपवाद हैंडलिंग की बुनियादी परिचितता  
 
-## Java के लिए GroupDocs.Metadata सेटअप करना
+## जावा के लिए GroupDocs.Metadata सेटअप करना
 
 ### Maven का उपयोग करके
-अपने `pom.xml` फ़ाइल में निम्नलिखित कॉन्फ़िगरेशन जोड़ें ताकि GroupDocs.Metadata को डिपेंडेंसी के रूप में शामिल किया जा सके:
+`pom.xml` में निम्नलिखित डिपेंडेंसी जोड़ें। यह स्निपेट Maven Central से नवीनतम स्थिर रिलीज़ को खींचता है।
 
 ```xml
 <repositories>
@@ -65,16 +126,18 @@ weight: 1
 </dependencies>
 ```
 
-### डायरेक्ट डाउनलोड
-यदि आप Maven का उपयोग नहीं करना चाहते हैं, तो नवीनतम संस्करण [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) से डाउनलोड करें।
+### सीधे डाउनलोड
+यदि आप मैनुअल तरीका पसंद करते हैं, तो आधिकारिक रिलीज़ पेज से JAR डाउनलोड करें।
 
-### लाइसेंस प्राप्त करने के चरण
-1. **Free Trial:** ट्रायल संस्करण डाउनलोड करके शुरू करें।  
-2. **Temporary License:** सभी फीचर्स को बिना सीमाओं के एक्सप्लोर करने के लिए टेम्पररी लाइसेंस प्राप्त करें।  
-3. **Purchase License:** दीर्घकालिक उपयोग के लिए, [GroupDocs](https://purchase.groupdocs.com/) से पूर्ण लाइसेंस खरीदें।
+[GroupDocs.Metadata for Java रिलीज़](https://releases.groupdocs.com/metadata/java/)
 
-### बेसिक इनिशियलाइज़ेशन और सेटअप
-एक बार लाइब्रेरी आपके प्रोजेक्ट में जोड़ दी गई, तो इसे निम्नानुसार इनिशियलाइज़ करें:
+### लाइसेंस प्राप्ति चरण
+1. **फ़्री ट्रायल:** प्रयोग शुरू करने के लिए एक ट्रायल लाइसेंस डाउनलोड करें।  
+2. **टेम्पररी लाइसेंस:** खरीदारी के बिना विस्तारित परीक्षण के लिए एक टेम्पररी कुंजी का अनुरोध करें।  
+3. **फुल लाइसेंस:** GroupDocs से पूर्ण लाइसेंस खरीदें: [GroupDocs](https://purchase.groupdocs.com/)।  
+
+### बुनियादी इनिशियलाइज़ेशन और सेटअप
+`Metadata` क्लास सभी फ़ाइल‑स्तर ऑपरेशन्स के लिए एंट्री पॉइंट है। यह फ़ाइल खोलता है, फ़ॉर्मेट को वैलिडेट करता है, और `AviHeader` जैसे फ़ॉर्मेट‑विशिष्ट ऑब्जेक्ट्स को एक्सपोज़ करता है।
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -84,25 +147,31 @@ try (Metadata metadata = new Metadata("path/to/your/file.avi")) {
 }
 ```
 
-## वीडियो मेटाडाटा एक्सट्रैक्शन: AVI हेडर प्रॉपर्टीज़ पढ़ना
+## वीडियो मेटाडेटा निष्कर्षण: AVI हेडर प्रॉपर्टीज़ पढ़ना
 
-### ओवरव्यू
-यह सेक्शन दिखाता है कि GroupDocs.Metadata का उपयोग करके AVI फ़ाइल से **वीडियो डाइमेंशन** और अन्य प्रमुख हेडर वैल्यूज़ कैसे निकाली जाएँ।
+### अवलोकन
+यह सेक्शन दिखाता है कि AVI फ़ाइल से वीडियो आयाम और अन्य मुख्य प्रॉपर्टीज़ कैसे पढ़ें। प्रक्रिया केवल हेडर को छूती है, जिससे यह बड़े‑पैमाने के बैच जॉब्स के लिए उपयुक्त बनती है।
 
 #### चरण 1: आवश्यक क्लासेस इम्पोर्ट करें
+`Metadata` और `AviHeader` मुख्य क्लासेस हैं जिनके साथ आप इंटरैक्ट करेंगे। फ़ाइल ऑपरेशन्स से पहले इन्हें इम्पोर्ट करें।
+
 ```java
 import com.groupdocs.metadata.Metadata;
 import com.groupdocs.metadata.core.AviRootPackage;
 ```
 
 #### चरण 2: AVI फ़ाइल खोलें
+`Metadata` को अपने AVI फ़ाइल पाथ के साथ इंस्टैंसिएट करें। कंस्ट्रक्टर फ़ाइल को वैलिडेट करता है और पढ़ने के लिए हेडर ऑब्जेक्ट तैयार करता है।
+
 ```java
 try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputAvi.avi")) {
     // Code to access AVI properties.
 }
 ```
 
-#### चरण 3: AVI हेडर प्रॉपर्टीज़ एक्सेस करें
+#### चरण 3: AVI हेडर प्रॉपर्टीज़ तक पहुँचें
+`getHeader()` एक `AviHeader` इंस्टेंस लौटाता है। वहां से आप `getWidth()`, `getHeight()`, `getFrameRate()` और अन्य गेटर्स को कॉल करके संख्यात्मक मेटाडेटा प्राप्त कर सकते हैं।
+
 ```java
 AviRootPackage root = metadata.getRootPackageGeneric();
 String aviHeaderFlags = root.getHeader().getAviHeaderFlags();
@@ -111,25 +180,29 @@ int width = root.getHeader().getWidth();
 long totalFrames = root.getHeader().getTotalFrames();
 ```
 
-#### चरण 4: प्रॉपर्टीज़ दिखाएँ
+#### चरण 4: प्रॉपर्टीज़ प्रदर्शित करें
+प्राप्त मानों को प्रिंट या लॉग करें। यह उदाहरण `System.out.println` का उपयोग करता है, लेकिन आप डेटा को किसी भी डाउनस्ट्रीम वर्कफ़्लो में इंटीग्रेट कर सकते हैं।
+
 ```java
 System.out.println("AVI Header Flags: " + aviHeaderFlags);
 System.out.println("Width: " + width + ", Height: " + height);
 System.out.println("Total Frames: " + totalFrames);
 ```
 
-### वीडियो चौड़ाई जावा कैसे प्राप्त करें
-`width` वेरिएबल, जो **Step 3** में प्राप्त हुआ है, पिक्सेल में वीडियो की चौड़ाई दर्शाता है। आप इस मान को स्टोर कर सकते हैं, आवश्यक रिज़ॉल्यूशन से तुलना कर सकते हैं, या इसे डाउनस्ट्रीम प्रोसेसिंग पाइपलाइन में पास कर सकते हैं।
+### जावा में वीडियो चौड़ाई कैसे प्राप्त करें
+चौड़ाई `aviHeader.getWidth()` के माध्यम से प्राप्त होती है, जो क्षैतिज पिक्सेल काउंट लौटाता है। चौड़ाई जानने से आप तय कर सकते हैं कि आपके एप्लिकेशन की रिज़ॉल्यूशन आवश्यकताओं के आधार पर वीडियो को अपस्केल, डाउनस्केल या अस्वीकार करना है।
 
-### वीडियो ऊँचाई जावा कैसे प्राप्त करें
-इसी तरह, `height` वेरिएबल पिक्सेल में वीडियो की ऊँचाई रखता है। इसका उपयोग एस्पेक्ट रेशियो वैलिडेट करने, सही आकार के थंबनेल जनरेट करने, या क्वालिटी स्टैंडर्ड्स लागू करने के लिए करें।
+### जावा में वीडियो ऊँचाई कैसे प्राप्त करें
+ऊँचाई `aviHeader.getHeight()` से प्राप्त की जाती है। इस मान का उपयोग एस्पेक्ट रेशियो की गणना करने, सही आकार के थंबनेल बनाने, या पब्लिशिंग प्लेटफ़ॉर्म के लिए न्यूनतम ऊँचाई मानक लागू करने में करें।
 
-## विशिष्ट फ़ॉर्मैट्स के लिए मेटाडाटा प्रबंधन
+## विशिष्ट फ़ॉर्मेट्स के लिए मेटाडेटा प्रबंधन
 
-### ओवरव्यू
-GroupDocs.Metadata कई फ़ाइल प्रकारों में मेटाडाटा हैंडल करने के लिए एक सामान्य तरीका भी सपोर्ट करता है।
+### अवलोकन
+AVI के अलावा, GroupDocs.Metadata एक जनरिक `Metadata` API प्रदान करता है जो दर्जनों फ़ॉर्मेट्स के साथ काम करता है। आप फ़ॉर्मेट‑विशिष्ट कोड के बिना मेटाडेटा पढ़, संपादित या हटाए सकते हैं।
 
-#### चरण 1: मेटाडाटा मैनेजमेंट क्लास तैयार करें
+#### चरण 1: मेटाडेटा मैनेजमेंट क्लास तैयार करें
+टार्गेट फ़ाइल के लिए एक `Metadata` इंस्टेंस बनाएं, फिर फ़ाइल प्रकार के आधार पर उपयुक्त फ़ॉर्मेट‑विशिष्ट मेथड्स (जैसे `getAviHeader()`, `getMp4Header()`) को कॉल करें।
+
 ```java
 import com.groupdocs.metadata.Metadata;
 
@@ -147,56 +220,56 @@ public class MetadataManagement {
 ```
 
 ## व्यावहारिक अनुप्रयोग
-यहाँ तीन वास्तविक दुनिया के परिदृश्य हैं जहाँ वीडियो मेटाडाटा एक्सट्रैक्शन चमकता है:
-1. **Media Archiving:** बड़े वीडियो कलेक्शन को कैटलॉग और आर्काइव करने के लिए AVI मेटाडाटा का एक्सट्रैक्शन ऑटोमेट करें।  
-2. **Video Editing Software:** वीडियो डाइमेंशन और फ्रेम काउंट के आधार पर टाइमलाइन को डायनामिकली एडजस्ट करने के लिए मेटाडाटा हैंडलिंग को इंटीग्रेट करें।  
-3. **Digital Asset Management (DAM):** एसेट रिकॉर्ड्स को सटीक वीडियो प्रॉपर्टीज़ से समृद्ध करें, जिससे शक्तिशाली सर्च और फ़िल्टरिंग संभव हो।
+- **मीडिया आर्काइविंग:** AVI आयामों के निष्कर्षण को स्वचालित करके एक सर्चेबल कैटलॉग भरें, जिससे रिज़ॉल्यूशन के आधार पर एसेट्स की तेज़ पुनर्प्राप्ति संभव हो।  
+- **वीडियो एडिटिंग सॉफ़्टवेयर:** स्रोत वीडियो की चौड़ाई, ऊँचाई और फ्रेम रेट के आधार पर टाइमलाइन, ओवरले और इफ़ेक्ट्स को डायनामिक रूप से समायोजित करें।  
+- **डिजिटल एसेट मैनेजमेंट (DAM):** सटीक वीडियो प्रॉपर्टीज़ के साथ एसेट रिकॉर्ड्स को समृद्ध करें, जिससे उन्नत फ़िल्टरिंग संभव हो जैसे “सभी वीडियो 1920 px से अधिक चौड़े”।
 
 ## प्रदर्शन संबंधी विचार
-- **Streamlined I/O:** GroupDocs.Metadata केवल हेडर सेक्शन पढ़ता है, जिससे डिस्क एक्सेस कम हो जाता है।  
-- **Memory Management:** try‑with‑resources (जैसा दिखाया गया है) का उपयोग करें ताकि फ़ाइल हैंडल तुरंत बंद हो जाएँ।  
-- **Large Files:** जब गीगाबाइट‑साइज़ वीडियो प्रोसेस कर रहे हों, तो मेटाडाटा को बैच में प्रोसेस करें और पूरी मीडिया स्ट्रीम को मेमोरी में लोड करने से बचें।
+- **टार्गेटेड I/O:** केवल हेडर बाइट्स पढ़े जाते हैं, जिससे मल्टी‑गिगाबाइट फ़ाइलों के लिए भी डिस्क एक्सेस कुछ किलोबाइट्स तक सीमित रहता है।  
+- **मेमोरी उपयोग:** API Java के try‑with‑resources पैटर्न का उपयोग करके फ़ाइल स्ट्रीम्स को स्वचालित रूप से बंद करता है, जिससे लीक नहीं होते।  
+- **बैच प्रोसेसिंग:** हजारों वीडियो को संभालते समय, प्रत्येक थ्रेड के लिए एक `Metadata` इंस्टेंस पुन: उपयोग करें और फ़ाइलों को समानांतर प्रोसेस करें ताकि CPU उपयोग अधिकतम हो।
 
 ## सामान्य समस्याएँ और समाधान
-- **Incorrect file path:** सुनिश्चित करें कि आप `new Metadata(...)` में जो पाथ पास कर रहे हैं वह मौज़ूद AVI फ़ाइल की ओर इशारा करता है; अन्यथा `FileNotFoundException` फेंका जाएगा।  
-- **Unsupported codec:** कुछ दुर्लभ AVI कोडेक सभी हेडर फ़ील्ड्स को एक्सपोज़ नहीं कर सकते; ऐसे मामलों में लाइब्रेरी डिफ़ॉल्ट वैल्यूज़ रिटर्न करेगी।  
-- **License errors:** यदि आप लाइसेंसिंग एक्सेप्शन देखते हैं, तो जांचें कि ट्रायल या टेम्पररी लाइसेंस फ़ाइल सही जगह पर रखी गई है और आपके प्रोजेक्ट में रेफ़रेंस की गई है।
+- **गलत फ़ाइल पाथ:** `new Metadata(...)` को दिया गया पाथ एक मौजूदा AVI फ़ाइल की ओर इंगित करता है, यह सत्यापित करें; अन्यथा `FileNotFoundException` फेंका जाएगा।  
+- **असमर्थित कोडेक:** दुर्लभ AVI कोडेक सभी हेडर फ़ील्ड्स को एक्सपोज़ नहीं कर सकते; ऐसे मामलों में लाइब्रेरी डिफ़ॉल्ट मान (जैसे 0) लौटाती है।  
+- **लाइसेंस त्रुटियाँ:** यदि आप लाइसेंसिंग एक्सेप्शन का सामना करते हैं, तो सुनिश्चित करें कि ट्रायल या टेम्पररी लाइसेंस फ़ाइल प्रोजेक्ट रूट में रखी गई है और `License.setLicense("license_path")` के माध्यम से संदर्भित है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: GroupDocs.Metadata for Java क्या है?**  
-A: यह एक शक्तिशाली Java लाइब्रेरी है जो विभिन्न फ़ाइल फ़ॉर्मैट्स, जिसमें AVI जैसे वीडियो कंटेनर शामिल हैं, में मेटाडाटा को पढ़ने, एडिट करने और हटाने की सुविधा देती है।
+A: यह एक pure‑Java लाइब्रेरी है जो 50 से अधिक फ़ाइल फ़ॉर्मेट्स, जिसमें AVI और MP4 जैसे वीडियो कंटेनर शामिल हैं, में मेटाडेटा पढ़ने, संपादित करने और हटाने को सक्षम करती है।
 
-**Q: क्या मैं GroupDocs.Metadata को बिना लाइसेंस खरीदे उपयोग कर सकता हूँ?**  
-A: हाँ—आप फ्री ट्रायल से शुरू कर सकते हैं या विकास और परीक्षण के लिए टेम्पररी लाइसेंस प्राप्त कर सकते हैं। प्रोडक्शन डिप्लॉयमेंट के लिए पूर्ण लाइसेंस आवश्यक है।
+**Q: क्या मैं लाइसेंस खरीदे बिना GroupDocs.Metadata का उपयोग कर सकता हूँ?**  
+A: हाँ – एक मुफ्त ट्रायल या टेम्पररी लाइसेंस विकास और परीक्षण के लिए पूर्ण API एक्सेस प्रदान करता है। प्रोडक्शन डिप्लॉयमेंट्स के लिए स्थायी लाइसेंस आवश्यक है।
 
 **Q: क्या लाइब्रेरी जोड़ने का एकमात्र तरीका Maven है?**  
-A: नहीं। आप रिलीज़ पेज से JAR सीधे डाउनलोड करके अपने प्रोजेक्ट के क्लासपाथ में जोड़ सकते हैं।
+A: नहीं। आप रिलीज़ पेज से JAR डाउनलोड करके इसे मैन्युअल रूप से क्लासपाथ में भी जोड़ सकते हैं।
 
-**Q: मेटाडाटा एक्सट्रैक्शन के लिए कौन से वीडियो फ़ॉर्मैट्स सपोर्टेड हैं?**  
-A: AVI, MP4, MOV, WMV, FLV, और कई अन्य। पूरी सूची के लिए आधिकारिक डॉक्यूमेंटेशन देखें।
+**Q: मेटाडेटा निष्कर्षण के लिए कौन से वीडियो फ़ॉर्मेट्स समर्थित हैं?**  
+A: AVI, MP4, MOV, WMV, FLV, MKV, और कई अन्य। पूरी सूची के लिए आधिकारिक दस्तावेज़ देखें।
 
-**Q: बहुत बड़े वीडियो फ़ाइलों को कुशलता से कैसे हैंडल करूँ?**  
-A: लाइब्रेरी के स्ट्रिमिंग API का उपयोग करें, केवल हेडर जानकारी प्रोसेस करें, और रिसोर्सेज़ को तुरंत बंद करें (जैसा कि try‑with‑resources में दिखाया गया है)।
-
-**Q: क्या मैं पूरी फ़ाइल लोड किए बिना केवल चौड़ाई और ऊँचाई प्राप्त कर सकता हूँ?**  
-A: बिल्कुल। API केवल हेडर सेक्शन को एक्सेस करता है, इसलिए `getHeader().getWidth()` और `getHeader().getHeight()` हल्के ऑपरेशन हैं।
+**Q: बहुत बड़े वीडियो फ़ाइलों को कुशलतापूर्वक कैसे संभालें?**  
+A: स्ट्रीमिंग API का उपयोग करें, जो केवल हेडर जानकारी पढ़ता है, और हमेशा try‑with‑resources के साथ रिसोर्सेज़ को बंद करें ताकि मेमोरी उपयोग कम रहे।
 
 ## निष्कर्ष
-इस गाइड में हमने GroupDocs.Metadata for Java का उपयोग करके AVI फ़ाइलों के लिए **how to extract video metadata java** को कवर किया। अब आप हेडर जानकारी पढ़ना, **वीडियो डाइमेंशन निकालना**, और इन तकनीकों को वास्तविक प्रोजेक्ट्स में लागू करना जानते हैं। अन्य फ़ॉर्मैट्स (MP4, MOV, आदि) के साथ प्रयोग करके अपने मीडिया‑हैंडलिंग टूलकिट को विस्तृत करें।
+अब आपके पास AVI फ़ाइलों से **extract video metadata java** करने के लिए GroupDocs.Metadata का उपयोग करते हुए एक पूर्ण, प्रोडक्शन‑रेडी गाइड है। चौड़ाई और ऊँचाई जैसी हेडर प्रॉपर्टीज़ पढ़कर आप इंटेलिजेंट मीडिया वर्कफ़्लो चला सकते हैं, क्वालिटी स्टैंडर्ड्स लागू कर सकते हैं, और मजबूत कैटलॉगिंग सिस्टम बना सकते हैं। समान API को अन्य फ़ॉर्मेट्स (MP4, MOV, आदि) के साथ एक्सप्लोर करें ताकि अपने जावा मल्टीमीडिया टूलकिट को विस्तारित कर सकें।
 
 **संसाधन**
-- **Documentation:** [GroupDocs Metadata Documentation](https://docs.groupdocs.com/metadata/java/)  
-- **API Reference:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
-- **Download:** [Latest Releases](https://releases.groupdocs.com/metadata/java/)  
-- **GitHub Repository:** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- **Free Support Forum:** [GroupDocs Free Support](https://forum.groupdocs.com/c/metadata/)  
-- **Temporary License:** [Obtain Temporary License](https://purchase.groupdocs.com/temporary-license/)
+- **दस्तावेज़ीकरण:** [GroupDocs मेटाडेटा दस्तावेज़ीकरण](https://docs.groupdocs.com/metadata/java/)  
+- **API संदर्भ:** [GroupDocs API संदर्भ](https://reference.groupdocs.com/metadata/java/)  
+- **डाउनलोड:** [नवीनतम रिलीज़](https://releases.groupdocs.com/metadata/java/)  
+- **GitHub रिपॉजिटरी:** [GroupDocs.Metadata GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
+- **फ्री सपोर्ट फ़ोरम:** [GroupDocs फ्री सपोर्ट](https://forum.groupdocs.com/c/metadata/)  
+- **टेम्पररी लाइसेंस:** [टेम्पररी लाइसेंस प्राप्त करें](https://purchase.groupdocs.com/temporary-license/)  
 
 ---
 
-**अंतिम अपडेट:** 2026-03-15  
+**अंतिम अपडेट:** 2026-10-06  
 **परीक्षित संस्करण:** GroupDocs.Metadata 24.12 for Java  
-**लेखक:** GroupDocs  
+**लेखक:** GroupDocs
 
----
+## संबंधित ट्यूटोरियल्स
+
+- [AVI मेटाडेटा निकालें GroupDocs Metadata जावा](/metadata/java/audio-video-formats/extract-avi-metadata-groupdocs-metadata-java/)
+- [Matroska मेटाडेटा निकालें GroupDocs जावा](/metadata/java/audio-video-formats/extract-matroska-metadata-groupdocs-java/)
+- [MP3 मेटाडेटा निकालें जावा – GroupDocs.Metadata ट्यूटोरियल्स](/metadata/java/audio-video-formats/)

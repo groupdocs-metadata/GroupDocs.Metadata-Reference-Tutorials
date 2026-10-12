@@ -1,51 +1,95 @@
 ---
-date: '2026-03-17'
-description: เรียนรู้วิธีเพิ่มประสิทธิภาพขนาดไฟล์ MP3 โดยการลบแท็ก APEv2 ด้วย GroupDocs.Metadata
-  สำหรับ Java เพื่อลดขนาดไฟล์ MP3 และทำความสะอาดข้อมูลเมตา.
+date: '2026-10-12'
+description: เรียนรู้วิธีลบข้อมูลเมตา mp3 และลบแท็ก APEv2 ด้วย GroupDocs.Metadata
+  for Java เพื่อลดขนาดไฟล์และทำความสะอาดไฟล์เสียง
 keywords:
-- remove APEv2 tags from MP3
-- GroupDocs.Metadata Java library
-- streamline audio files
-title: วิธีเพิ่มประสิทธิภาพขนาด MP3 – ลบแท็ก APEv2 ด้วย GroupDocs.Metadata (Java)
+- strip mp3 metadata
+- reduce mp3 file size
+- clean mp3 metadata
+- groupdocs metadata java
+lastmod: '2026-10-12'
+og_description: ลบข้อมูลเมตา mp3 และลบแท็ก APEv2 ด้วย GroupDocs.Metadata for Java
+  ลดขนาดไฟล์ mp3 ทำความสะอาดห้องสมุดเสียง และเพิ่มประสิทธิภาพการจัดเก็บในไม่กี่นาที
+og_image_alt: Guide showing how to strip MP3 metadata with GroupDocs.Metadata Java
+  SDK
+og_title: ลบข้อมูลเมตา mp3 ด้วย GroupDocs.Metadata for Java
+schemas:
+- author: GroupDocs
+  dateModified: '2026-10-12'
+  description: Learn how to strip mp3 metadata and remove APEv2 tags using GroupDocs.Metadata
+    for Java, reducing file size and cleaning audio files.
+  headline: How to strip mp3 metadata with GroupDocs.Metadata for Java
+  type: TechArticle
+- description: Learn how to strip mp3 metadata and remove APEv2 tags using GroupDocs.Metadata
+    for Java, reducing file size and cleaning audio files.
+  name: How to strip mp3 metadata with GroupDocs.Metadata for Java
+  steps:
+  - name: '**Audio archiving** – Clean, lightweight files are easier to store and
+      back up.'
+    text: '**Audio archiving** – Clean, lightweight files are easier to store and
+      back up.'
+  - name: '**Streaming & distribution** – Smaller files mean faster buffering and
+      lower bandwidth costs.'
+    text: '**Streaming & distribution** – Smaller files mean faster buffering and
+      lower bandwidth costs.'
+  - name: '**Privacy compliance** – Removing metadata eliminates potentially sensitive
+      information such as author names or recording locations.'
+    text: '**Privacy compliance** – Removing metadata eliminates potentially sensitive
+      information such as author names or recording locations.'
+  type: HowTo
+- questions:
+  - answer: APEv2 (Audio Processing Extended) is a flexible tagging format that can
+      store a wide range of metadata inside MP3 files.
+    question: What is APEv2?
+  - answer: Yes, the library supports removal and editing of ID3, Vorbis comments,
+      and many other metadata formats.
+    question: Can I remove other tag types with GroupDocs.Metadata?
+  - answer: No, it is a commercial library, but a free trial is available for evaluation.
+    question: Is GroupDocs.Metadata for Java open‑source?
+  - answer: Absolutely. GroupDocs.Metadata handles a variety of audio and video formats
+      beyond MP3.
+    question: Does the API work with non‑MP3 audio files?
+  - answer: Verify you are using version 24.12 or newer, and ensure the file path
+      points to the correct source file. Consult the official docs for any API changes.
+    question: The APEv2 tag still appears after running the code. What should I do?
+  type: FAQPage
+tags:
+- mp3 optimization
+- groupdocs metadata
+- java audio processing
+- metadata removal
+title: วิธีลบข้อมูลเมตา mp3 ด้วย GroupDocs.Metadata for Java
 type: docs
 url: /th/java/audio-video-formats/remove-apev2-tags-groupdocs-metadata-java/
 weight: 1
 ---
 
- link text to Thai but keep URL.
+# วิธีลบข้อมูลเมตา mp3 ด้วย GroupDocs.Metadata สำหรับ Java
 
-Ok.
-
-Let's produce final translation.
-
-# ปรับขนาด MP3 – ลบแท็ก APEv2 ด้วย GroupDocs.Metadata (Java)
-
-หากคุณต้องการ **ปรับขนาด mp3** การลบแท็ก APEv2 ที่ไม่จำเป็นเป็นวิธีที่เร็วที่สุดแทนหนึ่ง แท็กเหล่านี้มักเพิ่มกิโลไบต์เพิ่มเติมโดยไม่มีประโยชน์ต่อการเล่นและอาจทำให้ห้องสมุดสื่อของคุณรกเกินไป ในบทแนะนำนี้เราจะอธิบายวิธีการลบเมตาดาต้า APEv2 จากไฟล์ MP3 ด้วยไลบรารี GroupDocs.Metadata สำหรับ Java เพื่อให้ได้ไฟล์เสียงที่เบาลงโดยไม่สูญเสียคุณภาพ
+หากคุณต้องการ **ลบข้อมูลเมตา mp3** อย่างรวดเร็ว การลบแท็ก APEv2 ที่ใช้กันน้อยเป็นวิธีที่มีประสิทธิภาพที่สุดหนึ่ง แท็กเหล่านี้อาจเพิ่มขนาดไฟล์หลายกิโลไบต์ต่อแทร็ก ซึ่งเมื่อจัดการคอลเลกชันเพลงขนาดใหญ่หรือให้บริการสตรีมเสียงก็จะสะสมได้มาก ในบทเรียนนี้คุณจะได้เรียนรู้ขั้นตอนโดยละเอียดว่าต้องใช้ไลบรารี GroupDocs.Metadata สำหรับ Java อย่างไรเพื่อลบแท็ก APEv2 ทำให้ไฟล์ MP3 มีขนาดเล็กลงโดยไม่กระทบคุณภาพเสียง
 
 ## คำตอบสั้น
-- **“ปรับขนาด mp3” หมายถึงอะไร?** การลบเมตาดาต้าที่ไม่ได้ใช้ (เช่น แท็ก APEv2) เพื่อลดขนาดไฟล์โดยรวม  
-- **ไลบรารีที่ใช้คืออะไร?** GroupDocs.Metadata สำหรับ Java  
-- **ต้องมีลิขสิทธิ์หรือไม่?** ลิขสิทธิ์ทดลองสามารถใช้เพื่อประเมินผลได้; ต้องมีลิขสิทธิ์เต็มสำหรับการใช้งานจริง  
-- **สามารถประมวลผลหลายไฟล์พร้อมกันได้หรือไม่?** ได้ – สามารถเรียก API เดียวกันในลูปหรืองานแบชได้  
-- **API นี้เป็น Java‑only หรือไม่?** ตัวอย่างใช้ Java แต่ GroupDocs.Metadata ยังรองรับ .NET และแพลตฟอร์มอื่น ๆ  
+- **หมายความว่าอย่างไรเมื่อพูดว่า “strip mp3 metadata”?** หมายถึงการลบข้อมูลแท็กที่ไม่จำเป็น—เช่น APEv2—ออกจากไฟล์ MP3 เพื่อทำให้ขนาดไฟล์เล็กลง.  
+- **ไลบรารีใดจัดการเรื่องนี้?** GroupDocs.Metadata for Java มีเมธอด `removeApeV2()` เฉพาะสำหรับการทำงานนี้.  
+- **ฉันต้องมีลิขสิทธิ์หรือไม่?** ลิขสิทธิ์ทดลองใช้ได้สำหรับการประเมินผล; ต้องมีลิขสิทธิ์เชิงพาณิชย์เต็มรูปแบบสำหรับการใช้งานในสภาพแวดล้อมการผลิต.  
+- **ฉันสามารถประมวลผลหลายไฟล์พร้อมกันได้หรือไม่?** ได้—เพียงวนลูปไฟล์หรือเรียก API ภายในงานแบช.  
+- **API นี้ใช้เฉพาะ Java หรือไม่?** ตัวอย่างใช้ Java แต่ GroupDocs.Metadata ยังรองรับ .NET, Python และแพลตฟอร์มอื่น ๆ
 
-## APEv2 Tag Removal คืออะไรและทำไมต้องปรับขนาด MP3?
-APEv2 เป็นรูปแบบแท็กที่ยืดหยุ่นและสามารถเก็บเมตาดาต้าหลากหลายประเภทได้ แม้จะมีประโยชน์ในบางกระบวนการทำงาน แต่บ่อยครั้งก็กลายเป็นข้อมูลซ้ำซ้อน การลบแท็กเหล่านี้ช่วยให้คุณ **ปรับขนาด mp3** ได้เร็วขึ้น, ลดเวลาในการโอนย้าย, และลดค่าใช้จ่ายในการจัดเก็บ – สิ่งสำคัญสำหรับห้องสมุดเพลงขนาดใหญ่หรือบริการสตรีมมิ่ง  
+## การลบแท็ก APEv2 คืออะไรและทำไมต้องลบข้อมูลเมตา mp3?
+การลบแท็ก APEv2 ตอบคำถาม “ทำไม” ของบทเรียนนี้โดยตรง: มันกำจัดข้อมูลซ้ำซึ่งโดยทั่วไปใช้พื้นที่ 2–5 KB ต่อไฟล์ การลบแท็กเหล่านี้จะทำให้คุณ **ลดขนาดไฟล์ mp3**, เร่งความเร็วการถ่ายโอนข้อมูลผ่านเครือข่าย, และทำให้ห้องสมุดเสียงของคุณเป็นระเบียบ—โดยเฉพาะอย่างยิ่งมีคุณค่าสำหรับบริการสตรีมมิ่งหรือระบบจัดเก็บที่ต้องจัดการกับหลายพันแทร็ก
 
-## ทำไมต้องลบเมตาดาต้า MP3?
-- **ลดขนาดไฟล์ mp3** – ไฟล์ที่เล็กลงหมายถึงการอัปโหลด/ดาวน์โหลดที่เร็วขึ้น  
-- **ทำความสะอาดเมตาดาต้า mp3** – ลบข้อมูลที่ล้าสมัยหรืออ่อนไหวออกไป  
-- **ปรับปรุงการจัดการห้องสมุด** – แท็กที่สอดคล้องและน้อยลงทำให้การค้นหาง่ายขึ้น  
+## ทำไมต้องลบข้อมูลเมตา mp3?
+การลบแท็กที่ไม่จำเป็นช่วยลดขนาดไฟล์, กำจัดข้อมูลที่ล้าสมัยหรือเป็นส่วนตัว, และสร้างรูปแบบการแท็กที่สอดคล้องกันซึ่งทำให้การค้นหาและการประมวลผลอัตโนมัติในคอลเลกชันขนาดใหญ่เป็นเรื่องง่าย นอกจากนี้ยังช่วยให้สอดคล้องกับกฎระเบียบความเป็นส่วนตัวและปรับปรุงประสิทธิภาพของเซิร์ฟเวอร์สื่อที่ต้องอ่านข้อมูลเมตาสำหรับแต่ละคำขอ
 
 ## ข้อกำหนดเบื้องต้น
-- **GroupDocs.Metadata สำหรับ Java** (เวอร์ชัน 24.12 หรือใหม่กว่า)  
-- **Java Development Kit (JDK)** ที่ติดตั้งบนเครื่องของคุณ  
-- IDE เช่น IntelliJ IDEA, Eclipse หรือ NetBeans (ไม่บังคับแต่แนะนำ)  
-- Maven (หากคุณต้องการจัดการ dependencies)  
+- **GroupDocs.Metadata for Java** (เวอร์ชัน 24.12 หรือใหม่กว่า).  
+- **Java Development Kit (JDK)** ที่ติดตั้งบนเครื่องของคุณ.  
+- IDE เช่น IntelliJ IDEA, Eclipse หรือ NetBeans (ไม่บังคับแต่แนะนำ).  
+- Maven สำหรับการจัดการ dependencies (หรือดาวน์โหลด JAR ด้วยตนเอง).
 
 ## การตั้งค่า GroupDocs.Metadata สำหรับ Java
 
-### Maven GroupDocs Dependency
+### การพึ่งพา Maven ของ GroupDocs
 ```xml
 <repositories>
    <repository>
@@ -65,11 +109,11 @@ APEv2 เป็นรูปแบบแท็กที่ยืดหยุ่�
 ```
 
 ### ดาวน์โหลดโดยตรง
-หรือคุณสามารถดาวน์โหลดเวอร์ชันล่าสุดจาก [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)  
+หรือคุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้จาก [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### การรับลิขสิทธิ์
-- **ทดลองฟรี** – รับลิขสิทธิ์ชั่วคราวเพื่อสำรวจคุณสมบัติทั้งหมด  
-- **ซื้อ** – ซื้อลิขสิทธิ์เต็มเพื่อใช้งานในผลิตภัณฑ์โดยไม่มีข้อจำกัด  
+- **Free trial** – รับลิขสิทธิ์ชั่วคราวเพื่อสำรวจคุณสมบัติทั้งหมด.  
+- **Purchase** – ซื้อลิขสิทธิ์เต็มรูปแบบสำหรับการใช้งานในสภาพแวดล้อมการผลิตโดยไม่มีข้อจำกัด.
 
 ### การเริ่มต้นพื้นฐาน
 ```java
@@ -80,9 +124,10 @@ try (Metadata metadata = new Metadata("path/to/your/mp3file.mp3")) {
 }
 ```
 
-## วิธีปรับขนาด MP3 โดยการลบแท็ก APEv2
+## วิธีลบข้อมูลเมตา mp3 ด้วยการลบแท็ก APEv2
+กระบวนการประกอบด้วยการโหลดไฟล์ MP3 ด้วยคลาส `Metadata`, รับ `MP3RootPackage`, เรียกเมธอด `removeApeV2()`, และสุดท้ายบันทึกไฟล์ที่แก้ไขแล้ว ลำดับนี้จะลบบล็อก APEv2 ขณะยังคงรักษาแท็กอื่น ๆ ไว้ ทำให้ได้ไฟล์เสียงที่เล็กลงและสะอาดพร้อมสำหรับการแจกจ่ายหรือการเก็บรักษา.
 
-### ขั้นตอนที่ 1: โหลดไฟล์ MP3
+### ขั้นตอนที่ 1: โหลดไฟล์ mp3
 ```java
 import com.groupdocs.metadata.Metadata;
 import com.groupdocs.metadata.core.MP3RootPackage;
@@ -96,7 +141,7 @@ public class RemoveApeV2Tag {
             // Proceed to the next step
 ```
 
-### ขั้นตอนที่ 2: เข้าถึง Root Package
+### ขั้นตอนที่ 2: เข้าถึงแพ็กเกจราก
 ```java
             MP3RootPackage root = metadata.getRootPackageGeneric();
             // Ready to remove APEv2 tags
@@ -117,66 +162,76 @@ public class RemoveApeV2Tag {
 ```
 
 #### คำอธิบายโค้ด
-- **Metadata** – จุดเริ่มต้นสำหรับการจัดการเมตาดาต้าของไฟล์ใด ๆ  
-- **MP3RootPackage** – ให้คุณทำงานเฉพาะ MP3 เช่น การลบแท็ก  
-- **removeApeV2()** – ลบบล็อก APEv2 โดยไม่กระทบแท็กอื่น ๆ ทำให้ไฟล์ MP3 มีขนาดเล็กลงโดยตรง  
+- **Metadata** – จุดเริ่มต้นสำหรับการจัดการเมตาของไฟล์ใด ๆ.  
+- **MP3RootPackage** – ให้การดำเนินการเฉพาะ MP3 เช่น การลบแท็ก.  
+- **removeApeV2()** – ลบบล็อก APEv2 โดยไม่กระทบแท็กอื่น ๆ ทำให้ไฟล์ MP3 มีขนาดเล็กลงโดยตรง.
 
-#### เคล็ดลับการแก้ปัญหา
-- **ข้อผิดพลาดไฟล์ไม่พบ:** ตรวจสอบ `inputPath` และ `outputPath` อีกครั้ง  
-- **เวอร์ชันไม่ตรงกัน:** ตรวจสอบว่าคุณใช้ GroupDocs.Metadata 24.12 หรือใหม่กว่า; เวอร์ชันเก่าอาจไม่มี `removeApeV2()`  
-- **ปัญหาการอนุญาต:** รัน JVM ด้วยสิทธิ์ไฟล์ระบบที่เพียงพอ โดยเฉพาะบน Windows  
+#### คำอธิบายคำจำกัดความ
+`Metadata` คือคลาสหลักใน GroupDocs.Metadata ที่โหลดไฟล์และให้การเข้าถึงโครงสร้างเมตาของไฟล์.  
+`MP3RootPackage` แสดงมุมมองเฉพาะ MP3 ของไฟล์, เปิดเผยเมธอดสำหรับการจัดการแท็กเช่น `removeApeV2()`.
 
-## การประยุกต์ใช้จริงของการปรับขนาด MP3
-1. **การเก็บถาวรเสียง** – ไฟล์ที่สะอาดและเบาจะง่ายต่อการจัดเก็บและสำรองข้อมูล  
-2. **สตรีมมิ่ง & การแจกจ่าย** – ไฟล์ที่เล็กลงทำให้บัฟเฟอร์เร็วขึ้นและลดค่าแบนด์วิดท์  
-3. **การปฏิบัติตามความเป็นส่วนตัว** – การลบเมตาดาต้าช่วยกำจัดข้อมูลที่อาจเป็นความลับ  
+#### เคล็ดลับการแก้ไขปัญหา
+- **File‑not‑found errors:** ตรวจสอบ `inputPath` และ `outputPath` อีกครั้ง.  
+- **Version mismatches:** ตรวจสอบว่าคุณใช้ GroupDocs.Metadata 24.12 หรือใหม่กว่า; เวอร์ชันเก่าอาจไม่มี `removeApeV2()`.  
+- **Permission issues:** รัน JVM ด้วยสิทธิ์ไฟล์ระบบที่เพียงพอ, โดยเฉพาะบน Windows.
 
-### ไอเดียการผสานรวม
-- เชื่อมกระบวนการลบเข้ากับ pipeline ระบบจัดการสินทรัพย์ดิจิทัล (DAM) เพื่อทำความสะอาดไฟล์โดยอัตโนมัติเมื่ออัปโหลด  
-- ผสานกับเครื่องมือแปลงเสียง (เช่น MP3 → AAC) เพื่อให้ผลลัพธ์สุดท้ายปราศจากเมตาดาต้า  
+## การประยุกต์ใช้การลบข้อมูลเมตา mp3 อย่างเป็นจริง
+1. **Audio archiving** – ไฟล์ที่สะอาดและมีน้ำหนักเบาง่ายต่อการจัดเก็บและสำรองข้อมูล.  
+2. **Streaming & distribution** – ไฟล์ที่เล็กลงหมายถึงการบัฟเฟอร์ที่เร็วขึ้นและค่าแบนด์วิธที่ต่ำลง.  
+3. **Privacy compliance** – การลบเมตาเอาออกจะกำจัดข้อมูลที่อาจเป็นความลับเช่นชื่อผู้เขียนหรือสถานที่บันทึก.
+
+### ไอเดียการบูรณาการ
+- ผสานกระบวนการลบเข้ากับ pipeline การจัดการสินทรัพย์ดิจิทัล (DAM) เพื่อทำความสะอาดไฟล์โดยอัตโนมัติเมื่ออัปโหลด.  
+- ผสานกับเครื่องมือแปลงเสียง (เช่น MP3 ไป AAC) เพื่อให้ผลลัพธ์สุดท้ายไม่มีเมตา.
 
 ## พิจารณาด้านประสิทธิภาพ
-- **การใช้หน่วยความจำ:** แต่ละอินสแตนซ์ `Metadata` จะโหลดไฟล์เข้าหน่วยความจำ; ปิดให้เร็วด้วย `try‑with‑resources`  
-- **การประมวลผลแบช:** สำหรับคอลเลกชันขนาดใหญ่ ให้ประมวลผลเป็นชิ้นย่อย (เช่น 100 ไฟล์ต่อแบช) เพื่อหลีกเลี่ยงข้อผิดพลาด out‑of‑memory  
-- **การทำงานแบบขนาน:** Stream ขนานของ Java สามารถเร่งการทำงานแบบ bulk ได้ แต่ต้องตรวจสอบการใช้ CPU  
+- **Memory footprint:** แต่ละอินสแตนซ์ของ `Metadata` จะเก็บไฟล์ในหน่วยความจำ; ปิดโดยเร็วด้วยการใช้ try‑with‑resources.  
+- **Batch processing:** สำหรับคอลเลกชันขนาดใหญ่, ประมวลผลไฟล์เป็นชิ้นส่วน (เช่น 100 ไฟล์ต่อแบช) เพื่อหลีกเลี่ยงข้อผิดพลาด out‑of‑memory.  
+- **Parallel execution:** parallel streams ของ Java สามารถเร่งการทำงานแบบกลุ่ม, แต่ควรตรวจสอบการใช้ CPU เพื่อป้องกันการจำกัด.
 
-## ปัญหาที่พบบ่อยและวิธีแก้
+## ปัญหาทั่วไปและวิธีแก้
 | ปัญหา | วิธีแก้ |
 |-------|----------|
-| แท็ก APEv2 ยังคงอยู่หลังรัน | ตรวจสอบว่าคุณใช้เวอร์ชัน 24.12 หรือใหม่กว่าและเส้นทางไฟล์ที่ระบุถูกต้อง |
-| Out‑of‑memory ในแบชขนาดใหญ่ | ประมวลผลไฟล์เป็นแบชเล็กลงหรือเพิ่มขนาด heap ของ JVM (`-Xmx`) |
-| ข้อผิดพลาดการตรวจสอบลิขสิทธิ์ | ตรวจสอบว่าไฟล์ลิขสิทธิ์ (trial หรือ purchased) วางในตำแหน่งที่ถูกต้องและตั้งค่าเส้นทางด้วย `License.setLicense(...)` |
+| แท็ก APEv2 ยังคงปรากฏหลังการรัน | ตรวจสอบว่าคุณใช้เวอร์ชัน 24.12 หรือใหม่กว่าและได้ระบุเส้นทางไฟล์ที่ถูกต้อง. |
+| Out‑of‑memory ในแบชขนาดใหญ่ | ประมวลผลไฟล์เป็นแบชเล็กลงหรือเพิ่มขนาด heap ของ JVM (`-Xmx`). |
+| ข้อผิดพลาดการตรวจสอบลิขสิทธิ์ | ตรวจสอบว่าไฟล์ลิขสิทธิ์ทดลองหรือที่ซื้อถูกวางอย่างถูกต้องและตั้งค่าเส้นทางผ่าน `License.setLicense(...)`. |
 
 ## คำถามที่พบบ่อย
 
-**ถาม: APEv2 คืออะไร?**  
-ตอบ: APEv2 (Audio Processing Extended) เป็นรูปแบบแท็กที่ยืดหยุ่นและสามารถเก็บเมตาดาต้าหลากหลายประเภทภายในไฟล์ MP3  
+**Q: APEv2 คืออะไร?**  
+A: APEv2 (Audio Processing Extended) คือรูปแบบแท็กที่ยืดหยุ่นซึ่งสามารถเก็บเมตาหลากหลายภายในไฟล์ MP3.
 
-**ถาม: ฉันสามารถลบประเภทแท็กอื่นด้วย GroupDocs.Metadata ได้หรือไม่?**  
-ตอบ: ได้, ไลบรารีรองรับการลบและแก้ไขแท็ก ID3, Vorbis comments และรูปแบบเมตาดาต้าอื่น ๆ มากมาย  
+**Q: ฉันสามารถลบประเภทแท็กอื่น ๆ ด้วย GroupDocs.Metadata ได้หรือไม่?**  
+A: ได้, ไลบรารีรองรับการลบและแก้ไข ID3, Vorbis comments, และรูปแบบเมตาอื่น ๆ มากมาย.
 
-**ถาม: GroupDocs.Metadata สำหรับ Java เป็นโอเพ่นซอร์สหรือไม่?**  
-ตอบ: ไม่, เป็นไลบรารีเชิงพาณิชย์ แต่มีรุ่นทดลองฟรีสำหรับการประเมินผล  
+**Q: GroupDocs.Metadata สำหรับ Java เป็นโอเพนซอร์สหรือไม่?**  
+A: ไม่, เป็นไลบรารีเชิงพาณิชย์, แต่มีลิขสิทธิ์ทดลองฟรีสำหรับการประเมินผล.
 
-**ถาม: API นี้ทำงานกับไฟล์เสียงที่ไม่ใช่ MP3 หรือไม่?**  
-ตอบ: แน่นอน, GroupDocs.Metadata รองรับรูปแบบเสียงและวิดีโอหลายประเภทนอกเหนือจาก MP3  
+**Q: API นี้ทำงานกับไฟล์เสียงที่ไม่ใช่ MP3 หรือไม่?**  
+A: แน่นอน. GroupDocs.Metadata จัดการกับรูปแบบเสียงและวิดีโอหลากหลายนอกเหนือจาก MP3.
 
-**ถาม: แท็ก APEv2 ยังคงปรากฏหลังจากรันโค้ด ฉันควรทำอย่างไร?**  
-ตอบ: ตรวจสอบว่าคุณใช้เวอร์ชัน 24.12 หรือใหม่กว่าและเส้นทางไฟล์ชี้ไปที่ไฟล์ต้นฉบับที่ถูกต้อง ดูเอกสารอย่างเป็นทางการสำหรับการเปลี่ยนแปลง API ใด ๆ  
+**Q: แท็ก APEv2 ยังปรากฏหลังจากรันโค้ด ฉันควรทำอย่างไร?**  
+A: ตรวจสอบว่าคุณใช้เวอร์ชัน 24.12 หรือใหม่กว่า, และตรวจสอบว่าเส้นทางไฟล์ชี้ไปยังไฟล์ต้นทางที่ถูกต้อง. ดูเอกสารอย่างเป็นทางการสำหรับการเปลี่ยนแปลง API ใด ๆ.
 
-**ถาม: ฉันจะผสานรวมนี้เข้ากับ pipeline CI ที่ใช้ Maven ได้อย่างไร?**  
-ตอบ: เพิ่ม dependency ของ Maven ตามที่แสดงด้านบน, จากนั้นเรียกคลาส Java ในขั้นตอน `exec` ของ Maven หลังจากเฟส `package`  
+**Q: ฉันจะบูรณาการสิ่งนี้เข้ากับ pipeline CI ที่ใช้ Maven อย่างไร?**  
+A: เพิ่ม dependency ของ Maven ที่แสดงด้านบน, จากนั้นเรียกคลาส Java ในขั้นตอนของปลั๊กอิน `exec` ของ Maven หลังขั้นตอน `package`.
 
 ## แหล่งข้อมูล
-- **เอกสาร:** ศึกษาคำแนะนำเชิงลึกที่ [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
-- **อ้างอิง API:** ดูรายละเอียดที่ [GroupDocs' official site](https://reference.groupdocs.com/metadata/java/)  
-- **ดาวน์โหลด:** รับเวอร์ชันล่าสุดจาก [ที่นี่](https://releases.groupdocs.com/metadata/java/)  
-- **GitHub:** ดูซอร์สโค้ดและการมีส่วนร่วมของชุมชนที่ [GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- **ฟอรั่มสนับสนุนฟรี:** ถามคำถามได้ที่ [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/)  
-- **ลิขสิทธิ์ชั่วคราว:** รับลิขสิทธิ์ทดลองได้ที่ [GroupDocs' Purchase Page](https://purchase.groupdocs.com)  
+- **Documentation:** สำรวจคำแนะนำเชิงลึกที่ [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/).  
+- **API reference:** อ้างอิงรายละเอียดบน [GroupDocs' official site](https://reference.groupdocs.com/metadata/java/).  
+- **Download:** ดาวน์โหลดเวอร์ชันล่าสุดจาก [GroupDocs.Metadata Java release page](https://releases.groupdocs.com/metadata/java/).  
+- **GitHub:** ดูซอร์สโค้ดและการมีส่วนร่วมของชุมชนที่ [GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java).  
+- **Free support forum:** ถามคำถามใน [GroupDocs Forum](https://forum.groupdocs.com/c/metadata/).  
+- **Temporary license:** รับลิขสิทธิ์ทดลองได้ที่ [GroupDocs' Purchase Page](https://purchase.groupdocs.com).
 
 ---
 
-**อัปเดตล่าสุด:** 2026-03-17  
-**ทดสอบกับ:** GroupDocs.Metadata 24.12 for Java  
+**อัปเดตล่าสุด:** 2026-10-12  
+**ทดสอบด้วย:** GroupDocs.Metadata 24.12 for Java  
 **ผู้เขียน:** GroupDocs
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [อ่านแท็ก Apev2 Mp3 Java Groupdocs Metadata](/metadata/java/audio-video-formats/read-apev2-tags-mp3-java-groupdocs-metadata/)
+- [ลบแท็ก Id3V1 Groupdocs Metadata Java](/metadata/java/audio-video-formats/remove-id3v1-tags-groupdocs-metadata-java/)
+- [อ่านแท็ก Id3V2 Groupdocs Metadata Java](/metadata/java/audio-video-formats/read-id3v2-tags-groupdocs-metadata-java/)

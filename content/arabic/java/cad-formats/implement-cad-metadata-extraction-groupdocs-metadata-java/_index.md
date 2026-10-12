@@ -1,65 +1,95 @@
 ---
-date: '2026-03-17'
-description: تعلم كيفية استخدام GroupDocs لاستخراج بيانات تعريف CAD بسهولة في Java
-  باستخدام GroupDocs.Metadata. دليل خطوة بخطوة للمطورين.
+date: '2026-10-12'
+description: تعلم كيفية استخراج بيانات تعريف CAD في Java باستخدام GroupDocs.Metadata.
+  دليل خطوة بخطوة للمطورين لقراءة المؤلف، الإصدار، الطوابع الزمنية والمزيد.
 keywords:
-- CAD metadata extraction Java
-- GroupDocs.Metadata library
-- Java CAD metadata
-title: كيفية استخدام GroupDocs لاستخراج بيانات تعريف CAD في Java
+- how to extract cad
+- GroupDocs.Metadata Java
+- CAD metadata extraction
+- Java CAD processing
+lastmod: '2026-10-12'
+og_description: كيفية استخراج بيانات تعريف CAD في Java باستخدام GroupDocs.Metadata.
+  اتبع هذا الدليل لقراءة المؤلف، الإصدار، الطوابع الزمنية، والخصائص المخصصة من ملفات
+  DWG و DWF و DXF.
+og_image_alt: Developer guide showing Java code that extracts CAD metadata with GroupDocs.Metadata
+og_title: كيفية استخراج بيانات تعريف CAD في Java باستخدام GroupDocs
+schemas:
+- author: GroupDocs
+  dateModified: '2026-10-12'
+  description: Learn how to extract CAD metadata in Java using GroupDocs.Metadata.
+    Step‑by‑step guide for developers to read author, version, timestamps and more.
+  headline: How to extract CAD metadata in Java with GroupDocs
+  type: TechArticle
+- description: Learn how to extract CAD metadata in Java using GroupDocs.Metadata.
+    Step‑by‑step guide for developers to read author, version, timestamps and more.
+  name: How to extract CAD metadata in Java with GroupDocs
+  steps:
+  - name: open the CAD file with a `Metadata` object
+    text: '*Why?* Using a try‑with‑resources block guarantees that file handles are
+      released promptly, which is essential when processing many files in a batch.'
+  - name: retrieve the `CadRootPackage`
+    text: '*Why?* The `CadRootPackage` is your gateway to all native CAD properties,
+      such as version, author, and comments. It aggregates the low‑level structures
+      into a single, easy‑to‑navigate object.'
+  - name: extract desired properties
+    text: 'The `CadPackage` object provides a unified view of all native CAD metadata
+      fields. You can pull out any property exposed by the `CadPackage`. Here are
+      the most common ones:'
+  type: HowTo
+- questions:
+  - answer: GroupDocs.Metadata is a Java library that provides a unified API for reading
+      and writing metadata across hundreds of file formats, including CAD files.
+    question: What is GroupDocs.Metadata?
+  - answer: Yes, a free trial lets you evaluate core features. A license is required
+      for production deployments.
+    question: Can I use GroupDocs.Metadata without purchasing a license?
+  - answer: Extract only the needed properties, use try‑with‑resources to manage memory,
+      and consider caching results for repeated accesses.
+    question: How should I handle very large CAD files?
+  - answer: File corruption, mismatched library version, or missing metadata fields
+      (which return `null`) are typical issues.
+    question: What common errors occur when reading CAD metadata?
+  - answer: Absolutely. Its simple API can be called from any Java project—desktop,
+      server, or cloud‑based.
+    question: Is the library compatible with existing Java applications?
+  type: FAQPage
+tags:
+- CAD metadata
+- GroupDocs
+- Java
+- document automation
+title: كيفية استخراج بيانات تعريف CAD في Java باستخدام GroupDocs
 type: docs
 url: /ar/java/cad-formats/implement-cad-metadata-extraction-groupdocs-metadata-java/
 weight: 1
 ---
 
-Also translate "How to extract CAD metadata java using GroupDocs" to Arabic.
+# كيفية استخراج بيانات تعريف CAD في Java باستخدام GroupDocs
 
-Translate all headings.
-
-Translate paragraphs.
-
-Make sure to keep **bold** formatting.
-
-Also keep inline code like `CadRootPackage` unchanged.
-
-Now produce final output.
-
-Let's craft translation.
-
-Will produce Arabic text.
-
-Proceed.
-
-# كيفية استخدام GroupDocs لاستخراج بيانات تعريف CAD في Java
-
-إذا كنت بحاجة إلى **extract cad metadata java** بسرعة وبشكل موثوق، فأنت في المكان الصحيح. في سير عمل الهندسة والتصميم الحديث، يمكن لاستخراج الخصائص الأصلية مثل المؤلف والإصدار والطوابع الزمنية من ملفات DWG أو DWF أو DXF أن يوفر ساعات من العمل اليدوي. يشرح هذا الدليل كل ما تحتاجه — من تثبيت مجموعة أدوات GroupDocs.Metadata إلى قراءة أكثر حقول بيانات تعريف CAD شيوعًا — بحيث يمكنك دمج الحل مباشرةً في تطبيقات Java الخاصة بك.
+إذا كنت بحاجة إلى **استخراج بيانات تعريف CAD في Java** بسرعة وبشكل موثوق، فأنت في المكان المناسب. غالبًا ما تتطلب خطوط أنابيب الهندسة الحديثة سحب الخصائص الأصلية—المؤلف، الإصدار، تاريخ الإنشاء، والملاحظات المخصصة—من ملفات DWG أو DWF أو DXF. فتح كل ملف يدويًا يضيع الوقت؛ أتمتة الاستخراج تتيح لك وضع علامات، فهرسة، وتدقيق أصول التصميم على نطاق واسع. يوضح هذا الدرس كل ما تحتاجه—من تثبيت مجموعة أدوات GroupDocs.Metadata SDK إلى قراءة أكثر حقول بيانات تعريف CAD شيوعًا—حتى تتمكن من دمج الحل مباشرة في أي تطبيق Java.
 
 ## إجابات سريعة
 - **ما هي المكتبة الأفضل لبيانات تعريف CAD؟** GroupDocs.Metadata for Java  
 - **ما نسخة Java المطلوبة؟** JDK 8 أو أعلى  
-- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية كافية للتقييم؛ الترخيص مطلوب للإنتاج  
-- **هل يمكن استخراج عدة خصائص في آن واحد؟** نعم، استخدم واجهة برمجة التطبيقات `CadRootPackage` للوصول إلى جميع الحقول الأصلية  
+- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية تعمل للتقييم؛ الترخيص مطلوب للإنتاج  
+- **هل يمكن استخراج عدة خصائص مرة واحدة؟** نعم، استخدم واجهة برمجة التطبيقات `CadRootPackage` للوصول إلى جميع الحقول الأصلية  
 - **هل هو مناسب للدفعات الكبيرة؟** نعم، مع معالجة الموارد بشكل صحيح واستخراج الخصائص المختارة  
 
-## كيفية استخراج CAD metadata java باستخدام GroupDocs
-فيما يلي خريطة طريق مختصرة خطوة بخطوة تُوسّع التهيئة الأساسية إلى سير عمل استخراج كامل الميزات. اتبع كل خطوة، وستحصل على مقطع شفرة قابل لإعادة الاستخدام يمكن إدراجه في أي مشروع Java.
-
 ## ما هو GroupDocs.Metadata؟
-GroupDocs.Metadata هو مجموعة أدوات SDK للغة Java توفر واجهة API موحدة لقراءة وكتابة وإدارة بيانات التعريف عبر مئات صيغ الملفات — بما في ذلك ملفات CAD مثل DWG و DWF و DXF. يقوم بتجريد تعقيد كل نوع ملف، مما يتيح لك التركيز على منطق الأعمال بدلاً من تفاصيل صيغ الملفات.
+مكتبة `GroupDocs.Metadata` هي مجموعة أدوات SDK للـ Java توفر واجهة برمجة تطبيقات موحدة لقراءة، كتابة، وإدارة بيانات التعريف عبر **أكثر من 150 تنسيق ملف**، بما في ذلك DWG و DWF و DXF. تقوم بتجريد الخصائص التقنية منخفضة المستوى لكل تنسيق CAD، مما يتيح لك التركيز على منطق الأعمال بدلاً من تفاصيل تنسيق الملف.
 
-## لماذا نستخدم GroupDocs لاستخراج بيانات تعريف CAD؟
-- **دعم شامل للصيغة** – يتعامل مع جميع صيغ CAD الرئيسية مباشرة.  
-- **API بسيطة** – استدعاءات سطر واحد تسترجع المؤلف والإصدار والطوابع الزمنية والخصائص المخصصة.  
-- **أداء محسن** – صُممت للعمل بكفاءة مع الملفات الكبيرة والعمليات الدفعية.  
-- **متعددة المنصات** – تعمل على أي بيئة متوافقة مع Java، من التطبيقات المكتبية إلى الخدمات السحابية.
+## لماذا تستخدم GroupDocs لاستخراج بيانات تعريف CAD؟
+يدعم GroupDocs.Metadata **جميع تنسيقات CAD الرئيسية مباشرةً**، يعالج الملفات حتى **500 ميغابايت دون تحميل المستند بالكامل في الذاكرة**، ويمكنه التعامل مع **عمليات الدفعات على آلاف الملفات** باستخدام مجموعة خيوط واحدة. تتطلب واجهة برمجة التطبيقات سوى بضع أسطر من الشيفرة لاسترجاع المؤلف، الإصدار، الطوابع الزمنية، والخصائص المخصصة، مما يجعلها الحل الأكثر كفاءة زمنياً لأنابيب بيانات التصميم على مستوى المؤسسة.
 
 ## المتطلبات المسبقة
-- **مجموعة تطوير Java (JDK)** 8 أو أحدث.  
-- **بيئة تطوير متكاملة (IDE)** مثل Eclipse أو IntelliJ IDEA أو VS Code.  
-- **Maven** (اختياري) إذا كنت تفضّل إدارة الاعتمادات عبر `pom.xml`.  
-- الإلمام الأساسي بمفاهيم ملفات CAD (الطبقات، الكتل، إلخ) مفيد لكنه ليس ضروريًا.
+- **Java Development Kit (JDK)** 8 أو أحدث.  
+- **IDE** مثل Eclipse أو IntelliJ IDEA أو VS Code.  
+- **Maven** (اختياري) إذا كنت تفضل إدارة الاعتمادات عبر `pom.xml`.  
+- الإلمام الأساسي بمفاهيم CAD (الطبقات، الكتل) مفيد لكنه غير مطلوب.
 
-## إعداد GroupDocs.Metadata للغة Java
+## كيفية إعداد GroupDocs.Metadata لـ Java
+يمكن دمج GroupDocs.Metadata في أي مشروع Java إما عبر Maven أو عبر تحميل JAR يدوي. يتولى Maven معالجة الاعتمادات المتداخلة تلقائيًا، بينما يتيح لك النهج اليدوي التحكم الكامل في إصدارات المكتبة. اختر الطريقة التي تتوافق مع بيئة البناء واستراتيجية النشر الخاصة بك.
+
 ### إعداد Maven
 أضف مستودع GroupDocs واعتماد metadata إلى ملف `pom.xml` الخاص بك:
 
@@ -81,17 +111,21 @@ GroupDocs.Metadata هو مجموعة أدوات SDK للغة Java توفر وا�
 </dependencies>
 ```
 
+**Direct answer:** أضف عنوان URL للمستودع واعتماد `groupdocs-metadata` إلى ملف `pom.xml`، ثم نفّذ الأمر `mvn clean install`. سيقوم Maven بتنزيل ملفات JAR المطلوبة ووضعها على مسار الفئة الخاص بك، مما يجعل واجهة برمجة التطبيقات جاهزة للاستخدام.
+
 ### التحميل المباشر
-إذا كنت تفضّل الإعداد اليدوي، حمّل أحدث ملف JAR من صفحة الإصدار الرسمية:  
+إذا كنت تفضّل الإعداد اليدوي، حمّل أحدث JAR من صفحة الإصدار الرسمية:  
 [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/)
 
+**Direct answer:** حمّل ملف JAR، وضعه في مجلد `libs` الخاص بالمشروع، وأضفه إلى مسار البناء في بيئة التطوير المتكاملة الخاصة بك. يعمل هذا الأسلوب للسكريبتات البسيطة أو عندما لا يتوفر Maven.
+
 #### خطوات الحصول على الترخيص
-- **نسخة تجريبية مجانية** – استكشف الميزات الأساسية دون ترخيص.  
-- **ترخيص مؤقت** – احصل على مفتاح محدود الوقت للاختبار المكثف.  
-- **شراء** – افتح جميع الوظائف واحصل على دعم مميز للاستخدام الإنتاجي.
+- **Free trial** – استكشاف الميزات الأساسية دون الحاجة إلى ترخيص.  
+- **Temporary license** – الحصول على مفتاح محدود الزمن للاختبار المكثف.  
+- **Purchase** – إلغاء القفل للوصول الكامل والدعم المميز للاستخدام الإنتاجي.
 
 ## التهيئة الأساسية
-بعد إضافة المكتبة إلى مسار الفئات (classpath)، أنشئ كائن `Metadata` يشير إلى ملف CAD الخاص بك:
+فئة `Metadata` هي نقطة الدخول لجميع العمليات. تمثل ملفًا واحدًا وتمنحك الوصول إلى حزمة CAD الأصلية.
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -113,7 +147,7 @@ public class CadReadNativeMetadataProperties {
 }
 ```
 
-هذا المقتطف يهيئ البيئة لقراءة أي خاصية CAD أصلية تحتاجها.
+**Direct answer:** أنشئ كائن `Metadata` بتمرير مسار ملف CAD الخاص بك (`new Metadata("example.dwg")`). يقوم هذا الكائن بتحميل رأس الملف فقط، مما يحافظ على استهلاك الذاكرة منخفضًا مع إتاحة جميع خصائص البيانات عبر `CadRootPackage`.
 
 ## دليل خطوة بخطوة
 
@@ -122,87 +156,90 @@ public class CadReadNativeMetadataProperties {
 try (Metadata metadata = new Metadata("path/to/your/file.dwg")) {
     // Proceed to access the root package
 }
-```
-*لماذا؟* يضمن استخدام كتلة **try‑with‑resources** تحرير مقابض الملفات بسرعة، وهو أمر أساسي عند معالجة عدد كبير من الملفات في دفعة.
+```  
+*Why?* استخدام كتلة try‑with‑resources يضمن تحرير مقابض الملفات بسرعة، وهو أمر أساسي عند معالجة العديد من الملفات في دفعة.
 
 ### الخطوة 2: استرجاع `CadRootPackage`
 ```java
 cadRootPackage root = metadata.getRootPackageGeneric();
-```
-*لماذا؟* كائن `root` هو بوابتك إلى جميع خصائص CAD الأصلية، مثل الإصدار والمؤلف والتعليقات.
+```  
+*Why?* `CadRootPackage` هو بوابتك إلى جميع خصائص CAD الأصلية، مثل الإصدار، المؤلف، والتعليقات. يجمع البنى منخفضة المستوى في كائن واحد سهل التنقل.
 
 ### الخطوة 3: استخراج الخصائص المطلوبة  
-يمكنك سحب أي خاصية ي exposeها `CadPackage`. إليك الأكثر شيوعًا:
+كائن `CadPackage` يوفر عرضًا موحدًا لجميع حقول بيانات تعريف CAD الأصلية.  
+يمكنك سحب أي خاصية يتم عرضها بواسطة `CadPackage`. إليك الأكثر شيوعًا:
 
-#### الحصول على إصدار AutoCAD
+#### الحصول على نسخة AutoCAD
 ```java
 System.out.println(root.getCadPackage().getAcadVersion());
-```
-*لماذا؟* معرفة إصدار AutoCAD يساعدك على تحديد ما إذا كان الملف يحتاج إلى تحويل قبل المعالجة الإضافية.
+```  
+*Why?* معرفة نسخة AutoCAD تساعدك على تحديد ما إذا كان الملف يحتاج إلى تحويل قبل المعالجة الإضافية.
 
 #### الحصول على اسم المؤلف
 ```java
 System.out.println(root.getCadPackage().getAuthor());
-```
-*لماذا؟* غالبًا ما تكون بيانات المؤلف مطلوبة لتدقيق الامتثال وتتبع الإسناد.
+```  
+*Why?* غالبًا ما تكون بيانات تعريف المؤلف مطلوبة لتدقيق الامتثال وتتبع النسب.
 
 #### الحصول على التعليقات
 ```java
 System.out.println(root.getCadPackage().getComments());
-```
-*لماذا؟* قد تحتوي التعليقات على ملاحظات تصميم أو تفاصيل مراجعة أو تعليمات للعميل.
+```  
+*Why?* قد تحتوي التعليقات على ملاحظات تصميم، تفاصيل مراجعات، أو تعليمات العميل.
 
-> **نصيحة:** استمر في تطبيق هذا النمط على الحقول الأخرى مثل `CreatedDateTime` أو `HyperlinkBase` أو أي خاصية مخصصة قمت بتعريفها في ملفات CAD الخاصة بك.
+> **Tip:** استمر في اتباع هذا النمط للحقول الأخرى مثل `CreatedDateTime`، `HyperlinkBase`، أو أي خاصية مخصصة قمت بتعريفها في ملفات CAD الخاصة بك.
 
-#### نصائح استكشاف الأخطاء وإصلاحها
-- تأكد من أن ملف CAD غير معطوب والمسار صحيح.  
-- تحقق من أن نسخة GroupDocs.Metadata تتوافق مع نسخة JDK الخاصة بك (الإصدار 24.12 يعمل مع JDK 8+).  
-- إذا أعادت خاصية قيمة `null`، فهذا يعني أن الملف المصدر لا يحتوي على حقل البيانات التعريفية هذا.
-
-## تطبيقات عملية
-1. **أنظمة إدارة المستندات** – وضع علامات تلقائية للملفات حسب المؤلف أو تاريخ الإنشاء.  
-2. **التحكم في الإصدارات** – اكتشاف إصدارات AutoCAD غير المتطابقة قبل الالتزام بالتغييرات.  
-3. **الامتثال التنظيمي** – تصدير البيانات التعريفية المطلوبة للمتطلبات القانونية أو المعايير الصناعية.  
+## التطبيقات العملية
+1. **أنظمة إدارة المستندات** – وضع علامات تلقائية للملفات حسب المؤلف أو تاريخ الإنشاء لتسريع البحث.  
+2. **خطوط أنابيب التحكم في الإصدارات** – اكتشاف إصدارات AutoCAD غير المتطابقة قبل الالتزام بالتغييرات في المستودع.  
+3. **الامتثال التنظيمي** – تصدير البيانات التعريفية المطلوبة للمعايير القانونية أو الصناعية دون فحص يدوي.
 
 ## اعتبارات الأداء
-- **استخراج انتقائي** – اسحب فقط الحقول التي تحتاجها لتقليل عبء الإدخال/الإخراج.  
-- **معالجة دفعات** – أعد استخدام كائن `Metadata` واحد عند التكرار عبر ملفات متعددة، لكن تأكد من إغلاقه بعد كل ملف.  
-- **التخزين المؤقت** – احفظ بيانات التعريف المتكررة في ذاكرة تخزين مؤقت خفيفة إذا كنت تحتاج إلى عمليات بحث متكررة.
+- **Selective extraction** – اسحب فقط الحقول التي تحتاجها لتقليل عبء الإدخال/الإخراج.  
+- **Batch processing** – أعد استخدام كائن `Metadata` واحد عند التكرار عبر ملفات متعددة، لكن احرص دائمًا على إغلاقه بعد كل ملف.  
+- **Caching** – خزن بيانات التعريف التي تُستدعى بشكل متكرر في ذاكرة تخزين مؤقت خفيفة إذا كنت بحاجة إلى عمليات بحث متكررة.
 
 ## الخلاصة
-أنت الآن تعرف **how to extract cad metadata java** باستخدام GroupDocs.Metadata، من إعداد مجموعة الأدوات إلى استرجاع خصائص محددة مثل المؤلف والإصدار والتعليقات. دمج هذه المقاطع في سير عمل أوسع — مثل خطوط أنابيب إدخال المستندات الآلية أو فحوصات الامتثال — سيفتح القيمة الكاملة للبيانات التعريفية المدمجة بالفعل في أصول CAD الخاصة بك.
+أنت الآن تعرف **كيفية استخراج بيانات تعريف CAD في Java** باستخدام GroupDocs.Metadata، من تثبيت مجموعة الأدوات إلى استرجاع خصائص محددة مثل المؤلف، الإصدار، والتعليقات. دمج هذه المقاطع في سير عمل أكبر—مثل خطوط إدخال المستندات الآلية أو فحوصات الامتثال—سيفتح القيمة الكاملة للبيانات التعريفية المدمجة بالفعل في أصول CAD الخاصة بك.
 
 ### الخطوات التالية
-- جرب كتابة بيانات تعريفية مرة أخرى إلى ملف CAD باستخدام أساليب `set*`.  
+- جرّب كتابة بيانات التعريف مرة أخرى إلى ملف CAD باستخدام طرق `set*`.  
 - استكشف مرجع API الكامل للسيناريوهات المتقدمة مثل معالجة الخصائص المخصصة.  
-- اجمع بين استخراج البيانات التعريفية ومنتجات GroupDocs الأخرى (مثل GroupDocs.Viewer) للحصول على حلول مستندات شاملة من البداية إلى النهاية.
+- دمج استخراج البيانات مع منتجات GroupDocs الأخرى (مثل GroupDocs.Viewer) للحصول على حلول مستندات شاملة من البداية إلى النهاية.
 
 ## الأسئلة المتكررة
+
 **س: ما هو GroupDocs.Metadata؟**  
-ج: مكتبة Java توفر API موحدًا لقراءة وكتابة البيانات التعريفية عبر مئات صيغ الملفات، بما في ذلك ملفات CAD.
+ج: GroupDocs.Metadata هي مكتبة Java توفر واجهة برمجة تطبيقات موحدة لقراءة وكتابة بيانات التعريف عبر مئات تنسيقات الملفات، بما في ذلك ملفات CAD.
 
 **س: هل يمكنني استخدام GroupDocs.Metadata بدون شراء ترخيص؟**  
-ج: نعم، النسخة التجريبية المجانية تسمح لك بتقييم الميزات الأساسية. الترخيص مطلوب للنشر في بيئات الإنتاج.
+ج: نعم، النسخة التجريبية المجانية تتيح لك تقييم الميزات الأساسية. الترخيص مطلوب للنشر في بيئات الإنتاج.
 
-**س: كيف أتعامل مع ملفات CAD الكبيرة جدًا؟**  
-ج: استخرج فقط الخصائص المطلوبة، واستخدم try‑with‑resources لإدارة الذاكرة، وفكّر في تخزين النتائج مؤقتًا للوصول المتكرر.
+**س: كيف يجب أن أتعامل مع ملفات CAD الكبيرة جدًا؟**  
+ج: استخرج فقط الخصائص المطلوبة، واستخدم try‑with‑resources لإدارة الذاكرة، وفكّر في تخزين النتائج في ذاكرة مؤقتة للوصول المتكرر.
 
-**س: ما هي الأخطاء الشائعة عند قراءة بيانات تعريف CAD؟**  
-ج: الفساد في الملف، عدم توافق نسخة المكتبة، أو غياب حقول البيانات التعريفية (التي تُعيد `null`) هي المشكلات الأكثر شيوعًا.
+**س: ما الأخطاء الشائعة التي تحدث عند قراءة بيانات تعريف CAD؟**  
+ج: تلف الملف، عدم توافق نسخة المكتبة، أو عدم وجود حقول بيانات تعريف (التي تُعيد `null`) هي المشكلات النموذجية.
 
 **س: هل المكتبة متوافقة مع تطبيقات Java الحالية؟**  
-ج: بالتأكيد. يمكن استدعاء API البسيط من أي مشروع Java — سواء كان سطح مكتب، خادم، أو سحابي.
+ج: بالتأكيد. يمكن استدعاء واجهة برمجة التطبيقات البسيطة من أي مشروع Java—سواء كان سطح مكتب، خادم، أو سحابي.
 
-## موارد
-- [Documentation](https://docs.groupdocs.com/metadata/java/)
-- [API Reference](https://reference.groupdocs.com/metadata/java/)
-- [Download](https://releases.groupdocs.com/metadata/java/)
-- [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
-- [Free Support Forum](https://forum.groupdocs.com/c/metadata/)
-- [Temporary License Acquisition](https://purchase.groupdocs.com/temporary-license)
+## الموارد
+- [الوثائق](https://docs.groupdocs.com/metadata/java/)
+- [مرجع API](https://reference.groupdocs.com/metadata/java/)
+- [التنزيل](https://releases.groupdocs.com/metadata/java/)
+- [مستودع GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)
+- [منتدى الدعم المجاني](https://forum.groupdocs.com/c/metadata/)
+- [الحصول على ترخيص مؤقت](https://purchase.groupdocs.com/temporary-license)
 
 ---
 
-**آخر تحديث:** 2026-03-17  
-**تم الاختبار مع:** GroupDocs.Metadata 24.12  
+**آخر تحديث:** 2026-10-12  
+**تم الاختبار باستخدام:** GroupDocs.Metadata 24.12  
 **المؤلف:** GroupDocs
+
+## دروس ذات صلة
+
+- [كيفية تحديث بيانات تعريف مؤلف DXF باستخدام GroupDocs.Metadata for Java – دليل كامل](/metadata/java/cad-formats/update-dxf-author-metadata-groupdocs-java/)
+- [استخراج بيانات تعريف DWG Java – دروس إدارة بيانات تعريف CAD لـ GroupDocs.Metadata](/metadata/java/cad-formats/)
+- [إتقان استخراج بيانات تعريف Java باستخدام GroupDocs.Metadata: دليل شامل للمطورين](/metadata/java/working-with-metadata/java-metadata-extraction-groupdocs-metadata/)

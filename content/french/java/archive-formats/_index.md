@@ -1,29 +1,32 @@
 ---
-date: 2026-08-10
-description: Apprenez comment extraire les métadonnées RAR en Java à l'aide de GroupDocs.Metadata.
-  Ce guide étape par étape couvre les archives protégées par mot de passe, les conseils
-  de performance et les problèmes courants.
+date: 2026-10-17
+description: Comment lire les métadonnées RAR en Java en utilisant GroupDocs.Metadata.
+  Guide étape par étape couvrant les archives password‑protected, la streaming performance
+  et les common pitfalls.
+images:
+- /java/archive-formats/og-image.png
 keywords:
-- extract rar metadata java
-- how to read rar file java
+- how to read rar
 - groupdocs metadata java
+- extract rar metadata java
 - rar archive metadata
-lastmod: 2026-08-10
-og_description: Extraire les métadonnées RAR en Java avec GroupDocs.Metadata. Apprenez
-  à lire les archives protégées par mot de passe, à gérer les gros fichiers et à éviter
-  les pièges courants.
+lastmod: 2026-10-17
+og_description: Comment lire les métadonnées RAR en Java avec GroupDocs.Metadata.
+  Ce guide vous montre comment extraire les header information, gérer les archives
+  password‑protected et traiter les large files efficacement—le tout en moins de 200 ms
+  pour les archives typiques.
 og_image_alt: Guide showing Java code extracting metadata from RAR archives with GroupDocs.Metadata
-og_title: Extraire les métadonnées RAR en Java avec GroupDocs.Metadata pour Java
+og_title: Comment lire les métadonnées RAR en Java avec GroupDocs.Metadata
 schemas:
 - author: GroupDocs
-  dateModified: '2026-08-10'
-  description: Learn how to extract RAR metadata java using GroupDocs.Metadata. Step‑by‑step
-    guide covers password‑protected archives, performance tips, and common issues.
-  headline: Extract RAR metadata java with GroupDocs.Metadata for Java
+  dateModified: '2026-10-17'
+  description: How to read RAR metadata in Java using GroupDocs.Metadata. Step‑by‑step
+    guide covers password‑protected archives, streaming performance, and common pitfalls.
+  headline: How to read RAR metadata in Java with GroupDocs.Metadata
   type: TechArticle
-- description: Learn how to extract RAR metadata java using GroupDocs.Metadata. Step‑by‑step
-    guide covers password‑protected archives, performance tips, and common issues.
-  name: Extract RAR metadata java with GroupDocs.Metadata for Java
+- description: How to read RAR metadata in Java using GroupDocs.Metadata. Step‑by‑step
+    guide covers password‑protected archives, streaming performance, and common pitfalls.
+  name: How to read RAR metadata in Java with GroupDocs.Metadata
   steps:
   - name: '**Speed:** Reads metadata from up to 50 + archive formats in under 200 ms
       for a 500‑entry RAR file on a typical server.'
@@ -37,7 +40,7 @@ schemas:
       built‑in exceptions, reducing crash rates by > 95 % compared with manual parsing.'
     text: '**Reliability:** Handles corrupted or password‑protected archives with
       built‑in exceptions, reducing crash rates by > 95 % compared with manual parsing.'
-  type: HowTo
+    type: HowTo
 - questions:
   - answer: Yes. Pass the password to the `Archive` constructor; GroupDocs.Metadata
       will decrypt the header and return the metadata.
@@ -61,112 +64,101 @@ tags:
 - groupdocs.metadata
 - java archive processing
 - rar metadata extraction
-title: Extraire les métadonnées RAR en Java avec GroupDocs.Metadata pour Java
+title: Comment lire les métadonnées RAR en Java avec GroupDocs.Metadata
 type: docs
 url: /fr/java/archive-formats/
 weight: 9
 ---
 
-# Extraire les métadonnées RAR java avec GroupDocs.Metadata pour Java
+# Comment lire les métadonnées RAR en Java avec GroupDocs.Metadata
 
-Si vous devez **extraire les métadonnées RAR java** rapidement, de manière fiable et sans charger l'intégralité de l'archive en mémoire, vous êtes au bon tutoriel. Dans ce guide, vous découvrirez comment GroupDocs.Metadata pour Java lit les informations d'en-tête, gère les archives protégées par mot de passe et s'adapte aux fichiers de plusieurs gigaoctets — tout en conservant votre code propre et maintenable.
+If you need to **read RAR metadata in Java** quickly, reliably, and without pulling the whole archive into memory, you’ve landed on the right tutorial. In this guide you’ll discover how GroupDocs.Metadata for Java reads header information, handles password‑protected archives, and scales to multi‑gigabyte files—all while keeping your code clean and maintainable.
 
 ## Réponses rapides
-- **Quelle bibliothèque gère les métadonnées RAR en Java ?** GroupDocs.Metadata for Java.  
-- **Ai-je besoin d'une licence pour exécuter les exemples ?** Une licence d'évaluation temporaire fonctionne pour les tests ; une licence complète est requise pour les déploiements en production.  
-- **Quelles versions de Java sont prises en charge ?** Java 8 à 17 (LTS) sont entièrement compatibles.  
-- **Puis-je lire des fichiers RAR protégés par mot de passe ?** Oui — il suffit de fournir le mot de passe lors de la construction de l'objet archive.  
-- **Y a-t-il un impact sur les performances avec les grandes archives ?** L'extraction est en flux, donc l'utilisation de la mémoire reste faible même pour des fichiers de taille gigaoctet.
+- **What library handles RAR metadata in Java?** GroupDocs.Metadata for Java.  
+- **Do I need a license to run the examples?** A temporary evaluation license works for testing; a full license is required for production deployments.  
+- **Which Java versions are supported?** Java 8 through 17 (LTS) are fully compatible.  
+- **Can I read password‑protected RAR files?** Yes—simply provide the password when constructing the archive object.  
+- **Is there a performance impact on large archives?** Extraction is streamed, so memory usage stays low even for gigabyte‑size files.
 
-## Qu'est-ce que l'extraction des métadonnées RAR java ?
-**Extraire les métadonnées RAR java** signifie lire programmaticalement les informations descriptives stockées à l'intérieur d'une archive RAR — noms de fichiers, tailles, horodatages, commentaires et propriétés personnalisées — sans décompresser le contenu de l'archive. Cette opération est essentielle pour l'indexation, la recherche et la génération de pistes d'audit. Les données extraites peuvent ensuite être indexées, affichées dans des composants UI, ou utilisées pour des rapports de conformité sans le surcoût d'une extraction complète.
+## Qu’est‑ce que la lecture de RAR ?
+**How to read RAR** means programmatically retrieving the descriptive information stored inside a RAR archive—file names, sizes, timestamps, comments, and custom properties—without decompressing the archive contents. This operation is essential for indexing, search, and audit‑trail generation. The extracted data can then be indexed, displayed in UI components, or used for compliance reporting without the overhead of full extraction.
 
-## Pourquoi extraire les métadonnées RAR avec GroupDocs.Metadata pour Java ?
-Lire les métadonnées directement depuis l'en-tête de l'archive évite le coût de décompression de chaque fichier, ce qui réduit considérablement le temps de traitement et la consommation de mémoire. Cette approche garantit également que seules les informations nécessaires sont accédées, ce qui la rend idéale pour l'indexation à grande échelle et les scénarios d'audit où la performance et l'efficacité des ressources sont critiques.
+## Pourquoi utiliser GroupDocs.Metadata pour Java pour lire les métadonnées RAR ?
+Reading metadata directly from the archive header avoids the cost of decompressing each file, which dramatically reduces processing time and memory consumption. This approach also ensures that only the necessary information is accessed, making it ideal for large‑scale indexing and audit scenarios where performance and resource efficiency are critical.
 
-GroupDocs.Metadata traite directement les en-têtes d'archive, ce qui offre trois avantages quantifiés :
+GroupDocs.Metadata processes archive headers directly, which yields three quantified benefits:
 
-1. **Vitesse :** Lit les métadonnées de plus de 50 formats d'archive en moins de 200 ms pour un fichier RAR de 500 entrées sur un serveur typique.  
-2. **Efficacité mémoire :** Utilise une architecture en flux qui ne charge jamais plus de 4 Mo de l'archive en RAM, quelle que soit la taille totale du fichier.  
-3. **Fiabilité :** Gère les archives corrompues ou protégées par mot de passe avec des exceptions intégrées, réduisant les taux de plantage de > 95 % comparé à l'analyse manuelle.
+1. **Speed:** Reads metadata from up to 50 + archive formats in under 200 ms for a 500‑entry RAR file on a typical server.  
+2. **Memory efficiency:** Uses a streaming architecture that never loads more than 4 MB of the archive into RAM, regardless of total file size.  
+3. **Reliability:** Handles corrupted or password‑protected archives with built‑in exceptions, reducing crash rates by > 95 % compared with manual parsing.
 
 ## Comment lire les fichiers RAR protégés par mot de passe avec GroupDocs.Metadata pour Java
-`Archive` est la classe principale de GroupDocs.Metadata qui représente une archive compressée et fournit l'accès à ses entrées et métadonnées. Lorsque vous créez une instance `Archive`, vous pouvez passer le chemin de l'archive et le mot de passe en un seul appel, et la bibliothèque déchiffrera l'en‑tête à la volée.
 
-Chargez votre fichier RAR protégé en construisant l'objet `Archive` avec le mot de passe, puis énumérez ses entrées pour récupérer les métadonnées telles que le nom du fichier, la taille et la date de création. Comme l'API fonctionne avec des flux, vous n'avez jamais besoin d'extraire l'intégralité de l'archive en mémoire, ce qui maintient l'opération rapide même pour les gros fichiers protégés par mot de passe.
+Load your protected RAR file by constructing the `Archive` object with the password, then enumerate its entries to retrieve metadata such as file name, size, and creation time. Because the API works with streams, you never need to extract the whole archive into memory, keeping the operation fast even for large, password‑protected files.
 
 ## Prérequis
-- Java Development Kit (JDK) 8 ou plus récent installé.  
-- Maven ou Gradle pour la gestion des dépendances.  
-- Une licence valide de GroupDocs.Metadata pour Java (licence temporaire pour les tests).  
-- Fichiers RAR d'exemple pour expérimenter (vous pouvez les créer avec n'importe quel outil d'archivage).
+- Java Development Kit (JDK) 8 or newer installed.  
+- Maven or Gradle for dependency management.  
+- A valid GroupDocs.Metadata for Java license (temporary license for testing).  
+- Sample RAR files to experiment with (you can create them with any archiving tool).
 
-## Guide étape par étape pour extraire les métadonnées RAR java
+## Guide étape par étape pour lire les métadonnées RAR en Java
 
 ### Comment fonctionne le processus d'extraction ?
-Vous créez un objet `Archive`, passez éventuellement un mot de passe, appelez `getEntries()` pour obtenir une collection d'objets `ArchiveEntry`, puis lisez les propriétés de métadonnées de chaque entrée. La bibliothèque renvoie `null` pour toute propriété absente dans la version RAR spécifique, il faut donc toujours vérifier `null` avant utilisation.
+The extraction process consists of three simple steps: open the archive, enumerate its entries, and read each entry’s metadata properties. You create an `Archive` instance, optionally pass a password, call `getEntries()` to obtain a collection of `ArchiveEntry` objects, and then read properties like `getFileName()`, `getSize()`, and `getCreationTime()`. The library returns `null` for any property not present in the specific RAR version, so always check for `null` before use.
 
 ### Quelles classes et méthodes sont impliquées ?
-L'API principale tourne autour de trois types principaux qui travaillent ensemble pour exposer les informations d'archive. `Archive` ouvre le fichier RAR, `ArchiveEntry` représente chaque fichier à l'intérieur de l'archive, et `ArchiveOptions` vous permet d'ajuster finement le comportement de streaming et la gestion des erreurs pour des performances optimales.
+The `Archive` class is the entry point that represents a RAR file on disk or in a stream. `ArchiveEntry` represents a single file inside the archive and exposes metadata getters. `ArchiveOptions` lets you fine‑tune streaming buffers and error‑handling behavior. Together they provide a low‑overhead, thread‑safe API for reading RAR headers.
 
-- `Archive` – représente le fichier RAR et fournit l'énumération des entrées.  
-- `ArchiveEntry` – expose les propriétés de métadonnées comme `getFileName()`, `getSize()`, `getCreationTime()`.  
-- `ArchiveOptions` – configuration optionnelle pour le streaming et la gestion des erreurs.
+### Comment gérer les archives volumineuses efficacement ?
+Process entries in a streamed loop instead of loading them into a list. The library reads each entry header on demand, so memory consumption stays constant regardless of archive size. For multi‑gigabyte archives, increase the internal buffer via `ArchiveOptions.setBufferSize()` (e.g., 8 MB) and consider parallel processing of independent batches on multi‑core CPUs to improve throughput.
 
-### Comment gérer efficacement les grandes archives ?
-Traitez les entrées dans une boucle et évitez de les stocker dans de grandes listes. L'API de streaming lit chaque en-tête d'entrée à la demande, de sorte que la consommation de mémoire reste constante. Pour les archives de plusieurs gigaoctets, envisagez d'augmenter la taille du tampon interne via `ArchiveOptions.setBufferSize()`. De plus, vous pouvez augmenter la taille du tampon interne ou traiter les entrées en lots parallèles pour améliorer davantage le débit sur les systèmes multicœurs.
+### Comment lire les fichiers RAR protégés par mot de passe ?
+Pass the password string to the `Archive` constructor: `new Archive("file.rar", "myPassword")`. The library decrypts the header on the fly and then behaves exactly like a non‑protected archive. If the password is wrong, an `InvalidPasswordException` is thrown, which you can catch and report to the user.
+
+### Comment lire les métadonnées sans extraire les fichiers ?
+The API reads only the archive’s central directory. No file data is inflated, so you can retrieve names, sizes, timestamps, and comments instantly. This makes it perfect for scenarios such as building a searchable index of archive contents or generating audit logs.
 
 ## Problèmes courants et solutions
-
 | Problème | Solution recommandée |
 |----------|----------------------|
-| **Corrupted archive exception** | Capturez `CorruptedArchiveException`, consignez le nom du fichier et, éventuellement, passez à l'entrée suivante. |
-| **Mot de passe incorrect** | Vérifiez la chaîne du mot de passe, assurez‑vous qu'elle est passée au constructeur `Archive`, et gérez `InvalidPasswordException`. |
-| **Grande archive ralentit** | Traitez les entrées en flux et évitez de charger l'intégralité de l'archive en mémoire. |
-| **Champs de métadonnées manquants** | Toutes les versions RAR ne stockent pas chaque propriété ; vérifiez toujours `null` avant d'utiliser un champ. |
+| **Corrupted archive exception** | Catch `CorruptedArchiveException`, log the file name, and optionally skip to the next entry. |
+| **Incorrect password** | Verify the password string, ensure it’s passed to the `Archive` constructor, and handle `InvalidPasswordException`. |
+| **Large archive slows down** | Process entries in a streamed fashion and avoid loading the entire archive into memory. |
+| **Missing metadata fields** | Not all RAR versions store every property; always check for `null` before using a field. |
 
 ## Questions fréquemment posées
 
 **Q : Puis‑je extraire les métadonnées d'archives RAR chiffrées ?**  
-R : Oui. Passez le mot de passe au constructeur `Archive` ; GroupDocs.Metadata déchiffrera l'en‑tête et renverra les métadonnées.
+A : Oui. Passez le mot de passe au constructeur `Archive` ; GroupDocs.Metadata déchiffrera l’en‑tête et renverra les métadonnées.
 
 **Q : Existe‑t‑il une limite au nombre de fichiers dans une archive RAR ?**  
-R : Aucun plafond strict. La bibliothèque traite les entrées séquentiellement, ainsi même les archives contenant des milliers de fichiers sont gérées efficacement.
+A : Pas de limite stricte. La bibliothèque traite les entrées séquentiellement, ainsi même les archives contenant des milliers de fichiers sont gérées efficacement.
 
 **Q : Dois‑je extraire l'archive pour lire ses métadonnées ?**  
-R : Non. Les métadonnées sont lues directement depuis la structure de l'archive, ce qui maintient l'opération rapide et à faible consommation de mémoire.
+A : Non. Les métadonnées sont lues directement à partir de la structure de l'archive, ce qui rend l'opération rapide et peu gourmande en mémoire.
 
 **Q : Comment gérer les archives corrompues ?**  
-R : GroupDocs.Metadata lève une `CorruptedArchiveException` spécifique. Capturez cette exception pour consigner le problème ou ignorer le fichier concerné.
+A : GroupDocs.Metadata lève une `CorruptedArchiveException` spécifique. Capturez cette exception pour consigner le problème ou ignorer le fichier concerné.
 
 **Q : Puis‑je écrire ou modifier les métadonnées d'une archive RAR ?**  
-R : La version actuelle prend en charge la lecture et la suppression des commentaires mais n'autorise pas l'écriture de nouvelles métadonnées dans les fichiers RAR. Pour les scénarios de réécriture, extrayez, modifiez et recréez l'archive.
+A : La version actuelle prend en charge la lecture et la suppression des commentaires mais ne permet pas d'écrire de nouvelles métadonnées dans les fichiers RAR. Pour les scénarios d'écriture, il faut extraire, modifier et recréer l'archive.
 
 **Q : Que faire si le fichier RAR protégé par mot de passe ne s'ouvre pas ?**  
-R : Assurez‑vous que le mot de passe est correct, vérifiez que l'archive n'utilise pas une méthode de chiffrement non prise en charge, et capturez `InvalidPasswordException` pour fournir un message d'erreur convivial.
+A : Assurez‑vous que le mot de passe est correct, vérifiez que l'archive n'utilise pas une méthode de chiffrement non prise en charge, et capturez `InvalidPasswordException` pour fournir un message d'erreur convivial.
 
 **Q : La bibliothèque est‑elle thread‑safe pour l'extraction concurrente de métadonnées ?**  
-R : Oui. Les instances de `Archive` peuvent être utilisées en toute sécurité par plusieurs threads tant que chaque thread travaille avec sa propre instance.
+A : Oui. Les instances de `Archive` peuvent être utilisées en toute sécurité par plusieurs threads tant que chaque thread travaille avec sa propre instance.
 
 ## Tutoriels disponibles
 
-### [Extraire les métadonnées RAR efficacement avec GroupDocs.Metadata pour Java](./extract-rar-metadata-groupdocs-java/)
-Apprenez à récupérer et gérer les métadonnées des archives RAR avec GroupDocs.Metadata pour Java. Améliorez vos compétences en gestion de données dès aujourd'hui.
-
-### [Comment extraire les métadonnées des fichiers ZIP avec GroupDocs.Metadata en Java&#58; Guide étape par étape](./extract-zip-metadata-groupdocs-java-guide/)
-Apprenez à extraire les métadonnées telles que les commentaires et les entrées de fichiers des fichiers ZIP avec GroupDocs.Metadata pour Java. Suivez ce guide étape par étape pour gérer efficacement les archives numériques.
-
-### [Comment extraire les métadonnées TAR avec GroupDocs.Metadata pour Java&#58; Guide étape par étape](./extract-tar-metadata-groupdocs-java-guide/)
-Apprenez à extraire les métadonnées des archives .tar avec GroupDocs.Metadata pour Java grâce à ce guide complet, couvrant la configuration, l'implémentation du code et les applications pratiques.
-
-### [Comment lire les métadonnées d'archives SevenZip avec GroupDocs.Metadata en Java](./read-sevenzip-metadata-groupdocs-java/)
-Apprenez comment extraire efficacement les propriétés de métadonnées telles que les noms de fichiers et les tailles des archives SevenZip avec GroupDocs.Metadata pour Java.
-
-### [Comment supprimer les commentaires d'utilisateur des archives ZIP avec GroupDocs.Metadata en Java](./remove-user-comments-zip-archives-groupdocs-metadata-java/)
-Apprenez à supprimer efficacement les commentaires d'utilisateur des fichiers ZIP à l'aide de la puissante bibliothèque GroupDocs.Metadata en Java. Améliorez la confidentialité de vos données et rationalisez la gestion des métadonnées.
-
-### [Comment mettre à jour les commentaires d'archive ZIP avec GroupDocs.Metadata pour Java](./update-zip-archive-comments-groupdocs-metadata-java/)
-Apprenez à mettre à jour les commentaires dans les fichiers ZIP avec GroupDocs.Metadata pour Java grâce à ce guide complet.
+- [Extraire efficacement les métadonnées RAR avec GroupDocs.Metadata pour Java](./extract-rar-metadata-groupdocs-java/)
+- [Comment extraire les métadonnées des fichiers ZIP avec GroupDocs.Metadata en Java : guide étape par étape](./extract-zip-metadata-groupdocs-java-guide/)
+- [Comment extraire les métadonnées TAR avec GroupDocs.Metadata pour Java : guide étape par étape](./extract-tar-metadata-groupdocs-java-guide/)
+- [Comment lire les métadonnées d'archives SevenZip avec GroupDocs.Metadata en Java](./read-sevenzip-metadata-groupdocs-java/)
+- [Comment supprimer les commentaires utilisateur des archives ZIP avec GroupDocs.Metadata en Java](./remove-user-comments-zip-archives-groupdocs-metadata-java/)
+- [Comment mettre à jour les commentaires d'archives ZIP avec GroupDocs.Metadata pour Java](./update-zip-archive-comments-groupdocs-metadata-java/)
 
 ## Ressources supplémentaires
 
@@ -177,14 +169,12 @@ Apprenez à mettre à jour les commentaires dans les fichiers ZIP avec GroupDocs
 - [Support gratuit](https://forum.groupdocs.com/)
 - [Licence temporaire](https://purchase.groupdocs.com/temporary-license/)
 
----
-
-**Dernière mise à jour :** 2026-08-10  
-**Testé avec :** GroupDocs.Metadata 23.11 pour Java  
-**Auteur :** GroupDocs
+**Dernière mise à jour :** 2026-10-17  
+**Testé avec :** GroupDocs.Metadata 23.11 pour Java  
+**Auteur :** GroupDocs
 
 ## Tutoriels associés
 
-- [Comment extraire les commentaires zip java avec GroupDocs.Metadata – Guide](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)
-- [Comment lire la date de création java à partir des fichiers de présentation avec GroupDocs.Metadata – Guide étape par étape](/metadata/java/document-formats/extract-metadata-presentation-groupdocs-metadata-java/)
-- [Extraire les commentaires d'image JPEG2000 en Java avec GroupDocs.Metadata : Guide étape par étape](/metadata/java/image-formats/extract-jpeg2000-image-comments-java-groupdocs-metadata/)
+- [Comment extraire les commentaires ZIP en Java avec GroupDocs.Metadata – Guide](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)
+- [Comment lire la date de création en Java à partir des fichiers de présentation avec GroupDocs.Metadata – Guide étape par étape](/metadata/java/document-formats/extract-metadata-presentation-groupdocs-metadata-java/)
+- [Extraire les commentaires d'images JPEG2000 en Java avec GroupDocs.Metadata : guide étape par étape](/metadata/java/image-formats/extract-jpeg2000-image-comments-java-groupdocs-metadata/)

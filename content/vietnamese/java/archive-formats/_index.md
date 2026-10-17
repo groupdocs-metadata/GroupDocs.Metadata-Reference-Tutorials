@@ -1,29 +1,32 @@
 ---
-date: 2026-08-10
-description: Tìm hiểu cách trích xuất siêu dữ liệu RAR java bằng GroupDocs.Metadata.
-  Hướng dẫn chi tiết từng bước bao gồm các kho lưu trữ được bảo vệ bằng mật khẩu,
-  mẹo hiệu năng và các vấn đề thường gặp.
+date: 2026-10-17
+description: Cách đọc metadata RAR trong Java bằng GroupDocs.Metadata. Hướng dẫn từng
+  bước bao gồm các archive được bảo mật bằng mật khẩu, hiệu suất streaming, và các
+  lỗi thường gặp.
+images:
+- /java/archive-formats/og-image.png
 keywords:
-- extract rar metadata java
-- how to read rar file java
+- how to read rar
 - groupdocs metadata java
+- extract rar metadata java
 - rar archive metadata
-lastmod: 2026-08-10
-og_description: Trích xuất siêu dữ liệu RAR java bằng GroupDocs.Metadata. Tìm hiểu
-  cách đọc các kho lưu trữ được bảo vệ bằng mật khẩu, xử lý các tệp lớn và tránh các
-  sai lầm phổ biến.
+lastmod: 2026-10-17
+og_description: Cách đọc metadata RAR trong Java với GroupDocs.Metadata. Hướng dẫn
+  này cho bạn cách trích xuất header information, xử lý các archive được bảo mật bằng
+  mật khẩu, và xử lý large files một cách hiệu quả—tất cả trong dưới 200 ms cho các
+  archive điển hình.
 og_image_alt: Guide showing Java code extracting metadata from RAR archives with GroupDocs.Metadata
-og_title: Trích xuất siêu dữ liệu RAR bằng Java với GroupDocs.Metadata
+og_title: Cách đọc metadata RAR trong Java với GroupDocs.Metadata
 schemas:
 - author: GroupDocs
-  dateModified: '2026-08-10'
-  description: Learn how to extract RAR metadata java using GroupDocs.Metadata. Step‑by‑step
-    guide covers password‑protected archives, performance tips, and common issues.
-  headline: Extract RAR metadata java with GroupDocs.Metadata for Java
+  dateModified: '2026-10-17'
+  description: How to read RAR metadata in Java using GroupDocs.Metadata. Step‑by‑step
+    guide covers password‑protected archives, streaming performance, and common pitfalls.
+  headline: How to read RAR metadata in Java with GroupDocs.Metadata
   type: TechArticle
-- description: Learn how to extract RAR metadata java using GroupDocs.Metadata. Step‑by‑step
-    guide covers password‑protected archives, performance tips, and common issues.
-  name: Extract RAR metadata java with GroupDocs.Metadata for Java
+- description: How to read RAR metadata in Java using GroupDocs.Metadata. Step‑by‑step
+    guide covers password‑protected archives, streaming performance, and common pitfalls.
+  name: How to read RAR metadata in Java with GroupDocs.Metadata
   steps:
   - name: '**Speed:** Reads metadata from up to 50 + archive formats in under 200 ms
       for a 500‑entry RAR file on a typical server.'
@@ -37,7 +40,7 @@ schemas:
       built‑in exceptions, reducing crash rates by > 95 % compared with manual parsing.'
     text: '**Reliability:** Handles corrupted or password‑protected archives with
       built‑in exceptions, reducing crash rates by > 95 % compared with manual parsing.'
-  type: HowTo
+    type: HowTo
 - questions:
   - answer: Yes. Pass the password to the `Archive` constructor; GroupDocs.Metadata
       will decrypt the header and return the metadata.
@@ -61,114 +64,102 @@ tags:
 - groupdocs.metadata
 - java archive processing
 - rar metadata extraction
-title: Trích xuất siêu dữ liệu RAR bằng Java với GroupDocs.Metadata
+title: Cách đọc metadata RAR trong Java với GroupDocs.Metadata
 type: docs
 url: /vi/java/archive-formats/
 weight: 9
 ---
 
-# Trích xuất siêu dữ liệu RAR java với GroupDocs.Metadata cho Java
+# Cách đọc siêu dữ liệu RAR trong Java với GroupDocs.Metadata
 
-Nếu bạn cần **trích xuất siêu dữ liệu RAR java** một cách nhanh chóng, đáng tin cậy và mà không phải tải toàn bộ kho lưu trữ vào bộ nhớ, bạn đã đến đúng tutorial. Trong hướng dẫn này, bạn sẽ khám phá cách GroupDocs.Metadata cho Java đọc thông tin tiêu đề, xử lý các kho lưu trữ được bảo vệ bằng mật khẩu, và mở rộng quy mô lên các tệp đa gigabyte — tất cả trong khi giữ mã nguồn của bạn sạch sẽ và dễ bảo trì.
+Nếu bạn cần **đọc siêu dữ liệu RAR trong Java** một cách nhanh chóng, đáng tin cậy và mà không phải tải toàn bộ kho lưu trữ vào bộ nhớ, bạn đã đến đúng hướng dẫn. Trong hướng dẫn này, bạn sẽ khám phá cách GroupDocs.Metadata cho Java đọc thông tin tiêu đề, xử lý các kho lưu trữ được bảo vệ bằng mật khẩu, và mở rộng cho các tệp đa gigabyte — đồng thời giữ cho mã của bạn sạch sẽ và dễ bảo trì.
 
 ## Câu trả lời nhanh
 - **Thư viện nào xử lý siêu dữ liệu RAR trong Java?** GroupDocs.Metadata for Java.  
 - **Tôi có cần giấy phép để chạy các ví dụ không?** Giấy phép đánh giá tạm thời hoạt động cho việc thử nghiệm; giấy phép đầy đủ cần thiết cho triển khai sản xuất.  
-- **Phiên bản Java nào được hỗ trợ?** Java 8 đến 17 (LTS) đều tương thích đầy đủ.  
+- **Các phiên bản Java nào được hỗ trợ?** Java 8 đến 17 (LTS) đều tương thích hoàn toàn.  
 - **Tôi có thể đọc các tệp RAR được bảo vệ bằng mật khẩu không?** Có — chỉ cần cung cấp mật khẩu khi khởi tạo đối tượng archive.  
-- **Có ảnh hưởng hiệu năng khi làm việc với các kho lưu trữ lớn không?** Việc trích xuất được thực hiện theo luồng, do đó mức sử dụng bộ nhớ vẫn thấp ngay cả với các tệp có kích thước gigabyte.
+- **Có ảnh hưởng về hiệu năng đối với các kho lưu trữ lớn không?** Việc giải nén được thực hiện theo luồng, vì vậy mức sử dụng bộ nhớ vẫn thấp ngay cả với các tệp có kích thước gigabyte.
 
-## Extract RAR metadata java là gì?
-**Extract RAR metadata java** có nghĩa là đọc chương trình các thông tin mô tả được lưu trong một kho lưu trữ RAR — tên tệp, kích thước, dấu thời gian, bình luận và các thuộc tính tùy chỉnh — mà không giải nén nội dung của kho lưu trữ. Hoạt động này rất quan trọng cho việc lập chỉ mục, tìm kiếm và tạo nhật ký kiểm tra. Dữ liệu đã trích xuất sau đó có thể được lập chỉ mục, hiển thị trong các thành phần UI, hoặc dùng cho báo cáo tuân thủ mà không phải chịu chi phí của việc giải nén toàn bộ.
+## Đọc RAR là gì?
+**Đọc RAR** có nghĩa là lấy thông tin mô tả được lưu trữ bên trong một kho lưu trữ RAR một cách lập trình — tên tệp, kích thước, dấu thời gian, bình luận và các thuộc tính tùy chỉnh — mà không giải nén nội dung của kho lưu trữ. Thao tác này rất cần thiết cho việc lập chỉ mục, tìm kiếm và tạo ra nhật ký kiểm toán. Dữ liệu đã trích xuất sau đó có thể được lập chỉ mục, hiển thị trong các thành phần UI, hoặc sử dụng cho báo cáo tuân thủ mà không tốn kém việc giải nén toàn bộ.
 
-## Tại sao nên trích xuất siêu dữ liệu RAR bằng GroupDocs.Metadata cho Java?
-Đọc siêu dữ liệu trực tiếp từ tiêu đề kho lưu trữ tránh việc phải giải nén từng tệp, giúp giảm đáng kể thời gian xử lý và tiêu thụ bộ nhớ. Cách tiếp cận này cũng đảm bảo chỉ truy cập những thông tin cần thiết, rất phù hợp cho các kịch bản lập chỉ mục quy mô lớn và kiểm tra nơi hiệu năng và hiệu quả tài nguyên là yếu tố then chốt.
+## Tại sao nên sử dụng GroupDocs.Metadata cho Java để đọc siêu dữ liệu RAR?
+Đọc siêu dữ liệu trực tiếp từ tiêu đề của kho lưu trữ tránh chi phí giải nén từng tệp, giúp giảm đáng kể thời gian xử lý và tiêu thụ bộ nhớ. Cách tiếp cận này cũng đảm bảo chỉ truy cập thông tin cần thiết, làm cho nó trở nên lý tưởng cho việc lập chỉ mục quy mô lớn và các kịch bản kiểm toán, nơi hiệu năng và hiệu quả tài nguyên là rất quan trọng.
 
-GroupDocs.Metadata xử lý tiêu đề kho lưu trữ trực tiếp, mang lại ba lợi ích định lượng:
+GroupDocs.Metadata xử lý trực tiếp tiêu đề của kho lưu trữ, mang lại ba lợi ích được định lượng:
 
-1. **Tốc độ:** Đọc siêu dữ liệu từ hơn 50 + định dạng kho lưu trữ trong vòng dưới 200 ms cho tệp RAR có 500 mục trên một máy chủ tiêu chuẩn.  
+1. **Tốc độ:** Đọc siêu dữ liệu từ hơn 50 + định dạng kho lưu trữ trong thời gian dưới 200 ms cho tệp RAR có 500 mục trên một máy chủ tiêu chuẩn.  
 2. **Hiệu quả bộ nhớ:** Sử dụng kiến trúc streaming, không bao giờ tải hơn 4 MB của kho lưu trữ vào RAM, bất kể kích thước tệp tổng cộng.  
-3. **Độ tin cậy:** Xử lý các kho lưu trữ bị hỏng hoặc được bảo vệ bằng mật khẩu với các ngoại lệ tích hợp, giảm tỷ lệ treo > 95 % so với việc phân tích thủ công.
+3. **Độ tin cậy:** Xử lý các kho lưu trữ bị hỏng hoặc được bảo vệ bằng mật khẩu với các ngoại lệ tích hợp, giảm tỷ lệ lỗi hơn 95 % so với việc phân tích thủ công.
 
-## Cách đọc các tệp RAR được bảo vệ bằng mật khẩu sử dụng GroupDocs.Metadata cho Java
-`Archive` là lớp cốt lõi trong GroupDocs.Metadata đại diện cho một kho lưu trữ nén và cung cấp quyền truy cập vào các mục và siêu dữ liệu của nó. Khi bạn tạo một thể hiện `Archive`, bạn có thể truyền đường dẫn kho lưu trữ và mật khẩu trong một lời gọi, và thư viện sẽ giải mã tiêu đề ngay lập tức.
+## Cách đọc các tệp RAR được bảo vệ bằng mật khẩu bằng GroupDocs.Metadata cho Java
 
-Tải tệp RAR được bảo vệ bằng cách khởi tạo đối tượng `Archive` kèm mật khẩu, sau đó liệt kê các mục để lấy siêu dữ liệu như tên tệp, kích thước và thời gian tạo. Vì API làm việc với streams, bạn không bao giờ cần giải nén toàn bộ kho lưu trữ vào bộ nhớ, giúp thao tác nhanh ngay cả với các tệp lớn, được bảo vệ bằng mật khẩu.
+Tải tệp RAR được bảo vệ của bạn bằng cách khởi tạo đối tượng `Archive` kèm mật khẩu, sau đó liệt kê các mục của nó để lấy siêu dữ liệu như tên tệp, kích thước và thời gian tạo. Vì API hoạt động với các luồng, bạn không bao giờ cần giải nén toàn bộ kho lưu trữ vào bộ nhớ, giữ cho thao tác nhanh ngay cả với các tệp lớn được bảo vệ bằng mật khẩu.
 
-## Các yêu cầu trước
+## Yêu cầu trước
 - Java Development Kit (JDK) 8 hoặc mới hơn đã được cài đặt.  
 - Maven hoặc Gradle để quản lý phụ thuộc.  
-- Giấy phép GroupDocs.Metadata cho Java hợp lệ (giấy phép tạm thời cho việc thử nghiệm).  
-- Các tệp RAR mẫu để thực nghiệm (bạn có thể tạo chúng bằng bất kỳ công cụ nén nào).
+- Giấy phép GroupDocs.Metadata cho Java hợp lệ (giấy phép tạm thời để thử nghiệm).  
+- Các tệp RAR mẫu để thử nghiệm (bạn có thể tạo chúng bằng bất kỳ công cụ nén nào).
 
-## Hướng dẫn từng bước để trích xuất siêu dữ liệu RAR java
+## Hướng dẫn từng bước để đọc siêu dữ liệu RAR trong Java
 
-### Quá trình trích xuất hoạt động như thế nào?
-Bạn tạo một đối tượng `Archive`, tùy chọn truyền mật khẩu, gọi `getEntries()` để lấy một tập hợp các đối tượng `ArchiveEntry`, sau đó đọc các thuộc tính siêu dữ liệu của mỗi mục. Thư viện trả về `null` cho bất kỳ thuộc tính nào không tồn tại trong phiên bản RAR cụ thể, vì vậy luôn kiểm tra `null` trước khi sử dụng.
+### Quy trình trích xuất hoạt động như thế nào?
+Quy trình trích xuất bao gồm ba bước đơn giản: mở kho lưu trữ, liệt kê các mục của nó, và đọc các thuộc tính siêu dữ liệu của mỗi mục. Bạn tạo một thể hiện `Archive`, tùy chọn truyền mật khẩu, gọi `getEntries()` để lấy một tập hợp các đối tượng `ArchiveEntry`, sau đó đọc các thuộc tính như `getFileName()`, `getSize()`, và `getCreationTime()`. Thư viện trả về `null` cho bất kỳ thuộc tính nào không có trong phiên bản RAR cụ thể, vì vậy luôn kiểm tra `null` trước khi sử dụng.
 
 ### Các lớp và phương thức nào liên quan?
-API cốt lõi xoay quanh ba kiểu chính làm việc cùng nhau để cung cấp thông tin kho lưu trữ. `Archive` mở tệp RAR, `ArchiveEntry` đại diện cho mỗi tệp bên trong kho, và `ArchiveOptions` cho phép tinh chỉnh hành vi streaming và xử lý lỗi để đạt hiệu năng tối ưu.
+`Lớp `Archive` là điểm vào đại diện cho một tệp RAR trên đĩa hoặc trong luồng. `ArchiveEntry` đại diện cho một tệp duy nhất bên trong kho lưu trữ và cung cấp các getter cho siêu dữ liệu. `ArchiveOptions` cho phép bạn tinh chỉnh bộ đệm streaming và hành vi xử lý lỗi. Cùng nhau, chúng cung cấp một API nhẹ, an toàn với đa luồng để đọc tiêu đề RAR.
 
-- `Archive` – đại diện cho tệp RAR và cung cấp khả năng liệt kê các mục.  
-- `ArchiveEntry` – cung cấp các thuộc tính siêu dữ liệu như `getFileName()`, `getSize()`, `getCreationTime()`.  
-- `ArchiveOptions` – cấu hình tùy chọn cho việc streaming và xử lý lỗi.
+### Cách xử lý các kho lưu trữ lớn một cách hiệu quả?
+Xử lý các mục trong một vòng lặp streaming thay vì tải chúng vào danh sách. Thư viện đọc tiêu đề mỗi mục khi cần, vì vậy mức tiêu thụ bộ nhớ vẫn ổn định bất kể kích thước kho lưu trữ. Đối với các kho lưu trữ đa gigabyte, tăng bộ đệm nội bộ bằng `ArchiveOptions.setBufferSize()` (ví dụ, 8 MB) và cân nhắc xử lý song song các lô độc lập trên CPU đa nhân để cải thiện thông lượng.
 
-### Làm thế nào để xử lý các kho lưu trữ lớn một cách hiệu quả?
-Xử lý các mục trong vòng lặp và tránh lưu chúng vào danh sách lớn. API streaming đọc tiêu đề mỗi mục khi cần, vì vậy mức tiêu thụ bộ nhớ vẫn ổn định. Đối với các kho lưu trữ đa gigabyte, hãy cân nhắc tăng kích thước bộ đệm nội bộ bằng `ArchiveOptions.setBufferSize()`. Ngoài ra, bạn có thể tăng bộ đệm nội bộ hoặc xử lý các mục theo lô song song để cải thiện thông lượng trên hệ thống đa lõi.
+### Cách đọc các tệp RAR được bảo vệ bằng mật khẩu?
+Truyền chuỗi mật khẩu vào hàm khởi tạo `Archive`: `new Archive("file.rar", "myPassword")`. Thư viện giải mã tiêu đề ngay lập tức và sau đó hoạt động giống như một kho lưu trữ không được bảo vệ. Nếu mật khẩu sai, một `InvalidPasswordException` sẽ được ném ra, bạn có thể bắt và thông báo cho người dùng.
+
+### Cách đọc siêu dữ liệu mà không giải nén tệp?
+API chỉ đọc thư mục trung tâm của kho lưu trữ. Không có dữ liệu tệp nào được giải nén, vì vậy bạn có thể lấy ngay tên, kích thước, dấu thời gian và bình luận. Điều này rất phù hợp cho các kịch bản như xây dựng chỉ mục có thể tìm kiếm nội dung kho lưu trữ hoặc tạo nhật ký kiểm toán.
 
 ## Các vấn đề thường gặp và giải pháp
-| Vấn đề | Giải pháp đề xuất |
+| Issue | Recommended fix |
 |-------|-----------------|
-| **Corrupted archive exception** | Bắt `CorruptedArchiveException`, ghi lại tên tệp và tùy chọn bỏ qua mục tiếp theo. |
-| **Incorrect password** | Xác minh chuỗi mật khẩu, đảm bảo nó được truyền vào hàm khởi tạo `Archive`, và xử lý `InvalidPasswordException`. |
-| **Large archive slows down** | Xử lý các mục theo dạng streaming và tránh tải toàn bộ kho lưu trữ vào bộ nhớ. |
-| **Missing metadata fields** | Không phải tất cả các phiên bản RAR đều lưu mọi thuộc tính; luôn kiểm tra `null` trước khi sử dụng trường dữ liệu. |
+| **Ngoại lệ kho lưu trữ bị hỏng** | Bắt `CorruptedArchiveException`, ghi lại tên tệp, và tùy chọn bỏ qua mục tiếp theo. |
+| **Mật khẩu không đúng** | Xác minh chuỗi mật khẩu, đảm bảo nó được truyền vào hàm khởi tạo `Archive`, và xử lý `InvalidPasswordException`. |
+| **Kho lưu trữ lớn làm chậm** | Xử lý các mục theo dạng streaming và tránh tải toàn bộ kho lưu trữ vào bộ nhớ. |
+| **Thiếu trường siêu dữ liệu** | Không phải tất cả các phiên bản RAR đều lưu trữ mọi thuộc tính; luôn kiểm tra `null` trước khi sử dụng trường. |
 
-## Các câu hỏi thường gặp
+## Câu hỏi thường gặp
 
-**Q: Tôi có thể trích xuất siêu dữ liệu từ các kho lưu trữ RAR được mã hóa không?**  
-A: Có. Cung cấp mật khẩu cho hàm khởi tạo `Archive`; GroupDocs.Metadata sẽ giải mã tiêu đề và trả về siêu dữ liệu.
+**Q: Tôi có thể trích xuất siêu dữ liệu từ các kho lưu trữ RAR được mã hoá không?**  
+A: Có. Truyền mật khẩu vào hàm khởi tạo `Archive`; GroupDocs.Metadata sẽ giải mã tiêu đề và trả về siêu dữ liệu.
 
 **Q: Có giới hạn về số lượng tệp trong một kho lưu trữ RAR không?**  
-A: Không có giới hạn cứng. Thư viện xử lý các mục tuần tự, vì vậy ngay cả các kho lưu trữ có hàng ngàn tệp cũng được xử lý hiệu quả.
+A: Không có giới hạn cứng. Thư viện xử lý các mục một cách tuần tự, vì vậy ngay cả các kho lưu trữ có hàng nghìn tệp cũng được xử lý hiệu quả.
 
 **Q: Tôi có cần giải nén kho lưu trữ để đọc siêu dữ liệu không?**  
 A: Không. Siêu dữ liệu được đọc trực tiếp từ cấu trúc kho lưu trữ, giúp thao tác nhanh và tiêu thụ ít bộ nhớ.
 
 **Q: Làm thế nào để xử lý các kho lưu trữ bị hỏng?**  
-A: GroupDocs.Metadata ném ra ngoại lệ `CorruptedArchiveException`. Bắt ngoại lệ này để ghi lại vấn đề hoặc bỏ qua tệp gây lỗi.
+A: GroupDocs.Metadata ném ra một `CorruptedArchiveException` cụ thể. Bắt ngoại lệ này để ghi lại vấn đề hoặc bỏ qua tệp gây lỗi.
 
-**Q: Tôi có thể ghi hoặc chỉnh sửa siêu dữ liệu trong một kho lưu trữ RAR không?**  
-A: Phiên bản hiện tại hỗ trợ đọc và xóa bình luận nhưng không cho phép ghi siêu dữ liệu mới vào tệp RAR. Đối với các kịch bản ghi lại, cần giải nén, chỉnh sửa và tạo lại kho lưu trữ.
+**Q: Tôi có thể ghi hoặc sửa đổi siêu dữ liệu trong một kho lưu trữ RAR không?**  
+A: Phiên bản hiện tại hỗ trợ đọc và xóa bình luận nhưng không cho phép ghi siêu dữ liệu mới vào tệp RAR. Đối với các kịch bản ghi lại, hãy giải nén, sửa đổi và tạo lại kho lưu trữ.
 
 **Q: Tôi nên làm gì nếu tệp RAR được bảo vệ bằng mật khẩu không mở được?**  
-A: Đảm bảo mật khẩu đúng, kiểm tra kho lưu trữ không sử dụng phương pháp mã hóa không được hỗ trợ, và bắt `InvalidPasswordException` để cung cấp thông báo lỗi thân thiện cho người dùng.
+A: Đảm bảo mật khẩu đúng, xác minh kho lưu trữ không sử dụng phương pháp mã hoá không được hỗ trợ, và bắt `InvalidPasswordException` để cung cấp thông báo lỗi thân thiện với người dùng.
 
-**Q: Thư viện có an toàn đa luồng cho việc trích xuất siêu dữ liệu đồng thời không?**  
+**Q: Thư viện có an toàn với đa luồng cho việc trích xuất siêu dữ liệu đồng thời không?**  
 A: Có. Các thể hiện của `Archive` có thể được sử dụng an toàn trên nhiều luồng miễn là mỗi luồng làm việc với một thể hiện riêng.
 
-## Các tutorial có sẵn
-
-### [Trích xuất siêu dữ liệu RAR một cách hiệu quả với GroupDocs.Metadata cho Java](./extract-rar-metadata-groupdocs-java/)
-Học cách lấy và quản lý siêu dữ liệu từ các kho lưu trữ RAR bằng GroupDocs.Metadata cho Java. Nâng cao kỹ năng quản lý dữ liệu của bạn ngay hôm nay.
-
-### [Cách trích xuất siêu dữ liệu từ tệp ZIP bằng GroupDocs.Metadata trong Java: Hướng dẫn từng bước](./extract-zip-metadata-groupdocs-java-guide/)
-Học cách trích xuất siêu dữ liệu như bình luận và mục tệp từ các tệp ZIP bằng GroupDocs.Metadata cho Java. Thực hiện theo hướng dẫn từng bước để quản lý các kho lưu trữ kỹ thuật số một cách hiệu quả.
-
-### [Cách trích xuất siêu dữ liệu TAR bằng GroupDocs.Metadata cho Java: Hướng dẫn từng bước](./extract-tar-metadata-groupdocs-java-guide/)
-Học cách trích xuất siêu dữ liệu từ các kho lưu trữ .tar bằng GroupDocs.Metadata cho Java với hướng dẫn toàn diện, bao gồm cài đặt, triển khai mã và các ứng dụng thực tế.
-
-### [Cách đọc siêu dữ liệu kho lưu trữ SevenZip bằng GroupDocs.Metadata trong Java](./read-sevenzip-metadata-groupdocs-java/)
-Tìm hiểu cách bạn có thể hiệu quả trích xuất các thuộc tính siêu dữ liệu như tên tệp và kích thước từ các kho lưu trữ SevenZip bằng GroupDocs.Metadata cho Java.
-
-### [Cách xóa bình luận người dùng khỏi các kho lưu trữ ZIP bằng GroupDocs.Metadata trong Java](./remove-user-comments-zip-archives-groupdocs-metadata-java/)
-Học cách loại bỏ bình luận người dùng khỏi các tệp ZIP một cách hiệu quả bằng thư viện mạnh mẽ GroupDocs.Metadata trong Java. Nâng cao bảo mật dữ liệu và tối ưu quản lý siêu dữ liệu.
-
-### [Cách cập nhật bình luận trong kho lưu trữ ZIP bằng GroupDocs.Metadata cho Java](./update-zip-archive-comments-groupdocs-metadata-java/)
-Học cách cập nhật bình luận trong các tệp ZIP bằng GroupDocs.Metadata cho Java với hướng dẫn chi tiết này.
+## Các hướng dẫn có sẵn
+- [Trích xuất siêu dữ liệu RAR một cách hiệu quả với GroupDocs.Metadata cho Java](./extract-rar-metadata-groupdocs-java/)
+- [Cách trích xuất siêu dữ liệu từ tệp ZIP bằng GroupDocs.Metadata trong Java: Hướng dẫn từng bước](./extract-zip-metadata-groupdocs-java-guide/)
+- [Cách trích xuất siêu dữ liệu TAR bằng GroupDocs.Metadata cho Java: Hướng dẫn từng bước](./extract-tar-metadata-groupdocs-java-guide/)
+- [Cách đọc siêu dữ liệu kho lưu trữ SevenZip bằng GroupDocs.Metadata trong Java](./read-sevenzip-metadata-groupdocs-java/)
+- [Cách xóa bình luận người dùng khỏi các kho lưu trữ ZIP bằng GroupDocs.Metadata trong Java](./remove-user-comments-zip-archives-groupdocs-metadata-java/)
+- [Cách cập nhật bình luận kho lưu trữ ZIP bằng GroupDocs.Metadata cho Java](./update-zip-archive-comments-groupdocs-metadata-java/)
 
 ## Tài nguyên bổ sung
-
 - [Tài liệu GroupDocs.Metadata cho Java](https://docs.groupdocs.com/metadata/java/)
 - [Tham chiếu API GroupDocs.Metadata cho Java](https://reference.groupdocs.com/metadata/java/)
 - [Tải xuống GroupDocs.Metadata cho Java](https://releases.groupdocs.com/metadata/java/)
@@ -178,12 +169,11 @@ Học cách cập nhật bình luận trong các tệp ZIP bằng GroupDocs.Meta
 
 ---
 
-**Last Updated:** 2026-08-10  
-**Tested With:** GroupDocs.Metadata 23.11 for Java  
-**Author:** GroupDocs
+**Cập nhật lần cuối:** 2026-10-17  
+**Kiểm thử với:** GroupDocs.Metadata 23.11 cho Java  
+**Tác giả:** GroupDocs
 
-## Các tutorial liên quan
-
-- [Cách trích xuất bình luận zip java bằng GroupDocs.Metadata – Hướng dẫn](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)
-- [Cách đọc thời gian tạo java từ tệp Presentation bằng GroupDocs.Metadata – Hướng dẫn từng bước](/metadata/java/document-formats/extract-metadata-presentation-groupdocs-metadata-java/)
+## Hướng dẫn liên quan
+- [Cách trích xuất bình luận zip bằng Java sử dụng GroupDocs.Metadata – Hướng dẫn](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)
+- [Cách đọc thời gian tạo bằng Java từ tệp Presentation sử dụng GroupDocs.Metadata – Hướng dẫn từng bước](/metadata/java/document-formats/extract-metadata-presentation-groupdocs-metadata-java/)
 - [Trích xuất bình luận hình ảnh JPEG2000 trong Java bằng GroupDocs.Metadata: Hướng dẫn từng bước](/metadata/java/image-formats/extract-jpeg2000-image-comments-java-groupdocs-metadata/)

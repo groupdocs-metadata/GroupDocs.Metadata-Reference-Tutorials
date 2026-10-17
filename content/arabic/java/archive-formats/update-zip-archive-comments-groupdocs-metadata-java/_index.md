@@ -1,42 +1,45 @@
 ---
-date: '2026-07-31'
-description: تعرف على كيفية تحديث تعليق zip في Java باستخدام GroupDocs.Metadata للـ
-  Java في هذا الدليل الشامل.
+date: '2026-10-17'
+description: تعرف على كيفية تعديل تعليقات zip في Java باستخدام GroupDocs.Metadata.
+  يشرح هذا الدليل خطوات الإعداد، الكود، وحل المشكلات لتحديثات سريعة للـ archive.
+images:
+- /java/archive-formats/update-zip-archive-comments-groupdocs-metadata-java/og-image.png
 keywords:
-- update zip comment java
+- how to edit zip
 - GroupDocs.Metadata Java
-- zip archive metadata
+- zip comment Java
 - Java archive processing
-lastmod: '2026-07-31'
-og_description: تحديث تعليق ZIP في Java باستخدام GroupDocs.Metadata. يوضح هذا الدليل
-  كيفية تعديل تعليقات الأرشيف في ثوانٍ، مع أمثلة على الشيفرة ونصائح استكشاف الأخطاء.
+lastmod: '2026-10-17'
+og_description: تعرف على كيفية تعديل تعليقات zip في Java باستخدام GroupDocs.Metadata.
+  اتبع الكود خطوة بخطوة، الإعداد، وحل المشكلات لتحديث metadata للـ archive بسرعة.
 og_image_alt: 'Guide: Update ZIP archive comment in Java with GroupDocs.Metadata'
-og_title: تحديث تعليق ZIP في Java – دليل سريع مع GroupDocs.Metadata
+og_title: كيفية تعديل تعليقات zip في Java مع GroupDocs.Metadata
 schemas:
 - author: GroupDocs
-  dateModified: '2026-07-31'
-  description: Learn how to update zip comment java using GroupDocs.Metadata for Java
-    in this comprehensive guide.
-  headline: Update ZIP Comment Java – How to Update ZIP Archive Comments Using GroupDocs.Metadata
+  dateModified: '2026-10-17'
+  description: Learn how to edit zip comments in Java with GroupDocs.Metadata in this
+    comprehensive guide.
+  headline: How to edit zip comments in Java using GroupDocs.Metadata
   type: TechArticle
-- description: Learn how to update zip comment java using GroupDocs.Metadata for Java
-    in this comprehensive guide.
-  name: Update ZIP Comment Java – How to Update ZIP Archive Comments Using GroupDocs.Metadata
+- description: Learn how to edit zip comments in Java with GroupDocs.Metadata in this
+    comprehensive guide.
+  name: How to edit zip comments in Java using GroupDocs.Metadata
   steps:
-  - name: Open the ZIP File
+  - name: Open the ZIP file
     text: The `Metadata` class is the entry point for accessing and modifying archive‑level
       metadata in GroupDocs.Metadata. *Here we create a `Metadata` instance that loads
       the target archive.*
-  - name: Access the Root Package
+  - name: Access the root package
     text: '`ZipRootPackage` represents the top‑level container of a ZIP archive, exposing
       methods to read or write archive‑wide properties such as the comment. *The `ZipRootPackage`
       gives us entry points to modify archive‑level metadata.*'
-  - name: Set a New Comment
+  - name: Set a new comment
     text: The `setComment` method writes the supplied string into the ZIP’s central
       directory comment field. Replace `"updated comment"` with any text you need—this
       is the core of the **update zip comment java** operation. *Replace `"updated
-      comment"` with whatever text you need—this is the core of the update
-  - name: Save Changes to the Updated File
+      comment"` with whatever text you need—this is the core of the update zip comment
+      java operation.*
+  - name: Save changes to the updated file
     text: Calling `save` writes the modified archive to a new location, preserving
       the original file unchanged. The method streams changes directly to disk, avoiding
       full in‑memory copies. *The `save` method writes the modified archive to a new
@@ -64,44 +67,53 @@ tags:
 - GroupDocs.Metadata
 - Java archive processing
 - metadata management
-title: تحديث تعليق ZIP في Java – كيفية تحديث تعليقات أرشيف ZIP باستخدام GroupDocs.Metadata
+- edit zip
+- zip comment Java
+title: كيفية تعديل تعليقات zip في Java باستخدام GroupDocs.Metadata
 type: docs
 url: /ar/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-java/
 weight: 1
 ---
 
-# تحديث تعليقات ZIP Java – كيفية تحديث تعليقات أرشيف ZIP باستخدام GroupDocs.Metadata
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-في التطبيقات الحديثة التي تركز على البيانات، الحفاظ على بيانات الأرشيف مثل التعليقات محدثة أمر أساسي للتتبع والأتمتة. **Update zip comment java** يتيح لك إدخال ملاحظة نصية قصيرة في الدليل المركزي لملف ZIP، والتي يمكن لاحقًا قراءتها بواسطة أي مدير أرشيف. في هذا الدرس سنستعرض كل خطوة — من تكوين مشروع Maven إلى حفظ التعليق الجديد — حتى تتمكن من دمج الحل في نظام النسخ الاحتياطي، خط أنابيب CI، أو سير عمل إدارة المستندات في بضع دقائق فقط.
+# كيفية تعديل تعليقات zip في Java باستخدام GroupDocs.Metadata
+
+في التطبيقات الحديثة التي تركز على البيانات، يعتبر الحفاظ على بيانات الأرشيف مثل التعليقات محدثة أمرًا أساسيًا للتتبع والأتمتة. تسمح لك **How to edit zip** بإدراج ملاحظة نصية قصيرة في الدليل المركزي لملف ZIP، والتي يمكن لاحقًا قراءتها بواسطة أي مدير أرشيف. في هذا الدرس سنستعرض كل خطوة — من تكوين مشروع Maven إلى حفظ التعليق الجديد — حتى تتمكن من دمج الحل في نظام النسخ الاحتياطي، أو خط أنابيب CI، أو سير عمل إدارة المستندات في بضع دقائق فقط.
 
 ## إجابات سريعة
-- **ماذا يفعل “update zip comment java”؟** يستبدل التعليق المعرّف من قبل المستخدم المخزن في الدليل المركزي لأرشيف ZIP.  
-- **أي مكتبة تتعامل مع ذلك؟** GroupDocs.Metadata for Java توفر API عالي المستوى لتعديل تعليقات ZIP.  
-- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية تعمل للتقييم؛ الترخيص المدفوع مطلوب للنشر في بيئات الإنتاج.  
-- **هل يمكن تشغيله على أي نظام تشغيل؟** نعم — طبيعة Java المتعددة المنصات تعني أن الشيفرة تعمل دون تعديل على Windows وLinux وmacOS.  
-- **كم يستغرق التنفيذ؟** تقريبًا 10–15 دقيقة لتحديث أساسي، بالإضافة إلى بضع دقائق للاختبار.
+- **What does “how to edit zip” do?** إنه يستبدل التعليق المعرّف من قبل المستخدم المخزن في الدليل المركزي لأرشيف ZIP.  
+- **Which library handles this?** توفر GroupDocs.Metadata for Java واجهة برمجة تطبيقات عالية المستوى لمعالجة تعليقات ZIP.  
+- **Do I need a license?** نسخة تجريبية مجانية تعمل للتقييم؛ ويتطلب الترخيص المدفوع للنشر في بيئات الإنتاج.  
+- **Can I run this on any OS?** نعم — طبيعة Java المتعددة المنصات تعني أن الشيفرة تعمل دون تعديل على Windows وLinux وmacOS.  
+- **How long does implementation take?** حوالي 10–15 دقيقة لتحديث أساسي، بالإضافة إلى بضع دقائق للاختبار.
 
 ## ما هو “update zip comment java”؟
-**تحديث تعليق ZIP يعني كتابة ملاحظة نصية جديدة في قسم بيانات الأرشيف للملف.** يُخزن هذا التعليق في الدليل المركزي للأرشيف ويمكن عرضه بواسطة أي مدير أرشيف قياسي إلى جانب اسم الملف. يوفر مكانًا مناسبًا لعلامات الإصدار، الطوابع الزمنية، معرفات المشروع، أو أي معلومات وصفية مختصرة ترغب في ربطها بالأرشيف.
+تحديث تعليق ZIP يعني كتابة ملاحظة نصية جديدة في قسم البيانات الوصفية لملف ZIP. يتم تخزين هذا التعليق في الدليل المركزي للأرشيف ويمكن لأي مدير أرشيف قياسي عرضه بجانب اسم الملف. يوفر مكانًا ملائمًا لعلامات الإصدار، والطوابع الزمنية، ومعرفات المشروع، أو أي معلومات وصفية مختصرة ترغب في ربطها بالأرشيف.
+
+## كيفية تعديل تعليقات zip في Java؟
+قم بتحميل ملف ZIP باستخدام `new Metadata("input.zip")`، ثم عيّن التعليق الجديد عبر `ZipRootPackage.setComment("your comment")`، واستدعِ `metadata.save("output.zip")`. هذه العملية ذات الثلاث خطوات تُحدّث التعليق في أقل من ثانية للملفات التي تقل عن 200 ميغابايت، مما يجعلها أسرع طريقة لتعديل بيانات ZIP الوصفية دون الحاجة إلى تحليل ثنائي يدوي.
 
 ## لماذا نستخدم GroupDocs.Metadata لهذه المهمة؟
-حمّل ZIP، غيّر التعليق، واحفظ — GroupDocs.Metadata ي abstracts تنسيق الباينري بحيث لا تحتاج إلى تحليل الدليل المركزي بنفسك. المكتبة توفر API عالي المستوى، آمن من النوع، يدير الموارد، يدعم مجموعة واسعة من صيغ الأرشيف، ويضمن عمليات سريعة وفعّالة في الذاكرة، مما يجعلها مثالية للمهام البسيطة والمعقدة على حد سواء.
+يقوم GroupDocs.Metadata بتجريد الصيغة الثنائية بحيث لا تحتاج إلى تحليل الدليل المركزي بنفسك. توفر المكتبة واجهة برمجة تطبيقات عالية المستوى وآمنة من حيث النوع، تدير الموارد، وتدعم مجموعة واسعة من صيغ الأرشيف، وتضمن عمليات سريعة وفعّالة في الذاكرة، مما يجعلها مثالية للمهام البسيطة والمعقدة على حد سواء.
 
-- **أمان نوعي قوي** – كائنات Java تمثل كل مكوّن من مكونات الأرشيف، مما يقلل الأخطاء أثناء التشغيل.  
-- **معالجة موارد تلقائية** – try‑with‑resources يضمن إغلاق التدفقات، مما يمنع حجز الملفات.  
-- **اتساق عبر الصيغ** – نفس API يعمل مع ZIP وTAR وRAR وأكثر من 50 صيغة أخرى، لذا يمكنك إعادة استخدام الشيفرة لتوسعات مستقبلية.  
-- **ضمان الأداء** – GroupDocs.Metadata يعالج الأرشيفات حتى 500 ميغابايت دون تحميل الملف بالكامل في الذاكرة، مقدماً تحديثات تعليقات خلال أقل من ثانية على خوادم عادية.
+- **Strong type safety** – نماذج Java تمثل كل مكوّن من مكونات الأرشيف، مما يقلل الأخطاء أثناء التشغيل.  
+- **Automatic resource handling** – يضمن try‑with‑resources إغلاق التدفقات، مما يمنع قفل الملفات.  
+- **Cross‑format consistency** – تعمل نفس الواجهة مع صيغ ZIP وTAR وRAR وأكثر من **50** نوعًا آخر من الأرشيفات، لذا يمكنك إعادة استخدام الشيفرة للتوسعات المستقبلية.  
+- **Performance guarantee** – يعالج GroupDocs.Metadata الأرشيفات حتى **500 ميغابايت** دون تحميل الملف بالكامل في الذاكرة، ويقدّم تحديثات تعليقات بأقل من ثانية على عتاد الخادم المعتاد.
 
 ## المتطلبات المسبقة
-قبل البدء، تأكد من وجود:
+قبل أن تبدأ، تأكد من أنك تمتلك:
 
-- **JDK 8 أو أحدث** مثبت و`java` في PATH.  
-- **Maven** (3.6+) لحل الاعتمادات.  
-- بيئة تطوير (IntelliJ IDEA، Eclipse، أو NetBeans) — اختيارية لكن تُسرّع عملية التصحيح.  
-- ملف ترخيص **GroupDocs.Metadata** (النسخة التجريبية مجانية للاستكشاف).
+- **JDK 8 أو أحدث** مثبت و`java` موجود في PATH.  
+- **Maven** (3.6+) لحل التبعيات.  
+- بيئة تطوير متكاملة (IntelliJ IDEA أو Eclipse أو NetBeans) – اختيارية لكنها تُسرّع عملية التصحيح.  
+- ملف ترخيص **GroupDocs.Metadata** (النسخة التجريبية المجانية تعمل للاستكشاف).
 
-## إعداد GroupDocs.Metadata لـ Java
-أضف مستودع GroupDocs والاعتماد إلى ملف `pom.xml` الخاص بك:
+## إعداد GroupDocs.Metadata لجافا
+يمكنك العثور على أحدث الإصدارات في [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/). أضف مستودع GroupDocs والاعتماد إلى ملف `pom.xml` الخاص بك:
 
 ```xml
 <repositories>
@@ -121,20 +133,20 @@ weight: 1
 </dependencies>
 ```
 
-إذا كنت تفضّل عدم استخدام Maven، يمكنك تنزيل ملف JAR مباشرة من [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
+إذا كنت تفضّل عدم استخدام Maven، يمكنك تنزيل ملف JAR مباشرةً من [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### خطوات الحصول على الترخيص
-- **نسخة تجريبية** – سجّل على موقع GroupDocs.  
-- **ترخيص مؤقت** – اطلب واحدًا لتقييم ممتد.  
-- **شراء** – احصل على ترخيص دائم للاستخدام في الإنتاج.
+- **Free trial** – سجّل في موقع GroupDocs.  
+- **Temporary license** – اطلب واحدة لتقييم ممتد.  
+- **Purchase** – احصل على ترخيص دائم للاستخدام في الإنتاج.
 
 ## دليل التنفيذ: تحديث تعليق ZIP
 
-### إجابة مباشرة
-حمّل ZIP باستخدام `new Metadata("input.zip")`، عيّن التعليق الجديد عبر `ZipRootPackage.setComment("your comment")`، ثم استدعِ `metadata.save("output.zip")`. هذه العملية ذات الثلاث خطوات تُحدّث التعليق في أقل من ثانية للملفات تحت 200 ميغابايت.
+### الإجابة المباشرة
+قم بتحميل ملف ZIP باستخدام `new Metadata("input.zip")`، ثم عيّن التعليق الجديد عبر `ZipRootPackage.setComment("your comment")`، واستدعِ `metadata.save("output.zip")`. هذه العملية ذات الثلاث خطوات تُحدّث التعليق في أقل من ثانية للملفات التي تقل عن 200 ميغابايت، مما يجعلها أسرع طريقة لتعديل بيانات ZIP الوصفية دون تحليل ثنائي يدوي.
 
-### الخطوة 1: فتح ملف ZIP
-فئة `Metadata` هي نقطة الدخول للوصول وتعديل بيانات الأرشيف على مستوى GroupDocs.Metadata.  
+### الخطوة 1: فتح ملف zip
+**Metadata** هي الفئة الأساسية التي تمثل أرشيفًا وتوفر نقاط دخول لقراءة وكتابة خصائصه.  
 ```java
 import com.groupdocs.metadata.Metadata;
 import com.groupdocs.metadata.core.ZipRootPackage;
@@ -144,26 +156,26 @@ public class ZipUpdateArchiveComment {
         // Open the ZIP file specified by 'YOUR_DOCUMENT_DIRECTORY'
         try (Metadata metadata = new Metadata("YOUR_DOCUMENT_DIRECTORY/InputZip.zip")) {
 ```  
-*هنا ننشئ كائن `Metadata` يحمل الأرشيف المستهدف.*
+*هنا نقوم بإنشاء كائن `Metadata` الذي يحمل الأرشيف المستهدف.*
 
 ### الخطوة 2: الوصول إلى الحزمة الجذرية
-`ZipRootPackage` تمثّل الحاوية العليا لأرشيف ZIP، وتوفر طرقًا لقراءة أو كتابة خصائص على مستوى الأرشيف مثل التعليق.  
+**ZipRootPackage** يتيح لك الوصول إلى سمات الأرشيف على مستوى كامل مثل التعليق.  
 ```java
             // Access the root package of the ZIP archive
             ZipRootPackage root = metadata.getRootPackageGeneric();
 ```  
-*`ZipRootPackage` يوفّر نقاط الدخول لتعديل بيانات الأرشيف على مستوى الحزمة.*
+*يوفر `ZipRootPackage` نقاط دخول لتعديل البيانات الوصفية على مستوى الأرشيف.*
 
 ### الخطوة 3: تعيين تعليق جديد
-طريقة `setComment` تكتب السلسلة المقدمة في حقل تعليق الدليل المركزي للـ ZIP. استبدل `"updated comment"` بأي نص تحتاجه — هذا هو جوهر عملية **update zip comment java**.  
+**setComment** يكتب السلسلة المقدمة في حقل تعليق الدليل المركزي.  
 ```java
             // Set a new comment for the ZIP package
             root.getZipPackage().setComment("updated comment");
 ```  
-*استبدل `"updated comment"` بأي نص تحتاجه — هذا هو جوهر عملية update zip comment java.*
+*استبدل `"updated comment"` بأي نص تحتاجه — هذا هو جوهر عملية تحديث تعليق zip في Java.*
 
 ### الخطوة 4: حفظ التغييرات إلى الملف المحدث
-استدعاء `save` يكتب الأرشيف المعدل إلى موقع جديد، مع الحفاظ على الملف الأصلي دون تغيير. الطريقة تبث التغييرات مباشرة إلى القرص، متجنبة النسخ الكاملة في الذاكرة.  
+**save** يحفظ الأرشيف المعدل دون تحميل الملف بالكامل في الذاكرة.  
 ```java
             // Save the updated ZIP file to 'YOUR_OUTPUT_DIRECTORY'
             metadata.save("YOUR_OUTPUT_DIRECTORY/OutputZip.zip");
@@ -174,60 +186,68 @@ public class ZipUpdateArchiveComment {
 *طريقة `save` تكتب الأرشيف المعدل إلى موقع جديد، مع الحفاظ على الملف الأصلي.*
 
 ## المشكلات الشائعة والحلول
-- **مسارات ملفات غير صحيحة** – تحقق من وجود `YOUR_DOCUMENT_DIRECTORY` و`YOUR_OUTPUT_DIRECTORY` وإمكانية القراءة/الكتابة لهما.  
-- **أذونات غير كافية** – شغّل JVM بصلاحيات قراءة/كتابة مناسبة، خاصة على Linux/macOS حيث تهم ملكية الملفات.  
-- **أخطاء الترخيص** – ضع ملف الترخيص (`GroupDocs.Metadata.lic`) في دليل عمل التطبيق أو اضبط الترخيص برمجياً قبل أي استدعاء API.  
-- **أرشيفات كبيرة** – استخدم try‑with‑resources (كما هو موضح) لتحرير الذاكرة سريعًا؛ للأرشيفات التي تتجاوز 500 ميغابايت، فكر في المعالجة على أجزاء أو استخدم API البث.
+- **Incorrect file paths** – تحقق من أن الأدلة التي تشير إليها موجودة وتملك أذونات القراءة/الكتابة.  
+- **Insufficient permissions** – شغّل JVM بالحقوق المناسبة، خاصةً على Linux/macOS حيث يهم ملكية الملفات.  
+- **License errors** – ضع ملف الترخيص (`GroupDocs.Metadata.lic`) في دليل عمل التطبيق أو اضبط الترخيص برمجياً قبل أي استدعاء للـ API.  
+- **Large archives** – استخدم واجهة برمجة التطبيقات المتدفقة (انظر قسم “نصائح الأداء”) لمعالجة الأرشيفات التي تتجاوز **500 ميغابايت** دون استنزاف مساحة الذاكرة.
 
 ## تطبيقات عملية
-1. **أنظمة إدارة المستندات** – إلحاق أرقام الإصدارات تلقائيًا إلى تعليقات ZIP أثناء الفحص‑الدخلي، مما يتيح التعرف البصري السريع.  
-2. **أدوات النسخ الاحتياطي** – تضمين طوابع زمنية للنسخ الاحتياطي أو تجزئات التحقق داخل التعليق لتدقيق فوري.  
-3. **تكامل CRM** – تخزين معرفات العملاء أو أرقام القضايا في التعليق، مما يسمح للموظفين بالعثور على الملفات ذات الصلة دون فتحها.  
-4. **معالم المشاريع** – وضع علامات ZIP بمعرفات السبرينت أو ملاحظات الإصدار، لتبقى مخرجات الإصدار ذات وصف ذاتي.  
-5. **تجميع السجلات** – تضمين ملخص قصير لمحتوى السجلات داخل التعليق لفحوصات صحة سريعة.
+1. **Document management systems** – إلحاق أرقام الإصدارات تلقائيًا بتعليقات ZIP أثناء عملية الإدخال، مما يتيح التعرف البصري السريع.  
+2. **Backup utilities** – تضمين طوابع زمنية للنسخ الاحتياطي أو تجزئات التحقق داخل التعليق لتوفير تدقيق فوري.  
+3. **CRM integration** – تخزين معرفات العملاء أو أرقام القضايا في التعليق، مما يسمح لفريق الدعم بالعثور على الملفات ذات الصلة دون فتحها.  
+4. **Project milestones** – وضع وسوم على ملفات ZIP بمعرفات السبرينت أو ملاحظات الإصدار، مما يجعل مخرجات الإصدار ذات وصف ذاتي.  
+5. **Log aggregation** – تضمين ملخص قصير لمحتوى السجلات داخل التعليق لفحوصات صحية سريعة.
 
 ## نصائح الأداء
-- **إعادة استخدام كائنات `Metadata`** عند تحديث العديد من الأرشيفات داخل حلقة لتقليل تكلفة إنشاء الكائنات.  
-- **المعالجة الدفعية** – جمع عدة ملفات ZIP في مهمة واحدة لتقليل زمن الانتظار I/O.  
-- **تجنب الحفظ غير الضروري** – استدعِ `metadata.save()` فقط عندما يحدث تغيير فعلي في التعليق؛ هذا يمنع عمليات كتابة غير ضرورية على القرص.
+- **Reuse `Metadata` objects** عند تحديث العديد من الأرشيفات في حلقة لتقليل عبء إنشاء الكائنات.  
+- **Batch processing** – جمع عدة ملفات ZIP في مهمة واحدة لتقليل زمن استجابة الإدخال/الإخراج.  
+- **Avoid unnecessary saves** – استدعِ `metadata.save()` فقط عندما يحدث تغيير فعلي في التعليق؛ هذا يتجنب عمليات كتابة غير ضرورية على القرص.  
+- **Streaming API** – للأرشيفات التي تتجاوز **1 جيجابايت**، عالج البيانات على دفعات باستخدام وضع التدفق في `Metadata` للحفاظ على استهلاك الذاكرة تحت **100 ميغابايت**.
 
 ## الخلاصة
-أصبحت الآن تمتلك طريقة جاهزة للإنتاج **update zip comment java** باستخدام GroupDocs.Metadata. من خلال الحفاظ على تعليقات الأرشيف محدثة، تحسّن التتبع، تبسط الأتمتة، وتمنح الأدوات اللاحقة القدرة على اتخاذ قرارات أذكى. استكشف عمليات بيانات إضافية — مثل قراءة تعليقات على مستوى الإدخالات أو تعديل الطوابع الزمنية — لإثراء سير عمل الأرشفة الخاص بك أكثر.
+أصبح لديك الآن طريقة جاهزة للإنتاج **edit zip** التعليقات باستخدام GroupDocs.Metadata. من خلال الحفاظ على تعليقات الأرشيف محدثة، تحسن التتبع، وتبسط الأتمتة، وتمكّن الأدوات اللاحقة من اتخاذ قرارات أكثر ذكاءً. استكشف عمليات بيانات وصفية إضافية — مثل قراءة تعليقات المستويات الفردية أو تعديل الطوابع الزمنية — لتثري سير عمل الأرشفة الخاص بك أكثر.
 
 ## الأسئلة المتكررة
 
 **س: ما هو GroupDocs.Metadata؟**  
-ج: GroupDocs.Metadata هي مكتبة Java توفر API موحد لقراءة، كتابة، وحذف البيانات الوصفية عبر أكثر من 70 صيغة ملف وأرشيف.
+ج: GroupDocs.Metadata هي مكتبة Java توفر واجهة برمجة تطبيقات موحدة لقراءة وكتابة وحذف البيانات الوصفية عبر أكثر من **70** صيغة ملفات وأرشيف.
 
-**س: هل يمكن إدارة تعليقات ZIP بدون ترخيص؟**  
-ج: النسخة التجريبية تسمح بوظائف القراءة/الكتابة الكاملة لمدة تصل إلى 30 يومًا؛ الترخيص المدفوع مطلوب للاستخدام التجاري أو طويل الأمد.
+**س: هل يمكنني إدارة تعليقات ZIP بدون ترخيص؟**  
+ج: تسمح النسخة التجريبية المجانية بوظائف القراءة/الكتابة الكاملة لمدة تصل إلى **30 يومًا**؛ ويتطلب الترخيص المدفوع للاستخدام التجاري أو الطويل الأمد.
 
-**س: هل تدعم المكتبة ملفات ZIP محمية بكلمة مرور؟**  
-ج: نعم — فقط زوّد كلمة المرور عند إنشاء كائن `Metadata`؛ API سيفك التشفير، يعدّل التعليق، ويعيد التشفير تلقائيًا.
+**س: هل تدعم المكتبة ملفات ZIP المحمية بكلمة مرور؟**  
+ج: نعم — ما عليك سوى تزويد كلمة المرور عند إنشاء كائن `Metadata`؛ ستقوم الواجهة بفك التشفير، تعديل التعليق، وإعادة التشفير تلقائيًا.
 
-**س: كيف أتعامل مع أرشيفات ZIP ضخمة (أكثر من 1 جيجابايت)؟**  
-ج: استخدم API البث المقدم من GroupDocs.Metadata، الذي يعالج البيانات على دفعات ولا يحمل الأرشيف بالكامل في الذاكرة.
+**س: كيف أتعامل مع أرشيفات ZIP الكبيرة جدًا (أكثر من 1 جيجابايت)؟**  
+ج: استخدم واجهة برمجة التطبيقات المتدفقة التي توفرها GroupDocs.Metadata، والتي تعالج البيانات على دفعات ولا تقوم بتحميل الأرشيف بالكامل في الذاكرة.
 
-**س: أين يمكنني العثور على مزيد من الأمثلة أو الحصول على الدعم؟**  
-ج: زر الوثائق الرسمية، مرجع API، وروابط منتدى المجتمع أدناه للحصول على أدلة مفصلة ومساعدة من المجتمع.
+**س: أين يمكنني العثور على المزيد من الأمثلة أو الحصول على الدعم؟**  
+ج: زر الوثائق الرسمية، مرجع الـ API، وروابط منتدى المجتمع أدناه للحصول على أدلة مفصلة ومساعدة المجتمع.
 
 ---
 
-**آخر تحديث:** 2026-07-31  
+**آخر تحديث:** 2026-10-17  
 **تم الاختبار مع:** GroupDocs.Metadata 24.12  
 **المؤلف:** GroupDocs  
 
 **الموارد**  
-- **الوثائق:** [GroupDocs Documentation](https://docs.groupdocs.com/metadata/java/)  
-- **الوثائق:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
-- **مرجع API:** [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
-- **التنزيل:** [GroupDocs Releases](https://releases.groupdocs.com/metadata/java/)  
-- **مستودع GitHub:** [GroupDocs.Metadata for Java on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
-- **منتدى الدعم المجاني:** [GroupDocs Community Forum](https://forum.groupdocs.com/c/metadata/)  
-- **ترخيص مؤقت:** [Request Temporary License](https://purchase.groupdocs.com/temporary-license/)
+- **التوثيق**: [GroupDocs Documentation](https://docs.groupdocs.com/metadata/java/)  
+- **التوثيق**: [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)  
+- **مرجع API**: [GroupDocs API Reference](https://reference.groupdocs.com/metadata/java/)  
+- **تحميل**: [GroupDocs Releases](https://releases.groupdocs.com/metadata/java/)  
+- **مستودع GitHub**: [GroupDocs.Metadata for Java on GitHub](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)  
+- **منتدى الدعم المجاني**: [GroupDocs Community Forum](https://forum.groupdocs.com/c/metadata/)  
+- **ترخيص مؤقت**: [Request Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
 ## دروس ذات صلة
 
-- [How to extract zip comments java using GroupDocs.Metadata – Guide](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)  
-- [remove zip comments java – How to Remove ZIP Comments in Java Using GroupDocs.Metadata](/metadata/java/archive-formats/remove-user-comments-zip-archives-groupdocs-metadata-java/)  
-- [Update Image Metadata Using GroupDocs.Metadata for Java&#58; A Comprehensive Guide](/metadata/java/image-formats/update-image-metadata-groupdocs-metadata-java/)
+- [كيفية استخراج تعليقات zip في Java باستخدام GroupDocs.Metadata – دليل](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)
+- [remove zip comments java – كيفية إزالة تعليقات ZIP في Java باستخدام GroupDocs.Metadata](/metadata/java/archive-formats/remove-user-comments-zip-archives-groupdocs-metadata-java/)
+- [تحديث بيانات صورة باستخدام GroupDocs.Metadata لجافا: دليل شامل](/metadata/java/image-formats/update-image-metadata-groupdocs-metadata-java/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

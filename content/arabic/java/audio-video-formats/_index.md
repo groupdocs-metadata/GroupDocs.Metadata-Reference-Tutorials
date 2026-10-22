@@ -1,17 +1,24 @@
 ---
-date: 2026-06-22
-description: تعلم كيفية استخراج بيانات MP3 الوصفية باستخدام Java عبر GroupDocs.Metadata.
-  اتبع الدروس خطوة بخطوة لتنسيقات الصوت والفيديو.
+date: 2026-10-22
+description: تعلم كيفية استخراج بيانات MP3 الوصفية باستخدام Java وGroupDocs.Metadata.
+  اتبع دروسًا خطوة بخطوة لتنسيقات الصوت والفيديو.
 keywords:
 - extract mp3 metadata java
 - read id3 tags java
 - read video metadata java
+- groupdocs metadata java
+- mp3 tag extraction
+lastmod: 2026-10-22
+og_description: استخراج بيانات MP3 الوصفية Java باستخدام GroupDocs.Metadata. تعلم
+  كيفية قراءة وسوم ID3 وAPEv2 وبيانات الفيديو الوصفية في Java بسرعة وكفاءة.
+og_image_alt: Guide showing Java code extracting MP3 metadata with GroupDocs.Metadata
+og_title: استخراج بيانات MP3 الوصفية Java مع GroupDocs.Metadata – دليل Java سريع
 schemas:
 - author: GroupDocs
-  dateModified: '2026-06-22'
+  dateModified: '2026-10-22'
   description: Learn how to extract MP3 metadata Java using GroupDocs.Metadata. Follow
     step‑by‑step tutorials for audio and video formats.
-  headline: Extract MP3 Metadata Java – GroupDocs.Metadata Tutorials
+  headline: Extract MP3 metadata java – GroupDocs.Metadata tutorials
   type: TechArticle
 - questions:
   - answer: No. GroupDocs.Metadata works directly on the file’s tag sections, leaving
@@ -30,104 +37,164 @@ schemas:
       to process collections of files quickly.
     question: Can I batch‑process many MP3 files for metadata extraction?
   type: FAQPage
+tags:
+- extract mp3 metadata
+- groupdocs metadata
+- java audio processing
+- media metadata extraction
 title: استخراج بيانات MP3 الوصفية Java – دروس GroupDocs.Metadata
 type: docs
 url: /ar/java/audio-video-formats/
 weight: 7
 ---
 
-# استخراج بيانات تعريف MP3 Java – دروس GroupDocs.Metadata
+# استخراج بيانات تعريف MP3 باستخدام Java – دروس GroupDocs.Metadata
 
-مرحبًا بكم في مجموعة الدروس النهائية حول **بيانات تعريف الصوت والفيديو** للمطورين الذين يعملون مع **GroupDocs.Metadata for Java**. في هذه المحطة ستكتشف كيفية **استخراج بيانات تعريف MP3 Java** بسرعة، تعديل معلومات العلامات، وإدارة سمات حاوية الفيديو — كل ذلك باستخدام شفرة نظيفة وقابلة للصيانة. سواءً كنت تبني خدمة بث، أو منظم موسيقى سطح مكتب، أو خط أنابيب تحويل تلقائي، فإن هذه الأدلة توفر لك الخطوات الدقيقة التي تحتاجها للتعامل مع بيانات تعريف الوسائط بكفاءة.
+في هذا الدليل ستكتشف كيفية **extract MP3 metadata java** باستخدام مكتبة GroupDocs.Metadata. سواءً كنت تبني خدمة بث موسيقى، أو منظم سطح مكتب، أو خط أنابيب تحويل ترميز تلقائي، ستتعلم الخطوات الدقيقة لقراءة ID3 و APEv2 وغيرها من تنسيقات العلامات دون إعادة ترميز الصوت. يغطي الدرس الاستخدام الخاص بـ Java، ونصائح الأداء، وروابط إلى العشرات من الأمثلة ذات الصلة حتى تتمكن من توسيع الحل لتشمل حاويات الفيديو أيضًا.
 
 ## إجابات سريعة
 - **ما المكتبة التي تتعامل مع بيانات تعريف MP3 في Java؟** GroupDocs.Metadata for Java  
-- **هل يمكنني قراءة ID3، APEv2، وغيرها من العلامات دون إعادة الترميز؟** نعم، تقوم الـ API بقراءة العلامات مباشرةً من الملف.  
+- **هل يمكنني قراءة ID3 و APEv2 وغيرها من العلامات دون إعادة ترميز؟** نعم، الـ API يقرأ العلامات مباشرةً من الملف.  
 - **هل أحتاج إلى ترخيص للتطوير؟** ترخيص مؤقت يعمل للاختبار؛ الترخيص الكامل مطلوب للإنتاج.  
 - **ما إصدارات Java المدعومة؟** Java 8 وأحدثها مدعومة بالكامل.  
 - **هل هناك معالجة أخطاء مدمجة؟** المكتبة تُطلق استثناءات مفصلة للعلامات المشوهة أو المفقودة.  
-- **هل يمكنني معالجة ملفات MP3 دفعيًا؟** نعم — استخدم Java streams أو المعالجة المتوازية لاستخراج البيانات من العديد من الملفات بكفاءة.  
+- **هل يمكنني معالجة ملفات MP3 دفعيًا؟** نعم—استخدم Java streams أو المعالجة المتوازية لاستخراج البيانات التعريفية من العديد من الملفات بكفاءة.  
 - **ما سرعة استخراج البيانات التعريفية؟** عادةً ما تكتمل قراءات علامات MP3 في أقل من 30 ms على الأجهزة القياسية.
 
 ## ما هو “extract MP3 metadata java”؟
-استخراج بيانات تعريف MP3 Java هو العملية التي تستخدم GroupDocs.Metadata for Java لقراءة معلومات العلامات من ملفات MP3. تقوم الـ API بالوصول إلى أقسام ID3v1 وID3v2 وAPEv2 دون تعديل تدفق الصوت، وتعيد حقولًا مثل العنوان، الفنان، الألبوم، النوع، رقم المسار، والصورة الغلافية المدمجة في استدعاء طريقة واحد. يتيح ذلك للمطورين بناء مكتبات موسيقية، محركات توصية، أو فحوصات امتثال دون خطوات إعادة ترميز مكلفة.
+**Extract MP3 metadata java** هو العملية التي تستخدم GroupDocs.Metadata for Java لقراءة معلومات العلامات من ملفات MP3. فئة `Metadata` هي نقطة الدخول التي تمثل ملف وسائط لجميع عمليات البيانات التعريفية، وتُعيد الدالة `getId3Tag()` نموذج `Id3Tag` مُعبأ يحتوي على العنوان، الفنان، الألبوم، النوع، رقم المسار والفن الغلاف المضمّن. يتيح لك ذلك بناء مكتبات موسيقية، محركات توصية، أو فحوصات امتثال دون خطوات إعادة ترميز مكلفة.
 
 ## لماذا تستخدم GroupDocs.Metadata for Java؟
-GroupDocs.Metadata for Java توفر API واحدة ومتسقة تغطي **أكثر من 45 تنسيق حاوية صوت وفيديو** ويمكنها قراءة البيانات التعريفية من ملفات يصل حجمها إلى **5 GB** دون تحميل الملف بالكامل في الذاكرة. عدم إعادة الترميز يعني أنك توفر ما يصل إلى **90 % من وقت المعالجة** مقارنةً بالحلول التي تحلل كامل تدفق الوسائط. الاستثناءات القوية والمُعرفة بدقة تحدد العلامات المشوهة فورًا، مما يقلل من جهد تصحيح الأخطاء ويزيد من موثوقية خطوط الإنتاج.
+يدعم GroupDocs.Metadata for Java **45+ صيغ حاويات صوت وفيديو** ويمكنه قراءة البيانات التعريفية من ملفات تصل إلى **5 GB** دون تحميل الملف بالكامل في الذاكرة. لأنه يبث فقط أقسام الترويس، فإن قراءة علامة MP3 النموذجية تنتهي في **أقل من 30 ms**، مما يمنحك معالجة أسرع بنسبة تصل إلى **90 %** مقارنةً بمحللات الملفات الكاملة. الاستثناءات المكتوبة تحدد العلامات المشوهة فورًا، مما يقلل من وقت تصحيح الأخطاء ويحسن موثوقية الإنتاج.
 
 ## المتطلبات المسبقة
-- تثبيت Java 8 أو أحدث.  
-- GroupDocs.Metadata for Java (قم بتحميل أحدث JAR من الموقع الرسمي).  
-- مفتاح ترخيص مؤقت أو كامل لفتح ميزات الـ API.  
+- تم تثبيت Java 8 أو أحدث.  
+- GroupDocs.Metadata for Java (قم بتنزيل أحدث JAR من الموقع الرسمي).  
+- مفتاح ترخيص مؤقت أو كامل لفتح ميزات الـ API.
 
-## كيف تقرأ علامات ID3 في Java؟
-تحميل علامات ID3 باستخدام GroupDocs.Metadata for Java هو عملية من خطوتين. **`Metadata` هي الفئة الرئيسية التي تمثل ملف وسائط لعمليات البيانات التعريفية.** أنشئ كائن `Metadata` باستخدام مسار ملف MP3، ثم استدعِ `getId3Tag()`. **`getId3Tag()` تُعيد معلومات علامة ID3 من الملف.** تُعيد الطريقة نموذج `Id3Tag` مُعبأ. **`Id3Tag` تُغلف جميع حقول علامة ID3 مثل العنوان، الفنان، والألبوم.** الكائن المُعاد يُظهر أيضًا خصائص مثل `getTitle()`، `getArtist()`، و `getAlbum()`، مما يتيح لك تخزين أو عرض المعلومات فورًا. يعمل هذا النهج لكل من ID3v1 وID3v2 دون أي تكوين إضافي.
+## كيفية قراءة علامات ID3 في Java؟
+`Metadata` هي الفئة الأساسية التي تمثل أي ملف وسائط لعمليات البيانات التعريفية.  
+قم بإنشائها باستخدام مسار ملف MP3، ثم استدعِ `getId3Tag()` للحصول على كائن `Id3Tag` يُظهر `getTitle()`، `getArtist()`، `getAlbum()`، وغيرها من الخصائص. يعمل نمط الخطوتين هذا لكل من علامات ID3v1 و ID3v2، وتختار المكتبة تلقائيًا أحدث نسخة من العلامة.
 
-## كيف تقرأ بيانات تعريف الفيديو في Java؟
-لقراءة بيانات تعريف الفيديو، أنشئ مثيلًا من `Metadata` يشير إلى ملف الفيديو (مثل MP4، MKV، MOV) واستدعِ `getVideoInfo()`. **`getVideoInfo()` تستخرج البيانات التعريفية الخاصة بالفيديو مثل الترميز والمدة.** تُعيد الطريقة كائن `VideoInfo`. **`VideoInfo` يحتوي على خصائص الفيديو مثل الترميز، الدقة، ومعدل الإطارات.** تشمل الترميز، المدة، معدل الإطارات، الدقة، وعلامات مستوى الحاوية. نظرًا لأن GroupDocs.Metadata يبث فقط أقسام الرأس، حتى ملفات الفيديو الكبيرة بدقة 4 K تُعالج في بضع مللي ثانية، مما يجعل التحليل في الوقت الحقيقي ممكنًا.
+يمكنك الآن قراءة الحقول مثل:
+- **Title** – اسم المسار المخزن في العلامة.  
+- **Artist** – اسم الفنان أو الفرقة.  
+- **Album** – اسم المجموعة.  
+- **Genre** – تصنيف النوع الموسيقي.  
+- **Cover art** – بيانات صورة مضمّنة يمكن حفظها كملف منفصل.
+
+نظرًا لأن الـ API يبث فقط أقسام العلامة، يمكنك معالجة آلاف الملفات دفعة واحدة دون استنزاف الذاكرة.
+
+## كيفية قراءة بيانات تعريف الفيديو في Java؟
+`Metadata` أيضًا تعمل كنقطة دخول لملفات الفيديو.  
+أنشئ مثيلًا من `Metadata` يشير إلى ملف فيديو (مثل MP4، MKV، MOV) واستدعِ `getVideoInfo()`. تُعيد الطريقة كائن `VideoInfo` يحتوي على الترميز، المدة، معدل الإطارات، الدقة، وعلامات مستوى الحاوية. بث أقسام الترويس يعني أن حتى فيديوهات 4K متعددة المئات من الميجابايت يتم تحليلها في بضع مللي ثانية، مما يجعل المعالجة في الوقت الحقيقي ممكنة.
+
+الخصائص الفيديو النموذجية التي يمكنك استخراجها تشمل:
+- **Codec** – معرفات ترميز الفيديو والصوت.  
+- **Duration** – إجمالي وقت التشغيل بالثواني.  
+- **Resolution** – العرض × الارتفاع بالبكسل.  
+- **Frame rate** – عدد الإطارات في الثانية.  
+- **Bitrate** – معدل البيانات المتوسط للتيار.
+
+هذه التفاصيل أساسية لأنابيب التحويل، شبكات توصيل المحتوى، وأنظمة فهرسة الوسائط.
 
 ## الدروس المتاحة
 
-### [إزالة علامات APEv2 من ملفات MP3 بفعالية باستخدام GroupDocs.Metadata في Java](./remove-apev2-tags-groupdocs-metadata-java/)
+### [إزالة علامات APEv2 بفعالية من ملفات MP3 باستخدام GroupDocs.Metadata في Java](./remove-apev2-tags-groupdocs-metadata-java/)
+Learn how to effortlessly remove APEv2 tags from your MP3 files with GroupDocs.Metadata for Java. Streamline your audio collections and optimize file sizes.
+
 ### [استخراج بيانات تعريف Matroska باستخدام GroupDocs.Metadata for Java](./extract-matroska-metadata-groupdocs-java/)
+Learn how to efficiently extract metadata from Matroska (.mkv) files using GroupDocs.Metadata for Java, including EBML headers and track data.
+
 ### [استخراج بيانات تعريف WAV باستخدام GroupDocs.Metadata for Java: دليل شامل](./extract-wav-metadata-groupdocs-java/)
+Learn how to efficiently extract and manage WAV file metadata using GroupDocs.Metadata for Java, a powerful tool for audio applications.
+
 ### [استخراج بيانات تعريف FLV باستخدام GroupDocs.Metadata في Java: دليل شامل](./flv-metadata-extraction-groupdocs-java/)
+Learn how to extract and manage FLV metadata using GroupDocs.Metadata for Java. This guide covers setup, reading headers, and optimizing your digital media workflows.
+
 ### [كيفية استخراج بيانات تعريف AVI باستخدام GroupDocs.Metadata في Java: دليل المطور](./extract-avi-metadata-groupdocs-metadata-java/)
+Learn how to extract metadata from AVI files using the powerful GroupDocs.Metadata library for Java. Perfect for developers working on media management and content systems.
+
 ### [كيفية استخراج علامات ID3v1 من ملفات MP3 باستخدام GroupDocs.Metadata Java API](./extract-id3v1-tags-mp3-groupdocs-metadata-java/)
-### [كيفية استخراج الترجمات من ملفات MKV باستخدام Java وGroupDocs.Metadata](./extract-subtitles-mkv-files-java-groupdocs-metadata/)
-### [كيفية قراءة علامات APEv2 من ملفات MP3 باستخدام Java وGroupDocs.Metadata](./read-apev2-tags-mp3-java-groupdocs-metadata/)
+Learn how to extract ID3v1 tags from MP3 files using GroupDocs.Metadata in Java. This tutorial covers setup, code implementation, and best practices.
+
+### [كيفية استخراج الترجمات من ملفات MKV باستخدام Java و GroupDocs.Metadata](./extract-subtitles-mkv-files-java-groupdocs-metadata/)
+Learn how to extract subtitles from MKV files using the powerful GroupDocs.Metadata library in Java. This guide covers setup, implementation, and practical applications.
+
+### [كيفية قراءة علامات APEv2 من ملفات MP3 باستخدام Java و GroupDocs.Metadata](./read-apev2-tags-mp3-java-groupdocs-metadata/)
+Learn how to efficiently extract APEv2 tags like Album, Artist, and Genre from MP3 files using the GroupDocs.Metadata library in Java. Ideal for developers managing multimedia content.
+
 ### [كيفية إزالة علامات ID3v1 من ملفات MP3 باستخدام GroupDocs.Metadata في Java](./remove-id3v1-tags-groupdocs-metadata-java/)
-### [كيفية إزالة علامة كلمات الأغاني ID3v2 من ملفات MP3 باستخدام GroupDocs.Metadata في Java](./remove-id3v2-lyrics-tag-groupdocs-metadata-java/)
-### [كيفية تحديث علامات MP3 ID3v1 باستخدام GroupDocs.Metadata في Java](./update-mp3-id3v1-tags-groupdocs-metadata-java/)
-### [كيفية تحديث علامات MP3 ID3v2 باستخدام GroupDocs.Metadata في Java: دليل شامل](./update-mp3-id2-tags-groupdocs-metadata-java/)
-### [كيفية تحديث علامات كلمات الأغاني MP3 باستخدام GroupDocs.Metadata في Java: دليل خطوة بخطوة](./update-mp3-lyrics-tags-groupdocs-metadata-java-guide/)
+Learn how to remove ID3v1 tags from MP3 files efficiently using GroupDocs.Metadata for Java. Streamline your music library and reduce file sizes.
+
+### [كيفية إزالة علامة كلمات ID3v2 من GroupDocs.Metadata في Java](./remove-id3v2-lyrics-tag-groupdocs-metadata-java/)
+Learn how to efficiently remove the ID3v2 lyrics tag from MP3 files using GroupDocs.Metadata for Java. Follow this step‑by‑step tutorial to manage your audio metadata.
+
+### [كيفية تحديث علامات ID3v1 لملفات MP3 باستخدام GroupDocs.Metadata في Java](./update-mp3-id3v1-tags-groupdocs-metadata-java/)
+Learn how to efficiently manage and update ID3v1 tags for your MP3 files using the powerful GroupDocs.Metadata library in Java. Streamline metadata management with this easy‑to‑follow guide.
+
+### [كيفية تحديث علامات ID3v2 لملفات MP3 باستخدام GroupDocs.Metadata في Java: دليل شامل](./update-mp3-id2-tags-groupdocs-metadata-java/)
+Learn how to update MP3 ID3v2 tags with the GroupDocs.Metadata library in Java. This guide covers setup, coding practices, and real‑world applications.
+
+### [كيفية تحديث علامات كلمات MP3 باستخدام GroupDocs.Metadata في Java: دليل خطوة بخطوة](./update-mp3-lyrics-tags-groupdocs-metadata-java-guide/)
+Learn how to efficiently update MP3 lyrics tags using GroupDocs.Metadata for Java. Streamline your music file management with this comprehensive guide.
+
 ### [إتقان استخراج بيانات تعريف ASF في Java باستخدام GroupDocs.Metadata](./master-asf-metadata-extraction-groupdocs-java/)
+Learn how to efficiently extract and manage ASF metadata using GroupDocs.Metadata for Java. This guide covers setup, reading properties, and accessing codec information.
+
 ### [إتقان معالجة ذرات QuickTime في ملفات MOV باستخدام GroupDocs.Metadata Java](./groupdocs-metadata-java-quicktime-atoms-mov/)
-### [إتقان معالجة بيانات تعريف AVI باستخدام GroupDocs.Metadata for Java: دليل شامل](./mastering-avi-metadata-handling-groupdocs-java/)
+Learn how to efficiently read and manipulate QuickTime atoms in MOV files using the powerful GroupDocs.Metadata library for Java. Streamline your video metadata workflow today!
+
+### [إتقان التعامل مع بيانات تعريف AVI باستخدام GroupDocs.Metadata for Java: دليل شامل](./mastering-avi-metadata-handling-groupdocs-java/)
+Learn how to efficiently manage AVI metadata using GroupDocs.Metadata for Java. This guide covers reading and editing video headers, ensuring seamless media file management.
+
 ### [إتقان استخراج بيانات تعريف MP3 في Java باستخدام GroupDocs.Metadata](./read-mp3-metadata-groupdocs-metadata-java/)
+Learn to efficiently extract and manage MPEG audio metadata from MP3 files using the powerful GroupDocs.Metadata library for Java.
+
 ### [إتقان إدارة علامات MP3 باستخدام GroupDocs.Metadata for Java: إضافة وإزالة علامات ID3v2](./mastering-mp3-tag-management-groupdocs-metadata-java/)
-### [قراءة علامات MP3 ID3v2 باستخدام GroupDocs.Metadata for Java: دليل شامل](./read-id3v2-tags-groupdocs-metadata-java/)
+Learn how to effortlessly add and remove ID3v2 tags from MP3 files using GroupDocs.Metadata for Java. Manage metadata efficiently in your music library.
+
+### [قراءة علامات ID3v2 لملفات MP3 باستخدام GroupDocs.Metadata for Java: دليل شامل](./read-id3v2-tags-groupdocs-metadata-java/)
+Learn how to effortlessly read and manipulate MP3 ID3v2 tags, including attached pictures, using GroupDocs.Metadata for Java. Perfect for developers building media players or managing digital music collections.
 
 ## موارد إضافية
-
 - [توثيق GroupDocs.Metadata for Java](https://docs.groupdocs.com/metadata/java/)
 - [مرجع API لـ GroupDocs.Metadata for Java](https://reference.groupdocs.com/metadata/java/)
-- [تحميل GroupDocs.Metadata for Java](https://releases.groupdocs.com/metadata/java/)
+- [تنزيل GroupDocs.Metadata for Java](https://releases.groupdocs.com/metadata/java/)
 - [منتدى GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata)
 - [دعم مجاني](https://forum.groupdocs.com/)
 - [ترخيص مؤقت](https://purchase.groupdocs.com/temporary-license/)
 
 ## الأسئلة المتكررة
 
-**Q: هل أحتاج إلى إعادة ترميز ملف MP3 لقراءة أو كتابة البيانات التعريفية؟**  
-A: لا. يعمل GroupDocs.Metadata مباشرةً على أقسام العلامات في الملف، مع ترك تدفق الصوت دون تعديل.
+**س: هل أحتاج إلى إعادة ترميز ملف MP3 لقراءة أو كتابة البيانات التعريفية؟**  
+A: لا. يعمل GroupDocs.Metadata مباشرةً على أقسام علامات الملف، مع ترك تدفق الصوت دون تعديل.
 
-**Q: أي صيغ للعلامات يمكنني قراءتها باستخدام “extract MP3 metadata java”؟**  
-A: تدعم الـ API علامات ID3v1 وID3v2 وAPEv2، مما يمنحك وصولًا كاملًا إلى حقول البيانات التعريفية الشائعة.
+**س: أي تنسيقات علامات يمكنني قراءتها باستخدام “extract MP3 metadata java”?**  
+A: يدعم الـ API علامات ID3v1 و ID3v2 و APEv2، مما يمنحك وصولًا كاملاً إلى حقول البيانات التعريفية الشائعة.
 
-**Q: كيف أتعامل مع الملفات التي تحتوي على إصدارات متعددة من العلامات؟**  
-A: تقوم المكتبة تلقائيًا بقراءة أحدث إصدار من العلامة؛ يمكنك أيضًا استعلام أنواع علامات محددة إذا لزم الأمر.
+**س: كيف أتعامل مع الملفات التي تحتوي على إصدارات متعددة من العلامات؟**  
+A: تقوم المكتبة تلقائيًا بقراءة أحدث نسخة من العلامة؛ يمكنك أيضًا استعلام أنواع علامات محددة إذا لزم الأمر.
 
-**Q: هل هناك حد لحجم ملفات MP3 التي يمكنني معالجتها؟**  
-A: لا يوجد حد ثابت؛ تقوم المكتبة ببث أقسام البيانات التعريفية، لذا حتى الملفات الكبيرة تُعامل بكفاءة.
+**س: هل هناك حد لحجم ملفات MP3 التي يمكنني معالجتها؟**  
+A: لا يوجد حد ثابت؛ المكتبة تبث أقسام البيانات التعريفية، لذا حتى الملفات الكبيرة تُعالج بكفاءة.
 
-**Q: هل يمكنني معالجة دفعة من ملفات MP3 لاستخراج البيانات التعريفية؟**  
-A: نعم. غلف كود الاستخراج داخل حلقة أو استخدم Java parallel streams لمعالجة مجموعات الملفات بسرعة.
+**س: هل يمكنني معالجة دفعة من ملفات MP3 لاستخراج البيانات التعريفية؟**  
+A: نعم. غلف كود الاستخراج داخل حلقة أو استخدم Java parallel streams لمعالجة مجموعة الملفات بسرعة.
 
-**Q: ما سرعة استخراج البيانات التعريفية على خادم نموذجي؟**  
+**س: ما سرعة استخراج البيانات التعريفية على خادم نموذجي؟**  
 A: معظم قراءات علامات MP3 تكتمل في أقل من 30 ms، وتزداد عمليات الدفعة بشكل خطي مع عدد نوى المعالج عند استخدام parallel streams.
 
-**Q: هل يدعم GroupDocs.Metadata حاويات الفيديو أيضًا؟**  
-A: بالتأكيد — الدعم يشمل MP4، MKV، MOV، AVI، FLV، ASF، والعديد غيرها، مع وصول كامل إلى الترميز، المدة، وعلامات مستوى التدفق.
+**س: هل يدعم GroupDocs.Metadata حاويات الفيديو أيضًا؟**  
+A: بالتأكيد—الدعم يشمل MP4 و MKV و MOV و AVI و FLV و ASF وغيرها الكثير، مع وصول كامل إلى الترميز، المدة، وعلامات مستوى التيار.
+
+## دروس ذات صلة
+- [كيفية استخراج علامات ID3v1 من ملفات MP3 باستخدام GroupDocs.Metadata Java API](/metadata/java/audio-video-formats/extract-id3v1-tags-mp3-groupdocs-metadata-java/)
+- [قراءة علامات ID3v2 في Java باستخدام GroupDocs.Metadata – دليل شامل](/metadata/java/audio-video-formats/read-id3v2-tags-groupdocs-metadata-java/)
+- [كيفية قراءة العلامات من ملفات MP3 باستخدام Java & GroupDocs.Metadata](/metadata/java/audio-video-formats/read-apev2-tags-mp3-java-groupdocs-metadata/)
 
 ---
 
-**آخر تحديث:** 2026-06-22  
+**آخر تحديث:** 2026-10-22  
 **تم الاختبار مع:** GroupDocs.Metadata 24.11 for Java  
 **المؤلف:** GroupDocs
-
-## دروس ذات صلة
-
-- [كيفية استخراج علامات ID3v1 من ملفات MP3 باستخدام GroupDocs.Metadata Java API](/metadata/java/audio-video-formats/extract-id3v1-tags-mp3-groupdocs-metadata-java/)
-- [قراءة علامات ID3v2 Java باستخدام GroupDocs.Metadata – دليل شامل](/metadata/java/audio-video-formats/read-id3v2-tags-groupdocs-metadata-java/)
-- [كيفية قراءة العلامات من ملفات MP3 باستخدام Java & GroupDocs.Metadata](/metadata/java/audio-video-formats/read-apev2-tags-mp3-java-groupdocs-metadata/)

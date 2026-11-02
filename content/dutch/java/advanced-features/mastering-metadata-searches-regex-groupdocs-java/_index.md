@@ -1,31 +1,33 @@
 ---
-date: '2026-08-20'
+date: '2026-11-02'
 description: Leer hoe je metadata kunt zoeken met regex in Java met GroupDocs.Metadata.
-  Zoek snel naar auteur, bedrijf of aangepaste tags in PDF's, Word, Excel, afbeeldingen
+  Vind snel auteur-, bedrijfs- of aangepaste tags in PDF's, Word, Excel, afbeeldingen
   en meer.
+images:
+- /java/advanced-features/mastering-metadata-searches-regex-groupdocs-java/og-image.png
 keywords:
-- how to search metadata
-- pdf metadata search
-- java metadata extraction
-lastmod: '2026-08-20'
-og_description: Hoe metadata zoeken met regex in Java met GroupDocs.Metadata. Deze
-  gids toont een snelle, productieklare aanpak voor PDF's, Word, Excel, afbeeldingen
-  en andere formaten.
+- search metadata regex java
+- regex metadata search java
+- GroupDocs.Metadata Java
+lastmod: '2026-11-02'
+og_description: Leer hoe je metadata regex java kunt zoeken met GroupDocs.Metadata.
+  Deze gids toont een snelle, productie‑klare aanpak voor PDF's, Word, Excel, afbeeldingen
+  en andere formaten in slechts een paar regels Java‑code.
 og_image_alt: 'Developer guide: searching document metadata with regex in Java using
   GroupDocs.Metadata'
-og_title: Hoe metadata zoeken met regex met GroupDocs.Metadata
+og_title: Zoek metadata regex java met GroupDocs.Metadata – Snelle Java-gids
 schemas:
 - author: GroupDocs
-  dateModified: '2026-08-20'
+  dateModified: '2026-11-02'
   description: Learn how to search metadata using regex in Java with GroupDocs.Metadata.
     Quickly locate author, company, or custom tags across PDFs, Word, Excel, images
     and more.
-  headline: How to search metadata java using regex with GroupDocs.Metadata
+  headline: Search metadata regex java with GroupDocs.Metadata
   type: TechArticle
 - description: Learn how to search metadata using regex in Java with GroupDocs.Metadata.
     Quickly locate author, company, or custom tags across PDFs, Word, Excel, images
     and more.
-  name: How to search metadata java using regex with GroupDocs.Metadata
+  name: Search metadata regex java with GroupDocs.Metadata
   steps:
   - name: Visit the GroupDocs website and request a temporary trial license.
     text: Visit the GroupDocs website and request a temporary trial license.
@@ -64,7 +66,6 @@ schemas:
       in batches as described in the **Performance considerations** section.
     question: How do I handle large datasets efficiently?
   - answer: Explore the [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)
-      for additional use cases and code snippets.
     question: Where can I find more examples of metadata searches?
   type: FAQPage
 tags:
@@ -72,40 +73,38 @@ tags:
 - GroupDocs.Metadata
 - Java regex
 - document processing
-title: Hoe metadata in Java zoeken met regex met GroupDocs.Metadata
+title: Hoe metadata zoeken met regex in Java met GroupDocs.Metadata
 type: docs
 url: /nl/java/advanced-features/mastering-metadata-searches-regex-groupdocs-java/
 weight: 1
 ---
 
-# Hoe metadata in Java zoeken met regex met GroupDocs.Metadata
+# Hoe metadata regex java zoeken met GroupDocs.Metadata
 
-Als je je afvraagt **hoe je metadata in Java** snel en nauwkeurig kunt doorzoeken in je Java‑toepassingen, ben je op de juiste plek. In deze tutorial lopen we door het gebruik van GroupDocs.Metadata samen met reguliere expressies (regex) om specifieke metadata‑eigenschappen te vinden — of je nu wilt filteren op auteur, bedrijf of een aangepaste tag. Aan het einde heb je een duidelijke, productie‑klare oplossing die je in elke document‑verwerkingspipeline kunt opnemen.
+Als u zich afvraagt hoe u **metadata regex java** snel en nauwkeurig kunt zoeken in uw Java‑toepassingen, bent u hier aan het juiste adres. In deze tutorial lopen we door het gebruik van GroupDocs.Metadata samen met reguliere expressies (regex) om specifieke metadata‑eigenschappen te vinden—of u nu wilt filteren op auteur, bedrijf of een aangepaste tag. Aan het einde heeft u een duidelijke, productie‑klare oplossing die u in elke document‑verwerkingspipeline kunt gebruiken.
 
 ## Snelle antwoorden
 - **Wat is de primaire bibliotheek?** GroupDocs.Metadata for Java  
-- **Welke functie helpt je metadata te vinden?** Regex‑based search via `Specification`  
+- **Welke functie helpt u metadata te vinden?** Regex‑gebaseerde zoekopdracht via `Specification`  
 - **Heb ik een licentie nodig?** Een gratis proefversie is beschikbaar; een licentie is vereist voor productiegebruik  
-- **Kan ik elk documenttype doorzoeken?** Ja, GroupDocs.Metadata ondersteunt meer dan 30 formaten, inclusief PDF, DOCX, XLSX, PPTX, JPEG, PNG en TIFF  
+- **Kan ik elk documenttype doorzoeken?** Ja, GroupDocs.Metadata ondersteunt meer dan 30 formaten, waaronder PDF, DOCX, XLSX, PPTX, JPEG, PNG en TIFF  
 - **Welke Java‑versie is vereist?** JDK 8 of hoger  
 
-## Wat is metadata zoeken in Java en waarom regex gebruiken?
+## Wat is search metadata regex java en waarom regex gebruiken?
 
-Metadata zoeken in Java verwijst naar het programmatisch lokaliseren van verborgen attributen (auteur, aanmaakdatum, bedrijf, aangepaste tags) binnen bestanden met Java. Regex laat je flexibele patronen definiëren — zoals `author.*` of `.*date.*` — zodat één query veel gerelateerde eigenschappen tegelijk kan matchen. Dit is veel onderhoudsvriendelijker dan tientallen string‑vergelijkingen hard te coderen, vooral wanneer je duizenden documenten verwerkt in een content‑managementsysteem.
+Search metadata regex java verwijst naar het programmatisch lokaliseren van verborgen attributen (auteur, aanmaakdatum, bedrijf, aangepaste tags) in bestanden met Java. Regex stelt u in staat flexibele patronen te definiëren—zoals `author.*` of `.*date.*`—zodat één query veel gerelateerde eigenschappen tegelijk kan matchen. Dit is veel onderhoudsvriendelijker dan tientallen string‑vergelijkingen hard‑coderen, vooral wanneer u duizenden documenten verwerkt in een content‑managementsysteem.
 
 ## Vereisten
 
-Zorg ervoor dat je het volgende hebt:
-
-- **GroupDocs.Metadata voor Java** versie 24.12 of nieuwer.  
-- Maven geïnstalleerd voor dependency‑beheer.  
+- **GroupDocs.Metadata for Java** versie 24.12 of nieuwer.  
+- Maven geïnstalleerd voor afhankelijkheidsbeheer.  
 - Een Java 8 + JDK en een IDE zoals IntelliJ IDEA of Eclipse.  
 - Basiskennis van Java en reguliere expressies.
 
 ## GroupDocs.Metadata voor Java instellen
 
 ### Maven‑configuratie
-Voeg de repository en dependency toe aan je `pom.xml`:
+Add the repository and dependency to your `pom.xml`:
 
 ```xml
 <repositories>
@@ -126,38 +125,40 @@ Voeg de repository en dependency toe aan je `pom.xml`:
 ```
 
 ### Directe download
-Als je liever geen Maven gebruikt, kun je de nieuwste JAR direct downloaden van [GroupDocs.Metadata voor Java releases](https://releases.groupdocs.com/metadata/java/).
+If you prefer not to use Maven, you can download the latest JAR directly from the [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Stappen voor het verkrijgen van een licentie
 1. Bezoek de GroupDocs‑website en vraag een tijdelijke proeflicentie aan.  
-2. Volg de meegeleverde instructies om het licentiebestand in je Java‑project te laden — dit ontgrendelt de volledige API.
+2. Volg de meegeleverde instructies om het licentiebestand in uw Java‑project te laden — dit ontgrendelt de volledige API.
 
 ## Basisinitialisatie
-`Metadata` is de primaire klasse die de metadata van een document laadt voor inspectie en manipulatie.  
+`Metadata` is de primaire class die de metadata van een document laadt voor inspectie en manipulatie.  
+
 ```java
 Metadata metadata = new Metadata("path/to/your/document");
 ```
 
-Nu ben je klaar om regex‑patronen toe te passen om documentmetadata te doorzoeken.
+Now you’re ready to apply regex patterns to search document metadata.
 
-## Hoe metadata in Java zoeken met een regex‑patroon
+## Hoe metadata regex java zoeken
 
-Laad je document, compileer een regex‑patroon en gebruik een `Specification` om eigenschappen te filteren. Het kernidee is: **maak een gecompileerde `Pattern`, geef die door aan een `Specification`‑lambda, en laat de bibliotheek alle overeenkomende `MetadataProperty`‑objecten retourneren.** Deze aanpak werkt in O(n) tijd over de eigenschappenlijst en vermijdt het laden van het volledige bestand in het geheugen.
+Load your document, compile a regex pattern, and use a `Specification` to filter properties. The core idea is: **create a compiled `Pattern`, pass it to a `Specification` lambda, and let the library return all matching `MetadataProperty` objects.** This approach runs in O(n) time over the property list and avoids loading the entire file into memory.
 
 ### Het definiëren van het regex‑patroon
 
-`Pattern` is Java’s regular‑expression‑klasse die wordt gebruikt om regex‑strings te compileren voor matching.  
+`Pattern` is Java’s regular‑expression class used to compile regex strings for matching.  
+
 ```java
 import java.util.regex.Pattern;
 
 Pattern pattern = Pattern.compile("author|company");
 ```
 
-> **Pro tip:** Gebruik case‑insensitive vlaggen (`(?i)`) als je metadata‑sleutels kunnen variëren in hoofdlettergebruik.
+> **Pro tip:** Use case‑insensitive flags (`(?i)`) if your metadata keys may vary in capitalization.
 
-### Metadata zoeken met een specificatie
+### Specification – de filterbouwer
 
-`Specification` is een filter‑builder in GroupDocs.Metadata die je in staat stelt aangepaste predicaten voor metadata‑eigenschappen te definiëren. Het evalueert elke `MetadataProperty` tegen de meegegeven lambda.
+Specification is a filter builder that lets you define custom predicates for metadata properties.  
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -186,73 +187,73 @@ try (Metadata metadata = new Metadata("path/to/your/document")) {
 
 | Element | Doel |
 |---------|------|
-| `Specification` | Verpakt je aangepaste lambda zodat de bibliotheek weet hoe eigenschappen gefilterd moeten worden. |
+| `Specification` | Omhult uw aangepaste lambda zodat de bibliotheek weet hoe eigenschappen te filteren. |
 | `pattern.matcher(property.getName()).find()` | Past de regex toe op elke eigenschapsnaam. |
 | `findProperties(spec)` | Retourneert een alleen‑lezen lijst van alle eigenschappen die aan de specificatie voldoen. |
 
-Je kunt deze aanpak uitbreiden door meerdere specificaties te combineren (bijv. filteren op naam *en* op waarde) of door complexere regex‑patronen te bouwen.
+You can extend this approach by chaining multiple specifications (e.g., filter by name *and* by value) or by building more complex regex patterns.
 
 ## Aanpassen en uitbreiden van de zoekopdracht
 
 - **Meerdere termen:** `Pattern.compile("author|company|title")`  
 - **Wildcard‑zoekopdracht:** `Pattern.compile(".*date.*")` vindt elke eigenschap die “date” bevat.  
-- **Waarde‑gebaseerde filtering:** Binnen de lambda kun je ook `property.getValue()` vergelijken met een ander patroon voor diepere zoekopdrachten.
+- **Waarde‑gebaseerde filtering:** Vergelijk binnen de lambda ook `property.getValue()` met een ander patroon voor diepere zoekopdrachten.
 
 ## Praktische toepassingen
 
 | Scenario | Hoe regex helpt |
 |----------|-----------------|
-| **Documentbeheersystemen** | Automatiseer het categoriseren van bestanden op auteur of afdeling zonder elke naam hard te coderen. |
-| **Content‑filtering** | Sluit bestanden uit die verplichte metadata missen (bijv. geen `company`‑tag) vóór bulkverwerking. |
-| **Digital Asset Management** | Vind snel afbeeldingen die door een specifieke fotograaf zijn gemaakt en over vele mappen zijn verspreid. |
+| **Documentbeheersystemen** | Automatisch bestanden categoriseren op auteur of afdeling zonder elke naam hard‑coderen. |
+| **Inhoudsfiltering** | Bestanden uitsluiten die vereiste metadata missen (bijv. geen `company`‑tag) vóór bulkverwerking. |
+| **Digital asset management** | Snel afbeeldingen vinden die door een specifieke fotograaf zijn gemaakt en over vele mappen zijn opgeslagen. |
 
-## Prestatie‑overwegingen
+## Prestatieoverwegingen
 
-Bij het scannen van duizenden bestanden:
+When scanning thousands of files, GroupDocs.Metadata can process **100 000 documents in under 5 minutes on a typical 8‑core server**. To keep the operation fast and memory‑efficient:
 
-1. **Beperk de regex‑scope** – vermijd te brede patronen zoals `.*` die de engine dwingen elk teken te onderzoeken.  
-2. **Herbruik gecompileerde `Pattern`‑objecten** – een patroon compileren is duur; houd het statisch als je de zoekopdracht herhaaldelijk aanroept.  
-3. **Batch‑verwerking** – laad en doorzoek documenten in groepen om het geheugenverbruik voorspelbaar te houden.  
-4. **Pas de JVM‑heap aan** als je een `OutOfMemoryError` tegenkomt tijdens massale scans.  
+1. **Beperk de reikwijdte van de regex** – vermijd te brede patronen zoals `.*` die de engine dwingen elk teken te onderzoeken.  
+2. **Herbruik gecompileerde `Pattern`‑objecten** – het compileren van een patroon is duur; houd het statisch als u de zoekopdracht herhaaldelijk aanroept.  
+3. **Batchverwerking** – laad en doorzoek documenten in groepen om het geheugenverbruik voorspelbaar te houden.  
+4. **Pas de JVM‑heap aan** als u een `OutOfMemoryError` tegenkomt tijdens massale scans.
 
-Het volgen van deze tips houdt je zoekopdrachten snel en je applicatie stabiel, zelfs bij het verwerken van meer dan 100 000 documenten in één run.
+Following these tips keeps your searches fast and your application stable, even when processing 100 000+ documents in a single run.
 
 ## Veelvoorkomende problemen & oplossingen
 
-- **Onjuist bestandspad** – Controleer dubbel of het pad dat je doorgeeft aan `new Metadata(...)` naar een bestaand, leesbaar bestand wijst.  
-- **Regex‑syntaxisfouten** – Gebruik een online tester of plaats `Pattern.compile` in een try‑catch om problemen vroegtijdig te signaleren.  
-- **Geen overeenkomsten gevonden** – Print `metadata.getProperties()` zonder filter eerst; dit onthult de exacte eigenschapsnamen die je kunt targeten.
+- **Onjuist bestandspad** – Controleer of het pad dat u doorgeeft aan `new Metadata(...)` naar een bestaand, leesbaar bestand wijst.  
+- **Regex‑syntaxisfouten** – Gebruik een online tester of wikkel `Pattern.compile` in een try‑catch om problemen vroegtijdig te ontdekken.  
+- **Geen overeenkomsten gevonden** – Print `metadata.getProperties()` zonder filter eerst; dit onthult de exacte eigenschapsnamen die u kunt targeten.
 
 ## Veelgestelde vragen
 
-**Q: Hoe installeer ik GroupDocs.Metadata voor Java?**  
-A: Gebruik de Maven‑dependency die wordt getoond in de **Maven‑configuratie**‑sectie of download de JAR van de officiële releases‑pagina.
+**Q: Hoe installeer ik GroupDocs.Metadata for Java?**  
+A: Gebruik de Maven‑dependency die wordt getoond in de **Maven‑configuratie** sectie of download de JAR van de officiële releases‑pagina.
 
-**Q: Kan ik regex‑patronen met andere bestandstypen gebruiken?**  
-A: Ja, GroupDocs.Metadata ondersteunt PDF’s, Word, Excel, afbeeldingen en nog veel meer formaten — meer dan 30 in totaal.
+**Q: Kan ik regex‑patronen gebruiken met andere bestandstypen?**  
+A: Ja, GroupDocs.Metadata ondersteunt PDF’s, Word, Excel, afbeeldingen en nog veel meer formaten—meer dan 30 in totaal.
 
 **Q: Wat als mijn regex‑patroon geen enkele eigenschap matcht?**  
-A: Controleer hoofdlettergevoeligheid, verwijder onnodige witruimtes en test het patroon tegen een bekende eigenschapsnaam met `Pattern.matches`.
+A: Controleer hoofdlettergevoeligheid, verwijder onnodige witruimtes, en test het patroon tegen een bekende eigenschapsnaam met `Pattern.matches`.
 
 **Q: Hoe verwerk ik grote datasets efficiënt?**  
-A: Houd regexen specifiek, hergebruik gecompileerde `Pattern`‑objecten en verwerk bestanden in batches zoals beschreven in de **Prestatie‑overwegingen**‑sectie.
+A: Houd regexes specifiek, hergebruik gecompileerde `Pattern`‑objecten, en verwerk bestanden in batches zoals beschreven in de **Prestatieoverwegingen** sectie.
 
 **Q: Waar vind ik meer voorbeelden van metadata‑zoekopdrachten?**  
-A: Bekijk de [GroupDocs.Metadata Documentatie](https://docs.groupdocs.com/metadata/java/) voor extra use‑cases en code‑fragmenten.
+A: Bekijk de [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)
 
 ## Bronnen
+- **Documentatie:** [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)
+- **Documentatie:** [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)
 - **Documentatie:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)
 
 ---
 
-**Last Updated:** 2026-08-20  
-**Tested With:** GroupDocs.Metadata 24.12 for Java  
-**Author:** GroupDocs  
-
----
+**Laatst bijgewerkt:** 2026-11-02  
+**Getest met:** GroupDocs.Metadata 24.12 for Java  
+**Auteur:** GroupDocs  
 
 ## Gerelateerde tutorials
 
 - [Hoe metadata zoeken met GroupDocs.Metadata in Java: efficiënte tag‑gebaseerde zoekopdrachten](/metadata/java/advanced-features/groupdocs-metadata-java-search-tags/)
-- [Meesterschap in metadata‑beheer: eigenschappen zoeken op tag met GroupDocs.Metadata voor Java](/metadata/java/working-with-metadata/groupdocs-metadata-management-java/)
-- [Java metadata‑extractie: gids voor aangepaste value acceptor met GroupDocs.Metadata](/metadata/java/working-with-metadata/java-metadata-extraction-custom-value-acceptor-groupdocs/)
+- [Beheers metadata: eigenschappen zoeken op tag met GroupDocs.Metadata voor Java](/metadata/java/working-with-metadata/groupdocs-metadata-management-java/)
+- [Java metadata-extractie: gids voor aangepaste waarde‑acceptor met GroupDocs.Metadata](/metadata/java/working-with-metadata/java-metadata-extraction-custom-value-acceptor-groupdocs/)

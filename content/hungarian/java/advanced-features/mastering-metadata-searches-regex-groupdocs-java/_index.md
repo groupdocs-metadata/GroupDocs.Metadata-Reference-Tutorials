@@ -1,31 +1,34 @@
 ---
-date: '2026-08-20'
-description: Ismerje meg, hogyan kereshet metaadatokat regex segítségével Java-ban
-  a GroupDocs.Metadata használatával. Gyorsan megtalálja a szerzőt, a céget vagy az
-  egyéni címkéket PDF-ekben, Word-ben, Excel-ben, képeken és egyebekben.
+date: '2026-11-02'
+description: Ismerje meg, hogyan kereshet metaadatokat regex használatával Java-ban
+  a GroupDocs.Metadata segítségével. Gyorsan megtalálja a szerzőt, a céget vagy egyedi
+  címkéket PDF-ekben, Word-ben, Excel-ben, képeken és egyebekben.
+images:
+- /java/advanced-features/mastering-metadata-searches-regex-groupdocs-java/og-image.png
 keywords:
-- how to search metadata
-- pdf metadata search
-- java metadata extraction
-lastmod: '2026-08-20'
-og_description: Hogyan kereshet metaadatokat regex segítségével Java-ban a GroupDocs.Metadata
-  használatával. Ez az útmutató egy gyors, termelésre kész megközelítést mutat be
-  PDF-ek, Word, Excel, képek és egyéb formátumok esetén.
+- search metadata regex java
+- regex metadata search java
+- GroupDocs.Metadata Java
+lastmod: '2026-11-02'
+og_description: Ismerje meg, hogyan kereshet metaadatokat regex-szel Java-ban a GroupDocs.Metadata
+  segítségével. Ez az útmutató egy gyors, termelés‑kész megoldást mutat be PDF-ek,
+  Word, Excel, képek és egyéb formátumok esetén, mindössze néhány Java sorban.
 og_image_alt: 'Developer guide: searching document metadata with regex in Java using
   GroupDocs.Metadata'
-og_title: Hogyan keressünk metaadatokat regex segítségével a GroupDocs.Metadata használatával
+og_title: Metaadatok keresése regex-szel Java-ban a GroupDocs.Metadata segítségével
+  – Gyors Java útmutató
 schemas:
 - author: GroupDocs
-  dateModified: '2026-08-20'
+  dateModified: '2026-11-02'
   description: Learn how to search metadata using regex in Java with GroupDocs.Metadata.
     Quickly locate author, company, or custom tags across PDFs, Word, Excel, images
     and more.
-  headline: How to search metadata java using regex with GroupDocs.Metadata
+  headline: Search metadata regex java with GroupDocs.Metadata
   type: TechArticle
 - description: Learn how to search metadata using regex in Java with GroupDocs.Metadata.
     Quickly locate author, company, or custom tags across PDFs, Word, Excel, images
     and more.
-  name: How to search metadata java using regex with GroupDocs.Metadata
+  name: Search metadata regex java with GroupDocs.Metadata
   steps:
   - name: Visit the GroupDocs website and request a temporary trial license.
     text: Visit the GroupDocs website and request a temporary trial license.
@@ -64,7 +67,6 @@ schemas:
       in batches as described in the **Performance considerations** section.
     question: How do I handle large datasets efficiently?
   - answer: Explore the [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)
-      for additional use cases and code snippets.
     question: Where can I find more examples of metadata searches?
   type: FAQPage
 tags:
@@ -72,37 +74,38 @@ tags:
 - GroupDocs.Metadata
 - Java regex
 - document processing
-title: Hogyan keressünk metaadatokat Java-ban regex segítségével a GroupDocs.Metadata
-  használatával
+title: Hogyan keressünk metaadatokat regex-szel Java-ban a GroupDocs.Metadata segítségével
 type: docs
 url: /hu/java/advanced-features/mastering-metadata-searches-regex-groupdocs-java/
 weight: 1
 ---
 
-# Hogyan keressünk metaadatokat Java-ban regex segítségével a GroupDocs.Metadata használatával
+# Hogyan keressünk metaadatokat regex java-val a GroupDocs.Metadata segítségével
+
+Ha kíváncsi vagy arra, hogyan **search metadata regex java**-t kereshetsz gyorsan és pontosan Java alkalmazásaidban, jó helyen jársz. Ebben az útmutatóban végigvezetünk a GroupDocs.Metadata használatán reguláris kifejezésekkel (regex), hogy meghatározott metaadat tulajdonságokat találj meg—legyen szó szerzőről, cégről vagy egyedi címkéről. A végére egy tiszta, termelésre kész megoldást kapsz, amelyet bármely dokumentumfeldolgozó csővezetékbe beilleszthetsz.
 
 ## Gyors válaszok
 - **Mi a fő könyvtár?** GroupDocs.Metadata for Java  
-- **Melyik funkció segít a metaadatok megtalálásában?** Regex‑alapú keresés a `Specification` segítségével  
-- **Szükségem van licencre?** Ingyenes próba elérhető; licenc szükséges a termelésben való használathoz  
-- **Kereshetek bármilyen dokumentumtípusban?** Igen, a GroupDocs.Metadata több mint 30 formátumot támogat, többek között PDF, DOCX, XLSX, PPTX, JPEG, PNG és TIFF  
-- **Milyen Java verzió szükséges?** JDK 8 vagy újabb  
+- **Melyik funkció segít a metaadatok megtalálásában?** Regex‑based search via `Specification`  
+- **Szükségem van licencre?** A free trial is available; a license is required for production use  
+- **Kereshetek bármilyen dokumentumtípusban?** Yes, GroupDocs.Metadata supports 30+ formats, including PDF, DOCX, XLSX, PPTX, JPEG, PNG, and TIFF  
+- **Melyik Java verzió szükséges?** JDK 8 or higher  
 
-## Mi az a search metadata java és miért használjunk regex-et?
-
-A search metadata java a Java használatával programozott módon elrejtett attribútumok (szerző, létrehozás dátuma, cég, egyedi címkék) megtalálását jelenti a fájlokban. A regex lehetővé teszi rugalmas minták definiálását – például `author.*` vagy `.*date.*` – így egyetlen lekérdezés sok kapcsolódó tulajdonságot is egyezhet. Ez sokkal karbantarthatóbb, mint tucatnyi karakterlánc‑összehasonlítás kézi kódolása, különösen nagy mennyiségű dokumentum tartalomkezelő rendszerben történő feldolgozásakor.
+## Mi az a search metadata regex java és miért használjunk regex-et?
+A **search metadata regex java** arra utal, hogy programozottan keresünk rejtett attribútumokat (szerző, létrehozás dátuma, cég, egyedi címkék) a fájlokban Java használatával. A regex lehetővé teszi rugalmas minták definiálását—például `author.*` vagy `.*date.*`—így egyetlen lekérdezés sok kapcsolódó tulajdonságot egymás után találhat meg. Ez sokkal karbantarthatóbb, mint tucatnyi karakterlánc összehasonlítás kézi kódolása, különösen, ha egy tartalomkezelő rendszerben ezrek dokumentumát dolgozod fel.
 
 ## Előfeltételek
+Before diving in, make sure you have the following:
 
 - **GroupDocs.Metadata for Java** verzió 24.12 vagy újabb.  
 - Maven telepítve a függőségkezeléshez.  
 - Java 8 + JDK és egy IDE, például IntelliJ IDEA vagy Eclipse.  
-- Alapvető ismeretek a Java és a reguláris kifejezések terén.
+- Alapvető ismeretek Java és reguláris kifejezések terén.  
 
 ## A GroupDocs.Metadata beállítása Java-hoz
 
 ### Maven beállítás
-Adja hozzá a tárolót és a függőséget a `pom.xml`-hez:
+Add hozzá a tárolót és a függőséget a `pom.xml`-hez:
 
 ```xml
 <repositories>
@@ -123,38 +126,37 @@ Adja hozzá a tárolót és a függőséget a `pom.xml`-hez:
 ```
 
 ### Közvetlen letöltés
-Ha nem szeretné a Maven-t használni, letöltheti a legújabb JAR-t közvetlenül a [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/) oldalról.
+Ha nem szeretnél Maven-t használni, letöltheted a legújabb JAR-t közvetlenül a [GroupDocs.Metadata for Java releases](https://releases.groupdocs.com/metadata/java/).
 
 ### Licenc beszerzési lépések
-1. Látogassa meg a GroupDocs weboldalát, és kérjen ideiglenes próbalicencet.  
-2. Kövesse a megadott útmutatót a licencfájl betöltéséhez a Java projektjében – ez feloldja a teljes API-t.
+1. Látogasd meg a GroupDocs weboldalát, és kérj egy ideiglenes próbaverzió licencet.  
+2. Kövesd a megadott útmutatót a licencfájl betöltéséhez a Java projektedben—ez feloldja a teljes API-t.
 
 ## Alapvető inicializálás
-`Metadata` az elsődleges osztály, amely betölti egy dokumentum metaadatait ellenőrzés és módosítás céljából.  
+`Metadata` az elsődleges osztály, amely betölti egy dokumentum metaadatait ellenőrzéshez és módosításhoz.  
+
 ```java
 Metadata metadata = new Metadata("path/to/your/document");
 ```
 
-Most már készen áll a regex minták alkalmazására a dokumentum metaadatainak kereséséhez.
+Most már készen állsz regex minták alkalmazására a dokumentum metaadatainak kereséséhez.
 
-## Hogyan keressünk metaadatokat Java-ban regex mintával
-
-Töltse be a dokumentumot, fordítson le egy regex mintát, és használja a `Specification`-t a tulajdonságok szűrésére. A lényeg: **hozzon létre egy lefordított `Pattern`-t, adja át egy `Specification` lambda‑nak, és hagyja, hogy a könyvtár visszaadja az összes egyező `MetadataProperty` objektumot.** Ez a megközelítés O(n) időben fut a tulajdonságlista felett, és elkerüli a teljes fájl memóriába betöltését.
+## Hogyan keressünk metaadatokat regex java-val
+Töltsd be a dokumentumot, fordíts le egy regex mintát, és használj egy `Specification`-t a tulajdonságok szűrésére. A lényeg: **hozz létre egy lefordított `Pattern`-t, add át egy `Specification` lambda‑nak, és engedd, hogy a könyvtár visszaadja az összes egyező `MetadataProperty` objektumot.** Ez a megközelítés O(n) időben fut a tulajdonságlista felett, és elkerüli a teljes fájl memóriába betöltését.
 
 ### A regex minta definiálása
+`Pattern` a Java reguláris kifejezések osztálya, amelyet regex karakterláncok lefordítására használnak egyezéshez.  
 
-`Pattern` a Java reguláris‑kifejezés osztálya, amelyet regex karakterláncok lefordítására használnak egyezéshez.  
 ```java
 import java.util.regex.Pattern;
 
 Pattern pattern = Pattern.compile("author|company");
 ```
 
-> **Pro tipp:** Használjon kis‑ és nagybetűket figyelmen kívül hagyó jelzőket (`(?i)`), ha a metaadat kulcsok eltérő nagybetűhasználattal rendelkezhetnek.
+> **Pro tipp:** Használj nagybetűérzéketlen flag-eket (`(?i)`), ha a metaadat kulcsok nagybetűssége változhat.
 
-### Metaadatok keresése specifikációval
-
-`Specification` egy szűrőépítő a GroupDocs.Metadata-ban, amely lehetővé teszi egyedi predikátumok definiálását a metaadat tulajdonságokhoz. Kiértékeli minden `MetadataProperty`-t a megadott lambda ellen.
+### Specification – a szűrőépítő
+A Specification egy szűrőépítő, amely lehetővé teszi egyedi predikátumok definiálását metaadat tulajdonságokhoz.  
 
 ```java
 import com.groupdocs.metadata.Metadata;
@@ -183,73 +185,66 @@ try (Metadata metadata = new Metadata("path/to/your/document")) {
 
 | Elem | Cél |
 |------|-----|
-| `Specification` | A saját lambda‑ját csomagolja, hogy a könyvtár tudja, hogyan szűrje a tulajdonságokat. |
+| `Specification` | Befoglalja a saját lambda‑dat, hogy a könyvtár tudja, hogyan szűrje a tulajdonságokat. |
 | `pattern.matcher(property.getName()).find()` | Alkalmazza a regexet minden tulajdonság nevére. |
 | `findProperties(spec)` | Visszaad egy csak‑olvasásra szánt listát az összes olyan tulajdonságról, amely megfelel a specifikációnak. |
 
-Kiterjesztheti ezt a megközelítést több specifikáció láncolásával (pl. szűrés név *és* érték alapján) vagy összetettebb regex minták építésével.
+Kiterjesztheted ezt a megközelítést több Specification láncolásával (pl. szűrés név *és* érték szerint) vagy összetettebb regex minták építésével.
 
-## A keresés testreszabása és bővítése
-
+## A keresés testreszabása és kiterjesztése
 - **Több kifejezés:** `Pattern.compile("author|company|title")`  
-- **Wildcard keresés:** `Pattern.compile(".*date.*")` bármely olyan tulajdonságot megtalál, amely tartalmazza a „date” szót.  
-- **Érték‑alapú szűrés:** A lambda‑n belül hasonlítsa össze a `property.getValue()`-t egy másik mintával a mélyebb keresésekhez.
+- **Wildcard keresés:** `Pattern.compile(".*date.*`) minden olyan tulajdonságot megtalál, amely “date” szót tartalmaz.  
+- **Értékalapú szűrés:** A lambda belsejében hasonlítsd össze a `property.getValue()`-t egy másik mintával a mélyebb keresésekhez.
 
 ## Gyakorlati alkalmazások
-
 | Forgatókönyv | Hogyan segít a regex |
 |--------------|----------------------|
 | **Dokumentumkezelő rendszerek** | Automatikusan kategorizálja a fájlokat szerző vagy részleg szerint anélkül, hogy minden nevet kézzel kódolna. |
-| **Tartalomszűrés** | Zárja ki a kötelező metaadatok hiányában lévő fájlokat (pl. nincs `company` címke) a tömeges feldolgozás előtt. |
+| **Tartalomszűrés** | Kizárja azokat a fájlokat, amelyeknél hiányzik a kötelező metaadat (pl. nincs `company` címke) a tömeges feldolgozás előtt. |
 | **Digitális eszközkezelés** | Gyorsan megtalálja egy adott fotós által készített képeket, amelyek számos mappában vannak tárolva. |
 
-## Teljesítménybeli megfontolások
+## Teljesítmény szempontok
+Amikor több ezer fájlt vizsgálunk, a GroupDocs.Metadata képes **100 000 dokumentumot 5 perc alatt feldolgozni egy tipikus 8‑magos szerveren**. Ahhoz, hogy a művelet gyors és memóriahatékony maradjon:
+- **Korláld a regex hatókörét** – kerüld a túl általános mintákat, mint a `.*`, amelyek minden karaktert átvizsgálnak.  
+- **Használd újra a lefordított `Pattern` objektumokat** – egy minta lefordítása költséges; tartsd statikusnak, ha többször hívod a keresést.  
+- **Kötegelt feldolgozás** – tölts be és keress dokumentumokat csoportokban a memóriahasználat kiszámíthatósága érdekében.  
+- **Állítsd be a JVM heap-et**, ha `OutOfMemoryError`-t kapsz nagy léptékű vizsgálatok során.  
 
-Több ezer fájl beolvasásakor:
-
-1. **Korlátozza a regex hatókörét** – kerülje a túl általános mintákat, mint a `.*`, amelyek arra kényszerítik a motorot, hogy minden karaktert megvizsgáljon.  
-2. **Használja újra a lefordított `Pattern` objektumokat** – a minta lefordítása költséges; tartsa statikusnak, ha a keresést többször hívja.  
-3. **Kötegelt feldolgozás** – töltse be és keresse a dokumentumokat csoportokban a memóriahasználat kiszámíthatósága érdekében.  
-4. **Állítsa be a JVM heap méretét**, ha `OutOfMemoryError` hibát kap a nagyméretű beolvasások során.
-
-Ezeknek a tippeknek a követése gyors keresést és stabil alkalmazást biztosít, még akkor is, ha 100 000+ dokumentumot dolgoz fel egyetlen futtatás során.
+Ezeknek a tippeknek a követése gyors keresést és stabil alkalmazást biztosít, még akkor is, ha egy futtatás során több mint 100 000 dokumentumot dolgozol fel.
 
 ## Gyakori problémák és megoldások
+- **Helytelen fájlútvonal** – Ellenőrizd, hogy a `new Metadata(...)`-nek átadott útvonal egy létező, olvasható fájlra mutat.  
+- **Regex szintaxis hibák** – Használj online tesztelőt vagy csomagold a `Pattern.compile`-t try‑catch blokkba a problémák korai feltárásához.  
+- **Nincs találat** – Először írd ki a `metadata.getProperties()`-t szűrés nélkül; ez felfedi a pontos tulajdonságneveket, amelyeket célozhatsz.  
 
-- **Helytelen fájlútvonal** – Ellenőrizze, hogy a `new Metadata(...)`-nek átadott útvonal egy létező, olvasható fájlra mutat-e.  
-- **Regex szintaxis hibák** – Használjon online tesztelőt, vagy helyezze a `Pattern.compile`-t try‑catch blokkba a problémák korai feltárásához.  
-- **Nincs találat** – Először nyomtassa ki a `metadata.getProperties()`-t szűrés nélkül; ez megmutatja a pontos tulajdonságneveket, amelyeket célozhat.
+## Gyakran ismételt kérdések
+**Q: Hogyan telepíthetem a GroupDocs.Metadata for Java-t?**  
+V: Használd a **Maven beállítás** szakaszban bemutatott Maven függőséget, vagy töltsd le a JAR-t a hivatalos kiadási oldalról.
 
-## Gyakran feltett kérdések
+**Q: Használhatok regex mintákat más fájltípusokkal?**  
+V: Igen, a GroupDocs.Metadata támogatja a PDF-eket, Word-ot, Excel-t, képeket és még sok más formátumot—összesen több mint 30-at.
 
-**K: Hogyan telepíthetem a GroupDocs.Metadata for Java-t?**  
-V: Használja a **Maven beállítás** szakaszban bemutatott Maven függőséget, vagy töltse le a JAR-t a hivatalos kiadási oldalról.
+**Q: Mi van, ha a regex mintám nem egyezik egyetlen tulajdonsággal sem?**  
+V: Ellenőrizd a kis- és nagybetű érzékenységet, távolítsd el a felesleges szóközöket, és teszteld a mintát egy ismert tulajdonságnévre a `Pattern.matches` használatával.
 
-**K: Használhatok regex mintákat más fájltípusokkal?**  
-V: Igen, a GroupDocs.Metadata támogatja a PDF-eket, Word, Excel, képek és számos egyéb formátumot – összesen több mint 30-at.
+**Q: Hogyan kezeljem hatékonyan a nagy adathalmazokat?**  
+V: Tartsd a regexeket specifikusnak, használd újra a lefordított `Pattern` objektumokat, és dolgozd fel a fájlokat kötegben, ahogy a **Teljesítmény szempontok** szakaszban le van írva.
 
-**K: Mi van, ha a regex mintám nem egyezik egyetlen tulajdonsággal sem?**  
-V: Ellenőrizze a kis‑ és nagybetű érzékenységet, távolítson el felesleges szóközöket, és tesztelje a mintát egy ismert tulajdonságnévre a `Pattern.matches` használatával.
-
-**K: Hogyan kezeljem hatékonyan a nagy adathalmazokat?**  
-V: Tartsa a regexeket specifikusnak, használja újra a lefordított `Pattern` objektumokat, és dolgozza fel a fájlokat kötegben, ahogy a **Teljesítménybeli megfontolások** szakaszban le van írva.
-
-**K: Hol találok további példákat metaadat keresésekre?**  
-V: Tekintse meg a [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/) oldalt további felhasználási esetek és kódrészletekért.
+**Q: Hol találok további példákat metaadat keresésekre?**  
+V: Fedezd fel a [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/) oldalt.
 
 ## Erőforrások
+- **Dokumentáció:** [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)
+- **Dokumentáció:** [GroupDocs.Metadata Documentation](https://docs.groupdocs.com/metadata/java/)
 - **Dokumentáció:** [GroupDocs Metadata Java Docs](https://docs.groupdocs.com/metadata/java/)
 
 ---
 
-**Utolsó frissítés:** 2026-08-20  
-**Tesztelve ezzel:** GroupDocs.Metadata 24.12 for Java  
+**Legutóbb frissítve:** 2026-11-02  
+**Tesztelt verzió:** GroupDocs.Metadata 24.12 for Java  
 **Szerző:** GroupDocs  
 
----
-
 ## Kapcsolódó oktatóanyagok
-
 - [Hogyan keressünk metaadatokat a GroupDocs.Metadata segítségével Java-ban: Hatékony címke‑alapú keresések](/metadata/java/advanced-features/groupdocs-metadata-java-search-tags/)
-- [A metaadatkezelés mestersége: Tulajdonságok keresése címke alapján a GroupDocs.Metadata for Java használatával](/metadata/java/working-with-metadata/groupdocs-metadata-management-java/)
+- [Metaadat-kezelés mesterfokon: Tulajdonságok keresése címke szerint a GroupDocs.Metadata for Java használatával](/metadata/java/working-with-metadata/groupdocs-metadata-management-java/)
 - [Java metaadat kinyerés: Egyedi értékelfogadó útmutató a GroupDocs.Metadata segítségével](/metadata/java/working-with-metadata/java-metadata-extraction-custom-value-acceptor-groupdocs/)

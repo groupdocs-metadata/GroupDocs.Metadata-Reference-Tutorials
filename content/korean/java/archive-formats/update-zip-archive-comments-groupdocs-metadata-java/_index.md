@@ -75,10 +75,6 @@ url: /ko/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-jav
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Java에서 GroupDocs.Metadata를 사용하여 zip 주석을 편집하는 방법
 
 현대 데이터 중심 애플리케이션에서는 주석과 같은 아카이브 메타데이터를 최신 상태로 유지하는 것이 추적성과 자동화에 필수적입니다. **How to edit zip** 주석을 사용하면 ZIP 파일의 중앙 디렉터리에 짧은 텍스트 메모를 삽입할 수 있으며, 이후 어떤 아카이브 관리자에서도 읽을 수 있습니다. 이 튜토리얼에서는 Maven 프로젝트 설정부터 새로운 주석을 저장하는 단계까지 모든 과정을 단계별로 안내하므로, 몇 분 안에 백업 시스템, CI 파이프라인 또는 문서 관리 워크플로에 솔루션을 통합할 수 있습니다.
@@ -242,10 +238,3 @@ A: 아래 공식 문서, API 레퍼런스 및 커뮤니티 포럼 링크를 방�
 - [Java에서 GroupDocs.Metadata를 사용하여 zip 주석 추출 방법 – 가이드](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)
 - [remove zip comments java – GroupDocs.Metadata를 사용하여 Java에서 ZIP 주석 제거하는 방법](/metadata/java/archive-formats/remove-user-comments-zip-archives-groupdocs-metadata-java/)
 - [Java용 GroupDocs.Metadata를 사용한 이미지 메타데이터 업데이트: 종합 가이드](/metadata/java/image-formats/update-image-metadata-groupdocs-metadata-java/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

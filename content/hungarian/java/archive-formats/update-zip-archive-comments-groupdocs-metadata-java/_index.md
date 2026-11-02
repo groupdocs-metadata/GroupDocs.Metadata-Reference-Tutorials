@@ -77,10 +77,6 @@ url: /hu/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-jav
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Hogyan szerkesszük a zip megjegyzéseket Java-ban a GroupDocs.Metadata használatával
 
 A modern adatközpontú alkalmazásokban a archívum metaadatok, például a megjegyzések naprakészen tartása elengedhetetlen a nyomon követhetőség és az automatizálás szempontjából. **Hogyan szerkesszük a zip** megjegyzések lehetővé teszik, hogy egy rövid szöveges jegyet injektáljunk egy ZIP fájl központi könyvtárába, amelyet később bármely archívumkezelő elolvashat. Ebben az útmutatóban lépésről lépésre végigvezetünk – a Maven projekt konfigurálásától az új megjegyzés mentéséig – hogy néhány perc alatt integrálhassa a megoldást egy biztonsági mentési rendszerbe, CI csővezetékbe vagy dokumentumkezelési munkafolyamatba.
@@ -244,10 +240,3 @@ A: Látogassa meg az alábbi hivatalos dokumentációt, API referenciát és kö
 - [Hogyan vonjunk ki zip megjegyzéseket Java-val a GroupDocs.Metadata használatával – Útmutató](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)
 - [remove zip comments java – Hogyan távolítsuk el a ZIP megjegyzéseket Java-ban a GroupDocs.Metadata használatával](/metadata/java/archive-formats/remove-user-comments-zip-archives-groupdocs-metadata-java/)
 - [Kép metaadatok frissítése a GroupDocs.Metadata for Java használatával: Átfogó útmutató](/metadata/java/image-formats/update-image-metadata-groupdocs-metadata-java/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

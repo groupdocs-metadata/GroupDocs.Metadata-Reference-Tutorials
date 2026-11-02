@@ -77,10 +77,6 @@ url: /vi/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-jav
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Cách chỉnh sửa bình luận zip trong Java bằng GroupDocs.Metadata
 
 Trong các ứng dụng hiện đại tập trung vào dữ liệu, việc giữ metadata của kho lưu trữ như bình luận luôn cập nhật là điều thiết yếu cho khả năng truy xuất và tự động hoá. **Cách chỉnh sửa zip** cho phép bạn chèn một ghi chú văn bản ngắn vào thư mục trung tâm của tệp ZIP, sau này có thể được bất kỳ trình quản lý kho lưu trữ nào đọc được. Trong hướng dẫn này, chúng tôi sẽ đi qua từng bước — từ cấu hình dự án Maven đến việc lưu bình luận mới — để bạn có thể tích hợp giải pháp vào hệ thống sao lưu, pipeline CI, hoặc quy trình quản lý tài liệu chỉ trong vài phút.
@@ -244,10 +240,3 @@ A: Truy cập tài liệu chính thức, tham chiếu API và các liên kết d
 - [Cách trích xuất bình luận zip java bằng GroupDocs.Metadata – Hướng dẫn](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)
 - [xóa bình luận zip java – Cách xóa bình luận ZIP trong Java bằng GroupDocs.Metadata](/metadata/java/archive-formats/remove-user-comments-zip-archives-groupdocs-metadata-java/)
 - [Cập nhật siêu dữ liệu hình ảnh bằng GroupDocs.Metadata cho Java: Hướng dẫn toàn diện](/metadata/java/image-formats/update-image-metadata-groupdocs-metadata-java/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

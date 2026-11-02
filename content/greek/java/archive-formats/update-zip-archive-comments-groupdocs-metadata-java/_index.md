@@ -77,10 +77,6 @@ url: /el/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-jav
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Πώς να επεξεργαστείτε τα σχόλια zip σε Java χρησιμοποιώντας το GroupDocs.Metadata
 
 Σε σύγχρονες εφαρμογές που εστιάζουν στα δεδομένα, η διατήρηση των μεταδεδομένων του αρχείου, όπως τα σχόλια, ενημερωμένα είναι απαραίτητη για την ανιχνευσιμότητα και τον αυτοματισμό. **How to edit zip** comments σας επιτρέπει να ενσωματώσετε μια σύντομη κειμενική σημείωση στον κεντρικό κατάλογο ενός αρχείου ZIP, η οποία μπορεί αργότερα να διαβαστεί από οποιονδήποτε διαχειριστή αρχείων. Σε αυτό το tutorial θα περάσουμε βήμα‑βήμα από τη ρύθμιση του έργου Maven μέχρι την αποθήκευση του νέου σχολίου—ώστε να ενσωματώσετε τη λύση σε σύστημα backup, CI pipeline ή ροή εργασίας διαχείρισης εγγράφων σε λίγα μόνο λεπτά.
@@ -246,10 +242,3 @@ A: Επισκεφθείτε την επίσημη τεκμηρίωση, το API
 - [How to extract zip comments java using GroupDocs.Metadata – Guide](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)
 - [remove zip comments java – How to Remove ZIP Comments in Java Using GroupDocs.Metadata](/metadata/java/archive-formats/remove-user-comments-zip-archives-groupdocs-metadata-java/)
 - [Update Image Metadata Using GroupDocs.Metadata for Java&#58; A Comprehensive Guide](/metadata/java/image-formats/update-image-metadata-groupdocs-metadata-java/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -77,10 +77,6 @@ url: /cs/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-jav
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Jak upravit komentáře zip v Javě pomocí GroupDocs.Metadata
 
 V moderních datově‑centrických aplikacích je udržování metadat archivů, jako jsou komentáře, aktuální nezbytné pro sledovatelnost a automatizaci. **How to edit zip** komentáře vám umožní vložit krátkou textovou poznámku do centrálního adresáře souboru ZIP, kterou může později přečíst jakýkoli správce archivů. V tomto tutoriálu projdeme každý krok — od konfigurace projektu Maven po uložení nového komentáře — abyste mohli řešení integrovat do zálohovacího systému, CI pipeline nebo workflow správy dokumentů během několika minut.
@@ -246,10 +242,3 @@ A: Navštivte oficiální dokumentaci, referenci API a odkazy na komunitní fór
 - [Jak extrahovat zip komentáře java pomocí GroupDocs.Metadata – Průvodce](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)
 - [odstranit zip komentáře java – Jak odstranit ZIP komentáře v Javě pomocí GroupDocs.Metadata](/metadata/java/archive-formats/remove-user-comments-zip-archives-groupdocs-metadata-java/)
 - [Aktualizovat metadata obrázku pomocí GroupDocs.Metadata pro Javu: Komplexní průvodce](/metadata/java/image-formats/update-image-metadata-groupdocs-metadata-java/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

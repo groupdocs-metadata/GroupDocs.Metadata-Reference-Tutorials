@@ -77,10 +77,6 @@ url: /hi/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-jav
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Java में GroupDocs.Metadata का उपयोग करके zip टिप्पणी कैसे संपादित करें
 
 आधुनिक डेटा‑केंद्रित अनुप्रयोगों में, आर्काइव मेटाडेटा जैसे टिप्पणी को अद्यतित रखना ट्रेसबिलिटी और ऑटोमेशन के लिए आवश्यक है। **How to edit zip** टिप्पणी आपको ZIP फ़ाइल की सेंट्रल डायरेक्टरी में एक छोटा टेक्स्ट नोट डालने की अनुमति देती है, जिसे बाद में किसी भी आर्काइव मैनेजर द्वारा पढ़ा जा सकता है। इस ट्यूटोरियल में हम हर चरण को समझेंगे—Maven प्रोजेक्ट को कॉन्फ़िगर करने से लेकर नई टिप्पणी को सहेजने तक—ताकि आप इस समाधान को बैकअप सिस्टम, CI पाइपलाइन, या डॉक्यूमेंट‑मैनेजमेंट वर्कफ़्लो में कुछ ही मिनटों में एकीकृत कर सकें।
@@ -244,10 +240,3 @@ A: विस्तृत गाइड और समुदाय सहायत�
 - [GroupDocs.Metadata का उपयोग करके Java में zip टिप्पणी निकालने का तरीका – गाइड](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)
 - [remove zip comments java – GroupDocs.Metadata का उपयोग करके Java में ZIP टिप्पणी हटाने का तरीका](/metadata/java/archive-formats/remove-user-comments-zip-archives-groupdocs-metadata-java/)
 - [GroupDocs.Metadata for Java का उपयोग करके इमेज मेटाडेटा अपडेट करना: एक व्यापक गाइड](/metadata/java/image-formats/update-image-metadata-groupdocs-metadata-java/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

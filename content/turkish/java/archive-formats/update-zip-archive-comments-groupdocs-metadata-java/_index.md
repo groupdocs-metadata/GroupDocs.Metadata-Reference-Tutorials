@@ -77,10 +77,6 @@ url: /tr/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-jav
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Java'da GroupDocs.Metadata kullanarak zip yorumlarını düzenleme
 
 Modern veri‑merkezli uygulamalarda, yorumlar gibi arşiv meta verilerini güncel tutmak izlenebilirlik ve otomasyon için hayati öneme sahiptir. **zip yorumlarını düzenleme** yorumları, bir ZIP dosyasının merkezi dizinine kısa bir metin notu eklemenizi sağlar; bu not daha sonra herhangi bir arşiv yöneticisi tarafından okunabilir. Bu öğreticide, Maven projesinin yapılandırılmasından yeni yorumun kalıcı hale getirilmesine kadar her adımı adım adım göstereceğiz, böylece çözümü sadece birkaç dakika içinde yedekleme sistemi, CI hattı veya belge‑yönetim iş akışına entegre edebilirsiniz.
@@ -244,10 +240,3 @@ C: Aşağıdaki resmi dokümantasyon, API referansı ve topluluk forumu bağlant
 - [How to extract zip comments java using GroupDocs.Metadata – Guide](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)
 - [remove zip comments java – How to Remove ZIP Comments in Java Using GroupDocs.Metadata](/metadata/java/archive-formats/remove-user-comments-zip-archives-groupdocs-metadata-java/)
 - [Update Image Metadata Using GroupDocs.Metadata for Java&#58; A Comprehensive Guide](/metadata/java/image-formats/update-image-metadata-groupdocs-metadata-java/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

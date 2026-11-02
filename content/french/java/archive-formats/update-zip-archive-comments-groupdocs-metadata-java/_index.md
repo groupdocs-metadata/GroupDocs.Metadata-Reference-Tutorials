@@ -77,10 +77,6 @@ url: /fr/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-jav
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Comment modifier les commentaires zip en Java avec GroupDocs.Metadata
 
 Dans les applications modernes centrées sur les données, maintenir les métadonnées d’archive telles que les commentaires à jour est essentiel pour la traçabilité et l’automatisation. **Comment modifier zip** les commentaires vous permet d’insérer une courte note textuelle dans le répertoire central d’un fichier ZIP, qui peut ensuite être lu par n’importe quel gestionnaire d’archives. Dans ce tutoriel, nous parcourrons chaque étape — de la configuration du projet Maven à la persistance du nouveau commentaire — afin que vous puissiez intégrer la solution dans un système de sauvegarde, un pipeline CI ou un flux de travail de gestion de documents en quelques minutes seulement.
@@ -244,10 +240,3 @@ R : Consultez la documentation officielle, la référence API et les liens du 
 - [Comment extraire les commentaires zip en Java avec GroupDocs.Metadata – Guide](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)  
 - [supprimer les commentaires zip java – Comment supprimer les commentaires ZIP en Java avec GroupDocs.Metadata](/metadata/java/archive-formats/remove-user-comments-zip-archives-groupdocs-metadata-java/)  
 - [Mettre à jour les métadonnées d’image avec GroupDocs.Metadata pour Java : guide complet](/metadata/java/image-formats/update-image-metadata-groupdocs-metadata-java/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

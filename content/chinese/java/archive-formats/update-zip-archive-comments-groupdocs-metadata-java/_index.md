@@ -73,10 +73,6 @@ url: /zh/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-jav
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # 如何使用 GroupDocs.Metadata 在 Java 中编辑 zip 注释
 
 在现代数据中心的应用程序中，保持存档元数据（如注释）最新对于可追溯性和自动化至关重要。**编辑 zip** 注释让您能够在 ZIP 文件的中心目录中注入简短的文本备注，随后任何存档管理器都可以读取。本文将逐步演示从配置 Maven 项目到持久化新注释的全过程，帮助您在几分钟内将该方案集成到备份系统、CI 流水线或文档管理工作流中。
@@ -242,10 +238,3 @@ A: 请访问下面的官方文档、API 参考和社区论坛链接，获取详�
 - [如何使用 GroupDocs.Metadata 提取 zip 注释 – 指南](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)
 - [remove zip comments java – 使用 GroupDocs.Metadata 删除 ZIP 注释的方式](/metadata/java/archive-formats/remove-user-comments-zip-archives-groupdocs-metadata-java/)
 - [使用 GroupDocs.Metadata for Java 更新图像元数据：全面指南](/metadata/java/image-formats/update-image-metadata-groupdocs-metadata-java/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

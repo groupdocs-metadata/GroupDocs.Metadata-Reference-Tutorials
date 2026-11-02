@@ -75,10 +75,6 @@ url: /th/java/archive-formats/update-zip-archive-comments-groupdocs-metadata-jav
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # วิธีแก้ไขคอมเมนต์ zip ใน Java ด้วย GroupDocs.Metadata
 
 ในแอปพลิเคชันที่เน้นข้อมูลสมัยใหม่ การรักษาเมตาดาต้าอาร์ไคฟ์เช่นคอมเมนต์ให้เป็นปัจจุบันเป็นสิ่งสำคัญสำหรับการติดตามและอัตโนมัติ **วิธีแก้ไข zip** คอมเมนต์ช่วยให้คุณแทรกข้อความสั้น ๆ ลงในไดเรกทอรีศูนย์กลางของไฟล์ ZIP ซึ่งสามารถอ่านได้โดยโปรแกรมจัดการอาร์ไคฟ์ใด ๆ ในบทแนะนำนี้เราจะเดินผ่านทุกขั้นตอน—from การตั้งค่าโครงการ Maven ไปจนถึงการบันทึกคอมเมนต์ใหม่—เพื่อให้คุณสามารถผสานโซลูชันนี้เข้าไปในระบบสำรองข้อมูล, pipeline CI, หรือ workflow การจัดการเอกสารได้ในเวลาไม่กี่นาที
@@ -244,10 +240,3 @@ A: เยี่ยมชมเอกสารอย่างเป็นทา�
 - [How to extract zip comments java using GroupDocs.Metadata – Guide](/metadata/java/archive-formats/extract-zip-metadata-groupdocs-java-guide/)
 - [remove zip comments java – How to Remove ZIP Comments in Java Using GroupDocs.Metadata](/metadata/java/archive-formats/remove-user-comments-zip-archives-groupdocs-metadata-java/)
 - [Update Image Metadata Using GroupDocs.Metadata for Java&#58; A Comprehensive Guide](/metadata/java/image-formats/update-image-metadata-groupdocs-metadata-java/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
